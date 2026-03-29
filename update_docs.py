@@ -167,6 +167,12 @@ def scrape_article(article_url):
                    or soup.find(class_='fr-view'))
     if not content_div:
         return title, None
+    # Capture video iframes before cleanup (for video-only articles)
+    video_iframes = []
+    for iframe in content_div.find_all('iframe'):
+        src = iframe.get('src', '')
+        if any(d in src for d in ['youtube.com', 'loom.com', 'vimeo.com', 'wistia.com']):
+            video_iframes.append(src)
     for el in content_div.find_all(class_=re.compile(
             r'feedback|breadcrumb|sidebar|navigation|popular-articles|pagination|fw-article-meta')):
         el.decompose()
@@ -174,6 +180,26 @@ def scrape_article(article_url):
         tag.decompose()
     markdown = h2t.handle(str(content_div))
     markdown = re.sub(r'\n{4,}', '\n\n\n', markdown).strip()
+    # If no text content but video iframes exist, create video-only stub
+    if not markdown and video_iframes:
+        lines = ["This article consists of video content:\n"]
+        for i, src in enumerate(video_iframes, 1):
+            if 'youtube.com/embed/' in src:
+                vid = src.split('youtube.com/embed/')[-1].split('?')[0]
+                watch = f"https://www.youtube.com/watch?v={vid}"
+                lines.append(f"**Video {i}:** [Watch on YouTube]({watch})")
+                lines.append(f"")
+                lines.append(f"Embed: `{src}`")
+            elif 'loom.com/embed/' in src:
+                vid = src.split('loom.com/embed/')[-1].split('?')[0]
+                watch = f"https://www.loom.com/share/{vid}"
+                lines.append(f"**Video {i}:** [Watch on Loom]({watch})")
+                lines.append(f"")
+                lines.append(f"Embed: `{src}`")
+            else:
+                lines.append(f"**Video {i}:** [{src}]({src})")
+            lines.append("")
+        markdown = "\n".join(lines)
     return title, markdown
 
 
