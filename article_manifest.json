@@ -1,4 +1,9 @@
 {
+  "docs/LevelUp-2025-Releases/Get-Started-with-AI-Studio/AI Studio in HighLevel.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007587-ai-studio-in-highlevel",
+    "hash": "6ca842920eeb83b2",
+    "title": "AI Studio in HighLevel"
+  },
   "docs/Getting-Started-w-HighLevel/Foundational-Setup/Getting Started - Create New Contact.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000005055-getting-started-create-new-contact",
     "hash": "621a08f4d01facbe",
@@ -2284,6 +2289,11 @@
     "hash": "ae69814e9db82e08",
     "title": "How to Create Subscriptions & Invoices from Contact's Profile"
   },
+  "docs/Contacts/Contact-Details-View/How to Customize the Contact Detail Page.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007588-how-to-customize-the-contact-detail-page",
+    "hash": "63bd28f4d7152faa",
+    "title": "How to Customize the Contact Detail Page"
+  },
   "docs/Contacts/Bulk-Actions/Adding Contact Tags to Multiple Contacts.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000002830-adding-contact-tags-to-multiple-contacts",
     "hash": "4be2670233873d0d",
@@ -3286,7 +3296,7 @@
   },
   "docs/Opportunities-&-Pipelines/Getting-Started-with-Opportunities/Step-by-Step Guide Creating Pipelines.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000001985-step-by-step-guide-creating-pipelines",
-    "hash": "03578317cde90120",
+    "hash": "a481ec99bc0443bc",
     "title": "Step-by-Step Guide: Creating Pipelines"
   },
   "docs/Opportunities-&-Pipelines/Getting-Started-with-Opportunities/Step-by-Step Guide to Creating Opportunities.md": {
@@ -3326,7 +3336,7 @@
   },
   "docs/Opportunities-&-Pipelines/Managing-Opportunities/How to Filter Opportunities.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000001241-how-to-filter-opportunities",
-    "hash": "81584b9cd92b0502",
+    "hash": "c46c14476241f0ad",
     "title": "How to Filter Opportunities"
   },
   "docs/Opportunities-&-Pipelines/Managing-Opportunities/Searching for Opportunities.md": {
@@ -4153,6 +4163,11 @@
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006913-map-quiz-results-directly-to-crm-custom-fields",
     "hash": "0bfa1ba381e540df",
     "title": "Map Quiz Results Directly to CRM Custom Fields"
+  },
+  "docs/Sites/SEO/SEO Unsubscription Flow & Project States.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007586-seo-unsubscription-flow-project-states",
+    "hash": "82257e20b1570470",
+    "title": "SEO Unsubscription Flow & Project States"
   },
   "docs/Sites/SEO/SEO - How to Delete Site Projects.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007314-seo-how-to-delete-site-projects",
@@ -6631,7 +6646,7 @@
   },
   "docs/Developer-Resources/Developer-Resources/How to get started with the Developer's Marketplace.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000000136-how-to-get-started-with-the-developer-s-marketplace",
-    "hash": "f60a91383eed7979",
+    "hash": "f88bee5e6da29161",
     "title": "How to get started with the Developer's Marketplace"
   },
   "docs/Developer-Resources/Developer-Resources/Set Up Your MarketplacApp Pricing.md": {

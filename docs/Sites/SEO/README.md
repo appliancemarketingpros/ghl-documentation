@@ -4,6 +4,7 @@
 
 ## Articles
 
+- [SEO Unsubscription Flow & Project States](SEO Unsubscription Flow & Project States.md)
 - [SEO - How to Delete Site Projects](SEO - How to Delete Site Projects.md)
 - [SEO: AI Recommendations - Infinite Scroll](SEO AI Recommendations - Infinite Scroll.md)
 - [Keyword Research and Rank Tracking in GoHighLevel SEO](Keyword Research and Rank Tracking in GoHighLevel SEO.md)

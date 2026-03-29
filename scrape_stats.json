@@ -1,7 +1,11 @@
 {
-  "categories": 48,
-  "folders": 251,
-  "articles_found": 1805,
-  "articles_scraped": 1757,
-  "articles_failed": 48
+  "categories": 49,
+  "folders": 252,
+  "articles_found": 1808,
+  "articles_scraped": 1760,
+  "articles_failed": 48,
+  "articles_new": 3,
+  "articles_updated": 5,
+  "articles_unchanged": 1752,
+  "articles_removed": 0
 }

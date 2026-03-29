@@ -167,7 +167,52 @@ To manage stages:
 
 
 ###   
-**Step 4:**_Delete a Pipeline Stage_
+
+
+### **Step 4:**_Customize Stage Colors_
+
+  
+
+
+You can assign colors to each stage to improve visibility across your pipeline.
+
+  
+
+
+**To set stage colors:**
+
+  * Open a pipeline
+
+  * Go to the **Stages** tab
+
+  * Select a color for each stage
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067901862/original/rnzo2M3KVSmYhTnRwq3g_VcBNXDbnkTGzg.png?1774616013)
+
+**Choose how colors appear:**
+
+  * Default (no color)
+
+  * Colored dot
+
+  * Background tint
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067901969/original/klOm-AP3gA1AoYtf2EHKNIB84D_SMNXHVQ.png?1774616071)
+
+**Stage colors are reflected across:**
+
+  * Kanban and List views**  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067901922/original/Q_SxAZrlOedv0Pfbc-03HL7h5Z7KjMXC_Q.png?1774616049)**
+
+  * Opportunity cards
+
+  * Contact details view**  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067901944/original/ZJLh93qgFwtFkjZU25Ai5NV_IiibRplvoA.png?1774616060)**
+
+
+### **Step 4:_Delete a Pipeline Stage_**
 
   
 
@@ -185,7 +230,7 @@ To delete a stage:
   
 
 
-  * Click the **delete** icon next to the stage  
+  * Click the delete icon next to the stage  
   
 
 
@@ -201,8 +246,8 @@ To delete a stage:
 
 All opportunities from the deleted stage are automatically moved to the selected stage.
 
-###   
-**Step 5:**_Configure Pipeline Dashboard Visibility_
+### **  
+Step 5:_Configure Pipeline Dashboard Visibility_**
 
 You can control whether pipelines and stages appear in dashboards and reports.  
   
@@ -212,11 +257,11 @@ You can control whether pipelines and stages appear in dashboards and reports.
   
 
 
-    * **Funnel charts**  
+    * Funnel charts  
   
 
 
-    * **Pie charts**  
+    * Pie charts  
   
 
 
@@ -232,49 +277,50 @@ These settings determine how pipeline data appears in opportunity dashboards.
 
 ## **FAQs**
 
-  
-
+**  
+**
 
 ### **Q: Do I need to create Won and Lost stages manually?**
 
-No. HighLevel automatically adds **Won** and **Lost** stages to every pipeline.
+**No. HighLevel automatically adds**Won** and **Lost** stages to every pipeline.**
 
-  
+**  
+**
 
+### ****Q: What happens to opportunities if I delete a stage?****
 
-### **Q: What happens to opportunities if I delete a stage?**
+**You can move all existing opportunities to another stage during deletion, preventing data loss.**
 
-You can move all existing opportunities to another stage during deletion, preventing data loss.
-
-  
-
+**  
+**
 
 ### **Q: Can I rename a pipeline after creating it?**
 
-Yes, as long as the updated name is unique within the sub-account.
+**Yes, as long as the updated name is unique within the sub-account.**
 
-  
+**  
+**
 
+### ****Q: Does the updated Pipelines experience change functionality?****
 
-### **Q: Does the updated Pipelines experience change functionality?**
-
-No. Core functionality remains the same. The update focuses on UI improvements and safer stage management.
+**No. Core functionality remains the same. The update focuses on UI improvements and safer stage management.**
 
 * * *
 
 ## **Related Articles**
 
+**  
+**
+
+  * **[Understanding Pipelines](<https://help.gohighlevel.com/en/support/solutions/articles/155000001982>)  
   
+**
+
+  * **[Creating an Opportunity](<https://help.gohighlevel.com/en/support/solutions/articles/155000001999>)**
 
 
-  * [Understanding Pipelines](<https://help.gohighlevel.com/en/support/solutions/articles/155000001982>)  
-  
+### **  
+**
 
-
-  * [Creating an Opportunity](<https://help.gohighlevel.com/en/support/solutions/articles/155000001999>)
-
-
-###   
-
-
-###
+### **  
+**

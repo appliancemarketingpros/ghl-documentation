@@ -99,7 +99,11 @@ These filter conditions can be changed using the toggle on the top right of the 
   
 
 
-![](https://jumpshare.com/share/xmOlHa4xPqZY5sKX2WMN+/Screen+Shot+2026-01-22+at+8.09.56+PM.png)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067905600/original/5SX6g5VUWARAKrUsTCt7z_kboJcKKArO-g.png?1774618114)  
+
+
+  
+
 
 * * *
 
@@ -139,7 +143,7 @@ Standard filters cover the most common CRM fields and actions. Use them to sort 
   
 
 
-![](https://jumpshare.com/share/aYmUmtjMY0iOZ89JMTdt+/Screen+Shot+2026-01-22+at+8.18.28+PM.png)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067905396/original/KB9V1p8Pb0tsCeHEh_vrLSydHa3yCdIiuA.png?1774617960)
 
 * * *
 
@@ -153,7 +157,7 @@ Date filters help you track recent changes and outcomes. Presets speed selection
   
 
 
-  * **Last Stage Change Date** : Yesterday, Today, This Week, Last Week, Last 7 Days, Last 30 Days, This Month, Last Month, This Year, Last Year, Custom.  
+  * **Last Stage Change Date** : Is, Is Not, Yesterday, Today, This Week, Last Week, Last 7 Days, Last 30 Days, This Month, Last Month, This Year, Last Year, Custom, In the Next, In the Last, Less Than, More Than.  
   
 
 
@@ -252,13 +256,12 @@ Organization‑specific fields power advanced segmentation. Any Opportunity Cust
 
      * **Custom fields** (e.g., Client Type, Efficiency Rating, Favorite Pet), **Tags** , and **Time Tracked**.  
   
-![](https://jumpshare.com/share/PNugUosthBncdWSpLC7M+/Screen+Shot+2026-01-22+at+8.27.26+PM.png)  
+  
   
 
 
   6. **Apply** the filters to see results.  
-  
-![](https://jumpshare.com/share/YeeqXv5OeZWlMEzXauoI+/Screen+Shot+2026-01-22+at+8.37.35+PM.png)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067905683/original/fdZfbdSnMZNNQQDX83M1jpJW1MhlSMv8fA.png?1774618153)
 
 
 * * *
