@@ -1,0 +1,193 @@
+{
+  "total_portal_articles": 1280,
+  "total_manifest_articles": 1758,
+  "total_failed": 12,
+  "failure_breakdown": {
+    "http_error": 0,
+    "no_content_div": 0,
+    "empty_content": 10,
+    "redirect": 0,
+    "timeout": 0,
+    "other": 2
+  },
+  "failed_articles": [
+    {
+      "category": "Email",
+      "folder": "MailGun",
+      "title": "Mailgun - Unsubscribe SettingsModified on Thu, 9 Jan, 2020 at  1:21 PM",
+      "url": "https://help.gohighlevel.com/support/solutions/articles/48000981683-mailgun-unsubscribe-settings",
+      "reason": "Content div exists but is empty"
+    },
+    {
+      "category": "Opportunities & Pipelines",
+      "folder": "Managing Opportunities",
+      "title": "Understanding The Create New Opportunity ToggleModified on Thu, 16 Apr, 2020 at  9:53 AM",
+      "url": "https://help.gohighlevel.com/support/solutions/articles/48001077359-understanding-the-create-new-opportunity-toggle",
+      "reason": "Content div exists but is empty"
+    },
+    {
+      "category": "Sites",
+      "folder": "Funnels and Websites",
+      "title": "Sticky Contact - Two-Step Order FormModified on Sun, 29 Dec, 2019 at 11:15 AM",
+      "url": "https://help.gohighlevel.com/support/solutions/articles/48000980319-sticky-contact-two-step-order-form",
+      "reason": "Content div exists but is empty"
+    },
+    {
+      "category": "Sites",
+      "folder": "Funnels and Websites",
+      "title": "Add Custom Values To Buttons In Funnel BuilderModified on Thu, 8 Jul, 2021 at  8:41 AM",
+      "url": "https://help.gohighlevel.com/support/solutions/articles/48001146374-add-custom-values-to-buttons-in-funnel-builder",
+      "reason": "Content div exists but is empty"
+    },
+    {
+      "category": "Sites",
+      "folder": "Forms",
+      "title": "Exporting Form answers to Google SheetsModified on Thu, 26 Dec, 2019 at  4:04 PM",
+      "url": "https://help.gohighlevel.com/support/solutions/articles/48000979918-exporting-form-answers-to-google-sheets",
+      "reason": "Content div exists but is empty"
+    },
+    {
+      "category": "Sites",
+      "folder": "Forms",
+      "title": "No Slide Button in SurveyModified on Thu, 18 Feb, 2021 at  1:56 PM",
+      "url": "https://help.gohighlevel.com/support/solutions/articles/48001175185-no-slide-button-in-survey",
+      "reason": "Content div exists but is empty"
+    },
+    {
+      "category": "Sites",
+      "folder": "Surveys",
+      "title": "Exporting Survey Answers to Google SheetsModified on Thu, 9 Jan, 2020 at  1:49 PM",
+      "url": "https://help.gohighlevel.com/support/solutions/articles/48000979917-exporting-survey-answers-to-google-sheets",
+      "reason": "Content div exists but is empty"
+    },
+    {
+      "category": "Sites",
+      "folder": "Troubleshooting Funnels",
+      "title": "Instant Redirect Page - Funnel TroubleshootingModified on Sun, 29 Dec, 2019 at 11:29 AM",
+      "url": "https://help.gohighlevel.com/support/solutions/articles/48000980323-instant-redirect-page-funnel-troubleshooting",
+      "reason": "Content div exists but is empty"
+    },
+    {
+      "category": "Workflows",
+      "folder": "Internal Tools Workflow Actions",
+      "title": "Workflow Action - If/ElseModified on Thu, 19 Mar at  6:01 AM",
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000002471-workflow-action-if-else",
+      "reason": "Content exists - may have been a transient error",
+      "content_length": 5648
+    },
+    {
+      "category": "Calendars & Appointments",
+      "folder": "Troubleshooting Calendars",
+      "title": "When rescheduling link is blank when sending email/SMS in conversationModified on Thu, 27 Jan, 2022 at  6:06 PM",
+      "url": "https://help.gohighlevel.com/support/solutions/articles/48001208024-when-rescheduling-link-is-blank-when-sending-email-sms-in-conversation",
+      "reason": "Content div exists but is empty"
+    },
+    {
+      "category": "Payments",
+      "folder": "Payment integrations, methods and settings",
+      "title": "How To Set Up A PayPal IntegrationModified on Thu, 10 Mar, 2022 at  5:07 PM",
+      "url": "https://help.gohighlevel.com/support/solutions/articles/48001204158-how-to-set-up-a-paypal-integration",
+      "reason": "Content div exists but is empty"
+    },
+    {
+      "category": "Settings",
+      "folder": "Business Profile Settings",
+      "title": "Business Profile SettingsModified on Sun, 1 Feb at  6:43 AM",
+      "url": "https://help.gohighlevel.com/support/solutions/articles/48000982605-business-profile-settings",
+      "reason": "Content exists - may have been a transient error",
+      "content_length": 19269
+    }
+  ],
+  "failure_details": {
+    "empty_content": [
+      {
+        "category": "Email",
+        "folder": "MailGun",
+        "title": "Mailgun - Unsubscribe SettingsModified on Thu, 9 Jan, 2020 at  1:21 PM",
+        "url": "https://help.gohighlevel.com/support/solutions/articles/48000981683-mailgun-unsubscribe-settings",
+        "reason": "Content div exists but is empty"
+      },
+      {
+        "category": "Opportunities & Pipelines",
+        "folder": "Managing Opportunities",
+        "title": "Understanding The Create New Opportunity ToggleModified on Thu, 16 Apr, 2020 at  9:53 AM",
+        "url": "https://help.gohighlevel.com/support/solutions/articles/48001077359-understanding-the-create-new-opportunity-toggle",
+        "reason": "Content div exists but is empty"
+      },
+      {
+        "category": "Sites",
+        "folder": "Funnels and Websites",
+        "title": "Sticky Contact - Two-Step Order FormModified on Sun, 29 Dec, 2019 at 11:15 AM",
+        "url": "https://help.gohighlevel.com/support/solutions/articles/48000980319-sticky-contact-two-step-order-form",
+        "reason": "Content div exists but is empty"
+      },
+      {
+        "category": "Sites",
+        "folder": "Funnels and Websites",
+        "title": "Add Custom Values To Buttons In Funnel BuilderModified on Thu, 8 Jul, 2021 at  8:41 AM",
+        "url": "https://help.gohighlevel.com/support/solutions/articles/48001146374-add-custom-values-to-buttons-in-funnel-builder",
+        "reason": "Content div exists but is empty"
+      },
+      {
+        "category": "Sites",
+        "folder": "Forms",
+        "title": "Exporting Form answers to Google SheetsModified on Thu, 26 Dec, 2019 at  4:04 PM",
+        "url": "https://help.gohighlevel.com/support/solutions/articles/48000979918-exporting-form-answers-to-google-sheets",
+        "reason": "Content div exists but is empty"
+      },
+      {
+        "category": "Sites",
+        "folder": "Forms",
+        "title": "No Slide Button in SurveyModified on Thu, 18 Feb, 2021 at  1:56 PM",
+        "url": "https://help.gohighlevel.com/support/solutions/articles/48001175185-no-slide-button-in-survey",
+        "reason": "Content div exists but is empty"
+      },
+      {
+        "category": "Sites",
+        "folder": "Surveys",
+        "title": "Exporting Survey Answers to Google SheetsModified on Thu, 9 Jan, 2020 at  1:49 PM",
+        "url": "https://help.gohighlevel.com/support/solutions/articles/48000979917-exporting-survey-answers-to-google-sheets",
+        "reason": "Content div exists but is empty"
+      },
+      {
+        "category": "Sites",
+        "folder": "Troubleshooting Funnels",
+        "title": "Instant Redirect Page - Funnel TroubleshootingModified on Sun, 29 Dec, 2019 at 11:29 AM",
+        "url": "https://help.gohighlevel.com/support/solutions/articles/48000980323-instant-redirect-page-funnel-troubleshooting",
+        "reason": "Content div exists but is empty"
+      },
+      {
+        "category": "Calendars & Appointments",
+        "folder": "Troubleshooting Calendars",
+        "title": "When rescheduling link is blank when sending email/SMS in conversationModified on Thu, 27 Jan, 2022 at  6:06 PM",
+        "url": "https://help.gohighlevel.com/support/solutions/articles/48001208024-when-rescheduling-link-is-blank-when-sending-email-sms-in-conversation",
+        "reason": "Content div exists but is empty"
+      },
+      {
+        "category": "Payments",
+        "folder": "Payment integrations, methods and settings",
+        "title": "How To Set Up A PayPal IntegrationModified on Thu, 10 Mar, 2022 at  5:07 PM",
+        "url": "https://help.gohighlevel.com/support/solutions/articles/48001204158-how-to-set-up-a-paypal-integration",
+        "reason": "Content div exists but is empty"
+      }
+    ],
+    "other": [
+      {
+        "category": "Workflows",
+        "folder": "Internal Tools Workflow Actions",
+        "title": "Workflow Action - If/ElseModified on Thu, 19 Mar at  6:01 AM",
+        "url": "https://help.gohighlevel.com/support/solutions/articles/155000002471-workflow-action-if-else",
+        "reason": "Content exists - may have been a transient error",
+        "content_length": 5648
+      },
+      {
+        "category": "Settings",
+        "folder": "Business Profile Settings",
+        "title": "Business Profile SettingsModified on Sun, 1 Feb at  6:43 AM",
+        "url": "https://help.gohighlevel.com/support/solutions/articles/48000982605-business-profile-settings",
+        "reason": "Content exists - may have been a transient error",
+        "content_length": 19269
+      }
+    ]
+  }
+}

@@ -4725,8 +4725,8 @@
     "title": "Workflow Action - Wait"
   },
   "docs/Workflows/Internal-Tools-Workflow-Actions/Workflow Action - IfElse.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/48001180266-workflow-action-if-else",
-    "hash": "67abd5b72a915162",
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000002471-workflow-action-if-else",
+    "hash": "5ae91b7b571e7fee",
     "title": "Workflow Action - If/Else"
   },
   "docs/Workflows/Internal-Tools-Workflow-Actions/Workflow Action - Remove from Workflow.md": {
@@ -5905,8 +5905,8 @@
     "title": "WhatsApp Settings"
   },
   "docs/Settings/Business-Profile-Settings/Business Profile Settings.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006223-business-profile-settings",
-    "hash": "7c12f4b53d9898c9",
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48000982605-business-profile-settings",
+    "hash": "ae8f6bf2e979f9ee",
     "title": "Business Profile Settings"
   },
   "docs/Settings/Business-Profile-Settings/Business Profile Settings - General Information.md": {
@@ -8788,5 +8788,245 @@
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007409-media-storage-canva-integration",
     "hash": "f027d7ad292bf07f",
     "title": "Media Storage - Canva Integration"
+  },
+  "docs/Email/MailGun/Mailgun - Unsubscribe Settings.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48000981683-mailgun-unsubscribe-settings",
+    "hash": "cdcb381b57b856e0",
+    "title": "Mailgun - Unsubscribe Settings"
+  },
+  "docs/Opportunities-&-Pipelines/Managing-Opportunities/Understanding The Create New Opportunity Toggle.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001077359-understanding-the-create-new-opportunity-toggle",
+    "hash": "f9a481627ce4d86d",
+    "title": "Understanding The Create New Opportunity Toggle"
+  },
+  "docs/Sites/Funnels-and-Websites/Sticky Contact - Two-Step Order Form.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48000980319-sticky-contact-two-step-order-form",
+    "hash": "36fd61efd230ba8d",
+    "title": "Sticky Contact - Two-Step Order Form"
+  },
+  "docs/Sites/Funnels-and-Websites/Add Custom Values To Buttons In Funnel Builder.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001146374-add-custom-values-to-buttons-in-funnel-builder",
+    "hash": "e602d26e5b9fc41b",
+    "title": "Add Custom Values To Buttons In Funnel Builder"
+  },
+  "docs/Sites/Forms/Exporting Form answers to Google Sheets.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48000979918-exporting-form-answers-to-google-sheets",
+    "hash": "b52ae71bd0adb1e3",
+    "title": "Exporting Form answers to Google Sheets"
+  },
+  "docs/Sites/Forms/No Slide Button in Survey.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001175185-no-slide-button-in-survey",
+    "hash": "976cc5b3426ee5fa",
+    "title": "No Slide Button in Survey"
+  },
+  "docs/Sites/Surveys/Exporting Survey Answers to Google Sheets.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48000979917-exporting-survey-answers-to-google-sheets",
+    "hash": "1011e5bcda2b9bcd",
+    "title": "Exporting Survey Answers to Google Sheets"
+  },
+  "docs/Sites/Troubleshooting-Funnels/Instant Redirect Page - Funnel Troubleshooting.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48000980323-instant-redirect-page-funnel-troubleshooting",
+    "hash": "f5b8974e4f1f5cd6",
+    "title": "Instant Redirect Page - Funnel Troubleshooting"
+  },
+  "docs/Calendars-&-Appointments/Troubleshooting-Calendars/When rescheduling link is blank when sending emailSMS in conversation.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001208024-when-rescheduling-link-is-blank-when-sending-email-sms-in-conversation",
+    "hash": "8dc63106fee76154",
+    "title": "When rescheduling link is blank when sending email/SMS in conversation"
+  },
+  "docs/Payments/Payment-integrations,-methods-and-settings/How To Set Up A PayPal Integration.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001204158-how-to-set-up-a-paypal-integration",
+    "hash": "26494c20c97d8bc3",
+    "title": "How To Set Up A PayPal Integration"
+  },
+  "docs/Developer-Resources/Developer-Resources/How do I test my draftprivate Marketplace app on HighLevel.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004759-how-do-i-test-my-draft-private-marketplace-app-on-highlevel-",
+    "hash": "62da8542827a4bd5",
+    "title": "How do I test my draft/private Marketplace app on HighLevel?"
+  },
+  "docs/Logic-&-Fulfillment/Logic-&-Fulfillment/Triggers.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001157620-triggers",
+    "hash": "6363eb40a964d019",
+    "title": "Triggers"
+  },
+  "docs/Logic-&-Fulfillment/Logic-&-Fulfillment/Contact Flow.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001157626-contact-flow",
+    "hash": "2edfcddfff133e26",
+    "title": "Contact Flow"
+  },
+  "docs/Logic-&-Fulfillment/Logic-&-Fulfillment/Campaigns.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001157629-campaigns",
+    "hash": "8ce79f0eef4e972a",
+    "title": "Campaigns"
+  },
+  "docs/Logic-&-Fulfillment/Logic-&-Fulfillment/Stale Opportunity Trigger.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001158482-stale-opportunity-trigger",
+    "hash": "08af31caddfe454e",
+    "title": "Stale Opportunity Trigger"
+  },
+  "docs/Logic-&-Fulfillment/Logic-&-Fulfillment/Retrieving Facebook Leads.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001158871-retrieving-facebook-leads",
+    "hash": "821c8f732762e864",
+    "title": "Retrieving Facebook Leads"
+  },
+  "docs/Logic-&-Fulfillment/Logic-&-Fulfillment/Adding Custom Audience Trigger.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001158872-adding-custom-audience-trigger",
+    "hash": "27ffd85dbca71dbb",
+    "title": "Adding Custom Audience Trigger"
+  },
+  "docs/Logic-&-Fulfillment/Logic-&-Fulfillment/Running scheduled bulk requests.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001158876-running-scheduled-bulk-requests",
+    "hash": "6a73b81397dedea6",
+    "title": "Running scheduled bulk requests"
+  },
+  "docs/Logic-&-Fulfillment/Logic-&-Fulfillment/Auto Cancel Appt messages notifications to clients.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001158878-auto-cancel-appt-messages-notifications-to-clients",
+    "hash": "4cf5ad8b6feafd30",
+    "title": "Auto Cancel Appt messages notifications to clients"
+  },
+  "docs/Logic-&-Fulfillment/Logic-&-Fulfillment/Uploading Contacts which one should I choose.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001158879-uploading-contacts-which-one-should-i-choose",
+    "hash": "552ec767332bedfb",
+    "title": "Uploading Contacts which one should I choose"
+  },
+  "docs/Logic-&-Fulfillment/Logic-&-Fulfillment/Auto Populate Lead Values in Surveys.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001158880-auto-populate-lead-values-in-surveys",
+    "hash": "823651f4dbaa957a",
+    "title": "Auto Populate Lead Values in Surveys"
+  },
+  "docs/Logic-&-Fulfillment/Logic-&-Fulfillment/Event Start Date Campaigns.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001158881-event-start-date-campaigns",
+    "hash": "03e788d76f72c73d",
+    "title": "Event Start Date Campaigns"
+  },
+  "docs/Logic-&-Fulfillment/Logic-&-Fulfillment/Customer Reply Trigger with ZAPIER ANDOR conditions.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001163411-customer-reply-trigger-with-zapier-and-or-conditions",
+    "hash": "da53d8138b3f778a",
+    "title": "Customer Reply Trigger with ZAPIER AND/OR conditions"
+  },
+  "docs/Logic-&-Fulfillment/Logic-&-Fulfillment/Auto Update Pipeline Stage on Appointment Date.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001166180-auto-update-pipeline-stage-on-appointment-date",
+    "hash": "9316f7cf06f0ea9f",
+    "title": "Auto Update Pipeline Stage on Appointment Date"
+  },
+  "docs/Logic-&-Fulfillment/Logic-&-Fulfillment/Importing National and International Phone Numbers.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001166711-importing-national-and-international-phone-numbers",
+    "hash": "3c028ba9558fc1a6",
+    "title": "Importing National and International Phone Numbers"
+  },
+  "docs/Logic-&-Fulfillment/Logic-&-Fulfillment/How to send Users Appointment Reminders.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001167806-how-to-send-users-appointment-reminders",
+    "hash": "fc14a2ada45813aa",
+    "title": "How to send Users Appointment Reminders"
+  },
+  "docs/University/HighLevel-How-To's/How To Build A Double Opt-In Flow.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001162996-how-to-build-a-double-opt-in-flow",
+    "hash": "5f91782c48d2e0d7",
+    "title": "How To Build A Double Opt-In Flow"
+  },
+  "docs/University/HighLevel-How-To's/How to setup HL Chat Widget as support for your clients.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001162997-how-to-setup-hl-chat-widget-as-support-for-your-clients",
+    "hash": "98907b9a5c16b311",
+    "title": "How to setup HL Chat Widget as support for your clients"
+  },
+  "docs/University/HighLevel-How-To's/How to build an offer redemption flow.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001162998-how-to-build-an-offer-redemption-flow",
+    "hash": "67922ded3edec5d7",
+    "title": "How to build an offer redemption flow"
+  },
+  "docs/University/HighLevel-How-To's/How to build Database Reactivation Campaigns that leverage Positive Intent and Chatbots in HighLevel.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001162999-how-to-build-database-reactivation-campaigns-that-leverage-positive-intent-and-chatbots-in-highlevel",
+    "hash": "10d058d85c7b43fd",
+    "title": "How to build Database Reactivation Campaigns that leverage Positive Intent and Chatbots in HighLevel"
+  },
+  "docs/University/HighLevel-How-To's/Build Booking Bots In HighLevel.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001163000-build-booking-bots-in-highlevel",
+    "hash": "a8d5b90e7942b612",
+    "title": "Build Booking Bots In HighLevel"
+  },
+  "docs/University/HighLevel-How-To's/How To Send Pretty HTML Emails In HighLevel.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001163004-how-to-send-pretty-html-emails-in-highlevel",
+    "hash": "257d65aee209c80d",
+    "title": "How To Send Pretty HTML Emails In HighLevel"
+  },
+  "docs/University/HighLevel-How-To's/How To Build Pages That Load Quickly In HighLevel.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001163005-how-to-build-pages-that-load-quickly-in-highlevel",
+    "hash": "d31a5848eccb755b",
+    "title": "How To Build Pages That Load Quickly In HighLevel"
+  },
+  "docs/University/HighLevel-How-To's/How To Pre-Plan Holiday Promotions With The Custom Date Trigger.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001163007-how-to-pre-plan-holiday-promotions-with-the-custom-date-trigger",
+    "hash": "018d2168135a722d",
+    "title": "How To Pre-Plan Holiday Promotions With The Custom Date Trigger"
+  },
+  "docs/University/HighLevel-How-To's/How to increase appointment show rates with personalized video Tasks in the HighLevel app.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001163008-how-to-increase-appointment-show-rates-with-personalized-video-tasks-in-the-highlevel-app",
+    "hash": "876174765bec1c22",
+    "title": "How to increase appointment show rates with personalized video Tasks in the HighLevel app"
+  },
+  "docs/University/HighLevel-How-To's/How to use the Positive Intent trigger to generate bookings with no human involvement.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001163009-how-to-use-the-positive-intent-trigger-to-generate-bookings-with-no-human-involvement",
+    "hash": "21a8dd4b981b49a2",
+    "title": "How to use the Positive Intent trigger to generate bookings with no human involvement"
+  },
+  "docs/University/HighLevel-How-To's/How To Build Check In Loops in HighLevel.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001163010-how-to-build-check-in-loops-in-highlevel",
+    "hash": "787a1f9faa62eca4",
+    "title": "How To Build \"Check In\" Loops in HighLevel"
+  },
+  "docs/University/HighLevel-How-To's/How To Build Webinar Campaigns using the Event Start Date field.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001163691-how-to-build-webinar-campaigns-using-the-event-start-date-field",
+    "hash": "ed6870ef06039629",
+    "title": "How To Build Webinar Campaigns using the Event Start Date field"
+  },
+  "docs/University/HighLevel-How-To's/How to build Webinar Campaigns using the Event Start Dates.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001165883-how-to-build-webinar-campaigns-using-the-event-start-dates",
+    "hash": "b5922c7ea5be013c",
+    "title": "How to build Webinar Campaigns using the Event Start Dates"
+  },
+  "docs/University/HighLevel-How-To's/HighLevel How-To Build Home Pages on HL Website Builder.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001165884-highlevel-how-to-build-home-pages-on-hl-website-builder",
+    "hash": "d7720b909249424a",
+    "title": "HighLevel How-To Build Home Pages on HL Website Builder"
+  },
+  "docs/University/HighLevel-How-To's/How to use Custom Values for images in funnels and websites.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001174403-how-to-use-custom-values-for-images-in-funnels-and-websites",
+    "hash": "8832d746ebd88a41",
+    "title": "How to use Custom Values for images in funnels and websites"
+  },
+  "docs/Reputation-Management-&-Reviews/Review-Requests/Review widget - Powered By going to Bad request page.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001181136-review-widget-powered-by-going-to-bad-request-page",
+    "hash": "6595d58d968bb39a",
+    "title": "Review widget - Powered By going to Bad request page"
+  },
+  "docs/Integrations/Facebook-Integration/Facebook Domain Verification by Meta Tag.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001185852-facebook-domain-verification-by-meta-tag",
+    "hash": "e0b8479c112745d1",
+    "title": "Facebook Domain Verification by Meta Tag"
+  },
+  "docs/Integrations/Facebook-Integration/Facebook Pages Don't Show or Won't Connect.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48000989449-facebook-pages-don-t-show-or-won-t-connect",
+    "hash": "5f92c01403880a1e",
+    "title": "Facebook Pages Don't Show or Won't Connect"
+  },
+  "docs/Integrations/Facebook-Integration/Facebook Troubleshooting - Unintentionally Disconnecting Your Accounts.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48000981701-facebook-troubleshooting-unintentionally-disconnecting-your-accounts",
+    "hash": "aa13d8b93d7eb7cb",
+    "title": "Facebook Troubleshooting - Unintentionally Disconnecting Your Accounts"
+  },
+  "docs/Integrations/Facebook-Integration/Leads Ads Integration Is not Working anymore (TRY THIS).md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001181012-leads-ads-integration-is-not-working-anymore-try-this-",
+    "hash": "74e0b6c215354f73",
+    "title": "Leads Ads Integration Is not Working anymore (TRY THIS)"
+  },
+  "docs/Integrations/Zapier-Integration/Zapier Troubleshooting - Duplicate Contacts or Added to Campaigns Multiple Times.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48000981397-zapier-troubleshooting-duplicate-contacts-or-added-to-campaigns-multiple-times",
+    "hash": "fd59e942452d9d5f",
+    "title": "Zapier Troubleshooting - Duplicate Contacts or Added to Campaigns Multiple Times"
+  },
+  "docs/Integrations/Zapier-Integration/Create Tags & Tasks Via Zapier.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001147414-create-tags-tasks-via-zapier",
+    "hash": "95815b18186a0747",
+    "title": "Create Tags & Tasks Via Zapier"
   }
 }
