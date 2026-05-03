@@ -43,7 +43,7 @@ Uberall is a global listings management engine that helps multi-location busines
   * **Publisher Coverage:** A Rich [Publisher Network](<https://uberall.com/en-us/directories/products>), including Google, Bing, Facebook, Apple Maps, TomTom, etc  
   
 
-  * **Geo Reach:** Listing management supported in 20+ countries  
+  * **Geo Reach:** Listing management supported in 47 countries  
   
 
   * **Duplicate Suppression at Scale:** Detects and suppresses duplicate content automatically  
@@ -70,7 +70,7 @@ Feature| **Uberall**| **Yext**
 Entity Conflict Risk| Low| Medium  
 Duplicate Suppression| Automatic| Manual  
 Task Management & Cleansing Tools| Yes| Partial  
-Geo Coverage (20+ countries)| Yes| Yes  
+Geo Coverage (47 countries)| Yes| Yes  
 Support for SMBs < 50 Locations| Yes| Yes  
 Security & Compliance| GDPR, ISO, PCI| HIPAA, ISO  
 Customer Support| High-touch| High-touch  

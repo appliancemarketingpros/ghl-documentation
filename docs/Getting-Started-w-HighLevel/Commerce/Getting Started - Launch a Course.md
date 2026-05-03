@@ -51,6 +51,47 @@ Creating your first course is like laying the foundation for your teaching empir
   
 
 
+### **Use the course editor (New Layout)**
+
+After you create the course, HighLevel opens the course editor in a large workspace so you can build content faster.
+
+**What You Will See:**
+
+  * A left panel that shows your course structure (modules, lessons, quizzes, and assignments).  
+  
+
+
+  * A main editor area for the item you selected.  
+  
+
+
+  * Breadcrumbs at the top so you always know where you are in the course.
+
+
+**Common Actions:**
+
+  * Select any lesson or quiz in the left panel to open it in the editor.  
+  
+
+
+  * Drag and drop items in the left panel to reorder content.  
+  
+
+
+  * Expand or collapse modules to focus on one section at a time.  
+
+
+    
+    
+    **Note: UI labels and button names may vary by account rollout.**
+    
+
+  
+
+
+  
+
+
 **Next step:** Explore more ways to enhance your course:  
   
 

@@ -4,4 +4,4 @@
 
 ## Articles
 
-- [Download HighLevel & LeadConnector Desktop App for Windows & Mac](Download HighLevel & LeadConnector Desktop App for Windows & Mac.md)
+- [Download HighLevel & LeadConnector Desktop App for Windows, macOS & Linux](Download HighLevel & LeadConnector Desktop App for Windows, macOS & Linux.md)

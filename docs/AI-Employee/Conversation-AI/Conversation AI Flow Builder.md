@@ -6,7 +6,12 @@
 
 ---
 
-In Conversation AI, an important option for building the bot is the Flow Based Builder. It provides a rich visual interface for laying out the conversation logic.
+The Conversation AI Flow Builder is a visual tool used to design structured, goal-oriented conversations for your AI bot. It allows you to map out how the bot interacts with contacts, captures information, and progresses through different steps in a guided flow.
+
+  
+
+
+Bots in Conversation AI can be configured to operate within a Flow Builder for these structured interactions or be triggered through workflows, depending on how they are set up. The Flow Based Builder provides the flexibility to define conversation logic, automate responses, and create multi-step experiences tailored to your business needs.
 
 * * *
 
@@ -45,6 +50,21 @@ Navigate to AI Agents > Conversation AI > Create Bot button > Create New Bot but
     
     
     The Conversation AI Flow Builder looks like the Automations Workflow builder but it works differently in several significant ways. Those are called out in a note like this one at the relevant point in the article.
+
+  
+
+
+  
+
+    
+    
+    **Note:** Flow-based bots behave differently depending on how they are configured.
+    
+     -If you launch the Flow Builder, the bot is automatically assigned to that flow and cannot be selected in the Conversation AI Trigger inside workflows.
+    
+     -If you do not launch the Flow Builder, the bot remains unassigned and can be used with the Conversation AI Trigger.
+    
+    This distinction is important when deciding whether the bot will run as part of a flow or be triggered externally via workflows.
 
   
 

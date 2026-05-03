@@ -17,7 +17,7 @@
 - [How to Use the Listings Suggestions Feature](How to Use the Listings Suggestions Feature.md)
 - [HighLevel Listings](HighLevel Listings.md)
 - [How to use Entity History in Listings with HighLevel Audit Logs](How to use Entity History in Listings with HighLevel Audit Logs.md)
-- [Online Listings Analytics Dashboard](Online Listings Analytics Dashboard.md)
+- [Listings Analytics Dashboard](Listings Analytics Dashboard.md)
 - [Multi-Location Management Within a Single Sub-Account](Multi-Location Management Within a Single Sub-Account.md)
 - [HighLevel Listings Engine Selection Guide: Uberall Integration](HighLevel Listings Engine Selection Guide Uberall Integration.md)
 - [Listings - How to Use White‑Labeled Analytics Reports](Listings - How to Use White‑Labeled Analytics Reports.md)

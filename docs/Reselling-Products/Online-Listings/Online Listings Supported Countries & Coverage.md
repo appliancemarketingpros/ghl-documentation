@@ -6,10 +6,7 @@
 
 ---
 
-We are thrilled that Listings is available in 20 countries, empowering businesses to manage their listings on a truly global scale and connect with more customers than ever before!
-
-  
-
+We are thrilled that Listings is available in 47 countries, empowering businesses to manage their listings on a truly global scale and connect with more customers than ever before!
 
 * * *
 
@@ -55,6 +52,83 @@ France| 50+
 Germany| 55+  
 Italy| 55+  
 Australia| 45+  
+Netherlands  
+|   
+  
+Poland  
+|   
+  
+Portugal|   
+  
+Argentina  
+|   
+  
+Czech Republic|   
+  
+Chile|   
+  
+Finland  
+|   
+  
+Singapore  
+|   
+  
+Hungary  
+|   
+  
+Romania  
+|   
+  
+United Arab Emirates  
+|   
+  
+Israel  
+|   
+  
+Cyprus  
+|   
+  
+Colombia  
+|   
+  
+Peru  
+|   
+  
+Malaysia  
+|   
+  
+Indonesia  
+|   
+  
+India  
+|   
+  
+Philippines  
+|   
+  
+Nigeria  
+|   
+  
+Saudi Arabia  
+|   
+  
+Pakistan  
+|   
+  
+Ecuador  
+|   
+  
+Vietnam  
+|   
+  
+Costa Rica  
+|   
+  
+Algeria  
+|   
+  
+Afghanistan|   
+  
   
 * * *
 
@@ -70,10 +144,12 @@ When Online Listings is accessed from a region that isn’t yet supported, HighL
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155036268755/original/JTBhcPPH_FiRe9wXAn5Pu_T-NmgKac8UDQ.png?1731095851)
 
   
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155036268781/original/UPtIlmXFA43m6BBXDsJFHv2f3lySUUZ2og.png?1731095913)
 
+  
   
 
 

@@ -205,6 +205,20 @@ Smart Tags are dynamic, rule-based color chips that appear directly on each Oppo
 
      4. When done, click **Save.**  
   
+
+  4. Smart Tag rules use the same enhanced Advanced Filters experience as in the Opportunities, including:  
+  
+\- Grouped fields (folder-based sections) to make fields easier to find  
+\- A **Stage** filter for more precise targeting  
+\- Expanded date operators:  
+Is not  
+In the next  
+In the last  
+More than  
+Less than  
+\- Relative time filtering using **days, weeks, months, and years**  
+\- **Nested** filtering logic for more complex rule conditions  
+  
 ![](https://jumpshare.com/share/f1pRboRnSNkFOLOc17cm+/GIF+Recording+2025-10-14+at+10.31.43+PM.gif)
 
 

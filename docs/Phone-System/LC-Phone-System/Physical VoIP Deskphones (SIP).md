@@ -87,11 +87,17 @@ All of HighLevel's digital CRM features continue to work, you just get to use yo
   
 
 
-  * SIP over UDP, TCP, or TLS
+  * SIP over UDP, TCP, or TLS  
+  
 
-  * Open outbound ports **5060/5061** for SIP signalling
 
-  * Open UDP **10000-20000** for RTP audio
+  * Open outbound ports **5060/5061** for SIP signalling  
+  
+
+
+  * Open UDP **10000-20000** for RTP audio  
+  
+
 
   * PoE switch or external power adaptor
 
@@ -107,9 +113,13 @@ All of HighLevel's digital CRM features continue to work, you just get to use yo
   
 
 
-  * “SIP” and “PoE” on the spec-sheet
+  * “SIP” and “PoE” on the spec-sheet  
+  
 
-  * At least two programmable line keys
+
+  * At least two programmable line keys  
+  
+
 
   * Avoid carrier-locked or proprietary-provisioning devices
 
@@ -125,13 +135,21 @@ All of HighLevel's digital CRM features continue to work, you just get to use yo
   
 
 
-  * Yealink T54W / T58W
+  * Yealink T54W / T58W  
+  
 
-  * Poly VVX 450
 
-  * Grandstream GXP 2170
+  * Poly VVX 450  
+  
 
-  * Snom D785
+
+  * Grandstream GXP 2170  
+  
+
+
+  * Snom D785  
+  
+
 
   * Cisco 7841
 
@@ -321,25 +339,32 @@ Navigate to **Settings > Phone Numbers > Advanced Settings > VIP Desktop (SIP)**
 
 ## **1\. Direct Extension Dialing Between Deskphones******
 
-You can now call any teammate with a configured deskphone simply by dialing their extension.
+  
+You can now call any teammate with a configured deskphone simply by dialing their extension. If your teammate’s extension is 101, just dial 101 from your deskphone to connect instantly—no external numbers or additional routing required.
 
-### What’s New?
+  
+**Key Details**  
+  
 
-If your teammate’s extension is **101** , just dial **201** from your deskphone to connect instantly , no external numbers or additional routing required.
 
-### Key Details
+  * Fast extension-to-extension calling  
+  
 
-  * Fast extension-to-extension calling
 
-  * Works between configured deskphones
+  * Works between configured deskphones  
+  
+
 
   * Supported on deskphones only
 
 
+  
 This update makes internal communication quicker and more efficient for teams using deskphones.
 
-## **2\. IVR Call Transfer Between Deskphones**
+##   
+**2\. IVR Call Transfer Between Deskphones**
 
+  
 **You can now transfer IVR calls from one deskphone directly to another deskphone.**
 
   
@@ -347,18 +372,32 @@ This update makes internal communication quicker and more efficient for teams us
 
 **How it works?**
 
-During an active IVR call on your deskphone:
+  
+During an active IVR call on your deskphone:  
+  
 
-  1. Initiate a transfer.
+
+  1. Initiate a transfer.  
+  
+
 
   2. Dial your teammate’s extension.  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065084807/original/hAOdaYjFSw10_XmuBQrArbP9dGoGJGH0Eg.png?1771329355)
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065084807/original/hAOdaYjFSw10_XmuBQrArbP9dGoGJGH0Eg.png?1771329355)  
+  
+
 
   3. The call is routed directly to their deskphone.  
+  
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065084806/original/XqWn-AXejIHACYzbx0ChB_iERS33xnIURw.png?1771329355)
 
 
-Simple and seamless.
+  
+  
+Simple and seamless.  
+  
+
 
 > **Note:** Only **blind transfers** are supported. Warm transfers are not currently available
 
@@ -393,43 +432,43 @@ Symptom| Likely Cause| Fix
   
 
 
-**Q: Which VoIP deskphones are compatible?**  
-Most open-SIP models—see the recommended list above.
+**Q: Which VoIP deskphones are compatible?****  
+**Most open-SIP models—see the recommended list above.
 
   
 
 
-****Q:** Can I record and transcribe every call?**  
+**Q: Can I record and transcribe every call?**  
 Yes. Once enabled, all calls are automatically recorded and transcribed.
 
   
 
 
-****Q:** How do I perform a blind transfer during a call?**  
+**Q: How do I perform a blind transfer during a call?**  
 Use the **Blind Transfer** option on your deskphone UI.
 
   
 
 
-****Q:** Is there an extra charge for using deskphones?**  
+**Q: Is there an extra charge for using deskphones?**  
 No. Deskphone calls share the same per-minute rates as web/mobile calls. There is no additional cost for the call transfer to a deskphone.
 
   
 
 
-****Q:** Can two deskphones point at the same HighLevel user?**  
+**Q: Can two deskphones point at the same HighLevel user?**  
 No, you can only connect a single user to each VoIP deskphone.
 
   
 
 
-****Q:** Do you support SIP Trunking?**  
+**Q: Do you support SIP Trunking?**  
 No, we do not support SIP Trunking as of now. So you cannot connect your existing PBX/Asterix to GHL as of now.
 
   
 
 
-****Q:** Why am I not able to receive the incoming call on my deskphone?**  
+**Q: Why am I not able to receive the incoming call on my deskphone?**  
 Make sure the user's individual phone settings are deskphone. Navigate to **Settings > My Staff > Choose staff > Edit > Call & Voicemail Settings**, please enable **"Deskphone"** for the options you need.
 
   
@@ -439,6 +478,7 @@ Make sure the user's individual phone settings are deskphone. Navigate to **Sett
 
 Music played during a _handset_ Hold depends on your SIP phone model and its local Hold behavior. HighLevel does **not** control music-on-hold triggered by a device’s Hold button. If you want callers to hear audio while they wait _inside a call flow_ , use an **IVR** step with an audio prompt in your workflow.
 
+  
 See **__[Interactive Voice Response (IVR)](<https://help.gohighlevel.com/en/support/solutions/articles/155000001200>)__ **for more information.
 
   
@@ -457,6 +497,7 @@ For assisted transfers on the web, see **_[_Outbound Calls with the Web Dialer_]
 
 Voicemails that route to HighLevel are reviewed in **Conversations** and in **Reporting → Call Reporting**. A phone’s native voicemail feature (if present) is separate and does **not** access HighLevel voicemail.
 
+  
 See _[**_Voicemail for Company and for Users_**](<https://help.gohighlevel.com/en/support/solutions/articles/48001146671>)_**** for more information.
 
   
@@ -482,9 +523,6 @@ Follow the steps in this article to create the SIP user/extension, then enter th
   
 
 
-  
-
-
 **Q: I’m able to make outbound calls, but inbound calls are not working properly. What should I check?**
 
 If outbound calls are working but inbound calls are not, we recommend checking the **Keep Alive** setting. Please ensure that Keep Alive is enabled and set to**_Options_**. If it hasn’t been configured yet, updating this setting often resolves inbound call issues.  
@@ -498,7 +536,7 @@ You can update this setting by navigating to **Account → Advanced → Keep Ali
   
 
 
-  * [ What is LC - Phone System?](<https://help.gohighlevel.com/en/support/solutions/articles/48001223546>)  
+  * [What is LC - Phone System?](<https://help.gohighlevel.com/en/support/solutions/articles/48001223546>)  
   
 
   * [How to Enable Call Transcriptions for Recorded Calls](<https://help.gohighlevel.com/en/support/solutions/articles/155000002841>)  

@@ -10,6 +10,7 @@
 - [SEO Meta Data](SEO Meta Data.md)
 - [Element Duplication Efficiency (Global Templates)](Element Duplication Efficiency (Global Templates).md)
 - [Click-To-Call, Click-To-Text, and Click-To-Email Links & Buttons for Websites and Funnels](Click-To-Call, Click-To-Text, and Click-To-Email Links & Buttons for Websites and Funnels.md)
+- [Sticky Contact - Two-Step Order Form](Sticky Contact - Two-Step Order Form.md)
 - [Funnel Paths](Funnel Paths.md)
 - [How to import a Funnel From ClickFunnels?](How to import a Funnel From ClickFunnels.md)
 - [Two-Step Order Form (Step 3: The Pop-Up & Scheduling)](Two-Step Order Form (Step 3 The Pop-Up & Scheduling).md)
@@ -19,3 +20,4 @@
 - [Adding Dynamic Text To Funnel Pages](Adding Dynamic Text To Funnel Pages.md)
 - [Custom Meta Tags](Custom Meta Tags.md)
 - [Import and or Cloning Funnels & Websites](Import and or Cloning Funnels & Websites.md)
+- [Add Custom Values To Buttons In Funnel Builder](Add Custom Values To Buttons In Funnel Builder.md)

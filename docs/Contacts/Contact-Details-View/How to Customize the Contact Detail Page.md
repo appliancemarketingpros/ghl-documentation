@@ -6,7 +6,7 @@
 
 ---
 
-Contact Detail Page customization in HighLevel lets admins tailor contact records to match each team's workflow. This article explains how to create views, organize panels and modules, manage visibility, and assign layouts to users.
+Contact Detail Page customization in HighLevel lets admins tailor contact records to match each workflow. This article explains how to create views, organize panels and modules, manage visibility, and assign layouts to users.
 
 * * *
 
@@ -29,7 +29,7 @@ Contact Detail Page customization in HighLevel lets admins tailor contact record
   
 
 
-Contact Detail Page customization allows admins to tailor how contact records appear inside HighLevel. With customizable views, teams can organize panels, choose which modules appear, control field visibility, and assign specific views to users. This makes it easier to create role-based experiences for teams such as Sales, Support, or Admin.
+Contact Detail Page customization allows admins to tailor how contact records appear inside HighLevel. With customizable views, admins can organize panels, choose which modules appear, control field visibility, and assign specific views to users. This makes it easier to create role-based experiences for roles such as Sales, Support, or Admin.
 
   
 
@@ -44,7 +44,7 @@ Contact Detail Page customization allows admins to tailor how contact records ap
   
 
 
-  * **Role-based views** : Create different contact layouts for different teams or users.  
+  * **Role-based views** : Create different contact layouts for different users.  
   
 
 
@@ -106,7 +106,7 @@ Views make it possible to create tailored layouts for different users while keep
   
 
 
-The Contact Detail Page is divided into clear sections so admins can organize information based on how teams work. Understanding each area helps you build layouts that are easier to navigate and maintain.
+The Contact Detail Page is divided into clear sections so admins can organize information based on how users work. Understanding each area helps you build layouts that are easier to navigate and maintain.
 
   
 
@@ -148,7 +148,7 @@ Each view includes four main sections:
   
 
 
-A thoughtful setup makes the Contact Detail Page easier to use and helps each team see the right information in the right place. Follow these steps to create and assign a customized view.
+A thoughtful setup makes the Contact Detail Page easier to use and helps each user see the right information in the right place. Follow these steps to create and assign a customized view.
 
   
 
@@ -183,7 +183,7 @@ A thoughtful setup makes the Contact Detail Page easier to use and helps each te
   
 
 
-Create a new view if needed and name it based on the team or workflow it will support.
+Create a new view if needed and name it based on the user or workflow it will support.
 
   
 
@@ -238,7 +238,7 @@ Create a new view if needed and name it based on the team or workflow it will su
   
 
 
-Use the layout editor to organize the Contact Detail Page based on how your team works.
+Use the layout editor to organize the Contact Detail Page.
 
   
 
@@ -412,7 +412,7 @@ Display options include:
   
 
 
-Choose the display style that best fits how your team moves between modules.
+Choose the display style that best fits how your needs.
 
   
 
@@ -448,7 +448,7 @@ Reorder modules for quick access.
   
 
 
-Select the layout style that best matches how much information your team needs to see at once.
+Select the layout style that best matches how much information is needed to be seen at once.
 
   
 
@@ -506,12 +506,12 @@ Review the live preview to confirm the layout, then **Save** the view.
   
 
 
-A well-planned layout improves adoption and helps teams move through contact records with less friction. Following a few simple best practices can make each custom view more useful and easier to maintain.
+Following a few simple best practices can make each custom view more useful and easier to maintain.
 
   
 
 
-  * Create separate views for teams such as Marketing, Sales, Support, and Admin.  
+  * Create separate views for Marketing, Sales, Support, and Admin, etc.  
   
 
 
@@ -578,7 +578,7 @@ No. Actions can remain in the left panel or move to the center panel, but they c
 
 **Q: Can I switch between two-panel and three-panel layouts?**
 
-Yes. Admins can switch between both layout options based on team needs.
+Yes. Admins can switch between both layout options based on needs.
 
   
 

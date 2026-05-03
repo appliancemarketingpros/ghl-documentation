@@ -11,7 +11,7 @@
   
 
 
-The **Pre-Built A2P Campaign (Widget-First)** registration flow is a structured campaign submission experience designed to:
+The **Quick Setup (** Pre-Built A2P Campaign) registration flow is a structured campaign submission experience designed to:
 
   * Improve compliance accuracy
 
@@ -47,9 +47,9 @@ By locking required compliance elements and auto-generating mandatory disclosure
   
 
 
-Users can now select **“Pre-Built Campaign (Chat Widget)”** when starting Campaign Registration in the Standard A2P flow.
+Users can now select **“Quick Setup”** when starting Campaign Registration in the Standard A2P flow.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066292343/original/mhMDBmtsMSDNbN5FrjQiOwy8ZpyzpK2t-g.png?1772721554)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068347197/original/_TzRHItSj4GNDEfvgKcqQoQCVZ3VFoWQNw.png?1775130286)
 
   
 
@@ -109,47 +109,37 @@ Option| Description
   
 
 
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066292545/original/4f7I2Fd6-vHHjTb7YyrGpwUx4TzKMHI37Q.png?1772721638)**
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068347327/original/HdjtIRW1tkzKPIn5WGJo2lp99t8TL9yEXg.png?1775130351)**
 
 ###   
 
 
 ### **Step 2: Use Case Selection**
 
+  
+
+
 The available use cases depend on the selected message type.
 
-#### If **Marketing / Promotional** is selected:
+#### If **Marketing / Promotional** is selected
 
-  * Only Marketing will be available.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066293348/original/rOr7djVCvi1tJ1A7ZSosefkilG92cQ53QA.png?1772721869)
+  * Only **Marketing** is available.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066293348/original/rOr7djVCvi1tJ1A7ZSosefkilG92cQ53QA.png?1772721869)
 
 
 #### If **Transactional/Non Marketing** is selected:
 
-Choose from:
-
-  * 2FA
-
-  * Account Notification
-
-  * Customer Care
-
-  * Delivery Notification
-
-  * Fraud Alert
-
-  * Higher Education
-
-  * Polling and Voting
-
-  * Public Service Announcement
-
-  * Security Alert![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066293409/original/aAb4tB0HoYlexX80saa8m_y6otO_bb8Dfw.png?1772721896)
+  * the system automatically assigns **Customer Care**.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068348315/original/ZR2MPyamENkPW5og0h4Bpj1V5rQquS2Pbw.png?1775130790)
 
 
   
 
 
-###  _**Why This Structure Matters**_
+For transactional Chat Widget campaigns, use case selection is not shown as a user choice.
+
+  
+
+
+### _**Why This Structure Matters**_
 
 This controlled selection process:
 
@@ -403,6 +393,63 @@ This helps prevent campaign submissions where the chat widget has **not yet been
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066857743/original/jD9yeaagMx-NiKaUvGgqZ_gB-Q-93x6p2A.png?1773392731)  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066857767/original/nj-FiiQ_hU6E95tOUuSf2eDryjr2ZAunSA.png?1773392745)
+
+  
+
+
+### **Additional compliance checks for Chat Widget campaigns**
+
+  
+
+
+The Pre-Built A2P Campaign (Widget-First) flow includes additional compliance checks to help reduce carrier rejections for Chat Widget campaigns.
+
+  
+
+
+**Chat Widget installation validation**
+
+  
+
+
+Before submission, HighLevel validates that the LeadConnector Chat Widget is present on the business website used in the registration flow.
+
+  
+
+
+**Compliance reminder when copying widget code**
+
+  
+
+
+When you copy the Chat Widget installation code, HighLevel reminds you that the chat widget must be the only SMS opt-in method on the website. Remove SMS consent checkboxes or disclosures from other website forms or flows before you continue.
+
+  
+
+
+**Website compliance checklist update**
+
+  
+
+
+The Business Website Compliance Checklist includes a confirmation that the chat widget is the only SMS opt-in method on the website and that other website forms or flows do not contain SMS consent checkboxes or disclosures.
+
+  
+
+
+**Required confirmation before submission**
+
+  
+
+
+Before you submit the campaign, you must confirm that:
+
+  
+
+
+the chat widget is the only SMS opt-in method on the website, and
+
+other website forms or flows do not include SMS consent checkboxes or disclosures.
 
 * * *
 

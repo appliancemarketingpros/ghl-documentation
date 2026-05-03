@@ -511,6 +511,34 @@ Feature| Use Case| Best Practice
   
 
 
+**Control Default Personal Calendar Creation**
+
+  
+
+
+Use the **Preloaded Example Data** setting to control whether new users added to sub-accounts receive an automatically created personal booking calendar.
+
+  
+
+
+  * When **Preloaded Example Data** is enabled, new users continue to receive a personal booking calendar automatically.  
+  
+
+  * When **Preloaded Example Data** is disabled, HighLevel does not create a personal booking calendar automatically for newly added users.  
+  
+
+  * This change applies only to users added after the setting is updated.
+  * Existing calendars are not changed.
+
+
+  
+
+
+This setting is useful for agencies that use snapshots, structured calendar setups, or team members who do not need personal calendars.
+
+  
+
+
 ### **1\. Enhanced Account Security**
 
   

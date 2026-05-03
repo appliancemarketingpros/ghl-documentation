@@ -184,7 +184,29 @@ The **Chat List Panel** is the second column in the Conversations layout. It dis
   
 
 
-## **3\. Message History Panel**
+The unread conversation count now updates in real time and remains visible across all tabs within the inbox.
+
+  
+
+
+  * The count updates instantly when new messages arrive    
+  
+
+  * It decreases immediately when conversations are marked as read    
+  
+
+  * The unread badge remains visible even when viewing tabs like “All” or “Mine” 
+
+
+  
+
+
+This eliminates the need to switch to the Unread tab to monitor new messages and helps teams respond faster.  
+  
+
+
+##   
+**3\. Message History Panel**
 
   
 
@@ -205,6 +227,9 @@ The Message History Panel is your main reading and reply area. It supports multi
 
 
 ![](https://jumpshare.com/share/uVrxwXvnC310lV8YGVsH+/Screen+Shot+2026-02-03+at+6.10.15+PM.png)
+
+  
+
 
   
 
@@ -525,7 +550,13 @@ No. Workflows and campaign triggers tied to Conversations continue to function a
 
 **Q: Where do I find Internal Comments and mentions?**
 
-Choose **Internal Comment** from the channel selector to add a private note and use **@mentions** to notify teammates.
+Choose **Internal Comment** from the channel selector to add a private note and use **@mentions** to notify teammates.  
+  
+
+
+**Q: Why is my unread conversation count different from before?**
+
+The unread counter now updates in real time and remains visible across all inbox tabs. Previously, the count only refreshed when switching tabs or performing actions, which could cause delays in updating.
 
 * * *
 

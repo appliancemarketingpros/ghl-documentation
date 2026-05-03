@@ -67,7 +67,7 @@ The Risk Assessment feature is designed to optimize your email marketing campaig
     
     
     **For LC Email Users:**  
-     The bulk email verification feature is exclusively available to LC users who have not already enabled the email verification feature.  
+     The bulk email verification feature is exclusively available to LC users   
       
     **For the Agency:**  
      This feature is specifically designed for use by the agency and is applicable to locations within the LC email system.

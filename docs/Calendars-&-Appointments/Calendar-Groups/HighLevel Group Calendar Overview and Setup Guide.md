@@ -82,7 +82,6 @@ Group Calendars help you streamline your appointment booking workflows by:
   3. Click on the **Create Group** button.  
   
 ![](https://jumpshare.com/v/nOoenAOqpMgwEMImXQtH+/Screen+Shot+2025-05-30+at+7.06.34+PM.png)  
-  
 
 
 ### _**Step 2:**__Adding a New Calendar Group_
@@ -136,6 +135,15 @@ After creating the Group Calendar, a popup box will appear with two options:
     
     **Note:** If no calendars appear, ensure you’ve created individual calendars beforehand.  
     
+
+  
+
+    
+    
+    Tip: If you click **Save changes** ** and a required field is missing, HighLevel takes you to the field automatically. It scrolls to the error in the current tab or opens the correct tab if the error is somewhere else.
+
+  
+
 
 * * *
 

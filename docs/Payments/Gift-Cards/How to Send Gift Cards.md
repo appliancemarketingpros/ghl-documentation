@@ -213,12 +213,16 @@ You can deliver the gift card through any _one_ available methods:
 
 
   * **Email**  
+  
 
 
   * **SMS**  
+  
 
 
-  * **QR Code (via email)**
+  * **QR Code (via email)**  
+  
+
 
   * **PDF (via email)**  
   
@@ -267,10 +271,18 @@ You can either:
   1. Before confirming, **review** the **automatically generated email or SMS preview**. This includes:  
   
 
-     * Gift Card Amount
-     * Custom Message
-     * Expiry Date
-     * Redemption Instructions
+     * Gift Card Amount  
+  
+
+     * Custom Message  
+  
+
+     * Expiry Date  
+  
+
+     * Redemption Instructions  
+  
+
      * Artwork  
   
 
@@ -390,19 +402,33 @@ Once sent, the gift card appears under:
   
 
 
-  * Recipient details
+  * Recipient details  
+  
 
-  * Delivery method
 
-  * Delivery timestamp
+  * Delivery method  
+  
 
-  * Denomination
 
-  * Expiry
+  * Delivery timestamp  
+  
 
-  * Remaining balance
 
-  * Status: Scheduled, Active, Inactive
+  * Denomination  
+  
+
+
+  * Expiry  
+  
+
+
+  * Remaining balance  
+  
+
+
+  * Status: Scheduled, Active, Inactive  
+  
+
 
   * Hidden gift card code  
 
@@ -418,18 +444,23 @@ Once sent, the gift card appears under:
 
 
   * Send flow works **only in Live Mode.**  
+  
 
 
   * You can send **1 gift card to 1 customer at a time.**  
+  
 
 
   * No payment is collected in the Send flow.  
+  
 
 
   * Directly sent gift cards **do not appear** in Payments → Orders (no order, no transaction).  
+  
 
 
   * Gift Cards issued via Send are fully redeemable everywhere - both fully and partially.  
+  
 
 
   * You must have the customer's email or phone number for delivery.

@@ -93,11 +93,17 @@ Custom Reports allow you to build and schedule tailored reports, perfect for sha
 
 ### **Step 5: Adding Widgets,Sections and Themes:**
 
-  * Once your cover page is set, click the + icon on the left to begin adding widgets.
+  * Once your cover page is set, click the + icon on the left to begin adding widgets.  
+  
 
-  * From the widget sidebar, upload or customize the widgets you want to include in the report.
 
-  * Use the Elements Menu to add titles and organize your report into sections for easy readability.
+  * From the widget sidebar, upload or customize the widgets you want to include in the report.  
+  
+
+
+  * Use the Elements Menu to add titles and organize your report into sections for easy readability.  
+  
+
 
   * Switch to the Themes section to configure one of the predefined themes or add your own custom theme to the report
 
@@ -113,8 +119,9 @@ Custom Reports allow you to build and schedule tailored reports, perfect for sha
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035055538/original/uaL0URUopHhC5wDig5wPB48i9pVXWzb73Q.png?1729478707)
+  * To see a list of all pages, click the Page Icon.  
+  
 
-  * To see a list of all pages, click the Page Icon.
 
   * Drag and drop pages to reorder them and rename them as needed for better organization.
 
@@ -145,21 +152,37 @@ Custom Reports allow you to build and schedule tailored reports, perfect for sha
 
 ### **Step 9: Configure Your Report’s Schedule and Delivery:**
 
-  * Frequency: Set how often the report should be sent (daily, weekly, etc.).
+  * Frequency: Set how often the report should be sent (daily, weekly, etc.).  
+  
 
-  * Time: Select the exact time for the report to be delivered.
 
-  * Date Range: Choose the data period to be included in the report.
+  * Time: Select the exact time for the report to be delivered.  
+  
 
-  * Toggle "Widget-Level Date Settings": If enabled, widgets with custom date ranges and comparisons will retain those settings in the emailed report.
 
-  * Comparison Trends: Toggle the "Compare With" option to add trends and comparison data.
+  * Date Range: Choose the data period to be included in the report.  
+  
 
-  * Sender Email: Customize the email address the report will be sent from.
 
-  * Subject: Add a subject line for the report email.
+  * Toggle "Widget-Level Date Settings": If enabled, widgets with custom date ranges and comparisons will retain those settings in the emailed report.  
+  
 
-  * Recipients: Enter the recipients' email addresses.
+
+  * Comparison Trends: Toggle the "Compare With" option to add trends and comparison data.  
+  
+
+
+  * Sender Email: Customize the email address the report will be sent from.  
+  
+
+
+  * Subject: Add a subject line for the report email.  
+  
+
+
+  * Recipients: Enter the recipients' email addresses.  
+  
+
 
   * Optional Email Body: Add a custom message if needed.
 
@@ -168,6 +191,49 @@ Custom Reports allow you to build and schedule tailored reports, perfect for sha
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035055549/original/lBoGoTRg-viTXQNBGh5jjtfyg7ujRHoNHw.png?1729478745)
 
+
+  
+
+
+#### **Saved values, comparison behavior, and email snapshots**
+
+  
+
+
+Custom reports follow the same persistence logic as dashboards.  
+  
+
+
+  * Report-level date ranges and saved filter values persist after you save the report.  
+  
+
+  * When the report creator clicks **Save** , saved dropdown values update for users who access that report.  
+  
+
+  * You can set a report-level comparison date range for general widgets.  
+  
+
+  * If a widget has its own comparison date range, the widget-level setting overrides the report-level comparison.
+
+
+  
+
+
+**Email sharing uses a snapshot of the report values at the time the email is generated.**
+
+  
+
+
+  * Sent emails keep the values that were active when the email was created.  
+  
+
+  * Later changes to the report do not update emails that were already sent.
+
+
+  
+
+
+Note: Widget-level date settings can still differ from the report-level date range.
 
   
 

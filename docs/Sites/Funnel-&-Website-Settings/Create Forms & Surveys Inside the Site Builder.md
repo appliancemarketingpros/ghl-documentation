@@ -159,6 +159,93 @@ The right sidebar of the Form/Survey Builder centralizes design and behavior con
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056145461/original/toH27fwqCzknwNrKLilrLojIYwSUwsNC_w.png?1760618003)
 
+  
+
+
+### **Updated default styling in the builder**
+
+  
+
+
+Forms and Surveys now use a refreshed default theme in the builder.
+
+  
+
+
+You may notice:
+
+  * clearer empty states when a page or component has no content,  
+  
+
+  * more polished styling for inputs like checkboxes, radio buttons, and monetary fields,  
+  
+
+  * improved visual consistency across placeholders, labels, and other supported elements.
+
+
+  
+
+
+These updates apply automatically to the default theme and supported components.
+
+* * *
+
+## **Localization in Form and Survey Builders**
+
+  
+
+
+HighLevel automatically adapts the Form and Survey Builder interface based on your account’s selected language. This ensures a consistent and accessible experience for users working in different languages.
+
+  
+
+
+### **What is Localized**
+
+  
+
+
+The following interface elements are automatically translated using system-defined translation keys:
+
+  
+
+
+Form labels, button text, and instructional messages  
+  
+
+
+Payment footer messaging, including secure payment notices   
+
+
+Product empty state messages (such as “No products added yet”)   
+  
+
+
+Labels and tooltips in both General and Advanced settings panels 
+
+  
+
+
+### **How It Works**
+
+  
+
+
+Localization is controlled by your account’s language settings. Once a language is selected, all supported UI text within the builders updates automatically. No additional configuration is required.
+
+  
+
+
+## **Important Notes**
+
+  
+
+
+\- This applies only to the builder interface, not to custom text you enter inside forms or surveys  
+
+
+\- Available translations depend on supported languages within HighLevel 
+
 * * *
 
 ## **How To Set Up Forms & Surveys in Funnel & Website Builder**
@@ -174,7 +261,9 @@ Proper setup ensures you can create or reuse assets quickly, customize them in c
   1. **_Open the Builder (Funnel or Website):_**_  
 _  
 From**Funnel Builder** : Open your funnel → select a step → enter the editor.  
+  
 From **Website Builder** : Open your website → choose a page → enter the editor.  
+  
 **Note:** The Forms & Surveys experience is also available in Webinar and E‑commerce Store builders.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056142567/original/0mJmKU9rEJPdqO2vviPfJY02sF1aeGuzXg.gif?1760616761)  
@@ -184,6 +273,7 @@ From **Website Builder** : Open your website → choose a page → enter the edi
   2. **_Open Your Forms & Surveys (left sidebar):_**  
   
 Choose **Create New** (build from scratch), Choose any **Prebuilt Form/Survey Categories** or **Add Existing** (launch the **Form Picker**).  
+  
 **D****rag-and-drop** a new or existing form into your funnel  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056142777/original/l4kPmff0Yj0B3ExIkzLNd0yale-Y1TQmgQ.png?1760616823)  

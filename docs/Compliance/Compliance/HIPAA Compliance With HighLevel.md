@@ -228,9 +228,15 @@ With server-side encryption, Google manages the cryptographic keys on your behal
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060657881/original/sCbjRLjdi61rmmtE8fduaYJ3eISn6JzdOA.png?1765817349)  
   
 
-  7. Once the subscription is completed, you will be prompted to review and sign the Business Associate Agreement (BAA) directly within HighLevel’s Documents & Contracts system — no external tools are required.  
+  7. Once the BAA is signed, the HIPAA Compliance Package is activated at the agency level. Agency Owners must then manually enable HIPAA for each sub-account in **Advanced Settings** to complete the final hardening step for that location.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060658154/original/WDD1J4EnBJrnT7o7RdOOMc-_qhS-5uQ1WQ.png?1765817574)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068202568/original/9ExdezcGdrrbdqCGaVM2PUGusFwGc6VXDg.jpeg?1775011123)**  
+**
+  8. **Enable HIPAA for each sub-account:** After signing the BAA, go to **Sub-Accounts > Your Sub-Account > Advanced Settings** and turn the **HIPAA** toggle **ON** for each sub-account that requires HIPAA protection. Once enabled, this setting cannot be turned off.  
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068305726/original/95FuR2lbEx3sz9rlUkY_d96-v8lcAXzmlA.png?1775095378)
 
 
 * * *
@@ -358,7 +364,7 @@ No. All HIPAA-related documents are now generated and managed directly within Hi
   
 **Q: Do I need to manually enable HIPAA after signing the BAA?**
 
-No. HIPAA compliance is automatically activated once the BAA is signed.
+Yes. After the BAA is signed, Agency Owners must manually enable HIPAA for each sub-account by going to **Sub-Accounts > [Location] > Advanced Settings** and turning the **HIPAA** toggle **ON**.
 
   
 **Q: Can I edit signer details on the BAA?**

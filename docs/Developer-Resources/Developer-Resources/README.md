@@ -6,7 +6,7 @@
 
 - [HighLevel API Documentation](HighLevel API Documentation.md)
 - [How to Use Webhook.site to Troubleshoot your API Requests](How to Use Webhook.site to Troubleshoot your API Requests.md)
-- [How to get started with the Developer's Marketplace](How to get started with the Developer's Marketplace.md)
+- [How to Get Started with the Developer's Marketplace](How to Get Started with the Developer's Marketplace.md)
 - [Set Up Your MarketplacApp Pricing](Set Up Your MarketplacApp Pricing.md)
 - [Configure Marketplace App Listing Type](Configure Marketplace App Listing Type.md)
 - [Marketplace App Distribution Type](Marketplace App Distribution Type.md)
@@ -16,6 +16,7 @@
 - [API - Security Initiatives](API - Security Initiatives.md)
 - [How to reconnect broken Marketplace Apps?](How to reconnect broken Marketplace Apps.md)
 - [Developer Guide for selling Web-Widgets on the App Marketplace](Developer Guide for selling Web-Widgets on the App Marketplace.md)
+- [How do I test my draft/private Marketplace app on HighLevel?](How do I test my draftprivate Marketplace app on HighLevel.md)
 - [Listing Conversation AI and Voice AI Templates on the Marketplace](Listing Conversation AI and Voice AI Templates on the Marketplace.md)
 - [Marketplace: App Uninstall API](Marketplace App Uninstall API.md)
 - [Developer Guide to HighLevel’s Webhook Logs Dashboard](Developer Guide to HighLevel’s Webhook Logs Dashboard.md)

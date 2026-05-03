@@ -8,14 +8,16 @@
 
 To help you maintain a cohesive brand experience, we’ve introduced a feature that lets you easily customize system email templates within your agency account. Now, you can tailor Welcome, Password Reset, and Verification emails to match your brand’s identity.
 
+  
+
+
 This guide covers everything you need to know about changing system email templates in your agency account.  
-  
 
 
-  
+* * *
 
+### **What All Can Be Done?**  
 
-### **What all can be done?:**
 
   * **Customizable Templates** : Modify Welcome, Password Reset, and Verification emails to better reflect your brand language.  
   
@@ -24,9 +26,9 @@ This guide covers everything you need to know about changing system email templa
   
 
   * **Easy Access and Management** : Manage email templates directly from your Agency Settings  
-  
-  
 
+
+* * *
 
 ## **How to Use It?**
 
@@ -47,7 +49,6 @@ This guide covers everything you need to know about changing system email templa
 
 
 ###   
-  
 _**Step 2:** Modify an Existing Template_
 
   1. Find the email template you wish to change (e.g., Welcome Email, Password Reset Email, Verification Email).  
@@ -64,10 +65,35 @@ _**Step 2:** Modify an Existing Template_
 
   5. **Choose the Template** : Click on the template you want to edit and select **Change** to start modifying it.  
   
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155040877368/original/y2zAjg016h-LeVMx9S57nnu17CvCJ-IJgg.png?1738563300)
 
 
-###   
+  
+  
+
+
+### **Template validation and Automatic Fallback**
+
+If the system detects an error in the selected or customized System Email template that would prevent the email from sending, HighLevel automatically sends the email using the default system template instead.
+
+**What to Expect:**
+
+  * The email still sends (delivery does not fail because of a broken template).  
+
+
+  * The default system template is used only when the selected template contains send-blocking errors.  
+
+
+  * Fix the selected template to restore your customized content on future sends.
+
+
+    
+    
+    Tip: If your branding or merge fields do not appear as expected in a System Email, review the selected template for invalid or unsupported fields.
+    
+
+  
 
 
   
@@ -125,7 +151,7 @@ If you’d like to undo a change, you can go back to the template editor and eit
   
 
 
-**Q:******Can I pre** view my email changes before sending?**
+**Q:****Can I preview my email changes before sending?**
 
 Yes! You can preview your email changes before applying them using test email or preview feature of email builder
 

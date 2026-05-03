@@ -16,3 +16,4 @@
 - [Workflow Trigger – Service Booking (Services v2)](Workflow Trigger – Service Booking (Services v2).md)
 - [Taxes and Processing Fees for Services (v2)](Taxes and Processing Fees for Services (v2).md)
 - [Manage Service Appointments in the Appointment Modal](Manage Service Appointments in the Appointment Modal.md)
+- [Coming Soon: Services (v2) – Reporting Guide](Coming Soon Services (v2) – Reporting Guide.md)

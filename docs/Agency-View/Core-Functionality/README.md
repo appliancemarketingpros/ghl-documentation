@@ -11,3 +11,4 @@
 - [Prospecting Tool - Customize and Reorder Your Report Sections!](Prospecting Tool - Customize and Reorder Your Report Sections!.md)
 - [How to Customize Your Prospect Report Layout](How to Customize Your Prospect Report Layout.md)
 - [Step by Step how to generate Prospects by AI](Step by Step how to generate Prospects by AI.md)
+- [Service Area Businesses in Prospecting: Search, Audit, and Generate Heatmaps](Service Area Businesses in Prospecting Search, Audit, and Generate Heatmaps.md)

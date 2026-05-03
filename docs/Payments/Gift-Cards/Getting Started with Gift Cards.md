@@ -172,9 +172,15 @@ Fill in the Basic Information details. Key attributes include (but are not limit
   
 
 
-  * Name and description
-  * Terms & Conditions
-  * Expiry date for the Gift Card Product (applies to all Gift Card Orders for this product)
+  * Name and description  
+  
+
+  * Terms & Conditions  
+  
+
+  * Expiry date for the Gift Card Product (applies to all Gift Card Orders for this product)  
+  
+
   * URL to redemption instructions
 
 
@@ -698,9 +704,6 @@ These insights help you understand customer behavior, track gift card adoption, 
     For a detailed breakdown of each metric, chart type, and how to interpret this data, read the full Gift Card Dashboard guide here: [How to Track Gift Card Performance (Analytics and Metric tracking)](<https://help.gohighlevel.com/en/support/solutions/articles/155000006981>)
 
   
-
-
-  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155058727853/original/57IAR4a0G5LaEr8nS129MPNLl6qPUy8qCA.png?1763547502)
 
   
@@ -755,7 +758,17 @@ The gift card order details page acts as the single source of truth for all Gift
   
 
 
-  3. The balance displays automatically.
+  3. The gift card is applied and displays:  
+  
+
+
+     * ___Gift card applied:_ amount used from the gift card  
+  
+
+     *  _Remaining gift card balance:_ amount left in the gift card after redemption  
+  
+
+     *  _Amount left to pay:_ amount left to be paid that’s not covered by the gift card (field only visible if additional payment is required)
 
 
   
@@ -770,14 +783,15 @@ The gift card order details page acts as the single source of truth for all Gift
     
     Gift Card redemption is **fully supported with Stripe, NMI, Authorize and Square**. However, There is **limited support for gift card redemption for providers like PayPal, Adyen and custom payment providers**. In case of the latter, gift cards can be redeemed on the checkout if the gift card balance fully covers the order/invoice total and the order/invoice does not contain any recurring or subscription product. If gift card cannot cover the full total or if the total has a recurring product, customer cannot redeem the gift card for the purchase.
 
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069536421/original/PMdD08Le4KICncAfPq3LVJlrRJxPH7YH8g.png?1776701677)
 
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155058728376/original/1W3uX7UCRPze92xeJ-uFrK0io20wF064sQ.png?1763547714)  
   
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065710192/original/Du5YQPa9et_R1bycmhdXWgvGuFTN_IwMyw.png?1772035743)
+
+  
+
 
   
 

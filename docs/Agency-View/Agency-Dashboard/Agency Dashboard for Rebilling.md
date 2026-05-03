@@ -6,69 +6,68 @@
 
 ---
 
-The **Agency Dashboard – Rebilling tab** provides agencies with a centralized financial reporting view for rebilled services inside HighLevel. It allows you to monitor revenue, track vendor costs, measure profitability, analyze product-level performance, and review financial growth trends over time.
+The Agency Dashboard – Rebilling tab provides a centralized view of your agency’s rebilling activity in HighLevel. It helps you track revenue, monitor vendor costs, and review overall financial performance across sub-accounts and services.
 
   
 
 
-You can filter financial data by sub-account, product category, and date range to generate accurate and actionable insights.
-
-  
-
-
-> **Important:**
-
-> The dashboard displays data for the most recent six (6) months only.
-
-> Negative revenue may appear due to subscription cancellations or prorated adjustments within the selected date range.
+You can filter data by sub-account, product category, and date range to analyze performance and trends.
 
 * * *
 
 **TABLE OF CONTENTS**
 
-    * Accessing the Rebilling Dashboard
-    * Main Dashboard Overview
-    * Filtering Your Data
-    * Product Filter
-    * Date Range Filter
-    * Filters and Controls
-    * Key Metrics and Reporting Widgets
-    * Include Only Rebilled Transactions
-    * Reselling Reporting Layout (Usage vs Subscription products)
-    * Understanding Financial Metrics
-    * Distribution Reports
-    * Growth Reports
-    * Example Walk-Through
-    * Frequently Asked Questions
-    * Related Articles
+  * Important
+  * Accessing the Rebilling Dashboard
+  * Main Dashboard Overview
+  * Filtering Your Data
+  * Filters and Controls
+  * Key Metrics and Reporting Widgets
+  * Include Only Rebilled Transactions
+  * Reselling Reporting Layout
+  * Understanding Financial Metrics
+  * Distribution Reports
+  * Growth Reports
+  * Example Walk-Through
+  * Understanding Exported Data and Profit Breakdown
+  * Frequently Asked Questions
+  * Related Articles
 
 
 * * *
 
-## **Accessing the Rebilling Dashboard**
+## **Important**  
+  
+
+
+  * The dashboard displays data for the most recent **six (6) months only**  
+  
+
+
+  * Negative revenue may appear due to **cancellations, refunds, or prorated adjustments**
+
+
+* * *
+
+## **Accessing the Rebilling Dashboard**  
+  
+
+
+  1. Log in to **Agency View**  
+  
+
+
+  2. Click **Agency Dashboard** from the left navigation  
+  
+
+
+  3. Select the **Rebilling** tab
+
 
   
 
 
-To access the dashboard:  
-  
-
-
-  1. Log in to **Agency View**.  
-  
-
-
-  2. Click **Agency Dashboard** from the left navigation.  
-  
-
-
-  3. Select the **Rebilling** tab.
-
-
-  
-
-
-This opens the complete financial reporting interface for rebilling activity.
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069833697/original/ec-D3l-cQXSAC6XTYjlKJSmqYSyIyj1hOg.png?1776973835)
 
 * * *
 
@@ -77,11 +76,47 @@ This opens the complete financial reporting interface for rebilling activity.
   
 
 
-The Rebilling Dashboard provides a full financial snapshot of your agency’s rebilling performance. At the top, you will find filters for Sub-account, Product, and Date Range, along with a toggle to include only rebilled transactions. Below the filters, summary cards display Total Revenue, Total Cost, and Total Profit. The lower sections provide distribution charts and growth reports for deeper financial analysis.  
+The Rebilling Dashboard provides a high-level summary of your financial performance.
+
   
 
 
-### **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065222027/original/zQczAxOYPSY5UrrHVecxcOhLaB4lLqrr_A.png?1771478505)**
+At the top:  
+  
+
+
+  * Sub-account filter  
+  
+
+
+  * Product filter  
+  
+
+
+  * Date range selector  
+  
+
+
+  * “Include only rebilled transactions” toggle
+
+
+  
+
+
+Below:  
+  
+
+
+  * Summary cards for **Revenue, Cost, and Profit**  
+  
+
+
+  * Distribution charts  
+  
+
+
+  * Growth charts
+
 
 * * *
 
@@ -90,116 +125,175 @@ The Rebilling Dashboard provides a full financial snapshot of your agency’s re
   
 
 
-Filtering allows you to narrow financial reporting based on specific accounts, products, or time periods.
+Filtering allows you to refine results by account, product, or time period.
 
 ###   
-**Sub-account Filter**
+**Sub-account Filter**  
+  
+
+
+  * Search and select one or more sub-accounts  
+  
+
+
+  * Apply or clear selections as needed  
+  
+
+
+  * Multiple selections combine data across accounts
+
 
   
 
 
-The **Sub-account** dropdown allows you to filter results by one or multiple client accounts. This helps isolate financial performance for specific businesses under your agency.
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069833704/original/Pv4LFz6czng1Ua6CNFR3zMPekQZOqn-jHQ.png?1776973873)
+
+###   
+**Product Filter**
 
   
 
 
-You can search by name, select multiple accounts, apply the filter, or clear selections to reset results.  
+Filter by service category such as:  
   
 
 
-_![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065222161/original/vDyd-CAN707ElAEY4RKkyrnXkUhW89g4vA.png?1771478937)_  
-When multiple accounts are selected, the dashboard updates to reflect the combined financial activity of those selected sub-accounts.
+  * Phone  
+  
+
+
+  * Email  
+  
+
+
+  * WhatsApp  
+  
+
+
+  * LC Premium Triggers & Actions  
+  
+
+
+  * AI Products
+
 
   
 
 
-### **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065222137/original/feRuqY9MI9NIuG3vhMAAEcMqk67o9ed4QA.png?1771478893)**
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069833734/original/2wHt2Kbe6qDz2Zvu15J94ucYTempn4kIJw.png?1776973919)
+
+###   
+**Date Range Filter**  
+  
+
+
+  * Select a custom date range  
+  
+
+
+  * Click **Confirm** to apply
+
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069833797/original/OndPVRzvFuAxKfI9248YQZkUqIFpE2Dxvw.png?1776974015)
 
 * * *
 
-## **Product Filter**
+## **Filters and Controls**  
+  
+
+
+Use the following controls:  
+  
+
+
+  * Sub-account filter  
+  
+
+
+  * Product filter  
+  
+
+
+  * Date range  
+  
+
+
+  * Include only rebilled transactions toggle  
+  
+
+
+  * Export  
+  
+
+
+  * Refresh
+
 
   
 
 
-The **Product** dropdown allows you to filter revenue, cost, and profit data by service category. This enables agencies to evaluate financial performance by product type, such as Phone, Email, WhatsApp, LC Premium Triggers & Actions, or AI Products.
+These controls directly impact how totals are calculated and displayed.
 
   
 
 
-Selecting specific products helps identify which services generate the most revenue and which incur the highest costs.  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065222121/original/4Iflw_9i8Hqhg8CK2epJNQFp7Sggi26fhQ.png?1771478851)
-
-* * *
-
-## **Date Range Filter**
-
-  
-
-
-The date selector allows you to define a custom reporting period. You can select a start and end date to analyze financial performance within a specific timeframe.
-
-  
-
-
-After selecting the desired range, click **Confirm** to apply the filter and refresh the dashboard results.  
-  
-
-
-### **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065222091/original/f0HR2cca7Z7sqyYJrYF6XPiQHBlDQbKwAA.png?1771478780)**
-
-* * *
-
-## **Filters and Controls**
-
-  
-Use filters and controls to focus your reporting:  
-  
-
-
-  * **Sub-account** filter  
-  
-
-
-  * **Product** filter  
-  
-
-
-  * **Date range**  
-
-
-  * **Include only rebilled transactions** toggle (shows only successfully rebilled transactions when enabled)  
-  
-
-
-  * **Export**  
-
-
-  * **Refresh**
-
-
-  
-The “Include only rebilled transactions” toggle affects whether absorbed (non-rebilled) usage costs appear in calculations.
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069833802/original/uWbsDQULACjojG3DPDFjM2XhWNDP5yvRCQ.png?1776974038)
 
 * * *
 
 ## **Key Metrics and Reporting Widgets**
 
   
-Usage Products includes:  
+
+
+### **Summary Cards**  
   
 
 
-  * Summary: **Total Rebilled Revenue** , **Total Cost** , **Total Profit**  
+  * Total Rebilling Revenue  
   
 
 
-  * Distribution: **Revenue Distribution** , **Cost Distribution** , **Profit Distribution** (by product)  
+  * Total Cost  
   
 
 
-  * Trends: **Revenue Growth** and **Profit Growth** over time (product-level)
+  * Total Profit
+
+
+  
+
+
+### **Charts**  
+  
+
+
+  * Revenue Distribution  
+  
+
+
+  * Cost Distribution  
+  
+
+
+  * Profit Distribution
+
+
+  
+
+
+### **Trends**  
+  
+
+
+  * Revenue Growth  
+  
+
+
+  * Profit Growth
 
 
 * * *
@@ -209,60 +303,65 @@ Usage Products includes:
   
 
 
-The **Include only rebilled transactions** toggle ensures that calculations reflect only transactions that were successfully charged to clients.
+When enabled:  
+  
+
+
+  * Only successfully charged transactions are included
+
 
   
 
 
-When enabled, financial totals exclude non-rebilled usage costs. When disabled, usage costs that were not billed to clients may still appear in calculations.
+When disabled:  
+  
+
+
+  * Costs that were not rebilled may appear
+
 
   
 
 
-For accurate profitability reporting, this toggle should be enabled.
+For accurate profit analysis, keep this enabled.
 
 * * *
 
+## **Reselling Reporting Layout**
+
+  
+
+
+The dashboard separates:  
   
 
 
-## **Reselling Reporting Layout (Usage vs Subscription products)**
-
-  
-The Rebilling/Reselling reporting view is organized into two sections:  
+  * **Usage Products** → Pay-as-you-go services  
   
 
 
-  * **Usage Products:** Reporting for usage-based services you rebill to sub-accounts.  
-  
-
-
-  * **Subscription Products:** Reporting for subscription-based services you resell to sub-accounts.
+  * **Subscription Products** → Recurring services
 
 
 * * *
 
 ## **Understanding Financial Metrics**
 
+  * **Revenue:** Amount charged to clients  
   
 
 
-The dashboard provides three key financial summary cards:
-
+  * **Cost:** Amount charged by vendors  
   
 
 
-**Total Rebilling Revenue** represents the total amount charged to clients during the selected period.
+  * **Profit:** Revenue minus Cost
 
-  
-
-
-**Total Cost** represents vendor or usage costs incurred during the selected timeframe.
 
   
 
 
-**Total Profit** is calculated as Total Rebilling Revenue minus Total Cost and reflects gross profit for the filtered data.
+> Profit = Revenue – Cost
 
 * * *
 
@@ -271,12 +370,21 @@ The dashboard provides three key financial summary cards:
   
 
 
-Distribution charts provide a visual breakdown of revenue, cost, and profit across product categories. These charts display percentage contributions per product, allowing agencies to identify high-performing services and cost-intensive categories.
+These charts show how revenue, cost, and profit are distributed across products.
 
   
 
 
-Revenue Distribution shows where income is generated, Cost Distribution shows where expenses are incurred, and Profit Distribution reflects margin allocation by product.
+They help identify:  
+  
+
+
+  * High-performing services  
+  
+
+
+  * High-cost services
+
 
 * * *
 
@@ -285,53 +393,150 @@ Revenue Distribution shows where income is generated, Cost Distribution shows wh
   
 
 
-Growth reports track financial performance over time.
-
+Growth charts track performance over time.  
   
 
 
-**Revenue Growth** displays revenue trends across the selected date range and allows comparison by product.
-
+  * Revenue Growth → income trends  
   
 
 
-**Profit Growth** displays profit trends after deducting costs, helping agencies evaluate margin performance and financial trajectory.
+  * Profit Growth → margin trends
 
-  
-
-
-Hovering over chart points reveals exact values for specific dates.
 
 * * *
 
-## **Example Walk-Through**  
-  
-
-
-Assume that during October your agency generated $10,000 in Phone revenue and $5,000 in Email revenue, resulting in total revenue of $15,000. During the same period, Phone costs were $8,000 and Email costs were $3,000, resulting in total costs of $11,000.
+## **Example Walk-Through**
 
   
 
 
-The dashboard would display:
+Example scenario:  
+  
+
+
+  * Revenue: $15,000  
+  
+
+
+  * Cost: $11,000  
+  
+
+
+  * Profit: $4,000
+
+
+* * *
+
+## **Understanding Exported Data and Profit Breakdown**
 
   
 
 
-Total Rebilling Revenue: $15,000  
+The dashboard shows **aggregated data** , while exports contain **raw transaction-level data**. This difference can make exported files harder to interpret.
+
+###   
+**Why Exported Data Feels Generalized**  
   
 
 
-Total Cost: $11,000  
+  * Data is not pre-grouped  
   
 
 
-Total Profit: $4,000
+  * Profit may not appear as a column  
+  
+
+
+  * Multiple rows may exist per client or service
+
+
+###   
+**Key Fields in Exported Data**  
+  
+
+
+  * Charge (Revenue)  
+  
+
+
+  * Usage Cost (Cost)  
+  
+
+
+  * Location (Sub-account)  
+  
+
+
+  * Service/Product  
+  
+
+
+  * Date
+
+
+###   
+**How to Calculate Profit**  
+  
+
+
+  1. Open the CSV in Excel or Google Sheets  
+  
+
+
+  2. Locate Charge and Usage Cost  
+  
+
+
+  3. Add a new column: **Profit**  
+  
+
+
+    
+    
+    Profit = Charge – Usage Cost
+
+###   
+**How to Analyze Profit**
 
   
 
 
-The distribution charts would reflect the percentage split between Phone and Email, and the growth charts would compare this performance to previous months within the selected date range.
+Use a Pivot Table:  
+  
+
+
+  * Rows → Location  
+  
+
+
+  * Columns → Service  
+  
+
+
+  * Values → Charge and Cost
+
+
+  
+
+
+Then calculate profit from totals.
+
+###   
+**Important Limitations**  
+  
+
+
+  * Profit is not always pre-calculated  
+  
+
+
+  * Data may require grouping  
+  
+
+
+  * Export totals may differ from dashboard if filters differ
+
 
 * * *
 
@@ -342,51 +547,49 @@ The distribution charts would reflect the percentage split between Phone and Ema
 
 **Q: How is Total Profit calculated?**
 
-Total Profit is calculated by subtracting Total Cost from Total Rebilling Revenue and reflects the selected sub-accounts, products, date range, and rebilled-only toggle settings.
+Profit = Revenue – Cost
 
   
 
 
 **Q: Why does my dashboard show negative revenue?**
 
-Negative revenue may appear when subscription cancellations, prorated adjustments, or refunds occur within the selected date range, temporarily reducing revenue totals.
+Due to refunds, cancellations, or adjustments
 
   
 
 
-**Q: Why don’t my numbers match my Stripe payouts?**
+**Q: Why don’t numbers match Stripe payouts?**
 
-The Rebilling Dashboard reflects usage charges and calculated profit but does not include Stripe processing fees, payout timing differences, or manual refunds processed outside the platform.
+Stripe fees, timing, and external refunds are not included
 
   
 
 
-**Q: Why can’t I see data older than six months?**
+**Q: Why only six months of data?**
 
-The Rebilling Dashboard only displays financial data for the most recent six months. Older data must be accessed through your billing provider or accounting system.
+This is a system limitation
 
   
 
 
 **Q: What happens if I disable “Include only rebilled transactions”?**
 
-When disabled, usage costs that were not billed to clients may be included in calculations. When enabled, only successfully rebilled transactions are reflected.
+Non-rebilled costs may be included
 
 * * *
 
 ## **Related Articles**
 
+  * [Rebilling, Reselling, and Wallets Explained](<https://help.gohighlevel.com/en/support/solutions/articles/155000002095>)  
   
 
 
-[Rebilling, Reselling, and Wallets Explained](<https://help.gohighlevel.com/en/support/solutions/articles/155000002095>)  
-  
-
-
-[Agency Dashboard – Summary Tab](<https://help.gohighlevel.com/en/support/solutions/articles/155000007327>)  
+  * [Agency Dashboard – Summary Tab](<https://help.gohighlevel.com/en/support/solutions/articles/155000007327>)
 
 
   
+
+
 |   
-  
 ---|---

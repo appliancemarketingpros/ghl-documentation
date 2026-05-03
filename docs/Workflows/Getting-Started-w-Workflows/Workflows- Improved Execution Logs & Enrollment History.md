@@ -272,7 +272,24 @@ Both the Enrollment History and Execution Logs tabs now support pagination. User
   * Click on the "Highlight Contact Path" icon in the Enrollment History tab or in Execution History.  
   
 
-  * On clicking the icon, the builder will open and the path will be highlighted that the contact has taken in the workflow.
+  * On clicking the icon, the builder will open and the path will be highlighted that the contact has taken in the workflow.  
+  
+
+  * Highlight Contact Path now adds more context directly on the workflow canvas so you can debug faster:
+
+  
+**Error Visibility:** Nodes where an error occurred are highlighted on the canvas.
+
+**Skipped Nodes:** See which nodes the contact bypassed during the run.
+
+  
+**Entry and Exit Status:** Visual indicators show when the contact entered and exited the workflow.
+
+  
+**In-progress Tracking:** See when a contact is still actively moving through the workflow.
+
+
+  
 
 
   
@@ -307,6 +324,7 @@ Both the Enrollment History and Execution Logs tabs now support pagination. User
 
 
   
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035085033/original/MiJgRANTk1L7WzVJPdedbqRLwsM4TKJqwg.png?1729506689)
@@ -315,7 +333,8 @@ Both the Enrollment History and Execution Logs tabs now support pagination. User
 
 ## **Date and Time Enhancements**
 
-### **Date Format Update**
+###   
+**Date Format Update**
 
   
 
@@ -385,10 +404,18 @@ The "**Executed On** " field in the execution logs now includes the timezone in 
 
 
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035085635/original/iQjaqqF_59rsUk3QOE157DcP9VQOXAcZOQ.jpeg?1729507000)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035085635/original/iQjaqqF_59rsUk3QOE157DcP9VQOXAcZOQ.jpeg?1729507000)
+
+  
+
+
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035085794/original/0BAtRW-9sVVtqOib5bMpmN4VXon5sNfP9Q.png?1729507112)
+
+  
+
 
   
 
@@ -417,7 +444,19 @@ The "**Executed On** " field in the execution logs now includes the timezone in 
 
 
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035085183/original/dm7BMkqrQPAE8Azj_VncUC_TWDltXWBjLg.jpeg?1729506748)![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035086043/original/VaQUQ4l5VQgekNWF-omxx_9OYOom_Xpkaw.png?1729507251)![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035086058/original/kJwv9-vFc4qBZd9QYmQme6mr3r5-pwUrCw.png?1729507262)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035085183/original/dm7BMkqrQPAE8Azj_VncUC_TWDltXWBjLg.jpeg?1729506748)
+
+  
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035086043/original/VaQUQ4l5VQgekNWF-omxx_9OYOom_Xpkaw.png?1729507251)
+
+  
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035086058/original/kJwv9-vFc4qBZd9QYmQme6mr3r5-pwUrCw.png?1729507262)
 
 * * *
 

@@ -87,12 +87,12 @@ If you do not see the checklist, continue with the manual configuration steps be
   
 
 
-### **Step 1: Create an Agency Sub-Account** \- (Skip if you have already completed this step)
+**Step 1: Create an Agency Sub-Account** \- (Skip if you have already completed this step)
 
   
 
 
-### **St****ep 2: Activating Telephony System****** \- (Skip if you have already completed this step)
+**St****ep 2: Activating Telephony System****** \- (Skip if you have already completed this step)
 
   
 [**How do I migrate my agency and sub-account over to LC Phone?**](<https://help.gohighlevel.com/en/support/solutions/articles/48001204027>)
@@ -112,7 +112,7 @@ If you do not see the checklist, continue with the manual configuration steps be
   
 
 
-### **Step 3: Setup White-labeled Login Domain** \- (Skip if you have already completed this step)
+**Step 3: Setup White-labeled Login Domain** \- (Skip if you have already completed this step)
 
 [](<https://help.gohighlevel.com/en/support/solutions/articles/48000982207>)
 
@@ -122,7 +122,7 @@ If you do not see the checklist, continue with the manual configuration steps be
   
 
 
-### **Step 4: Setup API Domain URL** \- (Skip if you have already completed this step)
+**Step 4: Setup API Domain URL** \- (Skip if you have already completed this step)
 
 [](<https://help.gohighlevel.com/en/support/solutions/articles/48001143244>)
 
@@ -131,7 +131,7 @@ If you do not see the checklist, continue with the manual configuration steps be
   
 
 
-### **Step 5: Upload Logo & Activate Premium features **\- (Skip if you have already completed this step)
+**Step 5: Upload Logo & Activate Premium features **\- (Skip if you have already completed this step)
 
 [](<https://help.gohighlevel.com/support/solutions/48000456107>)[](<https://help.gohighlevel.com/support/solutions/48000456107>)  
 [**Content AI**](<https://help.gohighlevel.com/support/solutions/48000456107>)[](<https://help.gohighlevel.com/support/solutions/48000456107>)
@@ -150,25 +150,17 @@ If you do not see the checklist, continue with the manual configuration steps be
   
 
 
-### **Step 6: Connect Stripe Account on the (Agency Level)** \- (Skip if you have already completed this step)
-
-###   
-Connect your agency Stripe account to enable SaaS billing and other agency-level payment flows that depend on Stripe Connect.
-
-###   
+**Step 6: Connect Stripe Account on the (Agency Level)** \- (Skip if you have already completed this step)  
+  
+Connect your agency Stripe account to enable SaaS billing and other agency-level payment flows that depend on Stripe Connect.  
+  
 
 
 ### **Who can access this page**
 
-###   
-
-
-###  Only **Agency Owners** and **Agency Admins** can access Stripe Connect settings in Agency view. 
-
-###   
-
-
-### **How to connect**
+Only **Agency Owners** and **Agency Admins** can access Stripe Connect settings in Agency view.   
+  
+**How to connect**
 
   
 
@@ -190,7 +182,7 @@ Connect your agency Stripe account to enable SaaS billing and other agency-level
   
 
 
-### **Step 7: SaaS Configurator Setup - Configuring Your Plans & Features**  
+**Step 7: SaaS Configurator Setup - Configuring Your Plans & Features**  
   
 
 
@@ -205,16 +197,14 @@ Connect your agency Stripe account to enable SaaS billing and other agency-level
 
   
 
-
-  
-
     
     
     **Note:**
     
     1. You may create only up to 20 SaaS plans per agency account.
     
-    _2. These plans are created in the Agency's Stripe account and Must NOT be deleted from there._
+    2. These plans are created in the Agency's Stripe account and Must NOT be deleted from there.
+    __ 3. Cleaner Plan Syncing: If you delete a SaaS v2 plan in the agency sub-account, HighLevel automatically removes the matching plan from SaaS Configurator. This helps keep your plan list accurate and reduces the chance of hitting the 20-plan limit.__
 
 * * *
 
@@ -222,22 +212,22 @@ Connect your agency Stripe account to enable SaaS billing and other agency-level
   
 
 
-### **Step 8: General Business Settings** \- (Skip if you have already completed this step)
+**Step 8: General Business Settings** \- (Skip if you have already completed this step)
 
   
 
 
-### **Step 9: Website Domain Setup** \- (Skip if you have already completed this step)
+**Step 9: Website Domain Setup** \- (Skip if you have already completed this step)
 
   
 
 
-### **Step 10: Purchasing a Phone Number** \- (Skip if you have already completed this step)
+**Step 10: Purchasing a Phone Number** \- (Skip if you have already completed this step)
 
   
 
 
-### **Step 11:****Calendar Configuration** \- (Optional)
+**Step 11:****Calendar Configuration** \- (Optional)
 
   
 In case you plan to conduct any in-person demos or intend to make use of the calendar feature, kindly go ahead and set it up. Once you have finished setting it up, when setting up your sales page (Step 14) you can add an additional booking page to your website/funnel for the calendar you have created.
@@ -248,36 +238,41 @@ In case you plan to conduct any in-person demos or intend to make use of the cal
   
 
 
-### **Step 12: Integrating Stripe on the Sub-Account Level (Where you will sell your SaaS)** \- (Skip if you have already completed this step)
+**Step 12: Integrating Stripe on the Sub-Account Level (Where you will sell your SaaS)** \- (Skip if you have already completed this step)
 
   
 
 
-### **Step 14: Import SaaS Config Plans & Setting up your Sales Page **
+**Step 13: Import SaaS Config Plans & Setting up your Sales Page **
 
   
 
     
     
-    **Note:** Only Stripe works for SaaS products; PayPal will not work.
+    **Note:** Only Stripe works for SaaS products; PayPal will not work. 
+    
+    SaaS subscription onboarding supports card payments only when checkout links are generated from **SaaS Configurator.  
+    
+    Non-card payment methods (for example, bank debits or BNPL) are not supported for SaaS enablement and are excluded from the hosted checkout experience.
+    
 
   
-**Step 3.1:** Copy Stripe ID from SaaS Configurator
+**Step 13.1:** Copy Stripe ID from SaaS Configurator
 
   
-**Step 3.2:** Head into your SaaS Selling Location **>** Payments tab
+**Step 13.2:** Head into your SaaS Selling Location **>** Payments tab
 
   
-**Step 3.3:** Click on "**\+ Import from Stripe** " button
+**Step 13.3:** Click on "**\+ Import from Stripe** " button
 
   
-**Step 3.4:** Paste Stripe ID from _Step 1:_ You will see (agency plan) when selecting your price
+**Step 13.4:** Paste Stripe ID from _Step 1:_ You will see (agency plan) when selecting your price
 
   
-**Step 3.5:** Add Setup fee (optional)
+**Step 13.5:** Add Setup fee (optional)
 
   
-**Step 3.6:** Hit "**Import Product & Price**"
+**Step 13.6:** Hit "**Import Product & Price**"
 
   
 
@@ -290,13 +285,13 @@ In case you plan to conduct any in-person demos or intend to make use of the cal
 ### **Setting up your Funnel/ Website**
 
   
-**Step****3.7:** After importing all prices for your SaaS Funnel, go to Sites > Funnels > Add a new funnel or website
+**Step 1****3.7:** After importing all prices for your SaaS Funnel, go to Sites > Funnels > Add a new funnel or website
 
   
-**Step 3.8: Add your imported products to the sales page **
+**Step 13.8: Add your imported products to the sales page **
 
   
-**Step 3.9:** Add 1-Step or 2-Step Order Form to the page
+**Step 13.9:** Add 1-Step or 2-Step Order Form to the page
 
   
 
@@ -313,12 +308,12 @@ You're ready to go!
   
 
 
-### **Step 15: Workflow Setup to notify you of 'New Sign-ups'**
+**Step 14: Workflow Setup to notify you of 'New Sign-ups'**
 
   
 
 
-### **Step 16:****Build A Notification Workflow & Testing Your SaaS Flow**
+**Step 15:****Build A Notification Workflow & Testing Your SaaS Flow**
 
   
 You'll most likely want to build a Workflow to notify yourself when a new SaaS Customer signs up so that you can kick off whatever onboarding you have planned and [purchase a white-labeled DFY setup](<https://speakwith.us/saas-setup>).  

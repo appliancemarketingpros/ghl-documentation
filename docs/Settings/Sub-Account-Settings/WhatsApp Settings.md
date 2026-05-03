@@ -15,9 +15,9 @@ This article provides a comprehensive guide to the WhatsApp Settings page within
   * What are the WhatsApp Settings?
   * Key Benefits of Managing Your WhatsApp Settings
   * How To Navigate and Use the WhatsApp Settings
-    * The Numbers Tab: Managing Your Phone Lines
-    * The Templates Tab: Crafting Your Messages
-    * The Flows Tab: Automating Interactions
+  * The Numbers Tab: Managing Your Phone Lines
+  * The Templates Tab: Crafting Your Messages
+  * The Flows Tab: Automating Interactions
   * Frequently Asked Questions
 
 
@@ -29,6 +29,26 @@ This article provides a comprehensive guide to the WhatsApp Settings page within
 
 
 The WhatsApp Settings page is the central hub for managing your entire WhatsApp Business API integration within a specific HighLevel location. From this dashboard, you can monitor account performance, configure essential assets like phone numbers and message templates, and manage your subscription. It is the command center for all your WhatsApp-related activities, ensuring your communication channel is set up for success.
+
+  
+
+
+### **How to Access WhatsApp Settings**
+
+  
+
+
+You can open WhatsApp Settings in either of these ways:
+
+  
+
+
+Go to Settings → WhatsApp inside the sub-account.
+
+  
+
+
+If your agency offers WhatsApp through Agency Dashboard → Reselling, you may also see a WhatsApp card on the Integrations page. Clicking the card opens onboarding (if not subscribed) or management (if subscribed).
 
   
 
@@ -84,7 +104,9 @@ The header card provides a quick, real-time snapshot of your WhatsApp account's 
   
 
 
-The card displays your 'Account Status', 'Meta Business Verification' status, and two key statistics:
+The card displays your 'Account Status', 'Meta Business Verification' status, and two key statistics:  
+  
+
 
   * **Total Messages Sent (in last 7 days)** : A count of all messages initiated from your account in the past week.  
   
@@ -95,7 +117,9 @@ The card displays your 'Account Status', 'Meta Business Verification' status, an
   
 
 
-In the top-right corner of the card, a three-dot action menu button allows you to manage your overall connection:
+In the top-right corner of the card, a three-dot action menu button allows you to manage your overall connection:  
+  
+
 
   * **Disconnect** : Click this to sever the connection between HighLevel and your WhatsApp account.  
   
@@ -135,12 +159,16 @@ This tab is your control center for all phone numbers linked to your WhatsApp Bu
 
 Follow these steps to add and configure a new phone number for WhatsApp messaging:
 
+  
 1\. Click the + Add Number button to open the configuration modal.
 
+  
 2\. In the 'Configure Phone Number' modal, enter a Display Name. This is the name users will see.
 
+  
 3\. Either select an existing number from the 'Select from your phone numbers' dropdown or type a new one in the 'Add/type new phone number' field.
 
+  
 4\. Click Proceed to verify and follow the on-screen instructions from Meta to complete the process.
 
   
@@ -161,10 +189,13 @@ Follow these steps to add and configure a new phone number for WhatsApp messagin
 
 This feature redirects you to Meta's Ad Manager to create a WhatsApp Engagement ad campaign.
 
+  
 1\. Click the Create Engagement Ad button.
 
+  
 2\. A modal will appear, informing you that you are about to leave the current page.
 
+  
 3\. Click Continue to be redirected to Ad Manager to build your campaign.
 
   
@@ -197,7 +228,9 @@ WhatsApp requires businesses to use pre-approved message templates for initiatin
   
 
 
-Before creating a new template, you have two management options:
+Before creating a new template, you have two management options:  
+  
+
 
   * **WhatsApp Template Rewriter** : Click this to use an AI-powered tool that helps convert existing marketing templates into utility templates, which can be useful for different communication strategies.  
   
@@ -215,6 +248,7 @@ Before creating a new template, you have two management options:
 
 1\. Click the + Create Template button.
 
+  
 2\. From the dropdown menu, select Blank Template to build one from scratch.
 
   
@@ -297,7 +331,9 @@ Building a flow is a guided, three-step process. Click the + Create Flow button 
   
 
 
-**Step 1: Create Flow**
+**Step 1: Create Flow**  
+  
+
 
   1. Enter a unique Flow Name to identify it.  
   
@@ -349,7 +385,9 @@ Building a flow is a guided, three-step process. Click the + Create Flow button 
   
 
 
-Here, you will create the message template that contains the button to launch this flow.
+Here, you will create the message template that contains the button to launch this flow.  
+  
+
 
   * Fill in the Header, Body, and Footer text for the message.  
   

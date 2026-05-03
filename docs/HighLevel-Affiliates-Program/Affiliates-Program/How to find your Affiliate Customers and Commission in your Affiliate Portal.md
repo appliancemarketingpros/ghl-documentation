@@ -35,15 +35,9 @@ Sent your affiliate link to a new HighLevel customer but don't know where to che
   
 
 
+**Heads up:** we’re currently rolling out updates to the Affiliate Portal, so you may notice that some videos and images in this article don’t exactly match what you’re seeing on your screen just yet.   
   
-  
-
-
-#   
-
-
-  
-
+Everything will be updated very soon to reflect the latest version. In the meantime, if anything feels unclear, reach out to your [Affiliate Manager](<https://speakwith.us/affiliate>) with any questions. 
 
   
 
@@ -54,6 +48,19 @@ Sent your affiliate link to a new HighLevel customer but don't know where to che
 # [](<https://app.tango.us/app/workflow/906b2686-d0a6-4637-9db0-0086a290fcba?utm_source=magicCopy&utm_medium=magicCopy&utm_campaign=workflow%20export%20links>)
 
 # Log into HighLevel to view your Affiliate Dashboard!
+
+  
+
+
+The Affiliate Dashboard organizes your referrals into different stages so you can track their progress.
+
+  
+
+
+[Click here](<https://help.gohighlevel.com/support/solutions/articles/48001202637-how-to-use-affiliate-portal>) for assistance finding and navigating your Affiliate Dashboard
+
+  
+
     
     
     Note if you do not have a Active HighLevel Agency you can follow along by logging into first promoter here: [gohighlevel.firstpromoter.com/login](<http://gohighlevel.firstpromoter.com/login>) 
@@ -67,41 +74,118 @@ Sent your affiliate link to a new HighLevel customer but don't know where to che
 
 
 ##   
-2\. Start on your Affiliate Dashboard  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48234499976/original/nC4HGwX8VlvfZZ_jrTJQqEebeGGYcAt3kA.png?1656024175)
+2\. From your Affiliate Dashboard, Click on Referrals
 
-##   
-3\. Click on Referrals
-
-Your Default View for your referrals page will be the "All" Tab. Here all your customers will show that you referred to HighLevel.  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48234500000/original/xuruIeW0Q9eBG56wpuHsUcWoO8Khyf5P0Q.png?1656024191)
-
-##   
-
-
-##   
-4\. Leads
-
-Leads are customers who filled out the first part of the HighHevel sign-up form but did not complete the form to create an account.  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48234500010/original/29B7kmCbyjrUBXwlLgGSUlClD72Co5-xPA.png?1656024205)
-
-####   
-Note: If you cannot find a lead/customer that you expected to find in this area, please reach out to our Support Team for assistance. Find ways to contact our 24/7 Support Team at <https://gohighlevel.com/support>  
   
 
 
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068667342/original/7jdANMqH1tJ79yaAjMuDpBtE0NbnWcT9xQ.png?1775635430)  
+
+
 ##   
+
+
+**Your Referral Categories**
+
+**  
+**
+
+**1) Any**
+
+**  
+**
+
+**2) Active / Paying**
+
+**  
+**
+
+**3) Signup**
+
+**  
+**
+
+**4) Lead (or, “Subscribed”)**
+
+**  
+**
+
+**5) Canceled**
+
   
-5\. Click on Free / Trial
 
-These are your referral customers that are currently in your trial period and have a HighLevel Account.  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48234500031/original/-_pSoBtj92x4tCC0TtqZficqowtes08irw.png?1656024222)
 
-##   
-6\. Paying & Cancelled
+****
 
-The Paying Tab is your current referral customer with an active subscription. The Cancelled Tab is for your referral customers who no longer have any active subscriptions on their account.  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48234500076/original/j1XTTujMXQoQ0Is-sApKhGhkw6Oh8yr9gA.png?1656024238)
+  
+
+
+**1) Any**
+
+This shows all your affiliate customers from every referral category.
+
+  
+
+
+  
+
+
+**2) Active / Paying**
+
+These are your current active affiliate customers who are paying a HighLevel subscription. You are earning a commission on these customers every time they renew their subscription!
+
+  
+
+
+Note: You will only earn a commission on customers who pay thier subscriptions. If customers pause, cancel, or request a refund you will not get a commission for those customers.
+
+  
+
+
+  
+
+
+**3) Signup**
+
+These customers have completed the sign-up, and they have active go HighLevel accounts on a free trial
+
+  
+
+
+These customers will have a status that says Not A customer yet. This means they are in trial and will become a customer when they pay their first subscription.
+
+  
+
+
+  
+
+
+**4) Lead (or, “Subscribed”)**
+
+These are customers that have only completed step one of the free trial sign-up.
+
+  
+
+
+These are potential customers who have started the signup process using your referral link, but did not complete it to begin their free trial.
+
+  
+
+
+* For referrals in this state, you might notice a discrepancy between State Filter (Lead) and State (“Subscribed”). “Subscribed” and “Lead” are interchangeable in this context.
+
+  
+
+
+  
+
+
+**5) Canceled**
+
+These customers have canceled HighLevel subscriptions. You are currently not getting a commission on these customers. When these customers renew their subscription they will switch back to the paying category.
+
+  
+
 
   
 
@@ -155,7 +239,7 @@ The Supercharged SaaS program campaign shows the same tabs under referrals as th
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48234218999/original/MvkXLoOeUHmWeulfO6LGlkJRaHTcA-VYMw.png?1655932147)
 
 #   
-Finding Commission in the Rewards tab!
+Finding Commission in the Reports tab!
 
   
 Click on "Rewards" to view your earned commissions.  

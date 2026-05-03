@@ -65,8 +65,7 @@ Filtering narrows the list or board of opportunities to only those that match ch
   
 
 
-Logical operators determine how multiple conditions work together. Two types of filter conditional logic are possible: AND and OR.
-
+Logical operators determine how multiple conditions work together. Two types of filter conditional logic are possible: AND & OR.   
   
 
 
@@ -93,17 +92,19 @@ These filter conditions can be changed using the toggle on the top right of the 
   
 
 
-  * Combine **Status = Won OR Status = Lost** to review closed outcomes only.
+  * Combine **Status = Won OR Status = Lost** to review closed outcomes only.  
+  
 
+
+    
+    
+    **Note:** Click **Add nested filter** to add an **AND** condition.
+    Click **Add Filter** to add an **OR** condition.
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067905600/original/5SX6g5VUWARAKrUsTCt7z_kboJcKKArO-g.png?1774618114)  
-
-
-  
-
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067905600/original/5SX6g5VUWARAKrUsTCt7z_kboJcKKArO-g.png?1774618114)
 
 * * *
 
@@ -173,7 +174,11 @@ Date filters help you track recent changes and outcomes. Presets speed selection
   
 
 
-![](https://jumpshare.com/share/e8L8mWlQwMlFonw7IKuJ+/Screen+Shot+2026-01-22+at+8.21.06+PM.png)
+  * Some date operators support relative time values. For example, you can set a condition like “In the next 10 days” or “In the last 2 weeks” or use a fixed date when needed.  
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069592360/original/pNR5a1IgqInkm4SIUzZBOHDmFN-MPKKsZw.png?1776766423)
 
 * * *
 
@@ -242,25 +247,22 @@ Organization‑specific fields power advanced segmentation. Any Opportunity Cust
   
 
 
-     * **Owner** and **Followers**.
-
-     * **Status** : Open, Won, Lost, Abandoned.
-
-     * **Opportunity Source** with operators (_is_ , _is not_ , _is empty_ , _is not empty_).
-
-     * **Campaign Type**.
-
-     * **Date filters** : Last Stage Change Date; Last Status Change Date; Created On; Updated On; Opportunity Won On; Opportunity Lost On — each with presets (Yesterday, Today, This Week, Last Week, Last 7 Days, Last 30 Days, This Month, Last Month, This Year, Last Year, Custom).
-
-     * **Opportunity Value** with numeric operators (_equal to, less than, greater than, not equal to, is empty, is not empty_).
-
-     * **Custom fields** (e.g., Client Type, Efficiency Rating, Favorite Pet), **Tags** , and **Time Tracked**.  
+Filter| Options / Fields  
+---|---  
+Owner & Followers| Owner, Followers  
+Status| Open, Won, Lost, Abandoned  
+Opportunity Source| is, is not, is empty, is not empty  
+Campaign Type| Campaign Type  
+Date filters| Last Stage Change Date, Last Status Change Date, Created On, Updated On, Opportunity Won On, Opportunity Lost On (Presets: Yesterday, Today, This Week, Last Week, Last 7 Days, Last 30 Days, This Month, Last Month, This Year, Last Year, Custom)  
+Opportunity Value| equal to, less than, greater than, not equal to, is empty, is not empty  
+Custom fields| Client Type, Efficiency Rating, Favorite Pet, Tags  
+Time Tracked| Time Tracked  
   
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069594450/original/nz8ryDwMrzj2k7vOB-Cj3BVgc4KLOIJZXw.gif?1776767448)  
   
-  
-
 
   6. **Apply** the filters to see results.  
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067905683/original/fdZfbdSnMZNNQQDX83M1jpJW1MhlSMv8fA.png?1774618153)
 
 

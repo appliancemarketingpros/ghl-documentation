@@ -140,6 +140,30 @@ Automated reminders mean fewer missed appointments and happier clients. They’r
 
 **Next** , consider customizing your reminders with personalized messages to build stronger client relationships.
 
+  
+
+
+**Fix missing required fields while saving**
+
+  
+
+
+If required fields are missing when you click **Save changes** , HighLevel helps you find the issue automatically.
+
+  
+
+
+  * If the missing field is in the current tab, the editor scrolls to that field and highlights it.  
+  
+
+  * If the missing field is in another tab, HighLevel opens the correct tab and highlights the field there.
+
+
+  
+
+
+This helps you fix missing details faster before saving the calendar.
+
 * * *
 
 ## **Integrate Personal Calendar**

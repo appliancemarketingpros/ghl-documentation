@@ -12,6 +12,10 @@ Want to refer an existing affiliate customer to pro? Check out these steps so yo
   
 If you have **100 ACTIVE Trials** and are looking for your 30-day link, [](<https://help.gohighlevel.com/support/solutions/articles/48001204857-ways-to-get-highlevel-support-24->)[reach out to an Affiliate Manager!](<https://speakwith.us/affiliate>)
 
+**Heads up:** we’re currently rolling out updates to the Affiliate Portal, so you may notice that some videos and images in this article don’t exactly match what you’re seeing on your screen just yet.   
+  
+Everything will be updated very soon to reflect the latest version. In the meantime, if anything feels unclear, reach out to your [Affiliate Manager](<https://speakwith.us/affiliate>) with any questions. 
+
   
 
     
@@ -32,14 +36,6 @@ If you have **100 ACTIVE Trials** and are looking for your 30-day link, [](<http
 
   
 
-
-#   
-
-
-  
-
-
-* * *
 
 # Refer Highlevel Customers to PRO!
 
@@ -76,35 +72,14 @@ If you have **100 ACTIVE Trials** and are looking for your 30-day link, [](<http
     * #### If the customer I am referring to Highlevel Pro is currently not assigned to an affiliate do I get 100% of their commission or just a portion?
 
 
-  
-  
-  
-  
-  
-  
-
-
-  
-
-
-##   
-
-
-* * *
-
-# How to find your PRO Affiliate links[](<https://help.gohighlevel.com/support/solutions/articles/48001204857-ways-to-get-highlevel-support-24-7>)
-
-### [Reach out to support via live chat/or call us if you have any questions!](<https://help.gohighlevel.com/support/solutions/articles/48001204857-ways-to-get-highlevel-support-24-7>)
-
 ###   
 
 
+# **How To Find your PRO affiliate links via Affiliate portal**
+
+# 
+
 ###   
-
-
-* * *
-
-# **How To Find your PRO affiliate links via Affiliate portal**  
 
 
 ### 1\. Click on Affiliate Portal

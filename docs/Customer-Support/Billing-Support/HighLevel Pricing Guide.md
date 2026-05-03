@@ -43,7 +43,10 @@ Nearly everything you need to know about HighLevel Pricing, Charges, Wallets, Re
 
 * * *
 
-# How to Manage Your Billing
+# **How to Manage Your Billing**
+
+  
+
 
 **Did you know** you can see every single charge to your account as well as manage your subscription, wallet amounts, and more from within your HighLevel App? Just log into your HighLevel desktop App and navigate to your Company Billing Settings (Agency View > Billing). We even break down charges by Sub-Account, it's a critical tool when discussing or reviewing HighLevel charges or pricing.
 
@@ -68,7 +71,10 @@ Nearly everything you need to know about HighLevel Pricing, Charges, Wallets, Re
 
 * * *
 
-# HighLevel Subscription Plans
+# **HighLevel Subscription Plans**
+
+  
+
 
 At the core of the HighLevel service is our subscription plans which are in three tiers. Starter, Unlimited, and Agency Pro. Each plan level unlocks additional features to help Level Up your business. Before you can utilize the additional services shown below, you must have an active subscription and account with us.
 
@@ -97,7 +103,10 @@ Related:
 
 * * *
 
-# Additional Services
+# **Additional Services**
+
+  
+
 
 In addition to your HighLevel Subscription plan, you can decide to opt into additional HighLevel services which will further unlock the true power of HighLevel. For example, instead of having to build and maintain your own phone system (not an easy task), you can opt into our LC Phone System. We've done all of the hard work for you. 
 
@@ -110,6 +119,9 @@ When you opt into any of these services, you begin preloading a "Wallet." Which 
 
 
 ## **What is an Agency Wallet?**
+
+  
+
 
 When you opt into any of these additional services outlined below (such as LC Phone, Email, or AI), you begin an "Agency Wallet." Agency Wallets hold credits that are deducted from when you use an Additional Service listed below (such as LC Phone, Email, or AI). To load credits into your wallet, HighLevel charges your Agency card on file. Wallet charges occur when wallet balances drop below a minimum amount. 
 
@@ -128,6 +140,9 @@ Minimum wallet amount thresholds and wallet recharge amounts can be adjusted any
 
 **Why do we use a "Wallet"?**
 
+  
+
+
 Unlike other companies, HighLevel only charges you for the amount you use. Most companies will charge you based on a number of SMS or Emails, like say 500 SMS per month for $40/mo. But what if you don't send any SMS or only 100 SMS? You just paid for the SMS you did use.
 
   
@@ -144,6 +159,9 @@ This is why we use a Wallet and charge for based on your usage only. You pay low
 
 
 ## **LC Phone System**
+
+  
+
 
 **What is LC Phone System?**
 
@@ -190,6 +208,7 @@ _ US/Canada receive a 10% discount on Phone Numbers, SMS, and Voice, see [click 
   
 
   * What is an SMS Segment? Click here to learn more.  
+  
 
   * Am I Charged for Unanswered Calls? Click here to learn more.
 
@@ -199,11 +218,9 @@ _ US/Canada receive a 10% discount on Phone Numbers, SMS, and Voice, see [click 
 
 * * *
 
-  
-
-
 ## **LC Email System**
 
+  
 **What is LC Email?**
 
 LeadConnector (LC) Email is designed to help agencies avoid the hassle of signing up for Mailgun or any 3rd party email service provider. In the past, when an agency signed up they would need to either integrate with Mailgun or another email service provider to send/receive email. With LC - Email, sending & receiving email works right out of the box, on every subaccount.
@@ -211,11 +228,14 @@ LeadConnector (LC) Email is designed to help agencies avoid the hassle of signin
   
 
 
-*LC Email System is available on all plan levels.
+  * LC Email System is available on all plan levels.  
+  
 
-*Rebilling without markup is available on the $297 Unlimited Plan.
+  * Rebilling without markup is available on the $297 Unlimited Plan.  
+  
 
-*Rebilling WITH Markup is only available on the $497 Agency Pro Plan.
+  * Rebilling WITH Markup is only available on the $497 Agency Pro Plan.
+
 
   
 
@@ -239,6 +259,9 @@ Learn more about the LC Email System and Pricing here: [](<https://help.gohighle
 
 ## **Email Verification**
 
+  
+
+
 **What is LC Email Verification?**
 
 LeadConnector (LC) Email Verification is a process that checks if an email address is deliverable. In other words, this tool determines if it’s possible to deliver mail to that email address **before** you send an email.
@@ -246,9 +269,11 @@ LeadConnector (LC) Email Verification is a process that checks if an email addre
   
 
 
-*Email Verification is available on all plan levels.
+  * Email Verification is available on all plan levels.  
+  
 
-*Rebilling is only available on the Unlimited or Pro Plan.
+  * Rebilling is only available on the Unlimited or Pro Plan.
+
 
   
 
@@ -272,6 +297,9 @@ Learn more about Email Verification & pricing here: [How to enable and rebill LC
 
 ## **Dedicated IP Address**
 
+  
+
+
 **What is a Dedicated IP Address?**
 
 LC Email is designed to help agencies avoid the hassle of signing up for Mailgun or any 3rd party email service provider. In the past, when an agency signed up they would need to either integrate with Mailgun or another email service provider to send/receive email. With LC Email, sending & receiving email works right out of the box, on every Sub-Account.
@@ -293,9 +321,6 @@ We charge $59/mo per dedicated domain.
 
 Learn more about Dedicated IP Addresses & Pricing here: [What is a dedicated IP in LC email?](<https://help.gohighlevel.com/support/solutions/articles/155000001152-what-is-a-dedicated-ip-in-lc-email-#Who-can-buy-a-dedicated-IP?>)
 
-  
-
-
 * * *
 
 ## **Workflow Premium Triggers and Actions**
@@ -316,6 +341,9 @@ Workflows are made up of triggers (1) and actions (2); initiate the workflow wit
 
 
 **Premium Triggers & Actions Pricing**
+
+  
+
 
 Some triggers and actions are "premium" (3), meaning their execution has a small usage cost of $0.01 per execution (1/4th the cost of the Zapier base plan). Your Agency is not charged for free triggers and actions. Your Agency is charged for premium triggers and actions in all subaccounts beneath your Agency account. 
 

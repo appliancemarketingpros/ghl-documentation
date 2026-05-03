@@ -8,8 +8,26 @@
 
 Exciting news! We've rolled out the capability to automatically retain unsent messages in Conversations, allowing you to resume your work seamlessly.
 
+  
+
+
+Drafts in Conversations save automatically so you can continue working without losing progress.
+
+  
+
+
 ## **What’s New?**
 
-  * Unsent messages in Conversations are now automatically retained.
-  * If you begin typing a message and leave the screen before sending, your draft will be preserved and ready when you return.
-  * This means you won’t lose your progress and can pick up right where you left off without having to retype.
+  * Message drafts in Conversations save automatically.  
+  
+
+  * If you start typing and leave before sending, your draft remains available when you return.  
+  
+
+  * Internal Comment drafts persist when you switch channels, collapse or expand the composer, or move between conversations.  
+  
+
+  * The composer remembers your last selected channel when you collapse  
+  
+
+  * These updates help you resume work faster and keep context intact.

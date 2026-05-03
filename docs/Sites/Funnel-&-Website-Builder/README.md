@@ -8,3 +8,4 @@
 - [Bubble Style for Radio & Checkbox Elements](Bubble Style for Radio & Checkbox Elements.md)
 - [How to Save & Use Element Templates in Page Builder](How to Save & Use Element Templates in Page Builder.md)
 - [Using Global Sections in the Page Builder](Using Global Sections in the Page Builder.md)
+- [Border Control in Page Builder](Border Control in Page Builder.md)

@@ -34,6 +34,8 @@
 
 ### [Ask AI](Ask-AI/)
 
+### [AI Studio](AI-Studio/)
+
 ### [Agent Studio](Agent-Studio/)
 
 ### [Email AI](Email-AI/)

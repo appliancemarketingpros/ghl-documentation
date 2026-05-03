@@ -6,141 +6,215 @@
 
 ---
 
-The Kanban view in Opportunities helps you visualize and manage deals across different stages of your pipeline.
+Kanban view in HighLevel Opportunities gives your team a visual way to manage deals across pipeline stages. It helps you quickly scan active opportunities, adjust how stages appear, and sort records based on the data that matters most. This view is especially helpful when you want a stage-based workflow that is easier to review than a traditional table. HighLevel also saves certain layout preferences to your browser so your workspace stays tailored to how you manage your pipeline.
 
-  
-
-
-You can customize how this view looks and behaves—making it easier to focus on the deals that matter most.
-
-  
-
+* * *
 
 **TABLE OF CONTENTS**
 
-  * What You Can Do
+  * What is Kanban View in Opportunities?
+  * Key Benefits of Kanban View in Opportunities
   * Collapse or Expand Stages
-  * Go to Opportunities
   * Resize Stage Columns
-  * Hover over the edge of a stage column
-  * Reset Column Size
+  * Sort Opportunities
   * Saved Layout Preferences
-  * Tips
+  * Best Practices for Using Kanban View
+  * Related Articles
 
 
 * * *
 
-### **What You Can Do**
+## **What is Kanban View in Opportunities?**
 
   
 
 
-• Collapse and expand pipeline stages
-
-• Resize columns to prioritize important stages
-
-• Sort opportunities using default and custom fields
-
-• Customize your view without affecting other users
-
-• Automatically save your layout preferences
+Kanban view helps users work directly inside a stage-based pipeline while still benefiting from view controls such as collapsing stages, resizing columns, and sorting opportunities. It also supports a more visual workflow than List View, which is better suited for detailed row-and-column management.
 
 * * *
 
-### **Collapse or Expand Stages**
-
-  1. ### 
-
-Go to Opportunities
-
-  2. Make sure you are in Kanban view
-
-  3. Click on any stage header ( > or < ) to collapse or expand it
-
+## **Key Benefits of Kanban View in Opportunities**
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067132258/original/UqbZASJnZ57K5sAu7Mwex82rWCo7UYu5GA.png?1773756747)
+Kanban view helps teams stay visually organized while managing opportunities in a way that matches the natural flow of a pipeline. These benefits are especially useful for users who prefer working by stage instead of scanning a table.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067132262/original/O_bUqJF2SWllrMR0uO5j6eN-xVKYRNanhQ.png?1773756754)
+  
 
-Collapsing stages helps reduce clutter, especially in pipelines with many stages.
+
+  * **Visual Pipeline Management** : View opportunities by stage so it is easier to understand deal progress at a glance.  
+  
+
+  * **Cleaner Workspace** : Collapse inactive stages and resize columns to reduce clutter and emphasize the parts of the pipeline that need attention.  
+  
+
+  * **Faster Prioritization** : Sort opportunities by default fields or supported custom fields so high-priority records are easier to review.  
+  
+
+  * **Personalized Layout** : Save your preferred column layout in your browser without changing the view for other users.  
+  
+
+  * **Flexible Workflow** : Switch between Kanban view and List View depending on whether you need a visual board or a more detailed tabular experience.
+
 
 * * *
 
-### **Resize Stage Columns**
-
-  1. ### 
-
-Hover over the edge of a stage column
-
-  2. Drag the divider left or right to resize the column
-
+## **Collapse or Expand Stages**
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067132283/original/IQkbsN_LXW7d0e1XO3MLWpUfP3r7Oc-GPA.png?1773756762)
+Collapsing and expanding stages makes large pipelines easier to manage by reducing visual noise. This is especially helpful when some stages are rarely used or when your team wants to focus only on active parts of the pipeline.
 
-This allows you to give more space to active or high-priority stages.
+  
+
+
+  1. Open **Opportunities** and make sure you are in **Kanban view**.  
+  
+
+  2. Locate the stage column you want to adjust.  
+  
+
+  3. Click the stage header control to collapse or expand that column.  
+  
+
+
+Collapsed stages help keep the board tidy, while expanded stages make it easier to review a higher volume of opportunities in a specific part of the pipeline.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068383710/original/5H10T4VMgMjd4vyr_shdSBVyofPLzQQN6A.gif?1775149134)
 
 * * *
 
-### **Sort Opportunities**
+## **Resize Stage Columns**
 
   
 
 
-  * Click on the **Sort** option at the top of the Opportunities page
-  * Select a field you want to sort by (including custom fields)
-  * ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067309322/original/v0hdkHEM5DEAFujggRwNksU0nweRm0ACaw.png?1773927110)  
-
-  * Choose ascending or descending order
-  * Your opportunities will be instantly reordered based on the selected field
-
-
+Resizing columns allows you to allocate more screen space to the stages that matter most. This can make heavily used stages easier to monitor and help your team review opportunity cards without opening each one individually.  
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067309278/original/2RGSXbMEnEf6y4vpd4zaBsVUjz0C7tDJ6A.png?1773927088)
+  1. In **Kanban view** , hover over the edge of a stage column.  
+  
 
+  2. Drag the divider left or right to resize the column.  
+  
+
+  3. Repeat for any other stages you want to adjust.  
+  
+
+  4. Double-click the column divider to reset the stage column to its default size.  
   
 
 
-**Supported fields include:**
-
-• Default fields (e.g., Created On, Last Updated)
-
-• Custom fields such as Single Line, Multi Line Text, Dropdown, Radio Select, Number, Monetary, Phone, and Date
+Wider columns are useful for busy stages, while narrower columns help reduce clutter in stages that need less attention.
 
   
-
-
-Sorting helps you quickly prioritize deals based on value, recency, or any business-specific data.
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068383762/original/2FX0QXTBfFOYRIq-L4PQllN-GcZ8f8aDMQ.gif?1775149167)
 
 * * *
 
-### **Reset Column Size**
+## **Sort Opportunities**
 
-• Double-click the column divider to reset it to its default size
+  
+
+
+Sorting gives users a faster way to prioritize opportunity cards based on timing, value, or business-specific data. This is especially helpful when teams need to focus on the newest, most urgent, or highest-value records first.  
+  
+
+
+  1. In **Opportunities** , click **Sort** at the top of the page.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068383790/original/fYMGzUekGSwbHUal0wO8g_wScR073GrzWw.png?1775149225)  
+  
+
+  2. Select the field you want to sort by. This includes default fields and supported custom fields.  
+  
+
+  3. Choose **Ascending** or **Descending** order.  
+  
+
+  4. Your opportunities will reorder automatically based on the selection.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068383841/original/ZIPqBNgsPRf3AL6wSX2aC1LfYLRUZE4CHQ.png?1775149263)  
+  
+
+
+Supported sorting fields include:  
+  
+
+
+  * Default fields such as **Created On** and **Last Updated**
+  * Supported custom field types such as **Single Line** , **Multi Line Text** , **Dropdown** , **Radio Select** , **Number** , **Monetary** , **Phone** , and **Date**
+
 
 * * *
 
-### **Saved Layout Preferences**
+## **Saved Layout Preferences**
 
-• Your collapsed/expanded stages and column sizes are saved automatically
+  
 
-• Preferences are stored locally (browser-based)
 
-• Changes apply only to your view and do not affect other users
+  * Collapsed and expanded stages are saved automatically.  
+  
+
+  * Resized column widths are also saved automatically.  
+  
+
+  * These preferences are stored locally in your browser.  
+  
+
+  * Your changes apply only to your own view and do not affect other users.  
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068384317/original/-BoL7T2o0qVg5jxTq_A1VWyQ1s3O_j-eNQ.gif?1775149881)
 
 * * *
 
-### **Tips**
+## **Best Practices for Using Kanban View**
 
-• Collapse inactive or rarely used stages to keep your pipeline clean
+**  
+**
 
-• Expand and widen active stages to track deals more easily
+A few simple workflow habits can make Kanban view much more effective for day-to-day pipeline management. These suggestions help users keep the board readable, actionable, and aligned with how they actually review deals.
 
-• Adjust your layout based on your daily workflow
+  
+
+
+  * Collapse inactive or rarely used stages to reduce clutter.  
+  
+
+  * Expand and widen active stages so important opportunity cards are easier to scan.  
+  
+
+  * Use sorting to bring high-priority or recently updated opportunities to the top.  
+  
+
+  * Switch to **List View** when you need more detailed row-based review or column-style organization.
+
+
+* * *
+
+## **Related Articles**
+
+  
+
+
+  * [Customize Opportunity Cards in Board View ](<https://help.gohighlevel.com/support/solutions/articles/155000003910-customize-opportunity-cards-in-board-view>)  
+  
+
+  * [List View for Opportunities ](<https://help.gohighlevel.com/support/solutions/articles/155000002432-list-view-for-opportunities>)  
+  
+
+  * [How to use Custom Fields for Opportunities ](<https://help.gohighlevel.com/support/solutions/articles/155000000521-how-to-use-custom-fields-for-opportunities>)  
+  
+
+  * [Bulk Actions for Opportunity Cards ](<https://help.gohighlevel.com/support/solutions/articles/155000005536-bulk-actions-for-opportunity-cards>)  
+  
+
+  * [Opportunities - FAQs](<https://help.gohighlevel.com/support/solutions/articles/155000002000-opportunities-faqs>)

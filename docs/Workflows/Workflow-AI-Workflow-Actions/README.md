@@ -10,3 +10,4 @@
 - [Workflow Action - AI Intent Detection](Workflow Action - AI Intent Detection.md)
 - [Workflow Action - AI Summarize](Workflow Action - AI Summarize.md)
 - [Workflow Action - AI Translate](Workflow Action - AI Translate.md)
+- [Workflow Action - AI Agent](Workflow Action - AI Agent.md)

@@ -82,10 +82,30 @@ You can build from scratch or use templates, speed up creation by importing ques
   4. **Right Panel:** Here you will find the settings for the Quiz or for the currently selected Element.
 
 
+**  
+**
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065725444/original/Tqd0_IZz0pD3WgADmSZfrWTlMPD5FbMU5g.jpeg?1772049876)**
+
   
 
 
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065725444/original/Tqd0_IZz0pD3WgADmSZfrWTlMPD5FbMU5g.jpeg?1772049876)**
+### **Reordering Quiz Elements**
+
+  
+
+
+Reordering quiz elements helps you control the flow of questions and keep the quiz experience clear for respondents. Better drag feedback is especially useful in longer quizzes, where small layout changes can otherwise take more time.
+
+  
+
+
+To reorder quiz elements, click and drag an element to a new position in the builder. As you move the element, HighLevel shows a subtle shadow for clearer feedback and automatically scrolls when you drag near the top or bottom of a longer quiz. This makes it easier to move elements across the page without dropping them just to scroll manually.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069283979/original/elAKi0JwPPO2RpgsltUCksGRuG30RnASzg.gif?1776335328)
 
 * * *
 

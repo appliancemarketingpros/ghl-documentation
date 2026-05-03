@@ -161,7 +161,7 @@ You can now find these settings under _Number Intelligence_ in _Advanced Setting
   
 
 
-This feature will automatically attempt to validate a contact's phone number when you attempt send the very first SMS message to a new phone number in your account. If the phone number is marked as "Invalid", the SMS message will not be sent, and you will need to validate the phone number before being able to send SMS messages to this contact in the future.
+This feature will automatically attempt to validate a contact's email when you attempt send the very first email to a new contact in your account. If the email is marked as "Invalid", the email will not be sent, and you will need to validate the email before being able to send email to this contact in the future.
 
   
 

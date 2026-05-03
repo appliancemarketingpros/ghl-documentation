@@ -10,24 +10,13 @@ In this article we will be talking about the process of creating a workflow for 
 
 * * *
 
-## **TABLE OF CONTENTS**
-
-  
-
-
-  
-
+**TABLE OF CONTENTS**
 
   * Why do I need to create a CAPI action workflow after creating an ad campaign and conversion dataset?
   * Which workflow triggers can be used with Meta Conversion API action?
   * How is Ad Manager radio button different from Integrations radio button in the Meta Conversion API action?
+  * Lead Event + Stage Name = Purchase: Value and Currency 
   * Can I use the offline events with trigger names like 'Call', 'opportunity change status', 'tag', etc. with Meta Conversion API action?
-
-
-  
-
-
-  
 
 
 * * *
@@ -37,23 +26,33 @@ In this article we will be talking about the process of creating a workflow for 
   
 
 
-Creating and sending **CAPI (Conversions API)** events to Meta after setting up your ad and dataset is important for enhancing the accuracy, reliability, and effectiveness of your Meta advertising campaigns. Here’s why you need to use the CAPI in addition to the standard Meta dataset:
+Creating and sending CAPI (Conversions API) events to Meta after setting up your ad and dataset is important for enhancing the accuracy, reliability, and effectiveness of your Meta advertising campaigns. Here’s why you need to use the CAPI in addition to the standard Meta dataset:
 
   
 
 
-  * **Improved Accuracy** : CAPI sends data directly from your server, bypassing issues like browser restrictions, ad blockers, and cookie limitations, ensuring more reliable tracking of user actions.
-  * **Better Attribution** : It tracks conversions across devices and platforms (including users who block cookies), providing more complete data for campaign optimisation therefore accurate reporting.
-  * **Fills Pixel Gaps** : When pixel data is blocked or missed (e.g., due to slow load times or privacy settings), CAPI ensures those conversions are still recorded.
-  * **Enhanced Optimisation** : More granular, server-side data helps Meta improve ad targeting and performance.
-  * **Privacy Compliance** : CAPI is better suited for privacy regulations as it reduces reliance on client-side cookies.
-  * **Efficient Budget Spend** : More accurate data allows Meta to optimise your ad spend and improve return on investment (ROI).
+  * **Improved Accuracy:** CAPI sends data directly from your server, bypassing issues like browser restrictions, ad blockers, and cookie limitations, ensuring more reliable tracking of user actions.  
+  
+
+  * **Better Attribution:** It tracks conversions across devices and platforms (including users who block cookies), providing more complete data for campaign optimisation therefore accurate reporting.  
+  
+
+  * **Fills Pixel Gaps:** When pixel data is blocked or missed (e.g., due to slow load times or privacy settings), CAPI ensures those conversions are still recorded.  
+  
+
+  * **Enhanced Optimisation:** More granular, server-side data helps Meta improve ad targeting and performance.  
+  
+
+  * **Privacy Compliance:** CAPI is better suited for privacy regulations as it reduces reliance on client-side cookies.  
+  
+
+  * **Efficient Budget Spend:** More accurate data allows Meta to optimise your ad spend and improve return on investment (ROI).
 
 
   
 
 
-In summary, sending back **CAPI events** to Meta after creating your pixel is essential to improve the **accuracy** of your tracking, **optimise** your ads more effectively, and **enhance attribution** across devices and browsers. It fills in gaps left by browser-based pixel tracking and helps ensure that your ad campaigns are working as efficiently as possible, even with increasing privacy concerns and browser restrictions.
+In summary, sending back CAPI events to Meta after creating your pixel is essential to improve the accuracy of your tracking, optimise your ads more effectively, and enhance attribution across devices and browsers. It fills in gaps left by browser-based pixel tracking and helps ensure that your ad campaigns are working as efficiently as possible, even with increasing privacy concerns and browser restrictions.
 
   
 
@@ -70,12 +69,20 @@ In summary, sending back **CAPI events** to Meta after creating your pixel is es
   
 
 
-In workflows, if your action is Meta Conversion API, the triggers which can be used depend on the **Event Type** that you will be using in the FB CAPI action. All the eligible triggers for both lead and funnel events are listed as under:
+  
+In workflows, if your action is Meta Conversion API, the triggers which can be used depend on the Event Type that you will be using in the FB CAPI action. All the eligible triggers for both lead and funnel events are listed as under:  
+  
 
-  1. For **Funnel events** in Meta conversion API action, you can use the following triggers; Form Submitted, Survey Submitted, Customer Booked Appointment, and Order Form Submission.  
-(For an appointment, it will only work with "Customer Booked appointment," not with "appointment," as appointments are the general triggers and "Customer Booked appointment" is the trigger for the widget)
-  2. For **Lead events** in Meta conversion API action, you can only use the trigger "Facebook Lead Form Submission" and "Pipeline Stage Change"(This will work if your contact is coming from a Facebook lead form).
-  3. For **Instagram DM** events in Meta conversion API action, you can use any trigger that results in contact creation in the CRM.
+
+  1. For Funnel events in Meta conversion API action, you can use the following triggers; Form Submitted, Survey Submitted, Customer Booked Appointment, and Order Form Submission.  
+  
+(For an appointment, it will only work with "Customer Booked appointment," not with "appointment," as appointments are the general triggers and "Customer Booked appointment" is the trigger for the widget)  
+  
+
+  2. For Lead events in Meta conversion API action, you can only use the trigger "Facebook Lead Form Submission" and "Pipeline Stage Change"(This will work if your contact is coming from a Facebook lead form).  
+  
+
+  3. For Instagram DM events in Meta conversion API action, you can use any trigger that results in contact creation in the CRM.
 
 
 * * *
@@ -85,20 +92,32 @@ In workflows, if your action is Meta Conversion API, the triggers which can be u
   
 
 
-During the creation of conversion API action under workflows, we see two connection type option:
-
-  * Integrations
-  * Ad Manager
+During the creation of conversion API action under workflows, we see two connection type option:  
+  
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155051770657/original/XpDYkAD5lt1XxfNmsbndb6Ais472qqwOuw.png?1755497368)![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155051770608/original/MsYr_VqK6pzvkMnj27jUWl_oLbHT_0pitw.png?1755497312)
+  * Integrations  
+  
+
+  * Ad Manager  
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155051770657/original/XpDYkAD5lt1XxfNmsbndb6Ais472qqwOuw.png?1755497368)
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155051770608/original/MsYr_VqK6pzvkMnj27jUWl_oLbHT_0pitw.png?1755497312)
 
   
 
     
     
     **Note:** All the information with respect to the Integration connection type and the details of what each field under it means can be understood in detail by following the below two articles:[](<https://help.gohighlevel.com/support/solutions/articles/48001233833-facebook-conversion-leads-walkthrough>)  
-    [Meta conversion leads walkthrough ](<https://help.gohighlevel.com/support/solutions/articles/48001233833-facebook-conversion-leads-walkthrough>)[](<https://help.gohighlevel.com/support/solutions/articles/48001236281-how-to-set-up-a-funnel-event-pixel-for-facebook-conversion-api->)  
+    [](<https://help.gohighlevel.com/support/solutions/articles/48001233833-facebook-conversion-leads-walkthrough>)
+    [Meta conversion leads walkthrough ](<https://help.gohighlevel.com/support/solutions/articles/48001233833-facebook-conversion-leads-walkthrough>)[](<https://help.gohighlevel.com/support/solutions/articles/48001236281-how-to-set-up-a-funnel-event-pixel-for-facebook-conversion-api->)  
+    [](<https://help.gohighlevel.com/support/solutions/articles/48001236281-how-to-set-up-a-funnel-event-pixel-for-facebook-conversion-api->)
     [Setup a funnel event for Meta conversion API](<https://help.gohighlevel.com/support/solutions/articles/48001236281-how-to-set-up-a-funnel-event-pixel-for-facebook-conversion-api->)
 
   
@@ -110,16 +129,71 @@ The addition of Ad Manager option as the connection type is mainly to ease the u
 
 
   1. You can select the event type based on the campaign you want to send back CAPI to Meta. If your campaign objective is 'Website traffic' send a funnel event and if it's 'Lead generation' then send a lead event and for Click to direct ads select Instagram DM.  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155051770827/original/rHgIqdAq4nGMsHDtrRcIuYzZueL9DcnATw.png?1755497695)
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155051770827/original/rHgIqdAq4nGMsHDtrRcIuYzZueL9DcnATw.png?1755497695)  
+  
+
   2. All the pixels that are part of Ad Manager will be pre-populated as the dropdown items giving you an option to select one from it. This saves you from the hassle of going back to Meta and copy/paste the Pixel ID.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155037642910/original/r6PKw2USmYvjpzah_TJZiuYisNbIbeB78w.png?1733220060)
-  3. There is no need to generate and then add the access token to CAPI action when under Ad Manager connection type, we take care of it to again help you with the to and fro.
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155037642910/original/r6PKw2USmYvjpzah_TJZiuYisNbIbeB78w.png?1733220060)  
+  
+
+  3. There is no need to generate and then add the access token to CAPI action when under Ad Manager connection type, we take care of it to again help you with the to and fro.  
+  
+
   4. Stage name in a Lead Event refers to: It should accurately represent your Pipeline and Pipeline Stage name for better reporting. Select it using the tag icon at the end to add the custom value of the opportunity pipeline and stages. 
 
 
   
 
+
+### **Lead Event + Stage Name = Purchase: Value and Currency**
+
+  
+
+
+When you configure Meta Conversion API in a Workflow with:
+
+  
+
+
+**Event Type:** Lead Event 
+
+  
+**Stage Name:** Purchase 
+
+  
+
+
+HighLevel shows two additional fields:
+
+  
+
+
+  * **Value:** Supports a static value or a custom field  
+  
+
+  * **Currency:** Dropdown (defaults to USD), using the same currency list as Funnel Events  
+  
+
+
+These fields are required only when Stage Name is Purchase.
+
+  
+
+
+**Backend Behavior**
+
+  
+
+
+\- If Value and Currency are provided, HighLevel sends them in the CAPI payload.
+
+  
+
+
+\- If Stage Name is not Purchase, HighLevel ignores any Value/Currency present in the payload.
 
 * * *
 
@@ -135,12 +209,14 @@ Yes, it is possible to do so and we will be using the last possible pixel data t
 
 **Example 1:**
 
+  
 Contact created Facebook form submission, thus first attribution source will be Paid Social (Facebook). If you use workflow with Facebook form submitted trigger, the contact will have fbclid and workflow will send data to conversion API (CAPI).
 
   
 
 
-Additional Behaviour -  
+**Additional Behaviour -  
+**  
 After sometime that contact got converted to opportunity with add/update opportunity trigger addition, you use opportunity status trigger in workflow to send the data to conversion api as contact from Facebook form submitted will pass fbclid.
 
   
@@ -148,13 +224,15 @@ After sometime that contact got converted to opportunity with add/update opportu
 
 **Example 2:**
 
+  
 Contact created google ad, organic google search or direct traffic,, thus first attribution source will be Paid Search (Google) or Direct Traffic. If the contact after certain time interacted with Facebook form and they fill the form, the latest attribution will be Paid Social(Facebook) with contact having fbclid. Now, if the agency runs workflow with Facebook form submitted > Meta conversion API, it will send the data to conversion API with fbclid.
 
   
 
 
-Additional Behaviour - 
+**Additional Behaviour**
 
+  
 After sometime that contact got converted to opportunity with add/update opportunity trigger addition, you use opportunity status trigger in workflow to send the data to conversion api as contact from Facebook form submitted will pass fbclid.
 
   
@@ -162,8 +240,17 @@ After sometime that contact got converted to opportunity with add/update opportu
 
 * * *
 
-**Please Note:**  
-**Addition of Custom Values -**  
+**Please Note:  
+**
+
+**  
+**
+
+**Addition of Custom Values -**
+
+  
+
+
 Similar to Google Ads, we are now allowing custom mapping for Facebook Ads conversion tracking parameters.  
   
   
@@ -173,10 +260,15 @@ Similar to Google Ads, we are now allowing custom mapping for Facebook Ads conve
 **How It Works:**  
   
 By default, custom mapping is disabled.  
+  
 Users can toggle it on to enable custom mapping.  
   
-When enabled, users can map:  
+**When enabled, users can map:  
+**  
 1\. FBCLID for funnel events.  
+  
 2\. Facebook Lead ID for lead events.  
+  
 3\. If custom mapping fields are provided, they will take priority over system defaults.  
+  
 4\. If left empty, the system will continue using its default internal values.

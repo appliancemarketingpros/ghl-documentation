@@ -184,6 +184,45 @@ The Template Library in HighLevel is a collection of professionally designed tem
 
 * * *
 
+  
+
+
+## **_Search and Discover Templates_**
+
+  
+
+
+Use the search bar to find templates faster across the Template Library.
+
+  
+
+
+  * View recent searches, suggestions, and trending topics when you click into the search bar.  
+  
+
+  * Search using multiple keywords to narrow results more effectively.  
+  
+
+  * Find templates by color using the search bar or the Colors filter.  
+  
+
+  * See matching keywords highlighted in template results.  
+  
+
+  * Use Clear Filters to reset your current search and filters.
+
+
+  
+
+
+The Template Library also helps you discover templates through sections like Top trending this week and Recently added.
+
+##   
+
+
+  
+
+
 ## **_Email Builder_**** _Template Library_**
 
   

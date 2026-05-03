@@ -15,3 +15,4 @@
 - [Active Transaction Inside POS for Mobile Payments](Active Transaction Inside POS for Mobile Payments.md)
 - [Collect In-Person Signatures via Mobile App](Collect In-Person Signatures via Mobile App.md)
 - [Support for BBPOS WisePOS E and Stripe S700 Internet Readers on Mobile POS](Support for BBPOS WisePOS E and Stripe S700 Internet Readers on Mobile POS.md)
+- [Mobile UI Improvements for E-commerce Stores](Mobile UI Improvements for E-commerce Stores.md)

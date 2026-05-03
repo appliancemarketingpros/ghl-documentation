@@ -16,10 +16,11 @@ With customizable calendar notifications, you can send In-App and tailored email
   * Available Notification Options
   * How to Set Up Appointment Notifications
   * Email Appointment Notifications
+  * Using Custom Values in Notifications
   * In-App Appointment Notifications
   * SMS Appointment Notifications
   * Whatsapp Appointment Notifications
-  * Important Note
+  * Important Notes
   * Frequently Asked Questions
   * Related Articles
 
@@ -178,6 +179,25 @@ You have several options to customize each notification type to give you, your t
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035032502/original/AuLaU6lj5UVJ3aMspU7m_cTdNJt2DX5qdA.png?1729414031)
+
+* * *
+
+## **Using Custom Values in Notifications**
+
+  
+
+
+You can use Custom Values to personalize your email, SMS, and WhatsApp notifications.
+
+  
+
+
+When editing a message, click the **{ } merge field icon** and select from the **Custom Values** section in the dropdown.
+
+  
+
+
+This allows you to insert your own data into notifications, such as custom links, internal notes, or personalized details, without manual edits.
 
 * * *
 
@@ -387,8 +407,9 @@ You have several options to customize each notification type to give you, your t
   
 
 
-**Q: Can I personalize SMS with appointment details?**  
-Yes. Use **Custom Values** like `{{contact.name}}`, `{{appointment.start_time}}`, and `{{appointment.time_zone}}` in your template.
+**Q: Can I personalize SMS with appointment details?**
+
+Yes. You can use merge fields, including Custom Values, by clicking the { } icon in the message editor.
 
   
 

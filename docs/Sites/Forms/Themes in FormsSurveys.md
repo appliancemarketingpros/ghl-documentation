@@ -174,6 +174,25 @@ Close the gallery to return to the Button Styling Panel.
 
 * * *
 
+### **New default theme experience**
+
+  
+
+
+The default theme for Forms, Surveys, and supported Quiz components now has a refreshed look and feel.
+
+  
+
+
+This update improves the out-of-the-box appearance with cleaner spacing, more polished inputs, rounded styling, and better visual consistency across supported elements.
+
+  
+
+
+You will also see clearer empty states and more consistent styling for labels, placeholders, images, footer colors, and chips.
+
+* * *
+
 ## **Frequently Asked Questions**
 
   

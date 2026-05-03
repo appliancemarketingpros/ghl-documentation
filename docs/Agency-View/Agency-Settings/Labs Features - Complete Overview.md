@@ -152,10 +152,25 @@ Each card commonly includes:
   
 
   5. **Submit Feedback:** Send comments, issues, or requests directly to the product team.
+  6. **Change Log URL:** Access release details.
+  7. **Support Doc URL:** Help and documentation on the feature.
+  8. **Media URLs:** Visuals, demos, or walkthroughs
 
 
   
-![](https://jumpshare.com/share/0gA5RjVESCtDpTToTXj8+/Universal+Agency+Inc+2025-09-03+at+10.28.06+PM.png)  
+![](https://jumpshare.com/share/0gA5RjVESCtDpTToTXj8+/Universal+Agency+Inc+2025-09-03+at+10.28.06+PM.png)
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069648640/original/0L6wpFM4AezlWtlId086mJoUzNGo8Cwg8w.png?1776804278)
+
+  
+
+
+  
+
+
 **Agency Labs Exclusive**
 
   

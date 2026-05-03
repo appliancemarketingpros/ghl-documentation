@@ -81,6 +81,8 @@ The Dashboards are a highly customizable and always up to date report on the sta
 
   2. **Date Picker** \- Two dates or a calendar with a date range. Click to select a different date range.  
   
+The dashboard stores the selected date range per user and can also apply a dashboard-level comparison date range.  
+  
 
   3. **Edit Button** \- Looks like a Pencil Icon. Click to switch from view mode to edit mode.  
   
@@ -109,6 +111,39 @@ The Dashboards are a highly customizable and always up to date report on the sta
 
 
 **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155043696273/original/eSySZjFkbRt7_9yT9fHvEXg5ei1TvTztAQ.png?1742500881)**
+
+  
+
+
+### **Date Picker**
+
+  
+
+
+The Date Picker lets you select a dashboard-level date range for the current dashboard.
+
+  
+
+
+  * Your selected dashboard date range saves automatically per user.  
+  
+
+  * When you refresh the page or return later, the dashboard opens with your last saved date range.  
+  
+
+  * You can also set a dashboard-level comparison date range.  
+  
+
+  * General widgets use the dashboard-level comparison date range unless a widget has its own comparison setting.  
+  
+
+  * If a widget has an explicit comparison date range, the widget-level setting overrides the dashboard-level comparison.
+
+
+  
+
+
+If a saved filter value is no longer available, such as a deleted pipeline, HighLevel automatically selects the first available option.
 
   
 

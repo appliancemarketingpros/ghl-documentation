@@ -15,7 +15,7 @@
 - [Workflow Action - GMB](Workflow Action - GMB.md)
 - [Workflow Action - Review Request](Workflow Action - Review Request.md)
 - [Workflow Action - Drip](Workflow Action - Drip.md)
-- [Workflow Action - Task Notification](Workflow Action - Task Notification.md)
+- [Workflow Action - Add Task](Workflow Action - Add Task.md)
 - [Workflow Action - Manual Call](Workflow Action - Manual Call.md)
 - [Workflow Action - WhatsApp](Workflow Action - WhatsApp.md)
 - [Workflow Action - WhatsApp Customer Service Window Check](Workflow Action - WhatsApp Customer Service Window Check.md)

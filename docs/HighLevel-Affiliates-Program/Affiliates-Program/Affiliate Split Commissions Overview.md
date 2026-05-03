@@ -11,7 +11,7 @@ HighLevel is excited to offer split commissions to all affiliates!
   
 
 
-When an affiliate refers someone to HighLevel, our team wants to continue to give that affiliate credit as long as the customer is active. Additionally, when a different affiliate gets that customer to upgrade, we want to give all involved affiliates credit!
+This means that when an affiliate refers someone to HighLevel, and a different Affiliate refers that customer to an upgrade or qualified add-on product, both Affiliates can be eligible to receive credit.
 
   
 
@@ -24,14 +24,6 @@ Multiple affiliates can receive commission on one referred customer:
 AND
 
   * Affiliates who refer customers to a plan upgrade
-
-
-  
-
-
-This means that if one affiliate brings in a new customer, and a different affiliate refers this customer to a plan upgrade, HighLevel will give commission to both affiliates for the amazing work that they did!
-
-  
 
 
   
@@ -53,12 +45,6 @@ Affiliate A will continue to receive regular commission for referring the custom
 
 
 Note: This also works for customers who upgrade from Starter ($97/mo) to the Unlimited ($297/mo) plan under two separate affiliates! Affiliate A will continue to receive commission on the $97 plan, while Affiliate B can generate commission on the difference between the Starter and Unlimited Plan (40% of about $200).
-
-  
-
-
-  
-
 
   
 

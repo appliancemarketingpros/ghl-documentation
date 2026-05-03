@@ -6,8 +6,8 @@
 
 ---
 
-In this guide, you’ll learn how to register your U.S. phone numbers with HighLevel’s Voice Integrity feature—leveraging top caller-ID analytics platforms to clear spam flags, repair your caller-ID reputation, and significantly boost your answer rates.  
-  
+In this guide, you’ll learn how to register your U.S. phone numbers with HighLevel’s Voice Integrity feature—leveraging top caller-ID analytics platforms to clear spam flags, repair your caller-ID reputation, and significantly boost your answer rates.
+
 * * *
 
 **TABLE OF CONTENTS**

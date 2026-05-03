@@ -16,3 +16,4 @@
 - [PayPal in Calendars](PayPal in Calendars.md)
 - [Calendar View Enhancements](Calendar View Enhancements.md)
 - [HighLevel Voice AI: Book Across Multiple Calendars (Intent‑Based Selection)](HighLevel Voice AI Book Across Multiple Calendars (Intent‑Based Selection).md)
+- [Buy Now, Pay Later with Klarna and Affirm in Calendars](Buy Now, Pay Later with Klarna and Affirm in Calendars.md)

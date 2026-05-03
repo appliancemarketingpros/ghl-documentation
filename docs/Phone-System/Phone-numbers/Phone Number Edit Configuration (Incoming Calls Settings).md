@@ -356,6 +356,15 @@ The system evaluates inbound call routing in a fixed order:
 
 Only the **highest available priority** rings. Lower priorities are skipped once a call is answered or routed.
 
+  
+
+    
+    
+    Note: To allow inbound calls from private or anonymous numbers, go to **Sub-account Settings > Phone System > Voice > Other Settings > Inbound Calls** and enable **Allow private calls**.
+
+  
+
+
 * * *
 
 ## **Frequently Asked Questions**

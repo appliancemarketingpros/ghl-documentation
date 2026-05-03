@@ -13,6 +13,14 @@ Agent Studio is HighLevel’s visual environment for building intelligent AI age
 
 This article is intended for users who are exploring Agent Studio for the first time and want to understand its structure, purpose, and core components before building advanced automations.
 
+  
+
+    
+    
+    **Note:** AI Studio and Agent Studio are two separate AI tools within HighLevel, designed for different use cases.
+    
+    **[AI Studio](<https://help.gohighlevel.com/en/support/solutions/articles/155000007587>)** is a conversational, AI-powered builder that helps you quickly create websites, pages, and other web assets using prompts. **Agent Studio** is a visual builder used to create AI-powered agents that can respond to events, interact with users, and automate tasks.
+
 * * *
 
 **TABLE OF CONTENTS**

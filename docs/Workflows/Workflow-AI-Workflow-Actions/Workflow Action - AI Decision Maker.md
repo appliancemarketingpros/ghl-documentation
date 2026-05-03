@@ -32,7 +32,7 @@ This action simplifies workflow routing while maintaining accuracy and flexibili
 
 * * *
 
-## **What Is AI Decision Maker?**
+# **What Is AI Decision Maker?**
 
   
 
@@ -109,7 +109,11 @@ Follow these steps to insert and configure the action in your workflow.
   
 
 
-### ![](https://jumpshare.com/share/vUSToXyTZLsRHIfVdBH4+/GIF+Recording+2025-09-11+at+7.57.11+PM.gif)  
+### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065903827/original/gu0xgnR3EMYGgjjQuk5nMi8q8z4lN-cU9w.png?1772231158)
+
+  
+
+
 **_Step 2:_**_Add the AI Decision Maker Action_
 
   
@@ -137,7 +141,7 @@ Use a clear **Action Name** to keep branching-heavy workflows organized.
   
 
 
-![](https://jumpshare.com/share/tdg8kPmlFsY0AvWNmytg+/GIF+Recording+2026-01-06+at+9.20.06+PM.gif)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065903852/original/G8V4nN8wSV8mKMONH_lyGqGiTZgOsISdHg.png?1772231259)
 
 ###   
 **_Step 3:_**_Write Clear AI Instructions_
@@ -431,8 +435,7 @@ Once all instructions and branches are configured, click **Save Action**.
   
 
 
-The workflow will now automatically evaluate contacts and route them based on AI-driven decision logic.
-
+The workflow will now automatically evaluate contacts and route them based on AI-driven decision logic.  
   
 ![](https://jumpshare.com/share/8wbPvJBdqIUuxcoNJKXl+/Screen+Shot+2025-09-12+at+1.46.30+PM.png)
 

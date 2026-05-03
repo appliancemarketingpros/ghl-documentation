@@ -161,6 +161,9 @@ Design flexibility is built into HighLevel’s QR Code Builder. Here’s how you
   
 
 
+  * QR Shape - Choose from Square, Rounded Square or Circle  
+  
+
   * Background Color – Change the background behind the QR elements  
   
 
@@ -173,17 +176,25 @@ Design flexibility is built into HighLevel’s QR Code Builder. Here’s how you
   * Marker Border & Center – Customize the corner markers' shape and color  
   
 
+  * Border and Frame - Add a border or frame to your QR code and customize its color  
+  
+
+  * Rim content - Add CTA text to the top and bottom of your QR code to make it clearer  
+  
+
   * Logo or Background Image – Add a logo in the center of your QR code or overlay a background image  
   
 
     * Under the Logo tab, choose between no logo, predefined logos (Google, YouTube, etc.), uploading your own logo  
   
 
-    * You can remove the background behind the logo if needed  
+    * You can remove the background behind the logo if needed
+
+
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046644403/original/AldzXc5LrusfaP9Lilrd7T5bfcmyF8Pokg.png?1747247608)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068742382/original/jUcO-QpKCF0BO29ukZSPvqGbt0OfASJKgQ.png?1775686282)
 
 * * *
 

@@ -16,7 +16,6 @@
 - [How to Set Up Verified Caller ID (Use your number for Voice Calls)](How to Set Up Verified Caller ID (Use your number for Voice Calls).md)
 - [How to Configure SMS Compliance Settings](How to Configure SMS Compliance Settings.md)
 - [Physical VoIP Deskphones (SIP)](Physical VoIP Deskphones (SIP).md)
-- [Test](Test.md)
 - [LC Phone System - Error Code and Warning Dictionary](LC Phone System - Error Code and Warning Dictionary.md)
 - [Why You Can't Delete a Twilio Subaccount from the Highlevel?](Why You Can't Delete a Twilio Subaccount from the Highlevel.md)
 - [KYC Verification on Persona — Best Practices](KYC Verification on Persona — Best Practices.md)

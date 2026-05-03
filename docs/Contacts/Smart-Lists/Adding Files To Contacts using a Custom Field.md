@@ -100,7 +100,7 @@ Go to **Settings** from the left-hand menu and select **Custom Fields,** then**c
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155040330516/original/90asUWAWuQS5sUbEGHaWKB6hobjw_a6R7A.gif?1737630850)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069224077/original/BrkDDzrLI4MYVx6S6zZL-8H3CeLN3_tRaQ.gif?1776263765)
 
   
 
@@ -123,7 +123,7 @@ Go to the **Contacts** section from the left-hand menu and select the contact yo
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155044805788/original/KEINpxAtJtHfZuKEJ18-PigV6KbkvivM3g.gif?1744203309)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069224182/original/-CauqohYKubmrTnay-CPPHvM4kVojwAu8g.gif?1776263797)
 
   
 
@@ -145,7 +145,7 @@ Scroll to the **Custom Fields** section of the contact's profile and locate the 
 
 ****
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155044806000/original/1Yg9M9NTLbd5Z2SAwTLeA2RYUtRDc8ymVQ.gif?1744203431)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069224216/original/90I2tmK9SWWG9EpiQUnv1Z3wNH8zLmKNKQ.gif?1776263812)
 
   
 

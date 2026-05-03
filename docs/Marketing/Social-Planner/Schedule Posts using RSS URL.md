@@ -22,13 +22,9 @@ Automatically publish new items from any valid **RSS/Atom** feed to your connect
   * Prerequisites
   * How to find the RSS Feed?
   * How to Create Posts using RSS Feed?
-    * Step 1: Navigate to RSS Post
-    * Step 2: Add URL
-    * Step 3: Select Socials
-    * Step 4: Add Ending
-    * Step 5: Update Time
-    * Step 6: Select Maximum Posts
+  * How RSS Duplicate Protection Works
   * Frequently Asked Questions
+  * Related Articles
 
 
 * * *
@@ -290,6 +286,38 @@ This option helps you better control how much content is shared and ensures post
 
 * * *
 
+## **How RSS Duplicate Protection Works**
+
+  
+
+
+Social Planner now tracks RSS feed items for 90 days to prevent missed or duplicate posts.
+
+  
+
+
+When the RSS feed syncs, Social Planner checks each feed item individually. It identifies each item by its GUID. If no GUID is available, it uses the item’s link and title.
+
+  
+
+
+  * This helps Social Planner:  
+  
+
+  * Publish valid feed items once  
+  
+
+  * Skip duplicate feed items  
+  
+
+  * Detect items that appear late or out of order  
+  
+
+  * Continue working with existing RSS automations without manual changes
+
+
+* * *
+
 ## **Frequently Asked Questions**
 
   
@@ -326,3 +354,14 @@ Link previews are controlled by each social network. For the most reliable visua
 **Q. Why does the same RSS item look different on different social networks?**
 
 Social networks have different character limits. Social Planner generates RSS post text per platform, so the same RSS item may truncate differently depending on the network.
+
+* * *
+
+## **Related Articles**
+
+  
+
+
+[RSS Feed for Blogs](<https://help.gohighlevel.com/en/support/solutions/articles/48001231723>)  
+  
+[A basic guide of RSS Campaign](<https://help.gohighlevel.com/en/support/solutions/articles/155000004928>)

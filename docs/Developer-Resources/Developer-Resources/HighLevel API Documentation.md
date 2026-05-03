@@ -12,9 +12,9 @@ HighLevel provides a comprehensive API platform that enables developers to build
 
     
     
-    **IMPORTANT : **V1 APIs has reached end-of-support. 
+    **IMPORTANT : **V1 APIs has reached end-of-support as on 31-December-2025. 
     
-    Existing connections/integrations will continue to work, however no support will be provided for V1 APIs. 
+    Existing connections/integrations will continue to work, however no support or updates will be provided for V1 APIs. 
     
     Want to migrate from V1 to V2? (with a ton of new functionalities and security features)
     [](<https://help.gohighlevel.com/a/solutions/articles/155000003054?portalId=48000045315>)Check out - [Private Integrations](<https://help.gohighlevel.com/support/solutions/articles/155000003054-private-integrations-everything-you-need-to-know>)

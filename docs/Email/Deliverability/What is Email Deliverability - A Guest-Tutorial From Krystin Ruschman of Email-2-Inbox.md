@@ -6,174 +6,190 @@
 
 ---
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48146642843/original/VznCObDVAa4l0JXlCvXrzP8OgNT_RhQwlg.png?1633527869)
+Email Deliverability
 
-##   
+# What is Email Deliverability?
 
+Delivered vs. Deliverability — what's the difference, why does it matter, and what actually controls whether your email lands in the inbox?
 
-## What is Email Deliverability?
+A guest tutorial from Krystin Ruschman of [Email-2-Inbox](<https://help.email-2-inbox.com/calendar-chat>).
 
-A Guest-Tutorial From Krystin Ruschman of [](<https://www.facebook.com/groups/email2inboxhighlevelusers>)[Email-2-Inbox](<https://help.email-2-inbox.com/calendar-chat>)
+"I think my deliverability is ok…"
 
-  
+What does that actually mean? Where do you even see Deliverability? Let's start by making sure we're on the same page about two terms that get mixed up all the time — **Delivered** and **Deliverability**. They are very different.
 
+Table of Contents
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48146643430/original/w38n9VFNm3fPyE8mbVChqjQW8GyMYuPOFA.png?1633527939)  
+  1. 1 Delivered — What It Really Means
+  2. 2 Deliverability — The Stat You Can't See
+  3. 3 Factors That Influence Deliverability
+  4. 4 Control What You Can Control
+  5. 5 Need Some Help?
+  6. 6 Frequently Asked Questions
 
 
-  
+## Delivered — What It Really Means
 
+This is the stat you can see — in your SMTP dashboard (Mailgun, for example) and inside the HighLevel email stats view alongside opens, clicks, bounces, complaints, and replies.
 
-“I think my deliverability is ok…”
+![Mailgun and HighLevel dashboard delivery stats](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48146642843/original/VznCObDVAa4l0JXlCvXrzP8OgNT_RhQwlg.png?1633527869)
 
-  
+**"Delivered" just means the email got to the recipient's mail server** — somewhere. Could be the inbox, spam, promotions, updates… honestly, who knows where it actually landed? It's also possible for the mail server to accept the message and then never hand it off to the mailbox, though that's less common — most mail servers would rather reject outright and give the sender clear feedback.
 
+You know… like when the postal carrier marks your package "delivered" in their system but it's nowhere to be found on your doorstep, and you end up asking every neighbor if it got dropped at their place by mistake? Yeah. Like that.
 
-What does that mean? Where do we see Deliverability?
+A Good Delivery Rate is 98%+
 
-  
+The opposite of Delivered is Undelivered — meaning it didn't make it to the recipient server at all. It failed, bounced, or got rejected. None of those are what we want.
 
+Why HighLevel + Mailgun is Special
 
-First, let’s make sure we’re on the same page regarding the difference between “Delivered” and “Deliverability” because they are very different!
+Most email marketing tools hide Delivered as a stat — because they'd have to answer for it. They'll show you how many people entered a campaign and then jump straight to Open Rate. HighLevel with Mailgun gives you full visibility into every stat and direct communication with your own SMTP provider, which means the power is entirely in your hands.
 
-  
+## Deliverability — The Stat You Can't See
 
+Unlike Delivery, **Deliverability is a stat you don't actually see anywhere.**
 
-*DELIVERED* 
+Deliverability = Inbox Placement
 
-This is the stat you see in your SMTP dashboard or in your Highlevel email stats (along with opens, replies, clicks, bounces, complaints, etc.)
+In other words — your Inboxing Rate. How much of your mail hits the Inbox versus Spam, Junk, Promotions, Updates, or nowhere at all.
 
-Examples:
+![Deliverability visualization](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48146643430/original/w38n9VFNm3fPyE8mbVChqjQW8GyMYuPOFA.png?1633527939)
 
-[Mailgun Dashboard]
+Email Service Providers (Gmail, Yahoo, Outlook, etc.) don't provide inbox-placement data in their feedback loops, so there's no dashboard that tells you "42% of your email landed in spam." You only know it was delivered — not where.
 
-  
+There's no such thing as a perfect 100% inbox rate every time, but understanding the factors that drive deliverability lets you get as close to 100% as possible.
 
+## Factors That Influence Deliverability
 
-[Highlevel Campaign]
+There are literally hundreds of inputs that affect inbox placement. Here are the big ones that move the needle most.
 
-  
+1
 
+### IP & Domain Reputation
 
-**Delivery** just means the email **got to the recipient mail server** – somewhere – could be the inbox, spam, promotions, updates – who freaking knows where it landed??? It’s also possible the mail server will choose not to hand it off to the email account, but that’s not as likely since most mail servers would prefer to outright reject the email and provide that feedback to the sender.
+**Reputation is KEY.** Many, many things feed into it, but two categories carry the most weight: **Volume & Consistency** and the almighty **Engagement** (opens, clicks, replies, bounces, complaints, unsubscribes). For more on stats, see _"What Email Deliverability Stats Should I Look For?"_.
 
-... You know... like when the postal carrier marks your package as "delivered" in their system, but it's nowhere to be found in your mailbox so you start hunting around your doorstep and asking neighbors if they got it by mistake, but it’s nowhere to be found ? (sorry... went off on a tangent there!)
+2
 
-  
+### ESP Filtering Preferences
 
+Google, Yahoo, Outlook, Apple — they don't all filter the same way. There are hundreds of signals each provider evaluates, and none of them publish a whitepaper explaining their filtering logic. What works for Gmail may not work for Outlook.
 
-**A good Delivery rate is 98%+**
+3
 
-Because – what’s the alternative? 
+### Authentication
 
-The opposite of Delivered is Undelivered… meaning it didn’t get delivered AT ALL. It failed or bounced or got rejected by the receiving mail server – none of those are what we want.
+Those pesky DNS records — the **SPFs, DKIMs, and DMARCs** of the world. And don't forget your MX records; if those aren't configured correctly you could land in spam or prevent delivery entirely.
 
-**NOTE: Delivered is a stat MOST email marketing tools DO NOT share with you!** Why? Because they’d have to answer to it. Instead, they show how many people went into a campaign or automation, then skip right over Delivered and just show the Open rate.
+4
 
-For those using Mailgun with Highlevel, every stat is visible. So, unlike other email tools, Highlevel lets you have full visibility into your delivery rates, and direct communication with your own SMTP provider, which means the power is entirely in your hands to get the best possible results from your email marketing efforts. THIS is why I love the Highlevel/Mailgun combination so much! No other email toolset gives this much opportunity for excellent deliverability.
+### Domain Age
 
-  
+Root domain or subdomain, age factors into warm-up. Treat your new domain like a first date — the goal is a second date. A new domain has no history and no reputation, so start slow and don't rush things. A strong reputation can overcome young age.
 
+5
 
-***DELIVERABILITY***
+### Domain Suffix (TLD)
 
-Unlike Delivery, Deliverability is a stat you don’t see anywhere.
+Some TLDs come with a bad reputation from day one. The most trusted suffixes are **.com, .co, .net, .org** (plus .edu and .gov for those who qualify). Others can send you straight to spam. Check how your domain suffix rates [on Spamhaus](<https://www.spamhaus.org/statistics/tlds/>).
 
-Deliverability = Inbox Placement… in other words your Inboxing Rate – how much of your email hits the Inbox vs. other folders (like Spam or Junk or Promotions…) or not delivering at all.
+6
 
-Email Service Providers do not provide this level of detail in their feedback loops, so we don’t actually see stats related to which folders our email is landing in - only if it was delivered.
+### Subject Line & Body Copy
 
-  
+What you say matters. I once took the word **FREE** out of a single subject line and deliverability improved by 7%. Avoid spammy triggers like "click here", "opportunity", "free", "100%", and heavy punctuation (!!!).
 
+7
 
-**A Good Deliverability rate would obviously be** ?**%**
+### Blacklistings
 
-  
-Although, there’s no such thing as 100% to the inbox, every time, it’s important to understand some of the factors that play into it, so we can come as close to 100% as possible.
+The dreaded "Black Spot." Different blacklists, different consequences — some cause huge problems, others are temporary. Check whether your domain or IP is listed on [MXToolbox Blacklists](<https://mxtoolbox.com/blacklists.aspx>).
 
-  
+8
 
+### Link Types, Length, Count & Reputation
 
-Things like:
+Even a simple signature tool can hurt deliverability. A single blacklisted or bad-reputation link makes your whole email "guilty by association." Only include links you trust or control.
 
-  * IP and domain reputation
+9
 
-    * Reputation is KEY! Many, many things affect reputation, but there are 2 main categories that weigh heavily… Volume and Consistency, and the almighty Engagement (opens, clicks, replies, bounces, complaints, unsubscribes). For more information on stats, check out “What Email Deliverability Stats Should I Look For?”.
+### Text-to-HTML Ratio
 
-  * Individual Email Service Provider (ESP) filtering preferences
+There's a time and place for fancy templates. The general rule is **60:40, leaning text-heavy**. Audience know/like/trust and past engagement can let you get away with more HTML — and sometimes heavier HTML wins on conversions even with lower deliverability. Test.
 
-    * Google, Yahoo!, Outlook, etc. - they don’t all filter exactly the same… There are 100s of things that play into email deliverability, but none of these companies provide a whitepaper with their filtering logic
+10
 
-  * Authentication
+### Volume & Consistency
 
-    * Those pesky DNS records - the SPFs, DKIMs, and DMARCs of the world. And don’t forget your MX records… if those aren’t configured correctly that could also land you in spam or even prevent delivery.
+How much you send, how fast, and how often — all of these shape reputation. Think about what a spammer does: huge volume, all at once, pushing mail out rather than nurturing relationships. Don't be a spammer. (See also: Domain Age.)
 
-  * Domain age
+11
 
-    * Whether it’s a root domain or a subdomain, age factors into warm-up considerations. Treat your new domain like a first date… the goal being to get a second date. When you show up at the door with a new domain, you have no history and no reputation, so make sure to start sending slow and don’t rush things. A good reputation can overcome a young domain age.
+### Recipient Email Behavior
 
-  * Domain suffix
+Believe it or not, how your recipient interacts with their own email account factors into where your message is routed. Factoring recipient behavior into your strategy puts you ahead of most marketers.
 
-    * Some of them have a bad rep from the start! The most trustworthy domain suffixes are .com, .co, .net, and .org (.edu and .gov for those who can use them) There are others that work well and some that can send you directly to the spam folder. See how your domain suffix rates [here](<https://www.spamhaus.org/statistics/tlds/>).
+…
 
-  * Subject line and body copy
+### And Many Others
 
-    * What you say, matters. One time I took the word FREE out of a subject line, and that alone improved Deliverability by 7%! Stay away from known spammy words/phrases like “click here”, “opportunity”, “free”, “100%”, etc.
+Image-to-text ratio, attachment types, time of send, engagement recency, complaint rate trends, spam-trap exposure, unsubscribe behavior — the list keeps going. Look for more detailed articles on these individual factors coming soon.
 
-  * Blacklistings
+## Control What You Can Control
 
-    * The dreaded “Black Spot”. There are actually different types of blacklists and different reasons for ending up on one. Some cause huge problems, and some are just temporary. Check to see if your domain or IP is blacklisted [here](<https://mxtoolbox.com/blacklists.aspx>).
+We don't have control over every factor that plays into deliverability, but the play is to isolate the things we _can_ influence — even a little bit — and then commit to controlling them entirely.
 
-  * Link types, link length, number of links, link reputation
+The Short Version
 
-    * Even a simple signature tool can have a dramatic effect on deliverability. Keep in mind, having a link in your email that’s associated with a blacklist or has a bad reputation makes your email “guilty by association”, so make sure any links used inside your email are ones you trust and/or control.
+Proper setup and authentication get you **to** the inbox. Consistent behavior — good list hygiene, relevant content, steady volume, real engagement — keeps you **in** the inbox.
 
-  * Text to HTML ratio
+## Need Some Help?
 
-    * There’s a time and a place for “fancy” email templates. The general rule is 60:40, leaning heavy on the text side. The audience know/like/trust factor and previous engagement can weigh in on how much HTML you can get away with. Also, it’s important to test. It may be that the heavier HTML, even though decreasing deliverability, may still win on conversions.
+It's a Wide Topic
 
-  * Volume and consistency
+This article covers a handful of factors, but there are hundreds of things that play into deliverability and every situation is unique.
 
-    * How much you send, how fast you send it, and how often you send... All of these factors can affect your domain or IP reputation, which can then affect your deliverability. Think of what a “spammer” would do… sends a lot, all at once, more interested in just shoving the email out than concerning themselves with nurturing the recipient relationship. Don’t be like a spammer. (see Domain Age)
+Setup Gets You In
 
-  * Recipient email behavior
+Proper setup and configuration is what gets you _to_ the inbox — behavioral choices are what keep you there.
 
-    * Believe it or not, how the user interacts with their own email account factors into how your email might be directed. Learning to factor recipient behavior into your deliverability strategy will take you much further than most marketers.
+Troubleshooting is Hard
 
-  * And many others...
+It's almost impossible to troubleshoot deliverability over a Facebook post or helpdesk ticket. Real analysis requires context.
 
+Want a One-on-One Look?
 
-  
+If you're struggling to get emails to the inbox — or just want to level up your email marketing — book a call with Krystin at Email-2-Inbox.
 
+[Book a Call with Krystin](<https://help.email-2-inbox.com/calendar-chat>)
 
-We don’t have control over every factor that plays into Deliverability, but it’s important to isolate the things we CAN control - even if just a little bit, and then just do everything we can to control them entirely.
+## Frequently Asked Questions
 
-*Look for more detailed articles on some of these factors coming soon!
+What's the difference between Delivered and Deliverability?
 
-  
+Delivered means the message reached the recipient's mail server (somewhere — inbox, spam, promotions, you name it). Deliverability means inbox placement specifically — what percentage of your mail actually lands in the primary inbox versus other folders.
 
+Where can I see my Deliverability rate?
 
-Need Some Help?
+You can't — not directly. ESPs don't report inbox placement. What you can monitor is delivery rate, open rate, spam complaint rate, and postmaster tools data (Google Postmaster, Microsoft SNDS), which together give you a strong proxy for inbox placement.
 
-  
+What counts as a "good" delivery rate?
 
+**98% or higher.** Anything below that signals list hygiene problems, authentication issues, or reputation damage worth investigating.
 
-  * This article touches on a handful of things that affect whether or not your email gets delivered to the Inbox, but there are 100s of things that play into deliverability, and every situation is unique.
+Why should I use HighLevel with Mailgun instead of a tool that hides these stats?
 
+Because you get full visibility. Most email marketing platforms obscure delivered, bounce, and complaint stats so you can't hold them accountable. HighLevel + Mailgun gives you every stat and lets you communicate directly with the SMTP provider — which means you own the outcome.
 
-  
+What's the single biggest lever I can pull to improve deliverability?
 
+**Engagement.** Send to people who open, click, and reply — stop sending to people who don't. Clean lists and relevant content lift everything else: reputation, inbox placement, conversion rate. It's that direct.
 
-  * Proper setup/configuration is necessary to get you TO the inbox, but it’s the behavioral stuff that ensures you STAY there.
+Can I recover from a damaged sender reputation?
 
+Yes, but it takes time. Pause your worst-performing sends, aggressively prune unengaged contacts, focus on your most engaged segment, and gradually rebuild volume. Authentication (SPF, DKIM, DMARC) must be perfect while you recover.
 
-  
+## Related Articles
 
-
-  * It’s virtually impossible to troubleshoot email deliverability issues over a Facebook post, helpdesk chat, or ticket. Troubleshooting properly requires an understanding of all the factors and thorough analysis in order to properly troubleshoot.
-
-
-  
-
-
-If you’re struggling to get your emails to the inbox, or even if you just want to look at ways to turn your email marketing up a notch, please [book a call with Krystin](<https://help.email-2-inbox.com/calendar-chat>) at Email2Inbox
+Email Deliverability Overview Why Are My Emails Going to Spam? Dedicated Sending Domain Setup Bot Detection for Email Stats Filtering Contacts by Email Statistics

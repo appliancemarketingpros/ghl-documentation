@@ -5,7 +5,7 @@
 ## Articles
 
 - [AI Prompting 101](AI Prompting 101.md)
-- [How to Use Conversation AI to Book Appointments](How to Use Conversation AI to Book Appointments.md)
+- [Appointment Booking in Conversation AI](Appointment Booking in Conversation AI.md)
 - [Bot Goals Feature : Complete Guide](Bot Goals Feature Complete Guide.md)
 - [Bot Actions - Add Contact Info](Bot Actions - Add Contact Info.md)
 - [Customize your AI responses using Prompts](Customize your AI responses using Prompts.md)

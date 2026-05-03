@@ -4,6 +4,8 @@
 
 ## Articles
 
+- [How to Set Up Nested Folders for Email Campaigns, Templates & Sequences](How to Set Up Nested Folders for Email Campaigns, Templates & Sequences.md)
+- [How to Edit an Email Template](How to Edit an Email Template.md)
 - [Importing and Editing Mailchimp Email Templates in the HighLevel Design Editor](Importing and Editing Mailchimp Email Templates in the HighLevel Design Editor.md)
 - [Whitelabel Email Template Sharing: Step-by-Step Guide](Whitelabel Email Template Sharing Step-by-Step Guide.md)
 - [Email Templates vs Email Campaigns](Email Templates vs Email Campaigns.md)

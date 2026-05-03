@@ -74,12 +74,12 @@ Expanding your Voice AI capabilities to multiple languages provides several adva
   
 
 
-The Voice AI feature supports 26 languages, including:
+The Voice AI feature supports over 52 languages, including:
 
   
 
 
-English, German, Spanish, French, Portuguese, Italian, Dutch, Hindi, Japanese, Polish, Romanian, Turkish, Vietnamese, Swedish, Norwegian, Russian, Indonesian, Greek, Danish, Finnish, Chinese, Korean, Slovak, Bulgarian, Malay, Hungarian.
+English, German, Spanish, French, Portuguese, Italian, Dutch, Hindi, Japanese, Polish, Romanian, Turkish, Vietnamese, Swedish, Norwegian, Russian, Indonesian, Greek, Danish, Finnish, Chinese, Korean, Slovak, Bulgarian, Malay, Hungarian, Afrikaans, Armenian, Azerbaijani, Bosnian, Czech, Galician, Hebrew, Icelandic, Kannada, Kazakh, Latvian, Lithuanian, Macedonian, Marathi, Nepali, Persian (Farsi), Serbian, Slovenian, Swahili, Thai, Urdu, Welsh.
 
   
 There are also voices with Multilingual support (English and Spanish).  

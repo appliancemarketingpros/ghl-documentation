@@ -15,3 +15,4 @@
 - [Complete Guide to Media Storage!](Complete Guide to Media Storage!.md)
 - [Understanding the Manage Scoring Page in HiRise Design](Understanding the Manage Scoring Page in HiRise Design.md)
 - [WhatsApp Settings](WhatsApp Settings.md)
+- [How to Set Up and Use Associations Between Companies, Opportunities, and Custom Objects](How to Set Up and Use Associations Between Companies, Opportunities, and Custom Objects.md)

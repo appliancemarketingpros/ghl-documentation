@@ -9,42 +9,39 @@
 **TABLE OF CONTENTS**
 
     * Pre-requisites for Auto-Reselling
-      * Connect Your Agency Stripe Account
-      * Setting Your WhatsApp Pricing
-      * Personalizing WhatsApp Pricing for Specific Clients
+    * Connect Your Agency Stripe Account
+    * Setting Your WhatsApp Pricing
+    * Personalizing WhatsApp Pricing for Specific Clients
     * How do I disable WhatsApp for certain clients?
     * How do I directly deploy WhatsApp without Stripe/Reselling to a location?
-      * More Tutorials From the Community
-      * Step 1: Access Billing Information
-      * Step 2: Scroll Down > View Sub-Accounts
-      * How do your clients discover the Whatsaap feature?
+    * More Tutorials From the Community
+    * Step 1: Access Billing Information
+    * Step 2: Scroll Down > View Sub-Accounts
+    * How do your clients discover the Whatsaap feature?
     * How do your Clients complete the purchase?
     * How does the billing work?
-  * FAQ
-        * 1\. What are the prerequisites for auto-reselling WhatsApp?
-        * 2\. How do I set WhatsApp pricing for my agency?
-        * 3\. Can I set different WhatsApp pricing for specific clients?
-        * 4\. How do I disable WhatsApp for certain clients?
-        * 5\. Can I deploy WhatsApp without Stripe or Auto-Reselling?
-        * 6\. How do conversation charges work if I deploy WhatsApp manually?
-        * 7\. How do I check how much I am paying to HighLevel for WhatsApp?
-        * 8\. How do clients discover the WhatsApp feature?
-        * 9\. How do clients purchase WhatsApp?
-        * 10\. How does WhatsApp billing work?
+    * FAQ
 
 
 * * *
 
-## **Pre-requisites for Auto-Reselling**
+## **Pre-requisites for Auto-Reselling**  
+
 
 ### **Connect Your Agency Stripe Account**
 
+  
+
+
 To resell WhatsApp, you need to connect your **agency's Stripe account** , which will be used to collect subscription payments from your clients.
 
-? Follow this guide to connect Stripe: [How to Connect Stripe to Your Agency Dashboard](<https://help.gohighlevel.com/support/solutions/articles/48001171910-how-to-connect-stripe-to-your-agency-dashboard>)
+  
+Follow this guide to connect Stripe: [How to Connect Stripe to Your Agency Dashboard](<https://help.gohighlevel.com/support/solutions/articles/48001171910-how-to-connect-stripe-to-your-agency-dashboard>)
 
-? **Don’t have Stripe?** You can still **deploy WhatsApp** without using the auto-reselling feature. However, in this case, your agency will be directly billed instead of charging the client.
+  
+**Don’t have Stripe?** You can still **deploy WhatsApp** without using the auto-reselling feature. However, in this case, your agency will be directly billed instead of charging the client.
 
+  
 Let me know if you'd like further refinements! ?
 
 * * *
@@ -56,24 +53,7 @@ To set your agency-wide WhatsApp pricing, go to Agency Dashboard > Reselling Tab
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155041689839/original/VF3Y5xZhIWYoY-g0v9UemlSHD7S4pEAyVw.png?1739768576)
-
-  
-
-
-  
-
-
-  
-
-
-###   
-
-
-###   
-
-
-###   
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155041689839/original/VF3Y5xZhIWYoY-g0v9UemlSHD7S4pEAyVw.png?1739768576)  
 
 
 ### Personalizing WhatsApp Pricing for Specific Clients
@@ -92,14 +72,14 @@ If you want to offer a different WhatsApp rate to certain clients, follow these 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155041689840/original/1XKg4_wYj2kzjYNyQ5iyoXK6h9pFH1IG6A.png?1739768577)
 
-✅ Your customized pricing is now applied!
-
-  
-
+Your customized pricing is now applied!
 
 * * *
 
 ## **How do I disable WhatsApp for certain clients?**
+
+  
+
 
 If you have certain clients that you do not wish to offer WhatsApp to, you can do so by following these two steps:
 
@@ -123,22 +103,32 @@ If you have certain clients that you do not wish to offer WhatsApp to, you can d
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155008615187/original/oHFFi5n-bo-zkZCOVpywKe_iXQJcwMPGPQ.png?1695730702)
 
-**Please note:**
+  
+
+
+**Please Note:**  
+
     
     
      This offer can only be disabled before the sale has happened. Once a location already purchases WhatsApp, you can not disable it from here. 
+    
     Disabling WhatsApp after the subscription is initiated would mean cancellation. For cancelling the subscription please create a support ticket.
 
 * * *
 
-## **How do I directly deploy WhatsApp without Stripe/Reselling to a location?**
+## **How do I directly deploy WhatsApp without Stripe/Reselling to a location?**  
 
-### ****More Tutorials From the Community
 
+### ****  
+More Tutorials From the Community
+
+  
 <https://youtu.be/uHzyW7yamhA>
 
+  
 <https://youtu.be/w0TSujKqDl4>
 
+  
 <https://youtu.be/dHcfecj9ojg>
 
   
@@ -154,11 +144,14 @@ If you have certain clients that you do not wish to offer WhatsApp to, you can d
   
 
 
-**Step 2:** Scroll down to the reselling section -> Under WhatsApp -> Read and Accept Deploy WA directly T&C -> Hit pay Now
+**Step 2:** Scroll down to the reselling section -> Under WhatsApp -> Read and Accept Deploy WA directly T&C -> Hit pay Now  
+
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155013441617/original/d7Ykkj1D_RZSMn9j2Y94SDr6hK-GZozuYg.png?1700743180)
 
-**Please note:**
+  
+**Please Note:**  
+
     
     
      WhatsApp tab won’t be visible for the location until this manual deployment takes place(in case agency does not have a Stripe account). It’s important to highlight that manual deployment won’t establish a subscription between the location and agency, while subscriptions with GHL and the agency will still be created.
@@ -189,25 +182,21 @@ If you have certain clients that you do not wish to offer WhatsApp to, you can d
 
 To review how much you are paying to HighLevel and for which accounts, follow these steps:
 
-### **Step 1: Access Billing Information**
+###   
+**Step 1: Access Billing Information**
 
   
 
 
 Navigate to **Agency Settings** → **Billing** → **Subscription** → **Reselling WhatsApp**.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155041853129/original/AWwYkQMYxdhntRpfL-s_iaMV-J2G5dTipA.png?1739951834)
-
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155041853129/original/AWwYkQMYxdhntRpfL-s_iaMV-J2G5dTipA.png?1739951834)  
   
 
 
-  
+### **Step 2: Scroll Down > View Sub-Accounts**  
 
-
-###   
-
-
-### **Step 2: Scroll Down > View Sub-Accounts**
 
   * Click on **"Show Sub-Accounts"** to display a detailed list of all sub-accounts associated with WhatsApp.
 
@@ -215,7 +204,9 @@ Navigate to **Agency Settings** → **Billing** → **Subscription** → **Resel
   
 
 
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155041855618/original/eHQuRaeWMsluHtl_i457LVKQx3YM01WP-A.png?1739953374)**
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155041855618/original/eHQuRaeWMsluHtl_i457LVKQx3YM01WP-A.png?1739953374)**  
+  
+
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155041855824/original/N-SqK566SKgrSSDMXPOr2TZc7tWh8itqKw.png?1739953523)
 
@@ -240,6 +231,7 @@ Your clients can discover WhatsApp in the Sub-Account > Settings > WhatsApp
 
 ## **How do your Clients complete the purchase?**
 
+  
 Once clients discover the WhatsApp feature, they can easily purchase it by entering their payment details and clicking the **Confirm** button. Upon confirmation, our system automatically processes the payment and sets up the required subscriptions.
 
   
@@ -249,13 +241,8 @@ Once clients discover the WhatsApp feature, they can easily purchase it by enter
      **Important Note:** Two separate subscriptions will be created:
 
   
-
-
-  
-
-
-  
 Step 1: **Between GoHighLevel and the Agency**  
+  
 Step 2: **Between the Agency and the Sub-Account**
 
   
@@ -264,44 +251,31 @@ After completing the purchase, clients will be redirected to the WhatsApp signup
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155041724846/original/tIeJnSlD0BAnM7wV4ZeIB7MTdIZ69deiXg.png?1739795051)  
-
-
-  
-
-
-  
-
-
-  
-
-
-  
-
-
-  
-
-
-  
-
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155041724846/original/tIeJnSlD0BAnM7wV4ZeIB7MTdIZ69deiXg.png?1739795051)
 
 * * *
 
 ## **How does the billing work?**
 
-When your client purchases WhatsApp it creates 2 subscriptions in the System
+  
+When your client purchases WhatsApp it creates 2 subscriptions in the System  
 
-  1. Between your client's card & your Stripe Account so you can collect payment from your clients
+
+  1. Between your client's card & your Stripe Account so you can collect payment from your clients  
+
   2. Between HighLevel & your Stripe account, you pay $10/month/location to HighLevel   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155010213562/original/dN_oYi_aEBetlYHpguinC7YEVse4KZihaA.png?1697462471)
-  3. The monthly charge gets you free inbound and outbound messages. When the lead sends an inbound text it gives you a 24-hour window when you can text them back. The window keeps extending with every message. 
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155010213562/original/dN_oYi_aEBetlYHpguinC7YEVse4KZihaA.png?1697462471)  
+
+  3. The monthly charge gets you free inbound and outbound messages. When the lead sends an inbound text it gives you a 24-hour window when you can text them back. The window keeps extending with every message.   
+
   4. If you need to do outreach or if it's been more than 24 hours you will need to use a campaign/template message which is charged. That opens the conversation up for 24 hour window which again keeps extending with every message  
+  
 
   5. All the outbound template messages will be charged to the location and agency based on the Country the message is sent to and the type of Template [Marketing, Utility, Authentication and Services] used. Attached is the list for reference.
 
 
-  
-
+* * *
 
 # **FAQ**
 
@@ -309,6 +283,7 @@ When your client purchases WhatsApp it creates 2 subscriptions in the System
 
 To enable auto-reselling, you must connect your **Agency Stripe Account** , which will be used to collect subscription payments from clients.
 
+  
 **How to connect Stripe?** Follow this guide to integrate Stripe with your Agency Dashboard.
 
 If you do not have a Stripe account, you can still deploy WhatsApp manually. However, in this case, your agency will be billed directly instead of charging the client.

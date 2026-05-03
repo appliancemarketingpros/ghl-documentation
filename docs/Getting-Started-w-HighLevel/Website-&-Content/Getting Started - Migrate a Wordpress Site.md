@@ -290,7 +290,9 @@ Cloning copies an existing HighLevel WordPress site to a different sub-account w
 
 **Learn More**
 
-  * WordPress Hosting: Step-by-Step Migration Guide
+  
+
+
   * [WordPress: Domain Connect Integration ](<https://help.gohighlevel.com/en/support/solutions/articles/155000004155>)
   * [Cloning Wordpress Websites in HighLevel ](<https://help.gohighlevel.com/en/support/solutions/articles/155000004189>)
   * [Granular Permissions for WordPress ](<https://help.gohighlevel.com/en/support/solutions/articles/155000003699>)

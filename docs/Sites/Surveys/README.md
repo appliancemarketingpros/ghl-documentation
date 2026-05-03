@@ -4,6 +4,7 @@
 
 ## Articles
 
+- [Exporting Survey Answers to Google Sheets](Exporting Survey Answers to Google Sheets.md)
 - [Where Do Survey Answers Show Up](Where Do Survey Answers Show Up.md)
 - [How to Create a Stylized Survey](How to Create a Stylized Survey.md)
 - [New Footer in Surveys](New Footer in Surveys.md)

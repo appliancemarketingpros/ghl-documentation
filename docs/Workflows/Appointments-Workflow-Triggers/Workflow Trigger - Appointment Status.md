@@ -13,23 +13,22 @@ Managing appointments efficiently is crucial for any business. The Appointment S
 **TABLE OF CONTENTS**
 
   * What is the Appointment Status Workflow Trigger?
-  * Key Benefits of the Appointment Status Workflow Trigger
-  * Main Components of Appointment Status Trigger
-    * Standard Field Filters
-      * Filter By Event Type
-      * Filter By Appointment Status
-      * Filter By Tag
-      * In Calendar Filter
-      * In Calendar Group Filter
-      * Only for Grouped Calendar
-      * Modified By
-    * Custom Field Filters
-  * How to use Appointment Status Triggerin your workflows
-    * Step 1: Access Workflow Builder
-    * Step 2: Add Appointment Status Trigger
-    * Step 3: Name the Trigger
-    * Step 4: Set Up the Filters
-  * Frequently Asked Questions
+    * Key Benefits of the Appointment Status Workflow Trigger
+    * Configuring the Appointment Status Workflow Trigger
+      * Step 1: Access Workflow Builder
+      * Step 2: Add Appointment Status Trigger
+      * Step 3: Name the Trigger
+      * Step 4: Choose Workflow Enrollment
+      * Step 5: Set Up the Filters
+        * Filter By Event Type
+        * Filter By Appointment Status
+        * Filter By Tag
+        * In Calendar Filter
+        * In Calendar Group Filter
+        * Only for Grouped Calendar
+        * Modified By
+      * Step 5: Saving and Activating the Trigger
+    * Frequently Asked Questions
 
 
 * * *
@@ -48,25 +47,19 @@ The Appointment Status Workflow Trigger is an automation feature that activates 
   
 
 
-  * **Automated Appointment Management:** Ensures smooth scheduling and follow-ups without manual intervention.
-
-
+  * **Automated Appointment Management:** Ensures smooth scheduling and follow-ups without manual intervention.  
   
 
-
-  * **Improved Client Engagement:** Sends timely reminders and notifications, reducing missed appointments.
-
-
+  * **Improved Client Engagement:** Sends timely reminders and notifications, reducing missed appointments.  
   
 
-
-  * **Enhanced Team Coordination:** Notifies relevant team members about changes in appointment status.
-
-
+  * **Enhanced Team Coordination:** Notifies relevant team members about changes in appointment status.  
   
 
+  * **Reduced No-Show Rates:** Automatically triggers re-engagement workflows for canceled or missed appointments.  
+  
 
-  * **Reduced No-Show Rates:** Automatically triggers re-engagement workflows for canceled or missed appointments.
+  * **Multi-Participant Support:** Enroll not just the primary contact but also appointment guests into status-based workflows, ensuring all participants receive timely updates for cancellations, confirmations, and no-shows.
 
 
 * * *
@@ -122,15 +115,34 @@ Choosing a clear and descriptive name for your trigger helps keep workflows orga
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155041185867/original/fWWPCsw4zbFVeMHE0FzE91rA3frELvdmig.png?1738920241)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068508845/original/xw3Zha5sNOo1au5OdiSNvWmz_zg6yKQH_Q.png?1775457888)
+
+###   
+
+
+### **Step 4: Choose Workflow Enrollment**
+
+Under **"Who should be enrolled into the workflow?"** , choose who should enter the workflow when this trigger fires:
+
+  * **Contact only** \- Default. Only the primary appointment contact is enrolled.
+  * **Contact and Guests** \- Both the primary contact and all guest contacts are enrolled. The workflow executes separately for each person.
+  * **Guests only** \- Only guest contacts are enrolled; the primary contact is excluded.
+
 
   
 
 
+Select the option that matches your automation goal. For example, if you want all attendees to receive a cancellation notice, choose "Contact and Guests."
+
   
 
 
-### **Step 4: Set Up the Filters**
+### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068508913/original/EI2gmLNtfyBi9SihSnM0wExGQh9yR5BjXg.png?1775457914)
+
+###   
+
+
+### **Step 5: Set Up the Filters**
 
   
 
@@ -283,15 +295,9 @@ Yes, by selecting the “Appointment Status Is” filter and choosing 'Cancelled
   
 
 
-  
-
-
 **Q: How do I use the “Modified By” filter to track changes?**
 
 This filter lets you track appointment updates based on who made the modification—whether it’s a user, API, workflow, or the customer.
-
-  
-
 
   
 
@@ -303,9 +309,6 @@ This filter lets you track appointment updates based on who made the modificatio
   
 
 
-  
-
-
 **Q: Can I use multiple filters together for advanced automation?**
 
 Yes! You can combine multiple filters using AND/OR conditions to create highly specific automation rules.
@@ -313,9 +316,19 @@ Yes! You can combine multiple filters using AND/OR conditions to create highly s
   
 
 
-  
-
-
 **Q: How do I ensure a workflow is only triggered for a specific user?**
 
 Use the User Is filter to specify a team member, ensuring the workflow activates only for their appointments.
+
+  
+
+
+**Q: Can I trigger a workflow for appointment guests when the status changes?**
+
+Yes. Use the "Who should be enrolled into the workflow?" setting and select "Contact and Guests" or "Guests only" to include guest contacts in the automation.  
+  
+
+
+**Q: If I select "Contact and Guests," does the workflow run once or multiple times?**
+
+The workflow runs once for the primary contact and once for each guest. Each execution is independent, so you can use contact-specific custom values in your messages.

@@ -8,8 +8,7 @@
 
 This article will show you how to use the new Entity History feature in the Listings platform. Integrated with HighLevel’s Audit Logs, it gives you full visibility into all updates made to listings — what changed, who changed it, and when. Perfect for compliance and accountability!
 
-  
-
+* * *
 
 **TABLE OF CONTENTS**
 
@@ -21,70 +20,87 @@ This article will show you how to use the new Entity History feature in the List
   * Next Steps
 
 
-  
-
-
 * * *
 
-### **What is Entity History in Listings?**
+# **What is Entity History in Listings?**
 
   
 
 
 Entity History provides a detailed audit trail for each listing record. Every change — whether user-initiated or system-generated — is logged and visible within HighLevel’s Audit Logs. This enhances transparency and simplifies compliance tracking.
 
-  
+* * *
 
-
-  
-
-
-### **Key Benefits of Entity History**
+## **Key Benefits of Entity History**
 
   
 
 
-Understand how Entity History helps improve operational oversight and data transparency.
+Understand how Entity History helps improve operational oversight and data transparency.  
+  
 
-  * View a complete historical log of updates for each listing entity.
 
-  * Track changes by user or system process for full accountability.
+  * View a complete historical log of updates for each listing entity.  
+  
 
-  * Support internal audits and compliance with real-time records.
 
-  * Access logs directly in the Listings interface via Audit Logs.
+  * Track changes by user or system process for full accountability.  
+  
 
-  * Enhance collaboration with clear documentation of data edits.
+
+  * Support internal audits and compliance with real-time records.  
+  
+
+
+  * Access logs directly in the Listings interface via Audit Logs.  
+  
+
+
+  * Enhance collaboration with clear documentation of data edits.  
+  
+
 
   * Prepare for future system enhancements thanks to modular logging.
 
 
+* * *
+
+## **How to Access and Use Entity History in Audit Logs**
+
   
 
 
-### **How to Access and Use Entity History in Audit Logs**
-
+Learn how to locate and navigate the Entity History within the Audit Panel to track listing updates.  
   
 
 
-Learn how to locate and navigate the Entity History panel to track listing updates.
+  1. In your sub‑account dashboard, click **Settings** in the left sidebar  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155049680443/original/vURz7LXZVid2Xm_E2xekqtXntc-3ijvmpg.png?1752170572)  
+  
 
-  1. Go to the **Listings** tab in your HighLevel account.
 
-  2. Click the **Audit Logs** option from the sidebar menu.
+  2. Within **Settings** , choose **Audit Logs**  
+  
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155049680473/original/Y7T-fAPiDpZ55ePrW4pdF3pu32avzP8qYQ.png?1752170660)**  
 
-  3. In the Audit Logs view, select the **Entity History** tab.
 
-  4. Use filters to sort by entity ID, timestamp, or user.
+  3. In the**Module** dropdown filter, select **Listings**  
+  
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155049680516/original/gZy7WP22wxR6V74r85RU48aCTsxFr3msYA.png?1752170728)**  
+  
+
+
+  4. Use filters to sort by entity ID, timestamp, or user  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155049680538/original/mvrpAH5cP52BrNEQmTAEGnzqckZO1kR7Ug.png?1752170763)  
+  
+
 
   5. Click on an entity to view its full update timeline and data changes.
 
 
-  
-
-
-  
-
+* * *
 
 ### **Entity History Features Explained**
 
@@ -94,30 +110,34 @@ Learn how to locate and navigate the Entity History panel to track listing updat
 Understand the technical capabilities and structure of the Entity History feature.
 
   
+  
 
 
-**Augmented Audit Details**
+#### **Augmented Audit Details**
 
 Captures user ID, timestamp, entity ID, and detailed before-and-after data.
 
   
+  
 
 
-**User Attribution**
+#### **User Attribution**
 
 Easily identify who made changes — users are linked via unique IDs.
 
   
+  
 
 
-**Modular Architecture**
+#### **Modular Architecture**
 
 Future-ready design supports integration with upcoming Listings features.
 
   
+  
 
 
-**Custom Audit Trail**
+#### **Custom Audit Trail**
 
 Broader tracking of listing actions beyond standard audit events.
 
@@ -126,17 +146,14 @@ Broader tracking of listing actions beyond standard audit events.
 
 * * *
 
-  
-
-
-### **Frequently Asked Questions**
+## **Frequently Asked Questions**
 
   
 
 
 **Q: Can I export Entity History logs?**
 
-Currently, exporting directly is not supported, but integration with audit logging allows export via API.
+No. Exporting Entity History logs through a public API is not currently supported.
 
   
 
@@ -159,15 +176,27 @@ Yes, deletions are tracked with before/after state snapshots.
 
 Yes. Changes triggered by automation or workflows are labeled accordingly.
 
+* * *
+
+## **Related Articles**
+
   
 
 
-### **Next Steps**
+  * [Audit Logs](<https://help.gohighlevel.com/en/support/solutions/articles/48001205734>)  
+  
 
-  * Ensure your team has proper Audit Log access.
 
-  * Use Entity History to monitor changes to high-value listings.
+  * [Custom Object Audit Logs](<https://help.gohighlevel.com/en/support/solutions/articles/155000003844>)  
+  
 
-  * Consider pairing this with **User Roles** to restrict sensitive edits.
 
-  * Stay updated with future enhancements to audit capabilities.
+  * [Highlevel Security and Compliance Overview](<https://help.gohighlevel.com/en/support/solutions/articles/155000000574>)  
+  
+
+
+  * [Admin Vs. User Permissions](<https://help.gohighlevel.com/en/support/solutions/articles/48001078296>)  
+  
+
+
+  * [Audit Logs for Funnels & Websites](<https://help.gohighlevel.com/en/support/solutions/articles/155000005439>)

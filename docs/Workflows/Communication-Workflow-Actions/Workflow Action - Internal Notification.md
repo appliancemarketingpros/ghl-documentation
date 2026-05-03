@@ -6,7 +6,7 @@
 
 ---
 
-Internal Notifications in workflows allow teams to stay instantly updated on important events. Whether it’s a new lead, a high-value purchase, or an internal update, this action ensures the right people are notified via email, in-app notifications, SMS, or WhatsApp. This article explains how to set up and use Internal Notifications effectively within workflows.
+Internal Notifications in workflows allow teams to stay instantly updated on important events. Whether it’s a new lead, a high-value purchase, or an internal update, this action helps notify the right people via email, in-app notifications, SMS, or WhatsApp. Depending on the notification type and configuration, Internal Notifications can also run in contactless scenarios where no contact record is required. This article explains how to set up and use Internal Notifications effectively within workflows.
 
 * * *
 
@@ -16,7 +16,7 @@ Internal Notifications in workflows allow teams to stay instantly updated on imp
   * Key Benefits of Internal Notifications
   * How To Set Up Internal Notifications
   * Technical Notes & Limitations
-  * Running Internal Notifications without a contact 
+  * Running Internal Notifications without a contact
   * Frequently Asked Questions
 
 
@@ -166,7 +166,7 @@ Choose the **Type of Notification** you want to send from the dropdown menu. Opt
   
 
 
-### **Email Notification Type**
+### **1\. Notification Type -****Email**
 
   
 
@@ -247,7 +247,7 @@ When setting up **Email Notifications** , you’ll configure key fields that def
   
 
 
-### **Notification Type – Notification**
+### **2\. Notification Type – Notification**
 
   
 
@@ -303,15 +303,12 @@ When selecting **Notification** as the type, the alert will be delivered directl
   
 
 
-### **Notification Type – SMS**
+### **3\. Notification Type – SMS**
 
   
 
 
 Selecting **SMS** as the notification type allows you to send text alerts directly to a user’s registered phone number. This is best for urgent or time-sensitive updates.
-
-  
-
 
   
 
@@ -372,7 +369,7 @@ Selecting **SMS** as the notification type allows you to send text alerts direct
   
 
 
-### **Notification Type – WhatsApp**
+### **4\. Notification Type – WhatsApp**
 
   
 
@@ -432,33 +429,69 @@ Selecting **WhatsApp** allows you to send instant messages directly to team memb
   * **CC/BCC Limitations:** Only available for Email notifications. Each CC and BCC recipient increases email usage/billing.
 
 
+* * *
+
+## **Running Internal Notifications without a contact**
+
   
 
 
-### **Running Internal Notifications without a contact******
+Internal Notifications can run in contactless scenarios, depending on the notification type and recipient selection. This means the action does not always require a contact record or contact data to execute successfully.
 
   
 
 
-  * In-app internal notifications: runs with or without contact.  
+  * **In-app internal notifications:** Can run with or **without** a contact.  
   
 
-  * Email/SMS recipient handling:  
+  * **Simple contactless messages:** If the notification is only sending a simple internal message and does not rely on contact-related fields or custom fields, it can execute as expected without creating or requiring a contact.  
   
 
-    * “All Users” → sends to users’ emails/phones  
+  * **Dynamic/contact-related data:** If the notification content depends on contact-specific information such as assigned user details, contact fields, or custom fields, those values may not populate correctly in a **contactless** flow.  
   
 
-    * “Specific Users” → sends to selected users  
+
+### **Contactless entry behavior**
+
   
 
-    * “Assigned User” → sends only when a contact exists and has an assigned user (and phone for SMS); otherwise **skip that step** (workflow continues).  
+
+When an Internal Notification is triggered without a contact, users may not see normal contact details associated with that entry. In these cases, the notification may appear with alphanumeric identifiers instead of a standard contact profile view. This is expected behavior for contactless executions.
+
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068101684/original/flSHm0cyVlMSRWFgTWJGF1YuRt2s3C6CJQ.png?1774938348)  
+  
+
+
+### **Email/SMS recipient handling**
+
+  
+
+
+Recipient option| Behavior  
+---|---  
+**All Users**|  Sends to users’ configured email addresses or phone numbers.  
+**Particular Users**|  Sends to the selected users.  
+**Assigned User**|  Sends only when a contact exists and has an assigned user, and a valid phone number for SMS where applicable. If no contact or assigned user exists, that step is skipped and the workflow continues.  
+  
   
 
 
 * * *
 
 ## **Frequently Asked Questions**
+
+  
+
+
+**Q: Why does the workflow show the Internal Notification as executed, but the user did not receive it or cannot see it in the conversation/profile?**
+
+A common cause is that the affected user profile was previously marked as **DND (Do Not Disturb)**. In some cases, the workflow may show the notification as executed, but the user may still not see the related email or notification history as expected. To resolve: 
+
+  1. Go to **Contacts**. Open the affected contact/profile.
+  2. In the **left panel** , find **DND** and toggle it **off and back on** to refresh the profile state.
+  3. Test the workflow again.
+
 
   
 
@@ -487,3 +520,5 @@ Yes. Attachments included in Email, SMS, or WhatsApp notifications count toward 
 **Q: How are Internal Notifications affected if a workflow executes in bulk (e.g., when enrolling thousands of contacts at once)?**
 
 Notifications are subject to HighLevel’s **rate limiting** of 500 per 5 minutes per user. If a workflow triggers bulk notifications, additional messages above this threshold are queued. Depending on system load, they may either be delivered once the limit resets or dropped if the workflow’s conditions expire.
+
+* * *

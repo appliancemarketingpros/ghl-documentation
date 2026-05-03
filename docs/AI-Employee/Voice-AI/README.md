@@ -19,7 +19,7 @@
 - [Number Pool Support in Voice AI Agents](Number Pool Support in Voice AI Agents.md)
 - [Knowledge Base Integration for Voice AI Agents](Knowledge Base Integration for Voice AI Agents.md)
 - [Separate During and Post Call Actions](Separate During and Post Call Actions.md)
-- [Appointment Booking for Voice AI Agents in HighLevel](Appointment Booking for Voice AI Agents in HighLevel.md)
+- [Appointment Booking in Voice AI](Appointment Booking in Voice AI.md)
 - [Voice AI Custom Actions](Voice AI Custom Actions.md)
 - [How to Upgrade Your Voice AI Agent for a Better Call Experience](How to Upgrade Your Voice AI Agent for a Better Call Experience.md)
 - [Managing Granular Permissions for Voice AI Agents](Managing Granular Permissions for Voice AI Agents.md)

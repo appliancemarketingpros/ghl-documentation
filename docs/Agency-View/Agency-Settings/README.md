@@ -9,3 +9,4 @@
 - [How do I check my agency plan?](How do I check my agency plan.md)
 - [SaaS: Multiple Payment Providers/UI Enhancement](SaaS Multiple Payment ProvidersUI Enhancement.md)
 - [Sub-Account Launchpad](Sub-Account Launchpad.md)
+- [Agency Billing - Wallets & Transactions Summary](Agency Billing - Wallets & Transactions Summary.md)

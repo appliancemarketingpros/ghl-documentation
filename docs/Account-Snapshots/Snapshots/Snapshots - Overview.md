@@ -153,7 +153,7 @@ Loading Custom Reports from a snapshot lets you instantly copy your reporting te
   
 
 
-  * **Plan Availability:** Custom Reports are available on the **$297 (limited)** and **$497+ (unlimited)** plans.
+  * **Plan Availability:** Custom Reports are available on the **$297 (unlimited)** and **$497 (Agency Pro)** plans.
 
 
 * * *

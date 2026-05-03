@@ -398,6 +398,15 @@ OR type {{ manually
   4. Click a variable to insert it
 
 
+  
+
+    
+    
+    **Note:** Some nodes, such as API Call steps, generate runtime variables based on their output. These variables can be reused in later steps by selecting them from the variable picker.
+
+  
+
+
 ###   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066196827/original/ArejnkNFCsmPfC-hrhaWzg9fZJRtn2kK6g.png?1772635327)
 

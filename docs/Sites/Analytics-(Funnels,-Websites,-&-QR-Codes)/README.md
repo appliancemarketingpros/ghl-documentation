@@ -9,3 +9,4 @@
 - [Analytics for Top Countries, States and Cities in Funnel Analytics](Analytics for Top Countries, States and Cities in Funnel Analytics.md)
 - [Sites - Traffic Source Analytics](Sites - Traffic Source Analytics.md)
 - [Average Time in Site Analytics](Average Time in Site Analytics.md)
+- [Advanced Filters in Site Analytics](Advanced Filters in Site Analytics.md)

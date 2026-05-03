@@ -150,6 +150,9 @@ HighLevel preserves the full hierarchy: Campaign Group → Campaign → Ad.
     
     Note: Lead Gen Forms are not included in snapshots.
     
+    
+    
+    **Note:** Associations between CRM objects are included automatically in snapshots as long as both objects in the relationship are selected. Contact-to-Contact associations are not supported at this time.
 
   
 

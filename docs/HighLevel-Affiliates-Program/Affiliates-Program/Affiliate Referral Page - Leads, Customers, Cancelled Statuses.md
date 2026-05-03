@@ -19,11 +19,15 @@ The **Affiliate Referral Page** is a vital component for affiliates using HighLe
 
 * * *
 
+**Heads up:** we’re currently rolling out updates to the Affiliate Portal, so you may notice that some videos and images in this article don’t exactly match what you’re seeing on your screen just yet.   
+  
+Everything will be updated very soon to reflect the latest version. In the meantime, if anything feels unclear, reach out to your [Affiliate Manager](<https://speakwith.us/affiliate>) with any questions. 
+
 #   
 **Where can I find the Referral page?**
 
   
-In both First Promoter and the Affiliate Portal click Referrals at the top of the dashboard.
+In the Affiliate Portal, navigate to the Referrals section from within your dashboard to view all referral activity.
 
   
 
@@ -37,9 +41,13 @@ In both First Promoter and the Affiliate Portal click Referrals at the top of th
   
 
 
-![Click on Referrals](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48216411984/original/ox9xHKZR_cJz1ApvKcjv0F7NcVBKglGY3g.png?1649973581)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068662666/original/d3eDIPCqZ86Si_1OezFEUyrz9Oy1nUwwuw.png?1775632062)
 
-* * *
+  
+
+
+  
+
     
     
     Note: You can now see the First name of your Referrals in this view as well!
@@ -50,16 +58,16 @@ In both First Promoter and the Affiliate Portal click Referrals at the top of th
   
 
 
-  * All  
+  * Any  
   
 
-  * Lead  
+  * Active / Paying  
   
 
-  * Free/Trial  
+  * Signup  
   
 
-  * Paying  
+  * Lead (or, "Subscribed")  
   
 
   * Canceled
@@ -68,46 +76,23 @@ In both First Promoter and the Affiliate Portal click Referrals at the top of th
   
 
 
-### **All**
+  
+
+
+### **Any**
 
   
 
 
-### This shows all your affiliate customers from every referral category.
+###  This shows all your affiliate customers from every referral category.
 
   
 
 
-### **Lead**
-
   
 
 
-These are customers that have only completed step one of the free trial sign-up.
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48216411983/original/nHbmRrWlXV0rwsYpL0XRUdZL3t-MOinJ7Q.png?1649973581)
-
-  
-
-
-### **Free / Trial**
-
-  
-
-
-These customers have completed the sign-up, and they have active go HighLevel accounts on a free trial
-
-These customers will have a status that says Not A customer yet. This means they are in trial and will become a customer when they pay their first subscription.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48216412279/original/91zS2uQiNlF6Jta-YUX948iJxkxdestjHg.png?1649973819)
-
-  
-
-
-### **Paying**
+### **Active / Paying**
 
   
 
@@ -121,6 +106,48 @@ These are your current active affiliate customers who are paying a HighLevel sub
     Note: You will only earn a commission on customers who pay thier subscriptions. If customers pause, cancel, or request a refund you will not get a commission for those customers.
 
   
+
+
+  
+
+
+### **Free / TrialSignup**
+
+  
+
+
+These customers have completed the sign-up, and they have active go HighLevel accounts on a free trial
+
+  
+
+
+These customers will have a status that says Not A customer yet. This means they are in trial and will become a customer when they pay their first subscription.
+
+  
+
+
+  
+
+
+### **Lead (or, "Subscribed")**
+
+  
+
+
+These are customers that have only completed step one of the free trial sign-up. They began the sign-up process using your referral link, but did not complete it to begin their free trial.
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48216411983/original/nHbmRrWlXV0rwsYpL0XRUdZL3t-MOinJ7Q.png?1649973581)
+
+  
+
+    
+    
+    Note: For referrals in this state, you might notice a discrepancy between State "Lead" and State “Subscribed”). In this context, “Subscribed” and “Lead” are interchangeable.
+
+  
+
+
+###   
 
 
 ### **Canceled**

@@ -9,5 +9,5 @@
 - [How to Use Google Ads Detection in the Prospecting Tool](How to Use Google Ads Detection in the Prospecting Tool.md)
 - [How to find Business Maps URL for your Virtual Businesses to Generate Accurate Reports](How to find Business Maps URL for your Virtual Businesses to Generate Accurate Reports.md)
 - [Workflow Trigger for New Prospects in the Prospecting Tool](Workflow Trigger for New Prospects in the Prospecting Tool.md)
-- [Free vs Premium Prospecting in GoHighLevel – Complete Guide for Agencies](Free vs Premium Prospecting in GoHighLevel – Complete Guide for Agencies.md)
+- [Free vs Premium Prospecting in HighLevel](Free vs Premium Prospecting in HighLevel.md)
 - [Prospecting Tool - Fully Customizable Prospect Report Builder](Prospecting Tool - Fully Customizable Prospect Report Builder.md)

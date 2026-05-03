@@ -6,28 +6,28 @@
 
 ---
 
+**Heads up:** we’re currently rolling out updates to the Affiliate Portal, so you may notice that some videos and images in this article don’t exactly match what you’re seeing on your screen just yet.   
+  
+Everything will be updated very soon to reflect the latest version. In the meantime, if anything feels unclear, reach out to your [Affiliate Manager](<https://speakwith.us/affiliate>) with any questions. 
+
 ## Interested in making one of our HighLevel landing pages into an affiliate link?
 
   
 
 
-We have instructions for that! This works really well for sharing different aspects of HighLevel with potential new users-- from our [Lead Generation Playbook Webinar Series](<https://gohighlevel.com/lead-gen-playbook-attendee>) to our Events page, there’s a ton of ways to customize what you share with others!
-
   
 
 
   
 
 
-#### **Interested in being a HL affiliate?** Check out[ https://gohighlevel.com/joinaffiliate](<https://gohighlevel.com/joinaffiliate>)
+**Interested in being a HL affiliate?** Check out[ https://gohighlevel.com/joinaffiliate](<https://gohighlevel.com/joinaffiliate>)
 
 **Sign up for the Lead-Gen Playbook:** <https://gohighlevel.com/lead-gen-playbook-attendee>
 
   
 
 
-Note: You already have three default affiliate links in your affiliate portal, including 14-day proplan trials!  
+Note: You already have a ton of Affiliate links in your Affiliate Portal, including referral links for the Pro plan.  
   
-Check your affiliate portal/first promoter dashboard!  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48236802592/original/7F79Ij62hgADLVnVVCxXVxO8ZrWvEFZg-A.png?1657042488)
+Check out [this article](<https://help.gohighlevel.com/support/solutions/articles/48001202637-how-to-use-affiliate-portal>) for help accessing and navigating your Affiliate Portal.

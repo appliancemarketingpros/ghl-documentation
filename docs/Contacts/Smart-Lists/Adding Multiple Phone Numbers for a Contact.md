@@ -87,7 +87,7 @@ In your HighLevel dashboard, navigate to the **Contacts tab** and click on an ex
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155045772493/original/xke_2ijmRgPxFJWFf8yZylGJVCJMksTEmg.gif?1745846151)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068865380/original/u7HJrY8_UYxPrpN_-N-CZ6EXR9JX5fYmkg.png?1775812748)  
   
 
 
@@ -96,12 +96,18 @@ In your HighLevel dashboard, navigate to the **Contacts tab** and click on an ex
   
 
 
-Here you can enter multiple phone numbers(up to 10 phone numbers) and choose a label (Mobile, Home, Work, etc.). Also, check the **Primary** box to set it as the main number.
+Add phone numbers **one at a time** , with support for up to **11 phone numbers** total, and choose a label for each one, such as **Mobile** , **Home** , **Landline** or **Work**.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068865282/original/ljASInZp3deyEAGpGVp0_EFWtFsgoM3OSA.gif?1775812714)  
+  
+
+
+Check the **Primary** box to set the main number for the contact.
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155045773190/original/9f3o5h-Yw7GuexklaSi7WFyY-2ktPJhGoQ.gif?1745846538)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068865454/original/L_ezlkfcX2wALfeAUVL1X51aTYNDZzFIZw.gif?1775812769)
 
 * * *
 
@@ -115,9 +121,7 @@ Keep your contact records clean and accurate by updating or deleting numbers as 
   
 
 
-  * Click the **Edit icon** next to a number to change the digits or label.  
-  
-
+  * Click any phone number to **edit** it directly.
 
   * Click the **Trash icon** to remove a number completely.  
   
@@ -129,7 +133,7 @@ Keep your contact records clean and accurate by updating or deleting numbers as 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155045773516/original/V0UvAF3c8FSZD2JstQLf1pGLcH8Tz4DWQQ.gif?1745846722)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068866202/original/YIgUvvHzHdMQLT163fhkWnxERT0UDqYMZg.gif?1775813139)
 
 * * *
 
@@ -212,6 +216,8 @@ Yes! Workflows will always use the Primary number unless otherwise configured.
 
 ## **Related Articles**
 
-  * ****[Importing Contacts using a CSV file](<https://help.gohighlevel.com/support/solutions/articles/155000004432-importing-contacts-using-a-csv-file>)
+  * ****[Importing Contacts using a CSV file](<https://help.gohighlevel.com/support/solutions/articles/155000004432-importing-contacts-using-a-csv-file>)  
+  
+
   * [How to Manage Multiple Email Addresses for a Contact](<https://help.gohighlevel.com/support/solutions/articles/48001237029-how-to-manage-multiple-email-addresses-for-a-contact>)**  
 **

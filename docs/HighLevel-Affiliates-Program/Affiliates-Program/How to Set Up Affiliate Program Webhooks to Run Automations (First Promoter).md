@@ -30,6 +30,34 @@ In this article, we will cover how to set up webhooks for your affiliate links s
   
 
 
+**Heads up:** we’re currently rolling out updates to the Affiliate Portal, so you may notice that some videos and images in this article don’t exactly match what you’re seeing on your screen just yet.   
+  
+Everything will be updated very soon to reflect the latest version. In the meantime, if anything feels unclear, reach out to your [Affiliate Manager](<https://speakwith.us/affiliate>) with any questions. 
+
+  
+
+    
+    
+    **Update**
+    You can now opt-in to receive email notifications for referral activity in the portal.
+    
+    To do so...
+    - Click your profile name in the top-right of the Affiliate Dashboard.
+    - Open Notification Settings.
+    - Turn notifications on and customize
+    [](<https://youtu.be/lTrGOaAz_kg>)[](<https://youtu.be/lTrGOaAz_kg>)
+    
+    **By default, these notifications may be turned off, so it's worth checking this setting.**
+    
+    Turning notifications on is highly recommended. It’s the easiest way to stay informed without needing to check your portal every time something changes.
+    
+
+#   
+
+
+  
+
+
   
 
 
@@ -286,7 +314,7 @@ This will be the webhook that fires whenever someone fills out Step one of the t
   4. Select "**Body** " then "**Raw** " & select "**JSON"** as the text file
   5. Copy the First Promoter Sample data given above into the Body (should be blue)
   6. Hit "Send"
-  7. Please ensure that you receive a successful response, or kindly begin from the beginning.[](<https://help.gohighlevel.com/support/solutions/articles/48001204857-ways-to-get-highlevel-support-24->)  
+  7. Please ensure that you receive a successful response, or kindly begin from the beginning. [](<https://help.gohighlevel.com/support/solutions/articles/48001204857-ways-to-get-highlevel-support-24->)  
 [](<https://help.gohighlevel.com/support/solutions/articles/48001204857-ways-to-get-highlevel-support-24->)
 
 

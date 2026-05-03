@@ -53,6 +53,15 @@ Every great email campaign starts with a stunning template. Think of your templa
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046412081/original/M0iw1ZUpItdxwJUjlfUklVeYcYPxBx8_xg.png?1746824779)
 
 
+  
+
+    
+    
+    **Tip** : The Template Library search includes suggestions, recent searches, color-based discovery, and highlighted keyword matches to help you find relevant email templates faster.
+
+  
+
+
 **Learn More** :
 
   * [Email Templates vs Email Campaigns ](<https://help.gohighlevel.com/en/support/solutions/articles/48001215255>)  

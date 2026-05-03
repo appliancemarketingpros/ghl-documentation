@@ -17,7 +17,7 @@
 - [LC - Phone Messaging Policy](LC - Phone Messaging Policy.md)
 - [How to Prevent SMS Filtering by Carriers: Error 30007](How to Prevent SMS Filtering by Carriers Error 30007.md)
 - [Understanding the Potential Delivery Issues of Text Messages with Shortened URLs](Understanding the Potential Delivery Issues of Text Messages with Shortened URLs.md)
-- [Action Required: UK SMS from International Long Codes Blocked — Compliance Updates for 2023 & 2024](Action Required UK SMS from International Long Codes Blocked — Compliance Updates for 2023 & 2024.md)
+- [Action Required: International SMS Compliance Updates — UK & Turkey](Action Required International SMS Compliance Updates — UK & Turkey.md)
 - [Best Practices for SMS deliverability and Avoiding SMS Restrictions](Best Practices for SMS deliverability and Avoiding SMS Restrictions.md)
 - [Why SMS in Mexico May Appear from a Different Number](Why SMS in Mexico May Appear from a Different Number.md)
 - [Which Twilio phone number will the leads be getting the SMS from?](Which Twilio phone number will the leads be getting the SMS from.md)

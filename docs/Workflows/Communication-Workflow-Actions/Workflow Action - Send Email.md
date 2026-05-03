@@ -147,10 +147,16 @@ If you select an existing template, you may see a **Sync Edits to Template** che
   
 
 
-If necessary, you can attach files to the email, such as booking confirmations, product details, or invoices. Attachments can be included via URLs.
+If necessary, you can attach files to the email, such as booking confirmations, product details, or invoices.
 
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155037738514/original/bAlI8GYnifiSE-txEgcsN0Jy1BpiszRCdQ.png?1733316597)
+
+  
+
+
+  
+
 
 **7\. Test the Email**
 
@@ -335,7 +341,7 @@ Invalid CC/BCC addresses are skipped. Valid CC/BCC recipients (and the primary c
 
 **Can I add attachments?**
 
-Yes, attachments are supported via URLs. Use this for PDFs, invoices, or other downloadable files.
+Yes. In the Send Email action, you can attach files by selecting an existing file from the Media Library or uploading a new file from your device.
 
   
 

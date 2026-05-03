@@ -435,7 +435,7 @@ Below are some additional categories that are also charged at the same price as 
     * **Sau Paulo:** $0.0040 /participant/minute  
   
 
-    * Conference Call is used for all outgoing calls. It is also used for Incoming calls that are transferred.  
+    * Conference Call charges are only applied for warm transferred calls, workflow calls  
   
 
   * **Carrier Charges  
@@ -445,18 +445,23 @@ Below are some additional categories that are also charged at the same price as 
 
     2. There are additional carrier fees per message that are automatically applied based on the end-user's destination and carrier.  
   
-Carrier| SMS  
-Outbound*| SMS  
-Inbound*| MMS  
-Outbound*| MMS  
-Inbound*  
+Carrier| SMS Outbound*| SMS Inbound*| MMS Outbound*| MMS Inbound*  
 ---|---|---|---|---  
-AT&T| $0.003| $0.003| $0.0075| $0.0075  
-T-Mobile| $0.003| $0.003| $0.01| $0.01  
-Verizon| $0.004| $0.0065  
-US Cellular| $0.005| $0.01  
-All other carriers| $0.0035| $0.01  
+AT&T| $0.0035| $0.0035| $0.0090| $0.0090  
+T-Mobile| $0.0030| $0.0030| $0.0100| $0.0100  
+Verizon| $0.004  
+$0.0045(effective ist may)| $0.0065  
+$0.0070(effective ist may)  
+US Cellular| $0.0050| $0.0100  
+All other carriers| $0.0035| $0.0100|   
+|   
   
+  
+  
+
+
+  
+
 
   * Amazon Polly Text-to-Speech charges (The new, enhanced speech feature costs US$0.00084 per 100 characters of text)
 
@@ -573,11 +578,11 @@ Our outgoing call flow is optimised to be seamless, with lower waiting times and
 
 Attachments (3)
 
-[ csv NumbersPricing.csv  
-10.8 KB ](</helpdesk/attachments/155008015257>)
+[ csv Voice_Pricing.csv  
+191 KB ](</helpdesk/attachments/155069175203>)
 
-[ csv Voice Pricing.csv  
-191 KB ](</helpdesk/attachments/155050446846>)
+[ csv Sms_Pricing.csv  
+55 KB ](</helpdesk/attachments/155069176114>)
 
-[ csv Sms Pricing.csv  
-56 KB ](</helpdesk/attachments/155051391456>)
+[ csv NumbersPricing_Updated.csv  
+8.55 KB ](</helpdesk/attachments/155069177045>)

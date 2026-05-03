@@ -9,7 +9,7 @@
 - [Cloning Wordpress Websites in HighLevel](Cloning Wordpress Websites in HighLevel.md)
 - [How to Disable SEO Indexing for WordPress Sites](How to Disable SEO Indexing for WordPress Sites.md)
 - [How to Select Country Server Location for WordPress Hosting](How to Select Country Server Location for WordPress Hosting.md)
-- [Payment Failure Notifications on WordPress Admin via LC Plugin](Payment Failure Notifications on WordPress Admin via LC Plugin.md)
+- [WordPress: Payment Failure Notifications via Email & LC Plugin](WordPress Payment Failure Notifications via Email & LC Plugin.md)
 - [SSH access for WordPress](SSH access for WordPress.md)
 - [How to install LeadConnector on WordPress](How to install LeadConnector on WordPress.md)
 - [How to Install Popular WordPress Plugins During Site Creation](How to Install Popular WordPress Plugins During Site Creation.md)

@@ -12,4 +12,5 @@
 - [Troubleshoot and Fix Calendar Double Booking in HighLevel](Troubleshoot and Fix Calendar Double Booking in HighLevel.md)
 - [No google accounts added in integrations settings yet even if Google account is connected as the user](No google accounts added in integrations settings yet even if Google account is connected as the use.md)
 - [Why Google Calendar Integration Breaks](Why Google Calendar Integration Breaks.md)
+- [When rescheduling link is blank when sending email/SMS in conversation](When rescheduling link is blank when sending emailSMS in conversation.md)
 - [Troubleshooting Tool for Calendar](Troubleshooting Tool for Calendar.md)

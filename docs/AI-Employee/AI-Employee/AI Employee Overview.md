@@ -26,12 +26,17 @@
   
 
 
-The AI Employee is a suite of features that includes Voice AI (AI Agents), Conversation AI, Reviews AI, Funnel & Website AI and Content AI. It’s designed to reduce manual workloads, improve client communication, and help businesses scale by automating key interactions.
+The AI Employee includes HighLevel AI products that are managed and billed under the AI Employee offering.
 
   
 
 
-[Click here to learn more about AI Employee Pricing!](<https://help.gohighlevel.com/en/support/solutions/articles/155000006652>)
+Some AI features now have free access and no longer use AI credits. See the product-specific pricing article for the latest availability and billing details.
+
+  
+
+
+For current pricing and scope, review [AI Product Pricing Update](<https://help.gohighlevel.com/en/support/solutions/articles/155000006652>).
 
 * * *
 
@@ -94,7 +99,19 @@ Now lets see how to manage the access to your Sub-accounts from the "AI Employee
   
 
 
-In order to locate the **"AI Employee"** option, you will need to access agency settings. If you are in one of the sub-accounts then you will first need to **"Switch to Agency View"**. Next, Click **"Settings"** tab located at the bottom left corner. Scroll down for **"AI Employee"** option.  
+In order to locate the **"AI Employee"** option, you will need to access agency settings. If you are in one of the sub-accounts then you will first need to **"Switch to Agency View"**. Next, Click **"Settings"** tab located at the bottom left corner.
+
+  
+
+
+You can enable or disable AI Employee access for each sub-account.
+
+  
+
+    
+    
+    Some AI features are now free to use and are not managed through AI Employee. Check the product-specific pricing article before you configure rebilling or reselling.
+
   
 
 
@@ -247,6 +264,20 @@ Remember we set $297 as monthly price in our agency settings? This is how your y
 
 * * *
 
+### **Where customers can see AI Employee plan options**
+
+  
+
+
+Customers may see AI Employee plan options only in products that still belong to AI Employee.
+
+  
+
+
+Before you direct customers to upgrade, verify that the product is still part of AI Employee and not covered under the free-use model.
+
+* * *
+
 ## **Frequently Asked Questions**
 
   
@@ -282,6 +313,13 @@ Yes, you can enable or disable the AI Employee for each sub-account individually
 **Q: Is it possible to rebill clients for AI Employee usage?**
 
 Absolutely! You can set up custom rebilling rates for each sub-account, allowing you to monetize the AI tools as part of your service offering.
+
+  
+
+
+**Q: How much does the AI Employee cost?**
+
+AI Employee pricing depends on the specific products that remain under AI Employee. Some AI features are now free to use and no longer use AI credits. Review [AI Product Pricing Update] for the latest pricing and fair-usage details.
 
 * * *
 

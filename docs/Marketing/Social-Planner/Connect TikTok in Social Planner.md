@@ -6,9 +6,7 @@
 
 ---
 
-Social Planner allows users to connect TikTok personal or business accounts.  
-  
-
+Social Planner allows users to connect TikTok personal or business accounts but to use Comment Management for TikTok in Social Planner, you must connect a TikTok Business Profile.
 
 * * *
 

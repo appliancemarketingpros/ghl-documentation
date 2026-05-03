@@ -65,6 +65,9 @@ Creating billing items from the contact record lets you act at the moment of con
   
 
 
+If you need to save a customer's payment method before creating a subscription or invoice, see [How to add and manage your customer's cards on file](<https://help.gohighlevel.com/en/support/solutions/articles/155000004506>).  
+
+
   * Connect a supported payment provider in **Payments > Integrations** (for example, Stripe).  
   
 

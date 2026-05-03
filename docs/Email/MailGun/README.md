@@ -16,6 +16,7 @@
 - [Cold Email Inbound Setup Mailgun](Cold Email Inbound Setup Mailgun.md)
 - [How to setup Replies in MailGun](How to setup Replies in MailGun.md)
 - [What will be the order of Email Provider we will use to send emails?](What will be the order of Email Provider we will use to send emails.md)
+- [Mailgun - Unsubscribe Settings](Mailgun - Unsubscribe Settings.md)
 - [Mailgun Setup Checklist](Mailgun Setup Checklist.md)
 - [Why won't my DNS records work in SquareSpace?](Why won't my DNS records work in SquareSpace.md)
 - [Email Verification From Mailgun within the CRM](Email Verification From Mailgun within the CRM.md)

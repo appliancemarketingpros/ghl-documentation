@@ -20,3 +20,4 @@
 - [Documents and Files in the Mobile App](Documents and Files in the Mobile App.md)
 - [Outbound Calling Using the HighLevel Mobile App](Outbound Calling Using the HighLevel Mobile App.md)
 - [Unified Contacts Workspace in Mobile App](Unified Contacts Workspace in Mobile App.md)
+- [Custom Module Links with Role & Account-Based Visibility](Custom Module Links with Role & Account-Based Visibility.md)

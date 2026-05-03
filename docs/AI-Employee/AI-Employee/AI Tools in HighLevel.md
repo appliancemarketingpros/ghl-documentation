@@ -363,7 +363,15 @@ High-level offers integration with third-party tools developed by external devel
   
 
 
-AI Tools are available on all plans and are charged based on usage. 
+AI pricing varies by product.
+
+  
+
+
+Some AI features are now free to use and no longer use AI credits. Other AI products still use usage-based pricing or product-specific billing rules. Review the current pricing article before you estimate costs.
+
+  
+
 
 Learn more about all of HighLevel’s Pricing, including AI Pricing, in the [HighLevel Pricing Guide](<https://help.gohighlevel.com/en/support/solutions/articles/155000006652>). Pricing varies between AI products and is subject to change from time to time due to business or industry changes.
 
@@ -372,6 +380,13 @@ Developer Marketplace Apps can be free or paid and are set by external developer
 * * *
 
 ## **Rebilling AI Costs**
+
+  
+
+
+Rebilling is not available for every AI feature.  
+  
+Some AI features are now free to use and do not follow the older credit-based model. Before you enable rebilling, confirm that the product still supports usage charges or reselling.
 
   
 
@@ -405,16 +420,10 @@ Content AI, Reviews AI, Conversation AI, and Workflow AI (plus External AI Model
   
 
 
-  
-
-
 [](<https://help.gohighlevel.com/support/solutions/articles/155000002166-ai-tools-in-highlevel>)
 
 **Q. Does Workflow AI consider outside sources?**  
 Conversation AI focuses on your trained material; Workflow AI can consider the wider internet and prompt.
-
-  
-
 
   
 
@@ -425,14 +434,8 @@ Social posts, emails, website headlines, blogs, and more.
   
 
 
-  
-
-
 **Q. What does Reviews AI do?**  
 Suggests or auto-pilots replies to customer reviews.
-
-  
-
 
   
 
@@ -445,9 +448,6 @@ Automated chat experiences (FAQs, scheduling, etc.) with proper training/context
   
 
 
-  
-
-
 [](<https://help.gohighlevel.com/support/solutions/articles/155000002166-ai-tools-in-highlevel>)
 
 **Q. Can I rebill AI costs to clients?**  
@@ -456,10 +456,13 @@ Yes, on the $497 plan, agencies can rebill sub-account usage.
   
 
 
-  
-
-
 [](<https://help.gohighlevel.com/support/solutions/articles/155000002166-ai-tools-in-highlevel>)
 
 **Q. Where do I find third-party AI tools or build my own?**  
 Agency View → App Marketplace; developer resources at developers.gohighlevel.com.
+
+  
+
+
+**Q. Can I rebill AI costs to clients?**  
+Some AI products still support rebilling, but not every AI feature follows the same billing model. Check the product-specific pricing and rebilling article before you configure client charges.

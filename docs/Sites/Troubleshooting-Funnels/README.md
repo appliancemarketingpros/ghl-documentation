@@ -4,6 +4,7 @@
 
 ## Articles
 
+- [Instant Redirect Page - Funnel Troubleshooting](Instant Redirect Page - Funnel Troubleshooting.md)
 - [How to set up Root Domain/Subdomain for your Funnels/Websites?](How to set up Root DomainSubdomain for your FunnelsWebsites.md)
 - [Stripe Troubleshooting | Why does my funnel product show 'null' in the Stripe Plan dropdown?](Stripe Troubleshooting Why does my funnel product show 'null' in the Stripe Plan dropdown.md)
 - [Script not working? - Custom Javascript / HTML Code Validation Error Troubleshooting](Script not working - Custom Javascript HTML Code Validation Error Troubleshooting.md)

@@ -10,3 +10,4 @@
 - [New Drip Mode Architecture for Bulk Actions](New Drip Mode Architecture for Bulk Actions.md)
 - [Bulk Actions For Contacts & SmartLists](Bulk Actions For Contacts & SmartLists.md)
 - [Contacts - Export as CSV Upgrade](Contacts - Export as CSV Upgrade.md)
+- [How to Add Contacts in Bulk to a Workflow](How to Add Contacts in Bulk to a Workflow.md)

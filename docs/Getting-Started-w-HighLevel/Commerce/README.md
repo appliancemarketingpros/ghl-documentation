@@ -9,3 +9,4 @@
 - [Getting Started - Connect Stripe](Getting Started - Connect Stripe.md)
 - [Getting Started - Setup Payment Links](Getting Started - Setup Payment Links.md)
 - [Getting Started - Create and Send Invoices](Getting Started - Create and Send Invoices.md)
+- [Edit Membership Courses with the New Course Editor](Edit Membership Courses with the New Course Editor.md)

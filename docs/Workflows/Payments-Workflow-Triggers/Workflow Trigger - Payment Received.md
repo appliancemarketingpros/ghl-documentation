@@ -334,3 +334,69 @@ Use sandbox payment environments or process a real payment with test products. M
 **Q: Can I combine this with other triggers?**
 
 Yes! You can include multiple triggers in a single workflow or use If/Else branches to split logic based on payment source or result.
+
+  
+
+
+**Q: Can I combine this with other triggers?**
+
+Yes! You can include multiple triggers in a single workflow or use If/Else branches to split logic based on payment source or result.
+
+  
+
+
+**Q.Is there a stripe recurring payment trigger?****  
+**
+
+  
+We have no Stripe specific trigger, the architecture is gateway agnostic by design. But recurring Stripe charges are captured by three different triggers, each suited for a different use case.  
+  
+
+
+  
+
+
+  
+
+
+**Trigger**| **Fires on recurring charge?**| **Best for**  
+---|---|---  
+Payment Received| Yes — filter by "Customer not present/subscription transaction"| Most granular control. Gateway-agnostic. Supports failed payments via Payment Status filter. Rich {{payment.*}} custom values (card last4, brand, transaction ID, gateway)  
+Order Submitted| Yes — fires on successful recurring charges| Post-purchase upsells, Shopping Cart email template auto-population, order-level custom values (cart total, products, coupon, gateway). V2 funnels only  
+Subscription| Yes — lifecycle events only (create, update, pause, resume, cancel)| Reacting to subscription state changes, not individual charges  
+  
+  
+
+
+  
+
+
+  
+
+
+  
+
+
+**How to Choose**  
+  
+
+
+  * Need to act on every recurring charge, including failures? → Payment Received + filter "Customer not present/subscription transaction" + Payment Status filter  
+  
+
+  * Sending confirmation emails with product details after successful recurring charges? → Order Submitted (the Shopping Cart email element auto-populates line items)  
+  
+
+  * Reacting to subscription create/pause/cancel? → Subscription trigger  
+  
+
+
+**Important Notes**
+
+  * No native Stripe recurring charge action. The Stripe One-Time Charge action is for one-time charges only. For recurring Stripe billing, set it up in Stripe directly — then use one of the triggers above to react to the charges.  
+  
+
+  * Order Submitted requires V2 funnels. If you're on V1, use Payment Received.  
+  
+
+  * All three triggers work across Stripe, PayPal, and any other connected gateway — we normalizes payment events.

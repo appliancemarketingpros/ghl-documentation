@@ -6,303 +6,378 @@
 
 ---
 
-A Guest-Tutorial From Krystin Ruschman of [Email-2-Inbox](<https://www.facebook.com/groups/email2inboxhighlevelusers>)
+Email Deliverability
 
-  
+# What Email Deliverability Stats Should I Look For?
 
+"How do I know if my stats are good?" A definition-by-definition breakdown of the numbers that matter — with healthy, warning, and red-flag benchmarks for each.
 
-“How do I know if my stats are good?”
+A guest tutorial from Krystin Ruschman of [Email-2-Inbox](<https://www.facebook.com/groups/email2inboxhighlevelusers>).
 
-  
+Before We Start
 
+Available stats vary between email marketing tools and SMTPs — for the sake of this article, all terminology is based on **Mailgun**. Average benchmarks pulled from multiple sources, and every situation is different. Average results are for average people doing average things — and who wants to be average?
 
-Great question!
+Table of Contents
 
-  
+  1. 1 The 10 Stats & What They Mean
+  2. 2 Delivered — The Foundation Stat
+  3. 3 Opened — First Engagement Signal
+  4. 4 Clicked — Action on Your CTA
+  5. 5 Replied — The Deeper Response
+  6. 6 Complained — The Reputation Killer
+  7. 7 Bounced — Your List Hygiene Score
+  8. 8 Summary & Benchmark Cheat Sheet
+  9. 9 Need Some Help?
+  10. 10 Frequently Asked Questions
 
 
-Let’s drill down on the different types of email stats and their technical definitions.
+## The 10 Stats & What They Mean
 
-  
+The most common email stats you'll encounter, defined in Mailgun terminology. Know what each one actually measures before you judge whether it's "good."
 
+Processed
 
-Here’s a list of the most common stats: (available stats vary between Email Marketing Tools and SMTPs - for the sake of this article I’m using Mailgun terminology)
+Total message requests received by Mailgun — both outgoing and incoming, including posts via Routes like webhooks.
 
-  
+Accepted
 
+Total outgoing message requests received by Mailgun (email you tried to send).
 
-  * Processed
+Delivered
 
-    * The total number of message requests received by Mailgun (both outgoing and incoming, including posts via Routes like web-hooks)
+Total requested messages that actually got Delivered to the recipient's mail server (and presumably onto one of their account folders — no guarantee).
 
-  * Accepted
+Opened
 
-    * The total number of outgoing message requests received by Mailgun (email you tried to send)
+Total times a Delivered message triggered an Open (this does not necessarily mean a person literally opened the email…).
 
-  * Delivered
+Clicked
 
-    * The total number of requested messages that actually got Delivered to the recipients mailserver (and presumably onto one of their account folders, but no guarantee)
+Total times a Delivered message triggered a Click.
 
-  * Opened
+Replied
 
-    * The total number of times a Delivered message triggered an Open (this does not necessarily mean a person literally opened the email…)
+Total times a Delivered message triggered a Reply from the recipient.
 
-  * Clicked
+Bounced (Hard)
 
-    * The total number of times a Delivered message triggered a Click 
+Accepted messages that couldn't be Delivered due to bad addresses or inactive accounts. Often called "Hard Bounced" or "Permanent Failure" — though a Permanent Failure doesn't always count as a Hard Bounce.
 
-  * Replied
+Complained
 
-    * The total number of times a Delivered message triggered a Reply
+Delivered messages that get marked as spam or junk by the recipient.
 
-  * Bounced (hard)
+Unsubscribed
 
-    * The total number of Accepted messages that were not able to be Delivered due to bad addresses or bad/inactive accounts (The Bounced stat we want to monitor closely is often referred to as “Hard Bounced” or “Permanent Failure”, although a Permanent Failure does not always count as a “Hard Bounce”)
+Delivered messages that trigger an Unsubscribe response by the recipient.
 
-  * Complained
+Suppressions
 
-    * The total number of Delivered messages that get marked as spam or junk by the recipient
+Accepted messages that were not Delivered because the address had previously Bounced, Complained, or Unsubscribed.
 
-  * Unsubscribed
+1
 
-    * The total number of Delivered messages that trigger an Unsubscribe response by the recipient
+## Delivered
 
-  * Suppressions
+Healthy
 
-    * The total number of Accepted messages that were not Delivered due to having previously Bounced, Complained, or Unsubscribed
+At or above 98%
 
+Warning
 
-  
+Around 97–98%
 
+Red Flag
 
-  
+Under 97%
 
+Where to Look
 
-Now let’s break a few of these down, so you have some context for what to look for and what those numbers mean.
+Monitor Delivered rate at the **domain level** as well as the **individual email level**.
 
-  
+Considerations
 
+  * The opposite of Delivered is **Undelivered** — failed, bounced, or rejected. None of those are what we want.
+  * Delivered just means it made it to the recipient's mail server — not the inbox. Delivered under 97% usually means a majority of what's delivered is landing in spam/promotions.
+  * A low Delivered rate is usually indicative of **multiple** problems (reputation, authentication, list quality) — not just one.
+  * 97–98% can still indicate problems, especially in conjunction with other red flags.
 
-I’ll provide average numbers/ranges based on various sources. Keep in mind, every situation is different. Also, keep in mind average results are for average people doing average things… and who wants to be average?
 
-  
+2
 
+## Opened
 
-#### DELIVERED
+Healthy
 
-#### ⁠⁠✅⁠ At or above 98%
+40–60%+
 
-#### ⚠️⁠ Around 97-98%
+Average
 
-#### ⁠❌⁠ Under 97% - this means 3% of your email did not get delivered, which should definitely be a red flag
+16–26%
 
-Where to look: 
+Red Flag
 
-Delivered rate should be monitored at the domain level, as well as the individual email level
+Under 15%
 
-  
+Where to Look
 
+Monitor Open rate at the **individual email level**.
 
-Considerations:
+Considerations
 
-  * #### The opposite of Delivered is Undelivered...
+  * Control everything a recipient sees _before_ they open — From Name, From email, domain/brand recognition, Subject Line, and the preview (first line or two of body copy).
+  * The decision to open is partly about comfort. Show up in a way that feels familiar and trustworthy.
+  * Note: Apple iOS 15+ Mail Privacy Protection auto-triggers Opens for many Apple Mail users — not a real person opening the email. Industry averages have recalibrated higher since this shipped, so interpret Open rate with a grain of salt.
 
-  * Delivered just means it made it to the recipients mailserver - not the inbox. When you see delivered less than 97%, it usually means a majority of the email that is getting delivered is likely going to spam/promotions
 
-  * #### Indicative of MULTIPLE problems
+**Heads up on iOS 15+:** Apple Mail fires Opens automatically whether the recipient reads the email or not. If Apple Mail makes up a big chunk of your list, combine Open rate with Clicks and Replies — don't evaluate it alone.
 
-  * Delivered 97-98% can still indicate problems, especially in conjunction with other red flags
+3
 
+## Clicked
 
-OPENED
+Healthy
 
-#### ⁠✅⁠ When working with clients, we like to shoot for 40’s, 50’s, and 60’s - higher open rates are achievable, depending on various factors
+Above 10%
 
-#### ⚠️⁠ Average Open rates across all industries run 16-26%
+Average
 
-#### ⁠❌⁠ Under 15%
+7–9%
 
-Where to look: 
+Red Flag
 
-Opened rate should be monitored at the individual email level
+Under 5%
 
-  
+Where to Look
 
+Monitor Click rate at the **individual email level** , specifically where a "click" CTA is the focus.
 
-Considerations:
+Considerations
 
-  * Consider the things a recipient can see prior to opening your email and make sure you’re controlling those (From Name/Email address, Domain/Brand recognition, Subject Line, Preview or first couple lines of body copy)
+  * The psychology of a Click is very different from what encourages a Reply — don't conflate them.
+  * Make your Click CTA clear and easy to act on. No guessing.
+  * For short messages (3–5 lines), put a single clear CTA at the end.
+  * For longer copy, place the same CTA in multiple spots throughout the email.
+  * Tell recipients exactly what they'll get when they click — answer "what's in it for them?"
+  * Avoid muddying the CTA with multiple competing clickable things. Keep the ONE Click you care about as the main focus.
 
-  * The decision to Open an email is in part related to the level of comfort on the part of the recipient. Show up in a way that makes them feel comfortable with opening.
 
-  * The average for Open rates will change as we move into Q4 2021 due to the new Apple iOS 15 Privacy changes, which will start to trigger Opens automatically - not specific to a real person opening the email (I wrote another article on this to help explain how this change works and ways you can respond). Expect the average Opens range to recalibrate to a higher range of normal as we near the end of the year.
+4
 
+## Replied
 
-CLICKED
+Healthy
 
-#### ⁠✅⁠ Shoot for Click rates above 10%+
+30%+
 
-#### ⚠️⁠ Average Click rates across all industries run 7-9% (who wants to be average?)
+Average
 
-#### ⁠❌⁠ Under 5%
+15–25%
 
-Where to look: 
+Red Flag
 
-Clicked rate should be monitored at the individual email level, specifically where a “click” call-to-action (CTA) is the focus
+Under 10%
 
-  
+Where to Look
 
+Monitor Reply rate at the **individual email level** , specifically where a "reply" CTA is the focus.
 
-Considerations:
+Considerations
 
-  * The psychology of a Click is much different from that which encourages a Reply
+  * The psychology of a Reply is very different from what encourages a Click.
+  * Make your Reply CTA clear and easy to act on.
+  * For a boost, ask simple low-friction questions (yes/no) or sweeten the pot with something valuable in exchange for a reply — "what's in it for them?"
+  * Avoid muddying the Reply CTA with links to click on. Keep Reply as the main focus.
 
-  * Make your Click call-to-action clear to the recipient, and easy to take action on
 
-  * Consider using a short message (3-5 lines of copy) with a clear Click CTA at the end
+5
 
-  * With longer email copy, consider placing the Click CTA within the copy multiple times
+## Complained
 
-  * Ensure the recipient is clear on what will happen/what they’ll get when they Click, and that it’s something they’ll find of value (ie. what’s in it for them?)
+Healthy
 
-  * Avoid muddying up the Click CTA with several different things to click on within the email body. Try to keep the ONE Click you want as the main focus of the email.
+As close to 0.00% as possible
 
+AUP Threshold
 
-REPLIED
+0.05% (Mailgun)
 
-#### ⁠✅⁠ Shoot for reply rates of 30%+
+Red Flag
 
-#### ⚠️⁠ Average Reply rates across all industries run 15-25% (again, who wants to be average?)
+At or above 0.04%
 
-#### ⁠❌⁠ Under 10%
+Mailgun's AUP ceiling of **0.05%** is roughly **1 complaint per 2,000 emails**. If you're approaching that line, your domain is already in trouble.
 
-Where to look: 
+Where to Look
 
-Replied rate should be monitored at the individual email level, specifically where a “reply” call-to-action (CTA) is the focus
+Monitor Complaint rate at the **domain level** and the **individual email level**.
 
-  
+Considerations
 
+  * Following best practices should keep complaints well under 0.03%.
+  * Once it approaches 0.04%, it may start affecting your domain/IP reputation.
+  * High complaint rates can lead your SMTP to disable your domain and/or account — and can land you on a blacklist.
+  * Give recipients an easy way to opt out (Unsubscribe or Update Preferences). Unsubscribes don't hurt reputation — they're massively preferable to a Complaint, which does.
 
-Considerations:
 
-  * The psychology of a Reply is much different from that which encourages a click
+6
 
-  * Make your Reply call-to-action clear to the recipient, and easy to take action on
+## Bounced
 
-  * For a boost in replies, consider asking simple, low/no-friction questions (ex: yes/no), or offering something of great value in exchange for a reply in order to sweeten the pot (ie. what’s in it for them?)
+Healthy
 
-  * Avoid muddying up the Reply CTA by including links to click on within the email body. Try to keep the Reply CTA as the main focus of the email.
+Well under 1%
 
+AUP Threshold
 
-COMPLAINED
+5% (Mailgun)
 
-#### ✅⁠ Keep your Complaint rate as close to 0.00% as possible
+Red Flag
 
-#### ⚠️⁠ Mailgun’s Acceptable Use Policy (AUP) allows a threshold of 0.05%, which equates to 1 recipient out of 2000 emails marking your email as spam/junk
+Over 2–2.5%
 
-#### ⁠❌⁠ At or above 0.04%
+Where to Look
 
-Where to look: 
+Monitor Bounce rate at the **domain level** and the **individual email level**.
 
-Complained rate should be monitored at the domain level, as well as the individual email level
+Considerations
 
-  
+  * Following best practices for list hygiene (initial and ongoing) should keep this well under 1%.
+  * Once it approaches 2–2.5%, your domain/IP reputation starts taking damage.
+  * High bounce rates can lead your SMTP to disable your domain and/or account — and can land you on a blacklist.
 
 
-Considerations:
+## Summary & Benchmark Cheat Sheet
 
-  * Following best-practices should keep it well under 0.03%
+These numbers are guidelines — not rules. The individual email or campaign, the message, the audience, and the level of segmentation all weigh into the numbers. Monitor your stats **weekly** so you can course-correct along the way.
 
-  * Once it starts approaching the 0.04% range it may start affecting your domain/IP reputation.
+Stat
 
-  * High Complaint rates can lead to your SMTP taking action like disabling your domain and/or account, and it can land you on a Blacklist, as well.
+Healthy
 
-  * Ensure the recipient has an easy way to opt-out of your email, such as an Unsubscribe or Update Your Email Preferences option. Unsubscribes don’t hurt your domain reputation, so are way more preferable to a Complaint, which does.
+Watch
 
+Red Flag
 
-BOUNCED
+Delivered
 
-#### ✅⁠ Bounce rate well under 1%
+≥ 98%
 
-#### ⚠️⁠ Mailgun’s Acceptable Use Policy (AUP) allows a threshold of 5%
+97–98%
 
-#### ⁠❌⁠ Over 2-2.5%
+< 97%
 
-Where to look: 
+Opened
 
-Bounced rate should be monitored at the domain level, as well as the individual email level
+40–60%+
 
-  
+16–26%
 
+< 15%
 
-Considerations:
+Clicked
 
-  * Following best-practices related to list hygiene (initial and ongoing) should keep this well under 1%
+> 10%
 
-  * Once it starts approaching the 2-2.5% range it can start to affect your domain/IP reputation
+7–9%
 
-  * High Bounce rates can lead to your SMTP taking action like disabling your domain and/or account, and it can land you on a Blacklist, as well
+< 5%
 
+Replied
 
-SUMMARY
+30%+
 
-These numbers are a guideline and by no means meant to be applied literally to every situation. The individual email or campaign, the message, the audience, and the level of segmentation all weigh into the numbers. 
+15–25%
 
-It’s important to monitor your deliverability stats on a regular basis - weekly is recommended. This is best-practice in order to stay on top of what’s working and what’s not working and gives you the opportunity to course-correct along the way, for the best possible results.
+< 10%
 
-Take a look at your current numbers and set some goals for yourself, then make one small tweak at a time, and assess what effect it had on the big picture, then do another round and keep going.
+Complained
 
-The GOAL is not to achieve some specific number, but rather to IMPROVE from where you started, and ultimately to improve your bottom line.
+≈ 0.00%
 
-Need Some Help?
+< 0.04%
 
-  
+≥ 0.04%
 
+Bounced
 
-  * This article gives a general idea of what stats to monitor and what to look for, but every situation is unique.
+< 1%
 
+1–2%
 
-  
+> 2–2.5%
 
+The Real Goal
 
-  * Not every email will perform the same, and what numbers you shoot for may vary depending on the type of campaign you’re sending, the audience you’re sending to, and the offer/CTA you’re focusing on.
+Look at your current numbers, set goals, then make **one small tweak at a time** and measure the effect. The goal isn't to hit a specific number — it's to **improve from where you started** , and ultimately improve your bottom line.
 
+## Need Some Help?
 
-  
+Every Situation is Unique
 
+This article gives a general idea of what stats to monitor and what to look for — but every situation is different.
 
-  * It’s virtually impossible to troubleshoot email deliverability issues over a Facebook post, helpdesk chat, or ticket. Troubleshooting properly requires an understanding of all the factors and a thorough analysis.
+Benchmarks Vary by Campaign
 
+Numbers to shoot for depend on the type of campaign, the audience, and the offer/CTA you're focusing on. Not every email will perform the same.
 
-  
+Troubleshooting is Context-Heavy
 
+Deliverability issues can't be meaningfully solved over a Facebook post or helpdesk ticket — they require analysis of multiple factors together.
 
-  * If you’re struggling to get your emails to the inbox, or even if you just want to look at ways to turn your email marketing up a notch, please [](<https://help.email-2-inbox.com/calendar-chat>)[book a call with Krystin](<https://help.email-2-inbox.com/calendar-chat>) at Email2Inbox
+Want a Deeper Look?
 
+If you're struggling to get email to the inbox — or want to level up your email marketing — book a one-on-one with Krystin.
 
-  
+Book a Call with Krystin
 
+Personal deliverability analysis and marketing strategy at Email-2-Inbox.
 
-  
+[Schedule at Email2Inbox](<https://help.email-2-inbox.com/calendar-chat>)
 
+## Frequently Asked Questions
 
-  
+What's the single most important stat to watch?
 
+**Complaint rate** , closely followed by bounce rate. Both directly and quickly damage your sender reputation, and both can trigger account-level action from your SMTP. Opens and clicks fluctuate; complaints and bounces compound.
 
-References:
+Why does my Open rate keep jumping around since iOS 15?
 
-[https://sendgrid.com/blog/improve-email-deliverability-with-sendgrids-newly-released-email-validation-api/](<https://sendgrid.com/blog/improve-email-deliverability-with-sendgrids-newly-released-email-validation-api/>)
+Apple Mail Privacy Protection pre-fetches images — which triggers Open events automatically whether or not the recipient actually read anything. If a big chunk of your audience uses Apple Mail, your Open rate is inflated. Pair Open rate with Click and Reply rates, or focus on trend direction rather than absolute numbers.
 
-[https://knowledgebase.constantcontact.com/articles/knowledgebase/5409-average-industry-rates](<https://knowledgebase.constantcontact.com/articles/knowledgebase/5409-average-industry-rates>)
+Is a low Delivered rate always a reputation problem?
 
-[https://www.mailgun.com/blog/email-bounce-rates-shifting-focus-away-failure/](<https://www.mailgun.com/blog/email-bounce-rates-shifting-focus-away-failure/>)
+Not always — sometimes it's list quality (bad addresses, role accounts, spam traps) or authentication (missing/misconfigured SPF, DKIM, DMARC). But a chronically low Delivered rate is almost always a combination of multiple issues, and should trigger a full audit.
 
-[https://blog.hubspot.com/sales/average-email-open-rate-benchmark](<https://blog.hubspot.com/sales/average-email-open-rate-benchmark>)
+What's the difference between Accepted and Delivered?
 
-[https://neilpatel.com/blog/high-email-unsubscribe-rate/](<https://neilpatel.com/blog/high-email-unsubscribe-rate/>)
+**Accepted** means Mailgun received your request to send the email. **Delivered** means the recipient's mail server accepted it. The gap between Accepted and Delivered is bounces, rejections, and suppressions.
 
-[https://www.mailgun.com/blog/email-open-rates-decoded](<https://www.mailgun.com/blog/email-open-rates-decoded>)
+Unsubscribe or Complaint — which is worse?
 
-[https://www.campaignmonitor.com/resources/knowledge-base/what-is-a-good-or-average-email-response-rate-for-email-marketing/](<https://www.campaignmonitor.com/resources/knowledge-base/what-is-a-good-or-average-email-response-rate-for-email-marketing/>)
+**Complaints are worse — by a lot.** Unsubscribes don't damage reputation; they just remove an uninterested contact. Complaints signal to ISPs that your mail is unwanted, and they carry disproportionate reputation weight. Always give people an easy unsubscribe so they don't reach for the spam button instead.
 
-[https://sendgrid.com/blog/unsubscribes-what-to-do-when-youre-getting-too-many/](<https://sendgrid.com/blog/unsubscribes-what-to-do-when-youre-getting-too-many/>)
+How often should I monitor these stats?
+
+**Weekly at minimum.** That's frequent enough to catch issues before they damage reputation, but not so often that normal variance looks like a crisis. Track trends, not single data points.
+
+My campaign blew past the "Red Flag" thresholds — what now?
+
+Pause additional sends to that list, scrub bounces and complaints aggressively, review what the campaign content and audience had in common, and check authentication records. If complaint or bounce rate is near the AUP ceiling, throttle volume and rebuild to your most engaged segment before ramping back up.
+
+References
+
+  * [SendGrid — Improve Email Deliverability with Email Validation API](<https://sendgrid.com/blog/improve-email-deliverability-with-sendgrids-newly-released-email-validation-api/>)
+  * [Constant Contact — Average Industry Rates](<https://knowledgebase.constantcontact.com/articles/knowledgebase/5409-average-industry-rates>)
+  * [Mailgun — Email Bounce Rates: Shifting Focus Away from Failure](<https://www.mailgun.com/blog/email-bounce-rates-shifting-focus-away-failure/>)
+  * [HubSpot — Average Email Open Rate Benchmark](<https://blog.hubspot.com/sales/average-email-open-rate-benchmark>)
+  * [Neil Patel — High Email Unsubscribe Rate](<https://neilpatel.com/blog/high-email-unsubscribe-rate/>)
+  * [Mailgun — Email Open Rates Decoded](<https://www.mailgun.com/blog/email-open-rates-decoded>)
+  * [Campaign Monitor — What is a Good Email Response Rate?](<https://www.campaignmonitor.com/resources/knowledge-base/what-is-a-good-or-average-email-response-rate-for-email-marketing/>)
+  * [SendGrid — Unsubscribes: What to Do When You're Getting Too Many](<https://sendgrid.com/blog/unsubscribes-what-to-do-when-youre-getting-too-many/>)
+
+
+## Related Articles
+
+What is Email Deliverability? Email Deliverability Overview Why Are My Emails Going to Spam? Dedicated Sending Domain Setup Bot Detection for Email Stats

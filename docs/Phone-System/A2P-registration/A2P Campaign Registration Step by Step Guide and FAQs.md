@@ -141,8 +141,14 @@ You will see the following campaign fields on this page:
   
 **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065623634/original/prYCmHSbUB8oe-MnYbUiS545xa3c6U0_iQ.png?1771958624)**
 
-**  
-**
+  
+
+    
+    
+    In the Pre-Built Chat Widget registration flow, transactional / non-marketing campaigns are automatically assigned ** **Customer Care**. That guided flow does not require manual use-case selection for transactional campaigns.
+
+  
+
 
 **  
 **

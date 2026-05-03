@@ -99,19 +99,23 @@ Choosing the right type of custom field is essential for keeping your data organ
   
 
 
-Organizing your fields keeps your data tidy and easier to use inside contacts and opportunities.  
+Organizing your fields keeps your data tidy and easier to use inside records.  
+  
+Folders appear as sections in the record layout.  
+You can use folders to group related custom fields.  
+To create a folder:
+
   
 
 
-  * **Folders** (also called groups) appear as sections in your contact/opportunity records.  
+  1. Go to **Settings** > **Custom Fields**.
+  2. Use the object selector at the top of the page to choose the object you want to manage.
+  3. Open the **Folders** tab.
+  4. Click **Create folder**.
+  5. Enter the folder name.
+  6. Click Create.  
   
-
-
-  * You can move fields between folders using **bulk actions**.  
-  
-
-
-  * Create groups in **Settings > Custom Fields > \+ Add Folder**.  
+After you create a folder, you can assign custom fields to it for better organization.  
   
 
 
@@ -129,82 +133,141 @@ Follow these steps to create and organize custom fields in your sub-account:
   
 
 
-  
-
-
 #### _**Step 1:** Navigate to Settings → Custom Fields_
 
 ####   
 
 
-In your sub-account, click on Settings from the left menu, then scroll down and click Custom Fields. This is where you can view existing fields and create new ones for Contacts or Opportunities._  
-_  
-_![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155049899570/original/Yh9Qi_nPEsGdQ6sTnTPWqfsfYOoqiPMDKw.jpeg?1752607385)_  
-
+In your sub-account, click **Settings** , then click **Custom Fields**.  
+_![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155049899570/original/Yh9Qi_nPEsGdQ6sTnTPWqfsfYOoqiPMDKw.jpeg?1752607385)_
 
   
 
 
-#### _**Step 2:** Click Add Field_
+_**Step 2:** Select the object_
+
+  
+
+
+Use the object selector at the top of the page to choose the object you want to manage.
+
+  
+
+
+_**Step 3:** Open the Fields tab_
+
+  
+
+
+Stay on the **Fields** tab to view existing fields and create new ones.
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069289224/original/FCj3FKJDzVDpKkC5YnjnnlwgJD-QxfL5Sw.png?1776338503)
+
+  
+
+
+#### _**Step 3:** Click **Create Field**_
 
 ####   
 
 
-On the top-right of the Custom Fields screen, click the Add Field button to start creating a new custom field.
+Click **Create field** on the top right of the page.
 
   
 
 
-#### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046564181/original/bs8f5d6nQk7p-aCnTyM49WoSARCdvdnulA.png?1747151424)
+#### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069289062/original/9Cy4csr4uJVrlRoGC_Fp-rsknDIOqdDRgQ.png?1776338432)
 
   
 
 
-  
-_**Step 3:** Select an Input Type and Object_
+_Step 5**: Select a field type**_
 
   
 
 
-Select the field type you want to create—such as Text, Dropdown, Radio, Date, etc. Then under the Object dropdown, Choose Contact if the field should appear in contact profiles. Choose Opportunity if the field should appear in opportunities only.
+Choose the field type you want to create.
+
+####   
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069290219/original/WlNtThFx6snR4gViN1jaJQJGxgatzCMoPQ.png?1776338844)
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046564255/original/bm3NVQawQK_E_Xi60KtqS9lbM5NJ1hgZPA.gif?1747151495)
+_**Step 6:** Fill in the field details_
 
   
 
 
-  
+Enter the field details, including the field name and folder if needed.
 
-
-#### _**Step 4:** Fill in Custom Field Details_
-
-  
-
-
-Enter the Field Name, select a Group (or create a new one), and add Option Names and Values if applicable (e.g., for drop downs or radios).  
-  
-
-
-The **Prefill Value** option in a custom field lets you define a **default value** that automatically appears whenever that field is used in forms & surveys unless it’s manually changed.
-
-**Example:** If you set the Prefill Value of a custom field like Country to United States, it will appear as the default wherever the field is used, but users can change it if needed.
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069290765/original/6zaShf6HHJz7SAL7gro4_9WumqfukG6YWw.png?1776339089)
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046564390/original/GdktWZxqMNvB1W3LjvCRvVPG_4jufa4m3w.png?1747151642)  
-  
-
-
-#### _**Step 5:** Save and Verify Placement_
+_**Step 7:** Review the Live preview_
 
   
 
 
-Click Save to create the custom field. For Contact Custom Fields, go to a contact record to see the new field. For Opportunity Custom Fields, go to an opportunity card to see the field under “Opportunity Details.”
+Use the Live preview panel to confirm how the field will appear.
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069291322/original/EPYVFabzkOzqPJKnuMsnoK2DdkBzTkKCUA.png?1776339395)
+
+  
+
+
+_**Step 8:** Create the field_
+
+  
+
+
+Click **Create custom field** to save the field.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069291497/original/LEN3EzAyraO2t3sfRVZy7T0pi0QgOfAHSQ.png?1776339485)
+
+  
+
+
+### **Use the Custom Fields page**
+
+  
+
+
+The Custom Fields page includes an updated layout that helps you manage fields more efficiently.
+
+  
+
+
+  1. Use the object selector at the top of the page to switch between supported objects.  
+  
+
+  2. Use the **Fields** tab to view and manage custom fields.  
+  
+
+  3. Use the **Folders** tab to create and manage folders.  
+  
+
+  4. Sort the table by column to find fields faster.  
+  
+
+  5. Use the icons in the field list to identify special field states.
+
+
+  
+
+    
+    
+    Confirm the exact meaning of each field icon before publishing this article update.
+
+  
+
 
 * * *
 

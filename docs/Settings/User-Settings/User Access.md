@@ -47,8 +47,10 @@ This section applies if you’re an agency owner or admin and need to grant acce
 
 ### **What you can do**
 
+  
 From here, you can add new users, edit existing ones, or delete users.
 
+  
 When adding or editing a user, you can modify the following:
 
   
@@ -96,6 +98,9 @@ When adding or editing a user, you can modify the following:
 
   
 The ability to Login As another user is permission-gated per admin. When Enable Login As is turned off for a user, the option is hidden. 
+
+  
+
 
 Agency Settings › Team › Edit user › Roles & Permissions › User Management.
 
@@ -171,6 +176,12 @@ As with agency-level user management, here you can add, delete, or edit users. F
 
   
 
+    
+    
+    Automatic personal booking calendar creation for newly added sub-account users depends on the agency-level **Preloaded Example Data** setting in **Settings > Company**.
+
+  
+
 
 * * *
 
@@ -182,6 +193,51 @@ As with agency-level user management, here you can add, delete, or edit users. F
 (If you’re not already familiar with how permission settings work, this section helps you understand what control you have.)
 
 You can fine-tune what a user can do by assigning roles or permission scopes. These determine what parts of HighLevel the user can access (e.g. marketing tools, settings, campaigns), what actions they can perform (view, edit, delete), and which accounts their access applies to.
+
+* * *
+
+## **Email change verification (multi-channel OTP)**
+
+  
+
+
+Changing a user’s login email is a sensitive update. HighLevel now supports multi-channel OTP verification so you can confirm identity even if the existing email is inaccessible.
+
+  
+
+
+**Available verification methods**
+
+  * **Email OTP**
+
+  * **Phone (SMS) OTP**
+
+  * **TOTP (Authenticator app)**
+
+
+  
+
+
+The verification options shown depend on the user’s verified 2FA methods.
+
+###   
+
+
+### **When you change your own email****  
+**
+
+  * The system prompts you to verify using another available 2FA method (for example,**SMS** or **Authenticator app**).
+  * If no other verified method is available, you are prompted to set up an authenticator app. 
+
+
+###   
+
+
+### **When an admin changes another user’s email****  
+**
+
+  * The system shows all available verification methods for that user (Email, SMS, and/or Authenticator app).
+
 
 * * *
 

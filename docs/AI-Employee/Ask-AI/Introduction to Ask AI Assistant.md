@@ -37,7 +37,10 @@ Ask AI would act as your built-in assistant inside GoHighLevel. We’re starting
 
 * * *
 
-## **What is Ask AI?**
+  
+
+
+**What is Ask AI?**
 
 Ask AI is a built-in virtual assistant for GoHighLevel users. It combines smart AI capabilities with your brand context to help you take action inside HighLevel, directly from a single interface. You’ll find the Ask AI icon in the top navigation bar. Ask AI also supports a distraction-free, full-screen workspace so you can plan, generate, and take action without switching screens. 
     

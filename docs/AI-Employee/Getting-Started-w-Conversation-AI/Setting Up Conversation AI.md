@@ -49,7 +49,7 @@ Conversation AI is an advanced communication system that automates customer inte
   * **Workflow Integration** : Utilize additional bots to respond within workflows, enabling automated and context-specific interactions.  
   
 
-  * **Multi-Channel Support** : Enable bots to communicate through channels like SMS, Facebook, Instagram, and live chat.  
+  * **Multi-Channel Support:** Enable bots to communicate through channels like SMS, Email, Facebook, Instagram, and live chat.  
   
 
   * **Real-Time Testing and Feedback** : Use the chat window to test, give feedback, and refine the bot during setup, allowing immediate adjustments.  
@@ -115,7 +115,7 @@ Creating a conversation AI bot in HighLevel can be a very quick and easy process
   
 
 
-  4. **Assign Channels** : In the bot settings, assign all the communication channels that you want the primary bot to communicate within (e.g., SMS, Facebook, Instagram, live chat). The primary bot will handle all inbound messages not initiated within a workflow.  
+  4. **Assign Channels:** In the bot settings, assign all the communication channels that you want the primary bot to communicate within (e.g., SMS, Email, Facebook, Instagram, live chat). The primary bot will handle all inbound messages not initiated within a workflow.  
   
 
 

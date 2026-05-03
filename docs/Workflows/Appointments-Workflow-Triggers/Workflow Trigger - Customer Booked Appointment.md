@@ -13,18 +13,22 @@ This article provides an in-depth guide on using the **"Customer Booked Appointm
 **TABLE OF CONTENTS**
 
   * What is Customer Booked Appointment Workflow Trigger?
-  * Key Benefits of Customer Booked Appointment Trigger
-  * Configuring the Customer Booked Appointment Trigger
-    * Name Your Trigger
-    * Set Up Filters
-    * Has Tag
-    * In Calendar
-    * In Calendar Group
-  * Use Cases
-  * Frequently Asked Questions
+    * Key Benefits of Customer Booked Appointment Trigger
+    * Configuring the Customer Booked Appointment Trigger
+      * Access Workflow Builder
+      * Add a New Trigger
+      * Name Your Trigger
+      * Choose Workflow Enrollment
+      * Set Up Filters
+      * Save the Trigger
+    * Use Cases
+      * Use Case #1 Appointment Reminder
+      * Use case #2 Follow-Up After Appointment Booking
+      * Use Case #3 Internal Notification for High-Priority Clients
+      * Use Case #4 Group Appointment Management
+      * Use Case #5 Multi-Participant Appointment Notifications
+    * Frequently Asked Questions
 
-
-* * *
 
 # **What is Customer Booked Appointment Workflow Trigger?**
 
@@ -47,6 +51,9 @@ Automating appointment-based workflows can significantly improve operational eff
   
 
   * **Improved Customer Experience:** Keep customers informed and engaged with automated confirmation messages and follow-ups.  
+  
+
+  * **Guest Enrollment Support:** Automate workflows not just for the primary contact but also for appointment guests. Send reminders, confirmations, and follow-ups to all participants in a multi-participant appointment.  
   
 
   * **Efficient Team Notifications:** Ensure that the relevant team members are automatically notified whenever an appointment is booked.  
@@ -104,12 +111,30 @@ Click **“Add New Trigger”** and type in **"Customer Booked Appointment."** S
 Enter a descriptive name that helps you identify the trigger, such as “New Appointment Booking Trigger.”
 
   
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155039511684/original/kO0JcQKPX5fY6yXgpegvCOJQpksW5snexA.png?1736393890)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068508556/original/mu54oUjD-RgoXPvg080TspkhC-hlttuL-Q.png?1775457382)
 
   
 
+
+### **Choose Workflow Enrollment**
+
+After naming your trigger, select who should be enrolled into the workflow when the trigger fires. This setting appears under **"Who should be enrolled into the workflow?"** and offers three options:
+
+  * **Contact only:** The workflow runs only for the primary contact on the appointment. This is the default behavior.  
+  
+
+  * **Contact and Guests:** The workflow runs once for the primary contact and once for each guest contact attached to the appointment. This is useful for multi-participant appointments where all attendees need reminders or follow-ups.  
+  
+
+  * **Guests only:** The workflow runs only for the guest contacts; the primary contact is skipped. Use this when the primary contact already has a separate workflow and you only want to target guests.
+
+
+**Important:** For the Customer Booked Appointment trigger, guests added to the appointment **after** it is booked will not be enrolled by this trigger event. Only guests present at the time of booking are included.
+
+  
+
+
+### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068508470/original/hbKRE-AxbAal8IO-kCh6DQG2wq8R5R5ljg.png?1775457221)
 
 ### **Set Up Filters**
 
@@ -210,6 +235,18 @@ Lets look at some examples where you can use this trigger:
 
 **Outcome:** The workflow sends an email confirmation to the customer and an internal notification to the assigned trainer.
 
+  
+
+
+### **_Use Case #5 Multi-Participant Appointment Notifications_**
+
+  
+**Scenario:** A consulting firm schedules strategy sessions that include both the primary client and additional stakeholders as guests. The firm wants all participants to receive a confirmation email and a prep checklist.  
+  
+
+
+**Outcome:** By selecting "Contact and Guests" in the enrollment setting, the workflow sends a personalized confirmation email and prep checklist to the primary contact as well as each guest, ensuring everyone arrives prepared.
+
 * * *
 
 ## **Frequently Asked Questions  
@@ -249,3 +286,22 @@ Yes, you can add multiple reminder actions within the same workflow and set diff
 **Q. How can I track appointments booked by high-priority clients?**
 
 You can use the**“Has Tag”** filter to create a workflow that triggers only when clients with a specific tag (e.g., “VIP Client”) book an appointment. This way, you can ensure timely follow-ups and special handling for important clients.
+
+  
+
+
+**Q. Can I send workflow notifications to appointment guests?**
+
+Yes. When configuring the trigger, use the "Who should be enrolled into the workflow?" setting and select either "Contact and Guests" or "Guests only." This allows the workflow to run for guest contacts attached to the appointment.  
+  
+
+
+**Q. What happens if a guest is added to the appointment after it was booked?**
+
+Guests added after the appointment is booked are not enrolled by the original trigger event. Only guests present at the time of booking are included.  
+  
+
+
+**Q. Will updating my enrollment setting affect my existing workflows?**
+
+No. All existing trigger configurations remain unchanged with the default behavior of "Contact only." You must manually update the enrollment setting if you want to include guests.

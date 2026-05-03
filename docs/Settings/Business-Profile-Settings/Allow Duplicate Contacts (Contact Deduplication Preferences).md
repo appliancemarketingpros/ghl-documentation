@@ -182,6 +182,21 @@ Example: If "Email" is selected as the primary field and "Phone" as the secondar
   
 
 
+  
+
+
+**Facebook and Instagram Contacts**
+
+  
+
+
+When a Facebook or Instagram contact later shares an email address or phone number that matches an existing contact, HighLevel automatically merges the records if duplicate contacts are disabled.
+
+  
+
+
+If **Allow Duplicate Contact** is enabled, the automatic merge does not occur, and separate contact records can remain.
+
 * * *
 
 ## **How to Configure Contact Deduplication Preferences**

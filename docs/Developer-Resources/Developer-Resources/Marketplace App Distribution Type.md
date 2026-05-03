@@ -60,6 +60,42 @@ Can this app be bulk-installed by agencies?| ‘Yes’ / ‘No’|
 ##   
 
 
+## **Private App Install Limits (Policy)**  
+  
+
+
+If your Marketplace app is set to App type = Private, installs are limited to a small pilot:
+
+  
+**Cap:** A Private app can be installed in up to 5 Agencies.
+
+  
+**Block:** When the app reaches 6+ Agencies, new installs are blocked until the developer either:
+
+  1. Publishes the app as Public (listed).  
+  
+
+  2. Passes Security Review (if approved, the app can remain Private and installs can continue).
+
+
+  
+**Counting Rules**
+
+  
+
+
+Each unique Agency counts as 1, no matter how many sub-accounts (locations) the app is installed in.
+
+  
+
+
+Bulk installs still count as 1 per Agency.
+
+  
+
+
+Counts update in real time when an app is fully uninstalled from an Agency.
+
 * * *
 
 ## Distribution scenarios
@@ -83,7 +119,8 @@ Agency Only| Yes| Agency user installs the app| “isBulkInstallation” : true,
   
 
 
-## **[](<https://help.gohighlevel.com/support/solutions/articles/155000001217-set-up-your-app-pricing#Distribution-Types-and-Pricing-Models>)[Article elaborating pricing models supported for each distribution model](<https://help.gohighlevel.com/support/solutions/articles/155000001217-set-up-your-app-pricing#Distribution-Types-and-Pricing-Models>)**
+## **[](<https://help.gohighlevel.com/support/solutions/articles/155000001217-set-up-your-app-pricing#Distribution-Types-and-Pricing-Models>)[](<https://help.gohighlevel.com/support/solutions/articles/155000001217-set-up-your-app-pricing#Distribution-Types-and-Pricing-Models>)**  
+**[Article elaborating pricing models supported for each distribution model](<https://help.gohighlevel.com/support/solutions/articles/155000001217-set-up-your-app-pricing#Distribution-Types-and-Pricing-Models>)**
 
 * * *
 
@@ -161,6 +198,7 @@ Choose the Agency distribution type if your app's functionalities are applicable
 **App Listing** : Apps will be listed solely in the agency level app marketplace.
 
   
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155048583594/original/f4TxfrBHaJTtETQV7pYDWWQ4nI5z7bz-vw.png?1750392601)
@@ -203,6 +241,7 @@ Select the Sub-account (both can install) type if your app's functionalities are
 **App Listing** : These apps are available to both agency owners/admins and sub-account admins to install. These apps are listed in both Marketplaces.
 
   
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155048583635/original/eYRbavl9kxE3dTmJWUzJ26BuxrtACE9o4g.png?1750392836)
 
   
@@ -216,6 +255,7 @@ Select the Sub-account (both can install) type if your app's functionalities are
 Sub-account admins can discover and install these apps to their respective sub-accounts.
 
   
+  
 
 
 ### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155023404538/original/lQxf69LOM8uFEPOdE9MQ6M8gYq-b4GDkoA.png?1711222807)
@@ -227,6 +267,7 @@ Sub-account admins can discover and install these apps to their respective sub-a
 
 
 **Bulk Installation** : If bulk-installation is supported by the app developer, agency admins can bulk-install such apps. If not, agency admins can install the app one sub-account at a time. Agencies can automatically install these apps for future sub-accounts if they choose the 'all sub-accounts' option during the initial installation.  
+  
   
 
 
@@ -243,7 +284,9 @@ Sub-account admins can discover and install these apps to their respective sub-a
   
 
 
-**Re-selling** : These apps can be re-sold by agencies.
+**Re-selling** : These apps can be re-sold by agencies.  
+  
+
 
 * * *
 
@@ -254,6 +297,7 @@ Sub-account admins can discover and install these apps to their respective sub-a
 
 Opt for type Sub-account (only agency can install) distribution if your app is designed such a way that agency owners are the only relevant installers.  
   
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155048584235/original/ifH_YbCWG2-uY5wxZFLw6jeWGAm3Ma0PpQ.png?1750394316)
@@ -263,6 +307,7 @@ Opt for type Sub-account (only agency can install) distribution if your app is d
 
   
 **App Listing** : These apps will only show up in the agency view of the Marketplace.  
+  
   
 
 
@@ -290,6 +335,3 @@ Opt for type Sub-account (only agency can install) distribution if your app is d
 
 
 **Re-selling** : Agencies can re-sell these apps to their sub-accounts, with the agency paying the base price set by the developer and sub-accounts paying a marked-up price set by the agency.[](<https://help.gohighlevel.com/en/support/solutions/articles/155000001220>)[](<https://help.gohighlevel.com/en/support/solutions/articles/155000001220>)
-
-**  
-**

@@ -16,6 +16,8 @@
 
 ### [Others](Others/)
 
+### [Sequences - Private Beta](Sequences-Private-Beta/)
+
 ### [Ad Manager](Ad-Manager/)
 
 ### [Getting Started w/ Ad Manager](Getting-Started-w-Ad-Manager/)

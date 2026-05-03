@@ -163,6 +163,19 @@ Each filter focuses the results so you can quickly isolate the most relevant eve
 
 * * *
 
+## **Export Audit Logs (CSV Download)**
+
+  
+
+
+You can export filtered Audit Logs to a CSV file. Exports run asynchronously, and you can track progress and download completed files from the **Exports** tab.  
+  
+
+
+For step-by-step instructions, see [Exporting Audit Logs](<https://help.gohighlevel.com/support/solutions/articles/155000007611-exporting-audit-logs>)
+
+* * *
+
 ## **How To Access the Audit Logs**
 
   
@@ -221,8 +234,10 @@ Audit Log entries are retained for **60 days** and then purged. Plan to capture 
   
 
 
-**Q: Can I export Audit Logs?**  
-Native UI export is not currently available in most areas. Some modules (e.g., Listings) may support export via API.
+**Q: Can I export Audit Logs?**
+
+Yes. Using the Export Option on the top right.   
+
 
   
 

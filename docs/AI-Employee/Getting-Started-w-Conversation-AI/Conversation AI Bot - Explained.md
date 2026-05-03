@@ -107,6 +107,9 @@ The bot currently supports the following channels:
   5. Live Chat  
   
 
+  6. Email  
+  
+
 
 You can select which channels you'd like the bot to communicate through by going to "Settings" > "Conversation AI" and adding the channels via the "Supported Channels" dropdown. 
 

@@ -6,32 +6,7 @@
 
 ---
 
-When we open the links sent from HighLevel, it's going to email.mg.yourdomain.com, which is the Mailgun subdomain you set up for the location [here](<https://gohighlevelassist.freshdesk.com/support/solutions/folders/48000665892>). It is because we need to change the links in the email for tracking statistics.
-
-  
-
-
-The Cname record you added when you set up in the domain provider is essential for Mailgun to track the open and click tracking, and unsubscribed.
-
-  
-
-
-The record for [email.mg.yourdomain.com](<//email.mg.yourdomain.com>) should be pointing to Mailgun.org, that's how they are able to fetch data and show the email stats.
-
-  
-
-
-If you are seeing this error when clicking the link: This site can't be reached / says [email.mg.yourdomain.com](<//email.mg.yourdomain.com>) refused to connect when you have your own Mailgun domain/subdomain set up
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48195453693/original/oBuzYgtIiHU_qb8FPQDQgmjvB5mrR1_4cg.png?1646072280)
-
-##   
-
-
-That means the CNAME record might not be set up properly.
+If links in your emails are not opening, it’s usually caused by an issue with your tracking domain or DNS configuration. This article walks you through why this happens and provides steps to troubleshoot and fix the issue.
 
   
 
@@ -41,110 +16,96 @@ That means the CNAME record might not be set up properly.
 
   
 
+    
+    
+    **Note:** This video example uses Mailgun, but the same principles apply to all providers.
 
-1\. To verify that, copy the **red highlighted** in the image above ---> [**email.mg.yourdomain.com**](<//email.mg.yourdomain.com>)
+* * *
 
-  
+**TABLE OF CONTENTS**
 
-
-Depending on the subdomain you set up with Mailgun, 
-
-  
-
-
-For example:
-
-If you set up **mg.companyname.com** ,
-
-You will look up the cname record for _email._**[_mg.companyname.com_](<//mg.companyname.com>)**
-
-  
+  * What Causes Email Links to Not Open?
+    * How Email Link Redirects Work
+    * How To Fix Links in Emails That Do Not Open
+    * Troubleshooting Common Issues
+    * Related Articles
 
 
-If you set up **replies.companyname.com** ,
+* * *
 
-You will look up the cname record for _email._**[_replies.companyname.com_](<//replies.companyname.com>)**
+# **What Causes Email Links to Not Open?**
 
   
 
 
-If you set up **support.companyname.com** ,
-
-You will look up the cname record for _email._**_support.companyname.com_**
+Email links usually don’t open because the **tracking domain isn’t set up correctly** or isn’t resolving in DNS.
 
   
 
 
-  
-
-
-  
-
-
-**2\. Go to[MX toolbox](<https://mxtoolbox.com/CnameLookup.aspx>) or [Whatsmydns](<https://www.whatsmydns.net/>) to look up the Cname record:**
-
-**[](<https://mxtoolbox.com/CnameLookup.aspx>)**
-
-[MX toolbox](<https://mxtoolbox.com/CnameLookup.aspx>):  
-
-
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48050724642/original/BTn6nQUwsXyVfr5LdrKHoDRoKXvOHBwaQg.png?1595545184)**
-
-****[Whatsmydns](<https://www.whatsmydns.net/>):****
-
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155004442481/original/AGGXVPiBkACoy2fODeEdIQcQseLuSJDmyA.png?1691095424)**  
-
+When an email is sent, the link is rewritten so it passes through a tracking domain before sending users to the final page. If that tracking domain has a DNS or SSL issue, the redirect breaks and the link won’t open.
 
   
 
 
-  
-
-
-3\. If it says DNS records not found:
+To fix this, make sure your tracking domain is configured properly. This means the correct CNAME record is in place, the domain resolves in DNS and the HTTPS/SSL is active. Once these are set correctly, the redirect works again and your links will open normally.
 
   
 
-
-a. login to your domain provider 
-
-b. Go to DNS records and check the CNAME record
+    
+    
+    **Note:** Link tracking (redirecting links through a tracking domain) is used by most email providers to enable click tracking and ensure proper link routing. However, **[Email Tracking](<https://help.gohighlevel.com/en/support/solutions/articles/155000003213>)**(such as open and click reporting inside HighLevel) are only available when using LC Email.
 
   
 
 
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070162151/original/K15npCUzv1qi8NIKobiSJza24O7kCZaQaA.png?1777399256)
 
+* * *
 
-  
-
-
-4\. If it is already pointing to **mailgun.org:**
+## **How Email Link Redirects Work**
 
   
 
 
-a. Go to [Mailgun](<https://login.mailgun.com/login/>) -> Click the **Sending** tab on the left -> **Domain Settings**
+Understanding how links behave behind the scenes makes it easier to diagnose why they fail.  
+  
+
+
+  1. Your original link is replaced with a tracking link.  
+  
+
+
+  2. The tracking link routes through a subdomain (e.g., email.yourdomain.com).  
+  
+
+
+  3. This subdomain relies on a **CNAME record** in your DNS.  
+  
+
+
+  4. If the DNS or SSL is misconfigured, the redirect fails and the link may not open.
+
+
+* * *
+
+## **How To Fix Links in Emails That Do Not Open**
 
   
 
 
-b. **Edit the Tracking Protocol**
+####  _**Step 1:** Identify Your Tracking Domain_
 
   
 
 
-c. Send the email test again from HighLevel
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48244504991/original/fM2lh_VngLqDySJf3Pv2JeBpGz8Bc4IPag.png?1660162191)  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48244504976/original/J_f2ahU2CatRF9MNJEdOIugKxjpIBfvYYg.png?1660162175)
-
+  * From your Agency Dashboard, go to**Settings** >**Email Services** > **Location Settings**.  
   
 
+  * Find the domain used for email tracking (e.g., email.yourdomain.com) for the location you would like to troubleshoot.
 
-Here's [How to Enable HTTPS Tracking Links](<https://help.mailgun.com/hc/en-us/articles/360011566033-How-to-Enable-HTTPS-Tracking-Links>)
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070163225/original/dBsHWHN98kdOUSD_rBfWPAvHnlo6zpbIGg.png?1777400124)
 
   
 
@@ -152,52 +113,42 @@ Here's [How to Enable HTTPS Tracking Links](<https://help.mailgun.com/hc/en-us/a
   
 
 
-  
-
-
-  
-
+#### _**Step 2:** Check Your CNAME Record_
 
   
 
 
-  
-
-
-  
-
-
-5\. If the info above does not help, please get in touch with the support team of your domain provider for assistance. You can show them we need to add these records here: 
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155004540974/original/s0puwTTcRlben7UZfFvZrWTBtd9wUhOz9w.png?1691198730)
+Go to [MX toolbox](<https://mxtoolbox.com/CnameLookup.aspx>) or [Whatsmydns](<https://www.whatsmydns.net/>) to look up the CNAME record. Enter your tracking lookup domain as defined below
 
   
 
 
+  1. Copy your tracking domain found in step 1 (e.g., mg.yourdomain.com)  
   
 
-
-6\. If the domain provider verified all DNS records are good to go, please [reach out to HL support](<https://help.gohighlevel.com/en/support/solutions/articles/48001204857>).
-
+  2. Add email. in front → [](<//email.mg.yourdomain.com>)_email.mg.yourdomain.com_[](<//email.mg.yourdomain.com>)  
   
-
-
+**For example:**  
   
-
-
+If you set up _mg.companyname.com_ , you will look up the CNAME record for email.mg.companyname.com  
   
-
-
+If you set up _replies.companyname.com_ , you will look up the CNAME record for email.replies.companyname.com[](<//replies.companyname.com>)**[](<//replies.companyname.com>)****[](<//replies.companyname.com>)****[](<//replies.companyname.com>)****[](<//replies.companyname.com>)****[](<//replies.companyname.com>)**  
   
-
+If you set up _support.companyname.com, y_ ou will look up the cname record for _email.support.companyname.com_
 
   
 
 
+The result should return a valid CNAME record. If you see **"DNS record not found"** , your CNAME is missing or incorrect.  
   
 
 
-## **Common issues:**
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070243288/original/lvHcfFvJJgGbWq7VDpBDC_OV4l3Os5cNcA.png?1777480548)
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070244734/original/CRtpx0qOclPZf4bzq6WDfJRHbxBkXP4PTg.png?1777481515)
 
   
 
@@ -205,7 +156,25 @@ Here's [How to Enable HTTPS Tracking Links](<https://help.mailgun.com/hc/en-us/a
   
 
 
-1\. If The CNAME record includes the root domain, it will not work here:
+#### _**Step 3:** Check Your CNAME Record_
+
+  
+
+
+Log in to your DNS provider and Locate the CNAME record for your tracking domain. Ensure:  
+  
+
+
+  * Host is only the subdomain (e.g., email.mg, not full domain)  
+  
+
+  * Value points to your provider’s tracking domain
+
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070247826/original/VPNK5vb32wmqp5BoP-7oNByINEQrRKImNQ.png?1777484783)
 
   
 
@@ -213,25 +182,118 @@ Here's [How to Enable HTTPS Tracking Links](<https://help.mailgun.com/hc/en-us/a
   
 
 
-If you are using GoDaddy or Namecheap, be sure to omit the root domain from the record so it is **email.mg** only
+####  _**Step 4:** Ensure HTTPS is Enabled_
 
   
 
 
-Host name:
+Tracking domains must support HTTPS. Go to your provider settings and ensure the tracking protocol is set to HTTPS. Wait for SSL provisioning if recently updated.  
+  
+
+
+[](<https://help.mailgun.com/hc/en-us/articles/360011566033-How-to-Enable-HTTPS-Tracking-Links>)[](<https://help.mailgun.com/hc/en-us/articles/360011566033-How-to-Enable-HTTPS-Tracking-Links>)[Click here for more information on How to Enable HTTPS Tracking Links](<https://help.mailgun.com/hc/en-us/articles/360011566033-How-to-Enable-HTTPS-Tracking-Links>)[](<https://help.mailgun.com/hc/en-us/articles/360011566033-How-to-Enable-HTTPS-Tracking-Links>)[](<https://help.mailgun.com/hc/en-us/articles/360011566033-How-to-Enable-HTTPS-Tracking-Links>)
 
   
 
 
-Depending on the subdomain you are trying to set up, if you are trying to set up
-
-mg.companyname.com The host name will be **email.mg**
-
-replies.companyname.com The host name will be **email.replies**
-
-support.companyname.com The host name will be **email.support**
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070244057/original/9J_4NYHimCj5o882fj48_Kwu5hTXhTeERA.png?1777481018)
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48201410168/original/ovadh-goMeGpiYqisajhrsT40lnNsl-IPA.png?1647278164)
+  
+
+
+####  _**Step 5:** Test Your Links_
+
+  
+
+
+Send a test email from HighLevel. Click the link and confirm it redirects properly to the final URL.
+
+  
+
+
+_  
+_
+
+#### _**Step****6:** Contact Support if the Issue Persists_
+
+  
+
+
+If your links still do not open, contact your **domain/DNS provider** (e.g., GoDaddy, Cloudflare, Google Domains).  
+  
+
+
+  * Ask them to verify that your **CNAME record for the tracking domain is correctly set up and resolving**.  
+  
+
+  * Share screenshots of your DNS records as shown below for faster troubleshooting.
+
+
+  
+
+
+If your DNS provider confirms everything is correct and the issue continues, **[](<https://help.gohighlevel.com/en/support/solutions/articles/48001204857>)**[](<https://help.gohighlevel.com/en/support/solutions/articles/48001204857>)[Contact HighLevel Customer Support](<https://help.gohighlevel.com/en/support/solutions/articles/155000000969>)[](<https://help.gohighlevel.com/en/support/solutions/articles/48001204857>)**[](<https://help.gohighlevel.com/en/support/solutions/articles/48001204857>)**.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070244555/original/SFX68oZGxh9oG7a6deTu8uvYoUBRbkC0lA.png?1777481329)
+
+* * *
+
+## **Troubleshooting Common Issues**
+
+  
+
+
+Even after following the setup steps, some configurations can still cause links to fail. Reviewing these common issues can help you quickly identify what might still be wrong.
+
+  
+
+
+  * **CNAME record not found** : If MXToolbox shows “DNS record not found,” the tracking domain CNAME is missing. Re-add the record in your DNS provider  
+  
+
+  * **Wrong CNAME value** : The CNAME must point to your email provider’s tracking host. If it points elsewhere, links will not redirect properly.  
+  
+
+  * **Using the full domain in the Host field** : In most DNS providers (like GoDaddy or Namecheap), you should only enter the subdomain (e.g., email or email.mg), not the full domain like _email.yourdomain.com_.  
+  
+
+
+Correct host name format (common setups):
+
+    * If your subdomain is _mg.companyname.com_ → Host should be _email.mg_
+    * If your subdomain is _replies.companyname.com_ → Host should be _email.replies_
+    * If your subdomain is _support.companyname.com_ → Host should be _email.support_  
+  
+
+  * **Cloudflare proxy enabled** : If you’re using Cloudflare, the record must be set to DNS Only (No Proxy).  
+  
+
+  * **HTTPS not enabled** : Some providers require HTTPS tracking to be enabled in their settings. If HTTP is used or SSL is not active, links may fail to open.  
+  
+
+  * **DNS not fully propagated** : After making changes, it can take up to 24–48 hours for DNS updates to apply globally.
+
+
+* * *
+
+## **Related Articles**
+
+  
+
+
+  * [Email Tracking for LC Email](<https://help.gohighlevel.com/en/support/solutions/articles/155000003213>)  
+  
+
+  * [Google Dedicated Sending Domain Setup (LC Email)](<https://help.gohighlevel.com/en/support/solutions/articles/48001240481>)  
+  
+
+  * [How to Add a Domain and Verify DNS Record](<https://help.gohighlevel.com/en/support/solutions/articles/155000002220>)  
+  
+
+  * [Connecting Your Domain on GHL - A Guide](<https://help.gohighlevel.com/en/support/solutions/articles/155000005132>)

@@ -4,6 +4,7 @@
 
 ## Articles
 
+- [AI-Powered A2P Compliance Validation](AI-Powered A2P Compliance Validation.md)
 - [Understanding A2P Campaign Rejection Reasons & Required Fixes](Understanding A2P Campaign Rejection Reasons & Required Fixes.md)
 - [Pre-Built A2P Campaign (Widget-First) Registration Flow](Pre-Built A2P Campaign (Widget-First) Registration Flow.md)
 - [Getting Started with A2P 10DLC](Getting Started with A2P 10DLC.md)

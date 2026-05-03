@@ -112,7 +112,7 @@ The shared link will take them directly to the specific opportunity and its deta
   6. The lists and workflows will keep working only on the primary contact and fetch primary contact's details. [To be added in future releases]  
   
 
-  7. We will also show opportunities that are linked to the contact under the Contact's Opportunities section. [to be added in future releases]
+  7. You can view opportunities linked to a contact from the Opportunities tab on the contact record (right panel).
 
 
   

@@ -23,3 +23,4 @@
 - [Template Library for Workflows](Template Library for Workflows.md)
 - [Simplify Your Template Library by Hiding Types and Tags](Simplify Your Template Library by Hiding Types and Tags.md)
 - [Extended Access: Template Library (For Admins on $97 & $297 Plans)](Extended Access Template Library (For Admins on $97 & $297 Plans).md)
+- [Template Library Marketplace Integration](Template Library Marketplace Integration.md)

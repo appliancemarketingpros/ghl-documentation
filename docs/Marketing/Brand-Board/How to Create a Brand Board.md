@@ -6,10 +6,7 @@
 
 ---
 
-This article will show you how to create a Brand Board in HighLevel! A Brand Board helps you store and organize your company's logos, color palette, and fonts so you can apply consistent branding across emails, funnels, websites, and more. You can create a Brand Board from scratch or by using one of the available templates.  
-  
-
-
+This article will show you how to create a Brand Board in HighLevel! A Brand Board helps you store and organize your company's logos, color palette, and fonts so you can apply consistent branding across emails, funnels, websites, and more. You can create a Brand Board from scratch, choose a template, or generate one from a website URL for a faster setup experience.  
   
 
 
@@ -18,10 +15,12 @@ This article will show you how to create a Brand Board in HighLevel! A Brand Boa
 **TABLE OF CONTENTS**
 
   * What is a Brand Board?
-  * Key Benefits of Brand Boards
-  * How to Create a Brand Board
-  * Frequently Asked Questions
-  * Related Articles
+    * Key Benefits of Brand Boards
+    * Brand Board Creation Options
+    * How to Create a Brand Board
+    * Developer API
+    * Frequently Asked Questions
+    * Related Articles
 
 
 * * *
@@ -29,7 +28,7 @@ This article will show you how to create a Brand Board in HighLevel! A Brand Boa
 # **What is a Brand Board?**
 
   
-A Brand Board in HighLevel is a centralized space where you can define and manage your brand's visual identity. Each Brand Board contains a Design Kit that includes your logos, brand colors, and typography choices. Once set up, these assets can be easily applied across various parts of your account for a cohesive brand look.
+A Brand Board in HighLevel is a centralized space where you can define and manage your brand's visual identity. Each Brand Board contains a Design Kit, which includes your logos, brand colors, and typography choices. Once set up, these assets can be easily applied across various parts of your account for a cohesive brand look.
 
 * * *
 
@@ -49,13 +48,38 @@ A Brand Board in HighLevel is a centralized space where you can define and manag
 
 * * *
 
+## **Brand Board Creation Options**
+
+  
+
+
+HighLevel gives you multiple ways to create a Brand Board depending on how much of your branding is already defined. You can build everything manually, start from a preset style, or use a website URL to pull in brand elements automatically and speed up setup.
+
+  
+
+
+You can create a Brand Board in the following ways:  
+  
+
+
+  * Start from blank and add your own logos, colors, and fonts manually  
+  
+
+  * Choose a preset template as a starting point  
+  
+
+  * Enter a website or landing page URL to generate a Brand Board automatically from your existing brand presence
+
+
+* * *
+
 ## **How to Create a Brand Board**
 
   
 
 
-Creating your own brand board is simple. Just follow these steps:  
-  
+Creating your own brand board is simple. Just follow these steps:
+
   
 
 
@@ -84,24 +108,30 @@ Creating your own brand board is simple. Just follow these steps:
   
 
 
-#### ** _Step 2:_**_Choose a template or start from scratch_
+#### ** _Step 2:_**_Start from scratch, a URL or choose a template or start_
 
   
 
 
-  * Selec**t Start from****Blank** to build your kit manually or select a Template to start with predefined styles  
+  * Choose one of the following:  
   
 
 
-  * Once your selection is made, click the blue **C****ontinue** button  
+    * Start from Blank  
+f
+    * Select a Template  
+  
+
+    * Website URL import****
+  * If using website URL import, paste your website or landing page URL and click **Import Brand Kit**.  
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155031421019/original/Pl-FO1FRXTR-haMWiL1PeuviJ7XZ_IKWwA.png?1724242773)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069535198/original/UkG6eedGk_uqEggjtHynuapI9cClCuNLDQ.png?1776700721)  
   
 
 
-#### ** _Step 3:_**_Add your logo_
+#### **_Step 3:_**_Add your logo_
 
   
 
@@ -173,12 +203,11 @@ Creating your own brand board is simple. Just follow these steps:
   
 
 
-And that’s it! With your brand board ready, you’ll have all your branding elements neatly organized and easy to use. This makes maintaining your brand’s look and feel effortless. View related articles to learn more on how to use brand boards in emails, websites and funnels. 
+And that’s it! With your brand board ready, you’ll have all your branding elements neatly organized and easy to use. This makes maintaining your brand’s look and feel effortless. View related articles to learn more on how to use brand boards in emails, websites and funnels.
 
-  
+* * *
 
-
-### **Developer API**
+## **Developer API**
 
   
 
@@ -188,8 +217,10 @@ If you need to create or manage Brand Boards from an external tool, you can use 
   
 
 
-  * Brand Boards API overview: https://marketplace.gohighlevel.com/docs/ghl/brand-boards/brand-boards-api/
-  * Endpoints list (create, get, update, delete): https://marketplace.gohighlevel.com/docs/ghl/brand-boards/brand-boards/
+  * Brand Boards API overview: <https://marketplace.gohighlevel.com/docs/ghl/brand-boards/brand-boards-api/>  
+  
+
+  * Endpoints list (create, get, update, delete): <https://marketplace.gohighlevel.com/docs/ghl/brand-boards/brand-boards/>
 
 
 * * *
@@ -207,7 +238,13 @@ No, changing the colors in the brand board will not retroactively update the col
 
 
 **Q: How do I make a Brand Board the default for new projects?**  
-Use the three-dot menu and click Set as Default.  
+Use the three-dot menu and click Set as Default.
+
+  
+
+
+**Q: What does HighLevel import from a website URL?**  
+The website URL import flow is designed to help generate a Brand Board by detecting visual brand elements such as logos, colors, and typography from the page you provide.  
   
 
 

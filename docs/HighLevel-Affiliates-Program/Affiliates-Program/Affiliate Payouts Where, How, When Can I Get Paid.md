@@ -47,6 +47,15 @@
   
 
 
+  
+
+
+Still seeing an issue after reviewing the tips below? Reach out to [affiliatepayments@gohighlevel.com](<mailto:affiliatepayments@gohighlevel.com>) and our team will take a look.  
+[](<https://speakwith.us/affiliate>)
+
+  
+
+
 * * *
 
 ## **Tipalti is a more robust payment system!**

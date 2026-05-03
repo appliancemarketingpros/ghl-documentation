@@ -159,6 +159,31 @@ The **Recurring Donation** feature lets customers subscribe to donations on a re
   * Helps grow your **Total Payment Volume (TPV)**.
 
 
+  
+
+
+### **Updated Collect Payment appearance**
+
+  
+
+
+The Collect Payment element now has a more polished default appearance.
+
+  
+
+
+This update includes:
+
+  * clearer empty states,
+  * configurable header text,
+  * and a direct option to add a product while setting up the payment element.
+
+
+  
+
+
+These changes make the payment section easier to understand and configure inside forms.
+
 * * *
 
 ## How Manual Payments Work

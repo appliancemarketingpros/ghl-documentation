@@ -404,7 +404,7 @@ Use the steps below to set up your service—details, timing, pricing, staff, an
   
 
 
-    * **Description:** Add a brief summary of what the service offers  
+    * **Description:** Add a brief summary of what the service offers. You can format this content using the rich text editor (bold/italic/underline/strikethrough, bulleted or numbered lists, hyperlinks, text/background colors, headings, and text alignment).  
   
 
 

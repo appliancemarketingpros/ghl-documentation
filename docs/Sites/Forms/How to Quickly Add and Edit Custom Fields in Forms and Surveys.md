@@ -124,7 +124,15 @@ Go to **Sites > Forms > Builder
 
 ### **Drag and Drop:**
 
-Drag and drop the desired field into the form.
+Drag and drop the desired field into the form or survey to place it where you want it.
+
+  
+
+
+Dragging fields now provides smoother movement and clearer visual feedback. As you move a field, HighLevel shows a subtle shadow around the dragged element, and long forms or surveys automatically scroll when you drag near the top or bottom of the builder. This makes it easier to reposition fields without stopping to scroll manually.
+
+  
+
 
 ### **Customize:**
 

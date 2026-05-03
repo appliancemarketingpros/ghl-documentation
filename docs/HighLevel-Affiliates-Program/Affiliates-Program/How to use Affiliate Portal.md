@@ -11,7 +11,7 @@ The new affiliate portal allows you to become an affiliate, look at your affilia
   
 
 
-*Note: If you do not have a HighLevel account, you can follow along at <https://gohighlevel.firstpromoter.com>*
+*Note: If you're not logged into your HighLevel account, you can access your Affiliate Portal at to log into your Affiliate Portal at [](<https://gohighlevel.firstpromoter.com>)<https://affiliate.gohighlevel.com/login>*
 
   
 
@@ -52,8 +52,11 @@ The new affiliate portal allows you to become an affiliate, look at your affilia
 
 * * *
 
+**Heads up:** we’re currently rolling out updates to the Affiliate Portal, so you may notice that some videos and images in this article don’t exactly match what you’re seeing on your screen just yet.   
   
-  
+Everything will be updated very soon to reflect the latest version. In the meantime, if anything feels unclear, reach out to your [Affiliate Manager](<https://speakwith.us/affiliate>) with any questions. 
+
+##   
 
 
 ## **New to the HighLevel Affiliate Program?**
@@ -61,25 +64,19 @@ The new affiliate portal allows you to become an affiliate, look at your affilia
   
 
 
-You can learn more about why the HighLevel affiliate program is the absolute best recurring revenue opportunity for Marketing Agencies all over the world by visiting the Affiliate Portal -> About page
+Our Affiliate program pays 40% monthly-recurring commission on customers you refer to the software, and 
+
+we’ve got a ton of [ready-to-use assets and resources](<http://gohighlevel.com/affilaite>) to help you get started on your Affiliate journey.
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48160579892/original/m_Q_0_EmsbqSp-BvzzKQdQAP-h2tQ9I_lg.png?1637173750)
+To get started, this guide will take you through getting set up inside the Affiliate Portal.
 
   
 
 
-This section explains all the benefits of being a HighLevel affiliate and gets you started on the path of making more recurring income. This page also allows you to get on a call with our affiliate manager and get your questions answered in our Q&A.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48160581055/original/wMSq26LnBL8w6NKyS0HjaI3ZBFC9-som7g.png?1637174043)
-
-  
-
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068656862/original/5336qhOWDDUaxYzKbL6yRUDUQ26ZvY9MLA.png?1775624687)
 
   
 
@@ -88,47 +85,133 @@ This section explains all the benefits of being a HighLevel affiliate and gets y
 
 ## **How do I know if I am already an affiliate or not?**
 
-All HighLevel agency accounts are automatically given an affiliate link (promoter referral code) when they signup for HighLevel. _Most likely_ you'll already be an affiliate and would not need to signup for a new affiliate account. 
+HighLevel agency accounts are automatically given a unique affiliate link (promoter referral code) when they sign up for HighLevel. To access you link and start promoting HighLevel, navigate to your Affiliate Portal and complete the quick onboarding steps.
 
   
 
 
-[](<https://gohighlevel.firstpromoter.com/>)[](<https://gohighlevel.firstpromoter.com/>)
+  
 
-If you are not a HighLevel customer but would still want to become an affiliate you can register here - <https://gohighlevel.firstpromoter.com/>
+
+  
+
+
+[](<https://gohighlevel.firstpromoter.com/>) [](<https://gohighlevel.firstpromoter.com/>)
+
+Your Affiliate Portal is your hub for…
+
+  * Accessing your unique referral links 
+  * Tracking performance & progress
+  * Accessing your commission payouts.    
+  
+
+
+…and a lot more. It’s your central hub for managing and growing your affiliate efforts.
+
+  
+
+
+To access the Affiliate Portal, make sure you're in Agency View.
+
+  * In the left-hand menu, click Affiliate Portal.
+
+
+  
+
+
+The first time you open the portal, you'll be asked to review a few required resources before moving forward:
+
+  * The Affiliate Policy, so you can review the terms of the program.
+
+  * A compliance video, which walks through best practices for promoting HighLevel.
+
+  * Branding guidelines, which explain how to reference HighLevel and use brand assets correctly.
+
+  * A content guide, which gives you direction on how to approach affiliate-related content.
+
+
+Congratulations! You’re now able to promote HighLevel as an Affiliate
+
+  * With your access to the portal, you’re now able to view…
+
+    * Your status and overall progress.
+
+    * Sign-ups under your unique referral link
+
+    * Resources to help you start scaling your Affiliate game
+
 
 ###   
 **Where can I find my affiliate link?**
 
-You can find your affiliate link (promoter referral code) by going to Affiliate Portal -> Dashboard
+You can find your main Affiliate link (promoter referral code) by going to Affiliate Portal -> Dashboard
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48160590593/original/S1FldhvS-IZVpsju9oDHTI3Ka9aPd7whcw.png?1637176200)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068658189/original/pAvqdsDeiYH2ogZJYY6LIo61EOYj6Ku2Jw.png?1775627081)
 
   
 
 
 ###   
-**Pro Plan Affiliate Link**
+**Where can I find my Pro Plan Affiliate Link, and links to promote other products?**
 
   
-You can also find your 14-day pro plan links here as well by clicking the "Links" dropdown.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48236795510/original/GSDlEG1EsbnzgbVsTapzIiZ0f1J829GcvA.png?1657040679)  
 
 
-### **Can I change my link?  
+  
+
+
+###  First, select a campaign from inside your Affiliate Dashboard. 
+
+  
+
+
+*_Note: You might already be inside a campaign. Click "All Campaigns" if you aren't seeing the other campaigns listed._
+
+  
+
+
+  * ###  Choose the campaign titled "HighLevel Affiliate Program."
+
+  * ###  You will not need a unique link for each campaign. You can use the "HighLevel Affiliate Program" campaign 
+
+
+###   
+
+
+  
+
+
+### **Can I customize my link and change my referral code?  
 **
 
-Yes. If you would like to change the ref code on the end of your link click the customize link button!  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48256409783/original/uUkdRLQ6Phdx4-uWQ8mx-CVasZvqbV4fZw.png?1665605234)
+Yes. If you would like to change the referral token on the end of your link click the customize link button!
+
+  * This is recommended to make your unique link is easily recognizable for your audience.
+
 
   
-Here you can edit the FP code of your Affiliate link. After that click "save" and you are good to go!  
+
+
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48256409933/original/39zHapC7RxGN1OPc0z5aj9yzVfAeIFbuuQ.png?1665605272)
+In the Affiliate Portal, from inside the HighLevel Affiliates Program campaign..
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068661679/original/M1sZuHBUzDkU7lgYl-qyJ7IuX2Paf30UvQ.png?1775631403)
+
+  
+
+
+  * Click on "Customize Token"
+  * Customize your referral ID to something easy and recognizable.
+  * **Warning: if you've already promoted your old link prior to making this change, that link will no longer work.** We recommend you do this at the beginning of your Affiliate Journey!
+
 
   
 
@@ -138,17 +221,13 @@ Here you can edit the FP code of your Affiliate link. After that click "save" an
   
 
 
-Yes! Yes! You can have one Promoter ID but create multiple link variations to be able to track which links brought in clicks and referrals. All sales from all affiliate links that you create will be attributed to the same affiliate account (_yours_).
+Yes! You can have one Promoter ID but create multiple link variations to be able to track which links brought in clicks and referrals. To do so, you can create a SubID
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48160588680/original/PiqGt6e1T6Om7YF3cH1yqy2yv5F3niDllw.png?1637175816)
-
   
 
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48160588722/original/ze_wkTyrKOgBeeQVLO29GsCbf3jjPf7bOA.png?1637175829)
 
   
 
@@ -162,12 +241,8 @@ This allows you to create links for different channels that you are promoting yo
   
 
 
-To see a summary report of your page views, clicks, signups, customers & earnings by month please go to Affiliate Portal -> Details
-
   
 
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48160590679/original/2Ixft18lGHG84FwAtqI0uMqIaJYRO5SsCA.png?1637176220)
 
   
 
@@ -180,15 +255,10 @@ To see a summary report of your page views, clicks, signups, customers & earning
   
 
 
-You can go to Affiliate Portal -> Referrals to see a list of the recent sign-ups that happened via your affiliate links. Further, you can see the trial, customer, paying -vs- cancelled breakdown of your leads.  
-  
-  
-[Check out this help doc for more info about the Refferals tab here!](<https://help.gohighlevel.com/support/solutions/articles/48001213448-affiliate-refferal-page-leads-customers-cancelled-statuses>)
+You can go to Affiliate Portal -> Referrals to see a list of the recent sign-ups that happened via your affiliate links. Further, you can see the trial, customer, paying -vs- cancelled breakdown of your leads.
 
   
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48160593086/original/pkmejgu69K_tRGzPWrs9psxkNEuJ5ee83A.png?1637176592)
+[Check out this help doc for more info about the Referrals tab here!](<https://help.gohighlevel.com/support/solutions/articles/48001213448-affiliate-refferal-page-leads-customers-cancelled-statuses>)
 
   
 
@@ -199,7 +269,7 @@ You can go to Affiliate Portal -> Referrals to see a list of the recent sign-ups
 Successful affiliates use this information to create communities & groups (like slack channels, facebook groups, etc.) of all their agency referral clients to mentor them and keep them successful for a long time. Since HighLevel pays a recurring revenue it has a direct impact on your payouts. 
 
   
-You can also set up affiliate webhooks with Zapier! Learn how [here!](<https://help.gohighlevel.com/en/support/solutions/articles/48001163126>)  
+Also, be sure to enable notifications to receive an email when new referrals arrive or change status. Learn how [here!](<https://help.gohighlevel.com/en/support/solutions/articles/48001163126>)  
   
 
 
@@ -287,14 +357,17 @@ Sometimes there may be a 24-48 hour delay for the arrival of funds into dependin
 
 * * *
 
-## **Can I recruit more affiliates under my account?**
+## **Can I receive credit when if my referrals become Affiliates themselves?**
 
   
 
 
-Yes! You can add more affiliates under your affiliate account (sub-affiliates) to get a secondary commission from the sales made by your affiliates. HighLevel supports level 1 commissions (40% per month recurring) and level 2 commissions (5% per month recurring). 
+Yes! You can add more affiliates under your affiliate account (sub-affiliates) to get a secondary commission from the sales made by your affiliates. HighLevel supports level 1 commissions (40% per month recurring) and level 2 commissions (5% per month recurring).
 
-> NOTE: All of your active HighLevel affiliates are already added as sub-affiliates to your account. Only use this feature if you are recruiting non-HighLevel users to be HighLevel affiliates.
+  
+
+
+> NOTE: All of your active HighLevel affiliates are already added as sub-affiliates to your account. Only use this feature for users who want to log into their Affiliate Dashboard without logging into HighLevel agency.
 
   
 
@@ -312,8 +385,10 @@ You can read more about this here - <https://www.gohighlevel.com/affiliate-polic
   
 
 
-You can go to Affiliate Portal -> Sub-Affiliates to see your sub-affiliates and level 2 commissions  
   
+
+
+You can go to Affiliate Portal -> Sub-Affiliates to see your sub-affiliates and level 2 commissions  
   
 Your Sub-affiliate tab is where you can check how well your affiliate customers are also promoting HL.  
   
@@ -322,7 +397,7 @@ You will also get a 5% commission from customers they refer to HighLevel!
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48160599169/original/yaR2ZPECG7bKJCq9jxWiSzZxroIu4jAlxQ.png?1637177604)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068656536/original/5_AjKaY5JbwT-QImwjmlGSaOM_Vb8oRHzg.png?1775623804)
 
   
 

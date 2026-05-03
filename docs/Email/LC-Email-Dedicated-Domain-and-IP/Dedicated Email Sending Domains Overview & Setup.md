@@ -6,370 +6,241 @@
 
 ---
 
-Email marketing is a great way to reach customers and increase sales. But if you're not careful, you could end up in trouble. A dedicated sending domain gives you control over what appears to be coming from your business. That means you can avoid spam filters and other issues that might get your messages caught by unwanted mail servers.  
-  
-Don't let your email marketing efforts go unnoticed! Get started right away with a dedicated sending domain.
+Email Services
 
-  
+# Dedicated Sending Domain
 
-    
-    
-    **IMPORTANT: **Dedicated sending domains are _**only applicable**_ to the users in the **[LC Email system](<https://help.gohighlevel.com/en/support/solutions/articles/48001222501>).**  
-      
-    If you are using a new domain that has never been used for email **_please make sure to warm up_ _your domain before emailing_ _to a large list_.** Failure to do so will results in poor deliverability results.
+A dedicated sending domain gives your business full control over what email servers deliver on your behalf — helping you avoid spam filters, protect your brand reputation, and improve deliverability.
 
-  
+⚠️
+
+LC Email Users Only
+
+Dedicated sending domains apply **only** to accounts on the [LC Email system](<https://help.gohighlevel.com/en/support/solutions/articles/48001222501>). Warm up any brand-new domain before emailing large lists to avoid poor deliverability.
+
+ℹ️
+
+Using a Third-Party SMTP?
+
+If you want to connect an external provider instead, see [Setting Up SMTP Providers](<https://help.gohighlevel.com/support/solutions/articles/48001059689-setting-up-smtp-providers>).
+
+Table of Contents
+
+  1. 1 What is a Dedicated Sending Domain?
+  2. 2 Configuring Dedicated Sending Domains
+  3. 3 Shared Domain Email Refactoring
+  4. 4 Troubleshooting Dedicated Sending Domains
+  5. 5 Frequently Asked Questions
 
 
-  
+?
 
-    
-    
-    **IMPORTANT** : If you wish Set Up other SMTP Providers, refer to  [Setting Up SMTP Providers](<https://help.gohighlevel.com/support/solutions/articles/48001059689-setting-up-smtp-providers>)
+## What is a Dedicated Sending Domain?
+
+A dedicated sending domain lets you send emails that appear to come directly from your brand — not from HighLevel's shared infrastructure. This protects your sender reputation and gives recipients a trustworthy, consistent experience. Any sub-account or agency can set one up quickly.
+
+By default, all emails sent through the platform show HighLevel's sending servers in the **"sent on behalf of"** or **"sent via"** headers, as shown below:
+
+![Default sent-on-behalf-of header](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48265938968/original/spw7PyvCIf6DlxRXiukwE1KRAbxsW5nK9w.png?1669638686)
+
+⚙️
+
+## Configuring Dedicated Sending Domains
+
+You can create multiple sending domains and assign different ones for 1-to-1 emails, workflow emails, marketing campaigns, and payment/invoice emails.
+
+1
+
+### Navigate to Email Services
+
+  * Go to **Settings → Email Services**
+  * Click the **"Dedicated Domain and IP"** tab.
+
+
+![Settings Email Services](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155039358860/original/SDAmMz_uAVt2ybizJ-_9H4TdvCGO9uG8bw.png?1736193889)
+
+![Dedicated Domain and IP button](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155039359007/original/fPkMuNjtNulufDsHraKqi_RhiT7kVj6i7g.png?1736194222)
 
 * * *
 
-**TABLE OF CONTENTS**
+2
 
-  * What is a Dedicated Sending Domain?
-  * Configuring Dedicated Sending Domains
-  * Shared Domain Email Refactoring
-  * Troubleshooting Dedicated Sending Domains
-  * Frequently Asked Questions
+### Add Domain Information
 
-
-* * *
-
-# **What is a Dedicated Sending Domain?**
-
-  
+  * Click **"Add Domain"** to begin configuring.
+  * Enter the sub-domain you want to use for sending.
 
 
-A dedicated sending domain allows you to send emails that appear to be coming from your brand, which can help you maintain a better reputation with email services. Any sub-account or agency can create a dedicated sending domain, and it's quick and easy.
+![Add Domain flow](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155039359484/original/eF1kHVNdn9F8E4LQc47YnPLKxFqETCQFag.gif?1736195532)
 
-  
+?
 
+What is a Sub-Domain?
 
-By default, all emails sent from our platform will show the name of our email-sending servers in the "**sent on behalf of** " or "**sent via** " email headers:
+Sub-domains are variants of your root domain. For example, if your root domain is **agency123.com** , you can create sub-domains like emails.agency123.com or no-reply.agency123.com.
 
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48265938968/original/spw7PyvCIf6DlxRXiukwE1KRAbxsW5nK9w.png?1669638686)
+You can create as many sub-domains as you like and use different ones for different campaigns or communication types.
 
 * * *
 
-## **Configuring Dedicated Sending Domains**
+3
 
-  
+### Verify DNS Records
 
+After adding your sub-domain, you'll need to verify DNS records. HighLevel can auto-configure them, or you can add them manually if auto-configuration isn't available.
 
-You can create multiple sending domains under your account and use different domains for different email-sending actions such as 1-to-1 emailing, emails sent from workflows, marketing campaign emails, and Payment and Invoices emails.
+?
 
-  
+**Propagation can take up to 24 hours.** If it's been longer, double-check your DNS settings. Note: **Multiple DKIM records for the same domain are not supported.**
 
+![Verify DNS flow](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155039360349/original/P-zGHtE40RWBS1c78K9-QxTVmAZcGYspOA.gif?1736198292)
 
-  
+#### Manually Adding DNS Records
 
+To add DNS records manually, create them in your hosting provider's dashboard using the values HighLevel provides (as shown below). Then verify them from the HighLevel settings panel.
 
-  
+![DNS Records example](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155039360663/original/HzBGtABLJsce2UkbD9t9VMG5rxqjnhBPfg.png?1736199195)
 
+Instructions for common DNS providers:
 
-### _**Step 1:** Navigate to Email Services_
+  * ▸ [GoDaddy](<https://www.godaddy.com/help/manage-dns-zone-files-680>)
+  * ▸ [Google Domains](<https://support.google.com/a/answer/48090?hl=en>)
+  * ▸ [Hostgator](<https://www.hostgator.com/help/article/manage-dns-records-with-hostgatorenom>)
+  * ▸ [Hover](<https://help.hover.com/hc/en-us/articles/217282457>)
+  * ▸ [Namecheap](<https://www.namecheap.com/support/knowledgebase/article.aspx/9214/31/cpanel-email-deliverability-tool--spf-and-dkim-records/>)
 
-  
 
-
-  * Navigate to Settings > Email Services  
-  
-
-  * Click the "Dedicated Domain and IP" button.
-
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155039358860/original/SDAmMz_uAVt2ybizJ-_9H4TdvCGO9uG8bw.png?1736193889)
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155039359007/original/fPkMuNjtNulufDsHraKqi_RhiT7kVj6i7g.png?1736194222)
-
-  
-
-
-  
-
-
-### **_Step 2:_**_Add Domain Information_
-
-  
-
-
-  * Click the "Add Domain" button to begin configuring your sending domain.  
-  
-
-  * Enter the sub-domain you want to use for your dedicated sending domain.
-
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155039359484/original/eF1kHVNdn9F8E4LQc47YnPLKxFqETCQFag.gif?1736195532)
-
-  
-
-    
-    
-    **What is a Sub-Domain?**  
-      
-     Sub-domains are variants of your root domain.  
-      
-    **For Example:** If you wanted to use the root domain "agency123.com" to send emails, you an create sub-domains such as "emails.agency123.com" or "no-reply.agency123.com", and use these sub-domains in different communication or marketing campaigns.  
-      
-    You can create as many sub-domains as you like by adding unique words in front of the root domain and then configuring the DNS records in your hosting provider settings.
-
-  
-
-
-  
-
-
-### _**Step 3:**__Verify DNS Records_
-
-  
-
-
-Once you've added your sub-domain, you will need to verify your DNS records. You will have the option to either allow HighLevel to auto-configure your DNS records, or enter your DNS records manually.
-
-  
-
-
-If HighLevel is unable to automatically configure your DNS records, you will need to add them manually.
-
-  
-
-    
-    
-    **REMEMBER:** The propagation process can take up to 24 hours. If it has been longer than 24 hours, please double-check your DNS settings by following the process above.
-    
-    **NOTE: We dont support multiple DKIM for a domain**
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155039360349/original/P-zGHtE40RWBS1c78K9-QxTVmAZcGYspOA.gif?1736198292)
-
-  
-
-
-  
-
-
-#### **Manually Adding DNS Records**
-
-  
-
-
-To add your DNS records manually, you will need to create the DNS records in your hosting provider's dashboard where you manage your domains. You will be given specific information from HighLevel, like the information you see in the screenshot below, that you will use to create your DNS records.
-
-  
-
-
-To learn more about manually adding your DNS records, click here to read a more detailed help article.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155039360663/original/HzBGtABLJsce2UkbD9t9VMG5rxqjnhBPfg.png?1736199195)  
-
-
-  
-
-
-**Click any of the links below for instructions for some common DNS providers:**
-
-  
-
-
-  * [ GoDaddy](<https://www.godaddy.com/help/manage-dns-zone-files-680>)[](<https://support.google.com/a/answer/48090?hl=en>)
-  * [Google Domains](<https://support.google.com/a/answer/48090?hl=en>)[](<https://www.hostgator.com/help/article/manage-dns-records-with-hostgatorenom>)[](<https://www.hostgator.com/help/article/manage-dns-records-with-hostgatorenom>)
-  * [Hostgator](<https://www.hostgator.com/help/article/manage-dns-records-with-hostgatorenom>)[](<https://help.hover.com/hc/en-us/articles/217282457-How-to-Edit-DNS-records-A-CNAME-MX-TXT-and-SRV-Updated-Aug-2015->)
-  * [Hover](<https://help.hover.com/hc/en-us/articles/217282457-How-to-Edit-DNS-records-A-CNAME-MX-TXT-and-SRV-Updated-Aug-2015->)[](<https://www.namecheap.com/support/knowledgebase/article.aspx/9214/31/cpanel-email-deliverability-tool--spf-and-dkim-records/>)
-  * [Namecheap](<https://www.namecheap.com/support/knowledgebase/article.aspx/9214/31/cpanel-email-deliverability-tool--spf-and-dkim-records/>)
-  * [Squarespace](<https://support.squarespace.com/hc/en-us/articles/205812348-Opening-Advanced-DNS-settings>)[](<https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-editing.html>)[](<https://support.squarespace.com/hc/en-us/articles/205812348-Opening-Advanced-DNS-settings>)
-
-| 
-
-  * [AWS](<https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-editing.html>)[](<https://developers.cloudflare.com/dns/manage-dns-records/how-to/create-dns-records/>)
-  * [Cloudflare](<https://developers.cloudflare.com/dns/manage-dns-records/how-to/create-dns-records/>)[](<https://www.bluehost.com/help/article/dns-management-add-edit-or-delete-dns-entries>)
-  * [Bluehost](<https://www.bluehost.com/help/article/dns-management-add-edit-or-delete-dns-entries>)[](<https://www.hostinger.com/tutorials/how-to-use-hostinger-dns-zone-editor>)
-  * [Hostinger](<https://www.hostinger.com/tutorials/how-to-use-hostinger-dns-zone-editor>)[](<https://www.inmotionhosting.com/support/domain-names/create-cname-record/>)
-  * [InMotion](<https://www.inmotionhosting.com/support/domain-names/create-cname-record/>)[Hostwinds](<https://www.hostwinds.com/guide/how-to-change-cname-record/>)
-
-  
----|---  
-  
-  
-
-
-#### **Dedicated sending domains for Calendar emails (sub-accounts)**
-
-You can assign dedicated sending domains specifically for Calendar emails to protect deliverability for appointment communications.
-
-  
-
-
-1\. Select **Settings → Email Service → SMTP Service** → proceed to 2.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064125555/original/Dy-QEZM3XvMs3u8XmtdQ29qdiEk6YH7vMw.png?1770150834)
-
-2\. Select **Dedicated Domain and IP** → proceed to 3.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064125509/original/617xc1HLrTXNE-33RpoYWkoBCPkU6T-nZw.png?1770150765)
-
-  
-
-
-3\. Select **Domain Configuration:**
-
-  * In the Calendar category, select drop down and add your domains, up to 5 domains.
-
-
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064125759/original/T6e4IJkNkOpE5WWg4LVsxbIJt0zqHwPX-w.png?1770151371)**  
-
-
-4\. Once Calendar Domain is selected, set percentage-based distribution across your Calendar domains. (Applicable with multiple domains)
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064125862/original/PJo--R5OwIcyYgi5iiKypuhjotEyGck1PA.png?1770151576)
-
-  
-
-    
-    
-     Only Sub-account created domains are available for selection.
-    This feature is available for LC Email Users.
-
-  
+  * ▸ [AWS Route 53](<https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-editing.html>)
+  * ▸ [Cloudflare](<https://developers.cloudflare.com/dns/manage-dns-records/how-to/create-dns-records/>)
+  * ▸ [Bluehost](<https://www.bluehost.com/help/article/dns-management-add-edit-or-delete-dns-entries>)
+  * ▸ [Hostinger](<https://www.hostinger.com/tutorials/how-to-use-hostinger-dns-zone-editor>)
+  * ▸ [InMotion](<https://www.inmotionhosting.com/support/domain-names/create-cname-record/>)
 
 
 * * *
 
-## **Set Up Google Postmaster Tools for Your Dedicated Domain**
+4
 
-  
+### Dedicated Sending Domains for Calendar Emails
 
+You can assign dedicated sending domains specifically for Calendar emails (confirmations, reminders, reschedules) to protect deliverability for time-sensitive appointment communications.
 
-Google Postmaster Tools (GPT) helps you monitor Gmail-specific deliverability for your HighLevel dedicated sending domain. By verifying your domain in GPT, you can track domain/IP reputation, spam rate, authentication alignment, and delivery errors—so you can diagnose inboxing issues and improve performance over time.
+① Go to Settings → Email Service → SMTP Service
 
-  
+![SMTP Service settings](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064125555/original/Dy-QEZM3XvMs3u8XmtdQ29qdiEk6YH7vMw.png?1770150834)
 
+② Select Dedicated Domain and IP
 
-**Step-by-step**
+![Dedicated Domain and IP](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064125509/original/617xc1HLrTXNE-33RpoYWkoBCPkU6T-nZw.png?1770150765)
 
-  1. Sign in to **[Google Postmaster Tools](<https://gmail.com/postmaster/>)** with a Google account.  
-  
+③ Under Domain Configuration → Calendar, add up to 5 domains
 
+![Calendar domain dropdown](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064125759/original/T6e4IJkNkOpE5WWg4LVsxbIJt0zqHwPX-w.png?1770151371)
 
-  2. Include **domain**(e.g., `yourbrand.com` or `mail.yourbrand.com`).  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064881962/original/qmIt0mt7eOEjspzPldDL1WuWoDHfmqav5Q.jpeg?1770994245)  
+④ Set percentage-based distribution across multiple Calendar domains
 
+![Distribution settings](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064125862/original/PJo--R5OwIcyYgi5iiKypuhjotEyGck1PA.png?1770151576)
 
-  3. Choose **Verify** and copy the **TXT record** value provided by Google.  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064882021/original/0t5JorwG7N5BNjfTtJP0EcRwEQaQvrCT8g.png?1770994314)  
-  
+Only sub-account–created domains are available for selection. This feature is available for **LC Email users only**.
 
+?
 
-  4. In your DNS host, **add the TXT record** exactly as shown, then save/apply.  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064888368/original/zt-XcQXZF4ZbVfVswWouRQGDDnWwyqCQZQ.png?1770996887)  
+## Set Up Google Postmaster Tools
 
+For your dedicated sending domain
 
-  5. Return to GPT and **complete verification** (Google may take some time to detect the record).  
-  
+Google Postmaster Tools (GPT) helps you monitor Gmail-specific deliverability for your HighLevel dedicated sending domain. Track domain/IP reputation, spam rate, authentication alignment, and delivery errors to diagnose inboxing issues and improve performance.
 
+1
 
-  6. Send email from HighLevel using your **verified dedicated domain**.  
-  
+Sign in to Google Postmaster Tools
 
+Visit [gmail.com/postmaster](<https://gmail.com/postmaster/>) with a Google account.
 
-  7. After Google receives sufficient volume, review **Domain Reputation** , **IP Reputation** , **Spam Rate** , **Authentication** , and **Delivery Errors** dashboards.
+2
 
+Add your domain (e.g., `yourbrand.com` or `mail.yourbrand.com`)
 
-* * *
+![GPT add domain](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064881962/original/qmIt0mt7eOEjspzPldDL1WuWoDHfmqav5Q.jpeg?1770994245)
+
+3
+
+Choose Verify and copy the TXT record
+
+![GPT TXT record](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064882021/original/0t5JorwG7N5BNjfTtJP0EcRwEQaQvrCT8g.png?1770994314)
+
+4
+
+Add TXT record to your DNS host exactly as shown, then save
+
+![Add TXT to DNS](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064888368/original/zt-XcQXZF4ZbVfVswWouRQGDDnWwyqCQZQ.png?1770996887)
+
+5
+
+Return to GPT and complete verification. Google may take some time to detect the record.
+
+6
+
+Send email from HighLevel using your verified dedicated domain.
+
+7
+
+After Google collects sufficient volume, review **Domain Reputation** , **IP Reputation** , **Spam Rate** , **Authentication** , and **Delivery Errors** dashboards.
+
+?
 
 ## Shared Domain Email Refactoring
 
-When you use a shared domain (GHL-owned or Agency Shared Domain), GoHighLevel automatically refactors your email addresses, which may affect your branding and email appearance.
+When using a shared sending domain (HighLevel-owned or an Agency Shared Domain), HighLevel automatically refactors the actual sent address to match the shared-domain infrastructure.
 
-**How it works:**  
-Your from addresses are automatically formatted to work with the shared domain infrastructure.
+### How It Works
 
-**Example:**
+HighLevel keeps the From address you configured, but rewrites the sending address behind the scenes using a "plus" format:
 
-  * Your from address: `support@yourbusiness.com`
-  * Your shared domain: `mg.msgsndr.com`
-  * **Actual sending address:**`support+yourbusiness.com@mg.msgsndr.com`
+# From address (as configured)
 
+test@gohighlevel.com
 
-**Applies to:**
+# Shared domain (account-level)
+
+mg.msgsndr.com
+
+# Actual sent address
+
+test+gohighlevel.com@mg.msgsndr.com
+
+Applies To:
 
   * All agency sub-accounts created after August 26th
   * All locations under these agencies using shared domains
-  * Refactoring will be automatically applied to all existing agencies within the next 2 weeks.
+  * Refactoring will be automatically applied to all existing agencies within the next 2 weeks
 
 
-**To avoid email refactoring and maintain your brand identity:**  
+Existing agencies are **not impacted yet**. The same functionality is planned to be available in **Labs** for existing agencies for testing and gradual rollout.
 
+✅
 
-Set up a dedicated sending domain following the instructions in this article. With a dedicated domain, your emails will send exactly as configured without any address modifications.
+To avoid email refactoring and maintain your brand identity:
 
-* * *
+Set up a dedicated sending domain following the steps in this article. With a dedicated domain, your emails send exactly as configured — no modifications.
 
-## **Troubleshooting Dedicated Sending Domains**
+?
 
-  
+## Troubleshooting Dedicated Sending Domains
 
+Below are common issues you may encounter when setting up your dedicated sending domains, along with how to resolve them without contacting support.
 
-While setting up your dedicated sending domains, you may run into some issues that can be resolved without reaching out to the HighLevel support team. Below are some common issues that you may be experiencing when setting up your dedicated sending domains.
+?
 
-  
+Error: "Domain already pointing to email server!"
 
+This means your domain already has DNS records connected to a different service. You'll need to remove any existing **MX** or **SPF records** (even HighLevel ones) before connecting it here.
 
-  * **Error Message Reading: 'Domain already pointing to email server!'**  
-  
-You may see an error message that is claiming your domain is already pointing to an email server. This means that your email domain already has DNS records connected to a different service, and you will need to disconnect the domain before you can connect it to your HighLevel account.  
-  
-Any MX or SPF records, even if they are HighLevel records, will cause the system to reject the domain, so we will need to remove them.  
-  
-You can look up the domain MX and SPF records using various tools across the internet. The following link is a free tool that can help you with MX and SPF lookup: <https://mxtoolbox.com/SuperTool.aspx>
+Use a free lookup tool to check your current records: [mxtoolbox.com/SuperTool.aspx →](<https://mxtoolbox.com/SuperTool.aspx>)
 
+❓
 
-  
-
-
-* * *
-
-## **Frequently Asked Questions**
-
-  
-
-
-**Q: How Do I Choose a Sending Domain Name for My Account?**
-
-It would be best if you used a unique subdomain that is not used for any other purpose. A subdomain is a secondary part of your root domain. For example, if your dedicated sending domain is **hello@mg.yourbrand.com** , your subdomain would be the **“mg”** portion of that domain.
+## Frequently Asked Questions
 
   
 
@@ -377,9 +248,11 @@ It would be best if you used a unique subdomain that is not used for any other p
   
 
 
-**Q: How Do I Set Up a Dedicated IP Address?**
+  
 
-Setting up a dedicated IP Address is an entirely different process. [Click here to learn more about setting up dedicated IP Addresses.](<https://help.gohighlevel.com/en/support/solutions/articles/155000001152>)
+
+  
+
 
   
 
@@ -387,62 +260,61 @@ Setting up a dedicated IP Address is an entirely different process. [Click here 
   
 
 
-**Q: What do I do if some of my domain's DNS records are not verified yet?**
-
-You will need to force the verification process manually. If after doing this, the DNS records still are not verified, you may have to resolve the issue by contacting your hosting provider.
-
   
 
 
   
 
 
-**Q: How do I generate an SSL Certificate for dedicated sending domains?**
+Q: How do I choose a sending domain name for my account?
 
-When your domain is verified, the SSL Certificate should be automatically generated.
+Use a unique subdomain not used for any other purpose. For example, if your root domain is **yourbrand.com** , create a subdomain like `mg.yourbrand.com` where **"mg"** is the subdomain portion.
 
-  
+Q: How do I set up a dedicated IP address?
 
+Setting up a dedicated IP address is a separate process. [Click here to learn more about dedicated IP addresses →](<https://help.gohighlevel.com/en/support/solutions/articles/155000001152>)
 
-If the domain is showing as verified, but there is no SSL certificate, you may need to re-verify it by going through the entire verification process again. If that doesn't work, contact your hosting provider to see if there is an issue with your domain or if they can help generate the SSL certificate for you.
+Q: What do I do if some DNS records are not verified yet?
 
-  
+Force the verification process manually. If records still aren't verified after that, contact your hosting provider — there may be an issue they can help resolve on their end.
 
+Q: How do I generate an SSL certificate for dedicated sending domains?
 
-**Q: What if my domain has a wildcard DNS record?**
+The SSL certificate is automatically generated when your domain is verified. If it's showing as verified but no SSL exists, re-verify by going through the full verification process again. If that doesn't work, contact your hosting provider.
 
-If your domain has a wildcard record (e.g., *.yourdomain.com), you'll see a "pre-existing record" error when trying to set up a subdomain like mail.yourdomain.com.
+Q: What if my domain has a wildcard DNS record?
 
-Because wildcard records act as catch-alls, so any subdomain already "exists" by default.
+Wildcard records (e.g., `*.yourdomain.com`) act as catch-alls, so any subdomain already "exists" by default — this causes a "pre-existing record" error.
 
-  
+**Fix:** Temporarily remove the wildcard record, verify the dedicated domain, then add the wildcard back. Alternatively, manually add DNS records for each subdomain to override the wildcard.
 
+Q: Will my recipients see the refactored email address?
 
-To resolve this, you can remove the wildcard record temporarily and add it back after the dedicated domain is verified. You can also manually add DNS records for each subdomain to override the wildcard.
+Yes — recipients will see the refactored sending address (e.g., `support+yourbusiness.com@mg.msgsndr.com`) in their email client.
 
-  
+Q: How can I prevent my email addresses from being refactored?
 
+Set up a dedicated sending domain. With a dedicated domain, your emails will send with your exact From address — no modifications applied.
 
-**Q: Will my recipients see the refactored email address?**  
-Yes, recipients will see the refactored sending address (e.g., support+yourbusiness.com@mg.msgsndr.com) in their email client.
+Q: Does refactoring affect my reply-to address?
 
-  
-
-
-**Q: How can I prevent my email addresses from being refactored?**  
-Set up a dedicated sending domain. With a dedicated domain, your emails will send with your exact from address without any modifications.
-
-  
-
-
-**Q: Does this affect my reply-to address?**  
-A: The refactoring only affects the sending address. Your reply-to address remains as configured.
-
-* * *
-
-## **Related Articles**
+No — refactoring only affects the sending address. Your reply-to address remains exactly as configured.
 
   
 
 
-  * [Email Sending Guide: Email Best Practices & Email Warm Up](<https://help.gohighlevel.com/en/support/solutions/articles/155000001021>)
+**Q: What is the differenc e between the sending email address and the reply-to email address? Can I use my root domain instead of a subdomain?**
+
+  
+
+
+The sending email address (From address) is used to send emails and must be authenticated using a dedicated sending domain, typically set up as a subdomain. The reply-to email address is where recipient replies are delivered and can be configured independently without requiring domain authentication.
+
+  
+
+
+While your From address can appear as a root domain email, using a subdomain for sending is recommended to protect domain reputation and improve deliverability. You can still set the reply-to address to your root domain email to receive replies in your main inbox.
+
+Related Articles
+
+[ ? Email Sending Guide: Email Best Practices & Email Warm Up ](<https://help.gohighlevel.com/en/support/solutions/articles/155000001021>)
