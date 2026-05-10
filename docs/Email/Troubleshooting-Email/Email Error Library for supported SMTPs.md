@@ -10,53 +10,35 @@ Navigating email errors can be complex, given the myriad factors that can interf
 
   
 
-
-  
-
-
-#### **Covered in this Article:**
-
-#### **Error list:**
-
-#### The domain is not allowed to send: 
-
-#### The domain is not allowed to send: Account Terminated.
-
-#### Too old
-
-#### Mailgun Send verification error.
-
-#### If you're using a subdomain:
-
-#### If you're using a root domain:
-
-#### Too many requests
-
-#### Temporary System Problem when using Google Workspace
-
-####   
-**Error Libraries for Various SMTPs**
-
-#### Mailgun:
-
-#### Gmail / Google Workspace:
-
-#### Outlook
-
-#### Sendgrid
-
-  
-**Please Note:**
-
-  
-
     
     
-     For more information about why your email was unsuccessful, please click the ⚠️(red triangle) icon to view more details:
+    **Note:** For more information about why your email was unsuccessful, please click the ⚠️(red triangle) icon to view more details.
+
+* * *
+
+**TABLE OF CONTENTS**
+
+  * Error list:
+  * The domain is not allowed to send: 
+  * The domain is not allowed to send: Account Terminated.
+  * Too old
+  * Mailgun Send verification error.
+  * Error Libraries for Various SMTPs
+    * Mailgun:
+    * Gmail / Google Workspace:
+    * Outlook
+    * Sendgrid
+
 
 * * *
 
 ## **Error list:**
+
+  
+
+    
+    
+    **Note:** If you see an “email not sent” warning because the recipient domain is invalid or restricted, HighLevel blocks the email before sending. See our article on: [Email Blocking for Invalid or Restricted Domains](<https://help.gohighlevel.com/en/support/solutions/articles/155000007880>).
 
   
 

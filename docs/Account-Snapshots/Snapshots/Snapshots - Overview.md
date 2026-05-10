@@ -6,154 +6,221 @@
 
 ---
 
-Add your Custom Reports to Snapshots to package and transfer reporting templates across sub-accounts—eliminating rebuilds and ensuring consistent analytics across all client accounts. This feature simplifies onboarding, speeds up replication, and ensures every client receives accurate and branded insights.
+Snapshots help agencies save time by copying reusable account configurations from one sub-account into another. Use them to launch new clients faster, standardize proven setups, share templates with other agencies, and maintain consistent systems across multiple locations. This overview explains what Snapshots are, what they can and cannot transfer, common use cases, and how to create a Snapshot.
 
 * * *
 
-### **TABLE OF CONTENTS**
+**TABLE OF CONTENTS**
 
-  * What are Custom Reports in Snapshots?
-    * Key Benefits
-    * Add Custom Reports When Creating a Snapshot
-    * Load Custom Reports Into Another Sub-Account
-    * Important Notes and Limitations
-    * Frequently Asked Questions
-    * Related Articles
-
-
-* * *
-
-# **What are Custom Reports in Snapshots?**
-
-  
-
-
-Custom Reports in Snapshots enable agencies to include reporting templates built in the **Custom Report Builder** as part of a snapshot. When that snapshot is loaded into another sub-account, those reports appear under **Reporting → Custom Reports** , ready for review, scheduling, and distribution.
-
-  
-
-
-This feature ensures that your best-performing reporting layouts can be shared across accounts effortlessly—saving time and maintaining brand consistency.
-
-* * *
-
-## **Key Benefits**
-
-  
-
-
-  * **Faster Onboarding:** Deliver pre-configured analytics dashboards within minutes.  
-  
-
-
-  * **Consistent Reporting:** Ensure identical metrics, layouts, and KPIs across sub-accounts.  
-  
-
-
-  * **Error Reduction:** Prevent inaccuracies caused by manual report recreation.  
-  
-
-
-  * **Centralized Maintenance:** Update your master snapshot once and reload it across clients.  
-  
-
-
-  * **Client Flexibility:** Each account can independently adjust scheduling and recipients.
+  * What is a Snapshot?
+  * Key Benefits of Snapshots
+  * Items That Can Be Copied Using Snapshots
+  * Items That Do Not Transfer Using Snapshots
+  * How To Use Snapshots
+  * How to Create a Snapshot
+  * Best Use Cases for Snapshots
+  * Frequently Asked Questions
+  * Related Articles
 
 
 * * *
 
-## **Add Custom Reports When Creating a Snapshot**
+# **What is a Snapshot?**
 
   
 
 
-When creating or loading a snapshot, **Custom Reports** can be selected as part of the snapshot asset list. Once loaded, they appear as editable templates in the destination sub-account, ready to schedule or customize.
+Snapshots are reusable templates that capture selected configuration assets from a HighLevel sub-account so they can be copied into new or existing sub-accounts. Instead of rebuilding workflows, funnels, calendars, forms, dashboards, and other assets manually, agencies can create a Snapshot from a source sub-account and reuse that setup wherever it is needed.
 
-  
-
-
-  1. Go to **Agency View → Account Snapshots**.  
-  
-
-
-  2. Click **Create New Snapshot** and select the **source sub-account**.  
-  
-
-
-  3. Expand **Reporting → Custom Reports**.  
-  
-
-
-  4. Choose which reports to include, then click **Save Snapshot**.
-
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055464223/original/TzweBmV9NktYL2kr-n9kfrVaUMof9GIrnQ.png?1759868796)
+You do not build a Snapshot directly from scratch. First, configure the source sub-account with the assets and settings you want to reuse, then create a Snapshot from that account.
 
 * * *
 
-## **Load Custom Reports Into Another Sub-Account**
+## **Key Benefits of Snapshots**
 
   
 
 
-Loading Custom Reports from a snapshot lets you instantly copy your reporting templates into another sub-account, ensuring consistent analytics across all clients.
-
+  * **Faster onboarding:** Launch new sub-accounts with prebuilt workflows, funnels, forms, calendars, dashboards, and other assets instead of starting from scratch.  
   
 
-
-  1. Go to **Agency View → Sub-Accounts → Actions → Load Snapshot**.  
+  * **Consistent setup:** Keep client accounts aligned with the same proven systems, templates, and configurations.  
   
 
-
-  2. Choose the snapshot that contains your Custom Reports.  
+  * **Reusable templates:** Build once and apply the setup across multiple clients, locations, or vertical-specific offers.  
   
 
-
-  3. On the asset checklist, ensure **Custom Reports** is selected.  
+  * **Selective asset control:** Choose all assets or handpick specific items during Snapshot creation, loading, refresh, or push workflows.  
   
 
-
-  4. Confirm to begin loading.  
+  * **Scalable updates:** Refresh a Snapshot after changes are made and push selected updates to linked sub-accounts.  
   
 
+  * **Improved visibility:** Review Snapshot contents before loading, sharing, refreshing, or pushing.
 
-  5. Wait for the **bell icon notification** confirming completion.  
-  
-
-
-  6. Open **Reporting → Custom Reports** in the destination account to verify imported reports.  
-  
-
-
-  
-
-
-> ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055464205/original/iwcfLKuFIyoF22spHhrvIUZSC2HjkmjPLA.png?1759868782)
 
 * * *
 
-## **Important Notes and Limitations**
+## **Items That Can Be Copied Using Snapshots**
 
   
 
 
-  * **Permissions:** You must have Agency-level permissions to create or load snapshots.  
+Snapshots can copy many configuration assets from a source sub-account. Available items may vary based on the assets present in the source account, enabled features, and the asset categories selected during Snapshot creation or loading.
+
   
 
 
-  * **Template Transfer Only:** Schedules and recipient lists are not included.  
+Category| Snapshot Assets That Can Be Copied  
+---|---  
+Advertising| Ad Campaigns - Google, Ad Campaigns - LinkedIn, Ad Campaigns - Meta  
+AI and Automation| Agent Studio, Brand Voice, Conversation AI, Voice AI Agents, Workflow, Triggers  
+Calendar and Services| Calendar Groups, Calendar Service Add-Ons, Calendar Service Categories, Calendar Service Resources, Calendar Services, Calendars  
+CRM and Data Structure| Custom Fields, Custom Objects, Custom Values, Pipelines, Tags, Trigger Links  
+Marketing and Content| Blogs, Campaigns, Email Builder Templates, Forms, Funnels & Websites, Quizzes, Section Templates, Social Planner, Surveys, Text & Email Templates  
+Reporting and Dashboards| Custom Metrics, Custom Reports, Dashboards  
+Memberships and Learning| Certificates, Membership Offers, Membership Products, Webinars  
+Brand and Design| Brand Custom Color, Design Kit  
+Documents and Knowledge| Documents & Contracts, Folders, Knowledge Bases  
+Reputation and Reviews| Review Settings  
+Communication Templates| WhatsApp Templates  
+Websites| WordPress Site  
+  
   
 
 
-  * **Data Sources:** If the destination sub-account lacks an integration (e.g., Google Ads), affected widgets will show “No Data” until reconnected.  
+Some copied assets may require connected integrations, approvals, or post-load configuration before they can be used in the destination sub-account. 
+
+For example, WhatsApp Templates require WhatsApp integration and approval, Voice AI Agents require phone number assignment, and some website or WordPress assets may require domain, plugin, or license updates after loading.
+
+* * *
+
+## **Items That Do Not Transfer Using Snapshots**
+
   
 
 
-  * **Plan Availability:** Custom Reports are available on the **$297 (unlimited)** and **$497 (Agency Pro)** plans.
+Snapshots are designed to transfer configuration and selected reusable assets, not live account activity or customer records. Knowing what does not transfer helps agencies prepare the target sub-account correctly after loading a Snapshot.
+
+  
+
+
+Common items that do not transfer include:
+
+  * Contacts
+  * Appointments
+  * Conversations
+  * Conversation history
+  * Messages
+  * Reputation data
+  * Live account activity
+  * Stripe connections
+  * Integrations and third-party account connections
+  * Assigned phone numbers for Voice AI Agents
+  * Lead Gen Forms for LinkedIn Ad Campaigns
+  * Private dashboards
+  * WordPress third-party plugin or theme licenses that require re-authentication
+  * WhatsApp usability before Meta approval after import
+  * Contact-to-contact associations
+  * Assets protected by another creator’s Assets Protected Snapshot settings
+
+
+* * *
+
+## **How To Use Snapshots**
+
+  
+
+
+Snapshots support several actions across the setup, sharing, loading, and update lifecycle. Understanding what each action does helps you choose the right workflow without confusing creation, importing, loading, refreshing, or pushing updates.
+
+  
+
+
+Snapshot Action| What It Does| Learn More  
+---|---|---  
+**Create** a Snapshot| Captures selected assets from a source sub-account so they can be reused later.| [Creating New Snapshots in HighLevel](<https://help.gohighlevel.com/support/solutions/articles/48000982512-creating-new-snapshots-in-highlevel>)  
+**Load** a Snapshot| Applies selected Snapshot assets into an existing sub-account.| [Load Snapshots Into Existing Sub-Account](<https://help.gohighlevel.com/support/solutions/articles/48000982582-load-snapshots-into-existing-sub-account>)  
+Create a **New Sub-Account** from a Snapshot| Creates a new sub-account and applies the selected Snapshot during setup.| [Create a New Sub-Account Using Snapshot](<https://help.gohighlevel.com/support/solutions/articles/155000005762-create-a-new-sub-account-using-snapshot>)  
+**Share** a Snapshot| Generates a share link so another agency or recipient can access the Snapshot.| [How to Share Snapshots](<https://help.gohighlevel.com/support/solutions/articles/48000982513-how-to-share-snapshots>)  
+**Import** a Snapshot| Adds a shared Snapshot to your agency-level Snapshot library.| [How to Import Snapshots](<https://help.gohighlevel.com/support/solutions/articles/48000982581-how-to-import-snapshots>)  
+**Refresh** a Snapshot| Updates the Snapshot with selected changes from the source sub-account.| [Refresh or Update Snapshots](<https://help.gohighlevel.com/support/solutions/articles/48000982583-refresh-or-update-snapshots>)  
+**Push** Snapshot Updates| Sends refreshed Snapshot assets to linked sub-accounts.| [Pushing & Loading Snapshot Updates to Client Accounts](<https://help.gohighlevel.com/support/solutions/articles/48000982587-pushing-loading-snapshot-updates-to-client-accounts>)  
+**View** Snapshot Assets| Lets you inspect included assets before loading, sharing, refreshing, or pushing.| [How to View Snapshot Assets](<https://help.gohighlevel.com/support/solutions/articles/155000005917-how-to-view-snapshot-assets>)  
+**Manage** Linked Assets| Controls which assets remain linked for future Snapshot pushes.| [Manage Linked Assets in Snapshots](<https://help.gohighlevel.com/support/solutions/articles/155000005127-manage-linked-assets-in-snapshots>)  
+  
+  
+
+
+For this overview article, the detailed steps below focus only on creating a Snapshot. Use the linked articles in the table for detailed instructions on loading, sharing, importing, refreshing, pushing updates, and managing Snapshot assets.
+
+  
+
+
+### **How to Create a Snapshot**
+
+  
+
+
+Creating a Snapshot captures selected assets from a source sub-account so they can be reused in other sub-accounts. Start with a clean source account that contains the workflows, funnels, calendars, templates, dashboards, and other assets you want to copy.
+
+  
+
+
+  1. Go to **Agency View → Account Snapshots**. Click **\+ Create New Snapshot**.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070775092/original/OXXN0ePXIvGDr393DyquJVXYmM2V_H1_0A.png?1778144735)  
+  
+
+  2. Enter a clear Snapshot name that describes the use case and select the source sub-account that contains the assets you want to copy.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070775162/original/Mar62qEtZBFGbPZOzPUJCTdtsB02-_dcyQ.png?1778144786)  
+  
+
+  3. Choose the assets to include. Use **Select All** or expand each category to select specific items.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070775566/original/fufi5h9NNNeLFYUY9I-I5xWRi1mFxlLL0A.gif?1778144990)  
+  
+
+  4. Click **Create** to save the Snapshot.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070775527/original/W8XMsHW38iGXUjjZT9KVXuiFkNyBJgcdeg.png?1778144955)
+
+
+* * *
+
+## **Best Use Cases for Snapshots**
+
+  
+
+
+Snapshots are most valuable when a setup needs to be repeated, distributed, or maintained across multiple accounts. They are designed for configuration reuse, not for moving live customer records or account history.
+
+  
+
+
+  * Creating standardized client onboarding templates  
+  
+
+  * Launching new sub-accounts with a proven agency setup  
+  
+
+  * Building vertical-specific templates, such as dental, legal, spa, fitness, real estate, or home services setups  
+  
+
+  * Reusing workflows, funnels, forms, calendars, dashboards, and other assets across locations  
+  
+
+  * Supporting SaaS offers with prebuilt account templates  
+  
+
+  * Sharing or selling Snapshot-based templates to other agencies  
+  
+
+  * Updating existing client accounts with refreshed Snapshot assets  
+  
+
+  * Deploying specialized setups such as Documents and Contracts, Custom Objects, Voice AI Agents, WordPress Site, WhatsApp Templates, Agent Studio, dashboards, and ad campaign structures
 
 
 * * *
@@ -163,23 +230,44 @@ Loading Custom Reports from a snapshot lets you instantly copy your reporting te
   
 
 
-**Q:****Will report schedules and recipients transfer automatically?**
-
-No. You’ll need to set scheduling and recipients manually in each sub-account.
-
-**  
-**
-
-****Q:** Are private dashboards copied as part of a snapshot?**
-
-No. Only Custom Reports are transferred. Private dashboards remain in the source account.
+**Q: What is the difference between importing and loading a Snapshot?**  
+Importing adds a shared Snapshot to your agency-level Snapshot library. Loading applies selected Snapshot assets into a new or existing sub-account.
 
   
 
 
-**Q:****Why do some widgets show “No Data” after import?**
+**Q: Can I load a Snapshot into an existing sub-account?**  
+Yes. You can load a Snapshot into an existing sub-account, choose which assets to import, review conflicts, and decide whether to override or skip conflicting assets.
 
-The destination sub-account might not have the same connected data sources. Reconnect them to resolve.
+  
+
+
+**Q: Will loading a Snapshot delete contacts or existing client data?**  
+No. Loading a Snapshot is intended to add selected assets. Existing data is only affected when you choose to override a conflicting asset during the load process.
+
+  
+
+
+**Q: Can I use the same Snapshot more than once?**  
+Yes. A Snapshot can be reused across multiple sub-accounts.
+
+  
+
+
+**Q: Do Snapshots include contacts, conversations, or appointments?**  
+No. Snapshots are intended for configurations and selected reusable assets. Contacts, appointments, conversations, and live account history are not transferred.
+
+  
+
+
+**Q: Do Snapshots update automatically after I change the source account?**  
+No. You must refresh the Snapshot to capture new or changed assets from the source sub-account.
+
+  
+
+
+**Q: Can I share Snapshots with another agency?**  
+Yes. You can generate different share link types, including reusable, one-time, email, agency-restricted, sub-account restricted, and Marketplace-related share links.
 
 * * *
 
@@ -188,12 +276,19 @@ The destination sub-account might not have the same connected data sources. Reco
   
 
 
-  * **[](<https://help.gohighlevel.com/en/support/solutions/articles/48000982511>)[](<https://help.gohighlevel.com/en/support/solutions/articles/48000982582>)**[](<https://help.gohighlevel.com/en/support/solutions/articles/48000982582>)[Load Snapshots Into Existing Sub-Account](<https://help.gohighlevel.com/en/support/solutions/articles/48000982582>)  
+  * [Assets Protected Snapshots](<https://help.gohighlevel.com/support/solutions/articles/155000002852-assets-protected-snapshots-called-ip-protected-earlier-?utm_source=chatgpt.com>)  
   
 
-
-  * [Creating New Snapshots](<https://help.gohighlevel.com/en/support/solutions/articles/48000982512>)  
+  * [Snapshot Version Management](<https://help.gohighlevel.com/support/solutions/articles/155000006497-snapshot-version-management?utm_source=chatgpt.com>)  
   
 
+  * [Granular Permissions for Snapshots](<https://help.gohighlevel.com/support/solutions/articles/155000004594-granular-permissions-for-snapshots?utm_source=chatgpt.com>)  
+  
 
-  * [How to create and schedule reports](<https://help.gohighlevel.com/en/support/solutions/articles/155000003965>)
+  * [Snapshot Push Update History](<https://help.gohighlevel.com/support/solutions/articles/155000004171-snapshot-push-update-history?utm_source=chatgpt.com>)  
+  
+
+  * [Snapshot Notification Preferences](<https://help.gohighlevel.com/support/solutions/articles/155000005675-snapshot-notification-preferences?utm_source=chatgpt.com>)  
+  
+
+  * [Snapshot Load Retry](<https://help.gohighlevel.com/support/solutions/articles/155000007347-snapshot-load-retry?utm_source=chatgpt.com>)

@@ -486,7 +486,10 @@ Admins can create new bookings directly from the calendar using either the **\+ 
   
 
 
-**Method 1: Using the + New Button**
+### **Method 1: Using the + New Button**
+
+  
+
 
   1. Click the **\+ New** button in the top-right corner.  
   
@@ -518,29 +521,38 @@ The new booking will immediately appear on the calendar and sync with the **Appo
   
 
 
-**Method 2: Drag to Create (New)**
-
-Users can create bookings directly by selecting a date or time range inside the calendar grid.
-
-  1. **Click and drag** across**future dates** or time slots within a **listing row**
-
-  2. Release the mouse to open the booking creation panel
-
-  3. Complete the booking details and **Save**
-
-
-The selected start and end date/time will be automatically pre-filled.  
   
 
 
-### **⚠️ Important Notes**
+### **Method 2: Drag to Create**
 
-  * Drag-to-create is available **only for future dates**.
+  
 
-  * It is **not supported for past dates or the current date**.
 
-  * To create bookings for today, use the **\+ New** button instead.
+Users can create bookings directly by selecting a date or time range inside the calendar grid.
 
+  
+
+
+  1. **Click and drag** across**future dates** or time slots within a **listing row**  
+  
+
+
+  2. Release the mouse to open the booking creation panel. The selected start and end date/time will be automatically pre-filled.  
+  
+
+
+  3. Complete the booking details and **Create Booking**
+
+
+    
+    
+    **I****mportant:** Drag-to-create is available only for future dates. It is not supported for past dates or the current date. To create bookings for today, use the + New button instead.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070745965/original/8KrlIYVm6nxWy0PD0tFoVgIwk5HHXEEavw.png?1778098112)
 
 * * *
 

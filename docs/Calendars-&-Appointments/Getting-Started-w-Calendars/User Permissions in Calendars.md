@@ -24,16 +24,32 @@ There are two main types of permissions:
 
 ## ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155042329358/original/DrrEEpyGWDtDt8GAzSzPNyCLIUNEgcJ4Tg.png?1740644172)
 
-## Assigned Data Access
-
-In addition to general permissions, users can also have **Assigned Data** toggled on or off:
-
-  * If **Assigned Data** is enabled, the user will only be able to see appointments and calendars they are assigned to.
-
-  * If **Assigned Data** is disabled, permissions will apply based on their granted access, regardless of assignment.
+  
 
 
-##   
+### **Assigned Data Access**
+
+  
+
+
+In addition to general permissions, users can also have Assigned Data toggled on or off:
+
+  
+
+
+  * If Assigned Data is enabled, the user can see appointments and calendars they are assigned to, and they can also view appointments for contacts they follow when they have the required calendar permissions.
+
+
+  
+
+
+  * If Assigned Data is disabled, permissions apply based on the user’s granted access, regardless of assignment.
+
+
+  
+
+
+  
 
 
 ## Granular Permission Options
@@ -97,6 +113,19 @@ With these granular controls, you can determine:
   3. **A user with Assigned Data enabled and View permissions for Appointments**
 
      * They can only see appointments they are assigned to.
+
+  4. **A user with Assigned Data enabled who follows a contact**
+
+
+  * If they have View appointments, calendars & groups, they can view appointments for contacts they follow in addition to appointments assigned to them.
+  * If they do not have Manage appointments, they can view but cannot edit or delete appointments.
+  * If they have Manage appointments, they can edit and manage appointments based on their calendar access.
+
+
+  
+
+
+  
 
 
   

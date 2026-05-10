@@ -12,6 +12,8 @@
 
 ### [User Settings](User-Settings/)
 
+### [Domains](Domains/)
+
 ### [Domain Connect](Domain-Connect/)
 
 ### [Domain Purchase / Transfer](Domain-Purchase-Transfer/)

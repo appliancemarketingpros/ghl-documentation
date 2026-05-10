@@ -49,6 +49,7 @@ Google Calendar integration with HighLevel enables **real-time scheduling** , **
   
 
   * **Streamlined scheduling** with improved visibility and control.
+  * **Automatic catch-up syncing:** Appointments created while disconnected sync automatically after reconnect. Connecting a new calendar or switching the selected calendar resyncs upcoming appointments automatically.
 
 
 * * *

@@ -88,7 +88,10 @@ Customers can resume checkout from any device using the unique link sent in the 
   * **Inventory aware:** If an item is _Out of stock_ , a _Remove_ _item_ cta appears.  
   
 
-  * **Guest checkout support:** Guest shoppers get a temporary session to complete the purchase.
+  * **Guest checkout support:** Guest shoppers get a temporary session to complete the purchase.  
+  
+
+  * **Unavailable cart fallback:** If all products in the abandoned cart are deleted or unavailable, the checkout shows a Continue Shopping CTA instead.
 
 
 * * *
@@ -412,3 +415,10 @@ Yes. It works across devices, browsers, and sessions.
 
 **Q: Can customers add new items from the link?**  
 No. The checkout is view-only for the abandoned cart contents.
+
+  
+
+
+**Q: What happens if all items in the abandoned cart are unavailable?**
+
+If all products in the abandoned cart are deleted or unavailable, the checkout shows a Continue Shopping CTA instead.

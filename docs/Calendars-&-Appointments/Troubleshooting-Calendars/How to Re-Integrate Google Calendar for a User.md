@@ -42,6 +42,12 @@ If your Google account is connected but syncing still fails, check Settings → 
 
   
 
+    
+    
+    After you reconnect, HighLevel automatically syncs any unsynced upcoming appointments** that were created while the integration was disconnected. You do not need to manually edit appointments to trigger syncing.
+
+  
+
 
   
 

@@ -96,7 +96,21 @@ The Timeline appears beside the Chat Emulator and updates live as your agent run
   
 
 
-Screenshot: “Timeline showing step-level latency badges”
+  
+
+    
+    
+    **Task tracking with Todo Manager:**
+    Agent Studio now tracks multi-step agent work using a Todo Manager. Tasks display with descriptive labels and dynamic statuses so you can follow progress more reliably during a test run.
+    
+    - Tasks use label-based transitions instead of numeric indices.
+    - Status updates show which task is active and which tasks are completed.
+    - This makes multi-step plans easier to review in the Timeline and reduces ambiguity when steps change order or new tasks are added.
+    
+    In addition to node transitions, multi-step task progress is tracked using labeled tasks. This helps you confirm which task the agent is working on as it moves through a longer sequence.
+
+  
+
 
 * * *
 

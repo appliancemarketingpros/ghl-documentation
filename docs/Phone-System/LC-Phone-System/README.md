@@ -8,7 +8,7 @@
 - [Why is your account suspended](Why is your account suspended.md)
 - [Regulatory Bundle and Address Creation for Sub-Accounts](Regulatory Bundle and Address Creation for Sub-Accounts.md)
 - [What is LC (Lead Connector) Phone System?](What is LC (Lead Connector) Phone System.md)
-- [LC Phone Pricing & Billing Guide](LC Phone Pricing & Billing Guide.md)
+- [Phone System Pricing & Billing Guide](Phone System Pricing & Billing Guide.md)
 - [How to Disable LC Phone System for Subaccount/Location (LC to Twilio)](How to Disable LC Phone System for SubaccountLocation (LC to Twilio).md)
 - [Phone System Messaging Analytics Overview](Phone System Messaging Analytics Overview.md)
 - [Know Your Customer (KYC) in the United Kingdom](Know Your Customer (KYC) in the United Kingdom.md)

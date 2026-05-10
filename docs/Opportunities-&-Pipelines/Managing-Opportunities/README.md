@@ -16,7 +16,6 @@
 - [Understanding The Create New Opportunity Toggle](Understanding The Create New Opportunity Toggle.md)
 - [How to Duplicate & Copy Pipelines to Sub-Account(s)](How to Duplicate & Copy Pipelines to Sub-Account(s).md)
 - [Use Kanban View in Opportunities](Use Kanban View in Opportunities.md)
-- [Opportunity Forecasting](Opportunity Forecasting.md)
 - [Opportunity Forecasting in HighLevel](Opportunity Forecasting in HighLevel.md)
 - [Smart Lists in Opportunities](Smart Lists in Opportunities.md)
 - [How to Customize Pipeline Stage Colors in Opportunities](How to Customize Pipeline Stage Colors in Opportunities.md)

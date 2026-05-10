@@ -75,7 +75,12 @@ Client Portal apps follow **two visibility checks** for each contact:
   2. The contact must have **something active or relevant inside that app**. If there’s nothing to view, the app stays hidden to keep the portal clean.
 
 
-###   
+  
+
+
+Visibility updates automatically—when you grant access or new content becomes available, the app appears for the contact; if you disable the app in App Permissions, it stays hidden for everyone.
+
+  
 
 
 ### **What “eligible content” means (examples)  

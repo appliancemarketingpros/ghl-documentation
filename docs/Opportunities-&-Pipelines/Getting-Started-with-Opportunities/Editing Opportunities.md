@@ -55,7 +55,7 @@ GoHighLevel offers robust tools for managing opportunities, enabling users to ef
   * You can also modify pipeline stages, owners, tags, or any other custom fields associated with the opportunity.
 
 
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155020571633/original/oB3VD1gTRoDaoCDtsjmRMfNcVfsKk_P7iQ.png?1707937523)**
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070884035/original/xUWKnUcuUdDJSS86vtE4SnOpSMi7fxZ2EA.png?1778242764)**
 
   
 
@@ -63,27 +63,71 @@ GoHighLevel offers robust tools for managing opportunities, enabling users to ef
   
 
 
-### **Step 4: Adding Notes and Attachments**
+### **Step 4: Book or update an appointment**
+
+  
+
+
+You can manage an appointment directly from the **Edit Opportunity** modal.
+
+  
+
+
+  * Open Opportunities and select the opportunity.
+  * Open Book/Update Appointment.
+  * If no appointment exists, click + New Appointment, then choose Meetings, Services, or Rentals.
+  * If an appointment already exists, click on three dots to Edit, View, or Delete it. 
+  * Edit opens the appointment with pre-filled details for faster updates.
+
+
+  
+
+    
+    
+    **Note:** Each opportunity currently supports one appointment.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070884455/original/2IIKZ92zfZ6BxJVqjiZNdsRWGoiXDIUhCg.gif?1778243066)
+
+  
+
+
+### **Step 5: Adding Notes and Attachments**
 
   * If necessary, add new notes or additional information about the opportunity by clicking on the "Notes" option in the left sidebar.
-  * All notes added here will also reflect in the corresponding contact's notes also. ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155020571657/original/tC5JO6oMJNYfGXoMSzLLcLhbaBgk2Rg3xA.png?1707937616)
+  * All notes added here will also reflect in the corresponding contact's notes also. 
 
 
   
 
 
-### **Step 5: Setting Tasks and Reminders**
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070884298/original/gP5MBmd21FXS8pZpeAEQNIDyXM2go6Q-rw.png?1778242944)
+
+  
+
+
+### **Step 6: Setting Tasks and Reminders**
 
   * If there are specific tasks or follow-up actions associated with the opportunity, set tasks and reminders as needed by opening it from the sidebar.
   * Assign tasks to yourself or team members, specifying due dates and priority levels.
   * Similarly, you can also add appointments in the same way.
-  * Tasks and appointments added this way will also reflect on the contact's end.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155020571868/original/S4Qjo6xl8H4zY3zSXkRicd3bLz0_sXsdLA.png?1707938062)
+  * Tasks and appointments added this way will also reflect on the contact's end.
 
 
   
 
 
-**Step 6: Managing Pipeline Stages**
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070884414/original/IpFzjVxMDwmX9CbNFfdEVeDWdXXZrYhGPw.png?1778243041)
+
+  
+
+
+  
+
+
+**Step 7: Managing Pipeline Stages**
 
   * Adjust the pipeline stage of the opportunity to reflect its current status in the sales process.
   * Move the opportunity through different stages as it progresses towards closure, updating its status accordingly.
@@ -94,7 +138,7 @@ GoHighLevel offers robust tools for managing opportunities, enabling users to ef
   
 
 
-### **Step 7: Managing Opportunity Status**
+### **Step 8: Managing Opportunity Status**
 
   * Drag and drop the opportunity to any status as seen in the bottom to update it's status. 
   * Possible statuses for an opportunity are "Open", "Won", "Lost" and "Abandoned". Default status for a new opportunity is "Open".

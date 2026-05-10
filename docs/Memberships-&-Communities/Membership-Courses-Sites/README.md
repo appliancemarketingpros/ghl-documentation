@@ -6,6 +6,7 @@
 
 - [Adding Closed Captions and Subtitles to your video courses](Adding Closed Captions and Subtitles to your video courses.md)
 - [Checkout Orchestrator](Checkout Orchestrator.md)
+- [Course Preview and Drip Scheduling Improvements](Course Preview and Drip Scheduling Improvements.md)
 - [Courses - Import from Media Storage](Courses - Import from Media Storage.md)
 - [Courses Email Notification Preferences and Video Thumbnail Enhancements](Courses Email Notification Preferences and Video Thumbnail Enhancements.md)
 - [Courses Mobile- How to Navigate the New Lessons & Courses UI](Courses Mobile- How to Navigate the New Lessons & Courses UI.md)
@@ -23,4 +24,3 @@
 - [How to Grant Access to Membership Courses Using Workflows](How to Grant Access to Membership Courses Using Workflows.md)
 - [How to Manage Comments In Memberships](How to Manage Comments In Memberships.md)
 - [How to Set Up Taxes for Course Offers in HighLevel](How to Set Up Taxes for Course Offers in HighLevel.md)
-- [How to use Member Analytics in Memberships?](How to use Member Analytics in Memberships.md)

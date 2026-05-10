@@ -39,7 +39,7 @@ This article lists pricing by product. Always use the product-specific section b
   
 
 
-On the Unlimited subscription, users will enjoy unmetered usage of the AI Employee features for only $97/month! The AI Employee Plus features are not included in the Unlimited subscription and will continue to be pay-per-use.
+On the Unlimited subscription, users will enjoy unmetered usage of the AI Employee features for only $97/month!
 
   
 
@@ -51,18 +51,48 @@ On the Unlimited subscription, users will enjoy unmetered usage of the AI Employ
 
 **AI Employee** includes:
 
-  * Voice AI (Inbound)
-  * Conversation AI
-  * Reviews AI
-  * Content AI
-  * Ask AI
+  
+
+
+  * **Voice AI (Inbound)**  
+  
+
+  * **Conversation AI**  
+  
+
+  * **Reviews AI**  
+  
+
+  * **Content AI**  
+  
+
+  * **Ask AI**
+
+
+  
 
 
 **AI Employee Plus** includes:
 
-  * Agent Studio
-  * Voice AI Widget
-  * Voice AI Outbound
+  
+
+    
+    
+    **Note:** The AI Employee Plus features are not included in the Unlimited subscription and will continue to be pay-per-use.
+
+  
+
+
+  * **Agent Studio**  
+  
+
+  * **Voice AI Widget**  
+  
+
+  * **Voice AI Outbound**  
+  
+
+  * **Prompt Optimizer**  
 
 
   
@@ -74,8 +104,19 @@ So AI Employee Unlimited covers use of Voice AI ( via inbound phone calls), Conv
 
     
     
-    **Note:** Phone System charges still apply to all phone calls, they are still pay-per-use even when using Voice AI (Inbound) under the AI Employee Unlimited subscription.
+    **Note:** Phone System charges still apply to all phone calls, they are still pay-per-use even when using Voice AI (Inbound) under the AI Employee Unlimited subscription. 
+
+  
+
+
+  
+
     
+    
+    **Note:** We are coming up with cheaper subscription places for AI Employee, New cheaper plan rates are coming soon.
+
+  
+
 
 * * *
 
@@ -90,6 +131,15 @@ Ask AI uses multiple models behind the scenes to handle requests. The model sele
 
 
 Agency users can choose to rebill this usage to their sub-accounts with a markup based on their plan.
+
+  
+
+
+Here is an article that shows how ASK AI Usage will be priced accross few example sessions:  
+<https://help.gohighlevel.com/support/solutions/articles/155000007818-ask-ai-sessions-pricing-overview>
+
+  
+
 
   
 

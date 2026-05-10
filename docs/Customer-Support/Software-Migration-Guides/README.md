@@ -10,7 +10,7 @@
 - [Keap to HighLevel (Migration Guide)](Keap to HighLevel (Migration Guide).md)
 - [Wix to HighLevel (Migration Guide)](Wix to HighLevel (Migration Guide).md)
 - [Calendly to HighLevel (Migration Guide)](Calendly to HighLevel (Migration Guide).md)
-- [Kajabi to HighLevel (Migration Guide)](Kajabi to HighLevel (Migration Guide).md)
+- [Managing Course Drip Settings in HighLevel](Managing Course Drip Settings in HighLevel.md)
 - [Zoho to HighLevel (Migration Guide)](Zoho to HighLevel (Migration Guide).md)
 - [Typeform to HighLevel (Migration Guide)](Typeform to HighLevel (Migration Guide).md)
 - [Hubspot to HighLevel (Migration Guide)](Hubspot to HighLevel (Migration Guide).md)

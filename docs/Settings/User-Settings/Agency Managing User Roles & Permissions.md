@@ -194,7 +194,7 @@ What does that each permission mean,
   * **Dashboard:** View analytics and performance widgets.  
   
 
-  * **Reputations:** Request/manage reviews, reply to reviews, connect listings.  
+  * **Reputations:** Request/manage reviews, reply to reviews, connect listings, manage Reviews AI agents.  
   
 
   * **Subscriptions:** Create/manage recurring plans, subscriber status, cancellations.  

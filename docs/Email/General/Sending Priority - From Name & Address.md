@@ -6,169 +6,246 @@
 
 ---
 
-Note: Now that Workflows are live in all accounts, you can do everything that Triggers and Campaigns do (and more!), all in one builder! [ Click to learn more about Workflows](<https://help.gohighlevel.com/support/solutions/articles/48001179678-workflow-builder-overview>).
+Email Configuration
 
-**Covered in this article:**
+Sender Email Priority & Configuration
 
-**Which sender email should the leads be getting the emails from?**
+Understand which sender email your contacts will see — and where to configure it for manual emails, automated emails, and workflows.
 
-**How to check if the contacts are assigned or unassigned**
+Heads up
 
-**Places you can configure the sender email -_Manual email_**
+Workflows are now live in all accounts. You can do everything Triggers and Campaigns do — and more — all in one builder.
 
-  * Conversation tab
+What You'll Learn
 
+Which sender email gets used when you send to a lead — manual vs automated, assigned vs unassigned — and the priority order each one follows.
 
-**Places you can configure the sender email - Automated email**
+Then a tour of every place you can configure the sender email: Conversations, Email Templates, Bulk Send, Workflow settings, and Workflow Send Email actions.
 
-  * Email template
-  * Bulk action - Send Email
-  * Workflow Send Email Action
-  * Campaign configuration
-  * Triggers - Send email action
+Table of Contents
 
+1
 
-* * *
+Which Sender Email Should the Leads Be Receiving Emails From?
 
-## **Which sender email should the leads be getting the emails from?**
+2
 
-  
-|  Cases| Unassigned Contact| Assigned Contact  
+How to Check If Contacts Are Assigned or Unassigned
+
+3
+
+Manual Email — The Conversation Tab
+
+4
+
+Automated Email — Email Templates
+
+5
+
+Automated Email — Bulk Action: Send Email
+
+6
+
+Automated Email — Workflow Settings
+
+7
+
+Automated Email — Workflow Send Email Action
+
+8
+
+Frequently Asked Questions
+
+1
+
+## Which Sender Email Should the Leads Be Receiving Emails From?
+
+The sender email a contact sees depends on (a) whether the email is manual or automated, and (b) whether the contact is assigned to a user. Use the priority table below as the canonical reference.
+
+Email Type| Sender source| Unassigned Contact| Assigned Contact  
 ---|---|---|---  
-Manual Emails| Logged in user email| 1st priority| 1st priority  
+Manual Emails| Logged-in user email| 1st priority| 1st priority  
+Location email| N/A| N/A  
+Assigned user email| N/A| N/A  
+Agency email| N/A| N/A  
+Automated Emails| Campaign / workflow settings| 1st priority| 1st priority  
+Assigned user email| N/A| 2nd priority  
+Location email| 2nd priority| 3rd priority  
+Agency email| 3rd priority| 4th priority  
+Review Request Emails| Always uses the **logged-in user email** as the sender.  
+Appointment Confirmation Emails  
+(Calendar Settings → 3. Confirmation)| Uses do-not-reply@replies.domain.com based on the Mailgun subdomain set up for the location, or the SMTP integrated email if one is connected.  
   
-| Location Email| N/A| N/A  
-  
-| Assigned User Email| N/A| N/A  
-  
-| Agency Email| N/A| N/A  
-Automated Emails| Campaign/workflow settings| 1st priority| 1st priority  
-  
-| Assigned User Email| N/A| 2nd priority  
-  
-| Location Email| 2nd priority| 3rd priority  
-  
-| Agency Email| 3rd priority| 4th priority  
-Review Request Emails| We will always use the **Logged in user email** as the sender email  
-Appointment request emails  
-(calendar settings->3\. Confirmation)| We will use [do-not-reply@replies.domain.com](<mailto:do-not-reply@replies.domain.com>) depending on the Mailgun subdomain you set up for the location, or the SMTP integrated email  
-      
-    
-     _Not sure how to connect your SMTP provider?_ [Follow these steps to set it up.](<https://help.gohighlevel.com/en/support/solutions/articles/48001059689>)
+Not Sure About SMTP?
 
-If you are using Mailgun/LC Email, we will use the Business email here if the lead is not assigned:
+_Not sure how to connect your SMTP provider?_ [Follow these steps to set it up.](<https://help.gohighlevel.com/en/support/solutions/articles/48001059689>)
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054230234/original/LukUd53t-tjwMn_dHkUbmkoiyMFs0MVgSg.png?1758468487)
+If you are using Mailgun or LC Email, the Business email is used as the sender if the lead is not assigned:
 
-* * *
+![Business email used as sender for unassigned leads when Mailgun or LC Email is active](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054230234/original/LukUd53t-tjwMn_dHkUbmkoiyMFs0MVgSg.png?1758468487)
 
-## **How to check if the contacts are assigned or unassigned**
+2
+
+## How to Check If Contacts Are Assigned or Unassigned
+
+Step 1
 
 Search for the contact in the Smart Lists tab
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054230430/original/xV9ahg5895S7bEOtO_x3vpeQJchyHcPkRw.png?1758468592)
+Open **Contacts → Smart Lists** and locate the contact you want to check.
 
-Search Conversations -> Click on the icon on the right to view the Contact Details
+![Smart Lists search to locate a contact](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054230430/original/xV9ahg5895S7bEOtO_x3vpeQJchyHcPkRw.png?1758468592)
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054230574/original/xeWmQjJoK1c1CDvcp3ouxStrSEb9_oFCPw.png?1758469037)
+Step 2
 
-Check who is assigned to the contact here:
+Open Conversations and view contact details
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054230590/original/WHLGxGLu_lgUbp8VMrPX7Qdu0N2sZvL4ng.png?1758469109)
+Open **Conversations** and click the icon on the right to view the contact's details panel.
 
-* * *
+![Open the contact details panel from Conversations](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054230574/original/xeWmQjJoK1c1CDvcp3ouxStrSEb9_oFCPw.png?1758469037)
 
-## **Places you can configure the sender's email - Manual email**
+Step 3
 
-## **Conversation tab**
+Review the assigned user
 
-The From email will be the user logged in email by default:
+In the details panel, check the **Assigned User** field. A populated value means the contact is assigned; a blank value means it's unassigned.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054230663/original/iOGx-LWFQvZQbd1jviS60WE9MGKlCVQPew.png?1758469162)
+![Check the Assigned User field on the contact](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054230590/original/WHLGxGLu_lgUbp8VMrPX7Qdu0N2sZvL4ng.png?1758469109)
 
-However, if you have 2-way email sync set up, the email will show the integrated email:
+Configuration Guide
 
-[How to Set Up Two Way Email Sync for Gmail](<https://help.gohighlevel.com/en/support/solutions/articles/48001235216>)
+Where to Configure the Sender Email
 
-[Two Way Email Sync for Outlook](<https://help.gohighlevel.com/en/support/solutions/articles/48001229663>)
+Five surfaces, one for each way your contacts receive email.
 
-* * *
+3
 
-## **Places you can configure the sender's email - Automated email**
+## Manual Email — The Conversation Tab
 
-## **Email template**
+When you send a one-off email from the **Conversation** tab, the From address defaults to your logged-in user email:
 
-Click on **Marketing** > **Emails** > **Templates** > **+New**
+![Conversation tab — From email defaults to the logged-in user email](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054230663/original/iOGx-LWFQvZQbd1jviS60WE9MGKlCVQPew.png?1758469162)
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054230722/original/mhcvjez4vv9dDOSLWqm1Mze-o6roXtuMnA.png?1758469252)
+Two-Way Email Sync
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054230755/original/WfELc367egeqKtFKSioPk9xJheyU7_k2cw.png?1758469342)
+If you have 2-way email sync configured, the From email will show your integrated email instead.
 
-* * *
+[Set up Two-Way Email Sync for Gmail](<https://help.gohighlevel.com/en/support/solutions/articles/48001235216>) · [Set up Two-Way Email Sync for Outlook](<https://help.gohighlevel.com/en/support/solutions/articles/48001229663>)
 
-### **Bulk action - Send Email**
+4
 
-Click Contacts -> Smart Lists -> Select Contacts -> Click Send Email
+## Automated Email — Email Templates
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054230958/original/ChQW9qc8NCaqCoYr44PpauJrgatMH9al2Q.png?1758469438)
+Navigate to **Marketing → Emails → Templates → + New** to start a new template.
 
-Add the **From Name** and **From Email**
+![Marketing > Emails > Templates > New template](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054230722/original/mhcvjez4vv9dDOSLWqm1Mze-o6roXtuMnA.png?1758469252)
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054230965/original/xc9hiF8uAXelg45ZHErj1zHTKZwQtNzbZg.png?1758469471)
+![Email template editor where the sender details are set](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054230755/original/WfELc367egeqKtFKSioPk9xJheyU7_k2cw.png?1758469342)
 
-* * *
+5
 
-### **Workflow settings**
+## Automated Email — Bulk Action: Send Email
 
-Click Automation -> Workflows -> Create Workflow
+Step 1
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054231022/original/nIi7qExg8bVqI6mUWWXejs12Dp5xBLFmGQ.png?1758469549)
+Open Bulk Send Email
 
-Select **Start from scratch** and click **Create new workflow** :
+Go to **Contacts → Smart Lists** , select the contacts you want to email, then click **Send Email**.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054231079/original/yf8J13CKvWamnZ9W9o7HBUKnHzBk-fXmEA.png?1758469619)
+![Smart Lists with contacts selected — click Send Email](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054230958/original/ChQW9qc8NCaqCoYr44PpauJrgatMH9al2Q.png?1758469438)
 
-Click Settings -> Configure Sender Address
+Step 2
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054231085/original/Et08a1v65mJKmkImQ3wZ9dD1byc63SKmcQ.png?1758469667)
+Set the From Name and From Email
 
-* * *
+In the bulk-send dialog, fill in the **From Name** and **From Email**. These override the default sender for this send.
 
-## **Workflow Send Email Action**
+![From Name and From Email fields in the bulk send dialog](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054230965/original/xc9hiF8uAXelg45ZHErj1zHTKZwQtNzbZg.png?1758469471)
 
-Click on the **\+ button** > Select the "**Send Email** " option
+6
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054231139/original/wV8WhjpkvQj_C9WDKCRPclPpO91043Halg.png?1758469707)
+## Automated Email — Workflow Settings
 
-Enter the **From Name** and **From Email**
+Step 1
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054231144/original/PaXSJLcjoxA2QdrjoDIiKown142mVkbcYQ.png?1758469725)
+Open Workflows
 
-* * *
+Go to **Automation → Workflows** and click **Create Workflow**.
 
-## **FAQs**
+![Automation > Workflows > Create Workflow](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054231022/original/nIi7qExg8bVqI6mUWWXejs12Dp5xBLFmGQ.png?1758469549)
 
-### **1\. Why is the From email for Outlook always long and strange?**
+Step 2
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48257301042/original/spc9PucOJ-wT0rT3Sf4IBvjR6JcaJn-1QQ.png?1666018222)
+Start from scratch
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48257301207/original/D6asla-m-OdXThoGwKQTtT1P_GnYyRIpsg.png?1666018251)
+Choose **Start from scratch** and click **Create new workflow**.
 
-This is an issue with how Outlook displays the sender's information. If you send this email to gmail.com, it will show the sender's information correctly in Gsuite.
+![Start from scratch and create a new workflow](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054231079/original/yf8J13CKvWamnZ9W9o7HBUKnHzBk-fXmEA.png?1758469619)
 
-Learn more about how to [Hide "sent by" information in Outlook](<https://stackoverflow.com/questions/35148098/hide-sent-by-information-in-outlook/35149628>)
+Step 3
 
-### **2\. How to remove "send via" information in Gmail?**
+Configure the sender address
 
-Make sure to use the same sender email domain that matches the Mailgun domain you set up. Learn more about [the Extra info next to sender's name](<https://support.google.com/mail/answer/1311182>)
+In the workflow builder, click **Settings → Configure Sender Address** to set the From details for every email this workflow sends.
 
-* * *
+![Workflow Settings — Configure Sender Address](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054231085/original/Et08a1v65mJKmkImQ3wZ9dD1byc63SKmcQ.png?1758469667)
 
-## **Related Articles**
+7
 
-  * [Setting Up SMTP Providers](<https://help.gohighlevel.com/en/support/solutions/articles/48001059689>)
-  * [Email Sending Guide: Email Best Practices & Email Warm Up](<https://help.gohighlevel.com/en/support/solutions/articles/155000001021>)
-  * [How to Set Up Two Way Email Sync for Gmail](<https://help.gohighlevel.com/en/support/solutions/articles/48001235216>)
-  * [How to Set Up Two Way Email Sync for Outlook](<https://help.gohighlevel.com/en/support/solutions/articles/48001229663>)
-  * [Using Custom Email Domains with Mailgun](<https://help.gohighlevel.com/en/support/solutions/articles/155000002561>)
-  * [Limitation of using SMTP when emails are not sending](<https://help.gohighlevel.com/en/support/solutions/articles/48001203144>)
+## Automated Email — Workflow Send Email Action
+
+Step 1
+
+Add a Send Email action
+
+Click the **+** button in your workflow and select **Send Email**.
+
+![Add a Send Email action to the workflow](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054231139/original/wV8WhjpkvQj_C9WDKCRPclPpO91043Halg.png?1758469707)
+
+Step 2
+
+Set From Name and From Email
+
+Inside the action, fill in the **From Name** and **From Email**. These take precedence over the workflow-level sender address.
+
+![From Name and From Email fields inside the Send Email action](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054231144/original/PaXSJLcjoxA2QdrjoDIiKown142mVkbcYQ.png?1758469725)
+
+8
+
+## Frequently Asked Questions
+
+Q: Why is the From email for Outlook always long and strange?
+
+This is how Outlook displays sender information when the underlying envelope sender doesn't match the visible From address. If you send the same email to a Gmail address, the sender shows correctly. Learn how to [hide "sent by" information in Outlook](<https://stackoverflow.com/questions/35148098/hide-sent-by-information-in-outlook/35149628>).
+
+![Outlook display showing 'sent by' on a sender](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48257301042/original/spc9PucOJ-wT0rT3Sf4IBvjR6JcaJn-1QQ.png?1666018222)
+
+![Same email rendered in another mail client](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48257301207/original/D6asla-m-OdXThoGwKQTtT1P_GnYyRIpsg.png?1666018251)
+
+Q: How do I remove the "via" information shown in Gmail?
+
+Use a sender email domain that matches the Mailgun domain set up for the location. When the From domain doesn't match the SPF/DKIM-aligned sending domain, Gmail surfaces the "via" notice. Learn more about [extra info next to the sender's name](<https://support.google.com/mail/answer/1311182>).
+
+Q: What happens if my workflow has both a Configure Sender Address and a Send Email action with its own From details?
+
+The Send Email action's own From Name and From Email take precedence. The workflow-level Configure Sender Address acts as a fallback for any Send Email action that doesn't specify its own sender.
+
+Q: My contact is unassigned and I'm running an automated campaign — which email gets used?
+
+For unassigned contacts on an automated send, the priority is: Campaign / workflow settings → Location email → Agency email. The first non-empty value wins. If your workflow has a configured sender, that's what your contact sees.
+
+Q: Can I use the assigned user's email as the From for manual emails?
+
+Manual emails always use the logged-in user's email — that's the user actually typing the message. To make the assigned user the sender, ask them to log in and send the email themselves, or switch to an automated workflow where the assigned user email moves up the priority list.
+
+Q: Why are Review Request emails always from the logged-in user, not the campaign sender?
+
+Review Requests are deliberately sender-locked to the logged-in user so the recipient sees a personal, recognisable name from the team — review prompts perform measurably better with a known sender than with a brand alias.
+
+Q: Where do appointment confirmation emails come from, and can I change the sender?
+
+Appointment confirmation emails (configured under Calendar Settings → 3. Confirmation) use a system address based on the Mailgun subdomain set up for the location, or the SMTP integrated email if one is connected. If you need a different sender, connect an SMTP integration so it overrides the default.
+
+Related Articles
+
+[Setting Up SMTP Providers](<https://help.gohighlevel.com/en/support/solutions/articles/48001059689>) [Email Sending Guide: Best Practices & Email Warm Up](<https://help.gohighlevel.com/en/support/solutions/articles/155000001021>) [How to Set Up Two-Way Email Sync for Gmail](<https://help.gohighlevel.com/en/support/solutions/articles/48001235216>) [How to Set Up Two-Way Email Sync for Outlook](<https://help.gohighlevel.com/en/support/solutions/articles/48001229663>) [Using Custom Email Domains with Mailgun](<https://help.gohighlevel.com/en/support/solutions/articles/155000002561>) [SMTP Limitations When Emails Aren't Sending](<https://help.gohighlevel.com/en/support/solutions/articles/48001203144>)

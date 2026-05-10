@@ -188,6 +188,33 @@ Use a **Contact Created** trigger in a **Workflow** to send welcomes, assign own
 
 * * *
 
+## **Updated Smart Lists Actions Menu**
+
+The **Manage Smart Lists** and **Restore** options have moved from the page header into the actions menu beside the **Add Contact** button.  
+  
+
+
+To access these options:
+
+  1. Navigate to:  
+  
+**Contacts → Smart Lists**
+  2. Click the three-dot (⋮) actions menu beside **Add Contact**
+  3. Select:
+     * Manage Smart Lists  
+  
+
+     * Restore  
+  
+
+
+This update keeps Smart List management actions grouped together while simplifying the header layout.
+
+##   
+
+
+* * *
+
 ## **Accessing the Add Contact Modal**
 
   
@@ -206,8 +233,12 @@ Everyone on your team uses the same entry point to create new contacts, ensuring
   
 
 
-     * **Save** to create the contact
-     * **Save & Add Another** for rapid back-to-back entries, or
+     * **Save** to create the contact  
+  
+
+     * **Save & Add Another** for rapid back-to-back entries, or  
+  
+
      * **Cancel** to exit without saving  
   
 
@@ -266,7 +297,28 @@ It creates the contact and reopens a blank form for the next entry. Use workflow
 
 
 **Q: Will users see my layout changes immediately?  
-** Yes for new sessions; existing users may need to refresh the Contacts page to load the latest configuration.
+** Yes for new sessions; existing users may need to refresh the Contacts page to load the latest configuration.  
+  
+**  
+**
+
+**Q: Where did the Manage Smart Lists option move?**
+
+It is now located inside the actions menu (⋮) beside the Add Contact button.  
+  
+  
+
+
+**Q: How long can deleted contacts be restored?**
+
+Contacts can be restored for up to 60 days after deletion.  
+  
+**  
+**
+
+**Q: Did Smart List permissions change?**
+
+No. Only the location of the menu options changed.
 
 * * *
 

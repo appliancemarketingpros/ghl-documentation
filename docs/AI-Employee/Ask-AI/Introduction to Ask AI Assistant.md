@@ -7,42 +7,44 @@
 ---
 
 We’re excited to roll out a new AI-powered assistant inside HighLevel, Ask AI. Whether you need content written in your brand voice, want to create a new community, or just need quick answers, Ask AI is here to help. No need to jump between tools or tabs.  
-  
-Ask AI would act as your built-in assistant inside GoHighLevel. We’re starting with a few key capabilities and will be continuously adding more over time.
+
 
   
 
     
     
-    IMPORTANT: A Completely New Ask AI Experience is currently available in Labs. If you don’t see it, ask an admin to enable it at Agency Settings > Labs. For more, refer to [Labs Features - Complete Overview](<https://help.gohighlevel.com/support/solutions/articles/155000003588-labs-features-complete-overview>).
+    IMPORTANT: Ask AI Voice is currently available in Labs. If you don’t see it, ask an admin to enable it at Agency Settings > Labs. For more, refer to [Labs Features - Complete Overview](<https://help.gohighlevel.com/support/solutions/articles/155000003588-labs-features-complete-overview>).
 
 * * *
 
 **TABLE OF CONTENTS**
 
-  
-
-
-  * What is Ask AI?
   * Who can use Ask AI?
-  * What can the bot do?
-  * Improved List-Based Element Updates
-  * How to use Ask AI Bot?
-  * Open Ask AI from the left navigation
-  * Example 1: Generate Branded Content
-  * Example 2: Create a Voice AI agent
+  * Core Capabilities of Ask AI Assistant
+  * How to Use Ask AI Assistant
+    * Access Ask AI from the Top Navigation
+    * Access Ask AI from the Left Sidebar
+  * Ask AI Assistant Examples
   * Frequently Asked Questions
   * Related Articles
 
 
 * * *
 
+**What is Ask AI Assistant?**
+
   
 
 
-**What is Ask AI?**
+Ask AI Assistant in HighLevel is a built-in AI workspace that helps users create content, get answers, generate assets, and complete supported actions without leaving the platform. It is designed to reduce screen switching by letting users work through natural language prompts from one place. Ask AI can be accessed from both Agency and Sub-account views, depending on account access and feature availability. It also supports a full-screen experience for focused, high-volume work.
 
-Ask AI is a built-in virtual assistant for GoHighLevel users. It combines smart AI capabilities with your brand context to help you take action inside HighLevel, directly from a single interface. You’ll find the Ask AI icon in the top navigation bar. Ask AI also supports a distraction-free, full-screen workspace so you can plan, generate, and take action without switching screens. 
+  
+
+
+Users can type prompts or use voice input to speak instructions directly into Ask AI. This makes it easier to move quickly through tasks such as creating content, asking questions, or requesting supported actions while working in Agency or Sub-account views.
+
+  
+
     
     
     Note: In order to generate personalized/branded content, make sure that you have configured your brand voice in Marketing > Branded Content > Brand Voice..
@@ -55,65 +57,56 @@ Currently Ask AI is available to all Agency Admins and Agency Users but only ava
 
 * * *
 
-## **What can the bot do?**
+## **Core Capabilities of Ask AI Assistant**
 
 Here’s a closer look at what Ask AI currently supports:
 
-  1. Create Branded Content: No more generic AI writing, the bot pulls in your brand voice settings to generate content that sounds like you. From email newsletters to social captions, it creates high-quality content tailored to your tone and brand voice settings.  
-  
-
-
-  2. Create Communities: Setting up a new community no longer requires digging through menus. Just tell the bot what kind of community you want to create, and it will guide you step-by-step, all from the chat.  
-  
-
-
-  3. Answer Questions or Help with Ideas: Need inspiration for a campaign? Want ideas about a blog CTA? Directly send them to Ask AI.  
-
-
-  4. **Execute Actions in HighLevel (MCP-Powered):** Ask AI can run supported in-app actions from chat like creating or updating records, rescheduling appointments, pulling data, or bulk-updating opportunities based on your permissions.   
-For examples and guardrails, see How to Use the [MCP Server within Ask AI](<https://help.gohighlevel.com/support/solutions/articles/155000005855-how-to-use-the-mcp-server-within-ask-ai>).
-
-
-* * *
-
-## **Improved List-Based Element Updates**
-
-  
-
-
-Ask AI now supports item-level updates for list-based elements inside the Website and Funnel Builder.
-
-  
-
-
-Previously, small AI edits to list-based components (such as FAQs or Pricing Tables) could result in the entire list being rewritten — even if only one item needed to change.
-
-  
-
-
-Category| Items  
----|---  
-Newly Supported| Testimonials; Pricing Tables; Logo Showcase; Number Counters   
-Improved Existing Elements| FAQs; Image Sliders; Photo & Video Gallery; Navigation Menus   
-Main Benefit| Only the selected list item is updated, preserving the rest of the content and reducing overwrite risk.   
+Capability| Description| Example Prompts  
+---|---|---  
+**Branded Content Generation**|  Generate content using your Brand Voice settings to create more consistent messaging across emails, social posts, ads, and campaigns.| “Write a Facebook ad post using my brand voice.”  
+“Create a social media caption for our spring promotion.”  
+**Create Communities**|  Set up a new community through guided chat instead of navigating through multiple menus. Ask AI walks you through the setup process step by step.| “Help me set up a community for local business owners.”  
+“Create a community for my coaching clients.”  
+**Answer Questions and Generate Ideas**|  Get quick answers, campaign inspiration, content ideas, CTA suggestions, or guidance on how to approach a task in HighLevel.| “Give me blog post ideas about SMS marketing.”  
+“Suggest CTA ideas for a lead magnet campaign.”  
+**CRM Actions and Data Retrieval**|  Find, review, and act on CRM information faster using supported actions and natural language requests.| “Show me tomorrow’s booked appointments.”  
+“Create a contact named John Doe with phone number 555-1234.”  
+**Contact Summary Agent**|  Summarize contact records, including communications, payments, appointments, and tasks, without reviewing multiple tabs manually.| “Summarize this contact.”  
+“What should I know before following up with this lead?”  
+**Funnel Creation Agent**|  Create funnels through a guided AI experience using business details, templates, brand personalization, and native HighLevel elements.| “Generate a lead magnet funnel.”“Create an appointment funnel for a dental practice.”  
+**Image Generation and Editing**|  Generate and edit images for campaigns, websites, emails, and social posts directly inside HighLevel.| “Generate an image for a summer sale campaign.”  
+“Edit this image to make it brighter and more modern.”  
+**MCP-Powered Actions**|  Complete supported HighLevel actions from chat, such as creating contacts, updating opportunities, listing appointments, rescheduling appointments, applying tags, or making supported bulk updates.| “Tag all contacts from last week’s webinar as Webinar-2025.”  
+“List opportunities lost this week.”  
   
 * * *
 
-## **How to use Ask AI Bot?**  
+## **How to Use Ask AI Assistant**
+
   
 
 
-Follow these steps to get started:
+Ask AI can be opened from both Agency and Sub-account views, giving users quick access to AI-powered assistance wherever they are working in HighLevel. Users can launch Ask AI from the top navigation bar for fast access or from the left sidebar when they want to open the dedicated Ask AI workspace.
+
+  
+
+
+### **Access Ask AI from the Top Navigation**
+
+The top navigation route is useful when users want quick access to Ask AI from anywhere in HighLevel. This is the fastest way to open the assistant while working in another area of the platform.
+
+  
+
 
   1. Click on the Ask AI Bot icon in the top navigation bar.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067500345/original/dz0d5YrVCYqm-Z1Bk20NKh6__0zIs7Hz9Q.png?1774272053)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070654900/original/tkehpG6XA0e-Z1YPVLSmWDuVESXWKYwQ9w.png?1778031515)  
   
 
 
-  2. Type in what you need: content, a new community, ideas, or questions.  
+  2. Type in or **Speak** what you need: content, a new community, ideas, or questions.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067500527/original/0KxmnV7L8nFMGmr18tGc5ChfpjgA47WnKQ.png?1774272129)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070654906/original/pwa_UFqwtOowjfqet-frHNGtYyg03xJSUw.png?1778031529)  
   
 
 
@@ -139,15 +132,16 @@ You can start with something like:
 
   4. You can also view the chat history, and go back to older chats directly by toggle next to the full-screen toggle.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067500034/original/dEGIkfK8NW55q5_scsk9P_vk2-RwfdYiLg.png?1774271905)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070654912/original/uVQc181ZKyjvPemvgAzoydmGN21uu6GceQ.png?1778031545)
 
-
-* * *
-
-## **Open Ask AI from the left navigation**
 
   
 
+
+  
+
+
+### **Access Ask AI from the Left Sidebar**
 
 Ask AI opens in a full-screen workspace, so it is not a chatbot tucked in a corner. Use it to focus on real work and complete higher-volume tasks without leaving HighLevel. You can access Ask AI from the left navigation at both the **Agency** level and the **Sub-account** level.
 
@@ -169,11 +163,22 @@ Ask AI opens in a full-screen workspace, so it is not a chatbot tucked in a corn
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067498435/original/1E4G-c16NW5zn02HGRdszD3S1w631tkEoQ.png?1774271466)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070655263/original/G4FQYyv7x0E3S2CM0barcFDRd-Nxfmdl5Q.png?1778032928)
 
 * * *
 
-## **Example 1: Generate Branded Content**  
+## **Ask AI Assistant Examples**
+
+  
+
+
+Practical examples help users understand how Ask AI turns simple prompts into guided actions. These examples show how users can generate branded content and create a Voice AI Agent directly from Ask AI.
+
+  
+
+
+### **Example 1: Generate Branded Content**
+
   
 
 
@@ -192,7 +197,9 @@ Note: Make sure you have setup Brand Voice, to ensure personalized content.
 
 
   3. The assistant will pull in your brand voice settings and return a ready-to-use draft, the assistant can refine the provided text and modify it to meet your specific needs.  
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067500803/original/TlxV5PeD5NEh3MHGOhI2VEQyB7gaa2go_g.png?1774272207)  
+  
   
 
 
@@ -201,9 +208,8 @@ Note: Make sure you have setup Brand Voice, to ensure personalized content.
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067490640/original/0ef5k4Z3-5pF1BTjvQ1E3Whxv6mlOloo3A.png?1774268330)
 
 
-* * *
-
-## **Example 2: Create a Voice AI agent**
+###   
+**Example 2: Create a Voice AI agent**
 
   
 
@@ -253,9 +259,22 @@ New support includes Testimonials, Pricing Tables, Logo Showcase, and Number Cou
 No. With this update, Ask AI modifies only the specific list item requested, reducing the risk of unintended overwrites.
 
   
-**Q: Does this change how I manually edit elements?**
 
-No. Manual editing behavior remains the same. This update only affects how Ask AI processes updates.
+
+**Q: Can I speak prompts instead of typing them?**  
+Yes, when voice input is available, users can speak prompts directly into Ask AI. This helps users create content, ask questions, or request supported actions faster without manually typing each prompt.
+
+  
+
+
+**Q: Can Ask AI create communities?**  
+Yes. Ask AI can help guide users through creating a community by asking for the required details and assisting with setup.
+
+  
+
+
+**Q: Can Ask AI summarize contacts?**  
+Yes. Ask AI can summarize contact details such as conversations, appointments, payments, and tasks to help users quickly understand contact history.
 
 * * *
 

@@ -42,6 +42,27 @@ Followers are users added to a contact or opportunity who gain access to view an
   * However, they **cannot modify the ownership itself** — i.e., they **cannot change the owner** of the record.
 
 
+  
+
+
+  
+
+
+### **Appointment visibility for contact followers**
+
+  
+
+
+Followers can view appointments for the contacts they follow when calendar permissions allow it, even if the user has Only Assigned Data enabled.
+
+  
+
+
+  * To view appointments, followers must have View appointments, calendars & groups permission.
+  * Without Manage appointments, followers can view appointments but cannot edit or delete them.
+  * With Manage appointments, followers can edit and manage appointments based on their calendar access.
+
+
 * * *
 
 ## Contact Followers

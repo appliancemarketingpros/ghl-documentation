@@ -102,6 +102,9 @@ In your HighLevel sub-account sidebar, go to **Settings → Calendars,** then cl
   
 
 
+  
+
+
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155047943978/original/stEFOtKQ5zhCQXbs8zNrUfu19JMVsdKWIg.gif?1749473168)
 
   
@@ -116,6 +119,22 @@ In your HighLevel sub-account sidebar, go to **Settings → Calendars,** then cl
     **If you see a red banner like “Reconnect your integration” or the calendar tile is outlined in red, your OAuth token may have expired or been revoked. Click Reconnect and re-authorize HighLevel to restore access.
     **** If the third-party calendar was deleted at the provider, the banner can also display a Fix This option. Click Fix This to review all deleted calendar instances and use Remove Deleted Calendars to clean up broken connections. 
     
+    **Automatic resync after reconnect or changes:** When you reconnect a previously disconnected calendar, HighLevel automatically pushes any unsynced upcoming appointments to your external calendar. If you connect a new calendar or switch to a different selected calendar within the same integration, HighLevel automatically resyncs future appointments to the newly selected calendar.
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+
 
   
 
@@ -274,13 +293,14 @@ This ensures accurate availability and avoids double bookings. You can add multi
   
 
 
-     * Cancellations or reschedules in HighLevel also update your external calendar.  
-  
+     * Cancellations or reschedules in HighLevel also update your external calendar.
+
+     * **Reliability after changes:** If your integration is reconnected, updated, or switched to a different calendar, HighLevel automatically syncs upcoming appointments so your external calendar stays accurate without manual edits.  
 
 
   3. **Calendar View**
 
-     * In the **Calendar** tab, external events display as shaded blocks, High-Level bookings as colored events, and blocked slots as **Unavailable** marking.
+     * In the **Calendar** tab, external events display as shaded blocks, High-Level bookings as colored events, and blocked slots as **Unavailable** marking.  
 
 
 * * *

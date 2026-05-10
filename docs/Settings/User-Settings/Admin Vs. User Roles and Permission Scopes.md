@@ -97,13 +97,6 @@ Admins can change the role of a particular user by going to **Settings > My Staf
   
 
 
-**Q. Can an Agency Admin restrict a Sub-Account Admin from accessing certain features?**
-
-No. Agency Admins cannot customize Sub-Account Admin role permissions directly. Sub-Account Admins always inherit full access within their assigned sub-account. To limit scope, create a _User_ role instead of an Admin role in that sub-account.
-
-  
-
-
 **Q. If a permission is available at both Agency and Sub-Account levels, does the Agency Admin override Sub-Account Admins?**
 
 Yes. Agency Admins hold global authority. For permissions like user management, reporting, or media library, Agency Admin actions apply across all sub-accounts, while Sub-Account Admins manage only within their assigned sub-account.

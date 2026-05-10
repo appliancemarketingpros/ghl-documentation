@@ -225,8 +225,44 @@ The Message History Panel is your main reading and reply area. It supports multi
 
   
 
+    
+    
+    **Real-time****channel updates:**  
+      
+     If you add or update a contact’s email address in the Right Panel, the composer updates immediately. You can switch to Email without refreshing the page.
+
+  
+
+
+  
+
 
 ![](https://jumpshare.com/share/uVrxwXvnC310lV8YGVsH+/Screen+Shot+2026-02-03+at+6.10.15+PM.png)
+
+  
+
+
+  
+
+
+  
+
+
+### **View call transcripts while editing contact details**
+
+  
+
+
+Call transcripts open in the Message History Panel. This keeps the Right Panel available so you can update contact details while reviewing the transcript.
+
+  
+
+
+1\. Open Conversations and select a conversation with a recorded call.  
+2\. On the call card, click View Transcript.  
+3\. Review the transcript in the Message History Panel.  
+4\. In the Right Panel, update contact fields (for example, Email or Phone) without closing the transcript.  
+5\. Click Hide Transcript when you are done.
 
   
 
@@ -302,6 +338,15 @@ The composer provides the tools to write clearly, attach files, and send through
   
 
 
+  * Click Internal Comment in the composer to switch between a customer reply and an internal note without leaving the conversation.
+
+
+  
+
+
+  
+
+
 ### **Filtering Messages Within a Conversation**
 
   
@@ -329,7 +374,10 @@ Use the **message filter** at the top‑right of the timeline to show:
   
 
 
-  * **Email / Internal Comment / Contacts / Opportunities / Payments / Invoices / AI Action Logs**
+  * Email / Internal Comment / Contacts / Opportunities / Payments / Invoices / AI Action Logs
+
+
+  
 
 
   

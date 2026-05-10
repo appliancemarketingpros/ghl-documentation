@@ -118,12 +118,9 @@ Standard filters cover the most common CRM fields and actions. Use them to sort 
   
 
 
-  * **Owner** : Select one or more owners.  
-  
+  * **Owner:** Select one or more owners, or use me to dynamically match the logged-in viewer.****
 
-
-  * **Followers** : Filter by users following an opportunity.  
-  
+  * **Followers:** Select one or more followers, or use me to dynamically match the logged-in viewer.  
 
 
   * **Status** : **Open, Won, Lost, Abandoned**.  
@@ -249,7 +246,7 @@ Organization‑specific fields power advanced segmentation. Any Opportunity Cust
 
 Filter| Options / Fields  
 ---|---  
-Owner & Followers| Owner, Followers  
+Owner & Followers| Owner, Followers (supports dynamic value: me)  
 Status| Open, Won, Lost, Abandoned  
 Opportunity Source| is, is not, is empty, is not empty  
 Campaign Type| Campaign Type  

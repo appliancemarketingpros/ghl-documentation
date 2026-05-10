@@ -18,3 +18,5 @@
 - [How to Build Smarter AI Agents Using AI Agent Node in Agent Studio](How to Build Smarter AI Agents Using AI Agent Node in Agent Studio.md)
 - [How to Build Structured Agent Flows Using Sequential Node in Agent Studio](How to Build Structured Agent Flows Using Sequential Node in Agent Studio.md)
 - [How to Collect User Inputs with Capture Tools in Agent Studio](How to Collect User Inputs with Capture Tools in Agent Studio.md)
+- [How to Create AI Content with Generative AI tools In Agent Studio](How to Create AI Content with Generative AI tools In Agent Studio.md)
+- [How AI Agents Use the Knowledge Base Tool to Answer Customer Inquiries](How AI Agents Use the Knowledge Base Tool to Answer Customer Inquiries.md)

@@ -16,4 +16,5 @@
 - [Workflow Trigger – Service Booking (Services v2)](Workflow Trigger – Service Booking (Services v2).md)
 - [Taxes and Processing Fees for Services (v2)](Taxes and Processing Fees for Services (v2).md)
 - [Manage Service Appointments in the Appointment Modal](Manage Service Appointments in the Appointment Modal.md)
-- [Coming Soon: Services (v2) – Reporting Guide](Coming Soon Services (v2) – Reporting Guide.md)
+- [Services (v2) – Reporting Guide (Migrate from old widgets)](Services (v2) – Reporting Guide (Migrate from old widgets).md)
+- [Ask the Booker Location for Services (v2)](Ask the Booker Location for Services (v2).md)

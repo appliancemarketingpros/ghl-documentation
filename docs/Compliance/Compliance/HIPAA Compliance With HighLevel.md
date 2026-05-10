@@ -266,43 +266,8 @@ With server-side encryption, Google manages the cryptographic keys on your behal
 
 * * *
 
-## **Employee Portal Integration (Support Workflow)**
+##   
 
-  
-
-
-Support staff can now:  
-  
-
-
-  
-
-
-  * Enter a relationship number  
-  
-
-
-  * Instantly check whether a BAA is signed  
-  
-
-
-  * Download the signed BAA directly  
-  
-
-
-  * Avoid manual HIPAA activation  
-  
-
-
-  * Avoid accessing PandaDoc or customer dashboards
-
-
-  
-
-
-This significantly reduces support overhead and eliminates manual compliance handling.
-
-* * *
 
 ## **Frequently Asked Questions**
 
@@ -370,6 +335,13 @@ Yes. After the BAA is signed, Agency Owners must manually enable HIPAA for each 
 **Q: Can I edit signer details on the BAA?**
 
 Yes. You can update signer details directly within the document without submitting a support ticket.
+
+  
+
+
+**Q: Does HIPAA affect Reviews AI responses?**
+
+Yes. For sub-accounts with HIPAA enabled, Reviews AI-generated review responses follow HIPAA-compliant handling automatically.
 
 * * *
 

@@ -137,6 +137,21 @@ The execution timeline is designed to show the ordered path the agent followed d
   
 
 
+  
+
+    
+    
+    **Task checklist in execution timelines**
+    In some Agent Studio runs, the execution timeline includes a task checklist that tracks multi-step work.
+    
+    - Tasks use descriptive labels instead of numeric step indexes.
+    - The UI indicates which task is active and which tasks are completed.
+    - This improves progress clarity when the agent adds tasks or changes the plan mid-run.
+    
+
+  
+
+
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069200261/original/A2DwB7mIRdz7Tx3ZW09iemKoFSrA2Nhq_g.png?1776252894)
 
 * * *
@@ -165,6 +180,12 @@ This deeper view is useful for examining:
   * Prompt details, where applicable
   * Additional technical metadata that supports debugging
 
+
+  
+
+    
+    
+    You may also see structured task details for multi-step execution (for example, labeled tasks and explicit transitions). Use these details to confirm task order, completion state, and where progress changed.
 
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069200577/original/5jiE6yNNsfm1x7xMYk5wpDtjEbp87lmNQQ.gif?1776253084)

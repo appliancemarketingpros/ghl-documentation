@@ -429,6 +429,12 @@ Manage overlapping graphics and text effortlessly to create multi-layered design
 
   
 
+    
+    
+    Note: Badge template borders now match the final preview more accurately. Use Preview to confirm the final appearance before you save the badge.
+
+  
+
 
   
 

@@ -48,6 +48,12 @@ Integrating your Outlook calendar with HighLevel helps you **sync your bookings*
   * **Streamlined Management:** Centralize appointment handling while staying synced with external tools.
 
 
+  
+
+
+  * **Automatic catch-up syncing:** Appointments created while disconnected sync automatically after reconnect. Connecting a new calendar or switching the selected calendar resyncs upcoming appointments automatically.
+
+
 * * *
 
 ## **Prerequisites for Outlook Calendar Integration**

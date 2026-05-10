@@ -82,7 +82,7 @@ Manual booking gives you the flexibility to schedule appointments directly from 
   
 
 
-You can start booking an appointment from four different entry points within the HighLevel platform. There are four different ways to access the **Book Appointment Feature** in HighLevel, such as from a contact profile, the conversations tab, or the calendar view. Choose the method that suits your workflow best.
+You can book an appointment from multiple places in HighLevel, including Conversations, Contacts, Calendars, and Opportunities. Choose the entry point that matches your workflow.
 
   
 
@@ -91,7 +91,7 @@ You can start booking an appointment from four different entry points within the
 
     
     
-    **IMPORTANT** :  All of these access points lead to the _same_ booking interface and functionality. No matter which path you take, you'll arrive at the exact same feature with the same options and settings. This flexibility is designed for user convenience, hence choose the route that best fits your workflow.
+    ******IMPORTANT:** These entry points all let you book appointments, but the UI may differ depending on where you start. For example, **Opportunities** opens booking inside the **Edit Opportunity** experience using the appointment modal.
 
   
 
@@ -144,6 +144,38 @@ Want to schedule visually? Click directly on a calendar slot in the Calendar vie
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155044743458/original/vu_l_cdpp7twyMkT9bHib-sD8PYZG1wo-A.gif?1744123971)
+
+  
+
+
+  
+
+
+### _**4.** From Opportunities_
+
+  
+
+
+You can book or update an appointment directly from an opportunity.
+
+  
+
+
+1\. Go to Opportunities and open the opportunity you want to update.
+
+2\. Open the Book/Update Appointment section.
+
+3\. Click + New Appointment, then choose Meetings, Services, or Rentals.
+
+4\. Complete the appointment details in the appointment modal, then save.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070882915/original/6IcsA9ejUNwXacsj-pzj_H1udFajJnWqLQ.gif?1778242143)
+
+  
+
 
 * * *
 

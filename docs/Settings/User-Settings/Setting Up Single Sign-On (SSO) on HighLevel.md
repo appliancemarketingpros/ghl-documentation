@@ -327,7 +327,7 @@ Auth0
   * Scopes → openid profile email  
   
 
-  * Mapping: Remote ID → sub, Email → email, Verified → email_verified
+  * Mapping: Remote ID → sub, Email → email, Email Verified → email_verified
 
 
 ### Azure Active Directory (Entra ID)  
@@ -352,7 +352,7 @@ Auth0
   * Add permissions: openid, profile, email.  
   
 
-  * Mapping: Remote ID → oid, Email → userPrincipalName, Verified → true.
+  * Mapping: Remote ID → sub, Email → userPrincipalName, Email Verified → email
 
 
 ### Okta  
@@ -377,7 +377,7 @@ Auth0
   * Assign groups/users.  
   
 
-  * Mapping: Remote ID → sub, Email → email, Verified → email_verified
+  * Mapping: Remote ID → sub, Email → email, Email Verified → email_verified
 
 
 ##   

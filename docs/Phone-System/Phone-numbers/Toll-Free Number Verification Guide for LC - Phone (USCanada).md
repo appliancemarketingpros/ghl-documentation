@@ -26,9 +26,9 @@ To improve trust and message deliverability, all toll-free numbers used for text
   * Key Benefits of Toll-Free Verification
   * Requirements Before You Begin
   * Steps to Verify a Toll-Free Number
-    * Step 1: Buy a Toll-Free Number
-    * Step 2: Submit the Verification Form
+  * Opt-In Methods
   * Monitor Verification Status
+  * Additional Business Verification Fields
   * Frequently Asked Questions 
   * Related articles
 
@@ -608,6 +608,39 @@ Once you submit your verification request, you can monitor the verification stat
   
 * * *
 
+  
+
+
+## **Additional Business Verification Fields**
+
+The Toll-Free Verification flow now includes additional business verification fields.  
+  
+
+
+Depending on your business type, you may be required to provide:  
+  
+
+
+  * Business DBA (Doing Business As) name  
+  
+
+  * Legal Entity Type  
+  
+
+  * Business Registration Authority  
+  
+
+  * Business Registration Number  
+  
+
+  * Business Registration Country  
+  
+
+
+These fields help carriers validate business identity and improve Toll-Free Verification approval reliability.
+
+* * *
+
 ## **Frequently Asked Questions**
 
   
@@ -616,12 +649,7 @@ Once you submit your verification request, you can monitor the verification stat
 **Q: What if my toll-free number was rejected and I can't resubmit?  
 ** You can request an appeal by contacting Support. Use the subject line:
 
-"Toll-Free Verification Rejection Appeal for [Your Business Name or Number]"
-
-  
-
-
-**Learn more:** [Why Was My Toll-Free Verification Rejected?](<https://help.leadconnectorhq.com/support/solutions/articles/155000001462-why-was-my-toll-free-verification-rejected->)
+"Toll-Free Verification Rejection Appeal for [Your Business Name or Number]"[](<https://help.leadconnectorhq.com/support/solutions/articles/155000001462-why-was-my-toll-free-verification-rejected->)
 
   
 
@@ -654,6 +682,17 @@ No, you can use business addresses from other countries to register
 **Q: Will I be charged if I encounter an error when sending an SMS?**
 
 You won’t be charged if an internal LC Phone error occurs before a message is sent. However, charges apply for all delivery attempts, even if undelivered. No refunds are issued for failed SMS, so review carefully before sending.
+
+**Q: Do political toll-free campaigns require a Campaign Verify token?**  
+A: Yes. Political Election Campaign use cases require a valid Campaign Verify (CV) Auth Token.
+
+  
+**Q: Are non-political toll-free numbers affected?**  
+A: No. The requirement applies only to Political Election Campaign use cases.
+
+  
+**Q: Where do I obtain a Campaign Verify token?**  
+A: Tokens are issued directly through CampaignVerify.org after verification is completed.
 
 * * *
 

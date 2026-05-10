@@ -147,7 +147,7 @@ Click on the **Notifications** tab at the top of the profile settings. This tab 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155050958479/original/EjD5EcwhH2oCAMCoyGSaR2lrcG55luPXEw.png?1754401778)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070802310/original/wHcfjgasj70mH-B5Yj9il0Qu9WHgv_AzKw.png?1778159489)
 
   
 
@@ -224,6 +224,16 @@ This table explains how the redirect feature is meant to work:
 
   
 
+    
+    
+    Follower message notifications: 
+    
+    The setting**“Notify for new messages on a conversation where I am a follower** ” is enabled by default for In-App notifications for both existing and new users. 
+    This notification triggers for inbound messages only. 
+    Email and SMS are optional.
+
+  
+
 
   
 
@@ -233,24 +243,31 @@ Serial#| Category| Notification type| Available for| Channels Supported| Redirec
 1| Conversations| Notification for all new conversations and messages initiated with the account| Admin & Users| Web, Desktop, Mobile| Sub Account > Conversations > Conversation tile  
 2| Conversations| Notification when a conversation gets assigned to me| Admin & Users| Web, Desktop, Mobile| Sub Account> Conversations > Conversation tile  
 3| Conversations| Notification for new messages on a conversation I am assigned to| Admin & Users| Web, Desktop, Mobile| Sub Account> Conversations > Conversation tile > Message  
-4| Task| Notification when a task gets assigned to me| Admin & Users| Web, Desktop, Mobile| Sub Account> Contacts > Tasks  
-5| Task| Get a reminder <X> mins/hours/days before an upcoming task (assigned to me)| Admin & Users| Web, Desktop, Mobile| Sub Account> Tasks  
-6| Task| Send a daily summary of due tasks at HH:MM  
+4| Conversations| Notify for new messages on a conversation where I am a follower| Admin & Users  
+|  In-App  
+| Sub Account > Conversations > Conversation tile > Message  
+  
+5| Task| Notification when a task gets assigned to me| Admin & Users| Web, Desktop, Mobile| Sub Account> Contacts > Tasks  
+6| Task| Get a reminder <X> mins/hours/days before an upcoming task (assigned to me)| Admin & Users| Web, Desktop, Mobile| Sub Account> Tasks  
+7  
+| Task| Send a daily summary of due tasks at HH:MM  
 Subsetting : Toggle off notifications in case of zero tasks| Admin & Users| Web, Desktop, Mobile  
 | Sub Account> Tasks  
-7| Task| Send a daily summary of overdue tasks at HH:MM  
+8  
+| Task| Send a daily summary of overdue tasks at HH:MM  
 Subsetting : Toggle off notifications in case of zero tasks| Admin & Users| Web, Desktop, Mobile  
 | Sub Account> Tasks  
-6| Calendar| Notification for all new appointments booked with the account| Admin & User| Web, Desktop, Mobile, Email| Sub Account > Calendars  
-7| Calendar| Notification when a new appointment gets assigned to me| Admin & Users| Web, Desktop, Mobile, Email| Sub Account> Calendars  
+9| Calendar| Notification for all new appointments booked with the account| Admin & User| Web, Desktop, Mobile, Email| Sub Account > Calendars  
+10| Calendar| Notification when a new appointment gets assigned to me| Admin & Users| Web, Desktop, Mobile, Email| Sub Account> Calendars  
   
-8| Calendar| Get a reminder “15/30/45/60” mins before an upcoming appointment (assigned to me)| Admin & Users| Web, Desktop, Mobile| Sub Account> Calendars  
+11| Calendar| Get a reminder “15/30/45/60” mins before an upcoming appointment (assigned to me)| Admin & Users| Web, Desktop, Mobile| Sub Account> Calendars  
   
-9| Calendar| Notify when meeting link/location is missing| Admin & Users  
+12  
+| Calendar| Notify when meeting link/location is missing| Admin & Users  
 | In-App, Email| Sub Account> Calendars  
-10| **WordPress**| **Notification when new WordPress service is purchased**| **Admin**| **Email**| **NA**  
-**11**| **Facebook**| **Notification when a new review is received**| **Admin & Users (TBC)**| **Web, Mobile (existing)**| **Sub Account > Conversations > Conversation tile**  
-**12**| **Google**| **Notify when a new review is received**| **Admin & Users (TBC)**| **Web, Mobile (existing)**| **Sub Account > Conversations > Conversation tile**  
+13| **WordPress**| **Notification when new WordPress service is purchased**| **Admin**| **Email**| **NA**  
+**14**| **Facebook**| **Notification when a new review is received**| **Admin & Users (TBC)**| **Web, Mobile (existing)**| **Sub Account > Conversations > Conversation tile**  
+**15**| **Google**| **Notify when a new review is received**| **Admin & Users (TBC)**| **Web, Mobile (existing)**| **Sub Account > Conversations > Conversation tile**  
   
 * * *
 
@@ -396,20 +413,20 @@ Subsetting : Toggle off notifications in case of zero tasks| Admin & Users| Web,
 **  
 **
 
-****Q: How does the “Mark all as read” button work?****
+**Q: How does the “Mark all as read” button work?**
 
 **It changes all current notifications from unread to read status for the logged-in user.**
 
 **  
 **
 
-****Q: Why do I receive duplicate notifications for the same message?****
+**Q: Why do I receive duplicate notifications for the same message?**
 
 **This happens when multiple triggers apply (e.g., “assigned to me” + “new message”). Review your notification settings and disable overlapping options for a cleaner inbox.**
 
 **  
 **
 
-****Q: What does the “Clear All” button do?****
+**Q: What does the “Clear All” button do?**
 
 **It removes all current notifications from view. New notifications will still populate after clicking the button. Cleared notifications cannot be restored.**

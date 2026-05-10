@@ -14,3 +14,4 @@
 - [AI Schedule for Smarter Email Timing (Smart Send Time Optimization)](AI Schedule for Smarter Email Timing (Smart Send Time Optimization).md)
 - [Email AI (Beta 2.0) — Create On-Brand Emails Faster](Email AI (Beta 2.0) — Create On-Brand Emails Faster.md)
 - [Email Verification Action in Workflow](Email Verification Action in Workflow.md)
+- [Email Blocking for Invalid or Restricted Recipient Domains](Email Blocking for Invalid or Restricted Recipient Domains.md)

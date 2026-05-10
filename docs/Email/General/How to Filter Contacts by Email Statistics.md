@@ -75,7 +75,9 @@ Navigate to **Settings → Email Services → Email Analytics**.
 
 ### Review Email Metrics
 
-Review the available **Email Metrics** at the top of the page:
+Review the available **Email Metrics** at the top of the page:  
+  
+**Note: Email Analytics will only fetch data for Leadconnector**
 
 Sent Delivered Opened Clicked Complained Bounced Unsubscribed Failed
 
