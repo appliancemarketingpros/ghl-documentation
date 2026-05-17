@@ -12,3 +12,4 @@
 - [Products: Manual and Smart Collections](Products Manual and Smart Collections.md)
 - [Add and Track Product Cost Price & Margin](Add and Track Product Cost Price & Margin.md)
 - [Getting Started with Coupons](Getting Started with Coupons.md)
+- [Image Zoom on the Product Details Page](Image Zoom on the Product Details Page.md)

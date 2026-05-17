@@ -20,15 +20,12 @@ Flow for Blog -
 
 1\. Navigate to Sites > Blog
 
-2\. Create new Blog by setting up following things - 
+2\. Create new Blog by setting up the following:
 
-  * Add name of the Blog 
-  * Select the domain and add slug (optional)
-  * Add the description - approx number of character is 250 for SEO purpose
+  * Add name of the Blog
+  * Select the domain and add slug (optional: you can create the blog without a domain and connect one later)
+  * Add the description (recommended for SEO)
 
-
-  
-Note - please add the domain
 
   
 a. For example if the Domain is [abc.com](<http://abc.com/>)  

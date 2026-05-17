@@ -94,7 +94,9 @@ Start by designing and building your countdown timer inside the Marketing sectio
 
   4. Set the Timer **End Date** , select a **Time Zone** , and define the **Redirect URL**.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155047685616/original/gbs-h3v-4ULU4kxxQAyH1tCKIij6C2P99A.jpeg?1748969539)  
+When **Adapt to Contact Time Zone** is enabled, the timezone will adapt based on the user's timezone. For more information, see: [Timezone Adaptation in Countdown Timers](<https://help.gohighlevel.com/en/support/solutions/articles/155000007171>).  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071182220/original/uvqLAKay8kSgMmy2bV-dp0nEwLQuecIziA.png?1778615456)  
   
 
   5. Under the **Style** tab on the left, toggle which time units to display (e.g., hours, minutes, seconds) and customize the timer’s font, size, and color using the style controls.  
@@ -166,7 +168,7 @@ Embed your countdown timer using code, helpful if you're adding it to a third-pa
   
 
 
-  4. Click the ****plus****(+) icon**** in the top-left to open the element panel.  
+  4. Click the **plus (+) icon** in the top-left to open the element panel.  
   
 
 
@@ -226,4 +228,8 @@ Yes. Any updates made to the timer will automatically reflect wherever it’s pl
   
 
 
-  * [How to Use the "Copy Code" Feature in Countdown Timers](<https://help.gohighlevel.com/en/support/solutions/articles/155000003103>)
+  * [How to Use the "Copy Code" Feature in Countdown Timers](<https://help.gohighlevel.com/en/support/solutions/articles/155000003103>)  
+  
+
+
+  * **[Timezone Adaptation in Countdown Timers](<https://help.gohighlevel.com/en/support/solutions/articles/155000007171>)**

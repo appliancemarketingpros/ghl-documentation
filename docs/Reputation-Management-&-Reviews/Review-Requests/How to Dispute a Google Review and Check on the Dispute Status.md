@@ -88,6 +88,15 @@ If you choose to report a new review to be removed, Google gives you a list of y
 ## **Checking the status of existing Reviews you have Reported:**
 
   
+
+    
+    
+    Tip: In Conversations, Google review cards now display the associated Google Business Profile page name. This helps you confirm which business page the review belongs to before you dispute or respond to it.
+
+  
+
+
+  
 To check on the status of a review that you have already reported, [click here](<https://support.google.com/business/workflow/9945796>).
 
   
@@ -101,12 +110,6 @@ To check on the status of a review that you have already reported, [click here](
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48098342472/original/aQcP06r9IEUyhL93MSYr_lvuBTTWGx5w1A.png?1618435962)
 
   
-
-
-  
-
-
-  
   
 
 
@@ -117,8 +120,7 @@ To check on the status of a review that you have already reported, [click here](
   
 
 
-  
-
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071140313/original/jVJlRar2-0s4zxfbpDaO5llFwCKj9RgzYw.png?1778590619)
 
   
 

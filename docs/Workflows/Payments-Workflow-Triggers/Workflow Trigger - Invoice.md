@@ -32,6 +32,54 @@ The “Invoice” workflow trigger automates actions based on changes in invoice
 
 The “Invoice” workflow trigger activates whenever there is a change in the status of an invoice. You can configure this trigger to respond to different statuses, such as sent, paid, or overdue, and initiate a series of automated actions. This is particularly useful for businesses that want to ensure timely follow-ups, confirmations, or notifications without manual intervention.
 
+  
+
+
+**Filter invoices using a range**
+
+  
+
+
+Range-based filters help you trigger workflows only when an invoice amount falls within a specific value range. This makes it easier to build precise automations without stacking multiple amount filters.
+
+  
+
+
+When filtering by **Invoice Amount** , you can use the **Between** operator to enter a minimum and maximum value.
+
+  
+
+
+Key behavior:
+
+  
+
+
+  * Enter the starting value in the first field  
+  
+
+  * Enter the ending value in the second field  
+  
+
+  * The range is inclusive, so both values are included  
+  
+
+  * The system prevents invalid ranges where the minimum is greater than the maximum
+
+
+  
+
+
+**Example:**
+
+  
+
+
+Trigger a workflow when the Invoice **Amount** is between **10** and **30**
+
+  
+
+
 * * *
 
 ## **Key Benefits of Invoice Workflow Trigger**

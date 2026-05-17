@@ -6,35 +6,45 @@
 
 ---
 
-We understand how crucial it is for businesses to manage and respond to reviews from various platforms. To make this easier for you, we’ve made it simple to integrate multiple review platforms into your account. This guide will walk you through the process of connecting review platforms like Yelp, TrustPilot, Google, and many more to centralise your reviews.
+Managing reviews across multiple platforms is essential for maintaining your online reputation. HighLevel makes it easy to integrate multiple review platforms so you can monitor, manage, and respond to reviews from one centralized location.
+
+  
+
+
+This guide walks you through how to connect supported review platforms to your account.
 
 * * *
 
 **TABLE OF CONTENTS**
 
-  * Key Benefits of Integrating Review Platforms
-  * How to Integrate Review Platforms
-  * Supported Review Platforms
-  * Troubleshooting
+    * Key Benefits of Integrating Review Platforms
+    * How to Integrate Review Platforms
+    * Supported Review Platforms
+    * Troubleshooting
+    * Summary
+    * Frequently Asked Questions
+    * Related Articles
 
 
 * * *
 
-## **Key Benefits of Integrating Review Platforms**
-
+## **Key Benefits of Integrating Review Platforms**  
   
 
 
-  * **Centralized Management** : View all your reviews from different platforms in one place.  
+  * **Centralized Management:** View all reviews from different platforms in one place  
   
 
-  * **Efficient Response** : Quickly respond to reviews across multiple platforms without having to log in to each one individually.  
+
+  * **Efficient Response:** Respond to reviews without logging into multiple platforms  
   
 
-  * **Improved Reputation Monitoring** : Keep an eye on your brand’s reputation across various sites and address concerns promptly.  
+
+  * **Improved Reputation Monitoring:** Track your brand across multiple sites  
   
 
-  * **Streamlined Workflow** : Save time by automating the review-fetching process, eliminating the need to manually check each site.
+
+  * **Streamlined Workflow:** Automate review collection and reduce manual effort
 
 
 * * *
@@ -44,49 +54,60 @@ We understand how crucial it is for businesses to manage and respond to reviews 
   
 
 
-### ** _Step 1:_**_Navigate to Integrations_
+### **Step 1:**_Navigate to Integrations_  
+  
+
+
+  1. Go to **Reputation** from the left-side menu  
+  
+
+
+  2. Click **Settings** from the top navigation bar  
+  
+
+
+  3. Select the **Integrations** tab  
+  
+
+
+### **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070067190/original/Ee2IWz1-4uBgCzRThZjbsrON4Crf7ZyB8Q.png?1777320389)**  
+
+
+This page displays all available review platforms you can integrate.
+
+###   
+**Step 2:** _Configure Integrations_  
+  
+
+
+  1. Click **Integrate** on the platform you want to connect  
+  
+
+
+  2. Enter your business review page URL  
+  
+
+
+  3. Click **Integrate**
+
+
+###   
+**Example: Platform Integration Modal**
 
   
 
 
-  * Navigate to Reputation on left-side menu  
-  
-
-
-  * From the top menu within the Reputations page, click on the Settings option. (This brings you to the reputation settings page, not general settings)  
-  
-
-
-  * In the Settings menu, locate and click on the **Integrations** tab.  
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155045977731/original/OG3iL2sVuaDkt_LV30SRg5MNP00EpauYZw.png?1746116258)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070067234/original/pogmtrh144YoEqGsHCpMtpA0zEVwahPikQ.png?1777320490)
 
   
 
 
-  
-
-
-### **_Step 2:_**_Configure Integrations_
+Make sure the URL points directly to your public-facing review page (e.g., Yelp, Google Business Profile, etc.).
 
   
 
 
-  * On the Integrations page, you'll see an option to input your page URL for each platform. Enter the specific URL for the review platform you wish to integrate. Make sure this URL points to your business's review page (e.g., your Yelp page or your Google business profile).  
-  
-
-
-  * After entering the URL, click on the **Integrate** button. The platform will automatically pull in the latest reviews from that platform, displaying them in your dashboard.  
-  
-
-
-  * You can repeat the same steps to integrate other review platforms. Once done, all the reviews will be displayed in one place, making it easier to monitor, manage, and respond to reviews from a variety of sources.  
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155045977825/original/WU8nRf1EEQsecMAXYmnZyBgiM2do1WVsyg.png?1746116435)
+Once connected, reviews will automatically sync into your dashboard.
 
 * * *
 
@@ -94,72 +115,123 @@ We understand how crucial it is for businesses to manage and respond to reviews 
 
   
 
-    
-    
-    **Note:** Each review platform has **specific requirements** for what constitutes a valid business review page link. If you're unsure how to find your public-facing review URL, visit the help center for that platform (e.g., [Trustpilot Support](<https://help.trustpilot.com/s/?language=en_US>)).
+
+> **Note:** Each platform requires a valid public-facing review page URL. If you’re unsure, refer to that platform’s help documentation.
 
   
 
 
-You can integrate with the following popular review platforms:
-
+You can integrate with the following platforms:  
   
 
 
-  * **Yelp**
-  * **TrustPilot**
-  * **TripAdvisor**
-  * **Angie's List**
-  * **Avvo**
-  * **Better Business Bureau**
-  * **Healthgrades**
-  * **Booking.com**
-  * **HomeAdvisor**
-  * **CarGurus**
-  * **Cars.com**
-  * **Consumer Affairs**
-  * **Vitals**
-  * **DealerRater**
-  * **Yellow Pages**
-  * **Zillow**
-  * **AirBNB**
-  * **App Store**
-  * **Google Play**
-  * **Agoda**
-  * **Amazon**
-  * **Ebay**
-  * **Hotels.com**
-  * **OpenTable**
-  * **RateMDs**
-  * **ZocDoc**
-  * **Lawyers.com**
-  * **FourSquare**
-  * **Etsy**
-  * **Expedia**
-  * **Indeed**
-  * **Zomato**
-  * **Capterra**
-  * **VRBO**
-  * **Google Shopping**
-  * **Glassdoor**
-  * **Houzz**
-  * **ThumbTack**
-  * **WebMD**
-  * **FindLaw**
-  * **ProductReview**
-  * **AliExpress**
-  * **ProductHunt**
-  * **CitySearch**
-  * **AlternativeTo**
-  * **ApartmentRatings**
-  * **DoorDash**
-  * **UberEats**
-  * **WeddingWire**
-  * **The Knot**
-  * **TrustRadius**
-  * **Yell**
-  * **GoodReads**
-  * **Caring.com**
+  * Yelp
+
+  * Trustpilot
+
+  * TripAdvisor
+
+  * Angi (formerly Angie’s List)
+
+  * Avvo
+
+  * Better Business Bureau (BBB)
+
+  * Healthgrades
+
+  * Booking.com
+
+  * HomeAdvisor
+
+  * CarGurus
+
+  * Cars.com
+
+  * ConsumerAffairs
+
+  * Vitals
+
+  * DealerRater
+
+  * Yellow Pages
+
+  * Zillow
+
+  * Airbnb
+
+  * App Store
+
+  * Google Play
+
+  * Agoda
+
+  * Amazon
+
+  * eBay
+
+  * Hotels.com
+
+  * OpenTable
+
+  * RateMDs
+
+  * Zocdoc
+
+  * Lawyers.com
+
+  * Foursquare
+
+  * Etsy
+
+  * Expedia
+
+  * Indeed
+
+  * Zomato
+
+  * Capterra
+
+  * VRBO
+
+  * Google Shopping
+
+  * Glassdoor
+
+  * Houzz
+
+  * Thumbtack
+
+  * WebMD
+
+  * FindLaw
+
+  * ProductReview
+
+  * AliExpress
+
+  * Product Hunt
+
+  * Citysearch
+
+  * AlternativeTo
+
+  * ApartmentRatings
+
+  * DoorDash
+
+  * Uber Eats
+
+  * WeddingWire
+
+  * The Knot
+
+  * TrustRadius
+
+  * Yell
+
+  * Goodreads
+
+  * Caring.com
 
 
 * * *
@@ -169,22 +241,115 @@ You can integrate with the following popular review platforms:
   
 
 
-If you experience issues while integrating a review platform, try the following:  
+If you experience issues while integrating a review platform:  
   
 
 
-  * **Check the URL** : Make sure the page URL is correct and points directly to your business's review page on the platform.  
+  * **Check the URL:** Ensure it points to your public review page  
   
 
-  * **Ensure Access** : Confirm that your account has the necessary permissions to fetch reviews from the selected platform.  
+
+  * **Verify Access:** Confirm your account has permission to access the page  
   
 
-  * **Clear Cache** : Sometimes clearing your browser cache can resolve integration issues.  
+
+  * **Clear Cache:** Try clearing your browser cache  
   
 
-  * **Support** : If the issue persists, reach out to our support team, and we’ll help you get everything up and running.
+
+  * **Contact Support:** Reach out if the issue persists
 
 
 * * *
 
-By integrating multiple review platforms, you can simplify the management of your online reputation, saving you time and effort while boosting your ability to respond promptly to customer feedback.
+## **Summary**
+
+  
+
+
+By integrating multiple review platforms, you can centralize your review management, improve response time, and maintain a strong online reputation across all channels.
+
+* * *
+
+## **Frequently Asked Questions**
+
+  
+
+
+**Q: Do I need to connect all platforms?**
+
+No. You can connect only the platforms relevant to your business.  
+  
+  
+
+
+**Q: What type of URL should I use when integrating a platform?**
+
+You should use your **public-facing review page URL** (for example, your Yelp page or Google Business profile).  
+  
+
+
+  
+
+
+**Q: How long does it take for reviews to appear after integration?**
+
+Reviews are typically fetched shortly after integration, but timing may vary depending on the platform.  
+  
+
+
+  
+
+
+**Q: Can I respond to reviews from HighLevel?**
+
+Yes, for supported platforms, you can manage and respond to reviews directly from your dashboard.  
+  
+
+
+  
+
+
+**Q: Why are my reviews not showing up?**
+
+This may happen if:  
+  
+
+
+  
+
+
+  * The URL is incorrect  
+  
+
+
+  * The page is not public  
+  
+
+
+  * The platform has restrictions
+
+
+  
+
+
+Check your URL and permissions, then try again.
+
+  
+
+
+  
+**Q: Can I disconnect a review platform later?**
+
+Yes. You can remove or update integrations at any time from the Integrations settings.
+
+* * *
+
+## **Related Articles**  
+  
+
+
+  * [Reputation Management: Competitor Analysis in HighLevel](<https://help.gohighlevel.com/en/support/solutions/articles/155000005344>)  
+  
+
+  * [How to Customize the Review Request Messages (SMS/Email)](<https://help.gohighlevel.com/en/support/solutions/articles/48000980328>)

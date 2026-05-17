@@ -6,34 +6,89 @@
 
 ---
 
+Connect your Shopify store to HighLevel to bring ecommerce activity into your CRM and automation workflows. This integration helps you use Shopify data for follow-ups, abandoned checkout recovery, customer communication, and store-related automation. Proper setup ensures HighLevel can securely access the Shopify data needed for supported e-commerce features.
+
+* * *
+
+**TABLE OF CONTENTS**
+
+  * What is the Shopify Integration?
+  * Key Benefits of the Shopify Integration
+  * Integrating Shopify with a HighLevel sub-account is a two-step process:
+    * Step-1: Create a Custom App in your Shopify Store
+    * Step-2: Connect Shopify to your Account
+  * Frequently Asked Questions
+  * Related Articles
+
+
+* * *
+
+## **What is the Shopify Integration?**
+
+  
+
+
+The Shopify integration connects an existing Shopify store to a HighLevel sub-account using a Shopify custom app and Admin API access token. This connection allows HighLevel to access supported Shopify data and events so users can build ecommerce-related workflows, use Shopify variables, and manage follow-up actions more effectively.
+
+  
+
+
 Integrating Shopify with HighLevel lets you automate marketing, sync customer data, and drive more sales. This guide shows you the integration process step by step.
 
 * * *
 
-Integrating Shopify with a HighLevel sub-account is a 2 step process:  
-  
-
-
-1\. Create a Custom App in your Shopify Store
-
-2\. Connect Shopify to your Account
+## **Key Benefits of the Shopify Integration**
 
   
 
 
-### Step-1: Create a Custom App in your Shopify Store
+Connecting Shopify with HighLevel gives your team a stronger way to manage ecommerce follow-up and customer engagement from one place. Once connected, Shopify activity can support automation, communication, and ecommerce data workflows inside HighLevel.
+
+  
+
+
+  * **Centralized ecommerce data:** Bring supported Shopify store activity into HighLevel so customer and order-related information can be used more effectively.  
+  
+
+  * **Workflow automation:** Use Shopify-related events to trigger follow-up workflows, reminders, and customer communication.  
+  
+
+  * **Abandoned checkout recovery:** Create abandoned checkout workflows to help recover missed sales opportunities.  
+  
+
+  * **Personalized communication:** Use Shopify variables in supported emails, SMS messages, and workflow actions after Shopify triggers run.  
+  
+
+  * **Improved customer follow-up:** Help teams respond faster to ecommerce activity without manually checking Shopify for every update.
+
+
+* * *
+
+## **Integrating Shopify with a HighLevel sub-account is a two-step process:**
+
+  
+
+
+  1. Create a custom app in your Shopify store to generate the Admin API access token.
+  2. Connect Shopify to your HighLevel sub-account using the token and store details.
+
+
+  
+
+
+### **_Step-1: Create a Custom App in your Shopify Store_**
 
 Before we setup integration we need to create a custom app in your Shopify store.
 
   
 
 
-**1.1 Login to your Shopify store and click on "Apps" in your dashboard**
+1\. Log in to your **Shopify** store and click **Apps** from your Shopify dashboard.
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48187229210/original/rH-o_3qLAeuUQs7ktCeDSFiGCAwZJaq4QQ.png?1644221818)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070301923/original/OgilUaUoT855kIHogfKm3RVrwcoqDGuT3A.png?1777546940)
 
   
 
@@ -41,18 +96,12 @@ Before we setup integration we need to create a custom app in your Shopify store
   
 
 
-  
-
+2\. Click **Develop apps** at the top of the screen.
 
-**1.2 Then, click on "Develop apps" on the top of the screen highlighted in the below picture**
-
   
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48187228956/original/Pyqt6fMw5ktq5tQQeAt0CVOhvmfT7MTIUA.png?1644221795)
 
-  
 
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070301974/original/FD7_tE9gnDaOfaE_-nYAHHCxoI6IJgdzsQ.png?1777546969)
 
   
 
@@ -60,17 +109,14 @@ Before we setup integration we need to create a custom app in your Shopify store
   
 
 
-**1.3 Then, click on "Allow custom app development" (if you have already enabled this permission then Shopify**
+3\. Click **Allow custom app development**.
 
-**will take you to Step-1.5)**
+**Note** : If custom app development is already enabled, Shopify will take you directly to the app creation screen.
 
   
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48187229198/original/p8vrOG1a27K50uudrq5oqHP-ekqSYaCNwA.png?1644221815)
 
-  
 
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070303063/original/b2DKxs4ZDgV-FTDC51eJm92022ASLVLang.png?1777547454)
 
   
 
@@ -78,15 +124,12 @@ Before we setup integration we need to create a custom app in your Shopify store
   
 
 
-**1.4 In the next screen, click on "Allow custom app development"**
+4\. On the next screen, click **Allow custom app development** again to confirm.
 
   
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48187229192/original/jic-aV_3DKmiJOr0mL5pO_P2lB1fu4K3OA.png?1644221813)
 
-  
 
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070303102/original/vmrIP__bhaktG7L8o1mliZGUkJXK9H0rRQ.png?1777547484)
 
   
 
@@ -94,46 +137,36 @@ Before we setup integration we need to create a custom app in your Shopify store
   
 
 
-**1.5 Then, click on "Create an app"**
+5\. Click on **Create an app**
 
   
-
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48187229194/original/Pv1_E-8_4Vbga0KoVa_7PF1oFQOQRJMj0Q.png?1644221815)
 
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070303222/original/nfo6a1B09ejyVb6zWPdUdPaC5I_MMlrj-g.png?1777547507)
 
-
   
-
-
   
 
 
-**1.6 Enter a name for the app (for example "Marvel's App"), select your email under App developer**
+6\. Enter a name for the App (for example "Marvel's App"), select your **email** under **App developer**
 
-**and click on "Create app"**
+and click on **Create App**
 
   
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48187229199/original/y7YPMVGF8DZQ6xkYvHik6Jck0QvGxDIz1g.png?1644221816)
 
-  
 
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070303331/original/OV794zSuy2NSY3TUEhw-jYGQqhOmnRJSdA.png?1777547572)
 
   
-
-
   
 
 
-**1.7 Then, click on "Configure Admin API scopes" to configure Admin API integration**
+7\. Click **Configure Admin****API** scopes to set up the required **Admin API permissions.**
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48187229195/original/UkKUPiP3fo-8Ffj1vABpVf-baRBv2hUvlw.png?1644221815)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070303553/original/WNusiFXLgmKADsGDcQFTmYEUd8-kxCzeEg.png?1777547700)
 
   
 
@@ -141,17 +174,12 @@ Before we setup integration we need to create a custom app in your Shopify store
   
 
 
-  
-
+8\. Search or scroll to **Orders** , then enable at least the **read_orders** permission.
 
-**1.8 Search/scroll down to the "Orders" and You will need to enable at the very**
-
-**least "read_orders" access**
-
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48187229211/original/2GXcUiFIWEF1TZmsGGccec1xioo_UWpnrQ.jpeg?1644221817)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070303621/original/UxYW6T82jtKH2woMy5Ko6GY-KguLkt0D4g.jpeg?1777547736)
 
   
 
@@ -159,37 +187,32 @@ Before we setup integration we need to create a custom app in your Shopify store
   
 
 
-**1.9 Add the "read_customers" scope. In configuration edit the "Admin API Integrations". In this section under**
+9\. Add the **read_customers** scope. In configuration edit the **Admin API Integrations**. In this section under
 
-**customers, select the "read_customers" tick box.**
+customers, select the**read_customers** tick box.
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030067383/original/aVjGA-pp1P6TFeFQ_gs0ifQEOjVg0thLRA.png?1722266305)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070303740/original/FEDZK4YQCuPUfVETKI3nvT22Fxj40TxKGg.png?1777547799)
 
   
-
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030067467/original/ZgYyWI1Q70ztfYX5wZ052m6f9oHnEm_FHA.png?1722266327)
 
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070303754/original/on70vWh2aI7vQZ_hL9zIPZpR6l_F0qo8RQ.png?1777547808)
 
-
   
 
 
   
-
 
-**1.10 Then, Search/scroll down to the "Products" and You will need to enable at the very**
 
-**least "read_products" access**
+10\. Search or scroll to **Products** , then enable at least the **read_products** permission.
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48187229209/original/KOGPMRP7AVyQLqt86WYuHArUkNw-z6ZuZQ.png?1644221817)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070303857/original/ynxIh1-AMDpDkW14uVdKG-IvmrhcA1b3Sw.png?1777547852)
 
   
 
@@ -197,66 +220,66 @@ Before we setup integration we need to create a custom app in your Shopify store
   
 
 
+11\. After enabling read access for **Orders** , **Customers** , and **Products** , click **Save** in the top-right corner.
+
   
 
 
-**1.11 Once you've enabled read access on "Orders and Product", save the app by clicking on the**
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070303923/original/iGpY-Q3ciZdaTjONOgdLbIpEuNu5LFXgyA.png?1777547904)
+
+  
 
-**"Save" button on the top right**
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48187229208/original/bWtT7WuetqwvWbfp8IT5y0AKPTRVxmf97w.png?1644221817)
+12\. After saving the app, click **Install app**.
 
   
 
 
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070303948/original/t_t3Ou6S3-FiOH_boNiauWFZVYcOO2Svlw.png?1777547932)
+
   
 
 
   
 
 
-**1.12 After saving click on the "Install app" as in the image below**
+13\. In the confirmation pop-up, click **Install**.
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48187229197/original/kTfMYPmtBBvuDLeK1c6k5Fl9gmd1toSOeg.png?1644221815)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070303992/original/44aCNQOaeqsDK60YRHWJssr9kRdBSV4dJw.png?1777547962)
 
   
 
 
   
-
 
-  
 
+14\. After the app is installed, go to the **API credentials** section and click **Reveal token once** to view the **Admin API access token** required for the Shopify integration.
 
-**1.13 Then, click on "Install" from the pop up as in the image below**
+**Important:** Shopify may only show this token once. Copy and store it securely before leaving the page.
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48187229201/original/UayP0x4wZAwMUT5KVSUsY62lOfkDih3b1Q.png?1644221816)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070304019/original/LfehzsTl2yXkyQJ5kp3Enbp91Pvf_aufZQ.png?1777547991)
 
-and voilà your App is ready to be integrated now!
-
   
 
 
   
-
 
-**1.14 After installing, the "Admin API access token" that you need for the Shopify integration can**
 
-**be found under the API credentials section, click on "Reveal token once" to get access to the token**
+15\. Copy the **Admin API access token** by clicking the **clipboard icon**.
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48187229204/original/AN7cbMtIt-wIZ7A5T4fQh9yt3j5_VUfB2A.png?1644221816)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070304069/original/PDYyyJFUAltl1bPZzoSheYbXtrVAs-fGYA.png?1777548021)
 
   
 
@@ -264,15 +287,17 @@ and voilà your App is ready to be integrated now!
   
 
 
+### **_Step-2: Connect Shopify to your Account_**
+
   
 
 
-**1.14 Copy the "Admin API access token" by clicking on the clipboard icon**
+1\. In your Sub-Account go to **Settings > Integrations** and click **Connect** under Shopify
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48187229200/original/iu6Bvf4sq-9cIc_Uu5SWn3cN35f0vFITsA.png?1644221816)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070304197/original/zmZoCAetnjFPKBPzNbLSJQa8Q38IDKfoDg.png?1777548083)
 
   
 
@@ -280,49 +305,59 @@ and voilà your App is ready to be integrated now!
   
 
 
-###  Step-2: Connect Shopify to your Account
+2\. Paste the **Admin API access token** you copied and enter "Name of your Shopify store" and click **Connect**
 
   
 
 
-**2.1 In your Account go to**** _Settings > Integrations_****and click on "Connect" under Shopify**
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070304329/original/ar5BtvTm0r2WALMJwSh5-hvf2EdbfHTaXQ.png?1777548125)
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48187229207/original/qP0WcWS2pboiwsFOqwX6NW7Zt-rFLMIFYw.png?1644221817)
-
   
+
 
+3\. Shopify is now connected to your HighLevel sub-account. You can begin using Shopify data in supported workflows, automations, and ecommerce follow-up processes.
 
   
 
 
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070304428/original/o_1WDDuKDl4G4wU9Ejy4qt998LuC8S5kcQ.png?1777548170)
 
+* * *
 
-**2.2 Paste the "Admin API access token" you copied in Step-1.14, enter "Name of your Shopify store" and click "Connect"**
+## **Frequently Asked Questions**
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48187229202/original/ppeTu-iMn0QdMja4G6PvqLafNSeMn8pEvw.png?1644221816)
+**Q: Does Shopify need to be connected before I can use Shopify data in automations?  
+** Yes. Shopify must be connected to HighLevel before Shopify-related data can be used in supported workflows and automations. After the integration is connected, you can set up abandoned checkout workflows, follow-up messages, and other ecommerce automations separately in HighLevel.
 
   
 
 
+**Q: What should I do if I lose the Shopify Admin API access token?**  
+Shopify shows the token through the **Reveal token once** option. If the token is no longer available, return to Shopify and generate a new usable token or create a new custom app, then reconnect Shopify in HighLevel.
+
   
+
 
+**Q: Can I use Shopify data in workflow messages?**  
+Yes. Shopify variables can be used in supported workflow email, SMS, and internal notification fields when the data is available from the Shopify trigger payload.
 
   
 
 
-**2.3 Your Shopify integration is done! ?**
+**Q: Why is my Shopify connection not working?**  
+Check that the **Admin API access token** was copied correctly, the **Shopify store name** is entered correctly, and the required Shopify Admin API scopes, including read access for orders, customers, and products, are enabled.
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48187229205/original/qIfabMfkeYYRSWXoeiANWyRXB_s_SAlQWw.png?1644221817)
+**Q: What Shopify permissions are needed to complete the setup?**  
+Shopify custom app is required to generate the **Admin API access** token used to connect your Shopify store with HighLevel. After the token is generated, you can enter it in Settings > Integrations > Shopify to complete the connection.
 
 * * *
 
@@ -340,4 +375,4 @@ and voilà your App is ready to be integrated now!
   * [How To Use Shopify Variables](<https://help.gohighlevel.com/en/support/solutions/articles/48001203898>)  
   
 
-  * [Shopify to HighLevel (Migration Guide)](<https://help.gohighlevel.com/en/support/solutions/articles/155000004302>)
+  * [How to migrate Shopify stores to HighLevel](<https://help.gohighlevel.com/en/support/solutions/articles/155000004056>)

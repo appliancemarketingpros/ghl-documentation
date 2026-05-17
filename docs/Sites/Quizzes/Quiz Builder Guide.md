@@ -70,22 +70,23 @@ You can build from scratch or use templates, speed up creation by importing ques
   
 
 
-  1. **Top Panel:** Here you can find the Back button (return to Quizzes list), the Title of this quiz, the Preview button (see what the quiz looks like), the Integrate button (insert this quiz into a page), the Save button, the switcher for the left panel, the switcher between Desktop and Mobile views, the Versions list, undo/redo, and the switcher for the Right Panel.  
+Builder tabs (Edit, Settings, Submissions) Use the top navigation to switch between:
+
   
 
-  2. **Left Panel:** This will list all of the Elements (ex: Single Choice or Multiple Choice), or Notification settings, or Categories.  
+
+  * Edit to build questions and design the quiz
+  * Settings to configure quiz logic and integrations
+  * Submissions to view response data without leaving the builder
+
+
   
 
-  3. **Center Panel:** The middle area contains the list of Pages (which contain the lists of Elements) and the Results Template.  
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071190023/original/4V046NbYfvc0IYsYfbpJa-MyPTzBIrrQZA.png?1778636958)
+
   
 
-  4. **Right Panel:** Here you will find the settings for the Quiz or for the currently selected Element.
-
-
-**  
-**
-
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065725444/original/Tqd0_IZz0pD3WgADmSZfrWTlMPD5FbMU5g.jpeg?1772049876)**
 
   
 

@@ -545,6 +545,8 @@ Users can create bookings directly by selecting a date or time range inside the 
   3. Complete the booking details and **Create Booking**
 
 
+  
+
     
     
     **I****mportant:** Drag-to-create is available only for future dates. It is not supported for past dates or the current date. To create bookings for today, use the + New button instead.
@@ -561,23 +563,26 @@ Users can create bookings directly by selecting a date or time range inside the 
   
 
 
-Blocked slots represent time periods when listings are unavailable for booking.
+Blocked slots let you take a listing off the market without creating a customer booking or order. Once created, the listing becomes unavailable for the selected duration and availability updates across booking flows
 
   
 
 
-  * These may be manually added or automatically imported from third party platforms.  
+To create a blocked slot, set **Event** **Type** to **Blocked** **slot** when creating a booking.
+
   
 
 
-  * They are displayed differently from active bookings for easy distinction.
-
+For more information, see: [Blocked Slots for Rental Listings](<https://help.gohighlevel.com/en/support/solutions/articles/155000007944>)
 
   
 
     
     
     **Example:** If a car is undergoing maintenance, a blocked slot ensures that no bookings can overlap with that time period.
+
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071251873/original/9cPjJxBOSCK9JCwclVu4e_EmUSCZxzwqVA.png?1778684168)
 
 * * *
 

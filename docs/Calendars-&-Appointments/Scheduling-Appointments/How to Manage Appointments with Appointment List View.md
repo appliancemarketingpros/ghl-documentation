@@ -376,6 +376,15 @@ Changes made here are saved immediately and reflected across HighLevel, making i
 
   
 
+    
+    
+    **Note:** Updating an appointment to **Showed** or **No Show** updates the status inside HighLevel, but it does not push an event update to connected third-party calendars.
+
+  
+
+
+  
+
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155063174660/original/Dn-Lq5L7zdqI7cukzbuuEwrGotppKOycpw.png?1769008626)
 

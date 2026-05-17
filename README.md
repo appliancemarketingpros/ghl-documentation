@@ -4,7 +4,6 @@ This repository contains the complete documentation from the [GoHighLevel Suppor
 
 ## Categories
 
-- [LevelUp 2025 Releases](docs/LevelUp-2025-Releases/)
 - [Getting Started w/ HighLevel](docs/Getting-Started-w-HighLevel/)
 - [Customer Support](docs/Customer-Support/)
 - [Agency View](docs/Agency-View/)
@@ -57,9 +56,9 @@ This repository contains the complete documentation from the [GoHighLevel Suppor
 
 ---
 
-*Last updated: 2026-03-29 08:51 UTC from the [GoHighLevel Support Portal](https://help.gohighlevel.com/support/solutions).*
+*Last updated: 2026-05-17 08:25 UTC from the [GoHighLevel Support Portal](https://help.gohighlevel.com/support/solutions).*
 
 **Statistics:**
-- Categories: 49
-- Folders: 252
-- Articles: 1760
+- Categories: 48
+- Folders: 254
+- Articles: 1836

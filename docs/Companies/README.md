@@ -6,3 +6,5 @@
 
 ### [Introduction to Companies](Introduction-to-Companies/)
 
+### [Managing Company records](Managing-Company-records/)
+

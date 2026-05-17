@@ -153,16 +153,14 @@ We have implemented a robust client portal system for each sub-account on our de
   
 
 
-### **Configuring a custom Domain:**
-
-  
-
-
 To configure a custom domain for your client portal, follow these steps:
 
-  1. Using the left sidebar, navigate to the **Memberships** tab then open the **Client Portal** section from the top and select **Settings**. Proceed to the **"Domain Setup."** area.
-
   
+
+
+Using the left sidebar, navigate to the Memberships tab then open the Client Portal section from the top and select Settings. Proceed to the "Domain Setup." area. 
+
+  1.   
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155062739609/original/abS2G3u9bU8x1jbioBIFheo1JVkP05Ly2Q.png?1768483661)
@@ -184,16 +182,32 @@ To configure a custom domain for your client portal, follow these steps:
 
 Before you can successfully set up an A or CNAME record, you must ensure that you have already configured your domain registrar to point to the specific IP address or server provided to you. This is an essential step in ensuring that your domain correctly refers to your server, enabling it to function properly.
 
+  
+
+
 A Record, also known as an Address Record, maps your domain to an individual server IP address. On the other hand, a CNAME record, or Canonical Name record, is used to map your domain (or subdomain) to another domain name.
 
-Here's a step-by-step guide on how to add A records and CNAME records:
+  
 
-  * Login to your Domain Registrar's dashboard.
-  * Navigate to the DNS settings.
-  * Here, you will find an option to add a new record.
-  * Select the type of record you want to add (A or CNAME).
+
+Here's a step-by-step guide on how to add A records and CNAME records:  
+  
+
+
+  * Login to your Domain Registrar's dashboard.  
+  
+
+  * Navigate to the DNS settings.  
+  
+
+  * Here, you will find an option to add a new record.  
+  
+
+  * Select the type of record you want to add (A or CNAME).  
+  
+
   * Enter the details - for an A record, this would be the IP address **34.67.19.69**
-  * ; for a CNAME record, this would be the target domain **preview.clientclub.net**
+  * ; for a CNAME record, this would be the target domain **[preview.clientclub.net](<//preview.clientclub.net>)**
   * Save your changes.
 
 
@@ -246,6 +260,53 @@ Once you have entered the DNS records in your Domain registrar, give it a reason
     **AccuWeb Hosting:** ["How long Nameservers propagation could take after ..."](<https://manage.accuwebhosting.com/knowledgebase/2437/How-long-Nameservers-propagation-could-take-after-changing-them.html>)  
     **Namecheap:** ["DNS Propagation – Explained - Domains"](<https://www.namecheap.com/support/knowledgebase/article.aspx/9622/10/dns-propagation-explained/>)  
     **Webcentral:** ["What is the standard DNS propagation period?"](<https://support.webcentral.com.au/article/what-is-the-standard-dns-propagation-period/>)
+
+  
+
+
+### **Start the Migration from Courses Settings**
+
+  
+
+
+Migrating from Legacy Memberships to Client Portal gives you access to a more unified setup experience for courses and memberships. The updated settings UI also makes migration prompts easier to find and follow.
+
+  
+
+
+To start the migration:
+
+  
+
+
+1\. Go to **Memberships**.  
+  
+
+
+2\. Open **Courses**.  
+  
+
+
+3\. Navigate to the settings area for your site.  
+  
+
+
+4\. Review the migration message shown in the settings interface.  
+  
+
+
+5\. Follow the on-screen steps to move to Client Portal settings.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071114382/original/D3uWvZ2W3EAINr4yUle-PXK3rAysTXgweg.png?1778579784)
+
+  
+
+    
+    
+    Note: Review your branding, domain, email settings, and app settings after migration to confirm everything matches your current setup.
 
 * * *
 
@@ -305,8 +366,7 @@ If you serve users in multiple regions, you can set a default language for your 
   
 
   2. Select a language, and click Save.  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155063057820/original/yKY_rITlQPlm7S1RaeHF3ZemxTcX1E1Lng.png?1768911496)  
-
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155063057820/original/yKY_rITlQPlm7S1RaeHF3ZemxTcX1E1Lng.png?1768911496)
   3. Users can still change their own language within the Client Portal from Manage your Account → Language Settings.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155063057690/original/6BXQ0xEuWQh6ZCMYHilyWJpoTiRMzOIOnw.gif?1768911475)
@@ -397,34 +457,34 @@ Remember, your client portal is a hub for all your services. So, when sharing th
 
 ## **FAQs**
 
-### **Question 1: I've branded my client portal, but the changes aren't showing up. What could be the issue?**
+**Q1: I've branded my client portal, but the changes aren't showing up. What could be the issue?**
 
 Answer: It might be due to cache issues. Try clearing your browser's cache or try to view the portal in an incognito window. If the issue persists, please get in touch with our support team.
 
   
 
 
-### **Question 2: Can I set different branding for different sub-accounts in the client portal?**
+**Q2: Can I set different branding for different sub-accounts in the client portal?**
 
 Answer: You can set individual branding for each sub-account within your client portal. This feature allows you to tailor the visual elements of each sub-account portal, such as logos and color schemes, to represent its specific brand identity best. To do this, you must navigate to the sub-account, access the "Branding" option, and customize it as your preference.
 
   
 
 
-### **Question 3: My affiliates are having trouble accessing their stats on the client portal. What should I do?**
+**Q3: My affiliates are having trouble accessing their stats on the client portal. What should I do?**
 
 Answer: Ensure that the affiliates have the correct login details. Also, check if you've given them the right permissions to access their stats. If the problem continues, contact our support team for further assistance.
 
   
 
 
-### **Question 4: I've set up the DNS records for my client portal correctly, but it's not accessible. Why?**
+**Q4: I've set up the DNS records for my client portal correctly, but it's not accessible. Why?**
 
 Answer: DNS changes can take up to 48 hours to propagate across the internet. It may not be reflected immediately if you've just recently made changes. If it takes longer than 48 hours, please get in touch with your domain registrar for support.
 
   
 
 
-### **Question 5: I want to customize the favicon for my client portal, but it's not uploading. What's the ideal format and size for the favicon?**
+**Q5: I want to customize the favicon for my client portal, but it's not uploading. What's the ideal format and size for the favicon?**
 
 Answer: The recommended aspect ratio for the favicon is 1:1. The favicon should be in SVG, PNG, or JPG format and not exceed 16x16 pixels. If your favicon meets these specifications and you're still facing issues, please get in touch with our support team.

@@ -9,7 +9,6 @@
 - [Workflows Pro Plan - New Pricing Tiers](Workflows Pro Plan - New Pricing Tiers.md)
 - [Comprehensive workflow stats](Comprehensive workflow stats.md)
 - [Workflows - Advanced Filters & Smart List](Workflows - Advanced Filters & Smart List.md)
-- [Workflow Action - If/Else Upgrad](Workflow Action - IfElse Upgrad.md)
 - [Workflow - Oauth2 in Custom Webhook](Workflow - Oauth2 in Custom Webhook.md)
 - [Workflows- Improved Execution Logs & Enrollment History](Workflows- Improved Execution Logs & Enrollment History.md)
 - [New Discover button - Workflows](New Discover button - Workflows.md)
@@ -24,3 +23,4 @@
 - [Workflow Trigger and Action: Google Contact](Workflow Trigger and Action Google Contact.md)
 - [Airtable - Actions & Triggers in Workflows](Airtable - Actions & Triggers in Workflows.md)
 - [How to enable and rebill Premium Features for Workflows](How to enable and rebill Premium Features for Workflows.md)
+- [Notion Integration with HighLevel](Notion Integration with HighLevel.md)

@@ -76,6 +76,21 @@ If you don't see a test conversion, check the Diagnostics tab for any errors. A 
   
 
 
+**Q: How Events Deduplication is Handled?**
+
+  
+
+
+Event deduplication is handled automatically.
+
+  
+
+
+Funnels generate an `eventId` and store it with the contact’s attribution data. When a Conversion API action runs, the same `eventId` is sent to Meta (if available), allowing Meta to deduplicate browser and server events. No additional setup is required.
+
+  
+
+
 **Q: Does the 'Test Workflow' button work with testing FB conversions?**
 
 Yes

@@ -94,6 +94,49 @@ Action| Description
 
 * * *
 
+## **Conditional Logic in Calendar Booking Forms**
+
+  
+
+
+Conditional logic in forms also applies when a custom form is used inside a supported calendar booking flow. This gives you more control over qualification and the final confirmation experience.
+
+  
+
+
+In calendar bookings:
+
+  
+
+
+  * Show/Hide logic updates fields dynamically as the user answers questions  
+  
+
+  * Disqualify lead logic is checked before the appointment is booked  
+  
+
+  * If a lead is disqualified, the system does not create the appointment  
+  
+
+  * If a lead is disqualified, the system does not collect payment  
+  
+
+  * Redirects and custom messages can be used as part of the booking outcome
+
+
+  
+
+
+If the calendar confirmation page is set to **Use custom form rules** , the system shows the form’s redirect or custom message after submission. If the form does not include either one, the booking uses the default confirmation page instead.
+
+  
+
+    
+    
+    Note: Calendar support described here applies to supported booking flows that use custom forms. Services (v2) and Rentals are not included in this article yet.
+
+* * *
+
 ## How to Set Up Conditional Logic
 
 You can add and manage rules directly inside the Form or Survey Builder.
@@ -162,6 +205,9 @@ Depending on the action type:
   * The system checks for missing values and prevents loops automatically.
 
   * Rules run **top-down** , and later matches override earlier ones.
+
+
+  
 
 
 * * *
@@ -297,6 +343,9 @@ In surveys, you can filter rules by:
 * * *
 
 ## FAQs
+
+  
+
 
 **1\. Can I mix AND and OR in the same rule?**  
 No. Each rule must use one type of connector — either AND or OR.

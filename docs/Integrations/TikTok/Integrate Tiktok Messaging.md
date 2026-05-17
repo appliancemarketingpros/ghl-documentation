@@ -111,6 +111,14 @@ If a specific account is not selected in the filter, the system will automatical
 
 a. Published Post - 'Published Posts' tab fetches all posts on your business page - basis this selection, all the posts from your account comes as a dropdown.
 
+  
+
+
+**Post label behavior:** If a TikTok post does not have a caption, the workflow trigger dropdown shows the Post ID and Posting Date so you can still select the correct post reliably.
+
+  
+
+
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155058389312/original/vwKzHrYg-TglzdmBlP_haucBTTV2xXldzQ.png?1763119958)  
 
 

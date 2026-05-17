@@ -8,27 +8,77 @@
 
 Email Deliverability
 
-# Why Are My Emails Going to Spam?
+Why Are My Emails Going to Spam? Complete Troubleshooting Guide
 
-A practical guide to the most common reasons HighLevel emails land in spam — from authentication gaps and poor sender reputation to content red flags and list hygiene — with clear fixes for each issue.
+A practical guide to why emails land in spam — from authentication and reputation to content and list hygiene — plus a step-by-step diagnostic workflow with header inspection and Postmaster checks.
 
-Mailbox providers like Gmail, Outlook, and Yahoo weigh dozens of signals before deciding whether a message reaches the inbox. Below are the most common reasons your emails end up in spam — and exactly how to fix each one.
+What You'll Learn
+
+Mailbox providers like Gmail, Outlook, and Yahoo weigh dozens of signals before deciding whether a message reaches the inbox. This guide covers the most common reasons your emails end up in spam — and exactly how to fix each one.
+
+It also includes a diagnostic workflow: how to read the email header, what SPF/DKIM/DMARC failures look like, and how to use Google Postmaster Tools to assess domain reputation.
 
 Table of Contents
 
-  1. 1 Sending From a Public Domain
-  2. 2 Missing SPF, DKIM, or DMARC Authentication
-  3. 3 List Health & List Collection
-  4. 4 Sending Internal Mail
-  5. 5 Sending Volume or Frequency Issues
-  6. 6 Content Triggers Spam Filters
-  7. 7 Poor Sender Reputation & High Complaint Rates
-  8. 8 Misleading Subject Lines & Missing From Name
-  9. 9 Missing Unsubscribe Link or List-Unsubscribe Header
-  10. 10 Sending to Role-Based or Spam-Trap Addresses
-  11. 11 Frequently Asked Questions
-  12. 12 Related Articles
+1
 
+Sending From a Public Domain
+
+2
+
+Missing SPF, DKIM, or DMARC Authentication
+
+3
+
+List Health & List Collection
+
+4
+
+Sending Internal Mail
+
+5
+
+Sending Volume or Frequency Issues
+
+6
+
+Content Triggers Spam Filters
+
+7
+
+Poor Sender Reputation & High Complaint Rates
+
+8
+
+Misleading Subject Lines & Missing From Name
+
+9
+
+Missing Unsubscribe Link or List-Unsubscribe Header
+
+10
+
+Sending to Role-Based or Spam-Trap Addresses
+
+11
+
+How to Inspect the Email Header (SPF, DKIM, DMARC)
+
+12
+
+Fixing Email Header (Authentication) Failures
+
+13
+
+Check Domain Reputation with Google Postmaster Tools
+
+14
+
+Frequently Asked Questions
+
+15
+
+Related Articles
 
 1
 
@@ -44,23 +94,17 @@ Send from a domain you own that matches your brand (e.g., `hello@yourbrand.com`)
 
 ## Missing SPF, DKIM, or DMARC Authentication
 
-If your sending domain has a DMARC policy but you haven't authenticated it with your SMTP provider, messages will almost certainly fail alignment and land in spam. SPF and DKIM are how mailbox providers verify that HighLevel is authorized to send on your behalf.
+If your sending domain has a DMARC policy but you haven't authenticated it with your SMTP provider, messages will almost certainly fail alignment and land in spam. SPF and DKIM are how mailbox providers verify that the platform is authorized to send on your behalf.
 
-SPF
-
-Lists which servers are allowed to send mail from your domain.
-
-DKIM
-
-Cryptographically signs your mail to prove it wasn't altered.
-
-DMARC
-
-Tells receivers what to do when SPF/DKIM fail.
-
+Record| What It Does  
+---|---  
+SPF| Lists which servers are allowed to send mail from your domain.  
+DKIM| Cryptographically signs your mail to prove it wasn't altered in transit.  
+DMARC| Tells receivers what to do when SPF/DKIM fail (none, quarantine, or reject).  
+  
 How to Fix
 
-Verify your domain in HighLevel's Email Services settings, add the SPF and DKIM records to your DNS, and confirm DMARC alignment with your SMTP provider.
+Verify your domain in the platform's Email Services settings, add the SPF and DKIM records to your DNS, and confirm DMARC alignment with your SMTP provider.
 
 3
 
@@ -69,19 +113,19 @@ Verify your domain in HighLevel's Email Services settings, add the SPF and DKIM 
 Once the technical pieces are in place, **list quality** becomes the biggest deliverability factor. A dirty or unconsented list will sink even a perfectly authenticated sender.
 
   * Everyone on your list gave **direct consent** to receive email marketing.
-  * Cold/unengaged subscribers are cleaned from your list on a regular cadence.
+  * Cold or unengaged subscribers are cleaned from your list on a regular cadence.
   * Forms are secured with **double opt-in** and/or reCAPTCHA to prevent bot abuse.
 
 
 How to Fix
 
-Never buy lists. Remove hard bounces immediately. Suppress subscribers who haven't engaged in 90+ days, and win-back campaigns before deleting. Read the [Introduction to Email Deliverability](<https://help.gohighlevel.com/en/support/solutions/articles/48001063371>) for more.
+Never buy lists. Remove hard bounces immediately. Suppress subscribers who haven't engaged in 90+ days, and run win-back campaigns before deleting. Read the [Introduction to Email Deliverability](<https://help.gohighlevel.com/en/support/solutions/articles/48001063371>) for more.
 
 4
 
 ## Sending Internal Mail
 
-Sending from and to the same domain — for example, `info@exampledomain.com` → `susan@exampledomain.com` — often lands in spam. Your mailbox sees a message "from itself" that it didn't actually send (HighLevel did), so it treats the message as **spoofing**.
+Sending from and to the same domain — for example, `info@exampledomain.com` → `susan@exampledomain.com` — often lands in spam. Your mailbox sees a message "from itself" that it didn't actually send (the platform did), so it treats the message as **spoofing**.
 
 How to Fix
 
@@ -159,7 +203,7 @@ Gmail and Yahoo now **require** bulk senders to include a one-click List-Unsubsc
 
 How to Fix
 
-Ensure every marketing email includes a visible unsubscribe link in the footer. HighLevel automatically adds the List-Unsubscribe header for LC Email sends — verify it's enabled in your Email Service settings.
+Ensure every marketing email includes a visible unsubscribe link in the footer. The platform automatically adds the List-Unsubscribe header for LC Email sends — verify it's enabled in your Email Service settings.
 
 10
 
@@ -173,6 +217,128 @@ How to Fix
   * Validate your list with an **email verification service** before large sends.
   * Never import lists you didn't collect yourself.
 
+
+Diagnostic Workflow
+
+Still landing in spam? Run these checks next.
+
+Inspect the email header to confirm authentication, then verify domain reputation with Google Postmaster Tools.
+
+11
+
+## How to Inspect the Email Header (SPF, DKIM, DMARC)
+
+Emails will land in spam if **SPF, DKIM, or DMARC** fail. The fastest way to confirm authentication status is to send a test email to a Gmail address and inspect the original message header.
+
+Step 1
+
+Send a test email to a Gmail address
+
+Trigger a test send from your sending domain to any Gmail inbox you control. This gives you a real message you can inspect end-to-end.
+
+![Test email received in Gmail inbox](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071014664/original/zqSrLEA-3i-LMaLzdtQBJ8XxkkVMurY6mA.png?1778494402)
+
+Step 2
+
+Open the original message in Gmail
+
+  1. Click the three vertical dots next to the **Reply** button.
+  2. Select **"Show original."**
+  3. A new window will display the full headers.
+  4. Verify that the SPF, DKIM, and DMARC results all show **"PASS"**.
+
+
+SPF Fail Example
+
+The header shows `SPF: FAIL` — the sending server is not authorized in the domain's SPF record.
+
+![SPF FAIL example in Gmail email header](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071014667/original/5y_xWU154b3pCbj_D6fPnszpwup7gUp9tw.png?1778494402)
+
+DMARC Fail Example
+
+The header shows `DMARC: FAIL` — even though SPF or DKIM may pass on their own, the alignment with the From-address domain is broken.
+
+![DMARC FAIL example in Gmail email header](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071014666/original/aM_Ml7SCDU599S1H4f_Xd672RIl67BnnEw.png?1778494402)
+
+Tip
+
+If all three (SPF, DKIM, DMARC) show PASS, the header is clean — move on to the domain reputation check in Section 13.
+
+12
+
+## Fixing Email Header (Authentication) Failures
+
+SPF or DKIM Fail
+
+Add the required DNS records and re-verify
+
+Add the SPF and DKIM records provided by your SMTP provider to your domain's DNS, then re-verify the domain inside the platform's Email Service settings. Allow up to 24 hours for DNS propagation before testing again.
+
+DMARC Fail — Scenario 1
+
+Sending domain and "From" address domain are different
+
+When the sending domain differs from the From-address domain and either has a DMARC policy of **"Reject"** or **"Quarantine"** , authentication will fail.
+
+**Solution:**
+
+  * Send emails from the same domain as the From address.
+  * Or update the DMARC policy to **"none"** (`v=DMARC1; p=none;`).
+
+
+DMARC Fail — Scenario 2
+
+Sending and "From" domains match, but DMARC still fails
+
+When both domains are the same and the policy still fails, there's typically a misconfiguration on the DMARC record itself.
+
+**Solution:**
+
+  * Use **Dmarcian** to inspect the DMARC record for the domain — it will return a complete diagnostic report.
+  * Update the DMARC record on both the root and sending subdomains to: `v=DMARC1; p=none;`
+
+
+Good to Know
+
+If the email header looks good (SPF, DKIM, and DMARC all PASS) but emails still hit spam, the issue is no longer authentication — move to the domain reputation lookup in the next section.
+
+13
+
+## Check Domain Reputation with Google Postmaster Tools
+
+If authentication passes but emails still land in spam, the next step is checking your domain reputation. A bad or low reputation will route messages straight to the spam folder regardless of authentication status. Full setup instructions are in the [Google Postmaster Tools](<https://help.gohighlevel.com/support/solutions/articles/155000004150-google-postmaster-tools>) guide.
+
+Step 1
+
+Navigate to the Google Postmaster Tool
+
+Go to **Settings → Email Service → Postmaster Tools → Google Postmaster Tool**.
+
+![Navigating to Google Postmaster Tool in Email Service settings](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071014658/original/iMGFFRZNB24Zxr-HrdpK0eebgBKo3u5_TQ.png?1778494402)
+
+Step 2
+
+Review the complete reputation data
+
+Explore the Postmaster dashboard: domain reputation, IP reputation, spam rate, authentication results, and delivery errors. Look for anything in the **Bad** or **Low** category.
+
+![Google Postmaster Tool reputation data dashboard](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071014662/original/dGwQdr7Mu8EpSfnBcUyZppZ5FhQHJWWmrg.png?1778494402)
+
+Common Cause — High Spam Report Rate
+
+A frequent reason for "Bad" reputation: recipients are marking your emails as spam at an elevated rate. This is the single most damaging signal for sender reputation.
+
+![High spam report rate shown in Google Postmaster Tool](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071014660/original/8sDtSAMBU1xTZKFI8yFtXi8yT55lzT_-Qg.png?1778494402)
+
+How to Fix
+
+  * Stop all cold email immediately — cold sends are the most common cause of spam complaints.
+  * Warm up the domain following the [Email Sending Guide: Best Practices & Warm-Up](<https://help.gohighlevel.com/support/solutions/articles/155000001021-email-sending-guide-email-best-practices-email-warm-up>).
+  * Send only to **engaged recipients** for several weeks while reputation recovers.
+  * Audit content for anything that might invite complaints (misleading subject lines, no unsubscribe link, frequency too high).
+
+
+14
 
 ## Frequently Asked Questions
 
@@ -196,6 +362,14 @@ Q: How long does it take to recover from being marked as spam?
 
 Recovery typically takes **4–8 weeks** of consistent good sending behavior. Slow down your volume, send only to engaged subscribers, and focus on content that invites replies and clicks. There's no shortcut — you have to earn trust back.
 
+Q: Where do I check SPF, DKIM, and DMARC results for a specific test email?
+
+Send a test email to Gmail, open the message, click the three vertical dots next to the Reply button, and choose **"Show original."** The header view lists SPF, DKIM, and DMARC results — all three should read **PASS**.
+
+Q: Is Google Postmaster Tools integration mandatory before escalating?
+
+Yes. Without Postmaster Tools integration the deliverability team cannot inspect domain reputation or spam-rate signals from Gmail. Connect it under **Settings → Email Service → Postmaster Tools** before opening an escalation.
+
 Related Articles
 
-[ Email Sending Guide: Email Best Practices & Email Warm Up ](<https://help.gohighlevel.com/en/support/solutions/articles/155000001021>) [ What is LC Email? ](<https://help.gohighlevel.com/en/support/solutions/articles/48001220605>) [ What is a Dedicated IP in LC Email? ](<https://help.gohighlevel.com/en/support/solutions/articles/155000001152>) [ An Introduction to Email Deliverability ](<https://help.gohighlevel.com/en/support/solutions/articles/48001063371>) [ How to Use the Email Risk Assessment Tool for LC Email ](<https://help.gohighlevel.com/en/support/solutions/articles/155000000577>)
+[Email Sending Guide: Email Best Practices & Email Warm Up](<https://help.gohighlevel.com/en/support/solutions/articles/155000001021>) [What is LC Email?](<https://help.gohighlevel.com/en/support/solutions/articles/48001220605>) [What is a Dedicated IP in LC Email?](<https://help.gohighlevel.com/en/support/solutions/articles/155000001152>) [An Introduction to Email Deliverability](<https://help.gohighlevel.com/en/support/solutions/articles/48001063371>) [How to Use the Email Risk Assessment Tool for LC Email](<https://help.gohighlevel.com/en/support/solutions/articles/155000000577>) [Google Postmaster Tools Setup](<https://help.gohighlevel.com/support/solutions/articles/155000004150-google-postmaster-tools>)

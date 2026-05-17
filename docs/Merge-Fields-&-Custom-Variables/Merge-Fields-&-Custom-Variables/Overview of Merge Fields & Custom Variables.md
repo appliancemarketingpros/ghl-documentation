@@ -198,6 +198,46 @@ _![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/produc
 
 * * *
 
+## **Additional workflow fields in the picker**
+
+  
+
+
+Merge fields and custom values in workflows can include built-in system fields in addition to your saved custom values. HighLevel now supports more workflow-ready fields in the picker for merge fields and If/Else conditions.
+
+  
+
+
+**These fields include:**
+
+  
+
+
+  * Contact Engagement Score
+  * Contact → Attribution Medium ID
+  * Note created by (Name)
+  * Task ID
+
+
+  
+
+
+These fields help you build more specific automations based on engagement, attribution, note activity, and task context.
+
+  
+
+
+**Important** :  
+  
+
+
+Some fields only appear when the workflow includes the correct context. For example, **Task ID** appears in task-related workflows, and **Note created by (Name)** appears in note-related workflows. **Contact Engagement Score** is available when Engagement Scoring is enabled in the sub-account.
+
+* * *
+
+  
+
+
 ## **Custom Values**
 
   

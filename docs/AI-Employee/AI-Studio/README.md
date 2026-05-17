@@ -8,3 +8,4 @@
 - [Connect Forms and Calendars in AI Studio](Connect Forms and Calendars in AI Studio.md)
 - [Code Editor in AI Studio](Code Editor in AI Studio.md)
 - [Advanced SEO Support in AI Studio](Advanced SEO Support in AI Studio.md)
+- [Visual Edits in AI Studio](Visual Edits in AI Studio.md)

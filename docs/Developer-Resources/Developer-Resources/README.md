@@ -22,3 +22,5 @@
 - [Developer Guide to HighLevel’s Webhook Logs Dashboard](Developer Guide to HighLevel’s Webhook Logs Dashboard.md)
 - [Agency App Reselling Config API](Agency App Reselling Config API.md)
 - [Conversations API -Add Inbound Message (with Contact ID)](Conversations API -Add Inbound Message (with Contact ID).md)
+- [Email Marketing V2 Public APIs](Email Marketing V2 Public APIs.md)
+- [Email Template Update API](Email Template Update API.md)

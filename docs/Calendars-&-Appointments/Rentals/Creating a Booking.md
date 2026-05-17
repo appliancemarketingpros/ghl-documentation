@@ -209,6 +209,14 @@ The booking form includes the following sections:
 
 Each section is detailed below.
 
+  
+
+    
+    
+    **Tip:** If you need to take a listing off the calendar (for example, maintenance or internal use), create a Blocked slot event. Blocked slots reduce availability like a booking, but they are not tied to a customer booking or order.
+    
+    Learn more: [Blocked Slots for Rental Listings](<https://help.gohighlevel.com/en/support/solutions/articles/155000007944>)
+
 * * *
 
 ## **Customer Information**

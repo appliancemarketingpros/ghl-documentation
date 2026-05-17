@@ -95,13 +95,14 @@ If you're new to blogging or want to start your own blog but don't know where to
   1. Add **Blog****Site****Title**. (This is what appears in a browser tab title barand search results)  
 **  
 **
-  2. **Select** or **Add** /**Edit****Domain**.  
+  2. **Select** or **Add** /**Edit****Domain**. (Optional you can connect a domain later in Blog Settings.)
+  3. **Domain management:** You can connect a domain at creation time or later from Blog Settings. If you need to switch domains, use Remove Domain in Blog Settings and then connect the new domain.  
   
 
-  3. Add **Slug**.  
+  4. Add **Slug**.  
   
 
-  4. Add a **Blog Meta Description**. (Optional but recommended)
+  5. Add a **Blog Meta Description**. (Optional but recommended)
 
 
   
@@ -290,7 +291,13 @@ URL Slug, Category, Author, Title and Post Description are mandatory.
 
 **Q: Can I use custom values in a blog post?**
 
-No, Custom Values are not supported in blog posts at the moment. You cannot use values like {{contact. name}} or {{custom_values.xyz}}
+No, Custom Values are not supported in blog posts at the moment. You cannot use values like {{contact. name}} or {{custom_values.xyz}} 
+
+  
+
+
+  
+
 
   
 

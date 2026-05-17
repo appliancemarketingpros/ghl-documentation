@@ -19,31 +19,32 @@ AI Studio is an AI-powered builder in HighLevel that helps you create websites, 
 **TABLE OF CONTENTS**
 
   * What is AI Studio
-    * Key Benefits of AI Studio
-    * Where to Find AI Studio
-    * AI Studio Home and Interface Overview 
+  * Key Benefits of AI Studio
+  * Where to Find AI Studio
+  * AI Studio Home and Interface Overview 
     * Creating a Project in AI Studio
-      * Start with a Prompt
-      * AI Studio Asks Follow-Up Questions When Needed
-      * Start with a Template
-    * How to Edit and Refine Projects
-    * Code Editor in AI Studio
-    * Advanced SEO Support in AI Studio
-    * Previewing and Reviewing Your Project
-    * Version History
+    * Start with a Prompt
+    * AI Studio Asks Follow-Up Questions When Needed
+    * Start with a Template
+  * How to Edit and Refine Projects
+  * Visual Edits in AI Studio
+  * Code Editor in AI Studio
+  * Advanced SEO Support in AI Studio
+  * Previewing and Reviewing Your Project
+  * Version History
     * Forms and Calendar Integration
-      * How Forms Work in AI Studio
-      * How Calendars Work in AI Studio
+    * How Forms Work in AI Studio
+    * How Calendars Work in AI Studio
     * Publishing Your Projects
-      * Publish to a Preview Domain
-      * Connect a Custom Domain
-      * Set a Primary Published URL
-    * Cloning Projects in AI Studio
+    * Publish to a Preview Domain
+    * Connect a Custom Domain
+    * Set a Primary Published URL
+  * Cloning Projects in AI Studio
     * Submission Data of your Project
-      * How Workflows Connect to Form Submissions
-    * Current Limitations and Important Notes
-    * Frequently Asked Questions
-    * Related Articles
+    * How Workflows Connect to Form Submissions
+  * Current Limitations and Important Notes
+  * Frequently Asked Questions
+  * Related Articles
 
 
 * * *
@@ -112,6 +113,10 @@ AI Studio helps teams create faster, experiment more easily, and move from idea 
 
 
   * **Natural Editing:** Request changes in plain language and let AI update the project  
+  
+
+
+  * **Visual Refinement:** Click elements in the live preview to update text, images, icons, spacing, colors, and layout details without editing code.  
   
 
 
@@ -367,6 +372,35 @@ AI Studio works best as a conversational builder. You are not locked into the fi
 AI Studio can also use uploaded images in the project. If you do not provide images, it may generate visuals for you.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068190444/original/eynHSuXQd0Y5r9v97bDvSLeAHS9ucn9aqA.png?1774984510)
+
+* * *
+
+## **Visual Edits in AI Studio**
+
+  
+
+
+Visual Edits gives users a direct way to refine AI Studio projects from the live preview. Instead of using prompts or opening the Code Editor for every small adjustment, users can select elements on the page and make visual updates to text, buttons, images, icons, colors, spacing, and layout details.
+
+  
+
+
+To enter Visual Edit mode, click **Visual Edits** in the prompt area at the bottom-left of the builder.
+
+  
+
+
+After Visual Edit mode is enabled, the preview becomes interactive. Users can double-click text to edit it inline, select elements to open contextual controls, or use a prompt on selected elements when they want AI help with a targeted change.
+
+  
+
+
+For a full walkthrough of features and capabilities, see: [Visual Edits in AI Studio](<https://help.gohighlevel.com/en/support/solutions/articles/155000007914>)
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071170107/original/n0i_P9DPBpvQ-yTHLQk9Mud6HVvU0sx8Eg.png?1778603356)
 
 * * *
 
@@ -781,6 +815,12 @@ To set a primary published URL:
   
 
 
+  
+
+
+  
+
+
 AI Studio lets you clone a project within the same sub-account or across sub-accounts in the same agency. Project cloning makes it easier to reuse successful work without rebuilding the same experience from scratch.
 
   
@@ -962,6 +1002,9 @@ Yes. AI Studio includes preview options for desktop, tablet, and mobile views so
 
 
   * [AI Product Pricing Update](<https://help.gohighlevel.com/en/support/solutions/articles/155000006652>)  
+  
+
+  * [](<https://help.gohighlevel.com/en/support/solutions/articles/155000007652>)[Visual Edits in AI Studio](<https://help.gohighlevel.com/en/support/solutions/articles/155000007914>)  
   
 
   * [Code Editor in AI Studio](<https://help.gohighlevel.com/en/support/solutions/articles/155000007652>)  

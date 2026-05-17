@@ -7,7 +7,6 @@
 - [Where Do Form Responses Show Up?](Where Do Form Responses Show Up.md)
 - [Exporting Form answers to Google Sheets](Exporting Form answers to Google Sheets.md)
 - [Sticky Contact in Forms, Surveys, and Calendars](Sticky Contact in Forms, Surveys, and Calendars.md)
-- [No Slide Button in Survey](No Slide Button in Survey.md)
 - [Gain Consent With Custom Checkboxes In Forms (GDPR Compliance)](Gain Consent With Custom Checkboxes In Forms (GDPR Compliance).md)
 - [Conditional Logic V2 in Forms and Surveys!](Conditional Logic V2 in Forms and Surveys!.md)
 - [Themes in Forms/Surveys](Themes in FormsSurveys.md)
@@ -24,3 +23,4 @@
 - [How to Use SMS Verification in Forms and Surveys](How to Use SMS Verification in Forms and Surveys.md)
 - [How to Quickly Add and Edit Custom Fields in Forms and Surveys](How to Quickly Add and Edit Custom Fields in Forms and Surveys.md)
 - [Math Calculations in Forms/Surveys](Math Calculations in FormsSurveys.md)
+- [How to Use Address Auto-Complete in HighLevel Forms and Surveys](How to Use Address Auto-Complete in HighLevel Forms and Surveys.md)

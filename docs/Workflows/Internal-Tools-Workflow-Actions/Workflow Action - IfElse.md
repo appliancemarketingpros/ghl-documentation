@@ -1,247 +1,470 @@
 # Workflow Action - If/Else
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/48001180266-workflow-action-if-else](https://help.gohighlevel.com/support/solutions/articles/48001180266-workflow-action-if-else)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000002471-workflow-action-if-else](https://help.gohighlevel.com/support/solutions/articles/155000002471-workflow-action-if-else)  
 **Category:** Workflows  
 **Folder:** Internal Tools Workflow Actions
 
 ---
 
-##   
+The **If/Else** workflow action allows you to route contacts through different paths based on defined conditions. With the latest enhancement, you can now use **Dynamic Custom Values** in If/Else conditions to compare live values from earlier workflow steps or stored fields—eliminating the need to hard-type values and reducing duplicate logic.
 
+* * *
 
 **TABLE OF CONTENTS**
 
-**When using Includes/ Does Not Include as a condition:**
-
-Creating an And condition:
-
-Creating an Or Condition
-
-  
-**If/ Else Branches**
-
-What happens when two branches are both true? Will the lead go down both paths?
-
-  
-**Time Comparison Operators**
-
-The "Is" Operator
-
-The "Is Not" Operator
-
-The "Is After" Operator
-
-The "Is on or After" Operator
-
-The "Is before" Operator
-
-The "Is on or before" Operator
-
-The "Is not empty" or "Is empty" Operator
-
-  
-**Troubleshooting**
-
-  
-
-
-  
+  * What Is the If/Else Workflow Action?
+  * Key Benefits of the If/Else Action
+  * How to Use the If/Else Action
+  * Step 1: Add the If/Else Action
+  * Step 2: Choose a Logic Setup Method
+  * Step 3: Configure the First Branch
+  * Step 4: Add Additional Branches (Optional)
+  * Step 5: Configure the “None” (Else) Branch
+  * Using Dynamic Values in If/Else Conditions 
+  * Supported Field Types
+  * How to Use Dynamic Values
+  * Important Note for Select / Dropdown Fields
+  * Example Use Case
+  * Action Details
+  * Example: Follow-Up Based on Email Engagement
+  * Frequently Asked Questions
+  * Related Articles
 
 
 * * *
 
-## **When using _Includes/ Does Not Include_ as a condition: **  
-  
-
-
-**Please Note:**
-    
-    
-    There are several conditional parameters in Workflow Builder where you'll have the option to specify "**Includes** " or "**Does not include** " such as Tags and other multiple-option custom fields (checkbox fields, dropdown pickers, etc.)
+# **What Is the If/Else Workflow Action?**
 
   
 
+
+The If/Else action evaluates contact-specific data and splits a workflow into multiple branches based on whether conditions are met. Each branch represents a logical path that a contact follows depending on the outcome of the condition check.
+
+  
+
+
+This makes it possible to create personalized, data-driven workflows that adapt dynamically to a contact’s behavior, attributes, or calculated values.
+
+* * *
+
+## **Key Benefits of the If/Else Action**  
+  
+
+
+  * **Conditional Logic:** Route contacts down different paths based on real-time data  
+  
+
+
+  * **Automation Efficiency:** Reduce manual sorting and duplicate workflow steps  
+  
+
+
+  * **Scalable Segmentation:** Handle complex branching logic as workflows grow  
+  
+
+
+  * **Visual Clarity:** Clearly see and manage decision points in the workflow builder
+
+
+* * *
+
+## **How to Use the If/Else Action**
+
+  
+
+
+### **Step 1:**_Add the If/Else Action_  
+  
+
+
+  1. Open your workflow.  
+  
+
+
+  2. Click the **+** icon to add a new action.  
+  
+
+
+  3. Select **If / Else** from the action list.  
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064138111/original/QHWzWp0cVu8mQcNsqQ1TRvlxEjAvSdSZVA.png?1770186397)
+
+###   
+**Step 2:**_Choose a Logic Setup Method_  
+  
+
+
+You can either:  
+  
+
+
+  * Build logic manually using **Build My Own** , or  
+  
+
+
+  * Start from a prebuilt recipe with common conditions.
+
+
+###   
+**Step 3:**_Configure the First Branch_  
+  
+
+
+  1. Select the field you want to evaluate.  
+  
+
+
+  2. Choose the appropriate operator.  
+  
+
+
+  3. Set the comparison value.  
+  
+
+
+  4. Click **Add Segment** to add additional conditions.  
+  
+
+
+  5. Use **AND / OR** to control how conditions are grouped.  
+  
+
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064138158/original/uBsuEu4NYpnkmlNxnWjDMlDv-IJU3EEDwg.png?1770186485)**
+
+###   
+**Step 4:**_Add Additional Branches (Optional)_  
+  
+
+
+  * Click **Add Branch** to define more condition groups.  
+  
+
+
+  * Each branch represents a separate path in the workflow.  
+  
+
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064138205/original/VkxzPJfxHTDdkMNNRo9GLZ8bEIE7fBW4-g.png?1770186527)**
+
+###   
+**Step 5:**_Configure the “None” (Else) Branch_  
+  
+
+
+  * The **None** branch is created automatically.  
+  
+
+
+  * It runs when no defined conditions are met.  
+  
+
+
+  * This branch does not support conditions and cannot be removed.  
+  
+
+
+  * You can rename it and add fallback actions.  
+  
+
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064138232/original/npnbPACEOdDdptOOZHUT5SqhUnQ1wOtwXw.png?1770186570)**
+
+* * *
+
+## **Using Dynamic Values in If/Else Conditions**
 
 ##   
 
 
-## **Creating an __And__ condition:**
-
-In the example below we are using the _AND_ condition. The system is searching to make sure that the contact Tags - "**_Does NOT include_** " _both_ the '**consultation_booked** ' _**AND**_ '**consultation_confirmed** ' tags.
+You can now use **Dynamic Values** on the right-hand side of If/Else conditions. This allows you to compare live values—such as outputs from earlier workflow steps or stored fields—without hard-coding numbers or text.
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48250497669/original/FlAzFJDU1cdgpaFpt9G1g1I-LshYykcoIw.png?1662994820)
+This enhancement lets you branch directly on values that were calculated or captured upstream.
 
   
 
 
-  
-
-
-If _one of the two_ tags is present on the respective contact, then the condition will **_fail_**. 
-
-In this example in order for this contact to go down the "YES" path, both tags would _NOT_ be present on the contact profile/record.
+You can select **Company fields** in If/Else conditions when building a contact-based workflow. 
 
   
 
 
+Company fields appear alongside contact fields in the field/variable picker.
+
+  
+
+
+Important: Company fields resolve only when the contact is associated with a company. If the contact has no associated company, the value is blank.
+
   
 
 
+**Example Use Cases**  
   
 
 
+Route contacts based on Company Address (for example, by state or region).  
   
+
+
+Branch based on Company Name to apply different logic for specific accounts.
+
+* * *
+
+## **Supported Field Types**
+
+  
+
+
+Dynamic Values are supported for the following condition types in If/Else actions:  
+  
+
+
+  * **Numeric** – scores, counts, totals  
+  
+
+
+  * **Date** – appointment dates, renewal dates  
+  
+
+
+  * **Select / Dropdown** _(advanced – requires option IDs)_  
+  
+
+
+  * **Monetary** – invoice totals or amounts
 
 
 * * *
 
-## **Creating an**** __Or__ Condition**
-
-If your intention is to create an "_OR_ " scenario, you would want to break the two tags into separate conditions and choose the _OR_ option like this:
-
+## **How to Use Dynamic Values**  
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48250492624/original/PVEr200i5xqjrUmLV8Th7Z7N3w-UC0p-Hg.png?1662993828)
-
+  1. Add an **If/Else** action to your workflow.  
   
 
 
-In this case, if the contact meets _ONE or both_ of the "Or tags" then the condition is _true_. The system is only looking for one or both conditions to be correct before pushing the contact down the "**Yes** " path.
-
+  2. Configure the left-hand field as usual.  
   
 
 
-**More info:[If/ Else Conditions - Troubleshooting AND or OR conditions](<https://help.gohighlevel.com/en/support/solutions/articles/48001202137>)**
-
-**  
-**
-
-* * *
-
-## **If/ Else Branches**
-
+  3. In the right-hand input, switch the value type to **Dynamic Value**.  
   
 
 
+  4. Select a value from:  
   
 
 
-**Please Note:**
-    
-    
-    If or else branches support up to _10 different_ outcomes per event.
-
+     * An earlier workflow step output, or  
   
 
 
-##   
-
-
-### **What happens when two branches are both true? Will the lead go down both paths?**
-
-No, the system will push the lead down the first correct path/branch in your setup. So it goes top down in the order you built the conditions/branches.
-
+     * A stored field.  
   
 
 
+  5. Choose the appropriate operator (number, date, or value).  
   
 
 
-* * *
+  6. Save and publish the workflow.
 
-## **Time Comparison Operators**
-
-Time Comparison Operators are essential components in workflows used to compare the current date and time with a specified input value. These operators enable workflow automation systems to make informed decisions based on time conditions. The different date and time units that can be compared using these operators include the current day of the week, the current day of the month, the current month, the current year, and the current hour.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48285767416/original/KoCQkLH9MoyKbTKOIcvnrgut3GGu561TCg.png?1678205389)  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48285767549/original/dbRqTFVic08R06DsjrWJTBvu_oQTTHsuvA.png?1678205424)Once you choose the specific Time Parameter for which you want to use a Time Comparison Operator for, you need to choose the Time Comparison Operator from the drop down for **Select Operator:**  
-  
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48285768884/original/teNiXrftXKTqW1mha1KThd6BZnUd0INqGA.png?1678205723)**
-
-### **  
-The "Is" Operator  
-**
-
-  
-
-
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48285768774/original/ky0A4uISIeeisjKdlTEGXhxz--Q1Om2W7w.png?1678205699)**
 
 ###   
-  
-
-
-The "Is" comparison operator checks whether the selected date unit is the same as the input value. For instance, "Current Day of the Week Is Monday" will only return true if today is Monday. Similarly, "Current Month Is January" will only return true if it is currently January. For the options like**Current day of the Month is** , you need to specify the date of the current month like the 1st, 2nd, 3rd .
-
-###   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48285770094/original/wIhZ5qcg5hVwFuc6UAXzWcxuFSZn2B49Uw.png?1678206019)**The "Is Not" Operator**
-
-The "Is not" operator, on the other hand, checks if the selected date unit is different than the provided input. For instance, "Current Day of the Week Is Not Saturday" will return true for all days except Saturday.  
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48285772852/original/kCKx0qld3p_3b3nSPMEKESQphNrTsArYkg.png?1678206507)
-
-### **  
-The "Is After" Operator  
-**
-
-The "Is after" operator checks if the selected date unit is after the provided input. However, in the case of **hours** , this operator only considers minutes that start on the next hour. For instance, "Current Hour Is After 6 PM" will only return true if the time is 7:00 PM onwards because 6:59 PM is still considered inside of 6 PM.  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48285773967/original/ctdTUP7-6TRTnlqG6bAo06Ops_t3tZrBKA.png?1678206767)
+**Important Note for Select / Dropdown Fields**
 
   
 
 
-### **  
-The "Is on or After" Operator  
-**
+> **Select / Dropdown fields require option IDs** , not display names, when used with Dynamic Values in If/Else conditions.
 
-The "Is on or after" operator checks if the selected date unit is on or after the provided input. For**hours** , this operator considers minutes from the same hour and onwards. For instance, "Current Hour Is On or After 6 PM" will return true for 6:59 PM because it is considered to be "On" 6 PM. And it will also be true for any time after 6PM because of the **on or After** logic in it.
+>   
+> 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48285774725/original/LbFSGZ2xAz7OwUALQtrjMyULCNhd4uguww.png?1678206957)
-
-  
-
-
-### **The "Is before" Operator**
+> In many cases, these IDs can be found in settings (for example, Pipeline IDs or Stage IDs).
 
   
 
 
-The "Is before" operator checks if the selected date unit is before the provided input. For example, "Current Month Is Before June" will return true for all months before June.
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48285775110/original/Bkcc0xt6Pds6vD8yLtPApbAMaM6GcnUwlQ.png?1678207054)
+### **New workflow fields available in If/Else**
 
   
 
 
-### **The "Is on or before" Operator**
+If/Else conditions support more workflow fields, which gives you more precise branching without adding extra lookup steps. These fields appear in the field picker like other supported values, but some only appear when the workflow has the right context.
 
-The "Is on or before" operator checks if the selected date unit is on or before the provided input. For **hours** , this operator also considers minutes from the same hour. For instance, "Current Hour Is On or Before 6 PM" will return true for 6:59 PM because it is considered to be "On" 6 PM.
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48285775589/original/2EYd4ky4Khaa70G3s6_cbNPSXs3-NMj_Wg.png?1678207145)  
+  
 
 
-### **The "Is not empty" or "Is empty" Operator**
+**Newly available fields include:**
 
-Lastly, the "Is not empty" operator checks if the field has a value, while the "Is empty" operator checks if the field does not have any value. These two operators are used to ensure that the workflow automation system receives valid input values.
+  
+
+
+  * Contact Engagement Score
+  * Contact → Attribution Medium ID
+  * Note created by (Name)
+  * Task ID
+
+
+  
+
+
+Use these fields in If/Else when you want to branch based on attribution, engagement, note ownership, or task-specific workflow data.
+
+  
+
+
+**Field availability notes:**
+
+  
+
+
+  1. **Contact Engagement Score** appears when Engagement Scoring is set up in the sub-account.
+  2. **Contact → Attribution Medium ID** can be used to branch based on first or latest attribution details.
+  3. **Note created by (Name)** appears in note-related workflow contexts.
+  4. **Task ID** appears in task-related workflows, such as task triggers or after an **Add Task** step.
+
+
+  
+
+
+**Examples:**
+
+  1. If **Contact Engagement Score** is greater than or equal to **20** , send the contact down a high-priority follow-up path.  
+  
+
+  2. If **Attribution Medium ID** matches your paid social source, route the contact to the correct reporting branch.  
+  
+
+  3. If **Note created by (Name)** includes **Success** , notify the Success team.  
+  
+
+  4. If **Task ID** is present, send it to an external tracking system for reference.
+
+
+  
+
+    
+    
+    Note: If a value is unavailable for the current contact or workflow context, the field may be empty and the workflow will still continue to run.
+
+  
+
 
 * * *
 
-# **Troubleshooting**
+## **Example Use Case**
 
   
-**[If/ Else Conditions - Troubleshooting AND or OR conditions](<https://help.gohighlevel.com/en/support/solutions/articles/48001202137>)  
-**
+
+
+When a proposal value is captured earlier in the workflow, you can compare that value dynamically.  
+  
+
+
+If the amount is **$25,000 or more** , route the contact to a priority path; otherwise, continue with the standard process.  
+  
+
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064138289/original/62n-GtQVJ-ot77skqfvb9KV8KVkYWqodmQ.png?1770186683)**
+
+* * *
+
+## **Action Details**  
+  
+
+
+**Field**| **Description**| **Required**  
+---|---|---  
+Action Name| Label used to identify the action in the workflow| Yes  
+Condition| The rule evaluated to determine the branch| Yes  
+Branches| Workflow paths created by the If/Else action| Yes  
+Segments| Groups of conditions combined using AND / OR logic| No  
+  
+* * *
+
+## **Example: Follow-Up Based on Email Engagement**
 
   
-**  
-**
+
+
+**Scenario:**  
+  
+
+
+You want to follow up differently based on whether a contact opened an email.
+
+  
+
+
+**Workflow Logic:**  
+  
+
+
+  * Trigger: Promotional email sent  
+  
+
+
+  * If/Else Condition: Email Event → Is Opened  
+  
+
+
+  * Yes Branch: Send thank-you email with an offer  
+  
+
+
+  * No Branch: Resend the email with a different subject line
+
+
+  
+
+
+This ensures follow-ups are relevant to each contact’s engagement.
+
+* * *
+
+## **Frequently Asked Questions**
+
+  
+
+
+**Q: How can I control when the If/Else condition is evaluated?**
+
+Insert a **Wait** action before the If/Else step. You can wait for an event or a timeout (for example, “Wait until email is opened OR 1 day passes”) before evaluating the condition.
+
+  
+
+
+**Q: Can I edit a branch after it’s created?**
+
+Yes. You can update fields, operators, and values before or after publishing the workflow.
+
+  
+
+
+**Q: Is the None branch required?**
+
+Yes. It is created automatically and cannot be removed.
+
+* * *
+
+## **Related Articles**  
+  
+
+
+  * [Workflow Action – Update Contact Field](<https://help.gohighlevel.com/en/support/solutions/articles/155000002688>)  
+  
+
+
+  * [If/Else Workflow Action – Appointment Filter Options](<https://help.gohighlevel.com/en/support/solutions/articles/155000004050>)
+
+
+##

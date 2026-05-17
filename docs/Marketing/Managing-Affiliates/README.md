@@ -16,3 +16,4 @@
 - [Manage Affiliates with Quick Campaign Actions](Manage Affiliates with Quick Campaign Actions.md)
 - [How to Automatically Level Up Affiliates Based on Performance](How to Automatically Level Up Affiliates Based on Performance.md)
 - [Reassigning CRM Contacts Between Affiliates](Reassigning CRM Contacts Between Affiliates.md)
+- [Affiliate Pay Per Sale for Forms, Surveys, Calendars](Affiliate Pay Per Sale for Forms, Surveys, Calendars.md)

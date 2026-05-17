@@ -45,7 +45,7 @@ Private Integrations allow you to build secure, custom connections between your 
   
 
 
-Private Integrations allows you to build powerful custom integrations between your HighLevel account and any other third-party app. 
+Private Integrations allows you to build powerful custom integrations between your HighLevel account and any other third-party app.
 
   
 
@@ -69,17 +69,14 @@ Private Integrations helps you achieve #2 securely.
   
 
 
-  
-
-
 The key advantages of using Private Integrations are:  
   
 
 
-  * **Simple** : Generate Private Integration tokens from your account settings and manage them with ease.  
+  * Simple: Generate Private Integration tokens from your account settings and manage them with ease.  
   
 
-  * **Secure:** You get to restrict the scopes/permissions that a developer can access on your account
+  * Secure: You get to restrict the scopes/permissions that a developer can access on your account
 
 
   
@@ -129,8 +126,12 @@ Private Integrations, to put it simply, is static/fixed OAuth2 Access Tokens.
   
 
 
-Private Integration tokens are used in the Authorisation header, just like other Access Tokens.  
-For example, to get a location's details, you can use [Get Sub-account API](<https://highlevel.stoplight.io/docs/integrations/d777490312af4-get-sub-account-formerly-location>) with the Agency's Private Integration Token in the Authorisation header.
+Private Integration tokens are used in the Authorisation header, just like other Access Tokens.
+
+  
+
+
+For example, to get a location's details, you can use Get Sub-account API with the Agency's Private Integration Token in the Authorisation header.
 
   
 
@@ -181,7 +182,9 @@ Make sure to:
   
 
 
-  * Replace LOCATION_ID with the actual sub-account ID.
+  * Replace LOCATION_ID with the actual sub-account ID.  
+  
+
   * Replace Authorization value with your generated Private Integration token.
 
 
@@ -204,17 +207,23 @@ For a full list of available endpoints and testing capabilities, visit our offic
 
 By default, all agency admins can create and manage Private Integrations. 
 
+  
+
+
 However, you can restrict this permission at a user level. To do this, Navigate to Settings > Team > Edit the specific agency admin > Roles & Permissions, and enable/disable Private Integrations for the agency admin.
 
   
 
 
-You may apply the restrictions at two levels:
+You may apply the restrictions at two levels:  
+  
+
 
   1. Allow the agency admin to view and manage the agency's private integrations  
   
 
   2. Allow the agency admin to view and manage the sub-accounts' private integrations  
+  
   
 
 
@@ -230,9 +239,12 @@ You may apply the restrictions at two levels:
 You can find Private Integrations under agency settings. If you don't find it under settings, please make sure that you have enabled the feature on Labs.
 
   
+  
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030660190/original/wGql6-BrqjOpzKCG65lxrkC9FH-3G8CjaQ.png?1723109743)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030660190/original/wGql6-BrqjOpzKCG65lxrkC9FH-3G8CjaQ.png?1723109743)  
+  
+
 
 * * *
 
@@ -241,7 +253,10 @@ You can find Private Integrations under agency settings. If you don't find it un
   
 
 
-### **_Step 1_** _: Click on "Create new Integration"_
+**Step 1:** Click on "Create new Integration"
+
+  
+
 
   
 
@@ -254,7 +269,10 @@ You can find Private Integrations under agency settings. If you don't find it un
   
 
 
-### **_Step 2_** _: Give your Private Integration a name and description to help you and your team identify what it's for._
+**Step 2:** Give your Private Integration a name and description to help you and your team identify what it's for.
+
+  
+
 
   
 
@@ -267,8 +285,9 @@ You can find Private Integrations under agency settings. If you don't find it un
   
 
 
-### **_Step 3_** _: Select the scopes/permissions that you want the private integration to have access to on your agency account. Ensure that you are selecting only the required scopes for better data security._
+**Step 3:** Select the scopes/permissions that you want the private integration to have access to on your agency account. Ensure that you are selecting only the required scopes for better data security.
 
+  
   
 
 
@@ -280,8 +299,9 @@ You can find Private Integrations under agency settings. If you don't find it un
   
 
 
-### **_Step 4_** _: Copy the token generated and share it with your third-party app developer.___
+**Step 4:** Copy the token generated and share it with your third-party app developer. 
 
+  
 Please ensure that you are sharing the token with trusted parties only. Do not share it publicly.
 
   
@@ -290,6 +310,7 @@ Please ensure that you are sharing the token with trusted parties only. Do not s
     
     **Note:** Don't forget to copy the token generated as you won't be able to do it again later.
 
+  
   
 
 
@@ -304,12 +325,13 @@ Please ensure that you are sharing the token with trusted parties only. Do not s
 
 We recommend that you rotate your Private Integration tokens every 90 days.
 
+  
 Here's how you can do it.
 
 ### _  
 _
 
-### _**Step 1** : Navigate to Private Integrations under settings, and click on the Private Integration you have created._
+**Step 1:** Navigate to Private Integrations under settings, and click on the Private Integration you have created.
 
   
 
@@ -319,8 +341,9 @@ _
   
 
 
-### ** _Step 2_** _: Click on "Rotate and expire this token later"._
+**Step 2:** Click on "Rotate and expire this token later".
 
+  
   
 
 
@@ -332,9 +355,10 @@ _
   
 
 
-### **_Step 3_** _: Click "Continue" in response to the warning message if you are sure that you want to proceed with rotation._
+**Step 3:** Click "Continue" in response to the warning message if you are sure that you want to proceed with rotation.
 
-  
+**  
+**  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155029055827/original/M40HLVVe3lBbA0BQ5UX-27DLtKK4PbJOkw.png?1720667577)
@@ -345,8 +369,9 @@ _
   
 
 
-### **_Step 4_** _: Copy the new token and update it on your third-party app._
+**Step 4:****Copy the new token and update it on your third-party app.**
 
+  
 You will have a 7-day window where both the old and the new tokens will continue to work. After 7 days, the old token will expire. In this 7-day window, you will have the option to:
 
   
@@ -376,7 +401,7 @@ You will have a 7-day window where both the old and the new tokens will continue
   
 
 
-### **_Step 1_** _: Navigate to Private Integrations under settings, and click on the Private Integration you have created._
+**Step 1: Navigate to Private Integrations under settings, and click on the Private Integration you have created.**
 
   
 
@@ -386,7 +411,7 @@ You will have a 7-day window where both the old and the new tokens will continue
   
 
 
-### ** _Step 2_** _: Click on "Rotate and expire this token now"._
+**Step 2: Click on "Rotate and expire this token now".**
 
   
 
@@ -399,7 +424,7 @@ You will have a 7-day window where both the old and the new tokens will continue
   
 
 
-### **_Step 3_** _: Click "Continue" in response to the warning message if you are sure that you want to proceed with rotation.___
+**Step 3: Click "Continue" in response to the warning message if you are sure that you want to proceed with rotation.**
 
   
 
@@ -412,7 +437,7 @@ You will have a 7-day window where both the old and the new tokens will continue
   
 
 
-### **_Step 4:_**_Copy the new token and update it on your third-party app._
+Step 4: Copy the new token and update it on your third-party app.
 
   
 
@@ -439,7 +464,7 @@ Here's how you can do it.
   
 
 
-### **_Step 1_** _: Navigate to Private Integrations under settings, and select "Edit" from the three-dot menu._
+**Step 1: Navigate to Private Integrations under settings, and select "Edit" from the three-dot menu.**
 
   
 
@@ -452,9 +477,10 @@ Here's how you can do it.
 _  
 _
 
-### _**Step 2** : Update the Private Integration name and description if required. Click on "Next"._
+**Step 2: Update the Private Integration name and description if required. Click on "Next".**
 
-  
+**  
+**  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155029056523/original/QUgMnaLVazAjL3yWgsZGd5ruujrP6WQgUg.png?1720670492)
@@ -465,7 +491,7 @@ _
   
 
 
-### **_Step 3_** _: If required, update_ _the scopes/permissions that you want the private integration to have access to on your account._
+**Step 3: If required, update the scopes/permissions that you want the private integration to have access to on your account.**
 
   
 
@@ -473,9 +499,17 @@ _
 Ensure that you are selecting only the required scopes for better data security. Click on "Update" to save the updates made.
 
   
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155029056555/original/-CYsioGb7fLRhBOW-4IaGpOmbrFmYWTp3Q.png?1720670598)
+
+  
+  
+
+    
+    
+    Users can create up to **5 Private Integration Tokens (PIT)** at both the **Agency level** and the **Location level**.
 
   
 

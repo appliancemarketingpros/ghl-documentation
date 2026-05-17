@@ -55,7 +55,53 @@ Explore apps based on various categories:
 
 ## **Global Search Bar**
 
+  
+
+
 Search seamlessly across actions, marketplace actions, and triggers using the new global search bar. It allows you to quickly find the app or action you need.
+
+  
+
+
+Global Search Bar Use the centralized search in the Workflow Builder to find actions and triggers across HighLevel-built tools and Marketplace apps. What you can do from search:
+
+  
+
+
+  * Search across Built-in, Marketplace, and AI categories.
+  * Browse using categories and filters to narrow results.
+  * See HighLevel-built apps and actions first, followed by Marketplace results. Search results include additional context to help you choose faster:
+    * Pricing indicators (Free/Paid and per-execution pricing when applicable)
+    * Ratings and install counts (when available)
+    * Badges such as Native and Beta (when applicable)
+    * Short descriptions for quick comparison
+
+
+  
+
+
+  
+
+
+  
+
+
+### **Tools, Apps, and Discover (Navigation)**
+
+### ****
+
+The Workflow Builder separates native tools from integrations so you can find the right step faster: -
+
+  * **Tools:** HighLevel-built tools and logic blocks (for example, Webhooks, If/Else, Wait, AI actions).
+  * **Apps:** Installed integrations available to your account.
+  * **Discover:** Marketplace apps you haven’t installed yet, with pricing and install details to help you evaluate options. 
+
+
+  
+
+    
+    
+    **Note:** Labels and availability may vary by account and builder view.
 
 * * *
 

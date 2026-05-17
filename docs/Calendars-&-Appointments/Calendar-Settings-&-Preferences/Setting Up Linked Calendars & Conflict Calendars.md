@@ -295,6 +295,8 @@ This ensures accurate availability and avoids double bookings. You can add multi
 
      * Cancellations or reschedules in HighLevel also update your external calendar.
 
+     * **Status-only updates:** Marking an appointment as Showed or No Show** does not push an update to the external calendar. This prevents third-party “event updated” emails while keeping status tracking inside HighLevel.
+
      * **Reliability after changes:** If your integration is reconnected, updated, or switched to a different calendar, HighLevel automatically syncs upcoming appointments so your external calendar stays accurate without manual edits.  
 
 

@@ -283,7 +283,7 @@ Yes. Please see this help article for more information.
 **
 
   
-Yes We have a signed BAA with Twilio for HIPAA compliance. As long as you have our HIPAA compliance package you should be good to go!
+Yes We have a signed BAA with Mailgun for HIPAA compliance. As long as you have our HIPAA compliance package you should be good to go!
 
   
 

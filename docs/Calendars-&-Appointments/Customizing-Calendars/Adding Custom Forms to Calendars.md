@@ -44,6 +44,78 @@ Custom forms in HighLevel allow you to gather personalized information from cont
 
 * * *
 
+## **How Custom Forms Behave During Booking**
+
+  
+
+
+Custom forms can do more than collect information during booking. With extended conditional logic support, the form can now influence whether the booking continues and what the user sees after submission.
+
+  
+
+
+**When a custom form is used in a calendar booking flow:**
+
+  
+
+
+  1. Show/Hide field logic continues to work based on the user’s answers  
+  
+
+  2. Disqualify lead logic is evaluated before the booking is created  
+  
+
+  3. If the lead is disqualified, no appointment is created  
+  
+
+  4. If the lead is disqualified, no payment is collected  
+  
+
+  5. The form can show a redirect URL or custom message based on its configured rules
+
+
+  
+
+
+### **Configure the confirmation experience**
+
+  
+
+
+The confirmation page setting lets you choose what happens after the form is submitted.
+
+  
+
+
+Available options include:
+
+  1. Default
+  2. Redirect URL
+  3. Use custom form rules
+
+
+  
+
+
+When **Use custom form rules** is selected, the booking flow follows the form’s redirect or custom message rules after submission. If no redirect or custom message is configured in the form, the booking falls back to the default confirmation page.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071119674/original/ONDw-AihBA0OG-Tp4ek6DDKpiQ6Ssa1heA.png?1778582041)
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071119787/original/OCxAg2td5TunxfwazEkmw0PewnukyMK47w.png?1778582110)
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071119890/original/ARsjHKJxwrXkgv_yiGsi5VUTzzJokkveFA.png?1778582179)
+
+* * *
+
 ## **Key Benefits of Using Custom Forms with Calendars**
 
   

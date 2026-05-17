@@ -4,7 +4,6 @@
 
 ## Articles
 
-- [How do I change my Client's Address?](How do I change my Client's Address.md)
 - [How do I find my Client's Location ID?](How do I find my Client's Location ID.md)
 - [Media Storage & File Upload Limits](Media Storage & File Upload Limits.md)
 - [Company Object Automation](Company Object Automation.md)

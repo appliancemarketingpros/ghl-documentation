@@ -69,6 +69,12 @@ Calendar Settings are now grouped into sections to help you move faster: **Basic
 
 **Next** , you can customize your calendar appearance to match your branding, making it even more inviting.
 
+  
+
+    
+    
+    When using a custom form in your booking flow, you can manage the post-submission experience under Advanced settings → Form & confirmation → Confirmation page. Select Use custom form rules to follow the form’s redirect or custom message behavior after submission.
+
 * * *
 
 ## **Add Yourself As A Team Member**

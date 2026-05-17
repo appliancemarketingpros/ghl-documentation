@@ -10,3 +10,4 @@
 - [Knowledge Base - Document & Rich-Text Support](Knowledge Base - Document & Rich-Text Support.md)
 - [Knowledge Base Overview](Knowledge Base Overview.md)
 - [What is the Knowledge Base Retrieval Tester?](What is the Knowledge Base Retrieval Tester.md)
+- [How to Download Knowledge Base Tables in CSV](How to Download Knowledge Base Tables in CSV.md)

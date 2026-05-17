@@ -41,6 +41,12 @@ The Conversations module has been completely redesigned to offer a faster, more 
 
 The redesign introduces a four‑panel layout, a unified right panel for contact context, advanced filtering (tags + AND/OR), and an upgraded email composer that supports full‑screen drafting or inline replies.
 
+  
+
+    
+    
+    Google review conversations can include the associated Google Business Profile page name in the thread. This makes it easier to identify the source page when you manage reviews from multiple connected pages.
+
 * * *
 
 ## **Key Benefits of the New Conversations Experience**
@@ -382,6 +388,7 @@ Use the **message filter** at the top‑right of the timeline to show:
 
   
 Use the **search bar** within the filter menu to locate message or activity types faster.  
+  
   
 
 

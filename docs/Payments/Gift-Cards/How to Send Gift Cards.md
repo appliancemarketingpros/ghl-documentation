@@ -473,6 +473,13 @@ Once sent, the gift card appears under:
   
 
 
+**Q: When will a scheduled gift card be delivered?**
+
+It will be delivered at **12:00 AM (midnight)** on the **selected** **delivery** **date**.
+
+  
+
+
 **Q: Can I send gift cards in Test Mode?**
 
 Not yet. Send flow supports Live Mode only. Test Mode support is coming in future releases.

@@ -219,6 +219,21 @@ The Template Library also helps you discover templates through sections like Top
 
 ##   
 
+    
+    
+    **Browse, preview, and compare templates**
+    The Template Library includes an upgraded browsing experience to help you evaluate templates faster:
+    
+    - Bigger thumbnails show more detail at a glance.
+    - Enhanced previews let you switch between mobile and tablet views with fewer clicks.
+    - More insights (such as download counts) help you compare templates quickly.
+    - Use the grid/list toggle to switch between visual browsing and a compact list view.
+
+  
+
+
+  
+
 
   
 

@@ -208,6 +208,12 @@ After selecting your notification settings, click the **Save** button at the bot
     
     **Note:** You must be added to a sub-account to receive its notifications. Users with only “Assigned Data” permissions will not receive alerts about unassigned leads.
 
+  
+
+    
+    
+    **Note:** Admins can review notification preference changes in Sub-Account → Settings → Audit Logs by filtering the Module to Notification Preferences.
+
 * * *
 
 ## **Notification Click-to-Redirect**

@@ -458,18 +458,11 @@ Assigned user signature| {{this.user.email_signature}}| Jane Smithjane@smith.com
   
 
 
-Some merge fields may be blank if the saved data is missing. When a merge field has no value, it is typically replaced with nothing.
-
+Some merge fields may be blank if the saved data is missing. When a merge field has no value, it can be replaced with a fallback value. This helps keep messages readable and avoids awkward blank greetings.  
   
-
-
-A practical workaround is to show one block of content when a field has a value, and a different block when it is empty. This approach helps keep messages readable and avoids awkward blank greetings.
-
+The fallback value can be set by clicking on the custom value tag inside the email editor. To learn more, see: [Set Defaults for Custom Values in Emails](<https://help.gohighlevel.com/en/support/solutions/articles/155000007825>)  
   
-
-
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064516854/original/2OAepGxVVU1dXnSiUzRVJsyHm0cUC0cOtg.png?1770653968)**  
-_Toggle Conditional Sending, select a field such as First Name, set the condition (for example, “is not empty”), and define what content should display only when that condition is met. A separate block can then be configured to display when the condition is not met._
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071460467/original/_4v9BjSqsBTDnQQcN2tRk855FpqfUCkIxw.png?1778876548)
 
 * * *
 

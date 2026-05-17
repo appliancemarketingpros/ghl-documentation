@@ -9,7 +9,6 @@
 - [Adding Multiple Phone Numbers for a Contact](Adding Multiple Phone Numbers for a Contact.md)
 - [Advanced Filters in Smart Lists](Advanced Filters in Smart Lists.md)
 - [AND/OR Filters](ANDOR Filters.md)
-- [Automatically Merge Facebook Messenger Contacts With Lead Ad Contacts](Automatically Merge Facebook Messenger Contacts With Lead Ad Contacts.md)
 - [Company Object Feature: A Manual Way to Organize Contacts](Company Object Feature A Manual Way to Organize Contacts.md)
 - [Contact Activity Tab on Mobile](Contact Activity Tab on Mobile.md)
 - [Contact Date Of Birth Field (Birthday)](Contact Date Of Birth Field (Birthday).md)
@@ -24,3 +23,4 @@
 - [How to Manage Multiple Email Addresses for a Contact](How to Manage Multiple Email Addresses for a Contact.md)
 - [How to Merge Duplicate Contacts in HighLevel](How to Merge Duplicate Contacts in HighLevel.md)
 - [How to Use Do Not Disturb (DND)](How to Use Do Not Disturb (DND).md)
+- [Troubleshooting Bulk Imports Via CSV](Troubleshooting Bulk Imports Via CSV.md)

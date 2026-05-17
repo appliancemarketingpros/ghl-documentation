@@ -15,3 +15,4 @@
 - [Rentals Calendars - Overview & How to Get Started](Rentals Calendars - Overview & How to Get Started.md)
 - [How To Enable Rentals in Public Beta](How To Enable Rentals in Public Beta.md)
 - [Taxes for Rentals](Taxes for Rentals.md)
+- [Blocked Slots for Rental Listings](Blocked Slots for Rental Listings.md)

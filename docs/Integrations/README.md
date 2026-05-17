@@ -10,8 +10,6 @@
 
 ### [Facebook Integration](Facebook-Integration/)
 
-### [Online Listings Integration](Online-Listings-Integration/)
-
 ### [Zapier Integration](Zapier-Integration/)
 
 ### [QuickBooks](QuickBooks/)

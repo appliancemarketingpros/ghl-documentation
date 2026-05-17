@@ -8,3 +8,4 @@
 - [Managing Marketplace App Permissions: White Label Agency Control](Managing Marketplace App Permissions White Label Agency Control.md)
 - [How to resell Marketplace Apps](How to resell Marketplace Apps.md)
 - [White Label Payment Provider Solution for NMI & Authorize.net](White Label Payment Provider Solution for NMI & Authorize.net.md)
+- [App Marketplace Uninstall Feedback](App Marketplace Uninstall Feedback.md)

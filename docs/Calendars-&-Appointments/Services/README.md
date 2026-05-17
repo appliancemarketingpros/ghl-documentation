@@ -18,3 +18,4 @@
 - [Manage Service Appointments in the Appointment Modal](Manage Service Appointments in the Appointment Modal.md)
 - [Services (v2) – Reporting Guide (Migrate from old widgets)](Services (v2) – Reporting Guide (Migrate from old widgets).md)
 - [Ask the Booker Location for Services (v2)](Ask the Booker Location for Services (v2).md)
+- [Ask the Booker Location Support for Service v2 Mobile Appointments](Ask the Booker Location Support for Service v2 Mobile Appointments.md)

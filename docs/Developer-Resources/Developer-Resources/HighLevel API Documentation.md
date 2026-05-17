@@ -18,6 +18,13 @@ HighLevel provides a comprehensive API platform that enables developers to build
     
     Want to migrate from V1 to V2? (with a ton of new functionalities and security features)
     [](<https://help.gohighlevel.com/a/solutions/articles/155000003054?portalId=48000045315>)Check out - [Private Integrations](<https://help.gohighlevel.com/support/solutions/articles/155000003054-private-integrations-everything-you-need-to-know>)
+    
+    **Please Note:** Older API documentation versions remain accessible for reference. This allows developers to continue supporting existing integrations while reviewing newer API versions when they are ready to upgrade.
+    
+    ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071237828/original/agPxoZA9mVFfTooy5bnPNeeqwWHAGxwCPg.png?1778677506)
+
+  
+
 
   
 
@@ -30,6 +37,7 @@ HighLevel provides a comprehensive API platform that enables developers to build
 **TABLE OF CONTENTS**
 
   * High-Level API Documentation
+  * How to Use Versioned API Documentation
   * How to Get Help or Support for the HighLevel API
   * How to Submit a New API-Related Idea to HighLevel
   * Differences Between API Access Across Plan Levels
@@ -46,6 +54,51 @@ HighLevel provides a comprehensive API platform that enables developers to build
 
 
 HighLevel API documentation is now available at _**<https://marketplace.gohighlevel.com/docs/>. **_If you previously used the legacy Stoplight documentation, update your bookmarks. Stoplight documentation will be deprecated in the coming months.
+
+  
+
+
+HighLevel API documentation now supports versioned API references. Developers can use the version switcher inside the API documentation to view endpoints, schemas, parameters, and examples for a specific API version. This helps teams maintain stable integrations, reference older API versions when needed, and plan upgrades to newer versions with more confidence.
+
+  
+
+    
+    
+    **Please Note:** HighLevel is also working toward the next API milestone, v3, which is expected to introduce enhanced capabilities, improved performance, and new endpoints for advanced use cases. Continue checking the official API documentation for the latest available versions.
+
+* * *
+
+## **How to Use Versioned API Documentation**
+
+  
+
+
+Versioned API documentation helps developers build and maintain integrations against a specific API version. This reduces the risk of referencing the wrong endpoint structure, request schema, or response format when maintaining production systems or planning migrations.
+
+  
+
+
+  1. Open the official HighLevel API documentation.  
+  
+
+  2. Use the version switcher in the documentation to select the API version you want to reference.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071237524/original/TZhG34DI_hCiRcBOqxvvtfvPVs1XmS0lfg.png?1778677419)  
+  
+
+  3. Review the endpoints, request parameters, schemas, and response details for that selected version.  
+  
+
+  4. Use older API versions when maintaining existing integrations.  
+  
+
+  5. Review newer versions when planning upgrades or building new integrations.
+
+
+  
+
+
+Versioned documentation does not impact existing integrations. It is designed to make API references clearer and more stable for developers.
 
 [](<https://marketplace.gohighlevel.com/docs/>)
 
@@ -309,6 +362,51 @@ You can submit API feature requests or report documentation issues by creating a
 **Q. Does HighLevel provide SDKs or webhooks?**
 
 Yes. HighLevel offers webhooks for real-time event updates, and SDKs are available or supported for certain integrations. Refer to the API documentation for supported webhook events and SDK details.
+
+  
+
+
+  
+
+
+**Q. Can I view documentation for different API versions?**  
+Yes. HighLevel API documentation now includes versioned references, allowing developers to select the API version they want to view from the version switcher.
+
+  
+
+
+  
+
+
+**Q. Does API documentation versioning affect my existing integrations?**  
+No. Versioned documentation does not impact existing integrations. It helps developers reference the correct API version and maintain stable integrations.
+
+  
+
+
+  
+
+
+**Q. Why should I select a specific API version in the documentation?**  
+Selecting a specific API version helps ensure you are reviewing the correct endpoints, schemas, request parameters, and response details for the version your integration uses.
+
+  
+
+
+  
+
+
+**Q. Are older API versions still documented?**  
+Yes. Older API versions remain accessible and documented so developers can maintain existing integrations and plan migrations more easily.
+
+  
+
+
+  
+
+
+**Q. Is API v3 available now?**  
+Not yet, based on the release note. HighLevel is working on v3 as the next API milestone. Users should refer to the official API documentation for current availability.
 
 * * *
 

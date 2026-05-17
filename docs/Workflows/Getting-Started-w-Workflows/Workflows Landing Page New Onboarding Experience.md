@@ -17,7 +17,8 @@ The landing page now provides multiple paths to get started: use the AI Builder 
 
     
     
-    **IMPORTANT** : If you don’t see AI Builder, confirm it’s enabled in ** **Settings → Labs** ** for your account. Labels can vary by plan and rollout (for example, it may appear under a company-level or agency-level Labs toggle).
+    **IMPORTANT** : **Workflow AI Builder** is enabled by default for all agencies via Labs. If you don’t see AI Builder, it may be turned off at the agency or location level.
+    
 
 * * *
 
@@ -172,9 +173,31 @@ You can now add workflow steps faster by dragging triggers and actions directly 
 
 * * *
 
-### **Labs Enablement & Automatic Rollout**
+## **AI Builder availability and controls**
 
-If your **agency** turns on Workflow AI Builder in **Labs** , it’s **automatically available** across **a****ll sub-accounts** —no per-location setup required.
+  
+
+
+Workflow AI Builder is enabled by default for all agencies.
+
+  
+
+
+**Disable AI Builder for an agency (and all sub-accounts)**
+
+Go to Settings → Labs and disable Workflow AI Builder.
+
+  
+
+
+**Disable AI Builder for a specific location**
+
+Go to Automations → Global Workflow Settings → Workflow AI and toggle off **AI Builder**.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071093803/original/4gIwSQd6Mf19iYzJgl1X4URN46hpi5_8gQ.png?1778570385)
 
 * * *
 
@@ -200,14 +223,16 @@ Options to start from scratch are still preserved and visible under the create w
 
   
 **Q. I'm not seeing the new experience in my sub-account. Why?**  
-The AI Builder needs to be enabled in Labs first in order for this experience to be available. Go to Settings > Labs and enable the AI Builder feature to access the new workflows landing page experience.  
-
-
-  
-
+The AI Builder needs to be enabled in Labs first in order for this experience to be available. Go to Settings > Labs and enable the AI Builder feature to access the new workflows landing page experience.
 
   
 
 
 **Q. I don't want to show this new experience with AI to my users. How do I remove it?**  
-You can disable the AI Builder for specific sub-accounts. Go to the sub-location, navigate to Automation > Workflows > Global Workflow Settings, and disable the AI Builder. Doing this will hide the AI Builder from that sub-account and remove it from the workflows landing page.
+
+
+You can disable AI Builder at either level:
+
+**Agency** : Go to Settings → Labs and disable Workflow AI Builder.
+
+**Location** : Go to Automations → Global Workflow Settings → Workflow AI and toggle off **AI Builder.**

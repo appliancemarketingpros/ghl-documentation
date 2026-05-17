@@ -191,6 +191,25 @@ Navigate to AI Agents → Agent Studio and open the agent you want to test. Clic
   
 
 
+Missing Required Fields warning
+
+  
+
+
+When the Test panel opens, Agent Studio scans your agent for missing required fields.
+
+  
+
+    
+    
+    If any required fields are missing, an orange warning appears at the top of the screen and lists the exact node and field you need to complete. The warning does not block testing, but completing the missing fields helps prevent confusing runtime errors.
+
+  
+
+
+  
+
+
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066089570/original/wVBB5PA0V4Q_WNDmHHcxop9xlJHMxjeQEQ.png?1772540757)
 
   
@@ -346,6 +365,13 @@ Yes. Reset clears both the chat context and its associated execution logs for a 
 **Q: Is this feature gated by any plan?**
 
 The Timeline and Chat Emulator are included with Unlimited AI Employee, the same plan required for Agent Studio.
+
+  
+
+
+**Q: Why do I see a “Missing Required Fields” warning when I click Test?**
+
+Agent Studio detected one or more nodes with required fields that are not filled in. Open the listed node, complete the required fields, and save to clear the warning icon and avoid configuration errors during testing.
 
 * * *
 

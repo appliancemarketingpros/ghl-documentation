@@ -4,6 +4,7 @@
 
 ## Articles
 
+- [Set Defaults for Custom Values in Emails](Set Defaults for Custom Values in Emails.md)
 - [How to Set Up Nested Folders for Email Campaigns, Templates & Sequences](How to Set Up Nested Folders for Email Campaigns, Templates & Sequences.md)
 - [How to Edit an Email Template](How to Edit an Email Template.md)
 - [Importing and Editing Mailchimp Email Templates in the HighLevel Design Editor](Importing and Editing Mailchimp Email Templates in the HighLevel Design Editor.md)

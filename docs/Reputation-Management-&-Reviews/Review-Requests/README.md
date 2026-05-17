@@ -6,7 +6,6 @@
 
 - [How to Customize the Review Request Messages (SMS/Email)](How to Customize the Review Request Messages (SMSEmail).md)
 - [How to Dispute a Google Review and Check on the Dispute Status](How to Dispute a Google Review and Check on the Dispute Status.md)
-- [How to fix when the Review Request Email is not sending](How to fix when the Review Request Email is not sending.md)
 - [How to Send Review Requests](How to Send Review Requests.md)
 - [Reputation Management - Customizing & Displaying the Review Widget](Reputation Management - Customizing & Displaying the Review Widget.md)
 - [Call Tracking and Missed Call Text Back Through Google Business Profile](Call Tracking and Missed Call Text Back Through Google Business Profile.md)
@@ -23,3 +22,5 @@
 - [How to send Review Request via Whatsapp](How to send Review Request via Whatsapp.md)
 - [How to Address Negative Reviews and Manage Reputation with HighLevel](How to Address Negative Reviews and Manage Reputation with HighLevel.md)
 - [Integrating Multiple Review Platforms to Manage and Monitor Reviews](Integrating Multiple Review Platforms to Manage and Monitor Reviews.md)
+- [How to send recurring emails with multiple email templates](How to send recurring emails with multiple email templates.md)
+- [Reputation Management: Personalize Recurring Emails with Custom Templates](Reputation Management Personalize Recurring Emails with Custom Templates.md)

@@ -226,6 +226,35 @@ Once connected, you will see your **Google Business Profile icon** at the top wi
 
 * * *
 
+### **Review threads now show the associated page name**
+
+  
+
+
+When Google Business Profile reviews appear in Conversations, each review now displays the associated page name directly in the thread. This gives you clearer context when more than one page is connected.
+
+  
+
+
+The page name also appears on outgoing review responses, so you can quickly confirm which business page the conversation belongs to before replying.
+
+  
+
+
+This improvement is especially useful in multi-page setups, where reviews from different Google Business Profile pages may appear in the same Conversations workspace.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071139784/original/rmwIZ2d_o1A4UmQNX6QP7ZyTx6Zxy3Rsmg.png?1778590340)
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071139839/original/4rD6rvnP6yl8yPb1KLNoXdy5yGLddE1A1w.png?1778590370)
+
+  
+
+
+* * *
+
 ## **Frequently Asked Questions**
 
   

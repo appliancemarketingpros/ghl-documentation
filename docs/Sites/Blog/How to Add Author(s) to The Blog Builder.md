@@ -71,4 +71,8 @@ Click on **"Sites" > Blogs > Settings **(cog)
   
 
 
-**Note - Supported Image size for Author is 10MB**
+**Note -**
+
+1\. Supported Image size for Author is 10MB
+
+2\. There is no limit on Author Creation

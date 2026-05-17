@@ -82,7 +82,23 @@ The redesigned, right-side drawer keeps you in context while you investigate cha
   
 
 
-  * **Open details in place:** Click any row to open the sleek right-side drawer with field-level before/after values, user, and timestamp—no page reloads and no lost scroll position.  
+  * **Open details in place:** Click any row to open the sleek right-side drawer with field-level before/after values, user, and timestamp—no page reloads and no lost scroll position.
+
+
+  
+
+    
+    
+    **Notification Preferences audit details (Sub-Account)**
+    
+    Notification Preferences changes appear as Updated actions. When you open an entry, the details drawer shows only the fields that changed with before/after values.
+    
+    **- First-time save:** Audit Logs captures all notification preferences.
+    **- Later updates:** Audit Logs records only the preferences that were modified.
+
+  
+
+
   
 
 
@@ -144,9 +160,10 @@ Each filter focuses the results so you can quickly isolate the most relevant eve
   
 
 
-  * **Module:** Choose the affected area of the platform (e.g., **Users, Accounts, Contacts, Opportunities, Websites/Funnels/Stores, Custom Objects, Listings**) to focus on events from that system.  
+  * **Module:** Choose the affected area of the platform (for example, Users, Accounts, Contacts, Opportunities, Websites/Funnels/Stores, Custom Objects, Listings, and Notification Preferences) to focus on events from that system.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055832012/original/0gndVsLkGlGh1R6_bx-3uo6CwSS5jGSxhg.png?1760346234)  
+  
   
 
 
@@ -182,6 +199,15 @@ For step-by-step instructions, see [Exporting Audit Logs](<https://help.gohighle
 
 
 The redesign is live across both **Agency** and **Sub-Account (Location)** contexts. Open Audit Logs in the context you need to review—each view shows only its own scope (agency-wide vs. location-specific).
+
+  
+
+    
+    
+    **Note:** Notification Preferences audit logs are available in Sub-Account (Location) Audit Logs only.
+
+  
+
 
   
 
