@@ -218,6 +218,50 @@ Visible filter controls make it easier to understand why specific Sub-Accounts a
 
 * * *
 
+### **Agency Sub-Account designation on the Unlimited Plan**
+
+  
+
+
+The Agency Sub-Account gives Unlimited Plan agencies a consistent way to identify the primary sub-account used for onboarding and core configuration. This creates a clearer source of truth for setup workflows and helps teams manage onboarding more reliably as they scale.
+
+  
+
+
+**With this designation, agencies and internal teams can:**
+
+  
+
+
+  * Identify the main sub-account used for onboarding  
+  
+
+  * Use a consistent system-backed signal for setup and progress tracking  
+  
+
+  * Review status changes with audit visibility  
+  
+
+  * Support programmatic onboarding workflows through API-based management
+
+
+  
+
+
+**Important:**
+
+This feature applies to agencies on the **Unlimited Plan ($297)**.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071873174/original/jBUJ-dqFa5ahLFKIRXmmaDbmhb2mzreCtQ.png?1779354111)
+
+  
+
+
+* * *
+
 ## **Bulk Actions for Sub-Account Management**
 
   

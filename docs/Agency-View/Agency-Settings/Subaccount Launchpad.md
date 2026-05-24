@@ -18,6 +18,7 @@ LaunchPad provides a guided, interactive onboarding experience at both the agenc
   * Guided Onboarding Videos
   * Product Tour Guide in LaunchPad Actions
   * Progress Tracking & Auto‑Completion
+  * Accessibility in LaunchPad
   * How to use the Subaccount LaunchPad
   * Frequently Asked Questions
 
@@ -114,6 +115,32 @@ Every action includes built‑in guidance so users can learn by doing. The guide
   * **Consistent experience** : All sub‑accounts have access to the new LaunchPad with guided help—no experimentation required.
 
 
+  
+
+
+* * *
+
+## **How Agency Sub-Account supports onboarding tracking**
+
+  
+
+
+A clearly designated Agency Sub-Account helps keep onboarding workflows aligned around one primary sub-account. This makes it easier to track LaunchPad progress and setup completion without relying on manual assumptions about which account should represent the onboarding journey.
+
+  
+
+
+When an Agency Sub-Account is defined, teams can use that designation as the primary reference point for onboarding and configuration workflows.
+
+  
+
+    
+    
+    The exact setup or management location for Agency Sub-Account status may vary by account context. Review your sub-account management settings if the designation is available in your plan.
+
+  
+
+
 * * *
 
 ## **Product Tour Guide in LaunchPad Actions**
@@ -181,6 +208,43 @@ LaunchPad helps users stay focused by showing what’s done and what’s next. W
 
   * Return to LaunchPad any time to see the updated status and select the next step.
 
+
+* * *
+
+## **Accessibility in LaunchPad**
+
+  
+
+
+LaunchPad includes improvements that help users complete guided actions with screen readers and keyboard-only navigation.
+
+  
+
+
+**Screen reader support**
+
+  * Announces step progress as users move through the flow.
+  * Provides clearer modal context to help users understand where they are.
+  * Communicates form validation feedback to support error recovery.
+
+
+  
+
+
+**Keyboard-only navigation**
+
+  * Supports tabbing through interactive elements in the experience.
+  * Supports Enter/Space activation where available (for example, supported tutorial video controls).
+  * Supports Escape to close supported modals.
+  * Improves focus visibility and focus behavior across guided steps.
+
+
+  
+
+
+**Language and localization**
+
+Accessibility labels, announcements, and alt text are translated across 13 locales, including English, Spanish, French, and German, to improve screen reader pronunciation and comprehension.
 
 * * *
 

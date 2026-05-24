@@ -11,7 +11,9 @@
   
 
 
-The **Quick Setup (** Pre-Built A2P Campaign) registration flow is a structured campaign submission experience designed to:
+The **Quick Setup (** Pre-Built A2P Campaign) registration flow is a structured campaign submission experience designed to:  
+  
+
 
   * Improve compliance accuracy
 
@@ -24,7 +26,13 @@ The **Quick Setup (** Pre-Built A2P Campaign) registration flow is a structured 
   * Streamline the A2P registration process
 
 
+  
+
+
 This flow enforces a **Chat Widget–based opt-in method** and automatically applies carrier-aligned compliance standards.
+
+  
+
 
 By locking required compliance elements and auto-generating mandatory disclosures, the system significantly reduces submission errors and approval delays.
 
@@ -39,6 +47,102 @@ By locking required compliance elements and auto-generating mandatory disclosure
 > 
 > 
 
+
+* * *
+
+## **Compliance review checks whether the widget is live**
+
+  
+
+
+The compliance review now checks whether the Lead Connector chat widget is live on your website before you submit. This helps catch missing-widget issues earlier, so you can fix them before submission and avoid preventable rejections.
+
+  
+
+
+If the widget is not detected on your site, the compliance review will fail and show a guided fix path inside the modal.
+
+  
+
+
+**What to do if the compliance review fails**
+
+  
+
+
+If **Chat Widget Compliance** shows **Failed** , follow these steps:
+
+  
+
+
+1\. Copy your widget script from the Chat Widget page.
+
+2\. Paste the script into your website.
+
+3\. Add the script inside the `<head>` or `<body>` of the pages where the widget should appear.
+
+4\. Return to the compliance review and select **Review Again**.
+
+  
+
+
+You can continue only after all compliance checks pass.
+
+* * *
+
+## **Remove Additional SMS Opt-In Methods**
+
+  
+
+
+For the widget-first registration flow, the LeadConnector Chat Widget must be the only SMS opt-in method on the website. This helps keep consent collection clear and improves the quality of A2P submissions.
+
+  
+
+
+The system now checks the business website for additional SMS opt-in methods. If other opt-in paths are found, such as forms, pop-ups, or other lead capture flows, you will be prompted to remove them before continuing.
+
+  
+
+
+Use this flow only when SMS consent is collected through the LeadConnector Chat Widget alone.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071996555/original/RtS61S_ElesZslghj9mvvWN3mts4AZMPjA.png?1779451810)
+
+  
+
+
+## **Choose the Correct Use Case**
+
+  
+
+
+Selecting the right use case helps reduce avoidable rejections during campaign review. The widget-first flow now uses an updated default order to guide users toward better-fitting options.
+
+  
+
+
+**Default use-case order in this flow:**
+
+  
+
+
+  * Customer Care
+  * Account Notification
+
+
+  
+
+
+This change is designed to reduce incorrect selections, especially choices that do not match the actual messaging behavior of the campaign.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071996663/original/OhMilxEVdT7KMn0QsiyVbS2RPrke67Z_xA.png?1779451890)
 
 * * *
 

@@ -84,9 +84,9 @@ Applying Advanced Filters correctly helps return more relevant contacts and make
   
 
 
-  1. Go to **Contacts** then click **\+ Smart List**.  
+  1. Go to **Contacts** then click **\+ Add smart list or** open existing smart list.  
   
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067252380/original/_bBTldyhrl7SS6bZl70aeRnxy0dptAD-Nw.png?1773855008)**  
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071633839/original/Clp4-CCdWz2BunkzxrRaKU7jmXGTz4CyUw.png?1779174768)**  
   
 
 

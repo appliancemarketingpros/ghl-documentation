@@ -15,4 +15,6 @@
 - [Using Ask AI Artifacts and Mermaid Diagrams in HighLevel](Using Ask AI Artifacts and Mermaid Diagrams in HighLevel.md)
 - [ASK AI Sessions Pricing Overview](ASK AI Sessions Pricing Overview.md)
 - [How To Create and Attach Knowledge Bases with Ask AI](How To Create and Attach Knowledge Bases with Ask AI.md)
+- [What is Ask AI Memory?](What is Ask AI Memory.md)
 - [How to Use Scheduled Tasks in Ask AI to Automate Prompts](How to Use Scheduled Tasks in Ask AI to Automate Prompts.md)
+- [How to Generate SEO-Friendly Blog Posts Using Ask AI in HighLevel](How to Generate SEO-Friendly Blog Posts Using Ask AI in HighLevel.md)

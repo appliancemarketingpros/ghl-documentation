@@ -9,6 +9,7 @@
 The AI Agent workflow action helps you automate multi-step tasks in HighLevel Workflows using plain-language instructions and selected tools. Instead of building every action manually, you can configure one AI Agent action to decide what to do, which tools to use, and what inputs to provide during execution. This article explains how the action works, how to configure it, and how to review its output.
 
   
+  
 
     
     
@@ -116,6 +117,7 @@ These settings control how the AI Agent behaves and give you the core inputs nee
   * **Output format:** Choose how the agent formats its response.
 
   
+  
 
 
 ![](https://jumpshare.com/share/szPJPYdoXAC0h1H9JM2L+/GIF+Recording+2026-04-06+at+19.25.41.gif)
@@ -138,7 +140,7 @@ Templates are pre-built agent configurations that populate the **Instructions** 
   
 
 
-**Available templates include:**
+**Available Templates Include:**
 
   
 
@@ -180,6 +182,7 @@ Templates are pre-built agent configurations that populate the **Instructions** 
 
 
 #   
+  
 
 
 # ![](https://jumpshare.com/share/LHazacjOLKM6HDeJLKVi+/Screenshot+2026-04-06+at+20.07.16.png)
@@ -206,15 +209,25 @@ The **Instructions** field defines what the agent does, how it reasons, and how 
   
 
 
-  * A role statement
+  * A role statement  
+  
 
-  * Context about the available trigger data
 
-  * A step-by-step workflow
+  * Context about the available trigger data  
+  
 
-  * Decision logic using if/then rules
 
-  * Messaging guidelines
+  * A step-by-step workflow  
+  
+
+
+  * Decision logic using if/then rules  
+  
+
+
+  * Messaging guidelines  
+  
+
 
   * Rules or constraints for what the agent should avoid doing
 
@@ -229,6 +242,7 @@ If you are unsure how to structure the prompt, enter your instructions in plain 
 
 The editor also supports rich text formatting, including headings, bold text, bullet lists, numbered lists, code blocks, and block quotes.
 
+  
   
 
 
@@ -266,12 +280,82 @@ When configuring a tool, you can choose how field values are populated:
   
 
 
-Each field also includes its own toggle, so you can switch individual fields between AI-generated and manually configured values.
+Each field also includes its own toggle, so you can switch individual fields between AI-generated and manually configured values.  
+
 
   
 
 
-![](https://jumpshare.com/share/Vuj5V1dr8ZpGjWxqqyfg+/GIF+Recording+2026-04-06+at+20.17.36.gif)
+### ![](https://jumpshare.com/share/Vuj5V1dr8ZpGjWxqqyfg+/GIF+Recording+2026-04-06+at+20.17.36.gif)  
+**Search Knowledge Base (Tool)**
+
+  
+
+
+Search Knowledge Base lets the AI Agent retrieve relevant business information from your native Knowledge Bases during execution. This avoids pasting large FAQ lists and business details into your Instructions.
+
+  
+
+
+Common use cases include:  
+  
+
+
+  1. Service details, pricing, and offerings  
+  
+
+  2. Booking rules, service menus, and availability  
+  
+
+  3. FAQs and policy information
+
+
+  
+
+
+#### **How to Set It Up**
+
+  
+1\. In the AI Agent action, click Add Tool.  
+  
+
+
+2\. Select Search Knowledge Base.  
+  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071932326/original/oqE_fkPLZKVlNdrC5Xv47v9AfzY9mBlwKQ.png?1779378840)  
+  
+
+
+3\. Choose which Knowledge Base(s) the agent can search.  
+  
+
+
+4\. Configure how the search query is created:
+
+  
+**Static Query:** Provide a fixed query the tool uses each time.
+
+  
+**Dynamic query (AI decides):** Let the agent generate the query based on the conversation and workflow context.  
+
+
+  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071932412/original/_3GgupQUu-CkLlja5xWa69M1P91HZuPMEA.png?1779378902)  
+  
+
+
+  
+5\. Set the number of chunks the agent retrieves from the Knowledge Base.
+
+  
+
+
+**Why it Matters**
+
+  
+Search Knowledge Base keeps your context window lean by pulling only the information the agent needs at runtime. This reduces token usage and helps the agent respond with more accurate, grounded answers.
 
 * * *
 
@@ -283,6 +367,7 @@ Each field also includes its own toggle, so you can switch individual fields bet
 AI Agent includes a built-in capability that can retrieve a contact’s past conversations across supported channels when additional messaging context is needed. The agent decides when to use this automatically, so history is fetched only when it’s relevant.
 
   
+  
 
     
     
@@ -291,15 +376,23 @@ AI Agent includes a built-in capability that can retrieve a contact’s past con
   
 
 
+  
 **What the agent can retrieve:**
 
   
 
 
-  * Channel (where each exchange occurred)
-  * Message content
-  * Direction (inbound vs outbound)
-  * Timestamps
+  * Channel (where each exchange occurred)  
+  
+
+  * Message content  
+  
+
+  * Direction (inbound vs outbound)  
+  
+
+  * Timestamps  
+
   * AI-generated summary (high-level context)
 
 
@@ -311,13 +404,42 @@ AI Agent includes a built-in capability that can retrieve a contact’s past con
   
 
 
-  * SMS
-  * Email
-  * WhatsApp
-  * Instagram
-  * Facebook Messenger
-  * TikTok
+  * SMS  
+  
+
+  * Email  
+  
+
+  * WhatsApp  
+
+  * Instagram  
+
+  * Facebook Messenger  
+
+  * TikTok  
+
   * Other connected messaging channels.
+
+
+  
+
+
+  
+
+
+**Built-in Call Transcripts**
+
+  
+
+
+AI Agent can automatically retrieve and reference a contact’s call transcripts when voice context is relevant. No setup required: This capability is available by default for the AI Agent workflow action.
+
+  
+
+
+**How to use it:** Mention call transcripts in your Instructions (for example, “Use the last call transcript to identify objections and next steps.”).
+
+  
 
 
   
@@ -339,17 +461,20 @@ A structured setup makes it easier to choose the right template, write clear ins
 
   1. Go to **Automations** > **Workflows**.  
   
+  
 ![](https://jumpshare.com/share/0JWEsWQU9NawnWRXArkh+/Screen+Shot+2026-04-06+at+21.20.01.png)  
   
 
 
   2. Create a **new** **workflow** or **edit** an **existing** one.  
   
+  
 ![](https://jumpshare.com/share/BXEsCvFYK7i5WsZpbUNj+/Screen+Shot+2026-04-06+at+21.21.45.png)  
   
 
 
   3. **Add** a relevant **trigger** like Form Submitted, Contact Created, etc or you can select a pre-built template as well during the action setup.  
+  
   
 ![](https://jumpshare.com/share/7cvd7EvdDe5EzEzze4Zm+/GIF+Recording+2026-04-06+at+21.28.31.gif)  
   
@@ -364,6 +489,7 @@ A structured setup makes it easier to choose the right template, write clear ins
 
 
   6. Enter an **Action Name**.  
+  
   
 ![](https://jumpshare.com/share/GBYCnKxPwxf36RdroWew+/GIF+Recording+2026-04-06+at+21.30.12.gif)  
   
@@ -391,12 +517,14 @@ A structured setup makes it easier to choose the right template, write clear ins
 
   12. Configure each tool, including whether AI should decide field values or whether specific values should be set manually.  
   
+  
 ![](https://jumpshare.com/share/rL6dUAKMPEV4IVjmBCOG+/GIF+Recording+2026-04-07+at+19.45.24.gif)  
   
 
 
   13. Or you can also select a **Template:** Templates are pre-built agent configurations that populate the **Instructions** and **Tools** fields. If a template requires a specific trigger and that trigger is not already present, the template appears unavailable until the required trigger is added.
 
+  
   
 ![](https://jumpshare.com/share/K0Y1edlbfPxhdnRFeVYS+/GIF+Recording+2026-04-07+at+19.51.17.gif)  
   
@@ -448,6 +576,7 @@ Use Conversation Memory for recurring or multi-touch workflows, such as periodic
 
   15. **Save** the action.  
   
+  
 ![](https://jumpshare.com/share/GzSHLAMZcSAIh5XoNLp7+/Screen+Shot+2026-04-07+at+19.53.43.png)
 
 
@@ -490,6 +619,7 @@ The trace can include:
 You can expand each step to review input and output data. The log view supports both a table format and raw JSON view.
 
 #   
+  
 
 
 ![](https://jumpshare.com/share/9QUweuvvPUpZZ9c21JUC+/_Umdeshfp6Wt-nH6PHIhYGP_Ws4HJVrE7w.png)
@@ -601,6 +731,13 @@ No. Templates pre-fill the Instructions and Tools fields, but you can edit the i
 
 **Q: When should I enable Conversation Memory?**  
 Enable it when the same contact may go through the agent step more than once and the agent should adapt based on prior runs. For one-time workflows, it is usually not needed.
+
+  
+
+
+**Q: When should I use Search Knowledge Base instead of adding business details to Instructions?**
+
+Use Search Knowledge Base when your business context lives in a Knowledge Base and the agent should retrieve only what it needs at runtime (for example pricing, policies, FAQs, or booking rules). This reduces prompt size and keeps responses grounded in your stored content.
 
 * * *
 

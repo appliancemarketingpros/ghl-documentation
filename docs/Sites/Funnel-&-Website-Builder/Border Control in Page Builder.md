@@ -24,10 +24,12 @@ Border Control in the Page Builder gives you more flexibility when styling suppo
 
 # **What is Border Control in Page Builder?**
 
+Border Control lets you customize how borders appear on supported Page Builder elements from one centralized panel. This includes commonly used elements like buttons, images, and videos.
+
   
 
 
-Border Control lets you customize how borders appear on supported Page Builder elements from one centralized panel. You can adjust border style, color, side-specific width, and corner radius to create anything from subtle accents to more defined visual frames. This makes it easier to build polished, consistent designs without relying on manual workarounds.
+You can adjust border style, color, side-specific width, and corner radius to create anything from subtle accents to more defined visual frames. This makes it easier to build polished, consistent designs without relying on manual workarounds.
 
 * * *
 
@@ -63,6 +65,15 @@ The border panel brings the most important border controls into one place, so yo
   
 
 
+Border Control is available for supported Page Builder elements, including Button, Image  
+Video Note: Supported elements can vary by builder context and feature rollout.
+
+  
+
+
+  
+
+
   * **Border Style:** Changes the visual appearance of the border.  
   
 
@@ -85,9 +96,12 @@ The border panel brings the most important border controls into one place, so yo
   
 
 
-  1. From within a Funnel or Website in Page Builder, select an existing supported element that already has border settings available.  
+  1. From within a Funnel or Website in Page Builder, select a supported element (for example, a Button, Image, or Video element).  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069743141/original/NKkyzcaCpYJQOrEFQxoXbfCE5gkMHhOICA.png?1776887080)  
+  
+  
+  
   
   
 

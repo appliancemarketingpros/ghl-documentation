@@ -12,3 +12,4 @@
 - [API Center of Excellence | Python and PHP SDKs](API Center of Excellence Python and PHP SDKs.md)
 - [App Marketplace - Earnings Dashboard](App Marketplace - Earnings Dashboard.md)
 - [How to Leave a Review for an App in the Marketplace](How to Leave a Review for an App in the Marketplace.md)
+- [Multi-OAuth Support for Marketplace Apps](Multi-OAuth Support for Marketplace Apps.md)

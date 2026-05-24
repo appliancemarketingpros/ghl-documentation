@@ -99,6 +99,59 @@ Understanding the benefits helps admins and agents decide when to enable the new
   * **Built‑in collaboration:** Internal comments and @mentions keep team discussion private and organized.
 
 
+  
+
+
+* * *
+
+## **Catch Up on Unread Messages Faster**
+
+  
+
+
+Unread messages can get buried in long threads, especially when conversations include campaign logs, activities, and other timeline events. The unread message indicator helps you find the exact point where new messages begin so you can respond faster and avoid missing important replies.
+
+  
+
+
+When you open an unread conversation, HighLevel automatically takes you to the first unread message in the thread. A **New** divider marks where unread messages begin.
+
+  
+
+
+**How it works:**
+
+  
+
+
+1\. Open an unread conversation.
+
+2\. The thread automatically scrolls to the first unread message.
+
+3\. A **New** divider appears where unread messages begin.
+
+  
+
+
+**Important behavior:**
+
+  
+
+
+  * The **New** divider remains visible until you reply or manually mark the conversation as read.  
+  
+
+  * The divider continues to appear even if you leave the conversation or refresh the page.  
+  
+
+  * The **New** divider is shown only for messages received after **April 23, 2026**.
+
+
+  
+
+
+This makes it easier to catch up on unread replies without scrolling through long activity-heavy conversations.
+
 * * *
 
 ## **Navigation and Layout**

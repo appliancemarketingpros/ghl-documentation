@@ -387,6 +387,31 @@ This marketing Audit report is easy to share with your prospects. Click on Share
 
 > _GHL's prospecting tool provides agencies with the ability to automate and streamline their lead generation processes, enabling them to reach a larger number of potential clients with a more targeted and efficient approach. Agencies now can save time and resources, while also improving the efficiency and effectiveness of their prospecting efforts._
 
+  
+
+
+* * *
+
+  
+
+
+## **Website Hosting in Marketing Audit Reports**
+
+  
+
+
+Marketing Audit Reports can include a Website Hosting section that helps you show prospects where their site is hosted. This section can detect supported providers such as WordPress, LeadConnector, Webflow, Squarespace, Wix, and Framer.
+
+  
+
+
+You can manage which providers are checked and whether the section appears in reports from **Prospecting Settings** under **Report Settings**.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071989733/original/cEFGcq9QezVzPGiMKwxbL1IJqJDDHMUgxg.png?1779448161)
+
 * * *
 
 ## **Lead Contact Details**

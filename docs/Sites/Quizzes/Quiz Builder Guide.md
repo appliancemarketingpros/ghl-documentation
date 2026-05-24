@@ -357,12 +357,6 @@ Configure the quiz based on your needs. You can add as many questions and pages 
 
   
 
-    
-    
-    **Bulk Upload Quiz Questions (CSV):** You can upload quiz questions in bulk using a CSV file directly inside the Quiz Builder. This allows you to add multiple questions to a page at once instead of creating them individually. The uploaded file is processed temporarily for import and is not stored on the platform, ensuring improved performance and reduced storage usage. After upload, all questions are added to the selected page and can be edited individually as needed. This feature is especially useful for course creators managing large sets of quiz questions.****
-
-  
-
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155048169065/original/mOZ86FVyDO11tvmv2Xz9sH3NYath1T6PYw.png?1749747235)
 

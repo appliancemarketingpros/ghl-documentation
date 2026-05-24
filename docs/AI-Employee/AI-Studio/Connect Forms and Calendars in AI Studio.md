@@ -187,12 +187,12 @@ Users can view submissions in:
   
 
 
-  1. Contacts  
+  1. **Contacts**  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068278869/original/F5KfLTQbO5NsWrZwZVyXU-p9nRYb2RGI5Q.png?1775057616)  
   
 
-  2. Sites > Forms > Submissions > External Forms  
+  2. **Sites** > **Forms** > **Submissions** > **External** **Forms**  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068278950/original/vwg6Q1CvuQnoWvgeEl6iC76h6L74B2kqqA.png?1775057667)
 
@@ -225,13 +225,17 @@ Once the form is connected to CRM tracking, submissions can be used in workflows
   4. Use the "Form submission" event to continue automations  
   
 
-  5. Use the "Domain" filter and/or "External Form" filter then continue your automation actions.
-
-
+  5. Use the "Domain" filter and/or "External Form" filter to ensure the automation fires only on the submission of the desired form(s).  
+  
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071834599/original/iUiv8k6FQI_DVR05i8HosGO7nt5YrX-m5w.jpeg?1779299133)**  
   
 
+  6. Continue your automation using actions such as "Send SMS" or "Send Email".  
+  
+To use the contact's answers from the AI Studio Form within the action, insert the corresponding custom value from **Custom Value** >**Contact** >**Custom Fields** or by using the search bar.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071834805/original/ngJ7k4NRHj3joqbwJYuLJvUt6ZLz4-jABw.gif?1779299398)
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068287157/original/A6V41TP-dz5qO9mo5BStFI5X9bECrTMgrw.jpeg?1775062158)
 
 * * *
 

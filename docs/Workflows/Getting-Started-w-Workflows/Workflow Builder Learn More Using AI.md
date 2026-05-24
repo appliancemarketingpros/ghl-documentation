@@ -98,6 +98,21 @@ The Workflow AI Assistant sidebar delivers AI-powered guidance in a clear, organ
   * The interactive design allows users to ask follow-up questions, ensuring a personalized support experience.
 
 
+  
+
+
+  
+
+    
+    
+    Learn Mode 2.0 
+    
+    Learn Mode streams answers in real time and suggests follow-up questions at the end of each response.
+    
+    Continue in Build Mode When you ask a build question in Learn Mode, you can switch to Build Mode using the **Continue in Build Mode** button. 
+    
+    This keeps your request and submits it in Build Mode without retyping.
+
 * * *
 
 ## **How To Use Learn More Using AI in Workflows**

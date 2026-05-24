@@ -10,8 +10,6 @@ This article will show you how to create a Brand Board in HighLevel! A Brand Boa
   
 
 
-* * *
-
 **TABLE OF CONTENTS**
 
   * What is a Brand Board?

@@ -17,6 +17,7 @@ Welcome to an overview of the LaunchPad for agency accounts in HighLevel! This f
 
   * What is the Agency LaunchPad?
   * Use Agency LaunchPad
+  * Accessibility in LaunchPad
   * Frequently Asked Questions
 
 
@@ -46,6 +47,13 @@ LaunchPad for Agency Accounts offers several advantages that help agencies onboa
   
 
   * **Greater Immediate Clarity** : By providing clear, actionable guidance, Agencies are more likely to know exactly what to do next.
+
+
+    
+    
+    For agencies on the Unlimited Plan, a designated Agency Sub-Account can help standardize which sub-account is used as the primary onboarding reference.
+
+  
 
 
 * * *
@@ -94,6 +102,30 @@ Setting up and using the LaunchPad is straightforward, as it is automatically en
 **Note:** LaunchPad tutorials support Picture-in-Picture (PiP), so you can follow the video while completing steps in the same tab.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155059803219/original/ZrRpyaOwOAXoiSoA6oKWb4zWrp7V2j--KA.png?1764766384)
+
+* * *
+
+## **Accessibility in LaunchPad**
+
+  
+
+
+LaunchPad includes improvements that help users complete guided onboarding actions with screen readers and keyboard-only navigation.
+
+  
+
+
+  * Screen readers announce step progress, provide clearer modal context, and communicate form validation feedback.  
+  
+
+  * Keyboard-only navigation supports predictable access to interactive elements, Enter/Space activation where supported, and Escape to close supported modals.  
+  
+
+  * Focus indicators and focus behavior are more consistent across dialogs and steps.  
+  
+
+  * Accessibility labels, announcements, and alt text are translated across 13 locales, including English, Spanish, French, and German, to improve pronunciation and comprehension.
+
 
 * * *
 

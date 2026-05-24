@@ -16,8 +16,8 @@ This guide provides everything you need to know about Smart Lists in HighLevel. 
   * What are Smart Lists?
   * How Do Smart Lists Work?
   * Setting Up Smart Lists
-  * Managing Smart Lists
-  * Example of Creating Smart Lists
+  * Modifying Smart Lists
+  * Managing Smart lists
   * Reorder Columns in Smart Lists
   * Frequently Asked Questions 
   * Related Articles
@@ -59,7 +59,7 @@ This feature can be found under the **Subaccount → Contacts tab → Smartlists
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155039563120/original/THxandWIJc4geCA3ZXsdxRoBqp3bNZ0SBA.jpeg?1736434895)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071602846/original/ap6RI1qOBG1-SKzyCMNQUwThpQBGZTatrg.png?1779121808)
 
 * * *
 
@@ -92,7 +92,7 @@ Creating a Smart List in HighLevel is a simple process that allows you to automa
   
 
 
-  1. Go to Contacts > Contacts/Smart Lists and hit "More Filters."  
+  1. Go to Contacts > Contacts/Smart Lists and hit "+ Add smart list"  
   
 
   2. Pick one or multiple filters from the dropdown menu on the right side of your screen.  
@@ -104,21 +104,17 @@ Creating a Smart List in HighLevel is a simple process that allows you to automa
   4. To add more filters, select the “AND” option.  
   
 
-  5. To permanently save your filter(s) as a list, click “Save as smart list” at the bottom of your screen.
+  5. Click “Create” at the bottom of your screen to save the smart list.
 
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155041733215/original/JYZsQNRq6e2sAIa_XqmGiqLEDRR6dwv7BA.gif?1739800334)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071625266/original/L0U40ypTpXcawS91_0AGvsxLrFScFs9Mog.gif?1779167388)
 
-  
+* * *
 
-
-  
-
-
-## **Managing Smart Lists**
+## **Modifying Smart Lists**
 
   
 
@@ -131,45 +127,36 @@ Smart Lists can be modified, filtered, and managed to better align with your bus
   1. To access your Smart Lists, go to the Contacts section and select a Smart List name from the top to open it.  
   
 
-  2. If you want to modify an existing Smart List, open it, and you'll see the saved filters for that list on the right-hand side.  
+  2. If you want to modify an existing Smart List, open it, and you'll see the **Customise List** for that list on the right-hand side.  
   
 
-  3. Select the trash can icon or the X. To modify a filter, click the pencil icon or the dropdown arrow to remove a filter. Use the Save icon to store your changes.  
+  3. Click on Advanced Filters to make changes. To modify a filter, click the pencil icon or the dropdown arrow to remove a filter. Use the Save icon to store your changes.  
   
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071625592/original/vw1RsHU6BZXqCOhFRLPEVfQKv6FCnHR9bA.gif?1779167793)
 
-  4. You can manage your Smart Lists by navigating to "Manage Smart Lists" at the top right of the Contacts page. This area lets you **duplicate, share, rename, or erase/delete** a SmartList using the icons on the right.
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155041733529/original/PCJWr7kJ7JZwVbaCpgNjeIWiEnL_eMA-4A.gif?1739800482)
 
 * * *
 
-## **Example of Creating Smart Lists**
+## **Managing Smart lists**
 
   
 
 
-Create a list of all contacts that have never been or have not been contacted in the last 90 days.
-
+  1. Go to **Contacts → Smart Lists**. Click the **three-dot (⋮)** menu next to **Add Contact**.  
   
 
+  2. Select **Manage Smart List**.  
+  
 
-1\. Go to Smart List > Go to All Tab  
-  
-2\. Click More Filters  
-  
-3\. Type 'Last Activity' in the text box, which shows 'Add Filter.' You will see the 'Last Activity' filter as one of the options  
-  
-4\. Select the last activity filter. Once it is added. Click the 'More Than' radio button. Type in 90 days  
-  
-5\. Click on the column's dropdown. Select the Last Activity column  
-  
-6\. Press the + icon to name & save this list
-
+  3. In the **Actions** column, use the icons next to a Smart List to:
+     * **Create a copy** (copy icon)
+     * **Share with admins** (share icon)
+     * **Edit the Smart List name** (pencil icon)
+     * **Delete** the Smart List (trash icon)  
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155041734610/original/DYq6diiU1eO5FTlQUuwDWLaIjFopdJ1LaQ.gif?1739801031)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071626057/original/CKqWBtgyKsmIFgszH76yEwrKUVOjIzIeCA.gif?1779168417)
 
 * * *
 

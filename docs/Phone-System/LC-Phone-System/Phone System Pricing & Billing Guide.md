@@ -114,7 +114,6 @@ Australia| $0.3500| $0.3500 (Local Numbers)
 $0.3500 (Toll-free Numbers)  
   
   
-  
 
 
   
@@ -368,7 +367,64 @@ If you need to update any of these fields, you’ll need to create a new campaig
 Please note: While resubmissions are free, Campaigns rejected due to disallowed content may be subject to applicable charges. 
 
 ###   
-**7\. Other Charges**
+
+
+### **7\. 5% Markup on Select Categories**
+
+  
+
+
+Certain pricing categories carry a **5% markup applied at the location level**. This markup is added on top of the base cost for the following categories and is not subject to the standard configured rebilling structure.
+
+### **Categories with 5% Markup**
+
+Category| Description  
+---|---  
+**SMS Carrier Fees**|  The 5% markup applies on top of all SMS carrier surcharges passed through from the recipient's carrier (AT&T, T-Mobile, Verizon, etc.)  
+**MMS Carrier Fees**|  The 5% markup applies on top of all MMS carrier surcharges, including fees for both inbound and outbound MMS messages  
+**A2P Registration Fees**|  The 5% markup applies to both the one-time Brand & Campaign registration fees and the ongoing monthly campaign fees for Low Volume and High Volume campaigns  
+**Verified Caller ID**|  The 5% markup applies to Verified Caller ID charges. Note: This is a billing-only category and is not part of the standard usage categories  
+**RCS Messaging Carrier Fees**|  The 5% markup applies to any carrier fees associated with RCS (Rich Communication Services) messaging  
+  
+### **How the 5% Markup Works**
+
+  * The markup is applied **at the location level** , meaning it is calculated and added per sub-account/location.
+  * This markup is **separate from configured rebilling**. Unlike usage categories that follow the rebilling configuration, these five categories always carry the fixed 5% surcharge regardless of other rebilling settings.
+  * The 5% is calculated on the **base cost** of the applicable charge before being billed to the location.  
+  
+
+
+**Example:**
+
+If the SMS carrier fee for a message to an AT&T subscriber is $0.0035 (outbound), the amount billed after the 5% markup would be:
+
+> $0.0035 × 1.05 = **$0.003675**
+
+Similarly, if a Low Volume A2P Brand & Campaign registration fee is $24.49875, the amount billed with the markup applied would be:
+
+> $24.49875 × 1.05 = **$25.7237**
+
+###  What Is NOT Included in the 5% Markup
+
+The following categories are governed by **configured rebilling** rather than the flat 5% markup:
+
+  * Transcription
+  * Amazon Polly (Text-to-Speech)
+  * Chat users / Group messaging users
+  * Answering machine detection
+  * Number validation
+  * Incoming call spam intelligence
+  * Call recording
+  * Caller ID lookup
+  * Carrier lookups
+  * All inbound and outbound calls (voice)
+  * All inbound and outbound SMS/MMS messages
+  * IVR calls, Workflow calls, Voicemail drops
+  * Phone numbers (Local, Toll-Free, Mobile)
+
+
+###   
+**8\. Other Charges**
 
   
 
@@ -427,29 +483,19 @@ Below are some additional categories that are also charged at the same price as 
 
     2. There are additional carrier fees per message that are automatically applied based on the end-user's destination and carrier.  
   
-Carrier| SMS Outbound*| SMS Inbound*| MMS Outbound*  
-| MMS Inbound*  
-  
+Carrier| SMS Outbound*| SMS Inbound*| MMS Outbound*| MMS Inbound*  
 ---|---|---|---|---  
-AT&T| $0.0035| $0.0035| $0.0090  
-| $0.0090  
-  
-T-Mobile| $0.0030| $0.0025| $0.0100  
-| $0.0100  
-  
-Verizon| $0.0045| $0.0070| $0.0070  
-| -  
-US Cellular| $0.0050| $0.0100| $0.0100  
-| $0.0100  
-  
-All other carriers| $0.0040| $0.0100| $0.0100  
-| -  
+AT&T| $0.0035| $0.0035| $0.0090| $0.0090  
+T-Mobile| $0.0045| $0.0025| $0.0100| $0.0100  
+Verizon| $0.0045| $0.0070| $0.0070| -  
+US Cellular| $0.0050| $0.0100| $0.0100| $0.0100  
+All other carriers| $0.0040| $0.0100| $0.0100| -  
 
 
   
 
 
-  * Amazon Polly Text-to-Speech charges (The new, enhanced speech feature costs US$0.00084 per 100 characters of text)
+  * Amazon Polly Text-to-Speech charges (The new, enhanced speech feature costs US$0.00084 per 100 characters of text).
 
 
 * * *
@@ -523,7 +569,13 @@ If you want to avoid these charges:
 
 **Q. Why do I pay for Conference Call charges for all outgoing calls (even the ones without call transfer)?**
 
-Our outgoing call flow is optimized to be seamless, with lower waiting times and quicker transfers. Thus, we initiate a Conference Call for all outgoing calls as per our standard call flow implementation.
+Our outgoing call flow is optimized to be seamless, with lower waiting times and quicker transfers. Thus, we initiate a Conference Call for all outgoing calls as per our standard call flow implementation.  
+  
+
+
+**Q. Does the 5% markup apply in addition to the configured rebilling?**
+
+The 5% markup applies to a specific set of categories (SMS carrier fees, MMS carrier fees, A2P registration fees, Verified Caller ID, and RCS messaging carrier fees) at the location level. These are separate from the usage categories that fall under configured rebilling. If a category is under configured rebilling, the 5% markup does not apply to it.
 
 * * *
 

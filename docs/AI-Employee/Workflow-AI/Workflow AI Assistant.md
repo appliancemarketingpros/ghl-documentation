@@ -85,9 +85,13 @@ Got questions while you’re working on a workflow? You can ask Workflow AI for 
 It can even help you add specific actions—like sending an SMS reminder, waiting for confirmation, updating an appointment status, or tagging contacts based on activity.  
   
 
-  7. ### **Suggest Next Steps**
+  7. ### **Suggest Next Steps**  
 
-Not sure what to do next? Workflow AI provides suggestions for the next steps you should take, helping you move forward with confidence.
+
+Not sure what to do next? Workflow AI provides suggestions for the next steps you should take, helping you move forward with confidence.  
+  
+
+  8. Manage workflow settings and naming Workflow AI can help you rename the workflow and update workflow settings through natural-language prompts. This includes re-entry, multiple opportunities, stop on response, timezone/time windows, sender details, and mark conversations as read.
 
 
   

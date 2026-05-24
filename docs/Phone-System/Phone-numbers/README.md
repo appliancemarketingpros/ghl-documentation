@@ -10,7 +10,7 @@
 - [Buying a Twilio Number in Your Own Twilio Account Connected to HighLevel](Buying a Twilio Number in Your Own Twilio Account Connected to HighLevel.md)
 - [Overview of Phone Number Configuration Options](Overview of Phone Number Configuration Options.md)
 - [How to buy a toll free number inside GHL?](How to buy a toll free number inside GHL.md)
-- [Porting your phone number (non-Twilio number) to a location/subaccount](Porting your phone number (non-Twilio number) to a locationsubaccount.md)
+- [Porting Options: US In-App vs International Manual Process](Porting Options US In-App vs International Manual Process.md)
 - [Toll-Free Number Verification Guide for LC - Phone (US/Canada)](Toll-Free Number Verification Guide for LC - Phone (USCanada).md)
 - [Number Hosting Guidelines for LC Phone Locations](Number Hosting Guidelines for LC Phone Locations.md)
 - [Deleting / Resetting a Twilio Number](Deleting Resetting a Twilio Number.md)

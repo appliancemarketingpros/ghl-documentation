@@ -197,7 +197,7 @@ When you open AI Studio, you will see:
   
 
 
-From the home area, you can start a new project, open an existing project, rename a project. move a project to a folder or delete a project.
+From the home area, you can start a new project, open an existing project, rename a project, move a project to a folder or delete a project.
 
   
 

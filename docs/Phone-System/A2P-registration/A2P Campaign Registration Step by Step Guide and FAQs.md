@@ -450,6 +450,37 @@ Click on **See Example** in the top right to check out examples for your use cas
 
 * * *
 
+## **Widget-First Campaign Use-Case Guidance**
+
+  
+
+
+The pre-built Chat Widget-first registration flow uses guided use-case ordering to help reduce incorrect selections during campaign setup.
+
+  
+
+
+In this flow:
+
+  
+
+
+  * **Customer Care** appears first
+  * **Account Notification** appears second
+
+
+  
+
+
+This guided order is intended to improve submission quality for chat-widget-based campaigns. For widget-first setup and compliance requirements, refer to the dedicated widget-first registration article.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071997852/original/uA-dF86FEgnj2Of61dbmzsCDAxklhSz1tw.png?1779452698)
+
+* * *
+
 ## **Requirements and Best Practices**
 
   

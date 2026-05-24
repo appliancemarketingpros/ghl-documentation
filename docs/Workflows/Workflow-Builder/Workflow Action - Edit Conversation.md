@@ -27,6 +27,11 @@ Managing conversations efficiently is crucial for any business handling customer
 
 The Edit Conversation Workflow Action allows businesses to automatically update conversation statuses based on specific events in their workflow. Instead of manually marking conversations as read or unread or archiving chats, this action automates those processes, improving organization and efficiency. It helps customer support teams manage their inboxes effectively and ensures important conversations get the right attention.
 
+  
+
+
+Marking a conversation as read clears its unread state in the Conversations inbox. In supported inbox views, this also removes the unread divider from the thread.
+
 * * *
 
 ## **Key Benefits of Edit Conversation Workflow Action**

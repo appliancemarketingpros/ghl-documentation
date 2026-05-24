@@ -8,7 +8,6 @@
 - [Adding Files To Contacts using a Custom Field](Adding Files To Contacts using a Custom Field.md)
 - [Adding Multiple Phone Numbers for a Contact](Adding Multiple Phone Numbers for a Contact.md)
 - [Advanced Filters in Smart Lists](Advanced Filters in Smart Lists.md)
-- [AND/OR Filters](ANDOR Filters.md)
 - [Company Object Feature: A Manual Way to Organize Contacts](Company Object Feature A Manual Way to Organize Contacts.md)
 - [Contact Activity Tab on Mobile](Contact Activity Tab on Mobile.md)
 - [Contact Date Of Birth Field (Birthday)](Contact Date Of Birth Field (Birthday).md)

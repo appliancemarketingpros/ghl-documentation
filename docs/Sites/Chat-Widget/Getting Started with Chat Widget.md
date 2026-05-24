@@ -28,7 +28,7 @@ Chat Widget is one of ways to convert visitors to potential leads. Chat Widget h
   
 
 
-The HighLevel Chat Widget is an embeddable messenger that lets website visitors start real‑time conversations with your team by Live Chat, Email/SMS, Facebook, Instagram, Voice AI or WhatsApp—all routed directly into your HighLevel inbox.
+The HighLevel Chat Widget is an embeddable messenger that lets website visitors start real-time conversations with your team through Web Chat (labeled as Live Chat in setup), Email/SMS, Facebook, Instagram, Voice AI, or WhatsApp—all routed directly into your HighLevel inbox.
 
 * * *
 
@@ -104,10 +104,7 @@ This chat will collect the visitor’s information so that you can respond to th
 
 #### **3\. Live Chat**
 
-  
-
-
-Live chat is a real-time, 2 way conversation within the chat widget. Great for teams with 24x7 coverage.
+Live Chat (Web Chat) is a real-time, two-way conversation within the chat widget that routes website visitor messages directly into Conversations. This option is labeled as “Live Chat” during setup but refers to the Web Chat channel used for website messaging. It is ideal for teams with 24x7 coverage.
 
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035797746/original/tsHXwfjVDSYeSyxT8EXm1VWCcaAI0XIhsw.png?1730384798)
@@ -225,7 +222,7 @@ Click on the **New** button to start the chat widget.
   
 
 
-Select the type of the chat widget, the user wants to add on landing page. Chat Widget types include; All-In-One Chat, SMS/Email Chat, Live Chat, Faebook Chat, Instagram Chat, WhatsApp Chat and Voice AI.
+Chat Widget types include: All-In-One Chat, SMS/Email Chat, Live Chat (Web Chat), Facebook Chat, Instagram Chat, WhatsApp Chat, and Voice AI.
 
   
 
@@ -285,6 +282,11 @@ Once the Chat widget is configured, the user can copy the code for landing page 
   
 
 
+Some registration flows check whether the Lead Connector chat widget is live on your website before submission. Make sure the widget is installed and visible on your site if your registration flow includes a compliance review step.
+
+  
+
+
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035803967/original/dq8tGTpy-b0VY4IbJiSpCV-7cIoUVHSyeA.png?1730389106)
 
   
@@ -308,7 +310,19 @@ The current configuration of the webchat widget does not allow for dynamic messa
 
 **Q: Can I create multiple chat widgets in a sub-account?**
 
-Yes. To learn more on how to add multiple chat widgets, see: [How to Add Multiple Chat Widgets to the Same Website](<https://help.gohighlevel.com/en/support/solutions/articles/155000003194>)
+Yes. To learn more on how to add multiple chat widgets, see: [How to Add Multiple Chat Widgets to the Same Website](<https://help.gohighlevel.com/en/support/solutions/articles/155000003194>)  
+  
+
+
+**Q: What is the difference between Web Chat and Live Chat in HighLevel?**
+
+Web Chat refers to website-based real-time messaging that routes into Conversations. During setup, this option is labeled as “Live Chat,” but it configures the Web Chat channel used for website messaging.  
+  
+
+
+**Q: Will changing the chat type affect existing conversations?**
+
+No. Updating or configuring chat types does not impact existing conversations. All messages continue to route into Conversations based on the selected channel.
 
 * * *
 
@@ -317,19 +331,10 @@ Yes. To learn more on how to add multiple chat widgets, see: [How to Add Multipl
   
 
 
-  * [](<https://help.gohighlevel.com/en/support/solutions/articles/155000003194>)[](<https://help.gohighlevel.com/en/support/solutions/articles/155000001335>)[How to Use the All-in-One Chat Widget](<https://help.gohighlevel.com/en/support/solutions/articles/155000004779>)  
+  * [](<https://help.gohighlevel.com/en/support/solutions/articles/155000003194>)[](<https://help.gohighlevel.com/en/support/solutions/articles/155000001335>)[](<https://help.gohighlevel.com/en/support/solutions/articles/155000004779>)[How to Use the All-in-One Chat Widget](<https://help.gohighlevel.com/en/support/solutions/articles/155000004779>)  
   
 
-  * [](<https://help.gohighlevel.com/en/support/solutions/articles/155000003194>)[Conversation AI Bot - Explained](<https://help.gohighlevel.com/en/support/solutions/articles/155000001335>)  
+  * [](<https://help.gohighlevel.com/en/support/solutions/articles/155000003194>)[](<https://help.gohighlevel.com/en/support/solutions/articles/155000001335>)[Conversation AI Bot - Explained](<https://help.gohighlevel.com/en/support/solutions/articles/155000001335>)  
   
 [](<https://help.gohighlevel.com/en/support/solutions/articles/155000003194>)
-  * [How to Add Multiple Chat Widgets to the Same Website](<https://help.gohighlevel.com/en/support/solutions/articles/155000003194>)  
-  
-
-  * [How to Install HighLevel's Chat Widget](<https://help.gohighlevel.com/en/support/solutions/articles/48000984860>)  
-  
-
-  * [Voice AI Chat Widget](<https://help.gohighlevel.com/en/support/solutions/articles/155000006056>)  
-  
-
-  * [Facebook and Instagram Chat Widgets](<https://help.gohighlevel.com/en/support/solutions/articles/155000007164>)
+  * [How to Add Multiple Chat Widgets to the Same Website](<https://help.gohighlevel.com/en/support/solutions/articles/155000003194>)

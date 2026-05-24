@@ -460,7 +460,7 @@ Assigned user signature| {{this.user.email_signature}}| Jane Smithjane@smith.com
 
 Some merge fields may be blank if the saved data is missing. When a merge field has no value, it can be replaced with a fallback value. This helps keep messages readable and avoids awkward blank greetings.  
   
-The fallback value can be set by clicking on the custom value tag inside the email editor. To learn more, see: [Set Defaults for Custom Values in Emails](<https://help.gohighlevel.com/en/support/solutions/articles/155000007825>)  
+The fallback value can be set by clicking on the custom value tag inside the email editor.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071460467/original/_4v9BjSqsBTDnQQcN2tRk855FpqfUCkIxw.png?1778876548)
 

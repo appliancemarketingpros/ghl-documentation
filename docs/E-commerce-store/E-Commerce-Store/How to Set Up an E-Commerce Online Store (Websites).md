@@ -124,6 +124,105 @@ Businesses will now be able to add variants like Size/Color/Material etc. for th
 
 * * *
 
+## **Delete a Store**
+
+  
+
+
+Deleting a store removes only the pages that belong to that store. This helps protect the rest of your website and makes store deletion more predictable.
+
+  
+
+
+When you delete a store, HighLevel removes store-related pages such as:
+
+  
+
+
+  * Products List
+  * Product Details
+  * Cart
+  * Checkout
+  * Thank You
+
+
+  
+
+
+Your main website pages, such as Home or About, are not deleted.
+
+  
+
+
+**Delete a store from the Stores list or Store Settings**
+
+  
+
+
+Store deletion works the same way from both entry points:
+
+  
+
+
+  * **Stores list**
+  * **Store Settings**
+
+
+  
+
+
+**To delete a store:**
+
+  
+
+
+1\. Go to **Sites** > **Stores**.  
+  
+
+
+2\. Open the **three-dot menu** for the store, or open **Store Settings**.  
+  
+
+
+3\. Select **Delete Store**.  
+  
+
+
+4\. Type **DELETE** in the confirmation modal.  
+  
+
+
+5\. Click **Delete**.
+
+  
+
+
+### **Important**
+
+  * Only store-related pages are deleted.  
+  
+
+  * Website pages remain unchanged.  
+  
+
+  * To remove the full website, use the **Delete Website** option from the website settings instead.
+
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071924367/original/Hn0PVqtNHtuxU2LbcmYEhrX_Y1C8GZWxIA.png?1779375413)
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071924683/original/kI96nZTl9uNcX8utJHpIqpW1bsI9Z0hJhw.png?1779375540)
+
+  
+
+
+* * *
+
 ## **2\. Activating and Editing your online store on your website**  
   
 
@@ -131,7 +230,7 @@ Businesses will now be able to add variants like Size/Color/Material etc. for th
   * An online store can be added both to an existing website as well as to a new website being created from scratch  
   
 
-  * Businesses will have the option to activate an online store by clicking on the   
+  * Businesses will have the option to activate an online store by clicking on the  
 \+ icon to add elements inside the website builder  
   
 
@@ -233,6 +332,12 @@ Product titles display in full (without ellipses) across most storefront purchas
 
 
 \- Featured Product element
+
+  
+
+
+  
+
 
   
 **How Titles Render**  

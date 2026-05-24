@@ -104,6 +104,14 @@ Stripe is currently the only supported payment provider for SaaS Mode.
 
 ###   
 **Configure SaaS Plans**  
+
+
+  
+
+    
+    
+     You can now create SaaS V2 plans directly inside SaaS Configurator with no redirects to an agency sub-account. You can still create or edit V2 plans from the agency sub-account if preferred.
+
   
 
 
@@ -135,6 +143,7 @@ Inside SaaS Configurator you can:
   
 
   * Enable plan features  
+  
   
 
 
@@ -237,10 +246,12 @@ Use cases include:
 
   5. Click **Create a Special Price**  
   
+  
 
 
 **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070953147/original/gMeZpPdKS_TPq8-n8TW67hGbE7zzO7rteQ.png?1778376390)**
 
+  
   
 
 
@@ -259,6 +270,7 @@ Use cases include:
 
 
   * Special Price popup modal screenshot  
+  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070953144/original/UN8FSSVFdt1S1kfQ-8Bjt0Ian1iQcweXUg.png?1778376351)
 

@@ -87,6 +87,53 @@ Below is a breakdown of each available filter type:
 
 * * *
 
+  
+
+
+## **Filter Quiz Scores Using a Range**
+
+  
+
+
+Quiz score filters help you route contacts based on performance. Using a score range makes it easier to group contacts into the right follow-up path without creating multiple overlapping conditions.
+
+  
+
+
+When configuring quiz score conditions, use the **Between** operator to match scores that fall within a selected range.
+
+  
+
+
+**How it works:**
+
+  
+
+
+  * Enter the lower score in the first field  
+  
+
+  * Enter the higher score in the second field  
+  
+
+  * Both the starting and ending scores are included in the range  
+  
+
+  * The system prevents invalid ranges where the minimum score is greater than the maximum score
+
+
+  
+
+
+**Example:**
+
+  
+
+
+Trigger a nurture workflow when a quiz score is between **30** and **60.**
+
+* * *
+
 ## **Use Case Examples**
 
   

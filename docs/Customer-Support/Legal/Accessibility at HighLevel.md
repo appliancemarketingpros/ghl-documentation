@@ -10,15 +10,13 @@ HighLevel is dedicated to building digital experiences that work for everyone. W
 
 * * *
 
-  
-
-
 **TABLE OF CONTENTS**
 
   * Current Features in HighLevel
+  * Accessibility in Onboarding and LaunchPad
+  * Accessibility in Media Storage
   * Navigation & Screen Reader Support (Topbar + Help Drawer)
   * Video Learning Accessibility (Course Builder)
-  * Our Planned Process
   * Getting Help
 
 
@@ -29,8 +27,36 @@ HighLevel is dedicated to building digital experiences that work for everyone. W
   
 Accessibility improvements are released across different areas of the platform, with a focus on screen reader support, keyboard navigation, and clear labeling for interactive elements. Use the highlights below to understand what’s available today and where it applies.
 
+* * *
+
+## **Accessibility in Onboarding and LaunchPad**
+
   
 
+
+Onboarding and LaunchPad include improvements that support users who rely on screen readers, keyboard-only navigation, and other assistive technologies.
+
+  
+
+
+**What’s improved**
+
+  
+
+
+  1. Screen readers announce step progress, provide clearer modal context, and communicate form validation feedback.  
+  
+
+  2. Keyboard-only navigation supports predictable tab order across interactive elements, Enter/Space activation where supported, and Escape to close supported modals.  
+  
+
+  3. Focus indicators and focus behavior are more consistent across steps and dialogs.  
+  
+
+  4. Language declarations and localized accessibility text improve pronunciation and comprehension across supported locales.
+
+
+* * *
 
 ## **Accessibility in Media Storage**
 
@@ -66,10 +92,9 @@ Media Storage includes accessibility improvements that help more users manage an
 
 These improvements help create a more inclusive experience for users who rely on assistive technologies or keyboard navigation.
 
-  
+* * *
 
-
-### **Navigation & Screen Reader Support (Topbar + Help Drawer)**
+## **Navigation & Screen Reader Support (Topbar + Help Drawer)**
 
   
 
@@ -93,9 +118,11 @@ These improvements help create a more inclusive experience for users who rely on
   * **Better accessibility cues for switcher items** (including “login as” / switching behavior).
 
 
+* * *
+
+## **Video Learning Accessibility (Course Builder)**
+
 ###   
-**Video Learning Accessibility (Course Builder)**  
-  
 
 
   * **Closed captions/subtitles supported via .srt uploads** to improve accessibility for learners who are Deaf/Hard of Hearing and for viewers who prefer reading along.  
@@ -125,8 +152,7 @@ These improvements help create a more inclusive experience for users who rely on
 [https://help.gohighlevel.com/support/solutions/articles/155000005182-adding-closed-captions-and-subtitles-to-your-video-courses](<https://help.gohighlevel.com/support/solutions/articles/155000005182-adding-closed-captions-and-subtitles-to-your-video-courses?utm_source=chatgpt.com>)
 
 
-  
-
+* * *
 
 ### **Our Planned Process**
 
@@ -156,6 +182,8 @@ While HighLevel is committed to providing accessible features and tools, custome
     
     If you experience a screen reader issue, keyboard navigation problem, missing label, or focus behavior that prevents completing a task, include the page/area you were in and the steps to reproduce it when you reach out for support so the issue can be prioritized and verified.
     
+
+* * *
 
 ## **Getting Help**
 
