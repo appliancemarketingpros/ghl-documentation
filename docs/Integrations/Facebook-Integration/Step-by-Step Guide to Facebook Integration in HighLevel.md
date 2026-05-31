@@ -179,7 +179,16 @@ After login, select:
 
 
   
- _![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155049968895/original/xd-qolVpz2IGvR40lcDS5MgGHRJFFZorXA.png?1752702847)_  
+
+    
+    
+    **Tip:** You can search Facebook Pages (and Ad Accounts, when available) by name to find the right selection faster. Search appears after your pages finish loading because Meta does not provide native search for this step. Accounts with many pages may take longer to load before search is available.
+
+  
+
+
+  
+_![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155049968895/original/xd-qolVpz2IGvR40lcDS5MgGHRJFFZorXA.png?1752702847)_  
 
 
   

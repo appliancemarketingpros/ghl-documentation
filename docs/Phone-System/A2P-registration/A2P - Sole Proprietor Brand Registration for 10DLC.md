@@ -401,21 +401,46 @@ This can be any person that can answer questions about this brand, if needed. Pl
   3. **Add Sample Message #1 and #2**  
   
 
-     1. In the Sample Message #1 field, provide a message that includes:  
-  
-✅ Lead's name  
-✅ Your name  
-✅ Business name  
-✅ Opt-out language (e.g., Reply STOP to unsubscribe)  
-  
-**Example:** Hi John! This is Jane from company_name. Our appointment for July 20 at 11:00 AM is confirmed. Please reach out to (phone number) if you need to reschedule. Reply STOP to unsubscribe.  
+
+Use the sample message fields to show the exact types of SMS your campaign will send.  
   
 
-     2. Provide a second sample message with the same required elements as above.  
+
+**Sample Message #1 (Promotional/Marketing)**
+
+Provide a promotional/marketing example that includes:  
   
-**Example:** Hey Brian! This is Jane from company_name. I see you weren't able to make it to our appointment. Want to reschedule? - https://www.mycompany.com/book. Reply STOP to unsubscribe.  
+
+
+1\. Lead’s name   
   
-![](https://jumpshare.com/share/yFvQgxZ2jxfMvy6ILx3x+/Screen+Shot+2026-02-18+at+00.13.54.png)  
+
+
+2\. Your name (or staff name)   
+  
+
+
+3\. Business name   
+  
+
+
+4\. Opt-out language (for example, “Reply STOP to unsubscribe”)  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072235524/original/jiwJp30YW-wtXBKAd0BQ7AhnTu68c4yzxQ.png?1779806022)  
+  
+
+
+**Sample Message #2 (Transactional/Informational)**
+
+Provide a transactional/informational example that includes the same required elements above. This message should reflect informational content such as confirmations, reminders, or support updates.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072235575/original/TT7Q8OLEBsjzti2VRHT-hd4QR3nV_AghnQ.png?1779806046)  
+  
+
+
+**Tip** : If your campaign includes both promotional and transactional content, make sure you include one of each using the correct field.
+
+  
   
 
   4. **Choose Content Included in Your Messages**  

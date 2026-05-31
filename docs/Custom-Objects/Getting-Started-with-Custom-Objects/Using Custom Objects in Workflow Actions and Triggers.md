@@ -112,6 +112,9 @@ The below-mentioned actions and Triggers are present in the Custom Object Workfl
   * Clear fields of Home or Associated Record  
   
 
+  * Add to Note (Notes): Add a note to the enrolled custom object record  
+  
+
 
 #### **Send Data**
 

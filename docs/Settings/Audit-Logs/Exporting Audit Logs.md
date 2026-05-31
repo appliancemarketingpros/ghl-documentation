@@ -171,6 +171,52 @@ Stay on the **Audit Logs** tab, apply the filters you want to use and click **Ex
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068571636/original/ufKVyn6aqYjxiw4ZzeLSyolUjd9VuZ6_iQ.png?1775550912)
 
 
+  
+
+
+* * *
+
+## **Labs Feature Flag Updates in Audit Logs**
+
+  
+
+
+Audit Logs now track changes made to Labs feature flags. This gives teams a clear record of feature enablement changes and makes it easier to review when a feature was turned on or off.
+
+  
+
+
+**Labs audit logging includes:**
+
+  * Company-level feature flag updates  
+  
+
+  * Location-level feature flag updates  
+  
+
+  * Changes made through the Support Portal
+
+
+  
+
+
+When a Labs feature flag is updated, you can review the entry in **Audit Logs** and open the details panel to see the related document, action, date and time, who made the change, and the modified details.
+
+  
+
+
+If the change was made through Support tools, the entry is attributed to **Support Portal**.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072144290/original/Yz1VJjAJkgr6ixbzwDSzQJ9INY-Yh6J5qA.png?1779719808)
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072144431/original/zvCqaoW6goEYROM_mDO1LrnwRtDlia6bZw.png?1779719902)
+
 * * *
 
 ## **Frequently Asked Questions**

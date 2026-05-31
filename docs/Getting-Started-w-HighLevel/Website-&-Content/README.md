@@ -5,7 +5,6 @@
 ## Articles
 
 - [Getting Started - Launch a Website From Template](Getting Started - Launch a Website From Template.md)
-- [Getting Started - Migrate a Wordpress Site](Getting Started - Migrate a Wordpress Site.md)
 - [Getting Started - Launch a Website from Blank](Getting Started - Launch a Website from Blank.md)
 - [HighLevel Onboarding Updates: Persona Selection and Website Field](HighLevel Onboarding Updates Persona Selection and Website Field.md)
 - [​  Disable or Enable the Mandatory Profile Modal for Community Members](​ Disable or Enable the Mandatory Profile Modal for Community Members.md)

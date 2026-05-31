@@ -39,7 +39,7 @@ The Quiz Builder allows you to create interactive quizzes that collect lead deta
   
 
 
-You can build from scratch or use templates, speed up creation by importing questions via CSV, and publish using an embed code or share link. Submissions can be mapped into CRM custom fields and used to trigger workflows for segmented follow-up.
+You can build from scratch or use templates, and publish using an embed code or share link. Submissions can be mapped into CRM custom fields and used to trigger workflows for segmented follow-up.
 
 * * *
 
@@ -52,9 +52,6 @@ You can build from scratch or use templates, speed up creation by importing ques
   
 
   * **Automation-Ready Follow-Up:** Trigger workflows immediately when a quiz is submitted for real-time engagement.  
-  
-
-  * **Bulk Question Creation:** Import multiple quiz questions into a page at once using CSV upload to save time.  
   
 
   * **Personalized Experience:** Customize the results page with score tiers, sections, and CTAs to guide next steps.  

@@ -4,5 +4,5 @@
 
 ## Articles
 
-- [How To Integrate Shopify With HighLevel](How To Integrate Shopify With HighLevel.md)
+- [How to Use the Shopify Integration with Your Account](How to Use the Shopify Integration with Your Account.md)
 - [Shopify Elements in HighLevel](Shopify Elements in HighLevel.md)

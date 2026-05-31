@@ -15,23 +15,23 @@ Get faster, priority assistance and expert guidance with HighLevel’s new Premi
 
 * * *
 
-**TABLE OF CONTENTS**  
-  
-
+**TABLE OF CONTENTS**
 
   * What is Premium Support?
-  * Key Benefits of Premium Support
-  * How To Setup Premium Support
-    * Step 1: Go to the Billing Page
-    * Step 2: Choose Your Plan
-    * Step 3: Access Premium Support Features
-  * Additional Premium Support Topics
-    * Dedicated Technical Account Manager (TAM)
-    * Exclusive Slack Access
-    * Quarterly Business Reviews
-  * Managing and Cancelling Premium Support
-  * Frequently Asked Questions
-  * Related Articles
+    * Accept the Terms Before Subscribing
+    * Key Benefits of Premium Support
+    * How To Setup Premium Support
+      * Step 1: Go to the Billing Page
+      * Step 2: Choose Your Plan
+      * Step 3: Setup Slack Channel
+      * Step 4: Access Premium Support Features
+    * Additional Premium Support Topics
+      * Dedicated Technical Account Manager (TAM)
+      * Exclusive Slack Access
+      * Quarterly Business Reviews
+    * Managing and Cancelling Premium Support
+    * Frequently Asked Questions
+    * Related Articles
 
 
 * * *
@@ -48,6 +48,60 @@ Premium Support is a subscription-based add-on for HighLevel users that provides
     
     
     **Note:** Learn more about [Premium Customer Support Upgrade](<https://help.gohighlevel.com/en/support/solutions/articles/155000004578>).
+
+  
+
+
+* * *
+
+## **Accept the Terms Before Subscribing**
+
+  
+
+
+Before you can complete a Premium Support subscription, you must accept the Premium Support terms and conditions in the checkout window. This confirmation step helps ensure the subscription is completed with clear agreement to the service terms.
+
+  
+
+
+To complete your subscription:
+
+  
+
+
+1\. Go to **Settings** > **Billing**.  
+  
+
+
+2\. Find **Premium Support** under **Addons**.  
+  
+
+
+3\. Select **Subscribe Now**.  
+  
+
+
+4\. Choose your billing plan and payment method.  
+  
+
+
+5\. Select the **I agree to the premium support terms and conditions** checkbox.
+
+  
+6\. Click **Pay & Subscribe** to complete the purchase.
+
+  
+
+
+**Important:**
+
+  * The terms checkbox is required before the subscription can be completed.  
+  
+
+  * The checkout design remains the same aside from this added confirmation step.
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072450040/original/czu24TleATbTcS97STrfSFUscMqt6mXUWg.png?1780047673)
 
 * * *
 
@@ -91,8 +145,7 @@ Premium Support offers significant advantages for users who need more than stand
   
 
 
-✅ **Proactive Guidance:** Get ahead of potential issues with advice and best practices from experienced support staff.  
-
+✅ **Proactive Guidance:** Get ahead of potential issues with advice and best practices from experienced support staff.
 
 * * *
 

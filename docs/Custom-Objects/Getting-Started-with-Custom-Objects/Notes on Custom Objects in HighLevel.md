@@ -10,11 +10,17 @@ Notes on Custom Objects allow teams to capture and manage record-specific contex
 
 * * *
 
-  
+**TABLE OF CONTENTS**
+
+  * What are Notes on Custom Objects?
+  * Key Benefits of Notes on Custom Objects
+  * How To Setup Notes on Custom Objects
+  * Automate notes with workflows
+  * Frequently Asked Questions
+  * Related Articles
 
 
-  
-
+* * *
 
 ## **What are Notes on Custom Objects?**
 
@@ -93,6 +99,40 @@ Properly using Notes on Custom Objects ensures that teams capture relevant infor
 
 
 The note will now appear on both the original record and the associated Custom Object record.
+
+* * *
+
+## **Automate notes with workflows**
+
+  
+
+
+You can also add notes to custom object records automatically using workflows:
+
+  
+
+
+1\. Open a workflow for your custom object.
+
+  
+
+
+2\. Add the **Add to Note** action.
+
+  
+
+
+3\. Enter the note content, then save and publish.
+
+  
+
+
+**Note:** Note title and note color are not supported yet for custom object workflow notes.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072297388/original/sotp56-soaqrAr1z9oujITN-GBTjtjDlig.gif?1779875800)
 
 * * *
 

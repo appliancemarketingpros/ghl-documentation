@@ -228,6 +228,47 @@ Follow these steps carefully to complete your Standard Brand registration:
   
 
 
+#### **_New: Upload Your CP-575 to Auto-Fill Business Details_**  
+  
+
+
+You can now upload your IRS CP-575 form directly on the Business Details page. Once uploaded, the following fields will be automatically pre-filled for you:
+
+  * **Legal Business Name**  
+  
+
+  * **EIN (Business Registration Number)**  
+  
+
+  * **Registered Business Address**  
+  
+
+
+**To upload your CP-575:**
+
+  1. In the **"Upload your CP-575"** section at the top of the Business Details page, click **"Click to upload"** or drag and drop your CP-575 PDF (max 5MB) into the upload area.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072212268/original/hs6vb8wl2Xl8XwU4nCvfFZOc1ZRgChBlAA.png?1779795880)  
+  
+
+  2. Once processed, you will see a confirmation banner: **"CP-575 uploaded and verified — We've pulled your business details and pre-filled your registration. Review below and continue."**  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072212373/original/gBiTBKwR7Q_lwUjzzDbF2U87DfCxrF97Xw.png?1779795941)
+  3. Review the pre-filled fields, edit any details if needed and then complete the remaining fields that require manual input.
+
+
+  
+
+    
+    
+    ****Why this matters:** **
+    
+    A large share of A2P Brand rejections come from small mismatches between what you enter and what's on file with the IRS — a missing "LLC," a transposed digit in the EIN, or an outdated address. Uploading your CP-575 removes the guesswork and significantly improves your chances of first-time approval.****Note:** A2P Brand registrations using newly generated US EINs (registered in the last 15 days) may be rejected by TCR.**
+    
+
+  
+**Complete the remaining Business Details fields:**
+
   1. Enter **Legal Business Name** as **registered with the Government and mentioned in your tax documents** (W2, W9 or CP 575). E.g. Leadconnector LLC rather than Leadconnector.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065196090/original/-6Y9wr8JXhGtC0M0cUUbb54ZEvA3_mGufw.jpg?1771428423)  
@@ -256,20 +297,15 @@ Follow these steps carefully to complete your Standard Brand registration:
 
   9. Click on **Continue**.  
   
-![](https://jumpshare.com/share/hIu9C5O39kVx3vBbdUao+/Screen+Shot+2026-02-18+at+20.54.09.png)  
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072214044/original/PchlyWBKu7t7uD53VZqcuRwfYRD-eOhN9g.png?1779796688)
 
 
     
     
-    **Important:** A2P Brand registrations using **newly generated US EINs (registered in the last 15 days)** , may be **rejected by TCR**.  
-    
+    **Tip: Field-level help links,  such as "Where's my legal business name?" and "Where's my registration number?"  are now displayed inline next to each field label for quick reference.**
 
-  
-  
-
-
-### **_Step 4:_**_Add Business Address_
+###   
+**_Step 4:_**_Add Business Address_
 
   
 

@@ -143,6 +143,9 @@ You will see the following campaign fields on this page:
 
   
 
+
+  
+
     
     
     In the Pre-Built Chat Widget registration flow, transactional / non-marketing campaigns are automatically assigned ** **Customer Care**. That guided flow does not require manual use-case selection for transactional campaigns.
@@ -180,6 +183,9 @@ Click on **See Example** in the top right to check out examples for your use cas
   
 
 
+  
+
+
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065623848/original/zz7xQEg31IhdyjZ-3JR_Aa4renCsDAtP9A.jpeg?1771959036)
 
   
@@ -210,53 +216,83 @@ Click on **See Example** in the top right to check out examples for your use cas
   
 
 
-Sample Message #1 & #2 refers to the sample messages you provide as part of your application for A2P10DLC campaign submission. These examples demonstrate the kind of SMS content you intend to send to your audience. The goal is to give carriers a clear idea of your messaging purpose, format, and compliance with regulations.
+Sample Message #1 and #2 are examples of the SMS content you plan to send under this campaign. Carriers use these samples to validate your declared use case and messaging mix.
 
   
 
 
-Sample Messages must:  
-  
-
-
-  * Include the lead’s name, a staff member’s name, a business name, and opt-out language (reply STOP to unsubscribe.)  
-  
-
-  * Provide an example of the type of messages the client states they are sending in their description.
-
+**Sample Message #1 (Promotional/Marketing)**
 
   
 
 
-Click on **See Example** in the top right to check out examples for your use case.
+Use this field for marketing content such as promotions, discounts, special offers, and announcements.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072234682/original/YKuti1RH3WzH29lMT6G7Qt6aScbPxK0fdQ.png?1779805578)
+
+  
+
+
+  
+
+
+**Sample Message #2 (Transactional/Informational)**
+
+  
+
+
+Use this field for informational content such as appointment reminders, confirmations, status updates, and support follow-ups.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072234745/original/gshH1E1I7XG7BGnfWQmoxFrmgEyd5SB0Pw.png?1779805604)
+
+  
+
+
+  
+
+
+**Both sample messages must:**
+
+  
+
+
+  * Include the lead’s name, your name (or staff name), your business name, and opt-out language (for example, “Reply STOP to unsubscribe”).  
+  
+
+  * Match the campaign use case and your use case description.  
+  
+
+  * Reflect real messages you will send.
+
+
+  
+
+
+**Tips**
+
+  
+
+
+  * For mixed messaging, submit at least one promotional sample and one transactional sample (use each field as intended).  
+  
+
+  * Use the “See Example” option to view examples filtered to the required content type for each field.  
+  
+
+  * Do not include custom field tokens or values in sample messages.
+
 
   
 
     
     
-    **Important:** Do _NOT_ including custom fields or values in the sample messages. 
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065624147/original/QoWIFYG5M0VLN2CAR2_Ust4FbN9hzg3wdw.png?1771959559)
-
-  
-
-
-  
-
-
-**Example Sample Messages**
-
-  
-
-
-  * "David, it's Kate from ABC Company. Thanks for opting in to receive SMS notifications. I just saved a time for you on Thursday, June 15, 2023, at 4:00 PM, and I'll see you then! If anything changes, just let me know. If you need to opt out, reply STOP."  
-  
-
-  * "David, it's Kate from ABC Company. Thanks for opting in to receive messages. Today, we are giving out a few vouchers to our past patients for a free chiropractic adjustment. Would you like one? If you need to opt out, reply STOP."
-
+    **Important : **Do _NOT_ including custom fields or values in the sample messages. 
 
 * * *
 
@@ -306,6 +342,9 @@ If consent is being obtained on the website, please provide the URL. If it’s v
     
     
     **Tip:** If the checkbox is showing at the end of the survey, or behind an appointment form. Please include a hosted link to an image of the opt-in
+
+  
+
 
   
 
@@ -610,6 +649,9 @@ Starting January 26, 2023, all new US A2P 10DLC Campaign registrations (Standard
   
 
 
+  
+
+
 **Q: Why is this change happening, and is this a LeadConnector-specific requirement?**
 
 This is an industry-wide change to improve the Campaign Vetting process to reduce spam, fraud, and unwanted messaging and protect SMS as a trusted communications channel in the U.S. Every messaging provider who services A2P Campaigns must conduct this vetting.
@@ -618,6 +660,9 @@ This is an industry-wide change to improve the Campaign Vetting process to reduc
 
 
 **Note:** We are collecting the campaign verification fee and will pass that along without markup to our telecommunications partners. The cost is not levied by us directly. 
+
+  
+
 
   
 

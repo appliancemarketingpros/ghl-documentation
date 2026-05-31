@@ -8,26 +8,26 @@
 
 This guide explains how to port a phone number from an external carrier into a HighLevel Location (sub-account). It covers the required documents, how to submit a port request, and what to expect during the transfer process.
 
-Please prepare the information mentioned in the article and complete the **[Porting Form](<https://link.gohighlevel.com/widget/form/qX47XEC8HsDtrGkmbjFQ>).**
+Please prepare the information mentioned in the article and complete the [Porting Form.](<https://link.gohighlevel.com/widget/form/qX47XEC8HsDtrGkmbjFQ>)
 
-  
-
+* * *
 
 **TABLE OF CONTENTS**
 
   * What is Porting? 
   * Prerequisites
-  * Billing Statement Requirements
+  * Billing Statement Requirement
   * Decide Your Destination Carrier (Important)
   * How Does Porting Work?
     * Option A: In-App Port-In (US Only — New)
-      * How to Access
-      * The 4-Step In-App Flow
-      * After Submission
-    * Option B: Manual Port Request via Form
-      * Step 1: Gather documents
-      * Step 2: Complete the High-Level Porting Form (US numbers)
-      * Step 3: Approval & FOC (Firm Order Commitment)
+    * Step 1: Agreement Checklist
+    * Step 2: Number Entry
+    * Step 3: Additional Details
+    * Step 4: Document Upload
+  * Option B: Manual Port Request via Form
+    * Step 1: Gather documents
+    * Step 2: Complete the High-Level Porting Form (US numbers)
+    * Step 3: Approval & FOC (Firm Order Commitment)
   * After the Port — Compliance & Deliverability
   * Frequently Asked Questions
 
@@ -157,86 +157,170 @@ Not sure which you’re on? In your Location, go to **Settings → Phone System*
   
 
 
-There are two ways to submit a US port-in request. Choose the option that applies to your setup.  
+There are two ways to submit a US port-in request. Choose the option that applies to your setup.
+
   
 
 
-### Option A: In-App Port-In (US Only — New)
+  
 
-Availability: Agency Owners and Admins | Must be enabled via Labs Applies to:   
- _US phone numbers only_
+
+### _Option A: In-App Port-In (US Only — New)_
+
+###   
+
+
+Availability: Agency Owners and Admins | Must be enabled via Labs Applies to US phone numbers only
+
+  
+
 
 Agency owners and admins can now submit and track port-in requests directly inside the platform, no external form needed. The in-app flow auto-generates your LOA, so you don't need to prepare or upload one manually.
 
-#### How to Access
+  
 
-  * Submit a new request: Phone System → Phone Numbers → Add Number → Port-in Numbers
+
+**How to Access**
+
+  
+
+
+  * Submit a new request: Phone System → Phone Numbers → Add Number → Port-in Numbers  
+  
 
   * Track existing requests: Phone System → Phone Numbers → Port-In Numbers tab
 
 
-####  _The 4-Step In-App Flow_
+  
 
-Step 1 — Agreement Checklist
+
+  
+
+
+###  _**Step 1:** Agreement Checklist_
+
+  
+
 
 Review and acknowledge the standard porting terms:
 
-  * Applicable rates for porting
+  
 
-  * Numbers must remain active with your current carrier until the port completes
 
-  * Possible messaging downtime of up to 3 days during the transition
+  * Applicable rates for porting  
+  
+
+  * Numbers must remain active with your current carrier until the port completes  
+  
+
+  * Possible messaging downtime of up to 3 days during the transition  
+  
 
   * Potential termination charges from your current carrier  
   
 All acknowledgements must be accepted to continue.  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072002726/original/DbYw0gFjngXt4Mec3Ged5H6SE-fNIK0Zyw.png?1779455280)  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072002726/original/DbYw0gFjngXt4Mec3Ged5H6SE-fNIK0Zyw.png?1779455280)
 
 
-Step 2 — Number Entry
-
-  * Account number — your account number with the current carrier
-
-  * Landline numbers — enter multiple numbers as a comma-separated list
-
-  * Wireless numbers — enter each number with its PIN or the last 4 digits of the account holder's SSN. Use \+ Add New Number to include additional wireless numbers.  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072002800/original/-qhKW0KzS84ntU9lDNG8IcQFWkFOmxqYkQ.png?1779455325)
-
+###   
+_**Step 2:** Number Entry_
 
   
-Step 3 — Additional Details
 
-Field| Notes  
+
+  * Account number — your account number with the current carrier  
+  
+
+  * Landline numbers — enter multiple numbers as a comma-separated list  
+  
+
+  * Wireless numbers — enter each number with its PIN or the last 4 digits of the account holder's SSN.  
+  
+
+  * Use + Add New Number to include additional wireless numbers.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072002800/original/-qhKW0KzS84ntU9lDNG8IcQFWkFOmxqYkQ.png?1779455325)  
+  
+
+
+###   
+_**Step 3:** Additional Details_
+
+### **  
+**
+
+Field|  Notes  
 ---|---  
 Port request name| Optional — for your internal reference  
 Account type| Toggle between Residential or Business  
 Contact name| Name of the account holder  
 Authorized email| Where the auto-generated LOA will be sent for digital signature  
-Full address| Street, city, state (dropdown), and postal code  
+Full address  
+| Street, city, state (dropdown), and postal code  
+  
+  
+
+
+  
+
+
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072002880/original/6z-g-xwzNAkK8k1CHwWjkoAxilXvuR6y3w.png?1779455411)
 
-Step 4 — Document Upload
+  
+
+
+  
+
+
+###  _**Step 4:** Document Upload_
+
+  
+
 
 Upload your billing statement from your current carrier.
 
-  * Accepted formats: PDF or image file
+  
 
-  * Maximum file size: 10 MB per file
+
+  * Accepted formats: PDF or image file  
+  
+
+  * Maximum file size: 10 MB per file  
+  
 
   * Multiple billing documents can be uploaded if needed
 
 
+  
+
+
 This is the only document you need to upload. The LOA is automatically generated from your entered details and emailed to the authorized representative for digital signature.  
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072002920/original/BZMa_c7fz1XNlzx3PHeUhIBaynsMCkbLWg.png?1779455427)
 
-#### After Submission
+  
+  
+**After Submission**
 
-  * A confirmation modal appears with your Request SID.
+  
 
-  * The auto-generated LOA is emailed to the authorized representative for e-signature.
+
+  * A confirmation modal appears with your Request SID.  
+  
+
+  * The auto-generated LOA is emailed to the authorized representative for e-signature.  
+  
 
   * Your request appears live in the Port-In Numbers tab with real-time status updates:  
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072003043/original/PmvvYFlF0UiWI_nYbicBbrLfbtvfbTvhtw.png?1779455511)
+
+
+  
+
+
+  
 
 
 Status| Meaning  
@@ -246,18 +330,22 @@ In Progress| Submitted to carrier, being processed
 Completed| Port is complete  
 Rejected| Request was rejected — check the description for the reason  
   
+  
+
+
 Each entry also shows the Request SID, created date, and a description of the current carrier action.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072003166/original/2h1WZ-EFDWw3tvQ5qgfTSzngFmIjYkzU1w.png?1779455575)
 
+* * *
+
+## **Option B: Manual Port Request via Form**
+
   
 
 
-### Option B: Manual Port Request via Form
-    
-    
-    **IMPORTANT** : We are currently able to port in numbers from the **United States only**. For any other country's porting please refer to [Let's port your phone number](<https://twlo.my.salesforce-sites.com/InternationalPorting>). If a Letter of Authorization (LOA) is required, use this [template](<https://docs.google.com/document/d/1RITNwdQukTgXIp9KOUbFexLr8GdlW3yy2g-nLvI_Aps/edit?tab=t.0>).
-    This process typically takes **2-4 weeks** , and we will provide updates via **email**.
+**IMPORTANT** : We are currently able to port in numbers from the United States only. For any other country's porting please refer to Let's port your phone number. If a Letter of Authorization (LOA) is required, use this template.  
+This process typically takes 2-4 weeks, and we will provide updates via email.
 
   
 
@@ -272,9 +360,10 @@ Each entry also shows the Request SID, created date, and a description of the cu
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054088072/original/p8t77kH58TytiJCfz2_KPn1CSL11YbTg5g.png?1758222144)
 
   
+  
 **Note** \- The **company name field** (as shown in the screenshot) on the **LOA** can be **left blank**.  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155058842655/original/V_oYDFgRxSYGkU7SwhxqzMDOuQTepdCtLw.png?1763638695)
-
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155058842655/original/V_oYDFgRxSYGkU7SwhxqzMDOuQTepdCtLw.png?1763638695)  
   
 
 
@@ -289,14 +378,13 @@ Each entry also shows the Request SID, created date, and a description of the cu
   4. **Location ID** — destination sub‑account. _(Find it in the Location:_**_Settings → Business Profile_** _.)_  
   
 _![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054088147/original/x_YH0z1VALLLlkJeQKy9xQErsE4uQaYjwA.png?1758222300)_  
+  
 
 
   5. **Carrier account details** — account # and **PIN/Passcode** for any **wireless** numbers.
 
 
   
-
-
   
 
 
@@ -393,7 +481,6 @@ After your number ports in, complete the checks below to ensure calls and messag
 
 ## **Frequently Asked Questions**
 
-  
   
 
 

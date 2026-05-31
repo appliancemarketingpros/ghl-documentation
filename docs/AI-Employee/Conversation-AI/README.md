@@ -4,7 +4,6 @@
 
 ## Articles
 
-- [Using Conversation AI on Mobile (HighLevel & LeadConnector)](Using Conversation AI on Mobile (HighLevel & LeadConnector).md)
 - [Bot Status for Individual Contacts](Bot Status for Individual Contacts.md)
 - [Guided Form Based Setup for Conversation AI](Guided Form Based Setup for Conversation AI.md)
 - [Conversation AI Agents Dashboard](Conversation AI Agents Dashboard.md)
@@ -19,3 +18,4 @@
 - [Conversations AI Bots can now Respond to Audio](Conversations AI Bots can now Respond to Audio.md)
 - [Conversation AI: Multiple Calendars Support for Appointment Booking](Conversation AI Multiple Calendars Support for Appointment Booking.md)
 - [Forward Emails from Conversations in HighLevel](Forward Emails from Conversations in HighLevel.md)
+- [Configure Response Settings in Conversation AI](Configure Response Settings in Conversation AI.md)

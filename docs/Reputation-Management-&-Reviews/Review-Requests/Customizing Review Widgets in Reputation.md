@@ -221,8 +221,7 @@ Define the foundational structure and sources of your review display:
   
 
 
-  * **Summary Position:** Choose where the AI summary appears—either at the top of the widget or inline with the reviews.  
-  
+  * **Summary Position:** Choose where the AI summary appears either at the top of the widget or inline with the reviews. The placement follows selected widget layout by default. If you want the summary to always appear at the top, set Summary Position to Top.  
 
 
   * **Review Source:** Select which platforms to pull reviews from.  

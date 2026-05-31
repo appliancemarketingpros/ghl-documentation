@@ -6,7 +6,7 @@
 
 ---
 
-This guide explains HighLevel’s new Knowledge Sources Support & Quality Upgrades for Conversation AI . Tables, rich-text, file uploads, and an ultra-smart retrieval pipeline, so you can serve crystal-clear, context-aware answers at scale.
+This guide explains HighLevel’s Knowledge Source and retrieval quality upgrades for Conversation AI. You can use tables, rich-text entries, file uploads, and an improved retrieval pipeline to help AI agents provide more accurate, context-aware answers at scale.
 
 * * *
 
@@ -29,7 +29,7 @@ This guide explains HighLevel’s new Knowledge Sources Support & Quality Upgrad
   
 
 
-HighLevel’s latest Conversation AI release expands the kinds of content your bot can learn from (tables, rich text, files) and layers in a new re-ranking engine that pulls the single most relevant snippet before it answers. Together, these upgrades boost response precision, shorten setup time, and show you exactly which source each answer used.
+HighLevel Knowledge Bases support multiple source types, including tables, rich text, file uploads, FAQs, web crawler sources, and web search sources. Conversation AI can use these sources to retrieve relevant information before generating a response. Retrieval improvements, including re-ranking, help prioritize the most relevant chunks so responses are more accurate and easier to review.
 
 * * *
 
@@ -66,18 +66,20 @@ A lightweight ranking layer now sits between search and answer generation. After
   
 
 
-Your knowledge base no longer speaks “plain-text only.” You can now:
-
+Your Knowledge Base can include several source types:  
   
 
 
-  * Paste or upload Tables (CSV/TSV) so AI can reference structured values (e.g., pricing grids).  
+  * **Tables:** Upload CSV files so AI can reference structured data such as pricing grids, product lists, customer records, or service details.  
   
 
-  * Add Rich-Text blocks—including headings, bold, lists—directly in the editor.  
+  * **Rich Text:** Add manually written content directly in the editor, including documentation, policies, instructions, and FAQs.  
   
 
-  * Upload Files (PDF, DOCX, PPT, TXT) and let the system auto-chunk the content for search.
+  * **File Upload:** Upload supported document files such as DOC, DOCX, and PDF. Text is extracted and indexed; embedded images are skipped.  
+  
+
+  * **Web Crawler, FAQ, and Web Search:** Use additional Knowledge Base source types when you want AI to reference website content, question-and-answer content, or web-based information.
 
 
 * * *
@@ -144,7 +146,7 @@ Every AI response inside Conversations shows a “Response Info” icon. Click i
   1. Click **\+ Add Source** button.  
   
 
-  2. Choose from available types: **Tables** , **Rich****Text** , **File****Upload**. (New in this update)   
+  2. Choose the source type you want to add, such as Tables, Rich Text, File Upload, FAQ, Web Crawler, or Web Search, depending on the Knowledge Base content you want the AI to use.   
   
 
   3. Upload Tables, Files or add Rich Text.  
@@ -185,15 +187,33 @@ Every AI response inside Conversations shows a “Response Info” icon. Click i
   
 
 
-### _**Step 4:** Test the Bot with Your Knowledge Base_
+### _**Step 4:** Test Knowledge Base Retrieval_
 
   
 
 
-  1. Type a prompt in the **Test Your Bot** window.  
+  1. Go to **AI Agents → Knowledge Base** and open the Knowledge Base you want to test.  
   
 
-  2. Ask various questions to get a better idea of what needs to be improved in your knowledge base.  
+  2. Wait for newly added or updated content to finish processing or indexing.  
+  
+
+  3. Open the **Knowledge Base Retrieval Tester**.  
+  
+
+  4. Enter realistic customer-style questions.  
+  
+
+  5. Review the answer and retrieved sources.  
+  
+
+  6. Update your Knowledge Base if sources are missing, incomplete, outdated, or irrelevant.  
+  
+
+  7. Retest the same question to confirm the correct content is retrieved.  
+  
+
+  8. After retrieval looks correct, test the full Conversation AI bot experience from the bot testing window.  
   
 ![](https://jumpshare.com/share/O54smx8AAimKSN23CJUp+/Screen+Shot+2025-10-03+at+6.26.05+PM.png)  
   
@@ -227,9 +247,8 @@ Every AI response inside Conversations shows a “Response Info” icon. Click i
   
 
 
-**Q: Do I need to retrain the bot after adding a file or table?**
-
-No. Once saved, the new data is indexed instantly and the re-ranker uses it on the next query.
+**Q:**Do I need to retrain the bot after adding a file, table, or other Knowledge Base source?**  
+** No. After the source is saved and processing/indexing is complete, the Knowledge Base can retrieve the updated content. For best results, use the Knowledge Base Retrieval Tester to confirm the new source is being retrieved before relying on it in live conversations.
 
   
 

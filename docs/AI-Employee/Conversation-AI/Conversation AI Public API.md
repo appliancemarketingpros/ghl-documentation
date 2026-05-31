@@ -10,26 +10,67 @@ HighLevel’s Conversation AI API gives developers programmatic control over AI 
 
 * * *
 
-**TABLE OF CONTENTS**
-
-  * What is the Conversation AI API?
-    * Key Benefits of Conversation AI API
-    * Authentication (PIT & JWT)
-    * API Documentation
-      * Actions
-      * Agents
-      * Generations
-    * Frequently Asked Questions
+  
 
 
 * * *
 
-# **What is the Conversation AI API?**
+**TABLE OF CONTENTS**
+
+  * What is the Conversation AI API?
+  * Key Benefits of Conversation AI API
+  * Authentication (PIT & JWT)
+  * API Documentation
+    * Actions
+    * Agents
+    * Generations
+  * Frequently Asked Questions
+
+
+* * *
+
+## **What is the Conversation AI API?**
 
   
 
 
 Conversation AI API exposes the same core capabilities available in the Conversation AI UI (creating and managing agents, attaching actions, and pulling AI response details) so your team can automate configuration and connect Conversation AI to your own systems. Using this API, you can provision agents at scale, script action updates, and retrieve message-level generation data for reporting and audits.
+
+  
+
+
+This API is ideal for agencies, SaaS businesses, and developers who need to scale Conversation AI management beyond the HighLevel user interface.
+
+  
+
+
+What You Can Do with the Conversation AI Public API
+
+  
+
+
+Using the API, you can:
+
+  
+
+
+  * Create and manage Conversation AI Agents  
+  
+
+  * Configure and update AI Actions programmatically  
+  
+
+  * Retrieve AI conversation generation data  
+  
+
+  * Automate large-scale AI setup across sub-accounts  
+  
+
+  * Integrate Conversation AI with external applications  
+  
+
+  * Build custom reporting and compliance workflows
+
 
 * * *
 
@@ -43,19 +84,19 @@ Understanding practical benefits helps you decide when to use the API versus the
   
 
 
-  * Faster onboarding: Automate agent creation and action attachment for new locations or clients in minutes.  
+  * **Faster onboarding:** Automate agent creation and action attachment for new locations or clients in minutes.  
   
 
-  * Scalable configuration: Apply consistent agent settings and actions across many sub-accounts via scripts or CI/CD jobs.  
+  * **Scalable configuration:** Apply consistent agent settings and actions across many sub-accounts via scripts or CI/CD jobs.  
   
 
-  * Deeper analytics: Retrieve generations (AI response details) to power dashboards, QA workflows, audits, and compliance exports.  
+  * **Deeper analytics:** Retrieve generations (AI response details) to power dashboards, QA workflows, audits, and compliance exports.  
   
 
-  * Flexible integration: Orchestrate HighLevel with your internal tools—trigger workflows, track outcomes, and log events externally.  
+  * **Flexible integration:** Orchestrate HighLevel with your internal tools—trigger workflows, track outcomes, and log events externally.  
   
 
-  * Least‑privilege security: Use read-only or write scopes to limit access precisely to what your integration needs.
+  * **Least‑privilege security:** Use read-only or write scopes to limit access precisely to what your integration needs.
 
 
 * * *
@@ -70,12 +111,15 @@ Choosing the right auth method ensures reliable, secure access. Personal Integra
   
 
 
-Open Settings → Private Integrations in your HighLevel sub‑account (location).
+**Open Settings → Private Integrations in your HighLevel sub‑account (location).**
 
   
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055757617/original/ts1j0byLnjbb0jt99rFE5zAeNMciISFLfw.png?1760142557)
+
+  
+
 
   
 
@@ -95,12 +139,18 @@ Select the Conversation AI scopes.
   
 
 
+  
+
+
 Create the token and make a copy of it.
 
   
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055757653/original/aM2uidnmv1wZAV2tiKGaxvONRM7KugMBpQ.png?1760142733)
+
+  
+
 
   
 
@@ -177,9 +227,25 @@ A: Use a Sub‑Account token so calls act within the correct location context.
   
 
 
+  
+
+
+**Q. Can I manage Conversation AI Agents through the API?**
+
+Yes. The API allows you to create, update, retrieve, and manage Conversation AI Agents programmatically.
+
+  
+
+
+  
+
+
 **Q: Can I use both PIT and JWT?**
 
 A: Yes. You can authenticate with either method. Choose PIT for simple server‑to‑server integrations; use JWT for OAuth app flows.
+
+  
+
 
   
 
@@ -191,6 +257,9 @@ A: Create or search agents via the Agents API, then use the returned id field in
   
 
 
+  
+
+
 **Q: How do I audit AI responses programmatically?**
 
 A: Use the Generations endpoint to retrieve message‑level response details and store them in your analytics or compliance system.
@@ -198,6 +267,9 @@ A: Use the Generations endpoint to retrieve message‑level response details and
   
 
 
-**Q: What causes a 403 when my token looks valid?**
+  
 
-A: Most often, the token lacks the required scope or isn’t a Sub‑Account token for the target location.
+
+**Q. Why am I receiving a 403 error?**
+
+This is typically caused by missing scopes, incorrect permissions, or attempting to access resources outside the authorized Sub-Account.

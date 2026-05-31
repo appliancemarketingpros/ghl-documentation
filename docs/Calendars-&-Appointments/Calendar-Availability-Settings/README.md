@@ -6,3 +6,4 @@
 
 - [Adjusting Availability Settings for Individual Calendars](Adjusting Availability Settings for Individual Calendars.md)
 - [Schedules - Centralized Availability Management](Schedules - Centralized Availability Management.md)
+- [How to Bulk Edit Calendar Availability for Multiple Team Members](How to Bulk Edit Calendar Availability for Multiple Team Members.md)

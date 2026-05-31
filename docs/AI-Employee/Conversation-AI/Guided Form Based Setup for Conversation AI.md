@@ -8,15 +8,16 @@
 
 This article provides a step-by-step guide to setting up Conversation AI V3 using the Guided Form approach in HighLevel. With the Guided Form method, you can create bots without writing prompts—just fill out a simple form, define your objectives, and let the system handle the logic. It’s perfect for quickly building effective, on-brand AI conversations.
 
-  
-
+* * *
 
 **TABLE OF CONTENTS**
 
   * What is the Guided Form Bot?
-  * Key Benefits of the Guided Form Bot
-  * How to Set Up the Guided Form Bot
-  * Frequently Asked Questions
+    * Key Benefits of the Guided Form Bot
+    * How to Set Up the Guided Form Bot
+    * Additional Instructions
+    * Frequently Asked Questions
+    * Related Articles
 
 
 * * *
@@ -31,9 +32,6 @@ This article provides a step-by-step guide to setting up Conversation AI V3 usin
 
 The Guided Form Bot is a user-friendly setup option within Conversation AI that removes the need for manual prompt engineering. Instead, it walks you through creating a bot using a structured form. You define key goals—like collecting contact details or answering FAQs—and the system builds a logic-driven, objective-based conversation flow behind the scenes.
 
-  
-
-
 * * *
 
 ## **Key Benefits of the Guided Form Bot**
@@ -41,113 +39,56 @@ The Guided Form Bot is a user-friendly setup option within Conversation AI that 
   
 
 
-**The Guided Form Bot is ideal for users who want powerful bot functionality without needing deep technical expertise. It balances simplicity with flexibility, enabling high-quality conversations in less time.**  
+  * **Simpler setup:** Build a Conversation AI bot by completing guided fields instead of writing detailed prompts from scratch.  
   
 
 
-  * No need to write prompts  
+  * **Structured conversations:** Define objectives and questions so the bot knows what information to collect and what goal to complete.  
   
 
 
-  * Quick setup—create a bot in under 3 minutes  
+  * **Better consistency:** Keep bot behavior aligned across conversations by using clear setup fields, fallback messages, and additional instructions.  
   
 
 
-  * Reliable, logic-based answers tailored to your inputs  
+  * **Improved lead qualification:** Ask targeted questions that help identify contact needs, urgency, budget, service interest, or appointment readiness.  
   
 
 
-  * Easy way to capture leads and qualify contacts  
+  * **Action-based automation:** Configure actions such as collecting contact details, triggering workflows, or helping contacts move toward booking.  
   
 
 
-  * Reusable bot templates for multiple campaigns  
+  * **Easier bot updates:** Edit objectives, instructions, questions, or actions as your business process changes.  
   
 
 
-  * Works seamlessly with Conversation AI workflows and tagging  
-  
+  * **Reduced prompt complexity:** Give the bot clear direction without needing to understand advanced AI prompting techniques.
 
 
-  * Reduces repetition and increases engagement  
-  
-
-  * Adapts follow-ups to what the user already shared  
-  
-
-  * Gently redirects off-topic replies back to the form  
-  
-
-  * Empathetic prompts that still move the form forward  
-  
-
-  * Helps reduce drop-offs and improve completion rates
-
-
-  
-
+* * *
 
 ## **How to Set Up the Guided Form Bot**
 
   
 
 
-**Follow this step-by-step guide to set up your Guided Form Bot, define its behavior, and connect it to key actions within your CRM.**
-
-* * *
-
-### **Step 1: Access the Create Bot Page**
+Proper setup ensures the bot collects the right information, follows the intended conversation path, and takes the correct action after each objective is completed.
 
   
 
 
-To get started:  
-  
-
-
-  1. Go to **Conversation AI → Bots** in the left-hand menu.  
-  
-
-
-  2. Click **Create Bot**.  
-  
-
-
-  3. The Guided Form interface opens by default.
-
+#### _**Step 1:** Open Conversation AI_
 
   
 
 
-_![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155047436709/original/VVaKMBmEkSeIyQbe47TKCGVO9gU-Wk7g5w.png?1748526984)_
-
-###   
-
-
-### **Step 2: Input Brand Information (Optional)**
+Navigate to **AI Agents** in the left menu, then select the **Conversation AI** tab. Click **\+ Create Bot** in the upper-right corner to start creating a new Conversation AI agent.
 
   
 
 
-While optional, adding brand information helps customize the tone and personality of your bot.  
-  
-
-
-  * Business Name  
-  
-
-
-  * Business Type  
-  
-
-
-  * Tone of Voice (e.g., professional, friendly, casual)
-
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155047436798/original/k2Lq9-uAiddzXh49qFnzurEYGUE7GeNGzw.png?1748527051)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072409045/original/TbqdYZFH58Tba9kb8L5NKAp5kBpETn8lLg.png?1779984082)
 
   
 
@@ -155,111 +96,270 @@ While optional, adding brand information helps customize the tone and personalit
   
 
 
-This allows the AI to respond more naturally in a tone consistent with your brand identity.
+#### _**Step 2:** Select Guided Form Based Setup_
 
   
 
 
-### **Step 3: Configure Basic Bot Settings**
+Choose **Guided Form Based Setup** as the setup method.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072409078/original/nYjEBwGYO0w8LcSJAB5SOceEmqRE7kXd7A.png?1779984119)  
+  
+
+
+#### _**Step 3:** Select Type of Bot_
 
   
 
 
-These core settings determine how your bot behaves in conversations:
+Select the type of bot you would like to create (_General Q &A_ or _Appointment Booking_) then click **Continue**.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072409134/original/4Mjr8pZKYYdpZMQ5rGgpxzP_AzJy6x-APw.png?1779984169)  
+  
+
+
+#### _**Step 4: Select Brand Voice**_
 
   
 
 
-  * **Initial Message** : The first thing the bot will say to users.  
+Choose a **Brand Voice** from the dropdown or create a new Brand Voice before continuing. After selecting a Brand Voice, you can optionally click **Edit** to adjust the voice settings.  
+  
+For more info on creating a brand voice, see: [Create Your Brand Voice](<https://help.gohighlevel.com/en/support/solutions/articles/155000007263>)  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072409282/original/gqhyuCNLQplYU26LrvtvCrlZ8CPtJN47zQ.png?1779984267)  
   
 
 
-  * **If Initial Message is configured:** the bot sends the Initial Message by itself, and the Guided Form flow (objectives/questions) begins on the next user message. Previously, the first flow step was appended immediately after the Initial Message.   
-  
-
-  * **If Initial Message is not configured:** the bot starts the Guided Form flow immediately on the first message (no change).  
-  
-
-  * **Language** : Select the language your bot should use.  
-  
-
-
-  * **Bot Name** : Give your bot a friendly identifier.  
-  
-
-
-  * **Behavior Type** :  
-  
-
-
-    * **Auto-Pilot** : Fully automated.  
-  
-
-
-    * **Suggestive** : Sends reply suggestions to the user.
-
+####  _**Step 5:** Bot Settings_
 
   
 
 
-### **Step 4: Define Objectives and Questions**
+Configure Your Bot's Communication Preferences and Language Settings.
 
   
 
 
-Add all the objectives you’d like the bot to complete.  
+  * **Bot Name:** Give your bot a friendly identifier.  
   
 
-
-  * Use the **Add Question / Objective** button to create each.  
+  * **Preferred Channels:** Select the channels where the bot should respond, such as Instagram, Facebook, SMS, and any other available connected channels.****  
   
 
-
-  * Enable **Skip if Already Filled** to prevent asking for existing contact data.  
+  * **Bot Initial Message:** This is the first message the bot will send to users. If left empty, the bot will use a generic greeting.  
   
 
+  * **Make this as Primary Bot:** Enable this option if this bot should reply to inbound messages as the Primary Bot. Make sure the preferred channels are assigned to this bot.  
+  
 
-  * Drag and drop questions to reorder them.
+  * **Wait Time Before Responding:** Set how long the bot should wait before replying, such as 2 seconds.
 
 
   
 
 
-Common use cases:  
+Click **Next** after the Bot Settings are complete.
+
+**  
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072409617/original/_nnWEVTqmw6HeVYirKkMV-qomkT2HIz9zw.png?1779984603)
+
+  
+
+
+  
+
+
+#### _**Step 6:** Information Collection_**  
+**
+
+  
+
+
+Choose the contact details the bot should collect. Available options shown in the setup include Name, Email, Phone, Street Address, and City.
+
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072418618/original/FZs1_81_xSlSo6fzqs1DK9OqFtMV6VniSw.png?1779996844)
+
+  
+
+
+  
+
+
+#### _**Step 7:** Custom Question / Objectives_
+
+  
+
+
+Add all the objectives you’d like the bot to complete. Enable **Skip if Already Filled** to prevent asking for existing contact data.
+
+  
+
+
+Common use cases include:
+
   
 
 
   * Ask for name, email, phone  
   
 
-
   * Qualify lead with Yes/No questions  
   
 
+  * Offer scheduling link
 
-  * Offer scheduling links
 
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072419146/original/xIWyrjSnVtGqrP-OLMl2yE6HL07i6_P9Iw.png?1779997566)
+
+  
+  
+
+
+####  _**Step 8:** Appointment Details_
 
   
 
 
-### **Additional Instructions (Form-Based)  
+Enable **Appointment Booking** to allow the bot to book an appointment, then select the calendar the bot should use. 
+
+  
+
+
+You can also select workflows under **Trigger Workflows After Appointment Booking** if an automation should run after the appointment is booked.
+
+  
+
+
+Use the secondary appointment toggles to decide whether the bot can manage existing appointments.  
+  
+
+
+  * Enable **Allow bot to cancel the appointment** if the bot should be able to cancel appointments.  
+  
+
+  * Enable **Allow bot to reschedule the appointment** if the bot should be able to reschedule appointments.
+
+
+  
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072418930/original/_KzipL4mnZTYBP-5J0s-Q411thpiAd9BeA.png?1779997366)**  
+  
+
+
+#### _**Step 9:** Email Notification Settings_
+
+  
+
+
+Use Email Notification Settings to receive an email when the bot does not know the answer. Enable **Receive Email Notification if The Bot Doesn’t Know the Answer** , then choose who should receive the notification.
+
+  
+
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072418938/original/UFjBV2F9DqT1nikEwiaRNIG3qGgUhIvynw.png?1779997390)**
+
+**  
 **
 
-Use **Additional Instructions** to give your bot extra context and guardrails so it follows your processes consistently and handles edge cases confidently. **Character limit:** Up to **2,000 characters** (previously 1,200).
+**  
+**
+
+#### _**Step 10:** Enable Conversation Summary_
 
   
-**Best practices**  
+
+
+Enable **Conversation Summary** when the system should generate a summary after a conversation becomes inactive. Configure the **Set Inactivity Time** value and the **Minimum Messages required to generate Summary** value.
+
+  
+
+
+You can also choose whether to trigger a workflow when the summary or transcript is generated, save the summary to a custom field, or receive an email notification for the conversation summary.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072418961/original/fk5FHlR_Ki4pTkgK9bFiOiZz_KIL0gLN3Q.png?1779997430)
+
+  
+
+
+  
+
+
+#### _**Step 11:** Save the Bot_
+
+  
+
+
+After Bot Goals are configured, click **Save**. 
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072419766/original/maEWvd491TY0rruiGQRG7r4z2KKrtR1tbA.png?1779998884)
+
+  
+
+
+  
+
+
+####  _**Step 12:**__Set the Status_
+
+  
+
+
+After the bot is created, the **Bot Created Successfully** modal appears. The bot’s initial status is set to **Off** , which means it is not actively responding in conversations yet.  
+  
+
+
+Choose one of the available status options:  
+  
+
+
+  * **Off:** Turns off Conversation AI so the bot does not actively respond.  
+  
+
+
+  * **Suggestive:** Suggests prompts within the chat window for a team member to review and send.  
+  
+
+
+  * **Auto Pilot:** Allows the bot to reply automatically based on trained data.
+
+
+  
+
+
+From this modal, you can also click **Test Your Bot** , open **Go To Advanced Settings** , or click **Save and Close** to finish setup.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072419833/original/9dyC8NK5VALmZvNhjdHQNlDPoR3zR_t87w.png?1779999055)
+
+* * *
+
+## **Additional Instructions**
+
+  
+
+
+Use Additional Instructions to give your bot extra context and guardrails so it follows your processes consistently and handles edge cases confidently. Character limit: Up to 2,000 characters (previously 1,200).
+
+  
+Best practices  
   
 
 
   * Define the bot’s role and boundaries.  
   
 
-
   * Use clear do/don’t rules for tricky scenarios.  
   
-
 
   * Keep bullets concise; put critical steps first.
 
@@ -269,75 +369,13 @@ Where to find it
   
 
 
-  1. Go to **Conversation AI → Bots → Create Bot** (Guided Form).  
+  1. Go to Conversation AI and select Edit on the bot you would like to add instructions to.  
   
 
-
-  2. Open **Objectives & Questions** and locate **Additional Instructions**.
-
-  3. Enter your guidance and **Save**.
-
-
-* * *
-
-### **Step 5: Setup Actions for Each Objective**
-
+  2. Locate Additional Instructions.  
   
 
-
-Once you’ve defined your questions, determine what the bot should do when objectives are completed.
-
-  
-
-
-Options include:  
-  
-
-
-  * **Trigger a Workflow** (e.g., enroll in email sequence)  
-  
-
-
-  * **Update a Custom Field** (e.g., save “Preferred Contact Time”)  
-  
-
-
-  * **Assign Tags** (e.g., “Interested in Demo”)
-
-
-  
-
-
-These actions help automate and personalize follow-ups based on user responses.
-
-* * *
-
-### **Step 6: Final Review and Additional Settings**
-
-  
-
-
-Before saving your bot, review all sections to make sure everything looks good. Then, configure any advanced settings:  
-  
-
-
-  * **Bot Availability** : Set time/day availability.  
-  
-
-
-  * **Channels** : Choose where the bot is active (SMS, Webchat, Instagram, etc.).  
-  
-
-
-  * **Fallback Message** : Custom message if the bot can’t handle a question.
-
-
-  
-
-
-Click **Save** to launch the bot!
-
-  
+  3. Enter your guidance and Save.
 
 
 * * *
@@ -370,7 +408,7 @@ The bot will either retry, move on, or end the conversation—based on how you�
 
 **Q: Can I duplicate a bot?**
 
-Yes. Use the **Duplicate** option in the bot menu to reuse a configuration.
+Yes. Use the Duplicate option in the bot menu to reuse a configuration.
 
   
 
@@ -384,18 +422,22 @@ Yes, as long as those channels are integrated into your HighLevel setup.
 
 **Q: When does the Guided Form flow start if I set an Initial Message?**
 
-If you configure an Initial Message, the bot sends that welcome message first and waits for the contact’s next reply before starting the objectives/questions flow. If you leave Initial Message blank, the flow starts immediately on the first message.  
-  
-
+If you configure an Initial Message, the bot sends that welcome message first and waits for the contact’s next reply before starting the objectives/questions flow. If you leave Initial Message blank, the flow starts immediately on the first message.
 
 * * *
 
-### **Next Steps**
+## **Related Articles**
 
-  * **Test Your Bot** : Use the test chat window to validate the setup and ensure the objectives trigger as expected.
+  
 
-  * **Monitor Conversations** : Track engagement in the Conversation view to see how users interact.
 
-  * **Use with Workflows** : Leverage Workflow triggers and actions to automate your lead nurturing process.
+  * [Setting Up Conversation AI](<https://help.gohighlevel.com/en/support/solutions/articles/155000004401>)  
+  
 
-  * **Explore Bot Variants** : Create variations of the bot for different use cases like customer support or event registration.
+  * [Conversation AI - Transfer Bot Action](<https://help.gohighlevel.com/en/support/solutions/articles/155000005371>)  
+  
+
+  * [Auto-Pilot Mode in Conversation AI for Efficient Communication](<https://help.gohighlevel.com/en/support/solutions/articles/155000001022>)  
+  
+
+  * [Conversations AI - Suggestive Mode](<https://help.gohighlevel.com/en/support/solutions/articles/155000007994>)

@@ -356,6 +356,12 @@ It removes access to the Bot Training tab, prevents attaching/detaching knowledg
 **Q: What happens to Bot Trial if goal and training permissions are both disabled?**  
 The Bot Trial feature will be inaccessible if both **View & Manage Conversation AI Agent Training and View & Manage Conversation AI Agent Goals **are disabled.
 
+  
+
+
+**Q: Why can’t I see the Conversation AI Dashboard?**  
+Make sure the **View Conversation AI Dashboard** permission is enabled under Roles & Permissions → AI Agents. Disabling it hides the dashboard from the Conversation AI home page and agent-level pages
+
 * * *
 
 ### **Related Articles**

@@ -6,7 +6,7 @@
 
 ---
 
-This article explains **merge fields and custom variables**. You’ll learn about different types of merge fields, such as custom fields, custom values, custom objects, and custom links (trigger links and payment links), and how to use them to personalize communication and automate workflows.
+This article explains **merge fields and custom variables**. You’ll learn about different types of fields, such as custom fields, custom values, custom objects, and custom links (trigger links and payment links), and how to use them to personalize communication and automate workflows.
 
 * * *
 
@@ -198,7 +198,7 @@ _![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/produc
 
 * * *
 
-## **Additional workflow fields in the picker**
+## **Additional Workflow Fields in the Picker**
 
   
 
@@ -208,14 +208,16 @@ Merge fields and custom values in workflows can include built-in system fields i
   
 
 
-**These fields include:**
+These fields include:
 
   
 
 
   * Contact Engagement Score
-  * Contact → Attribution Medium ID
-  * Note created by (Name)
+  * Contact → Attribution Medium ID  
+
+  * Note created by (Name)  
+
   * Task ID
 
 
@@ -226,12 +228,11 @@ These fields help you build more specific automations based on engagement, attri
 
   
 
-
-**Important** :  
-  
-
-
-Some fields only appear when the workflow includes the correct context. For example, **Task ID** appears in task-related workflows, and **Note created by (Name)** appears in note-related workflows. **Contact Engagement Score** is available when Engagement Scoring is enabled in the sub-account.
+    
+    
+    **Important:**
+    
+    Some fields only appear when the workflow includes the correct context. For example, Task ID appears in task-related workflows, and Note created by (Name) appears in note-related workflows. Contact Engagement Score is available when Engagement Scoring is enabled in the sub-account.
 
 * * *
 
@@ -382,14 +383,8 @@ Custom Fields are specific to individual contacts or opportunities, storing uniq
   
 
 
-  
-
-
 **Q: Why is my merge field not working or displaying correctly?**  
 This could be due to a missing or incorrect merge field format. Ensure you’re using the correct syntax (e.g., `{{contact.email}}`). Also, verify that the data for that field exists in the contact or user record.
-
-  
-
 
   
 
@@ -400,14 +395,8 @@ Yes, merge fields are case-sensitive. For example, `{{contact.name}}` will work,
   
 
 
-  
-
-
 **Q: How can I test if my merge fields are working correctly?**  
 To test merge fields, send a test email or SMS to yourself or preview the communication within the template editor. This helps ensure the merge fields are pulling the correct data.
-
-  
-
 
   
 
@@ -418,14 +407,8 @@ If a merge field doesn’t have corresponding data, it may display as blank. Alw
   
 
 
-  
-
-
 **Q: Can I update a Custom Value, and will it reflect across all templates?**  
 Yes, updating a Custom Value in the settings will automatically update all templates and workflows where that value is used, ensuring consistency.
-
-  
-
 
   
 
@@ -436,14 +419,8 @@ Standard Fields are predefined and built-in to the CRM, while Custom Fields are 
   
 
 
-  
-
-
 **Q: How do Custom Objects differ from Custom Fields and Custom Values?**  
 Custom Objects are advanced data structures that allow for more complex relationships and data management beyond the capabilities of Custom Fields and Values.
-
-  
-
 
   
 
@@ -454,14 +431,8 @@ No, there is no strict limit to the amount you can create, but it's advisable to
   
 
 
-  
-
-
 **Q: Can I use Custom Values within websites and funnels?**  
 Yes, Custom Values can be utilized to dynamically display consistent information across your websites and funnels, enhancing personalization.
-
-  
-
 
   
 
@@ -472,14 +443,8 @@ You can organize Custom Values into folders, making it easier to manage and loca
   
 
 
-  
-
-
 **Q: Is it possible to bulk create or upload Custom Fields/Values?**  
 Currently, we do not support bulk creation or uploading of Custom Fields/Values, so they need to be added individually.
-
-  
-
 
   
 

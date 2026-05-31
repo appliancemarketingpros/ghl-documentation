@@ -29,7 +29,9 @@ Keeping your HighLevel wallet funded ensures uninterrupted SMS, email, and phone
   
 
 
-Auto Recharge adds funds to your HighLevel wallet whenever the balance falls under a limit you decide. Smart Adjustment is an adaptive tier system that , based on recent recharge frequency , raises your Auto Recharge amount to ensure fewer funding interruptions as your volume scales.
+Auto Recharge adds funds to your HighLevel wallet whenever the balance falls under a limit you decide. Smart Adjustment is an adaptive tier system that , based on recent recharge frequency , raises your Auto Recharge amount to ensure fewer funding interruptions as your volume scales.  
+  
+****Note:******** Auto Recharge cannot be disabled for the Wallet. This is required to ensure uninterrupted service for wallet-funded features such as SMS, email, phone usage, and other billable services. You can disable Smart Adjustment / Auto-update to prevent the recharge amount from increasing automatically, but Auto Recharge will continue based on the configured recharge amount and balance threshold.
 
 * * *
 

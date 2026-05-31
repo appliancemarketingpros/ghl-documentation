@@ -8,6 +8,12 @@
 
 Learn how to get your A2P 10DLC campaign approved on the first try—what to include, what to avoid, and how to show consent, sample messages, and clear use-case details.
 
+  
+
+    
+    
+    IMPORTANT: In the A2P self-serve/manual campaign registration flow, the sample message fields are separated by content type. Use Sample Message #1 for Promotional/Marketing content and Sample Message #2 for Transactional/Informational content. For mixed messaging, include one sample of each type.
+
 * * *
 
 **TABLE OF CONTENTS**

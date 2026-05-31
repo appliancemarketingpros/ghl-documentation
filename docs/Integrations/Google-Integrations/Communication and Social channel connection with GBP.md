@@ -24,7 +24,12 @@ You can now attach messaging (WhatsApp, Text/SMS) and social channels (Facebook,
 ## How to connect social channels with GBP?
 
 Step 1: From sub-account dashboard page, click on settings and go to integrations.  
-Step 2: Connect GBP account & go to page selection modal.
+Step 2: Connect GBP account & go to page selection modal.  
+  
+**Tip:** In the page selection modal, use the search dropdown to filter GBP locations by Page Name, Store Code, Postal Code, or Locality. > If no locations appear, connect a Google account that has access to the correct GBP locations.
+
+  
+
 
 [![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155058383236/original/4L9ue63Zn9HnKI7KSqhWpYJlGXeAw2vZcA.png?1763117832)](<https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155050129431/original/LUP0sRL2-E3CmPS-Uqbv8cJlun0MiKPj5Q.png?1753074330>)
 

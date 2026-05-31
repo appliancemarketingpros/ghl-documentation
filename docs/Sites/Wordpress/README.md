@@ -13,7 +13,7 @@
 - [SSH access for WordPress](SSH access for WordPress.md)
 - [How to install LeadConnector on WordPress](How to install LeadConnector on WordPress.md)
 - [How to Install Popular WordPress Plugins During Site Creation](How to Install Popular WordPress Plugins During Site Creation.md)
-- [WordPress Hosting: Step-by-Step Migration Guide](WordPress Hosting Step-by-Step Migration Guide.md)
+- [How to Migrate a WordPress Site to HighLevel](How to Migrate a WordPress Site to HighLevel.md)
 - [WordPress: Automatic Updates Management for Core, Plugins, and Themes](WordPress Automatic Updates Management for Core, Plugins, and Themes.md)
 - [New WordPress Site From Template](New WordPress Site From Template.md)
 - [WordPress Access & Activity Logs](WordPress Access & Activity Logs.md)

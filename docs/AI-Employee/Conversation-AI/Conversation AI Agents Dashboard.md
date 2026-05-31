@@ -13,17 +13,19 @@ A consolidated analytics dashboard in HighLevel lets you evaluate all Conversati
 **TABLE OF CONTENTS**
 
   * What is the Conversation AI Bot Dashboard?
-  * Key Benefits of the Conversation AI Bot Dashboard
-  * Access & Permissions
-  * How to Access the Conversation AI Bot Dashboard
-  * Filters: Date Range, Channel, and All Agents
-  * Understanding Dashboard Metrics
-  * Frequently Asked Questions
+    * Key Benefits of the Conversation AI Bot Dashboard
+    * Access & Permissions
+    * How to Access the Conversation AI Bot Dashboard
+    * Filters: Date Range, Channel, and Agents
+    * Understanding Dashboard Metrics
+    * Conversation Summary and Transcript
+    * Frequently Asked Questions
+    * Related Articles
 
 
 * * *
 
-## **What is the Conversation AI Bot Dashboard?**
+# **What is the Conversation AI Bot Dashboard?**
 
   
 
@@ -154,7 +156,7 @@ Use the channel selector and date range picker to filter data by platform or tim
 
 * * *
 
-## **Filters: Date Range, Channel, and All Agents**
+## **Filters: Date Range, Channel, and Agents**
 
   
 
@@ -228,6 +230,40 @@ Clear definitions prevent misinterpretation and help teams make high-confidence 
 
   * **Time Saved:** Estimated time savings from automated handling of conversations and tasks. This metric provides directional insight into productivity gains.
 
+
+* * *
+
+## **Conversation Summary and Transcript**
+
+  
+
+
+Conversation summaries and transcripts help users review completed Conversation AI interactions directly from the dashboard context. When reviewing **Total Conversations** , users can use these actions to quickly understand what happened in a conversation or open the full message history for a deeper review.
+
+  
+
+
+At the bottom of the **Total Conversations** area, each conversation can provide access to review options such as:
+
+  
+
+
+  * **Summary:** Opens a quick AI-generated summary of the conversation so users can understand the key points without reading the full exchange.  
+  
+
+
+  * **View Transcript:** Opens the full conversation transcript so users can review the complete interaction between the contact and Conversation AI.
+
+
+  
+
+
+For full details, see [How to Generate Conversation Summaries and Transcript in Conversation AI](<https://help.gohighlevel.com/en/support/solutions/articles/155000006597>)
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072347307/original/3NqV4LV6CI3wqok6TN6rXN_A7uMC-8eQuw.png?1779916761)
 
 * * *
 

@@ -79,11 +79,6 @@
     "hash": "e5125be7b2d52e7d",
     "title": "Getting Started - Launch a Website From Template"
   },
-  "docs/Getting-Started-w-HighLevel/Website-&-Content/Getting Started - Migrate a Wordpress Site.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005070-getting-started-migrate-a-wordpress-site",
-    "hash": "827713319e15145b",
-    "title": "Getting Started - Migrate a Wordpress Site"
-  },
   "docs/Getting-Started-w-HighLevel/Website-&-Content/Getting Started - Launch a Website from Blank.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000005428-getting-started-launch-a-website-from-blank",
     "hash": "e485b3af8cab1aeb",
@@ -156,7 +151,7 @@
   },
   "docs/Customer-Support/Premium-Support-Upgrade/How to Upgrade to Premium Customer Support.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000005394-how-to-upgrade-to-premium-customer-support",
-    "hash": "9808cf3c0f7a7e87",
+    "hash": "df8bd4db3c355772",
     "title": "How to Upgrade to Premium Customer Support"
   },
   "docs/Customer-Support/Billing-Support/HighLevel Pricing Guide.md": {
@@ -166,7 +161,7 @@
   },
   "docs/Customer-Support/Billing-Support/Wallet - Auto Recharge, Smart Adjustment and Cancellation.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000005620-wallet-auto-recharge-smart-adjustment-and-cancellation",
-    "hash": "628ff4ed3fb90dd1",
+    "hash": "d2798aaca0936a49",
     "title": "Wallet - Auto Recharge, Smart Adjustment and Cancellation"
   },
   "docs/Customer-Support/Software-Migration-Guides/ActiveCampaign to HighLevel (Migration Guide).md": {
@@ -561,7 +556,7 @@
   },
   "docs/Agency-View/Agency-Settings/Labs Features - Complete Overview.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000003588-labs-features-complete-overview",
-    "hash": "86131dc19e346911",
+    "hash": "d19e5c1f816af955",
     "title": "Labs Features - Complete Overview"
   },
   "docs/Agency-View/Agency-Settings/How do I check my agency plan.md": {
@@ -749,24 +744,19 @@
     "hash": "12aec44248a4f2d3",
     "title": "Voice Dictation in AI Builder & Assistant"
   },
-  "docs/AI-Employee/Conversation-AI/Using Conversation AI on Mobile (HighLevel & LeadConnector).md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005184-using-conversation-ai-on-mobile-highlevel-leadconnector-",
-    "hash": "3cbb63cdac580c34",
-    "title": "Using Conversation AI on Mobile (HighLevel & LeadConnector)"
-  },
   "docs/AI-Employee/Conversation-AI/Bot Status for Individual Contacts.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000004096-bot-status-for-individual-contacts",
-    "hash": "62543d8c0c3f1da5",
+    "hash": "b255e89304e617b5",
     "title": "Bot Status for Individual Contacts"
   },
   "docs/AI-Employee/Conversation-AI/Guided Form Based Setup for Conversation AI.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000005382-guided-form-based-setup-for-conversation-ai",
-    "hash": "05b842d709b31287",
+    "hash": "834d9da5cd6dd334",
     "title": "Guided Form Based Setup for Conversation AI"
   },
   "docs/AI-Employee/Conversation-AI/Conversation AI Agents Dashboard.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000005427-conversation-ai-agents-dashboard",
-    "hash": "1280c1b2643e3b9b",
+    "hash": "86cf3d58e4a021ff",
     "title": "Conversation AI Agents Dashboard"
   },
   "docs/AI-Employee/Conversation-AI/Conversation AI Snapshot Support - How to Snapshot Fully Configured Conversation AI Bots.md": {
@@ -781,12 +771,12 @@
   },
   "docs/AI-Employee/Conversation-AI/Managing Granular Permissions For Conversation AI Agents.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006054-managing-granular-permissions-for-conversation-ai-agents",
-    "hash": "0c850fdc6d449b98",
+    "hash": "054d516d18884efb",
     "title": "Managing Granular Permissions For Conversation AI Agents"
   },
   "docs/AI-Employee/Conversation-AI/Conversation AI - New Knowledge Sources & Quality Upgrades.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006456-conversation-ai-new-knowledge-sources-quality-upgrades",
-    "hash": "623f676e01323ff6",
+    "hash": "e240c230f10008ec",
     "title": "Conversation AI - New Knowledge Sources & Quality Upgrades"
   },
   "docs/AI-Employee/Conversation-AI/Conversation AI Flow Builder.md": {
@@ -806,7 +796,7 @@
   },
   "docs/AI-Employee/Conversation-AI/Conversation AI Public API.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006639-conversation-ai-public-api",
-    "hash": "00387fe2387d8a47",
+    "hash": "e398fb8a02effb43",
     "title": "Conversation AI Public API"
   },
   "docs/AI-Employee/Conversation-AI/Conversations AI Bots can now Respond to Audio.md": {
@@ -824,6 +814,11 @@
     "hash": "2ec91cd38e9f15b4",
     "title": "Forward Emails from Conversations in HighLevel"
   },
+  "docs/AI-Employee/Conversation-AI/Configure Response Settings in Conversation AI.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007421-configure-response-settings-in-conversation-ai",
+    "hash": "a45592f6274fe915",
+    "title": "Configure Response Settings in Conversation AI"
+  },
   "docs/AI-Employee/Getting-Started-w-Conversation-AI/Conversation AI Bot - Explained.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000001335-conversation-ai-bot-explained",
     "hash": "6b5f514f600dcee4",
@@ -834,20 +829,20 @@
     "hash": "9cd3e2a5acc422be",
     "title": "Setting Up Conversation AI"
   },
-  "docs/AI-Employee/Getting-Started-w-Conversation-AI/Advanced Settings Overview - Conversation AI.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004415-advanced-settings-overview-conversation-ai",
-    "hash": "e2739634e0c5a652",
-    "title": "Advanced Settings Overview - Conversation AI"
+  "docs/AI-Employee/Getting-Started-w-Conversation-AI/Conversation AI - Advanced Settings Overview.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004415-conversation-ai-advanced-settings-overview",
+    "hash": "ae40b238cd413512",
+    "title": "Conversation AI - Advanced Settings Overview"
   },
-  "docs/AI-Employee/Getting-Started-w-Conversation-AI/Primary vs Non-Primary Conversation AI Bots.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004414-primary-vs-non-primary-conversation-ai-bots",
-    "hash": "a126f24e7dcd7be0",
-    "title": "Primary vs Non-Primary Conversation AI Bots"
+  "docs/AI-Employee/Getting-Started-w-Conversation-AI/Conversation AI - Primary vs Non-Primary Bots.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004414-conversation-ai-primary-vs-non-primary-bots",
+    "hash": "acfea796c0fca63f",
+    "title": "Conversation AI - Primary vs Non-Primary  Bots"
   },
-  "docs/AI-Employee/Getting-Started-w-Conversation-AI/How to Use Conversation AI in the Mobile App.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000002669-how-to-use-conversation-ai-in-the-mobile-app",
-    "hash": "08a3af9da418ec5f",
-    "title": "How to Use Conversation AI in the Mobile App"
+  "docs/AI-Employee/Getting-Started-w-Conversation-AI/How to Use Conversation AI in the Mobile App (HighLevel & LeadConnector).md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000002669-how-to-use-conversation-ai-in-the-mobile-app-highlevel-leadconnector-",
+    "hash": "351f2811ba2800c0",
+    "title": "How to Use Conversation AI in the Mobile App (HighLevel & LeadConnector)"
   },
   "docs/AI-Employee/Conversation-AI-Response-Modes/Auto-Pilot Mode.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000001337-auto-pilot-mode",
@@ -896,7 +891,7 @@
   },
   "docs/AI-Employee/Conversation-AI-Goals,-Prompts,-&-Actions/Appointment Booking in Conversation AI.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000000210-appointment-booking-in-conversation-ai",
-    "hash": "0ec857062ef1fd56",
+    "hash": "b7cbe17de5a09cbc",
     "title": "Appointment Booking in Conversation AI"
   },
   "docs/AI-Employee/Conversation-AI-Goals,-Prompts,-&-Actions/Bot Goals Feature Complete Guide.md": {
@@ -1006,7 +1001,7 @@
   },
   "docs/AI-Employee/Ask-AI/Introduction to Ask AI Assistant.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000005327-introduction-to-ask-ai-assistant",
-    "hash": "76d173f172a7ced5",
+    "hash": "3e4d49ee5e291044",
     "title": "Introduction to Ask AI Assistant"
   },
   "docs/AI-Employee/Ask-AI/Contact Summary Agent in Ask AI.md": {
@@ -1073,6 +1068,16 @@
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007967-how-to-generate-seo-friendly-blog-posts-using-ask-ai-in-highlevel",
     "hash": "fbcebc5989e63635",
     "title": "How to Generate SEO-Friendly Blog Posts Using Ask AI in HighLevel"
+  },
+  "docs/AI-Employee/Ask-AI/How to Use Ask AI Voice Mode.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008022-how-to-use-ask-ai-voice-mode",
+    "hash": "f2b4436f9e01cb08",
+    "title": "How to Use Ask AI Voice Mode"
+  },
+  "docs/AI-Employee/Ask-AI/How to Provide Feedback on Ask AI Responses.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008024-how-to-provide-feedback-on-ask-ai-responses",
+    "hash": "00458b538d23baf4",
+    "title": "How to Provide Feedback on Ask AI Responses"
   },
   "docs/AI-Employee/AI-Studio/AI Studio in HighLevel.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007587-ai-studio-in-highlevel",
@@ -1589,11 +1594,6 @@
     "hash": "ae95077969cc9599",
     "title": "How to Reduce Inbound Spam Calls"
   },
-  "docs/Phone-System/LC-Phone-System/Porting Options US In-App vs International Manual Process.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008007-porting-options-us-in-app-vs-international-manual-process",
-    "hash": "f2c9adde521a97dc",
-    "title": "Porting Options: US In-App vs International Manual Process"
-  },
   "docs/Phone-System/Messaging/Troubleshooting SMS Delivery.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48000981696-troubleshooting-sms-delivery",
     "hash": "66561dbd4e5d2027",
@@ -1701,7 +1701,7 @@
   },
   "docs/Phone-System/A2P-registration/Understanding A2P Campaign Rejection Reasons & Required Fixes.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007572-understanding-a2p-campaign-rejection-reasons-required-fixes",
-    "hash": "033ca67f51eea40b",
+    "hash": "dfffd735f8e181c9",
     "title": "Understanding A2P Campaign Rejection Reasons & Required Fixes"
   },
   "docs/Phone-System/A2P-registration/Pre-Built A2P Campaign (Widget-First) Registration Flow.md": {
@@ -1741,7 +1741,7 @@
   },
   "docs/Phone-System/A2P-registration/A2P Campaign Registration Step by Step Guide and FAQs.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000004539-a2p-campaign-registration-step-by-step-guide-and-faqs",
-    "hash": "4232303464dcc08d",
+    "hash": "af1164755487fc86",
     "title": "A2P Campaign Registration: Step by Step Guide and FAQs"
   },
   "docs/Phone-System/A2P-registration/Message throughput (MPS) and Trust Scores for A2P 10DLC in the US.md": {
@@ -1766,7 +1766,7 @@
   },
   "docs/Phone-System/A2P-registration/A2P - Sole Proprietor Brand Registration for 10DLC.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000000340-a2p-sole-proprietor-brand-registration-for-10dlc",
-    "hash": "be82b3d41c7db59b",
+    "hash": "c810eaf33091a408",
     "title": "A2P - Sole Proprietor Brand Registration for 10DLC"
   },
   "docs/Phone-System/A2P-registration/A2P 10DLC Campaign Use Cases.md": {
@@ -1776,7 +1776,7 @@
   },
   "docs/Phone-System/A2P-registration/A2P 10DLC Campaign Approval Best Practices.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001229784-a2p-10dlc-campaign-approval-best-practices",
-    "hash": "f2a8049ef0f1bd09",
+    "hash": "3d022efed755edc9",
     "title": "A2P 10DLC Campaign Approval Best Practices"
   },
   "docs/Phone-System/A2P-registration/A2P 10DLC Campaign Vetting FAQ.md": {
@@ -1786,7 +1786,7 @@
   },
   "docs/Phone-System/A2P-registration/A2P - Standard Brand Registration for 10DLC.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001225526-a2p-standard-brand-registration-for-10dlc",
-    "hash": "5bd63a4c6e569571",
+    "hash": "2ab856a55cd5626a",
     "title": "A2P - Standard Brand Registration for 10DLC"
   },
   "docs/Phone-System/A2P-registration/Forbidden message categories for SMS and MMS in the US and Canada.md": {
@@ -1836,7 +1836,7 @@
   },
   "docs/Phone-System/Phone-numbers/Porting Options US In-App vs International Manual Process.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001211919-porting-options-us-in-app-vs-international-manual-process",
-    "hash": "0995ccf3d2ad3723",
+    "hash": "cdfb8364e646c1bc",
     "title": "Porting Options: US In-App vs International Manual Process"
   },
   "docs/Phone-System/Phone-numbers/Toll-Free Number Verification Guide for LC - Phone (USCanada).md": {
@@ -1981,7 +1981,7 @@
   },
   "docs/Email/Deliverability/What Email Deliverability Stats Should I Look For.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001198786-what-email-deliverability-stats-should-i-look-for-",
-    "hash": "6afa23284842cf5d",
+    "hash": "84957fb34a3f4584",
     "title": "What Email Deliverability Stats Should I Look For?"
   },
   "docs/Email/Deliverability/How List-Unsubscribe helps email deliverability.md": {
@@ -2006,7 +2006,7 @@
   },
   "docs/Email/Deliverability/Preference Management (Email Unsubscription Management).md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007291-preference-management-email-unsubscription-management-",
-    "hash": "d046bd5e931a1b5b",
+    "hash": "f57faf6138a561c8",
     "title": "Preference Management (Email Unsubscription Management)"
   },
   "docs/Email/LC-Email/What is LC Email.md": {
@@ -2671,7 +2671,7 @@
   },
   "docs/Conversations/Conversations/Conversations - Activity Cards.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000004603-conversations-activity-cards",
-    "hash": "a219778212c0381b",
+    "hash": "bd5f3e8828a76a81",
     "title": "Conversations - Activity Cards"
   },
   "docs/Conversations/Conversations/Internal Chat Private Team Communication.md": {
@@ -4024,10 +4024,10 @@
     "hash": "bada57d178318c21",
     "title": "How to Install Popular WordPress Plugins During Site Creation"
   },
-  "docs/Sites/Wordpress/WordPress Hosting Step-by-Step Migration Guide.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005010-wordpress-hosting-step-by-step-migration-guide",
-    "hash": "eaa2568a0eccf551",
-    "title": "WordPress Hosting: Step-by-Step Migration Guide"
+  "docs/Sites/Wordpress/How to Migrate a WordPress Site to HighLevel.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005010-how-to-migrate-a-wordpress-site-to-highlevel",
+    "hash": "71accf0f3b29aad4",
+    "title": "How to Migrate a WordPress Site to HighLevel"
   },
   "docs/Sites/Wordpress/WordPress Automatic Updates Management for Core, Plugins, and Themes.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000004715-wordpress-automatic-updates-management-for-core-plugins-and-themes",
@@ -4241,12 +4241,12 @@
   },
   "docs/Sites/Chat-Widget/Getting Started with Chat Widget.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000004102-getting-started-with-chat-widget",
-    "hash": "9c1c1bffa94f07bc",
+    "hash": "885861cc5924391e",
     "title": "Getting Started with Chat Widget"
   },
   "docs/Sites/Chat-Widget/Overview of Chat Widget Customizations.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000002960-overview-of-chat-widget-customizations",
-    "hash": "9f2de07e97f4f703",
+    "hash": "b50cf24a1feadd3e",
     "title": "Overview of Chat Widget Customizations"
   },
   "docs/Sites/Chat-Widget/Chat Widget - Business Office Hours in Live Chat.md": {
@@ -4324,20 +4324,20 @@
     "hash": "f3679d0fc387a900",
     "title": "How to set up and use the Voice AI Chat Widget"
   },
-  "docs/Sites/Chat-Widget/How to use Chat Attachments in Live Chat Widgets.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006682-how-to-use-chat-attachments-in-live-chat-widgets",
-    "hash": "423590eca2dcdb0e",
-    "title": "How to use Chat Attachments in Live Chat Widgets"
-  },
-  "docs/Sites/Chat-Widget/Chat Widget Using File Attachments in Live Chat.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006664-chat-widget-using-file-attachments-in-live-chat",
-    "hash": "643c62ac1293bbd3",
-    "title": "Chat Widget: Using File Attachments in Live Chat"
+  "docs/Sites/Chat-Widget/How to Use Voice Notes and Attachments in Live Chat Widgets.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006664-how-to-use-voice-notes-and-attachments-in-live-chat-widgets",
+    "hash": "f73d1c83f5e2b328",
+    "title": "How to Use Voice Notes and Attachments in Live Chat Widgets"
   },
   "docs/Sites/Chat-Widget/Voice AI Chat Widget.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006056-voice-ai-chat-widget",
     "hash": "75ba1527604ca2d3",
     "title": "Voice AI Chat Widget"
+  },
+  "docs/Sites/Chat-Widget/How to create an Embedded Voice AI Chat Widget.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006924-how-to-create-an-embedded-voice-ai-chat-widget",
+    "hash": "b9e18836ae0527aa",
+    "title": "How to create an Embedded Voice AI Chat Widget"
   },
   "docs/Sites/QR-Codes/QR Code Bulk Actions, Renaming & Copy Link Shortcut.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006540-qr-code-bulk-actions-renaming-copy-link-shortcut",
@@ -4451,7 +4451,7 @@
   },
   "docs/Sites/Quizzes/Quiz Builder Guide.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000004126-quiz-builder-guide",
-    "hash": "5ee47ecc25581969",
+    "hash": "a2b7097bb03edf43",
     "title": "Quiz Builder Guide"
   },
   "docs/Sites/Quizzes/Workflow Trigger - Quiz Submitted.md": {
@@ -4806,7 +4806,7 @@
   },
   "docs/Workflows/Events-Workflow-Triggers/Workflow Trigger - Inbound Email.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007650-workflow-trigger-inbound-email",
-    "hash": "22e6f9f4e1895e1d",
+    "hash": "dfbc0dfab68d8677",
     "title": "Workflow Trigger - Inbound Email"
   },
   "docs/Workflows/Appointments-Workflow-Triggers/Workflow Trigger - Appointment Status.md": {
@@ -4901,7 +4901,7 @@
   },
   "docs/Workflows/Workflow-Actions/Workflow Action - Goal Event.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000003328-workflow-action-goal-event",
-    "hash": "b62f6465c8b85ad7",
+    "hash": "6eaddea626012a7a",
     "title": "Workflow Action - Goal Event"
   },
   "docs/Workflows/Workflow-Actions/Workflow Action - DareTime Formatter.md": {
@@ -5241,7 +5241,7 @@
   },
   "docs/Calendars-&-Appointments/Creating-Calendars/Calendar Availability - Weekly Working Hours & Date-Specific Hours.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000001716-calendar-availability-weekly-working-hours-date-specific-hours",
-    "hash": "666992c13357c965",
+    "hash": "0b200c16f582dbf2",
     "title": "Calendar Availability - Weekly Working Hours & Date-Specific Hours"
   },
   "docs/Calendars-&-Appointments/Creating-Calendars/Partial Payment Collect Deposit Amount.md": {
@@ -5553,6 +5553,11 @@
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006215-schedules-centralized-availability-management",
     "hash": "46e49d2e90649223",
     "title": "Schedules - Centralized Availability Management"
+  },
+  "docs/Calendars-&-Appointments/Calendar-Availability-Settings/How to Bulk Edit Calendar Availability for Multiple Team Members.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008013-how-to-bulk-edit-calendar-availability-for-multiple-team-members",
+    "hash": "1c2ced650efda576",
+    "title": "How to Bulk Edit Calendar Availability for Multiple Team Members"
   },
   "docs/Calendars-&-Appointments/Scheduling-Appointments/Manually Booking Calendar Appointments.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001209829-manually-booking-calendar-appointments",
@@ -5976,7 +5981,7 @@
   },
   "docs/Payments/Orders,-Subscriptions,-and-Transactions/Shipping Profiles Custom Shipping Rates and App Integrations.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006618-shipping-profiles-custom-shipping-rates-and-app-integrations",
-    "hash": "e20bee8973f31edb",
+    "hash": "7c5c69c3bfbb879c",
     "title": "Shipping Profiles: Custom Shipping Rates and App Integrations"
   },
   "docs/Payments/Orders,-Subscriptions,-and-Transactions/Export or Download Transactions as CSV.md": {
@@ -6426,7 +6431,7 @@
   },
   "docs/Settings/Audit-Logs/Exporting Audit Logs.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007611-exporting-audit-logs",
-    "hash": "a2bfa44fc22b510d",
+    "hash": "965152f6e33e59bd",
     "title": "Exporting Audit Logs"
   },
   "docs/Documents-&-Contracts/Documents-and-Contracts/How to use Documents & Contracts.md": {
@@ -6724,10 +6729,10 @@
     "hash": "be10d097ff9f1b1a",
     "title": "Become A HighLevel Affiliate"
   },
-  "docs/HighLevel-Affiliates-Program/Affiliates-Program/How to Set Up Affiliate Program Webhooks to Run Automations (First Promoter).md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/48001163126-how-to-set-up-affiliate-program-webhooks-to-run-automations-first-promoter-",
-    "hash": "2a8370004e288183",
-    "title": "How to Set Up Affiliate Program Webhooks to Run Automations (First Promoter)"
+  "docs/HighLevel-Affiliates-Program/Affiliates-Program/How to Set Up Affiliate Program Postbacks to Run Automations (FirstPromoter Webhooks).md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001163126-how-to-set-up-affiliate-program-postbacks-to-run-automations-firstpromoter-webhooks-",
+    "hash": "b79ff18d05c48e23",
+    "title": "How to Set Up Affiliate Program Postbacks to Run Automations (FirstPromoter Webhooks)"
   },
   "docs/HighLevel-Affiliates-Program/Affiliates-Program/5 Ways To Find Your First 5 Affiliate Referrals.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001174612-5-ways-to-find-your-first-5-affiliate-referrals",
@@ -7311,7 +7316,7 @@
   },
   "docs/Logic-&-Fulfillment/Logic-&-Fulfillment/Pause Account Feature \u2013 Everything You Need to Know.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007379-pause-account-feature-everything-you-need-to-know",
-    "hash": "56f3095774356bd8",
+    "hash": "09ce5f0ee486a91a",
     "title": "Pause Account Feature \u2013 Everything You Need to Know"
   },
   "docs/Add-ons-&-Sales-Trainings/Whitelabel-Desktop-App/How to Set Up a Whitelabel Domain for the Desktop Web App.md": {
@@ -8324,11 +8329,6 @@
     "hash": "156ebfa2f83a830a",
     "title": "Shipping: How to Connect a Shippo Integration?"
   },
-  "docs/E-commerce-store/E-Commerce-Store/How to use Printful Integration with your Ecommerce Store.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000002442-how-to-use-printful-integration-with-your-ecommerce-store-",
-    "hash": "385c08d3e1b37202",
-    "title": "How to use Printful Integration with your Ecommerce Store?"
-  },
   "docs/E-commerce-store/E-Commerce-Store/Recover Lost Sales with Automatic Abandoned Checkout Emails.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000001718-recover-lost-sales-with-automatic-abandoned-checkout-emails",
     "hash": "2626751225fdad82",
@@ -8354,10 +8354,10 @@
     "hash": "6dd3a594f4f1f6e3",
     "title": "New product collection element and SEO Improvements"
   },
-  "docs/E-commerce-store/E-Commerce-Store/How to Use the New Printful Integration with HighLevel.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000002602-how-to-use-the-new-printful-integration-with-highlevel",
-    "hash": "10f2b1e4f4460b83",
-    "title": "How to Use the New Printful Integration with HighLevel"
+  "docs/E-commerce-store/E-Commerce-Store/How to Use the Printful Integration with HighLevel.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000002602-how-to-use-the-printful-integration-with-highlevel",
+    "hash": "8526c8b7135b020a",
+    "title": "How to Use the Printful Integration with HighLevel"
   },
   "docs/E-commerce-store/E-Commerce-Store/Search Bar Element in Ecommerce Stores.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000002771-search-bar-element-in-ecommerce-stores",
@@ -8403,6 +8403,11 @@
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000003435-how-to-use-the-inventory-management-features-for-your-online-store-in-highlevel",
     "hash": "4dd216b967183b1b",
     "title": "How to Use the Inventory Management Features for Your Online Store in HighLevel"
+  },
+  "docs/E-commerce-store/E-Commerce-Store/Upsell Products in Online Store checkouts.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004049-upsell-products-in-online-store-checkouts",
+    "hash": "e00b490ac0ca00ab",
+    "title": "Upsell Products in Online Store checkouts"
   },
   "docs/Certificates/Templates/Create a Template.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000001235-create-a-template",
@@ -8606,13 +8611,18 @@
   },
   "docs/Merge-Fields-&-Custom-Variables/Merge-Fields-&-Custom-Variables/Overview of Merge Fields & Custom Variables.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000004390-overview-of-merge-fields-custom-variables",
-    "hash": "0081e350cc0ebf16",
+    "hash": "7e19ba5702cb8d01",
     "title": "Overview of Merge Fields & Custom Variables"
   },
   "docs/Merge-Fields-&-Custom-Variables/Merge-Fields-&-Custom-Variables/Custom Object Templates Pre-Built CRM Setup in One Click.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007820-custom-object-templates-pre-built-crm-setup-in-one-click",
-    "hash": "011fd4df28d0b2d8",
+    "hash": "eda41ec52289835e",
     "title": "Custom Object Templates: Pre-Built CRM Setup in One Click"
+  },
+  "docs/Merge-Fields-&-Custom-Variables/Merge-Fields-&-Custom-Variables/How to Use Custom Fields.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008031-how-to-use-custom-fields",
+    "hash": "76dfb8827e297ebb",
+    "title": "How to Use Custom Fields"
   },
   "docs/Reputation-Management-&-Reviews/Review-Requests/How to Customize the Review Request Messages (SMSEmail).md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48000980328-how-to-customize-the-review-request-messages-sms-email-",
@@ -8651,7 +8661,7 @@
   },
   "docs/Reputation-Management-&-Reviews/Review-Requests/Customizing Review Widgets in Reputation.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000000997-customizing-review-widgets-in-reputation",
-    "hash": "4a1d8ed2849e6347",
+    "hash": "710432aa9aadc990",
     "title": "Customizing Review Widgets in Reputation"
   },
   "docs/Reputation-Management-&-Reviews/Review-Requests/Maximizing Customer Engagement with Reviews AI A Guide to Suggestive and Auto-Pilot Modes.md": {
@@ -8746,7 +8756,7 @@
   },
   "docs/Integrations/Google-Integrations/How to Integrate Google Business Profile (GBP) With HighLevel.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001222899-how-to-integrate-google-business-profile-gbp-with-highlevel",
-    "hash": "eed27e53ff801c86",
+    "hash": "5aaa41a636958784",
     "title": "How to Integrate Google Business Profile (GBP) With HighLevel"
   },
   "docs/Integrations/Google-Integrations/Google Business Profile - Chat sunset starting Jul 15, 2024.md": {
@@ -8761,7 +8771,7 @@
   },
   "docs/Integrations/Google-Integrations/Communication and Social channel connection with GBP.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000005619-communication-and-social-channel-connection-with-gbp",
-    "hash": "80ddd176354aa6c1",
+    "hash": "c56a9035958ab671",
     "title": "Communication and Social channel connection with GBP"
   },
   "docs/Integrations/Google-Integrations/Google Lead Ads Integration.md": {
@@ -8816,7 +8826,7 @@
   },
   "docs/Integrations/Facebook-Integration/Facebook Multi Page Lead Ads Integration.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000004537-facebook-multi-page-lead-ads-integration",
-    "hash": "9b6ac2acb44c07fa",
+    "hash": "b8792ea0636ce61f",
     "title": "Facebook Multi Page Lead Ads Integration"
   },
   "docs/Integrations/Facebook-Integration/Facebook Multi page Troubleshoot.md": {
@@ -8866,7 +8876,7 @@
   },
   "docs/Integrations/Facebook-Integration/Step-by-Step Guide to Facebook Integration in HighLevel.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001157632-step-by-step-guide-to-facebook-integration-in-highlevel",
-    "hash": "c50779c47f276ce3",
+    "hash": "1ac25f6597369e5e",
     "title": "Step-by-Step Guide to Facebook Integration in HighLevel"
   },
   "docs/Integrations/Zapier-Integration/Zapier Troubleshooting - Duplicate Contacts or Added to Campaigns Multiple Times.md": {
@@ -8939,10 +8949,10 @@
     "hash": "f2fdb5c4891438f7",
     "title": "Integration UI/UX Revamp"
   },
-  "docs/Integrations/Shopify/How To Integrate Shopify With HighLevel.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/48001203620-how-to-integrate-shopify-with-highlevel",
-    "hash": "af11e5aef53b0a40",
-    "title": "How To Integrate Shopify With HighLevel"
+  "docs/Integrations/Shopify/How to Use the Shopify Integration with Your Account.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001203620-how-to-use-the-shopify-integration-with-your-account",
+    "hash": "722431d37ef4e4c7",
+    "title": "How to Use the Shopify Integration with Your Account"
   },
   "docs/Integrations/Shopify/Shopify Elements in HighLevel.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001203897-shopify-elements-in-highlevel",
@@ -8991,7 +9001,7 @@
   },
   "docs/Custom-Objects/Getting-Started-with-Custom-Objects/Using Custom Objects in Workflow Actions and Triggers.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000004389-using-custom-objects-in-workflow-actions-and-triggers",
-    "hash": "877a5caf2481fefd",
+    "hash": "d77bdb77c3fb8ba2",
     "title": "Using Custom Objects in Workflow Actions and Triggers"
   },
   "docs/Custom-Objects/Getting-Started-with-Custom-Objects/SmartLists for Custom Objects.md": {
@@ -9006,13 +9016,8 @@
   },
   "docs/Custom-Objects/Getting-Started-with-Custom-Objects/Notes on Custom Objects in HighLevel.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007493-notes-on-custom-objects-in-highlevel",
-    "hash": "7eb70f29dcc15327",
+    "hash": "fc6b06a48cdc5b75",
     "title": "Notes on Custom Objects in HighLevel"
-  },
-  "docs/Custom-Objects/Getting-Started-with-Custom-Objects/Custom Object Templates.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007735-custom-object-templates",
-    "hash": "c9248056da09f07f",
-    "title": "Custom Object Templates"
   },
   "docs/Custom-Objects/Getting-Started-with-Custom-Objects/Custom Object Templates Pre-Built CRM Setup in One Click.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007819-custom-object-templates-pre-built-crm-setup-in-one-click",
@@ -9046,7 +9051,7 @@
   },
   "docs/Custom-Objects/Managing-Custom-Object-Records/Using Notes in Custom Objects.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007424-using-notes-in-custom-objects",
-    "hash": "93b77ae458954bae",
+    "hash": "6587a3bc8f34aa01",
     "title": "Using Notes in Custom Objects"
   },
   "docs/Custom-Objects/Managing-Custom-Object-Records/Bulk Delete for Custom Object Records.md": {
@@ -9183,6 +9188,11 @@
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000004124-gokollab-for-communities-marketplace-for-communities-",
     "hash": "963065ba4e27ec93",
     "title": "GoKollab for Communities (Marketplace for communities)"
+  },
+  "docs/GoKollab/GoKollab/Manage Purchases on GoKollab.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008009-manage-purchases-on-gokollab",
+    "hash": "f6444415984e7160",
+    "title": "Manage Purchases on GoKollab"
   },
   "docs/Tasks/Creating-Tasks/Recurring Tasks.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000003909-recurring-tasks",

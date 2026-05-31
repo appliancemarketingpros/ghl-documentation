@@ -21,6 +21,6 @@
 - [How to Use the All-in-One Chat Widget](How to Use the All-in-One Chat Widget.md)
 - [Collect Visitor Details Before Live Chat Starts](Collect Visitor Details Before Live Chat Starts.md)
 - [How to set up and use the Voice AI Chat Widget](How to set up and use the Voice AI Chat Widget.md)
-- [How to use Chat Attachments in Live Chat Widgets](How to use Chat Attachments in Live Chat Widgets.md)
-- [Chat Widget: Using File Attachments in Live Chat](Chat Widget Using File Attachments in Live Chat.md)
+- [How to Use Voice Notes and Attachments in Live Chat Widgets](How to Use Voice Notes and Attachments in Live Chat Widgets.md)
 - [Voice AI Chat Widget](Voice AI Chat Widget.md)
+- [How to create an Embedded Voice AI Chat Widget](How to create an Embedded Voice AI Chat Widget.md)

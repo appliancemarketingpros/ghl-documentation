@@ -23,6 +23,20 @@ The **Pause Account** option gives you the flexibility to step away while keepin
 
 * * *
 
+## **How to pause your account?**
+
+Follow these steps to pause your account:
+
+  * Go to **Agency Settings** > **Billing**
+  * Click **"Want to modify / cancel your subscription?"**
+  * Select **"Cancel Plan"**
+  * Go to the next steps and provide the requested reason(s)
+  * In the final step, you’ll see the option to **"Pause your account"** instead of cancelling
+  * Click **"Confirm & Pause Account"**
+
+
+* * *
+
 ## **What happens when you pause your account?**
 
 During the pause period:

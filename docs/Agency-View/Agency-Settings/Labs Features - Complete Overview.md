@@ -379,6 +379,23 @@ To submit feedback:
 
 * * *
 
+## **Labs Changes Are Auditable**
+
+  
+
+
+Changes to Labs feature flags are now recorded in **Audit Logs**. This includes updates made at the company level, location level, and through Support Portal tools.
+
+  
+
+
+Use Audit Logs when you need to confirm when a Labs feature was changed, who changed it, or whether the update came from Support Portal.
+
+  
+
+
+* * *
+
 ## **Frequently Asked Questions**
 
   

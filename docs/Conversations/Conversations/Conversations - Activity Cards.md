@@ -25,7 +25,7 @@ We are thrilled to introduce a feature that redefines how users interact with ou
 
 * * *
 
-These cards bring the action to you. You can respond, edit, and manage opportunities, appointments, contact preferences, and invoices, all without the hassle of shifting from one panel to another. The result is a more streamlined, efficient, and effortless user experience. 
+These cards bring the action to you. You can respond, edit, and manage opportunities, appointments, contact preferences, and invoices, all without the hassle of shifting from one panel to another. The result is a more streamlined, efficient, and effortless user experience.
 
   
 
@@ -36,6 +36,11 @@ These cards bring the action to you. You can respond, edit, and manage opportuni
 
 
 Activity cards are populated as soon as a new opportunity is created, updated, or deleted. It ensures you are aware of potential leads from the very inception, keeping you perpetually in the loop. With a simple click on 'View Opportunity' within the card, you can dive right in and make real-time changes, right from where you are.
+
+  
+
+
+Communication preference logs Preference status updates are logged in the conversation thread to improve context. This includes updates initiated by the contact and updates made by a user.
 
   
 

@@ -26,7 +26,7 @@ Make it easier for leads and customers to schedule time with your business by le
 
 * * *
 
-## **What is Appointment Booking in Conversation AI?**
+# **What is Appointment Booking in Conversation AI?**
 
   
 
@@ -110,6 +110,9 @@ Appointment booking works by combining your bot goals, calendar selection, bot t
 
 Single calendar booking is the best option when all appointment requests should go to one booking calendar. This setup is simpler to manage and works well for businesses with one service type, one scheduling path, or one main appointment destination.
 
+  
+
+
 With a single calendar setup, the bot uses the calendar you assign for appointment booking and guides contacts through available time slots for that calendar. This is often the fastest path to launch if you do not need service-based routing.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068782892/original/7wDlhcmmtlBOX60j6wWVqvt9FE7m9v4Nvw.png?1775732945)
@@ -123,14 +126,36 @@ With a single calendar setup, the bot uses the calendar you assign for appointme
 
 Multiple calendar booking is ideal when your business offers different appointment types, departments, services, or routing needs. HighLevel supports multiple calendar selection for Conversation AI so the bot can identify the best calendar for the request instead of sending every inquiry to a single destination.
 
+  
+
+
 To improve routing accuracy, you can configure each calendar with:
 
+  
+
+
   * a clear description of what the calendar is for
+
+
+  
+
+
   * additional trigger keywords related to the service or use case
+
+
+  
+
+
   * an optional fallback calendar if the bot cannot confidently match the request to one calendar
 
 
+  
+
+
 This setup helps the bot distinguish between services such as consultations, demos, support calls, or location-specific bookings.
+
+  
+
 
 **Note:** Multiple calendar booking is currently available only for **prompt-based Conversation AI bots**.  
   
@@ -149,10 +174,33 @@ Good booking performance depends on more than selecting a calendar. The bot also
 
 Use these best practices when preparing your bot:
 
+  
+
+
   * Write clear calendar descriptions so the bot can tell when each calendar should be used.
+
+
+  
+
+
   * Add relevant keywords for common services, appointment types, or request phrases.
+
+
+  
+
+
   * Put customer-facing business details in the bot’s prompt or training, not only in calendar descriptions.
+
+
+  
+
+
   * Keep your initial message and tone aligned with your brand voice.
+
+
+  
+
+
   * Choose the contact fields you really need so the booking process stays efficient.
 
 

@@ -138,7 +138,15 @@ Subaccount >> Settings >> integration ![](https://s3.amazonaws.com/cdn.freshdesk
 
   3. Allow necessary permissions.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155040574164/original/Uk4ydDQ2GLoJGa2BRLU4nngfH6RnKDNvTQ.png?1738063960)
 
-  4. Select the pages under the account that you want to connect with GHL.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155041513652/original/PO2ajSrU79tIB1GmyHY0SVG7ql_B8fzzGg.png?1739432666)
+  4. Select the pages under the account that you want to connect with GHL.  
+  
+**Tip:** You can search Pages (and Ad Accounts, when available) by name to speed up selection. Search becomes available after all pages load, so initial load time may increase for accounts with a large number of pages.  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155041513652/original/PO2ajSrU79tIB1GmyHY0SVG7ql_B8fzzGg.png?1739432666)  
+  
+  
+  
+  
+
 
   5. Once pages are connected, the next step is to set up the form, map the required fields with GHL fields, and we are all set to go:   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155041513779/original/O6EIw4LvuHVjqkZk9yHymjgduGTMhKUOFw.png?1739432757)
@@ -150,7 +158,7 @@ To disconnect facebook integration:
   1. Go to integrations under sub-account:   
 Subaccount >> Settings >> integration 
   2. Go to facebook, and click on 3 dots on the card.
-  3. Click on disconnect.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155041514011/original/_4OkiQDqZbCbHFB5dm6ZtdV7cpFYhdk1pA.png?1739432831)  
+  3. Click on disconnect.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155041514011/original/_4OkiQDqZbCbHFB5dm6ZtdV7cpFYhdk1pA.png?1739432831)
 
 
 ###   

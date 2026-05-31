@@ -26,15 +26,15 @@ For new configurations, HighLevel does **not** add a default "One-on-One" subscr
 
 Table of Contents
 
-  1. 1 What is Preference Management?
-  2. 2 Key Benefits of Preference Management
-  3. 3 Preference Types
-  4. 4 Associating Preferences with Campaigns
-  5. 5 Automatic Audience Filtering
-  6. 6 How to Setup Preference Management
-  7. 7 Managing Preferences at the Contact Level
-  8. 8 Frequently Asked Questions
-  9. 9 Related Articles
+  1. 1What is Preference Management?
+  2. 2Key Benefits of Preference Management
+  3. 3Preference Types
+  4. 4Associating Preferences with Campaigns
+  5. 5Automatic Audience Filtering
+  6. 6How to Setup Preference Management
+  7. 7Managing Preferences at the Contact Level
+  8. 8Frequently Asked Questions
+  9. 9Related Articles
 
 
 ## What is Preference Management?
@@ -178,6 +178,11 @@ Choose your desired **Preference Type** using the dropdown.
 ## Managing Preferences at the Contact Level
 
 From the Contact Details Page, teams can view or manually adjust each contact's preferences for full transparency and control. To view or update preference settings for a contact, follow the steps below.
+
+**Note:** When a preference status is updated at the contact level, HighLevel logs the update in Conversations so teams can review preference changes in context.
+
+  
+
 
 1
 

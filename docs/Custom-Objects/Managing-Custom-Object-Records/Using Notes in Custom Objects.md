@@ -8,16 +8,13 @@
 
 **TABLE OF CONTENTS**
 
-  
-
-
   * Overview
   * Feature Name
   * Feature Description
   * How to Use
     * A) Add Notes on a Custom Object record
-    * Go to Custom Objects and open any object (e.g., Properties).
     * B) Associate a Contact/Opportunity note to a Custom Object record
+    * C) Automate notes with workflows
   * Examples
 
 
@@ -84,7 +81,9 @@ Go to **Custom Objects** and open any object (e.g., Properties).
 
 ## B) Associate a Contact/Opportunity note to a Custom Object record
 
-  1. Open a **Contact** or **Opportunity** record.
+  1. ## 
+
+Open a **Contact** or **Opportunity** record.
 
   2. Go to **Notes** and either create a **new note** or open an **existing note**.
 
@@ -119,8 +118,39 @@ Go to **Custom Objects** and open any object (e.g., Properties).
   
 
 
-#   
+## C) Automate notes with workflows
 
+  
+
+
+You can add notes to custom object records automatically using workflows:
+
+  
+
+
+1\. Open a workflow for your custom object.
+
+  
+
+
+2\. Add the **Add to Note** action.
+
+  
+
+
+3\. Enter the note content, then save and publish.
+
+  
+
+
+**Note:** Note title and note color are not supported yet for custom object workflow notes.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072297704/original/3kodqs-tHPe0RkiUpFhCVQaIwPdks28RgQ.gif?1779875990)
+
+* * *
 
 # Examples
 

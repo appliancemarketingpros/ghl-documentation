@@ -6,13 +6,46 @@
 
 ---
 
-## **Overview**
+When an A2P 10DLC campaign is rejected, it's important to understand exactly what went wrong , and what needs to change before you resubmit. We've made this process clearer with a new "View required fixes →" experience that gives you structured, actionable detail for every rejection reason.
 
-When an A2P 10DLC campaign is rejected, it's important to understand exactly what went wrong , and what needs to change before you resubmit. We've made this process clearer with a new **"View required fixes →"** experience that gives you structured, actionable detail for every rejection reason.
+* * *
+
+**TABLE OF CONTENTS**
+
+  * Overview
+  * What's New
+  * How to View Your Required Fixes
+  * Rejection Codes & Required Fixes
+  * Part 1: Rejection Types Eligible for Resubmission
+    * Opt-In & Consent
+    * Website
+    * Business Identity
+    * Campaign Use Case
+    * Registration & Brand
+  * Part 2: Rejection Types Ineligible for Resubmission
+    * SHAFT Content Violations
+    * Disallowed Content
+    * High Risk
+    * Legacy Codes (Pre-March 23, 2026)
+  * Part 3: New Granular Error Codes (Effective March 23, 2026)
+    * Opt-In & Consent
+    * Website
+    * Business Identity
+    * Use Case
+    * SHAFT Content Violations (Ineligible for Resubmission)
+    * Disallowed Content (Ineligible for Resubmission)
+    * High Risk (Ineligible for Resubmission)
+    * Registration Issue
+  * Why This Matters
+  * Frequently Asked Questions
+
 
 * * *
 
 ## **What's New**
+
+  
+
 
 Previously, rejection reasons appeared as short, high-level descriptions with little context. Now, every rejection reason includes a **"View required fixes →"** link. Clicking it opens a detailed modal that breaks down the issue into four clear fields:
 
@@ -116,7 +149,7 @@ Error Code| What It Means| Correction Needed
 **30929**|  Emergency alert notifications are not permitted through A2P 10DLC.| Emergency alerts are not a valid A2P 10DLC use case. Contact support for alternatives.  
 **30930**|  Your brand has reached the 100-campaign limit.| Deregister unused campaigns in the console to free up capacity.  
 **30886**|  Campaign description does not thoroughly explain the campaign's purpose or does not match the use case.| Verify the campaign description is accurate and detailed.   
-**30893**|  Sample messages are not provided, unclear, or the content does not match the campaign use case.| Verify sample messages are accurate and detailed. Messages should reflect actual content to be sent, indicate templated fields with brackets (e.g., [First Name]), include your business name in at least one message, and match the use case and campaign description.  
+**30893**|  Sample messages are not provided, unclear, or the content does not match the campaign use case.| Verify your sample messages are accurate, detailed, and match your campaign use case and description.\- Use Sample Message #1 for Promotional/Marketing content.\- Use Sample Message #2 for Transactional/Informational content.\- For mixed messaging, include at least one sample in each category.\- Indicate templated fields with brackets (for example, [First Name]).\- Include your business name in at least one message and opt-out language in at least one message.  
 **30892**|  Sample messages include a public URL shortener or a non-secured URL.| Remove all public URL shorteners (e.g., bit.ly) from sample messages. Use full, direct HTTPS URLs only.  
 **30889**|  Embedded phone number is selected but not reflected in sample messages.| Verify the embedded phone number selection is accurate. Update sample messages to include the embedded phone number, or update the embedded phone number selection.  
   
@@ -133,12 +166,21 @@ Error Code| What It Means| Correction Needed
 
 ## _Part 2: Rejection Types Ineligible for Resubmission_
 
+  
+
+
 The rejection codes below are due to **forbidden messaging categories** and are **not eligible for resubmission**. 
 
 ###   
 **SHAFT Content Violations**
 
+  
+
+
 These codes apply to campaign descriptions, sample messages, website content, and any linked URLs.
+
+  
+
 
 Error Code| Rejection Category| What It Means  
 ---|---|---  
@@ -153,6 +195,9 @@ Error Code| Rejection Category| What It Means
 
 
 ### **Disallowed Content**
+
+  
+
 
 Error Code| Rejection Category| What It Means  
 ---|---|---  
@@ -175,6 +220,9 @@ Error Code| Rejection Category| What It Means
 
 ### **High Risk**
 
+  
+
+
 Error Code| Rejection Category| What It Means  
 ---|---|---  
 **30959**|  High Risk| Fraudulent or misleading content detected.  
@@ -189,7 +237,13 @@ Error Code| Rejection Category| What It Means
 
 ### **Legacy Codes (Pre-March 23, 2026)**
 
+  
+
+
 The following general codes were replaced by the granular codes above starting March 23, 2026. You may still see these on older rejections.
+
+  
+
 
 Error Code| Rejection Category| What It Means  
 ---|---|---  
@@ -201,7 +255,10 @@ Error Code| Rejection Category| What It Means
   
 * * *
 
-## _Part 3: New Granular Error Codes (Effective March 23, 2026)_
+## **Part 3: New Granular Error Codes (Effective March 23, 2026)**
+
+  
+
 
 Starting March 23, 2026, new granular error codes provide more precise rejection reasons compared to previous general codes. Instead of receiving a broad code like **30883** , **30884** , **30885** , or **30897** , you'll now receive a code that specifically identifies the issue.
 
@@ -209,6 +266,9 @@ The general catch-all code **30883** (covering SHAFT categories: Sex, Hate, Alco
 
 ###   
 **Opt-In & Consent**
+
+  
+
 
 Error Code| What It Means| Correction Needed  
 ---|---|---  
@@ -224,6 +284,9 @@ Error Code| What It Means| Correction Needed
 ###   
 **Website**
 
+  
+
+
 Error Code| What It Means| Correction Needed  
 ---|---|---  
 **30919**|  Website lacks sufficient business information or messaging disclosure.| Add: company name, description of services, contact information, privacy policy, and mention of your SMS messaging program.  
@@ -233,6 +296,9 @@ Error Code| What It Means| Correction Needed
   
 ###   
 **Business Identity**
+
+  
+
 
 Error Code| What It Means| Correction Needed  
 ---|---|---  
@@ -247,6 +313,9 @@ Error Code| What It Means| Correction Needed
 ###   
 **Use Case**
 
+  
+
+
 Error Code| What It Means| Correction Needed  
 ---|---|---  
 **30910**|  Registration fields contain non-English language.| Campaign registration fields must be in English. Provide English translations of sample messages alongside the originals.  
@@ -260,6 +329,9 @@ Error Code| What It Means| Correction Needed
 ### **  
 SHAFT Content Violations** _**(Ineligible for Resubmission)**_
 
+  
+
+
 Error Code| What It Means  
 ---|---  
 **30953**|  Sex or adult content.  
@@ -271,6 +343,9 @@ Error Code| What It Means
   
 ###   
 **Disallowed Content** _**(Ineligible for Resubmission)**_
+
+  
+
 
 Error Code| What It Means  
 ---|---  
@@ -293,6 +368,9 @@ Error Code| What It Means
 
 ### **High Risk** _**(Ineligible for Resubmission)**_
 
+  
+
+
 Error Code| What It Means  
 ---|---  
 **30959**|  Fraudulent or misleading content detected.  
@@ -305,6 +383,9 @@ Error Code| What It Means
 ###   
 **Registration Issue**
 
+  
+
+
 Error Code| What It Means| Correction Needed  
 ---|---|---  
 **30995**|  Account has reached the maximum Messaging Services phone number limit.| Contact Support.  
@@ -313,7 +394,13 @@ Error Code| What It Means| Correction Needed
 
 ## **Why This Matters**
 
+  
+
+
 This update gives you clear, actionable feedback so you can:
+
+  
+
 
   * **Quickly identify the root cause** of each rejection
   * **Resolve issues without guesswork** or back-and-forth with support
@@ -325,16 +412,35 @@ This update gives you clear, actionable feedback so you can:
 
 ## **Frequently Asked Questions**
 
-**Can I resubmit immediately after making corrections?**  
+  
+
+
+**Q. Can I resubmit immediately after making corrections?**  
 Yes, for eligible rejection codes. Once you've addressed all listed rejection reasons, you can resubmit your campaign directly from the portal. Note that resubmission may be subject to additional carrier review time.
 
-**My campaign has multiple rejection reasons. Do I need to fix all of them?**  
+  
+
+
+  
+
+
+**Q. My campaign has multiple rejection reasons. Do I need to fix all of them?**  
 Yes. All rejection reasons must be resolved before resubmission. Addressing only some issues will likely result in another rejection.
 
-**My campaign was rejected with an ineligible code. Can I still appeal?**  
+  
+
+
+  
+
+
+**Q. My campaign was rejected with an ineligible code. Can I still appeal?**  
 Yes. If you believe your rejection was made in error, contact support with the subject line "10DLC Campaign Appeal for [your business name or number]" and include the full details of your appeal.
 
-**I fixed the issue but my campaign was rejected again. What should I do?**  
-Review the new rejection reasons carefully , carriers may surface additional issues on subsequent reviews. If you believe your campaign is compliant and continue to face rejections, contact our support team for assistance.
+  
 
-##
+
+  
+
+
+**Q. I fixed the issue but my campaign was rejected again. What should I do?**  
+Review the new rejection reasons carefully , carriers may surface additional issues on subsequent reviews. If you believe your campaign is compliant and continue to face rejections, contact our support team for assistance.

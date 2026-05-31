@@ -18,3 +18,5 @@
 - [What is Ask AI Memory?](What is Ask AI Memory.md)
 - [How to Use Scheduled Tasks in Ask AI to Automate Prompts](How to Use Scheduled Tasks in Ask AI to Automate Prompts.md)
 - [How to Generate SEO-Friendly Blog Posts Using Ask AI in HighLevel](How to Generate SEO-Friendly Blog Posts Using Ask AI in HighLevel.md)
+- [How to Use Ask AI Voice Mode](How to Use Ask AI Voice Mode.md)
+- [How to Provide Feedback on Ask AI Responses](How to Provide Feedback on Ask AI Responses.md)

@@ -16,6 +16,7 @@ Custom Object Templates let you create industry-specific CRM structures without 
   * Key Benefits of Custom Object Templates
   * Template Library Visibility Controls
   * How to Set Up Custom Object Templates
+  * Manage Template Visibility (Agency Admins)
   * Frequently Asked Questions
 
 
@@ -178,7 +179,63 @@ After the template is applied, review the created objects, fields, and associati
   
 
 
-You can manage Custom Objects from **Settings → Objects,** and review associations from the object’s association settings.
+###   
+
+
+### **Manage Template Visibility (Agency Admins)**
+
+  
+
+
+  
+
+
+Custom Object templates use the same visibility controls as other Template Library modules:  
+  
+
+
+  1. From the **Agency Dashboard** , click **Template Library** in the left navigation.  
+  
+
+  2. Click the **Settings (gear) icon** in the top-right.  
+  
+
+  3. To control visibility per sub-account:  
+
+     * Go to the **Customize for Sub-Account Settings** tab.  
+  
+
+     * Search for the sub-account → click **Edit**.  
+  
+
+     * Choose to hide the Template Library fully, show it, or hide it only for specific modules (including **Custom Objects**).  
+  
+
+  4. To control which categories are globally visible:  
+
+     * Go to the **Categories** tab and toggle visibility on individual categories (e.g., Real Estate, Insurance).  
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072108524/original/Ov5j_sNTrcbHl-t_YtIG0KNxq7F_vQJmbw.jpeg?1779694017)
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072108525/original/0jP5v3r5HyYmZfcRL5JSZnF4gD93E7MzUw.jpeg?1779694017)
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072108523/original/4RFkk96jQLTUvXYQID84tnnCRpAKvDJrJw.jpeg?1779694017)
+
+  
+
+
+Changes apply instantly. Agency users/admins always see the Template Library regardless of these settings — restrictions only affect sub-account users.
+
+  
+
 
 * * *
 

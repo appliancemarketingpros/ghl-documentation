@@ -263,6 +263,27 @@ No. Each profile must have a unique name to prevent checkout confusion.
   
 
 
+**Q: How do live shipping rates work for Printful products?**
+
+When you connect the Printful integration and sync Printful products, the system automatically creates a Printful shipping profile to support live rates at checkout.
+
+  
+
+
+**Key behaviors:**
+
+  
+
+
+  * The Printful shipping profile is system-generated to ensure rates calculate correctly. Manual edits are not recommended.
+  * Products must remain assigned to the Printful profile to receive live rates at checkout.
+  * If you remove products from the Printful profile, shipping rates are disabled for those products.
+  * If you delete the Printful shipping profile, it is not recreated automatically. Reinstall the Printful integration to restore it.
+
+
+  
+
+
 **Q: What happens if I delete a custom profile?**
 
 Products in that profile automatically return to the General Profile.

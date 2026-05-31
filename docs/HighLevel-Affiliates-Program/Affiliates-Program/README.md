@@ -5,7 +5,7 @@
 ## Articles
 
 - [Become A HighLevel Affiliate](Become A HighLevel Affiliate.md)
-- [How to Set Up Affiliate Program Webhooks to Run Automations (First Promoter)](How to Set Up Affiliate Program Webhooks to Run Automations (First Promoter).md)
+- [How to Set Up Affiliate Program Postbacks to Run Automations (FirstPromoter Webhooks)](How to Set Up Affiliate Program Postbacks to Run Automations (FirstPromoter Webhooks).md)
 - [5 Ways To Find Your First 5 Affiliate Referrals](5 Ways To Find Your First 5 Affiliate Referrals.md)
 - [First Steps to be a Successful HighLevel Affiliate](First Steps to be a Successful HighLevel Affiliate.md)
 - [How to use Affiliate Portal](How to use Affiliate Portal.md)

@@ -154,6 +154,29 @@ Triggers workflow actions based on payment events.
 
 * * *
 
+### **Invoice Paid**
+
+  
+
+
+Completes the goal when a contact has an invoice marked Paid or Partially Paid.  
+  
+**Highlights:**  
+\- Choose whether the goal should match any invoice for the contact or only the invoice tied to a selected Send Invoice action (if available).  
+  
+**Example Use Case:  
+** After a “Send Invoice” action, move the contact to “Send receipt + next steps” when the invoice becomes Paid or Partially Paid.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072139779/original/8lyQuVqe2SXNFvQIYtFmnD9AUUbnthiyjQ.png?1779716507)
+
+* * *
+
+###   
+
+
 ### **Document Status**
 
   
@@ -236,6 +259,37 @@ Tracks when a contact clicks a specific tracked link within your messages.
 
   * Initiate a follow-up email when a lead clicks an event registration link.
 
+
+  
+
+
+### **Review Request Clicked**
+
+  
+
+
+Completes the goal when a contact clicks a review request link.  
+  
+**Highlights:  
+**
+
+  
+
+
+Match clicks across any channel, or filter by one or more channels. Optionally narrow the goal to a specific review link (for example, an override review link).  
+  
+**Example Use Case:  
+**
+
+  
+
+
+Send a review request via SMS. When the contact clicks the review link, move them to “Thanks + referral ask.”
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072140240/original/tEEJRaGBn1W3aBio-UhsNJ4Q3tBY0z7ezw.png?1779716700)
 
 * * *
 

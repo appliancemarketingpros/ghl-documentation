@@ -256,20 +256,22 @@ Once you select the chat widget type, there will 3 pages (4 if the chat type sup
   
 
   * **Chat Window: Chat window allows user to customise the title, intro message and contact form customisations. It also allows business to add their own brand url in the chat widget for more visibility and meet any compliance regulations with checkboxes.**  
-  
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060347459/original/gILumKvE-3NwMDZprahF0xcPW5u4b5E2dQ.png?1765387535)**  
-  
+**  
+**
+        
+        **Tip:** To improve initial page performance, enable Load on user interaction in **Chat Window > Additional Options**. The widget loads after visitor interaction (scroll/click/touch), or after an automatic fallback delay (about 8 seconds). 
 
+  
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060347459/original/gILumKvE-3NwMDZprahF0xcPW5u4b5E2dQ.png?1765387535)**
   * **Messaging:** Here the user configure the acknowledgement of message and icons. They can also configure the language of chat widget.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060347511/original/ZWxJuodd5cwBylUwtW86CmPV2hmWV_9IEQ.png?1765387587)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060347511/original/ZWxJuodd5cwBylUwtW86CmPV2hmWV_9IEQ.png?1765387587)  
+  
+
   * **Agent:** Choose the voice agent you would like custoemrs to speak to. You can also set the agents name and description here. Please note that this page will only show up in chat types that support AI.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060347525/original/AsGtxz6AP14aSIjjjV-vS-EmtvgH4QHqmg.png?1765387626)
-
-
-**  
-**  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060347525/original/AsGtxz6AP14aSIjjjV-vS-EmtvgH4QHqmg.png?1765387626)  
+  
 
 
 #### _**Step 5:** Install the Chat Widget_

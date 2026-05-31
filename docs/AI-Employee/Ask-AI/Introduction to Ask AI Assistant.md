@@ -6,27 +6,12 @@
 
 ---
 
-We’re excited to roll out a new AI-powered assistant inside HighLevel, Ask AI. Whether you need content written in your brand voice, want to create a new community, or just need quick answers, Ask AI is here to help. No need to jump between tools or tabs.  
-
+We’re excited to roll out a new AI-powered assistant inside HighLevel, Ask AI. Whether you need content written in your brand voice, want to create a new community, or just need quick answers, Ask AI is here to help. No need to jump between tools or tabs.
 
   
 
-    
-    
-    IMPORTANT: Ask AI Voice is currently available in Labs. If you don’t see it, ask an admin to enable it at Agency Settings > Labs. For more, refer to [Labs Features - Complete Overview](<https://help.gohighlevel.com/support/solutions/articles/155000003588-labs-features-complete-overview>).
 
-* * *
-
-**TABLE OF CONTENTS**
-
-  * Who can use Ask AI?
-  * Core Capabilities of Ask AI Assistant
-  * How to Use Ask AI Assistant
-    * Access Ask AI from the Top Navigation
-    * Access Ask AI from the Left Sidebar
-  * Ask AI Assistant Examples
-  * Frequently Asked Questions
-  * Related Articles
+  
 
 
 * * *
@@ -45,21 +30,40 @@ Users can type prompts or use voice input to speak instructions directly into As
 
   
 
+
+Ask AI is available to all Agency Admins and Agency Users but only available to Sub-account Admins and Sub-account Users on the 97$ Unlimited AI Employee Plan. It can be found and used in the top navigation bar, click on the icon and enter your prompts.
+
+  
+
     
     
-    Note: In order to generate personalized/branded content, make sure that you have configured your brand voice in Marketing > Branded Content > Brand Voice..
+    **Note:** In order to generate personalized/branded content, make sure that you have configured your brand voice in Marketing > Branded Content > Brand Voice.
 
 * * *
 
-## **Who can use Ask AI?**
+## **Using the Ask AI**
 
-Currently Ask AI is available to all Agency Admins and Agency Users but only available to Sub-account Admins and Sub-account Users on the 97$ Unlimited AI Employee Plan. It can be found and used in the top navigation bar, click on the icon and enter your prompts.
+  
+
+
+The Ask AI gives users one place to start conversations, enter prompts, review responses, and continue working with AI-powered tasks inside HighLevel. The workspace includes a welcome screen, message composer, conversation view, and sidebar so users can move through Ask AI conversations more easily.
+
+  
+
+
+When opening Ask AI, users may see suggested prompts that help them start quickly. These prompts are optional and can be used as-is or edited before sending. Users can also type a custom prompt in the composer to ask a question, generate content, or begin a supported workflow.
 
 * * *
 
 ## **Core Capabilities of Ask AI Assistant**
 
+  
+
+
 Here’s a closer look at what Ask AI currently supports:
+
+  
+
 
 Capability| Description| Example Prompts  
 ---|---|---  
@@ -81,6 +85,48 @@ Capability| Description| Example Prompts
   
 * * *
 
+## **Reading Ask AI Responses**
+
+  
+
+
+Ask AI responses appear in the conversation view and may include paragraphs, headings, bullet points, numbered steps, links, structured cards, or other formatted content. Clear message formatting helps users review longer responses and follow instructions more easily.
+
+  
+
+
+Some structured responses may appear in collapsible cards. These cards help keep longer conversations organized by letting users expand additional details only when needed.
+
+* * *
+
+## **Navigating Ask AI Conversations**
+
+  
+
+
+The Ask AI sidebar helps users manage conversations from one place. Users can review previous sessions, return to an existing conversation, or start a new chat when they want to begin a separate task.
+
+  
+
+
+If no conversations are available yet, the sidebar empty state helps users understand that they can begin by starting a new conversation or using a suggested prompt.
+
+* * *
+
+## **Returning to a Conversation After Navigating Away**
+
+  
+
+
+Ask AI preserves chat state by including the conversation ID in the URL slug. This helps users return to the same conversation after navigating away from Ask AI.
+
+  
+
+
+This is useful when Ask AI is helping with a task that requires checking another area of HighLevel. Users can leave the conversation, review another page or setting, and return to the same Ask AI conversation without losing their place.
+
+* * *
+
 ## **How to Use Ask AI Assistant**
 
   
@@ -91,7 +137,13 @@ Ask AI can be opened from both Agency and Sub-account views, giving users quick 
   
 
 
+  
+
+
 ### **Access Ask AI from the Top Navigation**
+
+  
+
 
 The top navigation route is useful when users want quick access to Ask AI from anywhere in HighLevel. This is the fastest way to open the assistant while working in another area of the platform.
 
@@ -143,6 +195,9 @@ You can start with something like:
 
 ### **Access Ask AI from the Left Sidebar**
 
+  
+
+
 Ask AI opens in a full-screen workspace, so it is not a chatbot tucked in a corner. Use it to focus on real work and complete higher-volume tasks without leaving HighLevel. You can access Ask AI from the left navigation at both the **Agency** level and the **Sub-account** level.
 
   
@@ -163,7 +218,7 @@ Ask AI opens in a full-screen workspace, so it is not a chatbot tucked in a corn
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070655263/original/G4FQYyv7x0E3S2CM0barcFDRd-Nxfmdl5Q.png?1778032928)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072278318/original/E_ctlCpkwL0J89Lqto7bnwXp0v3sPulpdw.png?1779863605)
 
 * * *
 
@@ -220,8 +275,7 @@ Use Ask AI to set up a Voice AI agent and route urgent calls using a Call Transf
 
 
   1. Open Ask AI and Enter a prompt like: “Create a Voice AI agent that answers inbound calls, collects the caller’s name and reason for calling, and routes urgent requests.”  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067494576/original/vc2T3l1OlLUusWmt_2PiE8KcBHZN9pXvcg.png?1774270008)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072278426/original/Uk-NjhucmCTuJ7hMReHGL1toeS3epv7SQg.png?1779863696)  
   
 
   2. Answer the setup questions the assistant asks. The assistant collects a few quick details before it creates anything such as your business name, the phone number to transfer urgent calls to, what counts as "urgent” (so it knows when to route), the agent’s name, etc. Enter the details as prompted.  
@@ -242,6 +296,33 @@ Use Ask AI to set up a Voice AI agent and route urgent calls using a Call Transf
 * * *
 
 ## **Frequently Asked Questions**
+
+  
+
+
+  
+
+
+**Q: Can I type my own prompt instead of using suggested prompts?**  
+Yes. Suggested prompts are optional. You can type a custom prompt directly in the composer.
+
+  
+
+
+**Q: What are collapsible cards?**  
+Collapsible cards help organize longer or structured responses so users can expand details only when needed.
+
+  
+
+
+**Q: Why does my Ask AI URL include a conversation ID?**  
+The conversation ID helps preserve the active chat state so you can return to the same conversation after navigating away.
+
+  
+
+
+**Q: How do I start a new Ask AI conversation?**  
+Use the new chat option in the Ask AI sidebar or start from the welcome screen when available.
 
   
 
@@ -280,13 +361,43 @@ Yes. Ask AI can summarize contact details such as conversations, appointments, p
 
 ## **Related Articles**
 
-  * [Contact Summary Agent in Ask AI](<https://help.gohighlevel.com/support/solutions/articles/155000005484-contact-summary-agent-in-ask-ai>)  
   
 
-  * [Funnel Creation Agent in Ask AI](<https://help.gohighlevel.com/support/solutions/articles/155000005521-funnel-creation-agent-in-ask-ai>)  
+
+  * [](<https://help.gohighlevel.com/support/solutions/articles/155000005484-contact-summary-agent-in-ask-ai>)[Contact Summary Agent in Ask AI](<https://help.gohighlevel.com/a/solutions/articles/155000005484?portalId=48000045315>)
+
+
   
 
-  * [MCP Server within Ask AI](<https://help.gohighlevel.com/support/solutions/articles/155000005855-how-to-use-the-mcp-server-within-ask-ai>)  
+
+  * [Using Ask AI Artifacts and Mermaid Diagrams in HighLevel ](<https://help.gohighlevel.com/a/solutions/articles/155000007812?portalId=48000045315>)
+
+
   
 
-  * [Ask AI Upgrades](<https://help.gohighlevel.com/support/solutions/articles/155000006627-ask-ai-upgrades>)
+
+  * [Funnel Creation Agent in Ask AI](<https://help.gohighlevel.com/a/solutions/articles/155000005521?portalId=48000045315>)
+
+
+  
+
+
+  * [How to Use the MCP Server within Ask AI](<https://help.gohighlevel.com/a/solutions/articles/155000005855?portalId=48000045315>)
+
+
+  
+
+
+  * [Ask AI + Agent Studio Integration](<https://help.gohighlevel.com/a/solutions/articles/155000006677?portalId=48000045315>)
+
+
+  
+
+
+  * [Conversational Editing of Content with Ask AI](<https://help.gohighlevel.com/a/solutions/articles/155000005765?portalId=48000045315>)
+
+
+  
+
+
+  * [How to Generate and Edit Images Using Ask AI](<https://help.gohighlevel.com/a/solutions/articles/155000005764?portalId=48000045315>)[](<https://help.gohighlevel.com/support/solutions/articles/155000006627-ask-ai-upgrades>)

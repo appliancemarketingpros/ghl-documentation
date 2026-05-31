@@ -177,6 +177,30 @@ Select the appropriate Google Business Profile location from the list. If multip
   
 
 
+  
+
+    
+    
+    Search and filter locations Use the search dropdown to filter locations by: 
+    
+    -Page Name 
+    -Store Code 
+    -Postal Code 
+    -Locality If no locations appear, follow the on-screen guidance to connect a Google account that has access to the Google Business Profile locations you want to manage.
+    
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155058387399/original/GrLDeKQXSrrzi-xOLWBTuY7OqmjkRyNpJA.png?1763119180)
 
   

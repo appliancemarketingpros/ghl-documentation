@@ -12,3 +12,4 @@
 - [Introducing Chats: Start Conversations On GoKollab](Introducing Chats Start Conversations On GoKollab.md)
 - [GoKollab Affiliate Program for Communities](GoKollab Affiliate Program for Communities.md)
 - [GoKollab for Communities (Marketplace for communities)](GoKollab for Communities (Marketplace for communities).md)
+- [Manage Purchases on GoKollab](Manage Purchases on GoKollab.md)

@@ -59,11 +59,21 @@ For instance, if you're consistently available every Monday, Tuesday, and Thursd
 
   
 
+    
+    
+    Need to update availability for multiple team members at once? Use Bulk edit in the calendar Availability tab. 
+    see: [How to Bulk Edit Calendar Availability for Multiple Team Member](<https://help.gohighlevel.com/a/solutions/articles/155000008013?portalId=48000045315>)
+
+  
+
 
   
 
 
 ### **How to Set Weekly Working Hours**
+
+  
+
 
   
 
