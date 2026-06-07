@@ -107,6 +107,26 @@ Recurring subscription type will give members a limited access of the group afte
   
 
 
+## **Taxes**
+
+  
+
+
+Paid Group checkouts can apply taxes using your existing **Payments → Settings → Taxes** configuration. If you have Automatic Taxes or Manual Tax Rates set up in Payments, eligible Paid Group purchases can show taxes during checkout.
+
+  
+
+
+Learn more: [Tax Support in Communities Payments.](<https://help.gohighlevel.com/support/solutions/articles/155000008059-tax-support-in-communities>)
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072995346/original/pr9txePiLsoXXgiYuNB_J0MnDXg8jF7G6g.png?1780657060)
+
+  
+
+
 ## Group Access
 
 To grant access after receiving the payment: 

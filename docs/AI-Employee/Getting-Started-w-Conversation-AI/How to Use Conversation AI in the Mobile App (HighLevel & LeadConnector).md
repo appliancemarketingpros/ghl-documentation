@@ -41,7 +41,7 @@ Conversation AI on mobile works inside supported conversation channels, includin
 
 * * *
 
-## **Key Benefits of Conversation AI on Mobile App**
+## **K****ey Benefits of Conversation AI on Mobile App**
 
   
 
@@ -49,18 +49,14 @@ Conversation AI on mobile works inside supported conversation channels, includin
   * **Faster replies:** Respond to customers from the mobile app using automatic AI replies or AI-generated suggestions.  
   
 
-
   * **More control:** Pause, activate, or schedule bot reactivation from an individual conversation.  
   
-
 
   * **Consistent communication:** Use the same trained AI behavior configured on desktop while messaging from mobile.  
   
 
-
   * **Flexible response handling:** Use Autopilot Mode for automatic replies or Suggestive Mode when a team member should review replies before sending.  
   
-
 
   * **Usage management:** Pause or reactivate the bot from mobile when you need to control AI activity for a conversation.
 
@@ -85,18 +81,14 @@ Before using Conversation AI on mobile, confirm that:
   * Conversation AI is enabled for the location.  
   
 
-
   * The bot has been configured on desktop.  
   
-
 
   * The correct mode has been selected on desktop: Autopilot Mode or Suggestive Mode.  
   
 
-
   * The relevant messaging channels are connected.  
   
-
 
   * The HighLevel or LeadConnector mobile app is updated to a supported version.
 
@@ -110,10 +102,10 @@ Before using Conversation AI on mobile, confirm that:
 
 Proper setup ensures the mobile app uses the correct Conversation AI behavior during customer conversations. Core bot setup is completed on desktop first, then mobile users can open conversations, use AI replies, and manage bot activity from the conversation screen.
 
-  
+**  
+**
 
-
-### **_Step 1:_**_Configure Conversation AI on desktop_
+#### _**Step 1:** Configure Conversation AI on desktop_
 
   
 
@@ -121,8 +113,8 @@ Proper setup ensures the mobile app uses the correct Conversation AI behavior du
   1. Open your HighLevel account on desktop.  
   
 
-  2. Go to **AI Agents** > **Conversation AI**.  
-  
+  2. Go to**AI Agents** > **Conversation AI.  
+**  
 ![](https://jumpshare.com/share/KksqnmTytwUb7lrs5zPr+/Screen+Shot+2026-05-28+at+20.24.20.png)  
   
 
@@ -140,7 +132,7 @@ Proper setup ensures the mobile app uses the correct Conversation AI behavior du
   
 
 
-### **_Step 2:_**_Open a conversation on Mobile App_
+#### _**Step 2:** Open a conversation on Mobile App_
 
   
 
@@ -163,24 +155,38 @@ Proper setup ensures the mobile app uses the correct Conversation AI behavior du
   
 
 
-### **_Step 3:_**_Use Conversation AI in the conversation_
+#### _**Step 3:** Use Conversation AI in the conversation_
 
   
 
 
   * In **Autopilot** **Mode** , the **AI replies automatically after the configured delay**.  
   
-![](https://jumpshare.com/share/WsxJigLVODSK9S3umRf9+/Screenshot+2025-04-16+at+10.44.25%E2%80%AFPM.png)  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072646765/original/zI-gPT2wh5MhrJlsO7QfiMY0K66WJeYHtg.png?1780343778)|   
+  
+---|---  
+  
   
 
 
   * In **Suggestive** **Mode** , tap into the message field **to view suggested replies, then choose, edit, and send the response manually.**  
   
-**![](https://jumpshare.com/share/PaKZGrOO0i1FuWTtIzMh+/Screenshot+2025-04-16+at+10.44.50%E2%80%AFPM.png)**  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072646802/original/ByDOd983Pe8UQ7B4iF88Vwth31UGqQ169w.png?1780343881)|   
+  
+  
+---|---  
+  
   
 
 
-### **_Step 4:_**_Manage the bot from mobile when needed_
+####   
+
+
+#### _**Step 4:** Manage the bot from mobile when needed_
 
   
 
@@ -224,14 +230,14 @@ Autopilot Mode sends AI replies automatically after the configured delay. Sugges
 
 **Q: Can I pause the bot for only one conversation?**
 
-Yes. Open the conversation, tap the top-right ellipsis menu, select **Edit AI Settings** , and turn off **Activate Bot**. This manages bot activity for that conversation.
+Yes. Open the conversation, tap the top-right ellipsis menu, select Edit AI Settings, and turn off Activate Bot. This manages bot activity for that conversation.
 
   
 
 
 **Q: Can the bot turn back on automatically after being paused?**
 
-Yes. When pausing the bot, enable **Reactivate After** , enter the timeframe, and tap **Save**. The bot will reactivate after the selected time.
+Yes. When pausing the bot, enable Reactivate After, enter the timeframe, and tap Save. The bot will reactivate after the selected time.
 
   
 
@@ -263,7 +269,7 @@ Confirm that Conversation AI is active, Autopilot Mode is selected, the bot is n
 
 * * *
 
-### **Related Articles**
+## **Related Articles**
 
   
 

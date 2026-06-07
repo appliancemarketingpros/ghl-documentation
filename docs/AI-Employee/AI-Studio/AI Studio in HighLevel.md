@@ -165,6 +165,29 @@ AI Studio is available from the left navigation inside your sub-account after it
 
 * * *
 
+## **User Permissions for AI Studio**
+
+  
+
+
+AI Studio permissions help account admins and owners control which team members can access, view, and manage AI Studio resources. AI Studio includes two permission levels:
+
+  
+
+
+  * **View AI Studio:** Provides read-only access to AI Studio.  
+  
+
+  * **View & Manage AI Studio:** Provides full read and write access to AI Studio.
+
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072952724/original/Y5AaYU_RG1Qxv9b0qFR644YX9kkDtZzZvA.png?1780607027)
+
+* * *
+
 ## **AI Studio Home and Interface Overview**
 
   
@@ -974,7 +997,14 @@ No. AI Studio can also create other front-end experiences such as multi-step sur
 
 
 **Q: How much does AI Studio cost?**  
-AI Studio is currently free and pricing is expected to evolve over time.
+AI Studio will be free to use until September 1, 2026. Starting September 1, 2026, AI Studio will use the following pricing structure:
+
+  * **AI Employee Growth:** Usage Included.
+  * **AI Employee Unlimited:** 3x Usage Included.
+  * **Pay-Per-Use:** At Token Cost.
+
+
+Usage is measured in 5-hour windows. Each plan has its own usage limit within that window. AI Employee Unlimited includes 3x the limit of AI Employee Growth. If a limit is reached, access resets at the end of the 5-hour window.
 
   
 

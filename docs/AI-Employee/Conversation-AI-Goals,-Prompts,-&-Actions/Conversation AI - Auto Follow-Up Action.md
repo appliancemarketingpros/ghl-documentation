@@ -6,7 +6,7 @@
 
 ---
 
-The Auto Follow-Up feature in HighLevel’s Conversation AI empowers your bot to automatically send timely outbound messages to contacts who have gone inactive, asked for a follow-up, or stopped responding—eliminating manual follow-up tasks and complex workflows. This smart automation helps you boost engagement and close more deals, all while maintaining natural, responsive conversations.
+The Auto Follow-Up feature in HighLevel’s Conversation AI empowers your bot to automatically send timely outbound messages to contacts who have gone inactive, asked for a follow-up, or stopped responding—eliminating manual follow-up tasks and complex workflows. This smart automation helps you boost engagement and close more deals, all while maintaining natural, responsive conversations. Auto Follow-Up is also available in the Flow-Based Builder, allowing you to visually configure follow-ups inside a Conversation AI flow while preserving context when a contact goes silent mid-flow.
 
 * * *
 
@@ -51,7 +51,10 @@ Auto Follow-Up is an intelligent automation tool within HighLevel’s Conversati
   
 
 
-  * **Integrates with workflows:** Triggers actions like tagging contacts, assigning conversations, or notifying users automatically.  
+  * **Integrates with workflows:** Triggers actions like tagging contacts, assigning conversations, or notifying users automatically.
+
+**Preserves flow context:** Allows Conversation AI to restart stalled conversations from within the same flow, so contacts can continue naturally without requiring separate re-engagement workflows.
+
   
 
 
@@ -77,8 +80,7 @@ Auto Follow-Up is an intelligent automation tool within HighLevel’s Conversati
   
 
 
-Proper setup of Auto Follow-Up ensures your Conversation AI bot can re-engage leads effectively and in alignment with your business needs. Follow these steps to enable and configure Auto Follow-Up:
-
+Proper setup of Auto Follow-Up ensures your Conversation AI bot can re-engage leads effectively and in alignment with your business needs. Auto Follow-Up can be configured from the bot goal settings and is also available inside the Flow-Based Builder for supported Conversation AI flow actions. Follow these steps to enable and configure Auto Follow-Up from the bot goal settings:  
   
 
     
@@ -300,7 +302,9 @@ To improve engagement and respect timing preferences, configure these advanced o
 
   3. **Choose** **Timezone** : **Contact** or **Business** Timezone.
 
-Follow-ups will only be sent during the active hours specified below, based on the selected timezone. If we don't find contact timezone, we will honour business timezone.
+Follow-ups will only be sent during the active hours specified below, based on the selected timezone. 
+
+If we don’t find the contact’s timezone, we will honor the business timezone.
 
   
 
@@ -366,6 +370,18 @@ Follow-ups will only be sent during the active hours specified below, based on t
 
 
 ![](https://jumpshare.com/v/IKhhLwNCv6fyV7dwBumt+/Screen+Shot+2025-06-11+at+8.22.33+PM.png)
+
+* * *
+
+## **Flow-Based Builder Support for Auto Follow-Up**  
+  
+
+
+Auto Follow-Up is also available in the Flow-Based Builder, allowing Conversation AI to visually re-engage contacts who go inactive, say they are busy, or request a follow-up later. When a contact stops replying inside a workflow or flow, Conversation AI can detect the drop-off, schedule follow-up messages from the same flow, preserve conversation context, and resume naturally once the contact replies. This helps reduce the need for separate re-engagement workflows.  
+  
+Supported actions for Contact Stopped Replying Inside Workflow include AI Capture Information, AI Message, Custom Message, Book Appointment, and Continue Conversation. Supported actions for Contact Busy or Requested Follow-Up Time include AI Capture Information, AI Message, Book Appointment, and Continue Conversation.  
+  
+All other Auto Follow-Up behavior, including follow-up timing, smart detection, working hours, dynamic channel switching, Response Info visibility, and language-adherent follow-ups, remains the same.
 
 * * *
 
@@ -519,7 +535,13 @@ No follow-up messages will be sent if the bot is inactive.
 
 
 **Q: Do follow-up messages match the contact’s language?****  
-**Yes. If a contact has a preferred language set, Conversation AI sends follow-ups in that language by default.
+**Yes. If a contact has a preferred language set, Conversation AI sends follow-ups in that language by default.  
+  
+
+
+**Q: Can Auto Follow-Up be used inside the Flow-Based Builder?**
+
+Yes. Auto Follow-Up is available in the Flow-Based Builder for supported Conversation AI actions. This allows the bot to detect when a contact stops replying, schedule follow-ups from the same flow, and resume the conversation naturally once the contact replies.
 
 * * *
 

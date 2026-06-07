@@ -27,6 +27,10 @@ We're excited to introduce Paid Courses, a feature that allows community owners 
   * **Learn how to build HighLevel Membership/Course websites[by clicking here](<https://community.gohighlevel.com/courses/offers/a79d58bf-4d8d-4842-9efd-2194329404f5>), which will take you to the course claim page.**
 
   * **Set Pricing** : Choose whether the course will have a one-time fee or a recurring subscription. Enter the price and select the currency that suits your audience.
+  * **Taxes:** Communities course checkouts can apply taxes using your existing configuration. Communities supports Automatic Taxes (address-based) and Manual Tax Rates where applicable.
+
+Learn more: [Tax Support in Communities Payments.](<https://help.gohighlevel.com/support/solutions/articles/155000008059-tax-support-in-communities>)
+
   * **Test Mode** : With test mode enabled, admins or owners can test out the payment for the course using test card details.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155023371835/original/ujZyC2vPLkmgfuh_iyrOX9sxBEDf_oaUhw.png?1711116583)

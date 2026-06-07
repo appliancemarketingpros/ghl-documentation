@@ -15,8 +15,8 @@ This article provides a comprehensive guide to training your AI bot using HighLe
   * What is Conversation AI Bot Training?
   * Key Benefits of Training Your Bot
   * Web Crawler
-    * How to Add URLs to Web Crawler
-    * Using Google Docs to Train Bots
+  * How to Add URLs to Web Crawler
+  * Using Google Docs to Train Bots
   * Custom Bot Responses (FAQs)
   * Frequently Asked Questions
   * Related Articles
@@ -285,9 +285,13 @@ There are two ways you can add new Custom Bot Responses to your training data, m
   
 
 
-  * Click the **"+ Add Q &A"** button
+  * Click the **"+ Add Q &A"** button  
+  
 
-  * Enter the question and define the exact response.
+
+  * Enter the question and define the exact response.  
+  
+
 
   * Save the response for future use.
 

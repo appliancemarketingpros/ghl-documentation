@@ -281,6 +281,8 @@ Granular Permissions are available for the following areas:
 
   * **AI Agents**
 
+  * **AI Studio**
+
   * **Account Settings**
 
   * **Account Tools**

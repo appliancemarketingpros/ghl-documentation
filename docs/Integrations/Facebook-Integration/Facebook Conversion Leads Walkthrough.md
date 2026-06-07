@@ -20,11 +20,12 @@ It is a setup for your business to upload server events for your web traffic.
 **TABLE OF CONTENTS**
 
   * What is the difference between Funnel Events and Lead Events in Facebook Conversion API?
+    * Using Pipeline stage changes with funnel events
   * How to set up FB CAPI (Conversions API) Lead Event?
-  * Step 1: Create an FB Pixel:
-  * Step 2: Create two FB Conversions API Workflows.
-  * Workflow -1 to Create/Update Opportunity
-  * Workflow -2 to send Conversion data to FB Conversion API
+    * Step 1: Create an FB Pixel:
+    * Step 2: Create two FB Conversions API Workflows.
+      * Workflow -1 to Create/Update Opportunity
+      * Workflow -2 to send Conversion data to FB Conversion API
 
 
   
@@ -59,6 +60,38 @@ The LeadConnector CRM sends the events with how the Lead moves across the pipeli
   
 
 
+### **Using Pipeline stage changes with funnel events**
+
+  
+
+
+**Important:** While Pipeline Stage Changes are commonly used with **Lead Events** , they can also be used with **Meta CAPI Funnel Events** when the required attribution data is available.
+
+  
+
+
+For this setup to work:
+
+  * The Facebook Click ID (**FBCLID**) must be captured when the lead first enters your system.
+  * The FBCLID should be stored in a custom field or another accessible location within CRM.
+  * In the Meta Conversion API workflow action, use **Custom Mapping** to send the stored FBCLID to Meta.
+  * This allows Meta to attribute the conversion correctly even when the workflow trigger is based on a pipeline stage change.
+
+
+**Example Use Case**
+
+  1. User submits a Facebook lead ad.
+  2. FBCLID is stored in CRM.
+  3. Lead progresses through pipeline stages.
+  4. A Pipeline Stage Change trigger fires.
+  5. Meta CAPI action sends a Funnel Event using Custom Mapping and the stored FBCLID.
+
+
+**Note:** Without a valid FBCLID (or equivalent attribution data), Meta may not be able to properly match the conversion event.
+
+  
+
+
 **Conversion Leads**
 
   
@@ -88,6 +121,11 @@ Guidelines to ensure your business is a good fit for the Conversion Leads integr
 
   * The lead stage you want to optimize for has a 1% - 40% conversion rate.
 
+
+  
+
+
+> **Advanced Configuration:** If you are using Pipeline Stage Change workflows together with Meta CAPI Funnel Events, ensure the Facebook Click ID (FBCLID) is captured and stored before the workflow executes. The FBCLID can then be passed through Custom Mapping in the Meta Conversion API action for attribution and matching.
 
 * * *
 

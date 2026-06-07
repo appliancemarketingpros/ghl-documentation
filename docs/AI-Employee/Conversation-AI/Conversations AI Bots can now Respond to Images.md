@@ -6,7 +6,7 @@
 
 ---
 
-Give your bots eyesight with Conversations AI Image Response. This capability lets HighLevel’s AI understand and reply to customer-shared images across chat, social, and SMS/MMS—unlocking faster, more natural support and sales conversations with fewer clarifying questions.
+Conversation AI Image Response allows supported Conversation AI bots to analyze customer-shared images and reply with context-aware messages. When enabled, the bot can use visual context from supported image files across supported channels such as Live Chat, Facebook Messenger, Instagram DMs, WhatsApp, and SMS/MMS.
 
 * * *
 
@@ -29,12 +29,12 @@ Give your bots eyesight with Conversations AI Image Response. This capability le
   
 
 
-Conversations AI Image Response enables HighLevel bots to interpret images customers share—such as product photos, screenshots, receipts, or documents—and respond with context-aware messages. By understanding what’s visible in the picture, the bot reduces back-and-forth and improves resolution speed across supported channels.
+Conversation AI Image Response enables supported HighLevel bots to interpret customer-shared images, such as product photos, screenshots, receipts, menus, or issue photos, and respond with context-aware messages. When a contact sends a supported image, the bot analyzes the visual content and uses that context to craft a helpful reply within the ongoing conversation.
 
   
 
 
-Conversations AI Image Response adds real-time image understanding to HighLevel’s Conversations AI bots. When contacts send a supported image, the bot analyzes the picture and uses the visual context to craft a helpful reply that aligns with the ongoing conversation.
+This feature is supported when the bot is operating in **Autopilot Mode**. If the bot is configured in **Suggestive Mode** , enabling image response will not activate image processing.
 
 * * *
 
@@ -78,18 +78,35 @@ The benefits below focus on tangible outcomes you can expect after enabling imag
   
 
 
-File format support determines whether uploads can be analyzed reliably. Use commonly supported formats for the smoothest experience across channels.
+File format support determines whether images can be analyzed reliably. For the smoothest experience, use commonly supported image formats.
 
   
 
 
-  * JPG (.jpg)
+Supported for Conversation AI image response:
 
-  * JPEG (.jpeg)
+  
+
+
+  * JPG (.jpg)  
+  
+
+  * JPEG (.jpeg)  
+  
 
   * PNG (.png)
 
-  * HEIC (.heic) – **coming soon**
+
+  
+
+    
+    
+    **Note:** HEIC files may be supported as Live Chat attachments, but HEIC support for Conversation AI image response may be limited. If the bot does not respond correctly to a HEIC image, ask the contact to resend the image as JPG, JPEG, or PNG.
+
+  
+
+
+  
 
 
 * * *
@@ -99,27 +116,33 @@ File format support determines whether uploads can be analyzed reliably. Use com
   
 
 
-Channel support ensures your audience can share images from wherever they already message you. Confirm each connected channel supports receiving images in your region and plan.
+Channel support depends on the channels connected to the bot and whether those channels support receiving image messages.
 
   
 
 
-  * Live Chat (Web Widget)
+Conversation AI Image Response can be used with supported images received through:
 
-  * Facebook Messenger
+  * Live Chat  
+  
 
-  * Instagram Direct Messages
+  * Facebook Messenger  
+  
 
-  * WhatsApp
+  * Instagram Direct Messages  
+  
 
-  * SMS/MMS (U.S. & Canada)
+  * WhatsApp  
+  
+
+  * SMS/MMS, where MMS is supported
 
 
   
 
     
     
-    **Note:** Delivery and size limits can vary by channel and carrier. For best results, verify channel policies before large or high-resolution images.
+    **Note:** Delivery, file size, and preview behavior can vary by channel, carrier, region, and file type. For example, JPG and PNG files may show inline previews in Live Chat, while HEIC files may appear as downloadable files instead of inline previews.
 
 * * *
 
@@ -140,27 +163,34 @@ When multiple images are sent together, the bot analyzes them as a group and pro
   
 
 
-Proper setup ensures your bot can analyze images as soon as they arrive and respond within the same conversation thread.
+Proper setup ensures your bot can analyze supported images and respond in the same conversation thread.
 
   
 
 
-  1. From your **Sub-Account** , go to AI Agents → Conversation AI → Agent List, then click the three dots (⋮) next to the bot you want to configure and select Edit to open the bot’s settings.  
-  
+  1. From your sub-account, go to **AI Agents → Conversation AI → Agent List**.  
 _![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055303842/original/4KQUYrJq2ijzICRDctFz72WhMin2t8N-4A.png?1759745936)_  
+
+  2. Click the three-dot menu next to the bot you want to configure, then select**Edit**.  
+  
+_![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055304022/original/gpP28gdrcNpkJZDgFi6bMMmjYX6XHp1e8g.png?1759746048)_  
   
 
-  2. **Enable Image Responses**  
-Toggle **“Also allow this bot to respond to: Images.”** and Save Your Changes  
+  3. Make sure the bot is configured to operate in Autopilot Mode. Image response is not supported in Suggestive Mode  
   
- _![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055304022/original/gpP28gdrcNpkJZDgFi6bMMmjYX6XHp1e8g.png?1759746048)_  
+ _![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055304661/original/hqpNj95RgHbiMOX2HvooGLMd76VH1L1Utg.png?1759746332)_
+
+  4. Go to**Bot Settings → Also allow this bot to respond to**.  
   
 
 
-  3. **Test on a Connected Channel**  
-Send a **JPG or PNG** from Live Chat or a social channel to confirm the reply references the image.  
+  5. Enable **Images**.  
   
-_![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055304661/original/hqpNj95RgHbiMOX2HvooGLMd76VH1L1Utg.png?1759746332)_  
+
+  6. Save your changes.  
+  
+
+  7. Test the bot from a connected channel by sending a supported image file, such as JPG, JPEG, or PNG. Confirm the bot’s reply references the image context.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055304692/original/2SQyxI7nuFCuRGZCCHnAoVII-mi-vUXPsA.png?1759746348)
 

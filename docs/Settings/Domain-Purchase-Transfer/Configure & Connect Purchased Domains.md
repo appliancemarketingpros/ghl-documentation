@@ -15,8 +15,8 @@ When you have purchased a domain in HighLevel (not when connecting a domain from
   * What is Purchased Domain Configuration?
   * Where is Purchased Domain Configuration?
   * Configuration
-    * Configuration - DNS Records
-    * Configuration - Connect Domain
+  * Configuration - DNS Records
+  * Configuration - Connect Domain
 
 
 * * *
@@ -27,6 +27,14 @@ When you have purchased a domain in HighLevel (not when connecting a domain from
 
 
 Every domain has configuration settings (DNS). When the domain is purchased through HighLevel then HighLevel is also the domain registrar, so you can configure the domain without leaving HighLevel. You can add, edit, and remove the relevant DNS records (ex: CNAME).
+
+  
+
+
+> If your account has been cancelled and you need to request the release or transfer of a domain purchased through HighLevel, please submit the domain release request form [here](<https://api.golevel.bid/widget/form/IDn1mHxUWwEKay1LH2Yr>).
+
+  
+
 
 * * *
 
@@ -82,12 +90,22 @@ Click on Configure next to the Purchased Domain to open the settings. You can ma
   
 
 
-You can add and edit the following DNS records:
+You can add and edit the following DNS records:  
+  
 
-  1. A
-  2. CNAME
-  3. AAAA
-  4. MX
+
+  1. A  
+  
+
+  2. CNAME  
+  
+
+  3. AAAA  
+  
+
+  4. MX  
+  
+
   5. TXT
 
 
@@ -115,6 +133,8 @@ You can add and edit the following DNS records:
 
 Click Connect This Domain to attach the domain to one of the things you built in the Sites section, funnels, websites, stores, blogs, etc.
 
+  
+  
   
 
 

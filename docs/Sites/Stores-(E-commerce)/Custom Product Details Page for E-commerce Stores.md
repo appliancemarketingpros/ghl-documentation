@@ -13,11 +13,11 @@
 **TABLE OF CONTENTS**
 
   * What is Custom Product Details Pages for E-commerce Stores?
-    * Key Benefits of Custom Product Details Pages for E-commerce Stores
-    * How To Setup Custom Product Details Pages for E-commerce Stores
-    * Assigning, Reassigning & Managing Products
-    * Frequently Asked Questions
-    * Related Articles
+  * Key Benefits of Custom Product Details Pages for E-commerce Stores
+  * How To Setup Custom Product Details Pages for E-commerce Stores
+  * Assigning, Reassigning & Managing Products
+  * Frequently Asked Questions
+  * Related Articles
 
 
 * * *
@@ -74,45 +74,82 @@ Follow this end-to-end checklist to go from “idea” to published, tested PDPs
   
 
 
-**Prerequisites**
+  
 
-  * At least one **Product** created (Payments → Products) and included in your online store.
+    
+    
+    Prerequisites
+    
+    At least one Product created (Payments → Products) and included in your online store.
+    
+    Access to Site/Store Builder in your sub-account.
+    
+    Confirm which store/site you’re editing.
 
-  * Access to **Site/Store Builder** in your sub-account.
-
-  * Confirm which store/site you’re editing.  
   
 
 
-**Setup steps**
+  
+
+
+**Setup Steps**  
+  
+
 
   1. Go to **Sites → Stores  → Select the Particular Store** → **Add New Page**.  
+  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155053144665/original/llJ4GfBjqkrY2MZ9hLy1-Ufh6W_nponsXA.png?1757032287)  
   
 
 
-  2. Turn on **Custom Product Details Page**. In the modal, **search/select** product(s) to map.  
+  2. Turn on Custom Product Details Page. In the modal, search/select product(s) to map.  
   
+When you create a new Custom PDP, it starts as a one-time copy of your Default Product Details Page (PDP), so you can edit an existing layout instead of starting from a blank page.  
+  
+The copied design includes,  
+  
+\- Section structure and layout  
+  
+\- Store elements (media, title, price, variants, CTA, etc.)  
+  
+\- Styling (fonts, colors, spacing, borders, shadows)  
+  
+\- Visibility rules (desktop/mobile)  
+  
+**Note: This inheritance is a one-time copy. Changes to the Default PDP do not update existing Custom PDPs.  
+**  
+**Turn on Custom Product Details Page. In the modal, search/select product(s) to map.  
+****  
+**  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155053144668/original/zpMUbxZ8zYJQuQS7-9kkmeVPIVLpLMoUOg.png?1757032318)  
   
+  
 
-
-  3. Build your layout using PDP elements (images, details, CTAs, **Related Products**).
+  3. Build your layout using PDP elements (images, details, CTAs,**Related Products**).
 
   
 Use the editor to build conversion-focused product pages. PDP elements and global text settings still apply, so you can combine Custom PDP layouts with store components you already use.  
+  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155053146469/original/BD4LdQXsYoSK6CzqiKWsEH3KzeuzKBnbPQ.png?1757040289)  
   
 
 
-**Design tips**
-     * Drag in PDP-friendly elements (images, video, features, reviews, **Related Products** , etc.).
+**Design Tips**  
+  
 
-     * Use **Text Customization** to localize labels and messaging across PDP elements.
+     * Drag in PDP-friendly elements (images, video, features, reviews, **Related Products** , etc.).  
+  
 
-     * Keep key actions (Add to Cart/Buy Now) above the fold; repeat CTAs on long pages.
+
+     * Use **Text Customization** to localize labels and messaging across PDP elements.  
+  
+
+
+     * Keep key actions (Add to Cart/Buy Now) above the fold; repeat CTAs on long pages.  
+  
+
 
      * Reuse blocks/components across product pages to stay consistent.  
   
@@ -121,6 +158,7 @@ Use the editor to build conversion-focused product pages. PDP elements and globa
   4. Click **Save** and **Publish**.  
   
 _Sample Preview:_  
+  
   
 _![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155053146585/original/mPAAgo6go-xmtsKzt4yn13DV_Qw-rUwB8Q.png?1757040891)_
 
@@ -138,11 +176,13 @@ Product-to-page mapping controls where shoppers land. Learn how to map initially
 
   * **During page creation:** Use the assignment modal to map products to the new Custom PDP.  
   
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155053146646/original/KGJ3JqSQgbiH78xAaS-nwmCti7vCc_zlTw.png?1757041252)  
   
 
 
   * **After creation (reassign):** Open the Custom PDP in the builder, select the relevant product element or page settings, and use the **Settings** panel to update the **product assignment**.  
+  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155053146632/original/R6QcBXtgLnFx6jIYNarXQq8QO4zeDOD6Qw.png?1757041126)  
   
@@ -189,6 +229,35 @@ A: The Custom PDP uses its own page URL/slug. When a product is mapped, shoppers
 
 **Q: Do PDP elements like “Related Products” work on a Custom PDP?**  
 A: Yes. PDP-compatible elements and **Text Customization** settings work on Custom PDP layouts.
+
+  
+
+
+**Q: Do new Custom PDPs start from a blank page?**
+
+A: No. New Custom PDPs start as a copy of your current Default Product Details Page (PDP), so you begin with a fully built layout.  
+  
+
+
+**Q: If I update the Default PDP later, will my Custom PDP update too?**
+
+A: No. The Default-to-Custom inheritance happens once during creation. There is no live sync between the Default PDP and existing Custom PDPs.  
+  
+
+
+**Q: Does creating a Custom PDP change my Default PDP?**
+
+A: No. Creating a Custom PDP does not modify the Default PDP.  
+
+
+**Q: Are existing Custom PDPs affected by this change?**
+
+A: No. Existing Custom PDPs keep their current design and settings.  
+
+
+**Q: Why don’t I see the “Create Custom Product Details Page” option in ClickFunnels flows?**
+
+A: In ClickFunnels flows, the option is hidden to keep a simplified, funnel-first experience.
 
 * * *
 

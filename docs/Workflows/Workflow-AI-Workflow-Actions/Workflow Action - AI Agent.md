@@ -359,6 +359,144 @@ Search Knowledge Base keeps your context window lean by pulling only the informa
 
 * * *
 
+## **Update Custom Value Tool**
+
+  
+
+
+The **Update Custom Value** tool lets the AI Agent update custom values directly during workflow execution. This is useful when you want the agent to set or change values based on context, instead of building large If/Else branches for every possible outcome.
+
+  
+
+
+You can use this tool for scenarios like:
+
+  
+
+
+  1. setting business-hour messages based on the day of the week  
+  
+
+  2. updating formatted date values  
+  
+
+  3. assigning context-aware promo codes  
+  
+
+  4. storing values based on timezone, contact data, or pipeline stage
+
+
+  
+
+
+**How to add the tool**
+
+  
+
+
+  1. Open your workflow and add or edit the **AI Agent** action.  
+  
+
+  2. In the tool list, select **Update Custom Value**.  
+  
+
+  3. Configure the fields you want the agent to use.  
+  
+
+  4. Save the tool and publish the workflow.
+
+
+  
+
+
+  
+
+
+**Tool fields**
+
+  
+
+
+**Custom Value**
+
+  
+
+
+Choose the custom value to update. You can either:
+
+  
+
+
+  * select a specific custom value, or  
+  
+
+  * use **Let AI decide** so the agent chooses which custom value to update
+
+
+  
+
+
+**New Value**
+
+  
+
+
+Set the value that should be written to the custom value. You can either:
+
+  
+
+
+  * enter a fixed value or variable, or  
+  
+
+  * use **Let AI decide** so the agent generates the value from your prompt instructions
+
+
+  
+
+
+If you choose a specific custom value, the tool may also show the **Current Value** so you can review the existing value before updating it.
+
+  
+
+
+  
+
+
+**Common setup patterns**
+
+  
+
+
+**Specific custom value + AI-generated value**
+
+  
+
+
+Use this when the field is fixed, but the agent should determine what to write into it.
+
+  
+
+
+**AI-selected custom value + AI-generated value**
+
+  
+
+
+Use this when the agent needs to decide both which field to update and what value to assign.
+
+  
+
+
+**Why use this tool**
+
+  
+
+
+This tool helps reduce workflow complexity by replacing large condition trees with a single AI Agent step. It is especially useful when workflows would otherwise need many branches and repeated update actions just to set custom values dynamically.
+
+* * *
+
 ## **Built-in Conversation History (Cross-Channel)**
 
   

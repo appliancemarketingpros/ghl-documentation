@@ -20,7 +20,7 @@ This guide explains how to use Knowledge Base Triggers in Conversation AI to con
   * Best Practices for Structuring Triggers
   * How To Setup Smart Knowledge Base Triggers & Instructions
   * Frequently Asked Questions
-    * Related Articles
+  * Related Articles
 
 
 * * *
@@ -140,7 +140,7 @@ Each agent supports up to **3 Smart Triggers** , in addition to the Always-On tr
 ###   
 
 
-### **Example use cases:**
+### **Example Use Cases:**
 
   
 
@@ -408,6 +408,7 @@ This improves accuracy and makes maintenance easier.
   * Write the condition in plain English
 
 
+  
   
 
 

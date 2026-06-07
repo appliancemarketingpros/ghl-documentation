@@ -13,14 +13,14 @@ A consolidated analytics dashboard in HighLevel lets you evaluate all Conversati
 **TABLE OF CONTENTS**
 
   * What is the Conversation AI Bot Dashboard?
-    * Key Benefits of the Conversation AI Bot Dashboard
-    * Access & Permissions
-    * How to Access the Conversation AI Bot Dashboard
-    * Filters: Date Range, Channel, and Agents
-    * Understanding Dashboard Metrics
-    * Conversation Summary and Transcript
-    * Frequently Asked Questions
-    * Related Articles
+  * Key Benefits of the Conversation AI Bot Dashboard
+  * Access & Permissions
+  * How to Access the Conversation AI Bot Dashboard
+  * Filters: Date Range, Channel, and Agents
+  * Understanding Dashboard Metrics
+  * Conversation Summary and Transcript
+  * Frequently Asked Questions
+  * Related Articles
 
 
 * * *
@@ -111,12 +111,12 @@ Accessing the dashboard is simple and only takes a few clicks. Here you can acce
   
 
 
-Go to Conversation AI under AI Agents from your HighLevel dashboard.
+Go to Conversation AI under AI Agents from your HighLevel Sub-account.
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155053609742/original/GtN9fG65254ZrorCHwTvDay2Aua9pstdJA.png?1757624596)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072658278/original/Gw389po_MgCAw6TWiEAZM4zNyyhr064p1Q.png?1780375172)
 
   
 
@@ -189,48 +189,24 @@ Clear definitions prevent misinterpretation and help teams make high-confidence 
   
 
 
-  * **Total Unique Contacts:** Count of distinct contacts who engaged with Conversation AI within the selected time range (deduped contacts across messages).  
+Dashboard Metric| What It Means  
+---|---  
+**Total Unique Contacts**|  Count of distinct contacts who engaged with Conversation AI within the selected time range. Contacts are counted once, even if they exchanged multiple messages.  
+**Total Message**|  Total count of messages exchanged with contacts during the selected period.  
+**Average Message per Contact**|  Average number of messages exchanged with each unique contact during the selected period.  
+**Total Actions Triggered**|  Number of automated actions initiated from AI-driven interactions, including appointment actions, workflow actions, contact updates, stop bot events, transfers, and handovers.  
+**Appointment Link Shared**|  Number of times the bot shared an appointment booking link with contacts.  
+**Workflows Triggered**|  Count of workflow executions started by the bot during conversations.  
+**Contact Info Updated**|  Number of times the bot collected or updated contact details and saved them to the contact record. To learn more, see [Bot Actions - Add Contact Info](<https://help.gohighlevel.com/en/support/solutions/articles/155000004097>)  
   
-
-    * **Total Message:** Total count of messages exchanged with all contacts over the selected period. This helps gauge conversation AI usage.  
+**Stop Bot Triggered**|  Instances where a conversation triggered the Stop Bot action based on configured rules or keywords, stopping further bot steps.  
+**Cancel Appointment**|  Count of bot-initiated appointment cancellations confirmed with the contact during a conversation. To learn more, see [Cancellation and Rescheduling of Appointments in Form Based Bots](<https://help.gohighlevel.com/en/support/solutions/articles/155000005503>)  
+**Reschedule Appointment**|  Count of bot-initiated appointment reschedules completed during a conversation. Redirect to: To learn more, see [Cancellation and Rescheduling of Appointments in Form Based Bots](<https://help.gohighlevel.com/en/support/solutions/articles/155000005503>)[](<https://help.gohighlevel.com/en/support/solutions/articles/155000005503>)**[](<https://help.gohighlevel.com/en/support/solutions/articles/155000005503>)**  
+**Transfer Bot**|  Number of times the bot triggered a Transfer Bot action to hand off the conversation. To learn more, see [Conversation AI - Transfer Bot Action](<https://help.gohighlevel.com/en/support/solutions/articles/155000005371>)  
+**Human Handover**|  Count of times the bot initiated a handoff to a human through the Human Handover action. To learn more, see [Conversation AI - Human Handover Action](<https://help.gohighlevel.com/en/support/solutions/articles/155000005615>)  
+**Total Appointments Booked**|  Count of appointments created through Conversation AI.  
+**Time Saved**|  Estimated time savings from automated handling of conversations and tasks.  
   
-
-    * **Average Message per Contact:** Average number of messages exchanged with each unique contact over the selected period. This helps gauge conversation depth and efficiency.  
-  
-
-  * **Total Actions Triggered:** Number of automated actions initiated from AI-driven interactions (such as starting a workflow, applying a tag, creating a task, or transferring a conversation). Actual action types counted depend on your Conversation AI configuration.  
-  
-
-    * **Appointment Link Shared:** Number of times the bot shared an appointment‑booking link with contacts.  
-  
-
-    * **Workflows Triggered:** Count of workflow executions started by the bot during conversations. link  
-  
-
-    * **Contact Info Updated:** Number of times the bot collected or updated contact details and saved them to the contact record. To learn more, see [Bot Actions - Add Contact Info](<https://help.gohighlevel.com/en/support/solutions/articles/155000004097>)  
-  
-
-    * **Stop Bot Triggered:** Instances where a conversation triggered the Stop Bot action based on your rules or keywords, halting further bot steps.  
-  
-
-    * **Cancel Appointment:** Count of bot‑initiated appointment cancellations confirmed with the contact during a conversation. To learn more, see [Cancellation and Rescheduling of Appointments in Form Based Bots](<https://help.gohighlevel.com/en/support/solutions/articles/155000005503>)  
-  
-
-    * **Reschedule Appointment:** Count of bot‑initiated appointment reschedules completed during a conversation. To learn more, see [Cancellation and Rescheduling of Appointments in Form Based Bots](<https://help.gohighlevel.com/en/support/solutions/articles/155000005503>)  
-  
-
-    * **Transfer Bot:** Number of times the bot triggered a Transfer Bot action to hand off the conversation to another bot. To learn more, see [Conversation AI - Transfer Bot Action](<https://help.gohighlevel.com/en/support/solutions/articles/155000005371>)  
-  
-
-    * **Human Handover:** Count of times the bot initiated a handoff to a human via the Human Handover action. To learn more, see [Conversation AI - Human Handover Action](<https://help.gohighlevel.com/en/support/solutions/articles/155000005615>)  
-  
-
-  * **Total Appointments Booked:** Count of appointments created via Conversation AI. Use this alongside your Calendars to validate specific bookings.  
-  
-
-  * **Time Saved:** Estimated time savings from automated handling of conversations and tasks. This metric provides directional insight into productivity gains.
-
-
 * * *
 
 ## **Conversation Summary and Transcript**

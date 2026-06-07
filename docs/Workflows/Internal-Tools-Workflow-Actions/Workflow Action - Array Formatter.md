@@ -28,9 +28,28 @@ The action Array Formatter allow users to perform operations on arrays (lists of
 
 * * *
 
-# **What are Array Functions?**
+# **What is Array Formatter?**
 
 Array Functions are a set of workflow actions in HighLevel designed to manage and manipulate arrays (lists of data) within automation workflows. Arrays appear in workflows when dealing with lists of objects, such as order line items or customer attributes, and Array Functions enable users to extract, filter, or calculate data efficiently. These functions are particularly valuable for businesses that want to handle basic data processing exclusively in Workflows, rather than having to export data to a 3rd party service more manipulation or analysis.
+
+  
+
+
+Array Formatter is now free to use as a standard workflow execution billed at **$0**. The workflow behavior stays the same, but you no longer incur premium execution charges when using this action.
+
+  
+
+
+**Important:**
+
+  * Array Formatter is no longer treated as a Premium Action  
+  
+
+  * Workflow behavior remains unchanged  
+  
+
+  * You can continue using it after a webhook or any workflow step that outputs an array
+
 
 * * *
 
@@ -59,6 +78,36 @@ Using Array Functions in HighLevel workflows provides numerous advantages for au
 * * *
 
 ## **How to Set Up Array Formatter**
+
+  
+
+
+The action panel now makes Array Formatter easier to understand before you save the action. When choosing an action type, you can review clearer option details directly in the dropdown and configuration panel.
+
+  
+
+
+The updated UI includes:
+
+  
+
+
+  * action type descriptions  
+  
+
+  * muted icons for action types  
+  
+
+  * return type visibility  
+  
+
+  * output preview or return summary messaging
+
+
+  
+
+
+This helps you understand what each option is expected to return before saving the action.
 
   
 

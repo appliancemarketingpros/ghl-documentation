@@ -1,8 +1,8 @@
-# Update Conversation AI Bot and Status - Workflow Action
+# Workflow Action - Update Conversation AI Bot and Status
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000003821-update-conversation-ai-bot-and-status-workflow-action](https://help.gohighlevel.com/support/solutions/articles/155000003821-update-conversation-ai-bot-and-status-workflow-action)  
-**Category:** AI Employee  
-**Folder:** Conversation AI + Workflows
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000003821-workflow-action-update-conversation-ai-bot-and-status](https://help.gohighlevel.com/support/solutions/articles/155000003821-workflow-action-update-conversation-ai-bot-and-status)  
+**Category:** Workflows  
+**Folder:** Workflow AI Workflow Actions
 
 ---
 

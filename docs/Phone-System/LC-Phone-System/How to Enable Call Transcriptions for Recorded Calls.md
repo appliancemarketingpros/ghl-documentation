@@ -144,6 +144,13 @@ They’re shown in the Conversations page under each call entry, next to the pla
 
 Yes. Return to Settings → Phone Numbers → Voice → Call Transcr and toggle Enable Call Transcription off.
 
+  
+
+
+**Q: Is there a limit on the length of call transcripts that can be generated?**
+
+Yes. We have a limit on the transcript size which equates to around 1 hour of call duration. We are working to remove this limit.
+
 * * *
 
 ## **Related Articles**

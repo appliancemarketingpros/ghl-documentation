@@ -11,3 +11,4 @@
 - [Setting Up Personality-Style Quizzes (Highest/Lowest Category)](Setting Up Personality-Style Quizzes (HighestLowest Category).md)
 - [Customizing Quiz Result Pages](Customizing Quiz Result Pages.md)
 - [Map Quiz Results Directly to CRM Custom Fields](Map Quiz Results Directly to CRM Custom Fields.md)
+- [Individual Category Result Personalization for Personality Quizzes](Individual Category Result Personalization for Personality Quizzes.md)

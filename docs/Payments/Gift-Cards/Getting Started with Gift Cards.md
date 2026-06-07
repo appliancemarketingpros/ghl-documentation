@@ -762,7 +762,7 @@ The gift card order details page acts as the single source of truth for all Gift
   
 
 
-     * ___Gift card applied:_ amount used from the gift card  
+     * _Gift card applied:_ amount used from the gift card  
   
 
      *  _Remaining gift card balance:_ amount left in the gift card after redemption  

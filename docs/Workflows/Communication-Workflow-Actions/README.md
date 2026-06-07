@@ -7,7 +7,6 @@
 - [Workflow Action - Send Email](Workflow Action - Send Email.md)
 - [Workflow Action - Send SMS](Workflow Action - Send SMS.md)
 - [Workflow Action - Internal Notification](Workflow Action - Internal Notification.md)
-- [Workflow Action - Edit Conversation](Workflow Action - Edit Conversation.md)
 - [Workflow Action - Slack Message](Workflow Action - Slack Message.md)
 - [Workflow Action - Call](Workflow Action - Call.md)
 - [Workflow Action - Voicemail](Workflow Action - Voicemail.md)

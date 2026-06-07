@@ -22,3 +22,4 @@
 - [Custom Dispositions for Voice Calls](Custom Dispositions for Voice Calls.md)
 - [Avoiding Call Loops when routing calls to Internal Phone Numbers](Avoiding Call Loops when routing calls to Internal Phone Numbers.md)
 - [How to Reduce Inbound Spam Calls](How to Reduce Inbound Spam Calls.md)
+- [How to create and link a Regulatory Bundle for Australian local numbers](How to create and link a Regulatory Bundle for Australian local numbers.md)

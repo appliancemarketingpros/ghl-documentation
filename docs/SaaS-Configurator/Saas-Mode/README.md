@@ -4,7 +4,6 @@
 
 ## Articles
 
-- [SaaS Mode - Full Setup Guide + FAQ](SaaS Mode - Full Setup Guide + FAQ.md)
 - [Activate SaaS Mode, Request Payment, and Configure Phone Rebilling](Activate SaaS Mode, Request Payment, and Configure Phone Rebilling.md)
 - [SaaS Mode Sub-Accounts Are Not Being Generated](SaaS Mode Sub-Accounts Are Not Being Generated.md)
 - [SaaS User Level Permissions Vs Sub-Account Level Permissions](SaaS User Level Permissions Vs Sub-Account Level Permissions.md)
@@ -24,3 +23,4 @@
 - [How to improve the security of my SaaS Checkout process](How to improve the security of my SaaS Checkout process.md)
 - [Configuring User Limits for SaaS Sub-Accounts](Configuring User Limits for SaaS Sub-Accounts.md)
 - [How to Configure Contacts Limit for SaaS Sub-Accounts](How to Configure Contacts Limit for SaaS Sub-Accounts.md)
+- [How to customize the onboarding email that is sent to new sub-account users?](How to customize the onboarding email that is sent to new sub-account users.md)

@@ -4,6 +4,7 @@
 
 ## Articles
 
+- [How to Mark a Conversation as Read](How to Mark a Conversation as Read.md)
 - [View & Edit AI Response Info in Conversations](View & Edit AI Response Info in Conversations.md)
 - [Overview of Conversation Filters](Overview of Conversation Filters.md)
 - [How to CC (Carbon Copy) and BCC (Blind Carbon Copy) for email composer](How to CC (Carbon Copy) and BCC (Blind Carbon Copy) for email composer.md)
@@ -23,4 +24,3 @@
 - [Conversations - Activity Cards](Conversations - Activity Cards.md)
 - [Internal Chat: Private Team Communication](Internal Chat Private Team Communication.md)
 - [Getting Started with the Conversations Tab](Getting Started with the Conversations Tab.md)
-- [Understanding Trigger Links in HiRise Design](Understanding Trigger Links in HiRise Design.md)

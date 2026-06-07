@@ -1,12 +1,12 @@
-# Bot Actions - Add Contact Info
+# How to Use the Add Contact Info Action in Conversation AI
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000004097-bot-actions-add-contact-info](https://help.gohighlevel.com/support/solutions/articles/155000004097-bot-actions-add-contact-info)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000004097-how-to-use-the-add-contact-info-action-in-conversation-ai](https://help.gohighlevel.com/support/solutions/articles/155000004097-how-to-use-the-add-contact-info-action-in-conversation-ai)  
 **Category:** AI Employee  
 **Folder:** Conversation AI - Goals, Prompts, & Actions
 
 ---
 
-The **Add Contact Info** feature allows users to easily add contact information directly from the AI conversation. By capturing information like business details, addresses, and dates directly from the contact’s responses, you can reduce manual data entry and keep contact records update. 
+The **Add Contact Info** feature allows users to easily add contact information directly from the AI conversation. By capturing information like business details, addresses, and dates directly from the contact’s responses, you can reduce manual data entry and keep contact records update.
 
 * * *
 
@@ -188,15 +188,57 @@ __###mandatory instruction : before booking an appointment always start the conv
   
 
 
-**Q: Is there a limit to how many contact fields I can add using the Add Contact Info action?**  
-The Add Contact Info action allows you to map a limited number of fields at one time. If you need to capture additional information, you can trigger a workflow from Conversation AI and use Update Contact Field actions inside the workflow to populate as many contact fields as needed based on the conversation.
+**Q: Can Add Contact Info overwrite an existing contact field value?**  
+No. Add Contact Info only updates empty fields. If the selected contact field already has a value, the bot will not replace it.
 
   
 
 
-**Q: Can Add Contact Info action overwrite an existing value?**
+**Q: Can I use Add Contact Info for Name, Email, or Phone?**  
+No. For Name, Email, and Phone, skip this action and instruct the bot to collect those details through the prompt or information collection flow instead.
 
-No. This action updates empty fields only.
+  
+
+
+**Q: Can Add Contact Info update custom fields?**  
+Yes. You can select available contact fields, including supported custom fields, as long as the field is appropriate for the type of information the bot should collect.
+
+  
+
+
+**Q: Why did the field not update after the bot collected the answer?**  
+The field may already contain a value, the wrong field may be selected, or the bot may not have captured the answer clearly enough. Confirm the field is empty and mapped correctly.
+
+  
+
+
+**Q: Do I need to update the bot instructions?**  
+Yes. The action defines the field that can be updated, but clear bot instructions help the agent know when to ask for the information during the conversation.
+
+  
+
+
+**Q: Can I collect more than one field in the same action?**  
+Yes. Use **Add new field** to configure additional fields inside the Add Contact Info action.
+
+  
+
+
+**Q: When should I use Trigger Workflow instead?**
+
+Use Trigger Workflow when the conversation should start a larger automation, such as adding tags, updating multiple fields, notifying your team, moving a contact through a pipeline, or sending follow-up messages.
+
+  
+
+
+**Q: Why can’t I see the Contact Info action?**  
+Your user role may not have permission to manage Conversation AI agent goals or actions. Ask an admin to review your permissions.
+
+  
+
+
+**Q: Is there a limit to how many contact fields I can add using the Add Contact Info action?**  
+The Add Contact Info action allows you to map a limited number of fields at one time. If you need to capture additional information, you can trigger a workflow from Conversation AI and use Update Contact Field actions inside the workflow to populate as many contact fields as needed based on the conversation.
 
 * * *
 

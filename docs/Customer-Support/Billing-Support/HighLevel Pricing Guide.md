@@ -13,33 +13,33 @@ Nearly everything you need to know about HighLevel Pricing, Charges, Wallets, Re
 **TABLE OF CONTENTS**
 
   * HighLevel Subscription Plans
-  * How to Manage Your Billing
-  * What is an Agency Wallet
-  * Phone System Pricing
-  * Email System Pricing
-  * AI Employee Pricing
+    * How to Manage Your Billing
+    * What is an Agency Wallet
+    * Phone System Pricing
+    * Email System Pricing
+    * AI Employee Pricing
     * Reselling Services Pricing
-    * Ad Manager
-    * Branded Client Portal App
-    * Dedicated IP Address
-    * Domain Purchases
-    * Email Validation
-    * Online Listings
-    * Premium Prospecting Tool
-    * SEO (Powered by Search Atlas)
-    * WhatsApp Integration
-    * WordPress Hosting
-    * Workflow - External AI Models
-    * Workflow - Premium Features
-    * Workflow Pro Plan
-  * Add-On Services
-    * Premium Support
-    * Whitelabel Mobile App
-    * Whitelabel Zap
-    * HL Certificate Program
-    * Advanced Account Setup
-    * HIPAA Compliance
-  * Frequently Asked Questions
+      * Ad Manager
+      * Branded Client Portal App
+      * Dedicated IP Address
+      * Domain Purchases
+      * Email Validation
+      * Online Listings
+      * Premium Prospecting Tool
+      * SEO (Powered by Search Atlas)
+      * WhatsApp Integration
+      * WordPress Hosting
+      * Workflow - External AI Models
+      * Workflow - Premium Features
+      * Workflow Pro Plan
+    * Add-On Services
+      * Premium Support
+      * Whitelabel Mobile App
+      * Whitelabel Zap
+      * HL Certificate Program
+      * Advanced Account Setup
+      * HIPAA Compliance
+    * Frequently Asked Questions
 
 
 * * *
@@ -579,8 +579,7 @@ Volume‑based pricing tiers for Workflows Premium Actions give every account—
 Tier| Monthly Price| Included Executions / mo| Overage Rate  
 ---|---|---|---  
 Free| $0| 100 free lifetime executions| $0.01 / execution  
-Starter  
-| $10| 10,000| $0.008 / execution  
+Starter| $10| 10,000| $0.008 / execution  
 Growth| $25| 30,000| $0.006 / execution  
 Scale| $50| 65,000| $0.004 / execution  
   

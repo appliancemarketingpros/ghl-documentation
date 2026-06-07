@@ -2,7 +2,7 @@
 
 **Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000006456-conversation-ai-new-knowledge-sources-quality-upgrades](https://help.gohighlevel.com/support/solutions/articles/155000006456-conversation-ai-new-knowledge-sources-quality-upgrades)  
 **Category:** AI Employee  
-**Folder:** Conversation AI
+**Folder:** Conversation AI - Training Bots
 
 ---
 

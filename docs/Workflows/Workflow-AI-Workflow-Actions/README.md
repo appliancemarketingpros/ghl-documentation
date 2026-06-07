@@ -12,3 +12,4 @@
 - [Workflow Action - AI Translate](Workflow Action - AI Translate.md)
 - [Workflow Action - AI Agent](Workflow Action - AI Agent.md)
 - [Workflow Action – AI Extract Data](Workflow Action – AI Extract Data.md)
+- [Workflow Action - Update Conversation AI Bot and Status](Workflow Action - Update Conversation AI Bot and Status.md)

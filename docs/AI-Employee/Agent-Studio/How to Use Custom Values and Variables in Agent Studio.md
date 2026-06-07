@@ -165,6 +165,20 @@ If you update the value later, it automatically updates everywhere the variable 
 
 * * *
 
+**Update Custom Values from the AI Agent Action**
+
+  
+
+
+Workflows that use the **AI Agent** action can update custom values directly with the **Update Custom Value** tool. This allows the agent to write context-based values during execution instead of relying only on fixed workflow branches.
+
+  
+
+
+For full setup steps, refer to the [AI Agent workflow](<\[https%3A//help.gohighlevel.com/support/solutions/articles/155000007600-workflow-action-ai-agent\]\(https%3A//help.gohighlevel.com/support/solutions/articles/155000007600-workflow-action-ai-agent\)>) action article.
+
+* * *
+
 ## **Account Variables**
 
   

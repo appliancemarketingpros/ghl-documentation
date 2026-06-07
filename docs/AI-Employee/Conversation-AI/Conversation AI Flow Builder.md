@@ -60,9 +60,7 @@ Navigate to AI Agents > Conversation AI > Create Bot button > Create New Bot but
     
     **Note:** Flow-based bots behave differently depending on how they are configured.
     
-     -If you launch the Flow Builder, the bot is automatically assigned to that flow and cannot be selected in the Conversation AI Trigger inside workflows.
-    
-     -If you do not launch the Flow Builder, the bot remains unassigned and can be used with the Conversation AI Trigger.
+    Use Flow Builder when you want the bot to follow a structured conversation path inside Conversation AI. Use the Conversation AI workflow action when you want a workflow to ask a question, wait for a reply, branch on conditions, or continue automation from the Workflow Builder.
     
     This distinction is important when deciding whether the bot will run as part of a flow or be triggered externally via workflows.
 
@@ -89,7 +87,7 @@ On the Bot Settings Tab:
   * Set Bot Status to Auto Pilot  
   
 
-  * Select or deselect communication channels (ex: SMS, Instagram, Facebook, etc)
+  * Select or deselect communication channels such as **SMS, Facebook, Instagram, WhatsApp, and Live Chat** , depending on the channels enabled for the bot.
 
 
   
@@ -248,7 +246,7 @@ Navigate to bot Goals tab > Click the Launch Flow Builder button.
   
 
 
-You can tell you're in the AI Flow Builder (not the Automation Workflow builder) because it says "Back to Conversation aI" and "Test Bot" instead of "Workflow".
+You can tell you're in the AI Flow Builder, not the Automation Workflow Builder, because it says **Back to Conversation AI** and **Test Bot** instead of **Workflow**.
 
   
 
@@ -330,7 +328,7 @@ Click the plus (+) to select an action. The available actions are the same as in
   * **Update contact field** (optional) - Select a contact field from the dropdown. Example: First Name.  
   
 
-  * **Additional instructions** \- Describe supporting directions for the objective. Example: "Let the user know we can't move forward if their budget is less than $5,000 but do not reveal that number. Just say 'We cannot move forward at {the number they said that was less than our threshold}."
+  * **Additional instructions** \- Describe supporting directions for the objective. Example: "Let the user know we can't move forward if their budget is less than $5,000 but do not reveal that number. “We cannot move forward at that budget,” without revealing the minimum budget threshold."
   * Response example - Specify an exact format. Example: "Specify USD currency: $#,###"  
   
 
@@ -661,45 +659,46 @@ You can combine an If/Else with Custom Triggers to create a router. Reroute the 
 
 **Q: Can a Flow Builder bot start from any trigger other than Chat Initiated?**
 
-No. The article states that **Chat Initiated** is the default trigger and the only way to start the flow. Custom Triggers are used after the contact reaches an **[END]** node and then sends another message that matches a trigger condition.
+Flow Builder bots start from **Chat Initiated**. Custom Triggers are used to route contacts after they meet the configured trigger condition.
 
   
 
 
 **Q: Does reaching an [END] node stop the conversation completely?**
 
-No. Reaching an **[END]** node ends the current objective path, but the conversation can still continue unless you explicitly use the **End Conversation** action or another stop condition such as max messages or timeout.
+No. An `[END]` node ends the current objective path, but the conversation can continue unless you use **End Conversation** or another stop condition such as max messages or timeout.
 
   
 
 
 **Q: Which AI actions keep trying until the goal is completed?**
 
-The **Capture Information (Qualify)** action and **Book Appointment** action can loop autonomously until the objective is met or an exit condition is reached, such as maximum attempts or a clear refusal from the contact.
+**Capture Information / Qualify** and **Book Appointment** can loop until the objective is met or an exit condition is reached.
 
   
 
 
 **Q: What is the difference between AI Message and Custom Message?**
 
-**AI Message** generates a response based on your prompt and the conversation context. **Custom Message** sends the exact message you write without AI rewriting it. Both actions can optionally wait for the contact’s reply before moving to the next step.
+**AI Message** generates a response from your prompt and conversation context. **Custom Message** sends the exact text you write.
 
   
 
 
 **Q: Can I send a contact from one bot to another inside the flow?**
 
-Yes. Use **Transfer Bot** to move the contact to a different bot. After the transfer, the contact exits the current flow and does not return unless another transfer action sends them back.
+Yes. Use **Transfer Bot** to move the contact to another bot. The contact exits the current flow unless another transfer sends them back.
 
 * * *
 
 ### **Related Articles**
 
+  * [Setting Up Conversation AI: Streamline Client Engagement](<https://help.gohighlevel.com/support/solutions/articles/155000004401-setting-up-conversation-ai>)  
   
 
 
-  * [Setting Up Conversation AI: Streamline Client Engagement](<https://help.gohighlevel.com/support/solutions/articles/155000004401-setting-up-conversation-ai>)
-
-  * [Configure Advanced Bot Settings for Conversation AI](<https://help.gohighlevel.com/support/solutions/articles/155000004415-advanced-settings-overview-conversation-ai>)[](<https://help.gohighlevel.com/support/solutions/articles/155000005427-conversation-ai-agents-dashboard>)
+  * [Configure Advanced Bot Settings for Conversation AI](<https://help.gohighlevel.com/support/solutions/articles/155000004415-advanced-settings-overview-conversation-ai>)  
+  
+[](<https://help.gohighlevel.com/support/solutions/articles/155000005427-conversation-ai-agents-dashboard>)
 
   * [Conversation AI Agents Dashboard](<https://help.gohighlevel.com/support/solutions/articles/155000005427-conversation-ai-agents-dashboard>)

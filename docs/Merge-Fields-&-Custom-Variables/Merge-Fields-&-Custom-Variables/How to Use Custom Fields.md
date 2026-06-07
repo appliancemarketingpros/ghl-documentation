@@ -1,6 +1,6 @@
 # How to Use Custom Fields
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000008031-how-to-use-custom-fields](https://help.gohighlevel.com/support/solutions/articles/155000008031-how-to-use-custom-fields)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000008030-how-to-use-custom-fields](https://help.gohighlevel.com/support/solutions/articles/155000008030-how-to-use-custom-fields)  
 **Category:** Merge Fields & Custom Variables  
 **Folder:** Merge Fields & Custom Variables
 
@@ -468,8 +468,11 @@ The Dropdown (multiple) field can have a lot of options (50+) so there is no pra
 
 * * *
 
-## **Need Help?**  
+## **Related Articles**  
   
 
 
-If you need assistance creating, organizing, or troubleshooting custom fields, contact support or your system administrator for additional help
+  * [List of Merge Fields](<https://help.gohighlevel.com/en/support/solutions/articles/48001078171>)  
+  
+
+  * [Map Quiz Results Directly to CRM Custom Fields](<https://help.gohighlevel.com/en/support/solutions/articles/155000006913>)

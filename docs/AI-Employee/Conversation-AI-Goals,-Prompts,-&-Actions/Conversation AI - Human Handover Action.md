@@ -15,9 +15,6 @@ Deliver exceptional customer experiences by ensuring your AI bot knows when to s
   * What is Human Handover in Conversation AI?
   * Key Benefits of Human Handover
   * How To Setup Human Handover Action
-    * Step 1: Navigate to Bot Goals
-    * Step 2: Select a Prebuilt Scenario
-    * Step 3: Configure Post-Handover Actions 
   * Notification Management for Assigned user
   * Customizing Handover Actions
   * Frequently Asked Questions
@@ -36,7 +33,11 @@ Human Handover is an advanced feature within HighLevel’s Conversation AI that 
   
 
 
-By leveraging Human Handover, businesses can prevent customer frustration, resolve issues more efficiently, and maintain a seamless conversational flow between automation and live support.
+By leveraging Human Handover, businesses can prevent customer frustration, resolve issues more efficiently, and maintain a seamless conversational flow between automation and live support.  
+  
+Human Handover is released via Labs, so it may need to be enabled before it appears in Conversation AI.  
+  
+
 
 * * *
 
@@ -290,7 +291,7 @@ Ensure that your staff receives timely alerts is crucial for prompt human interv
 
     
     
-    **Note:** You can configure a maximum of **3 handover actions per bot**.  
+    **Note:** You can configure a maximum of 6**handover actions per bot**.  
     
 
 * * *
@@ -314,7 +315,10 @@ Tailor the handover process to match your team’s workflow and customer expecta
   * Adjust bot pause duration to allow human follow-up before automation resumes.  
   
 
-  * Use conversation tags for reporting and workflow automation.
+  * Use conversation tags for reporting and workflow automation.  
+  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072661968/original/VJQDwQScN8CDXNTT6qmYsghT9hsfzhBTMQ.png?1780380309)
 
 
 * * *
