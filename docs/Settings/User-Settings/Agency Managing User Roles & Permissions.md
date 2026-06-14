@@ -170,7 +170,7 @@ What does that each permission mean,
   * **Memberships:** Courses, lessons, offers, bundles, access levels, and learners.  
   
 
-  * **Opportunities:** Pipelines, stages, deals; update values and statuses.  
+  * **Opportunities:** Pipelines, stages, deals; create pipeline, update values and statuses.  
   
 
   * **Orders:** View and manage order records tied to checkouts and products.  
@@ -198,6 +198,9 @@ What does that each permission mean,
   
 
   * **Subscriptions:** Create/manage recurring plans, subscriber status, cancellations.  
+  
+
+  * **Sub-Account Transfers:** Allows agency users to initiate or manage eligible sub-account transfer actions between agencies. This permission should be assigned carefully, as transfers may affect account ownership, access, billing, and related settings.  
   
 
   * **Surveys:** Build, edit, and publish surveys; manage responses.  

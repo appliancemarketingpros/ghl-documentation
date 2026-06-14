@@ -326,7 +326,7 @@ To modify or cancel your Online Listing service:
 
 * * *
 
-## **Card Payment Errors**
+## **Accepted Card Payment Types**
 
   
 Accepted payment types:  
@@ -338,10 +338,43 @@ Accepted payment types:
   * American Express (AMEX)
   * Discover
   * Visa-Debit  
-  
 
   * Ensure card details (CVV, expiry, billing address) are correct to avoid issues.
 
+
+* * *
+
+### **Card Payment Issues**
+
+  
+
+
+If your card payment fails or you receive a card payment error, please check the following before retrying:  
+  
+
+
+  * Confirm that the card number, expiration date, CVV, and billing address are entered correctly.  
+  
+
+  * Make sure the billing address and postal/ZIP code match the details on file with your card issuer.  
+  
+
+  * Verify that the card has sufficient funds or available credit.  
+  
+
+  * Check with your bank or card issuer to confirm the transaction is not being blocked or flagged.  
+  
+
+  * Confirm that the card is enabled for online, recurring, or international transactions, if applicable.  
+  
+
+  * Try using another accepted card payment type if the issue continues.
+
+
+  
+
+
+If the payment still does not go through after completing these checks, please contact HighLevel Support for further assistance.
 
 * * *
 

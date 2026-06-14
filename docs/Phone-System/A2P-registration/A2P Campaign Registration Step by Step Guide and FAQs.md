@@ -292,7 +292,7 @@ Use this field for informational content such as appointment reminders, confirma
 
     
     
-    **Important : **Do _NOT_ including custom fields or values in the sample messages. 
+    **Important:** Do _NOT_ including custom fields or values in the sample messages. 
 
 * * *
 
@@ -487,9 +487,41 @@ Click on **See Example** in the top right to check out examples for your use cas
 
 **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065625860/original/jsoPuY8CxEiCPMZzwiubFH5JhRhJO8ML3Q.png?1771962000)**
 
-* * *
+  
 
-## **Widget-First Campaign Use-Case Guidance**
+
+**P rivacy Policy URL and Terms & Conditions URL **
+
+  
+
+
+These fields are now required for self-serve campaign registration.
+
+  
+
+
+  * In the**"Privacy Policy URL"** field, enter the publicly accessible link to your business's Privacy Policy page.  
+  
+
+  * In the **"Terms & Conditions URL" **field, enter the publicly accessible link to your Terms & Conditions (or Terms of Service) page.  
+  
+
+  * Both fields appear directly below the **"How do contacts Opt-in"** and **"Opt-in Message"** fields in the self-serve campaign registration flow.  
+  
+
+  * **If you do not have these URLs,** consider registering through the **prebuilt chat widget flow,** which includes compliant Privacy Policy and Terms & Conditions automatically.
+
+
+  
+
+    
+    
+    **Tip: Your Privacy Policy must include the following paragraph to comply with carrier requirements:** "No mobile information will be shared with third parties/affiliates for marketing/promotional purposes. Information sharing to subcontractors in support services, such as customer service is permitted. All other use case categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties."
+    
+
+##   
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073470513/original/iu1MsYTKqtlbJIMUKxboB3O_14-QpEp3vw.png?1781183924)  
+**Widget-First Campaign Use-Case Guidance**
 
   
 

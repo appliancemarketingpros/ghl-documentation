@@ -261,9 +261,9 @@ You can now upload your IRS CP-575 form directly on the Business Details page. O
 
     
     
-    ****Why this matters:** **
+    **Why this matters:**
     
-    A large share of A2P Brand rejections come from small mismatches between what you enter and what's on file with the IRS — a missing "LLC," a transposed digit in the EIN, or an outdated address. Uploading your CP-575 removes the guesswork and significantly improves your chances of first-time approval.****Note:** A2P Brand registrations using newly generated US EINs (registered in the last 15 days) may be rejected by TCR.**
+    A large share of A2P Brand rejections come from small mismatches between what you enter and what's on file with the IRS — a missing "LLC," a transposed digit in the EIN, or an outdated address. Uploading your CP-575 removes the guesswork and significantly improves your chances of first-time approval.**Note: A2P Brand registrations using newly generated US EINs (registered in the last 15 days) may be rejected by TCR.**
     
 
   
@@ -553,8 +553,29 @@ This message must: Include your **business name** and**** the **opt-out keyword*
 ![](https://jumpshare.com/share/iTm3FxAgu6udJErHQWFQ+/Screen+Shot+2026-02-18+at+21.49.24.png)  
   
 
+  * Privacy Policy URL and Terms & Conditions URL  __  
+  
 
-#### **_Business Website Compliance Checklist_**
+
+These fields are now required for self-serve campaign registration.
+
+    * In the **"Privacy Policy URL"** field, enter the publicly accessible link to your business's Privacy Policy page.
+    * In the **"Terms & Conditions URL"** field, enter the publicly accessible link to your Terms & Conditions (or Terms of Service) page.
+    * Both fields appear directly below the **"How do contacts Opt-in"** and **"Opt-in Message"** fields in the registration flow.
+    * **If you do not have these URLs,** consider registering through the **prebuilt chat widget flow** , which includes compliant Privacy Policy and Terms & Conditions automatically.
+
+
+  
+
+    
+    
+    **Tip: Your Privacy Policy must include:**
+    ****_"No mobile information will be shared with third parties/affiliates for marketing/promotional purposes. Information sharing to subcontractors in support services, such as customer service is permitted. All other use case categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties."_  
+    [](<https://help.gohighlevel.com/en/support/solutions/articles/155000000340-a2p-sole-proprietor-brands-registration-is-now-live->)
+
+####   
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073465003/original/GT6hwZpJyzgMAAP6u1hDBDXwu1LD2PULZA.png?1781181580)  
+**_Business Website Compliance Checklist_**
 
   
 

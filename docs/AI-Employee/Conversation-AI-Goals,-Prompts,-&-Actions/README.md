@@ -5,6 +5,7 @@
 ## Articles
 
 - [AI Prompting 101](AI Prompting 101.md)
+- [Bot Goals Overview - Conversation AI](Bot Goals Overview - Conversation AI.md)
 - [Appointment Booking in Conversation AI](Appointment Booking in Conversation AI.md)
 - [How to Configure Bot Goals in Conversation AI](How to Configure Bot Goals in Conversation AI.md)
 - [How to Use the Add Contact Info Action in Conversation AI](How to Use the Add Contact Info Action in Conversation AI.md)

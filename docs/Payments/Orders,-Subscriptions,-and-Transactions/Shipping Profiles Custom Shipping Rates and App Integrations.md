@@ -72,8 +72,8 @@ The **General Shipping Profile** is automatically created for your store. It app
   
 
 
-Use this as your fallback for standard shipping rates or when a third-party app doesn’t return rates.
-
+Use this as your fallback for standard shipping rates or when a third-party app doesn’t return rates.  
+  
   
 
 
@@ -91,7 +91,9 @@ Custom Shipping Profiles give you the flexibility to charge specific rates for c
   
 
 
-Each profile can:
+Each profile can:  
+  
+
 
   * Apply to one or more stores.  
   
@@ -113,6 +115,7 @@ Each profile can:
 
 Products can only belong to one custom profile at a time—reassigning a product overrides the old profile.
 
+  
   
 
 
@@ -140,6 +143,19 @@ When customers buy items from multiple profiles, HighLevel automatically calcula
 
 
 This ensures accurate, transparent shipping costs for mixed-cart orders.
+
+  
+  
+
+
+### **How Shipping Options Display at Checkout**  
+  
+
+
+When checkout shows multiple shipping options, HighLevel sorts them by price (lowest first) and preselects the lowest-cost option. If **Free Shipping** is available, it appears first and is selected. If rates recalculate due to address or cart changes, checkout reapplies sorting and the default selection.  
+  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073331229/original/9tNtAkEeWEteS8_r-r0Ku-W4VrkdsUdBeQ.png?1781079794)
 
 * * *
 
@@ -176,12 +192,16 @@ Follow these steps to create a new profile and define your shipping rates:
 
 
   
+  
 
 
 **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055669365/original/G3q_IcTpmFoKIqvTDDAuEf9GIKBZreuACg.png?1760076895)**  
+  
 
 
-  7. For each zone, add one or more rate types:
+  7. For each zone, add one or more rate types:  
+  
+
 
      * Flat rate (e.g., $5)  
   
@@ -234,18 +254,28 @@ When creating or editing a shipping zone, you can restrict the zone so it only a
   2. Enter one or more ZIP/postcodes using any of the following formats:  
   
 Single code (example: "100210")  
+  
 Comma-separated codes (example: "100210,122021")  
+  
 Wildcard prefix (example: **46*** to match all ZIP/postcodes starting with "46")  
+  
   
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064557369/original/WOF4431SGZsN8YlsvocBa0KMZjSeB8olUg.png?1770715257)
 
   
-**Validation Rules**
+  
+**Validation Rules**  
+  
 
-  * Wildcards are allowed only as a **trailing asterisk (`*`)** (example: `56*`).
-  * The zone cannot be saved if ZIP/postcode restriction is enabled but **no valid entries** are provided.
+
+  * Wildcards are allowed only as a **trailing asterisk (`*`)** (example: `56*`).  
+  
+
+  * The zone cannot be saved if ZIP/postcode restriction is enabled but **no valid entries** are provided.  
+  
+
   * Invalid or duplicate entries are blocked during input.
 
 

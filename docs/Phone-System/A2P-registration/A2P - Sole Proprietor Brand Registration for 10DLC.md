@@ -514,6 +514,33 @@ This message must: Include your **business name** and**** the **opt-out keyword*
 ![](https://jumpshare.com/share/7qdTkwLIEh7kFHtdYMr4+/Screen+Shot+2026-02-18+at+00.45.46.png)  
   
 
+  * Privacy Policy URL and Terms & Conditions URL  
+These fields are now required for self-serve campaign registration.
+
+
+  * In the **"Privacy Policy URL"** field, enter the publicly accessible link to your business's Privacy Policy page.  
+  
+
+  * In the **"Terms & Conditions URL"** field, enter the publicly accessible link to your  
+Terms & Conditions (or Terms of Service) page.  
+  
+
+  * Both fields appear directly below the **"How do contacts Opt-in"** and **"Opt-in Message"** fields in the registration flow.  
+  
+
+  * **If you do not have these URLs** , consider registering through the **prebuilt chat widget flow** , which includes compliant Privacy Policy and Terms & Conditions automatically.
+
+
+  
+
+    
+    
+    **Tip: Your Privacy Policy must include the following paragraph to comply with carrier requirements:** "No mobile information will be shared with third parties/affiliates for marketing/promotional purposes. Information sharing to subcontractors in support services, such as customer service is permitted. All other use case categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties."
+    
+
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073468751/original/m8KQVIVsKhn62p2CKYvQyKjlEgxK-2--Ow.png?1781183244)  
+
 
 #### **_Business Website Compliance Checklist_**
 

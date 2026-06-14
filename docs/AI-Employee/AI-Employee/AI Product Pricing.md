@@ -17,7 +17,7 @@ Some HighLevel AI features are included with AI Employee, some are free with fai
 
     
     
-    Important: Pricing and model availability may change. Third-party model/provider rates may also change based on provider updates, model version, service tier, or HighLevel implementation. If you are quoting pricing externally, confirm the current in-app pricing and billing settings first.
+    Important: Pricing and model availability may change. Third-party model/provider rates may also change based on provider updates, model version, service tier, or HighLevel implementation. When quoting pricing externally, confirm the current in-app pricing and billing settings first.
 
 * * *
 
@@ -35,13 +35,14 @@ Some HighLevel AI features are included with AI Employee, some are free with fai
     * Agent Studio
     * Workflow AI
     * Funnel & Website AI
+    * Email AI
+    * Knowledge Base
     * Content AI
     * Reviews AI
     * AI Studio
   * Billing and Administration
-  * Rebilling AI Usage to Locations
-  * How to Review AI Usage and Charges
-  * Glossary
+    * How to Review AI Usage and Charges
+    * Glossary
   * Frequently Asked Questions
   * Related Articles
 
@@ -53,31 +54,41 @@ Some HighLevel AI features are included with AI Employee, some are free with fai
   
 
 
-HighLevel AI is available under three plans. Choose the plan that fits your location usage and billing preference. All prices are in USD and billed monthly per enabled location.
+HighLevel AI is available under three plans. Choose the plan that fits your location's usage and billing preference. AI Growth and AI Employee are billed monthly per enabled location. Pay-per-use does not have a monthly subscription fee; usage is billed only when supported AI products generate billable activity. All prices are in USD.
 
   
 
 
 Feature| Pay-Per-Use| AI Employee Growth| AI Employee Unlimited  
 ---|---|---|---  
-**Price**|  Token cost only| $50/month| $97/month  
+**Price**|  Token cost only  
+| $50/month  
+| $97/month  
 **Conversation AI**|  At token cost| 1,000 Agent responses/month| Unlimited  
 **Voice AI (Inbound, Outbound, Widget)**|  Voice + token cost| 100 AI Agent minutes/month| Unlimited  
 **Reviews AI**|  $0.01/ review| Unlimited| Unlimited  
 **Content AI**|  $0.063/image and $0.0945/1,000 words| Unlimited| Unlimited  
-**Voice AI Prompt Optimizer**|  Free 20mins/day/location, then at applicable Voice AI Rate| 100 minutes/month, then at pay per use rate | Unlimited  
+**Voice AI Prompt Optimizer**|  At Token Cost| 100 minutes/month, then at pay per use rate| Unlimited  
 **Ask AI**|  At token cost| Usage included| 3x usage included  
-**AI Studio**|  At token cost| Usage included| 3x usage included  
+**AI Studio***|  At token cost| Usage included| 3x usage included  
 **Funnel AI**|  Included| Included| Included  
 **Workflow AI**|  Included| Included| Included  
 **Email AI**|  Included| Included| Included  
 **Agent Studio**|  At token cost| At token cost| At token cost  
   
+[](<https://help.gohighlevel.com/en/support/solutions/articles/155000008057>)
+
   
 
     
     
-    Note: Phone System charges still apply to all phone calls regardless of plan. Text and call charges are billed separately.
+    Note: Ask AI and AI Studio will be free as part of the Summer of AI promotion and the charges mentioned here will be applicable post Summer of AI promotion. For more details about Summer of AI promotion, please visit our [Summer of AI Help Doc](<https://help.gohighlevel.com/en/support/solutions/articles/155000008057>).
+
+  
+
+    
+    
+    Important: Phone System charges still apply to all phone calls regardless of plan. Text and call charges are billed separately.
 
 * * *
 
@@ -88,11 +99,6 @@ Feature| Pay-Per-Use| AI Employee Growth| AI Employee Unlimited
 
 No monthly subscription fee for AI features. Usage is billed at token cost based on the models and actions used. This plan applies to any location that is not on AI Employee Growth or AI Employee Unlimited.
 
-  
-
-
-**Note:** Voice AI Prompt Optimizer is an AI Employee Plus feature. It includes **20 minutes per day per location**. After the included 20 minutes are used, **additional** Prompt Optimizer **usage** is **billed** at the **applicable** **Voice** **AI** **rate**.
-
 * * *
 
 ## **AI Employee Growth Plan**
@@ -100,34 +106,34 @@ No monthly subscription fee for AI features. Usage is billed at token cost based
   
 
 
-Available for $50/month per enabled location. Includes predictable monthly limits across the AI suite, ideal for scaling teams that want cost visibility without overage surprises.
+Available for $50/month per enabled location. Includes generous monthly limits across the full AI suite, ideal for scaling teams that want cost visibility and a predictable baseline without constantly watching usage.
 
   
 
 
 **Included monthly limits:**
 
-  
-
-
   * 1,000 Conversation AI Agent responses
   * 100 Voice AI minutes (covers inbound, outbound, and widget usage combined)
   * Unlimited Reviews AI
   * Unlimited Content AI
-  * 100 minutes Voice AI Prompt Optimizer for a month
+  * 100 minutes Voice AI Prompt Optimizer
   * Ask AI usage included
   * AI Studio usage included
+  * Funnel AI usage included
+  * Workflow AI usage included.
+  * Email AI usage included.
 
 
   
 
 
-**Overages:** Once a monthly limit is reached, additional usage is automatically billed at pay-per-use rates. Access is not paused or interrupted.
+**Overages:** Once a monthly limit is reached, additional usage is automatically billed at pay-per-use rates (if overages are set). Access is not paused or interrupted.
 
   
 
 
-**Fair use policy:** Unlimited usage is subject to HighLevel's Terms of Service, including excessive-use restrictions. If usage is excessive, abusive, or negatively affects platform performance, HighLevel may throttle, limit, require service upgrades, or terminate access with or without notice
+**Fair use policy:** Unlimited usage is subject to HighLevel's Terms of Service, including excessive-use restrictions. If usage is excessive, abusive, or negatively affects platform performance, HighLevel may throttle, limit, require service upgrades, or terminate access with or without notice.
 
 * * *
 
@@ -136,7 +142,7 @@ Available for $50/month per enabled location. Includes predictable monthly limit
   
 
 
-Available for $97/month per enabled location. Provides unlimited usage across every AI Agent and copilot, subject to fair use.
+Available for $97/month per enabled location. Unlimited usage across Conversation AI, Voice AI, Reviews AI, and Content AI, plus generous included usage for Ask AI and AI Studio, ideal for agencies ready to deploy AI at scale without worrying about hitting a ceiling, subject to fair use.
 
   
 
@@ -150,6 +156,9 @@ Available for $97/month per enabled location. Provides unlimited usage across ev
   * Unlimited Voice AI Prompt Optimizer
   * Ask AI (3x usage included)
   * AI Studio (3x usage included)
+  * Funnel AI usage included
+  * Workflow AI usage included
+  * Email AI usage included
 
 
   
@@ -209,11 +218,19 @@ Ask AI session cost can vary based on:
   * Whether approvals are required
   * Whether visual rendering or image generation is used
   * Whether external data, web content, or connected platform data is used
-  * Whether the task creates or updates assets inside HighLevel  
+  * Whether the task creates or updates assets inside HighLevel
+
+
   
 
 
-Use the [Ask AI Sessions Pricing Overview article](<https://help.gohighlevel.com/support/solutions/articles/155000007818-ask-ai-sessions-pricing-overview>) for detailed examples of how different task types affect cost.
+Use the [Ask AI Sessions Pricing Overview](<https://help.gohighlevel.com/en/support/solutions/articles/155000007818>) article for detailed examples of how different task types affect cost.
+
+  
+
+    
+    
+    Note: Ask AI will be free as part of Summer of AI promotion and the charges mentioned here will be applicable post Summer of AI promotion. For more details about Summer of AI promotion, please visit our [Summer of AI Help Doc](<https://help.gohighlevel.com/en/support/solutions/articles/155000008057>).
 
 * * *
 
@@ -274,15 +291,13 @@ Step| What to calculate| Formula
 2| Output token cost| Output tokens ÷ 1,000,000 × output token price  
 3| Total estimated cost| Input token cost + output token cost  
   
-###   
+  
 
-
-**Example:**
 
   
 
 
-If a conversation uses **100,000 input tokens** and **25,000 output tokens** on a model priced at **$1.25 per 1M input tokens** and **$10.00 per 1M output tokens** , the estimated cost would be **$0.375**.
+**Example:** If a conversation uses 100,000 input tokens and 25,000 output tokens on a model priced at $1.25 per 1M input tokens and $10.00 per 1M output tokens, the estimated cost would be $0.375.
 
   
 
@@ -378,8 +393,8 @@ Step| What to calculate| Formula
 
 Use this formula to estimate the total cost of a pay-per-use Voice AI call:
 
-**  
-**
+  
+
 
 **Total estimated cost** = call duration in minutes × (Voice Engine rate + selected TTS rate) + LLM token cost + applicable Phone System charges
 
@@ -405,12 +420,7 @@ Phone System charges| Separate telephony charges that may apply to phone calls
   
 
 
-**Example: 10 minute Call using OpenAI TTS**
-
-  
-
-
-If a Voice AI call lasts **10 minutes** and uses **OpenAI TTS** , the estimated AI voice cost before LLM tokens and Phone System charges would be **$0.60 before LLM token usage and Phone System charges**.
+**Example:** If a Voice AI call lasts 10 minutes and uses OpenAI TTS, the estimated AI voice cost before LLM tokens and Phone System charges would be $0.60 before LLM token usage and Phone System charges.
 
   
 
@@ -541,7 +551,7 @@ Anthropic| Claude 3.5 Haiku| $0.80
   * **AI Employee Unlimited:** Unlimited, subject to fair use.  
   
 
-  * **Pay-Per-Use:** Free 20mins/day/location, then at applicable Voice AI Rate.
+  * **Pay-Per-Use:** At token cost.
 
 
 * * *
@@ -550,12 +560,9 @@ Anthropic| Claude 3.5 Haiku| $0.80
 
   
 
-
-  
-
     
     
-    **Important: Agent Studio is not included in any subscription plan. It remains pay-per-use across Pay-Per-Use, AI Employee Growth, and AI Employee Unlimited.**
+     Important: Agent Studio is not included in any subscription plan. It remains pay-per-use across Pay-Per-Use, AI Employee Growth, and AI Employee Unlimited.
 
   
 
@@ -681,19 +688,22 @@ Speech| OpenAI TTS| GPT-4o Mini TTS| $12.00| 1M audio output tokens
   
 
 
-  * **AI Employee Growth:** Included.  
+  * **AI Employee Growth:** Included, subject to fair use.  
   
 
-  * **AI Employee Unlimited:****Included.**  
+  * **AI Employee Unlimited:** Included, subject to fair use.  
   
 
-  * **Pay-Per-Use: Included.**
+  * **Pay-Per-Use:** Included, subject to fair use.
 
 
   
 
 
 Workflow AI pricing depends on the action used.
+
+  
+
 
   
 
@@ -732,7 +742,7 @@ Generate with AI| Generates AI content for SMS, email, code, and other workflow-
   
 
 
-### **E****xternal AI models in workflows**
+### **External AI models in workflows**
 
   
 
@@ -790,6 +800,38 @@ Feature| Rate limit| Pricing
 ---|---|---  
 Build funnels and websites with AI| 1,000 prompts/day per location| Free  
   
+* * *
+
+## **Email AI**
+
+  
+
+
+  * **AI Employee Growth:** Included, subject to fair use.  
+  
+
+  * **AI Employee Unlimited:** Included, subject to fair use.  
+  
+
+  * **Pay-Per-Use:** Included, subject to fair use.
+
+
+* * *
+
+## **Knowledge Base**
+
+  
+
+
+  * **AI Employee Growth:** Included, subject to fair use.  
+  
+
+  * **AI Employee Unlimited:** Included, subject to fair use.  
+  
+
+  * **Pay-Per-Use:** Included, subject to fair use.
+
+
 * * *
 
 ## **Content AI**
@@ -854,16 +896,6 @@ Reviews AI| $0.01/review
   
 
 
-AI Studio is currently in Labs and will remain free until September 1, 2026.
-
-  
-
-
-Starting September 1, 2026, AI Studio will be available with the following pricing:
-
-  
-
-
   * **AI Employee Growth:** Usage Included.  
   
 
@@ -878,6 +910,12 @@ Starting September 1, 2026, AI Studio will be available with the following prici
 
 Usage is measured in 5-hour windows. Each plan has its own usage limit within that window. AI Employee Unlimited includes 3x the limit of AI Employee Growth. If a limit is reached, access resets at the end of the 5-hour window.
 
+  
+
+    
+    
+    Note:  AI Studio will be free as part of Summer of AI promotion and the charges mentioned here will be applicable post Summer of AI promotion (September 1, 2026). For more details about Summer of AI promotion, please visit our [Summer of AI Help Doc](<https://help.gohighlevel.com/support/solutions/articles/155000008057-summer-of-ai-2026>).
+
 * * *
 
 # **Billing and Administration**
@@ -888,7 +926,7 @@ Usage is measured in 5-hour windows. Each plan has its own usage limit within th
   
 
 
-## **Rebilling AI Usage to Locations**
+### **Rebilling AI Usage to Locations**
 
   
 
@@ -898,7 +936,7 @@ AI usage may be charged to the agency first and then rebilled to locations when 
   
 
 
-**AI Employee rebilling** can be enabled in Agency settings. Agencies must be on the $497/month plan to rebill AI Employee usage.
+AI Employee rebilling can be enabled in Agency settings. Agencies must be on the $497/month plan to rebill AI Employee usage.
 
   
 
@@ -909,7 +947,7 @@ Usage-based services are typically funded through the Agency Wallet. Common wall
 
     
     
-    Important: For product-specific rebilling behavior, always review the relevant AI product section and confirm the agency’s rebilling settings before quoting client-facing pricing.
+    Important: For product-specific rebilling behavior, always review the relevant AI product section and confirm the agency's rebilling settings before quoting client-facing pricing.
 
 * * *
 
@@ -918,10 +956,10 @@ Usage-based services are typically funded through the Agency Wallet. Common wall
   
 
 
-Agency Admins can review supported AI usage in the **AI Suite**. The AI Suite is available at the Agency level for Agency Admins. It includes locationlevel breakdowns, but it is not accessed from individual location pages.
+Agency Admins can review supported AI usage in the **AI Suite**. The AI Suite is available at the Agency level for Agency Admins. It includes location level breakdowns, but it is not accessed from individual location pages.
 
-  
-
+**  
+**
 
 **The AI Suite provides an agency-level view of:**
 
@@ -939,7 +977,7 @@ Agency Admins can review supported AI usage in the **AI Suite**. The AI Suite is
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072822622/original/a7A8GI3c86158E8xFu5HSS5o79ouHBK59A.jpeg?1780494508)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073179809/original/G4xLlt5T93U4rGAwkzCfNnIOJ6wnkdEISA.png?1780933085)
 
 * * *
 
@@ -975,14 +1013,35 @@ Agency Wallet| The funding source for usage-based services such as the Phone Sys
 
 **Q: What happens when I hit the monthly limits on AI Employee Growth?**
 
-Once a monthly limit is reached — such as 1,000 Conversation AI responses or 100 Voice AI minutes — additional usage is automatically billed at pay-per-use rates. Access is not paused or interrupted.
+Once a monthly limit is reached, such as 1,000 Conversation AI responses or 100 Voice AI minutes, additional usage is automatically billed at pay-per-use rates. Access is not paused or interrupted.
+
+  
+
+
+**Q: What is "Usage Included" for Ask AI and AI Studio on AI Employee Growth plan?**
+
+"Usage included" means your AI Employee Growth plan ($50/mo) comes with a set amount of Ask AI and AI Studio usage bundled in for a 5 hour window — at no extra charge. Rather than being billed per token for every interaction, your everyday usage is already covered as part of your monthly plan.
+
+  
+
+
+**Q: What is "At token cost" on Pay per use?**
+
+"At token cost" means you are billed based on your actual AI usage with no monthly fee. Every action consumes a certain number of tokens, and you are charged based on the volume of tokens processed.
+
+  
+
+
+**Q: What is "included” on the various plans mean?**
+
+"Included" means these features come bundled with your plan at no additional cost, regardless of which plan you are on - Pay as You Go, AI Employee Growth ($50/mo), or AI Employee Unlimited ($97/mo). These features are available within each plan's fair use limits. If usage exceeds those limits, access may be restricted until the next billing cycle.
 
   
 
 
 **Q: Does the 100 Voice AI minutes on AI Employee Growth cover inbound, outbound, and widget calls?**
 
-Yes. The 100 AI Agent minutes on AI Employee Growth applies across all Voice AI usage types — inbound phone calls, outbound phone calls, and the Voice AI widget. Combined usage counts toward the same monthly limit.
+Yes. The 100 AI Agent minutes on AI Employee Growth applies across all Voice AI usage types - inbound phone calls, outbound phone calls, and the Voice AI widget. Combined usage counts toward the same monthly limit.
 
   
 
@@ -1024,7 +1083,7 @@ Content AI is included for supported usage on AI Employee Growth and AI Employee
 
 **Q: Is Agent Studio included in any plan?**
 
-No. Agent Studio is pay-per-use across all plans — Pay-Per-Use, AI Employee Growth, and AI Employee Unlimited.
+No. Agent Studio is pay-per-use across all plans (Pay-Per-Use, AI Employee Growth, and AI Employee Unlimited).
 
 * * *
 

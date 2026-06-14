@@ -19,3 +19,4 @@
 - [Opportunity Forecasting in HighLevel](Opportunity Forecasting in HighLevel.md)
 - [Smart Lists in Opportunities](Smart Lists in Opportunities.md)
 - [How to Customize Pipeline Stage Colors in Opportunities](How to Customize Pipeline Stage Colors in Opportunities.md)
+- [Reordering Pipelines in Opportunities](Reordering Pipelines in Opportunities.md)

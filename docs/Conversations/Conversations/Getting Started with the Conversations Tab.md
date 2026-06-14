@@ -124,9 +124,13 @@ When you open an unread conversation, HighLevel automatically takes you to the f
   
 
 
-1\. Open an unread conversation.
+1\. Open an unread conversation.  
+  
 
-2\. The thread automatically scrolls to the first unread message.
+
+2\. The thread automatically scrolls to the first unread message.  
+  
+
 
 3\. A **New** divider appears where unread messages begin.
 
@@ -318,9 +322,14 @@ Call transcripts open in the Message History Panel. This keeps the Right Panel a
 
 
 1\. Open Conversations and select a conversation with a recorded call.  
+  
 2\. On the call card, click View Transcript.  
+  
 3\. Review the transcript in the Message History Panel.  
-4\. In the Right Panel, update contact fields (for example, Email or Phone) without closing the transcript.  
+  
+4\. In the Right Panel, update contact fields (for example, Email or Phone) without closing the transcript.
+
+  
 5\. Click Hide Transcript when you are done.
 
   
@@ -445,9 +454,54 @@ Use the **search bar** within the filter menu to locate message or activity type
   
 
 
-#### ![](https://jumpshare.com/share/doS0DQfBXd1MOXH74P3f+/Screen+Shot+2026-02-03+at+6.20.25+PM.png)  
+#### ![](https://jumpshare.com/share/doS0DQfBXd1MOXH74P3f+/Screen+Shot+2026-02-03+at+6.20.25+PM.png)
+
+* * *
+
+## **View Message Source in Message Details**
+
   
 
+
+Message details help you understand where a message came from, which is especially useful when a message was triggered by an integration instead of being sent manually.
+
+  
+
+
+For messages sent through a Marketplace App or custom provider, the message details panel can show the source app information so you can identify which integration sent the message.
+
+  
+
+
+To review message source details:
+
+  
+
+
+1\. Open **Conversations**.
+
+  
+2\. Select the conversation you want to review.  
+  
+
+
+3\. Open the message details for the sent message.  
+  
+
+
+4\. Review the available source information, such as the **Marketplace app** name and related app details.
+
+  
+
+
+This makes it easier to troubleshoot unexpected messages and understand which integration triggered the send.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073369036/original/CXjGl6FR7P0j_b3NjG0akm7IxgqbIs2O3Q.png?1781097026)
+
+* * *
 
 ## **4\. Right Panel**
 

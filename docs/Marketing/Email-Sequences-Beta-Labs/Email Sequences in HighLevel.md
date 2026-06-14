@@ -2,7 +2,7 @@
 
 **Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000007772-email-sequences-in-highlevel](https://help.gohighlevel.com/support/solutions/articles/155000007772-email-sequences-in-highlevel)  
 **Category:** Marketing  
-**Folder:** Sequences - Private Beta
+**Folder:** Email Sequences - Beta Labs
 
 ---
 

@@ -38,6 +38,16 @@ Custom Metrics let you build the KPIs that matter most to your business—right 
 
 You decide how the metric should look (percentage, currency, whole numbers, etc.) and add it as a widget to any dashboard or report. They also work with snapshots, so you can push them to new sub-accounts when needed.
 
+  
+
+    
+    
+    Note: Custom Metrics now supports metric-level filtering and additional data sources (including Meta Ads and Google Analytics). For steps and examples, see Custom Metrics — Metric-level Filters, Meta Ads & Google Analytics Support.
+    
+
+  
+
+
 * * *
 
 ## **Key Benefits of Custom Metrics**
@@ -176,6 +186,7 @@ From the widget options panel, click on the **Custom Metrics** tab. This will di
 Click the **\+ Create Custom Metrics** button to begin building your metric. This opens the setup flow where you can define and customize your KPI.
 
   
+  
 
 
 **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155052077989/original/21l_RpWDueqqzQ2L8ppWRaTuDr2swDy7Yw.png?1755775510)**  
@@ -191,6 +202,7 @@ Click the **\+ Create Custom Metrics** button to begin building your metric. Thi
 
 Select whether to **Start from scratch** to build a new metric or **Clone existing** to reuse a previously created one. This choice helps you either create fresh KPIs or save time by adapting an existing setup.
 
+  
   
 
 
@@ -210,6 +222,7 @@ Select whether to **Start from scratch** to build a new metric or **Clone existi
 After choosing either **Start from scratch** or **Clone existing** , click the **Select** button at the bottom. This confirms your choice and opens the setup form for creating your custom metric.
 
   
+  
 
 
 **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155052078280/original/MVhaYaNf2y5VhRS2TFWt7h5CuQwazbHCew.png?1755775686)**  
@@ -228,8 +241,12 @@ When setting up your custom metric, complete the following fields:
   
 
 
-  1. **Metric Name:** Provide a clear name (e.g., Revenue Growth Rate) so the metric is easy to identify.
-  2. **Data Type:** Choose how the value should be displayed: Integer (whole numbers), Float (decimals), Percentage, or Currency.
+  1. **Metric Name:** Provide a clear name (e.g., Revenue Growth Rate) so the metric is easy to identify.  
+  
+
+  2. **Data Type:** Choose how the value should be displayed: Integer (whole numbers), Float (decimals), Percentage, or Currency.  
+  
+
   3. **Description:** Add a short explanation to clarify the purpose of this metric for you and your team.
 
 
@@ -270,9 +287,13 @@ In the **Advanced Settings** section, you can specify the **date property** that
   
 
 
-  * For example, if your formula includes **Page Views** and **Appointments** , each of these metrics may have its own associated date property:
+  * For example, if your formula includes **Page Views** and **Appointments** , each of these metrics may have its own associated date property:  
+  
 
-    * **Page Views** → Visited On (the date the page was viewed).
+
+    * **Page Views** → Visited On (the date the page was viewed).  
+  
+
 
     * **Appointments** → Created On (the date the appointment was scheduled).
 

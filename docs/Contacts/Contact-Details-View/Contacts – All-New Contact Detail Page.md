@@ -89,8 +89,10 @@ Re-engineered from the ground up, the Contact Detail Page is the central workspa
 
 This is where you’ll find and manage all the key details about your contact.
 
+  
 **Key Actions:** Edit the profile picture directly.
 
+  
   
 
 
@@ -105,6 +107,7 @@ This is where you’ll find and manage all the key details about your contact.
 Update contact details such as name, email, phone, and tags.
 
   
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056154196/original/nEV_DZS2OFyUV4MR3ZrukIE44ygkPajj3w.png?1760621851)
@@ -118,6 +121,7 @@ Update contact details such as name, email, phone, and tags.
 Use the **DND** tab to configure communication preferences.
 
   
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056154879/original/cLrYVefLi3dG1hxn2uDkS2TsfzShwMJsig.png?1760622183)
@@ -130,6 +134,7 @@ Use the **DND** tab to configure communication preferences.
 
 Use the **Actions** tab for quick utilities (like managing Opportunities, workflows and client portal).
 
+  
   
 
 
@@ -147,7 +152,32 @@ Use the **Actions** tab for quick utilities (like managing Opportunities, workfl
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056154703/original/1g2mXaGCPdlcI15t_vbKw7EfUUUmGRp4Pg.png?1760622123)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056154703/original/1g2mXaGCPdlcI15t_vbKw7EfUUUmGRp4Pg.png?1760622123)  
+  
+  
+
+
+### **Edit Contact Tags (Apply/Cancel confirmation)**
+
+When you update tags on a contact, HighLevel saves changes only after you confirm them.
+
+  
+1\. Open the Tags dropdown on the contact.
+
+2\. Select tags to add and deselect tags to remove.  
+  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073242888/original/GQK_ZIGiJ9r-sT-VpP7FBSKlnaZetBE-kg.png?1781000801)  
+  
+
+
+  
+3\. Click Apply to save your changes.
+
+  
+4\. Click Cancel to discard pending changes.  
+  
+
 
 * * *
 
@@ -207,7 +237,8 @@ The right panel is now fully collapsible and remembers your last active tab. You
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069616624/original/-EKi3vkyd-tjFka9ZrMuz61-kUuaazWENA.png?1776778652)  
   
-3\. Opportunities — View all opportunities linked to the contact in a dedicated tab below Associations.  
+3**. Opportunities** — View all opportunities linked to the contact in a dedicated tab below Associations.  
+  
   
 
 
@@ -272,6 +303,7 @@ The right panel is now fully collapsible and remembers your last active tab. You
 **8\. Payments** — Track invoices, subscriptions, and transactions.
 
   
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056157357/original/jXdpQduZbCSez3iGpflJUuatjfFtXTpN0Q.png?1760623227)
 
 * * *
@@ -316,6 +348,7 @@ Click **“Enable Auto-Save”** when prompted.
 
 Confirm from the modal — this will apply the setting to your sub-account. Admins can also enable or disable Auto-Save from: **Settings → Contacts → Details Tab → Auto-Save toggle**
 
+  
   
 **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055793499/original/lBmu2nddaOpGl69KHwW1vRwhs4U7yn-WCg.png?1760264183)**
 

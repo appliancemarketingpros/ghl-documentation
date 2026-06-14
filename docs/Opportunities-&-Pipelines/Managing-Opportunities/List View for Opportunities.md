@@ -16,11 +16,12 @@ The new List View transforms how you can interact with your opportunities by pro
 
 * * *
 
-**In This Article**
+**TABLE OF CONTENTS**
 
   * How to Access the List View
   * Feature List
-  * Benefits of the Last View
+  * Viewing All Pipelines in One List
+  * Benefits of the List View
 
 
 * * *
@@ -107,6 +108,29 @@ Supported custom field types
 
 
 * * *
+
+## Viewing All Pipelines in One List
+
+The pipeline dropdown includes an **All Pipelines** option that brings opportunities from every pipeline into a single unified list — so you don't have to switch between pipelines one at a time.
+
+**How to use it:**
+
+  1. Open **Opportunities** and make sure you're in **List view**. All Pipelines is only available in List view.
+  2. Open the **Pipeline** dropdown at the top left and select **All Pipelines**.
+  3. The list now shows opportunities across every pipeline. The **Pipeline** column tells you which pipeline each opportunity belongs to.
+  4. (Optional) Save the view as a Smartlist to return to it later.
+
+
+> **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073468550/original/D_0bUYh95TQVAGpbLqOWle2rI4uAQEwcng.png?1781183146)**
+
+> **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073468556/original/7P8cM5uiTDx74fk4lgriHrKT6qlo1JWaYQ.png?1781183155)**
+
+**Good to know:**
+
+  * **List view only.** All Pipelines is disabled in Kanban (Board) view, since a board is organized by the stages of a single pipeline. Switch to List view to enable it.
+  * **Smartlists are List type only.** Any Smartlist saved from the All Pipelines view is a List-type Smartlist; Kanban board Smartlists are not supported for this view.
+  * **Sorting by stage is not supported** in this view — it falls back to sorting by Created date.
+
 
 ## **Benefits of the List View**
 

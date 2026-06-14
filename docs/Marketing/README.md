@@ -16,7 +16,7 @@
 
 ### [Others](Others/)
 
-### [Sequences - Private Beta](Sequences-Private-Beta/)
+### [Email Sequences - Beta Labs](Email-Sequences-Beta-Labs/)
 
 ### [Ad Manager](Ad-Manager/)
 

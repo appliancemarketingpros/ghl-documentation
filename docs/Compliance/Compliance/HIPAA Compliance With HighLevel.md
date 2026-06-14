@@ -239,6 +239,17 @@ With server-side encryption, Google manages the cryptographic keys on your behal
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068305726/original/95FuR2lbEx3sz9rlUkY_d96-v8lcAXzmlA.png?1775095378)
 
 
+  
+
+
+_**Important:**_
+
+  
+
+
+Access to HIPAA settings may depend on the user’s assigned permissions. If a user cannot access the required settings, review their **[User Permissions](<https://help.gohighlevel.com/support/solutions/articles/155000002543-agency-managing-user-roles-permissions>)**.  
+
+
 * * *
 
 ## **How to View and Download the Document.**
@@ -266,8 +277,77 @@ With server-side encryption, Google manages the cryptographic keys on your behal
 
 * * *
 
-##   
+## **How to View, Edit, Sign, and Download the BAA**
 
+  
+
+
+All HIPAA-related documents are generated and managed directly within HighLevel’s Documents & Contracts system. Agency users can view, edit signer details, sign, and download the Business Associate Agreement (BAA) from the Compliance section.
+
+###   
+
+
+### **How to Edit and Sign the BAA**
+
+  
+
+
+  1. **Navigate to Compliance Settings**
+
+  
+From the Agency view, go to **Settings > Compliance**.  
+  
+
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073232556/original/-kIdB4rim1KwZwC4s75aIYwnED9cU0ItzA.png?1780996435)**  
+
+
+  2. **Access the BAA**
+
+  
+In the **BAA** section, click **View Details**.
+
+  
+
+
+  3. **Open the BAA Document**
+
+  
+Click **View Document** to open the BAA in the document modal.
+
+  
+
+
+  4. **Edit the BAA, if required**
+
+  
+If any signer or business information needs to be updated, click **Edit Document** in the top-right corner of the document modal.
+
+Make the required changes, then click **Update Changes** to save the updated information.
+
+  
+
+
+  5. **Sign the BAA**
+
+  
+Once the information is correct, proceed to sign the BAA directly within the same interface.
+
+  
+
+
+  6. **Download the signed BAA**
+
+  
+After signing, the completed BAA can be viewed and downloaded from the Compliance section.
+
+  
+
+
+  
+
+
+* * *
 
 ## **Frequently Asked Questions**
 

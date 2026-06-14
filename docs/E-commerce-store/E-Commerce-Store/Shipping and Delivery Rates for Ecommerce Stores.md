@@ -81,6 +81,7 @@ Shipping zones group together specific countries, states, or provinces that shar
 
 **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055745363/original/hwEpOEGAi858-k7d5S1R45De6Ejii64DsA.png?1760115209)**
 
+  
 **  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055746032/original/WmkqLvNbNBbCPiJj3aY1b35ciaOurMqdFg.png?1760115948)**  
 
@@ -95,9 +96,32 @@ Shipping zones group together specific countries, states, or provinces that shar
 Once your zones and rates are configured, customers automatically see the available shipping options at checkout. The system applies the correct rate based on their address and cart details.
 
   
+  
 
 
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055746002/original/as9kQg1sZvAgAxU_-UwPxARedrD8WACC3w.png?1760115901)**
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055746002/original/as9kQg1sZvAgAxU_-UwPxARedrD8WACC3w.png?1760115901)**  
+
+
+### **Shipping Option Order and Default Selection**
+
+Checkout automatically sorts shipping options by price (lowest first) and selects the lowest-cost option by default.  
+  
+
+
+\- If Free Shipping is available, it appears first and is selected by default.
+
+  
+\- If rates update after an address change or cart update, checkout reapplies sorting and the default selection.
+
+  
+\- If only one option is available, it is selected automatically.
+
+  
+\- If multiple options have the same price, checkout keeps the provider order and selects the first option in that price group.  
+  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073330662/original/mgtl_mQl8_aLWZXc8ZkLfqTYMwq5eIDF5g.png?1781079519)  
+
 
 * * *
 
@@ -116,13 +140,21 @@ When creating or editing a shipping zone, you can restrict the zone so it only a
   
 
 
-1\. Go to Payments → Settings → Shipping & Delivery.
+1\. Go to Payments → Settings → Shipping & Delivery.  
+  
 
-2\. Open your Shipping Profile (General or Custom), then go to Shipping Zones.
 
-3\. Create a zone or edit an existing zone.
+2\. Open your Shipping Profile (General or Custom), then go to Shipping Zones.  
+  
 
-4\. Enable Limit Shipping to Specific ZIP/Postcodes.
+
+3\. Create a zone or edit an existing zone.  
+  
+
+
+4\. Enable Limit Shipping to Specific ZIP/Postcodes.  
+  
+
 
 5\. Enter ZIP/postcodes using commas to separate values.
 
@@ -135,19 +167,25 @@ When creating or editing a shipping zone, you can restrict the zone so it only a
 
 
 Single code (example: "100210")  
+  
 Comma-separated codes (example: "100210,122021")  
+  
 Wildcard prefix (example: **46*** to match all ZIP/postcodes starting with "46")
 
+  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064561230/original/nB2u6Eh5gWajTqt4MYF6l69T5gLhYccZMw.png?1770717111)  
 
 
 **Validation Rules**
 
+  
 The wildcard asterisk (`*`) is allowed only at the end of an entry (example: **56***).
 
+  
 Duplicate or invalid values are blocked.
 
+  
 If ZIP/postcode restriction is enabled, the zone cannot be saved unless at least one valid ZIP/postcode is entered.
 
   
@@ -185,12 +223,11 @@ For example, you can offer **free shipping** for higher-value or heavier orders,
   
 
 
-  * **Free Shipping:** Orders over **$500** or weighing **10 kg and above.**
+  * **Free Shipping:** Orders over **$500** or weighing **10 kg and above.**  
+  
+
 
   * **Standard Shipping:** Charge **$10** for orders below **$500** or weighing less than **10 kg.**
-
-
-  
 
 
   
@@ -209,9 +246,13 @@ For example, you can offer **free shipping** for higher-value or heavier orders,
   
 
 
-  3. Choose whether you want to condition the rate **By Order Price** or **By Item Weight.**
+  3. Choose whether you want to condition the rate **By Order Price** or **By Item Weight.**  
+  
 
-  4. Define the **Minimum** and (optional) **Maximum** values for your range.
+
+  4. Define the **Minimum** and (optional) **Maximum** values for your range.  
+  
+
 
      * Example: 0–10 kg for weight-based, or $0–$500 for price-based.  
   
@@ -230,9 +271,11 @@ For example, you can offer **free shipping** for higher-value or heavier orders,
 Once saved, these rates will automatically apply at checkout based on the customer’s cart details and location.
 
   
+  
 
 
 **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055746160/original/UiMc4wlG0jIH-wRrlkT0_h2M-7SnoVGYZw.png?1760116170)**  
+  
 **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064560657/original/C9qqZhgOVNMmnfTE0v-BqzQtq1a2_jy_6A.png?1770716833)**
 
 * * *

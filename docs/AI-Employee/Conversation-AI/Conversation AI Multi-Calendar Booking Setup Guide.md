@@ -1,12 +1,32 @@
-# Conversation AI: Multiple Calendars Support for Appointment Booking
+# Conversation AI Multi-Calendar Booking Setup Guide
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000006559-conversation-ai-multiple-calendars-support-for-appointment-booking](https://help.gohighlevel.com/support/solutions/articles/155000006559-conversation-ai-multiple-calendars-support-for-appointment-booking)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000006559-conversation-ai-multi-calendar-booking-setup-guide](https://help.gohighlevel.com/support/solutions/articles/155000006559-conversation-ai-multi-calendar-booking-setup-guide)  
 **Category:** AI Employee  
 **Folder:** Conversation AI
 
 ---
 
 Enhance your scheduling flexibility with **HighLevel’s Conversation AI – Multiple Calendars Support**. This new capability enables AI bots to intelligently detect and book appointments across multiple calendars, simplifying multi-specialty or multi-department scheduling for your business.
+
+* * *
+
+**TABLE OF CONTENTS**
+
+  * What is Multiple Calendars Support?
+  * Key Benefits of Multiple Calendars Support
+  * Smart Calendar Detection
+  * Fallback Calendar
+  * How to Configure Multiple Calendars for Appointment Booking
+  * AI Configuration Tips (Prompts & Keywords)
+  * Viewing Booked Appointments and Calendar Details
+  * Frequently Asked Questions
+  * Related Articles
+
+
+* * *
+
+  
+
 
 * * *
 
@@ -75,17 +95,6 @@ The AI automatically detects and routes appointments to the right calendar using
 
 The AI identifies the relevant **Neurology** calendar and retrieves available slots for booking.
 
-  
-
-
-**Screenshot:** Conversation view showing AI suggesting Neurology appointment slots based on user intent.
-
-  
-
-
-  
-
-
 * * *
 
 ## **Fallback Calendar**
@@ -95,15 +104,15 @@ The AI identifies the relevant **Neurology** calendar and retrieves available sl
 
 The fallback calendar acts as a safety net when none of the configured calendars match the user’s message. This ensures every appointment request is captured and booked, avoiding any lost opportunities.
 
-  * Select one of your configured calendars as the fallback option.
-
-  * If no intent matches the AI descriptions, the appointment will automatically book on this fallback calendar.
-
-
   
 
 
-**Screenshot:** Appointment Booking configuration showing fallback calendar field.
+  * Select one of your configured calendars as the fallback option.  
+  
+
+
+  * If no intent matches the AI descriptions, the appointment will automatically book on this fallback calendar.
+
 
 * * *
 
@@ -128,59 +137,77 @@ Follow these steps to enable and configure Multiple Calendars in your Conversati
   
 
 
-  1. Navigate to **AI Agents → Conversation AI → Bot Goals** and select **Appointment Booking**.  
+1\. Navigate to **AI Agents → Conversation AI → Bot Goals** and select **Appointment Booking**.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055452724/original/ADKs-aZGBhqN-7v-7TtzmqO3GAWtFYDVqw.png?1759854653)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055452724/original/ADKs-aZGBhqN-7v-7TtzmqO3GAWtFYDVqw.png?1759854653)
+
+  
 
 
-  2. Choose the **Multiple Calendars** option at the top of the setup window.
+  
+
+
+2\. Choose the **Multiple Calendars** option at the top of the setup window.
 
   
 _![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055452799/original/TVBNcuppvPui33rNLYt2aKmH3L-GCWse4A.png?1759854733)_  
   
 
 
-  3. Under**Calendar Selection** , pick the calendars you want to include. Each calendar’s name and description are auto-fetched.  
+3\. Under**Calendar Selection** , pick the calendars you want to include. Each calendar’s name and description are auto-fetched.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055458637/original/0e3EEuOCqecPsHt0tViUWJtylV1K9rnt1A.png?1759859784)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055458637/original/0e3EEuOCqecPsHt0tViUWJtylV1K9rnt1A.png?1759859784)
+
+  
 
 
-  4. Optionally, add **Additional Keywords & Descriptions** to help the AI recognize user intent. This is helpful if the calendar itself, in its calendar settings, does not have a detailed name & description. If the calendar has a detailed name & description then you don't need to put anything here.  
+  
+
+
+4\. Optionally, add **Additional Keywords & Descriptions** to help the AI recognize user intent. This is helpful if the calendar itself, in its calendar settings, does not have a detailed name & description. If the calendar has a detailed name & description then you don't need to put anything here.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055458476/original/Ij9k6v74boU-1hwSoaLHkfX-_1texe_lmA.png?1759859603)  
 
 
-  5. Configure a **Fallback Calendar** to handle unmatched requests. This can be unchecked to have no fallback calendar.  
+5\. Configure a **Fallback Calendar** to handle unmatched requests. This can be unchecked to have no fallback calendar.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055458890/original/3C_GDut3Q5QD9da_QPFtYOr9BsooKN6LJg.png?1759860013)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055458890/original/3C_GDut3Q5QD9da_QPFtYOr9BsooKN6LJg.png?1759860013)
+
+  
 
 
-  6. Proceed to **AI Configuration** and define your **AI prompt** (e.g., “Which type of consultation would you like to book?”).
+  
+
+
+6\. Proceed to **AI Configuration** and define your **AI prompt** (e.g., “Which type of consultation would you like to book?”).
 
   
 _![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055452947/original/y0tdQp5-yX14ncT-9GMtNbPf1bYqCYuFwA.png?1759854856)_  
   
 
 
-  7. Proceed to Advanced Options
+7\. Proceed to Advanced Options
 
-     1. Pause bot response after booking
+  1. Pause bot response after booking
 
-     2. Trigger workflows after booking
+  2. Trigger workflows after booking
 
-     3. Transfer employee post appointment booking
+  3. Transfer employee post appointment booking
 
-     4. Allow bot to cancel the appointment
+  4. Allow bot to cancel the appointment
 
-     5. Allow bot to reschedule the appointmen  
+  5. Allow bot to reschedule the appointmen  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055458984/original/taubBBqVVsTtgk5FESVJws1jx1r1fcwCvg.png?1759860118)
 
-  8. Save your configuration.  
+
+  
+  
+8\. Save your configuration.  
   
 
 
-  9. Bot Goals Preferences - Conversation Summary and Transcript are described in detail in this article:
+9\. Bot Goals Preferences - Conversation Summary and Transcript are described in detail in this article:
 
 [Conversation AI Summary and Transcript](<https://help.gohighlevel.com/en/support/solutions/articles/155000006597>).
 
@@ -202,19 +229,23 @@ Once enabled, the bot will automatically detect user intent and book appointment
 
 Designing effective AI prompts and keywords helps ensure accurate routing:
 
-  * Use **clear service-based keywords** like “dentist,” “eye check,” or “consultation.”
-
-  * Write calendar descriptions in **plain language** so the AI can understand the context.
-
-  * Include **alternative phrases** for common user intents (e.g., “I need a doctor for my eyes” → Ophthalmology).
-
-  * Keep prompts concise and user-friendly: _“Which service would you like to book?”_ works better than long or complex phrasing.
-
-
   
 
 
-**Screenshot:** AI Configuration view showing example calendar descriptions and keyword entries.
+  * Use **clear service-based keywords** like “dentist,” “eye check,” or “consultation.”  
+  
+
+
+  * Write calendar descriptions in **plain language** so the AI can understand the context.  
+  
+
+
+  * Include **alternative phrases** for common user intents (e.g., “I need a doctor for my eyes” → Ophthalmology).  
+  
+
+
+  * Keep prompts concise and user-friendly: _“Which service would you like to book?”_ works better than long or complex phrasing.
+
 
 * * *
 
@@ -225,17 +256,19 @@ Designing effective AI prompts and keywords helps ensure accurate routing:
 
 After an appointment is created, both the **conversation** and the **appointment detail drawer** will display which calendar was used to complete the booking.
 
-  * Open the conversation thread to see the AI’s confirmation message and slot details.
-
-  * Click **View Appointment** to open the details panel.
-
-  * The assigned calendar name (e.g., Neurology) appears clearly in the **Calendar** field.
-
-
   
 
 
-**Screenshot:** Appointment detail view showing booked Neurology calendar.
+  * Open the conversation thread to see the AI’s confirmation message and slot details.  
+  
+
+
+  * Click **View Appointment** to open the details panel.  
+  
+
+
+  * The assigned calendar name (e.g., Neurology) appears clearly in the **Calendar** field.
+
 
 * * *
 
@@ -251,9 +284,15 @@ Yes. You can choose either mode based on your use case. Single Calendar works be
   
 
 
+  
+
+
 **Q: How many calendars can I add?**
 
 You can add multiple calendars, but it’s recommended to keep the list concise for more accurate AI matching.
+
+  
+
 
   
 
@@ -265,18 +304,42 @@ The fallback calendar will automatically handle such cases, ensuring every reque
   
 
 
+  
+
+
+**Q. What happens if no calendar matches the user's request?**  
+The booking is routed to the configured fallback calendar.
+
+  
+
+
+  
+
+
+  
+
+
 **Q: Will my existing workflows still trigger?**
 
 Yes. All previous automations and workflow triggers (such as notifications, reminders, and post-booking workflows) continue to work as before.
 
 * * *
 
-### **Related Articles**
+## **Related Articles**
 
-  * [How to Use Conversation AI to Book Appointments](<https://help.gohighlevel.com/support/solutions/articles/155000000210-how-to-use-conversation-ai-to-book-appointments>)
+  
 
-  * [Workflow Action – Appointment Booking Conversation AI Bot](<https://help.gohighlevel.com/support/solutions/articles/155000003363-workflow-action-appointment-booking-conversation-ai-booking-bot>)
 
-  * [Conversation AI Post-Appointment Booking Actions](<https://help.gohighlevel.com/support/solutions/articles/155000003421-conversation-ai-post-appointment-booking-actions>)
+  * [How to Use Conversation AI to Book Appointments](<https://help.gohighlevel.com/support/solutions/articles/155000000210-how-to-use-conversation-ai-to-book-appointments>)  
+  
+
+
+  * [Workflow Action – Appointment Booking Conversation AI Bot](<https://help.gohighlevel.com/support/solutions/articles/155000003363-workflow-action-appointment-booking-conversation-ai-booking-bot>)  
+  
+
+
+  * [Conversation AI Post-Appointment Booking Actions](<https://help.gohighlevel.com/support/solutions/articles/155000003421-conversation-ai-post-appointment-booking-actions>)  
+  
+
 
   * [Setting Up Conversation AI](<https://help.gohighlevel.com/support/solutions/articles/155000004401-setting-up-conversation-ai>)

@@ -10,6 +10,11 @@ Give customers the option to speak instead of type. HighLevel’s Conversations 
 
 * * *
 
+  
+
+
+* * *
+
 **TABLE OF CONTENTS**
 
   * What is Audio Response in Conversations AI?
@@ -24,7 +29,7 @@ Give customers the option to speak instead of type. HighLevel’s Conversations 
 
 * * *
 
-# **What is Audio Response in Conversations AI?**
+## **What is Audio Response in Conversations AI?**
 
   
 Audio Response lets your HighLevel Conversations AI bot “hear” customers. When a contact sends a voice note or audio file, HighLevel transcribes the audio to text, passes it to your bot, and returns an intelligent, context-aware reply so customers can speak naturally without typing.
@@ -33,6 +38,62 @@ Audio Response lets your HighLevel Conversations AI bot “hear” customers. Wh
 
 
 Conversations AI now supports inbound audio across popular messaging channels. Transcription happens behind the scenes, and the bot follows your existing bot settings (training, prompts, response mode, and timing) for consistent results.
+
+  
+
+
+**What Audio Response Can Do**
+
+  
+
+
+With Audio Response enabled, your Conversation AI can:
+
+  
+
+
+  * Receive voice notes and audio attachments  
+  
+
+  * Automatically transcribe speech into text  
+  
+
+  * Process audio content using your existing AI training  
+  
+
+  * Generate intelligent, context-aware responses  
+  
+
+  * Handle multiple audio files within a single interaction  
+  
+
+  * Work across supported messaging channels
+
+
+  
+
+
+**Prerequisites**
+
+  
+
+
+Before using Audio Response, ensure:
+
+  
+
+
+  * Conversation AI is enabled for your Sub-Account  
+  
+
+  * At least one AI Agent is configured  
+  
+
+  * Supported messaging channels are connected  
+  
+
+  * The AI Agent is assigned to the desired communication channels
+
 
 * * *
 
@@ -44,15 +105,17 @@ These advantages focus on customer experience and operator efficiency, tying aud
   
 
 
-  * **Natural conversations:** Contacts talk instead of type for a more human experience.  
+  * **Natural conversations:** Contacts can speak naturally instead of typing long messages.  
   
 
 
-  * **Faster resolutions:** Automatic transcription feeds your trained bot to craft accurate replies quickly.  
+  * **Faster Customer Responses:** Audio messages are automatically converted into text and processed immediately.  
   
 
 
-  * **Multi-audio intake:** Customers can send one or multiple audio files; your bot processes them as a single interaction.
+  * **Multi-audio intake:** Customers can send one or multiple audio files; your bot processes them as a single interaction.  
+  
+
 
   * **Omnichannel reach:** Works with WhatsApp, Facebook Messenger, Instagram, and SMS/MMS for one consistent workflow.  
   
@@ -89,11 +152,17 @@ Audio Response plugs into channels where Conversations AI already operates. Ensu
   
 
 
-  * **Facebook Messenger**
+  * **Facebook Messenger**  
+  
 
-  * **Instagram Direct Messages**
 
-  * **WhatsApp**
+  * **Instagram Direct Messages**  
+  
+
+
+  * **WhatsApp**  
+  
+
 
   * **SMS (MMS)**
 
@@ -141,13 +210,17 @@ Understanding timing and message handling helps you design the right experience 
   
 
 
-  * **Wait Time aggregation:** Your bot waits the configured **Wait Time Before Responding** so it can collect multiple inbound messages (including audio + text) and send **one** unified reply.
+  * **Wait Time aggregation:** Your bot waits the configured **Wait Time Before Responding** so it can collect multiple inbound messages (including audio + text) and send **one** unified reply.  
+  
+
 
   * **Message limit:** The bot follows your **Maximum Message Limit** ; if reached, the bot sleeps until reset per your standard flow.  
   
 
 
-  * **Transcripts & transparency:** You can review AI details—including prompts, sources, and response info—from the **AI Response Info** sidebar in Conversations.
+  * **Transcripts & transparency:** You can review AI details—including prompts, sources, and response info—from the **AI Response Info** sidebar in Conversations.  
+  
+
 
   * **Channel policies:** Delivery on Meta channels must comply with policy windows (e.g., 24-hour window for Messenger/Instagram). Plan flows accordingly.
 
@@ -165,8 +238,14 @@ Usage is billed under standard **Conversations AI** usage and your channel’s m
   
 
 
+  
+
+
 **Q: Will the bot reply with audio or text?**  
 Bots send standard channel messages for maximum compatibility. Most replies are text; design flows accordingly.
+
+  
+
 
   
 
@@ -177,8 +256,14 @@ Assign only the channels you want the bot to use in **Bot Settings**. The bot wi
   
 
 
+  
+
+
 **Q: How are multiple audio files handled?**  
 Multiple audios in a short window are transcribed and handled during your **Wait Time** window so the bot can craft a single, context-aware reply.[](<https://help.gohighlevel.com/support/solutions/articles/155000004415-advanced-settings-overview-conversation-ai>)
+
+  
+
 
   
 
@@ -193,15 +278,21 @@ Open the **AI Response Info** sidebar in the conversation to review the response
   
 
 
-  * [Setting Up Conversation AI ](<https://help.gohighlevel.com/support/solutions/articles/155000004401-setting-up-conversation-ai>)
+  * [Setting Up Conversation AI ](<https://help.gohighlevel.com/support/solutions/articles/155000004401-setting-up-conversation-ai>)  
+  
+
 
   * [Advanced Settings Overview – Conversation AI ](<https://help.gohighlevel.com/support/solutions/articles/155000004415-advanced-settings-overview-conversation-ai>)  
   
 
 
-  * [View & Edit AI Response Info in Conversations ](<https://help.gohighlevel.com/support/solutions/articles/155000004183-view-edit-ai-response-info-in-conversations>)
+  * [View & Edit AI Response Info in Conversations ](<https://help.gohighlevel.com/support/solutions/articles/155000004183-view-edit-ai-response-info-in-conversations>)  
+  
 
-  * [Getting Started – Setup Facebook & Instagram Messenger ](<https://help.gohighlevel.com/support/solutions/articles/155000005068-getting-started-setup-facebook-and-instagram-messenger>)
+
+  * [Getting Started – Setup Facebook & Instagram Messenger ](<https://help.gohighlevel.com/support/solutions/articles/155000005068-getting-started-setup-facebook-and-instagram-messenger>)  
+  
+
 
   * [How to Set Up WhatsApp for a Sub-Account ](<https://help.gohighlevel.com/support/solutions/articles/155000001980-how-to-set-up-whatsapp-for-a-sub-account>)  
   

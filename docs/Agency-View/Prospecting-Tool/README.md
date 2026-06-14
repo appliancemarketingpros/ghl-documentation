@@ -17,3 +17,4 @@
 - [Prospecting Widgets: Multi-Language Support & Localization Improvements](Prospecting Widgets Multi-Language Support & Localization Improvements.md)
 - [Manage Prospect Statuses and Onboarding in Prospecting](Manage Prospect Statuses and Onboarding in Prospecting.md)
 - [Prospecting Free Tier in Agency Sub-Accounts](Prospecting Free Tier in Agency Sub-Accounts.md)
+- [How Prospecting creates contacts in your CRM](How Prospecting creates contacts in your CRM.md)

@@ -83,7 +83,14 @@ This helps speed up onboarding by bringing over important data and structure, in
   * Turn on **Allow duplicates** for both Contacts and Opportunities before you start. You can re-enable de-duplication after the import is complete. Leaving duplicate-blocking on causes a lot of avoidable errors during a HubSpot import.  
   
 
-  * The import runs in the background. You can close the window and return later to review progress.
+  * The import runs in the background. You can close the window and return later to review progress.  
+  
+
+
+  * It is recommended to use English as the account language.  
+  
+
+  * It is recommend to test imports in a new or non-production location before importing into an actively used location.
 
 
 * * *
@@ -93,7 +100,7 @@ This helps speed up onboarding by bringing over important data and structure, in
   
 
 
-The HubSport Importer currently supports Contacts, Opportunities (Deals), Custom Fields (Properties), Custom Folders, Pipelines, and Stages.
+The HubSport Importer currently supports Contacts, Opportunities (Deals), Custom Fields (Properties), Custom Folders, Pipelines, Stages, Notes and Tasks.
 
   
 
@@ -110,16 +117,45 @@ Opportunities migration| Imports HubSpot Deals as HighLevel Opportunities.
 Custom Fields migration| Maps HubSpot Contact and Deal Properties to HighLevel Custom Fields.  
 Pipelines & Stages migration| Preserves the full pipeline structure, including stages.  
 Custom Folders migration| Carries over folder organization for supported imported data.  
+Tasks migration| Brings your reminders and to-dos into HighLevel.  
   
   
 
 
-Other HubSpot objects (Companies, Tickets, Tasks, Notes, Engagements, Workflows, etc.) are not yet included and are coming soon.
+Other HubSpot objects (Companies, Tickets, Engagements, Workflows, etc.) are not yet included and are coming soon.
 
   
 
 
 For unsupported objects, use your broader migration plan or the manual migration steps in the [HubSpot to HighLevel migration guide](<https://help.gohighlevel.com/en/support/solutions/articles/155000003388>).
+
+* * *
+
+## **Limitations and Considerations**
+
+  
+
+
+  * **Pipelines & Opportunities:** Pipelines and pipeline stages are imported. An opportunity can be associated with up to 10 additional contacts.  
+  
+
+  * **C****ustom Fields:** Custom field mapping is based on field keys. If a conflicting field key already exists in HighLevel, the import may fail. HubSpot calculated fields are imported as Single Line Text fields.  
+  
+
+  * **Files & Attachments: **File attachments are supported for Contacts and Opportunities.  
+  
+
+  * **Contacts:** If an imported contact is deleted in HighLevel and the importer is run again, the contact will be imported again. If the deleted contact is later restored, duplicate contacts may be created.  
+  
+
+  * **Notes:** A note can be associated with only one record of each object type. For example, a note can be linked with one contact, one opportunity and one company.  
+  
+
+  * **Tasks:** Recurring tasks are not supported. A task can be associated with up to 10 records of each object type. For example, a task can be linked with 10 contacts, 10 opportunities and 10 companies.  
+  
+
+  * **Associations:** Some associations may not be imported due to platform limits. Customers should validate critical associations after migration.
+
 
 * * *
 
@@ -214,11 +250,15 @@ Choose which HubSpot objects to bring over:
   
 
 
-  * **Contacts** : people you track (leads, customers, prospects).  
+  * **Contacts** : People you track (leads, customers, prospects).  
   
 
 
-  * **Deals:** pipeline value and status. Deals are imported as **Opportunities**.  
+  * **Tasks:** track to-dos, follow-ups, and reminders linked to your records.  
+  
+
+
+  * **Deals:** Track pipeline value and status. Deals are imported as **Opportunities**.  
   
 Importing Deals requires Contacts. Contacts will be auto-selected if you pick Deals.
 
@@ -241,11 +281,15 @@ The wizard automatically includes the related data needed to keep your records c
   
 
 
-  * **Contacts:** all properties (standard + custom fields).  
+  * **Contacts:** all properties (standard + custom fields), notes  
   
 
 
-  * **Deals:** all properties + **pipelines**.  
+  * **Tasks:** associations.  
+  
+
+
+  * **Deals:** all properties, pipelines, notes, associations.  
   
 Pipeline stages are imported along with pipelines. You don't need to recreate them.  
   
@@ -295,6 +339,11 @@ Before the import starts, the wizard shows what will be brought over and how man
     
     
     **Note:** The **Records found** count for custom fields can differ from what you see in HubSpot's UI. The wizard counts only fields it can map and import, so a small gap between the two numbers is expected.
+
+  
+
+
+Optionally click the **Edit** (pencil) icon next to contact properties or deal properties to select the specific properties to include.
 
   
 
@@ -352,7 +401,7 @@ The four cards at the top give you the headline numbers:
 
 
   
-**Object view** (the default tab) summarises each object: how many succeeded, how many errored, and overall status.
+**Object view** (the default tab) summarizes each object: how many succeeded, how many errored, and overall status.
 
   
 ![The Import details modal in Object view, showing total records, success, errors, and imported-with-warnings counts plus a per-object summary table.](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071278815/original/zKJLQBdvxJ4p4St10bqYnIcpVisDj9xgrg.png?1778701321)

@@ -600,11 +600,11 @@ The 5% markup applies to a specific set of categories (SMS carrier fees, MMS car
 
 Attachments (3)
 
-[ csv Voice_Pricing.csv  
-191 KB ](</helpdesk/attachments/155069175203>)
-
 [ csv Sms_Pricing.csv  
 55 KB ](</helpdesk/attachments/155069176114>)
 
 [ csv NumbersPricing_Updated.csv  
 8.55 KB ](</helpdesk/attachments/155069177045>)
+
+[ numbers Voice_Pricing.numbers  
+403 KB ](</helpdesk/attachments/155073522625>)

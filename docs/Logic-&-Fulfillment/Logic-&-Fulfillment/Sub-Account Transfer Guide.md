@@ -12,6 +12,8 @@ A sub-account transfer is the movement of a sub-account from one Agency (Releasi
 
 **TABLE OF CONTENTS**
 
+  * Who Can Request or Complete Sub-Account Transfers?
+
   * Steps to Transfer a Sub-Account to Another Agency (Send)
   * Steps to Receive a Sub-Account from Another Agency
   * What Information and Assets are Transferred Over?
@@ -23,6 +25,39 @@ A sub-account transfer is the movement of a sub-account from one Agency (Releasi
 
 
 * * *
+
+* * *
+
+## **Who Can Request or Complete Sub-Account Transfers?**
+
+  
+
+
+By default, only the **Agency Owner** can request or complete sub-account transfers.
+
+  
+
+
+Sub-account transfer access is not automatically available to all Agency Admins. However, the Agency Owner can choose to grant this access to specific Agency Admins through user permissions.
+
+  
+
+
+Agency Admins who have been granted the appropriate sub-account transfer permission will be able to request or complete transfers on behalf of the agency.
+
+  
+
+
+To learn how to manage user permissions, please refer to the **[User Permissions](<https://help.gohighlevel.com/support/solutions/articles/155000002543-agency-managing-user-roles-permissions#Assign-Permissions>)** article.
+
+  
+
+    
+    
+    You must be the Agency Owner or an Agency Admin with sub-account transfer permission to perform this action.
+
+  
+
 
 * * *
 

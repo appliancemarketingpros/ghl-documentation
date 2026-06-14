@@ -116,10 +116,12 @@ Together, these components provide a comprehensive Content Management system wit
 Multiple channels are available within each group to categorize discussions and facilitate organized conversations. Only admins have the privilege to create these channels. 
 
   
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002352409/original/UWWwsYj9SrmNGYSmdsCGVoZ7IMpC1qZq_Q.gif?1688566009)
 
+  
   
 
 
@@ -145,6 +147,7 @@ For instance: "Marketing Reports"
 This should be a brief, succinct name for your channel that encapsulates its purpose. You have a limit of 15 characters for this field, meaning your channel name should be short.
 
   
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002351570/original/WV8WkntS36MV4ddNmeSNsMLlj8yEN0_Kpw.png?1688565568)
@@ -168,6 +171,7 @@ Example: "A space for dialogue and sharing around our marketing reports."
 This is a brief summary of your channel and the discussions it intends to facilitate. It should provide a clear context for potential members. Remember that you have a maximum of 60 characters for this description, so it should be concise yet informative.
 
   
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002351620/original/Fqn_vld-eqFIAoGkJAmShIsYaVVgDSL7bg.png?1688565582)
@@ -185,6 +189,7 @@ This is a brief summary of your channel and the discussions it intends to facili
 
 Select a distinctive icon that visually symbolizes your channel. This icon will be displayed next to your channel name, offering members a visual cue that helps them identify your channel quickly.
 
+  
   
 
 
@@ -208,6 +213,51 @@ Select a distinctive icon that visually symbolizes your channel. This icon will 
   * Once you have entered the channel name, description, and selected an icon, create the channel.
 
 
+###   
+**Comments and Reactions**
+
+Members can engage with posts and comments using reactions and replies. Communities keeps reaction totals, comment totals, and reply counts in sync with actual activity across devices and sessions.
+
+**Reactions**
+
+Communities tracks each reaction type and displays accurate totals:  
+  
+
+
+\- Like  
+  
+
+
+\- Heart  
+  
+
+
+\- Smiley  
+  
+
+
+\- Funny  
+  
+
+
+\- Support  
+  
+
+
+\- Love  
+  
+
+
+\- Idea  
+  
+
+
+\- Wave
+
+**Comments and Replies**
+
+Communities shows stable comment and reply totals based on real conversation threads. Counts stay accurate during retries, background sync, and high activity.
+
 * * *
 
 ## **How to Create a Post**
@@ -222,6 +272,7 @@ Members can create rich posts within the group, each associated with a specific 
 
 Before creating a post, ensuring the desired channel has been created is important. Here's a rephrased version of the process:
 
+  
   
 
 
@@ -259,6 +310,7 @@ Additionally, our platform supports video embedding from popular sources like Yo
 What's your headline? Please provide a concise yet descriptive title to summarize your post content.
 
   
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002356384/original/CNVS3wWHL5TEw-WpfOgGU27E39dJGLBHGw.png?1688568657)
@@ -276,6 +328,7 @@ What's your headline? Please provide a concise yet descriptive title to summariz
 
 Write your main content here. Be it an announcement, question, or discussion starter, express your thoughts clearly and engagingly.
 
+  
   
 
 
@@ -295,6 +348,7 @@ Write your main content here. Be it an announcement, question, or discussion sta
 You can add visual appeal to your post by including images. Click the upload button or drag and drop an image file into the designated area. You can upload files in SVG, PNG, JPG, or GIF formats, with a maximum size of 800x400px.
 
   
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002356438/original/K6hFUyx1UOoPbGeN6pO89dVwcG_GFQnhJg.png?1688568710)
@@ -312,6 +366,7 @@ You can add visual appeal to your post by including images. Click the upload but
 
 Include videos in your post for a more dynamic presentation. Upload an MP4 video file by clicking the upload button or using the drag-and-drop feature.
 
+  
   
 
 
@@ -343,6 +398,7 @@ Include videos in your post for a more dynamic presentation. Upload an MP4 video
 
   * In the designated text area, paste the share link of the video that you obtained earlier.  
   
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002358590/original/2D04XP0IHu4yKiKO1IR6mx22YRczr1hR5g.png?1688570134)  
   
 
@@ -357,6 +413,7 @@ Include videos in your post for a more dynamic presentation. Upload an MP4 video
 
 Supplement your post with files like PDFs, CSVs, or XLSX files. To upload, click the upload button or drag and drop the file into the designated area.
 
+  
   
 
 
@@ -376,6 +433,7 @@ Supplement your post with files like PDFs, CSVs, or XLSX files. To upload, click
 Hyperlinking text in your post can lead readers to additional resources or relevant content. To add a hyperlink, highlight the text you want to link, paste your URL in the designated area, and click 'Add Link'.
 
   
+  
 
 
 ### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002356769/original/iXWzJ9fQNFS5TnG1Zz5Of9zZnH1QJt_ESw.png?1688568942)
@@ -393,6 +451,7 @@ Hyperlinking text in your post can lead readers to additional resources or relev
 
 Make your post more engaging and expressive by adding emojis. Search for or select an emoji from our extensive library, which includes a wide array of emojis divided into standard categories.
 
+  
   
 
 
@@ -412,6 +471,7 @@ Make your post more engaging and expressive by adding emojis. Search for or sele
 You can choose which Group Channel you want to post in and create a new Group Channel when adding a new post.
 
   
+  
 
 
 ### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002357175/original/jcImV1znaXXpjIhzATGcutscm2Mg1Hu5XA.png?1688569190)
@@ -430,6 +490,7 @@ You can choose which Group Channel you want to post in and create a new Group Ch
 Once you have finalized the content of your post, click on the **"Publish Post"** button to publish it.
 
   
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002357242/original/l9y-1Gl5su2DCnGBvKkXgOOnPVaX8vbdBQ.png?1688569227)
@@ -443,6 +504,7 @@ Once you have finalized the content of your post, click on the **"Publish Post"*
 
 To get a comprehensive overview of what is happening inside your group, navigate to the home timeline. It is the designated space where you can view posts from all members across all channels in one convenient location. Regularly checking the home timeline lets you stay informed and engaged with the ongoing conversations and updates within your group.
 
+  
   
 
 
@@ -465,11 +527,13 @@ The home timeline serves as a centralized hub that displays posts from all membe
 
 **1\. Modal view:** When you open a post while browsing inside a group (for example, from the timeline or a channel), the post can open in a modal so you can review content without fully leaving your current view.  
   
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064160050/original/94RLsou1ErYU5srDa1zqbEffk77PMaaJ6Q.png?1770200507)  
   
 
 
 **2\. Full-page view:** When you open a post from a direct link (for example, from an email notification), the post opens in a dedicated, full-screen page for a more focused reading experience.  
+  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064160008/original/EUl-I8sYkATmyJLwxe6_CKN9O9JK6ezpVg.png?1770200492)
 
@@ -557,11 +621,20 @@ Admins and moderators have the authority to delete any posts within the group if
   
 
 
-  * Locate the post you want to delete within the group.
-  * On the right side of the post, you will find three dots icon.
-  * Click on the three dots icon to reveal a dropdown menu of options.
-  * From the menu, select the "Delete Post" option.
+  * Locate the post you want to delete within the group.  
+  
+
+  * On the right side of the post, you will find three dots icon.  
+  
+
+  * Click on the three dots icon to reveal a dropdown menu of options.  
+  
+
+  * From the menu, select the "Delete Post" option.  
+  
+
   * By selecting this option, the post will be permanently removed from the group  
+  
   
 
 

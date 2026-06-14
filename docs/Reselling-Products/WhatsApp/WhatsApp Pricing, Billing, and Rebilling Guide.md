@@ -10,9 +10,46 @@
 
 A comprehensive overview of WhatsApp pricing, billing, and rebilling for agencies and sub-accounts in HighLevel.
 
+Pricing Update
+
+Updated WhatsApp Per-Message Pricing — Effective July 2026
+
+We are updating per-message pricing for WhatsApp template messages, effective with your July 2026 billing. These changes reflect updates to Meta's underlying per-message rates. **Service conversations remain FREE in all markets. Most markets see no change.**
+
 Table of Contents
 
-1\. Overview of WhatsApp Billing 2\. WhatsApp Messaging Rates by Market/Country 3\. WhatsApp Subscription Charges for Agencies 4\. Message-Based Pricing [Effective 1 July 2025] 5\. Service Conversations [Effective 1 November 2024] 6\. Free Entry Point Conversations [Effective 1 June 2023] 7\. WhatsApp Calling Pricing 8\. Rebilling WhatsApp Messages 9\. Frequently Asked Questions 10\. Related Articles
+0\. July 2026 Pricing Update 1\. Overview of WhatsApp Billing 2\. WhatsApp Messaging Rates by Market/Country 3\. WhatsApp Subscription Charges for Agencies 4\. Message-Based Pricing [Effective 1 July 2025] 5\. Service Conversations [Effective 1 November 2024] 6\. Free Entry Point Conversations [Effective 1 June 2023] 7\. WhatsApp Calling Pricing 8\. Rebilling WhatsApp Messages 9\. Frequently Asked Questions 10\. Related Articles
+
+## July 2026 Pricing Update [Effective July 2026 Billing]
+
+The following rate changes and new named market additions take effect with July 2026 billing. All changes are reflected in the full rates table in Section 2.
+
+### Rate Updates
+
+Market| Category| Previous Rate| New Rate| Change  
+---|---|---|---|---  
+Italy| Marketing| $0.0726| $0.0835| +15%  
+Saudi Arabia| Marketing| $0.0478| $0.0526| +10%  
+Spain| Marketing| $0.0646| $0.0742| +15%  
+United Kingdom| Marketing| $0.0555| $0.0667| +20%  
+Pakistan| Utility| $0.0057| $0.0105| +84%  
+Turkey| Utility| $0.0056| $0.0009| -84%  
+  
+### New Named Markets
+
+Six markets now have dedicated rates instead of billing under a regional "Rest of" rate:
+
+New Market| Marketing Rate| Utility Rate| Previously Billed Under  
+---|---|---|---  
+Hong Kong| $0.0769| $0.0273| Rest of Asia Pacific ($0.0119)  
+Singapore| $0.0769| $0.0168| Rest of Asia Pacific ($0.0119)  
+Hungary| $0.0903| $0.0368| Rest of Central & Eastern Europe ($0.0223)  
+Poland| $0.0384| $0.0128| Rest of Central & Eastern Europe ($0.0903 mkt)  
+Romania| $0.0903| $0.0305| Rest of Central & Eastern Europe ($0.0223)  
+Qatar| $0.0358| $0.0126| Rest of Middle East ($0.0096)  
+      
+    
+    **Highlight:** Poland Marketing drops 57% vs the old regional rate ($0.0903 to $0.0384). Hong Kong, Singapore, Hungary, Romania, and Qatar all see higher Utility rates than their previous regional bucket. Service conversations remain FREE in all markets.
 
 ## Overview of WhatsApp Billing
 
@@ -54,11 +91,53 @@ Cost-Efficient Entry Points
 
 ## WhatsApp Messaging Rates by Market/Country [Effective 1 April 2026]
 
-Understanding conversation rates by market or country helps businesses plan communication costs effectively. Rates vary depending on the type of conversation (Marketing, Utility, or Service) and the region where the message is sent.
+Understanding conversation rates by market or country helps businesses plan communication costs effectively. Rates vary depending on the type of message (Marketing, Utility, or Service) and the region where the message is sent.
+    
+    
+    **Service conversations are FREE in all markets.** Only Marketing and Utility template messages are charged. See the July 2026 update above for the latest rate changes.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068003171/original/2OXrIEE4vYuwhqndjQ3AaCfM3DyXkqME4g.png?1774852182)
-
-WhatsApp pricing rate sheet — click to zoom
+Market| Currency| Marketing| Utility| Service  
+---|---|---|---|---  
+Argentina| $US| $0.0649| $0.0273| FREE  
+Brazil| $US| $0.0656| $0.0071| FREE  
+Chile| $US| $0.0933| $0.0210| FREE  
+Colombia| $US| $0.0131| $0.0008| FREE  
+Egypt| $US| $0.0676| $0.0038| FREE  
+France| $US| $0.0902| $0.0315| FREE  
+Germany| $US| $0.1433| $0.0578| FREE  
+India| $US| $0.0124| $0.0015| FREE  
+Indonesia| $US| $0.0432| $0.0263| FREE  
+Israel| $US| $0.0371| $0.0056| FREE  
+Italy Updated Jul 2026| $US| $0.0835| $0.0315| FREE  
+Malaysia| $US| $0.0903| $0.0147| FREE  
+Mexico| $US| $0.0320| $0.0089| FREE  
+Netherlands| $US| $0.1677| $0.0525| FREE  
+Nigeria| $US| $0.0542| $0.0070| FREE  
+Pakistan Utility Updated Jul 2026| $US| $0.0497| $0.0105| FREE  
+Peru| $US| $0.0738| $0.0210| FREE  
+Russia| $US| $0.0842| $0.0420| FREE  
+Saudi Arabia Updated Jul 2026| $US| $0.0526| $0.0112| FREE  
+South Africa| $US| $0.0398| $0.0080| FREE  
+Spain Updated Jul 2026| $US| $0.0742| $0.0210| FREE  
+Turkey Utility Down Jul 2026| $US| $0.0114| $0.0009| FREE  
+United Arab Emirates| $US| $0.0524| $0.0165| FREE  
+United Kingdom Updated Jul 2026| $US| $0.0667| $0.0231| FREE  
+North America (US & Canada)| $US| $0.0263| $0.0036| FREE  
+Hong Kong New Jul 2026| $US| $0.0769| $0.0273| FREE  
+Singapore New Jul 2026| $US| $0.0769| $0.0168| FREE  
+Hungary New Jul 2026| $US| $0.0903| $0.0368| FREE  
+Poland New Jul 2026| $US| $0.0384| $0.0128| FREE  
+Romania New Jul 2026| $US| $0.0903| $0.0305| FREE  
+Qatar New Jul 2026| $US| $0.0358| $0.0126| FREE  
+Rest of Africa| $US| $0.0236| $0.0042| FREE  
+Rest of Asia Pacific| $US| $0.0769| $0.0119| FREE  
+Rest of Central & Eastern Europe| $US| $0.0903| $0.0223| FREE  
+Rest of Latin America| $US| $0.0777| $0.0119| FREE  
+Rest of Middle East| $US| $0.0358| $0.0096| FREE  
+Rest of Western Europe| $US| $0.0622| $0.0180| FREE  
+Other| $US| $0.0634| $0.0081| FREE  
+  
+Rows highlighted in green are new named markets added in July 2026. Updated rates are shown in red. Service conversations are always FREE.
 
 ## WhatsApp Subscription Charges for Agencies
 
@@ -123,8 +202,8 @@ Starting July 1, 2025, WhatsApp adopts a **message-based pricing model** that ch
     
     **IMPORTANT:** Each category has specific initiation methods.
     
-    • Marketing, utility, and authentication conversations can ONLY be opened with _template messages_.
-    • Service conversations can ONLY be opened with _free-form messages_.
+    • Marketing, utility, and authentication conversations can ONLY be opened with template messages.
+    • Service conversations can ONLY be opened with free-form messages.
     
     To learn how to choose an appropriate category when creating your WhatsApp templates, see [Template Categorization Guidelines.](<https://help.gohighlevel.com/en/support/solutions/articles/155000001058>)
 
@@ -134,11 +213,11 @@ Starting July 1, 2025, WhatsApp adopts a **message-based pricing model** that ch
 
 | Is it billable?  
 ---|---  
-Message type| Message category| When can it be sent?| Delivered outside CSW*| Delivered inside CSW*| Delivered inside FEP** window  
+Message type| Category| When can it be sent?| Outside CSW*| Inside CSW*| Inside FEP** window  
 Template messages| Marketing| Anytime| Yes| Yes| No  
 Authentication| Anytime| Yes| Yes| No  
 Utility| Anytime| Yes| No| No  
-Non-template (free-form) messages| Service| Only inside an open CSW*| N/A| No| No  
+Non-template (free-form)| Service| Only inside an open CSW*| N/A| No| No  
   
 * **CSW** = Customer Service Window ** **FEP** = Free Entry Point
 
@@ -157,26 +236,21 @@ This 24-hour timer begins when a customer messages you. During this window, free
     
     **Free-form messages** are any message type that is not a template.
 
-Examples:
-
-Example 1: Per Message Based PricingWe charge for each template message a business sends to a user. For example, if a business sends 1 marketing message and 1 utility message, that incurs 1 charge for each category.(Click the phone image to zoom into the conversation)| ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155048395364/original/UBRkd8sw5g10YF7Wl8dN_KLC675t5pzHsA.png?1750160944)  
----|---  
-Example 2: Free-Form and Utility Messages**Businesses can respond to users at no charge with free-form messages and utility template messages.** When the customer service window is open, businesses can also send utility messages, at no charge.(Click the phone image to zoom into the conversation)| ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155048395540/original/BCwAsA-TiIu_66DIx9g1MeBirrO7lttoUA.png?1750161079)  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155048395776/original/B1fsAfdjLvwc-PIYGn10E1_NQ29jZF3hVw.png?1750161224)
 
 ## Free Entry Point Conversations [Effective 1 June 2023]
 
 Free entry point conversations provide cost-saving opportunities for businesses by allowing free communication for a limited duration.
 
-▶
+►
 
 **How It's Triggered:** A customer messages you via a Click to WhatsApp Ad or Facebook Page Call-to-Action button, and you respond within 24 hours.
 
-▶
+►
 
 **Duration:** These conversations last **72 hours** and automatically close all other open conversations.
 
-▶
+►
 
 **Cost Efficiency:** Once initiated, no additional charges are incurred for any type of message sent within the 72-hour window.
     
@@ -204,21 +278,12 @@ Business-Initiated Calls
 Per minute
 
 Rate depends on destination market
-
-### How Calls Are Billed
-
-Businesses are charged for calls based on:
-
-| **Duration of the call** — calculated in **six-second pulses**  
----  
-| **Country code** of the phone number being called  
----  
-      
+    
     
     **Example:** A 56-second call = 9.33 pulses → rounded up to **10 pulses**.
-    Fractional pulses are always counted as one full pulse.
+    Fractional pulses are always counted as one full pulse. Calls are billed in **6-second pulses**.
 
-### Call Rates by Market (USD per minute)
+Call Rates by Market (USD per minute)
 
 Market| Country Code| Currency| Rate per Minute  
 ---|---|---|---  
@@ -256,25 +321,9 @@ Turkey| +90| USD| N/A
 North America (US & Canada)| +1| USD| N/A  
       
     
-     User-Initiated Calling
-    Available in **every location where Cloud API is available**. No country restrictions apply.
+    Business-Initiated Calling is NOT available if your business phone number is registered in: United States, Canada, Egypt, Vietnam, or Nigeria.
     
-     Business-Initiated Calling
-    
-    Your business can call customers in most countries. However, calling is **not available** if your business phone number is registered in any of these countries:
-
-|  United States  
----  
-Canada  
-Egypt  
-| |  Vietnam  
----  
-Nigeria  
-**Note:** The country restriction applies to your **business phone number**. Your customers can be located in any country where WhatsApp is supported.  
-
-
-  
-
+    **Note:** The country restriction applies to your business phone number. Your customers can be located in any supported country.
 
 ## Rebilling WhatsApp Messages
 
@@ -298,15 +347,6 @@ Rebilling offers agencies flexibility in setting WhatsApp messaging pricing for 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155040536184/original/-KAyIRrTqLCTNrpXEihCEn8u1tSeQITYcg.jpeg?1738002508)
 
-### Your Client's WhatsApp Subscription
-
-When your client purchases WhatsApp services from you, two subscriptions are created:
-
-  1. Between the client's card and your Stripe account for client payments.
-  2. Between HighLevel and your Stripe account to pay HighLevel the $10/month/location subscription fee.
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155040534167/original/cSHp4gY3u2Dii6KdL3Dc5DPF7sf30L1uww.png?1737999333)
-
 ### How to Set Up WhatsApp Rebilling
 
   1. **Access Billing Settings:** Navigate to the Settings tab in HighLevel.
@@ -328,54 +368,43 @@ Q: What are the different conversation categories?
   * **Marketing:** For promotional messages and retargeting campaigns.
   * **Utility:** For user-requested updates such as delivery or payment notifications.
   * **Authentication:** For verifying users with one-time passcodes.
-  * **Service:** For resolving customer inquiries or issues.
+  * **Service:** For resolving customer inquiries or issues — always free.
 
 
-Q: How are conversations opened?
+Q: Which markets were affected by the July 2026 pricing update?
 
-  * **Marketing, Utility, and Authentication:** Opened when a template message is sent and delivered, provided no open conversation of that category exists.
-  * **Service Conversations:** Opened when a free-form message is sent and delivered, provided no other conversation is open.
+The following rate changes apply from July 2026 billing:
 
-
-Q: Can multiple conversations be open with the same customer?
-
-Yes, multiple conversations can be open if:
-
-  * A new template message of a different category is sent within 24 hours.
-  * A service conversation exists, and a template message is sent within 24 hours.
+  * **Italy, Saudi Arabia, Spain, United Kingdom** — Marketing rate increase.
+  * **Pakistan** — Utility rate increase (+84%).
+  * **Turkey** — Utility rate decrease (-84%).
+  * **Hong Kong, Singapore, Hungary, Poland, Romania, Qatar** — New dedicated rates (previously billed under regional rates).
 
 
 Q: What is a customer service window?
 
-A customer service window is a **24-hour timer** that starts when a customer messages you. It allows businesses to send free-form messages within that period.
+A customer service window is a **24-hour timer** that starts when a customer messages you. It allows businesses to send free-form messages and utility template messages within that period at no charge.
 
 Q: What is a free entry point conversation?
 
 Free entry point conversations are initiated when a customer contacts you via a **Click to WhatsApp Ad** or **Facebook Page Call-to-Action button** , and you respond within **24 hours**. It lasts for **72 hours** and allows sending all types of messages without additional charges.
 
-Q: What happens if I send templates of different categories in the same 24-hour conversation window?
-
-Sending a template of a new category will open a separate conversation and result in an additional charge, unless it is sent during an open conversation of the same category.
-
 Q: Are WhatsApp calls charged per minute or per call?
 
-Business-initiated calls are charged **per minute** based on the destination market. User-initiated (inbound) calls are completely **free of charge**. Calling is not available in Egypt, Nigeria, Turkey, and North America.
+Business-initiated calls are charged **per minute in 6-second pulses** , based on the destination market. User-initiated (inbound) calls are completely **free of charge**. Business-initiated calling is not available in Egypt, Nigeria, Turkey, Vietnam, the United States, or Canada.
+
+Q: Can multiple conversations be open with the same customer?
+
+Yes. Multiple conversations can be open if a new template message of a different category is sent within 24 hours, or if a service conversation exists and a template message is sent within 24 hours.
 
 ## Related Articles
 
 [↗ WhatsApp Full Setup Guide for Agency](<https://help.gohighlevel.com/en/support/solutions/articles/48001206216>) [↗ WhatsApp Contact Management and Smartlist](<https://help.gohighlevel.com/en/support/solutions/articles/155000002066>) [↗ WhatsApp: Send Message Templates (Snippets)](<https://help.gohighlevel.com/en/support/solutions/articles/155000003069>) [↗ Rebilling, Reselling, and Wallets Explained](<https://help.gohighlevel.com/en/support/solutions/articles/155000002095>) [↗ Workflow Trigger: Click to WhatsApp Ads](<https://help.gohighlevel.com/en/support/solutions/articles/155000005602>) [↗ WhatsApp and the Sub-Account Set Up](<https://help.gohighlevel.com/en/support/solutions/articles/155000001980>)
 
-### Video Tutorials from the Community
-
-[▶ https://youtu.be/4Psj431vVjo](<https://youtu.be/4Psj431vVjo>) [▶ https://youtu.be/bHTCrcH5DsQ](<https://youtu.be/bHTCrcH5DsQ>) [▶ https://youtu.be/PEdR5xgAS4I](<https://youtu.be/PEdR5xgAS4I>) [▶ https://www.youtube.com/watch?v=XjDLwz0Ary4](<https://www.youtube.com/watch?v=XjDLwz0Ary4>)
-
-  
-
-
-  
-
-
-Attachments (1)
+Attachments (2)
 
 [ csv WhatsApp Pricing - April 2026.csv  
 1.18 KB ](</helpdesk/attachments/155068757419>)
+
+[ csv WhatsApp Pricing - July 2026.csv  
+1.34 KB ](</helpdesk/attachments/155073546207>)

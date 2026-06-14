@@ -7,7 +7,12 @@
 ---
 
 Are your calls and messages acting weird in HighLevel? Maybe you're seeing different people showing up under the same number—or replies scattered across separate conversations?  
+
+
 Don’t worry—you’re not alone, and this quick guide will help you pinpoint what's happening.
+
+  
+
 
   
 
@@ -61,6 +66,27 @@ You cannot “unmask” an anonymous call. If the caller’s carrier/VoIP provid
 
 Support doc- [Why-am-i-getting-calls-from-strange-numbers](<https://help.twilio.com/articles/223179988-Why-am-I-getting-calls-from-these-strange-numbers->)
 
+* * *
+
+## **Check the Message Source Before Escalating**
+
+  
+
+
+If a message appears to have been sent unexpectedly, review the message details in Conversations before escalating the issue. Messages sent through a Marketplace App or custom provider can include source information that helps identify which integration triggered the message.
+
+  
+
+
+This can help you confirm whether the message came from an installed app, a custom provider, or another connected source.
+
+  
+
+
+[Screenshot: Message Details modal showing the Ma![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073370023/original/IK05ZMrlivZYXJawtgXIANgsUvC8zi6TVg.png?1781097425)
+
+* * *
+
 ### 2)What you’ll see:
 
 Replies in Separate Conversations?
@@ -87,6 +113,9 @@ _“We now support Group Texting, but it's important to note that this feature i
 
 
 ## **Frequently Asked Questions**
+
+  
+
 
 Q: Why are replies showing up in separate conversations?  
 A: Our system doesn't yet support Group Texting or Group SMS for countries outside of the US/Canada. Because of this limitation, replies from each participant get routed into separate, individual conversation threads.

@@ -6,7 +6,7 @@
 
 ---
 
-Granular permissions for **Voice AI Agents** give account owners pinpoint control over who can view, configure, and analyze AI‑powered voice agents. Whether you're managing a large team or onboarding new roles, these settings help protect agent logic and streamline team workflows
+Granular permissions for Voice AI Agents give account owners pinpoint control over who can view, configure, and analyze AI‑powered voice agents. Whether you're managing a large team or onboarding new roles, these settings help protect agent logic and streamline team workflows
 
 * * *
 
@@ -32,7 +32,7 @@ Granular permissions for **Voice AI Agents** give account owners pinpoint contro
   
 
 
-Granular permission controls for Voice AI Agents give teams the flexibility to assign role-specific access while protecting sensitive configurations and workflows. Using four distinct toggles, you can govern different parts of the Voice AI experience. Instead of an "all‑or‑nothing" approach, you can decide who creates agents, who tweaks their goals, and who sees performance data. 
+Granular permission controls for Voice AI Agents give teams the flexibility to assign role-specific access while protecting sensitive configurations and workflows. Using four distinct toggles, you can govern different parts of the Voice AI experience. Instead of an "all‑or‑nothing" approach, you can decide who creates agents, who tweaks their goals, and who sees performance data.
 
   
 
@@ -44,10 +44,8 @@ With these settings, users can:
   * Control who can view or manage agents  
   
 
-
   * Define access to goal configuration features  
   
-
 
   * Separate dashboard visibility from editing privileges
 
@@ -69,7 +67,7 @@ Fine‑tuned permissions help you balance security with productivity.
   * **Ensure Operational Clarity:** Separate permissions for dashboards, goals, and agent configuration to ensure each user understands their specific scope.  
   
 
-  * **Support Scalable On****boarding:** Easily assign appropriate access for support, training, and admin as your team or agency grows.  
+  * **Support Scalable Onboarding:** Easily assign appropriate access for support, training, and admin as your team or agency grows.  
   
 
   * **Stronger Role Boundaries:** Voice AI permissions now control not only what users can do, but also what they can see. Users without Voice AI access won’t see Voice AI entries in navigation menus, reducing accidental discovery and preventing unauthorized access attempts.
@@ -90,7 +88,7 @@ Setting up granular Voice AI permissions uses the Roles & Permissions panel. Fol
   
 
 
-#### _**Step 1:** Navigate to _ _My Staff_
+#### _**Step 1:** Navigate to My Staff_
 
   
 
@@ -98,10 +96,10 @@ Setting up granular Voice AI permissions uses the Roles & Permissions panel. Fol
   * From your sub-account, click **Settings** in the lower left corner  
   
 
-  * Using the left side navigation bar, select **My Staff**  
+  * Using the left side navigation bar, select**My Staff**  
   
 
-  * Locate the staff member you’d like to update and click the **Edit (Pencil)** icon
+  * Locate the staff member you’d like to update and click the **Edit** (Pencil) icon
 
 
   
@@ -111,16 +109,16 @@ Setting up granular Voice AI permissions uses the Roles & Permissions panel. Fol
   
 
 
-#### ** _Step 2:_**_Locate AI Agents Settings_
+####  _**Step 2:** Locate AI Agents Settings_
 
   
 
 
-  * Using the secondary navigation bar on the left, click **Roles****and Permissions**  
+  * Using the secondary navigation bar on the left, click **Roles and Permissions**  
   
 
-  * Scroll down to **AI Agents**  
-  
+  * Scroll down to **AI Agents  
+**  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155050399637/original/Udv794zvMqf2hLZ3b7nwzGntSpU8h2qw4A.png?1753384115)
@@ -131,7 +129,7 @@ Setting up granular Voice AI permissions uses the Roles & Permissions panel. Fol
   
 
 
-#### ** _Step 3:_**_Configure Permission Settings_
+####  _**Step 3:** Configure Permission Settings_
 
   
 
@@ -170,7 +168,7 @@ For more information on each permission, see Permission Types Explained
 
 ####  _**Step 4:** Save your Changes_
 
-####   
+  
 
 
 Confirm your changes have been applied successfully by clicking the blue **Save** button
@@ -208,19 +206,18 @@ This is the primary permission for managing agents, best suited for users who ne
   
 
 
-**When Enabled:**
+When Enabled:
 
   
 
 
-  * Full access to **create, edit and delete** Voice AI agents  
+  * Full access to create, edit and delete Voice AI agents  
   
-
 
   * Ability to assign phone numbers, update settings, and configure agent behavior  
   
 
-  * Enables dependent goal-related permissions like “View & Manage Agent Goals” and “View Agent Goals” __
+  * Enables dependent goal-related permissions like “View & Manage Agent Goals” and “View Agent Goals”
 
 
   
@@ -229,7 +226,7 @@ This is the primary permission for managing agents, best suited for users who ne
   
 
 
-**When Disabled:**
+When Disabled:
 
   
 
@@ -239,7 +236,6 @@ This is the primary permission for managing agents, best suited for users who ne
 
   * Users cannot create or modify agents  
   
-
 
   * Disables only goal-related permissions, since they are child-level permissions  
   
@@ -255,16 +251,19 @@ This is the primary permission for managing agents, best suited for users who ne
   
 
 
-### **Navigation Visibility and Real-Time Enforcement**
+  
+
+
+**Navigation Visibility and Real-Time Enforcement**
 
   
 
 
-**Navigation Visibility (When Voice AI Permissions Are Not Assigned)**  
+Navigation Visibility (When Voice AI Permissions Are Not Assigned)  
   
 
 
-  * Voice AI navigation items are hidden in the location UI, including Voice AI entries inside the **AI Agents** area and the **Settings** sidebar. (Needs Confirmation: exact menu labels vary by UI.)
+  * Voice AI navigation items are hidden in the location UI, including Voice AI entries inside the AI Agents area and the Settings sidebar.
 
 
   
@@ -272,7 +271,7 @@ This is the primary permission for managing agents, best suited for users who ne
   
 
 
-  * If a user’s Voice AI permissions are revoked while they are actively using Voice AI, HighLevel immediately blocks further actions and shows a **Permission Denied** message. (Needs Confirmation: exact message text and placement.)
+  * If a user’s Voice AI permissions are revoked while they are actively using Voice AI, HighLevel immediately blocks further actions and shows a Permission Denied message.
 
 
   
@@ -288,9 +287,6 @@ Suitable for roles like support or training that require awareness but not contr
   
 
 
-  
-
-
 **When Enabled** :
 
   
@@ -299,11 +295,7 @@ Suitable for roles like support or training that require awareness but not contr
   * Provides read-only access to the Agent Goals tab  
   
 
-
   * Users can view configured settings without risk of edits or misconfigurations
-
-
-  
 
 
   
@@ -317,12 +309,12 @@ Suitable for roles like support or training that require awareness but not contr
   * Goals tab not visible  
   
 
-
-  * **No visibility** into how agents are configured  
+  * No visibility into how agents are configured  
   
 
+  * Useful for limiting access to sensitive automation logic
 
-  * Useful for limiting access to sensitive automation logic  
+
   
 
 
@@ -378,7 +370,9 @@ Best suited for advanced users or admins who handle AI logic and workflows.
   * Offers a balance between setup flexibility and long-term control  
   
 
-  * Users cannot upgrade to the new Voice AI experience without **View & Manage Voice AI Agent Goals** permission. Agent Goals remains view-only when only read access is granted.  
+  * Users cannot upgrade to the new Voice AI experience without **View & Manage Voice AI Agent Goals** permission. Agent Goals remains view-only when only read access is granted.
+
+
   
 
 
@@ -400,9 +394,6 @@ Recommended for supervisors and analysts who monitor Voice AI outcomes.
   
 
 
-  
-
-
 **When Enabled** :
 
   
@@ -415,9 +406,6 @@ Recommended for supervisors and analysts who monitor Voice AI outcomes.
   * Includes transcripts, summaries, call recordings, and key metrics
 
 
-  
-
-
 **  
 **
 
@@ -428,7 +416,6 @@ Recommended for supervisors and analysts who monitor Voice AI outcomes.
 
   * Hides the Voice AI dashboard globally and within the agent detail views  
   
-
 
   * Prevents exposure of call logs, sensitive data, and performance metrics
 

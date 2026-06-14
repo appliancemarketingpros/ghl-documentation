@@ -1016,7 +1016,7 @@ No. AI Studio projects can be published directly from AI Studio. You can build m
 
 
 **Q: Can I move or copy an AI Studio project into Funnels or Websites under Sites?**  
-No. AI Studio projects stay in AI Studio and cannot be not copied into the standard Funnels or Websites builders under Sites. AI Studio is designed to publish directly from its own workspace, you do not need to move the output into the legacy Funnels or Websites builders.
+No. AI Studio projects stay in AI Studio and cannot be copied into the standard Funnels or Websites builders under Sites. AI Studio is designed to publish directly from its own workspace, you do not need to move the output into the legacy Funnels or Websites builders.
 
   
 

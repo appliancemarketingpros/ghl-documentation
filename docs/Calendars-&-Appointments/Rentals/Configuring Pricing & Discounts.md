@@ -334,7 +334,11 @@ Duration discounts reward customers for booking longer rental periods. These dis
   
 
 
-**Example:** 10% off for 7+ day rentals and 20% off for 30+ day rentals. A 14-day booking gets 10% off, while a 40-day booking gets 20% off.
+**Example:** 10% off for 7+ day rentals and 20% off for 30+ day rentals. A 14-day booking gets 10% off, while a 40-day booking gets 20% off.  
+  
+
+
+**Important:** Duration discounts are applied based on the rental duration used for pricing calculations. For example, if a booking is charged as 3 months, the 3-month discount will apply—even if the actual booking duration is less than 3 months (e.g., 2 months and 1 day). This ensures discount eligibility remains consistent with how rental pricing is calculated.
 
   
 

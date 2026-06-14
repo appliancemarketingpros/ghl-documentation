@@ -9,6 +9,7 @@
 This guide provides comprehensive instructions on how to navigate and utilize the upgraded **Media Storage** feature across HighLevel. From uploading and organizing files to enhanced previews and security-aware integrations, every update is designed to make your workflow smoother and more intuitive.
 
   
+  
 
 
 * * *
@@ -17,16 +18,17 @@ This guide provides comprehensive instructions on how to navigate and utilize th
 
   * Accessing Media Storage
   * Uploading Files
+  * Uploading Folders
   * View Storage Usage with the Media Usage Modal
   * Sorting Media
-  * Grid and List View Enhancements
+  * Grid and List View
   * Quick Actions via Right-Click and Hover Menus
-  * New Insert & Preview Features
-  * Folder Management Upgrades
+  * Insert & Preview Features
+  * Folder Management
   * Trash Functionality for Safer Deletions
   * Google Drive Integration Enhancements
   * Seamless Integration Across Products
-  * Per-product File Limits
+  * Per-Product File Limits
   * Frequently Asked Questions
 
 
@@ -39,6 +41,7 @@ This guide provides comprehensive instructions on how to navigate and utilize th
 
 To access Media Storage, navigate to the **left sidebar** of your dashboard and click **Media Storage**. 
 
+  
   
 
 
@@ -54,6 +57,34 @@ To access Media Storage, navigate to the **left sidebar** of your dashboard and 
 Upload files effortlessly via **drag-and-drop**. Just drag media from your computer into the Media Storage interface no buttons required. The improved functionality ensures a faster, more intuitive upload experience.
 
 You can also upload **font files** (such as `.ttf`, `.otf`, `.woff`, `.woff2`) up to **100MB** in size. These can be used to customize branding in websites or funnels using Custom CSS.
+
+* * *
+
+## **Uploading Folders  
+**
+
+  
+You can upload an entire folder to Media Storage while keeping its folder structure. During upload, progress is shown in a folder-based view so you can track nested folders and files and a toast notification will show how many items were skipped. Folder uploads support up to 3 levels of nested folders and up to 1,000 files per upload. Folder downloads require sufficient local disk space in the browser environment
+
+  
+
+
+To upload a folder:
+
+  
+
+
+  1. Click **Upload**.  
+  
+
+  2. Select **Upload Folder.**
+
+
+  
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073303793/original/_aXXVBB2S2AjWZKtcjMN7t4KTPHnH2VkBg.png?1781032490)
 
 * * *
 
@@ -74,10 +105,12 @@ To view storage usage with the media usage modal, follow these steps:
 
   1. Click the **three-dot (⋮)** and select **Storage**.  
   
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155062681430/original/XI8ljBWL91zXbe_ZyMzRJOdu8ruXKBmIyQ.png?1768422309)  
   
 
   2. Click on any module to see usage by file type.  
+  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155062681354/original/DE-M111JGPTTIIrXoiEw0z3VKURzojMwvA.png?1768422129)
 
@@ -142,39 +175,49 @@ This removes the need to rely solely on the top navigation bar. Available action
   
 
 
-  * Rename
+  * Rename  
+  
 
-  * Delete
 
-  * Move to Folder
+  * Delete  
+  
 
-  * Preview
+
+  * Move to Folder  
+  
+
+
+  * Preview  
+  
+
 
   * Insert
 
 
 * * *
 
-## **Insert & Preview Features**
+## **Insert & Preview Features**  
 
+
+In Media Storage used within products, such as the website or funnel builder, you can preview and insert files without leaving your workflow.
+
+\- Use the Insert Media button to select and insert a single file.  
   
 
 
-In Media Storage used within products (e.g., website/funnel builder), you'll now see:
-
+\- Use the Preview option from the three-dot menu to view a file before inserting it.  
   
 
 
-  * **“Insert Media” button for single file selection** – instantly insert without navigating away.  
+\- Insert files directly from the preview screen.  
   
 
 
-  * **Preview Option** \- accessible from the three-dot menu for quick viewing.  
+\- Use the arrow buttons in preview, or press the left and right arrow keys on your keyboard, to move between images and videos without closing each file.  
   
 
 
-  * **Insert directly from Preview Screen** \- eliminates the back-and-forth between views.
-
+\- Press `Esc` to close the preview.
 
 * * *
 
@@ -190,6 +233,7 @@ In Media Storage used within products (e.g., website/funnel builder), you'll now
 
 If you have a large folder structure, you can collapse the Folders section to reduce clutter and focus on your files. In Media Storage, click the arrow next to Folders to collapse the folder list. Click it again to expand the folder list.
 
+  
   
 
 
@@ -213,7 +257,9 @@ You can **move entire folders** with their contents (including nested files and 
 
   1. Click the **three-dot (⋮)** menu next to any folder and select **Move to Folder**.  
   
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155062681158/original/brQ-banAB_56UTODCRgje7xoH4QnU7-xzw.jpeg?1768421594)  
+  
 
 
   2. Choose an existing folder or create a new one.  
@@ -229,6 +275,42 @@ You can **move entire folders** with their contents (including nested files and 
     
     **Note:** This process keeps subfolders intact.
 
+  
+
+
+  
+
+
+### **Download a Folder as a Zip**
+
+  
+
+
+You can download an entire folder as a single zip file. Folder downloads preserve the original folder structure, including nested subfolders.
+
+  
+
+
+To download a folder:
+
+  
+
+
+  1. Click the **3 dots** icon next to the folder and click **Select**.  
+  
+
+  2. Ensure the checkmark is checked and check any other folders you would like to download.  
+  
+
+  3. Click **Download** to save it as a zip file.
+
+
+  
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073303954/original/ElMRRds-_Gp0BBmrO942E-t3MdSe_YZk0g.png?1781032766)
+
 * * *
 
 ## **Trash Functionality for Safer Deletions**
@@ -243,11 +325,13 @@ Deleted media files are moved to **Trash** where they remain for **30 days** bef
 
   1. Click the three-dot menu on the top right and select **Trash.**  
   
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155062681193/original/XNTvb1LKzxjgQsuL9BM67N6fYXpyt8KMRA.jpeg?1768421700)  
   
 
 
   2. Choose a file to **Restore** or **Delete Permanently.**  
+  
   
 **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155062681195/original/vrmNhmNMZex7hYAbEnDI5yLl6dSCU1qZwA.jpeg?1768421711)**
 
@@ -269,6 +353,7 @@ Deleted media files are moved to **Trash** where they remain for **30 days** bef
 
 **Connect Drive** enables importing from Google Drive (owned files only).
 
+  
   
 
     
@@ -296,6 +381,7 @@ Deleted media files are moved to **Trash** where they remain for **30 days** bef
 
 
   
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155045264698/original/HP5NHp025nopa0g-0c_PzcnKLh-1RnUeGA.png?1744887963)
@@ -309,6 +395,7 @@ Deleted media files are moved to **Trash** where they remain for **30 days** bef
 
 Media Storage is deeply integrated with other modules. Whether you’re editing a funnel or designing a website, media opens via a modal window not full screen for a more pleasant, non-intrusive user experience.
 
+  
   
 
     
@@ -418,11 +505,13 @@ vCard (.vcf)| 100MB| 100MB| 100MB| 50MB| 50MB
 Standardized validation, upload, listing, and preview behavior now applies across **Chrome** , **Firefox** , and **Safari** for all supported formats. This reduces browser-specific issues and makes previews more predictable.
 
   
+  
 
     
     
     See the **Supported Formats & Browser Compatibility** matrix in the Media Library specs for the canonical list, including **JSON, CSS, OGG/OGA, M4V, HEIC** , and consistent **ZIP** handling.
 
+  
   
 
 

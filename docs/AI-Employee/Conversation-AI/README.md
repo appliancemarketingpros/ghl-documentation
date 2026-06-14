@@ -15,7 +15,7 @@
 - [How to Generate Conversation Summaries and Transcript in Conversation AI](How to Generate Conversation Summaries and Transcript in Conversation AI.md)
 - [Conversation AI Public API](Conversation AI Public API.md)
 - [Conversations AI Bots can now Respond to Audio](Conversations AI Bots can now Respond to Audio.md)
-- [Conversation AI: Multiple Calendars Support for Appointment Booking](Conversation AI Multiple Calendars Support for Appointment Booking.md)
+- [Conversation AI Multi-Calendar Booking Setup Guide](Conversation AI Multi-Calendar Booking Setup Guide.md)
 - [Forward Emails from Conversations in HighLevel](Forward Emails from Conversations in HighLevel.md)
 - [Configure Response Settings in Conversation AI](Configure Response Settings in Conversation AI.md)
 - [Conversation AI Email Channel Support](Conversation AI Email Channel Support.md)

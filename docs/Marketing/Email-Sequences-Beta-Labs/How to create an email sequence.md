@@ -2,7 +2,7 @@
 
 **Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000007608-how-to-create-an-email-sequence-](https://help.gohighlevel.com/support/solutions/articles/155000007608-how-to-create-an-email-sequence-)  
 **Category:** Marketing  
-**Folder:** Sequences - Private Beta
+**Folder:** Email Sequences - Beta Labs
 
 ---
 
@@ -18,6 +18,7 @@ Its an automated series of emails sent as a single threaded conversation based o
   * What is an Email Sequence?
   * When Should You Use Email Sequences?
   * How to Create an Email Sequence?
+  * How to Pause an Email Sequence?
 
 
 ### **What is an Email Sequence?**
@@ -64,21 +65,20 @@ Use sequences when you want to maintain **consistent, timely communication** wit
 
 2\. Create a New Sequence
 
-  * Click on **Create New Sequence![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068523294/original/s6f5O7-u0Mu7e5nXYX4MzUjlhQoTLc6Z9g.png?1775475711)**
+  * Click on **Create New Sequence![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073498872/original/Jn2S8no_mGdTsVnWg4LJi17VOQgwtmQWAQ.png?1781199841)**
 
 
 3\. Set the Trigger
 
   * Choose when the sequence should start:
     * Immediately
-    * At a scheduled time  
-  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068523301/original/RCdH9Q7ML0KYwIUooEj6LumLBn7meZR8kg.png?1775475721)
+    * At a scheduled time
     * Depending on sequence type configure the "**Stop on Reply** "  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068523510/original/OFvh2_OfGwsIFnHBgLSxtYCW6TAENFflsw.png?1775475915)
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073498892/original/26ZrWYBVSGpCcXu-XQneAAqnOAyGNnjgTA.png?1781199866)
 
 
+  
 4\. Select Your Audience
 
   * Choose from:
@@ -92,7 +92,7 @@ Use sequences when you want to maintain **consistent, timely communication** wit
 5\. Add Email Steps
 
   * Add multiple steps to your sequence
-  * Define **delays** between each step![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068523432/original/ucY4BLunqvdeboYEflyvF_shOiqJZSJNFQ.png?1775475817)
+  * Define **delays** between each step![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073498929/original/ZOSfszurMpzteYezypUOHlsITjbwRewx_g.png?1781199937)
 
 
 6\. Configure Each Step
@@ -101,14 +101,15 @@ For every email:
 
   * Select or design a template (or use plain text)
   * Set conditions (e.g., send only if previous email was opened/delivered)
-  * Enable tracking as needed![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068523389/original/su_64NEaFPxrdiIjvuD336IMq6-Rf9wP6Q.png?1775475780)
+  * Enable tracking as needed![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073498974/original/4tt52cnhZimOStO7jOTIiraEPlS1rfvIIw.png?1781199963)
 
 
 7\. Review and Launch
 
   * Double-check your sequence flow
-  * Activate the sequence.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068523444/original/4PNJrDgGfVXIUa14KcKPSyilaejL3mrHJA.png?1775475840)
-  * You would find all emails are threaded in a sequence in our conversations section as well![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068523466/original/obwy-SRVY92mi0UmpLS4p4a5S9-hhvMYDg.png?1775475866)
+  * Activate the sequence.
+  * You would find all emails are threaded in a sequence in our conversations section as well![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073499021/original/Iv38DJ5V4pqs6UTZxpb3twCyJcsRIPM4PQ.png?1781199982)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073499023/original/5iDRHO314e89EfPSXcd8zgFcGTDAKkYTXQ.png?1781199990)
 
 
   
@@ -118,7 +119,20 @@ For every email:
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068523657/original/FwCWCB3rKgQkApDtZaNZciGhcGhMVlOwwg.png?1775476084)
 
-9\. To look at all sequences statistics, you can also check the statistics dashboard in email marketing.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068523604/original/rqtpAaaOWXSmxF37vmx-Aukrj7e97uKBZg.png?1775476036)  
+9\. To look at all sequences statistics, you can also check the statistics dashboard in email marketing.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073499027/original/F0E3oy2eiGNVehd227qTGtpSRx7gKjtJpg.png?1781200006)  
+  
+
+
+### **How to Pause an Email Sequence?**
+
+  
+Users can move a published sequence back to draft. However, any contacts who become eligible for the next step while the sequence is paused or in draft will be skipped.
+
+For example, if Email 2 is set to send only after Email 1 is opened, and Contact A opens Email 1 while the sequence is paused, Contact A will not receive Email 2 and will be skipped.
+
+Also note: once Step 1 has been executed, or the first email in Step 1 has been sent, users cannot pause the sequence to edit the trigger or Email Step 1.
+
+###   
 
 
 **_FAQs_**
