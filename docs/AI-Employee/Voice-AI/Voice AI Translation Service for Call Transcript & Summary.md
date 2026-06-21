@@ -6,15 +6,16 @@
 
 ---
 
-Need transcripts and summaries in another language—instantly? HighLevel’s Voice AI Translation Service converts post‑call transcripts and summaries into the language you choose, right inside your dashboard. This feature removes language barriers, speeds up reviews, and empowers global teams—all with a single toggle during agent setup.
+Need transcripts and summaries in another language? HighLevel’s Voice AI Translation Service converts post-call transcripts and summaries into the language you choose, right inside your dashboard. This feature removes language barriers, speeds up reviews, and helps global teams work more efficiently with a simple translation setup during agent configuration.
 
 * * *
 
 **TABLE OF CONTENTS**
 
   * What is the Voice-AI Translation Service?
-  * Key Benefits of the Voice-AI Translation Service
-  * Enabling Translation in Agent Setup
+  * Key Benefits of the Voice AI Translation
+  * Agent Language vs. Translation Target Language
+  * How to Enable Translation in Agent Setup
   * Accessing Translated Transcripts and Summaries
   * Frequently Asked Questions
   * Related Articles
@@ -22,12 +23,12 @@ Need transcripts and summaries in another language—instantly? HighLevel’s Vo
 
 * * *
 
-## **What is the Voice-AI Translation Service?**
+# **What is the Voice-AI Translation Service?**
 
   
 
 
-HighLevel’s Voice AI Translation Service automatically renders every AI‑generated call transcript and call summary into a target language you select. By pairing powerful speech recognition with machine translation, it delivers written insights you can read and share in the language that serves your clients and teammates best.
+HighLevel’s Voice AI Translation Service automatically translates AI-generated call transcripts and call summaries into a target language you select. By pairing powerful speech recognition with machine translation, it delivers written insights you can read and share in the language that serves your clients and teammates best.
 
 * * *
 
@@ -41,33 +42,62 @@ The translation feature improves clarity, accessibility, and inclusivity for glo
   
 
 
-  * **Inclusive Communication** : Everyone on your team, regardless of language proficiency, can review call details with confidence.  
+  * **Inclusive Communication:** Everyone on your team, regardless of language proficiency, can review call details with confidence.  
   
 
-
-  * **Instant Visibility** : Transcripts and summaries appear in your target language seconds after each call finishes—no copy‑paste needed.  
+  * **Instant Visibility:** Transcripts and summaries appear in your target language seconds after each call finishes—no copy‑paste needed.  
   
 
-
-  * **Centralized Workflow** : View translated content directly in **Dashboard & Logs**, eliminating the need for external tools.  
+  * **Centralized Workflow:** View translated content directly in Dashboard & Logs, eliminating the need for external tools.  
   
 
-
-  * **Client Empowerment** : Provide multilingual reporting that boosts transparency and trust with global customers.  
+  * **Client Empowerment:** Provide multilingual reporting that boosts transparency and trust with global customers.  
   
 
-
-  * **Efficiency** : Reduce manual translation tasks and free up time for higher‑value follow‑ups.
+  * **Efficiency:** Reduce manual translation tasks and free up time for higher‑value follow‑ups.
 
 
 * * *
 
-## **Enabling Translation in Agent Setup**
+## **Agent Language vs. Translation Target Language**
 
   
 
 
-You can activate translation with just a few clicks during agent creation. Whether accessing Translated Transcripts & Summaries Translations live, where you already review call data, so there’s no extra navigation, or it can also be activated during agent creation or by editing an existing agent.
+Understanding the difference between the agent language and the translation target language helps ensure calls and post-call records are configured correctly. The agent language controls the live conversation, while the translation target language controls the translated written output after the call.
+
+  
+
+
+  * **Agent Language:** The language the Voice AI agent uses during the phone call.  
+  
+
+
+  * **Translation Target Language:** The language used for the translated post-call summary and transcript.
+
+
+  
+
+
+For example, if customers call in Spanish but your support team reviews conversations in English, set the agent language to Spanish and the translation target language to English.
+
+* * *
+
+## **How to Enable Translation in Agent Setup**
+
+  
+
+
+Voice AI Translation is configured inside each Voice AI agent. To use it correctly, first choose the language the agent will use during calls, then select the language you want the post-call summary and transcript translated into. Translation must be enabled separately for each Voice AI agent.
+
+  
+
+    
+    
+    **Important:** Translation is only available when the agent language is set to a non-English language or **Multilingual**. If the agent language is set to **English** , the translation option will not appear.
+
+  
+
 
   
 
@@ -77,29 +107,31 @@ You can activate translation with just a few clicks during agent creation. Wheth
   
 
 
-  1. Navigate to **Settings → Voice AI Agents**   
+  1. Navigate to **AI Agents** →**Voice AI** → **Agent List**  
+  
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073710533/original/h54CgW7kz0pozDQhzzC1XkbAcysbn7QuaQ.png?1781543851)**  
+  
+
+  2. Click**Create Agent** to make a new agent, or click the **three dots** next to an existing agent and select **Edit**.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073710723/original/0vsgc-ukrEHu10FO-4nu9ts7BdrLAYtlyA.png?1781544146)  
+  
+
+  3. Under **Translation,** enable the **Target Language** toggle.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073710822/original/OMT_bNS6ezD9hi0CQmzjHcseLZ8CTt9fyw.png?1781544276)  
+  
+
+  4. Select the preferred translation language from the target language dropdown.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073710878/original/NRszbe4rh6JWDMvrCrHN4exttsWLzlWjhg.png?1781544350)  
   
 
 
-  2. Click **Create Agent** or edit an existing agent from the **Agent List**.  
+  5. Click **Save** before testing or leaving the page.  
   
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073710930/original/NJC6oRat7iw4afIvTfE-VQFiCYnJkkFWqA.png?1781544416)
 
-
-  3. Enable the **Translation Service** toggle.  
-  
-
-
-  4. Select your **preferred translation language** from the dropdown.  
-  
-
-
-  5. **Save** the agent.
-
-
-  
-
-
-_![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155050372884/original/2_YebJ0Qty-S1DkYtg-Q1CJ6LPCQqC7veQ.gif?1753359412)_
 
 * * *
 
@@ -108,66 +140,37 @@ _![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/produc
   
 
 
-After a call is completed, the translated versions of transcripts and summaries become available in Dashboard and Logs. You can view the summary of the translation in the Dashboard and logs. Dashboard and logs are listed on the homepage of the Voice AI agents as well as inside the individual AI settings.
+Translated summaries and transcripts appear in the Voice AI call logs after a test or live call is completed. This allows reviewers to open the summary or full transcript directly from the call record.
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155050374136/original/7X84FGrQa1m7PAApTqT2JOTkSrGdMCbXvA.gif?1753360255)
+Translated call records can be reviewed from: **AI Agents → Voice AI → Dashboard & Logs**
 
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073711806/original/jrCwKUynZFPOEf86iG5Smq-BFeANrVmfJQ.jpeg?1781545408)  
   
 
 
+From the logs, users can:  
   
 
 
-This is what the **Summary** looks like-
-
+  * Use filters such as **Contact Name** or **Action Taken** , and switch between **Live** and **Test** calls as needed.  
+  
+**Tip:** Switch to **Test** to review records from test Voice AI calls.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073712064/original/zMAKejdF18jduBSyXjLhVst9W8dI0ag6lQ.png?1781545822)  
   
 
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155050374866/original/BeiEy1-4tEMDhLTUW07K3PQ8c2KDdDeXWg.png?1753360673)
-
+  * Select **Summary** to view the translated summary.  
+  
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073712131/original/QgnWIUgSVVAi2Vogg6os68pHHNdvUwqvLw.png?1781545871)**  
   
 
-
+  * Select**View Transcrip****t** to view the translated transcript.  
   
-
-
-A sample of the **Transcript** is shown below-
-
-  
-
-
-_![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155050334973/original/2gT43jaDKR8RAZBPxpA7gm5Slnd5jMwtOA.png?1753302390)_
-
-  
-
-
-### **Post-Call Delivery: Notifications, Notes, and Workflows**
-
-  
-When translation is enabled, HighLevel can surface translated call artifacts automatically after the call ends:  
-  
-
-
-  * **Post-call notifications:** After each call, you receive a notification that includes a **translated summary and translated transcript**.   
-  
-
-
-  * **Automatic note saving:** The **translated summary** is saved to **Notes** automatically after each call.   
-  
-
-
-  * **Workflow availability:** Post-call workflows can use **both the translated summary and translated transcript** to power follow-ups and internal handoffs. 
-
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065234599/original/EswAQwUu_d5YRMBMtRJp4jjy8vSca6Ym5g.png?1771491047)
-
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073713528/original/QRm9T3kC_jy50lS6gm4K0kszdEC7PxZ8yA.png?1781547831)
 
 
 * * *
@@ -184,9 +187,10 @@ The supported language list will appear in the dropdown menu during agent setup.
   
 
 
-**Q: Do I need to enable translation for each call?**
+****Q: Do I need to enable translation for each Agent?**  
+**
 
-No, once enabled at the agent level, translation applies automatically to all calls handled by that agent.
+Yes. Translation is configured at the agent level, so you must enable it separately for each Voice AI agent that needs translated summaries and transcripts. Once enabled for an agent, it applies automatically to calls handled by that agent.
 
   
 
@@ -212,15 +216,9 @@ No, the original transcript and summary remain available; translation is provide
   
 
 
-**Q: Is this feature available on all plans?**
+**Q: Does translation change the language used during the call?**
 
-Availability may depend on your subscription. Please check with your account settings or support.
-
-  
-
-
-**Q: Does translation use extra AI credits?**  
-Yes. Translation consumes one additional AI credit per minute of transcribed audio.
+No. The agent language controls the live conversation. Translation only affects the post-call summary and transcript.
 
 * * *
 
@@ -229,10 +227,16 @@ Yes. Translation consumes one additional AI credit per minute of transcribed aud
   
 
 
-  * [AI Voice Agents Overview](<https://help.gohighlevel.com/support/solutions/articles/155000003843-how-to-create-a-voice-ai-agent>)
+  * [AI Voice Agents Overview](<https://help.gohighlevel.com/en/support/solutions/articles/155000003911>)  
+  
 
-  * [Creating Voice AI Agents](<https://help.gohighlevel.com/support/solutions/articles/155000004107-creating-voice-ai-agents>)
 
-  * [Testing Voice AI Agents](<https://help.gohighlevel.com/support/solutions/articles/155000004108-testing-voice-ai-agents>)
+  * [Creating Voice AI Agents](<https://help.gohighlevel.com/support/solutions/articles/155000004107-creating-voice-ai-agents>)  
+  
+
+
+  * [Testing Voice AI Agents](<https://help.gohighlevel.com/support/solutions/articles/155000004108-testing-voice-ai-agents>)  
+  
+
 
   * [Voice AI: Multi-Language Support](<https://help.gohighlevel.com/support/solutions/articles/155000004683-voice-ai-multi-language-support>)

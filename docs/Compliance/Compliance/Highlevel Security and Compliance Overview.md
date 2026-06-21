@@ -563,7 +563,14 @@ This document is intended to be a resource for our customers. It is not intended
 
 ## **Contact Us**
 
+Visit HighLevel’s [Privacy and Security](<https://www.gohighlevel.com/privacy-and-security>) page, as well as the [Trust Center](<https://trust.upguard.com/f69cca6d-517e-4220-ac1b-c61fa7ce0d76>).
+
   
 
 
-Questions about this document? We want to hear from you! You can reach as at legal@gohighlevel.com
+The Privacy and Security page describes HighLevel’s privacy, security, and compliance posture, including SOC 2 Type II, EU-U.S. Data Privacy Framework, GDPR/CCPA/CAN-SPAM readiness, HIPAA support, infrastructure security, encryption, 2FA, SSO, audit logs, vendor risk management, penetration testing, and vulnerability scanning.
+
+  
+
+
+The Trust Center provides access to security and compliance materials such as controls, security policies/processes, asset management, operational resilience details, and downloadable/viewable documents including HighLevel’s Information Security Program, ISO/IEC 27001:2022 Certificate, and SOC 2 Attestation Report. Some items may require sign-in to view.

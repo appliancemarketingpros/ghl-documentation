@@ -5,7 +5,6 @@
 ## Articles
 
 - [Setting Up SMTP Providers](Setting Up SMTP Providers.md)
-- [Using Google/Gmail/Google Workspace as your SMTP Provider](Using GoogleGmailGoogle Workspace as your SMTP Provider.md)
 - [Setting alias for Google smtp](Setting alias for Google smtp.md)
 - [Using SendGrid As The SMTP Provider](Using SendGrid As The SMTP Provider.md)
 - [Using Zoho as your SMTP Provider](Using Zoho as your SMTP Provider.md)

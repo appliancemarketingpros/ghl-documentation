@@ -36,7 +36,7 @@ Some AI features now have free access and no longer use AI credits. See the prod
   
 
 
-For current pricing and scope, review [AI Product Pricing Update](<https://help.gohighlevel.com/en/support/solutions/articles/155000006652>).
+For current pricing and scope, review [AI Product Pricing](<https://help.gohighlevel.com/en/support/solutions/articles/155000006652>).
 
 * * *
 
@@ -290,13 +290,6 @@ The AI Employee is a collection of powerful AI tools designed to help businesses
   
 
 
-**Q: How much does the AI Employee cost?**
-
-You can either pay per usage or opt into an unlimited plan for $97/month per sub-account, which grants access to all AI Employee tools without individual usage charges.
-
-  
-
-
 **Q: Does the AI Employee cover Phone/SMS charges?**
 
 No, phone and SMS charges are separately billed through LC Phone or Twilio.  
@@ -319,7 +312,7 @@ Absolutely! You can set up custom rebilling rates for each sub-account, allowing
 
 **Q: How much does the AI Employee cost?**
 
-AI Employee pricing depends on the specific products that remain under AI Employee. Some AI features are now free to use and no longer use AI credits. Review [AI Product Pricing Update] for the latest pricing and fair-usage details.
+AI Employee pricing is available through Pay-Per-Use, AI Employee Growth, and AI Employee Unlimited options. Review the [AI Product Pricing ](<https://help.gohighlevel.com/en/support/solutions/articles/155000006652>)article for the latest plan details, included usage, pay-per-use rates, and fair-use terms.
 
 * * *
 
@@ -329,6 +322,9 @@ AI Employee pricing depends on the specific products that remain under AI Employ
 
 
   * [AI Tools in HighLevel](<https://help.gohighlevel.com/en/support/solutions/articles/155000002166>)  
+  
+
+  * [AI Product Pricing](<https://help.gohighlevel.com/en/support/solutions/articles/155000006652>)  
   
 
   * [Creating Voice AI Agents](<https://help.gohighlevel.com/en/support/solutions/articles/155000004107>)  

@@ -83,6 +83,16 @@ Contact ID| {{contact.id}}| FZDn5mYlkZuCCQe5Bep8
 These fields pull information about the assigned user (or sender) tied to the activity, conversation, or appointment.  
   
 
+    
+    
+    User merge fields can also be used in calendar post-booking experiences, including the calendar confirmation page **Thank you message** and the next funnel step after a calendar booking when the Calendar element redirect action is set to Go to next step.
+
+  
+
+
+  
+  
+
 
 **Name**| **Merge Field**| **Example**  
 ---|---|---  

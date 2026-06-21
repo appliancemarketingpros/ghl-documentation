@@ -79,8 +79,109 @@
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155063751576/original/vL0-fSzhDqj8fJxat8-feeF30OyZR-auiA.png?1769681448)
 
+* * *
+
+## **AI Agent Templates Now Follow App Versioning**
+
   
 
+
+Conversation AI and Voice AI templates now follow the Marketplace app-versioning workflow. This means AI Agent template changes are tied to app versions and are no longer edited directly on a Live app version.
+
+  
+
+
+This creates a clearer release history for AI Agent module updates and helps developers ship template changes more intentionally.
+
+  
+
+
+**Update AI Agent Templates Through a Draft Version**
+
+  
+
+
+AI Agent templates on a Live app version are no longer directly editable. To make changes:
+
+  
+
+
+1\. Go to **Manage** > **Versions**.  
+  
+
+
+2\. Clone the **Live** version as a **Draft**.  
+  
+
+
+3\. Make your Conversation AI or Voice AI template changes in the Draft version.  
+  
+
+
+4\. Publish the Draft using the appropriate version bump.
+
+  
+
+
+This ensures template updates are released through the same controlled app-versioning flow as other Marketplace app changes.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074065071/original/nfF4YuIO2hBET562IpkXciYFFv5-5Zhw8A.png?1781871451)
+
+* * *
+
+## **Major vs Minor Version Updates for AI Agent Templates**
+
+  
+
+
+Changes to an existing AI Agent template are treated as a **Minor** update by default. This includes updates such as:
+
+  
+
+
+  * Agent name  
+  
+
+  * Agent description  
+  
+
+  * Use case  
+  
+
+  * Supported channels  
+  
+
+  * Actions  
+  
+
+  * Template configuration  
+  
+
+  * Template link changes  
+  
+
+  * Disabling or re-enabling an existing template link
+
+
+  
+
+
+A **Major** version is required when a Conversation AI template or Voice AI template is added for the first time to an existing Live app.
+
+  
+
+
+For example, if a Live app does not currently include a Conversation AI or Voice AI template and a developer adds one in a Draft version, that update should be published as a Major version because it introduces new module capabilities.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074065310/original/-j2GvPQ5XDgfJXeE1DXXCN0_NSK39jlRUQ.jpeg?1781871630)
+
+* * *
 
 ## **Frequently Asked Questions**
 

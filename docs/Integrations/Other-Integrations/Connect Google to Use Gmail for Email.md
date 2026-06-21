@@ -1,6 +1,6 @@
-# How to Set Up Two Way Email Sync for Gmail
+# Connect Google to Use Gmail for Email
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/48001235216-how-to-set-up-two-way-email-sync-for-gmail](https://help.gohighlevel.com/support/solutions/articles/48001235216-how-to-set-up-two-way-email-sync-for-gmail)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/48001235216-connect-google-to-use-gmail-for-email](https://help.gohighlevel.com/support/solutions/articles/48001235216-connect-google-to-use-gmail-for-email)  
 **Category:** Integrations  
 **Folder:** Other Integrations
 

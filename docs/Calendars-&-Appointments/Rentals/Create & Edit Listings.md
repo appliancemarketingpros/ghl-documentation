@@ -633,11 +633,66 @@ You can re-sync manually in between if needed using the "Refresh" action availab
     **Pro Tip:** Always verify iCal links before saving to ensure synchronization between Rentals and external platforms functions properly.
 
   
-**Notes:**  
+
+
+### **How Rentals Interprets Imported Calendar Bookings**
+
+The way imported calendar bookings affect availability depends on your listing's booking mode and the information provided by the connected calendar.  
   
 
 
-  1. If a listing has variants enabled, the imported calendar will block slots for all the variants.  
+#### **When Imported Events Include Start & End Times**
+
+If the connected calendar provides specific start and end times, Rentals blocks availability using those exact timestamps.
+
+For example:
+
+  * Imported event: April 15, 2:00 PM → April 15, 5:00 PM
+  * Availability blocked: April 15, 2:00 PM → April 15, 5:00 PM
+
+
+This applies to all booking modes.
+
+####   
+**When Imported Events Are Date-Only**
+
+Some calendar providers and OTA platforms may sync availability as dates only without specific start and end times.
+
+For the below rental booking period configurations, Rentals interprets those dates using the listing's configured rental times or rental hours instead of generic midnight-to-midnight blocks.  
+  
+
+
+**Booking period configurations:**
+
+  * Date Selector 
+  * Fixed Durations · Daily/Weekly/Monthly
+
+
+####   
+**Example:**
+
+Listing rental times:
+
+  * **Rental start time** : 3:00 PM
+  * **Rental end time** : 11:00 AM
+
+
+Imported calendar event:
+
+  * April 15 – April 17
+
+
+Availability blocked:
+
+  * April 15, 3:00 PM → April 17, 11:00 AM
+
+
+This ensures imported availability aligns with how the rental is actually booked.
+
+  
+**Notes:**
+
+  1. If a listing has variants enabled, the imported calendar will block slots for all the first variant only.  
   
 
   2. If inventory is enabled for a listing, the whole inventory is blocked for the time duration for which the booking is imported.
@@ -646,7 +701,7 @@ You can re-sync manually in between if needed using the "Refresh" action availab
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056000780/original/F3WoLPUfepOWIwu8d_UQ_9Cu8TfNRqgijQ.png?1760477865)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073941874/original/fc5qd17whDwWVvKuDJ7khsSjNoDncmBtVA.png?1781768035)
 
 * * *
 
@@ -714,7 +769,7 @@ Yes. Buffers apply automatically before and after each booking.
 
 
 **Q: How often does Calendar Sync update?**  
-External bookings are imported every 2 hours to ensure up-to-date availability.
+External bookings are imported every hour to ensure up-to-date availability.
 
   
 

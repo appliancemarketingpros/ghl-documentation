@@ -55,16 +55,61 @@ An online store is a virtual platform that allows businesses to sell products or
   4. **Automated Transactions:** Streamline the sales process with automated payment processing and order management.
 
 
-  
-
-
 * * *
 
 ## **Setting Up Your e-Commerce Store**
 
   
-Let's walk through the steps of setting up and using your own e-commerce Online Store in HighLevel.
+Let's walk through the steps of setting up and using your own e-commerce Online Store in HighLevel.  
 
+
+###   
+**Use the Store Setup Wizard**
+
+The Store Setup Wizard guides new store users through the key steps needed to launch an ecommerce store in HighLevel.
+
+To start the wizard:
+
+1\. Go to Sites > Stores.  
+  
+
+
+2\. If the welcome modal appears, click Start Onboarding.  
+  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073875058/original/ZtyRWFND0FPKAhdTse-gMqneV67ztnZxdg.png?1781698247)  
+  
+
+
+3\. Complete the setup steps in the wizard.  
+  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073876219/original/tk7xu3-6JKZU9NMZ7NeKPkiM6SYGh6BV5w.png?1781698753)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073876313/original/Bn994Fiwl2vG7EtTo8qn-r_wWsifcS9CnA.png?1781698825)  
+
+
+4\. Use the step CTAs and linked help docs to finish each task.  
+  
+
+
+5\. After all steps are complete, use the Setup Completed CTA to finish the setup flow.
+
+  
+You can complete the steps in any order. You can also skip a step and return to it later.   
+  
+
+
+### 
+    
+    
+    **Store Setup Wizard Completion Behavior**
+    The welcome modal appears only once for new users or users who have not completed store setup. It no longer appears after setup is complete.
+    The Setup Shipping step is marked complete only after at least one shipping rate is configured. 
+    After a step is marked complete, it stays checked in the wizard even if you later undo that setup item.
+    After all setup steps are complete, the Setup Completed CTA displays for 3 days and then disappears automatically.
+    
+
+  
   
 
 
@@ -74,6 +119,7 @@ Let's walk through the steps of setting up and using your own e-commerce Online 
 
 
 Businesses will be able to create and configure store products under Payments -> Products. This will allow configuring Product names, and descriptions, attaching product images and videos, defining the pricing, and configuring variants, if any.  
+  
   
 
 
@@ -117,6 +163,8 @@ Displaying appropriate images and videos for products is a crucial part of your 
   3. **Create Variants for Products  
 **  
 Businesses will now be able to add variants like Size/Color/Material etc. for the products they configure. This will allow selling different variant options for the same product along with their customized prices  
+  
+  
   
 
 
@@ -197,7 +245,9 @@ Store deletion works the same way from both entry points:
   
 
 
-### **Important**
+### **Important**  
+  
+
 
   * Only store-related pages are deleted.  
   
@@ -209,10 +259,12 @@ Store deletion works the same way from both entry points:
 
 
   
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071924367/original/Hn0PVqtNHtuxU2LbcmYEhrX_Y1C8GZWxIA.png?1779375413)
 
+  
   
 
 
@@ -233,14 +285,20 @@ Store deletion works the same way from both entry points:
   * Businesses will have the option to activate an online store by clicking on the  
 \+ icon to add elements inside the website builder  
   
+  
+  
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009725484/original/POrkzAFDk_KKKU4kMhLb5mBbqS-O12d_3w.png?1696942354)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009725484/original/POrkzAFDk_KKKU4kMhLb5mBbqS-O12d_3w.png?1696942354)  
+  
+
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009725940/original/_IsW7PlSOyEX3rv0gcI9DCfiuD4qvDvhlg.png?1696942517)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009725940/original/_IsW7PlSOyEX3rv0gcI9DCfiuD4qvDvhlg.png?1696942517)  
+  
+
 
   
 When an online store is added to a website, 5 pages are added by default to the website which will form the building blocks for your store. Businesses will be able to add any other kind of elements around the store elements that will help them in giving an overall customized experience to their customers that suits their brand needs  
@@ -271,6 +329,7 @@ This will allow the potential leads/customers to enter their shipping informatio
 **  
 This will allow the business to display an order confirmation automatically after the payment is successfully made for the purchase  
   
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009726192/original/GZwk9jvkFpikz-O_ZCXGIOxsZkxIz6IMIg.png?1696942645)
 
 
@@ -288,6 +347,7 @@ Users will be able to format the elements added by default to match the brand ae
   
 
 
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067305838/original/hy0QDggtQsh6DGc3HiIYOTAYA71uFhqpZg.jpeg?1773924595)
 
 ###   
@@ -331,11 +391,7 @@ Product titles display in full (without ellipses) across most storefront purchas
   
 
 
-\- Featured Product element
-
-  
-
-
+\- Featured Product element  
   
 
 
@@ -385,6 +441,7 @@ Businesses will also be able to mark orders as fulfilled and share shipment/trac
 Business users will have the ability to attach a tracking number, provider, and URL to track the status of the shipment. When an order is marked as fulfilled, an entry related to the fulfillment will be included in the order details, highlighting the date on which fulfillment was done, tracking details, and the number of items fulfilled in the order
 
   
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155010720165/original/46L6kOfY9cwN1MMhecnfzXMJgL9VPo1K_g.png?1697878751)  
@@ -395,7 +452,9 @@ Business users will have the ability to attach a tracking number, provider, and 
   
 
 
-### **Additional notes while creating an online store**
+### **Additional notes while creating an online store**  
+  
+
 
   1. Only one-time products will be included in the online store. Businesses can still sell recurring products using funnels and order forms  
   
@@ -434,7 +493,7 @@ No, only one-time products will be listed by default in the online store
   
 
 
-This is not possible currently. As of now, product images will be shown irrespective of the variant selection. 
+Yes. You can map product images to specific variant combinations. When a customer selects a variant on the Product Details Page, HighLevel automatically selects the image assigned to that variant, when available. The assigned image becomes the active image in the gallery or carousel.
 
   
 
@@ -445,6 +504,7 @@ This is not possible currently. As of now, product images will be shown irrespec
 
 
 Users will be able to delete a store by deleting any of the automatically added pages. If they confirm, all data related to the store will be lost  
+  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009744202/original/U5jTD4ols1v4yh2DubIrxUTrVh31jgIHtw.png?1696949786)  
   
@@ -526,6 +586,7 @@ More Tutorials from the Community
   
 
 
+  
   
 **More Tutorials from the Community**
 

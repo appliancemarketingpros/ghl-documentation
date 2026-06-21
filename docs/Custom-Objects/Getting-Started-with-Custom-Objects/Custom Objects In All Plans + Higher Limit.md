@@ -64,7 +64,7 @@ Understand exactly what you get:
   * All plans get 10 Custom Objects per location  
   
 
-  * Records per Object are unlimited (subject to overall account storage)  
+  * Records per Object are limited to 300K  
   
 
   * Each Object gets up to 10 unique labels between any two objects

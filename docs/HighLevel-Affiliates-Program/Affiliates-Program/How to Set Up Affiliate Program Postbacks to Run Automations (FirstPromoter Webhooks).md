@@ -331,9 +331,7 @@ Following along with the table above, you will set up five postbacks to correspo
     
      
     
-    >  
->     
->     **Tip:** If you do not want contacts repeatedly re-entering workflows every time a commission occurs, disable workflow re-entry or use tagging logic instead.
+    > **Tip:** If you do not want contacts repeatedly re-entering workflows every time a commission occurs, disable workflow re-entry or use tagging logic instead.
 >     
 >      
     
@@ -416,6 +414,12 @@ Following along with the table above, you will set up five postbacks to correspo
      
     
     If workflows are not published, postbacks will not trigger.
+
+##   
+
+
+  
+
 
 ##   
 

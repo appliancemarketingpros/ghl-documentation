@@ -13,12 +13,12 @@ Bot Status for Individual Contacts gives your team more control over when Conver
 **TABLE OF CONTENTS**
 
   * What is Bot Status for Individual Contacts
-    * Key Benefits of Bot Status for Individual Contacts
-    * Bot Status Options
-    * When Conversation AI May Automatically Become Inactive
-    * How to Update Bot Status for an Individual Contact
-    * Frequently Asked Questions
-    * Related Articles
+  * Key Benefits of Bot Status for Individual Contacts
+  * Bot Status Options
+  * When Conversation AI May Automatically Become Inactive
+  * How to Update Bot Status for an Individual Contact
+  * Frequently Asked Questions
+  * Related Articles
 
 
 * * *
@@ -83,7 +83,7 @@ Each bot status determines how Conversation AI behaves for the selected contact.
   * **Inactive:** The bot remains off until manually reactivated.  
   
 
-  * **Sleep/Snooze:** The bot is temporarily paused, either manually or due to certain actions (e.g., when a manual or workflow message is sent, or message limits are reached). Users can set a specific time for the bot to automatically wake up and start responding again.
+  * **Sleep/Snooze:** The bot is temporarily paused, either manually or because configured bot behavior puts it to sleep. For example, the bot can sleep when the Manual Message or Workflow Message sleep control is enabled, or when message limits are reached. Users can set a specific time for the bot to automatically wake up and start responding again.
 
 
 * * *
@@ -117,6 +117,7 @@ Conversation AI status can change automatically depending on contact behavior, b
 
 
   
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072346773/original/CjlHMnN2fQHDMNwiBe6_vWJ3RoEva8YaKw.png?1779915045)
@@ -130,11 +131,13 @@ Conversation AI status can change automatically depending on contact behavior, b
 
   1. Go to **Conversations** and open the conversation for the contact you want to update.  
   
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072346573/original/047wNX6NoR0C1u1Ovp4dlf5jHE5ac_4NDw.png?1779914424)  
   
 
 
   2. Locate the Conversation AI status icon in the message composer area. The icon may show that Conversation AI is currently active, inactive, or sleeping.  
+  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072346589/original/n-pROkwIhfBXX09pu6bZmwZ_kO75FQzmHw.png?1779914463)  
   
@@ -145,6 +148,7 @@ Conversation AI status can change automatically depending on contact behavior, b
   
 **Inactive** to turn Conversation AI off for the contact. (Select **Inactive** if you want to use **Sleep/Snooze** to temporarily pause Conversation AI for the contact.)  
   
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072346598/original/fU2g_VLmJHgxFy31CdoCioucVXvdoycl0Q.png?1779914500)  
   
 
@@ -153,10 +157,12 @@ Conversation AI status can change automatically depending on contact behavior, b
   
 Leave automatic reactivation unchecked if the bot should remain inactive until manually reactivated.  
   
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072346622/original/yXNv2Ca3lsq3sSHW-__BtMY-TiBEdxywzA.png?1779914608)  
   
 
   5. Apply the change by clicking out of the module. Confirm that the status icon updates in the message composer for that contact.  
+  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072346643/original/TFVaimDFBHUz18HoZbXI0kf2aEhn1JcwlQ.png?1779914668)
 

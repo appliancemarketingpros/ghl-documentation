@@ -5,7 +5,7 @@
 ## Articles
 
 - [AI-Powered A2P Compliance Validation](AI-Powered A2P Compliance Validation.md)
-- [Understanding A2P Campaign Rejection Reasons & Required Fixes](Understanding A2P Campaign Rejection Reasons & Required Fixes.md)
+- [A2P Campaign Rejections, Required Fixes & Vetting Errors](A2P Campaign Rejections, Required Fixes & Vetting Errors.md)
 - [Pre-Built A2P Campaign (Widget-First) Registration Flow](Pre-Built A2P Campaign (Widget-First) Registration Flow.md)
 - [Getting Started with A2P 10DLC](Getting Started with A2P 10DLC.md)
 - [How to get your phone number A2P approved in 2026](How to get your phone number A2P approved in 2026.md)
@@ -21,6 +21,5 @@
 - [A2P - Sole Proprietor Brand Registration for 10DLC](A2P - Sole Proprietor Brand Registration for 10DLC.md)
 - [A2P 10DLC Campaign Use Cases](A2P 10DLC Campaign Use Cases.md)
 - [A2P 10DLC Campaign Approval Best Practices](A2P 10DLC Campaign Approval Best Practices.md)
-- [A2P 10DLC Campaign Vetting FAQ](A2P 10DLC Campaign Vetting FAQ.md)
 - [A2P - Standard Brand Registration for 10DLC](A2P - Standard Brand Registration for 10DLC.md)
 - [Forbidden message categories for SMS and MMS in the US and Canada](Forbidden message categories for SMS and MMS in the US and Canada.md)

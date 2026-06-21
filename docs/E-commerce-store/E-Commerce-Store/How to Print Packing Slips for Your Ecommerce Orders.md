@@ -12,9 +12,12 @@ Store owners can now streamline their order fulfillment process by generating pa
   * Order Date
   * Store Name
   * Shipping Address & Billing Address
-  * Itemized List of Products with: 
-  * Variant Name, Product Image, Quantities
-
+  * Order Notes, when the customer adds notes during checkout
+  * Itemized list of products with:  
+\- Product or variant name  
+\- Product image  
+\- Quantity  
+\- SKU
   * Sender's Address (Store Address)
 
 
@@ -46,6 +49,8 @@ Store owners can now streamline their order fulfillment process by generating pa
   * Packing slips can only be generated for ecommerce store orders.
   * For orders with multiple partial fulfillments, each fulfillment will list the items on a separate page when generating packing slips.
   * Currently, the billing and shipping addresses are the same on packing slips. This will be editable once the billing address field is released on the checkout page.
+  * The Order Notes section appears above the items list only when the customer adds notes during checkout.
+  * Product SKUs are pulled from the product or variant setup and appear in the line items table.
 
 
 ## **Images:**

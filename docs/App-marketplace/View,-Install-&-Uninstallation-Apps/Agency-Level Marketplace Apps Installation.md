@@ -193,14 +193,56 @@ Such apps are installable at both agency and subaccount levels. Installation and
 
 Note: If you select 10 sub-accounts for app installation and only 5 of them have a card linked, the installation will proceed only for those 5 eligible sub-accounts with cards on file. The remaining 5 without card details will be skipped. Once these sub-accounts provide their card information, you can proceed to install the app for them.
 
+* * *
+
+## **Review Insights on App Listings**
+
+  
+
+
+When browsing apps in the Marketplace, you may now see an AI-generated review summary on the app listing page. This summary helps you understand overall customer sentiment at a glance before deciding whether to install the app.
+
+  
+
+
+Review insights can include:
+
+  
+
+
+  * a brief summary of reviewer feedback  
+  
+
+  * recommendation percentage  
+  
+
+  * common strengths  
+  
+
+  * common issues
+
+
+  
+
+
+This helps speed up app evaluation by reducing the need to scan large numbers of reviews manually.
+
 ##   
 **How to Uninstall an App**
 
-  1. Click on the App Marketplace option.
-  2. Navigate to ‘Installed Apps’.
-  3. Choose the app you wish to disconnect.
-  4. Click ‘Uninstall’ located in the top-right corner.
-  5. For apps labeled as “agency & subaccount”, specify the uninstallation level: either selected subaccounts or the agency level.
+  1. Click on the App Marketplace option.  
+  
+
+  2. Navigate to ‘Installed Apps’.  
+  
+
+  3. Choose the app you wish to disconnect.  
+  
+
+  4. Click ‘Uninstall’ located in the top-right corner.  
+  
+
+  5. For apps labeled as “agency & subaccount”, specify the uninstallation level: either selected subaccounts or the agency level.|
   6. Confirm the action in the dialog box by selecting Uninstall.
 
 

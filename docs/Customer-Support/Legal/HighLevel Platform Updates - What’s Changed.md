@@ -58,9 +58,9 @@ These changes will go into effect September 22, 2025
   
 
 
-If you have questions about these updates or need clarification on how they affect your account, please contact legal@gohighlevel.com reach out to Support through your account dashboard.
+These changes help us provide better service while being more transparent about how our platform works. Thank you for being part of the HighLevel community. 
 
   
 
 
-These changes help us provide better service while being more transparent about how our platform works. Thank you for being part of the HighLevel community.
+If you have questions about these updates or need clarification on how they affect your account, please contact support@gohighlevel.com.

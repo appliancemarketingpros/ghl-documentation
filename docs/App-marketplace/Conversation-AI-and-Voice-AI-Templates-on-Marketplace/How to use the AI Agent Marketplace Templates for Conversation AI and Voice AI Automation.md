@@ -54,6 +54,57 @@ Understanding the benefits helps you plan when to build versus buy. These advant
   * **Reusability:** redeploy installed or packaged agents across accounts to standardize proven solutions.
 
 
+  
+
+
+* * *
+
+## **Update Installed Marketplace Templates**
+
+  
+
+
+Marketplace apps that include Conversation AI or Voice AI templates can now show when a newer version is available. This makes AI Agent template updates easier to identify and adopt through the Marketplace.
+
+  
+
+
+If a developer publishes a newer app version with AI Agent template changes, users may see an **Update available** label on the installed app.
+
+  
+
+
+To apply the newer version:
+
+  
+
+
+1\. Open the installed app in the Marketplace.  
+  
+
+
+2\. Review the available update.
+
+  
+
+
+3\. Click **Update** when you are ready to apply the newer version.
+
+  
+
+
+This gives users a clearer way to adopt template improvements through versioned Marketplace updates instead of relying on direct Live edits.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074066308/original/_8z5LzLSJ3VK6uhpaYflwsZMtABl94zuMg.png?1781872533)
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074066467/original/mFfK7OrWM3QVxTV8SjTmQ2Ose-6EryqvrQ.png?1781872617)
+
 * * *
 
 ## **Packaging AI Agent Templates**
@@ -66,7 +117,7 @@ Packaging bundles all dependencies so buyers don’t have to wire up assets afte
   
 
 
-  * Include: **workflows** , **calendars** , **custom fields, knowledge base (If the builder selects**Include** during publishing)** and **custom values** required by the agent.  
+  * Include: **workflows** , **calendars** , **custom fields, knowledge base (If the builder selects Include during publishing)** and **custom values** required by the agent.  
   
 
 

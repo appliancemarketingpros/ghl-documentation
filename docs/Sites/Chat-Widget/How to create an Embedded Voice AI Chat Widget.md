@@ -133,7 +133,9 @@ Go to **Sites → Chat Widget** then click **\+ New** or open an existing widget
   
 
 
-Choose the **Voice AI** chat**** option.
+Choose the **Voice AI** chat**** option.  
+  
+
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069727655/original/qXH-6HMXpq7qBhhDIuOeaqC1wHFeQWdTZQ.png?1776872176)
 
@@ -167,12 +169,50 @@ This ensures the widget will appear **within your page layout** instead of float
   
 
 
-#### _**Step 4:** Customize Your Widget_
+#### **_Step 4: Customize Your Widget_**
 
   
 
 
-In the Chat Window tab, edit the Button Text, this appears below the avatar in the inline layout.  
+Use the available styling options to match the widget to your page design.
+
+  
+
+
+For embedded Voice AI widgets, configure the following options:
+
+  
+
+
+1\. Under Widget placement, choose how the Voice AI widget appears on your website:
+
+  
+
+
+  * **Sticky:** Keeps the widget fixed in a page corner.
+  * **Embedded/Inline:** Renders the widget inline within your page content.
+
+
+  
+
+
+2\. For Embedded/Inline widgets, configure the Display Mode:
+
+  
+
+
+  * **Avatar:** Shows a static visual representation.
+  * **Visualiser:** Shows dynamic voice-based visual cues. When you select Visualiser, choose an Interface Size: Small, Medium or Large
+
+
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073729673/original/fQIvJqTTLwP5jMpWgi3CcgP0Ik1btvj9kw.gif?1781585870)
+
+  
+  
+
+
+3\. In the Chat Window tab, edit the Button Text, this appears below the avatar in the inline layout.  
   
 
 
@@ -190,7 +230,7 @@ Optionally, open **Additional Options** to adjust branding elements like the bus
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069727863/original/2Lr3faccUKRbVwFMZMWYk3PeQCsG5QaI7g.jpeg?1776872308)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073729682/original/QiZHVS1JXICxmOh_YgywBlIgO1QqePWucg.png?1781585894)
 
 ####   
 
@@ -238,15 +278,18 @@ To embed in a Funnel:
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155057818772/original/sNKOu6GEeWooDycr2qTZDfJw3YQozJHCyw.png?1762513600)  
+  
 
   4. Click **Open****Code****Editor**.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155057818893/original/kr_T4sKxXSt9dgrUjDi9a4BaHUDnT4_j0w.png?1762513635)  
+  
 
 
   5. Paste the Embed Code you copied from the Chat Widget Builder.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155057818964/original/9ZvyZF_rvhmfWvpc282yCc28pFdaQ7NzXg.png?1762513656)  
+  
 
   6. Click **Save** , then **Publish** your page.  
   
@@ -269,6 +312,12 @@ Once published, the Voice AI widget will appear embedded inline just like any ot
 
 
   * The embedded widget is fully mobile-responsive, it resizes automatically on smaller screens.  
+  
+
+  * Some customization options are disabled in **Embedded/Inline** mode because they only apply to floating widgets. Examples include widget position and contact form toggle settings.  
+  
+
+  * Display Mode options are currently optimized for Voice AI experiences.  
   
 
   * You can have multiple embedded widgets on the same site or funnel, all linked to the same Voice AI agent.  

@@ -386,25 +386,44 @@ Category| Description
 **Verified Caller ID**|  The 5% markup applies to Verified Caller ID charges. Note: This is a billing-only category and is not part of the standard usage categories  
 **RCS Messaging Carrier Fees**|  The 5% markup applies to any carrier fees associated with RCS (Rich Communication Services) messaging  
   
+###   
+
+
 ### **How the 5% Markup Works**
 
-  * The markup is applied **at the location level** , meaning it is calculated and added per sub-account/location.
-  * This markup is **separate from configured rebilling**. Unlike usage categories that follow the rebilling configuration, these five categories always carry the fixed 5% surcharge regardless of other rebilling settings.
+  * The markup is applied **at the location level** , meaning it is calculated and added per sub-account/location.  
+  
+
+  * This markup is **separate from configured rebilling**. Unlike usage categories that follow the rebilling configuration, these five categories always carry the fixed 5% surcharge regardless of other rebilling settings.  
+  
+
   * The 5% is calculated on the **base cost** of the applicable charge before being billed to the location.  
   
 
 
 **Example:**
 
+  
+
+
 If the SMS carrier fee for a message to an AT&T subscriber is $0.0035 (outbound), the amount billed after the 5% markup would be:
 
 > $0.0035 × 1.05 = **$0.003675**
+
+  
+
 
 Similarly, if a Low Volume A2P Brand & Campaign registration fee is $24.49875, the amount billed with the markup applied would be:
 
 > $24.49875 × 1.05 = **$25.7237**
 
+###   
+
+
 ###  What Is NOT Included in the 5% Markup
+
+  
+
 
 The following categories are governed by **configured rebilling** rather than the flat 5% markup:
 

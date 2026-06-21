@@ -131,6 +131,9 @@ The Phone System is available on all HighLevel plan levels. Rebilling without ma
   
 
 
+  
+
+
 **Related Articles:**
 
   * [](<https://help.gohighlevel.com/support/solutions/articles/48001223556-lc-phone-pricing-structure>)[LC Phone System Pricing](<https://help.gohighlevel.com/en/support/solutions/articles/48001223556>)
@@ -161,6 +164,11 @@ The Email System is available on all HighLevel plan levels. Rebilling without ma
   
 
 
+For the latest LC Phone number and messaging rates, refer to the LC Phone Pricing & Billing Guide.
+
+  
+
+
 **Related Articles:**
 
   * [](<https://help.gohighlevel.com/support/solutions/articles/48001220605-what-is-lc-email-i-want-to-know-more#LC---Email-Pricing>)[LC Email System & Pricing](<https://help.gohighlevel.com/en/support/solutions/articles/48001220605>)[](<https://help.gohighlevel.com/support/solutions/articles/48001220605-what-is-lc-email-i-want-to-know-more#LC---Email-Pricing>)
@@ -174,29 +182,23 @@ The Email System is available on all HighLevel plan levels. Rebilling without ma
   
 
 
-AI Employee is a suite of HighLevel AI tools that helps agencies automate conversations, content creation, review responses, and in-app assistance. AI Employee pricing depends on how your agency wants to pay for AI usage: by usage as it occurs, or through an unlimited monthly plan for many supported AI Employee features.
+AI Employee is a suite of HighLevel AI tools that helps agencies automate conversations, content creation, review responses, and in-app assistance. AI Employee pricing is available under three plans. Choose the plan that fits your location's usage and billing preference. 
 
   
 
 
-AI Employee has two billing options. 
+AI Growth and AI Employee are billed monthly per enabled location. Pay-per-use does not have a monthly subscription fee; usage is billed only when supported AI products generate billable activity. All prices are in USD.
 
   
 
 
-  1. **Pay-Per-Use:** AI activity is billed based on the product and how it is used. This model may apply to AI messages, minutes, tokens, or other product-specific usage. It is useful for agencies that use AI occasionally or prefer usage-based billing.  
-  
-Review the [AI Products Pricing ](<https://help.gohighlevel.com/en/support/solutions/articles/155000006652>)article for detailed pay-per-use pricing by AI product.  
-  
+  1. **Pay-Per-Use:** No monthly subscription fee for AI features. Usage is billed at token cost based on the models and actions used. This plan applies to any location that is not on AI Employee Growth or AI Employee Unlimited. It is useful for agencies that use AI occasionally or prefer usage-based billing.  
   
 
-  2. **AI Employee Unlimited Plan:** Many AI Employee features are covered under one monthly subscription of _$97/mo per enabled sub-account._ This is useful for agencies that use supported AI tools regularly and want a predictable monthly cost.  
+  2. **AI Employee Unlimited Plan:** Available for $97/month per enabled location. Unlimited usage across Conversation AI, Voice AI, Reviews AI, and Content AI, plus generous included usage for Ask AI and AI Studio, ideal for agencies ready to deploy AI at scale without worrying about hitting a ceiling, subject to fair use.  
   
-This plan includes unlimited usage for many AI Employee features, including Voice AI (Inbound), Conversation AI, Reviews AI, Content AI and Ask AI.  
-  
-_AI Employee Plus features are not included in the AI Employee Unlimited plan_ and continue to be billed separately as pay-per-use. These include Agent Studio, Voice AI Widget, Voice AI Outbound and the Voice AI Prompt Optimizer.[](<https://help.gohighlevel.com/support/solutions/articles/155000006652#AI-Employee-Unlimited-Plan>)  
-[](<https://help.gohighlevel.com/support/solutions/articles/155000006652#AI-Employee-Unlimited-Plan>)  
-[Click here](<https://help.gohighlevel.com/support/solutions/articles/155000006652#AI-Employee-Unlimited-Plan>) for more information on the AI Employee Unlimited Plan.
+
+  3. **AI Employee Growth Plan:** Available for $50/month per enabled location. Includes generous monthly limits across the full AI suite, ideal for scaling teams that want cost visibility and a predictable baseline without constantly watching usage.
 
 
   
@@ -213,7 +215,7 @@ _AI Employee Plus features are not included in the AI Employee Unlimited plan_ a
   
 
 
-**Learn More:** [AI Products Pricing](<https://help.gohighlevel.com/en/support/solutions/articles/155000006652>)
+For additional details on AI Product Pricing, including the AI Employee Unlimited and Growth plans, see: [AI Products Pricing ](<https://help.gohighlevel.com/en/support/solutions/articles/155000006652>)
 
 * * *
 

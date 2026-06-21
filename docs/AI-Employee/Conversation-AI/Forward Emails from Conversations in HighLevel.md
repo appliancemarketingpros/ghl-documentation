@@ -13,26 +13,31 @@ Forward inbound emails directly from the Conversations inbox to any external rec
 **TABLE OF CONTENTS**
 
   * What is Email Forwarding in Conversations?
-    * Key Benefits of Email Forwarding
-    * Permissions & Availability
-    * Sender & From‑Name Behavior
-    * Attachments & Formatting
-    * Threading & Record‑Keeping
-    * How To Set Up and Use Email Forwarding
-    * Troubleshooting
-    * Frequently Asked Questions
-    * Related Articles
+  * Key Benefits of Email Forwarding in Conversations
+  * Manual Forwarding vs. Email Services Forwarding
+  * Permissions & Availability
+  * Sender & From‑Name Behavior
+  * Attachments & Formatting
+  * Threading & Record‑Keeping
+  * How To Set Up and Use Email Forwarding
+  * Troubleshooting
+  * Frequently Asked Questions
+  * Related Articles
 
 
 * * *
 
-# **What is Email Forwarding in Conversations?****  
+## **What is Email Forwarding in Conversations?**
+
+**  
 **
 
-  
-Email Forwarding lets an agent take a specific inbound email inside a Conversation and send it to external recipients from within HighLevel. The forwarded message preserves the original email content and formatting so stakeholders outside your account can review context without you switching tools.  
+Email Forwarding in Conversations allows users to manually forward an individual inbound email message from a contact’s Conversation thread to another email recipient. This is useful when a teammate, vendor, partner, or external contact needs visibility into a specific customer email without requiring access to the full Conversation thread.
+
   
 
+
+This feature is different from Email Services forwarding settings, which are used to automatically forward replies or route copies of emails based on location-level email configuration. 
 
   * Forward any inbound email message to external recipients right from the thread.  
   
@@ -45,7 +50,7 @@ Email Forwarding lets an agent take a specific inbound email inside a Conversati
 
 * * *
 
-## **Key Benefits of Email Forwarding**
+## **Key Benefits of Email Forwarding in Conversations**
 
 **  
 **
@@ -54,19 +59,37 @@ Understanding the benefits helps teams decide when to use forwarding instead of 
   
 
 
-  * **Single Workspace:** Maintain Conversations as the single source of truth for email threads and actions.  
+  * **Improve collaboration:** Share customer emails with teammates, vendors, clients, or external partners without leaving Conversations.  
   
 
-  * **Faster Escalations:** Route messages to reviewers or third parties in a few clicks—no app switching.  
+  * **Keep communication organized:** Maintain a record of forwarded emails in the customer’s Conversation thread.  
   
 
-  * **Consistency:** Preserve original formatting so stakeholders see exactly what the customer sent.  
+  * **Save time:** Forward important details directly from the inbox instead of recreating the message in a separate email client.  
   
 
-  * **Traceability:** Keep a forward event and message copy in the Conversation timeline for team visibility.  
+  * **Support customer context:** Include relevant message content, formatting, and supported attachments when forwarding email content.  
   
 
-  * **Focus:** Reduce context loss and human error compared with manual copy/paste workflows.
+  * **Reduce missed details:** Help recipients review the original message instead of relying on a summary or copied text.
+
+
+* * *
+
+## **Manual Forwarding vs. Email Services Forwarding**
+
+  
+
+
+HighLevel supports more than one type of email forwarding, so it is important to choose the option that matches your workflow. Manual forwarding is best for one-time sharing from a Conversation thread, while Email Services forwarding settings are best for automated reply routing and account-level email behavior.
+
+  
+
+
+  * Use **manual forwarding from Conversations** when you need to forward a specific inbound email message to another recipient.  
+  
+
+  * Use **Email Services forwarding settings** when you want HighLevel to automatically forward replies, send BCC copies, configure reply addresses, or forward messages to the assigned user. 
 
 
 * * *
@@ -230,27 +253,71 @@ If forwarding fails or behaves unexpectedly, use these checks to isolate configu
   
 
 
-**Q: Which email address do recipients see?**  
-The address follows your account’s sending priority and the mailbox connected to the Conversation’s email channel.
+**Q: Can I forward any message type from Conversations?**  
+Email forwarding is designed for forwarding inbound email messages from a Conversation thread. Other message types, such as SMS, social messages, WhatsApp messages, or internal comments, may not use the same forwarding option.
 
   
 
 
-**Q: Does forwarding create a new Conversation?**  
-No, the forward posts as an outbound message in the same Conversation so teams retain full context.  
   
 
 
-**Q: Are internal notes or private comments included in a forward?**  
-No, only the email content you include in the forward is sent externally. Internal notes remain inside the Conversation for your team.  
-  
-**Q: What if the recipient replies to my forwarded message?**  
-With 2‑way sync active, replies route back to the connected mailbox and appear in the same Conversation thread.  
+**Q: Can I forward outbound emails from Conversations?**  
+The forwarding action is intended for individual email messages inside Conversations. If the Forward option does not appear on an outbound email, use the available message actions or send a new email with the needed context.
+
   
 
 
-**Q: Is this available on mobile?**  
-Mobile availability may vary. If you don’t see the Forward option, use the web app.
+  
+
+
+**Q: Will the forwarded email include attachments?**  
+Attachments may be included when supported. File size, file type, source formatting, and provider limitations can affect whether attachments appear in the forwarded email.
+
+  
+
+
+  
+
+
+**Q: Will replies to the forwarded email appear in the original Conversation?**  
+Replies may appear when the connected inbox, reply tracking, and provider setup support syncing those replies. If replies are missing, review the account’s email sync and reply tracking configuration.
+
+  
+
+
+  
+
+
+**Q: Can I change the From name before forwarding?**  
+Sender details follow the account’s connected inbox and sending priority configuration. Review sender settings if the forwarded email appears to come from an unexpected name or address.
+
+  
+
+
+  
+
+
+**Q: Can I add CC or BCC recipients when forwarding?**  
+Yes, use CC or BCC fields in the forward composer when you need to include additional recipients.
+
+  
+
+
+  
+
+
+**Q: Is forwarded email activity saved on the contact record?**  
+Yes, forwarded email activity is logged in the contact’s Conversation thread so the team can reference what was shared.
+
+  
+
+
+  
+
+
+**Q: Why does forwarding behave differently for Gmail, Outlook, LC Email, or SMTP?**  
+Each provider can have different sync, sender, attachment, and reply behavior. Review the connected email provider settings when behavior differs from what you expect.
 
 * * *
 

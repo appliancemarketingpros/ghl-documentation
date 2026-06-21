@@ -222,7 +222,7 @@ Agent Studio supports structured lifecycle management with Draft, Staging, and P
 
 With export/import functionality, you can back up, share, or move agents between environments. This makes it easier to collaborate or migrate setups without rebuilding agents from scratch.
 
-##   
+  
 
 
 ## **Test Tab**
@@ -233,9 +233,6 @@ With export/import functionality, you can back up, share, or move agents between
 The built-in Test Tab allows you to simulate and validate agent workflows before pushing them to production. This helps you identify errors, confirm logic paths, and refine your agent’s performance.
 
   
-
-
-##   
 
 
 ## **API Access**

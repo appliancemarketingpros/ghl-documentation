@@ -100,7 +100,31 @@ Versioned API documentation helps developers build and maintain integrations aga
 
 Versioned documentation does not impact existing integrations. It is designed to make API references clearer and more stable for developers.
 
-[](<https://marketplace.gohighlevel.com/docs/>)
+* * *
+
+## **Agency Sub-Account**
+
+  
+
+
+Agency Sub-Account support allows eligible agencies to identify and manage the primary sub-account used for onboarding and configuration.
+
+  
+
+
+Document:
+
+  * eligibility or plan scope  
+  
+
+  * read/update endpoint behavior  
+  
+
+  * audit implications if returned in API responses  
+  
+
+  * any uniqueness rules, such as whether only one Agency Sub-Account can exist per agency[](<https://marketplace.gohighlevel.com/docs/>)
+
 
 * * *
 
@@ -127,7 +151,12 @@ For any questions relating to the HighLevel API, join the developer Slack group 
   
 
 
-Check out our [Developers Landing Page](<https://developers.gohighlevel.com/>), where you can find the Developer Marketplace, Documentation, Slack Channel, and more! --> [https://developers.gohighlevel.com/](<https://developers.gohighlevel.com/>)[](<https://developers.gohighlevel.com/>)[](<https://developers.gohighlevel.com/>)**[](<https://developers.gohighlevel.com/>)**[](<https://developers.gohighlevel.com/>)****
+Check out our [Developers Landing Page](<https://developers.gohighlevel.com/>), where you can find the Developer Marketplace, Documentation, Slack Channel, and more! --> [https://developers.gohighlevel.com/](<https://developers.gohighlevel.com/>)
+
+  
+
+
+Agent Studio also supports public APIs for managing agents programmatically. For Agent Studio-specific endpoints and usage guidance, refer to the dedicated Agent Studio API article.[](<https://developers.gohighlevel.com/>)[](<https://developers.gohighlevel.com/>)**[](<https://developers.gohighlevel.com/>)**[](<https://developers.gohighlevel.com/>)****
 
 * * *
 

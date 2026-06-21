@@ -15,3 +15,6 @@
 - [Email AI (Beta 2.0) — Create On-Brand Emails Faster](Email AI (Beta 2.0) — Create On-Brand Emails Faster.md)
 - [Email Blocking for Invalid or Restricted Recipient Domains](Email Blocking for Invalid or Restricted Recipient Domains.md)
 - [Domain Removal Blocked Due to Active Campaign Assignment](Domain Removal Blocked Due to Active Campaign Assignment.md)
+- [How to Set Up Click & Open Tracking for Mailgun](How to Set Up Click & Open Tracking for Mailgun.md)
+- [LC Email: Email Service Agency UI](LC Email Email Service Agency UI.md)
+- [How to Add Your Own Email Service (MailGun) in Agency](How to Add Your Own Email Service (MailGun) in Agency.md)

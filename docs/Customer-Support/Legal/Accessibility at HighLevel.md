@@ -190,4 +190,4 @@ While HighLevel is committed to providing accessible features and tools, custome
   
 
 
-For accessibility support or to report barriers, contact **legal@gohighlevel.com**. Including your device (desktop/mobile), browser, assistive technology (example: VoiceOver), and the steps that caused the issue helps us investigate faster.
+For accessibility support or to report barriers, contact the support team. Including your device (desktop/mobile), browser, assistive technology (example: VoiceOver), and the steps that caused the issue helps us investigate faster.

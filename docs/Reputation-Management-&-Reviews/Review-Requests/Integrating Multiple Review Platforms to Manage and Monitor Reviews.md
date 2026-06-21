@@ -17,35 +17,80 @@ This guide walks you through how to connect supported review platforms to your a
 
 **TABLE OF CONTENTS**
 
-    * Key Benefits of Integrating Review Platforms
-    * How to Integrate Review Platforms
-    * Supported Review Platforms
-    * Troubleshooting
-    * Summary
-    * Frequently Asked Questions
-    * Related Articles
+  * Key Benefits of Integrating Review Platforms
+  * Multi-Page Connections per Platform
+  * How to Integrate Review Platforms
+  * Page-Level Visibility and Review Filtering
+  * Supported Review Platforms
+  * Troubleshooting
+  * Summary
+  * Frequently Asked Questions
+  * Related Articles
 
 
 * * *
 
-## **Key Benefits of Integrating Review Platforms**  
+## **Key Benefits of Integrating Review Platforms**
+
   
 
 
-  * **Centralized Management:** View all reviews from different platforms in one place  
+Multi-Page Integrations are especially useful for agencies and multi-location businesses that manage reviews across several listings. By connecting multiple pages per platform, teams can reduce manual tracking, simplify onboarding, and monitor reputation activity at scale.
+
   
 
 
-  * **Efficient Response:** Respond to reviews without logging into multiple platforms  
+  * **Multiple pages per platform:** Connect more than one business page, listing, or profile under the same supported review platform.  
+  
+
+  * **No page connection limit:** Add as many pages as needed under each platform as your business, locations, or client base grows.  
+  
+
+  * **Centralized review management:** Manage connected pages from one Reputation integrations area instead of tracking each listing separately.  
+  
+
+  * **Page-level visibility:** Review details such as page reference, connection status, review count, and last sync information.  
+  
+
+  * **Better agency scalability:** Support multiple clients, brands, branches, or franchise locations from a single sub-account setup.  
+  
+
+  * **Broad platform coverage:** Connect pages across 52 supported review platforms, including major general-review and industry-specific platforms.
+
+
+* * *
+
+## **Multi-Page Connections per Platform**
+
   
 
 
-  * **Improved Reputation Monitoring:** Track your brand across multiple sites  
+Multi-page connections give you the flexibility to manage more than one listing under a single review platform. This is helpful when one business has several locations or when an agency manages multiple listings for the same client.  
   
 
 
-  * **Streamlined Workflow:** Automate review collection and reduce manual effort
+You can use Multi-Page Integrations to:
 
+  
+
+
+  * Connect multiple business pages under one supported platform.  
+  
+
+  * Add review listings for several locations inside one sub-account.  
+  
+
+  * Manage review pages for franchises, branches, properties, or service areas.  
+  
+
+  * Expand page connections as new locations or clients are added.  
+  
+
+  * Keep review platform management centralized instead of creating unnecessary duplicate setups.  
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073735537/original/vOJ5_sM0RUD0ULyciDV4kWIg56K5bSuqyA.gif?1781593462)
 
 * * *
 
@@ -70,7 +115,7 @@ This guide walks you through how to connect supported review platforms to your a
   
 
 
-### **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070067190/original/Ee2IWz1-4uBgCzRThZjbsrON4Crf7ZyB8Q.png?1777320389)**  
+### **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073734922/original/uCfevzIrIlGO_-1pDYd0MBhRl9BAKYPigg.png?1781592954)**  
 
 
 This page displays all available review platforms you can integrate.
@@ -80,7 +125,7 @@ This page displays all available review platforms you can integrate.
   
 
 
-  1. Click **Integrate** on the platform you want to connect  
+  1. Click **Connect account** on the platform you want to connect  
   
 
 
@@ -88,7 +133,7 @@ This page displays all available review platforms you can integrate.
   
 
 
-  3. Click **Integrate**
+  3. Click **Connect**
 
 
 ###   
@@ -97,7 +142,7 @@ This page displays all available review platforms you can integrate.
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070067234/original/pogmtrh144YoEqGsHCpMtpA0zEVwahPikQ.png?1777320490)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073735062/original/-0nT1vHIRmxfzGgD7SlTp6yw7g3zLf3EDg.png?1781593034)
 
   
 
@@ -111,12 +156,43 @@ Once connected, reviews will automatically sync into your dashboard.
 
 * * *
 
-## **Supported Review Platforms**
+## **Page-Level Visibility and Review Filtering**
 
   
 
 
-> **Note:** Each platform requires a valid public-facing review page URL. If you’re unsure, refer to that platform’s help documentation.
+Page-level visibility helps users confirm that reviews are being pulled from the correct connected pages. When multiple pages are connected under the same or different review platforms, users can filter the Reviews tab by individual sources or select multiple sources to review feedback from several pages at once.
+
+  
+
+
+From the **Reviews** tab, users can:  
+  
+
+
+  * Open the **Sources** dropdown to view connected review pages.  
+  
+
+  * Select one connected page to review feedback from that specific listing.  
+  
+
+  * Select two or more connected pages to view reviews from multiple listings in the same Reviews view.  
+  
+
+  * Use selected source filters to compare review activity across locations, properties, brands, or pages.  
+  
+
+
+Selected pages appear as source filter chips above the review list, making it easy to see which pages are currently being reviewed. This is especially helpful for agencies and multi-location businesses that need to monitor feedback for specific listings without leaving the main Reviews tab.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073735246/original/n4RwhzS6KcGy5GWQF2t-lFFno00l3NVWrw.png?1781593224)
+
+* * *
+
+## **Supported Review Platforms**
 
   
 
@@ -125,114 +201,65 @@ You can integrate with the following platforms:
   
 
 
-  * Yelp
-
-  * Trustpilot
-
-  * TripAdvisor
-
-  * Angi (formerly Angie’s List)
-
-  * Avvo
-
-  * Better Business Bureau (BBB)
-
-  * Healthgrades
-
-  * Booking.com
-
-  * HomeAdvisor
-
-  * CarGurus
-
-  * Cars.com
-
-  * ConsumerAffairs
-
-  * Vitals
-
-  * DealerRater
-
-  * Yellow Pages
-
-  * Zillow
-
-  * Airbnb
-
-  * App Store
-
-  * Google Play
-
   * Agoda
-
-  * Amazon
-
-  * eBay
-
-  * Hotels.com
-
-  * OpenTable
-
-  * RateMDs
-
-  * Zocdoc
-
-  * Lawyers.com
-
-  * Foursquare
-
-  * Etsy
-
-  * Expedia
-
-  * Indeed
-
-  * Zomato
-
-  * Capterra
-
-  * VRBO
-
-  * Google Shopping
-
-  * Glassdoor
-
-  * Houzz
-
-  * Thumbtack
-
-  * WebMD
-
-  * FindLaw
-
-  * ProductReview
-
+  * Airbnb
   * AliExpress
-
-  * Product Hunt
-
-  * Citysearch
-
   * AlternativeTo
-
+  * Amazon
+  * Angi (formerly Angie’s List)
   * ApartmentRatings
-
-  * DoorDash
-
-  * Uber Eats
-
-  * WeddingWire
-
-  * The Knot
-
-  * TrustRadius
-
-  * Yell
-
-  * Goodreads
-
+  * App Store
+  * Avvo
+  * Better Business Bureau (BBB)
+  * Booking.com
+  * Capterra
+  * CarGurus
   * Caring.com
+  * Cars.com
+  * Citysearch
+  * ConsumerAffairs
+  * DealerRater
+  * DoorDash
+  * eBay
+  * Etsy
+  * Expedia
+  * FindLaw
+  * Foursquare
+  * Glassdoor
+  * Goodreads
+  * Google Play
+  * Google Shopping
+  * Healthgrades
+  * HomeAdvisor
+  * Hotels.com
+  * Houzz
+  * Indeed
+  * Lawyers.com
+  * OpenTable
+  * Product Hunt
+  * ProductReview
+  * RateMDs
+  * The Knot
+  * Thumbtack
+  * TripAdvisor
+  * Trustpilot
+  * TrustRadius
+  * Uber Eats
+  * Vitals
+  * VRBO
+  * WebMD
+  * WeddingWire
+  * Yell
+  * Yellow Pages
+  * Yelp
+  * Zillow
+  * Zocdoc  
+  
 
+
+    
+    
+    **Note:** Each platform requires a valid public-facing review page URL. If you’re unsure, refer to that platform’s help documentation.
 
 * * *
 
@@ -276,80 +303,71 @@ By integrating multiple review platforms, you can centralize your review managem
   
 
 
-**Q: Do I need to connect all platforms?**
-
-No. You can connect only the platforms relevant to your business.  
-  
-  
-
-
-**Q: What type of URL should I use when integrating a platform?**
-
-You should use your **public-facing review page URL** (for example, your Yelp page or Google Business profile).  
-  
-
+**Q: Do I need to connect multiple pages per platform?**  
+No. You can keep a single page connected if your business only uses one listing for that platform. Multi-Page Integrations are useful when you need to manage multiple pages, locations, or listings under the same platform.
 
   
 
 
-**Q: How long does it take for reviews to appear after integration?**
-
-Reviews are typically fetched shortly after integration, but timing may vary depending on the platform.  
-  
-
+**Q: Is there a limit to how many pages I can connect under one platform?**  
+No. The release supports adding multiple pages per platform without a page connection cap.
 
   
 
 
-**Q: Can I respond to reviews from HighLevel?**
-
-Yes, for supported platforms, you can manage and respond to reviews directly from your dashboard.  
-  
-
+**Q: Can I connect multiple platforms and multiple pages under each platform?**  
+Yes. You can connect multiple supported review platforms and add multiple pages under each platform where applicable.
 
   
 
 
-**Q: Why are my reviews not showing up?**
-
-This may happen if:  
-  
-
+**Q: Where can I see the pages connected under a platform?**  
+Go to **Reputation → Settings → Integrations** , select the platform, and open the **Manage** option to view connected pages and page-level details.
 
   
 
 
-  * The URL is incorrect  
-  
-
-
-  * The page is not public  
-  
-
-
-  * The platform has restrictions
-
+**Q: Can I view reviews from more than one connected page at the same time?**  
+Yes. In the **Reviews** tab, open the **Sources** dropdown and select two or more connected pages. The Reviews view will show feedback from the selected sources, allowing you to monitor multiple listings together.
 
   
 
 
-Check your URL and permissions, then try again.
+**Q: Why do reviews not appear immediately after I add a new page?**  
+Newly connected pages may take some time to sync review data. Check the page status, review count, and last sync details in the Manage view to confirm when data has been updated.
 
   
 
 
-  
-**Q: Can I disconnect a review platform later?**
+**Q: Will Multi-Page Integrations change my review request messages?**  
+No. Multi-Page Integrations primarily affect which review pages are connected for monitoring and management. Review request messages, Review Links, and balancing settings should still be reviewed separately to confirm they route customers correctly.
 
-Yes. You can remove or update integrations at any time from the Integrations settings.
+  
+
+
+**Q: Can agencies use this for multiple clients?**  
+Yes. Agencies can use Multi-Page Integrations to manage several pages, brands, branches, or client listings from a more centralized setup.
 
 * * *
 
-## **Related Articles**  
+## **Related Articles**
+
   
 
 
-  * [Reputation Management: Competitor Analysis in HighLevel](<https://help.gohighlevel.com/en/support/solutions/articles/155000005344>)  
+  * [How to Integrate Multiple Review Platforms in HighLevel](<https://help.gohighlevel.com/support/solutions/articles/155000004584-integrating-multiple-review-platforms-to-manage-and-monitor-reviews?utm_source=chatgpt.com>)  
   
 
-  * [How to Customize the Review Request Messages (SMS/Email)](<https://help.gohighlevel.com/en/support/solutions/articles/48000980328>)
+  * [Reputation Management – Adding Multiple Review Links to Emails](<https://help.gohighlevel.com/support/solutions/articles/155000005906-reputation-management-adding-multiple-review-links-to-emails?utm_source=chatgpt.com>)  
+  
+
+  * [Review Request Balancing Across Platforms](<https://help.gohighlevel.com/support/solutions/articles/155000004137-review-request-balancing-across-platforms?utm_source=chatgpt.com>)  
+  
+
+  * [How to Customize the Review Request Messages (SMS/Email)](<https://help.gohighlevel.com/support/solutions/articles/48000980328-how-to-customize-the-review-request-messages-sms-email-?utm_source=chatgpt.com>)  
+  
+
+  * [Guided Review Setup Wizard (Reputation Management)](<https://help.gohighlevel.com/support/solutions/articles/155000005201-guided-review-setup-wizard-reputation-management-?utm_source=chatgpt.com>)  
+  
+
+  * [Reputation – Breaking Down the Reputation Overview Tab](<https://help.gohighlevel.com/support/solutions/articles/48001222767-reputation-breaking-down-the-reputation-overview-dashboard?utm_source=chatgpt.com>)

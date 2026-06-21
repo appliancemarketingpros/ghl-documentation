@@ -21,7 +21,7 @@ Public APIs for AI Agent Studio let you call, manage, and run any HighLevel agen
   * PIT Integrations
   * How To Set Up Agent Studio Public API
   * Frequently Asked Questions
-    * Related Articles
+  * Related Articles
 
 
 * * *
@@ -71,6 +71,99 @@ Your application sends secure HTTP requests to HighLevel’s servers, which run 
 
   * Return rich, structured JSON so downstream systems can parse results without extra NLP.
 
+
+* * *
+
+## **Manage Agents with Public APIs**
+
+  
+
+
+Agent Studio Public APIs now support full agent management, making it possible to create, retrieve, update, publish, execute, and delete agents programmatically. This gives API-first users a more complete way to manage agents without relying only on the Agent Studio UI.
+
+  
+
+
+Public API support now covers the core agent lifecycle, helping teams automate agent operations inside their existing platforms and workflows.
+
+* * *
+
+  
+
+
+## **Supported Agent Management Actions**
+
+  
+
+
+You can now use public APIs for these Agent Studio actions:
+
+  
+
+
+  * Create Agent
+  * List Agents
+  * Get Agent
+  * Update Agent
+  * Update Agent Metadata
+  * Delete Agent
+  * Promote to Production and Publish
+  * Execute Agent
+
+
+  
+
+
+Depending on the endpoint, requirements may vary for scopes, location context, and request parameters. In general, read actions use read-only access while create, update, publish, execute, and delete actions require write access.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074047814/original/BoUhA7VwsjtVQ-lXiW60JsoXvwXO3M4b1g.png?1781862173)
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074048015/original/1R19rn90VcmyS-nfDrnL3Wsp022Wv4ZZFQ.png?1781862296)
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074048322/original/_GRGuvHnBfnFx72p3q_6Lr-BXmW7reFPhg.png?1781862414)
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074048472/original/ellrdXSweWuUqH3uW4lcWIvd1S4EwqtnuQ.png?1781862499)
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074048606/original/-6YeVYxErIydrc3KWuDahc3Hv5LJUZh0dA.png?1781862566)
+
+* * *
+
+## **Deprecated Endpoints and Migration Guidance**
+
+  
+
+
+Some legacy Agent Studio public endpoints remain available and are marked as **deprecated** for backward compatibility.
+
+  
+
+
+For new development, use the current public endpoints instead of deprecated ones. Deprecated endpoints may be replaced or removed in future API versions, so newer integrations should be built against the active Agent Studio API routes.
+
+  
+
+
+If you currently rely on deprecated endpoints, review the latest Agent Studio API documentation and migrate to the updated endpoints where available.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074048700/original/PDmT5kGCEJOLXnrGDOQWsdwZxeD0zsPJEg.png?1781862630)
 
 * * *
 

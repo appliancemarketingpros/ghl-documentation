@@ -17,4 +17,5 @@
 - [How to set up the Adyen integration?](How to set up the Adyen integration.md)
 - [Missing payment methods in Stripe checkout element](Missing payment methods in Stripe checkout element.md)
 - [ACH - bank transfer support on NMI](ACH - bank transfer support on NMI.md)
+- [How to integrate with Mercado Pago for accepting payments?](How to integrate with Mercado Pago for accepting payments.md)
 - [Details about fixed schedule subscriptions and charge when needed on Razorpay](Details about fixed schedule subscriptions and charge when needed on Razorpay.md)

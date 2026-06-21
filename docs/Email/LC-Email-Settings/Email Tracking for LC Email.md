@@ -6,8 +6,8 @@
 
 ---
 
-Tracking email engagement is crucial for tailoring your email marketing strategy. In this article, you’ll learn how to enable or disable open and click tracking for your emails, ensuring that your email campaigns align with your specific needs. We’ll guide you through the simple steps to adjust these settings within your Sub-account, allowing you to customize tracking for each dedicated domain.  
-  
+Tracking email engagement is crucial for tailoring your email marketing strategy. In this article, you’ll learn how to enable or disable open and click tracking for your emails, ensuring that your email campaigns align with your specific needs. We’ll guide you through the simple steps to adjust these settings within your Sub-account, allowing you to customize tracking for each dedicated domain.
+
   
 
     

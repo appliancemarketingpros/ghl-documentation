@@ -125,6 +125,34 @@ Define your group’s identity by entering a name, URL, and short description. T
 
 * * *
 
+## **Smarter Group Landing in Communities**
+
+  
+
+
+Communities now guide users to a more relevant group when they enter, making navigation feel faster and more intuitive.
+
+  
+
+
+Instead of landing on a random group, users are redirected to:
+
+  
+
+
+  * a group they are already a member of, or  
+  
+
+  * a group they accessed recently
+
+
+  
+
+
+This helps members get back to the right place faster and improves the experience in communities with multiple groups.
+
+* * *
+
 ## **Email Notification Settings for HighLevel Communities**
 
   
@@ -256,7 +284,7 @@ Customizing the reminder email helps members recognize your brand and improves R
 
 **Steps**
 
-1\. Select **Group**Event** Reminder Email**.  
+1\. Select **Group Event Reminder Email**.  
   
 
 

@@ -13,6 +13,7 @@ This is a comprehensive guide for migrating online communities, courses, and rel
 **TABLE OF CONTENTS**
 
   * Preparation for Migration
+  * Use the Skool Importer for a More Streamlined Migration
   * Data Migration
   * Rebuilding Community and Courses
   * Rebuilding Events and Automations
@@ -74,6 +75,25 @@ This is a comprehensive guide for migrating online communities, courses, and rel
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155032355221/original/m71zUSZ8OLAJzDuV_zjfiEf_tbDVKXB9rg.png?1725556379)
+
+* * *
+
+## **Use the Skool Importer for a More Streamlined Migration**
+
+  
+
+
+If you are migrating from Skool, HighLevel also provides a dedicated Skool Importer that helps bring over community members and content more efficiently.
+
+  
+
+
+The importer now supports a more seamless multi-group migration experience and preserves imported content order more accurately.
+
+  
+
+
+For the most current importer workflow, refer to the dedicated Skool Importer article.
 
 * * *
 

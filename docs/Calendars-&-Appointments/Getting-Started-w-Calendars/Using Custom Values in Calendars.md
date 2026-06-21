@@ -84,6 +84,16 @@ You can use Custom Values in any calendar field that supports merge fields, incl
   * Workflow messages triggered by appointments
 
 
+  
+You can also use assigned user values in these post-booking experiences:
+
+  
+Calendar confirmation page, Thank you message
+
+The next funnel step after a calendar booking, when the Calendar element redirect action is set to Go to next step
+
+Assigned user values populate from the user linked to the contact or appointment. This helps you show the assigned user’s name, email, phone number, or other supported user details after a booking.
+
 * * *
 
 ## **Before You Start**
@@ -117,7 +127,9 @@ Your Custom Values will now be available in the merge-field selector.
 
 * * *
 
-## **How to Use Custom Values in Calendars**
+## **How to Use Custom Values in Calendars**  
+  
+
 
   1. Go to **Calendars**  
   
@@ -166,7 +178,25 @@ Your Custom Values will now be available in the merge-field selector.
   9. (Recommended) Book a test appointment to confirm the value displays correctly  
   
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069958402/original/tesrmYF5DFxDgpYa-_fEsGT77389QzG1CA.png?1777176373)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069958402/original/tesrmYF5DFxDgpYa-_fEsGT77389QzG1CA.png?1777176373)  
+  
+
+
+### **Use Assigned User Values After a Calendar Booking in a Funnel**
+
+When a Calendar element is used in a funnel and the redirect action is set to **Go to next step**, assigned user values can render on the next funnel step after the appointment is booked.
+
+1\. Add a Calendar element to a funnel step.
+
+2\. Set the Calendar element redirect action to Go to next step.
+
+3\. Add assigned user merge fields to the next funnel step.
+
+4\. Book a test appointment.
+
+5\. Confirm that the assigned user values populate on the next funnel step.
+
+You can also add assigned user values to the calendar confirmation page, Thank You Message.  
 
 
 * * *

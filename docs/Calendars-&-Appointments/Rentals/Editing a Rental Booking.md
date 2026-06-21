@@ -13,22 +13,12 @@ This article provides a complete guide to **editing bookings** in Rentals. It ex
 **TABLE OF CONTENTS**
 
   * Overview of Editing a Booking
-    * Key Benefits of Editing a Rental Booking
-    * How to Edit a Booking
-    * Understanding the Edit Booking Screen
-    * Booking Summary
-    * Customer Information
-    * Listings
-    * Internal Notes
-    * Payment Summary
-    * Invoices
-    * Transactions
-    * Booking Actions
-    * Managing Statuses
-    * Saving Changes
-    * Key Behaviors
-    * Frequently Asked Questions
-    * Related Articles
+  * How to Edit a Booking
+  * Understanding the Edit Booking Screen
+  * Managing Statuses
+  * Key Behaviors
+  * Frequently Asked Questions
+  * Related Articles
 
 
 * * *
@@ -65,10 +55,7 @@ From this page, you can:
 
 This functionality ensures that you can update bookings as needed while maintaining data integrity and financial accuracy.
 
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056274799/original/dUoD6cBO_v2ykwjxGqsrW3E3pvPyTWOlKA.png?1760718125)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073943853/original/C3GR0TXofVyj7SaU8qKW80pa9Om4gfZnqg.png?1781769074)
 
 * * *
 
@@ -207,7 +194,7 @@ The **Booking Summary** gives a quick snapshot of the booking’s key details at
   
 
 
-  * **Booking Source** –  
+  * **Booking Source** – The source from where the booking was made (e.g., Calendars page, Booking page, etc.)  
   
 
 
@@ -275,7 +262,7 @@ Each listing in the booking is displayed here with its details and editable fiel
   
 
 
-  * **\+ Add Listing** – Add new listings to the booking.  
+  * **\+ New listing** – Add new listings to the booking.  
   
 
 
@@ -294,44 +281,7 @@ Each listing in the booking is displayed here with its details and editable fiel
     
     **Important:** While updating or adding new listings to the booking, inventory must be available for the time duration for it to be selectable.
 
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056275337/original/y3AAKpdi5UoIiQHklyn_UBfCPCXO4NdPFw.png?1760718190)
-
-* * *
-
-## **Internal Notes**
-
-  
-
-
-At the bottom of the page, you’ll find the **Internal Notes** section. This area displays all previously added internal notes related to the booking and allows admins to add new ones.
-
-  
-
-
-  * **View Notes:** Scroll through all existing internal notes for context or reference. Each note shows who added it and when.  
-  
-
-
-  * **Edit or Delete :** The internal notes can be edited for any modifications and deleted incase not needed.  
-  
-
-
-  * **Add New Note:** Click **Add Internal Note** to record updates, reminders, or details. These notes do not appear on customer-facing pages or invoices
-
-
-  
-
-    
-    
-    **Tip:** Internal notes are helpful for tracking special circumstances, follow-ups, or instructions for your team.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056275616/original/AzIKePh6l2n7NiMnXzaOPC7t37-hBfpONA.png?1760718277)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073944034/original/QRStSQudG7d0d0u0WaPnoM_weektuRIEGQ.png?1781769158)
 
 * * *
 
@@ -366,6 +316,10 @@ $500.00
 Amount Due
 
   * **Rental Subtotal** – The combined value of all listings.  
+  
+
+
+  * **Taxes** \- The taxes associated to the listings (if applicable).  
   
 
 
@@ -422,13 +376,13 @@ Invoices are automatically created for every booking and provide a clear, itemiz
   
 
 
-  * Every invoice reflects the listings and any security deposits linked to the booking.
+  * The invoice reflects the listings and any security deposits linked to the booking.
 
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056276562/original/VkpdeLMpQkfkjkG7VjiNrk-ktDGA4lWCmg.png?1760718892)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073944838/original/nZMP8ZEPgxa7SSkDUAMYHXN-d2tmzrSshw.png?1781769559)
 
 * * *
 
@@ -466,7 +420,41 @@ Refunds must be processed manually via **Payments - >** **Transactions** and wil
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056276694/original/AOuN05Qkv_WBQ2cSFBPA0ZI1ZcHKaEl-tA.png?1760718949)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073944751/original/WzXMF6BMDBN3CZvmnsa61tat9ix08WDz8w.png?1781769541)
+
+* * *
+
+## **Internal Notes**
+
+  
+
+
+At the bottom of the right column, you’ll find the **Internal Notes** section. This area displays all previously added internal notes related to the booking and allows admins to add new ones.
+
+  
+
+
+  * **View Notes:** Scroll through all existing internal notes for context or reference. Each note shows who added it and when.  
+  
+
+
+  * **Edit or Delete :** The internal notes can be edited for any modifications and deleted incase not needed.  
+  
+
+
+  * **Add New Note:** Click **Add Internal Note** to record updates, reminders, or details. These notes do not appear on customer-facing pages or invoices
+
+
+  
+
+    
+    
+    **Tip:** Internal notes are helpful for tracking special circumstances, follow-ups, or instructions for your team.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073944392/original/Hx1bfKBoB0C0i7IqCdm0OmzvW1yQaxZJDQ.png?1781769329)
 
 * * *
 
@@ -488,7 +476,7 @@ Admins can use action buttons to update booking statuses and manage payments dir
   
 
 
-  * **Mark as Booked / Active / Complete** – Opens a modal where you can select which listings to update.  
+  * **Mark as Booked / Active / Complete** – Opens a modal where you can select which listings to update the status for.  
   
 
 
@@ -506,8 +494,7 @@ Admins can use action buttons to update booking statuses and manage payments dir
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056276079/original/3p8WJlJBGydIREI8j5zJCtBL0aN-1A6pxw.png?1760718654)  
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073944972/original/VR3s_w44bRk6x-bdsZ8eAqz0oZWNOMhUGQ.png?1781769657)  
 
 
 #### **Payment Actions**
@@ -525,7 +512,7 @@ Admins can use action buttons to update booking statuses and manage payments dir
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056276010/original/9lGvKDOyJ-8-JLVAZikhspv1dMC5AvY06A.png?1760718585)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073945122/original/Vxe0BqawTh4hXqaKT3gs-ul14BzEizVfog.png?1781769702)
 
 * * *
 

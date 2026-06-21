@@ -26,6 +26,7 @@ This article addresses frequently asked billing questions for HighLevel agency a
   * Financial Assistance Requests
   * Error: "Please Update the Billing Address"
   * Issues with Online Listing Services
+  * Accepted Card Payment Types
   * Card Payment Errors
   * Viewing Past Invoices
   * Frequently Asked Questions
@@ -306,7 +307,7 @@ To modify or cancel your Online Listing service:
   
 
 
-  * Contact **[accountmanagers@agencyonfile.com](<mailto:accountmanagers@agencyonfile.com>)** directly.  
+  * Contact **[accountmanagers@agencyonfile.com](<mailto:accountmanagers@agencyonfile.com>)** directly.   
   
 
   * To cancel, submit the following via chat:  

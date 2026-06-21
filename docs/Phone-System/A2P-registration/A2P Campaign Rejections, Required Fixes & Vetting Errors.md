@@ -1,6 +1,6 @@
-# Understanding A2P Campaign Rejection Reasons & Required Fixes
+# A2P Campaign Rejections, Required Fixes & Vetting Errors
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000007572-understanding-a2p-campaign-rejection-reasons-required-fixes](https://help.gohighlevel.com/support/solutions/articles/155000007572-understanding-a2p-campaign-rejection-reasons-required-fixes)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000007572-a2p-campaign-rejections-required-fixes-vetting-errors](https://help.gohighlevel.com/support/solutions/articles/155000007572-a2p-campaign-rejections-required-fixes-vetting-errors)  
 **Category:** Phone System  
 **Folder:** A2P registration
 
@@ -12,42 +12,43 @@ When an A2P 10DLC campaign is rejected, it's important to understand exactly wha
 
 **TABLE OF CONTENTS**
 
-  * Overview
-  * What's New
+  * What are Required Fixes?
+  * Why A2P Campaign Vetting Happens
   * How to View Your Required Fixes
+  * Before You Resubmit
   * Rejection Codes & Required Fixes
-  * Part 1: Rejection Types Eligible for Resubmission
-    * Opt-In & Consent
-    * Website
-    * Business Identity
-    * Campaign Use Case
-    * Registration & Brand
-  * Part 2: Rejection Types Ineligible for Resubmission
-    * SHAFT Content Violations
-    * Disallowed Content
-    * High Risk
-    * Legacy Codes (Pre-March 23, 2026)
-  * Part 3: New Granular Error Codes (Effective March 23, 2026)
-    * Opt-In & Consent
-    * Website
-    * Business Identity
-    * Use Case
-    * SHAFT Content Violations (Ineligible for Resubmission)
-    * Disallowed Content (Ineligible for Resubmission)
-    * High Risk (Ineligible for Resubmission)
-    * Registration Issue
-  * Why This Matters
-  * Frequently Asked Questions
+    * Part 1: Rejection Types Eligible for Resubmission
+      * Opt-In & Consent
+      * Website
+      * Business Identity
+      * Campaign Use Case
+      * Registration & Brand
+    * Part 2: Rejection Types Ineligible for Resubmission
+      * SHAFT Content Violations
+      * Disallowed Content
+      * High Risk
+      * Legacy Codes (Pre-March 23, 2026)
+    * Part 3: New Granular Error Codes (Effective March 23, 2026)
+      * Opt-In & Consent
+      * Website
+      * Business Identity
+      * Use Case
+      * SHAFT Content Violations (Ineligible for Resubmission)
+      * Disallowed Content (Ineligible for Resubmission)
+      * High Risk (Ineligible for Resubmission)
+      * Registration Issue
+  * Campaign Vetting Fees and Resubmission Notes
+    * Frequently Asked Questions
 
 
 * * *
 
-## **What's New**
+# **What are Required Fixes?**
 
   
 
 
-Previously, rejection reasons appeared as short, high-level descriptions with little context. Now, every rejection reason includes a **"View required fixes →"** link. Clicking it opens a detailed modal that breaks down the issue into four clear fields:
+Every rejection reason includes a "**View required fixes →** " link. Clicking it opens a detailed modal that breaks down the issue into four clear fields:
 
   
 
@@ -66,29 +67,98 @@ Field| Description
   
 * * *
 
+## **Why A2P Campaign Vetting Happens**
+
+  
+
+
+A2P 10DLC Campaigns are reviewed before approval to help reduce spam, fraud, and unwanted messaging across carrier networks. Campaign vetting helps carriers confirm that the submitted use case, opt-in method, sample messages, and business information are complete, accurate, and aligned with the messages the business plans to send.
+
+  
+
+
+Newly submitted Campaigns may remain in **Pending** status until review is complete. If a Campaign does not meet carrier or registration partner requirements, it may be rejected and require corrections before it can be approved.
+
+* * *
+
 ## **How to View Your Required Fixes**
 
-  1. Navigate to your **A2P Campaign** submission in the portal.
-  2. Locate the rejected campaign and find the listed rejection reason(s).
-  3. Click **"View required fixes →"** next to the rejection reason.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067598623/original/YFbcG7KVWQPjCP6smtLbZH3TfX53Fxs1FQ.png?1774353448)
-  4. Review each of the four fields in the modal carefully.
-  5. Make the corrections indicated under **"Correction needed."**
+  
+
+
+  1. Navigate to your **A2P Campaign** submission in the portal.  
+  
+
+  2. Locate the rejected campaign and find the listed rejection reason(s).  
+  
+
+  3. Click "**View required fixes →** " next to the rejection reason.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067598623/original/YFbcG7KVWQPjCP6smtLbZH3TfX53Fxs1FQ.png?1774353448)  
+  
+
+  4. Review each of the four fields in the modal carefully.  
+  
+
+  5. Make the corrections indicated under "**Correction needed**."  
+  
+
   6. Resubmit your campaign once all issues are resolved.
 
 
-> **Tip:** A campaign may have more than one rejection reason. Make sure you click "View required fixes →" for _each_ listed reason and address all issues before resubmitting.
+  
+
+    
+    
+    **Tip:** A campaign may have more than one rejection reason. Make sure you click "View required fixes →" for _each_ listed reason and address all issues before resubmitting.
+
+* * *
+
+## **Before You Resubmit**
+
+  
+
+
+If your Campaign is rejected, review all rejection reasons before making changes. A Campaign can have more than one rejection reason, and all listed issues should be corrected before resubmitting.
+
+  
+
+
+Some rejection reasons can be fixed by updating the existing Campaign submission. Other issues may require creating a new Campaign, especially if the required correction involves a field that cannot be edited during resubmission.
+
+  
+
+
+For example, the Campaign use case and Opt-in message may not be editable during resubmission. If one of these fields needs to be changed, you may need to create and submit a new Campaign.
+
+  
+
+
+If the rejection is related to disallowed, forbidden, or high-risk content, the Campaign may not be eligible for standard correction and resubmission.
 
 * * *
 
 ## **Rejection Codes & Required Fixes**
 
-##  _Part 1: Rejection Types Eligible for Resubmission_
-
-The rejection codes below can be resolved and resubmitted. Take the corrective action outlined for each code, update your campaign registration with the corrected information, and resubmit for review.  
   
 
 
-### **Opt-In & Consent**  
+##  _Part 1: Rejection Types Eligible for Resubmission_
+
+  
+
+
+The rejection codes below can be resolved and resubmitted. Take the corrective action outlined for each code, update your campaign registration with the corrected information, and resubmit for review.
+
+  
+
+
+  
+
+
+### **Opt-In & Consent**
+
+  
 
 
 Error Code| What It Means| Correction Needed  
@@ -105,8 +175,14 @@ Error Code| What It Means| Correction Needed
 **30887**|  Campaign indicated collecting and processing consumer opt-outs, but the workflow is unclear, missing keywords, or missing an opt-out message.| Verify the opt-out workflow is accurate and update the Message Flow description with the opt-out process. Add opt-out keywords and update the opt-out message to include: acknowledgement of the request, confirmation no further messages will be sent, and your brand name.  
 **30890**|  HELP message reply does not contain a brand name, phone number, or email address.| Verify the subscriber HELP message contains a brand name, phone number, or email address. The message must guide customers on who to contact after replying "HELP."  
   
+  
+
+
 ###   
 **Website**
+
+  
+
 
 Error Code| What It Means| Correction Needed  
 ---|---|---  
@@ -119,8 +195,13 @@ Error Code| What It Means| Correction Needed
 **30908**|  A compliant privacy policy was not provided in the Message Flow or could not be located on the website.| Verify the privacy policy is accessible to end-users and include a direct link to it within the Message Flow.  
 **30888**|  An age gate is not present on the website or opt-in flow.| Verify and add a robust age gate to your website or opt-in policy.  
   
+  
+
+
 ###   
-**Business Identity**  
+**Business Identity**
+
+  
 
 
 Error Code| What It Means| Correction Needed  
@@ -136,8 +217,14 @@ Error Code| What It Means| Correction Needed
 **30894**|  Campaign registration is not associated with the correct brand.| Verify brand information is valid and accurately associated with the campaign.   
 **30903**|  Brand does not meet the Sole Proprietor (EIN) criteria set by TCR and mobile carriers.| Register the brand as a standard brand and register a standard campaign use case that aligns with the brand's classification.  
   
+  
+
+
 ###   
 **Campaign Use Case**
+
+  
+
 
 Error Code| What It Means| Correction Needed  
 ---|---|---  
@@ -153,8 +240,14 @@ Error Code| What It Means| Correction Needed
 **30892**|  Sample messages include a public URL shortener or a non-secured URL.| Remove all public URL shorteners (e.g., bit.ly) from sample messages. Use full, direct HTTPS URLs only.  
 **30889**|  Embedded phone number is selected but not reflected in sample messages.| Verify the embedded phone number selection is accurate. Update sample messages to include the embedded phone number, or update the embedded phone number selection.  
   
+  
+
+
 ###   
 **Registration & Brand**
+
+  
+
 
 Error Code| What It Means| Correction Needed  
 ---|---|---  
@@ -169,10 +262,15 @@ Error Code| What It Means| Correction Needed
   
 
 
-The rejection codes below are due to **forbidden messaging categories** and are **not eligible for resubmission**. 
+The rejection codes below are due to forbidden messaging categories and are not eligible for resubmission. 
 
-###   
-**SHAFT Content Violations**
+  
+
+
+  
+
+
+### **SHAFT Content Violations**
 
   
 
@@ -191,7 +289,10 @@ Error Code| Rejection Category| What It Means
 **30957**|  SHAFT – Firearms| Submission included content related to firearms, fireworks, or explosives.  
 **30958**|  SHAFT – Tobacco / Vape| Submission included cigarettes, cigars, tobacco products, vape, vape juice, or similar items.  
   
-###   
+  
+
+
+  
 
 
 ### **Disallowed Content**
@@ -215,7 +316,10 @@ Error Code| Rejection Category| What It Means
 **30951**|  Disallowed| Third-party lead generation or multi-level marketing (MLM).  
 **30952**|  Disallowed| Non-federally compliant use case.  
   
-###   
+  
+
+
+  
 
 
 ### **High Risk**
@@ -232,7 +336,10 @@ Error Code| Rejection Category| What It Means
 **30963**|  High Risk| Campaign uses public URL shorteners (bit.ly, tinyurl, etc.).  
 **30964**|  High Risk| Campaign URLs use HTTP instead of HTTPS.  
   
-###   
+  
+
+
+  
 
 
 ### **Legacy Codes (Pre-March 23, 2026)**
@@ -255,14 +362,20 @@ Error Code| Rejection Category| What It Means
   
 * * *
 
-## **Part 3: New Granular Error Codes (Effective March 23, 2026)**
+## _Part 3: New Granular Error Codes (Effective March 23, 2026)_
 
   
 
 
-Starting March 23, 2026, new granular error codes provide more precise rejection reasons compared to previous general codes. Instead of receiving a broad code like **30883** , **30884** , **30885** , or **30897** , you'll now receive a code that specifically identifies the issue.
+Starting March 23, 2026, new granular error codes provide more precise rejection reasons compared to previous general codes. Instead of receiving a broad code like 30883, 30884, 30885, or 30897, you'll now receive a code that specifically identifies the issue.
 
-The general catch-all code **30883** (covering SHAFT categories: Sex, Hate, Alcohol, Firearms, and Tobacco) now has distinct error codes per category. These content restrictions apply to campaign descriptions, sample messages, website content, and any linked URLs. Specific high-risk and disallowed codes also replace the general 30884 and 30885 codes.
+  
+
+
+The general catch-all code 30883 (covering SHAFT categories: Sex, Hate, Alcohol, Firearms, and Tobacco) now has distinct error codes per category. These content restrictions apply to campaign descriptions, sample messages, website content, and any linked URLs. Specific high-risk and disallowed codes also replace the general 30884 and 30885 codes.
+
+  
+
 
 ###   
 **Opt-In & Consent**
@@ -281,8 +394,13 @@ Error Code| What It Means| Correction Needed
 **30931**|  Opt-in form mechanics prevent consumers from declining messaging.| Add an explicit skip option or unchecked checkbox. A single button must not grant all permissions including messaging.  
 **30932**|  Privacy policy indicates opt-in data is shared with third parties for marketing.| Update your privacy policy to explicitly state that mobile information will not be shared with third parties for marketing purposes.  
   
-###   
-**Website**
+  
+
+
+  
+
+
+### **Website**
 
   
 
@@ -294,8 +412,13 @@ Error Code| What It Means| Correction Needed
 **30921**|  Website requires a login — reviewers cannot access it.| Create a publicly accessible page describing your business and messaging program.  
 **30922**|  Website does not meet verification requirements (under construction, non-standard URL).| Provide a functioning, standard URL. If pre-launch, note this in your campaign description and provide screenshots.  
   
-###   
-**Business Identity**
+  
+
+
+  
+
+
+### **Business Identity**
 
   
 
@@ -310,8 +433,13 @@ Error Code| What It Means| Correction Needed
 **30971**|  Contact email uses a personal domain (Gmail, Yahoo) instead of an official business domain.| Register and use a business email address (e.g., [name@yourcompany.com](<mailto:name@yourcompany.com>)).  
 **30972**|  Contact person listed is not an authorized representative of the business.| Update the contact to an authorized representative of the registered business.  
   
-###   
-**Use Case**
+  
+
+
+  
+
+
+### **Use Case**
 
   
 
@@ -326,8 +454,13 @@ Error Code| What It Means| Correction Needed
 **30929**|  Emergency alert notifications are not permitted through A2P 10DLC.| Emergency alerts are not a valid A2P 10DLC use case. Contact support for alternatives.  
 **30930**|  Your brand has reached the 100-campaign limit.| Deregister unused campaigns in the console to free up capacity.  
   
-### **  
-SHAFT Content Violations** _**(Ineligible for Resubmission)**_
+  
+
+
+  
+
+
+### **SHAFT Content Violations (Ineligible for Resubmission)**
 
   
 
@@ -341,8 +474,13 @@ Error Code| What It Means
 **30957**|  Firearms, fireworks, or explosives.  
 **30958**|  Tobacco or vape products.  
   
-###   
-**Disallowed Content** _**(Ineligible for Resubmission)**_
+  
+
+
+  
+
+
+### **Disallowed Content (Ineligible for Resubmission)**
 
   
 
@@ -366,7 +504,7 @@ Error Code| What It Means
   
 
 
-### **High Risk** _**(Ineligible for Resubmission)**_
+### **High Risk (Ineligible for Resubmission)**
 
   
 
@@ -380,8 +518,13 @@ Error Code| What It Means
 **30963**|  Campaign uses public URL shorteners (bit.ly, tinyurl, etc.).  
 **30964**|  Campaign URLs use HTTP instead of HTTPS.  
   
-###   
-**Registration Issue**
+  
+
+
+  
+
+
+### **Registration Issue**
 
   
 
@@ -392,21 +535,27 @@ Error Code| What It Means| Correction Needed
   
 * * *
 
-## **Why This Matters**
+## **Campaign Vetting Fees and Resubmission Notes**
 
   
 
 
-This update gives you clear, actionable feedback so you can:
+A2P 10DLC Campaign vetting may include verification or review fees. These fees and any applicable recurring Campaign fees can vary by registration type, Campaign type, and current carrier requirements.
 
   
 
 
-  * **Quickly identify the root cause** of each rejection
-  * **Resolve issues without guesswork** or back-and-forth with support
-  * **Reduce time to approval** by submitting complete, compliant campaigns
-  * **Resubmit with confidence** , knowing exactly what changed
+For the most current pricing details, see: [A2P 10DLC Messaging Fees: Registration, Monthly, and Carrier Costs.](<https://help.gohighlevel.com/en/support/solutions/articles/155000005200>)
 
+  
+
+
+Eligible Campaign rejections may be corrected and resubmitted. Some rejection types, such as disallowed or high-risk content, may be handled differently and may not qualify for standard resubmission.
+
+  
+
+
+Review the rejection reason carefully before resubmitting or creating a new Campaign.
 
 * * *
 
@@ -415,32 +564,40 @@ This update gives you clear, actionable feedback so you can:
   
 
 
-**Q. Can I resubmit immediately after making corrections?**  
+**Q: Can I resubmit immediately after making corrections?**
+
 Yes, for eligible rejection codes. Once you've addressed all listed rejection reasons, you can resubmit your campaign directly from the portal. Note that resubmission may be subject to additional carrier review time.
 
   
 
 
-  
-
-
-**Q. My campaign has multiple rejection reasons. Do I need to fix all of them?**  
+**Q: My campaign has multiple rejection reasons. Do I need to fix all of them?**  
 Yes. All rejection reasons must be resolved before resubmission. Addressing only some issues will likely result in another rejection.
 
   
 
 
-  
+**Q: My campaign was rejected with an ineligible code. Can I still appeal?**
 
-
-**Q. My campaign was rejected with an ineligible code. Can I still appeal?**  
 Yes. If you believe your rejection was made in error, contact support with the subject line "10DLC Campaign Appeal for [your business name or number]" and include the full details of your appeal.
 
   
 
 
+**Q: I fixed the issue but my campaign was rejected again. What should I do?**
+
+Review the new rejection reasons carefully , carriers may surface additional issues on subsequent reviews. If you believe your campaign is compliant and continue to face rejections, contact our support team for assistance.
+
   
 
 
-**Q. I fixed the issue but my campaign was rejected again. What should I do?**  
-Review the new rejection reasons carefully , carriers may surface additional issues on subsequent reviews. If you believe your campaign is compliant and continue to face rejections, contact our support team for assistance.
+**Q: Why is my Campaign in Pending status?**
+
+Newly submitted A2P 10DLC Campaigns may remain in Pending status while they are reviewed by carriers or registration partners. If the Campaign is approved, it can move forward for A2P messaging. If it does not meet requirements, it may be rejected with required fixes.
+
+  
+
+
+**Q:Is there a fee to resubmit a rejected Campaign?**
+
+Eligible Campaign rejections may be corrected and resubmitted. Fee handling can vary depending on the rejection type and current carrier requirements.

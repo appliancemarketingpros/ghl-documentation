@@ -173,7 +173,11 @@ There are two ways to create a booking:
 
   4. The **New Booking** screen will appear.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056085447/original/7OytY5K9daygPeOwnqtUQ3Eg8aO9IirAfQ.jpeg?1760548019)
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073942646/original/k-EdupEP0CmzS8DW0JUMq8ktafO1qtKQdg.png?1781768388)
+
+  
 
 
 * * *
@@ -188,22 +192,20 @@ The booking form includes the following sections:
   
 
 
-  1. **Customer Information**  
+  1. **Customer Details**  
   
 
 
-  2. **Listings**  
+  2. **Listings**
+
+  3. ****Internal Note****  
   
 
 
-  3. **Payment Summary**  
-  
-
-
-  4. **Internal Note**  
+  4. **Payment Summary**  
 ****
 
-  5. **Set Payment Status**  
+  5. **Set Booking Status**  
   
 
 
@@ -219,7 +221,7 @@ Each section is detailed below.
 
 * * *
 
-## **Customer Information**
+## **Customer Details**
 
   
 
@@ -247,10 +249,7 @@ Enter or select the customer making the booking.
     
     **Tip:** Always confirm contact details to ensure reminders and payment confirmations reach the right person.
 
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056085478/original/LxANM-yTFJ2ln8OkRRHFuOiFiqJTD0KOsQ.png?1760548102)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073942731/original/4r4ABPKySmFQsg5VK4W7I0lvBOItfrgd2g.png?1781768447)
 
 * * *
 
@@ -317,7 +316,7 @@ This is where you select the listing(s) being booked.
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056087383/original/nIFG_l4RnlZ9BibreRrzX2HDsF8CHRZz1Q.png?1760549597)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073942762/original/AuMiab5MV9p8JV8nLUWmxRdMnF-OZ_DK6w.png?1781768472)
 
 ####   
 
@@ -341,10 +340,27 @@ This is where you select the listing(s) being booked.
   * The combined total updates in the final **Payment Summary**.
 
 
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073942878/original/ag7-HYgle831dtBNopcsq4e85IWt-VOiTA.png?1781768530)
+
+* * *
+
+## **Internal Notes**
+
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056087320/original/x6BTzWXIgAmlgQmjc6P4mco0N-WL6bnqGw.png?1760549535)
+Use this section to add contextual notes or record operational details.
+
+  
+
+
+  * **Add Internal Note:** Add instructions, customer requests, or internal reminders.
+
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073943013/original/xiIgpq4A-w2bz5ga62tkUeyn74TyRpiaqA.png?1781768621)
 
 * * *
 
@@ -383,25 +399,7 @@ The payment summary consolidates all costs in the booking.
     
     **Note:** Incase security deposit is set to Card on File, the Total Amount in the payment summary excludes the amount for Security Deposit, however; it can be collected later and is not considered as an amount due until charged explicitly.
 
-* * *
-
-## **Internal Notes**
-
-  
-
-
-Use this section to add contextual notes or record operational details.
-
-  
-
-
-  * **Add Internal Note:** Add instructions, customer requests, or internal reminders.
-
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056087616/original/yE7it8m7nlORVyV7EPcD-Wa35Phkld_5Tg.png?1760549796)
+## ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073943115/original/sJfWec09Zzr0yrj2GHDcuV1hRGxXxie0Aw.png?1781768646)
 
 * * *
 
@@ -427,7 +425,7 @@ This flexibility helps admins manage provisional holds or manually confirmed boo
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056087554/original/HF-gFQyknlDPM3UWR6IwlgxbrnnDnGyfUQ.png?1760549742)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073943160/original/X7W15OwY6vhEaIOTW6vdSNFVddPSKCPSqw.png?1781768669)
 
 * * *
 
@@ -444,7 +442,7 @@ Once all fields are complete:
   
 
 
-  2. Click **Save Changes.**  
+  2. Click **Confirm booking.**  
   
 
 
@@ -454,7 +452,7 @@ Once all fields are complete:
   
 
 
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056087649/original/e-B0GVPyyGHbMqbbAyy2jImm8TN3Tz3gmA.png?1760549856)**
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073943169/original/JrsRSx6pRMidxE3jt7WOe4FHTapA3f1SSQ.png?1781768683)**
 
 * * *
 

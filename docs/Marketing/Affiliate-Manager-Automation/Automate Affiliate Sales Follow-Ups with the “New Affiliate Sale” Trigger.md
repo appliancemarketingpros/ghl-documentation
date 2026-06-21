@@ -61,24 +61,22 @@ You can use it to:
 
 * * *
 
-## **Filters available**
-
-  
-You now get extra control with these filters:  
-  
+## **Filters available**  
 
 
-  * Affiliate filter – Target specific affiliates  
+Use optional filters to control which affiliate sales start the workflow.
+
+  * **Affiliate(s):** Trigger the workflow only when selected affiliates generate the sale.  
   
 
-  * Campaign filter – Trigger actions for sales from selected campaigns  
-  
+  * **Campaign** : Trigger the workflow only for sales from a selected affiliate campaign.  
 
-  * Payout method check – Trigger only if the affiliate has (or has not) added a payout method  
-  
+  * **Payout Method Status:** Trigger the workflow based on whether the affiliate has added a payout method.  
 
-  * Tax form check – Trigger based on whether the affiliate has submitted tax forms
+  * **Tax Form Status:** Trigger the workflow based on whether the affiliate has submitted tax forms.  
 
+
+These filters help you create targeted automations for affiliate engagement, payout setup reminders, tax form reminders, and campaign-specific follow-up.
 
 * * *
 
@@ -92,22 +90,31 @@ To use the Affiliate Sales Trigger within your workflows:
   
 
 
-  1. Go to Automations > Workflows  
+  1. Go to Automations > Workflows.  
   
 
-  2. Click Create New Workflow or open an existing one  
+  2. Create a new workflow or open an existing workflow.  
   
 
-  3. Add a trigger: search for **New Affiliate Sale**  
+  3. Add the New Affiliate Sale trigger.  
   
 
-  4. Apply optional filters (affiliate, campaign, payout method, tax form)  
+  4. Add any optional filters:  
+  
+\- Affiliate(s)  
+  
+\- Campaign  
+  
+\- Payout Method Status  
+  
+\- Tax Form Status  
   
 
-  5. Add actions (email, SMS, task, tag, etc.)  
+  5. Add the workflow actions you want to run.  
   
 
-  6. Click Save  
+  6. Click Save.  
+  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155047636568/original/taqSqiwUq88uHxi55u0WxliJelpRCrv8mA.png?1748934541)
 
@@ -118,8 +125,16 @@ To use the Affiliate Sales Trigger within your workflows:
 
   
 
+    
+    
+    **Important:** This trigger may run on the buyer or customer record from the sale. Standard contact actions, such as Send Email or Send SMS, may contact the buyer instead of the affiliate. Use affiliate-specific actions when the message should go to the affiliate.
+
+  
+  
+
 
 Here are a few examples of how to put the Affiliate Sales Trigger to use:  
+  
   
 
 
@@ -143,7 +158,6 @@ Here are a few examples of how to put the Affiliate Sales Trigger to use:
     
     
     Add an Internal Notification action to alert your team whenever a new affiliate sale occurs.
-    
     The “Send Email to Affiliate” action is intended for internal alerts, not communication with the affiliate.
 
   
@@ -184,11 +198,14 @@ Here are a few examples of how to put the Affiliate Sales Trigger to use:
     If you need to grant community points reliably, use a workflow design that awards points only when the target user is the group member, and then apply Grant community group leaderboard points.
 
   
+  
 By implementing these automations, businesses can create a seamless experience for both affiliates and customers, enhancing satisfaction, engagement, and performance.
 
 * * *
 
-## **Related Articles**
+## **Related Articles**  
+  
+
 
   * [Automate Lead Assignment & Notifications in Affiliate Manager Workflows](<https://help.gohighlevel.com/en/support/solutions/articles/155000003665>)  
   

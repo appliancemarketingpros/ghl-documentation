@@ -8,53 +8,36 @@
 
 NMI (Network Merchants Inc.) is a well-known payment gateway service provider that offers a variety of solutions for businesses to process online transactions securely and efficiently. NMI's payment gateway allows merchants to accept credit card and eCheck payments from their customers through multiple channels, including websites, mobile apps, and in-person point-of-sale systems.
 
-  
-
-
-  
-
-
-#### **Covered in this Article:**
-
-#### **What does NMI have to offer?**
-
-#### **  
-How can I enable payments via NMI?**
-
-#### Enter the required Gateway Id and API keys with NMI:
-
 ####   
-**FAQs**
 
-  * #### Where can I use the NMI integration to accept payments?
 
-  * #### Will I be required to create new products for using the integration? How should I sync the products with my payment provider?
+#### 
 
-  * #### What payment methods are supported using NMI? Are Apple Pay, Google Pay, and e-check payment methods supported?
+  
 
-  * #### Is 3DS supported with the NMI integration? 
 
-  * #### Can I use Stripe to offer Google Pay and Apple Pay and process credit card payments using NMI/Authorize.net? 
+**TABLE OF CONTENTS**
 
-  * #### Will recurring purchases be supported with NMI? Where can I find the track of subscriptions and orders placed?
-
-  * #### I am already using Stripe. Do I need to disconnect Stripe to connect to NMI?
-
-  * #### What is the meaning of the Default gateway at the top of the Integrations page?
-
-  * #### Why don't I see Paypal among the default gateway options?
-
-  * #### I have connected to NMI and have selected it as the default gateway. Will transactions across the application be processed through NMI now?
-
-  * #### What will change in the reporting of transactions done with Authorize.net? Where will I be able to keep track of all payments?
-
-  * #### How do I Cancel/End a subscription created via NMI/Authorize.net? I am not able to do so in the merchant portal.
-
-  * #### Will I be able to refund transactions as well within the application itself?
-
-  * #### Where will I be able to find the subscriptions created via NMI? I cannot relate to the subscription status defined on the Subscriptions page.
-
-  * #### When will the NMI integration be available for Calendar payments/memberships and other areas?
+  * What does NMI have to offer?
+  * How can I enable payments via NMI?
+    * Enter the required Gateway ID and API keys with NMI:
+  * FAQs
+    * Where can I use the NMI integration to accept payments?
+    * Will I be required to create new products for using the integration? How should I sync the products with my payment provider?
+    * What payment methods are supported using NMI? Are Apple Pay, Google Pay, and e-check payment methods supported?
+    * Is 3DS supported with the NMI integration? 
+    * Can I use Stripe to offer Google Pay and Apple Pay and process credit card payments using NMI/Authorize.net? 
+    * Will recurring purchases be supported with NMI? Where can I find the track of subscriptions and orders placed?
+    * I am already using Stripe. Do I need to disconnect Stripe to connect to NMI?
+    * What is the meaning of the Default gateway at the top of the Integrations page?
+    * Why don't I see Paypal among the default gateway options?
+    * Unable to Delete the Last Card on a Billing Profile
+    * I have connected to NMI and have selected it as the default gateway. Will transactions across the application be processed through NMI now?
+    * What will change in the reporting of transactions done with Authorize.net? Where will I be able to keep track of all payments?
+    * How do I Cancel/End a subscription created via NMI/Authorize.net? I am not able to do so in the merchant portal.
+    * Will I be able to refund transactions as well within the application itself?
+    * Where will I be able to find the subscriptions created via NMI? I cannot relate to the subscription status defined on the Subscriptions page.
+    * Additional resources for reference 
 
 
 ####   
@@ -306,7 +289,14 @@ You can connect to Paypal and use it as a payment method alongside a credit card
   
 
 
+### **Unable to Delete the Last Card on a Billing Profile**
+
+NMI does not allow the last saved card on a billing profile to be removed. If you try to delete the only remaining card, the gateway will return an error and reject the request.
+
   
+To remove this card, please add another payment method to the billing profile first. Once a second card has been added, you will be able to delete the existing card successfully.
+
+###   
 
 
 ### **I have connected to NMI and have selected it as the default gateway. Will transactions across the application be processed through NMI now?**

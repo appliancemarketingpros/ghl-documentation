@@ -21,27 +21,28 @@ AI Studio is an AI-powered builder in HighLevel that helps you create websites, 
   * What is AI Studio
   * Key Benefits of AI Studio
   * Where to Find AI Studio
+  * User Permissions for AI Studio
   * AI Studio Home and Interface Overview 
-    * Creating a Project in AI Studio
+  * Creating a Project in AI Studio
     * Start with a Prompt
-    * AI Studio Asks Follow-Up Questions When Needed
+    * Guided Design Preferences
     * Start with a Template
-  * How to Edit and Refine Projects
+    * How to Edit and Refine Projects
   * Visual Edits in AI Studio
   * Code Editor in AI Studio
   * Advanced SEO Support in AI Studio
   * Previewing and Reviewing Your Project
   * Version History
-    * Forms and Calendar Integration
+  * Forms and Calendar Integration
     * How Forms Work in AI Studio
     * How Calendars Work in AI Studio
-    * Publishing Your Projects
+  * Publishing Your Projects
     * Publish to a Preview Domain
     * Connect a Custom Domain
     * Set a Primary Published URL
   * Cloning Projects in AI Studio
-    * Submission Data of your Project
-    * How Workflows Connect to Form Submissions
+  * Submission Data of your Project
+  * How Workflows Connect to Form Submissions
   * Current Limitations and Important Notes
   * Frequently Asked Questions
   * Related Articles
@@ -282,22 +283,47 @@ You can type a prompt that describes what you want to build. The more detail you
   
 
 
-### **AI Studio Asks Follow-Up Questions When Needed**
+### **Guided Design Preferences**
 
   
 
 
-Users do not need to write a perfect prompt. If the request is too broad, AI Studio can ask simple follow-up questions before building.
+Users do not need to write a perfect prompt to get started. When a request is broad or missing important design details, AI Studio can ask follow-up questions before building so the first draft better matches the user’s goal, brand, and preferred look and feel.
 
   
 
 
-For example, if a user says _“build a website for my business”_ , AI Studio may ask what kind of business are we building this for? This makes the experience easier because the user can choose the goal instead of figuring out the setup alone.
+For example, if a user says, “build a website for my business,” AI Studio may ask what kind of business the site is for, what the main conversion goal should be, or which design direction best matches the brand. These follow-up questions can include simple choices, visual options, sliders, or custom text answers.
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068189307/original/zgSJAj7ADqhj2ukVFbgBfO9zj8BqAlbqrw.png?1774983385)
+AI Studio may ask users to choose preferences such as:
+
+  
+
+
+  * **Color palette:** Select from curated visual swatches without needing to provide exact colors or hex codes.  
+  
+
+  * **Typography style:** Choose font pairings that help define the page personality, such as modern, clean, premium, creative, editorial, or energetic.  
+  
+
+  * **Layout direction:** Pick from visual layout options such as grid-based sections, split layouts, editorial layouts, gallery-style layouts, or section-based layouts.  
+  
+
+  * **Conversion goal:** Choose the main action the page should encourage, such as booking a call, selling a product, or collecting leads.
+
+
+  
+
+
+Guided design questions only appear when they are useful. If the user already provides clear style direction, AI Studio can start building directly. Users can also review their answers before submitting, skip individual questions, or click **Skip all** to let AI Studio choose sensible options based on the request.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073817442/original/ZZAyPyUYQgpoxFUo_I2eshqAWQ6Q279WVw.png?1781640993)
 
   
 

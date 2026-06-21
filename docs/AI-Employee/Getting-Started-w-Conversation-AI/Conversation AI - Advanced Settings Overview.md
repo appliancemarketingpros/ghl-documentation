@@ -16,10 +16,10 @@ This article explains the Advanced Settings available in Conversation AI and how
   * Key Benefits of Advanced Settings
   * How to Access Advanced Settings
   * Autopilot Mode Settings
-    * Wait Time Before Responding
-    * Maximum Messages a Bot Can Send in a Conversation
-    * Allow the Bot to Respond to Images and Voice Notes
-    * Bot Sleep and Reactivation Settings
+  * Wait Time Before Responding
+  * Maximum Messages a Bot Can Send in a Conversation
+  * Allow the Bot to Respond to Images and Voice Notes
+  * Bot Sleep and Reactivation Settings
   * Response Settings
   * Frequently Asked Questions
   * Related Articles
@@ -42,11 +42,21 @@ With Advanced Settings, you can:
   
 
 
-  * Control how long the bot waits before responding.
-  * Limit the number of messages the bot can send in a conversation.
-  * Enable the bot to respond to images and voice notes in Autopilot Mode.
-  * Automatically pause bot responses when manual or workflow messages are sent.
-  * Configure when the bot should reactivate after being put to sleep.
+  * Control how long the bot waits before responding.  
+  
+
+  * Limit the number of messages the bot can send in a conversation.  
+  
+
+  * Enable the bot to respond to images and voice notes in Autopilot Mode.  
+  
+
+  * Automatically pause bot responses when manual or workflow messages are sent.  
+  
+
+  * Configure when the bot should reactivate after being put to sleep.  
+  
+
   * Adjust the level of detail used in bot responses through Response Style Settings.
 
 
@@ -300,59 +310,60 @@ This setting enables the bot to process and respond to image and voice note inpu
   
 
 
-### **4\. Bot Sleep and Reactivation Settings**
+### **4.****Send Bot to Sleep for Manual or Workflow Messages.**
 
   
 
 
-Bot Sleep and Reactivation Settings help manage transitions between AI-driven and human-driven conversations. These controls are particularly useful when team members need to take over customer interactions.
+Use these settings to choose which outbound message types should put the bot to sleep.
 
   
 
 
-#### **Send Bot to Sleep When I Send a Manual Message or Workflow Message**
+Available controls include:
 
   
 
 
-This setting pauses bot responses whenever selected outbound message types are sent.
+**Manual Message:** Puts the bot to sleep when an agent sends a manual outbound message.
+
+  
+**Workflow Message:** Puts the bot to sleep when a workflow-triggered outbound message is sent.
 
   
 
 
-**Available options include:**
+You can enable either control, both controls, or neither control.
 
   
 
 
-  * Manual Messages
-  * Workflow Messages
+#### **Common Configurations Include:**
+
+  
+
+
+  1. Enable Manual Message only when agent replies should pause the bot during handoff.  
+  
+
+  2. Enable Workflow Message only when workflow-triggered messages should pause the bot.  
+  
+
+  3. Enable both controls when any manual or workflow outbound message should pause the bot.  
+  
+
+  4. Disable both controls when outbound messages should not pause the bot.
 
 
   
 
 
-**When enabled:**
+When a selected message type is sent, the bot stops responding to that contact until it is reactivated. These settings apply only to bots in Auto-Pilot mode.
 
   
 
 
-  * The bot automatically stops responding to the contact after the selected message type is sent.
-  * Human agents can continue the conversation without interference from the AI bot.
-
-
-  
-
-
-**Common use cases:**
-
-  
-
-
-  * Sales representatives taking over conversations
-  * Escalated support interactions
-  * Personalized outreach campaigns
-
+Existing bots keep their current sleep behavior unless these settings are updated.
 
   
 

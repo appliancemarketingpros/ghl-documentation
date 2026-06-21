@@ -358,24 +358,22 @@ High-level offers integration with third-party tools developed by external devel
 
 * * *
 
-## **AI Pricing HighLevel**
+## **AI Pricing in HighLevel**
 
   
 
 
-AI pricing varies by product.
+HighLevel AI products can be billed through Pay-Per-Use or monthly subscriptions (AI Employee Growth and AI Employee Unlimited). Costs depend on the product, usage, and plan selected.
 
   
 
 
-Some AI features are now free to use and no longer use AI credits. Other AI products still use usage-based pricing or product-specific billing rules. Review the current pricing article before you estimate costs.
+Because pricing, included usage, and fair-use rules can vary by AI product, review [AI Product Pricing](<https://help.gohighlevel.com/en/support/solutions/articles/155000006652>) for the most current details before estimating costs, enabling AI for customers, or setting up rebilling.
 
   
 
 
-Learn more about all of HighLevel’s Pricing, including AI Pricing, in the [HighLevel Pricing Guide](<https://help.gohighlevel.com/en/support/solutions/articles/155000006652>). Pricing varies between AI products and is subject to change from time to time due to business or industry changes.
-
-Developer Marketplace Apps can be free or paid and are set by external developers. You will find their contact information on the App when choosing to install or manage it.
+**Learn more:** [AI Product Pricing](<https://help.gohighlevel.com/en/support/solutions/articles/155000006652>)
 
 * * *
 
@@ -459,10 +457,4 @@ Yes, on the $497 plan, agencies can rebill sub-account usage.
 [](<https://help.gohighlevel.com/support/solutions/articles/155000002166-ai-tools-in-highlevel>)
 
 **Q. Where do I find third-party AI tools or build my own?**  
-Agency View → App Marketplace; developer resources at developers.gohighlevel.com.
-
-  
-
-
-**Q. Can I rebill AI costs to clients?**  
-Some AI products still support rebilling, but not every AI feature follows the same billing model. Check the product-specific pricing and rebilling article before you configure client charges.
+Agency View → App Marketplace; developer resources at developers.gohighlevel.com
