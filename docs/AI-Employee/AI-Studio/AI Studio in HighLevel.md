@@ -318,7 +318,12 @@ AI Studio may ask users to choose preferences such as:
   
 
 
-Guided design questions only appear when they are useful. If the user already provides clear style direction, AI Studio can start building directly. Users can also review their answers before submitting, skip individual questions, or click **Skip all** to let AI Studio choose sensible options based on the request.
+Guided design questions only appear when they are useful. If the user already provides clear style direction, AI Studio can start building directly.
+
+  
+
+
+Users can also review their answers before submitting, skip individual questions, or click **Skip all** to let AI Studio choose sensible options based on the request.
 
   
 
@@ -1081,4 +1086,4 @@ Yes. AI Studio includes preview options for desktop, tablet, and mobile views so
   * [Connecting Your Domain on GHL - A Guide](<https://help.gohighlevel.com/en/support/solutions/articles/155000005132>)  
   
 
-  * [WordPress - AI-Powered Page Builder](<https://help.gohighlevel.com/en/support/solutions/articles/155000007585>)
+  * [WordPress - AI-Powered Page Builde](<https://help.gohighlevel.com/en/support/solutions/articles/155000007585>)

@@ -30,5 +30,7 @@
 
 ### [Reselling](Reselling/)
 
+### [Template Library](Template-Library/)
+
 ### [Agency Settings](Agency-Settings/)
 

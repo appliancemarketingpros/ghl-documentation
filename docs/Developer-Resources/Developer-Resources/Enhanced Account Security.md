@@ -12,6 +12,9 @@ We’ve rolled out a new security update to keep your data safer than ever!
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155034345888/original/4BHSSG3Nx3UB57D_SZGBk9bU54xXrf8SRA.jpeg?1728418263)
+
+  
+
     
     
     The enhanced security option does not restore API key generation for locations where it was previously revoked. It only applies to locations that still have an active API key.
@@ -19,7 +22,13 @@ We’ve rolled out a new security update to keep your data safer than ever!
   
 
 
-Enabling Enhanced Account Security will:
+**  
+**
+
+### **Enabling Enhanced Account Security will:**
+
+  
+
 
   1. Disable Auto-generation of Location API keys: To enhance account security, API keys will not be automatically generated when you create a new location via API or our user interface (UI). Instead, you will need to generate them manually through the UI. 
 
@@ -34,11 +43,40 @@ Enabling Enhanced Account Security will:
   3. **Disable Users APIs on API v1:** User APIs on API v1 (legacy API version) for creating, updating and deleting users will be disabled. These APIs can be used to hack into your account easily if a hacker gets hold of your API key, hence these legacy APIs pose a security risk to your account.
 
 
-  
+* * *
+
+### **User Management permissions and API access**
+
   
 
 
-Please note that as of June 17th, 2024 the Enhanced Account Security setting will become the default for all accounts, unless you have opted-out in advance. 
+When Enhanced Security is enabled, API-based changes to user-management permissions remain restricted.
+
+  
+
+
+To allow API-based updates for User Management permissions, go to Settings > Company > Advanced Settings and disable Enhanced Security. Only disable Enhanced Security if your agency requires API-based user-management workflows. Disabling this setting may increase security risk.
+
+  
+
+
+This allows API-based updates for the following User Management permissions:
+
+  
+
+
+**View & Manage Users: **Allows API-based user creation and user edits.
+
+**View Users:** Allows API-based user viewing.
+
+  
+
+    
+    
+    Please note that the Enhanced Account Security setting is default for all accounts, unless you have opted-out in advance.
+
+  
+
 
   
 

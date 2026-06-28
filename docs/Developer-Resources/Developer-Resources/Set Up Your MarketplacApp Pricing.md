@@ -45,6 +45,20 @@ Log in to your [Marketplace - Developer account](<https://marketplace.gohighleve
 
 * * *
 
+## **Payment Failure Recovery for Paid Apps**
+
+  
+
+
+Paid Marketplace apps now use a recovery flow when a charge fails. Instead of pausing the app immediately, HighLevel provides a 30-day grace period and attempts automatic retries during that time.
+
+  
+
+
+This helps reduce involuntary churn and gives users time to resolve billing issues before access is interrupted.
+
+* * *
+
 ## **Select payment collection preference (Within the Highlevel platform, recommended)**
 
   

@@ -83,48 +83,27 @@ Proper setup helps ensure Ask AI can understand your SaaS plan request and apply
   
 
 
-  1. Open HighLevel from your agency account.  
+  1. From your agency dashboard, open the **Ask AI** tab.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074610908/original/5JoZK97rRtUvhW_6PppQf8yZBY8rtO_sfQ.png?1782486701)  
   
 
-  2. Open Ask AI from the available navigation area.  
+  2. Enter a clear prompt describing the SaaS plan you want to create or update. For updates, include the exact name of the existing SaaS plan and the specific change you want Ask AI to make.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070484322/original/kU24LeF6_Tgn9usgqOJ7aLmX2jXDU27Bmg.png?1777882378)  
-  
-
-  3. Enter a clear prompt describing the SaaS plan you want to create or update.  
-  
+Example: _“Update my Growth SaaS plan from $197 per month to $247 per month.”_  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070484417/original/tiQkTY8dqPCoCX_xgcCIrk6qCkwkSPFEbg.png?1777882446)  
   
 
-  4. Review the response from Ask AI.  
-  
-
-  5. Confirm or continue refining the plan details if Ask AI asks for more information.  
-  
+  3. Review the response from Ask AI. Confirm or continue refining the plan details if Ask AI asks for more information.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070502757/original/Z-dLQ1-AVil0nRGn4NJYLZsdNZiq_Ovjrg.png?1777891740)  
   
+
+  4. Open SaaS Configurator to review the plan details after creation or update. Make any advanced adjustments manually if needed. Save or finalize the plan once the settings are correct.  
   
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074611042/original/Lt9QG5RZ-KKC-NeM4p0Smx4WgzM5AC-3Hg.png?1782486777)
 
-  6. Open SaaS Configurator to review the plan details after creation or update.  
-  
-
-  7. Make any advanced adjustments manually if needed.  
-  
-
-  8. Save or finalize the plan once the settings are correct.
-
-
-  
-For updates, include the exact name of the existing SaaS plan and the specific change you want Ask AI to make.
-
-  
-Example:  
-  
-
-
-> “Update my Growth SaaS plan from $197 per month to $247 per month.”
 
 * * *
 
@@ -134,44 +113,45 @@ Example:
 
 
 **Q: Can Ask AI create SaaS plans from scratch?  
-** A: Yes. Agencies can prompt Ask AI to create supported SaaS plans, including plan structure, pricing, and basic configuration.
+** Yes. Agencies can prompt Ask AI to create supported SaaS plans, including plan structure, pricing, and basic configuration.
 
   
 **Q: Can Ask AI update an existing SaaS plan?  
-** A: Yes. Ask AI can help modify supported details of existing SaaS plans, such as pricing, features, and basic configurations.
+** Yes. Ask AI can help modify supported details of existing SaaS plans, such as pricing, features, and basic configurations.
 
   
 **Q: Do I still need to use SaaS Configurator?  
-** A: Yes. Ask AI helps speed up supported creation and update actions, but SaaS Configurator should still be used to review, refine, and manage the full SaaS plan setup.
+** Yes. Ask AI helps speed up supported creation and update actions, but SaaS Configurator should still be used to review, refine, and manage the full SaaS plan setup.
 
   
 **Q: Can Ask AI create multiple SaaS plan tiers?  
-** A: Ask AI can help draft multi-tiered SaaS plan structures when you provide the names, pricing, and feature differences you want included.
+** Ask AI can help draft multi-tiered SaaS plan structures when you provide the names, pricing, and feature differences you want included.
 
   
 **Q: What should I include in a SaaS plan creation prompt?  
-** A: Include the plan name, price, billing frequency, included features, target customer type, and any basic configuration details.
+** Include the plan name, price, billing frequency, included features, target customer type, and any basic configuration details.
 
   
 **Q: Can Ask AI enable SaaS for sub-accounts?  
-** A: Not as part of the current release described here. The current supported SaaS skills focus on creating and updating SaaS plans.
+** Not as part of the current release described here. The current supported SaaS skills focus on creating and updating SaaS plans.
 
   
 **Q: Can Ask AI update rebilling configurations?  
-** A: Rebilling configuration updates are listed as a planned future enhancement and should not be treated as a current Ask AI SaaS plan capability unless separately confirmed.
+** Rebilling configuration updates are listed as a planned future enhancement and should not be treated as a current Ask AI SaaS plan capability unless separately confirmed.
 
   
 **Q: Can Ask AI recommend SaaS pricing strategies?  
-** A: Smarter pricing recommendations are planned for future enhancements. Current functionality focuses on creating and updating SaaS plans based on the details provided in your prompt.
+** Smarter pricing recommendations are planned for future enhancements. Current functionality focuses on creating and updating SaaS plans based on the details provided in your prompt.
 
   
 **Q: What happens if my prompt is missing details?  
-** A: Ask AI may ask for clarification or provide a draft based on the available information. Clear prompts usually produce better results.
+** Ask AI may ask for clarification or provide a draft based on the available information. Clear prompts usually produce better results.
 
 * * *
 
-## **Related Articles  
-**  
+## **Related Articles**
+
+  
 
 
   * [Introduction to Ask AI Assistant](<https://help.gohighlevel.com/en/support/solutions/articles/155000005327>)  

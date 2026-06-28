@@ -44,13 +44,21 @@ When included in a snapshot, the following are preserved:
   
 
 
-  * Agent flow structure
+  * Agent flow structure  
+  
 
-  * Node configurations
 
-  * Connected knowledge bases
+  * Node configurations  
+  
 
-  * Version state (Draft, Staging, Production)
+
+  * Connected knowledge bases  
+  
+
+
+  * Version state (Draft, Staging, Production)  
+  
+
 
   * Associated supporting assets (if selected)
 
@@ -108,10 +116,10 @@ Using snapshots to distribute agents helps agencies scale faster and maintain co
 
 Follow these steps to package your Agent Studio agent.
 
-##   
+  
 
 
-### **Step 1: Go to Account Snapshots**
+#### **_Step 1:_**_Go to Account Snapshots_
 
   
 
@@ -134,14 +142,18 @@ Follow these steps to package your Agent Studio agent.
   
 
 
-### **Step 2: Name and Select Source Account**
+#### ** _Step 2:_**_Name and Select Source Account_
 
   
 
 
-  1. Enter a Snapshot Name
+  1. Enter a Snapshot Name  
+  
 
-  2. Select the Sub-Account that contains your agent
+
+  2. Select the Sub-Account that contains your agent  
+  
+
 
   3. Click **Next**
 
@@ -157,16 +169,22 @@ Follow these steps to package your Agent Studio agent.
   
 
 
-### **Step 3: Select Agent Studio Assets**
+#### ** _Step 3:_**_Select Agent Studio Assets_
 
   
 
 
-  1. Expand the **Agent Studio** category
+  1. Expand the **Agent Studio** category  
+  
 
-  2. Select the agent(s) you want to include
 
-  3. Select any supporting assets (e.g., Knowledge Bases, Workflows, Custom Values)
+  2. Select the agent(s) you want to include  
+  
+
+
+  3. Select any supporting assets (e.g., Knowledge Bases, Workflows, Custom Values)  
+  
+
 
   4. Click **Create** tab at the bottom right.
 
@@ -176,7 +194,7 @@ Follow these steps to package your Agent Studio agent.
 
 The system will package the selected agents and assets into the snapshot.
 
-##   
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066819942/original/SlEEvHp3IJoXKKHX2SHt6bdpcEMP-LjuDw.png?1773334679)
@@ -186,18 +204,9 @@ The system will package the selected agents and assets into the snapshot.
 
   
 
-
-  
-
     
     
-    If your agent uses a Knowledge Base, you must select that Knowledge Base when creating the snapshot.
-    
-    Snapshots package only the assets you choose.
-    
-    If a connected knowledge base is not selected, the agent may load without its reference material.
-    
-    Always review the asset selection screen before proceeding.
+    If your agent uses a Knowledge Base, you must select that Knowledge Base when creating the snapshot. Snapshots package only the assets you choose. If a connected knowledge base is not selected, the agent may load without its reference material.Always review the asset selection screen before proceeding.
     
     ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066838299/original/awGX4bvcPjZjTuR9X__U2w4lnVrFoZQHVg.png?1773368022)
 
@@ -207,7 +216,7 @@ The system will package the selected agents and assets into the snapshot.
   
 
 
-### **Step 4: Review Snapshot Details**
+#### **_Step 4:_**_Review Snapshot Details_
 
   
 
@@ -222,9 +231,13 @@ This screen confirms:
   
 
 
-  * Included agents
+  * Included agents  
+  
 
-  * Included knowledge bases
+
+  * Included knowledge bases  
+  
+
 
   * Total asset count
 
@@ -246,8 +259,7 @@ You can load a snapshot into one or multiple sub-accounts.
   
 
 
-  * Go to **Agency View → Sub-Accounts**
-
+  1. Go to **Agency View → Sub-Accounts**
 
   
 
@@ -255,13 +267,10 @@ You can load a snapshot into one or multiple sub-accounts.
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066838348/original/b3ysmTJbUNGOoaztWYjLZTm_vmWP-0x0dw.png?1773368390)
 
   
-
-
   
 
 
-  * **Click the three-dot menu beside the account.******Select**Manage Client option.******
-
+  2. Click the **three-dot** menu beside the account. Select **Manage Client** option.
 
   
 
@@ -269,31 +278,16 @@ You can load a snapshot into one or multiple sub-accounts.
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066838382/original/TY9XBjHiWjLqh5z1i1EhWozAjazwGEWjTA.png?1773368520)
 
   
-
-
   
 
 
-  * **********Choose**Actions → Load Snapshot************
-
-
+  3. Choose** Actions → Load Snapshot**  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066838434/original/1nJUggswqmXRs19WqKdwhOfQBO62tkAL0g.png?1773368685)
-
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066838434/original/1nJUggswqmXRs19WqKdwhOfQBO62tkAL0g.png?1773368685)  
   
 
 
-  
-
-
-  * ************Select your snapshot.************
-
-
-  
-
-
-  
-
+  4. Select your snapshot. 
 
   
 
@@ -301,25 +295,26 @@ You can load a snapshot into one or multiple sub-accounts.
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066838458/original/TDnGVjFheDThnS-zlInvlNm74t6egphrHA.png?1773368798)
 
   
-
-
   
 
 
-  * ************Select the Agent Studio category (or Select All).******************Confirm import******
-
+  5. Select the **Agent Studio** category (or Select All). Confirm import
 
   
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066838579/original/0RPunN1c3JMGsagchAbL1iJPIyxUvG1xFg.png?1773369214)
 
+
   
 
 
 After loading, the agent will appear in Agent Studio inside the target sub-account.
 
-##   
+  
+
+
+  
 
 
 ### **Option 2: Push Snapshot to Multiple Sub-Accounts**
@@ -329,13 +324,19 @@ After loading, the agent will appear in Agent Studio inside the target sub-accou
 
   1. Go to **Account Snapshots**
 
-  2. Open the snapshot
+  2. Open the snapshot  
+  
+
 
   3. Click **Push Snapshot**
 
-  4. Select the sub-accounts
+  4. Select the sub-accounts  
+  
 
-  5. Select assets
+
+  5. Select assets  
+  
+
 
   6. Proceed through conflict check
 
@@ -343,15 +344,12 @@ After loading, the agent will appear in Agent Studio inside the target sub-accou
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066838680/original/5HmXCmjbP5dgBLNWv7Loo3FNE4t4psGl_Q.png?1773369590)
-
-  
-
-
-  
-
-
 This method allows bulk deployment.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066838680/original/5HmXCmjbP5dgBLNWv7Loo3FNE4t4psGl_Q.png?1773369590)
 
 * * *
 
@@ -370,9 +368,13 @@ You may choose to:
   
 
 
-  * Keep both copies
+  * Keep both copies  
+  
 
-  * Overwrite existing
+
+  * Overwrite existing  
+  
+
 
   * Proceed with conflict check
 
@@ -399,9 +401,13 @@ When you update an agent in the source account:
   
 
 
-  1. Return to **Account Snapshots**
+  1. Return to **Account Snapshots**  
+  
 
-  2. Select the snapshot
+
+  2. Select the snapshot  
+  
+
 
   3. Click **Refresh**
 
@@ -433,11 +439,17 @@ To share:
   
 
 
-  1. Go to **Account Snapshots**
+  1. Go to **Account Snapshots**  
+  
 
-  2. Click the three-dot menu
 
-  3. Choose **Share Snapshot**
+  2. Click the three-dot menu  
+  
+
+
+  3. Choose **Share Snapshot**  
+  
+
 
   4. Generate a share link or Marketplace listing
 
@@ -449,8 +461,9 @@ Recipients can load the snapshot into their own HighLevel accounts.
 
   
 
-
-Note: SaaS plan requirements apply for Marketplace monetization.
+    
+    
+    **Note:** SaaS plan requirements apply for Marketplace monetization.
 
 * * *
 
@@ -464,11 +477,17 @@ Snapshots do NOT include:
   
 
 
-  * Contacts
+  * Contacts  
+  
 
-  * Conversation history
 
-  * Messages
+  * Conversation history  
+  
+
+
+  * Messages  
+  
+
 
   * Live data
 
@@ -550,8 +569,16 @@ API endpoints remain available, but account-specific tokens may need updating.
   
 
 
-  * [Snapshots Overview](<https://help.gohighlevel.com/a/solutions/articles/48000982511?portalId=48000045315>)
-  * [Creating New Snapshots in HighLevel](<https://help.gohighlevel.com/a/solutions/articles/48000982512?portalId=48000045315>)
-  * [How to Share Snapshots](<https://help.gohighlevel.com/a/solutions/articles/48000982513?portalId=48000045315>)
-  * [How to Load Snapshots into Existing Accounts](<https://help.gohighlevel.com/a/solutions/articles/48000982582?portalId=48000045315>)
+  * [Snapshots Overview](<https://help.gohighlevel.com/a/solutions/articles/48000982511?portalId=48000045315>)  
+  
+
+  * [Creating New Snapshots in HighLevel](<https://help.gohighlevel.com/a/solutions/articles/48000982512?portalId=48000045315>)  
+  
+
+  * [How to Share Snapshots](<https://help.gohighlevel.com/a/solutions/articles/48000982513?portalId=48000045315>)  
+  
+
+  * [How to Load Snapshots into Existing Accounts](<https://help.gohighlevel.com/a/solutions/articles/48000982582?portalId=48000045315>)  
+  
+
   * [How to Use the AI Agent Studio in HighLevel](<https://help.gohighlevel.com/a/solutions/articles/155000006058?portalId=48000045315>)

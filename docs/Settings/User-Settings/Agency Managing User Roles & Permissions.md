@@ -17,10 +17,10 @@ If you are here looking for sub-account's user roles and permission management, 
   * Getting started with user permissions
   * Restrict access to specific sub-accounts
   * Assign Permissions
-  * Sub-Account Settings (Granular Permissions)
   * Steps to Stop a User From Opening New Sub-accounts
   * Copy Permissions
   * Adding Clients to a Sub-Account with Limited Access
+  * User Management API support
 
 
 * * *
@@ -352,3 +352,32 @@ Follow these steps to add a client to a sub-account and control their permission
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155044973040/original/L-dLb8dQdVuT7WSoWwex4bc0wjnS_Lgz3w.png?1744397031)
+
+* * *
+
+## **U ser Management API support**
+
+  
+
+
+The User Management permissions supports API-based updates when Enhanced Security is disabled. Use this option when your agency manages users through API-first workflows or high-volume operational processes.
+
+  
+
+
+Supported User Management permission levels:
+
+  
+
+
+**View & Manage Users: **Allows users to view, create, and edit users.
+
+**View Users:** Allows users to view users only.
+
+  
+
+
+To enable API-based user-management updates, from **Agency** level go to Settings > Company > Advanced Settings and disable Enhanced Security.
+
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074311738/original/X5nTZQw_h94Gqlpop2A1zm4z7Vdr8CTxKQ.png?1782218950)

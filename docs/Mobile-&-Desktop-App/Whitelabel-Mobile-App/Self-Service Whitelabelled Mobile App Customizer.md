@@ -296,8 +296,6 @@ Tap to Pay note: Add POS (and/or Invoices/Estimates) here or in Core Nav to unlo
   
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155062058418/original/NDo0JHosyylEOQ7II1jFxNDsn_g-1pv3-Q.png?1767728717)  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060114749/original/WFCyALqaRqxZIRUnJj-kcNsyDrivkkxO-g.gif?1765195599)  
-  
 
 
   

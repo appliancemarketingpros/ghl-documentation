@@ -1,7 +1,7 @@
 # Template Library Marketplace Integration
 
 **Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000007747-template-library-marketplace-integration](https://help.gohighlevel.com/support/solutions/articles/155000007747-template-library-marketplace-integration)  
-**Category:** Marketing  
+**Category:** Agency View  
 **Folder:** Template Library
 
 ---

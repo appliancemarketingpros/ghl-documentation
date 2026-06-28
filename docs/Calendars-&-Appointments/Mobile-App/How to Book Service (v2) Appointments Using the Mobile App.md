@@ -287,6 +287,44 @@ To view existing service appointments filtered by service:
 
 * * *
 
+## **Appointment Title Auto-Fills from Services Global Settings**
+
+  
+
+
+The Appointment Title field now pulls from your Services Global Settings, which helps mobile bookings follow the same naming rules used on web. This saves time during booking and reduces title inconsistencies across your team.
+
+  
+
+
+When you create a new Service (v2) appointment in the mobile app, the Appointment Title field automatically pre-fills using the Service booking title configured in Services Global Settings.
+
+  
+
+
+If no custom Service booking title is configured, the field falls back to <Contact Name>.
+
+  
+
+
+Important:
+
+  * This applies to new service bookings  
+  
+
+  * Edit, Reschedule, and Duplicate flows are not affected  
+  
+
+  * Existing edit-style flows continue to pre-fill from the source booking
+
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074295795/original/t5bhR0iFemMdxMbILtP1kYBpXZ4Azm_v6Q.png?1782210613)
+
+* * *
+
 ## **Frequently Asked Questions**
 
   

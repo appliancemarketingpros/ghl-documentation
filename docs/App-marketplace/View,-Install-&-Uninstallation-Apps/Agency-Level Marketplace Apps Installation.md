@@ -54,21 +54,34 @@ List of Collections
 
 Here is the list of Collections we have launched
 
-  * Top Installed Apps
-  * Newly Added Apps
-  * Top Free Apps
-  * Top Paid Apps
+  * Top Installed Apps  
+  
+
+  * Newly Added Apps  
+  
+
+  * Top Free Apps  
+  
+
+  * Top Paid Apps  
+  
+
   * Custom Experience Hub - 
 
-Top installed apps with custom JS/CSS scripts.
+Top installed apps with custom JS/CSS scripts.  
+  
+
 
   * Workflow Automation Hub - 
 
-Top installed apps featuring custom workflow actions and triggers.
+Top installed apps featuring custom workflow actions and triggers.  
+  
+
 
   * Conversation Hub - 
 
-Top installed apps supporting custom conversation providers.
+Top installed apps supporting custom conversation providers.  
+  
 
 
 ![image](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030604447/original/RI3F5o2a8jUBhaukOSZLfBvXs89t8nbYWA.jpeg?1723037105)
@@ -83,14 +96,30 @@ On the selected app’s listing page, you’ll encounter the following details:
   
 
 
-  * App Name
-  * Tagline
-  * Comprehensive App Description
-  * Vivid App Images
-  * App Category
-  * Version of the App
-  * Name of the App Provider
-  * Distribution Type
+  * App Name  
+  
+
+  * Tagline  
+  
+
+  * Comprehensive App Description  
+  
+
+  * Vivid App Images  
+  
+
+  * App Category  
+  
+
+  * Version of the App  
+  
+
+  * Name of the App Provider  
+  
+
+  * Distribution Type  
+  
+
   * App pricing: Free or paid. If paid, it's pricing information and plans supported.
 
 
@@ -101,7 +130,9 @@ On the selected app’s listing page, you’ll encounter the following details:
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009294921/original/g1V0wpNvZfxjhTM7JijwsD5287CPgYbsoQ.png?1696487708)
 
-  * Permission Details: Delve deep into this section to understand the extent of access the app will have post-installation.
+  * Permission Details: Delve deep into this section to understand the extent of access the app will have post-installation.  
+  
+
   * Resources: Contains links to the app provider’s website.  
   
 Note that third-party apps are supported by their respective providers, whereas apps designed by HighLevel receive support directly from HighLevel.
@@ -115,14 +146,170 @@ Note that third-party apps are supported by their respective providers, whereas 
   
 
 
+## **What Happens When a Marketplace App Payment Fails**
+
+  
+
+
+Payment issues with paid Marketplace apps are now handled through a recovery flow designed to reduce service disruption and give users time to resolve billing problems.
+
+  
+
+
+If a payment fails:
+
+  
+
+
+  * the app is not paused immediately  
+  
+
+  * a 30-day grace period begins  
+  
+
+  * the system attempts automatic retries during the grace period  
+  
+
+  * users receive alerts with steps to recover the payment, such as updating a payment method
+
+
+  
+
+
+This helps reduce unexpected interruptions while giving users a clearer path to keep the app active.
+
+  
+
+    
+    
+    The exact retry schedule is managed automatically. If the payment is not resolved by the end of the grace period, app access may be affected.
+
+  
+
+
+  
+
+
+## **Use the Installed Apps Page**
+
+  
+
+
+The Installed Apps page gives you a centralized view of apps already connected to your HighLevel account. This makes it easier to monitor app status, review plans, identify issues, and take action without reopening each app individually.
+
+  
+
+
+Depending on your account level and permissions, the Installed Apps page may show app activity across both agency and sub-account environments.
+
+  
+
+
+## **Switch Between Agency Apps and Sub-account Apps**
+
+  
+
+
+Installed Apps now includes separate views for **Agency Apps** and **Sub-account Apps**.
+
+  
+
+
+  * **Agency Apps** shows apps installed for agency-level use cases  
+  
+
+  * **Sub-account Apps** shows apps installed across sub-accounts
+
+
+  
+
+
+This split makes it easier to understand where an app is installed and manage installations at the correct level.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074189561/original/HqUYuFujp1fPIodlV3TbGGWx5ii6zgNbjw.png?1782122795)
+
+  
+
+
+## **Filter and Take Action on Installed Apps**
+
+  
+
+
+The Installed Apps page now includes faster ways to identify apps that need attention.
+
+  
+
+
+Depending on the app and connection state, you may see quick filters such as:
+
+  
+
+
+  * apps requiring an update  
+  
+
+  * apps connections failed
+
+
+  
+
+
+You may also see direct actions in the list, such as:
+
+  
+
+
+  * Reconnect
+  * Update
+
+
+  
+
+
+For apps installed across sub-accounts, you can review where an app is active and drill into sub-account installation details.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074189760/original/PLgNxIYsatWZAtXVQGQLHNpfOJKvYLp20w.png?1782122952)
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074190131/original/6byf90-Zi0LDSqWKR2j4JMufZKQqwSLJnA.png?1782123107)
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074190367/original/BpQou8LUbQejdKb53-ARfXUC0U3g_apkkw.png?1782123247)
+
+  
+
+
 ### **Install a Free App: Distribution Type - Agency**
 
-Apps with this tag are exclusively for agency-level installation, meaning subaccounts cannot install them.
+  
 
-  1. On the app listing page, click Install App in the top-right corner.
-  2. Revisit the app's information and, if content, click ‘Allow & Install’.
-  3. Follow the subsequent steps in the provider’s connection flow. This might involve logging into the app account and granting necessary permissions.
-  4. If you see ‘uninstall’ instead of the Install App button, it means the app is already integrated with your account.
+
+Apps with this tag are exclusively for agency-level installation, meaning subaccounts cannot install them.  
+  
+
+
+  1. On the app listing page, click Install App in the top-right corner.  
+  
+
+  2. Revisit the app's information and, if content, click ‘Allow & Install’.  
+  
+
+  3. Follow the subsequent steps in the provider’s connection flow. This might involve logging into the app account and granting necessary permissions.  
+  
+
+  4. If you see ‘uninstall’ instead of the Install App button, it means the app is already integrated with your account.  
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009193056/original/2mXDQkHkB0ANe3I8orvfndzhcoDZMXlihQ.png?1696409273)
@@ -136,6 +323,9 @@ Apps with this tag are exclusively for agency-level installation, meaning subacc
 ### **Install a Paid App:****Distribution Type - Agency**
 
 Certain apps can be paid in nature. Depending upon the payment preference selected by the app provider (within the HighLevel platform or External payment page), the payment will be processed during the installation process.
+
+  
+
 
   * On the app details page, click Install in the top-right corner.
   * Revisit the app's information and pricing details, if content, click ‘Allow & Install’.

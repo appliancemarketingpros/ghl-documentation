@@ -12,25 +12,25 @@ The Code Editor in AI Studio gives you direct access to your project code withou
 
     
     
-    **Important:** AI Studio is available through **Labs**. Turn it on for your sub-account before using it.
+    **Important:** AI Studio is available through **Labs**. Turn it on for your sub-account before using it. For more, refer to [Labs Features - Complete Overview](<https://help.gohighlevel.com/en/support/solutions/articles/155000003588>)
 
 * * *
 
 **TABLE OF CONTENTS**
 
   * What is the Code Editor in AI Studio?
-    * Key Benefits of the Code Editor
-    * Core Features of AI Studio Code Editor
-      * Find & Replace
-      * Global Project Search
-      * Instant Save & Live Preview
-      * Smart Error Detection
-      * Automatic Route Detection
-      * Version History
-      * Unsaved Changes Protection
-    * How to Use the Code Editor
-    * Frequently Asked Questions
-    * Related Articles
+  * Key Benefits of the Code Editor
+  * Core Features of AI Studio Code Editor
+    * Find & Replace
+    * Global Project Search
+    * Instant Save & Live Preview
+    * Smart Error Detection
+    * Automatic Route Detection
+    * Version History
+    * Unsaved Changes Protection
+  * How to Use the Code Editor
+  * Frequently Asked Questions
+  * Related Articles
 
 
 * * *

@@ -104,6 +104,30 @@ Private Integrations, to put it simply, is more powerful yet secure alternative 
   
 * * *
 
+## **Why Private Integration Tokens Are Recommended for New Credentials**
+
+  
+
+
+Private Integration Tokens (PIT) are the recommended replacement for legacy API keys because they provide more secure and flexible access management.
+
+  
+
+
+Legacy API keys that remain unused for more than 90 days may be marked as Expired in settings. Because new legacy v1 key creation is no longer supported, PIT should be used for any new credentials or when migrating older integrations to a more secure access model.
+
+  
+
+
+If you still rely on a legacy API key, HighLevel recommends moving that integration to a Private Integration Token whenever possible.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074448956/original/hHvWuKsdPjwkb3-fw9OW4-w0zwINy_iZsA.png?1782358733)
+
+* * *
+
 ## **What's the difference between Private Integrations and OAuth2 Access Tokens?**
 
   

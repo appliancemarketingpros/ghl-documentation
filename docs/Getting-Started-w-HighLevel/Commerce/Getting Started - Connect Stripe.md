@@ -10,6 +10,14 @@ Ready to simplify your transactions? Stripe integration makes accepting credit c
 
 * * *
 
+**TABLE OF CONTENTS**
+
+    * Connect Stripe
+  * Frequently Asked Questions
+
+
+* * *
+
 ## **Connect Stripe  
 **
 
@@ -17,6 +25,9 @@ Ready to simplify your transactions? Stripe integration makes accepting credit c
 
 
 First, head over to your Payments section. This is where all the magic happens—integrating payment gateways to streamline your customer transactions.
+
+  
+
 
   1. Navigate to **Payments > Integrations**. Here, you'll find popular options like Stripe, PayPal, Authorize.net, NMI, Manual Payment Methods (ex: cash on delivery, COD), and Square.  
   

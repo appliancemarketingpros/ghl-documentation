@@ -29,10 +29,17 @@ This article offers step-by-step instructions for white label agencies on how to
   
 
 
-  * Click on 'App Marketplace' on the left menu.
-  * Note: If 'App marketplace' is not visible on your agency account, you can enable it from the labs.
-  * Click on 'Manage App Permissions' located on the right top corner.
-  * Here, you will find apps that have a distribution type of either 'Sub-Account' or 'Agency & Subaccount'.
+  * Click on 'App Marketplace' on the left menu.  
+  
+
+  * Note: If 'App marketplace' is not visible on your agency account, you can enable it from the labs.  
+  
+
+  * Click on 'Manage App Permissions' located on the right top corner.  
+  
+
+  * Here, you will find apps that have a distribution type of either 'Sub-Account' or 'Agency & Subaccount'.  
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009951632/original/ozEKYZYtKoO3gYFaCp0gJ8ra_0KTJ8glJw.png?1697115469)
@@ -43,14 +50,18 @@ This article offers step-by-step instructions for white label agencies on how to
   
 By Default:
 
-  * All apps that are in public and live status are approved for your sub-accounts.
+  * All apps that are in public and live status are approved for your sub-accounts.  
+  
+
   * This default setting also applies to new apps that pass our review process and are made public.
 
 
   
 To Approve Disapproved Apps:
 
-  * Under 'App state', select 'Disapproved apps'.
+  * Under 'App state', select 'Disapproved apps'.  
+  
+
   * For bulk action, choose the apps you wish to approve and click the 'approve' button on the right top corner.
 
 
@@ -72,7 +83,9 @@ To Approve Disapproved Apps:
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009952447/original/kV2Q5zmlKngFwCeoRggiKvLyhdlx1uSxUw.png?1697115692)
 
-  * Click 'approve' on the right top corner.
+  * Click 'approve' on the right top corner.  
+  
+
   * Confirm the action by selecting 'Approve' in the modal.
 
 
@@ -84,7 +97,8 @@ To Approve Disapproved Apps:
   
 
 
-  * Under 'App state', select 'Approved apps'.
+  * Under 'App state', select 'Approved apps'.  
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009952542/original/OxMJRvLAfVqIwILE33GvCgpapUy_kPrilw.png?1697115717)
@@ -102,10 +116,24 @@ To Approve Disapproved Apps:
   
 **Effects of Disapproving:**
 
-  * The disapproved apps will no longer be visible or installable at the sub-account level.
-  * If these apps were previously installed, they will be uninstalled from all associated sub-accounts. This includes any supplementary features, such as custom conversation providers, workflow actions, triggers, and more.
+  * The disapproved apps will no longer be visible or installable at the sub-account level.  
+  
+
+  * If these apps were previously installed, they will be uninstalled from all associated sub-accounts. This includes any supplementary features, such as custom conversation providers, workflow actions, triggers, and more.  
+  
+
   * Disapproved apps can be approved again in the future. However, they won't be automatically reinstalled in sub-accounts where they were previously installed. They need to be manually installed again.
 
+
+  
+
+
+**Installed Apps Visibility by Level**
+
+  
+
+
+Installed Apps may now separate app visibility into **Agency Apps** and **Sub-account Apps** , helping users manage app installations at the correct level based on their access and permissions.
 
 ##   
 **Bulk Approve/Disapprove Marketplace Apps:**
@@ -170,6 +198,9 @@ Effects of Disabling:**
 **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009953560/original/h5AsP5DCRiqRGX_PyfSmNDr2oG4uDAaodg.png?1697116108)**
 
 ##   
+
+
+  
 
 
 **  

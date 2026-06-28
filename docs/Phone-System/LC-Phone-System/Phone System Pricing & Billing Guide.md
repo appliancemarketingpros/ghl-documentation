@@ -332,8 +332,8 @@ Here’s how A2P Brand and Campaign registration fees apply for both Low Volume 
 
 Type| One-Time Brand & Campaign Registration Fee| Monthly Campaign Fee| Daily Segment Limit| Notes  
 ---|---|---|---|---  
-Low Volume (LV)| $24.49875(includes $3 Fast Track fee)| $11.025 per campaign| 6,000 segments/day| For smaller businesses or limited messaging volumes.  
-High Volume (HV)| $71.90625(includes $3 Fast Track fee)| $11.025 per campaign| 600,000 segments/day| For frequent or large-scale messaging use cases.  
+Low Volume (LV)| $24.49875(includes $3 Fast Track fee)| $11.03 per campaign| 6,000 segments/day| For smaller businesses or limited messaging volumes.  
+High Volume (HV)| $71.90625(includes $3 Fast Track fee)| $11.03 per campaign| 600,000 segments/day| For frequent or large-scale messaging use cases.  
   
 >   
 > 

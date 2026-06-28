@@ -21,6 +21,6 @@
 - [How to Collect User Inputs with Capture Tools in Agent Studio](How to Collect User Inputs with Capture Tools in Agent Studio.md)
 - [How to Create AI Content with Generative AI tools In Agent Studio](How to Create AI Content with Generative AI tools In Agent Studio.md)
 - [How AI Agents Use the Knowledge Base Tool to Answer Customer Inquiries](How AI Agents Use the Knowledge Base Tool to Answer Customer Inquiries.md)
-- [Important Update: Agent Studio is Being Reshaped](Important Update Agent Studio is Being Reshaped.md)
+- [Important Update: Agent Studio is Evolving](Important Update Agent Studio is Evolving.md)
 - [Import cURL in Agent Studio API Call Tool](Import cURL in Agent Studio API Call Tool.md)
 - [How to Use Web Search Tool in Agent Studio for Real-Time Responses](How to Use Web Search Tool in Agent Studio for Real-Time Responses.md)

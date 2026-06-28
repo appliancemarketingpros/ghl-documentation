@@ -6,26 +6,26 @@
 
 ---
 
-Your AI Studio sites just got a whole lot "louder" for the rest of the internet to hear! Improve the SEO readiness of your AI Studio projects with Advanced SEO Support.
+Your AI Studio sites just got a whole lot "louder" for the rest of the internet to hear! Improve the SEO readiness of your AI Studio projects with Advanced SEO Support. Advanced SEO Support helps make published AI Studio sites easier for search engines, social platforms, and AI crawlers to read.
 
   
 
     
     
-    **Important:** AI Studio is available through **Labs**. Turn it on for your sub-account before using it.
+    **Important:** AI Studio is available through **Labs**. Turn it on for your sub-account before using it. For more, refer to [Labs Features - Complete Overview](<https://help.gohighlevel.com/support/solutions/articles/155000003588-labs-features-complete-overview>).
 
 * * *
 
 **TABLE OF CONTENTS**
 
   * What is Advanced SEO Support for AI Studio?
-    * Key Benefits of Advanced SEO for AI Studio
-    * Pre-render SEO
-    * How to Enable Advanced SEO Support for AI Studio
-    * Social Media & Link Previews
-    * Generate Sitemap
-    * Frequently Asked Questions
-    * Related Articles
+  * Key Benefits of Advanced SEO for AI Studio
+  * Pre-render SEO
+  * How to Enable Advanced SEO Support for AI Studio
+  * Social Media & Link Previews
+  * Generate Sitemap
+  * Frequently Asked Questions
+  * Related Articles
 
 
 * * *
@@ -301,13 +301,13 @@ To generate a sitemap:
   
 
 
-  5. Review the returned update summary in the builder then publish your project to apply the updates. Click **Details** to view your sitemap.  
+  5. Review the returned update summary in the builder, then publish your project to apply the updates. Click **Details** to view your sitemap.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069335827/original/98shH1SJJWIus2bAC1SvgqF39h0mgkeTEw.png?1776373260)  
   
 
 
-  6. Submit your sitemap to Google Search Console if you want to speed up indexing.  
+  6. Submit your sitemap to Google Search Console to help Google discover your URLs and monitor sitemap processing.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069335797/original/Wd88q0mIPDw939R8w8tQTAsl9x7Eb7FIVQ.png?1776373179)
 

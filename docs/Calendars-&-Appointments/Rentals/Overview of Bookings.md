@@ -292,6 +292,18 @@ Customize your table by showing, hiding, or rearranging columns using **Manage C
 
 * * *
 
+  
+
+    
+    
+    **Note :** Rental invoices are not automatically sent to the customer whenever a booking is created. We are working on rectifying the information being displayed within the contacts/conversations page that conveys otherwise.
+
+  
+
+
+##   
+
+
 ## **Frequently Asked Questions**
 
   

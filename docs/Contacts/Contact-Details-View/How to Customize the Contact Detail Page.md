@@ -111,6 +111,17 @@ The Contact Detail Page is divided into clear sections so admins can organize in
   
 
 
+Panels can also be resized so users can adjust the page based on their workflow. The left panel can be expanded when users need more room for fields, folders, or modules.
+
+  
+
+
+![](https://jumpshare.com/share/ac38qsvKBiDpQ2TThtGQ+/GIF+Recording+2026-06-25+at+19.31.39.gif)  
+
+
+  
+
+
 Each view includes four main sections:
 
   
@@ -253,51 +264,65 @@ The Contact Card keeps important contact information visible at the top of the r
   
 
 
-You can add and arrange the following items:
+**You can add and arrange the following items:**
 
   
 
 
   * Phone number
-
   * Email address
-
   * Contact address
-
-  * Owner & Followers
-
-  * Tags  
+  * Owner
+  * Followers
+  * Tags
+  * Up to two custom fields  
 
 
   
 
 
-Important details:
+**Important details:**
 
   
 
 
-  * Only the **primary phone number** can be displayed.  
+  * **Owner** and **Followers** can be **managed** **separately**.  
   
 
-
-  * Only the **primary email address** can be displayed.  
+  * You can show only Owner, only Followers, both, or neither.  
   
 
+  * You can add **up to two custom fields** to the Contact Card for quick visibility.  
+  
+
+  * **Custom** **fields** shown on the Contact Card are **read** -**only**.  
+  
+
+  * To **edit** **custom** **field** **values** , use the **All fields** tab.  
+  
+
+  * Tags do not have to stay on the Contact Card. You can place Tags in the left panel or center panel based on your layout.  
+  
+
+  * **Only** the **primary** **phone** **number** can be **displayed**.  
+  
+
+  * **Only** the **primary** **email** address can be **displayed**.  
+  
 
   * You can reorder available items within the Contact Card.  
   
 
+  * You can **hide** **fields** that are **not** **needed**.  
+  
 
-  * You can hide fields that are not needed.  
+  * You can **disable** the **Delete** **button** to help prevent accidental contact deletion.
+
+
   
 
 
-  * You can disable the **Delete** button to help prevent accidental contact deletion.  
-  
-
-
-![](https://jumpshare.com/share/9aPWkofhiQKLljhgafsk+/GIF+Recording+2026-03-27+at+18.23.30.gif)
+![](https://jumpshare.com/share/1TThZA4LjEUMpTqzbFRU+/GIF+Recording+2026-06-25+at+19.23.54.gif)
 
   
 
@@ -353,25 +378,30 @@ The Dynamic Tab helps surface one high-priority module in a dedicated tab for fa
   
 
 
-  * A Dynamic Tab can appear between **All Fields** and **Actions**.  
+  * A Dynamic Tab can **appear** **between** **All** **fields** and **Actions**.  
+  
+
+  * You can **assign** a **supported** **module** to this tab.  
+  
+
+  * When a module is placed in the Dynamic Tab, it is **removed** **from** its **previous** tab **location**.  
+  
+
+  * Modules placed in a Dynamic Tab **open expanded by default** when the tab is opened.  
+  
+
+  * This is **useful** for items such as **Opportunities** or **Client** **Portal** when **quick** **access** is needed.  
+  
+
+  * You can also **rename** and **reorder** **tabs** to match the workflow your users follow.
+
+
   
 
 
-  * You can assign a supported module to this tab.  
-  
-
-
-  * When a module is placed in the Dynamic Tab, it is removed from its previous tab location.  
-  
-
-
-  * This is useful for items such as Opportunities or Client Portal when quick access is needed.
-
+![](https://jumpshare.com/share/j33MJwGwkTIOaxK8hxcl+/GIF+Recording+2026-06-25+at+19.36.18.gif)
 
   
-
-
-![](https://jumpshare.com/share/vA0oRyMKNbh3Y5STTzYY+/GIF+Recording+2026-03-27+at+19.09.37.gif)  
 
 
   
@@ -408,6 +438,13 @@ Display options include:
 
   * **Dropdown View** : Modules are grouped under a dropdown menu to reduce visual clutter.
 
+
+  
+
+    
+    
+    **Note:** Tags can be placed in the **center** **panel** when they need **more** **space** or when you want to keep the Contact Card cleaner.
+    
 
   
 
@@ -545,6 +582,13 @@ Only admins can create, edit, and manage views.
 
 **Q: How many views can be created per account?**  
 You can create up to 5 views per account.
+
+  
+
+
+**Q: Can I add custom fields to the Contact Card?**
+
+Yes. You can add up to two custom fields to the Contact Card. These fields are read-only on the card. To edit their values, use the All fields tab.
 
   
 

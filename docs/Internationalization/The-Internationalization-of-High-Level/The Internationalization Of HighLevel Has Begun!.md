@@ -65,6 +65,9 @@ Users can override that language on **Location Settings** >**My Profile** >**Pla
 
   
 
+
+  
+
     
     
     **Platform Language:**
@@ -75,31 +78,17 @@ Users can override that language on **Location Settings** >**My Profile** >**Pla
     
     If a translation is missing, content safely falls back to English (en_US).
 
-  
-
-
-  
-
-
-  
-
-
-  
-
-
-  
-
-
-  
-  
-
-
 * * *
 
 ## **Product Areas Covered by the Internationalization**
 
   
 Anything marked as Y refers Yes they have been revamped to meet the quality.
+
+  
+
+
+WordPress now has full internationalization coverage across supported platform languages. All previously missing WordPress i18n strings have been added, so users see a more consistent localized experience in WordPress-related areas.
 
   
 
@@ -196,8 +185,8 @@ Client Portal Core| Y| Y| Y| Y| Y| Y| Y| Y| Y| Y| Y| Y
 Ad manager| Y| Y| Y| Y| Y| Y| Y| Y| Y| Y| Y| Y  
 Sub account Affiliate Manager| Y| Y| Y| Y| Y| Y| Y| Y| Y| Y| Y| Y  
 Automations AM Client Portal| Y| Y| Y| Y| Y| Y| Y| Y| Y| Y| Y| Y  
-Login Pages  
-| Y| Y| Y| Y| Y| Y| Y| Y| Y| Y| Y| Y  
+Login Pages| Y| Y| Y| Y| Y| Y| Y| Y| Y| Y| Y| Y  
+Wordpress| Y| Y| Y| Y| Y| Y| Y| Y| Y| Y| Y| Y  
   
   
 

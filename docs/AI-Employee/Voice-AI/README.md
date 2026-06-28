@@ -4,12 +4,12 @@
 
 ## Articles
 
-- [AI Voice Agents Overview](AI Voice Agents Overview.md)
+- [Overview of Voice AI Agents](Overview of Voice AI Agents.md)
 - [How to Create Voice AI Agents](How to Create Voice AI Agents.md)
 - [Testing Voice AI Agents](Testing Voice AI Agents.md)
 - [Inbound Call Flow for Voice AI calls](Inbound Call Flow for Voice AI calls.md)
-- [Working hours for AI Employee](Working hours for AI Employee.md)
-- [Voice AI: Multi-Language Support](Voice AI Multi-Language Support.md)
+- [How to Set Working Hours for Voice AI Agents](How to Set Working Hours for Voice AI Agents.md)
+- [Multi-Language Support for Voice AI Agents](Multi-Language Support for Voice AI Agents.md)
 - [How to Use Custom Values in Voice AI Agent Prompts](How to Use Custom Values in Voice AI Agent Prompts.md)
 - [Voice AI Agents Dashboard Overview](Voice AI Agents Dashboard Overview.md)
 - [How to Keep Callers Engaged with the Voice AI Idle Reminder Timer](How to Keep Callers Engaged with the Voice AI Idle Reminder Timer.md)

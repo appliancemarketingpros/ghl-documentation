@@ -197,6 +197,42 @@ Product-to-page mapping controls where shoppers land. Learn how to map initially
 
 * * *
 
+## **Desktop Media Customization in the Product Details Element**
+
+  
+
+
+The Product Details element includes desktop media controls that help you customize how product images and product information are arranged on the page. These controls make it easier to align the Product Details Page with your storefront design.
+
+  
+
+
+Within the Product Details element, you can customize:
+
+  
+
+
+  * desktop Media width  
+  
+
+  * desktop Media position  
+  
+
+  * product media layout options
+
+
+  
+
+
+For detailed instructions on media layout settings, refer to <span style="color:blue">Product Media Layouts for HighLevel Product Pages</span>.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074497990/original/_EHTL-aR4_sUPqrn4ayhatDoDJDXbMhKqQ.png?1782393722)
+
+* * *
+
 ## **Frequently Asked Questions**
 
   

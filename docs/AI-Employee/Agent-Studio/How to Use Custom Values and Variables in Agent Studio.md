@@ -18,15 +18,15 @@ This guide explains how to use Account details, Contact data, real-time date and
 **TABLE OF CONTENTS**
 
   * What Are Custom Values and Variables?
-  * Key Benefits of Using Variables in Agent Studio
-  * Custom Values
-  * Account Variables
-  * Right Now Variables
-  * Form Data Variables
-  * Contact Variables
-  * Contact vs Runtime Variables
-  * How To Set Up Custom Values and Variables
-  * Frequently Asked Question
+    * Key Benefits of Using Variables in Agent Studio
+    * Custom Values
+    * Account Variables
+    * Right Now Variables
+    * Form Data Variables
+    * Contact Variables
+    * Contact vs Runtime Variables
+    * How To Set Up Custom Values and Variables
+    * Frequently Asked Question
     * Related Articles
 
 
@@ -175,7 +175,7 @@ Workflows that use the **AI Agent** action can update custom values directly wit
   
 
 
-For full setup steps, refer to the [AI Agent workflow](<\[https%3A//help.gohighlevel.com/support/solutions/articles/155000007600-workflow-action-ai-agent\]\(https%3A//help.gohighlevel.com/support/solutions/articles/155000007600-workflow-action-ai-agent\)>) action article.
+For full setup steps, refer to the [AI Agent workflow action](<https://help.gohighlevel.com/en/support/solutions/articles/155000007600>) article.
 
 * * *
 
@@ -344,18 +344,18 @@ If the contact record updates, the next time the agent runs it will use the upda
 
 Follow these steps to start using variables.
 
-###   
+  
 
 
-### **Step 1: Create Custom Values**
+#### _**Step 1:** Create Custom Values_
 
-  1. ###  Go to **Settings → Custom Values**
+  
 
-  2. Click **Add Custom Value**
 
-  3. Enter a Key and Value
+  1. Go to **Settings** → **Custom Values** and select **Add Custom Value**  
+  
 
-  4. Click **Save**
+  2. Enter a Name and Value then click **Create**
 
 
   
@@ -366,20 +366,20 @@ Follow these steps to start using variables.
   
 
 
-###   
+  
 
 
-### **Step 2: Open Agent Studio**
+####  _**Step 2:** Open Agent Studio_
 
-  1. ###  Go to **AI Agents → Agent Studio**
-
-  2. Open an existing agent or create a new one
+  
 
 
-###   
+Go to **AI Agents → Agent Studio** and open an existing agent or create a new one
+
+  
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066195961/original/6Q9_iM4uoiCl-xbPRENoIWMs6iBGa9F6pQ.png?1772634894)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074615036/original/0R71MpiOCz7VLaOAuNOBP1jMdWsI_KVKkQ.png?1782488945)
 
   
 
@@ -387,27 +387,26 @@ Follow these steps to start using variables.
   
 
 
-### **Step 3: Insert a Variable**
+####  _**Step 3:** Insert a Variable_
 
-  1. ### 
+  
 
-Click inside any prompt or message field
 
-  2. Click the dropdown arrow in the field
+### 
 
-OR type {{ manually
+  1. Click inside any prompt or message field  
+  
+
+  2. Click the dropdown arrow in the field OR type {{ manually  
+  
 
   3. Choose a category:
-
      * Account
-
      * Custom Values
-
      * Right Now
-
      * Form Data
-
-     * Contact
+     * Contact  
+  
 
   4. Click a variable to insert it
 
@@ -418,14 +417,12 @@ OR type {{ manually
     
     **Note:** Some nodes, such as API Call steps, generate runtime variables based on their output. These variables can be reused in later steps by selecting them from the variable picker.
 
-  
-
-
-###   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066196827/original/ArejnkNFCsmPfC-hrhaWzg9fZJRtn2kK6g.png?1772635327)
+### 
 
   
 
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074615338/original/bFXWmNns7dFIgKOrGx2-hFDqfjC1a6TGOA.png?1782489176)
 
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066197202/original/VQqhp9eIAz5W_LF314FtD0LW78jD23JeBw.png?1772635503)
@@ -436,15 +433,21 @@ OR type {{ manually
   
 
 
-### **Step 4: Save and Test**
+#### _**Step 4:** Save and Test_
 
-  1. ### 
+  
 
-Click **Save**
 
-  2. Click **Test**
+### 
 
-  3. Run a sample conversation
+  1. Click **Save**  
+  
+
+  2. Click **Test**  
+  
+
+  3. Run a sample conversation  
+  
 
   4. Confirm variables resolve correctly
 
@@ -457,12 +460,15 @@ If a value appears blank, verify that the corresponding data exists in the CRM o
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066197432/original/KdPrTrYGBxPWiMmIep4m85sHuAzBW4q0OA.png?1772635632)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074615546/original/6A9eTQdsXH4xl_J1PAmcQZwR_Sv6MLnxUA.png?1782489324)
 
-###   
+  
 
 
-### **Step 5: Publish**
+**  
+**
+
+#### _**Step 5:** Publish_
 
   
 
@@ -472,7 +478,7 @@ Once everything works correctly, promote the agent to Production.
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066197575/original/8nM_gF_XQQU9MzeYYeu--GbY4pUsxGqYtg.png?1772635693)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074615652/original/_xaRKs-PSMkGjmOep9rWlMG0G58-dgIQnA.png?1782489421)
 
 * * *
 
@@ -522,12 +528,16 @@ Yes. Use the exact key names shown in the variable picker.
 
 * * *
 
-### **Related Articles**
+## **Related Articles**
 
-  * ### 
+  
 
-[How to Use the AI Agent Studio in HighLevel ](<https://help.gohighlevel.com/support/solutions/articles/155000006058-how-to-use-the-ai-agent-studio-in-highlevel>)
 
-  * [How to use Custom Values](<https://help.gohighlevel.com/support/solutions/articles/48001161575-how-to-use-custom-values>)
+  * [How to Use the AI Agent Studio in HighLevel](<https://help.gohighlevel.com/en/support/solutions/articles/155000006058>)  
+  
 
-  * [How to Set Up Agent Studio Triggers for Real-Time Starts](<https://help.gohighlevel.com/support/solutions/articles/155000007310-how-to-set-up-agent-studio-triggers-for-real-time-starts>)
+  * [How to use Custom Values](<https://help.gohighlevel.com/en/support/solutions/articles/48001161575>)  
+  
+
+  * [How to Set Up Agent Studio Triggers for Real-Time Starts](<https://help.gohighlevel.com/en/support/solutions/articles/155000007310>)  
+[](<https://help.gohighlevel.com/support/solutions/articles/155000007310-how-to-set-up-agent-studio-triggers-for-real-time-starts>)

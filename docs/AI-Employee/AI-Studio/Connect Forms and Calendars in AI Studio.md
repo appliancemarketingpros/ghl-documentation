@@ -19,16 +19,16 @@ Forms and calendars help turn an AI-generated page into a working experience tha
 **TABLE OF CONTENTS**
 
   * What are Forms and Calendars in AI Studio?
-    * Key Benefits of Connecting Forms and Calendars in AI Studio
-    * How Forms Work in AI Studio
-      * How To Connect Forms in AI Studio
-      * Where Form Submissions Go After Connection
-      * How Workflows Connect to Form Submissions
-    * How Calendars Work in AI Studio
-      * How To Connect Calendars in AI Studio
-      * What Happens After a Calendar Is Connected
-    * Frequently Asked Questions
-    * Related Articles
+  * Key Benefits of Connecting Forms and Calendars in AI Studio
+  * How Forms Work in AI Studio
+    * How To Connect Forms in AI Studio
+    * Where Form Submissions Go After Connection
+    * How Workflows Connect to Form Submissions
+  * How Calendars Work in AI Studio
+    * How To Connect Calendars in AI Studio
+    * What Happens After a Calendar Is Connected
+  * Frequently Asked Questions
+  * Related Articles
 
 
 * * *

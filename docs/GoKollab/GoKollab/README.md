@@ -13,3 +13,4 @@
 - [GoKollab Affiliate Program for Communities](GoKollab Affiliate Program for Communities.md)
 - [GoKollab for Communities (Marketplace for communities)](GoKollab for Communities (Marketplace for communities).md)
 - [Manage Purchases on GoKollab](Manage Purchases on GoKollab.md)
+- [How to Use GoKollab Chats for Direct Messages in Communities](How to Use GoKollab Chats for Direct Messages in Communities.md)

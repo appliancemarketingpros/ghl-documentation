@@ -6,394 +6,400 @@
 
 ---
 
-Apply your brand’s tone and visual identity directly inside Agent Studio so every AI-generated asset reflects your business consistently. This guide explains how to connect Brand Voices and Brand Kits to your generation nodes and ensure text, images, video, and audio stay aligned with your brand standards.
+Maintain consistent branding across AI-generated content by applying **Brand Voice** and **Brand Kit (Design Kit)** directly within Agent Studio. These settings help your AI agents generate text, images, videos, and audio that reflect your business’s messaging and visual identity. This article explains how branding works, how to configure it, and best practices for managing branded AI workflows.
 
 * * *
 
 **TABLE OF CONTENTS**
 
-  * What Is Brand Voice and Brand Kit in Agent Studio?
-  * Key Benefits of Brand Integration in Agent Studio
-  * How Branding Works Across Media Types
-    * Text Generation
-    * Image & Video Generation
-    * Audio Generation
-  * Brand Board Sync Behavior
-  * How to Set Up Brand Voice and Brand Kit in Agent Studio
+  * What are Brand Voice & Brand Kit?
+  * Key Benefits
+  * Supported AI Generation Nodes
+  * Brand Board Sync
+  * Configure Brand Voice & Brand Kit
   * Multi-Brand Workflows
+  * Best Practices
   * Frequently Asked Questions
   * Related Articles
 
 
-* * *
-
-# **What Is Brand Voice and Brand Kit in Agent Studio?**
-
   
-
-
-Brand Voice and Brand Kit allow you to apply your brand identity to AI-generated content inside Agent Studio.
-
-  
-
-
-A **Brand Voice** controls how your content sounds:
-
-  * Tone
-
-  * Messaging style
-
-  * Personality
-
-  * Call-to-action style
-
-
-  
-
-
-A **Brand Kit** controls how your content looks:
-
-  * Colors
-
-  * Fonts
-
-  * Logo
-
-  * Visual identity
-
-
-  
-
-
-When selected inside a node, these settings guide the AI output automatically.
-
-* * *
-
-## **Key Benefits of Brand Integration in Agent Studio**
-
-  
-
-
-Using Brand Voice and Brand Kit inside Agent Studio ensures consistent, scalable branding.
-
-  
-
-
-  * **Consistent output:** Text, images, and media align with your brand automatically.
-
-
-  
-
-
-  * **Multi-brand workflows:** Assign different brands to different nodes within the same agent.
-
-
-  
-
-
-  * **Reduced manual edits:** Minimize rewriting and redesigning after generation.
-
-
-  
-
-
-  * **Automatic updates:** Changes to your Brand Board apply to future node runs.
-
-
-  
-
-
-  * **Improved quality control:** Built-in brand rules reduce off-brand messaging.
 
 
 * * *
 
-## **How Branding Works Across Media Types**
-
+# **What are Brand Voice & Brand Kit?**  
   
 
 
-Once selected, branding influences:
+Brand Voice and Brand Kit allow Agent Studio to automatically apply your branding to AI-generated content.
 
+A **Brand Voice** defines how your business communicates, including:  
   
 
 
-### **Text Generation**
+  * Tone  
+  
 
-  * Writing style
+  * Messaging style  
+  
 
-  * Tone
+  * Personality  
+  
 
-  * Word choice
+  * Writing guidelines  
+  
 
-  * Call-to-action format
-
-
+  * Call-to-action style  
   
 
 
-### **Image & Video Generation**
-
-  * Brand colors
-
-  * Logo placement
-
-  * Font styling (where applicable)
-
-
+A **Brand Kit (Design Kit)** defines your visual identity, including:  
   
 
 
-### **Audio Generation**
+  * Colors  
+  
 
-  * Tone of script
+  * Logos  
+  
 
-  * Voice model mapping (if configured)
+  * Fonts  
+  
 
-
+  * Design elements  
   
 
 
-Brand rules are passed automatically to the AI when the node runs.
+Once selected, these settings are automatically passed to supported AI generation nodes.
 
 * * *
 
-## **Brand Board Sync Behavior**
-
+## **Key Benefits**  
   
 
 
-Brand settings are pulled from your Brand Boards.
-
+Using Brand Voice and Brand Kit helps create consistent AI-generated content while reducing manual editing.  
   
 
 
-If you update:
-
-  * Colors
-
-  * Logos
-
-  * Messaging guidelines
-
-
+  * **Consistent branding:** Keep text, images, videos, and audio aligned with your brand.  
   
 
-
-Future node runs will reflect those changes automatically.
-
+  * **Automatic synchronization:** Future AI generations use the latest Brand Board settings.  
   
 
+  * **Reduced editing:** Generate content that’s already on brand.  
+  
 
-Existing generated content does not change retroactively.
+  * **Multi-brand support:** Assign different brands to different nodes within the same workflow.  
+  
+
+  * **Centralized management:** Update your Brand Board once and future generations reflect those changes.
+
 
 * * *
 
-## **How to Set Up Brand Voice and Brand Kit in Agent Studio**
-
+## **Supported AI Generation Nodes**  
   
 
 
-Follow these steps:
-
-###   
-
-
-### **Step 1: Create Brand Boards (If Not Done)**
-
-  1. ###  Go to **Marketing → Brand Boards**
-
-  2. Create at least one:
-
-     * Brand Voice
-
-     * Brand Kit (Design Kit)
-
-
+Brand Voice and Brand Kit can be applied to the following AI Generation nodes:  
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066858028/original/mGV9vJ-hLs1eLorZRioP-J8vhr7z_jiIYw.png?1773392875)
+  * Text Generation  
+  
 
+  * Image Generation  
+  
+
+  * Video Generation  
+  
+
+  * Audio Generation  
   
 
 
-###   
-
-
-### **Step 2: Open Agent Studio**
-
-  1. ###  Go to **AI Agents → Agent Studio**
-
-  2. Open or create an agent
-
-  3. Add a generation node (Text, Image, Video, Audio)
-
-
+Each node can use its own Brand Voice and Brand Kit, giving you flexibility across complex workflows.  
   
 
 
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066858286/original/ABUGMKqk7maVgzRfoXOL0BZpghLbIa6POQ.png?1773393025)
-
-  
-
-
-###   
-
-
-### **Step 3: Select Brand Settings**
-
-  1. ### 
-
-Click the node to open its settings
-
-  2. Locate the **Brand Voice** dropdown
-
-  3. Select your desired Brand Voice
-
-  4. Select a **Brand Kit**
-
-  5. Click **Save**
-
-
-  
-
-
-You can also click **\+ Add New** to create a new brand without leaving the node.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066858703/original/erMkIHFUte2dwQIzW7xTVsns0T21zGIpSQ.png?1773393192)
-
-  
-
-
-###   
-
-
-### **Step 4: Test Output**
-
-  1. ### 
-
-Click **Test**
-
-  2. Generate sample content
-
-  3. Confirm tone and visuals match your brand
-
-
-###   
-
-
-### **Step 5: Publish**
-
-  
-
-
-Move the agent to Staging or Production once satisfied.
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074665274/original/hEZhle3jvNZRRric86KVkWia6ly-zM4bNg.png?1782621132)**  
+_Supported AI Generation nodes inside Agent Studio._
 
 * * *
 
-## **Multi-Brand Workflows**
-
+## **Brand Board Sync**  
   
 
 
-You can assign different brands to different nodes.
-
+Agent Studio automatically retrieves your Brand Voice and Brand Kit from **Marketing → Brand Boards**.  
   
 
 
-This is useful when:
-
+Updates to your Brand Board—such as new messaging, logos, colors, or fonts—are automatically applied to future AI generations.  
   
 
 
-  * Agencies manage multiple client brands
-
-  * Franchises share workflows but need localized tone
-
-  * You are A/B testing messaging styles
-
-
-  
-
-
-Each node follows its assigned brand independently.
+**Note:** Existing generated content is not updated retroactively.
 
 * * *
 
-## **Frequently Asked Questions**
-
+## **Configure Brand Voice & Brand Kit**  
   
 
 
-**Q: Do I need a Brand Board before using this?**
-
-Yes. At least one Brand Voice and one Brand Kit must exist in Marketing → Brand Boards.
-
+Applying branding to your AI generation nodes takes only a few steps.  
   
 
 
-**Q: Will updating a Brand Kit change existing content?**
-
-No. Only future node runs use updated settings.
-
+#### **Step 1:**_Create a Brand Board_  
   
 
 
-**Q: Can I apply only a Brand Voice or only a Brand Kit?**
-
-Yes. Leave one dropdown set to None if needed.
-
+Navigate to:  
   
 
 
-**Q: How many brands can I create?**
-
-Multiple Brand Voices and Brand Kits can be stored per location. For manageability, keep totals reasonable.
-
+**Marketing → Brand Boards**  
   
 
 
-**Q: Does this work with Ask AI?**
-
-If Ask AI triggers a workflow containing branded nodes, the output inherits those brand settings.
-
+Create or manage your:  
   
 
 
-**Q: Can I override brand tone inside a prompt?**
+  * Brand Voice  
+  
 
-Yes. Manual instructions in the node apply for that run but do not modify your Brand Board.
-
+  * Brand Kit (Design Kit)  
   
 
 
-**Q: Does Audio AI use custom voice models?**
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074665283/original/iEAR9nLN-mc6TRpaE94XY76ZhkbqXw3bUA.png?1782621184)**  
+_Brand Boards page showing the Brand Voice and Design Kit tabs._
 
-If mapped inside your Brand Voice settings, supported voice models will apply automatically.
-
+#### _  
+_**Step 2:**_Open Agent Studio_  
   
 
 
-**Q: Is this available on all plans?**
+Navigate to:  
+  
 
-Brand integration follows the same plan entitlements as Agent Studio.
+
+**AI Agents → Agent Studio**  
+  
+
+
+Open an existing AI Agent or create a new one.  
+  
+
+
+Add a supported AI Generation node.
+
+####   
+**Step 3:**_Select Your Brand_  
+  
+
+
+Open the node settings.  
+  
+
+
+From the **Brand Voice** dropdown, you can:  
+  
+
+
+  * Select an existing Brand Voice  
+  
+
+  * Select **None** for non-branded content  
+  
+
+  * Click **\+ Add New** to create a Brand Voice without leaving Agent Studio  
+  
+
+
+If supported, select a **Brand Kit (Design Kit)** using the same process.  
+  
+
+
+Click **Save** to apply your changes.  
+  
+
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074665312/original/pF4A1OJ4oljqy66lC0orlVhR_3is3FGXPQ.png?1782621309)**
+
+**  
+**
+
+_Brand Voice dropdown showing existing Brand Voices,__**\+ Add New**_ _, and the Save button._
+
+####   
+**Step 4:**_Test Your Content_  
+ _  
+_
+
+Run a test before publishing to confirm your generated content matches your brand.
+
+Review:  
+  
+
+
+  * Tone and messaging  
+  
+
+  * Brand personality  
+  
+
+  * Visual consistency  
+  
+
+  * Overall quality  
+  
+
+
+If needed, update your Brand Board or select a different Brand Voice before testing again.
+
+####   
+**Step 5:**_Publish Your Agent_  
+  
+
+
+Once you’re satisfied with the results, publish your AI Agent or move it to the appropriate environment.  
+  
+
+
+Future AI generations will continue using the selected Brand Voice and Brand Kit until you choose different settings.
 
 * * *
 
-## **Related Articles**
-
+## **Multi-Brand Workflows**  
   
 
 
-  * [How to Create a Brand Board](<https://help.gohighlevel.com/a/solutions/articles/155000003136?portalId=48000045315>)
-  * [Brand Voice in Brand Boards](<https://help.gohighlevel.com/a/solutions/articles/155000005085?portalId=48000045315>)
-  * [Brand Voice Integration in Content AI](<https://help.gohighlevel.com/a/solutions/articles/155000005308?portalId=48000045315>)
-  * [How to Use the AI Agent Studio in HighLevel](<https://help.gohighlevel.com/a/solutions/articles/155000006058?portalId=48000045315>)
-  * [Ask AI + Agent Studio Integration](<https://help.gohighlevel.com/a/solutions/articles/155000006677?portalId=48000045315>)
+Each AI Generation node can use its own Brand Voice and Brand Kit, making it easy to manage multiple brands within a single workflow.  
+  
+
+
+Common use cases include:  
+  
+
+
+  * Marketing agencies managing multiple clients  
+  
+
+  * Franchise businesses with localized branding  
+  
+
+  * Multiple product lines or business units  
+  
+
+  * A/B testing messaging strategies  
+  
+
+
+Each node independently follows its assigned branding.
+
+* * *
+
+## **Best Practices**  
+  
+
+
+Following these recommendations helps maintain consistent branding across AI-generated content.  
+  
+
+
+  * Configure your Brand Boards before building workflows.  
+  
+
+  * Keep Brand Voice guidelines up to date.  
+  
+
+  * Use descriptive Brand Voice names.  
+  
+
+  * Test content after updating your Brand Board.  
+  
+
+  * Create separate Brand Voices for each client or brand.  
+  
+
+  * Select **None** only when intentionally creating generic content.  
+  
+
+  * Review generated content before publishing.  
+  
+
+
+**Recommendation:** Configure your Brand Voice and Brand Kit in **Marketing → Brand Boards** before building agents, workflows, or funnels to minimize post-build edits.
+
+* * *
+
+## **Frequently Asked Questions**  
+  
+
+
+**Q: Do I need a Brand Board before using Brand Voice in Agent Studio?**
+
+Yes. Brand Voices and Brand Kits must be created in **Marketing → Brand Boards** before they can be selected inside Agent Studio.  
+  
+
+
+**Q: Can I create a new Brand Voice without leaving Agent Studio?**
+
+Yes. Select **\+ Add New** from the Brand Voice dropdown to create a new Brand Voice directly from the node.  
+  
+
+
+**Q: Can I generate content without branding?**
+
+Yes. Select **None** in the Brand Voice or Brand Kit dropdown to generate generic content.  
+  
+
+
+**Q: Will updating my Brand Board automatically update my workflows?**
+
+Future AI generations automatically use the latest Brand Board settings. Previously generated content is not updated.  
+  
+
+
+**Q: Can different nodes use different Brand Voices?**
+
+Yes. Each AI Generation node can use its own Brand Voice and Brand Kit.  
+  
+
+
+**Q: Which AI Generation nodes support Brand Voice and Brand Kit?**
+
+Branding is supported on **Text Generation, Image Generation, Video Generation, and Audio Generation** nodes.  
+  
+
+
+**Q: Can agencies manage multiple client brands?**
+
+Yes. Agent Studio supports multiple Brand Voices and Brand Kits, making it ideal for multi-client workflows.  
+  
+
+
+**Q: Does Brand Voice override my prompt?**
+
+No. Your prompt still directs the AI. Brand Voice provides additional context so the output aligns with your brand.
+
+* * *
+
+## **Related Articles**  
+  
+
+
+  * [How to Create a Brand Board](<https://help.gohighlevel.com/en/support/solutions/articles/155000003136>)  
+  
+
+  * [Brand Voice in Brand Boards](<https://help.gohighlevel.com/en/support/solutions/articles/155000005085>)
+  * [Brand Voice Integration in Content AI](<https://help.gohighlevel.com/en/support/solutions/articles/155000005308>)
+
+
+##

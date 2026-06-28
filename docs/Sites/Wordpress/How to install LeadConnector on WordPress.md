@@ -12,7 +12,7 @@ This article explains how HighLevel Hosting auto-installs the LeadConnector (LC)
 
     
     
-    **IMPORTANT** : When you provision a new WordPress site through **HighLevel Hosting**, HighLevel automatically installs the **LeadConnector (LC) plugin** during setup.
+    **IMPORTANT** : When you provision a new WordPress site through HighLevel Hosting, HighLevel automatically installs the LeadConnector (LC) plugin during setup.
 
 * * *
 
@@ -40,17 +40,22 @@ This article explains how HighLevel Hosting auto-installs the LeadConnector (LC)
   
 
 
-The LC WordPress Plugin allows you to embed and manage key HighLevel functionalities directly within your WordPress site. This integration simplifies how you control live chat experiences, lead funnels, and event tracking—eliminating the need to switch platforms or manually manage embed codes.
+The LC WordPress Plugin lets you use LeadConnector features directly in WordPress. You can access Chat Widgets, Forms, Funnels, Email, Phone Numbers, Custom Values, Calendars, Review Widgets, and more from one connected experience.
 
   
 
 
-When you provision a new WordPress site through **HighLevel Hosting**, HighLevel automatically installs the **LeadConnector (LC) plugin** during setup.
+When you provision a new WordPress site through HighLevel Hosting, HighLevel automatically installs the LeadConnector (LC) plugin during setup.
 
   
 
 
-HighLevel also shows a **Plugin Status Indicator** in the dashboard so you can confirm whether the plugin is connected without logging into WordPress.
+HighLevel also shows a Plugin Status Indicator in the dashboard so you can confirm whether the plugin is connected without logging into WordPress. 
+
+  
+
+
+The Sites Dashboard card now describes the LC Plugin as a single place to access key LeadConnector features, including Chat Widgets, Forms, Funnels, Email, Phone Numbers, Custom Values, Calendars, and Review Widgets.
 
 * * *
 

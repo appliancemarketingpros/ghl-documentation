@@ -1,583 +1,194 @@
 # Auto-Pilot Mode in Conversation AI for Efficient Communication
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000008094-auto-pilot-mode-in-conversation-ai-for-efficient-communication](https://help.gohighlevel.com/support/solutions/articles/155000008094-auto-pilot-mode-in-conversation-ai-for-efficient-communication)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000001022-auto-pilot-mode-in-conversation-ai-for-efficient-communication](https://help.gohighlevel.com/support/solutions/articles/155000001022-auto-pilot-mode-in-conversation-ai-for-efficient-communication)  
 **Category:** AI Employee  
 **Folder:** Conversation AI - Response Modes
 
 ---
 
-Auto-Pilot Mode in Conversation AI helps businesses engage leads and contacts automatically by responding to conversations without manual intervention. Designed to improve response times and customer engagement, Auto-Pilot Mode can manage conversations across supported channels while working toward appointment bookings and meaningful interactions. By configuring the available settings and training the bot effectively, businesses can create a more efficient communication experience.
+The Conversation AI Bot in Auto-pilot mode is designed to facilitate instant responses to leads and conversations at any time, enhancing user interaction and engagement. This article provides a comprehensive overview of accessing, configuring, and optimizing the Auto-pilot mode for efficient conversation management.
 
-* * *
+  
+
 
 **TABLE OF CONTENTS**
 
-  * What is Auto-Pilot Mode in Conversation AI?
-  * Key Benefits of Auto-Pilot Mode
-  * Inbound Message Handling
-  * Supported Channels
-  * Appointment Booking
-  * Sleep Mode
-  * Feedback and Bot Improvement
-  * Advanced Auto-Pilot Settings
-  * Business Name Configuration
-  * Wait Time Before Responding
-  * Configuration Details
-  * Maximum Message Limit
-  * Training the Bot
-  * How To Setup Auto-Pilot Mode
-  * Frequently Asked Questions
-  * Related Articles
+  * Accessing Auto-pilot Mode:
+  * Navigate to the Conversation AI settings located in the Sub-account settings.
+  * Features:
+  * Advanced Auto-pilot Settings:
+  * Training the Bot:
+  * Pricing:
+  * Fully Automatic AI Bot Demo Video:
+  * FAQs
+    * Q: How can I access the Auto-pilot mode?
+    * Q: Can I configure the wait time before the bot responds?
+    * Q: Is there a charge for bot training and trial?
+    * Q: How can I provide feedback to the bot?
+    * Q: Can I configure the business name for the Conversation AI bot?
+    * Q: Is there a limit to the number of messages a bot can send to a contact?
+    * Q: How can I reactivate the bot once it goes to sleep?
+    * Q: How does the Auto-pilot bot handle multiple inbound messages?
+    * Q: Can the Auto-pilot bot be used across different platforms like SMS, Facebook, and Instagram?
+    * Q: Is it possible to test the bot’s responses before enabling it?
+    * Q: What happens if the bot receives a message manually or through a workflow?
+    * Q: Is there an unlimited usage plan available for the Auto-pilot mode?
+    * Q: Can the Auto-pilot mode be configured for almost instant responses?
+  * Conclusion:
+
+
+  
+
+
+# **Accessing Auto-pilot Mode:**
+
+  * #  Navigate to the Conversation AI settings located in the Sub-account settings.
+
+  * In the "bot settings" tab, you will find the new mode "Auto-pilot."
+
+
+# **Features:**
+
+  * **Inbound Message Handling:** The bot waits for a configured amount of time before collecting all messages of a conversation and replying to the contact.
+  * **Channel Availability:** Auto-pilot is available for SMS, Facebook, and Instagram, and the channels can be configured in the Bot Settings tab.
+  * **Sleep Mode:** The bot goes to sleep for 2 hours in case of a manual or a workflow-based message.
+  * **Feedback Mechanism:** Every message from the Auto-pilot Bot will contain Thumbs up and Thumbs down to provide feedback, add FAQs, and train the bot.
+  * **Appointment Booking:** The bot's primary goal is to get appointment bookings for your business and sends the booking/scheduling link directly to the contact based on the selected calendar.
+
+
+# **Advanced Auto-pilot Settings:**
+
+  * **Business Name Configuration:** Allows setting up a business name for the conversation AI bot.
+  * **Wait Time before Responding:** Configurable time between 1 second and 5 minutes, allowing the bot to collect all messages before responding. The default limit is 2 mins.
+  * **Maximum Message Limit:** The bot will go to sleep if this limit is reached in a conversation. To activate the bot again, mark the conversation as "Read." The default limit is 10 messages in a single conversation.
+
+
+  
+
+
+# **Training the Bot:**
+
+Training the bot is crucial for optimizing its performance. Users can train the bot based on URLs or FAQs, and the bot trial is free of charge. For detailed instructions on training the bot, refer to [Training the Conversation AI Bot.](<https://help.gohighlevel.com/support/solutions/articles/155000000996-training-the-conversation-ai-bot>)
+
+  
+
+
+# **Pricing:**
+
+Bot training and trial are free of charge. Once the settings are changed from off to either suggestive or autopilot, a charge of five cents per generation is applicable.
+
+  
+
+
+# **Fully Automatic AI Bot Demo Video:**  
 
 
 * * *
 
-# **What is Auto-Pilot Mode in Conversation AI?**
+# **FAQs**
 
   
 
 
-Auto-Pilot Mode enables the Conversation AI Bot to automatically respond to incoming messages on supported channels. Instead of requiring manual responses, the AI analyzes incoming conversations, waits for a configurable period to gather context, and then generates a response.
+## **Q: How can I access the Auto-pilot mode?**
 
-  
-This mode is designed to help businesses maintain timely communication with leads and customers, even outside business hours. By automating responses and guiding contacts toward appointment bookings, Auto-Pilot Mode helps improve engagement while reducing the workload on team members.
-
-* * *
-
-## **Key Benefits of Auto-Pilot Mode**
-
-  
-
-
-Auto-Pilot Mode helps businesses streamline customer communications while ensuring contacts receive timely responses. Properly configured automation can improve engagement, reduce response delays, and support appointment generation.  
-  
-
-
-  * **24/7 Lead Engagement:** Respond to incoming conversations at any time, even when team members are unavailable.  
-  
-
-
-  * **Improved Response Times:** Reduce delays by automatically responding to leads and contacts.  
-  
-
-
-  * **Appointment Booking Assistance:** Guide contacts toward scheduling appointments using the selected booking calendar.  
-  
-
-
-  * **Reduced Manual Work:** Minimize the need for team members to respond to routine inquiries.  
-  
-
-
-  * **Continuous Improvement:** Use feedback and training tools to improve AI-generated responses over time.  
-  
-
-
-  * **Multi-Channel Communication:** Manage conversations across supported messaging channels from a single AI assistant.
-
-
-* * *
-
-## **Inbound Message Handling**
-
-  
-
-
-Auto-Pilot Mode is designed to understand conversational context before responding. Rather than replying to every message immediately, the bot can collect multiple incoming messages and generate a more informed response.
-
-###   
-**How It Works**  
-  
-
-
-  * The bot waits for a configured amount of time before responding.  
-  
-
-
-  * During the wait period, the bot collects incoming messages from the contact.  
-  
-
-
-  * After the wait time expires, the bot generates a single response based on the conversation context.
-
-
-* * *
-
-## **Supported Channels**
-
-  
-
-
-Auto-Pilot Mode can be configured to respond through supported communication channels. This allows businesses to maintain consistent engagement regardless of where conversations originate.
-
-###   
-**Available Channels**  
-  
-
-
-  * SMS  
-  
-
-
-  * Facebook  
-  
-
-
-  * Instagram
-
-
-  
-Channels can be enabled and managed from the **Bot Settings** tab.
-
-* * *
-
-## **Appointment Booking**
-
-  
-
-
-Appointment booking is a primary objective of the Auto-Pilot Bot. When appropriate, the bot can guide contacts toward scheduling an appointment using the selected calendar.
-
-  
-
-
-By providing scheduling links directly within conversations, businesses can reduce friction in the booking process and improve conversion opportunities.
-
-###   
-
-
-### **Appointment Booking Capabilities**  
-  
-
-
-  * Shares scheduling links with contacts.  
-  
-
-
-  * Supports appointment-focused conversations.  
-  
-
-
-  * Uses the selected calendar configuration.  
-  
-
-
-  * Helps move leads toward booking an appointment.
-
-
-  
-
-
-* * *
-
-## **Sleep Mode**
-
-  
-
-
-Sleep Mode helps prevent the bot from responding when human interaction has already occurred. This helps create a more natural experience and avoids unnecessary automated responses.
-
-  
-
-
-Depending on the Advanced Settings configuration, the bot can enter Sleep Mode after:  
-  
-
-
-  * Manual outbound messages  
-  
-
-
-  * Workflow-triggered outbound messages  
-  
-
-
-  * Both manual and workflow-triggered messages
-
-
-  
-Users can also configure when the bot should become active again.
-
-* * *
-
-## **Feedback and Bot Improvement**
-
-  
-
-
-Feedback plays an important role in improving the quality of AI-generated responses. Every Auto-Pilot response includes feedback options that help users evaluate and refine bot performance.
-
-###   
-
-
-### **Feedback Options**  
-  
-
-
-  * Thumbs Up  
-  
-
-
-  * Thumbs Down
-
-
-  
-
-
-Feedback can be used to:  
-  
-
+A: Navigate to Conversation AI settings in the Sub-account settings and select "Auto-pilot" in the "bot settings" tab.
 
-  * Improve future responses.  
   
 
 
-  * Identify response quality issues.  
-  
-
-
-  * Create additional FAQs.  
-  
-
-
-  * Support ongoing bot training.
-
-
-* * *
-
-## **Advanced Auto-Pilot Settings**
-
-  
-
-
-Advanced settings provide greater control over how the Conversation AI Bot behaves. Proper configuration can help balance responsiveness, conversation quality, and automation limits.
-
-###   
-**Business Name Configuration**
-
-  
-The Business Name setting allows users to define the name the bot uses when representing the business during conversations.
-
-  
-
-
-### **Wait Time Before Responding**
-
-  
-
-
-The Wait Time setting determines how long the bot waits before responding to incoming messages.
-
-#### Configuration Details  
-  
-
-
-  * Minimum: 1 second  
-  
-
-
-  * Maximum: 5 minutes  
-  
-
-
-  * Default: 2 minutes
-
-
-  
-Longer wait times allow the bot to gather additional context from multiple messages before responding.
-
-###   
-**Maximum Message Limit**
-
-  
-
-
-The Maximum Message Limit controls how many AI-generated messages can be sent within a conversation before the bot goes to sleep.
-
-####   
-Default Behavior  
-  
-
-
-  * Default limit: 10 messages per conversation  
-  
-
-
-  * Once the limit is reached, the bot enters Sleep Mode  
-  
-
-
-  * To reactivate the bot, mark the conversation as **Read**
-
-
-  
-This setting helps prevent excessive automated responses within a single conversation.
-
-* * *
-
-## **Training the Bot**
-
-  
-
-
-Training is essential for improving the accuracy and effectiveness of the Conversation AI Bot. A properly trained bot can provide more relevant responses and better support customer interactions.
-
-  
-
-
-Users can train the bot using:  
-  
-
+## **Q: Can I configure the wait time before the bot responds?**
 
-  * Website URLs  
-  
-
-
-  * Frequently Asked Questions (FAQs)
-
-
-  
-Bot training and the training trial are available at no charge.
-
-  
-For detailed training instructions, refer to [Training the Conversation AI Bot](<https://help.gohighlevel.com/en/support/solutions/articles/155000004416>)
-
-* * *
-
-## **How To Setup Auto-Pilot Mode**
-
-  
-
-
-Proper configuration ensures the Conversation AI Bot responds according to your business goals and communication preferences. Completing the setup process allows the bot to begin managing conversations automatically.
-
-###   
-**Step 1: Access Conversation AI Settings**  
-  
-
-
-  1. Navigate to **Settings** within the Sub-account.  
-  
-
-
-  2. Select **Conversation AI**.
-
-
-  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073857732/original/t7qdeGfKzg7C8ROSCdxvAhYtZ6NUJfO5RA.png?1781691169)
-
-  
-
-
-  
-
-
-### **Step 2: Open Bot Settings**  
-  
-
+A: Yes, you can configure the wait time between 1 second and 5 minutes in the advanced settings.
 
-  1. Select the **Bot Settings** tab.  
   
 
 
-  2. Locate the bot mode settings.
+## **Q: Is there a charge for bot training and trial?**
 
+A: No, bot training and trial are free of charge.
 
   
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073857898/original/yLQ8k6YpYH4Ox5VgZFB8Z5ZxcF5epUh1XQ.png?1781691220)
-
-  
-
-
-  
-
-
-### **Step 3: Enable Auto-Pilot Mode**  
-  
-
-
-  1. Select **Auto-Pilot** as the bot mode.  
-  
-
-
-  2. Save your changes.  
-  
-  
-
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073858030/original/PnF0Y88Re8COn8eP59-YfIKVRBjoKbpvjg.png?1781691271)  
-  
-
 
-### **Step 4: Configure Supported Channels**  
-  
+## **Q: How can I provide feedback to the bot?**
 
+A: Every Auto-pilot Bot's message will contain Thumbs up and Thumbs down options for providing feedback and training the bot.
 
-  1. Enable the desired communication channels.  
   
 
 
-  2. Verify channel configurations.
+## **Q: Can I configure the business name for the Conversation AI bot?**
 
+A: Yes, you can configure the business name in the advanced Auto-pilot settings.
 
   
 
 
-### **Step 5: Configure Advanced Settings**  
-  
+## **Q: Is there a limit to the number of messages a bot can send to a contact?**
 
+A: Yes, the default limit is 10 messages in a single conversation, after which the bot goes to sleep.
 
-  1. Set the Business Name.  
   
 
 
-  2. Configure the Wait Time.  
-  
+## **Q: How can I reactivate the bot once it goes to sleep?**
 
+A: To reactivate the bot, mark the conversation as "Read."
 
-  3. Define the Maximum Message Limit.  
   
 
 
-  4. Configure Sleep Mode preferences.  
-  
-  
+## **Q:****How does the Auto-pilot bot handle multiple inbound messages?**
 
+A: The bot waits for a configured amount of time to collect all messages in a conversation before responding, allowing it to understand the context better and respond to all messages in one go.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073858295/original/AOHF4M0DNYnF0BHjmJ1mv87ezDq0pKqDFQ.png?1781691375)  
   
 
 
-### **Step 6: Train the Bot**  
-  
+## **Q: Can the Auto-pilot bot be used across different platforms like SMS, Facebook, and Instagram?**
 
+A: Yes, the Auto-pilot bot is versatile and can be configured to respond on SMS, Facebook, and Instagram through the Bot Settings tab.
 
-  1. Add website URLs.  
   
 
 
-  2. Create FAQs.  
-  
+## **Q: Is it possible to test the bot’s responses before enabling it?**
 
+A: Absolutely, you can utilize the bot trial feature to assess the bot’s responses in real-time to various messages and intents before enabling it.
 
-  3. Review training content.  
   
-
 
-  4. Save changes.
 
-
-  
+## **Q: What happens if the bot receives a message manually or through a workflow?**
 
+A: The bot will go to sleep for a duration of 2 hours if it receives a manual or a workflow-based message.
 
-### **Step 7: Test and Monitor Performance**  
-  
+## **Q: Is there an unlimited usage plan available for the Auto-pilot mode?**
 
+A: An unlimited plan is under development and will soon be available, offering unlimited usage per location.
 
-  1. Send test messages.  
   
 
 
-  2. Review generated responses.  
-  
+## **Q: Can the Auto-pilot mode be configured for almost instant responses?**
 
+A: Yes, the wait time can be configured to as low as one second for the bot to respond almost instantly.
 
-  3. Provide feedback using Thumbs Up or Thumbs Down.  
   
 
 
-  4. Continue refining bot training.
-
-
   
-
 
-## 
     
     
-    **Pricing Details**
-    Bot training is free of charge.
-    Bot trial usage is free of charge.
-    When the bot mode is changed from Off to Suggestive or Auto-Pilot, a charge of $0.05 per generation applies.
-
-* * *
-
-## **Frequently Asked Questions**
-
-###   
-
-
-**Q: How do I access Auto-Pilot Mode?**
-
-A: Navigate to Conversation AI within the Sub-account settings and select Auto-Pilot from the Bot Settings tab.
+    For more detailed information on using Conversation AI, please refer to  
+    - [How to Use Conversation AI in Your Appointment Bookings.](<https://help.gohighlevel.com/support/solutions/articles/155000000210-how-to-use-conversation-ai-in-your-appointment-bookings->)   
+    - [Training the Conversation AI Bot](<https://help.gohighlevel.com/support/solutions/articles/155000000996-training-the-conversation-ai-bot>)
 
   
-**Q: Can I customize how quickly the bot responds?**
-
-A: Yes. The Wait Time setting can be configured between 1 second and 5 minutes.
-
-  
-**Q: Is bot training free?**
-
-A: Yes. Bot training and the training trial are available at no charge.
-
-  
-**Q: How can I improve the bot's responses?**
-
-A: Train the bot using URLs and FAQs and provide feedback through the Thumbs Up and Thumbs Down options.
-
-  
-**Q: What communication channels support Auto-Pilot Mode?**
-
-A: Auto-Pilot Mode supports SMS, Facebook, and Instagram.
-
-  
-**Q: What happens when the maximum message limit is reached?**
-
-A: The bot enters Sleep Mode after reaching the configured message limit.
-
-  
-**Q: How do I reactivate the bot after it goes to sleep?**
-
-A: Mark the conversation as Read to reactivate the bot.
-
-  
-**Q: Can the bot respond almost instantly?**
-
-A: Yes. The Wait Time setting can be configured as low as one second.
-
-  
-**Q: What is the primary objective of the Auto-Pilot Bot?**
-
-A: The bot is designed to help drive appointment bookings and customer engagement.
-
-  
-**Q: Does the bot respond to multiple inbound messages separately?**
-
-A: No. The bot can collect multiple messages during the configured wait period and respond based on the overall conversation context.
-
-* * *
-
-## **Related Articles**  
-**  
-**
-
-  * [Workflow Action - Appointment Booking Conversation AI Booking Bot](<https://help.gohighlevel.com/en/support/solutions/articles/155000003363>)  
-  
 
 
-  * [Conversation AI Bot Explained](<https://help.gohighlevel.com/en/support/solutions/articles/155000001335>)  
-  
+# **Conclusion:**
 
-
-  * [How to Configure Bot Goals in Conversation AI](<https://help.gohighlevel.com/en/support/solutions/articles/155000004095>)  
-  
-
-
-  * [Conversation AI - Advanced Settings Overview](<https://help.gohighlevel.com/en/support/solutions/articles/155000004415>)  
-  
-
-
-  * [Bot Status for Individual Contacts](<https://help.gohighlevel.com/en/support/solutions/articles/155000004096>)
+The Auto-pilot mode of the Conversation AI Bot is a powerful tool designed to enhance user interaction and engagement by providing instant responses to leads and conversations. By understanding and utilizing its features and settings effectively, users can optimize their conversation management and improve their business's overall communication strategy.

@@ -14,3 +14,4 @@
 - [Export or Download Transactions as CSV](Export or Download Transactions as CSV.md)
 - [Export or Download Orders as CSV](Export or Download Orders as CSV.md)
 - [Export or Download Subscriptions as CSV](Export or Download Subscriptions as CSV.md)
+- [In-App Cancellation for Reselling Subscriptions](In-App Cancellation for Reselling Subscriptions.md)
