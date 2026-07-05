@@ -1,8 +1,8 @@
 {
-  "docs/Getting-Started-w-HighLevel/Foundational-Setup/Getting Started - Create New Contact.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005055-getting-started-create-new-contact",
-    "hash": "621a08f4d01facbe",
-    "title": "Getting Started - Create New Contact"
+  "docs/Getting-Started-w-HighLevel/Foundational-Setup/Getting Started - Create and Manage Contacts.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005055-getting-started-create-and-manage-contacts",
+    "hash": "73fe041e129353f6",
+    "title": "Getting Started - Create and Manage Contacts"
   },
   "docs/Getting-Started-w-HighLevel/Foundational-Setup/Getting Started - Import Existing Contacts.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000005056-getting-started-import-existing-contacts",
@@ -126,7 +126,7 @@
   },
   "docs/Customer-Support/General-Support-Info/247 Customer Support Options.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000000969-24-7-customer-support-options",
-    "hash": "02cd4b782a0e6fac",
+    "hash": "db392c0c00406023",
     "title": "24/7 Customer Support Options"
   },
   "docs/Customer-Support/General-Support-Info/Troubleshooting Zoom Issues in HighLevel Support Calls.md": {
@@ -164,10 +164,10 @@
     "hash": "83868daf02781652",
     "title": "HighLevel Pricing Guide"
   },
-  "docs/Customer-Support/Billing-Support/Wallet - Auto Recharge, Smart Adjustment and Cancellation.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005620-wallet-auto-recharge-smart-adjustment-and-cancellation",
-    "hash": "d2798aaca0936a49",
-    "title": "Wallet - Auto Recharge, Smart Adjustment and Cancellation"
+  "docs/Customer-Support/Billing-Support/Wallet Auto Recharge and Smart Adjustment Settings.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005620-wallet-auto-recharge-and-smart-adjustment-settings",
+    "hash": "fbb9648f180014b1",
+    "title": "Wallet Auto Recharge and Smart Adjustment Settings"
   },
   "docs/Customer-Support/Software-Migration-Guides/ActiveCampaign to HighLevel (Migration Guide).md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000003296-activecampaign-to-highlevel-migration-guide-",
@@ -386,7 +386,7 @@
   },
   "docs/Agency-View/Prospecting-Tool/How Prospecting creates contacts in your CRM.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000008047-how-prospecting-creates-contacts-in-your-crm",
-    "hash": "6f0d3fe8b90b9a6a",
+    "hash": "e4effbba31ad5574",
     "title": "How Prospecting creates contacts in your CRM"
   },
   "docs/Agency-View/Core-Functionality/How to Generate Leads Using the HighLevel Prospecting Tool.md": {
@@ -651,18 +651,18 @@
   },
   "docs/AI-Employee/Voice-AI/How to Create Voice AI Agents.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000004107-how-to-create-voice-ai-agents",
-    "hash": "2eb851c94f79103b",
+    "hash": "b8fed43137c26319",
     "title": "How to Create Voice AI Agents"
   },
-  "docs/AI-Employee/Voice-AI/Testing Voice AI Agents.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004108-testing-voice-ai-agents",
-    "hash": "aed3c616ebfebe95",
-    "title": "Testing Voice AI Agents"
+  "docs/AI-Employee/Voice-AI/How to Test Voice AI Agents.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004108-how-to-test-voice-ai-agents",
+    "hash": "09078e16cc55df2a",
+    "title": "How to Test Voice AI Agents"
   },
-  "docs/AI-Employee/Voice-AI/Inbound Call Flow for Voice AI calls.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000003431-inbound-call-flow-for-voice-ai-calls",
-    "hash": "0c8a4f11b464e89c",
-    "title": "Inbound Call Flow for Voice AI calls"
+  "docs/AI-Employee/Voice-AI/Voice AI - How to Configure Inbound Call Flow.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000003431-voice-ai-how-to-configure-inbound-call-flow",
+    "hash": "df81e2b92b0f4b5d",
+    "title": "Voice AI - How to Configure Inbound Call Flow"
   },
   "docs/AI-Employee/Voice-AI/How to Set Working Hours for Voice AI Agents.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000004139-how-to-set-working-hours-for-voice-ai-agents",
@@ -1019,10 +1019,10 @@
     "hash": "3e4d49ee5e291044",
     "title": "Introduction to Ask AI Assistant"
   },
-  "docs/AI-Employee/Ask-AI/Contact Summary Agent in Ask AI.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005484-contact-summary-agent-in-ask-ai",
-    "hash": "7d67d4b1e854f800",
-    "title": "Contact Summary Agent in Ask AI"
+  "docs/AI-Employee/Ask-AI/How to Generate a Contact's Summary Using Ask AI.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005484-how-to-generate-a-contact-s-summary-using-ask-ai",
+    "hash": "12e4b8aa356b86b1",
+    "title": "How to Generate a Contact's Summary Using Ask AI"
   },
   "docs/AI-Employee/Ask-AI/Funnel Creation Agent in Ask AI.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000005521-funnel-creation-agent-in-ask-ai",
@@ -1086,13 +1086,18 @@
   },
   "docs/AI-Employee/Ask-AI/How to Use Ask AI Voice Mode.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000008022-how-to-use-ask-ai-voice-mode",
-    "hash": "f2b4436f9e01cb08",
+    "hash": "a574e8ecdb358dab",
     "title": "How to Use Ask AI Voice Mode"
   },
   "docs/AI-Employee/Ask-AI/How to Provide Feedback on Ask AI Responses.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000008024-how-to-provide-feedback-on-ask-ai-responses",
-    "hash": "00458b538d23baf4",
+    "hash": "d3755668fb725078",
     "title": "How to Provide Feedback on Ask AI Responses"
+  },
+  "docs/AI-Employee/Ask-AI/How to Use Ask AI to Create and Manage Courses.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008027-how-to-use-ask-ai-to-create-and-manage-courses",
+    "hash": "640a56f606f7e94e",
+    "title": "How to Use Ask AI to Create and Manage Courses"
   },
   "docs/AI-Employee/AI-Studio/AI Studio in HighLevel.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007587-ai-studio-in-highlevel",
@@ -1116,7 +1121,7 @@
   },
   "docs/AI-Employee/AI-Studio/Visual Edits in AI Studio.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007914-visual-edits-in-ai-studio",
-    "hash": "218ced58ac9df307",
+    "hash": "e8baec0bf9a3bf23",
     "title": "Visual Edits in AI Studio"
   },
   "docs/AI-Employee/Agent-Studio/How to Use the AI Agent Studio in HighLevel.md": {
@@ -1151,7 +1156,7 @@
   },
   "docs/AI-Employee/Agent-Studio/How to Test and Debug AI Conversations in Agent Studio.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007425-how-to-test-and-debug-ai-conversations-in-agent-studio",
-    "hash": "c3c284f22a3e59a9",
+    "hash": "6c24a93c96b3a298",
     "title": "How to Test and Debug AI Conversations in Agent Studio"
   },
   "docs/AI-Employee/Agent-Studio/How to Use Custom Values and Variables in Agent Studio.md": {
@@ -1546,7 +1551,7 @@
   },
   "docs/Phone-System/LC-Phone-System/Phone System Pricing & Billing Guide.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001223556-phone-system-pricing-billing-guide",
-    "hash": "203bb7c059b07b55",
+    "hash": "79b3e482cd65455e",
     "title": "Phone System Pricing & Billing Guide"
   },
   "docs/Phone-System/LC-Phone-System/How to Disable LC Phone System for SubaccountLocation (LC to Twilio).md": {
@@ -1621,12 +1626,12 @@
   },
   "docs/Phone-System/Messaging/Troubleshooting SMS Delivery.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48000981696-troubleshooting-sms-delivery",
-    "hash": "66561dbd4e5d2027",
+    "hash": "22cdc0184c0be452",
     "title": "Troubleshooting SMS Delivery"
   },
   "docs/Phone-System/Messaging/Incoming SMS shows up in Conversations but isn\u2019t forwarded to the forwarding number.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001156789-incoming-sms-shows-up-in-conversations-but-isn-t-forwarded-to-the-forwarding-number-",
-    "hash": "b53e8df41b8412f7",
+    "hash": "b3356d7d6f45d5f3",
     "title": "Incoming SMS shows up in Conversations but isn\u2019t forwarded to the forwarding number."
   },
   "docs/Phone-System/Messaging/Error Not a Valid SMS-Capable \u201cFrom\u201d Number.md": {
@@ -1961,12 +1966,12 @@
   },
   "docs/Email/General/AI Schedule for Smarter Email Timing (Smart Send Time Optimization).md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007168-ai-schedule-for-smarter-email-timing-smart-send-time-optimization-",
-    "hash": "9a2bcc9ee0e480bf",
+    "hash": "59613a6648b08bdf",
     "title": "AI Schedule for Smarter Email Timing (Smart Send Time Optimization)"
   },
   "docs/Email/General/Email AI (Beta 2.0) \u2014 Create On-Brand Emails Faster.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007382-email-ai-beta-2-0-create-on-brand-emails-faster",
-    "hash": "bda80b3ac2c51af4",
+    "hash": "b2f1e316d9c868f2",
     "title": "Email AI (Beta 2.0) \u2014 Create On-Brand Emails Faster"
   },
   "docs/Email/General/Email Blocking for Invalid or Restricted Recipient Domains.md": {
@@ -1999,6 +2004,11 @@
     "hash": "cdb1334a192a4e9e",
     "title": "An Introduction To Email Deliverability"
   },
+  "docs/Email/Deliverability/Step by Step guide to Creating Custom Unsubscribe Links.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001175857-step-by-step-guide-to-creating-custom-unsubscribe-links",
+    "hash": "3497b4108882731b",
+    "title": "Step by Step guide to Creating Custom Unsubscribe Links"
+  },
   "docs/Email/Deliverability/Workflow Action based on Email Event ClickedOpened.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001208599-workflow-action-based-on-email-event-clicked-opened",
     "hash": "4d2213fb4768dc5a",
@@ -2021,23 +2031,18 @@
   },
   "docs/Email/Deliverability/How List-Unsubscribe helps email deliverability.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001234940-how-list-unsubscribe-helps-email-deliverability",
-    "hash": "25cb931a9fe421ae",
+    "hash": "860152f3b592102d",
     "title": "How List-Unsubscribe helps email deliverability"
   },
   "docs/Email/Deliverability/Achieving Compliance Meeting Google and Yahoo's Email Sender Requirements in 2024.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000001634-achieving-compliance-meeting-google-and-yahoo-s-email-sender-requirements-in-2024",
-    "hash": "aa81184ec5b32499",
+    "hash": "21eb51365fdc3d69",
     "title": "Achieving Compliance: Meeting Google and Yahoo's Email Sender Requirements in 2024"
   },
   "docs/Email/Deliverability/How to Resubscribe After Unsubscribing from an Email List.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000002948-how-to-resubscribe-after-unsubscribing-from-an-email-list",
     "hash": "68944940b9b590ca",
     "title": "How to Resubscribe After Unsubscribing from an Email List"
-  },
-  "docs/Email/Deliverability/Creating and Managing Custom Unsubscribe Links.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004799-creating-and-managing-custom-unsubscribe-links",
-    "hash": "31ec44e9cd9a771b",
-    "title": "Creating and Managing Custom Unsubscribe Links"
   },
   "docs/Email/Deliverability/Preference Management (Email Unsubscription Management).md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007291-preference-management-email-unsubscription-management-",
@@ -2046,7 +2051,7 @@
   },
   "docs/Email/LC-Email/What is LC Email.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001220605-what-is-lc-email-",
-    "hash": "d5588c035b9cad07",
+    "hash": "f56cd03e23acd841",
     "title": "What is LC Email?"
   },
   "docs/Email/LC-Email/How to Migrate My Agency Over to LC - Email.md": {
@@ -2056,7 +2061,7 @@
   },
   "docs/Email/LC-Email/Managing Default Unsubscribe Links in LC Email.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001225534-managing-default-unsubscribe-links-in-lc-email",
-    "hash": "65811dafe2c58560",
+    "hash": "f56e5048388d837b",
     "title": "Managing Default Unsubscribe Links in LC Email"
   },
   "docs/Email/LC-Email/What is email Bounce Suspension, and How to avoid it.md": {
@@ -2066,12 +2071,12 @@
   },
   "docs/Email/LC-Email/Email Authentication - DMARC.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001224630-email-authentication-dmarc",
-    "hash": "02f28b26adec8c90",
+    "hash": "eab261b69fc7fb74",
     "title": "Email Authentication - DMARC"
   },
   "docs/Email/LC-Email/SSL Certificates for Dedicated LC Email Domains.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001227438-ssl-certificates-for-dedicated-lc-email-domains",
-    "hash": "acab5e65f50024f8",
+    "hash": "6428413a4da58b03",
     "title": "SSL Certificates for Dedicated LC Email Domains"
   },
   "docs/Email/LC-Email/How to Enable and Rebill LC Email Verification.md": {
@@ -2081,32 +2086,32 @@
   },
   "docs/Email/LC-Email/How to use the Email Risk Assessment Tool for LC Email.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000000577-how-to-use-the-email-risk-assessment-tool-for-lc-email",
-    "hash": "4d194f66bc2c10e3",
+    "hash": "f1f6987e64ac5fbd",
     "title": "How to use the Email Risk Assessment Tool for LC Email"
   },
   "docs/Email/LC-Email/Email Sending Guide Email Best Practices & Email Warm Up.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000001021-email-sending-guide-email-best-practices-email-warm-up",
-    "hash": "7646a2198ad65a63",
+    "hash": "bf72ddc9c56f16b9",
     "title": "Email Sending Guide:  Email Best Practices & Email Warm Up"
   },
   "docs/Email/LC-Email/Reverse DNS white labeling - Dedicated IP.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000001154-reverse-dns-white-labeling-dedicated-ip",
-    "hash": "550e94d89394434b",
+    "hash": "73c529d26b2c321b",
     "title": "Reverse DNS white labeling - Dedicated IP"
   },
   "docs/Email/LC-Email/Where Can I Find My Dedicated Domain SMTP Credentials.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000002132-where-can-i-find-my-dedicated-domain-smtp-credentials-",
-    "hash": "eaaab8eaab137e90",
+    "hash": "6811b8c47d506785",
     "title": "Where Can I Find My Dedicated Domain SMTP Credentials?"
   },
   "docs/Email/LC-Email/How to Add a Domain and Verify DNS Record.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000002220-how-to-add-a-domain-and-verify-dns-record",
-    "hash": "b8061c4a835ff775",
+    "hash": "86a8ea3ffa4d235b",
     "title": "How to Add a Domain and Verify DNS Record"
   },
   "docs/Email/LC-Email/Manage Sub-account Email Settings and Migration in LC Email.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000002222-manage-sub-account-email-settings-and-migration-in-lc-email",
-    "hash": "d6e5b833243f3895",
+    "hash": "1a80e053c689a6fb",
     "title": "Manage Sub-account Email Settings and Migration in LC Email"
   },
   "docs/Email/LC-Email/Google Postmaster Tools.md": {
@@ -2116,12 +2121,12 @@
   },
   "docs/Email/LC-Email/Microsoft Smart Network Data Services (SNDS).md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000004151-microsoft-smart-network-data-services-snds-",
-    "hash": "33070d54195a5b1f",
+    "hash": "392218568e650277",
     "title": "Microsoft Smart Network Data Services (SNDS)"
   },
   "docs/Email/LC-Email/Domain Warmup How It Works (Fixed-Stage Model).md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000005242-domain-warmup-how-it-works-fixed-stage-model-",
-    "hash": "b397c68da4c9f297",
+    "hash": "e07570b299c54b61",
     "title": "Domain Warmup: How It Works (Fixed-Stage Model)"
   },
   "docs/Email/LC-Email/LC Email Email Service Provider Block Notification - Email Sending Temporarily Restricted (Action Re.md": {
@@ -2131,7 +2136,7 @@
   },
   "docs/Email/LC-Email/How Sender Domains Work in LC Email Campaigns.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007249-how-sender-domains-work-in-lc-email-campaigns",
-    "hash": "4616da99909f213f",
+    "hash": "2ee1ce634301b68f",
     "title": "How Sender Domains Work in LC Email Campaigns"
   },
   "docs/Email/LC-Email-Dedicated-Domain-and-IP/Dedicated Email Sending Domains Overview & Setup.md": {
@@ -2141,72 +2146,92 @@
   },
   "docs/Email/LC-Email-Dedicated-Domain-and-IP/Google Dedicated Sending Domain Setup (LC Email).md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001240481-google-dedicated-sending-domain-setup-lc-email-",
-    "hash": "1dbed3a57da40400",
+    "hash": "4ce80dfe097235ef",
     "title": "Google Dedicated Sending Domain Setup (LC Email)"
   },
   "docs/Email/LC-Email-Dedicated-Domain-and-IP/GoDaddy Dedicated Sending Domain Setu (LC Email).md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001237513-godaddy-dedicated-sending-domain-setu-lc-email-",
-    "hash": "04b55fca0dcfb9c0",
+    "hash": "07d43f9b2bcd6c42",
     "title": "GoDaddy Dedicated Sending Domain Setu (LC Email)"
   },
   "docs/Email/LC-Email-Dedicated-Domain-and-IP/Siteground Dedicated Sending Domain Setup (LC Email).md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000000568-siteground-dedicated-sending-domain-setup-lc-email-",
-    "hash": "be97ee16fcbecf92",
+    "hash": "ff056b7047464483",
     "title": "Siteground Dedicated Sending Domain Setup (LC Email)"
+  },
+  "docs/Email/LC-Email-Dedicated-Domain-and-IP/Migrate Mailgun Sending Domain to LC Email.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000003211-migrate-mailgun-sending-domain-to-lc-email",
+    "hash": "58e158dd3dff99df",
+    "title": "Migrate Mailgun Sending Domain to LC Email"
   },
   "docs/Email/LC-Email-Dedicated-Domain-and-IP/Deleting Your LC Email Sending Domain.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000003212-deleting-your-lc-email-sending-domain",
-    "hash": "8b33cab838b5f67c",
+    "hash": "134827326df865c2",
     "title": "Deleting Your LC Email Sending Domain"
   },
   "docs/Email/LC-Email-Dedicated-Domain-and-IP/LC Email - Complete Guide to Dedicated IP.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000001152-lc-email-complete-guide-to-dedicated-ip",
-    "hash": "4dd8777abd36b1a9",
+    "hash": "3a4be1899f10bbbd",
     "title": "LC Email - Complete Guide to Dedicated IP"
+  },
+  "docs/Email/LC-Email-Dedicated-Domain-and-IP/Manually Adding DNS Records for Dedicated Sending Domains.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004427-manually-adding-dns-records-for-dedicated-sending-domains",
+    "hash": "099a400060189d1c",
+    "title": "Manually Adding DNS Records for Dedicated Sending Domains"
+  },
+  "docs/Email/LC-Email-Dedicated-Domain-and-IP/Default Headers for Dedicated Sending Domains.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004428-default-headers-for-dedicated-sending-domains",
+    "hash": "212f7d45dfc42c4b",
+    "title": "Default Headers for Dedicated Sending Domains"
+  },
+  "docs/Email/LC-Email-Dedicated-Domain-and-IP/Assigning Dedicated Sending Domains to Different Email Types.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004429-assigning-dedicated-sending-domains-to-different-email-types",
+    "hash": "c544050e3e530e32",
+    "title": "Assigning Dedicated Sending Domains to Different Email Types"
   },
   "docs/Email/LC-Email-Settings/Email Tracking for LC Email.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000003213-email-tracking-for-lc-email",
-    "hash": "40f0b483d01ede28",
+    "hash": "b251060b877441a0",
     "title": "Email Tracking for LC Email"
   },
   "docs/Email/MailGun/Mailgun - Overview.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48000981677-mailgun-overview",
-    "hash": "d0545e115d94414f",
+    "hash": "d1fda53413c7f148",
     "title": "Mailgun - Overview"
   },
   "docs/Email/MailGun/Step-by-step guide to set up Mailgun.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001219824-step-by-step-guide-to-set-up-mailgun",
-    "hash": "1e5a67dece0adb9d",
+    "hash": "117d05a62f305c55",
     "title": "Step-by-step guide to set up Mailgun"
   },
   "docs/Email/MailGun/Mailgun Setup - GoDaddy Domain Setup.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48000981678-mailgun-setup-godaddy-domain-setup",
-    "hash": "1cb7ed8aaabee37f",
+    "hash": "3c5f820ae396e4a8",
     "title": "Mailgun Setup - GoDaddy Domain Setup"
   },
   "docs/Email/MailGun/MailGun Setup - HostGator Domain Setup.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48000981679-mailgun-setup-hostgator-domain-setup",
-    "hash": "fa4473c9d9f30e96",
+    "hash": "0c3f5d68d499429e",
     "title": "MailGun Setup - HostGator Domain Setup"
   },
   "docs/Email/MailGun/Mailgun Setup - Namecheap Domain Setup.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48000981680-mailgun-setup-namecheap-domain-setup",
-    "hash": "4a495d96e674626f",
+    "hash": "32af20e94380ac5f",
     "title": "Mailgun Setup - Namecheap Domain Setup"
   },
   "docs/Email/MailGun/Mailgun Setup - CloudFlare Domain Setup.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001064413-mailgun-setup-cloudflare-domain-setup",
-    "hash": "614aa5141bf344b8",
+    "hash": "6565e00c637ff568",
     "title": "Mailgun Setup - CloudFlare Domain Setup"
   },
   "docs/Email/MailGun/Mailgun Setup - Google Domain Setup.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001155148-mailgun-setup-google-domain-setup",
-    "hash": "07135f26bc50a298",
+    "hash": "a4342fc1d6db0346",
     "title": "Mailgun Setup - Google Domain Setup"
   },
   "docs/Email/MailGun/Mailgun Setup - Siteground Domain Setup.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48000981685-mailgun-setup-siteground-domain-setup",
-    "hash": "200371bebed9ed4d",
+    "hash": "c4cbf313b7bf1e9a",
     "title": "Mailgun Setup - Siteground Domain Setup"
   },
   "docs/Email/MailGun/Mailgun Private API Key Setup.md": {
@@ -2234,19 +2259,14 @@
     "hash": "cdcb381b57b856e0",
     "title": "Mailgun - Unsubscribe Settings"
   },
-  "docs/Email/MailGun/Mailgun Setup Checklist.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/48001175336-mailgun-setup-checklist",
-    "hash": "4afa7eb6f1a0cc61",
-    "title": "Mailgun Setup Checklist"
-  },
   "docs/Email/MailGun/Why won't my DNS records work in SquareSpace.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001153705-why-won-t-my-dns-records-work-in-squarespace-",
-    "hash": "9c31fc6fdaa06df6",
+    "hash": "63883b6a245bdc15",
     "title": "Why won't my DNS records work in SquareSpace?"
   },
   "docs/Email/MailGun/Email Verification From Mailgun within the CRM.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48000982847-email-verification-from-mailgun-within-the-crm",
-    "hash": "a1da83a141362785",
+    "hash": "755ef671e9620fa6",
     "title": "Email Verification From Mailgun within the CRM"
   },
   "docs/Email/SMTP-Providers/Setting Up SMTP Providers.md": {
@@ -2254,34 +2274,29 @@
     "hash": "e35bce2f3c1f1767",
     "title": "Setting Up SMTP Providers"
   },
-  "docs/Email/SMTP-Providers/Setting alias for Google smtp.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/48001184605-setting-alias-for-google-smtp",
-    "hash": "5f7e1072d16e93df",
-    "title": "Setting alias for Google smtp"
-  },
   "docs/Email/SMTP-Providers/Using SendGrid As The SMTP Provider.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001166110-using-sendgrid-as-the-smtp-provider",
-    "hash": "6bf1e90b3434414e",
+    "hash": "d17d96988007e52a",
     "title": "Using SendGrid As The SMTP Provider"
   },
   "docs/Email/SMTP-Providers/Using Zoho as your SMTP Provider.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001173743-using-zoho-as-your-smtp-provider",
-    "hash": "4ce7b13c60c0a682",
+    "hash": "6b8d0df3d34d4f4d",
     "title": "Using Zoho as your SMTP Provider"
   },
   "docs/Email/SMTP-Providers/Why Can't I use My Free Email Address As The SMTP.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001063376-why-can-t-i-use-my-free-email-address-as-the-smtp-",
-    "hash": "66792d0682e49517",
+    "hash": "8b376c93c70a5e2a",
     "title": "Why Can't I use My Free Email Address As The SMTP?"
   },
   "docs/Email/SMTP-Providers/Limitation of using SMTP when emails are not sending.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001203144-limitation-of-using-smtp-when-emails-are-not-sending",
-    "hash": "bd8b3326929c686c",
+    "hash": "5530016f2be0d339",
     "title": "Limitation of using SMTP when emails are not sending"
   },
   "docs/Email/SMTP-Providers/Hide The SMTP Setup Help Doc Link.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001065654-hide-the-smtp-setup-help-doc-link",
-    "hash": "a6eb45245788119c",
+    "hash": "5777c4162e791a6a",
     "title": "Hide The SMTP Setup Help Doc Link"
   },
   "docs/Email/SMTP-Providers/Creating Your SaaS Affiliate Program (Using FirstPromoter).md": {
@@ -2291,7 +2306,7 @@
   },
   "docs/Email/SMTP-Providers/New Agency-Level Control for Email SMTP Services.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007607-new-agency-level-control-for-email-smtp-services",
-    "hash": "24cdd2ec78f06dba",
+    "hash": "1259a2f4f18016e0",
     "title": "New Agency-Level Control for Email SMTP Services"
   },
   "docs/Email/SMTP-Providers/How to Add Your Own Email Service (SMTP).md": {
@@ -2299,59 +2314,49 @@
     "hash": "d87877aa3a59aab5",
     "title": "How to Add Your Own Email Service (SMTP)"
   },
-  "docs/Email/Troubleshooting-Email/Email Error Library for supported SMTPs.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/48001209322-email-error-library-for-supported-smtps",
-    "hash": "4277bb6279c4b62e",
-    "title": "Email Error Library for supported SMTPs"
-  },
   "docs/Email/Troubleshooting-Email/How to check logs for a specific email in Mailgun.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001188059-how-to-check-logs-for-a-specific-email-in-mailgun",
-    "hash": "80ee2ce63e04f916",
+    "hash": "b6bace0b1b62139f",
     "title": "How to check logs for a specific email in Mailgun"
   },
   "docs/Email/Troubleshooting-Email/How to fix links in the email that do not open.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001151622-how-to-fix-links-in-the-email-that-do-not-open-",
-    "hash": "70aac92c42d8ba39",
+    "hash": "06722102626cf0d7",
     "title": "How to fix links in the email that do not open?"
   },
   "docs/Email/Troubleshooting-Email/When email replies are not showing up in Conversation.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001185819-when-email-replies-are-not-showing-up-in-conversation",
-    "hash": "9cc5b7b280e5970b",
+    "hash": "b7f0f5de4a3a0fdd",
     "title": "When email replies are not showing up in Conversation"
-  },
-  "docs/Email/Troubleshooting-Email/LC Email Mailgun replies not working when using WIX as the domain provider.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/48001188738-lc-email-mailgun-replies-not-working-when-using-wix-as-the-domain-provider",
-    "hash": "5d343926b7e47a82",
-    "title": "LC Email / Mailgun replies not working when using WIX as the domain provider"
   },
   "docs/Email/Troubleshooting-Email/Troubleshooting Warning Please contact your agency to change email settings.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001207525-troubleshooting-warning-please-contact-your-agency-to-change-email-settings",
-    "hash": "23e66bd0e3e48e29",
+    "hash": "279e32264af41937",
     "title": "Troubleshooting Warning: Please contact your agency to change email settings"
   },
   "docs/Email/Troubleshooting-Email/Troubleshooting Email Statistics.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001208601-troubleshooting-email-statistics",
-    "hash": "8a28ea612e5c0f99",
+    "hash": "d22126821e5126bc",
     "title": "Troubleshooting Email Statistics"
   },
   "docs/Email/Troubleshooting-Email/How to send a test email in the Conversation.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001208887-how-to-send-a-test-email-in-the-conversation",
-    "hash": "f7d3d39b9e969edd",
+    "hash": "55f3129279eb8c7e",
     "title": "How to send a test email in the Conversation"
   },
   "docs/Email/Troubleshooting-Email/Send Test Email Error in Campaign's Email step An error occurred, please try again.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001155002-send-test-email-error-in-campaign-s-email-step-an-error-occurred-please-try-again",
-    "hash": "8dc647a2771d9a9d",
+    "hash": "3dc4b312b5e33857",
     "title": "Send Test Email Error in Campaign's Email step: An error occurred, please try again"
   },
   "docs/Email/LC-Communication-Billing/How to Analyze an Agency's Spending on LC Communications.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001225291-how-to-analyze-an-agency-s-spending-on-lc-communications",
-    "hash": "0a6aa8b7e30cd1bf",
+    "hash": "21ac3a4cbb77225a",
     "title": "How to Analyze an Agency's Spending on LC Communications"
   },
   "docs/Email/Email-Delivery-Troubleshooting/Gmail Error 4.7.28 \u2013 Unusual Rate of Unsolicited Mail Detected.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007275-gmail-error-4-7-28-unusual-rate-of-unsolicited-mail-detected",
-    "hash": "35d1dd78dd2884fb",
+    "hash": "d7741abce4e8de95",
     "title": "Gmail Error: 4.7.28 \u2013 Unusual Rate of Unsolicited Mail Detected"
   },
   "docs/Email/Email-Delivery-Troubleshooting/Email Sending Health Maintaining Great Rates & Recovering When Things Go Wrong.md": {
@@ -2361,57 +2366,57 @@
   },
   "docs/Email/Email-Delivery-Troubleshooting/ESP Block Monitoring and Progressive Email Enforcement.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000008003-esp-block-monitoring-and-progressive-email-enforcement",
-    "hash": "921f05beb70a9cad",
+    "hash": "d22d1d54574e7985",
     "title": "ESP Block Monitoring and Progressive Email Enforcement"
   },
   "docs/Email/Authentication-&-Security/Email Authentication Errors - Fix SPF, DKIM, and DMARC Issues.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006793-email-authentication-errors-fix-spf-dkim-and-dmarc-issues",
-    "hash": "fe61b7249ab0c2ac",
+    "hash": "9fdf3fdccedb434d",
     "title": "Email Authentication Errors - Fix SPF, DKIM, and DMARC Issues"
   },
   "docs/Email/Authentication-&-Security/Blacklisted Domain or IP - Remove from Blocklists and Restore Delivery.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006923-blacklisted-domain-or-ip-remove-from-blocklists-and-restore-delivery",
-    "hash": "bcd502b3c7da253e",
+    "hash": "525be21b4a64fa75",
     "title": "Blacklisted Domain or IP - Remove from Blocklists and Restore Delivery"
   },
   "docs/Email/Authentication-&-Security/Spam Filter Blocks - Improve Content and Sender Reputation.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006943-spam-filter-blocks-improve-content-and-sender-reputation",
-    "hash": "770f9bb2c2680a66",
+    "hash": "a49ea818540da655",
     "title": "Spam Filter Blocks - Improve Content and Sender Reputation"
   },
   "docs/Email/Reputation-&-Throttling/Low Domain Reputation - Rebuild Trust and Improve Deliverability.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006795-low-domain-reputation-rebuild-trust-and-improve-deliverability",
-    "hash": "29bcaa0ff9aa5942",
+    "hash": "d2f38af2389df739",
     "title": "Low Domain Reputation - Rebuild Trust and Improve Deliverability"
   },
   "docs/Email/Reputation-&-Throttling/Low IP Reputation - Restore Sending IP Credibility.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006921-low-ip-reputation-restore-sending-ip-credibility",
-    "hash": "579fc7cd7c47b22b",
+    "hash": "5b41230816deeca5",
     "title": "Low IP Reputation - Restore Sending IP Credibility"
   },
   "docs/Email/Reputation-&-Throttling/Rate Limited Emails - Resolve Throttling and Sending Limits.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006941-rate-limited-emails-resolve-throttling-and-sending-limits",
-    "hash": "decb72d17ec1059f",
+    "hash": "caafd835f3e485a2",
     "title": "Rate Limited Emails - Resolve Throttling and Sending Limits"
   },
   "docs/Email/Technical-&-Configuration/Mail Loop Detected - Resolve Email Routing Conflicts.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006922-mail-loop-detected-resolve-email-routing-conflicts",
-    "hash": "87fa0054e95d8b46",
+    "hash": "60b9b009fcd5ae47",
     "title": "Mail Loop Detected - Resolve Email Routing Conflicts"
   },
   "docs/Email/Technical-&-Configuration/Email Standards Compliance Resolving RFC 5322 Violations.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006932-email-standards-compliance-resolving-rfc-5322-violations",
-    "hash": "48c0b047b451c011",
+    "hash": "753935e195976d70",
     "title": "Email Standards Compliance: Resolving RFC 5322 Violations"
   },
   "docs/Email/Recipient-&-Server-Issues/Recipient Policy Block - Bypass Server Restrictions.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006942-recipient-policy-block-bypass-server-restrictions",
-    "hash": "c6c9f89964d62ac5",
+    "hash": "b7817dc6cb201ef2",
     "title": "Recipient Policy Block - Bypass Server Restrictions"
   },
   "docs/Email/Complex-Delivery-Issues/Resolving Multiple Email Delivery Issues Complete Recovery Guide.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006933-resolving-multiple-email-delivery-issues-complete-recovery-guide",
-    "hash": "02dc61ff18cb281e",
+    "hash": "1771a5e64cf2433b",
     "title": "Resolving Multiple Email Delivery Issues: Complete Recovery Guide"
   },
   "docs/Contacts/Smart-Lists/Add Contact Form Upgrade and Customizations.md": {
@@ -2953,6 +2958,11 @@
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007519-how-to-view-advanced-preview-and-get-shareable-preview-links-for-meta-ads",
     "hash": "2aff9241427bc68e",
     "title": "How to view advanced preview and get shareable preview links for Meta Ads"
+  },
+  "docs/Marketing/Ad-Manager/How to Use Opportunity Score in Ad Manager.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008180-how-to-use-opportunity-score-in-ad-manager",
+    "hash": "40eb09527e534b0c",
+    "title": "How to Use Opportunity Score in Ad Manager"
   },
   "docs/Marketing/Getting-Started-w-Ad-Manager/Overview of Ad Manager.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000002433-overview-of-ad-manager",
@@ -4936,7 +4946,7 @@
   },
   "docs/Workflows/Workflow-Actions/Workflow Action - Goal Event.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000003328-workflow-action-goal-event",
-    "hash": "6eaddea626012a7a",
+    "hash": "0812617da2f2532a",
     "title": "Workflow Action - Goal Event"
   },
   "docs/Workflows/Workflow-Actions/Workflow Action - DareTime Formatter.md": {
@@ -5149,15 +5159,20 @@
     "hash": "25b56491a0685c36",
     "title": "Workflow Action - AI Agent"
   },
-  "docs/Workflows/Workflow-AI-Workflow-Actions/Workflow Action \u2013 AI Extract Data.md": {
+  "docs/Workflows/Workflow-AI-Workflow-Actions/Workflow Action - AI Extract Data.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007992-workflow-action-ai-extract-data",
-    "hash": "90ca699ecbaf0673",
-    "title": "Workflow Action \u2013 AI Extract Data"
+    "hash": "6343fee3a873935d",
+    "title": "Workflow Action - AI Extract Data"
   },
   "docs/Workflows/Workflow-AI-Workflow-Actions/Workflow Action - Update Conversation AI Bot and Status.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000003821-workflow-action-update-conversation-ai-bot-and-status",
     "hash": "b0b9d55749e5a8de",
     "title": "Workflow Action - Update Conversation AI Bot and Status"
+  },
+  "docs/Workflows/Workflow-AI-Workflow-Actions/How to Parse Emails Using AI Extract Data Action.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008182-how-to-parse-emails-using-ai-extract-data-action",
+    "hash": "9a80c511dfb21a0b",
+    "title": "How to Parse Emails Using AI Extract Data Action"
   },
   "docs/Workflows/Developer-Resources/Workflow Trigger - Video Tracking.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000003142-workflow-trigger-video-tracking",
@@ -5451,7 +5466,7 @@
   },
   "docs/Calendars-&-Appointments/Rentals/Creating a Booking.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006624-creating-a-booking",
-    "hash": "257e449c240eaf1d",
+    "hash": "0cce6df574aa32e8",
     "title": "Creating a Booking"
   },
   "docs/Calendars-&-Appointments/Rentals/Editing a Rental Booking.md": {
@@ -5461,7 +5476,7 @@
   },
   "docs/Calendars-&-Appointments/Rentals/Global Settings in Rentals.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006640-global-settings-in-rentals",
-    "hash": "2e80a49b879d5fd8",
+    "hash": "4b421b240d092678",
     "title": "Global Settings in Rentals"
   },
   "docs/Calendars-&-Appointments/Rentals/Calendar View for Rentals.md": {
@@ -5471,13 +5486,13 @@
   },
   "docs/Calendars-&-Appointments/Rentals/Rentals Calendars - Overview & How to Get Started.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006649-rentals-calendars-overview-how-to-get-started",
-    "hash": "628128a6e4ed56b8",
+    "hash": "910209440964b915",
     "title": "Rentals Calendars - Overview & How to Get Started"
   },
-  "docs/Calendars-&-Appointments/Rentals/How To Enable Rentals in Public Beta.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006740-how-to-enable-rentals-in-public-beta",
-    "hash": "a52fb9d9c760e067",
-    "title": "How To Enable Rentals in Public Beta"
+  "docs/Calendars-&-Appointments/Rentals/How To EnableDisable Rentals For Your Locations.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006740-how-to-enable-disable-rentals-for-your-locations",
+    "hash": "df48534af7495e0c",
+    "title": "How To Enable/Disable Rentals For Your Locations"
   },
   "docs/Calendars-&-Appointments/Rentals/Taxes for Rentals.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007423-taxes-for-rentals",
@@ -6251,7 +6266,7 @@
   },
   "docs/Settings/Agency-Settings/Billing Related Questions for Agencies.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001208376-billing-related-questions-for-agencies",
-    "hash": "01161f369a38d499",
+    "hash": "f5d8592364c7d5b4",
     "title": "Billing Related Questions for Agencies"
   },
   "docs/Settings/Agency-Settings/Login As User (Agency Admin Only).md": {
@@ -6759,10 +6774,10 @@
     "hash": "cfc7efd9911e482d",
     "title": "Visitor Data Widgets"
   },
-  "docs/Dashboards/Dashboard-Widget-Types/Email Widgets.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004328-email-widgets",
-    "hash": "26203f3ded2aeabd",
-    "title": "Email Widgets"
+  "docs/Dashboards/Dashboard-Widget-Types/Email Widgets for Dashboards and Reporting.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004328-email-widgets-for-dashboards-and-reporting",
+    "hash": "4021d76a7c36dc29",
+    "title": "Email Widgets for Dashboards and Reporting"
   },
   "docs/Dashboards/Configuring-Dashboards/How to Customize Dashboard Themes.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000003966-how-to-customize-dashboard-themes",
@@ -7284,10 +7299,10 @@
     "hash": "1c3143bbfc1c0380",
     "title": "Enhanced Listings Audit in Prospecting & Marketing Audit Reports"
   },
-  "docs/Reporting/Custom-Reports/How to create custom reports and schedule reports.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000003965-how-to-create-custom-reports-and-schedule-reports",
-    "hash": "6b0dd629f7eeaaf6",
-    "title": "How to create custom reports and schedule reports"
+  "docs/Reporting/Custom-Reports/How to create a custom report, schedule and export report as PDF.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000003965-how-to-create-a-custom-report-schedule-and-export-report-as-pdf",
+    "hash": "a4500b44bda63aba",
+    "title": "How to create a custom report, schedule and export report as PDF"
   },
   "docs/Reporting/Custom-Reports/Template Library for Custom Reports.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006621-template-library-for-custom-reports",
@@ -7341,7 +7356,7 @@
   },
   "docs/Logic-&-Fulfillment/Logic-&-Fulfillment/Sub-Account Transfer Guide.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000002031-sub-account-transfer-guide",
-    "hash": "4205f61b57ca5cb4",
+    "hash": "de9194dce49e6fb3",
     "title": "Sub-Account Transfer Guide"
   },
   "docs/Logic-&-Fulfillment/Logic-&-Fulfillment/Sub Account Transfers Eject Sub-Account to a New Agency.md": {
@@ -7351,7 +7366,7 @@
   },
   "docs/Logic-&-Fulfillment/Logic-&-Fulfillment/What happen\u200bs to your data when you cancel your HighLevel Subscription.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000004281-what-happen-s-to-your-data-when-you-cancel-your-highlevel-subscription-",
-    "hash": "b3c7412d99d30ff2",
+    "hash": "03b66efa0e966b27",
     "title": "What happen\u200bs to your data when you cancel your HighLevel Subscription?"
   },
   "docs/Logic-&-Fulfillment/Logic-&-Fulfillment/Sub-Accounts Transfers Bulk Transfer Sub-accounts to an Existing Agency.md": {
@@ -7551,12 +7566,12 @@
   },
   "docs/Reselling-Products/WhatsApp/WhatsApp Full Setup Guide for Agency.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001206216-whatsapp-full-setup-guide-for-agency",
-    "hash": "919b01eaed530b17",
+    "hash": "c966651d505438dc",
     "title": "WhatsApp Full Setup Guide for Agency"
   },
   "docs/Reselling-Products/WhatsApp/WhatsApp - Messaging Limits.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000001637-whatsapp-messaging-limits",
-    "hash": "380a58700b7715ee",
+    "hash": "ad1d7a14deb1f2c5",
     "title": "WhatsApp - Messaging Limits"
   },
   "docs/Reselling-Products/WhatsApp/How to Set Up WhatsApp for a Sub-Account.md": {
@@ -7566,7 +7581,7 @@
   },
   "docs/Reselling-Products/WhatsApp/WhatsApp Pricing, Billing, and Rebilling Guide.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000001428-whatsapp-pricing-billing-and-rebilling-guide",
-    "hash": "79e01619b1668767",
+    "hash": "b852e96c33005d15",
     "title": "WhatsApp Pricing, Billing, and Rebilling Guide"
   },
   "docs/Reselling-Products/WhatsApp/WhatsApp Template Statuses and Best Practice.md": {
@@ -7576,32 +7591,37 @@
   },
   "docs/Reselling-Products/WhatsApp/How to create a WhatsApp Template.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000000861-how-to-create-a-whatsapp-template-",
-    "hash": "96c44420b8842a30",
+    "hash": "b5d5c3df78d63735",
     "title": "How to create a WhatsApp Template?"
   },
   "docs/Reselling-Products/WhatsApp/Template Categorisation Guidelines.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000001058-template-categorisation-guidelines",
-    "hash": "bc367104f3131007",
+    "hash": "58c2e3ec8344776f",
     "title": "Template Categorisation Guidelines"
   },
   "docs/Reselling-Products/WhatsApp/WhatsApp - Workflow Integration.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000001624-whatsapp-workflow-integration",
-    "hash": "a6b24fdd724542a4",
+    "hash": "0de3237efa64708a",
     "title": "WhatsApp - Workflow Integration"
   },
   "docs/Reselling-Products/WhatsApp/WhatsApp Contact Management and Smartlist.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000002066-whatsapp-contact-management-and-smartlist",
-    "hash": "eb6af79ed73e73fd",
+    "hash": "84e3242f28b3b05d",
     "title": "WhatsApp Contact Management and Smartlist"
   },
   "docs/Reselling-Products/WhatsApp/WhatsApp Bulk Action.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000001790-whatsapp-bulk-action",
-    "hash": "7381c4817cfe6a72",
+    "hash": "69f79d26c87a8819",
     "title": "WhatsApp Bulk Action"
+  },
+  "docs/Reselling-Products/WhatsApp/WhatsApp Business Display Name Guidelines.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000002287-whatsapp-business-display-name-guidelines",
+    "hash": "73f77727ca86f729",
+    "title": "WhatsApp Business Display Name Guidelines"
   },
   "docs/Reselling-Products/WhatsApp/WhatsApp Media Templates.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000002330-whatsapp-media-templates",
-    "hash": "4d3c19523989cece",
+    "hash": "a5a9a7a0759d6809",
     "title": "WhatsApp Media Templates"
   },
   "docs/Reselling-Products/WhatsApp/WhatsApp Business Profile Management.md": {
@@ -7616,38 +7636,33 @@
   },
   "docs/Reselling-Products/WhatsApp/WhatsApp Delivery Status under Workflows.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000002491-whatsapp-delivery-status-under-workflows",
-    "hash": "da2a07292f809da0",
+    "hash": "7f1b7ecff7f4a4bb",
     "title": "WhatsApp Delivery Status under Workflows"
   },
-  "docs/Reselling-Products/WhatsApp/About your WhatsApp Business phone number's quality rating.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000002659-about-your-whatsapp-business-phone-number-s-quality-rating",
-    "hash": "bbc955c2422cfdfc",
-    "title": "About your WhatsApp Business phone number's quality rating"
+  "docs/Reselling-Products/WhatsApp/WhatsApp Quality Rating, Status Changes, and Messaging Limits.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000002659-whatsapp-quality-rating-status-changes-and-messaging-limits",
+    "hash": "1d314fd2a854aeb4",
+    "title": "WhatsApp Quality Rating, Status Changes, and Messaging Limits"
   },
   "docs/Reselling-Products/WhatsApp/WhatsApp FAQs.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000002698-whatsapp-faqs",
-    "hash": "83497a99a6b53d31",
+    "hash": "d5198549195a38d4",
     "title": "WhatsApp FAQs"
   },
   "docs/Reselling-Products/WhatsApp/Marketing Opt-out Button to Your Message Template.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000002715-marketing-opt-out-button-to-your-message-template",
-    "hash": "cf017ee36a658d5d",
+    "hash": "d2b095ddd0b8fe08",
     "title": "Marketing Opt-out Button to Your Message Template"
   },
-  "docs/Reselling-Products/WhatsApp/How to Use the WhatsApp Media Templates.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000002828-how-to-use-the-whatsapp-media-templates",
-    "hash": "92e2c1fe22531125",
-    "title": "How to Use the WhatsApp Media Templates"
+  "docs/Reselling-Products/WhatsApp/WhatsApp Media Templates Now Available on Mobile Apps.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000002828-whatsapp-media-templates-now-available-on-mobile-apps",
+    "hash": "d46edf38f8397077",
+    "title": "WhatsApp Media Templates Now Available on Mobile Apps"
   },
   "docs/Reselling-Products/WhatsApp/WhatsApp Voice Note.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000003047-whatsapp-voice-note",
-    "hash": "832f610059de4890",
+    "hash": "1884c0b580c88220",
     "title": "WhatsApp Voice Note"
-  },
-  "docs/Reselling-Products/WhatsApp/WhatsApp Send Message Templates (Snippets).md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000003069-whatsapp-send-message-templates-snippets-",
-    "hash": "53aa9080470acbf0",
-    "title": "WhatsApp: Send Message Templates (Snippets)"
   },
   "docs/Reselling-Products/Client-Portal-Branded-Mobile-APP/Client Portal Branded Mobile APP -Full Setup Guide For Agency.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000002617-client-portal-branded-mobile-app-full-setup-guide-for-agency",
@@ -7999,6 +8014,11 @@
     "hash": "7235d2368911bc6c",
     "title": "Courses: In-App Notifications for Comment, Unlocked & Drip Content"
   },
+  "docs/Memberships-&-Communities/Membership-Courses-Sites/Courses Learner Experience Controls and Lesson Auto-Progression.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008170-courses-learner-experience-controls-and-lesson-auto-progression",
+    "hash": "8a6d8cd059665e6a",
+    "title": "Courses: Learner Experience Controls and Lesson Auto-Progression"
+  },
   "docs/Memberships-&-Communities/Membership-Courses-Sites/Courses Pick a Video Frame as Lesson Thumbnail.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000002750-courses-pick-a-video-frame-as-lesson-thumbnail",
     "hash": "383467a0d69a9fb7",
@@ -8058,11 +8078,6 @@
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001220388-how-to-manage-comments-in-memberships",
     "hash": "426f9e558e0c04aa",
     "title": "How to Manage Comments In Memberships"
-  },
-  "docs/Memberships-&-Communities/Membership-Courses-Sites/How to Set Up Taxes for Course Offers in HighLevel.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007801-how-to-set-up-taxes-for-course-offers-in-highlevel",
-    "hash": "d0e528661e7773e2",
-    "title": "How to Set Up Taxes for Course Offers in HighLevel"
   },
   "docs/Memberships-&-Communities/Communities/How to Setup, Customize, and Manage Your Communities.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000000280-how-to-setup-customize-and-manage-your-communities",
@@ -8166,7 +8181,7 @@
   },
   "docs/Internationalization/The-Internationalization-of-High-Level/The Internationalization Of HighLevel Has Begun!.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000000566-the-internationalization-of-highlevel-has-begun-",
-    "hash": "1186e0aec45d5002",
+    "hash": "421bea527bceccb8",
     "title": "The Internationalization Of HighLevel Has Begun!"
   },
   "docs/Internationalization/The-Internationalization-of-High-Level/How to Submit In-App Translation Feedback.md": {
@@ -8396,7 +8411,7 @@
   },
   "docs/E-commerce-store/E-Commerce-Store/How to Set Up an E-Commerce Online Store (Websites).md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000001157-how-to-set-up-an-e-commerce-online-store-websites-",
-    "hash": "80a38e926f093921",
+    "hash": "44024d39916c6c79",
     "title": "How to Set Up an E-Commerce Online Store (Websites)"
   },
   "docs/E-commerce-store/E-Commerce-Store/Manual Payment Method in E-commerce Stores & Order Forms.md": {
@@ -8941,7 +8956,7 @@
   },
   "docs/Integrations/Facebook-Integration/How to set up a Funnel Event Pixel for Facebook Conversion API.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001236281-how-to-set-up-a-funnel-event-pixel-for-facebook-conversion-api-",
-    "hash": "762fda8461d341ac",
+    "hash": "c1e040f191917805",
     "title": "How to set up a Funnel Event Pixel for Facebook Conversion API?"
   },
   "docs/Integrations/Facebook-Integration/Instagram Direct Messages (DMs).md": {

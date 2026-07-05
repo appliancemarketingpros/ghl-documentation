@@ -11,6 +11,7 @@
 - [Courses Email Notification Preferences and Video Thumbnail Enhancements](Courses Email Notification Preferences and Video Thumbnail Enhancements.md)
 - [Courses Mobile- How to Navigate the New Lessons & Courses UI](Courses Mobile- How to Navigate the New Lessons & Courses UI.md)
 - [Courses: In-App Notifications for Comment, Unlocked & Drip Content](Courses In-App Notifications for Comment, Unlocked & Drip Content.md)
+- [Courses: Learner Experience Controls and Lesson Auto-Progression](Courses Learner Experience Controls and Lesson Auto-Progression.md)
 - [Courses: Pick a Video Frame as Lesson Thumbnail](Courses Pick a Video Frame as Lesson Thumbnail.md)
 - [Custom Values For Courses](Custom Values For Courses.md)
 - [Embed Media from Third-Party Platforms in Posts](Embed Media from Third-Party Platforms in Posts.md)
@@ -23,4 +24,3 @@
 - [How to Create Assessments/ Quizzes for Membership Courses](How to Create Assessments Quizzes for Membership Courses.md)
 - [How to Grant Access to Membership Courses Using Workflows](How to Grant Access to Membership Courses Using Workflows.md)
 - [How to Manage Comments In Memberships](How to Manage Comments In Memberships.md)
-- [How to Set Up Taxes for Course Offers in HighLevel](How to Set Up Taxes for Course Offers in HighLevel.md)

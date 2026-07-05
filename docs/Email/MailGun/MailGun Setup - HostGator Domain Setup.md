@@ -6,456 +6,291 @@
 
 ---
 
-**TABLE OF CONTENTS**
+Email Infrastructure
 
-  * Step-by-step Mailgun Setup - HostGator Domain Setup
-    * To add the 1st TXT record
-    * To add the 2nd TXT record
-    * To add the 1st MX records
-    * To add the 2nd MX records
-    * To add the CNAME record
+Mailgun + HostGator Domain Setup
 
+Step-by-step DNS configuration for connecting Mailgun to a domain hosted with HostGator's cPanel.
 
-# Step-by-step Mailgun Setup - HostGator Domain Setup
+What You'll Learn
 
-  
-
-
-1\. Sign up for [Mailgun.com](<https://signup.mailgun.com/new/signup>)
-
-  
-
-
-2\. Check your email inbox to verify the email address
-
-  
-
-
-[![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284378416/original/VewuZVN3oFOFIvBdf4XqMAOX4vtVGv_jNg.png?1677630998)](<https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48243535009/original/7tQRdPUgguqaYEpnIV2uS3kIQpMd7jZBZw.png?1659724083>)
-
-[![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284378421/original/GU6IL6Y3N81qm6KMH9aTz7l5FV5IEv7ySA.png?1677630999)](<https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48243535045/original/kRGmwZtbq3-zkULjp6-Pg0J-7sTNMNHymQ.png?1659724108>)
-
-  
-
-
-3\. Login to Mailgun, Click on **Sending** > **Add New Domain**
-
-  
-
-
-[![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284378418/original/kxsnymCeuFAsBWkXaOes6QaaWED2_bfASA.png?1677630999)](<https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48243535197/original/doBfy9jAqoxcOqD5LiuyQO9rnyVWfkkAeg.png?1659724186>)
-
-  
-
-
-  
-
-
-4\. If your domain is companyname.com, you can either set up the main domain or subdomain with Mailgun. 
-
-  
-
-
-A. Main domain:
-
-  * If you are adding the main domain,[ it should not be used with Gsuite, or any other email provider](<https://help.mailgun.com/hc/en-us/articles/203357040-Can-I-Use-the-Same-Domain-Name-for-Mailgun-and-for-Google-Apps-Or-Another-Email-Server->)
-
-
-Subdomain:
-
-  * To set up the subdomain with Mailgun, you can type **ANYTHING_HERE**.companyname.com
-    * Examples:
-      * mg.companyname.com
-      * replies.companyname.com
-      * support.companyname.com
-
-
-B. Please set up the domain or subdomain under US, **not EU. not EU. not EU.**
-
-C. Click on **Add domain**
-
-  
-
-
-[![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284382652/original/woVjMqNw3YY_Zjs20LoBHUb4KrThVvj_Rw.png?1677635102)](<https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48243536037/original/B5DZocdO2h64MlEDtfuFjER-U_0AO_NOEg.png?1659724559>)
-
-  
-
-
-The next screen that you're taken to will ask you to add DNS records to your domain. Leave this screen open for the next step.
-
-  
-
-
-![Screen Shot 2022-09-11 at 6.39.22 PM.png](https://help.mailgun.com/hc/article_attachments/8759612958491/Screen_Shot_2022-09-11_at_6.39.22_PM.png)
-
-  
-
-
-5\. Now log in to your DNS records based on where you get the domain and add the 5 DNS records.
-
-##   
-
-
-## To add the 1st TXT record
-
-  1. Log in to [cPanel](<https://portal.hostgator.com/hosting/cPanel/sso-redirect?redirect=/frontend/paper_lantern/>).
-  2. Look for the **Domains** section, then click **Zone Editor**.
-
-![cPanel - Zone Editor](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284388376/original/0ObShEaAQ6GXG-G-sSlIwX_9uLXpFUjdCA.png?1677640303)
-
-  3. On the next page, Locate your domain in the **Zone Editor** section, then click its **Manage** button.![Zone Editor - Manage](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284388585/original/ZsKY3OvmFHtUBZWXElGKPG31Nl51EuXcFA.png?1677640464)
-  4. Click **Manage** to view the domain's complete set of DNS records.
-  5. Click the **+Add Record** button and select **Add "TXT" Record**
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284388748/original/NLKDFwtDUhzgL1MKCSJEt-0sZ8a-ZR0JaA.png?1677640597)
-
-  
-
-
-  
-
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284389218/original/uUNVP51P30hs2i_U9O701kVRlGP55HpdDw.png?1677641077)
-
-  
-
-
-  
-
-
-A. Name: Different for everyone, **DO NOT INCLUDE THE ROOT DOMAIN**
-
-  
-
-
-  * Depending on the subdomain you are trying to set up, if you are trying to set up
-    * [mg.companyname.com](<//mg.companyname.com>) The host name will be **mg**
-    * [replies.companyname.com](<//replies.companyname.com>) The host name will be **replies**
-  * If you are setting up a **main** domain like companyname.com, the host name will be **@**
-
-
-  
-
-
-B. Record: Same for everyone
-
-  * paste the following record **v=spf1 include:mailgun.org ~all**
-
-
-  
-
-
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284389338/original/L_D8amxfS4rLqz8NkwMDjBWCqAuPnFqSiw.png?1677641215)**  
-  
-
-
-C. Click on**Add Record**
+This guide walks through signing up for Mailgun, adding your domain, and configuring the five DNS records Mailgun requires — two TXT records, two MX records, and one CNAME — inside HostGator's cPanel Zone Editor.
 
-**  
-**
+It also covers how to avoid breaking your existing Google Workspace/Gmail mail delivery while adding Mailgun's records.
 
-  
-
-
-  
-
-
-  
-
-
-  
-
-
-## To add the 2nd TXT record
-
-  
-
-
-Click the **+Add Record button** and select **Add "TXT" Record** again
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284388748/original/NLKDFwtDUhzgL1MKCSJEt-0sZ8a-ZR0JaA.png?1677640597)
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284389413/original/bZ319PXDv8_TwakgxeWsjd6r5-6KFjcfAA.png?1677641278)
-
-  
-
-
-  
-
-
-A. Name: it's a bit tricky but the key here is to copy everything from the beginning until the subdomain part, **DO NOT INCLUDE THE ROOT DOMAIN**
-
-  
-
-
-****Everyone's 2nd TXT record Host Name and record is different**
-
-  
-
-
-Examples: **copy the highlighted part ONLY**
-
-Example 1 using subdomain:  
-Copy mx._domainkey.helpdesk as the host name| ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284380215/original/t6MGY8Bw9AK1Vv01kUxtJAkNwp_4UfYjHw.png?1677632945)  
----|---  
-Example 2 using main domain:  
-Copy mailo._domainkey as the host name| ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284380223/original/JSERXQQhYNvzVp7YoXhIji_yeomZNLXUKA.png?1677632951)  
-  
-  
-
-
-  
-
-
-B. Record: different for everyone
-
-Head back to Mailgun and Copy the 2nd TXT record here **highlighted in the screenshot below**
-
-  * Record: paste the 2nd very long copied TXT record here
+Table of Contents
 
+1
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284385043/original/UvAhE3LGN5sYkTb4kyEsXNM0GE0Uc8Eq1Q.png?1677637220)
+Sign up for Mailgun & add your domain
 
-  
-
-
-C. Click on **Add Record**
-
-**  
-**
-
-  
+2
 
+Access DNS records in cPanel
 
-## To add the 1st MX records
+3
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284385538/original/qHcrrZPnp3g0LC4c75qM1hg_opwYUXgE0w.png?1677637720)  
+Add the 1st TXT record (SPF)
 
+4
 
-  
-
-
-Click the **+Add Record button** and select **Add "MX" Record**
+Add the 2nd TXT record (DKIM)
 
-  
+5
 
+Add the 1st MX record
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284389907/original/18xrjivpU7RYPDJqHY2wnce79K3AkwJe0A.png?1677641569)
+6
 
-  
+Add the 2nd MX record
 
+7
 
-  
+Add the CNAME record
 
+8
 
-If you have a Gsuite account to capture incoming emails for the main domain. Make sure you are using a subdomain for Mailgun. Check out [Can I Use the Same Domain Name for Mailgun and for Google Apps (Or Another Email Server)?](<https://help.mailgun.com/hc/en-us/articles/203357040-Can-I-Use-the-Same-Domain-Name-for-Mailgun-and-for-Google-Apps-Or-Another-Email-Server->)
+Verify DNS & finish setup
 
-  
+9
 
+Frequently Asked Questions
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284390505/original/nO1ZhMzBXp4ZqlhfzX1QYLxgGT0_ET-_vg.png?1677642035)
+1
 
-  
+## Sign up for Mailgun & add your domain
 
+Step 1
 
-A. Name: Different for everyone
+Sign up at [Mailgun.com](<https://signup.mailgun.com/new/signup>), then check your inbox to verify your email address.
 
-  
+![Mailgun signup confirmation screen](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284378416/original/VewuZVN3oFOFIvBdf4XqMAOX4vtVGv_jNg.png?1677630998)
 
+![Mailgun email verification confirmation](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284378421/original/GU6IL6Y3N81qm6KMH9aTz7l5FV5IEv7ySA.png?1677630999)
 
-Depending on the subdomain you are trying to set up, if you are trying to set up
+Step 2
 
-[mg.companyname.com](<//mg.companyname.com>) The host name will be **mg**
+Log in to Mailgun, then click **Sending → Add New Domain**.
 
-[replies.companyname.com](<//replies.companyname.com>) The host name will be **replies**
+![Sending menu with Add New Domain option in Mailgun](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284378418/original/kxsnymCeuFAsBWkXaOes6QaaWED2_bfASA.png?1677630999)
 
-If you are setting up a **main** domain like companyname.com, the host name will be **@**
+Step 3
 
-  
+If your domain is **companyname.com** , decide whether to set up the main domain or a subdomain with Mailgun.
 
+  * **Main domain:** if you use the main domain, it should not also be used with Google Workspace or any other email provider — see [Mailgun's guidance](<https://help.mailgun.com/hc/en-us/articles/203357040-Can-I-Use-the-Same-Domain-Name-for-Mailgun-and-for-Google-Apps-Or-Another-Email-Server->) on sharing a domain with another email server.
+  * **Subdomain:** type **ANYTHING_HERE**.companyname.com — for example mg.companyname.com, replies.companyname.com, or support.companyname.com.
 
-B. Priority is **10** which is also same for everyone no matter what domain you are trying to set
 
-  
+Important
 
+Set up the domain or subdomain under the **US** region — not EU.
 
-C. Destination: Same for everyone
+Click **Add domain**.
 
-paste the following data **mxa.mailgun.org******
+![Adding a domain in Mailgun](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284382652/original/woVjMqNw3YY_Zjs20LoBHUb4KrThVvj_Rw.png?1677635102)
 
-  
+Tip
 
+The next screen asks you to add DNS records to your domain. Leave this screen open — you'll need it for the next step.
 
-E. Click on **Save Record**
+![Mailgun DNS records screen to keep open for the next step](https://help.mailgun.com/hc/article_attachments/8759612958491/Screen_Shot_2022-09-11_at_6.39.22_PM.png)
 
-  
+2
 
+## Access DNS records in cPanel
 
-  
+Now log in to your DNS records and add the 5 DNS records Mailgun requires. This guide uses HostGator's cPanel as the example.
 
+Step 1
 
-  
+Log in to [cPanel](<https://portal.hostgator.com/hosting/cPanel/sso-redirect?redirect=/frontend/paper_lantern/>).
 
+Step 2
 
-## To add the 2nd MX records
+Look for the **Domains** section, then click **Zone Editor**.
 
-  
+![cPanel Zone Editor location](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284388376/original/0ObShEaAQ6GXG-G-sSlIwX_9uLXpFUjdCA.png?1677640303)
 
+Step 3
 
-Click the **+Add Record button** and select **Add "MX" Record**
+Locate your domain in the Zone Editor section, then click its **Manage** button to view the domain's complete set of DNS records.
 
-This time we need to add another record for mx**B**.mailgun.org
+![Manage button next to a domain in cPanel Zone Editor](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284388585/original/ZsKY3OvmFHtUBZWXElGKPG31Nl51EuXcFA.png?1677640464)
 
-  
+Step 4
 
+Click the **+Add Record** button and select **Add "TXT" Record**.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284389907/original/18xrjivpU7RYPDJqHY2wnce79K3AkwJe0A.png?1677641569)
+![Add TXT Record option in cPanel Zone Editor](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284388748/original/NLKDFwtDUhzgL1MKCSJEt-0sZ8a-ZR0JaA.png?1677640597)
 
-  
+3
 
+## Add the 1st TXT record (SPF)
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284390505/original/nO1ZhMzBXp4ZqlhfzX1QYLxgGT0_ET-_vg.png?1677642035)
+![TXT record entry form in cPanel Zone Editor](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284389218/original/uUNVP51P30hs2i_U9O701kVRlGP55HpdDw.png?1677641077)
 
-A. Name: Different for everyone
+Fields
 
-  
+**A. Name:** different for everyone — **do not include the root domain.**
 
+  * mg.companyname.com → host name is **mg**
+  * replies.companyname.com → host name is **replies**
+  * Main domain (companyname.com) → host name is **@**
 
-Depending on the subdomain you are trying to set up, if you are trying to set up
 
-[mg.companyname.com](<//mg.companyname.com>) The host name will be **mg**
+**B. Record:** the same for everyone — paste v=spf1 include:mailgun.org ~all.
 
-[replies.companyname.com](<//replies.companyname.com>) The host name will be **replies**
+![Mailgun screen showing the SPF TXT record to copy](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284389338/original/L_D8amxfS4rLqz8NkwMDjBWCqAuPnFqSiw.png?1677641215)
 
-If you are setting up a **main** domain like companyname.com, the host name will be **@**
+**C.** Click **Add Record**.
 
-  
+4
 
+## Add the 2nd TXT record (DKIM)
 
-B. Priority is **10** which is also same for everyone no matter what domain you are trying to set
+Click the **+Add Record** button and select **Add "TXT" Record** again.
 
-  
+![Add TXT Record option in cPanel Zone Editor for the second record](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284388748/original/NLKDFwtDUhzgL1MKCSJEt-0sZ8a-ZR0JaA.png?1677640597)
 
+![TXT record entry form for the DKIM record](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284389413/original/bZ319PXDv8_TwakgxeWsjd6r5-6KFjcfAA.png?1677641278)
 
-C. Destination: Same for everyone
+Fields
 
-paste the following data **mxb.mailgun.org **
+**A. Name:** this part is a little tricky. Copy everything from the beginning of the value up until the subdomain part — **do not include the root domain.** Everyone's 2nd TXT record name and record value are different.
 
+Example| Host name to copy| Highlighted part  
+---|---|---  
+Using a subdomain| mx._domainkey.helpdesk| ![Example of the host value to copy when using a subdomain](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284380215/original/t6MGY8Bw9AK1Vv01kUxtJAkNwp_4UfYjHw.png?1677632945)  
+Using the main domain| mailo._domainkey| ![Example of the host value to copy when using the main domain](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284380223/original/JSERXQQhYNvzVp7YoXhIji_yeomZNLXUKA.png?1677632951)  
   
+**B. Record:** different for everyone. Head back to Mailgun and copy the 2nd, much longer TXT record — highlighted in the screenshot below — and paste it here.
 
+![Mailgun screen highlighting the long DKIM TXT record to copy](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284385043/original/UvAhE3LGN5sYkTb4kyEsXNM0GE0Uc8Eq1Q.png?1677637220)
 
-E. Click on **Save Record**
+**C.** Click **Add Record**.
 
-  
+5
 
-
-  
+## Add the 1st MX record
 
+![MX records section in cPanel Zone Editor](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284385538/original/qHcrrZPnp3g0LC4c75qM1hg_opwYUXgE0w.png?1677637720)
 
-  
+Click the **+Add Record** button and select **Add "MX" Record**.
 
+![Add MX Record form in cPanel Zone Editor](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284389907/original/18xrjivpU7RYPDJqHY2wnce79K3AkwJe0A.png?1677641569)
 
-  
+Heads Up
 
+If you have a Google Workspace account capturing incoming email for your main domain, make sure you're using a subdomain for Mailgun instead. See [Can I Use the Same Domain Name for Mailgun and for Google Apps (Or Another Email Server)?](<https://help.mailgun.com/hc/en-us/articles/203357040-Can-I-Use-the-Same-Domain-Name-for-Mailgun-and-for-Google-Apps-Or-Another-Email-Server->)
 
-## To add the CNAME record
+![MX record fields highlighted in cPanel](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284390505/original/nO1ZhMzBXp4ZqlhfzX1QYLxgGT0_ET-_vg.png?1677642035)
 
-  
+Fields
 
+**A. Name:** different for everyone —
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284385721/original/3LyKoigujZ-vEjMFQDflCfmRRfAJra3rYA.png?1677637907)
+  * mg.companyname.com → host name is **mg**
+  * replies.companyname.com → host name is **replies**
+  * Main domain → host name is **@**
 
-Click the **+Add Record button** and select **Add "CNAME" Record**
 
-  
+**B. Priority:** 10 — the same for everyone, no matter what domain you're setting up.
 
+**C. Destination:** the same for everyone — paste mxa.mailgun.org.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284390884/original/13yHoywGcgf3oSslLKzD03Sj9MAxoJQGfA.png?1677642360)
+Click **Save Record**.
 
-  
+6
 
+## Add the 2nd MX record
 
-  
+Click the **+Add Record** button and select **Add "MX" Record** again. This time we'll add a second record pointing to mxb.mailgun.org.
 
+![Add second MX Record form in cPanel Zone Editor](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284389907/original/18xrjivpU7RYPDJqHY2wnce79K3AkwJe0A.png?1677641569)
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284391213/original/QLb8ArxkgSrQsXJzo63PddCcQRhylQBGHw.png?1677642643)
+![Second MX record fields highlighted in cPanel](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284390505/original/nO1ZhMzBXp4ZqlhfzX1QYLxgGT0_ET-_vg.png?1677642035)
 
-  
+Fields
 
+**A. Name:** different for everyone —
 
-A. Name: Different for everyone
+  * mg.companyname.com → host name is **mg**
+  * replies.companyname.com → host name is **replies**
+  * Main domain → host name is **@**
 
-Head back to Mailgun to copy the host name, it's a bit tricky but the key here is to copy everything from the beginning until the subdomain part, **DO NOT copy the main domain**
 
-  
+**B. Priority:** 10 — the same for everyone.
 
+**C. Destination:** the same for everyone — paste mxb.mailgun.org.
 
-Depending on the subdomain you are trying to set up, if you are trying to set up
+Click **Save Record**.
 
-  * mg.companyname.com The host name will be **email****.****mg**
-  * replies.companyname.com The host name will be **email****.****replies**
+7
 
+## Add the CNAME record
 
-If you are setting up a **main** domain like companyname.com, the host name will be **email**
+![CNAME section in cPanel Zone Editor](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284385721/original/3LyKoigujZ-vEjMFQDflCfmRRfAJra3rYA.png?1677637907)
 
-  
+Click the **+Add Record** button and select **Add "CNAME" Record**.
 
+![Add CNAME Record option in cPanel](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284390884/original/13yHoywGcgf3oSslLKzD03Sj9MAxoJQGfA.png?1677642360)
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284385985/original/OtLw_A4zY8FbLbBKqMB9kUKRaQJO3xpp8A.png?1677638165)
+![CNAME record entry form in cPanel](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284391213/original/QLb8ArxkgSrQsXJzo63PddCcQRhylQBGHw.png?1677642643)
 
-  
+Fields
 
+**A. Name:** different for everyone. Head back to Mailgun to copy the host name — copy everything from the beginning up until the subdomain part, **do not copy the main domain**.
 
-B. Record: Same for everyone
+  * mg.companyname.com → host name is **email.mg**
+  * replies.companyname.com → host name is **email.replies**
+  * Main domain (companyname.com) → host name is **email**
 
-paste the following data **mailgun.org**
 
-  
+![Mailgun CNAME host name to copy](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284385985/original/OtLw_A4zY8FbLbBKqMB9kUKRaQJO3xpp8A.png?1677638165)
 
+**B. Record:** the same for everyone — paste mailgun.org.
 
-C. Click on **Save Record**
+**C.** Click **Save Record**.
 
-  
+8
 
+## Verify DNS & finish setup
 
-  
+Now that you've added all 5 records, go back to Mailgun and click **Verify DNS Settings**. If some records still aren't showing a green checkmark, click the same button again — DNS propagation can take a little time.
 
+![Verify DNS Settings button in Mailgun](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284387965/original/I7T5QQCSjAnBvT1zqQlVgXSuNdgfuNiM3w.png?1677639928)
 
-Now that you have added 5 records, Go back to Mailgun and click on **Verify DNS Settings**
+Next Steps
 
-  
+Once all records are verified, grab your [Mailgun API key and add it to your email service settings](<https://help.gohighlevel.com/en/support/solutions/articles/48000981682>).
 
+Then send a test email to confirm everything works — see [how to send a test email in the Conversation](<https://help.gohighlevel.com/en/support/solutions/articles/48001208887>).
 
-  
+9
 
+## Frequently Asked Questions
 
-Click the same button to **Verify DNS Settings** again if some records are still not showing the green checkmark
+Q: Where do I find the Zone Editor in cPanel?
 
-  
+Log in to cPanel, look for the Domains section, and click Zone Editor. From there, find your domain and click Manage to view and add DNS records.
 
+Q: Should I use my main domain or a subdomain with Mailgun?
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284387965/original/I7T5QQCSjAnBvT1zqQlVgXSuNdgfuNiM3w.png?1677639928)
+If you already use your main domain with Google Workspace or another email provider, use a subdomain (like mg.companyname.com) for Mailgun instead to avoid mail routing conflicts.
 
-  
+Q: What does "do not include the root domain" mean for the Name field?
 
+In cPanel's Zone Editor, the Name field only needs the subdomain portion — the root domain is added automatically. So for mg.companyname.com, you'd enter just "mg", not the full domain.
 
-  
+Q: Will this break my existing Gmail or Google Workspace email?
 
+Not if you use a subdomain for Mailgun rather than your main domain, and leave your existing MX records for Google Workspace untouched on the main domain.
 
-Once you add all the DNS records and verify, you can grab the [Mailgun API Key - Where to Find in Mailgun & Put in HighLevel](<https://help.gohighlevel.com/en/support/solutions/articles/48000981682>)
+Q: How long does it take for DNS records to verify?
 
-  
+DNS propagation is usually fast, but it can occasionally take a few hours. If a record isn't showing green yet, wait a bit and click Verify DNS Settings again.
 
+Q: What do I do after all 5 records show a green checkmark?
 
-Then we could send a test email to see if everything works! Click here to learn [How to send a test email in the Conversation](<https://help.gohighlevel.com/en/support/solutions/articles/48001208887>)
+Grab your Mailgun API key, add it to your email service settings, and send a test email in a conversation to confirm delivery is working.

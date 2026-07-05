@@ -6,145 +6,136 @@
 
 ---
 
-Mailgun is the email delivery service that powers bulk sending in HighLevel. In this article, you’ll learn what Mailgun is, how pricing works, which domains or subdomains to use, and the pros and cons of different setup options so you can choose the best configuration for your agency and clients.
+EMAIL INFRASTRUCTURE
 
-* * *
+Mailgun: What It Is, Pricing, and Domain Setup Options
 
-**TABLE OF CONTENTS**
+Learn what Mailgun is, how pricing works, which domain or subdomain to use, and the pros and cons of each setup option.
 
-  * What is Mailgun?
-  * Key Benefits of Using Mailgun with HighLevel
-  * How Much Will Mailgun Cost?
-  * What Domain Should I Use?
-  * Related Articles
+What You'll Learn
 
+Mailgun is the email delivery service that powers bulk sending on the platform. In this article, you'll learn what Mailgun is, how pricing works, which domains or subdomains to use, and the pros and cons of different setup options so you can choose the best configuration for your agency and clients.
 
-* * *
+Table of Contents
 
-# **What is Mailgun?**
+1
 
-  
+What is Mailgun?
 
+2
 
-Mailgun is a third-party service we use to send emails in bulk. Similar to how we use Twilio to send text messages and calls. For new onboarding agencies, you will be using [LC email](<https://help.gohighlevel.com/en/support/solutions/articles/48001220605>) by default, which is living under our Mailgun account.
+Key Benefits of Using Mailgun
 
-  
+3
 
-    
-    
-    **Note:** For complete step-by-step instructions on how to setup Mailgun in HighLevel, see this [article](<https://help.gohighlevel.com/en/support/solutions/articles/48001219824>).
+How Much Will Mailgun Cost?
 
-* * *
+4
 
-## **Key Benefits of Using Mailgun with HighLevel**
+What Domain Should I Use?
 
-  
+5
 
+Frequently Asked Questions
 
-  * **Reliable bulk email sending** \- Send large volumes of emails through a dedicated, reputable email infrastructure.  
-  
+6
 
+Related Articles
 
-  * **Branded sending domains** \- Use your own domain or subdomains so emails look professional and on-brand.  
-  
+1
 
+## What is Mailgun?
 
-  * **Flexible setup options** \- Choose between one shared subdomain or multiple client-specific subdomains based on your needs.  
-  
+Mailgun is a third-party service used to send emails in bulk — similar to how Twilio is used to send text messages and calls. For new onboarding agencies, you'll be using [LC Email](<https://help.gohighlevel.com/en/support/solutions/articles/48001220605>) by default.
 
+Tip
 
-  * **Better deliverability control** \- Optimize DNS and MX records to improve inbox placement and reduce issues from poor-quality lists.
+Not sure if you need Mailgun at all? Read [What is LC Email?](<https://help.gohighlevel.com/en/support/solutions/articles/48001220605>) first — most new agencies won't need to set up Mailgun separately.
 
+2
 
-* * *
+## Key Benefits of Using Mailgun
 
-## **How Much Will Mailgun Cost?**
-
-  
-
-    
-    
-    **Note:** Learn more about Mailgun [pricing](<https://www.mailgun.com/pricing/>) here.
-
-  
+  * **Reliable bulk email sending** — send large volumes of emails through a dedicated, reputable email infrastructure.
+  * **Branded sending domains** — use your own domain or subdomains so emails look professional and on-brand.
+  * **Flexible setup options** — choose between one shared subdomain or multiple client-specific subdomains based on your needs.
+  * **Better deliverability control** — optimize DNS and MX records to improve inbox placement and reduce issues from poor-quality lists.
 
 
-  * Mailgun's **Basic plan** starts at **$15/Month**.  
-  
+3
 
-  * Mailgun's **Foundation plan** starts at **$35/Month**.  
-  
+## How Much Will Mailgun Cost?
 
-  * Mailgun's **Scale plan** starts at **$90/Month**.
+Note
 
+Learn more about Mailgun [pricing](<https://www.mailgun.com/pricing/>) directly on their site — plans and rates can change at any time.
 
-* * *
-
-## **What Domain Should I Use?**
-
-  
+  * Mailgun's **Basic plan** starts at **$15/month**.
+  * Mailgun's **Foundation plan** starts at **$35/month**.
+  * Mailgun's **Scale plan** starts at **$90/month**.
 
 
-We recommend using a subdomain with Mailgun, like "mg.mydomain.com". Using a subdomain you will be able to send emails from your root domain e.g. "you@mydomain.com".
+4
 
-  
+## What Domain Should I Use?
 
+We recommend using a subdomain with Mailgun, like **mg.mydomain.com**. Using a subdomain, you'll still be able to send emails from your root domain, e.g. **you@mydomain.com**.
 
-If using a subdomain please make sure that you configure MX records for the subdomain for optimal delivery. This is configured within your Mailgun account. 
+Heads Up
 
-  
+If you use a subdomain, make sure you configure MX records for it for optimal delivery. This is configured within your Mailgun account.
 
+Important
 
-Note: You can only add domains you own. You will need to update the domain's DNS records to verify that you are an authorized owner or sender for this domain.
+You can only add domains you own. You'll need to update the domain's DNS records to verify that you're an authorized owner or sender for that domain.
 
-  
+There are two different ways to set up Mailgun:
 
+Option 1
 
-There are two different ways to set up Mailgun with HighLevel:
+One Sub-domain
 
-  
+Set up one sub-domain in Mailgun for your agency domain and use that same sub-domain for email sending across all of your client accounts.
 
+Option 2
 
-Sub-domains  
-| Pros:| Cons:  
+Multiple Sub-domains
+
+Set up a subdomain in Mailgun for each of your clients' domains and use that subdomain for sending on their specific account. You can also set up a unique domain/subdomain per location to capture cold inbound emails — [learn more about Cold Email Inbound Setup here](<https://help.gohighlevel.com/support/solutions/articles/48001185801-cold-email-inbound-setup>).
+
+Setup Option| Pros| Cons  
 ---|---|---  
-**1\. One Sub-domain**  
-You can set up one sub-domain in Mailgun for your marketing agency domain and use that same sub-domain for email sending across all of your client accounts in HighLevel  
-| 
-
-  * Easy setup - only need to set up one subdomain for your domain which you already have access to
-  * Emails are white-labeled to your marketing agency domain or you can buy a generic domain so it will not show any agency branding
-
+One Sub-domain| Easy setup — only one subdomain to configure for a domain you already control. Emails are white-labeled to your agency domain, or you can use a generic domain to avoid showing any agency branding.| If your domain gets disabled (a bad score due to bounce rates) email stops working for all of your clients, since every account is powered by the same domain. The fix: don't send spammy emails to poor-quality lists.  
+Multiple Sub-domains| Emails are white-labeled per client domain. If a client's domain gets disabled, email only goes down for that one client account.| Difficult setup — time-consuming to configure a subdomain for every client and get access to each of their domains.  
   
-| If your domain gets disabled (gets a bad score due to bounce rates) email will stop working for all of your clients since all of their accounts are powered by the same domain.  
-The solution: don't send spammy emails to poor email addresses :-)  
-  
-**2\. Multiple Sub-domains**  
-  
-You can set up a subdomain in Mailgun for each of your client's domains and use that subdomain for sending for their specific HighLevel account. Once you set up a unique domain/subdomain for each location to capture cold inbound emails. [Learn more about Cold Email Inbound Setup here.](<https://help.gohighlevel.com/support/solutions/articles/48001185801-cold-email-inbound-setup>)  
-| 
+5
 
-  * Emails are white-labelled per the client domain 
-  * If a client's domain gets disabled email only goes down for their client account
+## Frequently Asked Questions
 
-  
-| Difficult setup - time-consuming having to set up a subdomain for all of your clients and getting access to each of their domains  
-  
-  
-* * *
+Q: Do I need Mailgun if I'm already using LC Email?
 
-## **Related Articles**
+No. New onboarding agencies use LC Email by default, which doesn't require a separate Mailgun setup. Mailgun is typically used for agencies who need their own dedicated bulk-sending infrastructure.
 
-  
+Q: Can I switch from one shared subdomain to multiple client subdomains later?
 
+Yes. You can migrate clients to their own dedicated subdomains at any time, though it requires setting up new DNS records and re-verifying each domain.
 
-  * [](<https://help.gohighlevel.com/en/support/solutions/articles/155000002369>)[](<http://Frequently%20Asked%20Questions%20Currently%20no%20frequently%20asked%20questions.%20Submit%20feedback%20on%20this%20article%20to%20help%20is%20add%20questions%20to%20this%20section!%20%20Related%20Articles%20How%20To%20Connect%20Your%20Google%20Calendar>)[Step-by-step guide to set up Mailgun](<https://help.gohighlevel.com/en/support/solutions/articles/48001219824>)  
-  
+Q: What happens if my shared Mailgun domain gets suspended?
 
-  * [Mailgun Setup Checklist](<https://help.gohighlevel.com/en/support/solutions/articles/48001175336>)  
-  
+With a single shared subdomain, a suspension affects every client using that domain. Keeping your list quality high and avoiding spammy sends is the best way to prevent this.
 
-  * [How to setup Replies in MailGun](<https://help.gohighlevel.com/en/support/solutions/articles/48000987293>)  
-  
+Q: Do I need to already own the domain I want to use with Mailgun?
 
-  * [Mailgun: Private API Key Setup](<https://help.gohighlevel.com/en/support/solutions/articles/48000981682>)
+Yes. You can only add domains you own, and you'll need to update the domain's DNS records to verify ownership before you can send from it.
+
+Q: Should I use my root domain or a subdomain?
+
+A subdomain (e.g. mg.mydomain.com) is recommended. It keeps bulk sending separate from your root domain's reputation while still letting you send from an address like you@mydomain.com.
+
+Q: Does Mailgun pricing scale with how many clients I send for?
+
+Mailgun's plans (Basic, Foundation, Scale) are priced by sending volume rather than by number of client domains, so adding more clients on the same plan doesn't automatically increase cost — sending volume does.
+
+Related Articles
+
+[Step-by-step guide to set up Mailgun](<https://help.gohighlevel.com/en/support/solutions/articles/48001219824>) [Mailgun Setup Checklist](<https://help.gohighlevel.com/en/support/solutions/articles/48001175336>) [How to Setup Replies in Mailgun](<https://help.gohighlevel.com/en/support/solutions/articles/48000987293>) [Mailgun: Private API Key Setup](<https://help.gohighlevel.com/en/support/solutions/articles/48000981682>)

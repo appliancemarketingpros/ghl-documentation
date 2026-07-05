@@ -6,7 +6,7 @@
 
 ---
 
-When you save a prospect, Prospecting when done in sub accounts automatically adds it to your CRM as a contact. This article explains what gets created, how the phone numbers, emails, and points of contact we find are organized, and the two settings you can use to control it — contact creation and contact enrichment. Read this if you want to understand why certain contacts appear (or don't) after saving a prospect, or if you want to change how prospects are added to your CRM
+Prospecting when done in sub accounts automatically adds it to your CRM as a contact. This article explains what gets created, how the phone numbers, emails, and points of contact we find are organized, and the two settings you can use to control it — contact creation and contact enrichment. Read this if you want to understand why certain contacts appear (or don't) after saving a prospect, or if you want to change how prospects are added to your CRM
 
   
 
@@ -20,7 +20,7 @@ When you save a prospect, Prospecting when done in sub accounts automatically ad
 
 ## Feature/action 1 - Contact creation
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073320583/original/aSg8LWvTdZhHakIHqE_9KRcrmkG1Ki-gfw.png?1781072824)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074899968/original/Sa4EyCEvo4jYbsUHvEGhjnsIE7XVm46StQ.jpeg?1782883494)
 
   
 
@@ -40,10 +40,15 @@ Any additional phone numbers and emails we find are added to this same business 
   
 
 
-  
+**Note** : **When done in agency level** , contact can't be created rather a prospect is simply saved in the Prospect dashboard(Agency>Prospecting)
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074899958/original/AFy3I4SQvvbTycXVlqIuGtY5fc33aq6VsA.png?1782883475)  
 
 
 ## Feature/action 2 - Contact enrichment
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074900045/original/g3r1i5eSvuMsPZ5-32AUPQGAn9Bnuz_KSg.png?1782883622)  
+
 
 Contact enrichment is a Premium feature and is off by default. Turn it on to find additional contacts beyond the Google Business Profile.
 
@@ -59,6 +64,14 @@ These are found by searching the prospect's website, business listings, and publ
   
 
 
+**Note** : **When done in agency level** , contact for POCs can't be created rather POCs are saved saved inside a prospect in the prospecting dashboard (Agency>Prospecting)
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074900005/original/3T-GWVlom4K6byznFTPg9UcCzm9WnmLT5Q.png?1782883555)  
+
+
+  
+
+
 ## Feature/action 3 - How found details are organized
 
 Prospecting handles two kinds of details differently:
@@ -69,4 +82,21 @@ Prospecting handles two kinds of details differently:
 
 For example, a prospect with enrichment on and POCs set to separate might create 1 business contact plus 2 POC contacts, with any unnamed details kept on the business contact.
 
-#
+**Contact fields mapping**
+
+We automatically map prospect's information to relevant standard fields in the contacts
+
+  1. Phone number: Scrapped from GBP
+  2. Additional phone number: If more than one phone number found from website, listings etc
+  3. Email: Similarly fro emails found 
+  4. Contact source: Prospecting Tool, so you can use tags in workflow for better management
+  5. City
+  6. Country
+  7. State
+  8. Postal code
+  9. Website: Website url of the prospect found from GBP or other listing profiles
+
+
+[](<https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074899469/original/NjTTddV_6wbSE2qrXz6L-O7nIKaTkx-iqg.png?1782882506>)
+
+# ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074900030/original/NZOzyBliMR6zFCChh0kLDHt7GMQEdwvrnA.png?1782883584)

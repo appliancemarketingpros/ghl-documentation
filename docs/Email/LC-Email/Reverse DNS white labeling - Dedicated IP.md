@@ -6,84 +6,168 @@
 
 ---
 
-When recipients open your email, it's generally more advantageous to display your company name instead of "Sent by Mailgun" or another third-party service. By configuring reverse DNS (rDNS), mailbox providers can be directed to present your company name in the "From" or "Sender" field. This approach not only elevates the professionalism of your email communications but also strengthens your brand identity.
+Email Infrastructure
 
-  
+Reverse DNS (rDNS) for Dedicated IPs
 
+Display your company name as the sender instead of a third-party service — improve deliverability, trust, and brand consistency.
 
-Furthermore, featuring your company name in the "From" field rather than a third-party service yields enhanced deliverability and tracking benefits. It fosters trust with recipients, diminishes the chance of your emails being flagged as spam, and assures consistent branding across your email campaigns.
+Overview
 
-  
+When recipients open your email, showing your company name in the "From" or "Sender" field is far more professional — and more trustworthy — than displaying "Sent by Mailgun" or another third-party service. Configuring reverse DNS (rDNS) on your dedicated IP is how you make that happen.
 
+Proper rDNS setup improves deliverability, reduces the chance emails are flagged as spam, and keeps your branding consistent across every campaign you send.
 
-In summary, applying your company name via reverse DNS settings presents a more positive, brand-centric method for email communications, enhancing both deliverability and tracking.
+Table of Contents
 
-* * *
+1
 
-**TABLE OF CONTENTS**
+What is Reverse DNS (rDNS)?
 
-  * What is reverse DNS (rDNS)?
-  * Common rDNS mistakes
-  * How to set up rDNS?
+2
 
+Common rDNS Mistakes
 
-* * *
+3
 
-## **What is reverse DNS (rDNS)?**
+How to Set Up rDNS
 
-Reverse DNS (rDNS) is essentially the reverse of a standard DNS query. Instead of mapping a domain name to an IP address, rDNS translates an IP address to its associated hostname. This process is applicable to both IPv4 and IPv6 addresses and verifies the authenticity of the sending email server.
+4
 
-  
+Frequently Asked Questions
 
+1
 
-In practical applications, rDNS converts the IP address of the sending email server into its corresponding hostname (e.g., example.com). This verification affirms that the IP address relates to a legitimate domain. In email marketing, this allows you to use services like Mailgun to display your company as the sender, rather than "Sent by Mailgun.com".
+## What is Reverse DNS (rDNS)?
 
-  
+Reverse DNS is essentially the opposite of a standard DNS lookup. Rather than mapping a domain name to an IP address, rDNS translates an IP address into its associated hostname. This works for both IPv4 and IPv6 addresses and is used to verify the authenticity of the server sending your email.
 
+In practice, rDNS converts the IP address of your sending mail server into a hostname (e.g., mail.yourcompany.com). Mailbox providers perform this lookup to confirm that the IP belongs to a legitimate domain. In email sending, this allows your company name — not "Sent by Mailgun.com" — to appear as the sender in recipients' inboxes.
 
-To clarify, this is distinct from masking the CNAME of mailgun.org in your DNS settings. Here, we're focusing on rDNS configuration for your dedicated IP used for emailing. Proper rDNS setup improves your email deliverability and branding by ensuring your company name is showcased as the sender in recipients' inboxes.
+Important Distinction
 
-* * *
+rDNS configuration for your dedicated IP is **not** the same as masking the CNAME of mailgun.org in your DNS settings. These are two separate configurations. rDNS specifically controls what hostname appears when a mailbox provider looks up your sending IP address.
 
-## **Common rDNS mistakes**
+The Payoff
 
-Setting rDNS records accurately is vital for email deliverability and upholding a reputable sender status. Some frequent rDNS pitfalls include:
+Correct rDNS setup ensures your company name is shown as the sender, improves inbox placement, and builds recipient trust — all without the recipient ever seeing the underlying delivery infrastructure.
 
-  
+2
 
+## Common rDNS Mistakes
 
-**Incorrect PTR Record:** One common mistake is not having a valid PTR (Pointer) record associated with your IP address. A PTR record is essential for verifying that the sending mail server matches the IP address claimed in the email message. Ensure that your PTR record is set up correctly and returns a hostname for the IP address being queried.
+Accurate rDNS configuration is critical for deliverability and sender reputation. These are the three most common mistakes to avoid:
 
-  
+Mistake 1
 
+Incorrect or Missing PTR Record
 
-**Mismatched Hostname:** The hostname returned by the PTR record should resolve back to the same IP address. This means that the IP address should point to the hostname, and the hostname should point back to the same IP address. If there's a mismatch, it can lead to rDNS lookup failures. For example, if your PTR record is set to return "mail.yourwebsite.com" for IP address 8.8.8.8, it's crucial that when you perform an rDNS lookup for "mail.yourwebsite.com," it resolves to 8.8.8.8.
+A PTR (Pointer) record is required to verify that your sending mail server matches the IP address in the email. Without a valid PTR record, mailbox providers cannot confirm your identity. Ensure your PTR record is correctly configured and returns a valid hostname for the IP being queried.
 
-  
+Mistake 2
 
+Mismatched Hostname (Forward-Confirmed rDNS Failure)
 
-**Hostname Resolution Failure:** In some cases, the hostname specified in the PTR record may not resolve at all. This is a significant problem as it can lead to delivery issues and a lack of trust with email providers. To resolve this issue, ensure that the specified hostname resolves to the correct IP address.
+The hostname returned by your PTR record must resolve back to the same IP address — and vice versa. This bidirectional check is called Forward-Confirmed Reverse DNS (FCrDNS). A mismatch causes lookup failures and reduces trust.
 
-  
+**Example:** If your PTR record returns mail.yourwebsite.com for IP 8.8.8.8, then a forward DNS lookup of mail.yourwebsite.com must also resolve to 8.8.8.8.
 
+Mistake 3
 
-In summary, rDNS is a critical component of email authentication and deliverability. To avoid common rDNS mistakes, make sure your PTR records are set up correctly and that the hostname returned by the PTR record accurately maps to the associated IP address. This alignment helps establish trust with email providers and improves the chances of your emails reaching recipients' inboxes.
+Hostname That Doesn't Resolve
 
-* * *
+If the hostname in your PTR record doesn't resolve to any IP at all, mailbox providers will flag this as a significant trust issue — which can lead to delivery failures. Always verify that your A record is correctly published before submitting the hostname for rDNS.
 
-## **How to set up rDNS?**
+Key Takeaway
 
-It's important to note that setting up reverse DNS (rDNS) with multiple hostnames can only be done when using a dedicated IP. Shared IPs do not support this functionality, as rDNS can resolve to only one hostname per IP address. Utilizing a dedicated IP for this purpose adds a professional touch to your email communications and can positively influence your reputation with inbox providers.
+Your PTR record must point to a valid hostname, and that hostname's A record must resolve back to the same IP. Both directions must be consistent and resolvable.
 
-  
+3
 
+## How to Set Up rDNS
 
-To set up rDNS with multiple hostnames on your dedicated IP, follow the steps below:
+Dedicated IP Required
 
-  * Input the “A record” into your zone file at your hosting provider. An “A record” will look something like this: A, mail.customer.com, 123.45.67.89
+rDNS can only be configured on a **dedicated IP**. Shared IPs do not support this because rDNS resolves to only one hostname per IP address. A dedicated IP is required for this setup.
 
-  * Navigate to agency settings -> email service.
-  * In SMTP service tab, Click on the **Dedicated Domain And IP** in LeadConnector section.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009612052/original/IUIljk9XIJS27U3BT_o4jUzNTpWR7LasGg.png?1696855911)
-  * Go the dedicated IP section and click on the three dots in dedicated IP and click on **Reverse DNS (PTR)**  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009612160/original/cwkp94jqGl-jc1vsViWXa2bvRMaphEwmkw.png?1696855977)
-  * Provide the same A record that you have added in the input, and we’ll update the PTR record on our end to match the hostname you’re using.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009613038/original/Oge0tXLX2gyJh_WWlLh5Xdb0TiEVuC-AJA.png?1696856251)
+Follow these steps to configure rDNS for your dedicated IP:
+
+Step 1
+
+Add an A Record at Your Hosting Provider
+
+Log in to your DNS hosting provider and add an A record pointing your chosen hostname to your dedicated IP address. The record format will look like:
+
+A mail.yourcomain.com 123.45.67.89
+
+Step 2
+
+Navigate to Agency Settings
+
+Go to **Agency Settings → Email Service**.
+
+Step 3
+
+Open Dedicated Domain and IP
+
+In the **SMTP Service** tab, click **Dedicated Domain And IP** in the LeadConnector section.
+
+![SMTP Service tab showing Dedicated Domain And IP button](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009612052/original/IUIljk9XIJS27U3BT_o4jUzNTpWR7LasGg.png?1696855911)
+
+Click Dedicated Domain And IP in the LeadConnector SMTP section
+
+Step 4
+
+Open Reverse DNS (PTR) Settings
+
+In the Dedicated IP section, click the **three-dot menu** next to your dedicated IP and select **Reverse DNS (PTR)**.
+
+![Three-dot menu on dedicated IP showing Reverse DNS \(PTR\) option](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009612160/original/cwkp94jqGl-jc1vsViWXa2bvRMaphEwmkw.png?1696855977)
+
+Select Reverse DNS (PTR) from the three-dot menu on your dedicated IP
+
+Step 5
+
+Enter Your A Record Hostname
+
+Enter the same hostname you used in your A record (e.g., mail.yourcompany.com). The PTR record will be updated on the back end to point to the hostname you provide.
+
+![Reverse DNS \(PTR\) configuration screen with hostname input field](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009613038/original/Oge0tXLX2gyJh_WWlLh5Xdb0TiEVuC-AJA.png?1696856251)
+
+Enter the hostname matching your A record to complete PTR configuration
+
+You're All Set
+
+Once the PTR record is updated, your dedicated IP will resolve to the hostname you configured. Mailbox providers will now display your company name as the sender rather than a third-party service name.
+
+4
+
+## Frequently Asked Questions
+
+Q: Can I set up rDNS on a shared IP?
+
+No. rDNS resolves to only one hostname per IP address, so it is only supported on dedicated IPs. Shared IPs are used by multiple senders and cannot be uniquely assigned to your domain's hostname.
+
+Q: What is a PTR record and why does it matter?
+
+A PTR (Pointer) record maps an IP address back to a hostname. Mailbox providers use it to verify that the server sending email is who it claims to be. Missing or incorrect PTR records are a common cause of email rejection and spam filtering.
+
+Q: Does rDNS replace DKIM or SPF authentication?
+
+No. rDNS, DKIM, and SPF serve different purposes and are all complementary. DKIM signs the email content, SPF authorizes sending IPs, and rDNS verifies the identity of the sending server's IP. For best deliverability, all three should be configured correctly.
+
+Q: How long does it take for rDNS changes to propagate?
+
+PTR record updates on the back end are typically applied quickly, but DNS propagation can take anywhere from a few minutes to 48 hours depending on TTL settings and how frequently resolvers cache records.
+
+Q: How do I verify that my rDNS is set up correctly?
+
+You can verify your rDNS by running a reverse DNS lookup on your dedicated IP using a tool like **MXToolbox** or the command line (nslookup / dig -x). The result should return your configured hostname. Then confirm a forward lookup of that hostname resolves back to your IP.
+
+Q: Will rDNS affect how my emails look to recipients?
+
+Yes. With correct rDNS, your company name or domain appears in the "Sender" or technical headers instead of a third-party service provider's name. This improves perceived legitimacy and brand recognition, particularly in clients that display the sending server details.
+
+Q: Can I use any hostname, or does it need to match my sending domain?
+
+The hostname doesn't have to exactly match your From domain, but it must be a valid, fully resolvable hostname that you own and control. Best practice is to use a subdomain of your primary sending domain (e.g., mail.yourcompany.com) for consistency and trust signals.

@@ -5,7 +5,7 @@
 ## Articles
 
 - [Introduction to Ask AI Assistant](Introduction to Ask AI Assistant.md)
-- [Contact Summary Agent in Ask AI](Contact Summary Agent in Ask AI.md)
+- [How to Generate a Contact's Summary Using Ask AI](How to Generate a Contact's Summary Using Ask AI.md)
 - [Funnel Creation Agent in Ask AI](Funnel Creation Agent in Ask AI.md)
 - [How to Generate and Edit Images Using Ask AI](How to Generate and Edit Images Using Ask AI.md)
 - [Conversational Editing of Content with Ask AI](Conversational Editing of Content with Ask AI.md)
@@ -20,3 +20,4 @@
 - [How to Generate SEO-Friendly Blog Posts Using Ask AI in HighLevel](How to Generate SEO-Friendly Blog Posts Using Ask AI in HighLevel.md)
 - [How to Use Ask AI Voice Mode](How to Use Ask AI Voice Mode.md)
 - [How to Provide Feedback on Ask AI Responses](How to Provide Feedback on Ask AI Responses.md)
+- [How to Use Ask AI to Create and Manage Courses](How to Use Ask AI to Create and Manage Courses.md)

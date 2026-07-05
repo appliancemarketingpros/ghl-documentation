@@ -11,5 +11,6 @@
 - [Workflow Action - AI Summarize](Workflow Action - AI Summarize.md)
 - [Workflow Action - AI Translate](Workflow Action - AI Translate.md)
 - [Workflow Action - AI Agent](Workflow Action - AI Agent.md)
-- [Workflow Action – AI Extract Data](Workflow Action – AI Extract Data.md)
+- [Workflow Action - AI Extract Data](Workflow Action - AI Extract Data.md)
 - [Workflow Action - Update Conversation AI Bot and Status](Workflow Action - Update Conversation AI Bot and Status.md)
+- [How to Parse Emails Using AI Extract Data Action](How to Parse Emails Using AI Extract Data Action.md)

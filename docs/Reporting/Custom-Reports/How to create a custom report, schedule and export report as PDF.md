@@ -1,6 +1,6 @@
-# How to create custom reports and schedule reports
+# How to create a custom report, schedule and export report as PDF
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000003965-how-to-create-custom-reports-and-schedule-reports](https://help.gohighlevel.com/support/solutions/articles/155000003965-how-to-create-custom-reports-and-schedule-reports)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000003965-how-to-create-a-custom-report-schedule-and-export-report-as-pdf](https://help.gohighlevel.com/support/solutions/articles/155000003965-how-to-create-a-custom-report-schedule-and-export-report-as-pdf)  
 **Category:** Reporting  
 **Folder:** Custom Reports
 
@@ -28,7 +28,7 @@ Custom Reports allow you to build and schedule tailored reports, perfect for sha
 
 * * *
 
-### **Step 1: Access Custom Reports:**
+### **Step 1: Access Custom Reports**
 
   * Navigate to the "Reporting" section and click on Custom Reports.
 
@@ -42,7 +42,7 @@ Custom Reports allow you to build and schedule tailored reports, perfect for sha
   
 
 
-### **Step 2: Start from Scratch or Use an Existing Dashboard:**
+### **Step 2: Start from Scratch or Use an Existing Dashboard**
 
   * You can either create a report from scratch or convert an existing dashboard into a report.
 
@@ -52,7 +52,7 @@ Custom Reports allow you to build and schedule tailored reports, perfect for sha
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035055491/original/CN9NPXV5O74IZ5TAKE1b78VreNdJl28gtA.png?1729478560)
 
 
-### **Step 3: Using the Report Builder:**
+### **Step 3: Using the Report Builder**
 
   * If starting from scratch, you'll be taken to the Report Builder.
 
@@ -67,7 +67,7 @@ Custom Reports allow you to build and schedule tailored reports, perfect for sha
   
 
 
-### **Step 4: Customize the Cover Page:**
+### **Step 4: Customize the Cover Page**
 
   * The first page of your report is the cover page, which you can customize or remove through the Page Properties menu on the right.
 
@@ -91,7 +91,7 @@ Custom Reports allow you to build and schedule tailored reports, perfect for sha
   
 
 
-### **Step 5: Adding Widgets,Sections and Themes:**
+### **Step 5: Adding Widgets, Sections and Themes**
 
   * Once your cover page is set, click the + icon on the left to begin adding widgets.  
   
@@ -111,7 +111,7 @@ Custom Reports allow you to build and schedule tailored reports, perfect for sha
   
 
 
-### **Step 6: Managing Pages:**
+### **Step 6: Managing Pages**
 
   * To add a new page, click on the + icon at the top or bottom of an existing page.
 
@@ -134,15 +134,24 @@ Custom Reports allow you to build and schedule tailored reports, perfect for sha
   
 
 
-### **Step 7: Download Your Report:**
+### **Step 7: Download Your Report**
 
   * When you're done, you can download a PDF version of your report by clicking the Download button at the top.
 
 
+    
+    
+    **Note: PDF export and preview link from email behave differently.**
+    - Preview link: Images and iframes are included and visible to recipients.
+    - PDF download: Images and iframes are excluded due to security restrictions.
+    
+    For best results when embedding images, use JPEG or PNG formats — other 
+    formats may not render correctly depending on browser and encoding.****
+
   
 
 
-### **Step 8: Save, Send, or Schedule Your Report:**
+### **Step 8: Save, Send, or Schedule Your Report**
 
   * After creating your report, click on Save and then choose Send or Schedule.
 
@@ -150,7 +159,7 @@ Custom Reports allow you to build and schedule tailored reports, perfect for sha
   
 
 
-### **Step 9: Configure Your Report’s Schedule and Delivery:**
+### **Step 9: Configure Your Report’s Schedule and Delivery**
 
   * Frequency: Set how often the report should be sent (daily, weekly, etc.).  
   
@@ -238,7 +247,7 @@ Note: Widget-level date settings can still differ from the report-level date ran
   
 
 
-### **Step 10: Send a Test Email:**
+### **Step 10: Send a Test Email**
 
   * Before finalizing, you can send a test email to check how your report will appear to recipients.
 
@@ -246,18 +255,23 @@ Note: Widget-level date settings can still differ from the report-level date ran
   
 
 
-### **Step 11: Final Step – Save and Schedule:**
+### **Step 11: Final Step – Save and Schedule**
 
   * Once everything looks good, click Save and Schedule to have your report automatically sent based on your configured schedule.
 
 
-* * *
-    
-    
-    **Important Note:**
-    Images and iframes appear in the report preview that is sent to recipients, but they are not included in the PDF export due to security restrictions.
+  
 
-#   
 
+  
+
+
+  
+
+
+# FAQ
+
+**Q: Can I send scheduled reports to people who don't have a HighLevel account?**  
+Yes. In the Schedule setup, add any valid email address under **Recipients** — they'll receive the report directly in their inbox with no HighLevel login required. Note: Use Custom Reports (not the Dashboard share link) for this; Dashboard links require authentication.
 
 ###

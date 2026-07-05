@@ -13,6 +13,6 @@
 - [Global Settings in Rentals](Global Settings in Rentals.md)
 - [Calendar View for Rentals](Calendar View for Rentals.md)
 - [Rentals Calendars - Overview & How to Get Started](Rentals Calendars - Overview & How to Get Started.md)
-- [How To Enable Rentals in Public Beta](How To Enable Rentals in Public Beta.md)
+- [How To Enable/Disable Rentals For Your Locations](How To EnableDisable Rentals For Your Locations.md)
 - [Taxes for Rentals](Taxes for Rentals.md)
 - [Blocked Slots for Rental Listings](Blocked Slots for Rental Listings.md)

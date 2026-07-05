@@ -6,691 +6,399 @@
 
 ---
 
-**Covered in this article**
+Email Infrastructure
 
-  * Step-by-step LC Email Dedicated Domain Setup - GoDaddy
-    * To add the 1st TXT record
-    * To add the 2nd TXT record
-    * To add the 1st MX records
-    * To add the 2nd MX records
-    * To add the CNAME record
+LC Email Dedicated Domain Setup — GoDaddy
 
+A step-by-step guide to adding and verifying your dedicated sending domain using GoDaddy DNS.
 
-* * *
+What You'll Learn
 
-# **Step-by-step LC Email Dedicated Domain Setup - GoDaddy**
+This article walks you through connecting a dedicated sending domain to LC Email using GoDaddy as your DNS provider. You will add 5 DNS records in total: 2 TXT records, 2 MX records, and 1 CNAME record.
 
-  
-
-
-1\. Once you are in the sub-account > Click on Settings > Email Services > Dedicated Domain > \+ Add Domain
-
-  
-
-
-Check out [How to Migrate My Agency Over to LC - Email](<https://help.gohighlevel.com/en/support/solutions/articles/48001222501>)  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292765242/original/jQLugI8wtvQRfs38XJDujiQd2QnIgjQqSA.gif?1681496688)
-
-  
-
-
-  
-
-
-  
-
-
-2\. If your Domain is companyname.com, you can set up the main Domain or sub-domain with. 
-
-  
-
-
-Check out [How to move a sending domain from Mailgun to LeadConnector?](<https://help.gohighlevel.com/support/solutions/articles/48001226115-how-to-set-up-a-dedicated-sending-domain-lc-email-#How-to-move-sending-domain-from-Mailgun-to-LeadConnector?>)
-
-Main Domain:
-
-  * If you are adding the main Domain,[ it should not be used with Gsuite or any other email provider](<https://help.mailgun.com/hc/en-us/articles/203357040-Can-I-Use-the-Same-Domain-Name-for-Mailgun-and-for-Google-Apps-Or-Another-Email-Server->)
-
-
-  
-Sub-domain:
-
-  * To set up the subdomain, you can type ANYTHING_HERE.companyname.com
-    * Examples:
-      * replies.companyname.com
-      * support.companyname.com
-
-
-  
-
-
-  
-
-
-3\. Click on Add & Verify
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292766472/original/5TxDqQG542C3YtKLt6stGIAfwcbDmmcesg.png?1681497266)
-
-  
-
-
-  
-
-
-The next screen that you're taken to will ask you to add DNS records to your Domain. Leave this screen open for the next step.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48293298198/original/xGMUZ9x0JoahqbofrVsYVWEjEF9LDDvsMQ.png?1681838621)
-
-  
-
-
-4\. Now log in to your DNS records based on where you get the Domain and add the 5 DNS records.
-
-  
-
-
-## To add the 1st TXT record
-
-  
-Sign in to your [GoDaddy Domain Portfolio](<https://dcc.godaddy.com/control/portfolio>) to add your [first TXT record](<https://ca.godaddy.com/help/add-a-txt-record-19232>). 
-
-  
-
-
-Click on the three dots for the Domain Edit Options next to your Domain
-
-  
-
-
-Select **Edit DNS**. You may need to scroll down to see the Edit DNS option.
-
-  
-
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284383735/original/cgJYei63pjBqxqUREcrgnMBHMYjimo-FBA.png?1677636137)
-
-  
-
-
-  
-
-
-  
-  
-Click on Add to add a new record.
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284383808/original/H6np93jJkfJVHPLdTaLTLmRgo2mB_c6JRA.png?1677636223)
-
-  
-
-
-  
-
-
-  
-
-
-  
-
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284384102/original/N9CKo-PVMexPIY_hCkU3qz4FgWu5LCmiKw.png?1677636518)
-
-  
-
-
-  
-
-
-A. Type: Select TXT from the Type menu options.
-
-  
-
-
-B. Host: DO NOT INCLUDE THE ROOT DOMAIN
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292767095/original/U0Uh3wPJ901NXe3E0tAj8DzwIys4kzuXFA.png?1681497560)
-
-  
-
-
-  
-
-
-  * Depending on the subdomain you are trying to set up, if you are trying to set up
-    * **lc**.companyname.com - The host name will be **lc**
-    * [replies.companyname.com](<//replies.companyname.com>) \- The host name will be **replies**
-  * If you are setting up a **main** domain like companyname.com, the hostname will be **@**
-
-
-  
-
-
-  
-
-
-  
-
-
-C. TXT Value: Same for everyone
-
-  * paste the following record **v=spf1 include:mailgun.org ~all**
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292767368/original/n_1Mu3Av0f2EYEvZG9iBeM-knKybDa2RPg.png?1681497695)
-
-  
-
-
-  
-
-
-  
-D. Click on **Save**
-
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292760158/original/whQOMoD2hGeHEbJgNmnIm1fdwCQhF1Mz9g.png?1681494360)**
-
-  
-
-
-  
-
-
-  
-
-
-  
-
-
-  
-
-
-  
-
-
-## **To add the 2nd TXT record**
-
-  
-
-
-Click on **Add** to add a new record.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284383808/original/H6np93jJkfJVHPLdTaLTLmRgo2mB_c6JRA.png?1677636223)
-
-  
-
-
-  
-
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284384815/original/FlVncn3L0vrYLOa9P1vI4X9Pt16_Q-FUOg.png?1677637017)
+Unlike some DNS providers, GoDaddy requires you to save each record individually. Follow the steps in order and click **Save** after each record before adding the next.
 
-  
-
-
-  
-
-
-A. Type:
-
-  
-
-
-Select **TXT** from the Type menu options.
-
-  
-
-
-B. Host:
-
-  
-
-
-It's a bit tricky but the key here is to copy everything from the beginning until the subdomain part, **DO NOT INCLUDE THE ROOT DOMAIN**
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292768165/original/xN_6s9kcDwkztqKLFUlRtJJJlE7M_GD54w.png?1681498178)
-
-  
-
-
-  
-
-
-****Everyone's 2nd TXT record hostname and value is different**
-
-  
-
-
-Examples: **copy the highlighted part ONLY**
-
-Example 1 using subdomain:  
-Copy **mx._domainkey.helpdesk** as the hostname| ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292768867/original/Oy2wnQ4XgDD5YzExKorYuiEBhl-wH7krkg.png?1681498513)  
----|---  
-Example 2 using main Domain:  
-Copy **mailo._domainkey** as the hostname| ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292768954/original/rXlYB3cbDo6Ix-Oq_XBgdnsiwBHDHuTUig.png?1681498537)  
-  
-  
-
-
-  
-
-
-C. TXT Value:
-
-Copy the 2nd TXT record here, **highlighted in the screenshot below**
-
-  
-
-
-  * Value: paste the 2nd very long copied TXT record here
-
-
-  
-
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292768735/original/cUIeRsQGsIF81ZCW8a-cj-v7iGlndoLiKw.png?1681498466)
-
-  
-
-
-  
-
-
-  
-
-
-D. Click on **Save**
-
-  
-
-
-  
-
-
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292760542/original/dHr8OmpttMWN0VMOkXNfAi5G8Ou_hQUiVQ.png?1681494507)**
-
-  
-
-
-  
-
-
-  
-
-
-  
-
-
-  
-
-
-## To add the 1st MX records
-
-  
-
-
-  
-
-
-Click on **Add** to add a new record.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284383808/original/H6np93jJkfJVHPLdTaLTLmRgo2mB_c6JRA.png?1677636223)
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284385352/original/nEr12soR47bfSHjwNBS075J4Dr_Fd3jqUQ.png?1677637478)
-
-  
-
-
-Suppose you have a Gsuite account to capture incoming emails for the main Domain. Make sure you are using a subdomain. Check out primary[Can I Use the Same Domain Name for Mailgun and for Google Apps (Or Another Email Server)?](<https://help.mailgun.com/hc/en-us/articles/203357040-Can-I-Use-the-Same-Domain-Name-for-Mailgun-and-for-Google-Apps-Or-Another-Email-Server->)
-
-  
-
-
-A. Type: Select **MX** from the Type menu options.
-
-  
-
-
-  
-
+Table of Contents
 
-B. Host: Different for everyone
+1
 
-  
+Add Your Domain in Email Services
 
+2
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292769400/original/UKCDaverUyyLQpklJb1Jxf15cmXUamb0VQ.png?1681498752)
+Access GoDaddy DNS
 
-  
+3
 
+Add the 1st TXT Record (SPF)
 
-Depending on the subdomain you are trying to set up, if you are trying to set up
+4
 
-  * **lc**.companyname.com - The host name will be **lc**
-  * [replies.companyname.com](<https://replies.companyname.com/>) \- The host name will be **replies**
+Add the 2nd TXT Record (DKIM)
 
+5
 
-If you are setting up a **main** domain like companyname.com, the host name will be **@**
+Add the 1st MX Record (mxa.mailgun.org)
 
-  
+6
 
+Add the 2nd MX Record (mxb.mailgun.org)
 
-  
+7
 
+Add the CNAME Record
 
-C. Points to: Same for everyone
+8
 
-paste the following data **[mxa.mailgun.org](<//mxa.mailgun.org>) **
+Verify Your Domain
 
-  
+9
 
+Frequently Asked Questions
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292769476/original/xvdURibcJ1cBG-y1bc5ngzqpnSNCdRALmA.png?1681498784)
+1
 
-  
+## Add Your Domain in Email Services
 
+Step 1
 
-  
+Navigate to Dedicated Domain settings
 
+In your sub-account, go to **Settings → Email Services → Dedicated Domain** and click **\+ Add Domain**.
 
-  
+![Navigating to Settings > Email Services > Dedicated Domain > + Add Domain](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292765242/original/jQLugI8wtvQRfs38XJDujiQd2QnIgjQqSA.gif)
 
+Navigating to Settings → Email Services → Dedicated Domain → + Add Domain
 
-D. Priority is **10** which is also same for everyone no matter what Domain you are trying to set
+Step 2
 
-  
+Choose your domain type
 
+If your domain is **companyname.com** , you can register either the root domain or a subdomain as your dedicated sending domain.
 
-  
+**Main domain** (companyname.com) — must not already be in use with Google Workspace or another email provider.
 
+**Subdomain** — enter any prefix before your root domain, for example **replies.companyname.com** or **support.companyname.com**.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292769807/original/1wmkWSsWNVmgj5fdec3hG0a9KbuWBxPhnA.png?1681498971)
+Note
 
-  
+If you use Google Workspace or another email provider on your root domain, adding the root domain here will conflict with your existing MX records. Use a subdomain instead. See [Can I use the same domain for Mailgun and Google Apps?](<https://help.mailgun.com/hc/en-us/articles/203357040-Can-I-Use-the-Same-Domain-Name-for-Mailgun-and-for-Google-Apps-Or-Another-Email-Server->)
 
+Step 3
 
-E. Click on **Save**
+Click Add & Verify
 
-  
+After entering your domain name, click **Add & Verify**. The next screen will display the 5 DNS records you need to add. Keep this tab open — you will copy values from it in the steps below.
 
+![Add & Verify button](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292766472/original/5TxDqQG542C3YtKLt6stGIAfwcbDmmcesg.png)
 
-  
+![DNS records screen showing 5 records to add](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48293298198/original/xGMUZ9x0JoahqbofrVsYVWEjEF9LDDvsMQ.png)
 
+Keep this DNS records screen open — you will copy values from it in the steps below.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292761314/original/r1sCz03HEK4u2NnzjZxK6TRXfTixx9qJpg.png?1681494889)
+Tip
 
-  
+Migrating from Mailgun? See [How to move a sending domain from Mailgun to LeadConnector](<https://help.gohighlevel.com/support/solutions/articles/48001226115-how-to-set-up-a-dedicated-sending-domain-lc-email-#How-to-move-sending-domain-from-Mailgun-to-LeadConnector?>).
 
+2
 
-  
+## Access GoDaddy DNS
 
+In a new browser tab, sign in to your [GoDaddy Domain Portfolio](<https://dcc.godaddy.com/control/portfolio>). Then follow these steps to open the DNS editor for your domain.
 
-  
+Step 1
 
+Click the **three-dot menu** next to your domain to open the Edit Options.
 
-  
+Step 2
 
+Select **Edit DNS**. You may need to scroll down to see this option.
 
-## To add the 2nd MX records
+![GoDaddy domain portfolio — click three dots then Edit DNS](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284383735/original/cgJYei63pjBqxqUREcrgnMBHMYjimo-FBA.png)
 
-  
+GoDaddy Save Behavior
 
+GoDaddy requires you to click **Save** after each individual DNS record. You cannot batch all records and save once — complete each section below in full before moving to the next.
 
-Click on **Add** to add a new record.
+DNS Setup Guide
 
-  
+Adding Your 5 DNS Records
 
+Sections 3–7 cover each record. Click Add, fill in the fields, then click Save before starting the next record.
 
-  
+3
 
+## Add the 1st TXT Record (SPF)
 
-  
+In the GoDaddy DNS editor, click **Add** to create a new record.
 
+![GoDaddy Add button for new DNS record](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284383808/original/H6np93jJkfJVHPLdTaLTLmRgo2mB_c6JRA.png)
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284383808/original/H6np93jJkfJVHPLdTaLTLmRgo2mB_c6JRA.png?1677636223)
+![New DNS record form in GoDaddy](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284384102/original/N9CKo-PVMexPIY_hCkU3qz4FgWu5LCmiKw.png)
 
-  
+A. Type
 
+Select **TXT** from the Type menu.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284385634/original/wYOidp2P0QPZbDYtP60qHBim2dahkciEMw.png?1677637830)
+B. Host — do not include the root domain
 
-  
+Enter only the subdomain prefix. GoDaddy appends the root domain automatically:
 
+  * Setting up **lc**.companyname.com → enter **lc**
+  * Setting up **replies**.companyname.com → enter **replies**
+  * Setting up root domain companyname.com → enter **@**
 
-A. Type: Select **MX** from the Type menu options.
 
-  
+![GoDaddy Host field — enter subdomain prefix only](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292767095/original/U0Uh3wPJ901NXe3E0tAj8DzwIys4kzuXFA.png)
 
+C. TXT Value — same for everyone
 
-  
+Paste the following SPF record value exactly as shown:
 
+v=spf1 include:mailgun.org ~all
 
-B. Host: Different for everyone
+![SPF TXT record filled in GoDaddy](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292767368/original/n_1Mu3Av0f2EYEvZG9iBeM-knKybDa2RPg.png)
 
-  
+D. Save
 
+Click **Save** to confirm this record.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292770778/original/1YS3yCM8yCVGkdwvDlET1DiZvGimSLDnCA.png?1681499489)
+![Saving the 1st TXT record in GoDaddy](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292760158/original/whQOMoD2hGeHEbJgNmnIm1fdwCQhF1Mz9g.png)
 
-  
+4
 
+## Add the 2nd TXT Record (DKIM)
 
-Depending on the subdomain you are trying to set up, if you are trying to set up
+Important
 
-  
+Everyone's 2nd TXT record hostname and value is **unique to their domain**. Copy both values directly from your platform's DNS records screen — do not use values from screenshots in this article.
 
+Click **Add** in the GoDaddy DNS editor to create a new record.
 
-  * **lc**.companyname.com - The host name will be **lc**
-  * [replies.companyname.com](<https://replies.companyname.com/>) \- The host name will be **replies**
+![GoDaddy Add button for new DNS record](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284383808/original/H6np93jJkfJVHPLdTaLTLmRgo2mB_c6JRA.png)
 
+![New TXT record form for DKIM](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284384815/original/FlVncn3L0vrYLOa9P1vI4X9Pt16_Q-FUOg.png)
 
-  
+A. Type
 
+Select **TXT** from the Type menu.
 
-If you are setting up a **main** domain like companyname.com, the host name will be **@**
+B. Host — copy everything before the root domain
 
-  
+Look at the 2nd TXT hostname in your DNS records screen. Copy only the portion **before** your root domain — do not include the root domain itself.
 
+![DKIM hostname — copy highlighted portion only](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292768165/original/xN_6s9kcDwkztqKLFUlRtJJJlE7M_GD54w.png)
 
+Scenario| Copy this as hostname| Example  
+---|---|---  
+Using a subdomain| mx._domainkey.helpdesk| ![Subdomain DKIM hostname example](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292768867/original/Oy2wnQ4XgDD5YzExKorYuiEBhl-wH7krkg.png)  
+Using the root domain| mailo._domainkey| ![Root domain DKIM hostname example](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292768954/original/rXlYB3cbDo6Ix-Oq_XBgdnsiwBHDHuTUig.png)  
   
-
-
-C. Points to: Same for everyone
+C. TXT Value
 
-  
+Paste the full 2nd TXT record value from your platform's DNS records screen (the long highlighted value). This is unique to your domain.
 
+![2nd TXT value — copy the highlighted long value](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292768735/original/cUIeRsQGsIF81ZCW8a-cj-v7iGlndoLiKw.png)
 
-paste the following data **mxb.mailgun.org**
+D. Save
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292770829/original/lo34kUcHgQ_jNcW7DaT0x3DUPiEu1AubLw.png?1681499515)  
+Click **Save** to confirm this record.
 
+![Saving the 2nd TXT record in GoDaddy](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292760542/original/dHr8OmpttMWN0VMOkXNfAi5G8Ou_hQUiVQ.png)
 
-  
+5
 
+## Add the 1st MX Record (mxa.mailgun.org)
 
-D. Priority is **10** which is also same for everyone no matter what Domain you are trying to set
+Google Workspace Users
 
-  
+If you use Google Workspace to send and receive mail on your root domain, adding MX records to the root domain will break your existing email. Use a subdomain for LC Email instead. See [Can I use the same domain for Mailgun and Google Apps?](<https://help.mailgun.com/hc/en-us/articles/203357040-Can-I-Use-the-Same-Domain-Name-for-Mailgun-and-for-Google-Apps-Or-Another-Email-Server->)
 
+Click **Add** in the GoDaddy DNS editor to create a new record.
 
-  
+![GoDaddy Add button for new DNS record](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284383808/original/H6np93jJkfJVHPLdTaLTLmRgo2mB_c6JRA.png)
 
+![MX record form in GoDaddy](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284385352/original/nEr12soR47bfSHjwNBS075J4Dr_Fd3jqUQ.png)
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292770920/original/Fw8uyagc8TOy9xxMDsHe3atzfkyEu3QnKw.png?1681499551)
+A. Type
 
-  
+Select **MX** from the Type menu.
 
+B. Host
 
-E. Click on **Save**
+Same logic as the TXT records — enter only the subdomain prefix:
 
-  
+  * **lc**.companyname.com → enter **lc**
+  * **replies**.companyname.com → enter **replies**
+  * Root domain companyname.com → enter **@**
 
 
-  
+![MX record host field](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292769400/original/UKCDaverUyyLQpklJb1Jxf15cmXUamb0VQ.png)
 
+C. Points To — same for everyone
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292770952/original/JOROtyvxFT7kuhgJS6UKxsSCMfE6_5IS8A.png?1681499569)
+Paste the following value:
 
-  
+mxa.mailgun.org
 
+![MX Points To field — mxa.mailgun.org](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292769476/original/xvdURibcJ1cBG-y1bc5ngzqpnSNCdRALmA.png)
 
-  
+D. Priority — same for everyone
 
+Set Priority to **10**. This value is the same regardless of which domain you are setting up.
 
-  
+![MX Priority field set to 10](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292769807/original/1wmkWSsWNVmgj5fdec3hG0a9KbuWBxPhnA.png)
 
+E. Save
 
-## To add the CNAME record
+Click **Save** to confirm this record.
 
-  
+![Saving the 1st MX record in GoDaddy](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292761314/original/r1sCz03HEK4u2NnzjZxK6TRXfTixx9qJpg.png)
 
+6
 
-  
+## Add the 2nd MX Record (mxb.mailgun.org)
 
+Click **Add** in the GoDaddy DNS editor to create a new record.
 
-Click on **Add** to add a new record.
+![GoDaddy Add button for new DNS record](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284383808/original/H6np93jJkfJVHPLdTaLTLmRgo2mB_c6JRA.png)
 
-  
+![2nd MX record form in GoDaddy](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284385634/original/wYOidp2P0QPZbDYtP60qHBim2dahkciEMw.png)
 
+A. Type
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284383808/original/H6np93jJkfJVHPLdTaLTLmRgo2mB_c6JRA.png?1677636223)
+Select **MX** from the Type menu.
 
-  
+B. Host
 
+Same as the 1st MX record — enter only the subdomain prefix:
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284385821/original/Z_H7aEV9Fj-ulIPJTmhnmpgRUG-CWVntNA.png?1677638013)
+  * **lc**.companyname.com → enter **lc**
+  * **replies**.companyname.com → enter **replies**
+  * Root domain companyname.com → enter **@**
 
-A. Type: Select **CNAME** from the Type menu options.
 
-  
+![2nd MX record host field](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292770778/original/1YS3yCM8yCVGkdwvDlET1DiZvGimSLDnCA.png)
 
+C. Points To — same for everyone
 
-B. Host: Different for everyone
+Paste the following value:
 
-  
+mxb.mailgun.org
 
+![2nd MX Points To field — mxb.mailgun.org](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292770829/original/lo34kUcHgQ_jNcW7DaT0x3DUPiEu1AubLw.png)
 
-Head back to HighLevel to copy the host name, it's a bit tricky but the key here is to copy everything from the beginning until the subdomain part, **DO NOT copy the main Domain**
+D. Priority — same for everyone
 
-  
+Set Priority to **10**.
 
+![2nd MX Priority field set to 10](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292770920/original/Fw8uyagc8TOy9xxMDsHe3atzfkyEu3QnKw.png)
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292771034/original/ey4vFuccg-PcVOVNEqKhNZR24VOtPxjuCA.png?1681499620)
+E. Save
 
-  
+Click **Save** to confirm this record.
 
+![Saving the 2nd MX record in GoDaddy](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292770952/original/JOROtyvxFT7kuhgJS6UKxsSCMfE6_5IS8A.png)
 
-Depending on the subdomain you are trying to set up, if you are trying to set up
+7
 
-  * **lc**.companyname.com - The host name will be**email.****lc**
-  * [replies.companyname.com](<https://replies.companyname.com/>) \- The host name will be **email.****replies**
+## Add the CNAME Record
 
+Click **Add** in the GoDaddy DNS editor to create a new record.
 
-If you are setting up a **main** domain like companyname.com, the host name will be **email**
+![GoDaddy Add button for new DNS record](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284383808/original/H6np93jJkfJVHPLdTaLTLmRgo2mB_c6JRA.png)
 
-  
+![CNAME record form in GoDaddy](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284385821/original/Z_H7aEV9Fj-ulIPJTmhnmpgRUG-CWVntNA.png)
 
+A. Type
 
-  
+Select **CNAME** from the Type menu.
 
+B. Host — copy from the platform DNS records screen
 
-  
+The CNAME hostname is prefixed with **email.** followed by your subdomain prefix. Copy the portion before the root domain from the platform's DNS records screen:
 
+  * lc.companyname.com → enter **email.lc**
+  * replies.companyname.com → enter **email.replies**
+  * Root domain companyname.com → enter **email**
 
-C. Points to: Same for everyone
 
-paste the following data **[mailgun.org](<//mailgun.org>)**
+![CNAME host field in GoDaddy](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292771034/original/ey4vFuccg-PcVOVNEqKhNZR24VOtPxjuCA.png)
 
-  
+C. Points To — same for everyone
 
+Paste the following value:
 
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292771083/original/z9S5z7FviH8eq6xc6sXjhiBRLNZCCKQ5LA.png?1681499652)**  
+mailgun.org
 
+![CNAME Points To field — mailgun.org](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292771083/original/z9S5z7FviH8eq6xc6sXjhiBRLNZCCKQ5LA.png)
 
-  
+D. Save
 
+Click **Save** to confirm this record.
 
-D. Click on**Save**
+![Saving the CNAME record in GoDaddy](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292761511/original/Q-pg6CdROQ4wXlfIoOIOkvDgY1yJdVN1Ug.png)
 
-  
+![All 5 DNS records saved in GoDaddy](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284386112/original/kW6t3s2sXMcjCylHMSgGSwJy8HDwA4momQ.png)
 
+All 5 Records Saved
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292761511/original/Q-pg6CdROQ4wXlfIoOIOkvDgY1yJdVN1Ug.png?1681494965)
+All 5 DNS records have been added to GoDaddy. Proceed to Section 8 to verify your domain.
 
-  
+8
 
+## Verify Your Domain
 
-  
+Switch back to the platform tab and click **Verify Domain** on the Email Services screen.
 
+![Verify Domain button in Email Services](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292771391/original/DSHng9iQ27K8gMmkLYLkL7mpGKnMfyFSkA.png)
 
-  
+Some records still not green?
 
+DNS propagation can take a few minutes. Click **Verify Domain** again after waiting a moment. If records remain unverified after 10+ minutes, go back to GoDaddy and confirm each record's Type, Host, and value are correct.
 
-  
+You're All Set
 
+Once all records show a green checkmark, your dedicated sending domain is active. Next, confirm your [SSL Certificate for Dedicated Sending Domain (LC Email)](<https://help.gohighlevel.com/en/support/solutions/articles/48001227438>) is properly set up.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48284386112/original/kW6t3s2sXMcjCylHMSgGSwJy8HDwA4momQ.png?1677638281)
+Then send a test email to confirm everything is working. [Learn how to send a test email in the Conversation.](<https://help.gohighlevel.com/en/support/solutions/articles/48001208887>)
 
-  
+9
 
+## Frequently Asked Questions
 
-Now that you have added 5 records, click on **Verify Domain**
+Q: Why do I need to save after each record in GoDaddy?
 
-  
+GoDaddy's DNS editor saves records one at a time. Unlike some providers that let you queue multiple records and save at once, GoDaddy requires each record to be individually confirmed. Follow the steps in order and click Save after each one.
 
+Q: Can I use my root domain if I already use it with Google Workspace?
 
-  
+No. Adding MX records to a root domain that is already in use with Google Workspace will conflict with your existing email setup. Use a subdomain (e.g. **replies.companyname.com**) for LC Email instead.
 
+Q: Why do I add two separate MX records instead of one?
 
-  
+The two MX records (**mxa.mailgun.org** and **mxb.mailgun.org**) provide redundancy — if one mail server is temporarily unavailable, the other can receive messages. Both should be added with Priority 10. GoDaddy requires each MX record to be added and saved separately.
 
+Q: Why is the 2nd TXT record hostname different from what I see in examples?
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292771391/original/DSHng9iQ27K8gMmkLYLkL7mpGKnMfyFSkA.png?1681499820)
+The 2nd TXT record is a DKIM key generated uniquely for your domain. Its hostname and long value are always different per account. Always copy both from your own DNS records screen — never use values shown in screenshots in this article.
 
-  
+Q: How long does DNS propagation take in GoDaddy?
 
+GoDaddy DNS changes typically propagate within a few minutes to an hour. If records are still not verifying after 10 minutes, wait a bit longer before troubleshooting. Full propagation can take up to 48 hours in rare cases.
 
-Click the same button to **Verify Domain** again if some records are still not showing the green checkmark
+Q: What is the difference between a dedicated and a shared sending domain?
 
-  
+A **shared domain** is used by multiple accounts, meaning your sender reputation is pooled with others. A **dedicated domain** is exclusive to your account, giving you full control over your deliverability reputation as it builds over time.
 
+Q: My domain shows as verified but emails are not delivering — what should I check?
 
-Once you add all the DNS records and verify, you can make sure the [SSL Certificate for Dedicated Sending Domain (LC - Email)](<https://help.gohighlevel.com/en/support/solutions/articles/48001227438>) is all set.
+First, send a test email from the Conversations area to confirm basic sending is working. Then check that the [SSL Certificate for your Dedicated Sending Domain](<https://help.gohighlevel.com/en/support/solutions/articles/48001227438>) is active. If issues persist, review each of your 5 GoDaddy DNS records for typos in the Host or Points To fields.
 
-  
+Q: Can I set up multiple dedicated domains for different sub-accounts?
 
+Yes. Each sub-account can have its own dedicated sending domain. Each domain requires its own complete set of 5 DNS records to be added and verified separately in GoDaddy.
 
-Then we could send a test email to see if everything works! Click here to learn [How to send a test email in the Conversation](<https://help.gohighlevel.com/en/support/solutions/articles/48001208887>)
+Related Articles
 
-#
+[How to Migrate My Agency Over to LC Email](<https://help.gohighlevel.com/en/support/solutions/articles/48001222501>) [How to Set Up a Dedicated Sending Domain (LC Email)](<https://help.gohighlevel.com/support/solutions/articles/48001226115>) [SSL Certificate for Dedicated Sending Domain (LC Email)](<https://help.gohighlevel.com/en/support/solutions/articles/48001227438>) [How to Send a Test Email in the Conversation](<https://help.gohighlevel.com/en/support/solutions/articles/48001208887>)

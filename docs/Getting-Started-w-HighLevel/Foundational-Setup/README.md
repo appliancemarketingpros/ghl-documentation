@@ -4,7 +4,7 @@
 
 ## Articles
 
-- [Getting Started - Create New Contact](Getting Started - Create New Contact.md)
+- [Getting Started - Create and Manage Contacts](Getting Started - Create and Manage Contacts.md)
 - [Getting Started - Import Existing Contacts](Getting Started - Import Existing Contacts.md)
 - [Getting Started - Launch A Funnel](Getting Started - Launch A Funnel.md)
 - [Getting Started - Setup Email, Phone, and SMS](Getting Started - Setup Email, Phone, and SMS.md)

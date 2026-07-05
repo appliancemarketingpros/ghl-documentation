@@ -6,344 +6,250 @@
 
 ---
 
-HighLevel monitors ESP blocks to help protect sender reputation and email deliverability. When mailbox providers reject too many emails from a sub-account, HighLevel may send a warning email or temporarily pause email sending. This article explains how ESP block enforcement works, what each warning means, and what to do if your email sending is paused.
+EMAIL DELIVERABILITY
 
-* * *
+ESP Block Monitoring & Progressive Email Enforcement
 
-**TABLE OF CONTENTS**
+How the platform detects rising ESP blocks, warns you, and pauses sending to protect your sender reputation.
 
-  * What is ESP Block Monitoring and Progressive Email Enforcement?
-  * Key Benefits of ESP Block Monitoring
-  * How ESP Block Enforcement Works
-  * Warning Email: Risk of Suspension
-  * 12-Hour Temporary Suspension
-  * In-App Suspension Banner
-  * 24-Hour Temporary Suspension
-  * Future Enforcement: Permanent Suspension
-  * How To Prevent ESP Block Enforcement
-  * What To Do If Your Email Sending Is Paused
-  * Frequently Asked Questions
-  * Related Articles
+Overview
 
+The platform monitors ESP blocks to help protect sender reputation and email deliverability. When mailbox providers reject too many emails from a sub-account, the platform may send a warning email or temporarily pause email sending. This article explains how ESP block enforcement works, what each warning means, and what to do if your email sending is paused.
 
-* * *
+Table of Contents
 
-# **What is ESP Block Monitoring and Progressive Email Enforcement?**  
-  
+1
 
+What is ESP Block Monitoring and Progressive Email Enforcement?
 
-ESP blocks happen when mailbox providers such as Gmail, Outlook, or Yahoo reject emails due to sender reputation, authentication, engagement, content, or sending behavior. Monitoring these blocks helps protect your sub-account and the broader HighLevel email infrastructure.  
-  
+2
 
+Key Benefits of ESP Block Monitoring
 
-HighLevel’s ESP Block Monitoring and Progressive Email Enforcement system automatically reviews ESP block activity at the sub-account level. When block activity exceeds healthy thresholds, HighLevel may send a warning email, temporarily pause email sending, or apply future enforcement if repeated issues continue.
+3
 
-* * *
+How ESP Block Enforcement Works
 
-## **Key Benefits of ESP Block Monitoring**  
-  
+4
 
+Warning Email: Risk of Suspension
 
-ESP block monitoring helps identify deliverability risks early and gives users time to correct sending issues before they cause long-term reputation damage.  
-  
+5
 
+12-Hour Temporary Suspension
 
-  * **Sender Reputation Protection:** Helps prevent continued sending when mailbox providers are rejecting emails.  
-  
+6
 
-  * **Improved Deliverability:** Reduces harmful sending signals that can affect inbox placement.  
-  
+In-App Suspension Banner
 
-  * **Early Warning:** Notifies users before email sending is temporarily paused.  
-  
+7
 
-  * **Platform Protection:** Helps protect shared email infrastructure across HighLevel.  
-  
+24-Hour Temporary Suspension
 
-  * **Automatic Enforcement:** Works automatically without manual setup.
+8
 
+Future Enforcement: Permanent Suspension
 
-* * *
+9
 
-## **How ESP Block Enforcement Works**  
-  
+How to Prevent ESP Block Enforcement
 
+10
+
+What to Do If Your Email Sending Is Paused
+
+11
+
+Frequently Asked Questions
+
+12
+
+Related Articles
+
+1
+
+## What is ESP Block Monitoring and Progressive Email Enforcement?
+
+ESP blocks happen when mailbox providers such as Gmail, Outlook, or Yahoo reject emails due to sender reputation, authentication, engagement, content, or sending behavior. Monitoring these blocks helps protect your sub-account and the broader email infrastructure the platform relies on.
+
+The platform's ESP Block Monitoring and Progressive Email Enforcement system automatically reviews ESP block activity at the sub-account level. When block activity exceeds healthy thresholds, the platform may send a warning email, temporarily pause email sending, or apply future enforcement if repeated issues continue.
+
+2
+
+## Key Benefits of ESP Block Monitoring
+
+ESP block monitoring helps identify deliverability risks early and gives users time to correct sending issues before they cause long-term reputation damage.
+
+**Sender Reputation Protection** — helps prevent continued sending when mailbox providers are rejecting emails.
+
+**Improved Deliverability** — reduces harmful sending signals that can affect inbox placement.
+
+**Early Warning** — notifies users before email sending is temporarily paused.
+
+**Platform Protection** — helps protect shared email infrastructure across the platform.
+
+**Automatic Enforcement** — works automatically without manual setup.
+
+3
+
+## How ESP Block Enforcement Works
 
 Progressive enforcement gives users time to correct email sending issues before stronger restrictions are applied. The process starts with a warning and may move to temporary sending pauses if ESP block activity continues.
 
-HighLevel may apply enforcement in this order:  
-  
+Enforcement may be applied in this order:
+
+  1. A warning email is sent when ESP block activity rises above healthy levels.
+  2. If excessive blocks continue, email sending may be paused for 12 hours.
+  3. If the issue happens again, email sending may be paused for 24 hours.
+  4. In a future enforcement phase, repeated suspension occurrences may lead to permanent suspension of email sending capability for the affected sub-account.
 
 
-  * A warning email is sent when ESP block activity rises above healthy levels.  
-  
+4
 
-  * If excessive blocks continue, email sending may be paused for 12 hours.  
-  
+## Warning Email: Risk of Suspension
 
-  * If the issue happens again, email sending may be paused for 24 hours.  
-  
+A warning email is sent when ESP block activity rises above healthy levels. This gives you time to review your email setup, sending volume, and contact quality before sending is paused.
 
-  * In a future enforcement phase, repeated suspension occurrences may lead to permanent suspension of email sending capability for the affected sub-account.
+The warning email may include:
 
-
-* * *
-
-## **Warning Email: Risk of Suspension**  
-  
-
-
-A warning email is sent when ESP block activity rises above healthy levels. This gives you time to review your email setup, sending volume, and contact quality before sending is paused.  
-  
-
-
-The warning email may include:  
-  
-
-
-  * Your current Email Service Provider block rate  
-  
-
-  * The recommended healthy threshold  
-  
-
-  * Why mailbox providers may be blocking emails  
-  
-
-  * Recommended next steps  
-  
-
+  * Your current Email Service Provider block rate
+  * The recommended healthy threshold
+  * Why mailbox providers may be blocking emails
+  * Recommended next steps
   * A link to an ESP block resolution guide
 
 
-  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071942251/original/HvPdA1uVgvjt9WfVCNWjN62HSVL1gVcYbQ.png?1779385099)
+![ESP block warning email example](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071942251/original/HvPdA1uVgvjt9WfVCNWjN62HSVL1gVcYbQ.png?1779385099)
 
-* * *
+5
 
-## **12-Hour Temporary Suspension**  
-  
-
+## 12-Hour Temporary Suspension
 
 If excessive ESP blocks continue after the warning, email sending for the affected sub-account may be paused for 12 hours. Sending resumes automatically after the suspension window ends.
 
-During the 12-hour suspension:  
-  
+During the 12-hour suspension:
+
+  * Email sending is temporarily disabled for the affected sub-account.
+  * A suspension notification email is sent.
+  * The account may show an in-app warning banner.
+  * The banner may show when email services are expected to resume.
 
 
-  * Email sending is temporarily disabled for the affected sub-account  
-.
-  * A suspension notification email is sent.  
-  
+![12-hour suspension notification example](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071942312/original/6Hfl8RwOgR9PzIpMqQehCYI284Q_zqD-cA.png?1779385153)
 
-  * The account may show an in-app warning banner  
-.
-  * The banner may show when email services are expected to resume.  
-  
+6
 
+## In-App Suspension Banner
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071942312/original/6Hfl8RwOgR9PzIpMqQehCYI284Q_zqD-cA.png?1779385153)
-
-* * *
-
-## **In-App Suspension Banner**  
-  
-
-
-The in-app banner appears inside HighLevel when email sending is blocked due to a high number of spam blocks from email providers. This helps users quickly identify why sending is unavailable.
+The in-app banner appears inside the platform when email sending is blocked due to a high number of spam blocks from email providers. This helps users quickly identify why sending is unavailable.
 
 The banner may show:
 
-  
+  * That email sending is blocked
+  * The reason sending is blocked
+  * The expected resume time
+  * A **Learn more** button
 
 
-  * That email sending is blocked  
-  
+![In-app suspension banner example](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071942631/original/5w0IqRkiUf3ESXFcZX4hzI_1O8NNj0WcDw.png?1779385483)
 
-  * The reason sending is blocked  
-  
+7
 
-  * The expected resume time  
-  
+## 24-Hour Temporary Suspension
 
-  * A **Learn more** button  
-  
+Repeated ESP block issues can indicate that the original sending problem was not fully resolved. A longer suspension gives the account more time to correct the cause before sending resumes.
 
+If ESP block issues happen again after the first temporary suspension, email sending for the affected sub-account may be paused for 24 hours.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071942631/original/5w0IqRkiUf3ESXFcZX4hzI_1O8NNj0WcDw.png?1779385483)
+Use this time to:
 
-* * *
-
-## **24-Hour Temporary Suspension**  
-  
-
-
-Repeated ESP block issues can indicate that the original sending problem was not fully resolved. A longer suspension gives the account more time to correct the cause before sending resumes.  
-  
-
-
-If ESP block issues happen again after the first temporary suspension, email sending for the affected sub-account may be paused for 24 hours.  
-  
-
-
-Use this time to:  
-  
-
-
-  * Review email analytics  
-  
-
-  * Confirm SPF, DKIM, and DMARC are configured correctly  
-  
-
-  * Reduce send volume  
-  
-
-  * Send only to engaged contacts  
-  
-
+  * Review email analytics
+  * Confirm SPF, DKIM, and DMARC are configured correctly
+  * Reduce send volume
+  * Send only to engaged contacts
   * Clean inactive or low-quality contacts from your lists
 
 
-* * *
+8
 
-## **Future Enforcement: Permanent Suspension**  
-  
+## Future Enforcement: Permanent Suspension
 
+Permanent enforcement is intended to protect sender reputation and platform-wide deliverability when repeated ESP block issues continue after temporary pauses. Agencies will be notified before permanent enforcement is implemented.
 
-Permanent enforcement is intended to protect sender reputation and platform-wide deliverability when repeated ESP block issues continue after temporary pauses. Agencies will be notified before permanent enforcement is implemented.  
-  
-
+Important
 
 In a future phase, if a sub-account experiences repeated suspension occurrences, email sending capability for that sub-account may be permanently suspended.
 
-* * *
+9
 
-## **How To Prevent ESP Block Enforcement**  
-  
+## How to Prevent ESP Block Enforcement
 
+ESP block enforcement is automatic, so there is no setup required. The best way to avoid warnings or suspensions is to maintain healthy sending practices.
 
-ESP block enforcement is automatic, so there is no setup required. The best way to avoid warnings or suspensions is to maintain healthy sending practices.  
-  
+To reduce ESP blocks:
 
-
-To reduce ESP blocks:  
-  
-
-
-  * Confirm SPF, DKIM, and DMARC are configured correctly.  
-  
-
-  * Send to engaged contacts first.  
-  
-
-  * Avoid sudden increases in sending volume.  
-  
-
-  * Remove invalid, inactive, bounced, or unengaged contacts.  
-  
-
-  * Review email content for spam-like wording, broken links, or misleading subject lines.  
-  
-
-  * Monitor email analytics and bounce classifications.  
-  
-
+  * Confirm SPF, DKIM, and DMARC are configured correctly.
+  * Send to engaged contacts first.
+  * Avoid sudden increases in sending volume.
+  * Remove invalid, inactive, bounced, or unengaged contacts.
+  * Review email content for spam-like wording, broken links, or misleading subject lines.
+  * Monitor email analytics and bounce classifications.
   * Reduce sending temporarily if ESP blocks increase.
 
 
-* * *
+10
 
-## **What To Do If Your Email Sending Is Paused**  
-  
-
+## What to Do If Your Email Sending Is Paused
 
 A temporary pause means mailbox providers are rejecting too many emails from the sub-account. Use the pause window to correct the issue before sending resumes.
 
-Recommended actions:  
-  
+Recommended actions:
 
-
-  * Stop non-essential campaigns.  
-  
-
-  * Review recent sends and identify any volume spikes.  
-  
-
-  * Check email authentication records.  
-  
-
-  * Review ESP block categories in Email Analytics.  
-  
-
-  * Clean your contact list.  
-  
-
-  * Prioritize your most engaged contacts.  
-  
-
+  * Stop non-essential campaigns.
+  * Review recent sends and identify any volume spikes.
+  * Check email authentication records.
+  * Review ESP block categories in Email Analytics.
+  * Clean your contact list.
+  * Prioritize your most engaged contacts.
   * Resume sending carefully after the pause ends.
 
 
-* * *
+11
 
-## **Frequently Asked Questions**  
-  
+## Frequently Asked Questions
 
+Q: What is an ESP block?
 
-**Q: What is an ESP block?**  
-An ESP block happens when a mailbox provider rejects an email due to deliverability, reputation, authentication, content, or engagement concerns.  
-  
+An ESP block happens when a mailbox provider rejects an email due to deliverability, reputation, authentication, content, or engagement concerns.
 
+Q: Is ESP block monitoring automatic?
 
-**Q: Is ESP block monitoring automatic?**  
-Yes. ESP block monitoring is enabled automatically at the sub-account level.  
-  
+Yes. ESP block monitoring is enabled automatically at the sub-account level.
 
+Q: What happens after a warning email?
 
-**Q: What happens after a warning email?**  
-If ESP block activity continues, email sending may be temporarily paused.  
-  
+If ESP block activity continues, email sending may be temporarily paused.
 
+Q: How long does the first suspension last?
 
-**Q: How long does the first suspension last?**  
-The first temporary suspension lasts 12 hours.  
-  
+The first temporary suspension lasts 12 hours.
 
+Q: How long does a repeated suspension last?
 
-**Q: How long does a repeated suspension last?**  
-Repeated ESP block issues may result in a 24-hour suspension.  
-  
+Repeated ESP block issues may result in a 24-hour suspension.
 
+Q: Does sending resume automatically?
 
-**Q: Does sending resume automatically?**  
-Yes. Sending resumes automatically after the temporary suspension window ends.  
-  
+Yes. Sending resumes automatically after the temporary suspension window ends.
 
+Q: How can I reduce ESP blocks?
 
-**Q: How can I reduce ESP blocks?**  
-Review authentication, reduce send volume, clean your lists, improve email content, and send to engaged contacts.  
-  
+Review authentication, reduce send volume, clean your lists, improve email content, and send to engaged contacts.
 
+Q: Can ESP block enforcement become permanent?
 
-**Q: Can ESP block enforcement become permanent?**  
-n a future phase, repeated suspension occurrences may lead to permanent email sending suspension for the affected sub-account.
+In a future phase, repeated suspension occurrences may lead to permanent email sending suspension for the affected sub-account.
 
-* * *
+Related Articles
 
-### **Related Articles**
-
-  
-
-
-  * [Email Service Provider Block Detected - Immediate Action Required to Restore Email Sending](<https://help.gohighlevel.com/en/support/solutions/articles/155000007341>)  
-  
-
-  * [Email Authentication Errors - Fix SPF, DKIM, and DMARC Issues](<https://help.gohighlevel.com/en/support/solutions/articles/155000006793>)  
-  
-
-  * [Email Authentication - DMARC](<https://help.gohighlevel.com/en/support/solutions/articles/48001224630>)
-
-
-##
+[Email Service Provider Block Detected – Immediate Action Required to Restore Email Sending](<https://help.gohighlevel.com/en/support/solutions/articles/155000007341>) [Email Authentication Errors – Fix SPF, DKIM, and DMARC Issues](<https://help.gohighlevel.com/en/support/solutions/articles/155000006793>) [Email Authentication – DMARC](<https://help.gohighlevel.com/en/support/solutions/articles/48001224630>)

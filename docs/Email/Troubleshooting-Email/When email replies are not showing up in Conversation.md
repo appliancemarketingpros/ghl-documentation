@@ -6,196 +6,140 @@
 
 ---
 
-This guide troubleshoots issues with email replies not appearing in conversations. This could be due to several factors like incorrect Mailgun setup, faulty MX records, or issues with domain providers like WIX. Follow these steps to diagnose and resolve the issues efficiently.
+Email Infrastructure
 
-  
+Email Replies Not Coming Back to the Conversation
 
+Diagnose and fix missing reply threads caused by Mailgun setup, MX records, or domain/DNS provider issues.
 
-  
+Overview
 
+This guide troubleshoots issues with email replies not appearing in conversations. This can be caused by several factors, like an incorrect Mailgun setup, faulty MX records, or issues with domain providers like WIX. Follow these steps to diagnose and resolve the issue efficiently.
 
-**TABLE OF CONTENTS**
+Table of Contents
 
-**Troubleshooting When email replies are not coming back to the Conversation**
+1
 
-1\. Check if Mailgun Receiving Route is set up. If you are on LC Email, move on to Step 2
+Troubleshooting steps
 
-2\. How to check MX records
+→ 1. Check if the Mailgun receiving route is set up → 2. How to check MX records → 3. Check if you're using the root domain with Google Workspace and Mailgun → 4. Double-check DNS records → 5. If you're using an SMTP provider instead of Mailgun/LC Email → 6. If you're using WIX as your domain/DNS provider
 
-3\. Check if you are using the Root domain with Google Workspace and Mailgun
+2
 
-4\. Double-check DNS records
+Frequently Asked Questions
 
-5\. If you are using an SMTP provider instead of Mailgun/LC Email
+3
 
-6\. If you are using WIX as your Domain DNS provider
+Related Articles
 
-  * Frequently Asked Questions
-  * Related Articles
+1
 
+## Troubleshooting: Email Replies Not Coming Back to the Conversation
 
-* * *
+Step 1
 
-# **Troubleshooting When email replies are not coming back to the Conversation**
+Check if the Mailgun receiving route is set up
 
-  
+If you're on LC Email, you can skip this step and move on to Step 2.
 
+[How to set up replies in Mailgun](<https://help.gohighlevel.com/en/support/solutions/articles/48000987293>)
 
-### **1\. Check if Mailgun Receiving Route is set up. If you are on LC Email, move on to Step 2**
+Step 2
 
-[How to setup Replies in MailGun](<https://help.gohighlevel.com/en/support/solutions/articles/48000987293>)
+How to check MX records
 
-  
+The MX record is essential for Mailgun to track replies.
 
+1\. Switch to **agency view → Settings → Email Services → Location Settings** and copy the domain/subdomain set up for the sub-account.
 
-### **2\. How to check MX records**
+![Location Settings domain field](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155033710730/original/336fiUo3ihzu_yI4uP56rIgrHdF3mahwKA.jpg?1727465017)
 
-  
+2\. Go to [MX Toolbox](<https://mxtoolbox.com/>) to look up the MX record for the subdomain/domain you copied.
 
+Depending on the subdomain you set up with Mailgun, for example:
 
-The MX record is essential for Mailgun to track the replies tracking. 
+  * If you set up `companyname.com`, you'll look up the MX record for `companyname.com`
+  * If you set up `replies.companyname.com`, you'll look up the MX record for `replies.companyname.com`
 
-  
 
+  * Check whether two records point to `mxa.mailgun.org` and `mxb.mailgun.org`
+  * If they're missing, add **mxa.mailgun.org** and **mxb.mailgun.org** and set priority 10 for both MX records
 
-1\. Switch to agency view > **Settings** > **Email Services** > **Location Settings** > Copy the domain/subdomain set up for the sub-account
 
-  
+![MX record lookup result](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155033710796/original/FM2Sxy9BQzzbC3CnquDFbcq0gzPPlYBQZw.jpg?1727465126)
 
+Tip
 
-  
+If other records point to other email servers (e.g., Google Workspace), you can only choose one. You'll need to either set up a subdomain for Mailgun, or not use the domain for other email servers. See [Can I use the same domain name for Mailgun and Google Apps (or another email server)?](<https://help.mailgun.com/hc/en-us/articles/203357040-Can-I-Use-the-Same-Domain-Name-for-Mailgun-and-for-Google-Apps-Or-Another-Email-Server->)
 
+Still Not Working?
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155033710730/original/336fiUo3ihzu_yI4uP56rIgrHdF3mahwKA.jpg?1727465017)
+Share a screenshot of all the DNS records in your domain provider (GoDaddy, Namecheap, etc.) and [reach out to support here](<https://help.gohighlevel.com/en/support/solutions/articles/48001204857>). You can also check with your domain provider's support to see what's missing.
 
-  
+Step 3
 
+Check if you're using the root domain with Google Workspace and Mailgun
 
-2\. Go to [Mxtoolbox](<https://mxtoolbox.com/>) to look up the MX record for the subdomain/domain you copied
+If you're setting up a root domain to use with Mailgun, make sure it isn't pointing elsewhere too (like Google Workspace), as this can conflict when the same domain is used for work email through Google Workspace or Outlook. See [Can I use the same domain name for Mailgun and Google Apps (or another email server)?](<https://help.mailgun.com/hc/en-us/articles/203357040-Can-I-Use-the-Same-Domain-Name-for-Mailgun-and-for-Google-Apps-Or-Another-Email-Server->)
 
-  
+If you use MX Toolbox to look up the MX record for the root domain and it's pointing to both Mailgun **and** another email server (e.g., Google Workspace), you can only choose one. You'll need to either set up a subdomain for Mailgun, or not use that domain for other email servers.
 
+![MX record pointing to Mailgun and another server](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155033710845/original/rGC1BTGGbHk5MNi82nlWRVyA9Di8s7ocRA.jpg?1727465286)
 
-Depending on the subdomain you set up with Mailgun, 
+Step 4
 
-For example:
+Double-check DNS records
 
-  * If you set up companyname.com,
+Log in to [Mailgun](<https://login.mailgun.com/login/>):
 
-You will look up the MX record for [companyname.com](<//companyname.com>)  
+1\. Expand the **Sending** tab  
+2\. Click the last menu item, **Domain Settings**  
+3\. Make sure the correct domain/subdomain for the location is selected at the top  
+4\. Click **DNS records** in the top middle  
+5\. Click **Verify DNS settings** and check whether all 5 DNS records — especially the MX record — show a green checkmark
 
+Tip
 
-  * If you set up replies.companyname.com,
+Sometimes the checkmarks show green even when a record isn't actually correct. Click **Verify DNS Settings** again to refresh and re-check the records.
 
-You will look up the MX record for [replies.companyname.com](<//replies.companyname.com>)
+![Mailgun DNS records verification screen](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155033710882/original/n5TrO-ghOMdCcUoKy1eLVCyu09YJz5OnAA.jpg?1727465373)
 
-  * to see if two records point to mxa.mailgun.org and mxb.mailgun.org.
-  * If they are missing, We must add **mxa.mailgun.org** and **mxb.mailgun.org** and set priority 10 for both MX records.
+Step 5
 
+If you're using an SMTP provider instead of Mailgun/LC Email
 
-  * Suppose other records point to other email servers like (e.g., Google Workspace). We can only choose one here, so you must either set up a subdomain for Mailgun or not use the domain for other email servers like (e.g., Google Workspace).   
-  
-More information:  
-  
-[Can I Use the Same Domain Name for Mailgun and Google Apps (Or Another Email Server)?](<https://help.mailgun.com/hc/en-us/articles/203357040-Can-I-Use-the-Same-Domain-Name-for-Mailgun-and-for-Google-Apps-Or-Another-Email-Server->)  
-  
+![SMTP provider reference screenshot](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48283738240/original/iuhABh85E9KeBQj_tREvrShtALdHnMmXAA.png?1677272715)
 
+Step 6
 
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155033710796/original/FM2Sxy9BQzzbC3CnquDFbcq0gzPPlYBQZw.jpg?1727465126)**  
-
-
-  
-
-
-If it's still not working, please share a screenshot of all the DNS records in your domain provider and[reach out to our support here](<https://help.gohighlevel.com/en/support/solutions/articles/48001204857>) (GoDaddy, Namecheap, etc.). You can also check with your domain provider's support and see what is missing.
-
-  
-
-
-### **3\. Check if you are using the****Root domain with Google Workspace and Mailgun**
-
-****
-
-If you are setting up a root domain to use with Mailgun, Ensure it is not pointing to somewhere else like Google Workspace, as it might contradict Google Workspace or Outlook, where you use the same domain for work emails. More information on [Can I Use the Same Domain Name for Mailgun and Google Apps (Or Another Email Server)?](<https://help.mailgun.com/hc/en-us/articles/203357040-Can-I-Use-the-Same-Domain-Name-for-Mailgun-and-for-Google-Apps-Or-Another-Email-Server->)
-
-If you use the Mxtoolbox to look up the MX record for the root domain, it is pointing to Mailgun, as shown in the screenshot below, **and other email servers** (e.g., Google Workspace). We can only choose either one here, so you will need to either _set up a**subdomain** for Mailgun_ or _don't use the domain for other email servers like (e.g., Google Workspace)_
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155033710845/original/rGC1BTGGbHk5MNi82nlWRVyA9Di8s7ocRA.jpg?1727465286)
-
-  
-
-
-### **4\. Double-check DNS records**
-
-  
-
-
-Log in to [Mailgun](<https://login.mailgun.com/login/>) \- 
-
-1\. Expand **Sending** tab
-
-2\. Click the last menu item, **Domain Settings**
-
-3\. Make sure you select the correct domain/subdomain for the location on top
-
-4\. Click **DNS records** on the top middle
-
-5\. Click **Verify DNS settings** and see if all 5 DNS records, especially the MX record, have a green checkmark?
-
-**  
-**
-
-Sometimes it might show if they have all green checkmarks, but it might not be the case; you will need to click the Verify DNS Settings button again to refresh the record:
-
-****
-
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155033710882/original/n5TrO-ghOMdCcUoKy1eLVCyu09YJz5OnAA.jpg?1727465373)**  
-
-
-****
-
-**  
-**
-
-### **5\. If you are using an SMTP provider instead of Mailgun/LC Email**
-
-**  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48283738240/original/iuhABh85E9KeBQj_tREvrShtALdHnMmXAA.png?1677272715)**
-
-**  
-**
-
-### **6\. If you are using WIX as your Domain DNS provider**
+If you're using WIX as your domain/DNS provider
 
 Check out [Mailgun replies not working when using WIX as the domain provider](<https://help.gohighlevel.com/support/solutions/articles/48001188738-mailgun-replies-not-working-when-using-wix-as-the-domain-provider>).
 
-  
+2
 
+## Frequently Asked Questions
 
-* * *
+Q: Can I customize the email address that replies are sent to?
 
-# **Frequently Asked Questions**
+Yes, you can usually customize the "reply-to" email address in your settings. This lets you route replies to a specific address, which can help manage communications more effectively.
 
-  * **Can I customize the email address from which replies are sent?** Yes, you can usually customize the "reply-to" email address in your settings. This allows you to ensure that replies go to a specific address, which can help manage communications more effectively.
+Q: How can I integrate other email providers to improve reply visibility?
 
-  * **How can I integrate other email providers with HighLevel to improve reply visibility?** Integration with other email providers can often enhance functionality. Check the platform’s integration options to connect services like Gmail or Outlook, which may provide better tracking and visibility for email replies.
+Integrating other email providers can often enhance functionality. Check the platform's integration options to connect services like Gmail or Outlook, which may provide better tracking and visibility for email replies.
 
-  * **What should I do if the issue persists despite troubleshooting?** If troubleshooting does not resolve the issue, consider reaching out to HighLevel’s support team for further assistance. They can provide insights specific to your account and help identify any underlying issues.
+Q: What should I do if the issue persists despite troubleshooting?
 
+If troubleshooting doesn't resolve the issue, reach out to support for further assistance. They can provide insights specific to your account and help identify any underlying issues.
 
-* * *
+Q: Do I need to repeat this setup for every sub-account or location?
 
-# **Related Articles**
+Yes. MX records and receiving routes are configured per domain/subdomain, so each sub-account using its own sending domain needs its MX and DNS records verified separately.
 
-  * [](<https://help.gohighlevel.com/en/support/solutions/articles/155000002369>)[How to send a test email in conversations](<https://help.gohighlevel.com/support/solutions/articles/48001208887-how-to-send-a-test-email-in-the-conversation>)
-  * [Troubleshooting when conversations are glitching ](<https://help.gohighlevel.com/support/solutions/articles/48001184861-troubleshooting-when-conversations-are-glitching>)
+Q: How do I know if my MX record changes have propagated yet?
 
+Use MX Toolbox to re-run the lookup for your domain/subdomain. If it still doesn't show `mxa.mailgun.org` and `mxb.mailgun.org`, give it a bit more time — DNS propagation can take up to 24–48 hours.
 
-  
+Related Articles
 
-
-  
-
-
-**  
-**
+[How to send a test email in conversations](<https://help.gohighlevel.com/support/solutions/articles/48001208887-how-to-send-a-test-email-in-the-conversation>) [Troubleshooting when conversations are glitching](<https://help.gohighlevel.com/support/solutions/articles/48001184861-troubleshooting-when-conversations-are-glitching>)

@@ -6,70 +6,101 @@
 
 ---
 
-**Configuring Zoho as Your SMTP Provider in HighLevel**
+Email Infrastructure
 
-This article provides a step-by-step guide for integrating Zoho Mail as your SMTP provider within HighLevel. SMTP (Simple Mail Transfer Protocol) is essential for sending emails reliably from your HighLevel account, and using Zoho's SMTP server can help ensure smooth email delivery. In this guide, you'll find detailed instructions on setting up Zoho as your SMTP provider, including configuration settings and troubleshooting tips. Whether you're setting up Zoho for the first time or need to adjust your current settings, this guide will help you achieve seamless email communication through HighLevel.
+Configuring Zoho as Your SMTP Provider
 
+The exact outgoing server settings for connecting Zoho Mail as your SMTP provider, for both personal and domain-based accounts.
+
+Overview
+
+SMTP (Simple Mail Transfer Protocol) is what reliably delivers email sent from the platform. Using Zoho Mail's SMTP server can help ensure smooth, consistent delivery for your outbound messages.
+
+This guide covers the outgoing server settings for both personal Zoho accounts and domain-based organization accounts, plus a few common configuration gotchas.
+
+Table of Contents
+
+1
+
+Outgoing server settings for personal email users
+
+2
+
+Outgoing server settings for domain-based organizations
+
+3
+
+Frequently Asked Questions
+
+Video Walkthrough
+
+Reference
+
+If you also need incoming mail settings, see Zoho's [Zoho Mail IMAP Server Details](<https://www.zoho.com/mail/help/imap-access.html>).
+
+1
+
+## Outgoing server settings for personal email users
+
+For personal accounts with an address like **username@zoho.com** , use these settings:
+
+Setting| Value  
+---|---  
+Outgoing Server Name| smtp.zoho.com  
+Port| **465** with SSL — or — **587** with TLS  
+Require Authentication| Yes  
   
+Tip
 
+Learn more about [Why Can't I Use My Free Email Address As The SMTP?](<https://help.gohighlevel.com/en/support/solutions/articles/48001063376>)
 
-**TABLE OF CONTENTS**
+2
 
-    * Outgoing Server Settings for Personal Email Users
-    * Outgoing Server Settings for Organizations with domain-based email
-  * Frequently Asked Questions
-  * Related Articles
+## Outgoing server settings for domain-based organizations
 
+For organization accounts with a domain-based address like **you@yourdomain.com** , use these settings:
 
-* * *
-
+Setting| Value  
+---|---  
+Outgoing Server Name| smtppro.zoho.com  
+Port| **465** with SSL — or — **587** with TLS  
+Require Authentication| Yes  
+Username| Your Zoho username or full Zoho Mail address (you@yourdomain.com)  
+Email Address| Your Zoho Mail address (you@yourdomain.com)  
+Password| Your Zoho account password (an app-specific password is required if two-factor authentication is enabled)  
   
+Note
 
+If two-factor authentication is enabled on your Zoho account, you'll need to generate an [application-specific password](<https://www.zoho.com/mail/help/adminconsole/two-factor-authentication.html#alink5>) and use that in the password field instead of your regular Zoho password.
 
-  
+3
 
+## Frequently Asked Questions
 
-[Zoho Mail IMAP Server Details](<https://www.zoho.com/mail/help/imap-access.html>)
+Q: Should I use smtp.zoho.com or smtppro.zoho.com?
 
-  
+Use **smtp.zoho.com** for a personal @zoho.com address. Use **smtppro.zoho.com** if your domain is hosted with Zoho and your email address is on a custom domain (you@yourdomain.com).
 
+Q: Should I use port 465 or port 587?
 
-  
+Both work. Port 465 uses SSL and port 587 uses TLS. If one doesn't connect, try the other — it's usually a firewall or network restriction rather than a Zoho-side issue.
 
+Q: Do I need an app-specific password?
 
-## **Outgoing Server Settings for Personal Email Users:******(Personal users with an email address,****_username_**@zoho.com):**
+Only if two-factor authentication is enabled on your Zoho account. In that case, your regular password won't work for SMTP — generate an application-specific password instead.
 
-Outgoing Server Name: **smtp.zoho.com**  
-Port: **465** with **SSL** _or_  
-Port: **587** with **TLS**  
-Require Authentication: **Yes**
+Q: Can I use a free personal Zoho address as my SMTP sender?
 
-Learn more about [Why Can't I use My Free Email Address As The SMTP?](<https://help.gohighlevel.com/en/support/solutions/articles/48001063376>)
+You can connect it, but sending high volumes of automated or bulk mail from a free personal address is more likely to hit provider sending limits or deliverability issues than a domain-based account.
 
-  
+Q: Is there a sending limit with Zoho SMTP?
 
+Yes, Zoho enforces daily sending limits that vary by plan. Check your Zoho Mail plan details if you're sending in volume.
 
-## **Outgoing Server Settings for Organizations with domain-based email:******(Organization users with a domain-based email address,******you** @**_yourdomain.com_):**
+Q: Can I use a Zoho Mail alias as my sender address?
 
-Outgoing Server Name: **smtppro.zoho.com**  
-Port: **465** with **SSL** _or_  
-Port: **587** with **TLS**  
-Require Authentication: **Yes**
+Generally yes, as long as the alias is verified in your Zoho account. Authenticate with your primary Zoho credentials and set the alias as the visible sender address.
 
-**User Name:** Enter your Zoho username or your complete Zoho Mail address. If your domain is hosted with Zoho, then your email address will be in the format **you@yourdomain.com**.  
-  
-**Email Address:** Enter Your Zoho Mail address. If your domain is hosted with Zoho, then your email address will be in the format **you@yourdomain.com**.  
-  
-**Password:** Enter your Zoho account password. (You might require an [Application-specific Password](<https://www.zoho.com/mail/help/adminconsole/two-factor-authentication.html#alink5>) if Two-factor Authentication is enabled).
+Related Articles
 
-* * *
-
-# **Frequently Asked Questions**
-
-Currently no frequently asked questions. Submit feedback on this article to help is add questions to this section!
-
-* * *
-
-# **Related Articles**
-
-  * [](<https://help.gohighlevel.com/en/support/solutions/articles/155000002369>)[How to setup other SMTP Providers](<https://help.gohighlevel.com/support/solutions/articles/48001059689-setting-up-smtp-providers>)
+[How to Setup Other SMTP Providers](<https://help.gohighlevel.com/support/solutions/articles/48001059689-setting-up-smtp-providers>) [Why Can't I Use My Free Email Address As The SMTP?](<https://help.gohighlevel.com/en/support/solutions/articles/48001063376>)

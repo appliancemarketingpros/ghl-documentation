@@ -15,6 +15,8 @@ You're in the right place to set up **Rentals** within HighLevel. Learn how to c
   * What are Rentals?
   * What's New in Rentals
   * Setting Up Rentals
+  * Upcoming Features
+  * How to Provide Feedback
   * Frequently Asked Questions
   * Related Articles
 
@@ -90,7 +92,7 @@ Rentals is built to handle the unique complexities of rental-based scheduling. H
   
 
 
-If you don't see the Rentals tab in your Calendar settings, enable it by following the instructions in [How To Enable Rentals in Public Beta](<https://help.gohighlevel.com/en/support/solutions/articles/155000006740>).
+If you don't see the Rentals tab in your Calendar settings, enable it by following the instructions in [How To Enable/Disable Rentals For Your Locations](<https://help.gohighlevel.com/support/solutions/articles/155000006740-how-to-enable-disable-rentals-for-your-locations>).
 
   
 
@@ -192,6 +194,62 @@ Create a test booking from the Calendar View or Appointments tab to verify confi
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056179216/original/SHZWfSEnvcYEuc71XnhUlj8xZJwDLq-nFg.png?1760634793)
 
 * * *
+
+## **Upcoming Features**
+
+  
+
+
+We're constantly working to enhance **Rentals**. Here’s a sneak peek of what's coming up in the future:
+
+  * **Mobile App** **Support**(create and view rental bookings from the mobile app)
+  * **Conversation AI** and **Voice AI** support
+  * **Add ons and additional fees**
+  * **Cancellation links**
+  * **Audit logs for bookings**
+  * **Public APIs**
+
+
+****
+    
+    
+    ****Note :** Rental invoices are not automatically sent to the customer whenever a booking is created. We are working on rectifying the information being displayed within the contacts/conversations page that conveys otherwise.**
+
+**  
+**
+
+## **How to Provide Feedback**
+
+  
+
+
+Your feedback is critical to improving Rentals before general release. Here’s how to share it:
+
+  1. #### **Post your feedback/suggestions/ideas** on our [Canny board](<https://highlevel.canny.io/scheduling-calendar>).
+
+  2. #### **Schedule a Feedback Call:** Book a time that works for you using [this scheduling link](<http://speakwith.us/mayankjain>).
+
+  3. **Email Us** — Contact us directly at:
+
+     * [mayank.jain@gohighlevel.com](<mailto:mayank.jain@gohighlevel.com>)
+
+     * [swadha.bhoj@gohighlevel.com](<mailto:swadha.bhoj@gohighlevel.com>)  
+  
+
+
+  4. #### **Connect With Us on Facebook** Prefer chatting on social? Reach out via our Facebook profiles:
+
+     * [Mayank Jain](<https://www.facebook.com/mayank2511>)– PM, Calendars
+
+**[](<https://www.facebook.com/swadha.highlevel>)**[](<https://www.facebook.com/swadha.highlevel>)[](<https://www.facebook.com/swadha.highlevel>)
+
+     * [Swadha Bhoj](<https://www.facebook.com/swadha.highlevel>) – PM, Calendars
+
+
+* * *
+
+  
+
 
 ## **Frequently Asked Questions**
 

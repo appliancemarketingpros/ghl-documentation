@@ -93,6 +93,11 @@ WordPress now has full internationalization coverage across supported platform l
   
 
 
+Funnels and Funnel Stats support localized user-facing messages. This includes validation messages, error messages, and success messages shown in Funnels and Funnel Stats experiences. These messages use the location’s locale setting when available. If no location locale applies, HighLevel uses the user’s platform language, then English as the default language.
+
+  
+
+
 Products| Spanish| German| French France| French Canada| Portuguese (Portugal)| Portuguese (Brazil)| Italian| Dutch| Swedish| Danish| Finnish| Norwegian  
 ---|---|---|---|---|---|---|---|---|---|---|---|---  
 Location Dashboard| Y| Y| Y| Y| Y| Y| Y| Y| Y| Y| Y| Y  

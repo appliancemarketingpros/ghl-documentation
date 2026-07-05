@@ -6,452 +6,353 @@
 
 ---
 
-**TABLE OF CONTENTS**
+Email Deliverability
 
-  * Step-by-step LC Email Dedicated Domain Setup - Siteground
-    * To add the 1st TXT record
-    * To add the 2nd TXT record
-    * To add the 1st MX records
-    * To add the 2nd MX records
-    * To add the CNAME record
+LC Email Dedicated Domain Setup — Siteground
 
+A step-by-step guide to adding the 5 required DNS records in Siteground to authenticate your dedicated sending domain.
 
-* * *
+What You'll Learn
 
-#   
-Step-by-step LC Email Dedicated Domain Setup - Siteground
+This guide walks you through configuring a dedicated sending domain for LeadConnector Email inside Siteground's DNS Zone Editor. You'll add two TXT records, two MX records, and one CNAME record — five records in total.
 
-  
-
-
-1\. Once you are in the sub-account > Click on **Settings** > **Email Services** > **Dedicated Domain** >**\+ Add Domain**
-
-  
-
-
-Check out [How to Migrate My Agency Over to LC - Email](<https://help.gohighlevel.com/en/support/solutions/articles/48001222501>)  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292765242/original/jQLugI8wtvQRfs38XJDujiQd2QnIgjQqSA.gif?1681496688)
-
-  
-
-
-  
-
-
-  
-
-
-2\. If your Domain is companyname.com, you can set up a main Domain or sub-domain. 
-
-  
-
-
-Check out [How to move a sending domain from Mailgun to LeadConnector?](<https://help.gohighlevel.com/support/solutions/articles/48001226115-how-to-set-up-a-dedicated-sending-domain-lc-email-#How-to-move-sending-domain-from-Mailgun-to-LeadConnector?>)
-
-Main Domain:
-
-  * If you are adding the main Domain,[ it should not be used with Gsuite or any other email provider](<https://help.mailgun.com/hc/en-us/articles/203357040-Can-I-Use-the-Same-Domain-Name-for-Mailgun-and-for-Google-Apps-Or-Another-Email-Server->)
-
-
-  
-Sub-domain:
-
-  * To set up the subdomain, you can type **ANYTHING_HERE**.companyname.com
-    * Examples:
-      * ****replies**.**companyname.com
-      * **support**.companyname.com
-
-
-  
-
-
-  
-
-
-  
-
-
-3\. Click on **Add & Verify**
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030769485/original/Q46amTmsqcDKAnWZRyL8QCC1l7hdpWCLCg.jpg?1723215212)
-
-  
-
-
-  
-
-
-  
-
-
-The next screen that you're taken to will ask you to add DNS records to your Domain. Leave this screen open for the next step.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030769518/original/u0y6nwg71SG7K_cEFAXEO8VhBAzeldaGQA.jpg?1723215260)
-
-  
-
-
-  
-
-
-4\. Now log in to your DNS records based on where you get the Domain and add the 5 DNS records.
-
-  
-
-
-## To add the 1st TXT record
-
-  
-
-
-To [Add your first TXT record](<https://world.siteground.com/kb/manage-dns-records/#TXT_record_settings>), Log in to [](<https://dash.cloudflare.com/login>)[Siteground](<https://login.siteground.com/login?lang=en>)
-
-Go to **Site Tools** > **Domain** > **DNS Zone Editor**
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030769548/original/VsNojWfnrB6J31RPe6Kf-eYmW7DBngqqlQ.jpg?1723215298)
-
-  
-
-
-  
-
-
-In the Create New Record section
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030780106/original/bHbrF0bUz804hradJsT9OgCLJPXR8Qxiag.jpg?1723224477)  
-
-
-  
-
-
-A. click on the **TXT** tab
-
-  
-
-
-B. Name: different for everyone, **DO NOT INCLUDE THE ROOT DOMAIN**
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030780154/original/LirZym0_7wm9fj29hWQHDt2TXRZOmWAQUQ.jpg?1723224534)  
-
-
-  * Depending on the subdomain you are trying to set up, if you are trying to set up
-    * **lc**.companyname.com - The host name will be **lc**[](<https://replies.companyname.com/>)
-    * **replies**.companyname.com - The host name will be **replies**
-  * If you are setting up a **main** domain like companyname.com, the host name will be **@ or leave empty**
-
-
-  
-
-
-C. Value: Same for everyone
-
-  * paste the following record **v=spf1 include:mailgun.org ~all**
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030780181/original/_hL8idOQ87Q9OiHkGuFyrBAmALbUCfdtAg.jpg?1723224576)  
-
-
-  
-
-
-D. Click on Create
-
-  
-
-
-* * *
-
-  
+Before you start, decide whether you'll use your **main domain** (e.g. companyname.com) or a **subdomain** (e.g. replies.companyname.com). If your main domain is already used with Google Workspace or another mail provider, you must use a subdomain.
 
+Table of Contents
 
-## **To add the 2nd TXT record**
+1
 
-  
-
+Initial Setup — Add & Verify Your Domain
 
-Click on **\+ Add Record** again
+2
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030780286/original/-_m54mJDcyCoz2qwiphfIQjUELRRPGy2TQ.jpg?1723224707)  
+1st TXT Record (SPF)
 
-
-  
+3
 
+2nd TXT Record (DKIM)
 
-  
+4
 
+1st MX Record (mxa.mailgun.org)
 
-  
+5
 
+2nd MX Record (mxb.mailgun.org)
 
-A. click on the **TXT** tab
+6
 
-  
+CNAME Record
 
+7
 
-B. Name: it's a bit tricky but the key here is to copy everything from the beginning until the subdomain part, **DO NOT INCLUDE THE ROOT DOMAIN**
+Frequently Asked Questions
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030780352/original/y-S6ROHWlFNZIPWbWP35TLikz7DU-x5SBg.jpg?1723224751)  
+Setup Guide
 
+5 DNS Records — Complete All Steps in Order
 
-****Everyone's 2nd TXT record hostname and value is different**
+Log in to Siteground and keep the DNS Zone Editor open alongside the platform's DNS records screen throughout this guide.
 
-  
+1
 
+## Initial Setup — Add & Verify Your Domain
 
-Examples: **copy the highlighted part ONLY**
+Step 1
 
-Example 1 using subdomain:  
-Copy **mx._domainkey.helpdesk** as the hostname| ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292768867/original/Oy2wnQ4XgDD5YzExKorYuiEBhl-wH7krkg.png?1681498513)  
----|---  
-Example 2 using main Domain:  
-Copy **mailo._domainkey** as the hostname| ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292768954/original/rXlYB3cbDo6Ix-Oq_XBgdnsiwBHDHuTUig.png?1681498537)  
-  
-  
+Navigate to Dedicated Domain Settings
 
+In your sub-account, go to **Settings → Email Services → Dedicated Domain → + Add Domain**.
 
-  
+![Navigating to Settings > Email Services > Dedicated Domain > Add Domain](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292765242/original/jQLugI8wtvQRfs38XJDujiQd2QnIgjQqSA.gif?1681496688)
 
+Navigate to Settings → Email Services → Dedicated Domain → + Add Domain
 
-C. Value: Head back to HighLevel and Copy and paste the 2nd TXT record here **highlighted in the screenshot below**
+Step 2
 
-  
+Choose Main Domain or Subdomain
 
+If your domain is **companyname.com** , you can set up either the main domain or a subdomain.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030780383/original/HdqP4IVZly9D-b8XMoSreStXhxpKOBhmvg.jpg?1723224827)  
+**Main domain** — if you add the main domain, it must not be used with Google Workspace or any other email provider at the same time.
 
+**Subdomain** — type anything before your root domain, e.g. **replies**.companyname.com or **support**.companyname.com. This is the recommended option if you already use your root domain for email.
 
-  
+Heads Up
 
+If you use Google Workspace (Gmail) for your main domain's incoming email, you **must** use a subdomain here — otherwise your Google Workspace MX records will conflict with the Mailgun MX records you're about to add.
 
-D. Click on **Create**
+Step 3
 
-**  
-**
+Click Add & Verify
 
-* * *
+Enter your domain or subdomain name and click **Add & Verify**.
 
-  
+![Add & Verify button in the platform](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030769485/original/Q46amTmsqcDKAnWZRyL8QCC1l7hdpWCLCg.jpg?1723215212)
 
+The next screen will display the 5 DNS records you need to add. **Keep this screen open** — you'll reference it throughout the following steps.
 
-## To add the 1st MX records
+![DNS records screen showing the 5 records to add](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030769518/original/u0y6nwg71SG7K_cEFAXEO8VhBAzeldaGQA.jpg?1723215260)
 
-  
+Leave this DNS records screen open — you'll copy values from it in the steps below.
 
+2
 
-  
+## 1st TXT Record (SPF)
 
+Log in to [Siteground](<https://login.siteground.com/login?lang=en>) and go to **Site Tools → Domain → DNS Zone Editor**.
 
-  
+![Siteground Site Tools > Domain > DNS Zone Editor](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030769548/original/VsNojWfnrB6J31RPe6Kf-eYmW7DBngqqlQ.jpg?1723215298)
 
+In the **Create New Record** section:
 
-Click on the **MX** tab > Select **Add your own MX records**
+![Create New Record section in Siteground DNS Zone Editor](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030780106/original/bHbrF0bUz804hradJsT9OgCLJPXR8Qxiag.jpg?1723224477)
 
-  
+A
 
+Click the TXT tab
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030780422/original/rNjjKaWuMefXrQn3wNTgUYDpvKK7OsQibA.jpg?1723224862)  
+B — Name
 
+Different for everyone — do NOT include the root domain
 
-  
+Enter only the subdomain portion of your domain:
 
+  * Setting up **lc**.companyname.com → Name: **lc**
+  * Setting up **replies**.companyname.com → Name: **replies**
+  * Setting up the **main domain** (companyname.com) → Name: **@ or leave empty**
 
-If you have a Gsuite account to capture incoming emails for the main domain. Make sure you are using a subdomain. Check out [Can I Use the Same Domain Name for Mailgun and for Google Apps (Or Another Email Server)?](<https://help.mailgun.com/hc/en-us/articles/203357040-Can-I-Use-the-Same-Domain-Name-for-Mailgun-and-for-Google-Apps-Or-Another-Email-Server->)
 
-  
+![Name field for 1st TXT record in Siteground](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030780154/original/LirZym0_7wm9fj29hWQHDt2TXRZOmWAQUQ.jpg?1723224534)
 
+C — Value
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030781114/original/Wr1IYksYWNCM4dmafAALzCOKd5u-UHIIRg.jpg?1723225787)  
+Same for everyone
 
+Paste the following value exactly as shown:
 
-  
+v=spf1 include:mailgun.org ~all
 
+![Value field for 1st TXT record — SPF value](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030780181/original/_hL8idOQ87Q9OiHkGuFyrBAmALbUCfdtAg.jpg?1723224576)
 
-A. Name: Different for everyone
+D
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030782341/original/EoVTlF-5tjzN0euBbaIAnTPzyOadJO6xnw.jpg?1723228044)  
+Click Create
 
+3
 
-Depending on the subdomain you are trying to set up, if you are trying to set up
+## 2nd TXT Record (DKIM)
 
-  * **lc**.companyname.com - The host name will be **lc**[](<https://replies.companyname.com/>)
-  * **replies**.companyname.com - The host name will be **replies**
+Click **\+ Add Record** again to open a new Create New Record form.
 
+![Clicking + Add Record to add a second DNS record](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030780286/original/-_m54mJDcyCoz2qwiphfIQjUELRRPGy2TQ.jpg?1723224707)
 
-If you are setting up a **main** domain like companyname.com, the host name will be **@**
+A
 
-B. Priority is **10** which is also same for everyone no matter what domain you are trying to set
+Click the TXT tab
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030782362/original/S3zPWDAvVfLvcHd18dzny8F2chlD-k-McA.jpg?1723228108)  
+B — Name
 
+Different for everyone — do NOT include the root domain
 
-C. Destination: Same for everyone
+Head back to the platform's DNS records screen and copy the hostname for the 2nd TXT record. Copy everything up to (but not including) your root domain. The key is to exclude **companyname.com** from whatever you paste.
 
-paste the following data **mx a.mailgun.org **
+![2nd TXT record hostname field in Siteground](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030780352/original/y-S6ROHWlFNZIPWbWP35TLikz7DU-x5SBg.jpg?1723224751)
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030782390/original/dCrujp8-torR3KCkqHj9RCUxV9T4IpP4fw.jpg?1723228150)  
+Note
 
+Everyone's 2nd TXT record hostname and value is unique to their account. Copy the exact values shown on your DNS records screen.
 
-D. Click on **Create**
+Examples — **copy only the highlighted portion** :
 
+Scenario| Hostname to enter in Siteground| Example screenshot  
+---|---|---  
+Subdomain (e.g. helpdesk.companyname.com)| mx._domainkey.helpdesk| ![Subdomain DKIM example](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292768867/original/Oy2wnQ4XgDD5YzExKorYuiEBhl-wH7krkg.png?1681498513)  
+Main domain (companyname.com)| mailo._domainkey| ![Main domain DKIM example](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48292768954/original/rXlYB3cbDo6Ix-Oq_XBgdnsiwBHDHuTUig.png?1681498537)  
   
+C — Value
 
+Unique — copy from the platform's DNS records screen
 
-* * *
+Go back to the platform and copy the value shown for the 2nd TXT record (highlighted below). Paste it into the Value field in Siteground.
 
-  
+![2nd TXT record value highlighted on the platform DNS screen](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030780383/original/HdqP4IVZly9D-b8XMoSreStXhxpKOBhmvg.jpg?1723224827)
 
+D
 
-##  To add the 2nd MX records
+Click Create
 
-  
+4
 
+## 1st MX Record (mxa.mailgun.org)
 
-Add another MX record again, this time Destination will be mx** __b__**.mailgun.org
+Click **\+ Add Record** to open a new form. This time, click the **MX** tab and select **Add your own MX records**.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030782407/original/STd7r76SSYxjjEueEZ71PlcaGBOkTHo5Jw.jpg?1723228189)  
+![Clicking MX tab and selecting Add your own MX records](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030780422/original/rNjjKaWuMefXrQn3wNTgUYDpvKK7OsQibA.jpg?1723224862)
 
+![MX record form with Add your own MX records selected](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030781114/original/Wr1IYksYWNCM4dmafAALzCOKd5u-UHIIRg.jpg?1723225787)
 
-  
+A — Name
 
+Different for everyone
 
-A. Name: Different for everyone
+Use the same logic as the TXT records above:
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030782413/original/HGLSaAWGMgGCvPBFzdZi2p5c6a2196-KMQ.jpg?1723228228)  
+  * **lc**.companyname.com → Name: **lc**
+  * **replies**.companyname.com → Name: **replies**
+  * Main domain (companyname.com) → Name: **@**
 
 
-Depending on the subdomain you are trying to set up, if you are trying to set up
+![Name field for 1st MX record](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030782341/original/EoVTlF-5tjzN0euBbaIAnTPzyOadJO6xnw.jpg?1723228044)
 
-  * **lc**.companyname.com - The host name will be **lc**[](<https://replies.companyname.com/>)
-  * **replies**.companyname.com - The host name will be **replies**
+B — Priority
 
+Same for everyone: 10
 
-If you are setting up a **main** domain like companyname.com, the host name will be **@**
+![Priority field set to 10](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030782362/original/S3zPWDAvVfLvcHd18dzny8F2chlD-k-McA.jpg?1723228108)
 
-B. Priority is **10** which is also same for everyone no matter what domain you are trying to set
+C — Destination
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030783105/original/TBBrnlPpoLpeqs517AvUL65F5TN5oV6qbQ.jpg?1723229730)  
+Same for everyone
 
+Paste the following destination:
 
-C. Destination: Same for everyone
+mxa.mailgun.org
 
-paste the following data **mx b.mailgun.org**
+![Destination field set to mxa.mailgun.org](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030782390/original/dCrujp8-torR3KCkqHj9RCUxV9T4IpP4fw.jpg?1723228150)
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030783114/original/gmZ3PYwnHX5SoqOoa1c3TPV-FvlUOwQM6A.jpg?1723229761)  
+D
 
+Click Create
 
-D. Click on **Create**
+5
 
-  
+## 2nd MX Record (mxb.mailgun.org)
 
+Click **\+ Add Record** again. The 2nd MX record is identical to the 1st except the destination changes to **mxb**.
 
-* * *
+![2nd MX record form](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030782407/original/STd7r76SSYxjjEueEZ71PlcaGBOkTHo5Jw.jpg?1723228189)
 
-  
+A — Name
 
+Different for everyone — same logic as the 1st MX record
 
-##  To add the CNAME record
+  * **lc**.companyname.com → Name: **lc**
+  * **replies**.companyname.com → Name: **replies**
+  * Main domain → Name: **@**
 
-  
 
+![Name field for 2nd MX record](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030782413/original/HGLSaAWGMgGCvPBFzdZi2p5c6a2196-KMQ.jpg?1723228228)
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030783142/original/PpLAFvnX8fpVSkGYfge-jqVsPe-05bhTMA.jpg?1723229788)  
+B — Priority
 
+Same for everyone: 10
 
-  
+![Priority set to 10 for 2nd MX record](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030783105/original/TBBrnlPpoLpeqs517AvUL65F5TN5oV6qbQ.jpg?1723229730)
 
+C — Destination
 
-A. Click on the **CNAME** tab
+Same for everyone
 
-  
+mxb.mailgun.org
 
+![Destination field set to mxb.mailgun.org](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030783114/original/gmZ3PYwnHX5SoqOoa1c3TPV-FvlUOwQM6A.jpg?1723229761)
 
-B. Name: Different for everyone
+D
 
-Head back to HighLevel to copy the host name, it's a bit tricky but the key here is to copy everything from the beginning until the subdomain part, **DO NOT copy the main domain**
+Click Create
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030783146/original/NzlqSBBFNxO15QArOp7-b2YQT2e5HoEqmg.jpg?1723229819)  
+6
 
+## CNAME Record
 
-Depending on the subdomain you are trying to set up, if you are trying to set up
+Click **\+ Add Record** one final time.
 
-  * lc.companyname.com The host name will be **email****.****lc**
-  * replies.companyname.com The host name will be **email****.****replies**
+![CNAME record form in Siteground DNS Zone Editor](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030783142/original/PpLAFvnX8fpVSkGYfge-jqVsPe-05bhTMA.jpg?1723229788)
 
+A
 
-If you are setting up a **main** domain like companyname.com, the host name will be **email**
+Click the CNAME tab
 
-  
+B — Name
 
+Different for everyone — do NOT copy the root domain
 
-  
+Go back to the platform and copy the CNAME hostname. Exclude the root domain portion.
 
+  * lc.companyname.com → Name: **email.lc**
+  * replies.companyname.com → Name: **email.replies**
+  * Main domain (companyname.com) → Name: **email**
 
-C. Resolves to: Same for everyone
 
-paste the following data **mailgun.org**
+![CNAME Name field in Siteground](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030783146/original/NzlqSBBFNxO15QArOp7-b2YQT2e5HoEqmg.jpg?1723229819)
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030783164/original/pajiIQ0wDsE7fPob2fz6xdduz_LfP-iKMg.jpg?1723229856)  
+C — Resolves To
 
+Same for everyone
 
-D. Click on **Create**
+mailgun.org
 
-  
+![CNAME Resolves To field set to mailgun.org](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030783164/original/pajiIQ0wDsE7fPob2fz6xdduz_LfP-iKMg.jpg?1723229856)
 
+D
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030783184/original/F1CbuTsrXYX_Jc1kpb5rRqS82VtyueNFiQ.jpg?1723229890)  
+Click Create
 
+![All 5 DNS records added in Siteground](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030783184/original/F1CbuTsrXYX_Jc1kpb5rRqS82VtyueNFiQ.jpg?1723229890)
 
-Now that you have added 5 records, Go back to HighLevel and click on **Verify DNS Settings**
+All 5 records have been added — now head back to the platform to verify.
 
-  
+Now that all 5 DNS records are in place, go back to the platform and click **Verify DNS Settings**.
 
+![Verify DNS Settings button in the platform](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030783203/original/X-TDph4fv6CxTwGhAoTVFfFqut48mxYVKQ.jpg?1723229933)
 
-  
+Heads Up
 
+If some records still show a red ✗ after verifying, click **Verify Domain** again. DNS changes can take up to 24–48 hours to propagate fully, though they often appear within minutes on Siteground.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030783203/original/X-TDph4fv6CxTwGhAoTVFfFqut48mxYVKQ.jpg?1723229933)  
+Next Steps
 
+Once all records show a green checkmark, verify your [SSL Certificate for Dedicated Sending Domain (LC - Email)](<https://help.gohighlevel.com/en/support/solutions/articles/48001227438>) is set up correctly.
 
-  
+Then [send a test email from the Conversation](<https://help.gohighlevel.com/en/support/solutions/articles/48001208887>) to confirm everything is working end-to-end.
 
+7
 
-Click the same button to **Verify Domain** again if some records are still not showing the green checkmark
+## Frequently Asked Questions
 
-  
+Q: Do I need a dedicated sending domain, or can I use the shared domain?
 
+You can use the shared LeadConnector domain to send emails without any DNS setup. However, a dedicated sending domain improves deliverability and brand trust because emails appear to come from your own domain rather than a shared one. It also gives you full control over your sending reputation.
 
-Once you add all the DNS records and verify, you can make sure the [SSL Certificate for Dedicated Sending Domain (LC - Email)](<https://help.gohighlevel.com/en/support/solutions/articles/48001227438>) is all set.
+Q: Can I use my main domain (e.g. companyname.com) if I also use Google Workspace for company email?
 
-  
+No — you cannot use the same domain for both Google Workspace (or any other mail provider) and the Mailgun MX records required for LC Email. If your main domain already has Google Workspace MX records, use a subdomain (e.g. **replies.companyname.com**) instead.
 
+Q: How long does DNS propagation take after adding the records in Siteground?
 
-Then we could send a test email to see if everything works! Click here to learn [How to send a test email in the Conversation](<https://help.gohighlevel.com/en/support/solutions/articles/48001208887>)
+Siteground DNS changes often propagate within a few minutes for records managed within their system. However, full global propagation can take up to 24–48 hours in some cases. If verification fails immediately after adding the records, wait 15–30 minutes and click **Verify Domain** again.
 
-  
+Q: Why do I need two MX records (mxa and mxb)?
 
+The two MX records (**mxa.mailgun.org** and **mxb.mailgun.org**) provide redundancy for Mailgun's inbound email routing. If one server is unavailable, email is automatically routed through the other. Both records use the same priority of 10.
 
-* * *
+Q: Some of my DNS records show a red ✗ even after waiting. What should I do?
 
-  
+Double-check that you did not include the root domain in any of the Name/Hostname fields. For example, if your domain is **replies.companyname.com** , the name for the TXT and MX records should be **replies** only — not **replies.companyname.com**. Also confirm that the 2nd TXT value was copied exactly from the platform without any extra spaces.
 
+Q: Can I use any subdomain name, or does it have to be something specific?
 
-# **Frequently Asked Questions**
+You can use any subdomain prefix you like — common choices are **replies** , **mail** , **lc** , **send** , or **support**. The subdomain name itself does not affect deliverability. Pick something that makes sense for your workflow.
 
-Currently no frequently asked questions. Submit feedback on this article to help is add questions to this section!
+Q: Will my contacts notice any difference after switching to a dedicated sending domain?
 
-* * *
+Contacts will see emails appearing to come from your own domain (e.g. noreply@replies.companyname.com) instead of a shared LeadConnector domain. This can improve open rates and trust. The sending experience from your side within the platform does not change.
 
-# **Related Articles**
+Q: Do I need to repeat this process for each sub-account?
 
-  * [Siteground Domain Setup for Mailgun](<https://help.gohighlevel.com/a/solutions/articles/48000981685?portalId=48000045315>)
+Yes — dedicated sending domains are configured per sub-account. If multiple sub-accounts need dedicated domains, you can use different subdomains for each (e.g. **team1.companyname.com** and **team2.companyname.com**), or the same subdomain on separate sub-accounts if needed.
 
+Related Articles
 
-#
+[How to Migrate My Agency Over to LC - Email](<https://help.gohighlevel.com/en/support/solutions/articles/48001222501>) [How to Set Up a Dedicated Sending Domain (LC - Email)](<https://help.gohighlevel.com/support/solutions/articles/48001226115-how-to-set-up-a-dedicated-sending-domain-lc-email->) [SSL Certificate for Dedicated Sending Domain (LC - Email)](<https://help.gohighlevel.com/en/support/solutions/articles/48001227438>) [How to Send a Test Email in the Conversation](<https://help.gohighlevel.com/en/support/solutions/articles/48001208887>) [Siteground Domain Setup for Mailgun](<https://help.gohighlevel.com/a/solutions/articles/48000981685>)

@@ -6,310 +6,264 @@
 
 ---
 
-Deliver every email at the moment your audience is most likely to open it! AI Schedule uses send-time optimization to analyze each contact’s historical engagement and automatically schedule delivery inside a window you define. This article goes over how to use the AI Schedule feature to boost your opens, clicks, and replies with zero extra work.
+Email · AI Features
 
-* * *
+AI Schedule for Emails
 
-**TABLE OF CONTENTS**
+Automatically deliver each email at the moment your contact is most likely to open it — no guesswork required.
 
-  * What is AI Schedule for Emails?
-  * Key Benefits of AI Schedule
-  * How AI Schedule Works
-  * Important limitations of AI Schedule
-  * Choosing an Optimization Window
-  * How To Set Up and Send Emails with AI Schedule
-  * Troubleshooting AI Schedule
-  * Frequently Asked Questions
-  * Related Articles
+What You'll Learn
 
+AI Schedule uses send-time optimization to analyze each contact's historical engagement and automatically schedule delivery inside a window you define. This article explains how to use AI Schedule to boost your opens, clicks, and replies with zero extra work.
 
-* * *
+AI Schedule lives alongside your existing send options in Conversations, making it easy to switch between Send Now, Send Later, and AI-optimized delivery while composing emails.
 
-# **What is AI Schedule for Emails?**
+Table of Contents
 
-  
+1
 
+What is AI Schedule for Emails?
 
-AI Schedule uses engagement intelligence to deliver each email when a contact is most likely to notice, open, and respond. Instead of picking an exact time yourself, you choose a time window and HighLevel’s AI selects the optimal send time within that window based on the contact’s historical behavior. If there isn’t enough data for a recipient, the message is sent immediately to avoid delays.
+2
 
-  
+Key Benefits of AI Schedule
 
+3
 
-AI Schedule lives alongside your existing send options in Conversations, making it easy to switch between Send Now, Send Later, and AI‑optimized delivery while composing emails.
+How AI Schedule Works
 
-  
+4
 
+Important Limitations of AI Schedule
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060449621/original/P8AWBYVM4xuHo8W-o68dU7PrvfrbFqF8Jg.jpeg?1765490871)
+5
 
-* * *
+Choosing an Optimization Window
 
-## **Key Benefits of AI Schedule**
+6
 
-  
+How To Set Up and Send Emails with AI Schedule
 
+7
 
-Understanding the practical advantages helps you decide when to rely on AI Schedule versus standard scheduling. 
+Frequently Asked Questions
 
-  
+Video Walkthrough
 
+1
 
-  * **Higher Engagement:** Timing is selected from predicted high‑engagement moments within the window you choose.  
-  
+## What is AI Schedule for Emails?
 
-  * **Per‑Recipient Optimization:** Delivery timing is tailored for each recipient when sufficient behavioral data exists.  
-  
+AI Schedule uses engagement intelligence to deliver each email when a contact is most likely to notice, open, and respond. Instead of picking an exact time yourself, you choose a time window and the platform's AI selects the optimal send time within that window based on the contact's historical behavior.
 
-  * **Hands‑Off Efficiency:** AI chooses the send time so you don’t need to calculate time zones or best hours.  
-  
+If there isn't enough data for a recipient, the message is sent immediately to avoid delays.
 
-  * **Less List Fatigue: I** ndividualized timing spreads volume naturally, reducing the “email blast” effect and lowering spam complaints.
+![AI Schedule option shown in the Conversations email composer alongside Send Now and Send Later](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060449621/original/P8AWBYVM4xuHo8W-o68dU7PrvfrbFqF8Jg.jpeg?1765490871)
 
+AI Schedule appears alongside Send Now and Send Later in the Conversations composer.
 
-* * *
+2
 
-## **How AI Schedule Works**
+## Key Benefits of AI Schedule
 
-  
+Understanding the practical advantages helps you decide when to rely on AI Schedule versus standard scheduling.
 
+Benefit 1
 
-A quick mental model of the decision process ensures you choose the right window and understand what AI Schedule does behind the scenes.
+Higher Engagement
 
-  
+Timing is selected from predicted high-engagement moments within the window you choose, increasing the likelihood your email gets noticed.
 
+Benefit 2
 
-  1. **You choose a time window** (e.g., next 48 hours).  
-  
+Per-Recipient Optimization
 
+Delivery timing is tailored for each recipient individually when sufficient behavioral data exists — no one-size-fits-all scheduling.
 
-  2. **AI analyzes historical engagement** for the recipient (e.g., opens/replies patterns available to the system).  
-  
+Benefit 3
 
+Hands-Off Efficiency
 
-  3. **AI picks the best time within the selected window** from the predicted high‑engagement moments.  
-  
+The AI chooses the send time so you don't need to calculate time zones or research optimal send hours for each segment.
 
+Benefit 4
 
-  4. **Email is scheduled automatically** for that optimized time.  
-  
+Less List Fatigue
 
+Individualized timing spreads send volume naturally, reducing the "email blast" effect and lowering the risk of spam complaints.
 
-  5. **Insufficient data?** The message is **sent immediately** so the window is not missed.
+3
 
+## How AI Schedule Works
 
-* * *
+Here's a quick mental model of the decision process so you understand what happens behind the scenes after you click send.
 
-## **Important limitations of AI Schedule**
+Step 1
 
-  
+You choose a time window
 
+For example, next 12 hours, 48 hours, or 72 hours.
 
-  * After you confirm **Send with AI Optimization** , the message **cannot be deleted or rescheduled**.  
-  
+Step 2
 
+AI analyzes historical engagement
 
-  * This feature is only available for sub-accounts using **LC****Email** or **Mailgun** providers.  
-  
+The system reviews the recipient's historical open and reply patterns to identify when they tend to be most active.
 
+Step 3
 
-  * It is **not supported for accounts with 2-way sync enabled,** even if they use LC or Mailgun.
+AI picks the best time within your window
 
+From the predicted high-engagement moments, the AI selects the optimal delivery time that falls inside your chosen window.
 
-* * *
+Step 4
 
-## **Choosing an Optimization Window**
+Email is scheduled automatically
 
-  
+No further action needed — the email is queued for delivery at the optimized time.
 
+Fallback
 
-The window balances personalization and speed. Larger windows increase AI’s flexibility to find a high‑engagement moment, while smaller windows prioritize faster delivery.
+Insufficient data? Sent immediately.
 
-  
+If there isn't enough engagement history for a recipient, the message is sent right away so your window is never missed.
 
+4
 
-  * **Short windows (e.g., 12h):** prioritize speed with moderate optimization.  
-  
+## Important Limitations of AI Schedule
 
+Important
 
-  * **Medium windows (e.g., 48h):** recommended balance of timing and delivery speed.  
-  
+After you confirm **Send with AI Optimization** , the message **cannot be deleted or rescheduled**. Make sure your email is final before confirming.
 
+Email Provider Requirement
 
-  * **Longer windows (e.g., 72h):** allow more optimization when timeliness is less critical.
+AI Schedule is only available for sub-accounts using **LC Email** or **Mailgun** as their email provider.
 
+2-Way Sync Not Supported
 
-  
+AI Schedule is not supported for accounts with 2-way sync enabled, even if they use LC Email or Mailgun.
 
-    
-    
-    **Tip:** Consider your campaign goals. Time‑sensitive updates may benefit from a shorter window, whereas newsletters or nurtures often do well with a longer window.
+5
 
-  
+## Choosing an Optimization Window
 
+The window balances personalization and speed. Larger windows give the AI more flexibility to find a high-engagement moment, while smaller windows prioritize faster delivery.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060443993/original/rzPJmpe6POXZVuUYmrSLUbnnSJq6bbsROw.png?1765478339)
+Short Window (e.g. 12h)
 
-* * *
+Prioritize Speed
 
-## **How To Set Up and Send Emails with AI Schedule**
+Best for time-sensitive updates or announcements where you need delivery soon with moderate optimization.
 
-  
+Medium Window (e.g. 48h) — Recommended
 
+Balanced Approach
 
-Follow these steps when composing an email in Conversations to leverage Schedule AI to improve your engagement rate.
+The recommended balance of timing precision and delivery speed for most use cases.
 
-  
+Long Window (e.g. 72h)
 
+Maximum Optimization
 
-  
+Best when timeliness is less critical, such as newsletters or long-running nurture sequences.
 
+Tip
 
-#### _**Step 1:** Open a Conversation_
+Consider your campaign goals. Time-sensitive updates may benefit from a shorter window, whereas newsletters or nurture emails often perform better with a longer window.
 
-  
+![Optimization window selector showing 12h, 48h, and 72h options](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060443993/original/rzPJmpe6POXZVuUYmrSLUbnnSJq6bbsROw.png?1765478339)
 
+The optimization window selector with available time ranges.
+
+6
+
+## How To Set Up and Send Emails with AI Schedule
+
+Follow these steps when composing an email in Conversations to leverage AI Schedule and improve your engagement rate.
+
+Step 1
+
+Open a Conversation
 
 Go to **Conversations** and open or start an email thread. Compose your email's subject and message content.
 
-  
+![Email composer open in a Conversations thread](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060449840/original/EP4zZPTa2fu3FiEkce2OR_pPdxQgWImXmg.png?1765491131)
 
+Step 2
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060449840/original/EP4zZPTa2fu3FiEkce2OR_pPdxQgWImXmg.png?1765491131)
+Select AI Schedule
 
-  
+Click the Send menu and choose **AI Schedule**.
 
+![Send menu open with AI Schedule option highlighted](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060449878/original/7b0J2qVv55qIfDATz0fleT39VqjuABs29A.png?1765491227)
 
-  
+Step 3
 
+Open the Optimization Window Selector
 
-#### _**Step 2:** Select AI Schedule_
+To change the **Optimization Window** , click **Edit**.
 
-  
+![AI Schedule panel showing the Edit button to change the optimization window](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060449910/original/Crjfuhp3RseZ0Di0m2DWjCIwd48_yODHGQ.png?1765491373)
 
+Step 4
 
-Click the Send menu and choose **AI Schedule.**
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060449878/original/7b0J2qVv55qIfDATz0fleT39VqjuABs29A.png?1765491227)
-
-  
-
-
-  
-
-
-#### _**Step 3:** Open Optimization Window Selector_
-
-  
-
-
-To change the **Optimization Window** , click **Edit****.**
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060449910/original/Crjfuhp3RseZ0Di0m2DWjCIwd48_yODHGQ.png?1765491373)
-
-  
-
-
-#### ** _Step 4:_**_Select Optimization Window_
-
-  
-
+Select Your Optimization Window
 
 Choose your desired optimization window (e.g. 12h, 48h, 72h) then click **Next**.
 
-  
+![Optimization window selection screen with 12h, 48h, and 72h options and a Next button](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060449941/original/8OVdiTHl30w7SYMWNta4Cf3dVwfflhyyJQ.png?1765491500)
 
+Step 5
 
-#### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060449941/original/8OVdiTHl30w7SYMWNta4Cf3dVwfflhyyJQ.png?1765491500)
+Send with AI Schedule
 
-  
+Click **Send with AI Optimization** to confirm. AI Schedule will schedule your email at the optimal time. If the contact doesn't have sufficient engagement data, the email is sent right away.
 
+Important
 
-  
+After you confirm **Send with AI Optimization** , the message **cannot be deleted or rescheduled**. Double-check your email before confirming.
 
+![Confirmation screen showing the Send with AI Optimization button](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060449960/original/lEhu836OzYlhIljsXvDZoznbnAev__jU4Q.png?1765491599)
 
-#### **_Step 5:_**_Send with AI Schedule_
+7
 
-  
+## Frequently Asked Questions
 
+Q: Does AI Schedule work outside of Conversations (e.g., Campaigns)?
 
-Click **Send with AI Optimization** to confirm and Schedule AI will schedule your email. If the contact does not have sufficient data, the email will be sent right away.
-
-  
-
-    
-    
-    **Important:** After you confirm **Send with AI Optimization** , the message **cannot be deleted or rescheduled**.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060449960/original/lEhu836OzYlhIljsXvDZoznbnAev__jU4Q.png?1765491599)
-
-* * *
-
-## **Frequently Asked Questions**
-
-  
-
-
-**Q: Does AI Schedule work outside of Conversations (e.g., Campaigns)?**  
 AI Schedule is only available in the Conversations email composer. To use AI for email marketing campaigns, check out [Smart Send](<https://help.gohighlevel.com/en/support/solutions/articles/155000006754>).
 
-  
+Q: Can I edit or cancel an AI-scheduled email?
 
+No. After you confirm **Send with AI Optimization** , the message **cannot be deleted or rescheduled**. Make sure your email content is final before confirming.
 
-**Q: Can I edit or cancel an AI‑scheduled email?**
+Q: How can I tell when an AI-scheduled email will be sent?
 
-No. After you confirm **Send with AI Optimization** , the message **cannot be deleted or rescheduled**.
+Go to the Conversation thread where the email was sent — the scheduled send time will be shown above the message.
 
-  
+![Conversation thread showing the scheduled send time displayed above the queued message](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060529422/original/aVfqRh2E6MzJLvqi5flTyLp3kRDsS2CJ2w.png?1765567826)
 
+Q: What happens if there isn't enough engagement data for a recipient?
 
-**Q: How can I tell when an AI Scheduled email is scheduled?**
+The email is sent **immediately** so you don't miss your selected window. Engagement data builds over time as contacts interact with future emails.
 
-Go to the Conversation thread in which the email was sent and the scheduled send time will be shown above the message.
+Q: Is AI Schedule available for SMS?
 
-  
+Currently, it's email-only. AI Schedule is not available for SMS at this time.
 
+Q: Which email providers support AI Schedule?
 
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060529422/original/aVfqRh2E6MzJLvqi5flTyLp3kRDsS2CJ2w.png?1765567826)**
+AI Schedule is available for sub-accounts using **LC Email** or **Mailgun**. It is not available for accounts using other providers or accounts with 2-way sync enabled.
 
-  
+Q: Does AI Schedule affect email deliverability?
 
+AI Schedule doesn't change how emails are routed or authenticated — it only affects timing. Because sends are spread out rather than blasted at once, it can actually help reduce spam complaint rates.
 
-  
+Q: Can I use AI Schedule for bulk or campaign emails?
 
+Not directly — AI Schedule is for one-to-one emails composed in Conversations. For campaign-level send-time optimization, use the [Smart Send](<https://help.gohighlevel.com/en/support/solutions/articles/155000006754>) feature in Email Campaigns.
 
-**Q: What happens if there isn’t enough engagement data for a recipient?**  
-The email is sent **immediately** so you don’t miss your selected window.
+Related Articles
 
-  
-
-
-**Q: What Is AI Schedule available for SMS?**
-
-Currently, it’s email-only. AI Schedule is not available for SMS at this time.
-
-* * *
-
-## **Related Articles**
-
-  
-
-
-  * [Getting Started with Conversations](<https://help.gohighlevel.com/en/support/solutions/articles/155000006610>)  
-  
-
-  * [What is LC Email?](<https://help.gohighlevel.com/en/support/solutions/articles/48001220605>)  
-  
-
-  * [Send Later vs. Send Now - Email Scheduling Options](<https://help.gohighlevel.com/en/support/solutions/articles/48001215384>)  
-  
-
-  * [AI Employee Overview](<https://help.gohighlevel.com/en/support/solutions/articles/155000003906>)[](<https://help.gohighlevel.com/en/support/solutions/articles/155000003906>)**[](<https://help.gohighlevel.com/en/support/solutions/articles/155000003906>)**
+[Getting Started with Conversations](<https://help.gohighlevel.com/en/support/solutions/articles/155000006610>) [What is LC Email?](<https://help.gohighlevel.com/en/support/solutions/articles/48001220605>) [Send Later vs. Send Now — Email Scheduling Options](<https://help.gohighlevel.com/en/support/solutions/articles/48001215384>) [AI Employee Overview](<https://help.gohighlevel.com/en/support/solutions/articles/155000003906>)

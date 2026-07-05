@@ -369,7 +369,10 @@ If your card payment fails or you receive a card payment error, please check the
   * Confirm that the card is enabled for online, recurring, or international transactions, if applicable.  
   
 
-  * Try using another accepted card payment type if the issue continues.
+  * Try using another accepted card payment type if the issue continues.  
+  
+
+  * **Failed Payment Access & Dunning Period:** If an agency subscription payment fails, the agency will continue to have account access for **21 days** from the failed payment date. If the payment issue is not resolved within 21 days, account access will be locked. Payment retries will continue in the background for up to **1 month/30 days** from the failed payment date.
 
 
   

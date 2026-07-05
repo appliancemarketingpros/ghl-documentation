@@ -21,7 +21,8 @@ Creating a Voice AI Agent is fast and easy, and it will help your business field
   * How to Create a Voice AI Agent
   * How to Configure Voice AI Agent Details
   * Agent Details Tab
-  * Agent Goals Tab
+  * Settings Tab
+  * How to Transfer Calls Based on Keywords or Phrases
   * Trigger Workflows
   * Email Notifications
   * Phone and Availability Tab
@@ -43,12 +44,13 @@ Creating a Voice AI Agent is fast and easy, and it will help your business field
 
   2. Click on **AI Agents** tab > **Voice AI**.  
   
-![](https://jumpshare.com/share/qIIM5HWhxZuKX47ECUmy+/Screen+Shot+2026-03-17+at+19.09.16.png)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074837601/original/hsT98POgEm7Jh58oQRuGyuZ4aJ5Q3KlJvQ.png?1782821661)  
   
 
   3. Click on the **\+ Create Agent** button.  
   
-![](https://jumpshare.com/share/Nt7lPIZin7ewgWjsA3QU+/Screen+Shot+2026-03-17+at+19.11.08.png)  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074837671/original/Lk4nHQrVy9H4uOjxWGCtR8A9fsouhbojZQ.png?1782821701)  
   
 
   4. You can either **Create an Agent from scratch** or choose **prebuilt** **agents** from the **Marketplace**.  
@@ -56,7 +58,8 @@ Creating a Voice AI Agent is fast and easy, and it will help your business field
 
   5. Choose your preferred method and click **Continue**.  
   
-![](https://jumpshare.com/share/ZSYD0YVF1skQFqkXwHCk+/Screen+Shot+2026-03-17+at+19.12.29.png)
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074837719/original/larfbyqSnOdZioKh3imuhe6KCczqP5mLcg.png?1782821744)
 
 
 * * *
@@ -90,44 +93,42 @@ When configuring your Voice AI Agent, you will need to follow a multi-step proce
 
   5. **LLM:** Choose your preferred LLM model.  
   
-![](https://jumpshare.com/share/vjEtB31jnSglGwdrHafg+/Screen+Shot+2026-03-17+at+19.22.47.png)  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074838226/original/etM-vLGzMkklyAhM9-PsWjooiK3SdJieeg.png?1782822007)  
   
 
   6. **Advanced Settings:** Configure **Call Settings** , **Agent Behavior** , **Transcription** and**Speech Settings** & **Voice Settings**.  
   
-![](https://jumpshare.com/share/TooYjdkpNYTuynk7gYS0+/GIF+Recording+2026-03-17+at+19.27.49.gif)**  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074838124/original/C3WfFb2veJDoYpzpfvueMlLAZo80br4Owg.png?1782821969)
+
+  
+
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074838562/original/8ZalWN_lgrjgUgVq0Nwx3dXETndOYV_NUg.gif?1782822183)**  
 **  
 
   7. **Greeting Message Configuration:** Customize the first message your agent says (e.g., “Hello, you’ve reached [Business Name]. How can I assist you today?”) for both Inbound and Outbound calls. Also choose **Wait Time Before Speaking**.  
   
-
-  8. Click **Next**.  
   
-![](https://jumpshare.com/share/izpLKakCPkb2JA4VtiqQ+/GIF+Recording+2026-03-17+at+19.32.52.gif)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074838647/original/-Hvk9cQeAq00OuvdEBxnFfB5tNuoJxwCMw.png?1782822250)  
   
 
-
-## **Agent Goals Tab**
-
+  8. Click **Save**.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074838737/original/bpQ_Q1jhyoLLLYcUjl0zGyq9gVuELXBE0w.png?1782822305)  
   
 
 
-You have two options for setting up your agent’s goals: **Basic Mode** or **Advanced Mode**.
+## **Settings Tab**
 
   
 
 
-**Access control (View vs Manage):** If your role does not include **View & Manage Voice AI Agent Goals**, the Agent Goals area may be view-only and editing may be disabled. In this case, you may also be blocked from upgrading to the newest Voice AI experience. 
-
-  
-
-
-### **Basic Mode**
-
-  
-
-
-Basic mode simplifies the Voice AI Agent setup process by giving you few options to instruct the Voice AI Agent while in the call. No prompting required!
+Settings Tab simplifies the Voice AI Agent setup process by giving you few options to instruct the Voice AI Agent while in the call. No prompting required!
 
   
 
@@ -145,61 +146,22 @@ Basic mode simplifies the Voice AI Agent setup process by giving you few options
 
 
   
-
-
-![](https://jumpshare.com/share/0j8vEw9zE1gNrhXr3yLY+/Screen+Shot+2026-03-17+at+19.39.49.png)
-
-  
   
 
 
-### **Advanced Mode**
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074839322/original/aeRp9Q7o-XAY8Ke99wZCcEDu2XAddGEzeg.png?1782822581)
 
-  
-When using the advanced mode, you are given more options to control the AI Agent such as prompts and different actions.
-
-  
-
-    
-    
-    **To Learn more about prompting, checkout these articles:******
-    [AI Prompting 101](<https://help.gohighlevel.com/en/support/solutions/articles/155000002254>)
-    [How to Use the Prompt Evaluator in Voice AI](<https://help.gohighlevel.com/en/support/solutions/articles/155000006074>)
-    [Voice AI - Exposed System Prompts for Agents](<https://help.gohighlevel.com/en/support/solutions/articles/155000007215>)
-    [Voice AI Custom Variable Support in Prompt](<https://help.gohighlevel.com/en/support/solutions/articles/155000004690>) 
-
-  
+###   
 
 
-  * Click on the Switch to **Advanced** **Mode** button.  
+  * When you edit the prompt, the prompt editor includes a toolbar with quick actions:  
   
-![](https://jumpshare.com/share/zDmlLH2hWoWZvfLnueW4+/Screen+Shot+2026-03-17+at+19.47.31.png)  
   
-
-  * Select **Knowledge Base**.  
-**  
-**
-  * **Prompt:** Write detailed instructions and personality traits for your agent.   
-  
-**Prompt editor toolbar and shortcuts**  
-  
-When you edit the prompt in Advanced Mode, the prompt editor includes a toolbar with quick actions:  
-  
-
-    * **Undo and Redo:** Revert or re-apply recent prompt changes.
-    * **Custom Value:** Insert supported values into your prompt.
-    * **Evaluate:** Run a prompt evaluation to get feedback before you publish changes.  
-  
-
-    * **Keyboard shortcuts:**  
-  
-**Undo:** Cmd + Z (Mac) / Ctrl + Z (Windows)  
-**Redo:** Cmd + Shift + Z (Mac) / Ctrl + Y (Windows)  
-  
-![](https://jumpshare.com/share/44MXmOe7WLVipYwIdvBl+/Screen+Shot+2026-03-06+at+19.49.21.png)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074839751/original/7XkDNh9bc4PMRVROndkDQGiq-5wCE5Gxlg.gif?1782822785)  
   
 
   * **Setup your Actions:**  
+  
 
     * **Call Transfer:** Transfer the call to a human agent under certain conditions.  
   
@@ -221,11 +183,65 @@ When you edit the prompt in Advanced Mode, the prompt editor includes a toolbar 
 
     * Add **MCP** (Beta)  
   
-![](https://jumpshare.com/share/OdPRE5LnSGo9HnJfOHAZ+/Screen+Shot+2026-03-17+at+19.58.29.png)  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074838877/original/1NNC169G50aavt22xDHtYMTtKqN4bmtmuA.png?1782822386)  
   
 
-  * Click **Next**.
+  * Click **Save**.
 
+
+* * *
+
+## **How to Transfer Calls Based on Keywords or Phrases**
+
+  
+
+
+Keyword-based transfers help your Voice AI Agent send callers to the right person when they mention specific words, phrases, or request types during a call. Use **Call Transfer** when the caller should be transferred to a person or phone number.
+
+  
+
+
+To set this up:
+
+  
+
+
+1\. Go to AI Agents > Voice AI.
+
+  
+2\. Create a new Voice AI Agent or edit an existing one.
+
+  
+3\. In Setup your Actions, add the Call Transfer action.
+
+  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074839821/original/3sHir6hoYEthXbppnpgj4GNQWtTvNCGmQw.png?1782822835)
+
+  
+
+
+  
+6\. Enter the phone number or destination where the call should be transferred.  
+  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074839869/original/qchTI_CsJjxGIt8iLYPNLk_XT0jI6qLZUA.png?1782822885)
+
+  
+7\. Update the agent prompt with clear instructions for when the transfer should happen.
+
+  
+
+
+**Example Prompt Instruction:**
+
+  
+
+
+If the caller asks about billing, refunds, payment issues, canceling their subscription, or speaking to a representative, transfer the call using the Call Transfer action. Before transferring, say: "I can connect you with someone who can help with that. Please hold while I transfer your call.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074840100/original/_3J9-fBFUNs14AliWjU9aMct55U2XMf6pQ.png?1782822995)
 
 * * *
 
@@ -237,7 +253,7 @@ With Voice AI Agents, you have the option to trigger a single workflow or multip
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035814793/original/AaVhDvNIim1ZcaBQHFZpYDcULGB_61biyg.gif?1730404561)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074840311/original/hHjZhyyHJBNVSwkqtFGp-usQQT_L9lPEFw.gif?1782823105)
 
   
   
@@ -255,9 +271,10 @@ With Voice AI Agents, you have the option to trigger a single workflow or multip
 Send emails to individuals, or multiple people after a call has ended that involved that particular AI Agent.
 
   
+  
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035814808/original/I7KXFj9nJ2NSpmBGENIFdVXg7jxx-VXHtw.gif?1730404590)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074841005/original/Ismbf4zldqVMgoW21b_vNWXB9qUsRVRWHQ.png?1782823388)
 
   
 
@@ -320,7 +337,7 @@ You can run a quick test call without leaving the **Create Agent** flow.
   
 
 
-  1. In the Phone & Availability step, there is a **Test Your Agent panel** on the right side. Choose Call type (**Phone Call or Web Call)** and Scenario **(Inbound or Outbound).**   
+  1. In the Test Audio, there is a **Test Your Agent panel** on the right side. Choose Call type (**Phone Call or Web Call)** and Scenario **(Inbound or Outbound).**   
   
 
   2. Enter the phone number you want to test with.  
@@ -343,9 +360,10 @@ You can run a quick test call without leaving the **Create Agent** flow.
 
 
   
+  
 
 
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155061015213/original/V-aP0HSVDV43--n10yzBrA_K8dDTMuguGg.png?1766152841)**
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074841229/original/BsPwFQVSozVKS1Q51nvJaWPUqUrxEeOleg.png?1782823454)**
 
 * * *
 
@@ -370,33 +388,22 @@ Give callers a dedicated number that routes to your inbound agent. You can post 
 
   1. Go to **Edit** your agent.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064889358/original/Qrx4asnzq9gD_mskkd1PdM43_RnU7kB_cA.png?1770997372)  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074841395/original/SNzgZ1apOAclPKZ61TBCRaLAQVr6COSeCg.png?1782823538)  
   
 
 
-  2. Open **Phone & Availability** and **assign** a HighLevel (LC Phone or Twilio) number to this agent. **Save.**  
+  2. Open the **Settings** and **assign** a HighLevel (LC Phone or Twilio) number to this agent. **Save.**  
   
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064889450/original/b0jOgOreEhegRahv2qhijy29Fk73CA_w0g.png?1770997432)**  
+  
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074841502/original/Vyubrb-MuyeWyCz5ZME1sYVAVeP6rAlcQQ.png?1782823606)**  
+  
 
 
   3. Configure your**Inbound Call Flow** and **Incoming Call Settings** so the agent answers immediately or after time-out/voicemail rules, as desired.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064889570/original/iE4qfoDL6oAs8V7vBB23dXl0R2QeQYVvrQ.png?1770997503)  
-
-
-  4. Share the number publicly (website, Google Business Profile, social, email signature).  
   
-
-
-  5. To make a clickable link, use `tel:` — for example:  
-  
-
-
-     * **Button/link:** `tel:+15551234567`  
-  
-
-
-     * **HTML example:** `<a href="tel:+15551234567">Call Our AI Assistant</a>`
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074841592/original/rHul6SDSg9d4LxTP_IDUnz8hMSCn0l6j7w.png?1782823658)
 
 
 * * *
@@ -417,6 +424,7 @@ In order to edit or delete any of your Voice AI Agents, you would first need to 
      If you want to keep any custom prompt information, and just render the AI Agent in a dormant state, simple remove the phone number from any give AI Agent and they will no longer participate in phone calls.
 
   
+  
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155036927896/original/yZ9a9RXstPDOVH4SRiwJpJlHXpm3WtU1bA.gif?1732137586)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074841851/original/QPQEM5_8xk2Dy-FozGcLP_zUjE-oW7pR6A.png?1782823752)

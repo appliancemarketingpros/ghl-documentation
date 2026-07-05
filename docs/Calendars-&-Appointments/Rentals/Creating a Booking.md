@@ -192,18 +192,13 @@ The booking form includes the following sections:
   
 
 
-  1. **Customer Details**  
-  
-
+  1. **Customer Details**
 
   2. **Listings**
 
-  3. ****Internal Note****  
-  
+  3. ****Internal Note****
 
-
-  4. **Payment Summary**  
-****
+  4. **Payment Summary**
 
   5. **Set Booking Status**  
   

@@ -6,338 +6,234 @@
 
 ---
 
-Starting February 2024, [Gmail](<https://blog.google/products/gmail/gmail-security-authentication-spam-protection/>) and [Yahoo](<https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam>) will require DKIM and DMARC authentication for emails. We strongly recommends all senders set up DKIM and DMARC. 
-    
-    For more details, check our blog post on [Google and Yahoo authentication changes in 2024](<https://help.gohighlevel.com/en/support/solutions/articles/155000001634>).
+Email Compliance
 
+DMARC for Email Authentication
+
+Understand what DMARC is, how to configure it, and how to resolve common failures when using shared sending domains.
+
+Important — Gmail & Yahoo Requirement
+
+Starting February 2024, [Gmail](<https://blog.google/products/gmail/gmail-security-authentication-spam-protection/>) and [Yahoo](<https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam>) require DKIM and DMARC authentication for all senders. We strongly recommend setting up both.
+
+For full details, see our article on [Google and Yahoo authentication changes in 2024](<https://help.gohighlevel.com/en/support/solutions/articles/155000001634>).
+
+What You'll Learn
+
+DMARC (Domain-based Message Authentication Reporting and Conformance) verifies emails by combining SPF and DKIM. It lets domain owners define what happens to unauthorized email — monitor it, quarantine it, or reject it outright.
+
+This article covers what DMARC is, how to read and configure a DMARC record, how the authentication flow works, and how to resolve DMARC failures when sending through a shared domain.
+
+Table of Contents
+
+1
+
+What is DMARC?
+
+2
+
+What is a DMARC Record?
+
+3
+
+How Does DMARC Work?
+
+4
+
+Resolving DMARC Failures on Shared Domains
+
+1
+
+## What is DMARC?
+
+DMARC — Domain-based Message Authentication Reporting and Conformance — is a free technical standard that verifies emails by combining SPF and DKIM. Introduced in 2012, it helps prevent email fraud like phishing by letting domain owners specify how unauthorized use of their domain should be handled via a policy tag (**p=**).
+
+There are three policy levels:
+
+p=none
+
+Monitor only
+
+Monitors your email traffic. No action is taken on failing messages — useful for initial visibility.
+
+p=quarantine
+
+Send to spam
+
+Unauthorized emails are directed to the recipient's spam or junk folder instead of the inbox.
+
+p=reject
+
+Block entirely — the goal state
+
+The strictest and recommended final policy. Unauthorized emails are not delivered at all.
+
+2
+
+## What is a DMARC Record?
+
+A DMARC record lives in a TXT-type DNS entry named **_dmarc**. It is composed of tags assigned with values, separated by semicolons. Here is the simplest valid record:
+
+Example — Minimum DMARC Record
+
+v=DMARC1; p=none;
+
+The table below explains all available tags and their default values:
+
+Tag| Name| Default| Description  
+---|---|---|---  
+v| DMARC Version| DMARC1| Must always be "DMARC1". If missing or incorrect, the entire record is ignored.  
+p| Policy| none| Action for emails failing DMARC checks: **none** (monitor), **quarantine** (spam), **reject** (block).  
+adkim| DKIM Alignment| r| **r** (Relaxed): DKIM domains sharing a common Organizational Domain pass. **s** (Strict): Requires exact domain match.  
+aspf| SPF Alignment| r| Same as adkim but for SPF. **r** (Relaxed) or **s** (Strict) matching of the SPF domain against the From domain.  
+sp| Sub-domain Policy| p= value| Explicit policy for sub-domains under this DMARC record. Inherits the parent p= value if not set.  
+fo| Forensic Reporting Options| 0| **0** : Report if all mechanisms fail. **1** : Report if any fail. **d** : Report on DKIM failure. **s** : Report on SPF failure.  
+ruf| Forensic Report URI| none| Where to send forensic (failure) reports. Format: mailto:address@example.org  
+rua| Aggregate Report URI| none| Where to send aggregate XML feedback reports. Format: mailto:address@example.org  
+rf| Reporting Format| afrf| Format for individual forensic reports.  
+pct| Percentage| 100| Percentage of failing messages the policy applies to. Only valid with quarantine or reject.  
+ri| Reporting Interval| 86400| Frequency (in seconds) for receiving aggregate XML reports. Default is 86400 (24 hours).  
   
+Pro Tip
 
+Not sure how to structure your DMARC record? Use a free [DMARC generator tool](<https://dmarcian.com/dmarc-record-wizard/>) to build one correctly.
 
-**TABLE OF CONTENTS**
+3
 
-  * What is DMARC?
-  * What is DMARC Record?
-  * How does DMARC work?
-  * Resolving DMARC Email Failures for Users on LC Email Shared Domains
+## How Does DMARC Work?
 
+DMARC works across three phases: Authentication, Reporting, and Conformance (policy enforcement). Each configuration serves to authenticate emails and define how failures are handled.
 
-##   
+Phase 1
 
+Authentication
 
-## **What is DMARC?**
+  * **SPF / DKIM Check:** Receiving servers verify SPF or DKIM authentication methods.
+  * **Domain Alignment:** Validates whether the SPF domain (Return-Path) or DKIM domain (d=) aligns with the "From" domain in the email header.
+  * **DMARC Policy:** Extracts and enforces the DMARC policy from the DNS record of the "From" domain.
 
-DMARC, or Domain-based Message Authentication Reporting and Conformance, is a technical tool that verifies emails by combining SPF and DKIM methods. It's free to use and helps prevent email fraud like phishing. Introduced in 2012, it enables domain owners to specify how unauthorized use of their email domains should be managed through a policy in the DMARC record (p=).
 
-  
+Example Configurations — Authentication
 
-    
-    
-    P = NONE 
-    Monitors your email traffic. No further actions are taken.
-    
-    P = QUARANTINE
-    Sends unauthorized emails to the spam folder.
-    
-    P = REJECT 
-    The final policy and the ultimate goal of implementing DMARC. This policy ensures that unauthorized email doesn’t get delivered at all.
+SPF passes and aligns with the "From" domain → DMARC passes:
 
-  
+v=DMARC1; p=none; aspf=r;
 
+DKIM passes and aligns with the "From" domain → DMARC passes:
 
-* * *
+v=DMARC1; p=none; adkim=s;
 
-## **What is DMARC Record?**
+Both SPF and DKIM fail → DMARC fails:
 
-A DMARC record, housed in a TXT-type DNS entry named _dmarc, outlines policies and preferences for email servers. It's composed of tags assigned with values separated by semicolons.
+v=DMARC1; p=reject;
 
-  
+Phase 2
 
-    
-    
-    Here's an example of a basic DMARC record: 
-    v=DMARC1; p=none;
+Alignment Modes
 
-  
+  * **Relaxed (r):** Allows subdomains in SPF/DKIM checks, comparing them to the "From" domain. A subdomain sharing the same Organizational Domain passes.
+  * **Strict (s):** Requires an exact match of the SPF/DKIM domain with the "From" domain. No subdomain exceptions.
 
 
-**Here are the key tags used in setting up a DMARC record:**
+Phase 3
 
-  
+Reporting
 
+  * **Aggregate Reports (rua):** Periodic XML reports with pass/fail results, sent to addresses specified with the rua tag.
+  * **Forensic Reports (ruf):** Detailed failure reports sent to the ruf address. Many providers limit these due to privacy concerns.
+  * **Reporting Interval (ri):** Controls how frequently aggregate XML reports are sent. Default is 86400 seconds (24 hours).
 
-**v (DMARC Version):**
 
-  * **Default:** DMARC1
-  * **Translation:** Denotes the DMARC protocol version. Must always be set as "DMARC1". If missing or incorrect, the entire DMARC record is ignored.
+Example Configurations — Reporting
 
+Aggregate reports every 24 hours:
 
-  
+v=DMARC1; p=none; rua=mailto:postmaster@mydomain.com; ri=86400;
 
+Forensic reports every 7 days:
 
-**p (Policy):**
+v=DMARC1; p=none; ruf=mailto:postmaster@mydomain.com; ri=604800;
 
-  * **Default:** none
-  * **Translation:** Specifies the action for emails failing DMARC checks.
-    * none: Collects feedback without impacting existing flows.
-    * quarantine: Treats suspicious emails, often directed to the spam folder.
-    * reject: Rejects all failing emails outright.
+Phase 4
 
+Conformance (Policy Enforcement)
 
-  
+  * **DMARC Policy (p):** Defines how receiving servers handle emails that fail DMARC checks — none, quarantine, or reject.
+  * **Percentage (pct):** Specifies what percentage of failing messages the policy is applied to. Useful for gradual rollout.
 
 
-**adkim (DKIM Alignment Mode):**
+Example Configurations — Rollout Strategy
 
-  * **Default:** r
-  * **Translation:** Specifies the alignment mode for DKIM signatures.
-    * "r" (Relaxed Mode): Allows DKIM domains sharing a common Organizational Domain to pass.
-    * "s" (Strict Mode): Requires an exact match between DKIM and email header-From domains.
+Start with quarantine at 50% for testing:
 
+v=DMARC1; p=quarantine; pct=50;
 
-  
+Move to full reject enforcement:
 
+v=DMARC1; p=reject;
 
-**aspf (SPF Alignment Mode):**
+4
 
-  * **Default** : r
-  * **Translation** : Similar to adkim but for SPF authentication.
-    * "r" (Relaxed Mode): Allows SPF domains sharing a common Organizational Domain to pass.
-    * "s" (Strict Mode): Requires an exact match between SPF and email header-From domains.
+## Resolving DMARC Failures on Shared Domains
 
+Note
 
-  
+DMARC is not required to send emails from shared domains on the LeadConnector email system.
 
+When you switch to the LeadConnector email system, or have not configured your own Mailgun or SMTP, all emails are sent through a shared domain. If your "From" address domain has a strict DMARC policy (**p=reject** or **p=quarantine**), you may see the following error:
 
-**sp (Sub-domain Policy):**
+![DMARC policy error message shown in the email sending interface](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155029885740/original/XbxWJPF5hf31tJ4qc-FOom23fD_efkCL9A.jpg?1721914780)
 
-  * **Default:** p= value
-  * **Translation:** Allows explicit publishing of a policy for sub-domains under this DMARC record.
+DMARC p=reject error displayed when using a shared domain
 
+Error Message
 
-  
+"The domain in your from address has a p=reject DMARC policy. Without a dedicated sending domain configured, most inbox providers will reject your messages, resulting in elevated bounces. To avoid elevated bounces, use company emails."
 
+Your actual DMARC record: v=DMARC1; p=reject
 
-**fo (Forensic Reporting Options):**
+How to Fix
 
-  * **Default** : 0
-  * **Translation** : Determines conditions for generating forensic reports.
-    * "0": Generates reports if all underlying authentication mechanisms fail to produce a DMARC pass result.
-    * "1": Generates reports if any mechanisms fail.
-    * "d": Generates reports if DKIM signature fails.
-    * "s": Generates reports if SPF fails.
+Temporarily set your DMARC policy to p=none
 
+Log in to your DNS provider and update your **_dmarc** TXT record so the policy reads **p=none**. This ensures messages are delivered even when DMARC fails, while you work toward configuring a dedicated sending domain.
 
-  
+Heads Up
 
+Relaxing to **p=none** reduces your domain's protection against spoofing. Treat this as a temporary measure and set up a dedicated sending domain as soon as possible to restore full DMARC enforcement.
 
-**ruf (URI for Forensic Reports):**
+5
 
-  * **Default** : none
-  * **Translation:** Specifies where to send Forensic reports (URIs in the form of "mailto:address@example.org").
+## Frequently Asked Questions
 
+Q: Do I need DMARC to send emails at all?
 
-  
+DMARC is not strictly required to send email, but Gmail and Yahoo now require it for bulk senders (5,000+ emails/day). Even below that threshold, setting up DMARC improves deliverability and protects your domain from spoofing.
 
+Q: What's the difference between p=quarantine and p=reject?
 
-**rua (URI for XML Feedback):**
+**p=quarantine** sends failing messages to the recipient's spam folder — they can still be found. **p=reject** instructs receiving servers to block the message entirely so it never reaches the recipient at all.
 
-  * **Default** : none
-  * **Translation** : Specifies where to send XML feedback reports (URIs in the form of "mailto:address@example.org").
+Q: Where do I add my DMARC record?
 
+Add a **TXT record** in your domain's DNS settings. The host/name field should be _dmarc and the value should be your DMARC policy string (e.g., v=DMARC1; p=none;). Your DNS provider's control panel is where you make this change.
 
-  
+Q: Why is DMARC failing even though I have SPF and DKIM set up?
 
+DMARC requires both authentication _and_ alignment. SPF or DKIM can pass technically but still cause DMARC to fail if the authenticated domain doesn't align (match) with the "From" domain in your email header. Check that your SPF return-path domain or DKIM d= domain matches your sending "From" domain.
 
-**rf (Reporting Format for Forensic Reports):**
+Q: Can I use a personal Gmail or Yahoo address as my From address?
 
-  * **Default:** afrf
-  * **Translation** : Determines the reporting format for individual Forensic reports.
+No. Gmail and Yahoo enforce strict DMARC policies (**p=reject**) on their own domains. If you send email using a @gmail.com or @yahoo.com address through a third-party platform, the messages will be rejected. Always use a domain you own and control as your From address.
 
+Q: How long does a DMARC record change take to propagate?
 
-  
+DNS changes typically propagate within 15 minutes to 1 hour, though full global propagation can take up to 48 hours depending on your DNS provider and the TTL setting on the record.
 
+Q: What's the recommended path to get to p=reject?
 
-**pct (Percentage):**
+Start with **p=none** to collect aggregate reports and understand your email traffic. Once legitimate sources are all passing, move to **p=quarantine; pct=25** and gradually increase the percentage. When you're confident all legitimate mail passes, switch to **p=reject** for full enforcement.
 
-  * **Default** : 100
-  * **Transla** tion: Specifies the percentage of email failures for which the policy should be applied. The policy must be "quarantine" or "reject" for the percentage tag to be applied.
+Additional Resources
 
-
-  
-
-
-**ri (Reporting Interval):**
-
-  * **Default** : 86400
-  * **Translation** : Sets the frequency of receiving aggregate XML reports.
-
-
-  
-
-
-Each tag serves a specific role in defining DMARC policies and mechanisms for authentication and feedback, ensuring email security and proper handling of failed checks.
-
-  
-
-
-For assistance in creating a DMARC record, utilizing a [DMARC generator tool](<https://dmarcian.com/dmarc-record-wizard/>) is recommended.
-
-  
-
-
-* * *
-
-## **How does DMARC work?**
-
-  
-
-
-**Authentication** :
-
-  * SPF/DKIM Check:
-    * Receiving servers verify SPF or DKIM authentication methods.
-  * Domain Alignment:
-    * Validates if the SPF domain (Return-Path) or DKIM domain (d=) aligns with the "From" domain in the email header.
-  * DMARC Policy:
-    * Extracts and enforces the DMARC policy from the DNS record of the "From" domain.
-
-
-  
-
-    
-    
-    **Example Configurations:**
-    
-    If SPF passes and aligns with the "From" domain, DMARC authentication passes.
-    `v=DMARC1; p=none; aspf=r;` 
-    
-    If DKIM passes and aligns with the "From" domain, DMARC authentication passes.
-    `v=DMARC1; p=none; adkim=s;` 
-    
-    If both SPF and DKIM fail, DMARC authentication fails.
-    `v=DMARC1; p=reject;`
-
-  
-
-
-**Alignment Modes:**
-
-  * Relaxed (r) Mode:
-    * Allows subdomains in SPF/DKIM checks, comparing them to the "From" domain.
-  * Strict (s) Mode:
-    * Requires exact matching of SPF/DKIM domains with the "From" domain.
-
-
-  
-
-
-**Reporting:**
-
-  * Aggregate Reports:
-    * Include pass/fail results in periodic aggregate reports sent via specified email addresses using rua tag.
-  * Forensic Reports:
-    * Detailed failure reports sent to specified addresses (ruf), but many providers avoid sending these due to sensitive information concerns.
-  * Reporting Interval (ri):
-    * Determines the frequency of sending aggregate XML reports.
-
-
-  
-
-    
-    
-    **Example Configurations:** 
-    
-    Sending aggregate reports every 24 hours: 
-    `v=DMARC1; p=none; rua=mailto:postmaster@mydomain.com; ri=86400;` 
-    
-    Sending forensic reports every 7 days: 
-    `v=DMARC1; p=none; ruf=mailto:postmaster@mydomain.com; ri=604800;`
-
-  
-
-
-  
-
-
-**Conformance (Policy):**
-
-  * DMARC Policy (p):
-    * Defines how servers handle failed DMARC checks.
-  * Percentage (pct):
-    * Specifies the percentage of message traffic subject to DMARC verification.
-
-
-  
-
-    
-    
-    **Example Configurations:** 
-    
-    Starting with a quarantine policy and 50% verification for testing: 
-    `v=DMARC1; p=quarantine; pct=50;` 
-    
-    Later, switching to a reject policy and removing the pct tag for full enforcement: `v=DMARC1; p=reject;`
-
-  
-
-
-  
-
-
-Each configuration serves to authenticate emails and define policies for handling failures while allowing flexibility in reporting and enforcement levels based on the sender's requirements and verification stages.
-
-* * *
-
-  
-
-
-## **Resolving DMARC Email Failures for Users on LC Email Shared Domains**
-
-  
-
-    
-    
-    DMARC is not required to send emails from the shared domains on LeadConnector email system.
-
-  
-
-
-When you switched to LC email system or not configured your own mailgun / SMTP all your email will be sent through LC shared domain.
-
-  
-
-
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155029885740/original/XbxWJPF5hf31tJ4qc-FOom23fD_efkCL9A.jpg?1721914780)**  
-
-
-**  
-**
-
-The error message says:
-
-_"The domain in your from address (kate@gohighlevel.com) has a p=reject DMARC policy. Without a dedicated sending domain configured, most inbox providers will reject your messages, resulting in elevated bounces. To avoid elevated bounces, use company emails."_
-
-  
-
-
-Your actual DMARC record is: v=DMARC1; p=reject"
-
-  
-
-
-**To fix the issue, Temporarily change your DMARC record with your DNS to have a p=none policy**
-
-  
-
-
-The DMARC error message above has a p=reject or p=quarantine. This will prevent emails that fail DMARC to be sent to the Inbox folder. To make sure messages are delivered even if DMARC fails, you will want to change the policy in your DMARC to p=none with your DNS provider. Moving to a more relaxed policy is not recommended so this change should be temporary.
-
-* * *
-
-**ADDITIONAL RESOURCES:**
-
-  
-
-
-  * [Achieving Compliance: Meeting Google and Yahoo's Email Sender Requirements in 2024](<https://help.gohighlevel.com/support/solutions/articles/155000001634-achieving-compliance-meeting-google-and-yahoo-s-email-sender-requirements-in-2024>)
-  * [Email Sending Guide: Email Best Practices & Email Warm Up](<https://help.gohighlevel.com/support/solutions/articles/155000001021-email-sending-guide-email-best-practices-email-warm-up>)
+[Achieving Compliance: Meeting Google and Yahoo's Email Sender Requirements in 2024](<https://help.gohighlevel.com/support/solutions/articles/155000001634-achieving-compliance-meeting-google-and-yahoo-s-email-sender-requirements-in-2024>) [Email Sending Guide: Email Best Practices & Email Warm Up](<https://help.gohighlevel.com/support/solutions/articles/155000001021-email-sending-guide-email-best-practices-email-warm-up>)

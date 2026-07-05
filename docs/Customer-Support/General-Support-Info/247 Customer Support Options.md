@@ -6,62 +6,61 @@
 
 ---
 
+# **⭐️ Upgrade to Premium Support ⭐️**
+
+  
+For faster service from our customer support team, you can upgrade your account to receive premium customer support!  
+  
+**[](<https://help.gohighlevel.com/en/support/solutions/articles/48001219635>)[Click here to learn more about premium support!  
+](<https://help.gohighlevel.com/en/support/solutions/articles/155000004578>)**
+
+* * *
+
 **TABLE OF CONTENTS**
 
-  * How to Access 24/7 SupportWho Can Access HighLevel Support?
+  * ⭐️ Upgrade to Premium Support ⭐️
+  * How to Access 24/7 Support
+  * Who Can Access HighLevel Support?
   * Customer Support Options
     * Zoom Support Calls
     * Live Chat Support
-    * Support Ticketing via Email  
-
+    * Support Ticketing via Email
+    * What's Included in a Support Ticket?
     * Phone Support
-  * Troubleshooting & FAQ's
+  * How to Get Support for Affiliate Concerns?
+  * How to Create an Agency "Admin" to get HighLevel Support?
+  * Frequently Asked Questions
   * Additional Self-Service Support Resources
 
-
-  
-
-    
-    
-    **⭐️ Upgrade to Premium Support ⭐️**  
-      
-     For faster service from our customer support team, you can upgrade your account to receive premium customer support!  
-    
-    **[](<https://help.gohighlevel.com/en/support/solutions/articles/48001219635>)[Click here to learn more about premium support!](<https://help.gohighlevel.com/en/support/solutions/articles/155000004578>)**
 
 * * *
 
 # **How to Access 24/7 Support**
 
-At any time of the day or night, seven days a week, you can begin a new LIVE chat with one of our HighLevel Support Agents! To access your support options, select the blue question mark in the top right corner of the HighLevel Application **(Available on Desktop only)**. From here, you can choose the support option that best fits your schedule or needs.
+  
+
+
+At any time of the day or night, seven days a week, you can begin a new LIVE chat with one of our HighLevel Support Agents! To access your support options, select the blue question mark in the top right corner of the HighLevel Application (**Available on Desktop only**). From here, you can choose the support option that best fits your schedule or needs.
 
   
 
     
     
-    **IMPORTANT: Only Agency Admins/Users Can Access HighLevel Support   
-    **HighLevel Support agents are unable to make changes to an agency account without the consent of a validated Agency Admin or Agency User. If you do not have access to the Agency view, you must reach out to your Agency Admin.  
-    
-
-###   
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155029562986/original/TaGw3Ota65QI79wHzwhe2jJsX9F2rk8uiQ.gif?1721398299)
+    **IMPORTANT: Only Agency Admins/Users Can Access HighLevel Support**
+    **  
+    **HighLevel Support agents are unable to make changes to an agency account without the consent of a validated Agency Admin or Agency User. If you do not have access to the Agency view, you must reach out to your Agency Admin.
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155033545546/original/Muznb-y5r0RUR9OHYDvsYp86u80YN6UJjA.jpg?1727276570)
-
-  
-
+![](https://jumpshare.com/share/Z2Gy2tHBUuHScvZTmHEf+/GIF+Recording+2026-06-30+at+20.08.17.gif)
 
 * * *
 
+## **Who Can Access HighLevel Support?**
+
   
 
-
-## **Who Can Access HighLevel Support?**
 
 Only Agency Admins/Users Can Access HighLevel Support. HighLevel Support agents are unable to make changes to an agency account without the consent of a validated Agency Admin or Agency User. If you do not have access to the Agency view, you must reach out to your Agency Admin.
 
@@ -70,7 +69,13 @@ Only Agency Admins/Users Can Access HighLevel Support. HighLevel Support agents 
 
 **Only Agency Admins/Users See the Support Button**
 
+  
+
+
 If you are an agency admin or agency user, you will see the blue button in the top right corner of the screen where you can get support from HighLevel as shown in the image below.
+
+  
+
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155033464762/original/vrWsCsFVyHEYQnkM-iE_xNV7AQww6-YRmQ.jpg?1727189119)
 
@@ -79,7 +84,13 @@ If you are an agency admin or agency user, you will see the blue button in the t
 
 **Location Admins/Users Do Not See the Support Button**
 
+  
+
+
 You can see in the image below that location admins and **location users will NOT be able to access HighLevel support**. The blue support button in the top right corner is not even visible as you can see in the image below.
+
+  
+
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155033464764/original/DNs4-a-1Hy0hX5FpNae81NMXH1lhs5CVIA.jpg?1727189126)
 
@@ -87,7 +98,10 @@ You can see in the image below that location admins and **location users will NO
 
 # **Customer Support Options**
 
-HighLevel customers have access to multiple different support channels so you can choose the one that best fits your support needs, preference, or busy work schedule. You can learn more about the differen support channels below!
+  
+
+
+HighLevel customers have access to multiple different support channels so you can choose the one that best fits your support needs, preference, or busy work schedule. You can learn more about the different support channels below!
 
   
 
@@ -108,19 +122,19 @@ HighLevel customers have access to multiple different support channels so you ca
 
     
     
-    **IMPORTANT:** In order to receive email support from our team, you will need to open a support ticket. HighLevel does NOT have a general support email address
+    **IMPORTANT:** In order to receive email support from our team, you will need to open a support ticket. HighLevel does NOT have a general support email address.
 
   
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155029579750/original/37SJUHYeE7I3lWekJJDWoDrQS57F0WZ2Og.jpg?1721422191)
 
-  
-
-
 * * *
 
 ## **Zoom Support Calls**
+
+  
+
 
 If you need face-to-face support from our team, you can quickly and easily join our Zoom support rooms and chat with a support agent who will answer your questions and guide you through your support inquiries in person!
 
@@ -140,11 +154,16 @@ Once you request a Zoom call, you will be added to a queue where you will wait f
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155033543989/original/-SoNMWo3vN9pnmFfhq3_ASpWlu5N5BPxMQ.jpg?1727275716)
 
+  
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155033556024/original/CXDfqU_ggZ4vkjBbRz9XbYXRYhz8MkEJgg.jpg?1727284889)
 
 * * *
 
 ## **Live Chat Support**
+
+  
+
 
 If you need support, and you don't want to jump in a Zoom call, you can simply start a chat session with our expert agents using the live chat directly inside of you account! Our agents will gather as much information as they can about the issue you're having, and do their best to help you solve the problem right then and there.
 
@@ -154,9 +173,12 @@ If you need support, and you don't want to jump in a Zoom call, you can simply s
 If the issue cannot be solved, the agents will escalate the issue to a team that may be better suited to help, and create a support ticket for your issue so that you can maintain communication with our support staff while the issue is being addressed.
 
   
+You can choose between **AI Support Chat** and **Agent Chat**.
+
+  
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155033544899/original/vFEhWHLGEVI3SIVWqszNzluhO3X3y3YwTg.jpg?1727276139)
+![](https://jumpshare.com/share/XPUG6V1zfMuqEfYVcsP6+/GIF+Recording+2026-06-30+at+20.11.35.gif)
 
 * * *
 
@@ -166,7 +188,8 @@ If the issue cannot be solved, the agents will escalate the issue to a team that
 
     
     
-    **IMPORTANT:** In order to receive email support from our team, you will need to open a support ticket. HighLevel does NOT have a general support email address
+    **IMPORTANT:** In order to receive email support from our team, you will need to open a support ticket. HighLevel does NOT have a general support email address
+    
 
   
 
@@ -179,12 +202,26 @@ We would like to ask that you respond as soon as possible to any email coming fr
   
 
 
+**Follow the steps in the video below to raise a support ticket, choose your area of concern as per your scenario and add as much details as possible to receive faster support and resolution.**
+
+**  
+**
+
+![](https://jumpshare.com/share/jGEe3wWsXMtBHC5YIluF+/GIF+Recording+2026-07-01+at+18.49.52.gif)  
+
+
+  
+
+
 ## **What's Included in a Support Ticket?**
 
   
 
 
-**1\. Why You're Receiveing The Ticket Email**
+**1\. Why You're Receiving The Ticket Email**
+
+  
+
 
 In this initial email, you will see a few possibilities as to why you're chat was converted into a support ticket.
 
@@ -192,6 +229,9 @@ In this initial email, you will see a few possibilities as to why you're chat wa
 
 
 **These usually include:**
+
+  
+
 
   * Our support team provided you with a troubleshooting step or resolution but you did not confirm if that step resolved the issue.  
   
@@ -204,12 +244,18 @@ In this initial email, you will see a few possibilities as to why you're chat wa
 
 **2\. Next Steps**
 
+  
+
+
 We outline what steps you can take to further investigate the support issue and hopefully resolve it. 
 
   
 
 
 **3\. Conversation History**
+
+  
+
 
 The email you receive from our support team will have a full history of the original conversation you had with our support agent(s) so that you can go back and reference anything that was initially talked about during that conversation with our team.
 
@@ -222,6 +268,9 @@ The email you receive from our support team will have a full history of the orig
 
 ## **Phone Support**
 
+  
+
+
 At any time of the day, you can call **[+1 (888) 732-4197](<tel:+18887324197>)** for any **sales, billing, or login related issues.** We validate all inbound callers, no matter the caller, to confirm they are an Agency Admin.
 
   
@@ -229,8 +278,11 @@ At any time of the day, you can call **[+1 (888) 732-4197](<tel:+18887324197>)**
 
 **_International Phone Support Numbers:_**
 
+  
+
+
   * **South Africa:**[+27 87 250 2674](<tel:+27872502674>)
-  * **Netherlands:** +31 97010208764
+  * **Netherlands:** [+31 97010208764](<tel:+3197010208764>)
   * **United Kingdom:**[+44 808 502 2329](<tel:+448085022329>)
   * **Philippines:**[+63 1800 1 550 0097](<tel:+63180015500097>)
   * **Australia:**[+61 1800 983 916](<tel:+611800983916>)
@@ -259,15 +311,55 @@ If your Agency HighLevel email is not the best one to reach you at, please menti
 
 * * *
 
-# **Troubleshooting & FAQ's**
+## **How to Get Support for Affiliate Concerns?**
 
   
 
 
-Below you will find some frequently asked questions and process to help you troubleshoot issues surrounding customer support. If there is a question that you need answered, and you don't see it below, please make sure to let our support staff know, or you can send us feedback on this article and ask us to add the question to the article.
+**![](https://jumpshare.com/share/lFRIxtARfa5KlnfclmZH+/GIF+Recording+2026-06-30+at+20.26.01.gif)**
+
+* * *
+
+## **How to Create an Agency "Admin" to get HighLevel Support?**
 
   
 
+    
+    
+    **PLEASE NOTE:**  In order to add a user, you will need to be an **Agency Admin**. You will need to notify the user with login info and password. Once the user logs in they can update their password.
+
+  
+
+
+  1. Go to **Agency Settings** > Click on the **Team** tab > Click **\+ Add Employee** button and complete:  
+  
+
+     * **User Info:** Email, phone number and password is required  
+  
+
+     * **User Permissions:** Select the user permission you wish your user to have  
+
+  2. Make sure that the User Type section is **Agency**  
+  
+
+  3. Select the User Role as **Admin**  
+  
+
+  4. Click on **Add To Account** and select the location(s) you want this user to manage  
+  
+
+  5. Hit **Save.**
+
+
+* * *
+
+## **Frequently Asked Questions**
+
+  
+
+    
+    
+    **IMPORTANT: Have your Agency information ready so our team can verify your identity and make sure you are an agency admin or account owner.**
 
   
 
@@ -284,75 +376,33 @@ If we had a general support email address, then all emails sent to that address 
   
 
 
-  
-
-
 **Q: How to Contact Support if I can't Login to HighLevel?**
 
 If you are having trouble logging into your HighLevel application, and you need to get support outside of the application, you have the following options to contact HighLevel support:
 
+  
+
+
   1. **Phone Support:** Call this number to reach our support if you're having trouble loggin in **[(+1 (888) 732-4197)](<tel:+18887324197>)**  
   
 
-  2. **Website Chat Widget:** You can also reach out support staff if you navigate to our main website and use our website chat widget. Make sure to tell our team that you are having trouble logging in, and that you need help from support. **  
+  2. **Website Chat Widget:** You can also reach out support staff if you navigate to our main website and use our website chat widget. Make sure to tell our team that you are having trouble logging in, and that you need help from support.**  
 ****  
 **
-  3. **Email Support:** Submit a ticket [using this form](<https://link.gohighlevel.com/widget/form/aujwIzqADXoECxSATYeI>) and our team will get on it right away. 
-
-
-  
-
-    
-    
-    **IMPORTANT:** Have your Agency information ready so our team can verify your identity and make sure you are an agency admin or account owner.
-
-  
+  3. **Email Support:** Submit a ticket [**using this form**](<https://link.gohighlevel.com/widget/form/aujwIzqADXoECxSATYeI>) and our team will get on it right away. 
 
 
   
 
 
-**Q: I'm not seeing the Blue Question Mark button in my dashboard**
+**Q: Why I'm not seeing the Blue Question Mark button in my dashboard?**
 
-The blue question mark button and its features are only visible to users logged in as a **"Agency Admin"** or "**Agency User"**.
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155033466012/original/ToAUgeDo478jhmO3ANrfx5rQB4N03axfaA.jpg?1727189875)
+The blue question mark button and its features are only visible to users logged in as a **"Agency Admin"** or "**Agency User"**. 
 
   
 
 
-**IMPORTANT:** **Location Admins** and **Location Users** will **NOT** see the blue question mark button, this is strictly for Agency Admins and Agency Users.
-
-  
-
-
-  
-
-
-**Q: How to Create an Agency "Admin" to get HighLevel Support?**
-
-  1. Go to **"Agency Settings"** -> Click on the **"Team"** tab -> Click **"+ Add Employee"** button and complete:  
-
-     * **User Info:** Email, phone number and password is required
-     * **User Permissions:** Select the user permission you wish your user to have
-  2. Make sure that the User Type section is **"Agency"**  
-  
-
-  3. Select the User Role as **"Admin"**  
-  
-
-  4. Click on **"Add To Account"** and select the location(s) you want this user to manage  
-  
-
-  5. Hit **"Save"**
-
-
-    
-    
-    **PLEASE NOTE:**   
-    - In order to add a user, you will need to be an "Agency Admin".  
-    - You will need to notify the user with login info and password.   
-    - Once the user logs in they can update their password.
+**Location Admins** and **Location Users** **will** **NOT** **see****** the **blue** **question** **mark** **button** , this is strictly for Agency Admins and Agency Users.
 
 * * *
 
@@ -368,7 +418,12 @@ It is frustrating when we need help but can't get it as fast as we'd like it. Th
 
 **1\. Check out our knowledge base and YouTube channel**
 
-  * [**Knowledge Base**](<https://help.gohighlevel.com/support/solutions>)
+  
+
+
+  * [**Knowledge Base**](<https://help.gohighlevel.com/support/solutions>)  
+  
+
   * **[YouTube](<https://www.youtube.com/@gohighlevel>)**
 
 
@@ -377,8 +432,15 @@ It is frustrating when we need help but can't get it as fast as we'd like it. Th
 
 **2\. Hop into one of our weekly and monthly events here:**
 
-  * [**HighLevel Events Page**](<https://www.gohighlevel.com/events>)
-  * **[HL Daily Demo](<https://www.gohighlevel.com/demo>)**
+  
+
+
+  * [**HighLevel Events Page**](<https://www.gohighlevel.com/events>)  
+  
+
+  * **[HL Daily Demo](<https://www.gohighlevel.com/demo>)**  
+  
+
   * **[Daily Q&A](<https://www.gohighlevel.com/daily-qa>)**
 
 
@@ -386,6 +448,9 @@ It is frustrating when we need help but can't get it as fast as we'd like it. Th
 
 
 **3\. Search our Facebook Community group for answers to frequently asked questions:**
+
+  
+
 
   * [**Facebook Group**](<https://www.facebook.com/groups/gohighlevel>)
 

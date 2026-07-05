@@ -6,624 +6,312 @@
 
 ---
 
-This guide outlines the full pricing structure for the native Phone system within HighLevel. It covers everything from phone number costs, SMS/MMS messaging, voice calling rates, and carrier passthrough fees, to rebilling options for agencies using SaaS mode. However, the pricing for our Phone System is the same amount as Twilio. All the prices shown for our Phone features are listed in USD. 
+Overview
 
-* * *
+This guide outlines the full pricing structure for the native Phone System within the platform, including phone number rental, SMS/MMS messaging, voice calling, carrier pass-through charges, and A2P registration. Pricing matches Twilio's rates.
 
-**TABLE OF CONTENTS**
+All prices are in USD. Country-specific pricing PDFs are attached at the bottom of this page.
 
-  * Pricing Based on the Most Used Product Categories
-    * Phone Numbers
-    * Messaging Service - SMS
-    * Messaging Service - MMS
-    * Voice Calls
-    * Number Intelligence
-    * Other Charges
-  * Frequently Asked Questions
-  * Related Articles
+Table of Contents
 
+1
 
-* * *
+Phone Numbers
 
-## **Pricing Based on the Most Used Product Categories**
+2
 
-  
+Messaging — SMS & MMS
 
+3
 
-This pricing guide outlines costs based on the most commonly used Phone product categories — including local/toll-free numbers, messaging (SMS/MMS), voice calls, and optional rebilling charges for SaaS agencies.
+Voice
 
-  
+4
 
+A2P Pricing
 
-**Please Note: A list of country-specific prices PDFs are attached at the bottom of the page.**
+5
 
-  
+Pass-Through Charges & Re-billing
 
+6
 
-### **1\. Phone Numbers**
+Number Intelligence
 
-  
+7
 
+Frequently Asked Questions
 
-All the phone numbers are charged monthly based on the number types. Below is the list of pricing for different number types available in the US/Canada:
+1
 
-  
+## Phone Numbers
 
+All phone numbers are charged monthly. Below are the US/Canada rates:
 
-  1. Local Numbers: $1.15 / month  
-  
-
-  2. Toll-Free Numbers: $2.15 / month
-
-
-  
-
-
-For all the other countries, please refer to the country-specific pricing PDFs attached at the bottom of the page.
-
-  
-
-
-### **2\. Messaging Service - SMS**
-
-  
-
-
-The SMS pricing is based on the number of segments a message has, the pricing in US/Canada is as follows:
-
-  
-
-
-Country| Outbound SMS  
-Pricing are based / segment| Inbound SMS  
-Pricing are based / segment  
----|---|---  
-US| $0.00747 | $0.00747   
-Canada| $0.00747 | $0.00747   
-  
-  
-
-
-**Note: The above charges include a 10% discount on the $0.0083 list price.  
-**  
-This pricing is both for the local and toll-free numbers. For all the other countries, the pricing will also be based on Twilio's pricing. (Please refer to the attached PDF at the bottom of the page).
-
-  
-
-
-### **3\. Messaging Service - MMS**
-
-  
-The MMS pricing is based on the number of segments a message comprising of, the pricing for US/Canada and Australia are as follows: 
-
-  
-
-
-  
-
-
-Country| Outbound MMS  
-Pricing are based / segment| Inbound MMS  
-Pricing are based / segment  
----|---|---  
-US| $0.0220| $0.0165 (Local Numbers)  
-$0.0200 (Toll-free Numbers)  
-Canada| $0.0220| $0.0165 (Local Numbers)  
-$0.0200 (Toll-free Numbers)  
-Australia| $0.3500| $0.3500 (Local Numbers)  
-$0.3500 (Toll-free Numbers)  
-  
-  
-
-
-  
-
-
-For all the other countries, the pricing will also be based on Twilio's pricing.  
-(Please refer to the attached PDF at the bottom of the page).
-
-  
-
-
-### 
-
-Tip: For calculating segments and understanding more about how to calculate the per SMS and MMS cost, refer to How to Calculate SMS and MMS Costs
-
-  
-
-
-### **4\. Voice Calls**
-
-  
-
-
-The cost of voice calls depends on call duration (per minute). Below is a detailed breakdown for US and Canada.
-
-  
-
-
-**Outbound Calls**
-
-  
-Total Cost: $0.0166 per minute
-
-  
-**Breakdown:**  
-  
-
-
-  * Outbound USA: $0.0126/min  
-  
-(includes 10% discount on list price of $0.014)  
-  
-
-  * Client Minutes: $0.004/min
-
-
-  
-
-
-**Inbound Calls**
-
-  
-Inbound calls generally consist of two legs:  
-  
-
-
-  1. Incoming call to your HighLevel number (from the caller)  
-  
-
-  2. Forwarded call to wherever you answer it , e.g., web, mobile, desk phone, or another number
-
-
-  
-Charges apply for both legs, depending on where you answer.
-
-  
-
-
-If Answered on Web, Mobile, or Deskphone
-
-  
-Total Cost: $0.01165 per minute
-
-  
-
-
-**Breakdown:  
-**
-
-  * Incoming Call (USA): $0.00765/min  
-  
-(includes 10% discount on list price of $0.0085)  
-  
-
-  * Client Minutes: $0.004/min
-
-
-  
-**Note: Voice AI calls may add $0.004/min if the provider uses SIP infrastructure.**
-
-  
-
-
-If Answered on a USA Forwarding Number
-
-  
-Total Cost: $0.02 per minute
-
-  
-**Breakdown:  
-**
-
-  * Incoming Call (USA): $0.00765/min  
-  
-
-  * Outgoing Call (to your forwarding number): $0.0126/min
-
-
-  
-
-
-**Explanation:**  
-  
-If you forward your HighLevel number to a US phone number or any other phone number you’ll pay for both the incoming and outgoing portions of the call.
-
-  
-
-
-**Note- The above example illustrates pricing for a US number. Actual rates vary by country based on Twilio’s pricing**
-
-  
-
-
-**Important Notes**  
-  
-
-
-  * **International Forwarding:  
-**  
-If you forward incomming call to an international number (e.g., UK mobile), the second leg follows Twilio’s international rates, which are higher.  
-  
-View Twilio’s Local, Mobile, and Toll-Free International Rates  
-  
-
-  * **Regional Exceptions:  
-**  
-Calls to Alaska and Yukon Territory follow Twilio’s regional pricing and are not billed at the standard US/Canada rates.  
-  
-
-  * **Other Countries:  
-**  
-For all other regions, pricing is based on Twilio’s international call rates.  
-  
-
-  * **Billing Rounding:  
-**  
-Calls are billed in full minutes.  
-  
-Any partial minute is rounded up to the next whole minute.  
-  
-
-  * Call Reporting: Reports display the exact call duration, even if billing rounds up.  
-  
-
-
-  * **Example:  
-**
-
-Type| Number of Calls| Actual Duration in call reports| Billed Duration  
----|---|---|---  
-Example| 2 calls| 45 seconds each (1m 30s total)| 2 minutes total  
-  
-> Summary:  
-> Call reporting shows precise durations for transparency, while billing uses the rounded-up minute for calculation.
-
-
-  
-
-
-**Please Note:** The outbound calls have 2 legs so the cost of an outbound call will be $0.0180 ($0.014 for Outbound call + $0.004 for the webApp/MobileApp leg which dialer uses to initiate the call (Client Minutes))
-
-  
-
-
-### **5\. Number Intelligence**
-
-  
-
-
-Number Intelligence is a bundle of three functions. All three are turned on/off together, refer to Number Intelligence - Number Validation, Spam Detection, and Unknown Caller
-
-  
-
-
-  * **Number Validation ($0.005/call):** Before sending an SMS, check if the number is valid, if invalid do not send the SMS.  
-  
-
-  * **Spam Detection ($0.005/test):** When receiving an incoming US call, test it for spam, mark is "spam likely" if it fails the test.  
-  
-
-  * **Name Lookup ($0.01/lookup):** When receiving an incoming US call, if the number is not on a contact or the contact name is empty, look up the caller's name.
-
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046385293/original/IOcn1VJ_JgjQlfYevr5Wtxu-qwGaCbGz3w.png?1746791119)
-
-  
-
-
-  
-
-
-### Number Format Lookups: All the number formats look up to support calls are free of cost.  
-  
-**6\. A2P Pricing**
-
-  
-
-
-Here’s how A2P Brand and Campaign registration fees apply for both Low Volume and High Volume campaigns:
-
-  
-
-
-Type| One-Time Brand & Campaign Registration Fee| Monthly Campaign Fee| Daily Segment Limit| Notes  
----|---|---|---|---  
-Low Volume (LV)| $24.49875(includes $3 Fast Track fee)| $11.03 per campaign| 6,000 segments/day| For smaller businesses or limited messaging volumes.  
-High Volume (HV)| $71.90625(includes $3 Fast Track fee)| $11.03 per campaign| 600,000 segments/day| For frequent or large-scale messaging use cases.  
-  
->   
-> 
-> 
-> Important:
-> 
->   * Monthly campaign fees are determined by The Campaign Registry (TCR) and apply as soon as the campaign is reviewed, regardless of whether it is approved or rejected. Users must delete the campaign if they do not wish to continue being charged.  
->   
-> 
->   * The $3 Fast Track fee ensures faster campaign approval and is included in the one-time registration cost.
-> 
-
-
-  
-New: A2P campaign resubmissions are now free. The $15 A2p resubmission charge has been removed. You can resubmit a campaign at no cost while addressing carrier feedback. However, the following fields cannot be edited during resubmission:  
-  
-
-
-  * Campaign use-case  
-  
-
-  * Opt-in message  
-  
-
-
-If you need to update any of these fields, you’ll need to create a new campaign, which will be charged as usual.
-
-  
-
-
-Please note: While resubmissions are free, Campaigns rejected due to disallowed content may be subject to applicable charges. 
-
-###   
-
-
-### **7\. 5% Markup on Select Categories**
-
-  
-
-
-Certain pricing categories carry a **5% markup applied at the location level**. This markup is added on top of the base cost for the following categories and is not subject to the standard configured rebilling structure.
-
-### **Categories with 5% Markup**
-
-Category| Description  
+Number Type| Monthly Cost  
 ---|---  
-**SMS Carrier Fees**|  The 5% markup applies on top of all SMS carrier surcharges passed through from the recipient's carrier (AT&T, T-Mobile, Verizon, etc.)  
-**MMS Carrier Fees**|  The 5% markup applies on top of all MMS carrier surcharges, including fees for both inbound and outbound MMS messages  
-**A2P Registration Fees**|  The 5% markup applies to both the one-time Brand & Campaign registration fees and the ongoing monthly campaign fees for Low Volume and High Volume campaigns  
-**Verified Caller ID**|  The 5% markup applies to Verified Caller ID charges. Note: This is a billing-only category and is not part of the standard usage categories  
-**RCS Messaging Carrier Fees**|  The 5% markup applies to any carrier fees associated with RCS (Rich Communication Services) messaging  
+Local Numbers| $1.15 / month  
+Toll-Free Numbers| $2.15 / month  
   
-###   
+Note
 
+For all other countries, refer to the country-specific pricing PDFs attached at the bottom of this page.
 
-### **How the 5% Markup Works**
+2
 
-  * The markup is applied **at the location level** , meaning it is calculated and added per sub-account/location.  
+## Messaging — SMS & MMS
+
+SMS
+
+Per-segment pricing — US/Canada
+
+Country| Outbound| Inbound  
+---|---|---  
+US| $0.00747| $0.00747  
+Canada| $0.00747| $0.00747  
   
+A 10% discount is applied to the $0.0083 list price for both local and toll-free numbers.
 
-  * This markup is **separate from configured rebilling**. Unlike usage categories that follow the rebilling configuration, these five categories always carry the fixed 5% surcharge regardless of other rebilling settings.  
+MMS
+
+Per-segment pricing — US, Canada & Australia
+
+Country| Outbound| Inbound  
+---|---|---  
+US| $0.0220| $0.0165 (Local) / $0.0200 (Toll-free)  
+Canada| $0.0220| $0.0165 (Local) / $0.0200 (Toll-free)  
+Australia| $0.3500| $0.3500 (Local & Toll-Free)  
   
+For segment calculation details, refer to the [How to Calculate SMS and MMS Costs](<https://help.gohighlevel.com/support/solutions/articles/48001203458-how-to-calculate-sms-and-mms-costs>) guide.
 
-  * The 5% is calculated on the **base cost** of the applicable charge before being billed to the location.  
-  
+Carrier Fees
 
+Passed through by the recipient's carrier
 
-**Example:**
+Carrier fees are charged by the recipient's carrier on top of standard SMS/MMS rates. Amounts vary by carrier and message type.
 
-  
-
-
-If the SMS carrier fee for a message to an AT&T subscriber is $0.0035 (outbound), the amount billed after the 5% markup would be:
-
-> $0.0035 × 1.05 = **$0.003675**
-
-  
-
-
-Similarly, if a Low Volume A2P Brand & Campaign registration fee is $24.49875, the amount billed with the markup applied would be:
-
-> $24.49875 × 1.05 = **$25.7237**
-
-###   
-
-
-###  What Is NOT Included in the 5% Markup
-
-  
-
-
-The following categories are governed by **configured rebilling** rather than the flat 5% markup:
-
-  * Transcription
-  * Amazon Polly (Text-to-Speech)
-  * Chat users / Group messaging users
-  * Answering machine detection
-  * Number validation
-  * Incoming call spam intelligence
-  * Call recording
-  * Caller ID lookup
-  * Carrier lookups
-  * All inbound and outbound calls (voice)
-  * All inbound and outbound SMS/MMS messages
-  * IVR calls, Workflow calls, Voicemail drops
-  * Phone numbers (Local, Toll-Free, Mobile)
-
-
-###   
-**8\. Other Charges**
-
-  
-
-
-Below are some additional categories that are also charged at the same price as Twilio:
-
-  
-
-
-  * Client Minutes for Calling ($0.004 per minute, already included in the outgoing call charges shared above, SaaS rebilling applies)  
-  
-
-  * Call Recording ($0.0025 per minute of recording, SaaS rebilling applies)  
-  
-
-  * Call Recording storage ($0.0005 per minute of recording per month, SaaS rebilling applies)  
-  
-
-  * Call Transcription ($0.024 per minute, SaaS rebilling applies)  
-  
-
-  * Answering Machine Detection ($0.0075 per call where it is used, SaaS rebilling applies)  
-  
-
-  * Voicemail drops ($0.0180 / minute, SaaS rebilling applies, same charge as an outgoing call)  
-  
-
-  * Conference Calls ($0.0018 - $0.0040 per minute per participant depending on region used, SaaS rebilling applies)  
-  
-
-    * **US:** $0.0018 /participant/minute  
-  
-
-    * **Dublin:** $0.0025 /participant/minute  
-  
-
-    * **Tokyo:** $0.0030 /participant/minute  
-  
-
-    * **Singapore:** $0.0030 /participant/minute  
-  
-
-    * **Sydney:** $0.0030 /participant/minute  
-  
-
-    * **Sau Paulo:** $0.0040 /participant/minute  
-  
-
-    * Conference Call charges are only applied for warm transferred calls, workflow calls  
-  
-
-  * **Carrier Charges  
-**
-    1. SMS carrier fees are charges that are applied by the recipients carrier to the sender, These charges + SMS charge is the total cost to send an SMS. Some carriers charge fees on long code SMS (messages sent from a 10-digit US/Canada number). Other carriers only charge fees for SMS sent from a Short code number.  
-  
-
-    2. There are additional carrier fees per message that are automatically applied based on the end-user's destination and carrier.  
-  
-Carrier| SMS Outbound*| SMS Inbound*| MMS Outbound*| MMS Inbound*  
+Carrier| SMS Out| SMS In| MMS Out| MMS In  
 ---|---|---|---|---  
 AT&T| $0.0035| $0.0035| $0.0090| $0.0090  
 T-Mobile| $0.0045| $0.0025| $0.0100| $0.0100  
-Verizon| $0.0045| $0.0070| $0.0070| -  
+Verizon| $0.0045| $0.0070| $0.0070| —  
 US Cellular| $0.0050| $0.0100| $0.0100| $0.0100  
-All other carriers| $0.0040| $0.0100| $0.0100| -  
+All Other Carriers| $0.0040| $0.0100| $0.0100| —  
+  
+3
 
+## Voice
+
+Voice call costs are billed per minute. Below is the breakdown for US and Canada, plus additional charges for recording, transcription, and related services.
+
+Outbound Calls
+
+**Total:~~**~~~~$0.0180~~~~**~~ $0.0166 / minute**  
+ _(Discount on US & Canada outbound calling rates)_
+
+Component| Rate  
+---|---  
+Outbound USA| $0.0126/min (10% discount on $0.014 list)  
+Client Minutes| $0.004/min  
+  
+Inbound — Web, Mobile, or Deskphone
+
+**Total:~~~~**~~~~$0.0129~~~~**~~ ~~ $0.01165 / minute**  
+ _(Discount on US & Canada inbound calling rates)_
+
+Inbound calls have two legs: the call arriving at your platform number, and the forwarded leg to where you answer. Both are billed.
+
+Component| Rate  
+---|---  
+Incoming Call (USA)| $0.00765/min (10% discount on $0.0085 list)  
+Client Minutes| $0.004/min  
+  
+Inbound — USA Forwarding Number
+
+Total: $0.02 / minute
+
+Component| Rate  
+---|---  
+Incoming Call (USA)| $0.00765/min  
+Outgoing Call (to forwarding number)| $0.0126/min  
+  
+International Forwarding
+
+Forwarding to an international number (e.g., a UK mobile) uses Twilio's international rates for the second leg, which are higher than standard US/Canada rates.  
+  
+
+
+BILLING $ REGIONALS NOTES  
+Calls are billed in full minutes, any partial minute rounds up. Calls to **Alaska** and **Yukon Territory** follow Twilio's regional pricing, not standard US/Canada rates.
 
   
 
 
-  * Amazon Polly Text-to-Speech charges (The new, enhanced speech feature costs US$0.00084 per 100 characters of text).
+Additional Voice Charges
 
+Service| Rate  
+---|---  
+Call Recording| $0.0025/min  
+Call Recording Storage| $0.0005/min/month  
+Call Transcription| $0.024/min  
+Answering Machine Detection| $0.0075/call  
+Voicemail Drops| $0.0180/min  
+Conference Calls| $0.0018 – $0.0040/min/participant (region-dependent)  
+Amazon Polly (Text-to-Speech)| $0.00084/100 characters  
+  
+Conference Call Regional Rates
 
-* * *
+Region| Rate / Participant / Min  
+---|---  
+US| $0.0018  
+Dublin| $0.0025  
+Tokyo| $0.0030  
+Singapore| $0.0030  
+Sydney| $0.0030  
+São Paulo| $0.0040  
+  
+4
 
-## **Frequently Asked Questions**
+## A2P Pricing
 
+A2P Brand and Campaign registration fees for Low Volume and High Volume campaigns:
+
+Type| Daily Segment Limit| Monthly Campaign Fee| One-Time Registration Fee  
+---|---|---|---  
+Sole Proprietor| 3,000 segments/day| Upto $2.10  
+/Campaign| Up to $23.475  
+(incl. $3 Fast Track)  
+Low Volume (LV)| 600,000 segments/day| $1.50- $10.50  
+/Campaign| Up to $23.475  
+(incl. $3 Fast Track)  
+High Volume (HV)| 600,000 segments/day| $10.50  
+/Campaign| $68.625  
+(incl. $3 Fast Track)  
+  
+IMPORTANT
+
+  * **Submitting your campaign starts both your one time registration fee and monthly campaign fee, regardless of the review outcome.**  
   
 
-
-**Q: Why am I being charged for incoming SMS?  
-**
-
-The native phone system charges for both inbound and outbound SMS at the same rate  
+  * **Don't want to continue?** Delete your campaign to stop future monthly charges.  
   
-**Q.Will SaaS re-billing work if I move sub-accounts on the native Phone System?**
+
+  * The **$3 Fast Track fee** is **non-refundable** and speeds up the campaign review process.  
+  
+
+  * **Starting February 1, 2026:** A2P campaign resubmissions are **free**. The previous **$15 resubmission fee** has been removed.
+
+
+5
+
+## Pass-Through Charges & Re-billing
+
+Certain communication products are classified as **pass-through charges**. A fixed **5% markup** is applied to these charges at the location (sub-account) level, regardless of whether your agency has re-billing enabled.
+
+Which charges get the 5% markup?
+
+Category| Description  
+---|---  
+A2P Registration Fees| One-time Brand Registration, Campaign Registration, and recurring monthly campaign fees.  
+SMS Carrier Fees| Carrier surcharges applied by mobile carriers for inbound and outbound SMS messages.  
+MMS Carrier Fees| Carrier surcharges applied by mobile carriers for inbound and outbound MMS messages.  
+Verified Caller ID| Charges associated with the Verified Caller ID service.  
+RCS Messaging Carrier Fees| Carrier fees associated with Rich Communication Services (RCS) messaging.  
+  
+How Re-billing Works
+
+The 5% markup above always applies to the categories listed. If your agency has re-billing enabled, your configured re-billing amount is applied in addition to this markup.
+
+  * **Re-billing enabled:**   
+Base cost → +5% location markup → + agency's configured re-billing amount.
+  * **Re-billing disabled:**   
+Base cost → +5% location markup only. No additional re-billing markup is added.
+
+
+Example (Base SMS Carrier Fee = $10.00, Agency Reselling Multiplier = 2x)
+
+Item| Rebilling Enabled| Rebilling Disabled  
+---|---|---  
+Base carrier fee| $10.00| $10.00  
+5% location markup ($10.00 × 1.05)| $10.50| $10.50  
+Agency rebilling ($10.50 × 2)| $21.00| —  
+Final amount billed to the location| $21.00| $10.50  
+  
+Where to configure Re-billing?
+
+Agency owners configure re-billing from **Agency View → Reselling → Core Services**. From there you can:
+
+  * Set the Resell Amount (re-billing multiplier) for supported platform services.
+  * Set custom pricing for Marketplace Apps.
+  * Control the pricing your sub-accounts (locations) pay for supported products.
+
+
+Key Points
+
+  * The 5% markup always applies to the pass-through categories listed above, at the location (sub-account) level.
+  * Enabling or disabling re-billing does not remove the 5% markup.
+  * If re-billing is enabled, the configured re-billing amount is applied after the 5% markup has been added.
+
+
+6
+
+## Number Intelligence
+
+Number Intelligence is a bundle of three functions that are turned on/off together. Refer to **Number Intelligence — Number Validation, Spam Detection, and Unknown Caller** for full details.
+
+![Number Intelligence settings](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074921397/original/BjtQ36oYFNcmxgwnzeDrTp947lm9jNgt5A.png)
+
+  * **Number Validation — $0.005 / call:** Before sending an SMS, check if the number is valid. If invalid, the SMS is not sent.
+  * **Spam Detection — $0.005 / test:** When receiving an incoming US call, test it for spam and mark as "spam likely" if it fails.
+  * **Name Lookup — $0.01 / lookup:** When receiving an incoming US call, look up the caller's name if the number is not linked to a contact or the contact name is empty.
+  * **Number Format Lookups:** All number format lookups to support calls are free of cost.
+
+
+7
+
+## Frequently Asked Questions
+
+Q: Why am I being charged for incoming SMS?
+
+The native phone system charges for both inbound and outbound SMS at the same rate.
+
+Q: Will SaaS rebilling work if I move sub-accounts to the native Phone System?
 
 Yes, SaaS rebilling will continue to work with the native Phone System.
 
-  
+Q: Which categories have a 10% discount applied?
 
+**Phone Numbers** — US and Canada only, all number types.  
+**SMS** — US/Canada to US/Canada only, both inbound and outbound.  
+**Voice Calls** — US/Canada to US/Canada only, both incoming and outgoing (excludes items listed in Additional Voice Charges).
 
-**Q. Which all categories have a 10% discount applicable?**
+Q: I was billed $20 right away but haven't made any calls. Is this expected?
 
-  * Phone Numbers [Only US and Canada] [For all types of numbers]
-  * SMS [Only from US/Canada to US/Canada] [For both Inbound and Outbound]
-  * Voice Calls [Only from US/Canada to US/Canada] [For both Incoming and Outgoing Calls] [Excluding products mentioned in Other Charges]
+Yes. The wallet auto-recharged as soon as the balance dropped below the threshold set in the wallet configurator.
 
+![Wallet configurator](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074921482/original/fRdWrXrG4mZyZYHUrBkJuFzpnuX9Y_1eMg.png)
 
-  
+Q: Will I be charged if I encounter an error when sending an SMS?
 
+If there's an internal error before the message is handed off to the phone provider, you won't be charged. However, charges apply to every message where a delivery attempt has been made — regardless of the final delivery status. This includes toll-free numbers, A2P numbers, and messages undeliverable due to country restrictions. Refunds will not be provided for undelivered SMS.
 
-**Q. I was billed $20 right away. However, I haven't called anyone yet and have only created one phone number. Is this expected?**
+Q: Why am I getting charged for Call Recording Storage even though I didn't record calls recently?
 
-Yes, the wallet would have auto-recharged as soon as the balance is below the amount set in the wallet configurator.
+Any call recording stored — including older recordings — incurs ongoing storage charges billed daily per sub-account. To avoid these charges, go to **Settings → Phone Numbers → Advanced Settings → Voice Calls → Call Recording** to automatically delete older recordings, or set the deletion period to 1 day and disable call recording for future calls.
 
-  
+![Call recording settings](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074920889/original/3QRuC0klOSV2enbNRc8_wM_gz53n8JTg3g.png)
 
+Q: Why do I pay Conference Call charges for all outgoing calls, even without a transfer?
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155005564786/original/LsyKT0vWYm4k7X1MIzIZo8qANAZpZCjRAg.png?1692383874)
-
-  
-
-
-**Q.Will I be charged if I encounter an error when sending an SMS?**
-
-If there's an internal error with the native Phone system before the message is handed off to the phone provider, you won't be charged. However, charges apply to every message where a delivery attempt has been made, regardless of the final delivery status. This includes messages sent from toll-free numbers, A2P numbers, and those not deliverable due to country restrictions or other factors. We urge users to be fully informed and cautious before sending messages, as refunds will not be provided for undelivered SMS.
-
-  
-
-
-**Q. Why am I getting charged for Call Recording Storage even though I didn't record calls recently?**
-
-Any Call Recording stored incurs storage charges. This means older call recordings also incur these storage charges. 
-
-Call Recording Storage is billed daily per sub-account (instead of once at month-end). Your total monthly amount should not change—only the billing frequency has changed. You may see one Call Recording Storage transaction per day, and during the initial switch you may see multiple “catch-up” transactions for prior days.
-
-If you want to avoid these charges:  
-  
-
-
-  * Retain recent call recordings and delete older ones using the feature "Automatically Delete Older Recordings" under Sub-account settings > Phone Numbers > Advanced Settings > Voice Calls > Call Recording  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155052319944/original/6bu5Rpi3Tvbe1A7uJHPFW4AwnlFO_mRSXQ.png?1756137193)  
-  
-
-  * Delete all call recordings to avoid all storage charges. Set the time period in the above feature to 1 day and disable call recording for future calls
-
-
-  
-
-
-**Q. Why do I pay for Conference Call charges for all outgoing calls (even the ones without call transfer)?**
-
-Our outgoing call flow is optimized to be seamless, with lower waiting times and quicker transfers. Thus, we initiate a Conference Call for all outgoing calls as per our standard call flow implementation.  
-  
-
-
-**Q. Does the 5% markup apply in addition to the configured rebilling?**
-
-The 5% markup applies to a specific set of categories (SMS carrier fees, MMS carrier fees, A2P registration fees, Verified Caller ID, and RCS messaging carrier fees) at the location level. These are separate from the usage categories that fall under configured rebilling. If a category is under configured rebilling, the 5% markup does not apply to it.
-
-* * *
-
-## **Related Articles**  
-**  
-**
-
-  * [What is LC (Lead Connector) Phone System?](<https://help.gohighlevel.com/en/support/solutions/articles/48001223546>)  
-  
-
-  * [How do I migrate my agency and sub-account over to LC Phone?](<https://help.gohighlevel.com/en/support/solutions/articles/48001204027>)  
-  
-
-  * [Regulatory Bundle and Address Creation for Sub-Accounts](<https://help.gohighlevel.com/en/support/solutions/articles/48001213216>)  
-  
-
-  * [Toll-Free Number Verification Guide for LC - Phone (US/Canada)](<https://help.gohighlevel.com/en/support/solutions/articles/48001222300>)  
-  
-
-  * [LC - Phone Messaging Policy](<https://help.gohighlevel.com/en/support/solutions/articles/48001213941>)
-
+The outgoing call flow is optimised for seamless, low-latency transfers. A Conference Call is initiated for all outgoing calls as part of the standard call flow implementation.
 
 Attachments (3)
-
-[ csv Sms_Pricing.csv  
-55 KB ](</helpdesk/attachments/155069176114>)
 
 [ csv NumbersPricing_Updated.csv  
 8.55 KB ](</helpdesk/attachments/155069177045>)
 
-[ numbers Voice_Pricing.numbers  
-403 KB ](</helpdesk/attachments/155073522625>)
+[ csv voice pricing Updated .csv  
+30.7 KB ](</helpdesk/attachments/155074965168>)
+
+[ csv Messaging_pricing_v300626 - Sms_Pricing (4) (2).csv  
+56 KB ](</helpdesk/attachments/155075013958>)

@@ -6,469 +6,295 @@
 
 ---
 
-### 
+Email Deliverability
 
-**TABLE OF CONTENTS**
+Risk Assessment
 
-  * Covered in this Article
-  * What is this feature?
-  * Risk Categories
-  * Usage Cases:
-  * How to use this feature?
-  * Body of the Email that will be sent (Example data):
-  * Risk Assessment tab:
-  * What is this feature?
-    * Risk Categories
-    * Usage Cases
-  * How to use this feature?
-    * Body of the Email that will be sent (Example data):
-    * Risk Assessment tab
-  * FAQs
+Analyze your imported contact list for email deliverability risks and reduce bounce rates using Bulk Verification technology.
 
+Overview
 
-  
+The Risk Assessment feature is designed to optimize your email marketing campaigns. Harnessing the power of Bulk Verification, it analyzes your imported contact list and offers detailed insights into deliverability and risk levels.
 
+Elevate your email strategy by minimizing bounce rates, reducing unnecessary sending blocks, and improving the overall deliverability of your campaigns.
 
-  
+Please Note
 
+**For LC Email Users:** The bulk email verification feature is exclusively available to LC Email users.
 
-  
+**For the Agency:** This feature is designed for agency use and applies to locations within the LC Email system.
 
+Table of Contents
 
-  
+1
 
+What is this Feature?
 
-  
+2
 
+Risk Categories
 
-More Tutorials From the Community
+3
 
-<https://youtu.be/PPOjAKKAuZ8>
+Usage Cases
 
-<https://youtu.be/uGPWGV8uTmc>
+4
 
-<https://youtu.be/Lqr1UHQ_siU?si=s-SkA7pNrvjH8X9T>
+How to Use This Feature
 
-<https://youtu.be/NdUf2_PInRU>
+5
 
-<https://youtu.be/w_3xVNpX3-Q>
+Risk Assessment Tab
 
-<https://www.youtube.com/watch?v=FxHkDr1sJmY>
+6
 
-  
+FAQs
 
+Video Walkthrough
 
-The Risk Assessment feature is designed to optimize your email marketing campaigns. Harnessing the power of Bulk Verification, it analyzes your imported contact list, offering detailed insights into deliverability and risk levels. Elevate your email strategy by minimizing bounce rates and enhancing overall deliverability.
+1
 
-  
+## What is this Feature?
 
+The Risk Assessment feature is an invaluable tool for email marketing. It scrutinizes your imported contact list and provides a comprehensive overview of email deliverability and potential risks.
 
-**Please Note:**
-    
-    
-    **For LC Email Users:**  
-     The bulk email verification feature is exclusively available to LC users   
-      
-    **For the Agency:**  
-     This feature is specifically designed for use by the agency and is applicable to locations within the LC email system.
+It uses internal Bulk Verification technology to analyze the email list, dividing addresses into categories such as **deliverable** , **undeliverable** , **catch-all** , and **unknown**. It further segments these by risk level: **high** , **medium** , **low** , and **unknown** — giving you a granular picture of your contact list's deliverability prospects.
 
-  
+Beyond surfacing data, it enhances your email strategy by helping reduce bounce rates and unnecessary blocks on your sending capabilities. It also prompts enabling the email verification feature for those not yet using it.
 
+In short, this feature is your strategic partner in optimizing the deliverability and effectiveness of your email marketing campaigns — helping you reach your audience more consistently and efficiently.
 
-#### **Covered in this Article:**
+2
 
-#### **What is this feature?**
+## Risk Categories
 
-#### Risk Categories
+Each email address in your imported list is assigned one of the following risk categories based on its deliverability assessment:
 
-#### Usage Cases:
-
-####   
-**How to use this feature?**
-
-#### Body of the Email that will be sent (Example data):
-
-#### Risk Assessment tab:  
-
-
-  
-
-
-* * *
-
-## **What is this feature?**
-
-Our innovative Risk Assessment feature is invaluable for your email marketing endeavors. It scrutinizes your imported contact list, providing a comprehensive overview of email deliverability and potential risks.
-
-  
-
-
-Delving into the specifics, it uses our internal Bulk Verification technology to dissect the email list, dividing addresses into categories such as 'deliverable,' 'undeliverable,' 'catch-all,' and 'unknown'. It further segments these categories by risk level: 'high', 'low,' 'medium,' and 'unknown'. This granular insight enables a clearer understanding of your contact list's deliverability prospects.
-
-  
-
-
-But it doesn't stop at merely providing data. It enhances your email strategy by helping reduce bounce rates and unnecessary blocks on your email-sending capabilities. It also prompts enabling the email verification feature for those not using it, further improving the overall success rate of your email campaigns.
-
-  
-
-
-In essence, this feature is your strategic partner in optimizing the deliverability and effectiveness of your email marketing campaigns, helping you reach your audience more consistently and efficiently.
-
-* * *
-
-### **Risk Categories**
-
-  
-
-
-Risk Categories| Description  
+Risk Category| Description  
 ---|---  
+High| Email addresses in this category are highly likely to be undeliverable. This could be because the email account is non-existent, the domain has no MX records, or the recipient's mailbox is full.  
+Medium| Email addresses in this category may or may not be deliverable. This could be because the server responded ambiguously, the domain was identified as a catch-all, or the address was generated randomly.  
+Low| Email addresses in this category are likely to be deliverable. The server responded positively to the verification request, and the address appears properly structured and associated with a legitimate domain.  
+Unknown| Email addresses in this category could not be verified due to unforeseen errors or temporary issues with the recipient's email server. Deliverability remains uncertain unless re-verified later.  
   
-High| Email addresses falling into this category are highly likely to be undeliverable. This could be due to several reasons, such as the email account being non-existent, the domain not having any MX records, or the recipient's mailbox being full.  
-Medium| Email addresses in this category may or may not be deliverable. This could be because the email server responded ambiguously, the domain was identified as a catch-all, or the email address was generated randomly.  
-Low| Email addresses in this category are likely to be deliverable. This indicates the server responded positively to the verification request, and the email address appears properly structured and associated with a legitimate domain.  
-Unknown| Email addresses in this category could not be verified due to unforeseen errors or temporary issues with the recipient's email server. The deliverability of these emails remains uncertain unless re-verified later.  
-  
+3
+
+## Usage Cases
+
+Bulk email verification is a powerful tool for businesses and organizations of all sizes. Here are the most common scenarios where it delivers value:
+
+Use Case 1
+
+Email Marketing Campaigns
+
+Sending newsletters or promotions to unverified lists leads to high bounce rates and damages sender reputation. Bulk verification cleans your list so you reliably reach your intended audience.
+
+Use Case 2
+
+User Registration Verification
+
+Users often make typos, use non-existent addresses, or provide fake emails during sign-up. Bulk verification validates these before they enter your database, ensuring you can communicate effectively with your users.
+
+Use Case 3
+
+CRM Data Cleaning
+
+CRM records grow stale as people change jobs, email addresses, or abandon old accounts. Regularly verifying in bulk keeps your CRM data current and actionable.
+
+Use Case 4
+
+E-commerce Platforms
+
+Online retailers depend on transactional emails (order confirmations, shipping updates) and marketing emails reaching customers. Verification ensures these critical communications land in inboxes.
+
+Use Case 5
+
+Community Updates
+
+Non-profit organizations, clubs, and communities that send regular member updates use bulk verification to ensure information reaches all intended recipients without bouncing.
+
+Use Case 6
+
+Education Institutes
+
+Universities, colleges, and schools communicating fee updates, event announcements, or educational materials must ensure these reach valid addresses — especially when communications are time-sensitive.
+
+Use Case 7
+
+Research and Surveys
+
+Researchers and companies distributing surveys via email need valid addresses to collect accurate and reliable responses. Verification prevents wasted sends and skewed data.
+
+Use Case 8
+
+Job Portals and Recruitment Companies
+
+Recruitment platforms sending job notifications, interview schedules, and updates to job seekers and employers rely on bulk verification to maintain effective and reliable communication.
+
+4
+
+## How to Use This Feature
+
+Upon importing a CSV to the CRM, if your sub-account is on the LC Email SMTP and you have not yet enabled the individual Email Verification feature, the imported CSV will be analyzed automatically in the background.
+
+A popup will appear and an email will be sent to sub-account team members with the risk analysis of that import's email addresses. Both the popup and the email encourage users to enable Email Verification.
+
+Example Email
+
+Body of the Email That Will Be Sent (Example Data)
+
+**Subject:** Email content for list of high risk
+
 * * *
 
-### **Usage Cases:**
-
-  
-
-
-Bulk email verification is a powerful tool for businesses and organizations of all sizes, and it is used in several practical scenarios. Here are some examples:
-
-  
-
-
-**Email Marketing Campaigns:** Businesses regularly email marketing campaigns, sending newsletters, promotional emails, or updates to their customers. Using a list of unverified emails can lead to high bounce rates, negatively affecting the sender's reputation and deliverability. Bulk email verification helps businesses clean their email lists and ensure they reach their intended audience.
-
-  
-
-
-**User Registration Verification:** When users sign up for a service, they often provide an email address. However, they might make a typo, use an email address that doesn't exist, or provide a fake one. Bulk email verification can help to verify that these emails are valid before they are added to the company's database, ensuring that the company can communicate effectively with its users.
-
-  
-
-
-**CRM Data Cleaning:** Over time, email addresses in a company's Customer Relationship Management (CRM) system can become outdated. People may leave jobs, change their email addresses, or abandon old accounts. Regularly verifying these email addresses in bulk ensures the company's CRM data remains up to date.
-
-  
-
-
-**E-commerce Platforms:** Online retailers must communicate with customers about orders, shipping, and other related issues. Bulk email verification ensures that transactional emails (like order confirmations) and marketing emails reach the customers' inboxes.
-
-  
-
-
-**Community Updates:** Non-profit organizations, clubs, or communities often must send updates to their members. Bulk email verification ensures that these emails don't bounce back and the information reaches all intended recipients.
-
-  
-
-
-**Education Institutes:** Universities, colleges, and schools often communicate with students, parents, or staff through email. Whether it's fee updates, event announcements, or educational material distribution, these institutions must ensure that their emails are not sent to invalid addresses.
-
-  
-
-
-**Research and Surveys:** Many researchers and companies rely on email to distribute surveys and gather responses. They need to be sure that they're sending these critical communications to valid email addresses to get accurate and reliable data.
-
-  
-
-
-**Job Portals and Recruitment Companies:** They often communicate with job seekers and employers via email, sending job notifications, interview schedules, and more. Bulk email verification can help these companies maintain effective communication.
-
-* * *
-
-## **How to use this feature?**
-
-Upon importing a CSV to the CRM, if your sub-account is on the LC Email SMTP and you have not enabled the individual Email verification feature; Your imported CSV will be analyzed in the backend. And then a popup will be displayed and an Email sent to the Sub account team members about the risk analysis of that CSV import's Email Addresses. The Email and Popup will encourage users to enable Email Verification.  
-  
-  
-
-
-### **Body of the Email that will be sent (Example data):**
-
-Subject line: Email content for list of high risk
-
-  
-
-
-  
-
-
-  
-
-
-Hi [sub-account_Friendly Business Name],
-
-  
-
-
-  
-
-
-  
-
+Hi [sub-account Friendly Business Name],
 
 We scanned your latest Contact Import and found the following with the email addresses:
 
-  
+**Deliverable:** 71.84%
 
-
-  
-
-
-  
-
-
-Deliverable: 71.84%
-
-  
-
-
-High Risk: 17.81%
-
-  
-
-
-  
-
-
-  
-
+**High Risk:** 17.81%
 
 Activating native email verification can eliminate potential risks by ensuring that you don't send to non-valid email addresses. Once activated, the system will not attempt to send to any email address marked as invalid.
 
-  
-
-
-  
-
-
-  
-
-
-Support article link: support article link here.
-
-  
-
-
-  
-
-
-  
-
+Support article link: _[support article link here]_
 
 If you have any further questions or need assistance managing your email list, please feel free to contact our support team using the blue check mark in-app. We are here to help!
 
-  
-
-
-  
-
-
-  
-
-
 Best regards,
 
-  
+[Agency Admin Name]
 
+[Agency Company Name]
 
-[agency admin name]
+Tip
 
-  
+Enabling native email verification as prompted will prevent the system from attempting to send to any address flagged as invalid — protecting your sender reputation proactively.
 
+5
 
-[agency Company Name]
+## Risk Assessment Tab
 
-  
+The Risk Assessment tab at **Settings → Email Services → Risk Assessment** keeps a historical record of all imports and their email address risk assessments.
 
+![Risk Assessment tab in Settings showing historical import data with deliverable, undeliverable, and unknown percentages](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155031509099/original/vzPwf3ZKSHgnOLALFrGJ9Brchc7OrY_Vgg.jpg?1724335549)
 
-* * *
+Settings → Email Services → Risk Assessment
 
-### **Risk Assessment tab:**
+Here's a breakdown of each field in the interface:
 
-The Risk Assessment tab in **Settings > Email Services> Risk Assessment** will keep track of historical data for the imports regarding Email Addresses Risk Assessment.  
+Records
 
+Shows how many bulk email verification records or jobs are currently displayed.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155031509099/original/vzPwf3ZKSHgnOLALFrGJ9Brchc7OrY_Vgg.jpg?1724335549)
+Date Range
 
-The Risk Assessment tab provides a comprehensive overview of your email verifications and their results. Here's a breakdown of the user interface:
+The date range at the top indicates the time frame for the verification records shown.
 
-  
+Import Name
 
+Lists the name of each verification job, fetched from the Bulk Import action in Bulk Actions. Each name should be unique to help you identify and track individual jobs.
 
-**Records:** This shows how many bulk email verification records or jobs are displayed. 
+Created At
 
-  
+The exact date and time each job was created, formatted as "Day Month Date Year Time Zone."
 
+No. of Emails
 
-**Date Range:** The date range provided at the top,, indicates the time frame for the email verification records displayed.
+The total number of email addresses included in the job for verification.
 
-  
+Deliverable (%)
 
+The percentage of email addresses in the job verified and found to be deliverable or valid.
 
-**Import Name:** This column lists the name of each email verification job. It fetches the name of the Bulk Import action from Bulk Actions. Each name should be unique, as that helps you identify and track the respective job.
+Undeliverable (%)
 
-  
+The percentage of email addresses verified and found to be undeliverable or invalid.
 
+Unknown (%)
 
-**Created at:** This column displays the exact date and time each job was created. It's formatted in the pattern "Day Month Date Year Time Zone."
+The percentage of email addresses that could not be conclusively verified — their deliverability status remains unknown.
 
-  
+Pagination
 
+If more records exist than fit on a single page, use the pagination controls at the bottom to navigate between pages.
 
-**No. of Emails:** This column shows the total number of email addresses included in each job for verification.
+6
 
-  
+## FAQs
 
+Q: What does the Deliverable percentage in the Risk Assessment tab mean?
 
-**Deliverable (%):** This column indicates the percentage of email addresses in the job verified and found to be deliverable or valid.
+The Deliverable percentage indicates the proportion of email addresses verified and found valid and reachable. It is calculated by dividing the number of deliverable addresses by the total in the job, then multiplying by 100.
 
-  
+Q: How is the Undeliverable percentage calculated?
 
+The Undeliverable percentage represents the proportion of addresses found invalid or unreachable. It is determined by dividing the number of undeliverable addresses by the total in the job, then multiplying by 100.
 
-**Undeliverable (%):** This column shows the percentage of email addresses in the job that was verified and found to be undeliverable or invalid.
+Q: What does the Unknown percentage signify?
 
-  
+The Unknown percentage shows the proportion of addresses that could not be definitively verified — their deliverability status is unclear. Calculated by dividing the number of unknown emails by the total in the job, then multiplying by 100.
 
+Q: What is the "Import Name" in the Risk Assessment tab?
 
-**Unknown (%):** This column displays the percentage of email addresses in the job that could not be conclusively verified, meaning their deliverability status remains unknown.
+The "Import Name" is a unique identifier for each batch of email addresses submitted for verification. It lets you track and manage each verification job separately.
 
-  
+Q: Why might the date and time in the "Created At" column be important?
 
+The timestamp helps you understand when each job was initiated, which is useful for tracking progress over time or determining the order in which jobs were processed.
 
-**Pagination:** The "Page 1 of 1" at the bottom suggests that you're on the first page of the results. If more records could be displayed on one page, you would use these controls to navigate the pages.
+Q: Why isn't every email verified?
 
-  
+Not all email addresses can be verified due to server restrictions, privacy settings, or network issues. These are categorized as "Unknown."
 
+Q: What happens if the email server doesn't respond in time?
 
-* * *
+If the server doesn't respond in a timely manner, the verification system categorizes the address as "Unknown." Deliverability could not be determined in that instance.
 
-## **FAQs**
+Q: What should I do if I see many "Unknown" email addresses in my list?
 
-### **What does the Deliverable percentage in the Risk Assessment tab mean?**
+Many "Unknown" results may indicate server issues or technical problems. Consider re-running the verification at a later time. If the issue persists, contact Support — email address formatting or CSV format issues could also be contributing.
 
-The Deliverable percentage indicates the proportion of email addresses verified and found valid and reachable in a given job. This percentage is calculated by dividing the number of deliverable email addresses by the total number of email addresses in the job, then multiplying the result by 100.
+Q: What should be the next step after getting the Risk Assessment report?
 
-  
+Consider removing or re-checking "Undeliverable" and "Unknown" email addresses before running any campaign. This improves your deliverability rate and overall campaign effectiveness.
 
+Q: What does "No. of Emails" mean in the Risk Assessment tab?
 
-### **How is the Undeliverable percentage calculated in the Risk Assessment tab?**
+It represents the total count of email addresses included in a particular batch for verification, giving you an idea of the scale of each job.
 
-The Undeliverable percentage represents the proportion of email addresses in a specific job verified and found invalid or unreachable. This percentage is determined by dividing the number of undeliverable email addresses by the total number of email addresses in the job, then multiplying the result by 100.
+Q: Why do different jobs have different Deliverable, Undeliverable, and Unknown percentages?
 
-  
+Percentages vary based on the quality of addresses in each batch. A batch with older or outdated emails will typically have a higher Undeliverable percentage than one with recently collected addresses.
 
+Q: What can I do to improve my Deliverable percentage?
 
-### **What does the Unknown percentage in the Risk Assessment tab signify?**
+Collect email addresses from reliable sources, update your lists regularly, and use double opt-in methods to ensure addresses belong to people genuinely interested in receiving your communications.
 
-The Unknown percentage shows the proportion of email addresses in a particular job that could not be definitively verified. This means that their deliverability status is unclear. It is calculated by dividing the number of emails with unknown status by the total number of emails in the job, then multiplying the result by 100.
+Q: Why are some emails marked Deliverable but still bounce?
 
-  
+Deliverable emails can still bounce due to a full recipient mailbox, a temporarily unavailable mail server, or the email being marked as spam by the recipient's email service.
 
+Q: Can I re-run email verification for a specific batch?
 
-### **What is the "Import Name" in the Risk Assessment tab?**
+Yes. Re-running is particularly helpful when a significant percentage of emails were marked Unknown, which may have been caused by temporary server issues at the time of the original run.
 
-The "Import Name" is a unique identifier for each job or batch of email addresses you submit for verification. It allows you to track and manage each job separately.
+Q: How often should I verify my email lists?
 
-  
+Verification frequency depends on factors like list growth and bounce rates. As a best practice, verify your list before any significant email campaign.
 
+Q: How does email verification impact my overall email marketing strategy?
 
-### **Why might the date and time in the "Created at" column be important?**
+Email verification is crucial for a healthy email marketing strategy. It helps remove invalid or undeliverable emails, improving deliverability rates, protecting sender reputation, and increasing campaign effectiveness.
 
-The date and time information in the "Created at" column helps you understand when each email verification job was initiated. This can be particularly useful for tracking progress over time or determining the order in which jobs were processed.
+Q: Does the verification process respect user privacy?
 
-  
+Yes. The verification process does not access the contents of any email — it only checks whether an address is valid and capable of receiving emails.
 
+Q: Is the email verification process secure?
 
-### **Why isn’t every email verified?**
+Yes. Data submitted for verification is processed over secure connections and handled according to the service provider's data handling and privacy policies.
 
-Not all email addresses can be verified for various reasons, such as server restrictions, privacy settings, or network issues. These email addresses are categorized as 'Unknown'.
+More Tutorials from the Community
 
-  
-
-
-### **What happens if the email server doesn't respond in time?**
-
-If the email server doesn't respond in a timely manner, the verification system may categorize the email address as 'Unknown.' The system could not determine whether the email address is deliverable or undeliverable.
-
-  
-
-
-### **What do I do if I see many 'Unknown' email addresses in my list?**
-
-Many 'Unknown' results might suggest server issues or other technical problems. You may want to consider re-running the verification process at a later time. If the problem persists, consider reaching out to Support. The formatting of the email address could be an issue, or the CSV format might have some problems.
-
-  
-
-
-### **What should be the next step after getting the Risk Assessment report?**
-
-After receiving the Risk Assessment report, you should consider removing or re-checking the 'Undeliverable' and 'Unknown' email addresses from your list before executing any email campaign. This can help improve your campaign's deliverability rate and overall effectiveness.
-
-  
-
-
-### **What does "No. of Emails" mean in the Risk Assessment tab?**
-
-The "No. of Emails" represents the total count of email addresses included in a particular batch or job for verification. This gives you an idea of the scale of the email verification job.
-
-  
-
-
-### **Why do different jobs/batches have different Deliverable, Undeliverable, and Unknown percentages?**
-
-Different jobs or batches may have varying percentages of Deliverable, Undeliverable, and Unknown emails due to the quality of the email addresses in each batch. For instance, a batch containing older or outdated email addresses may have a higher Undeliverable percentage than a batch with recently collected addresses.
-
-  
-
-
-### **What can I do to improve the deliverability percentage?**
-
-To improve deliverability, you can collect the email addresses through reliable sources, update your email lists regularly, and use double opt-in methods to ensure the email addresses belong to people genuinely interested in receiving your communication.
-
-  
-
-
-### **Why are some emails categorized as Deliverable, but they still bounce?**
-
-Deliverable emails can still bounce due to the recipient's mailbox being full, the mail server being temporarily unavailable, or the email being marked as Spam by the recipient's email service.
-
-  
-
-
-### **Can I re-run the email verification for a specific batch?**
-
-Yes, you can re-run the email verification for a specific batch. This could be particularly helpful in case a significant percentage of emails were marked as Unknown, which might be due to temporary server issues.
-
-  
-
-
-### **How often should I verify my email lists?**
-
-The frequency of email list verification can depend on various factors like list growth, bounce rates, etc. However, it's a good practice to verify your email list before any significant email campaign.
-
-  
-
-
-### **How does the email verification process impact my overall email marketing strategy?**
-
-Email verification is crucial for maintaining a healthy email marketing strategy. It helps you remove invalid or undeliverable emails, thus improving the deliverability rate, protecting your sender reputation, and increasing the effectiveness of your email campaigns.
-
-  
-
-
-### **Does the verification process respect user privacy?**
-
-Yes, the email verification process respects user privacy. It doesn't involve accessing the contents of any email, but rather, it checks whether an email address is valid and capable of receiving emails.
-
-  
-
-
-### **Is the email verification process secure?**
-
-Yes, the email verification process is designed to be secure. The data you submit for verification is typically processed over secure connections, and the resulting information is handled according to the service provider's data handling and privacy policies.
+<https://youtu.be/PPOjAKKAuZ8> <https://youtu.be/uGPWGV8uTmc> [https://youtu.be/Lqr1UHQ_siU](<https://youtu.be/Lqr1UHQ_siU?si=s-SkA7pNrvjH8X9T>) <https://youtu.be/NdUf2_PInRU> <https://youtu.be/w_3xVNpX3-Q> <https://www.youtube.com/watch?v=FxHkDr1sJmY>

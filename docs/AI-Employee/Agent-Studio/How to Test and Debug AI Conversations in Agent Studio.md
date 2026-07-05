@@ -20,7 +20,7 @@ Agent Studio’s Message Execution Timeline and Chat Emulator provide full visib
   * Chat Emulator
   * How to Test and Debug AI Conversations in Agent Studio
   * Frequently Asked Questions
-    * Related Articles
+  * Related Articles
 
 
 * * *
@@ -88,8 +88,12 @@ The Timeline appears beside the Chat Emulator and updates live as your agent run
   
 
 
-  * Event cards list the node name, model, input/output tokens, and execution time
-  * Colored latency badges (red = slow; green = fast) highlight bottlenecks
+  * Event cards list the node name, model, input/output tokens, and execution time  
+  
+
+  * Colored latency badges (red = slow; green = fast) highlight bottlenecks  
+  
+
   * Hover to view raw JSON inputs/outputs for detailed inspection
 
 
@@ -108,9 +112,6 @@ The Timeline appears beside the Chat Emulator and updates live as your agent run
     - This makes multi-step plans easier to review in the Timeline and reduces ambiguity when steps change order or new tasks are added.
     
     In addition to node transitions, multi-step task progress is tracked using labeled tasks. This helps you confirm which task the agent is working on as it moves through a longer sequence.
-
-  
-
 
 * * *
 
@@ -138,9 +139,15 @@ Beneath each message, the metrics footer displays:
   
 
 
-  * Model & version (e.g., gpt-4-turbo)
-  * Input / output token counts
-  * Temperature, max tokens, top-p, frequency / presence penalties
+  * Model & version (e.g., gpt-4-turbo)  
+  
+
+  * Input / output token counts  
+  
+
+  * Temperature, max tokens, top-p, frequency / presence penalties  
+  
+
   * Total cost estimate (if billing is enabled)
 
 
@@ -161,8 +168,12 @@ A Chat Emulator is a simulated chat interface used to test AI conversations safe
   
 
 
-  * Clean, mobile-responsive chat window with avatar support
-  * Reset button to clear context between runs
+  * Clean, mobile-responsive chat window with avatar support  
+  
+
+  * Reset button to clear context between runs  
+  
+
   * Side-by-side layout with the Timeline for simultaneous review
 
 
@@ -186,12 +197,7 @@ This section walks you through how to use the Timeline and Chat Emulator togethe
   
 
 
-Navigate to AI Agents → Agent Studio and open the agent you want to test. Click the Test tab in the top-right corner to access the Chat Emulator and execution view. 
-
-  
-
-
-Missing Required Fields warning
+Navigate to **AI Agents → Agent Studio a** nd open the agent you want to test. Click the **Test** tab in the top-right corner to access the Chat Emulator and execution view. 
 
   
 
@@ -207,10 +213,7 @@ When the Test panel opens, Agent Studio scans your agent for missing required fi
   
 
 
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066089570/original/wVBB5PA0V4Q_WNDmHHcxop9xlJHMxjeQEQ.png?1772540757)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074782477/original/yYKd-a9MbCgRK4NqMHbsZ-AezlgcL3RIfQ.png?1782768609)
 
   
 
@@ -233,7 +236,7 @@ Send a test message in the emulator or trigger the agent via API. As the agent p
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066089707/original/DqrJ6Bfd2KGhUPxFr2HYxbEtmjDpzx3W6g.png?1772540838)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074782489/original/L_5601X-jbju2IgEegXUQ_baqwICylST7g.png?1782768656)
 
   
 
@@ -251,7 +254,7 @@ Examine the event cards in the Timeline to understand how the agent handled the 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066090103/original/dC8gPiZ0kekZj0pDJ0kjtOK98YsMsBuKhA.png?1772541043)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074782508/original/cYU7k2d1qIT-MA1ZUDZvUQo1oZLpjg6Yhw.png?1782768718)
 
   
 
@@ -269,7 +272,7 @@ Click into individual log entries to review detailed metrics such as model versi
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066090232/original/52PnOW_D9wLDTPr6gWQWpMpHp8Rkb34YTw.png?1772541147)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074782517/original/Qkqm_Cyge11usX3Cly-9P66aAnASFBE22w.png?1782768747)
 
   
 
@@ -287,7 +290,7 @@ Click the log card to automatically highlight the corresponding node in the buil
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066094090/original/oITv_TT5kxyPX5biTAVa1yBKiPp9Qbm8nw.png?1772543340)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074782546/original/6M00qv_SOUXxe3XoNpo-YSVZ6ZcaGF_esA.png?1782768775)
 
   
 
@@ -305,7 +308,7 @@ Use the Reset button in the Chat Emulator to clear the conversation and executio
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066091467/original/pDXZVnJOZ0U3mfLRl8Nluz8evYXGGT8EQA.png?1772541918)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074782574/original/qlx5CNgSjFQqPkrEnmX451I8RIYtkY-72w.png?1782768803)
 
   
 
@@ -316,9 +319,6 @@ Use the Reset button in the Chat Emulator to clear the conversation and executio
 
 
 Once testing confirms the conversation behaves as expected and performance is optimized, move your agent to Staging or Production as usual.
-
-  
-
 
 * * *
 
@@ -380,6 +380,10 @@ Agent Studio detected one or more nodes with required fields that are not filled
   
 
 
-  * [How to Use the AI Agent Studio in HighLevel](<https://help.gohighlevel.com/support/solutions/articles/155000006058-how-to-use-the-ai-agent-studio-in-highlevel>)
-  * [Ask AI + Agent Studio Integration](<https://help.gohighlevel.com/support/solutions/articles/155000006677-ask-ai-agent-studio-integration>)
+  * [How to Use the AI Agent Studio in HighLevel](<https://help.gohighlevel.com/support/solutions/articles/155000006058-how-to-use-the-ai-agent-studio-in-highlevel>)  
+  
+
+  * [Ask AI + Agent Studio Integration](<https://help.gohighlevel.com/support/solutions/articles/155000006677-ask-ai-agent-studio-integration>)  
+  
+
   * [Intent-Based Routing in Agent Studio (AI Router Node)](<https://help.gohighlevel.com/support/solutions/articles/155000006436-intent-based-routing-in-agent-studio-ai-router-node->)

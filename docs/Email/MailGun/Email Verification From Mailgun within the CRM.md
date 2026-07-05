@@ -6,164 +6,136 @@
 
 ---
 
-Activate Email Verification to have MailGun verify your new emails automatically inside the CRM.
+Email Deliverability
 
-  
+Email Verification & Re-Verification
 
+Use Mailgun to automatically verify new emails entering the CRM, and keep records fresh with 90-day re-verification.
 
-**Please note:**
-    
-    
-    Activating email verification in the CRM will incur costs from MailGun in your MailGun account. Email verification is a paid service and is charged at $0.012 / email - [Check MailGun for pricing](<https://www.mailgun.com/pricing/>). 
+What You'll Learn
 
-  
+Activate Email Verification to have Mailgun verify your new emails automatically inside the CRM. This article covers turning on verification, enabling 90-day re-verification, and how to read the results on a contact record.
 
+Important — This Is a Paid Service
 
-  
+Activating email verification will incur costs from Mailgun in your Mailgun account. Email verification is charged at **$0.012 / email**. [Check Mailgun for current pricing](<https://www.mailgun.com/pricing/>).
 
+Table of Contents
 
-#### **Covered in this Article:**
+1
 
-#### **How to enable Email Verification in the CRM:**
+How to Enable Email Verification in the CRM
 
-#### **How to enable Email re-verification in the CRM:**
+2
 
-####   
-**FAQ**
+How to Enable Email Re-Verification in the CRM
 
-#### How does email verification work?
+3
 
-  
+Frequently Asked Questions
 
+Video Walkthrough
 
-* * *
+1
 
-  
+## How to Enable Email Verification in the CRM
 
+Step 1
 
-  
+Switch to Agency View
 
-
-  
-
-
-* * *
-
-  
-
-
-**Please Note:**
-    
-    
-    If enabled, we will re-verify all emails every 90 days as emails go valid/invalid occasionally.
-
-  
-
-
-* * *
-
-## **How to enable Email Verification in the CRM:**
-
-1\. Click on **Switch to Agency View**
+Click **Switch to Agency View** from your account menu.
 
 ![Click on Switch to Agency View](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48249972893/original/bGfeNdona_2YA3hhyB2sp1F85S7-fbMQQg.png?1662660998)
 
-###   
+Step 2
 
+Click Settings
 
-  
-
-
-2\. Click on **Settings**
+Open **Settings** from the left navigation.
 
 ![Click on Settings](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48249972892/original/DL1OXejzWSm9nh3reDqB74ahmPwjbrLLiQ.png?1662660998)
 
-###   
+Step 3
 
+Open Email Services → Location Settings
 
-  
+Click **Email Services** and navigate to **Location Settings**.
 
+![Click on Email Services and navigate to Location Settings](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48286902371/original/Bz6sImmJG6SR-vnjuaWTo8oadXaAnO-fRw.png?1678719367)
 
-3\. Click on **Email Services** and Navigate to **Location Settings**
+Step 4
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48286902371/original/Bz6sImmJG6SR-vnjuaWTo8oadXaAnO-fRw.png?1678719367)
+Enable the toggle for each sub-account
 
-  
+Turn on Email Verification by clicking the toggle in front of the desired sub-account.
 
+Note
 
-  
+Email verification is a paid service and is charged at $0.012 / email.
 
+![Enable Email Verification toggle for a sub-account](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48286899922/original/ptM9qZFnTxX-sxtJnYdUfSNzFpJyooOunw.png?1678718751)
 
-4\. Enable Email Verification by clicking on the toggle in front of the desired sub-account:
+2
 
-  
+## How to Enable Email Re-Verification in the CRM
 
+Step 1
 
-**Please Note:**
-    
-    
-    Email verification is a paid service and is charged at $0.012 / email
+Go to Sub-Accounts
 
-  
+Once you're in Agency View, click **Sub-Accounts**.
 
+Step 2
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48286899922/original/ptM9qZFnTxX-sxtJnYdUfSNzFpJyooOunw.png?1678718751)
+Search for the sub-account
 
-  
+Search by the sub-account name.
 
+Step 3
 
-* * *
+Open the sub-account
 
-## **How to enable Email re-verification in the CRM:**
+Click the sub-account name to open it.
 
-  
+![Click on the sub-account name](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48286901207/original/E9oHrDLiBo7aP_Zr4pU3TDmBEpxvx4oboA.png?1678719096)
 
+Step 4
 
-1\. Once you are in the agency view, click on Sub-Accounts
+Turn on 90-day re-verification
 
-2\. Search by the sub-account name
+Scroll down to **Email Advanced Settings → Enable Re-verification for 90 days** and switch it on.
 
-3\. Click on the sub-account name
+![Enable Re-verification for 90 days toggle](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48286901899/original/Yuf-TuEOphGPpG3sF99eIw8y3Z_VUJS-mw.png?1678719270)
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48286901207/original/E9oHrDLiBo7aP_Zr4pU3TDmBEpxvx4oboA.png?1678719096)
+Note
 
-  
+If enabled, we will re-verify all emails every 90 days, since emails go valid or invalid over time.
 
+3
 
-  
+## Frequently Asked Questions
 
+Q: How does email verification work?
 
-4\. Scroll down to**Email Advanced Settings** >**Enable Re-verification for 90 days**
+Email verification checks emails against Mailgun's records when they enter the system for the first time — via form, survey, calendar, or chat widget — or when you send a new email **after** enabling email verification. If re-verification is enabled, it also runs every 90 days.
 
-  
+Q: Where do I see the verification result for a contact?
 
+Open the contact record, scroll down the right side, and click the envelope icon. **Green** means the email is valid. **Red** means it's invalid, too old, previously bounced, or unsubscribed — the error message will explain why.
 
-revalidated![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48286901899/original/Yuf-TuEOphGPpG3sF99eIw8y3Z_VUJS-mw.png?1678719270)
+Q: Is email verification free?
 
-* * *
+No. It's a paid Mailgun service billed at $0.012 per email, charged to your connected Mailgun account. Check [Mailgun's pricing page](<https://www.mailgun.com/pricing/>) for current rates.
 
-# **FAQ**
+Q: Does re-verification cost the same as first-time verification?
 
-### **How does email verification work?**
+Yes. Each re-verification check is billed the same way as an initial verification, since it's the same Mailgun lookup run again.
 
-Email verification checks emails against Mailgun's records when entering the system for the first time (form, survey, calendars, chat widget) or when sending a new email _**after** enabling email verification**.**_ And every 90 days if enabled.
+Q: Will re-verification run on all my existing contacts?
 
-  
+Once enabled, all emails in the sub-account are re-checked on a rolling 90-day cycle, not just new contacts.
 
+Q: Can I turn re-verification off after enabling it?
 
-Head into the contact record >scroll down the right side > click the envelope icon.
-
-  * Green = Valid
-  * Red = Invalid, too old, previously bounced, unsubscribed, etc. The error would specify why the Email is invalid.
-
-
-_  
-_
-
-  
-
-
-  
-
-
-[](<https://app.tango.us/app/workflow/31a215d9-6696-4697-a00a-5a6849c573b9?utm_source=magicCopy&utm_medium=magicCopy&utm_campaign=workflow%20export%20links>)
+Yes. Go back to the sub-account's Email Advanced Settings and switch the Enable Re-verification toggle off at any time.

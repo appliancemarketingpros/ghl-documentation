@@ -279,13 +279,39 @@ Store deletion works the same way from both entry points:
   
 
 
-  * An online store can be added both to an existing website as well as to a new website being created from scratch  
+  * An online store can be added both to an existing website as well as to a new website being created from scratch
+  * You can create an online store while editing any website page. If the website does not already have a store, adding a Store element or pre-built Store section starts store creation automatically.  
+  
+**To create a store from the Website Builder:**  
+  
+1\. Open the Website Builder.  
+  
+2\. Click Add element.  
+  
+3\. Drag a Store element, such as Cart, Collections List, or Featured Products, onto any page. You can also drag a pre-built Store section onto the page.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155075135906/original/pX6c4yAafTKQYwCfmkDo0o9364RsmJ0QIQ.png?1783074658)  
+  
+4\. In the import modal, choose one option:  
+\- Add Store: Creates the store and imports the selected design settings from the current page into the store pages.  
+\- Skip: Creates the store without importing the current page’s theme settings.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155075135939/original/IdTtdCXwCJs2mwqcRMLsmjmrneI98cyWig.png?1783074684)  
+  
+5\. HighLevel creates the store and adds the required store pages. Continue customizing the store pages, Store elements, and pre-built Store sections.  
+  
+  
+**Note:**  
+The first Store element or pre-built Store section triggers store creation.  
+If you add multiple Store elements before the store is created, only the first one triggers store creation.  
+Any Store elements added after creation are added as normal page components.  
+Imported pre-built Store sections appear below the Store element.  
+If you manually delete any store page, HighLevel deletes all store pages for that store.  
+  
   
 
   * Businesses will have the option to activate an online store by clicking on the  
 \+ icon to add elements inside the website builder  
-  
-  
   
 
 
@@ -543,6 +569,16 @@ Yes, you will be able to create multiple stores within the same location.
 
 
 No, an online store can be configured only inside a website. Users will still be able to sell products using order forms on funnels
+
+  
+
+
+**Q. I have created a store for test purposes. How do I delete it now?**
+
+  
+You can delete a store from Sites > Stores or Store Settings. You can also delete one of the store pages manually.
+
+When you delete any store page manually, HighLevel deletes all store pages for that store. Non-store website pages remain unchanged.
 
   
 

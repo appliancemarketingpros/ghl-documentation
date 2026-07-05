@@ -54,7 +54,7 @@ This feature is useful when your AI-generated site is close to finished, but you
   
 
 
-  * **Direct Page Editing:** Click elements in the preview and update them without opening the Code Editor.  
+  * **Direct Page Editing:** Click elements in the preview and update them without opening the Code Editor or using AI.  
   
 
 

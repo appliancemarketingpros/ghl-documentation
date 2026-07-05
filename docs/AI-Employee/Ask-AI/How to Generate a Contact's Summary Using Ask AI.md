@@ -1,6 +1,6 @@
-# Contact Summary Agent in Ask AI
+# How to Generate a Contact's Summary Using Ask AI
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000005484-contact-summary-agent-in-ask-ai](https://help.gohighlevel.com/support/solutions/articles/155000005484-contact-summary-agent-in-ask-ai)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000005484-how-to-generate-a-contact-s-summary-using-ask-ai](https://help.gohighlevel.com/support/solutions/articles/155000005484-how-to-generate-a-contact-s-summary-using-ask-ai)  
 **Category:** AI Employee  
 **Folder:** Ask AI
 
@@ -14,14 +14,7 @@ The Contact Summary Agent is a new AI-powered feature within HighLevel Copilot�
 
   * What is the Contact Summary Agent?
   * Key Benefits of the Contact Summary Agent
-    * Instant Contact Summaries
-    * Conversational Q&A
-    * Time Savings and Improved Accuracy
   * How To Use the Contact Summary Agent
-    * Step 1: Access the Feature
-    * Step 2: Interact with the Agent
-    * Step 3: Select a Contact
-    * Step 4: Review the Summary
   * Using Conversational Prompts
   * Supported Data Types 
   * Frequently Asked Questions 
@@ -112,68 +105,59 @@ The Contact Summary Agent offers several advantages that help users work more ef
   
 
 
-Setting up and using the Contact Summary Agent is straightforward, ensuring you can access insights with minimal effort. Proper setup ensures you get the most accurate and comprehensive summaries for your contacts.
-
-### ** _Step 1:_**_Access the Feature_
+Generating a contact summary in Ask AI is a simple prompt-based workflow. Once Ask AI is open, you can ask it to summarize a contact, choose the right record, and review a complete summary of the contact’s profile and activity.
 
   
 
 
-  * Login to your HighLevel account.  
+  1. Open **Ask AI** from the left-side navigation menu or from the **top** **navigation** **bar** in your account.  
   
-
-  * Click on the **Ask AI** tool from the main menu.  
-  
-![](https://jumpshare.com/v/FGwwN5CxkwcEGdz6plGn+/Screen+Shot+2025-06-10+at+6.56.16+PM.png)  
+![](https://jumpshare.com/share/kcEFyB4BqYMevVHmOJ7I+/Screen+Shot+2026-07-01+at+20.22.07.png)  
   
 
 
-### _**Step 2:**__Interact with the Agent_
-
+  2. In the Ask AI chat box, type **Summarize a contact** and submit the prompt.  
   
 
 
-  * In the Ask AI chat window, click on the "**Summarize a contact** " suggestion.   
-  
-![](https://jumpshare.com/v/d8jIeJ7bO3fWQrccw7H4+/Screen+Shot+2025-06-10+at+7.49.25+PM.png)  
-  
-
-  * You can also type a prompt such as “**Summarize a contact** " and click on the **submit** button.  
-  
-![](https://jumpshare.com/v/Cc734mSCIpEXjOksFUAA+/Screen+Shot+2025-06-10+at+7.51.49+PM.png)  
-  
-
-  * Users can also ask specific questions about a contact’s history, payments, tasks, or appointments (e.g., “What’s their payment history?”).
-
-
+  3. When Ask AI asks which contact you want to summarize, enter the contact’s **name, email address, or phone number**.  
   
 
 
-### _**Step 3:** Select a Contact_
-
+  4. If more than one contact matches your search, select the correct contact from the list and click **Submit**.  
+  
+![](https://jumpshare.com/share/qt8daAWTO1IvBRx35BdW+/GIF+Recording+2026-07-01+at+20.25.00.gif)  
   
 
 
-  * Select your **desired contact** from the list of existing contacts.  
+  5. **Review** the generated **summary**.  
   
-
-  * Click on the **Submit** button.  
-  
-![](https://jumpshare.com/v/pNi9ikh9rFFUY6jLxe5u+/Screen+Shot+2025-06-10+at+7.55.00+PM.png)  
+The summary may include:  
   
 
 
-### _**Step 4:** Review the Summary_
+     * Contact profile details  
 
+
+     * Email and phone information
+
+     * Lead source and creation details
+
+     * Opportunities and pipeline status
+
+     * Appointments
+
+     * Tasks
+
+     * Recent activity and engagement
+
+     * A quick summary of the contact’s current situation  
   
 
 
-  * The Contact Summary Agent will instantly **generate a summary or answer your question** using the latest data from across your HighLevel account.  
+  6. After reviewing the summary, you can continue the conversation in Ask AI and request supported follow-up actions such as creating a task, updating contact details, or preparing next-step outreach.  
   
-
-  * Use the insights provided to follow up, schedule meetings, or update records as needed.  
-  
-![](https://jumpshare.com/v/0YkUnFRAFw2ydPUBw1nb+/Screen+Shot+2025-06-11+at+12.21.59+AM.png)
+![](https://jumpshare.com/share/skcXgVdBQPSkwJCBCLsB+/GIF+Recording+2026-07-01+at+20.29.03.gif)
 
 
 * * *
@@ -238,7 +222,7 @@ The agent pulls from a wide range of contact-related data sources to provide com
 
 **Q: Do I need to configure anything before using the Contact Summary Agent?**
 
-No setup is required—simply access Ask AI and start asking questions or requesting summaries.
+No setup is required, simply access Ask AI and start asking questions or requesting summaries.
 
   
 
@@ -246,13 +230,6 @@ No setup is required—simply access Ask AI and start asking questions or reques
 **Q: What types of questions can I ask the Contact Summary Agent?**
 
 You can ask for summaries or specific details about a contact’s communications, payments, tasks, appointments, and more.
-
-  
-
-
-**Q: Will the Contact Summary Agent work with all my contacts?**
-
-The agent works with any contact record in your HighLevel sub account, provided there is data available.
 
   
 
@@ -275,13 +252,16 @@ Yes, all data is processed securely within the HighLevel platform, following sta
   
 
 
-  * [](<https://help.gohighlevel.com/en/support/solutions/articles/155000003906>)[Getting Started - Create New Contact](<https://help.gohighlevel.com/en/support/solutions/articles/155000005055>)  
+  * [Introduction to Ask AI Assistant](<https://help.gohighlevel.com/en/support/solutions/articles/155000005327>)  
+  
+[](<https://help.gohighlevel.com/en/support/solutions/articles/155000003906>)[](<https://help.gohighlevel.com/en/support/solutions/articles/155000005055>)
+  * [What is Ask AI Memory?](<https://help.gohighlevel.com/en/support/solutions/articles/155000007963>)  
   
 
-  * [AI Employee Overview](<https://help.gohighlevel.com/en/support/solutions/articles/155000003906>)  
+  * [How to Generate and Edit Images Using Ask AI](<https://help.gohighlevel.com/en/support/solutions/articles/155000005764>)  
   
 
-  * [How To Delete Contacts and Their Data](<https://help.gohighlevel.com/en/support/solutions/articles/155000000583>)  
+  * [How to Provide Feedback on Ask AI Responses](<https://help.gohighlevel.com/en/support/solutions/articles/155000008024>)  
   
 
-  * [Bot Status for Individual Contacts](<https://help.gohighlevel.com/en/support/solutions/articles/155000004096>)
+  * [Ask AI + Agent Studio Integration](<https://help.gohighlevel.com/en/support/solutions/articles/155000006677>)

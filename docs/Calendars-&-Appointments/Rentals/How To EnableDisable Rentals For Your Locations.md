@@ -1,6 +1,6 @@
-# How To Enable Rentals in Public Beta
+# How To Enable/Disable Rentals For Your Locations
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000006740-how-to-enable-rentals-in-public-beta](https://help.gohighlevel.com/support/solutions/articles/155000006740-how-to-enable-rentals-in-public-beta)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000006740-how-to-enable-disable-rentals-for-your-locations](https://help.gohighlevel.com/support/solutions/articles/155000006740-how-to-enable-disable-rentals-for-your-locations)  
 **Category:** Calendars & Appointments  
 **Folder:** Rentals
 
@@ -29,7 +29,7 @@
   
 
 
-Welcome to the **public beta of Rentals** , our new scheduling and booking system designed for businesses that manage rentals — whether it’s cars, equipment, properties, or other bookable assets. With Rentals, you can efficiently manage availability, inventory, pricing, and multi-day bookings in one seamless platform.
+Welcome to **Rentals** , our new scheduling and booking system designed for businesses that manage rentals — whether it’s cars, equipment, properties, or other bookable assets. With Rentals, you can efficiently manage availability, inventory, pricing, and multi-day bookings in one seamless platform.
 
   
 
@@ -86,12 +86,16 @@ Rentals is built to handle the unique complexities of rental-based scheduling. H
 
 * * *
 
-## **How to Enable Rentals for a Single Sub-Account****?**
+## **How to Enable/Disable Rentals for a Single Sub-Account****?**
 
   
 
 
-You can enable Rentals for sub-accounts directly from **Agency Settings**. Follow these steps to activate Rentals in a single sub-account!
+Rentals will be enabled by default for all your new locations. However, to enable/disable it for locations, you can follow the below steps.  
+  
+
+
+You can enable/disable Rentals for sub-accounts directly from **Agency Settings**. Follow these steps to activate/deactivate Rentals in a single sub-account!
 
   
 
@@ -151,31 +155,16 @@ You can enable Rentals for sub-accounts directly from **Agency Settings**. Follo
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066085767/original/yAS_34H_1jQxSCkwiMkkeygbfgg80neKqg.png?1772538501)
-
-  
-
-
-####  _**Enable Rentals if Required**_
-
-  
-
-
-If your sub-account calendar settings doesn't have the Rentals toggle, you can enable it using the sub-accounts > bulk actions dropdown instructions for multiple sub-accounts below (by checking only one box).
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067390237/original/tj8UtAQxXwchu9vDUkrPOFmQJ0w3S5b0JA.png?1774027447)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073934447/original/4dRLXK1IOp4P9nwUOtN8soqPZxqjQUnndw.png?1781762999)
 
 * * *
 
-## **How to Enable Rentals for Multiple Sub-Accounts****?**
+## **How to Manage Rentals for Multiple Sub-Accounts****?**
 
   
 
 
-You can enable Rentals for sub-accounts directly from **Agency Settings**. Follow these steps to activate Rentals for multiple sub-accounts at once!
+You can enable/disable Rentals for sub-accounts directly from **Agency Settings**. Follow these steps to activate Rentals for multiple sub-accounts at once!
 
   
 
@@ -230,11 +219,13 @@ You can enable Rentals for sub-accounts directly from **Agency Settings**. Follo
   * Use the toggle to Turn On **Rentals**  
   
 
-  * Type **CONFIRM** then click the blue **Save** button to save your changes  
+  * Type **CONFIRM** then click the blue **Save** button to save your changes
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073934849/original/25FX3swjZQMGa_U5xWaE_w3D9qf-iWFY5g.png?1781763257)
+
   
 
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066060522/original/xFm3Vd6powAWEkV5h9yJ13OJJxy7TJr8Ag.png?1772525378)
 
 * * *
 
@@ -249,36 +240,12 @@ You can enable Rentals for sub-accounts directly from **Agency Settings**. Follo
 
 We're constantly working to enhance **Rentals**. Here’s a sneak peek of what's coming up in the future:
 
-  
-
-
-  * **Snapshots Support**( import and export your rental listings and configuration with snapshots )
-  * **SMS and Whatsapp Notifications**
-  * **Blocked off slots**
-  * **Reporting** (insights into bookings and revenue)
   * **Mobile App** **Support**(create and view rental bookings from the mobile app)
-  * Conversation AI and Voice AI support
+  * **Conversation AI** and **Voice AI** support
+  * **Add ons and additional fees**
+  * **Cancellation links**
+  * **Audit logs for bookings**
 
-
-* * *
-
-## **Known Issues / Limitations**
-
-  
-
-
-As Rentals is currently in public beta, please be aware of the following:
-
-  
-
-
-  * Certain features are still a work in progress and will be made available soon.
-  * You might occasionally experience minor performance or UI inconsistencies as we continue refining the tool.
-  * **Payment summary refresh :** After recording a payment, the **Payment** Summary and **Invoices/Transactions** may take a moment to update. If totals don’t reflect immediately, **refresh the page** to see the latest state.  
-  
-
-
-We greatly appreciate your understanding and encourage you to share your feedback to help us quickly address these areas.
 
 * * *
 
@@ -289,10 +256,10 @@ We greatly appreciate your understanding and encourage you to share your feedbac
 
 Your feedback is critical to improving Rentals before general release. Here’s how to share it:
 
-  1. #### **Schedule a Feedback Call:** Book a time that works for you using [this scheduling link](<http://speakwith.us/mayankjain>).  
+  1. #### ****Post your feedback/suggestions/ideas**** on our [Canny board](<https://highlevel.canny.io/scheduling-calendar>)**  
+**
 
-
-  2. #### **Fill Out the Feedback Form:** Share your thoughts through our quick [feedback form](<https://link.gohighlevel.com/widget/form/3nHVVEoVFBC0AZm3Fm7n>).  
+  2. #### **Schedule a Feedback Call:** Book a time that works for you using [this scheduling link](<http://speakwith.us/mayankjain>).[](<https://link.gohighlevel.com/widget/form/3nHVVEoVFBC0AZm3Fm7n>)  
 
 
   3. **Email Us** — Contact us directly at:
@@ -324,7 +291,7 @@ A: Go to **Calendars → Calendar Settings** to see if the **Rentals** tab is vi
   
 
 
-**Q: Will my data transfer to the general release?**  
+**Q: I was a part of the beta, will my data transfer to the general release?**  
 A: Yes. All data created during the beta will remain available when Rentals moves out of beta.
 
   

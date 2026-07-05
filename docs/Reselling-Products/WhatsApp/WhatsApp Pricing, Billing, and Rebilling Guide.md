@@ -12,13 +12,13 @@ A comprehensive overview of WhatsApp pricing, billing, and rebilling for agencie
 
 Pricing Update
 
-Updated WhatsApp Per-Message Pricing — Effective July 2026
+Updated WhatsApp Per-Message Pricing — Effective 1st July 2026
 
 We are updating per-message pricing for WhatsApp template messages, effective with your July 2026 billing. These changes reflect updates to Meta's underlying per-message rates. **Service conversations remain FREE in all markets. Most markets see no change.**
 
 Table of Contents
 
-0\. July 2026 Pricing Update 1\. Overview of WhatsApp Billing 2\. WhatsApp Messaging Rates by Market/Country 3\. WhatsApp Subscription Charges for Agencies 4\. Message-Based Pricing [Effective 1 July 2025] 5\. Service Conversations [Effective 1 November 2024] 6\. Free Entry Point Conversations [Effective 1 June 2023] 7\. WhatsApp Calling Pricing 8\. Rebilling WhatsApp Messages 9\. Frequently Asked Questions 10\. Related Articles
+1 . July 2026 Pricing Update 2\. Overview of WhatsApp Billing 3\. WhatsApp Messaging Rates by Market/Country 4\. WhatsApp Subscription Charges for Agencies 5\. Message-Based Pricing [Effective 1 July 2025] 6\. Service Conversations [Effective 1 November 2024] 7\. Free Entry Point Conversations [Effective 1 June 2023] 8\. WhatsApp Calling Pricing 9 . Rebilling WhatsApp Messages 10\. Frequently Asked Questions 11\. Related Articles
 
 ## July 2026 Pricing Update [Effective July 2026 Billing]
 
@@ -403,8 +403,8 @@ Yes. Multiple conversations can be open if a new template message of a different
 
 Attachments (2)
 
-[ csv WhatsApp Pricing - April 2026.csv  
-1.18 KB ](</helpdesk/attachments/155068757419>)
+[ csv WhastApp_messagepricing_v010426 - WhatsApp Pricing - April 2026 (5).csv  
+1.15 KB ](</helpdesk/attachments/155074811410>)
 
-[ csv WhatsApp Pricing - July 2026.csv  
-1.34 KB ](</helpdesk/attachments/155073546207>)
+[ csv WhastApp_messagepricing_v010726 - Sheet1.csv  
+1.33 KB ](</helpdesk/attachments/155074811411>)

@@ -470,3 +470,10 @@ The workflow only reacts to the initial event. Later changes do not reverse prog
 **Q:****Can I use multiple Goal Events in one workflow?**
 
 Only one Goal Event action can be added per workflow. You may configure multiple criteria inside that one Goal Event, but you cannot add more than one Goal Event action in the same workflow.
+
+  
+
+
+**Q:****Can I select multiple forms, products, or outbound communications in the goal configuration?**
+
+Yes, you can select multiple forms, products, or outbound communications in the goal configuration. They are evaluated using **OR** logic, meaning the goal will be achieved if **any one** of the selected items matches.

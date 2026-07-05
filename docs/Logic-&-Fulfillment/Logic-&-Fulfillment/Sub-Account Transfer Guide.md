@@ -129,21 +129,39 @@ Alternatively, go to **_Agency Level > Sub-Accounts_** and select the **_Sub-acc
   
 
 
-  * Websites and funnels will all be transferred.
+  * Websites and funnels will all be transferred.  
+  
+
   * GHL calendars will get transferred over.  
-**Note:** The external calendar integrations will be disconnected.
-  * All **automation** will be transferred over in Live state.
-  * Contacts and their conversations, appointments, opportunities, and history will be transferred over.
-  * Contacts will remain in the workflow.
-  * The workflow-enrolled data remains as it is in workflows.
-  * Access to Memberships will remain.
+**Note:** The external calendar integrations will be disconnected.  
+  
+
+  * Automation workflows will be transferred over while maintaining their existing state. Workflows that are Live/Active will remain Live/Active after transfer, and workflows in Draft will remain Draft.  
+  
+
+  * Contacts and their conversations, appointments, opportunities, and history will be transferred over.  
+  
+
+  * Contacts will remain in the workflow.  
+  
+
+  * The workflow-enrolled data remains as it is in workflows.  
+  
+
+  * Access to Memberships will remain.  
+  
+
     * All feed data (including channels)
     * All learning courses
     * Events
     * Leaderboard
     * Members
-    * Stripe accounts associated with members' payments
-  * Sub-account level API Keys will remain the same.
+    * Stripe accounts associated with members' payments  
+  
+
+  * Sub-account level API Keys will remain the same.  
+  
+
   * Only users with User Type '**_Account'_** , and only assigned to that particular sub-account and no other sub-account will be transferred.
 
 
@@ -173,8 +191,12 @@ Alternatively, go to **_Agency Level > Sub-Accounts_** and select the **_Sub-acc
 
 **Both Agencies are on LeadConnector**
 
-  * If BOTH the releasing and receiving agencies along with the sub-account that needs to be transferred is on LC, then the phone numbers will automatically be transferred with the sub-account.
-  * A2P DLC status will be retained. Sub-accounts do not need to again register the phone numbers that are already registered.
+  * If BOTH the releasing and receiving agencies along with the sub-account that needs to be transferred is on LC, then the phone numbers will automatically be transferred with the sub-account.  
+  
+
+  * A2P DLC status will be retained. Sub-accounts do not need to again register the phone numbers that are already registered.  
+  
+
   * All the phone usage charges going forward will be accrued by the receiving agency.
 
 
@@ -182,6 +204,9 @@ Alternatively, go to **_Agency Level > Sub-Accounts_** and select the **_Sub-acc
 
 
 **Both Agencies are not on LeadConnector (Either one or Both are Twilio)**
+
+  
+
 
 No phone numbers will be transferred over by HighLevel. It is your responsibility to work with the previous account owner as well as Twilio to move over any or all phone numbers that you may want to keep connected to the transferred sub-account.
 
@@ -199,28 +224,51 @@ Kindly reach out to [HighLevel Support](<https://app.gohighlevel.com/support>) f
 
 **If the sub-account is in an LC :**
 
+  
+
+
   * Agency-Assigned Dedicated Domain:
-    * The domain assigned by the original agency will be removed during the transfer.
-  * Sub-Account-Owned Dedicated Domain:
+    * The domain assigned by the original agency will be removed during the transfer.  
+  
+
+  * Sub-Account-Owned Dedicated Domain:  
+  
+
     * The **domain will be transferred** along with the sub-account.  
   
 
-    * If the domain has a dedicated IP, it will be unassigned, the IP subscription removed.
+    * If the domain has a dedicated IP, it will be unassigned, the IP subscription removed.  
+  
+
   * Email Verification:
-    * The ON/OFF state of email verification is preserved during the transfer.
-  * LC Status After Transfer:
-    * If the new agency is also in LC, the sub-account remains in LC.
+    * The ON/OFF state of email verification is preserved during the transfer.  
+  
+
+  * LC Status After Transfer:  
+  
+
+    * If the new agency is also in LC, the sub-account remains in LC.  
+  
+
     * If the new agency uses its own email service (non-LC), the sub-account will switch to non-LC.
 
 
   
 
 
-**If the sub-account is in a non-LC agency (using own email service):**
+**If the sub-account is in a non-LC agency (using own email service):**  
+  
 
-  * Mailgun (Own or Inherited):
-  * Any Mailgun account (sub-account or agency-provided) will be deleted, and the sub-account will use the default email provider of the new agency.
-  * SMTP (Own or Inherited):
+
+  * Mailgun (Own or Inherited):  
+  
+
+  * Any Mailgun account (sub-account or agency-provided) will be deleted, and the sub-account will use the default email provider of the new agency.  
+  
+
+  * SMTP (Own or Inherited):  
+  
+
   * Similarly, any SMTP configuration will be removed, and the sub-account will adopt the SMTP/email provider set by the new agency.
 
 

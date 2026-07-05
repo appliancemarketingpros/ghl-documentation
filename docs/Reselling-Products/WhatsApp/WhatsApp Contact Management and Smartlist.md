@@ -6,278 +6,178 @@
 
 ---
 
-Using our new feature, users can check if a particular contact is on WhatsApp or not. This field can be used to create smart list of contacts which have valid WhatsApp number to increase overall deliverability
+# The "Valid WhatsApp" Contact Field
+
+Using this feature, users can check if a particular contact is on WhatsApp or not. This field can be used to create a smart list of contacts which have a valid WhatsApp number to increase overall deliverability.
+
+Table of Contents
+
+Introducing the "Valid WhatsApp" Field Understanding the "Valid WhatsApp" Field How to Use This Feature How is the Valid WhatsApp Field Updated How to Utilize the Valid WhatsApp Field How to Add the Valid WhatsApp Column How to Create a Smart List Excluding Invalid Contacts Frequently Asked Questions
 
 * * *
 
-**TABLE OF CONTENTS**
-
-  * Introducing the "Valid WhatsApp" Field at the Contact Level
-  * Understanding the "Valid WhatsApp" Field
-  * How to Use This Feature
-  * How is the Valid WhatsApp field updated
-      * 1\. When a Message is Successfully Delivered on WhatsApp
-      * 2\. If a Message Fails to Deliver or Encounters Meta Issues:
-      * 3\. When a Contact Initiates a WhatsApp Message:
-      * 4\. If There is No Conversation Over WhatsApp:
-  * How to Utilize the Valid WhatsApp Field:
-  * How to add Valid WhatsApp column in the contacts page
-  * How to create a smart-list excluding InValid WhatsApp contacts
-  * FAQs: Frequently Asked Questions
-      * Q: How often are these fields updated?
-      * Q: Can I manually update the WhatsApp status of a contact?
-      * Q: What is the "Valid_WhatsApp" field?
-      * Q: What do the different "Valid_WhatsApp" values mean? 
-      * Q: How does the "Valid_WhatsApp" status get updated? 
-      * Q: Can I filter my contacts based on their WhatsApp status?
-
-
-**TABLE OF CONTENTS**
-
-  * New Field: Valid WhatsApp
-    * Filter Options:
-  * How is the Valid WhatsApp field updated
-      * 1\. When a Message is Successfully Delivered on WhatsApp
-      * 2\. If a Message Fails to Deliver or Encounters Meta Issues:
-      * 3\. When a Contact Initiates a WhatsApp Message:
-      * 4\. If There is No Conversation Over WhatsApp:
-  * How to Utilize the Valid WhatsApp Field:
-  * How to add Valid WhatsApp column in the contacts page
-  * How to create a smart-list excluding InValid WhatsApp contacts
-  * FAQs: Frequently Asked Questions
-      * Q: How often are these fields updated?
-      * Q: Can I manually update the WhatsApp status of a contact?
-      * Q: What is the "Valid_WhatsApp" field?
-      * Q: What do the different "Valid_WhatsApp" values mean? 
-      * Q: How does the "Valid_WhatsApp" status get updated? 
-      * Q: Can I filter my contacts based on their WhatsApp status?
-
-
-* * *
-
-# Introducing the "Valid WhatsApp" Field at the Contact Level
+Introducing the "Valid WhatsApp" Field at the Contact Level
 
 We have introduced a new field called "Valid WhatsApp" at the contact level to help businesses identify the WhatsApp status of their contacts more efficiently. This feature provides clear insights into whether a contact's phone number is active on WhatsApp, making communication smoother and more targeted.
 
 * * *
 
-# Understanding the "Valid WhatsApp" Field
+Understanding the "Valid WhatsApp" Field
 
 The "Valid WhatsApp" field helps determine the WhatsApp availability of a contact's phone number. It includes three possible statuses:
 
-1\. Is Valid – The phone number is active on WhatsApp, meaning you can send messages to this contact successfully.
+●**Is Valid** — The phone number is active on WhatsApp, meaning you can send messages to this contact successfully.
 
-2\. Is Invalid – The phone number is not available on WhatsApp, meaning the contact cannot receive WhatsApp messages.
+●**Is Invalid** — The phone number is not available on WhatsApp, meaning the contact cannot receive WhatsApp messages.
 
-3.Is Not Validated – The system has not yet confirmed whether the phone number is active on WhatsApp. This may require further validation before messaging the contact.
+●**Is Not Validated** — The system has not yet confirmed whether the phone number is active on WhatsApp. This may require further validation before messaging the contact.
 
 * * *
 
-# How to Use This Feature
+How to Use This Feature
 
-With the "Valid WhatsApp" filter, businesses can:  
-✔ Ensure they are messaging only active WhatsApp users.  
-✔ Avoid sending messages to inactive or non-WhatsApp numbers, reducing failed delivery attempts.  
-✔ Identify numbers that need further validation before sending messages.
+With the "Valid WhatsApp" filter, businesses can:
+
+✓Ensure they are messaging only active WhatsApp users.
+
+✓Avoid sending messages to inactive or non-WhatsApp numbers, reducing failed delivery attempts.
+
+✓Identify numbers that need further validation before sending messages.
 
 This feature helps improve efficiency, message deliverability, and overall engagement with contacts.
 
-  
+* * *
 
+How is the Valid WhatsApp Field Updated
+
+1
+
+When a Message is Successfully Delivered on WhatsApp
+
+When a message is successfully delivered, the system automatically marks the contact as **"Is Valid"**.
+
+2
+
+If a Message Fails to Deliver or Encounters Meta Issues
+
+In cases where a message fails to deliver or encounters issues with Meta, the contact is marked as **"Is Invalid"**.
+
+3
+
+When a Contact Initiates a WhatsApp Message
+
+When a contact initiates a WhatsApp message, the status is updated to **"Is Valid"** , ensuring real-time validation. This reflects that the contact has actively engaged via WhatsApp, confirming the validity of their number.
+
+4
+
+If There is No Conversation Over WhatsApp
+
+If there is no conversation over WhatsApp with a particular contact, the status remains in the **"Not Validated"** state until further interaction.
 
 * * *
 
-# How is the Valid WhatsApp field updated
+How to Utilize the Valid WhatsApp Field
 
-  
-
-
-### **1\. When a Message is Successfully Delivered on WhatsApp**
-
-When a message is successfully delivered, the system automatically marks the contact as "**Is Valid"**
-
-  
-
-
-### **2\. If a Message Fails to Deliver or Encounters Meta Issues:**
-
-In cases where a message fails to deliver or encounters issues with Meta, the contact is marked as "Is InValid"
-
-  
-
-
-### **3\. When a Contact Initiates a WhatsApp Message:**
-
-When a contact initiates a WhatsApp message, the status is updated to "Is Valid," ensuring real-time validation. This reflects that the contact has actively engaged via WhatsApp, confirming the validity of their number.
-
-  
-
-
-### **4\. If There is No Conversation Over WhatsApp:**
-
-If there is no conversation over WhatsApp with a particular contact, the status remains in the "Not Validated" state until further interaction.
-
-* * *
-
-# **How to Utilize the Valid WhatsApp Field:**
-
-  
-
-
-**Filter Contacts Efficiently:**
+Filter Contacts Efficiently
 
 Leverage the filter options to segment contacts based on their WhatsApp status. For targeted outreach, filter contacts based on "Is Valid" to reach active WhatsApp users.
 
-  
+Smartlist Optimization
 
+Optimize your smart lists by incorporating the "Valid WhatsApp" field for tailored communication strategies.
 
-**Smartlist Optimization:**
-
-Optimize your Smartlists by incorporating the "Valid WhatsApp" field for tailored communication strategies.
-
-  
-
-
-**Enhanced Insights:**
+Enhanced Insights
 
 Gain valuable insights into the responsiveness and engagement levels of your WhatsApp contacts.
 
 * * *
 
-# **How to add Valid WhatsApp column in the contacts page**
+How to Add the Valid WhatsApp Column in the Contacts Page
 
-  
+1
 
+Go to the Contacts tab
 
-**Step 1: Go to Contacts tab**
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155023274480/original/UPFW41wUhPttWj5Fq5fkdZLvGy1UbV9bug.png?1711007073)
 
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155023274480/original/UPFW41wUhPttWj5Fq5fkdZLvGy1UbV9bug.png?1711007073)**  
+2
 
+Click on Columns and select Valid WhatsApp
 
-**Step 2:** Click on**Columns** and select **Valid Whatsapp**
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155023274764/original/hbwGJwU9BPdyEDltBNgWk_LXYfx_ZCSsHg.png?1711007328)
 
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155023274764/original/hbwGJwU9BPdyEDltBNgWk_LXYfx_ZCSsHg.png?1711007328)**  
+* * *
 
+How to Create a Smart List Excluding Invalid WhatsApp Contacts
 
-  
+1
 
+Go to Contacts page and click on More Filters
 
-# **How to create a smart-list excluding InValid WhatsApp contacts**
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155023275294/original/J59WILOZHgSeHUauKqq1rTvgK4ZG_aE82Q.png?1711007696)
 
-  
+2
 
-
-**Step 1:** Go to**Contacts** page and click on**More Filters**
-
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155023275294/original/J59WILOZHgSeHUauKqq1rTvgK4ZG_aE82Q.png?1711007696)**  
-
-
-**Step 2:** Search for **Valid Whatsapp**
+Search for Valid WhatsApp
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155023275546/original/JMGojRXSSboClOC5ekm6g6q7hXWz2C_fug.png?1711007988)
 
-  
+3
 
-
-**Step 3:** Select is **Valid** and select **Apply**
+Select Is Valid and select Apply
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155023275915/original/cLsMJ1Mser6zmrQvck7Pmcb-p3lhvi4X_A.png?1711008342)
 
-  
+4
 
+Select OR condition and select Is Not Validated
 
-**Step 4:** Select OR condition and select**Is not validated**
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155023276106/original/CeZHBthWsl0Mde0xxUFba5BMeeZi6V1tKw.png?1711008515)
 
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155023276106/original/CeZHBthWsl0Mde0xxUFba5BMeeZi6V1tKw.png?1711008515)**
+5
 
-  
-
-
-Step 5: Click on**Save as smart list** and add a name to your smartlist
+Click on Save as Smart List and add a name to your smart list
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155023296917/original/FPfajJdIA5SKgTI8ykKKxWOcs050LrD4BQ.png?1711022014)
-
-  
-
-
-  
-
     
     
-    **This smartlist will get dynamically updated as soon as a contact becomes active or inactive on WhatsApp. You can use the smart listed created above to send WhatsApp campaigns**
-
-  
-
-
-  
-
+    **This smart list will get dynamically updated as soon as a contact becomes active or inactive on WhatsApp.** You can use the smart list created above to send WhatsApp campaigns.
     
     
-    **The reason behind adding Is not Validated contacts is to ensure that WhatsApp messages are sent to contacts where the system has not yet determined whether the contact is on WhatsApp or not because of no WhatsApp conversation history**
+    **Why include "Is Not Validated" contacts:** This is to ensure that WhatsApp messages are sent to contacts where the system has not yet determined whether the contact is on WhatsApp or not, because of no WhatsApp conversation history.
 
-  
+* * *
 
+Frequently Asked Questions
 
-  
-  
-
-
-  
-
-
-# **FAQs: Frequently Asked Questions**
-
-  
-
-
-### **Q: How often are these fields updated?**
+Q: How often are these fields updated?
 
 The fields are updated in real-time based on the specified scenarios.
 
-  
-
-
-### **Q: Can I manually update the WhatsApp status of a contact?**
+Q: Can I manually update the WhatsApp status of a contact?
 
 No, the system automatically updates the status based on user interactions and message delivery outcomes.
 
-  
-
-
-### **Q: What is the "Valid_WhatsApp" field?**
-
-  
-
+Q: What is the "Valid_WhatsApp" field?
 
 The "Valid_WhatsApp" field is a new feature that tells you directly whether a contact's phone number is registered and active on WhatsApp.
 
-  
-
-
-### **Q: What do the different "Valid_WhatsApp" values mean?**
+Q: What do the different "Valid_WhatsApp" values mean?
 
   * **Valid:** The contact has an active WhatsApp account.
   * **Invalid:** The contact's number is not currently on WhatsApp.
   * **Not Validated:** The system hasn't yet confirmed if the number is on WhatsApp.
 
 
-  
+Q: How does the "Valid_WhatsApp" status get updated?
+
+It's automatic. Here's how it works:
+
+  * You send a message successfully: the status changes to "Valid".
+  * Message delivery fails: the status changes to "Invalid".
+  * Contact messages you on WhatsApp: their status instantly changes to "Valid".
 
 
-### **Q: How does the "Valid_WhatsApp" status get updated?**
+Q: Can I filter my contacts based on their WhatsApp status?
 
-It's automatic! Here's how it works: 
-
-  * You send a message successfully: The status changes to "Valid" 
-  * Message delivery fails: The status changes to "Invalid" 
-  * Contact messages you on WhatsApp: Their status instantly changes to "Valid."
-
-
-  
-
-
-### **Q: Can I filter my contacts based on their WhatsApp status?**
-
-Yes! There's a new filter specifically for "Valid WhatsApp". Use it to see only contacts you can reach on WhatsApp.
-
-#
+Yes. There's a filter specifically for "Valid WhatsApp". Use it to see only contacts you can reach on WhatsApp.

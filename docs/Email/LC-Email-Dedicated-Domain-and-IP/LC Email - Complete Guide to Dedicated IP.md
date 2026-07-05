@@ -18,6 +18,19 @@ This article will cover what Dedicated IP in LC Email is, pricing, why the featu
 
 Table of Contents
 
+**TABLE OF CONTENTS**
+
+  * Dedicated IP for LC Email
+    * When should I get a dedicated IP address?
+    * What are the benefits of a dedicated IP?
+    * What are some tips for sending emails with dedicated IPs?
+    * Who can buy a dedicated IP?
+    * How to buy a Dedicated IP?
+    * How to Manage Your Dedicated IP
+    * How To Assign a Dedicated IP to a Domain
+    * Frequently Asked Questions
+
+
 1\. When should I get a dedicated IP address? 2\. What are the benefits of a dedicated IP? 3\. What are some tips for sending emails with dedicated IPs? 4\. Who can buy a dedicated IP? 5\. How to buy a Dedicated IP? 6\. How to Manage Your Dedicated IP 7\. How To Assign a Dedicated IP to a Domain 8\. Frequently Asked Questions
 
 ## When should I get a dedicated IP address?

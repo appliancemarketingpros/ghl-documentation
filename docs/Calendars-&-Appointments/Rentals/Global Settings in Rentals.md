@@ -251,7 +251,7 @@ Each grouped range can be edited or deleted independently later.
   
 
 
-The **Notifications** tab manages customer and staff notifications triggered by booking events. Each notification can be configured to send through **Email** or **In-App** channels. Use the**Ed****it (Pencil)** icon beside each type to modify the template.
+The **Notifications** tab manages customer and staff notifications triggered by booking events. Each notification can be configured to send through **Email,****In-App, SMS or Whatsapp** channels. Use the**Ed****it (Pencil)** icon beside each type to modify the template.
 
   
 
@@ -296,7 +296,7 @@ The **Notifications** tab manages customer and staff notifications triggered by 
   
 
 
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056093339/original/hK59ME3Ha7GMW8jwpx4Vi3ZCQSyelWSU9w.png?1760558080)**
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074902158/original/7MWI0d3GpjXG_uphCYQnMCfo9mEb1buldQ.png?1782886367)**
 
 * * *
 

@@ -27,7 +27,7 @@ This article explains how Ask AI feedback works, when to use thumbs up or thumbs
   * How To Provide Feedback on Ask AI Responses
   * Best Practices for Constructive Feedback
   * Frequently Asked Questions
-    * Related Articles
+  * Related Articles
 
 
 * * *
@@ -328,17 +328,26 @@ Providing feedback directly inside Ask AI helps HighLevel collect useful quality
   
 
 
-  1. Open **Ask AI** in HighLevel.
-  2. Start a new Ask AI conversation.
-  3. Send a prompt or question.
-  4. Review Ask AI’s full response.
-  5. Locate the thumbs up and thumbs down controls below the response.
-  6. Select **thumbs up** if the response was helpful.
-  7. Select **thumbs down** if the response was not helpful or did not meet expectations.
-  8. If selecting thumbs down, choose one or more reasons when prompted.
-  9. Add an optional comment if more context would help explain the issue.
-  10. Submit the feedback.
-  11. Update or clear the rating later if your opinion changes.
+  1. Open Ask AI in HighLevel and start a new conversation.  
+  
+
+
+  2. Send a prompt or question, then review the response.  
+  
+
+
+  3. Use the thumbs up or thumbs down controls below the response to rate it.  
+  
+
+
+  4. If selecting thumbs down, choose a reason and add an optional comment.  
+  
+
+
+  5. Submit your feedback. You can update or clear your rating later if needed.
+
+
+  
 
 
   
@@ -419,56 +428,33 @@ Use these best practices when leaving feedback:
 
 ## **Frequently Asked Questions**
 
-  
+**  
+**
 
-
-**Q: Do I need to enable feedback in settings?**  
-No. Feedback is built into Ask AI conversations where the feature is available.
-
-  
-
-
-**Q: Why do some Ask AI conversations not show thumbs feedback controls?**  
-Feedback is available in new Ask AI conversations created after the feature release. Older conversations remain unchanged and may not show thumbs controls.
-
-  
-
+**Q: Why do some Ask AI conversations not show feedback controls?**  
+Feedback is available in new Ask AI conversations created after the feature release. Older conversations may not show thumbs up or thumbs down controls.  
+**  
+**
 
 **Q: What happens when I select thumbs down?**  
-You may be prompted to choose one or more reasons and optionally add a comment explaining what went wrong.
-
-  
-
-
-**Q: Can I select more than one reason for thumbs down?**  
-Yes. When available, you can select multiple reasons to better explain the issue.
-
+You may be prompted to choose one or more reasons and optionally add a comment explaining what went wrong.  
   
 
 
 **Q: Can I change my rating after submitting it?**  
-Yes. You can update your feedback by choosing a different rating.
+Yes. You can update your feedback by choosing a different rating.  
+**  
+**
 
-  
-
-
-**Q: Can I clear my feedback?**  
-Yes. You can clear a rating if you no longer want to provide feedback for that response.
-
-  
-
-
-**Q: Does my rating apply to only part of the answer?**  
-No. Your rating applies to the full Ask AI response, including related text, cards, artifacts, diagrams, or follow-up content that belongs to that answer.
-
-  
-
+**Q: Can I clear my feedback?  
+** Yes. You can clear a rating if you no longer want to provide feedback for that response.  
+**  
+**
 
 **Q: Does feedback immediately change the next Ask AI response?**  
-Feedback helps HighLevel identify where Ask AI responses are helpful or need improvement. The release note does not state that ratings immediately change the next response in the same conversation.
-
-  
-
+No. Feedback helps HighLevel identify where Ask AI responses are helpful or need improvement, but ratings do not necessarily change the next response in the same conversation.  
+**  
+**
 
 **Q: Should I leave thumbs up feedback too?**  
 Yes. Positive feedback helps identify responses that are accurate, helpful, and aligned with user expectations.

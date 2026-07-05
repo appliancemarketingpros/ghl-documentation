@@ -5,4 +5,4 @@
 ## Articles
 
 - [HighLevel Pricing Guide](HighLevel Pricing Guide.md)
-- [Wallet - Auto Recharge, Smart Adjustment and Cancellation](Wallet - Auto Recharge, Smart Adjustment and Cancellation.md)
+- [Wallet Auto Recharge and Smart Adjustment Settings](Wallet Auto Recharge and Smart Adjustment Settings.md)

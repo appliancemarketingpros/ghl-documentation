@@ -6,212 +6,224 @@
 
 ---
 
-From February 2024 onwards, [Google](<https://blog.google/products/gmail/gmail-security-authentication-spam-protection/>) and [Yahoo](<https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam>) are making it necessary for email senders to use email authentication, and there are also some important policy changes related to consent and engagement. If senders don't follow these rules, their emails might be delayed, blocked, or marked as spam. Even though this might feel like a sudden change, these requirements have actually been considered the best way to make sure emails get delivered properly for quite some time.
+Email Compliance
 
+Google & Yahoo Sender Requirements
+
+Six steps every sender must complete to meet the February 2024 authentication and policy mandates from Google and Yahoo.
+
+Overview
+
+As of February 2024, [Google](<https://blog.google/products/gmail/gmail-security-authentication-spam-protection/>) and [Yahoo](<https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam>) require email senders to use proper authentication and adhere to policy changes around user consent and engagement. Senders who don't comply risk having their emails delayed, blocked, or routed to spam.
+
+While this may feel sudden, these requirements have been industry-wide best practices for maximizing deliverability for years. Use the checklist below to get your account into compliance.
+
+Table of Contents
+
+1
+
+Elevate Your Brand with a Dedicated Sending Sub-Domain
+
+2
+
+Establish DMARC Email Authentication for Your Sending Domain
+
+3
+
+Ensure Brand Consistency
+
+4
+
+Avoid Impersonating Gmail or Yahoo in the "From" Header
+
+5
+
+Make It Easy to Unsubscribe
+
+6
+
+Keep Your Spam Rate Below 0.30%
+
+7
+
+Frequently Asked Questions
+
+Setup Guide
+
+Prepare Your Account
+
+Follow this checklist to ensure you meet all new sender requirements from Google and Yahoo.
+
+1
+
+## Elevate Your Brand with a Dedicated Sending Sub-Domain
+
+Setting up a branded sending sub-domain gives you greater control over your sender reputation and removes the generic "sent via msgsndr.com" disclaimer from your outgoing emails. This is a deliverability best practice — and now a key part of meeting the new compliance requirements.
+
+After enabling your dedicated sending sub-domain, plan for a [gradual warm-up of your sending infrastructure](<https://help.gohighlevel.com/en/support/solutions/articles/155000001021>) over the following 2–4 weeks.
+
+Need Help?
+
+Check out the guide on [setting up a dedicated sending sub-domain](<https://help.gohighlevel.com/en/support/solutions/articles/48001226115>) for step-by-step instructions.
+
+Example of what a dedicated sending domain looks like to Gmail recipients:
+
+![Example showing a dedicated sending domain displayed in Gmail](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155016475064/original/8uoY_YI_Ye80dKWg-qd3wzOmdMQ_2y8xrQ.png?1704091630)
+
+2
+
+## Establish DMARC Email Authentication for Your Sending Domain
+
+What is DMARC?
+
+Domain-based Message Authentication, Reporting & Conformance
+
+DMARC is a standard that builds on SPF and DKIM. It tells mailbox providers how to handle emails that fail authentication — helping protect your domain from spoofing and phishing.
+
+**Who needs to act?** If you don't have a DMARC record and are sending more than 5,000 emails per day (aggregated across sub-accounts using a shared sending domain), you need to add one to your DNS.
+
+Implementation Steps
+
+Step 1
+
+Check if you already have a DMARC record
+
+Use a free DMARC checker like [Dmarcian](<https://dmarcian.com/dmarc-inspector/>). Enter your root domain (e.g. yourdomain.com) and click Inspect. If you see **"Hooray! Your DMARC record is valid."** — you're done, skip the remaining steps. If not, continue.
+
+Step 2
+
+Create a TXT DNS record at your DNS hosting provider
+
+Log in to your DNS host (e.g. Cloudflare, GoDaddy, Namecheap) and create a new record with the following values:
+
+Step 3
+
+Set the record fields
+
+**Record type:** TXT
+
+**Host / Name:** _dmarc
+
+**Content / Points to:** v=DMARC1; p=none;
+
+Note
+
+Google recommends gradually tightening your DMARC policy over time. Read their [Recommended DMARC Rollout Tutorial](<https://support.google.com/a/answer/10032473?hl=en>) to learn more.
+
+Here's what the DMARC record looks like when set up in Cloudflare for a domain called demohighlevel.com:
+
+![DMARC TXT record configured in Cloudflare DNS for demohighlevel.com](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155016936712/original/q2kS5_X1ohoU4kk0xYGq4P5jK9p8K-aKww.png?1704484436)
+
+Step 4
+
+Save and verify the record
+
+Save the record and use [Dmarcian](<https://dmarcian.com/dmarc-inspector/>) to confirm it has propagated (this can take a few minutes). You can also send yourself a test email and inspect the header in Gmail by clicking the three-dots icon and selecting **Show Original**.
+
+A valid DMARC record in the Gmail header looks like this:
+
+![Gmail email header showing a valid DMARC record passing authentication](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155016475267/original/LsZGJkzJ7Xz7bQ8lNqMeRAK0HeLAWQ5J2Q.png?1704091825)
+
+3
+
+## Ensure Brand Consistency
+
+**Align your "From" address with your dedicated sending domain** for a cohesive, recognizable email identity.
+
+To comply with DMARC standards, the domain in your "From" address must match the root domain of your branded sending domain. For example, if your dedicated sending domain is lc.msgsndr.com, the corresponding root domain is msgsndr.com. Using hello@msgsndr.com as your "From" address maintains that alignment.
+
+Heads Up
+
+Double-check all "From" addresses across your workflow emails and campaigns to ensure they align with your sending domain before the deadline.
+
+4
+
+## Avoid Impersonating Gmail or Yahoo in the "From" Header
+
+Why it matters
+
+DMARC "quarantine" policy is now being enforced
+
+Gmail and Yahoo now enforce a "quarantine" DMARC policy on their own domains. If your "From" address claims to be from Gmail or Yahoo (e.g. example@gmail.com), your emails are very likely to be blocked or sent to spam.
+
+The Fix
+
+Never send emails with a "From" address at @gmail.com, @yahoo.com, or any other inbox provider's domain. Always use your own domain so authentication can pass cleanly.
+
+5
+
+## Make It Easy to Unsubscribe
+
+Google and Yahoo now require that senders make it simple for recipients to opt out. If someone doesn't want your emails, they shouldn't have to search for the unsubscribe button — it needs to be obvious and frictionless.
+
+One-Click Unsubscribe
+
+Already handled for you automatically
+
+A one-click unsubscribe link is automatically added to the header of every email you send (except 1:1 emails). The "header" here refers to the behind-the-scenes email metadata — not the visible email body. How this appears to recipients varies by email client. Below is an example from Gmail.
+
+Example of one-click unsubscribe as displayed to Gmail recipients:
+
+![One-click unsubscribe option shown in the Gmail interface](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155016474638/original/4ZRftmRvW6v6Gh8vyGsD0TvQrLh7a_UcVA.png?1704090848)
+
+Using LC Email Service?
+
+[Review this guide](<https://help.gohighlevel.com/en/support/solutions/articles/48001225534>) to enable automatic unsubscribe link insertion in the footer of all your outgoing emails.
+
+Your Action Item
+
+Before the deadline, review all your campaign templates and workflow emails. Make sure an unsubscribe link is present somewhere in the email body — the footer is the most common location. It doesn't have to be one-click, but it must be clear and easy to find.
+
+6
+
+## Keep Your Spam Rate Below 0.30%
+
+Only send emails to people who have given permission to receive them. Sending to unengaged or purchased lists leads to spam complaints — and too many complaints can cause delays, spam folder routing, or full delivery failure.
+
+Spam Rate| Impact  
+---|---  
+Below 0.10%| Healthy — good inbox placement  
+0.10% – 0.30%| Warning zone — take action to reduce complaints  
+Above 0.30%| Emails may be delayed, filtered to spam, or blocked entirely  
   
+Monitoring Spam Complaints
 
+Yahoo vs. Gmail — different tracking methods
 
-**TABLE OF CONTENTS**
+Yahoo spam complaints are visible in the platform's Spam Reports. Gmail, however, keeps complaint data private and does not surface it in the platform's email metrics. To monitor Gmail spam rates, use [Google Postmaster Tools](<https://www.gmail.com/postmaster/>) — a free tool that gives you visibility into how Gmail is handling your emails.
 
-  
+Pro Tip
 
+Set up Google Postmaster Tools before you hit a problem — not after. It gives you early visibility into reputation signals that the platform cannot access on your behalf.
 
-1\. Elevate Your Brand with a Branded Sending Domain
+7
 
-2\. Establish DMARC Email Authentication for Your Sending Domain
+## Frequently Asked Questions
 
-3\. Ensure Brand Consistency
+Q: Do these requirements apply to all senders, or only high-volume ones?
 
-4\. Avoid pretending to be Gmail in the "From" headers of your emails
+The DMARC requirement specifically targets senders of more than 5,000 emails per day (aggregated across accounts on a shared sending domain). However, the remaining best practices — branded sending domain, brand consistency, easy unsubscribe, and low spam rates — apply to all senders regardless of volume.
 
-5\. Make it easy to Unsubscribe
+Q: What happens if I don't meet these requirements?
 
-6\. Optimize Email Delivery: Keep Your Spam Rate Below 0.30%
+Non-compliant emails sent to Gmail or Yahoo recipients may be delayed, routed to the spam folder, or rejected outright. The impact grows over time as inbox providers enforce these policies more strictly.
 
-* * *
+Q: How long does the warm-up period take after enabling a dedicated sending sub-domain?
 
-## **Prepare Your Account:**
+Plan for 2–4 weeks of gradual warm-up after enabling your dedicated sending sub-domain. During this time, start with smaller send volumes and increase gradually to build a healthy sender reputation on the new infrastructure.
 
-Follow our checklist to make sure you meet the new sender requirements set by both Google and Yahoo.
+Q: I already have SPF and DKIM set up. Do I still need DMARC?
 
-  
+Yes. SPF and DKIM authenticate individual messages, but DMARC tells inbox providers what to do when those checks fail. Without a DMARC record, spoofed emails claiming to be from your domain have no policy enforcement behind them. All three records work together.
 
+Q: Can I use a Gmail or Yahoo address as my "From" address if I own that inbox?
 
-### **1\. Elevate Your Brand with a Branded Sending Sub-Domain**
+No. Even if the Gmail or Yahoo inbox belongs to you personally, using it as a "From" address when sending through a third-party platform will fail DMARC alignment — because the email isn't actually being sent by Gmail or Yahoo's servers. Always use an address at your own domain.
 
-Enhance control over your sender reputation and improve inbox branding by setting up a branded sending sub-domain. Say goodbye to the "sent via msgsndr.com" disclaimer and embrace better deliverability practices. Starting in February, this becomes a must for bulk senders reaching out to Google and Yahoo recipients. 
+Q: Does the one-click unsubscribe header affect my unsubscribe rate?
 
-  
+It may increase measured unsubscribes slightly since it's more visible and convenient — but this is a positive signal. Every contact who unsubscribes cleanly via the header is one fewer potential spam complaint, which protects your overall sender reputation.
 
+Q: Are these the same requirements for all inbox providers, or just Gmail and Yahoo?
 
-Keep in mind that after enabling your branded sending sub-domain, a [gradual warm-up of your sending infrastructure](<https://help.gohighlevel.com/en/support/solutions/articles/155000001021>) may be necessary over the next 2 – 4 weeks. 
-
-  
-
-
-Need assistance? Check out our guide on [setting up a branded sending sub-domain](<https://help.gohighlevel.com/en/support/solutions/articles/48001226115>).
-
-  
-
-
-_Example of what a Branded sending domain looks like to Gmail users_
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155016475064/original/8uoY_YI_Ye80dKWg-qd3wzOmdMQ_2y8xrQ.png?1704091630)
-
-  
-
-
-* * *
-
-### **2\. Establish DMARC Email Authentication for Your Sending Domain**
-
-  
-
-
-What is DMARC? DMARC, short for Domain-based Message Authentication, Reporting & Conformance, is a standard that enhances SPF and DKIM. It communicates a policy to mailbox providers, guiding them on how to handle emails failing SPF, DKIM, or both, claiming to be from your domain (potentially spoofed).
-
-  
-
-
-What should you do? **If you lack a DMARC record AND are****sending more than 5,000 emails per day** (aggregated for sub-accounts using a shared sending domain), you should add one to your DNS. 
-
-  
-
-
-**Implementation Steps:**
-
-1\. Use a free DMARC checker like [Dmarcian](<https://dmarcian.com/dmarc-inspector/>) to find out if you already have a DMARC record in place. Enter your root domain (ie: yourdomain.com) and hit inspect. If you see "Hooray! Your DMARC record is valid.", you're good to go - ignore the following steps. _If not, continue to step 2._
-
-2\. Visit your DNS hosting provider and create a TXT DNS record.
-
-3\. Choose **TXT as the record type**.
-
-4\. Set the Host/Name value as:**_DMARC**
-
-5\. In the Content/Points to field, enter: **v=DMARC1; p=none;**
-
-  
-
-    
-    
-    Keep in-mind that Google recommends gradually changing your DMARC policy over time to be more restrictive. You can read about this process in their [Recommended DMARC Rollout Tutorial](<https://support.google.com/a/answer/10032473?hl=en>) document.
-
-  
-
-
-Here's what the record would look like if setting up in Cloudflare for a domain called demohighlevel.com:
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155016936712/original/q2kS5_X1ohoU4kk0xYGq4P5jK9p8K-aKww.png?1704484436)
-
-  
-
-
-6\. Save/submit and use [Dmarcian](<https://dmarcian.com/dmarc-inspector/>) to verify the DMARC record has successfully been added (it may take a few minutes to register). You can also check by sending yourself an email and inspecting the header. 
-
-  
-
-
-In Gmail, you can inspect the header of an email by clicking the three-dots icon and selecting the "Show More" option. Here's what the header will look like for an email that was sent from a domain that has a valid DMARC record in place:
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155016475267/original/LsZGJkzJ7Xz7bQ8lNqMeRAK0HeLAWQ5J2Q.png?1704091825)
-
-* * *
-
-### **3\. Ensure Brand Consistency**
-
-**Align your "from" address with your branded domain for a cohesive and recognizable email identity.**
-
-  
-
-
-To align with DMARC standards, your "from" address domain must match the root domain of your branded sending domain. For example, if your branded sending domain is "lc.msgsndr.com," the corresponding root domain is "msgsndr.com." Thus, using "hello@msgsndr.com" as your "from" address maintains alignment with the root domain.
-
-  
-
-    
-    
-    Double-check all "from" addresses in your flow emails and campaigns to ensure alignment. 
-
-  
-
-    
-    
-    **Remember, if you're a bulk sender, you must transition to a branded sending domain by February 2024.**
-
-* * *
-
-### **4\. Avoid pretending to be Gmail in the "From" headers of your emails**
-
-  
-
-
-**Why does it matter?**
-
-Gmail and Yahoo is getting stricter with a DMARC policy called 'quarantine.' If you try to act like you're sending from Gmail or Yahoo, it could harm how your emails get delivered.
-
-  
-
-
-**What's the solution?**
-
-Keep it simple: just don't pretend to be Gmail or Yahoo in the "From" part of your emails. To put it briefly, don't send emails claiming to be from 'example@gmail.com' or 'example@yahoo.com'.
-
-* * *
-
-### **5\. Make it easy to Unsubscribe**
-
-  
-
-
-Now, it's important for senders to make it really easy for people to stop getting their emails. If someone doesn't want the emails anymore, they shouldn't have to search for the unsubscribe button.
-
-  
-
-
-If you use LC Email Service, [take a look at this blog post](<https://help.gohighlevel.com/en/support/solutions/articles/48001225534>). Turning on this option will automatically include an unsubscribe link in the footer of all your emails.
-
-###   
-
-
-**Streamlined Unsubscribing: One-Click Solution**
-
-  
-
-
-We've got good news for you! Meeting the new requirement of having a one-click unsubscribe link in every email just got easier with us. They've got it covered for you by automatically adding a one-click unsubscribe link to the header of each email you send except 1:1 emails.
-
-  
-
-
-Just to clarify, the "header" here refers to the behind-the-scenes information in your email, which includes details about the sender and message authentication. We are enhancing the one-click list-unsubscribe feature in the code for every message. While the appearance of one-click unsubscribe may vary in different email platforms, a visual example from Gmail is shown below.
-
-  
-
-
-_Example of what one-click unsubscribe looks like to Gmail users_
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155016474638/original/4ZRftmRvW6v6Gh8vyGsD0TvQrLh7a_UcVA.png?1704090848)
-
-  
-
-
-Your only task? Before February rolls around, take a quick look at all your campaign templates and flow emails. Ensure there's an unsubscribe link somewhere in your email body – the footer is typically a common spot. It doesn't have to be one-click, but it should be clear and easy for recipients to find. Easy as that!
-
-* * *
-
-### **6\. Optimize Email Delivery: Keep Your Spam Rate Below 0.30%**
-
-Make Sure People Want Your Emails: Just like you wouldn't want a stranger in your home without permission, it's not cool to send emails without permission either. Always make sure that people actually want to get emails from you.
-
-  
-
-
-If too many people complain about your emails being spam (like 3 out of every 1,000), it can cause problems. Your emails might get delayed, end up in the spam folder, or not get delivered at all. To avoid this, try to keep your spam complaints to less than 1 out of every 1,000 emails you send.
-
-  
-
-
-You can check Yahoo spam complaints in the Spam Reports. But, remember, we cannot track Gmail spam complaints and as such they are not included in email metrics within HighLevel. Gmail has its way of handling spam complaints to keep user info private. If you want to keep an eye on Gmail spam complaints, use [Google Postmaster Tools](<https://www.gmail.com/postmaster/>). This helps make sure your emails get to where they're supposed to go without any issues.
+The February 2024 mandates were announced by Google and Yahoo specifically. However, the underlying practices — authentication, sender alignment, easy opt-out, low complaint rates — are universal deliverability standards that all major inbox providers either require or strongly prefer.
