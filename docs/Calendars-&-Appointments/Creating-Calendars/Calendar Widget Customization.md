@@ -24,19 +24,20 @@
   
 
 
-**In this Article**  
+**TABLE OF CONTENTS**
 
+  * More Tutorials from the Community
 
-  * What is Calendar Widget Customization?  
-  
-
-  * How to Customize your Widget?  
-  
-
-  * Frequently Asked Questions (FAQs)  
-  
-
+  * What is Calendar Widget Customization?
+  * How to Customize your Widget?
+  * Note: Widget Customizations work ONLY with NEO WIDGET
+  * Services Booking Flow UI Enhancements
+  * Examples
+  * Frequently Asked Questions (FAQs)
   * Pro Tip
+
+
+  
 
 
 * * *
@@ -164,6 +165,40 @@ Here, you have the freedom to tailor your calendar widget to suit your preferenc
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155014008386/original/1VCnPDtft7VclBxvCMTAZoZIjroZE_xmhw.png?1701336017)
+
+* * *
+
+## **Services Booking Flow UI Enhancements**
+
+  
+
+
+Small booking-flow improvements can make scheduling feel clearer and more intuitive for customers. These updates improve navigation, visual quality, and booking clarity without changing how the core scheduling flow works.
+
+  
+
+
+Recent Services booking improvements include:
+
+  
+
+
+  * a Back button for easier navigation through the booking flow  
+  
+
+  * higher-resolution service images for a clearer visual experience  
+  
+
+  * an auto-hidden header when no company name or logo is configured, which is especially useful for embedded booking experiences  
+  
+
+  * a more clearly displayed timezone label on the slot-selection screen so customers know which timezone they are booking in
+
+
+  
+
+
+These changes help create a smoother and more polished booking experience for both standalone and embedded scheduling flows.
 
 * * *
 

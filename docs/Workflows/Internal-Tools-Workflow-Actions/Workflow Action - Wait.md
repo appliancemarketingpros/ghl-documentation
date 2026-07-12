@@ -6,7 +6,7 @@
 
 ---
 
-The **Wait** action in HighLevel workflows helps control when the next step in a workflow should happen. It can pause a contact for a fixed duration, wait until a specific date, follow a recurring schedule, wait around an appointment or booking, hold for a reply, wait for a contact action, or continue only when custom conditions are met. This updated guide explains each Wait option, how to configure it, and when to use it so your workflow timing stays accurate, relevant, and easy to manage.
+The **Wait** action in HighLevel workflows helps control when the next step in a workflow should happen. It can pause a contact for a fixed duration, wait until a specific date, follow a recurring schedule, wait around an appointment or booking, hold for a reply from the contact or from a member of your team, wait for a contact action, or continue only when custom conditions are met. This updated guide explains each Wait option, how to configure it, and when to use it so your workflow timing stays accurate, relevant, and easy to manage.
 
 * * *
 
@@ -62,7 +62,10 @@ The **Wait** action holds a contact in the workflow for:
   
 
 
-  * Until a condition is met, such as a contact replies or a specific event occurs.  
+  * Until a condition is met, such as a contact replies or a specific event occurs.
+
+  * Until a member of your team replies to the contact, with an optional timeout so the workflow can escalate if no one responds.
+
   
 
 
@@ -143,6 +146,9 @@ Wait For| Description| Advanced
 **Specific conditions to be met**|  Holds the contact until a custom segment built from any of your fields evaluates as true.| **1.** Segments with Conditions joined by AND/OR logic  
 **2.** Add Segment / Add Condition controls  
 **3.** Timeout on/off with duration  
+**A user to reply**|  Holds the contact until a member of your team replies to them on a selected channel. Best placed after the contact has messaged in, to check whether a rep responds.| **1\. Reply channel:** SMS, Email, etc.  
+**2\. Which user (optional):** the contact's assigned user or specific users.  
+**3.** Timeout on/off with duration.  
   
   
 
@@ -189,6 +195,8 @@ Use the Wait action for:
 
 
   * **AI-assisted workflow editing:** If you use Workflow AI Builder, you can edit Wait actions through conversation. You can update time delays, window settings, and reply conditions, add or remove timeout branches, and convert between wait types without switching to manual configuration.
+
+  * **Response-time SLAs:** Hold until a member of your team replies to the contact, then branch to an escalation, such as notifying the owner, if no one responds within the timeout.
 
 
 * * *
@@ -257,7 +265,9 @@ A well-configured Wait action helps contacts pause and resume exactly when inten
 
      * **The contact to take an action:** Example: Clicks a link or opens an email.
 
-     * **Specific conditions to be met:** Build a custom segment using any of your fields.  
+     * **Specific conditions to be met:** Build a custom segment using any of your fields.
+
+     * **A user to reply:** Wait until a member of your team replies to the contact on a supported channel.  
   
 
 
@@ -707,6 +717,42 @@ Condition-based waits are best when contacts should continue only after matching
 
 * * *
 
+## **Configure a User to Reply**
+
+  
+
+
+User-reply waits are best when the next step should depend on whether a member of your team responds to the contact, for example to track a response-time SLA and escalate if no one replies.
+
+  1. Select **A user to reply**.  
+  
+
+  2. Choose the **Reply channel** , such as SMS or Email.  
+  
+
+  3. Optionally choose **which user** should count: the contact's assigned user or specific users. Leave this open to accept a reply from any user.  
+  
+
+  4. Toggle **Timeout** on so the contact moves forward after a set duration even if no user replies. This is the branch you use to escalate.  
+  
+
+  5. Configure the timeout duration when Timeout is enabled.  
+  
+
+  6. **Save** the Wait step.  
+  
+
+
+**Note:** The wait resolves when the user's reply is delivered, not the moment it is sent.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155075541164/original/Wu6q92VyhaeGimnHmw5C-W4ObBpAtbIOTw.gif?1783523644)
+
+##   
+
+
 ## **Examples of the Wait Action**
 
   
@@ -830,6 +876,26 @@ Real-world examples make it easier to choose the correct Wait option for your au
 
 **Result:** Members receive a consistent, predictable touchpoint on the same day every month without managing separate workflows for each cycle.
 
+  
+
+
+### **Example 5** : Escalate if No Rep Replies (SLA)
+
+  1. **Scenario:** A contact messages in and you want a member of your team to respond within five minutes.  
+  
+
+  2. **Trigger:** The automation starts when the contact messages in, for example with Customer Replied.  
+  
+
+  3. **Wait:** Add **A user to reply** with Timeout set to five minutes.  
+  
+
+  4. **Action:** On the timeout branch, notify the owner or manager and create a follow-up task.  
+  
+
+
+**Result:** A rep gets a short window to respond, and anything unanswered is escalated automatically.
+
 * * *
 
 ## **Frequently Asked Questions**
@@ -936,6 +1002,13 @@ The selection screen surfaces the most relevant option first based on context. W
 **Q: Can I edit a Wait action with Workflow AI Builder?**
 
 Yes. Workflow AI Builder supports conversational edits for Wait actions, including updates to wait settings, timeout branches, and supported wait configurations. For AI-based editing steps, see [Workflow AI Builder](<https://help.gohighlevel.com/support/solutions/articles/155000006100-workflow-ai-builder>).
+
+  
+
+
+**Q: What is the difference between "The contact to reply" and "A user to reply"?**
+
+"The contact to reply" waits for the contact to respond to you. "A user to reply" waits for a member of your team to respond to the contact. Use "A user to reply" for response-time SLAs and escalations, where you need to know whether someone on the team answered.
 
 * * *
 

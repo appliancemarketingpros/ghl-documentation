@@ -45,15 +45,102 @@ After cancellation, all your sub-accounts will lose access to the following:
   
 
 
-Once you cancel your HighLevel subscription, you will have **90 days** to reactivate your account and regain access to the platform. If your account is not reactivated within this period, your Agency account and associated data will be **permanently deleted/purged**.
+## **Data Retention and Account Deletion**
 
   
 
 
-After an account is permanently deleted/purged, the process is **final and irreversible**. HighLevel cannot restore the Agency account, sub-accounts, or any data from the deleted account. HighLevel does not maintain backups of purged account data, and our teams do not have the ability to override or reverse the purge.
+HighLevel keeps canceled account data for **90 days** after cancellation.
 
   
+
+
+During this 90-day period, you can reactivate your account to regain access and retain your data. HighLevel also sends automated reminder emails before permanent deletion.
+
+  
+
+
+These emails are sent from:
+
+  
+
+
+[**customercare+gohighlevel.com@mailbox.gohighlevel.com**](<mailto:customercare+gohighlevel.com@mailbox.gohighlevel.com>)
+
+  
+
+
+You may receive the following notifications:
+
+  * **“Your HighLevel account will be deleted in 60 days”**
+  * **“Your HighLevel account will be deleted in 30 days”**
+  * **“Final Notice: Your HighLevel account will be deleted in 5 days”**
+
+
+  
+
+
+If your account is not reactivated within 90 days, your Agency account, sub-accounts, and associated data will be permanently deleted.
+
+##   
+
+
+## **Permanent Deletion Is Irreversible**
+
+  
+
+
+Once an account is permanently deleted, the process is final and cannot be reversed.
+
+HighLevel cannot restore deleted Agency accounts, sub-accounts, or account data after the 90-day retention period. HighLevel does not maintain backups of purged account data, and our teams cannot override or reverse the deletion process.
+
+  
+
+
 If you prefer to have your data deleted sooner, you can submit a request using the [Data Deletion Request Form](<https://www.gohighlevel.com/privacy-and-security>)
+
+##   
+
+
+## **Before You Cancel**
+
+  
+
+
+Before canceling, export or download any important data you want to keep. This may include:
+
+  * Contacts
+  * Conversations
+  * Calendars and appointments
+  * Funnels and websites
+  * Automations
+  * Invoices, payments, orders, and transactions
+  * Products
+  * Memberships and courses
+  * Reports, audit logs, and other account assets
+
+
+##   
+
+
+## **Options Before or After Cancellation**
+
+  
+
+
+You may have the following options:
+
+  
+
+
+  * **Reactivate your account:** You can reactivate within the 90-day retention period to regain access and keep your data.  
+  
+
+  * **Request earlier data deletion:** If you want your data deleted before the 90-day period ends, submit the **Data Deletion Request Form**.  
+  
+
+  * **Pause your account:** If you plan to cancel temporarily, consider using the **[Pause Account Feature](<https://help.gohighlevel.com/support/solutions/articles/155000007379-pause-account-feature-everything-you-need-to-know>)** for $27/month to keep your data active.
+
 
   
 

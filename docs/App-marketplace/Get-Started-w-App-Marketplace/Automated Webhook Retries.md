@@ -84,6 +84,18 @@ Every retry happens 10 minutes after the previous attempt, but each interval is 
   * **Total retry duration** : ~1 hour 10 minutes
 
 
+### **Retry Schedule for Non-429 Failures**
+
+  
+
+
+Non-429 webhook failures now follow an exponential backoff retry strategy instead of the fixed retry interval used for HTTP 429 responses.
+
+  
+
+
+For non-429 failures, retries can continue for up to 3 days. This helps improve delivery reliability when endpoints are temporarily unavailable, timing out, or returning intermittent server errors.
+
 * * *
 
 ## **Retry Conditions**
@@ -107,6 +119,30 @@ The retry logic is intentionally narrow so developers always know what to expect
 
   * We do not retry on 5xx server errors – those are treated as permanent failures.
 
+
+  
+
+
+## **Retry Conditions for HTTP 429 vs Other Failures**
+
+  
+
+
+Retry behavior now depends on the type of failure returned by the webhook endpoint.
+
+  
+
+
+  * **HTTP 429 responses** continue using the existing retry behavior with a fixed 10-minute interval for approximately 1 hour.  
+  
+
+  * **Other webhook failures** now also retry, including temporary endpoint downtime, server errors, timeouts, and transient network issues.
+
+
+  
+
+
+This improves reliability for failures beyond rate limiting while preserving the existing handling for 429 responses.
 
 * * *
 
@@ -150,6 +186,35 @@ Here’s how you can make the most of this system:
 
   * 5xx → Server is down/broken (no retries will be attempted)
 
+
+  
+
+
+### **What Developers Should Expect**
+
+  
+
+
+No setup changes are required for developers already using externally shared Marketplace webhooks.
+
+  
+
+
+**With this enhancement:**
+
+  * HTTP 429 retry behavior remains unchanged  
+  
+
+  * non-429 failures now retry automatically with exponential backoff  
+  
+
+  * retry attempts for non-429 failures may continue for up to 3 days
+
+
+  
+
+
+This gives developers a longer recovery window when webhook endpoints are temporarily unstable or unavailable.
 
 * * *
 

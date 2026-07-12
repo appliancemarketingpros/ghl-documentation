@@ -6,7 +6,7 @@
 
 - [Troubleshooting SMS Delivery](Troubleshooting SMS Delivery.md)
 - [Incoming SMS shows up in Conversations but isn’t forwarded to the forwarding number.](Incoming SMS shows up in Conversations but isn’t forwarded to the forwarding number.md)
-- [Error: Not a Valid SMS-Capable “From” Number](Error Not a Valid SMS-Capable “From” Number.md)
+- [Error: The "From" number is not SMS-capable.](Error The From number is not SMS-capable.md)
 - [Troubleshooting: Inbound SMS Showing as Calls or Not Appearing at all.](Troubleshooting Inbound SMS Showing as Calls or Not Appearing at all.md)
 - [Conversations Glitching? Here's What’s Going On?](Conversations Glitching Here's What’s Going On.md)
 - [Twilio Error 21610 "The message from/to pair violates a blacklist rule" when sending SMS](Twilio Error 21610 The message fromto pair violates a blacklist rule when sending SMS.md)

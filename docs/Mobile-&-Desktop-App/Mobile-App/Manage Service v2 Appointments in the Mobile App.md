@@ -144,6 +144,86 @@ Available actions include:
 
 * * *
 
+## **Location Details in Service v2 Appointments**
+
+  
+
+
+Location details help users quickly understand where the appointment is happening and what action to take next. Showing the right location value directly in the appointment view reduces friction when traveling to a physical address or joining a virtual meeting.
+
+  
+
+
+In the mobile Service v2 appointment view, the Location Details area now displays the most relevant location value based on the appointment type.
+
+  
+
+
+For physical appointments, users can:
+
+  
+
+
+  * view the full address  
+  
+
+  * copy the displayed address  
+  
+
+  * tap View Location to open navigation options
+
+
+  
+
+
+**For virtual appointments, users can:**
+
+  
+
+
+  * view the meeting URL  
+  
+
+  * copy the displayed URL  
+  
+
+  * tap Join Meeting to launch the meeting directly
+
+
+  
+
+
+Fallback behavior:
+
+  
+
+
+  * if a full address is available, that value is shown  
+  
+
+  * if a full address is not available, the location name is shown  
+  
+
+  * if neither value is available, the field shows -
+
+
+  
+
+
+This update applies to Service Calendar v2 appointments in the mobile app.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155075514257/original/1N1x8tCDAdQr3FnK0MdzSknT2zUlXPi8kg.png?1783512937)
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155075514749/original/dnBa0QCcp-_qlDqu4E9Sb7UNSwbytu5DkQ.png?1783513006)
+
+* * *
+
 ## **Editing Unpaid Service v2 Appointments**
 
   

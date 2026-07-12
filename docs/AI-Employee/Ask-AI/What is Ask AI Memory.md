@@ -6,7 +6,15 @@
 
 ---
 
-Ask AI Memory gives Ask AI persistent user context across conversations, helping responses feel more relevant without requiring users to repeat the same details each time. This article explains how Ask AI Memory saves useful context, uses saved memories in future conversations, and allows users to review, delete, or import memories.
+Ask AI Memory helps personalize future Ask AI conversations in HighLevel by saving reusable context, preferences, and instructions. Memories can include details about your role, business, tone preferences, formatting style, or recurring instructions you want Ask AI to remember. This helps Ask AI provide more relevant responses without requiring you to repeat the same context each time.
+
+* * *
+
+  
+
+
+  
+
 
 * * *
 
@@ -14,6 +22,8 @@ Ask AI Memory gives Ask AI persistent user context across conversations, helping
 
   * What is Ask AI Memory?
   * Key Benefits of Ask AI Memory
+  * When To Use Ask AI Memory
+  * Ask AI Memory vs. Other Ask AI Context
   * How Ask AI Saves Memories
   * How Ask AI Uses Saved Memories
   * Memory Scope and Source Details
@@ -24,21 +34,26 @@ Ask AI Memory gives Ask AI persistent user context across conversations, helping
 
 * * *
 
-# **What is Ask AI Memory?**
+## **What is Ask AI Memory?**
 
   
 
 
-Ask AI Memory helps Ask AI remember useful details about a user across sessions, such as their role, company, location, preferences, and standing instructions. This reduces repeated setup in future conversations and helps Ask AI provide more relevant responses based on context the user has already shared.
+Ask AI Memory is a personalization feature that stores useful context from your Ask AI interactions. These saved memories help Ask AI tailor future responses based on information that is relevant to you, your work, or your preferred way of using HighLevel.
 
   
 
 
-Ask AI Memory saves meaningful information over time, uses recent memories in future requests, and allows users to review or import memory details when needed.
+Memories are designed for reusable context, not every message in a conversation. Examples include your role, preferred response style, business details, workflow preferences, or instructions you want Ask AI to consider in future conversations.
 
 * * *
 
 ## **Key Benefits of Ask AI Memory**
+
+  
+
+
+Ask AI Memory helps make future Ask AI responses more useful by reducing repeated setup and context sharing. Instead of explaining the same preferences in every conversation, you can let Ask AI use saved context when it is relevant.
 
   
 
@@ -64,6 +79,73 @@ Ask AI Memory saves meaningful information over time, uses recent memories in fu
 
 
   * **User-level organization:** Memories are scoped to the user and can include optional company or location context.
+
+  * **Bring context from other tools:** Import useful memories from supported AI providers when available. 
+
+
+* * *
+
+## **When To Use Ask AI Memory**
+
+  
+
+
+Ask AI Memory is most useful for details that should influence future conversations repeatedly. Saving reusable context helps Ask AI respond in a way that better matches your role, business, and working style.
+
+Use Ask AI Memory for:
+
+  
+
+
+  * Your role, team, or department context.  
+  
+
+  * Business or location-specific details.  
+  
+
+  * Preferred tone, formatting, or writing style.  
+  
+
+  * Recurring instructions for Ask AI.  
+  
+
+  * Workflow preferences.  
+  
+
+  * Repeated project or operational context.  
+  
+
+  * Personalizing Ask AI responses across future conversations.  
+  
+
+  * Importing useful context from another AI provider.
+
+
+* * *
+
+## **Ask AI Memory vs. Other Ask AI Context**
+
+  
+
+
+Ask AI can use different types of context depending on the workflow. Understanding the difference helps users know what Memory does and what it does not replace.
+
+  
+
+
+  * **Ask AI Memory:** Saves reusable context that can influence future Ask AI conversations.  
+  
+
+  * **Chat history:** Lets users return to previous Ask AI conversations without losing their place.  
+  
+
+  * **Smart Session Memory:** Keeps editing context during a specific conversational editing workflow.  
+  
+
+  * **Feedback:** Rates a specific Ask AI response and is not the same as saving a memory.  
+  
+
+  * **Ask AI actions:** Use available tools or workflows to complete supported tasks. Memory can help personalize context, but users should still review important outputs, changes, and approvals. 
 
 
 * * *
@@ -122,7 +204,7 @@ Ask AI includes the most recent saved memories in future AI requests. These memo
   
 
 
-Example:
+**Example** :
 
   
 
@@ -156,11 +238,17 @@ Memory sources may include:
   
 
 
-  * Auto-created memory
+  * Auto-created memory  
+  
 
-  * Explicitly saved memory
 
-  * Imported memory
+  * Explicitly saved memory  
+  
+
+
+  * Imported memory  
+  
+
 
   * System-created memory
 
@@ -179,45 +267,44 @@ Proper setup ensures Ask AI has the right user context and gives users control o
 
   1. **Open** **Ask** **AI** in HighLevel.  
   
-![](https://jumpshare.com/share/vTCjKwnWJIV1WaV7I5mF+/Screen+Shot+2026-05-18+at+19.09.35.png)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155075304150/original/X3k-s7YODP6Itwly5F9Tf1QzZiFgptXGLg.png?1783347818)  
   
 
 
-  2. Click on **Account** > **Personalization**.  
-  
-
-
-  3. Select **Memory > Manage**.  
+  2. Click on **Account** > **Personalization**. Select **Memory > Manage**.  
   
 ![](https://jumpshare.com/share/XzI7Ng6KyQAqeQwF0Ruw+/GIF+Recording+2026-05-18+at+19.13.56.gif)  
   
 
 
-  4. Search or review the saved memory list.  
+  3. Search or review the saved memory list.  
   
 ![](https://jumpshare.com/share/YkFsbZR0Sfud63hhxsX4+/Screen+Shot+2026-05-18+at+19.15.04.png)  
   
 
 
-  5. **Delete** any memory that is outdated or no longer needed.  
+  4. **Delete** any memory that is outdated or no longer needed.  
   
 ![](https://jumpshare.com/share/O3RQgx5HYI4qkQj7aQeo+/Screenshot+2026-05-18+at+19.16.46.png)  
   
 
 
-  6. To **import** memory details, click Import memories.  
+  5. To **import** memory details, click Import memories.  
+  
   
 
 
-  7. **Copy** the provided **prompt** into the other AI provider.  
+  6. **Copy** the provided **prompt** into the other AI provider.  
+  
   
 
 
-  8. **Paste** the **returned** **memory** details into the import field.  
+  7. **Paste** the **returned** **memory** details into the import field.  
+  
   
 
 
-  9. Click **Add to memory**.  
+  8. Click **Add to memory**.  
   
 ![](https://jumpshare.com/share/rfv0dPqNYxw42TJJR6Yq+/GIF+Recording+2026-05-18+at+19.28.02.gif)
 
@@ -230,59 +317,101 @@ Proper setup ensures Ask AI has the right user context and gives users control o
 
 
 **Q: Does Ask AI save every message as memory?**  
-No. Ask AI is designed to save meaningful reusable facts, not every message. One-time requests and duplicate information are skipped.
+No. Ask AI Memory is intended for reusable context, preferences, and instructions. It does not need to save every message from a conversation.
 
   
 
 
-**Q: What kinds of details can Ask AI remember?**  
-Ask AI can remember details such as role, company, location, preferences, and standing instructions when they are useful for future conversations.
+  
+
+
+**Q: Can I ask Ask AI to remember something?**  
+Yes. You can explicitly ask Ask AI to remember useful context by saying something like, “Remember that I prefer concise bullet points.”
 
   
 
 
-**Q: Will Ask AI announce when it uses a saved memory?**  
-No. Ask AI uses saved memories naturally in responses instead of saying phrases like “I remember that.”
+  
+
+
+**Q: Can I delete a memory?**  
+Yes. You can review and delete saved memories from Memory settings.
 
   
 
 
-**Q: How many memories are used in a conversation?**  
-Ask AI uses the most recent saved memories when generating responses. Memory V1 includes the 20 most recent memories in AI requests.
+  
+
+
+**Q: How many memories can Ask AI use at once?**  
+Memory V1 uses the 20 most recent memories in AI requests.
 
   
 
 
-**Q: Can users delete saved memories?**  
-Yes. Users can review saved memories and delete memories that are outdated or should no longer be used.
-
   
 
 
-**Q: Can users import memories from another AI provider?**  
-Yes. Users can import memory details from other AI providers, such as ChatGPT or Claude, by using the import workflow.
-
-  
-
-
-**Q: How many memories can be imported at once?**  
+**Q: How many memories can I import?**  
 Users can import up to 100 memories at once.
 
   
 
 
-**Q: What happens if imported memories include duplicates?**  
-Duplicate memories are automatically detected and skipped.
+  
+
+
+**Q: Is Ask AI Memory the same as chat history?**  
+No. Chat history lets you return to previous conversations. Ask AI Memory stores reusable context that can personalize future responses.
+
+  
+
 
   
 
 
 **Q: Is Ask AI Memory the same as Smart Session Memory?**  
-No. Ask AI Memory saves reusable user facts across conversations. Smart Session Memory keeps editing context for a specific conversational editing workflow.
+No. Ask AI Memory saves reusable context across future Ask AI conversations. Smart Session Memory keeps editing context during a specific conversational editing workflow.
+
+  
+
+
+  
+
+
+**Q: Is feedback the same as memory?**  
+No. Feedback rates a specific Ask AI response. Memory stores reusable context, preferences, or instructions for future conversations.
+
+  
+
+
+  
+
+
+**Q: What should I avoid saving as memory?**  
+Avoid saving one-time tasks, outdated information, duplicate details, or sensitive information that should not influence future Ask AI responses.
+
+  
+
+
+  
+
+
+**Q: Can I import memories from ChatGPT or Claude?**  
+Yes, Ask AI Memory supports importing memories from supported AI providers when the import workflow is available.
+
+  
+
+
+  
+
+
+**Q: Why did Ask AI use outdated information?**  
+An outdated memory may still be saved. Review Memory settings, delete outdated entries, and add updated context if needed.
 
 * * *
 
-### **Related Articles**
+## **Related Articles**
 
   
 

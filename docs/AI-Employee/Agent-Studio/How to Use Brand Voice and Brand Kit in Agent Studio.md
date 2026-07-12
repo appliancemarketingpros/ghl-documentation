@@ -398,7 +398,9 @@ No. Your prompt still directs the AI. Brand Voice provides additional context so
   * [How to Create a Brand Board](<https://help.gohighlevel.com/en/support/solutions/articles/155000003136>)  
   
 
-  * [Brand Voice in Brand Boards](<https://help.gohighlevel.com/en/support/solutions/articles/155000005085>)
+  * [Brand Voice in Brand Boards](<https://help.gohighlevel.com/en/support/solutions/articles/155000005085>)  
+  
+
   * [Brand Voice Integration in Content AI](<https://help.gohighlevel.com/en/support/solutions/articles/155000005308>)
 
 

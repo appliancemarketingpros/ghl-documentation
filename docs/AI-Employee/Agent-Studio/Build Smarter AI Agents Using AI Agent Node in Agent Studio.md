@@ -1,42 +1,56 @@
-# How to Build Smarter AI Agents Using AI Agent Node in Agent Studio
+# Build Smarter AI Agents Using AI Agent Node in Agent Studio
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000007648-how-to-build-smarter-ai-agents-using-ai-agent-node-in-agent-studio](https://help.gohighlevel.com/support/solutions/articles/155000007648-how-to-build-smarter-ai-agents-using-ai-agent-node-in-agent-studio)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000007648-build-smarter-ai-agents-using-ai-agent-node-in-agent-studio](https://help.gohighlevel.com/support/solutions/articles/155000007648-build-smarter-ai-agents-using-ai-agent-node-in-agent-studio)  
 **Category:** AI Employee  
 **Folder:** Agent Studio
 
 ---
 
-This article explains how the AI Agent Node works within Agent Studio and how each of its core elements shapes agent behavior. It covers how to configure the node effectively, when to use it, and how to make it perform reliably in real-world scenarios.
+The AI Agent Node is the intelligence layer inside Agent Studio flow-based agents. It helps an agent understand input, follow instructions, choose tools, capture information, and pass results to the next node. Use this guide to configure prompts, models, modes, tools, variables, and connections so your existing Agent Studio flows behave more reliably.
+
+  
+
+    
+    
+    IMPORTANT **NOTE:** Agent Studio is used for maintaining existing flow-based agents. For new agent creation, follow the current recommended HighLevel experience available in your account.
 
 * * *
 
 **TABLE OF CONTENTS**
 
   * What is AI Agent Node in Agent Studio
-  * Prompt
-  * Model
-  * Mode
-  * Tools
-  * Variables
-  * Node Connections
+  * Core Elements of the AI Agent Node
+  * Key Benefits of the AI Agent Node
+  * When To Use the AI Agent Node
   * How to Configure the AI Agent Node
+    * Step 1: Add the AI Agent Node
+    * Step 2: Define the Prompt
+    * Using Variables in the Prompt
+    * Available Variable Sources
+    * Prompt Enhancement
+    * Step 3: Select the Model
+    * Step 4: Choose the Mode
+    * Step 5: Attach Tools
+    * Understanding Different Tools
+    * Step 6: Define Runtime Variables
+    * Step 7: Connect the Node in the Flow
   * Frequently Asked Questions
   * Related Articles
 
 
 * * *
 
-# **What is AI Agent Node in Agent Studio**
+## **What is AI Agent Node in Agent Studio**
 
   
 
 
-The AI Agent Node is a core component in Agent Studio that defines how an AI agent thinks, responds, and takes action. It acts as the intelligence layer of the agent, processing incoming input, understanding intent, and determining the next best step whether that is generating a response, using a tool, or capturing information.
+The AI Agent Node is a core Agent Studio component that defines how an AI agent thinks, responds, and takes action. It processes incoming input, understands intent, and determines the next best step, such as generating a response, using a tool, capturing information, or sending output to the next node.
 
   
 
 
-Agent Studio enables you to build AI agents using triggers and nodes. Execution begins with a **Start Trigger** , and the AI Agent Node runs when it receives input from that trigger or another node.
+The AI Agent Node runs when it receives input from a Start Trigger or another connected node. Unlike fixed logic, the AI Agent Node can adapt based on prompt instructions, available tools, user input, and context.
 
   
 
@@ -69,7 +83,20 @@ These elements work together to shape how the agent behaves during execution.
 
 * * *
 
-## **Prompt**
+## **Core Elements of the AI Agent Node**
+
+  
+
+
+The AI Agent Node is built from several configuration elements that work together. A clear prompt, appropriate model, correct mode, relevant tools, well-defined variables, and clean node connections help the agent behave consistently.
+
+  
+
+
+  
+
+
+### **Prompt**
 
   
 
@@ -81,9 +108,49 @@ The prompt defines how the AI Agent Node behaves by specifying the agent’s rol
 
 This ensures the agent responds consistently based on defined behavior. For example, a support agent prompt may instruct it to answer pricing queries and use the knowledge base when needed, allowing it to correctly handle a question like “What does your premium plan include?” by identifying it as a pricing query and responding appropriately.
 
-* * *
+  
 
-## **Model**
+
+A strong prompt should include:
+
+  
+
+
+  * The agent’s role  
+  
+
+  * The goal of the node  
+  
+
+  * What the agent should and should not do  
+  
+
+  * Tone or style requirements  
+  
+
+  * When to use tools  
+  
+
+  * What information to capture  
+  
+
+  * What output should be passed forward
+
+
+  
+
+
+**Example:**
+
+> You are a support qualification assistant. Ask clarifying questions when needed, identify the customer’s issue type, capture the issue category as a runtime variable, and use the Knowledge Base tool when the customer asks product-related questions.
+
+  
+
+
+  
+
+
+### **Model**
 
   
 
@@ -95,9 +162,13 @@ The model determines how effectively the AI Agent Node understands input and gen
 
 This directly impacts how the agent interprets user intent and responds. For example, when a user says, “I’m exploring options for my business,” a stronger model can identify this as a potential lead, while a lightweight model may respond more generically.
 
-* * *
+  
 
-## **Mode**
+
+  
+
+
+### **Mode**
 
   
 
@@ -109,9 +180,13 @@ Mode defines how the AI Agent Node operates whether it communicates with users o
 
 This allows the agent to adapt its behavior based on the use case. For example, in Conversational Mode, the agent can answer pricing questions, whereas in Task Based Mode, it can extract user details like email and update the CRM without sending a response.
 
-* * *
+  
 
-## **Tools**
+
+  
+
+
+### **Tools**
 
   
 
@@ -134,9 +209,13 @@ Available tools include:
 
 This allows the agent to combine decision-making with execution in real time. For example, when a user asks, “Do you support international payments?”, the agent can use the Knowledge Base tool to retrieve accurate information before responding, or use the Router tool to direct the flow when user intent is unclear.
 
-* * *
+  
 
-## **Variables**
+
+  
+
+
+### **Variables**
 
   
 
@@ -148,9 +227,13 @@ Variables enable the AI Agent Node to handle data by using existing inputs for c
 
 This allows the agent to retain and pass meaningful information across the flow for further actions. For example, when a user says, “Hi, I’m Rahul. I need a demo,” the agent can capture details like Name = Rahul and Requirement = Demo, which can then be used for CRM updates or follow-ups.
 
-* * *
+  
 
-## **Node Connections**
+
+  
+
+
+### **Node Connections**
 
   
 
@@ -161,6 +244,88 @@ The AI Agent Node executes when it receives input from a connected trigger or no
 
 
 Within the agent flow, this enables the node to drive outcomes by passing structured results forward for further actions. For example, after qualifying a lead, it can send captured details like name and requirement to a CRM node for follow-up.
+
+* * *
+
+## **Key Benefits of the AI Agent Node**
+
+  
+
+
+The AI Agent Node helps make Agent Studio flows more flexible and context-aware. By combining prompts, tools, variables, and node connections, users can create agent behavior that adapts to different inputs instead of following only rigid paths.
+
+  
+
+
+  * **Handle dynamic conversations:** Let the agent interpret user input and respond based on context.  
+  
+
+  * **Use tools intelligently:** Allow the node to select connected tools when the prompt and user input require them.  
+  
+
+  * **Capture structured data:** Extract runtime variables such as name, email, request type, or intent.  
+  
+
+  * **Support flexible routing:** Pass outputs to downstream nodes for follow-up actions or branching.  
+  
+
+  * **Improve automation quality:** Combine prompts, tools, variables, and connections to create more adaptive flows.  
+  
+
+  * **Reduce manual logic:** Let the AI Agent Node make context-aware decisions when fixed conditions are not enough.
+
+
+* * *
+
+## **When To Use the AI Agent Node**
+
+  
+
+
+The AI Agent Node is best for situations where the agent must understand context, respond naturally, choose tools, or make decisions based on user input. It is especially useful when inputs are unpredictable or when the next step depends on intent.
+
+  
+
+
+**Use the AI Agent Node for:**
+
+  
+
+
+  * Conversational responses  
+  
+
+  * Lead qualification  
+  
+
+  * Support triage  
+  
+
+  * Knowledge Base lookup  
+  
+
+  * Web search  
+  
+
+  * Data extraction  
+  
+
+  * CRM updates  
+  
+
+  * Tool selection  
+  
+
+  * Dynamic routing  
+  
+
+  * Context-aware decision-making
+
+
+  
+
+
+Use the **AI Agent Node** when decisions depend on context. Use a **Sequential Node** when the flow should run predefined steps in a fixed order.
 
 * * *
 
@@ -542,30 +707,91 @@ Ensure the AI Agent Node is properly connected to the next step in your agent fl
   
 
 
-**Q: How does the AI Agent decide when to respond versus when to use a tool?**
-
-The AI Agent makes this decision based on the prompt instructions, available tools, and user input context. The prompt acts as the primary guide (e.g., “use knowledge base for pricing”), while the agent evaluates whether it has enough information and uses tools only when required. For example, if a user asks, “What are your latest pricing plans?”, the agent may give a general response without a tool, but with a Knowledge Base tool, it retrieves accurate information.
-
-  
-
-
-**Q: Can the AI Agent Node handle multiple tasks at once, or should it be focused on a single goal?**
-
-The AI Agent Node performs best when focused on one role. Handling too many tasks can lead to confusion and lower accuracy. For example, a single node managing both support and sales may produce inconsistent results, whereas separating them into dedicated nodes improves performance and clarity.
+**Q: What does the AI Agent Node do?**  
+The AI Agent Node processes input, follows prompt instructions, uses connected tools when needed, captures information, and passes output to the next node in an Agent Studio flow.
 
   
 
 
-**Q: How can I tell if my AI Agent Node is working effectively?**
+  
 
-You can evaluate effectiveness by checking response quality, correct tool usage, accurate data extraction, and consistency across interactions. For example, in a lead qualification scenario, the agent should ask relevant questions and capture correct user details reliably.
+
+**Q: When should I use the AI Agent Node instead of a Sequential Node?**  
+Use the AI Agent Node when the flow requires context-aware decisions, conversation, tool selection, or data extraction. Use a Sequential Node when actions should run in a fixed order.
 
   
 
 
-**Q: How do I control or limit what the AI Agent is allowed to do?**
+  
 
-Control is defined through prompt instructions, tool selection, and variables. The prompt sets behavior boundaries, tools limit what actions the agent can take, and variables define what data is captured. For example, using only a Knowledge Base tool prevents CRM actions, while prompt restrictions ensure the agent stays within scope.
+
+**Q: Should one AI Agent Node handle many tasks?**  
+It is better to keep each AI Agent Node focused on one primary role. Too many unrelated tasks can make the node harder to control and test.
+
+  
+
+
+  
+
+
+**Q: What is the difference between Conversational Mode and Task-Based Mode?**  
+Conversational Mode sends user-facing responses. Task-Based Mode performs background work or data extraction without sending a direct response to the user.
+
+  
+
+
+  
+
+
+**Q: How does the AI Agent Node decide which tool to use?**  
+The node uses the prompt, connected tools, user input, and context to decide when a tool is needed. Clear prompt instructions improve tool selection.
+
+  
+
+
+  
+
+
+**Q: Can the AI Agent Node use a Knowledge Base?**  
+Yes, when the Search Knowledge Base tool is connected and the prompt explains when the node should use it.
+
+  
+
+
+  
+
+
+**Q: Can the AI Agent Node call external systems?**  
+Yes, when supported tools such as API Call or MCP Server are configured and connected.
+
+  
+
+
+  
+
+
+**Q: Can the AI Agent Node capture user information?**  
+Yes. Runtime variables can capture structured information such as name, email, request type, intent, or other values during execution.
+
+  
+
+
+  
+
+
+**Q: Why is my runtime variable empty?**  
+The user input may not contain the value, the variable description may be unclear, or the prompt may not instruct the agent to capture it. Update the prompt and variable description, then test again.
+
+  
+
+
+  
+
+
+**Q: Should I test after changing the AI Agent Node?**  
+Yes. Test after changing prompts, models, modes, tools, variables, or connections to confirm the node behaves correctly.
+
+* * *
 
 * * *
 
@@ -574,8 +800,12 @@ Control is defined through prompt instructions, tool selection, and variables. T
   
 
 
-  * [Agent Studio Overview ](<https://help.gohighlevel.com/a/solutions/articles/155000007393?portalId=48000045315>)
+  * [Agent Studio Overview ](<https://help.gohighlevel.com/a/solutions/articles/155000007393?portalId=48000045315>)  
+  
 
-  * [How to Use the AI Agent Studio in HighLevel](<https://help.gohighlevel.com/a/solutions/articles/155000006058?portalId=48000045315>)
+
+  * [How to Use the AI Agent Studio in HighLevel](<https://help.gohighlevel.com/a/solutions/articles/155000006058?portalId=48000045315>)  
+  
+
 
   * [Agent Studio – Multi Agent System Builder](<https://help.gohighlevel.com/a/solutions/articles/155000007609?portalId=48000045315>)

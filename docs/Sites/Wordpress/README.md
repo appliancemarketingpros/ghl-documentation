@@ -11,7 +11,7 @@
 - [How to Select Country Server Location for WordPress Hosting](How to Select Country Server Location for WordPress Hosting.md)
 - [WordPress: Payment Failure Notifications via Email & LC Plugin](WordPress Payment Failure Notifications via Email & LC Plugin.md)
 - [SSH access for WordPress](SSH access for WordPress.md)
-- [How to install LeadConnector on WordPress](How to install LeadConnector on WordPress.md)
+- [The Complete Guide to the LeadConnector (LC) WordPress Plugin](The Complete Guide to the LeadConnector (LC) WordPress Plugin.md)
 - [How to Install Popular WordPress Plugins During Site Creation](How to Install Popular WordPress Plugins During Site Creation.md)
 - [How to Migrate a WordPress Site to HighLevel](How to Migrate a WordPress Site to HighLevel.md)
 - [WordPress: Automatic Updates Management for Core, Plugins, and Themes](WordPress Automatic Updates Management for Core, Plugins, and Themes.md)

@@ -22,11 +22,9 @@ This article explains how Ask AI feedback works, when to use thumbs up or thumbs
   * When to Use Thumbs Up or Thumbs Down
   * How Feedback Applies to Full Ask AI Responses
   * Adding Reasons and Comments
-  * Updating or Clearing Feedback
-  * Feedback Availability in Ask AI Conversations
   * How To Provide Feedback on Ask AI Responses
   * Best Practices for Constructive Feedback
-  * Frequently Asked Questions
+  * Frequently Asked QuestionsQ: Can I update or clear my feedback after submitting it?
   * Related Articles
 
 
@@ -44,16 +42,11 @@ Feedback is tied to a single Ask AI answer. If that answer includes text plus st
   
 
 
-When users choose thumbs down, they may be asked to select one or more reasons and add an optional comment. These details help explain what went wrong and make the feedback more actionable.
+When users choose **thumbs down** , they may be asked to select one or more reasons and add an optional comment. These details help explain what went wrong and make the feedback more actionable.
 
 * * *
 
 ## **Key Benefits of Ask AI Feedback**
-
-  
-
-
-Constructive feedback helps improve Ask AI by showing which responses are working well and where the experience needs refinement. The more specific the feedback is, the easier it is to understand what should be improved.
 
   
 
@@ -99,9 +92,6 @@ Constructive feedback helps improve Ask AI by showing which responses are workin
 
 
 Choosing the right feedback option helps HighLevel understand whether an Ask AI response was successful or needs improvement. Use thumbs up when the response was helpful, and use thumbs down when the response missed the mark or needs correction.
-
-  
-
 
   
 
@@ -254,67 +244,11 @@ Less helpful feedback examples:
   
 
 
-  * “Fix this.”
+  * “Fix this.”  
+  
 
 
 Constructive comments help HighLevel better understand what happened and what a better response should have included.
-
-* * *
-
-## **Updating or Clearing Feedback**
-
-  
-
-
-Feedback should reflect your current opinion of the response. If you change your mind, choose the other rating or clear your feedback.
-
-  
-
-
-Users can update their feedback when:
-
-  
-
-
-  * They clicked the wrong thumb by mistake
-
-
-  
-
-
-  * A response seemed helpful at first but later appeared incorrect
-
-
-  
-
-
-  * They originally selected thumbs down but later realized the response was useful
-
-
-  
-
-
-  * They want to remove feedback from a response
-
-
-  
-
-
-When feedback is updated, the latest rating replaces the earlier one. If feedback is cleared, the response returns to an unrated state.
-
-* * *
-
-## **Feedback Availability in Ask AI Conversations**
-
-  
-
-
-Ask AI feedback is available in new conversations created after the feature release. Older conversations remain unchanged and may not show thumbs up or thumbs down controls.
-
-  
-
-
-This means you may see feedback controls in a new Ask AI conversation but not in an older chat. To provide feedback on current Ask AI behavior, start a new conversation and rate the responses there.
 
 * * *
 
@@ -323,29 +257,13 @@ This means you may see feedback controls in a new Ask AI conversation but not in
   
 
 
-Providing feedback directly inside Ask AI helps HighLevel collect useful quality signals without interrupting your workflow. A quick rating and a short reason can make your feedback more actionable.
+You can share feedback directly in Ask AI to help HighLevel improve future responses. Simply choose thumbs up or thumbs down, and add a short reason if you’d like to provide more details.
 
+Your feedback can be changed anytime. If you selected the wrong rating, changed your mind, or no longer want to leave feedback, you can update or clear it. The most recent rating will be saved, and clearing feedback will return the response to an unrated state.  
   
-
-
-  1. Open Ask AI in HighLevel and start a new conversation.  
+1\. Open **Ask AI** in HighLevel and start a new conversation. After sending a prompt or question, review the response and use the **thumbs up** or **thumbs down** icons below it to rate whether the answer was helpful.  
   
-
-
-  2. Send a prompt or question, then review the response.  
-  
-
-
-  3. Use the thumbs up or thumbs down controls below the response to rate it.  
-  
-
-
-  4. If selecting thumbs down, choose a reason and add an optional comment.  
-  
-
-
-  5. Submit your feedback. You can update or clear your rating later if needed.
-
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155075435285/original/sAFWD9wZTDKhvZLDqrxPd4G5YFlQkcEe_A.png?1783448080)
 
   
 
@@ -353,21 +271,13 @@ Providing feedback directly inside Ask AI helps HighLevel collect useful quality
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072307098/original/18leacZytXScQATUEI8k7PL9co250dX9Jw.png?1779882107)
-
+2\. If you select**thumbs down** , choose a reason and add an optional comment to share more details. Submit your feedback when finished. You can update or clear your rating later if needed.  
   
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072298871/original/X_5STZSXed2zIvnqlbsw7O7utAGl3IAq7w.png?1779876844)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155075323850/original/q1nHFyDtToJe32WY-7G4u4EraspTG1raMg.png?1783357171)
 
 * * *
 
 ## **Best Practices for Constructive Feedback**
-
-  
-
-
-Constructive feedback helps improve Ask AI more effectively than a rating alone. The best feedback explains what happened, why it was not useful, and what would have made the response better.
 
   
 
@@ -432,22 +342,14 @@ Use these best practices when leaving feedback:
 **
 
 **Q: Why do some Ask AI conversations not show feedback controls?**  
-Feedback is available in new Ask AI conversations created after the feature release. Older conversations may not show thumbs up or thumbs down controls.  
-**  
+Feedback is available in new Ask AI conversations created after the feature release. Older conversations may not show thumbs up or thumbs down controls.**  
 **
 
-**Q: What happens when I select thumbs down?**  
-You may be prompted to choose one or more reasons and optionally add a comment explaining what went wrong.  
   
 
 
 **Q: Can I change my rating after submitting it?**  
 Yes. You can update your feedback by choosing a different rating.  
-**  
-**
-
-**Q: Can I clear my feedback?  
-** Yes. You can clear a rating if you no longer want to provide feedback for that response.  
 **  
 **
 
@@ -457,7 +359,11 @@ No. Feedback helps HighLevel identify where Ask AI responses are helpful or need
 **
 
 **Q: Should I leave thumbs up feedback too?**  
-Yes. Positive feedback helps identify responses that are accurate, helpful, and aligned with user expectations.
+Yes. Positive feedback helps identify responses that are accurate, helpful, and aligned with user expectations.  
+  
+**Q: Can I update or clear my feedback after submitting it?**
+
+Yes. You can change your rating or clear your feedback if you selected the wrong option, changed your mind, or no longer want to rate that response.
 
 * * *
 
@@ -466,28 +372,16 @@ Yes. Positive feedback helps identify responses that are accurate, helpful, and 
   
 
 
-  * [Introduction to Ask AI Assistant](<https://help.gohighlevel.com/support/solutions/articles/155000005327-introduction-to-ask-ai-assistant>)
-
-
+  * [Overview of Ask AI Assistant](<https://help.gohighlevel.com/en/support/solutions/articles/155000005327>)  
   
-
-
-  * [Ask AI Artifacts and Mermaid Diagrams in HighLevel](<https://help.gohighlevel.com/support/solutions/articles/155000007812-using-ask-ai-artifacts-and-mermaid-diagrams-in-highlevel>)
-
-
+[](<https://help.gohighlevel.com/support/solutions/articles/155000007812-using-ask-ai-artifacts-and-mermaid-diagrams-in-highlevel>)
+  * [Ask AI Artifacts and Mermaid Diagrams in HighLevel](<https://help.gohighlevel.com/support/solutions/articles/155000007812-using-ask-ai-artifacts-and-mermaid-diagrams-in-highlevel>)  
   
-
-
-  * [How to Generate and Edit Images Using Ask AI](<https://help.gohighlevel.com/support/solutions/articles/155000005764-how-to-generate-and-edit-images-using-ask-ai>)
-
-
+[](<https://help.gohighlevel.com/support/solutions/articles/155000005764-how-to-generate-and-edit-images-using-ask-ai>)
+  * [How to Generate and Edit Images Using Ask AI](<https://help.gohighlevel.com/support/solutions/articles/155000005764-how-to-generate-and-edit-images-using-ask-ai>)  
   
-
-
-  * [Conversational Editing of Content with Ask AI](<https://help.gohighlevel.com/support/solutions/articles/155000005765-conversational-editing-of-content-with-ask-ai>)
-
-
+[](<https://help.gohighlevel.com/support/solutions/articles/155000005765-conversational-editing-of-content-with-ask-ai>)
+  * [Conversational Editing of Content with Ask AI](<https://help.gohighlevel.com/support/solutions/articles/155000005765-conversational-editing-of-content-with-ask-ai>)  
   
-
-
+[](<https://help.gohighlevel.com/support/solutions/articles/155000005517-thumbs-up-down-feedback-for-content-ai>)
   * [Thumbs Up/Down Feedback for Content AI](<https://help.gohighlevel.com/support/solutions/articles/155000005517-thumbs-up-down-feedback-for-content-ai>)

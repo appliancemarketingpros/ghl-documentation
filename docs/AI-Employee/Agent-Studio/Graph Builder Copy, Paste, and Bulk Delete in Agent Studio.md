@@ -1,28 +1,30 @@
-# What Is Graph Builder Copy, Paste, and Bulk Delete in Agent Studio?
+# Graph Builder Copy, Paste, and Bulk Delete in Agent Studio
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000007645-what-is-graph-builder-copy-paste-and-bulk-delete-in-agent-studio-](https://help.gohighlevel.com/support/solutions/articles/155000007645-what-is-graph-builder-copy-paste-and-bulk-delete-in-agent-studio-)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000007645-graph-builder-copy-paste-and-bulk-delete-in-agent-studio](https://help.gohighlevel.com/support/solutions/articles/155000007645-graph-builder-copy-paste-and-bulk-delete-in-agent-studio)  
 **Category:** AI Employee  
 **Folder:** Agent Studio
 
 ---
 
-Speed matters when you're building and refining agent logic. Graph Builder copy, paste, and bulk delete in HighLevel make it easier to reuse node setups, duplicate connected flows, and clean up your canvas without rebuilding work manually. These tools help you move faster in Agent Studio while keeping your graphs organised and easier to manage.
+Graph Builder copy, paste, and bulk delete help users quickly duplicate, reuse, and remove selected nodes inside the Agent Studio canvas. Use these editing tools to reuse proven node groups, clean up outdated branches, and speed up agent-building workflows without rebuilding sections manually. These tools are designed for selected nodes or flow sections, not for cloning an entire agent.
 
 * * *
 
 **TABLE OF CONTENTS**
 
-  * Graph Builder Copy, Paste, and Bulk Delete in Agent Studio
+  * What are Graph Builder Copy, Paste, and Bulk Delete?
   * Key Benefits of Graph Builder Copy, Paste, and Bulk Delete
+  * When To Use Copy, Paste, and Bulk Delete
+  * Permissions and Important Notes
   * Supported Actions and How They Work
-  * Copy one or more nodes
-  * Paste copied nodes into the same graph
-  * Paste copied nodes into another Agent Studio tab
-  * Preserve copied connections
-  * Generate fresh IDs for pasted nodes
-  * Delete multiple selected nodes
-  * Use keyboard shortcuts
-  * How To Setup Graph Builder Copy, Paste, and Bulk Delete
+    * Copy one or more nodes
+    * Paste copied nodes into the same graph
+    * Paste copied nodes into another Agent Studio tab
+    * Preserve copied connections
+    * Generate fresh IDs for pasted nodes
+    * Delete multiple selected nodes
+    * Use keyboard shortcuts
+  * How to Set Up Graph Builder Copy, Paste, and Bulk Delete
   * Shortcut Reference
   * Best Practices for Reusing Node Groups
   * Frequently Asked Questions
@@ -31,9 +33,14 @@ Speed matters when you're building and refining agent logic. Graph Builder copy,
 
 * * *
 
-# **Graph Builder Copy, Paste, and Bulk Delete in Agent Studio**
+## **What are Graph Builder Copy, Paste, and Bulk Delete?**
 
-Graph Builder copy, paste, and bulk delete allow you to duplicate one or more nodes inside Agent Studio using keyboard shortcuts, paste them into the same graph or another Agent Studio tab, and remove multiple selected nodes at once. This is especially helpful when you want to reuse a proven flow pattern, test variations, or quickly clean up an existing graph.
+Graph Builder copy, paste, and bulk delete are canvas-level editing tools in Agent Studio. They allow users to copy selected nodes, paste them into the same or another supported Agent Studio tab, preserve connections between copied nodes, and delete multiple selected nodes at once.
+
+  
+
+
+Copied nodes are pasted with fresh IDs so they behave as separate nodes from the originals. This makes it easier to reuse flow sections while keeping the agent graph organized and editable.
 
 * * *
 
@@ -42,7 +49,7 @@ Graph Builder copy, paste, and bulk delete allow you to duplicate one or more no
   
 
 
-These tools reduce repetitive work and make it easier to build, test, and refine agent flows with less manual effort. They are especially useful when you're managing larger graphs or reusing similar logic across different agents.
+Graph Builder editing tools help users work faster when building or maintaining agent flows. Instead of recreating node groups manually, users can duplicate useful sections, update pasted settings, and remove unnecessary branches with fewer clicks.
 
   
 
@@ -67,12 +74,89 @@ These tools reduce repetitive work and make it easier to build, test, and refine
   
 
 
-  * **Reliable duplication** : Newly pasted nodes receive unique IDs to help prevent conflicts in your graph.
+  * **Reliable duplication** : Newly pasted nodes receive unique IDs to help prevent conflicts in your graph.  
+  
+
 
   * **More efficient keyboard-based editing** : Standard keyboard shortcuts make common graph actions quicker and more intuitive.
 
 
+* * *
+
+## **When To Use Copy, Paste, and Bulk Delete**
+
   
+
+
+Copy, paste, and bulk delete are useful when you need to make repeated graph edits or reuse an existing flow pattern. These actions are best for selected node groups, test branches, and reusable sections of an agent graph.
+
+  
+
+
+Use these tools when you need to:  
+  
+
+
+  * Reuse a proven node group.  
+  
+
+  * Duplicate a flow section for testing.  
+  
+
+  * Rebuild a similar branch without starting from scratch.  
+  
+
+  * Copy a logic pattern into another Agent Studio tab.  
+  
+
+  * Remove unused or outdated node groups.  
+  
+
+  * Clean up test branches after debugging.  
+  
+
+  * Speed up repetitive graph-editing tasks.
+
+
+* * *
+
+## **Permissions and Important Notes**
+
+  
+
+
+Graph Builder editing actions depend on user access and the current Agent Studio editing context. Reviewing important behavior before copying, pasting, or deleting helps prevent accidental changes to the agent flow.
+
+  
+
+
+**Important notes:**
+
+  
+
+
+  * Users need access to Agent Studio and permission to edit the agent.  
+  
+
+  * Copy, paste, and bulk delete work inside the Graph Builder canvas.  
+  
+
+  * Copied nodes are pasted with fresh IDs.  
+  
+
+  * Connections between copied nodes are preserved when the connected nodes are included in the selection.  
+  
+
+  * Connections to nodes outside the copied selection may need to be reconnected manually.  
+  
+
+  * Pasted nodes may appear offset to avoid overlapping the original nodes.  
+  
+
+  * Pasted nodes should be reviewed before publishing.  
+  
+
+  * Use snapshots or templates when cloning, sharing, or installing a full agent structure.
 
 
 * * *
@@ -82,14 +166,17 @@ These tools reduce repetitive work and make it easier to build, test, and refine
   
 
 
-Understanding what happens during copy, paste, and bulk delete helps you use the feature more confidently. These behaviors are designed to make node editing faster while keeping your graph structure stable and easier to follow.
+Each editing action is designed to make the Graph Builder canvas easier to manage. Understanding how copied nodes, pasted nodes, preserved connections, and bulk delete behave helps users make changes confidently.
 
 ###   
 
 
 ### **Copy one or more nodes**
 
-You can copy a single node or a group of selected nodes inside Graph Builder. This makes it easier to duplicate a simple step or reuse a larger sequence of logic.
+  
+
+
+Select one or more nodes in the Graph Builder canvas, then use the available copy action or keyboard shortcut to copy the selected nodes.
 
   
 
@@ -101,7 +188,10 @@ You can copy a single node or a group of selected nodes inside Graph Builder. Th
 
 ### **Paste copied nodes into the same graph**
 
-After copying, you can paste the selected node or node group back into the current graph. Pasted nodes appear with a slight offset so they are easier to spot and do not overlap directly with the original nodes.
+  
+
+
+Paste copied nodes into the current Graph Builder canvas or another supported Agent Studio tab. Pasted nodes appear as separate nodes with fresh IDs.
 
   
 
@@ -128,16 +218,34 @@ Copied nodes can also be pasted into another open Agent Studio tab. This helps y
 
 ### **Preserve copied connections**
 
-When you copy multiple connected nodes together, the connections between those copied nodes are reconstructed automatically after paste. This reduces the need to reconnect the same paths manually.
+  
+
+
+Connections between copied nodes are preserved when all connected nodes are included in the copied selection. Connections to nodes outside the selection may not be preserved and should be reviewed after pasting.
+
+  
+
+
+  
+
 
 ### **Generate fresh IDs for pasted nodes**
+
+  
+
 
 Each pasted node receives a new unique ID. This helps keep the graph stable and avoids conflicts with the original nodes.
 
   
 
 
+  
+
+
 ### **Delete multiple selected nodes**
+
+  
+
 
 Bulk delete allows you to remove multiple selected nodes in one action. This is useful when cleaning up test branches, outdated logic, or extra copied nodes you no longer need.
 
@@ -151,11 +259,14 @@ Bulk delete allows you to remove multiple selected nodes in one action. This is 
 
 ### **Use keyboard shortcuts**
 
+  
+
+
 The feature supports familiar keyboard shortcuts so you can perform common graph-editing actions quickly. A shortcut guide is also available in the product for quick reference.
 
 * * *
 
-## **How To Setup Graph Builder Copy, Paste, and Bulk Delete**
+## **How to Set Up Graph Builder Copy, Paste, and Bulk Delete**
 
   
 
@@ -173,11 +284,17 @@ Using these tools correctly can save significant time when building or updating 
   
 
 
-  3. Use the appropriate keyboard shortcut to copy the selected node or nodes.
+  3. Use the appropriate keyboard shortcut to copy the selected node or nodes.  
+  
 
-     * **Windows** : `Ctrl + C`
 
-     * **Mac** : `Cmd + C`
+     * **Windows** : `Ctrl + C`  
+  
+
+
+     * **Mac** : `Cmd + C`  
+  
+
 
   4. Paste the copied content where needed.
 
@@ -189,9 +306,13 @@ Using these tools correctly can save significant time when building or updating 
   
 
 
-     * **Windows** : `Ctrl + V`
+     * **Windows** : `Ctrl + V`  
+  
 
-     * **Mac** : `Cmd + V`
+
+     * **Mac** : `Cmd + V`  
+  
+
 
   5. Review the pasted nodes on the canvas. They should appear slightly offset from the original location so they are easier to identify.  
   
@@ -224,19 +345,33 @@ Keyboard shortcuts make graph editing much faster, especially when working with 
   
 
 
-  * **Copy selected node or nodes**
+  * **Copy selected node or nodes**  
+  
 
-    * Windows: `Ctrl + C`
 
-    * Mac: `Cmd + C`
+    * Windows: `Ctrl + C`  
+  
 
-  * **Paste copied node or nodes**
 
-    * Windows: `Ctrl + V`
+    * Mac: `Cmd + C`  
+  
 
-    * Mac: `Cmd + V`
 
-  * **Bulk delete selected node or nodes**
+  * **Paste copied node or nodes**  
+  
+
+
+    * Windows: `Ctrl + V`  
+  
+
+
+    * Mac: `Cmd + V`  
+  
+
+
+  * **Bulk delete selected node or nodes**  
+  
+
 
     * Use the delete shortcut available in Graph Builder for your device.  
   
@@ -289,9 +424,15 @@ A: Yes. Graph Builder supports copying a single node or multiple selected nodes 
   
 
 
+  
+
+
 **Q: What happens to the connections between copied nodes?**
 
 A: When connected nodes are copied together, the connections between those copied nodes are rebuilt automatically after paste.
+
+  
+
 
   
 
@@ -302,8 +443,14 @@ A: Yes. The feature supports cross-tab pasting between Agent Studio tabs.
   
 
 
+  
+
+
 **Q: Why do pasted nodes appear slightly moved from the original nodes?**  
 A: Pasted nodes are placed with an offset so they do not stack directly on top of the original nodes, which makes them easier to find and edit.
+
+  
+
 
   
 
@@ -314,8 +461,14 @@ A: No. Each pasted node gets a new unique ID.
   
 
 
+  
+
+
 **Q: Can I delete multiple nodes at the same time?**  
 A: Yes. Bulk delete allows you to remove multiple selected nodes in one action.
+
+  
+
 
   
 
@@ -326,12 +479,15 @@ A: No. Copy and paste is useful for node-level reuse inside Graph Builder, while
   
 
 
+  
+
+
 **Q: Is there a shortcut guide available in the product?**  
 A: Yes. HighLevel includes a keyboard shortcut guide to help you reference supported shortcuts while using Agent Studio.
 
 * * *
 
-### **Related Articles**
+## **Related Articles**
 
   
 

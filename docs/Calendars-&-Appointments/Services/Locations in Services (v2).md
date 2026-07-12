@@ -67,8 +67,41 @@ To enable this:
 
 * * *
 
+## **How Location Details Appear in Mobile Service v2 Appointments**
+
   
 
+
+Configured location details are used throughout the booking experience, including the mobile appointment view. Clear location display helps staff and customers act faster when an appointment is tied to a physical address or a virtual meeting link.
+
+  
+
+
+In mobile Service v2 appointments, location details can display as:
+
+  
+
+
+  * a full physical address  
+  
+
+  * a virtual meeting URL  
+  
+
+  * a location name when a full address is not available
+
+
+  
+
+
+Depending on the appointment type, mobile users can also copy the displayed location value and use quick actions such as View Location or Join Meeting.
+
+  
+
+
+For the mobile appointment workflow, refer to <span style="color:blue">Manage Service v2 Appointments in the Mobile App</span>.
+
+* * *
 
 ## How to Add New Locations
 

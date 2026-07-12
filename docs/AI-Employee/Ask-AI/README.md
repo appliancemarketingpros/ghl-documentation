@@ -4,11 +4,11 @@
 
 ## Articles
 
-- [Introduction to Ask AI Assistant](Introduction to Ask AI Assistant.md)
+- [Overview of Ask AI Assistant](Overview of Ask AI Assistant.md)
 - [How to Generate a Contact's Summary Using Ask AI](How to Generate a Contact's Summary Using Ask AI.md)
 - [Funnel Creation Agent in Ask AI](Funnel Creation Agent in Ask AI.md)
 - [How to Generate and Edit Images Using Ask AI](How to Generate and Edit Images Using Ask AI.md)
-- [Conversational Editing of Content with Ask AI](Conversational Editing of Content with Ask AI.md)
+- [How to Use Edit with Ask AI Feature in Social Planner](How to Use Edit with Ask AI Feature in Social Planner.md)
 - [Ask AI + Agent Studio Integration](Ask AI + Agent Studio Integration.md)
 - [How to Use the MCP Server within Ask AI](How to Use the MCP Server within Ask AI.md)
 - [Using Ask AI to Create and Update SaaS Plans](Using Ask AI to Create and Update SaaS Plans.md)

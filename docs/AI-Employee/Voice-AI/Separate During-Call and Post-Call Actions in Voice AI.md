@@ -1,6 +1,6 @@
-# Separate During and Post Call Actions
+# Separate During-Call and Post-Call Actions in Voice AI
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000005267-separate-during-and-post-call-actions](https://help.gohighlevel.com/support/solutions/articles/155000005267-separate-during-and-post-call-actions)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000005267-separate-during-call-and-post-call-actions-in-voice-ai](https://help.gohighlevel.com/support/solutions/articles/155000005267-separate-during-call-and-post-call-actions-in-voice-ai)  
 **Category:** AI Employee  
 **Folder:** Voice AI
 
@@ -24,7 +24,7 @@
   
 
 
-The **Action Builder** for Voice AI has been completely redesigned to offer a cleaner, faster, and more intuitive experience. This update introduces a card-based layout, tabbed structure, and streamlined workflows, making it significantly easier to create, manage, and review what your agent does both during and after a call.
+Voice AI actions are organized into during-call and post-call actions so you can clearly control what your agent does while speaking with a caller and what happens after the call ends. The updated action layout uses action cards, tabs, and focused configuration windows to make actions easier to create, review, edit, and manage.
 
   
 
@@ -33,14 +33,14 @@ The **Action Builder** for Voice AI has been completely redesigned to offer a cl
 
     
     
-    To enable this feature: Go to **Settings > Labs > Enable "Voice AI - Separate During and Post Call Actions"**
+    Note: If this experience is not visible in your account, go to **Settings > Labs** and enable Voice AI - Separate During and Post Call Actions, if available.
 
 * * *
 
-## **What’s New**
+## **What Changed in the Action Builder**
 
-  1. **Card-Based Interface**  
-Actions now appear as individual cards. You can easily scan, sort, and organize actions with improved visual clarity.
+  1. **Card-Based action layout**  
+Actions appear as individual cards, making it easier to scan, edit, organize, and review configured actions.
 
   
 _![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046578046/original/3RvCiXMNSA2LtzG8exuGG0j1BJw0PbHxmA.png?1747168856)_  
@@ -48,19 +48,20 @@ _![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/produc
 
 
   2. **Tabbed Layout**  
-The actions are now split into **During the Call** and **After the Call** sections. Each tab displays the total number of actions configured.
+Actions are separated into **During the Call** and **After the Call** tabs, helping you distinguish actions that happen live during the conversation from actions that happen after the call ends.
 
   3. **Streamlined Creation Flow**  
-A bold and easy-to-access **“New Action”** button encourages quick and structured action creation.  
+Use the New Action button to add a supported action type and configure it in a focused setup window.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046578089/original/3Njbttz4ii9VZ92LIuRU7Y2X5V-Rt_NZAw.jpeg?1747168934)
 
   4. **Individual Action Modals**  
-Every action type opens in a dedicated modal, eliminating the need to switch tabs or scroll through long forms.
+Each action type opens in its own configuration window, so you can complete the required fields without scrolling through unrelated settings.  
+  
+
 
   5. **Quick Delete Option**  
-You can now delete actions directly from the action card menu, no need to open the editor.  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046578104/original/vgrUiUJ44ABEyIWPDFmNZo4UTNYOadf1Nw.png?1747168957)
+You can edit or delete actions from the action card menu without opening the full agent configuration flow.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046578104/original/vgrUiUJ44ABEyIWPDFmNZo4UTNYOadf1Nw.png?1747168957)
 
 
   
@@ -100,7 +101,6 @@ Edit or remove actions in fewer clicks — right from the action card.
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046578145/original/SPCvamI8apQzIMDBQ5UUxk-wYrHglXGwIg.png?1747169092)  
-
 
   4. A focused modal will appear — fill in the required details.  
   

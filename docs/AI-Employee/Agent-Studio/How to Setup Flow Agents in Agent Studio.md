@@ -1,6 +1,6 @@
-# Agent Studio Overview
+# How to Setup Flow Agents in Agent Studio
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000007393-agent-studio-overview](https://help.gohighlevel.com/support/solutions/articles/155000007393-agent-studio-overview)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000007393-how-to-setup-flow-agents-in-agent-studio](https://help.gohighlevel.com/support/solutions/articles/155000007393-how-to-setup-flow-agents-in-agent-studio)  
 **Category:** AI Employee  
 **Folder:** Agent Studio
 
@@ -441,33 +441,6 @@ An agent must be published in order to respond to real-world triggers.
 
 * * *
 
-## **Getting Started with Agent Studio**
-
-  
-
-
-To create your first agent:
-
-  
-
-
-  1. Navigate to **AI Agents → Agent Studio**
-
-  2. Click **Create Agent**
-
-  3. Choose to start from scratch or install a template
-
-  4. Add a **Start Trigger**
-
-  5. Drag an **AI Agent node** onto the canvas and connect it
-
-  6. Use **Test** to simulate behavior
-
-  7. Save and **Publish** the agent
-
-
-* * *
-
 ## **Frequently Asked Questions**
 
   
@@ -509,6 +482,13 @@ Yes. Agent Studio supports image, audio, and video generation.
 
 ### **Related Articles**
 
-  * [Intent-Based Routing in Agent Studio](<https://help.gohighlevel.com/support/solutions/articles/155000006436-intent-based-routing-in-agent-studio-ai-router-node->)
-  * [How to Set Up Agent Studio Triggers](<https://help.gohighlevel.com/support/solutions/articles/155000007310-how-to-set-up-agent-studio-triggers-for-real-time-starts>)
+  
+
+
+  * [Intent-Based Routing in Agent Studio](<https://help.gohighlevel.com/support/solutions/articles/155000006436-intent-based-routing-in-agent-studio-ai-router-node->)  
+  
+
+  * [How to Set Up Agent Studio Triggers](<https://help.gohighlevel.com/support/solutions/articles/155000007310-how-to-set-up-agent-studio-triggers-for-real-time-starts>)  
+  
+
   * [Agent Studio Template Library](<https://help.gohighlevel.com/support/solutions/articles/155000007318-agent-studio-template-library-build-ai-agents-faster-with-reusable-templates>)

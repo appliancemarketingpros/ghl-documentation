@@ -143,7 +143,7 @@ Key operational details include:
   * **Graceful fallback:** If pre-rendering is not enabled or a page is not yet cached, bots receive the standard SPA (same behavior as before). No degradation from current experience.  
   
 
-  * **Automatic cache refresh:** Pre-rendered pages are automatically regenerated on every publish, domain change, or site update. No manual cache clearing or rebuilding required. The system handles up to 50 routes per site.  
+  * **Automatic cache refresh:** Pre-rendered pages are automatically regenerated on every publish, domain change, or site update. No manual cache clearing or rebuilding required. The system handles up to 150 routes per site.  
 **  
 **
   * **Edge-level serving:** Pre-rendered pages are served from Cloudflare's edge network in under 10ms. No additional latency for bots or users.

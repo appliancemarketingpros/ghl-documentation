@@ -303,27 +303,24 @@ If you see this error:
 ## **Issues with Online Listing Services**
 
   
-To modify or cancel your Online Listing service:  
+
+
+To cancel your Online Listing service, submit the following details via chat:
+
+  * Location Name
+  * Location ID
+  * Reason for cancellation
+
+
   
 
 
-  * Contact **[accountmanagers@agencyonfile.com](<mailto:accountmanagers@agencyonfile.com>)** directly.   
+A 3-month commitment applies to this service.
+
   
 
-  * To cancel, submit the following via chat:  
-  
 
-    * Location Name  
-  
-
-    * Location ID  
-  
-
-    * Reason for cancellation  
-  
-
-    * A 3-month commitment applies to this service.
-
+For any other issues with Online Listing Services, please contact HighLevel Support through in-app chat or by submitting a support ticket.
 
 * * *
 
@@ -440,6 +437,15 @@ Charges may include prorated upgrades or failed previous attempts. Check the inv
 
 
 If you’re seeing charges labelled this way, it means your account is actively sending emails via LC Email. You can review and confirm these in Settings > Billing > Wallet Transactions and check corresponding sends in the Email Logs under Marketing > Emails > Logs.
+
+  
+
+
+**Can I use my Agency Wallet to pay for my HighLevel subscription?**
+
+No. Agency Wallet funds cannot be used to pay for your HighLevel subscription plan. Your HighLevel subscription must be paid using the payment method on file, such as a valid credit or debit card.
+
+The Agency Wallet is used for eligible usage-based services and wallet-related charges, but it does not apply toward the agency’s main HighLevel subscription fee.
 
 * * *
 

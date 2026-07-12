@@ -180,18 +180,22 @@ Proper setup ensures Voice AI can understand booking intent, use the right calen
   2. Complete or review the basic agent setup, including the required agent details and any phone or availability settings you want the agent to use.  
   
 
-  3. In**Actions** section on the mid-right panel, click **\+ New Action** and select**Appointment Booking**.  
+  3. In the Actions section on the mid-right panel, **click +** New Action and select **Appointment Booking**.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068890129/original/E4LFvDMBjakax7-VragXKmU2Qn8NA-9O2A.gif?1775825877)  
   
 
   4. Choose how Voice AI should handle calendar selection:  
   
-**i.**_Select_** _Single Calendar_** if all appointment requests should go to one booking calendar. Also configure  
+i. Select Single Calendar if all appointment requests should go to one booking calendar. Also configure:
+
   
-**-Offering Days** to control how many future days the AI should offer  
-**-Appointment slots per day** to control how many time options are presented each day  
-**-Hours between slots** to control spacing between offered times  
+Offering Days to control how many future days the AI should offer  
+Appointment slots per day to control how many time options are presented each day
+
+Hours between slots to control spacing between offered times
+
+  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068890680/original/LUE9pgg1Hh-6Q4tDVmYIsRrzozHuJ9lS5Q.gif?1775826220)  
   

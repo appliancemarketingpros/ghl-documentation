@@ -34,6 +34,40 @@ If you are on the Pro Plan and have a sub-account in SaaS mode, you can enable a
 
 Upgrading or downgrading a SaaS plan lets an agency or client move a HighLevel location (sub-account) to a different subscription tier. This impacts billing, feature access, and available usage limits. Understanding who can change plans, when charges apply, and why certain plans appear (or don’t) helps avoid surprises for both you and your clients.
 
+  
+
+    
+    
+    **SaaS V2 billing Interval Limitation:** SaaS V2 subscriptions can only be upgraded or downgraded within the same billing interval.
+
+  
+
+
+  
+
+
+**Supported SaaS V2 Plan Changes:**
+
+  
+
+
+Monthly → Monthly
+
+  
+
+
+Yearly → Yearly
+
+  
+
+    
+    
+    SaaS V2 does not currently support billing interval changes on existing subscriptions. Monthly → Yearly and Yearly → Monthly options are hidden in the upgrade flow to prevent incorrect billing. This limitation applies only to SaaS V2 subscriptions. SaaS V1 subscriptions are unaffected because Stripe manages interval changes natively.
+    
+
+  
+
+
 * * *
 
 ## **Key Benefits of Upgrade / Downgrade SaaS Plan**

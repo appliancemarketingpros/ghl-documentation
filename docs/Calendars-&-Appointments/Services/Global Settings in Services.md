@@ -16,11 +16,17 @@ Global Settings in Services centralizes the most important configuration choices
   * Key Benefits of Global Settings
   * In-App Settings
   * Booking Page Settings
+  * Customize Booking Page
+  * Additional Settings
+  * Forms
+  * Confirmation Page
   * Payment Settings
   * Service Settings
+  * Service Booking Title for Mobile Appointments
   * Additional Settings
   * Notifications
   * Third-Party Calendar Settings
+  * Related Services Booking Enhancements
   * Frequently Asked Questions
   * Related Articles
 
@@ -296,6 +302,35 @@ After a booking is made, choose to show a custom message on the default confirma
 
 * * *
 
+## **Service Booking Title for Mobile Appointments**
+
+  
+
+
+The Service booking title setting controls how new service appointment titles are pre-filled, helping teams keep appointment naming consistent across booking channels. Using one shared title template reduces manual editing and keeps web and mobile bookings aligned.
+
+  
+
+
+When a Service booking title is configured in Services Global Settings, new service bookings created in the mobile app use that title automatically in the **Appointment Title** field.
+
+  
+
+
+If the Service booking title is empty or not configured, the mobile app falls back to **< Contact Name>** so existing booking behavior continues without interruption.
+
+  
+
+
+This setting applies to **new service bookings** created in the mobile app.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074288395/original/gwGVvaR1czTqflbVp6XbOxdpAkCebUj2Qg.png?1782207074)
+
+* * *
+
 ## **Additional Settings**
 
   
@@ -420,6 +455,32 @@ Third-party calendar settings let you control how your service appointments inte
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155052229001/original/IUbPurgE-Dhb0aPdVq3FVvr1Inq0S19Mag.png?1756011992)
+
+* * *
+
+## **Related Services Booking Enhancements**
+
+  
+
+
+Services setup and booking behavior continue to improve across staff availability, linked calendar visibility, and booking-page usability.
+
+  
+
+
+You may also want to review related guidance for:
+
+  
+
+
+  * staff availability in Services  
+  
+
+  * linked third-party calendar setup  
+  
+
+  * calendar widget customization for the booking experience
+
 
 * * *
 

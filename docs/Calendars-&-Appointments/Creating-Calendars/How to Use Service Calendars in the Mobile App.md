@@ -47,3 +47,35 @@ This update finally allows users to view and create service appointments from th
 ![IMG_7876](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030629585/original/xmHkZ_rlCQVRHY7YWCGkOJ01I2JPxT9aMg.jpeg?1723059159)
 
 ![IMG_7877](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030629584/original/9NmCF4fLqVkaCCg496A9F6a80ySaYQJ5Bg.jpeg?1723059159)
+
+  
+
+
+## **Location Actions in Mobile Service Appointments**
+
+  
+
+
+Location actions in the mobile appointment view make it easier to work from the field without switching between apps or searching for meeting information manually. This helps users navigate to physical appointments faster and join virtual appointments with fewer steps.
+
+  
+
+
+For Service v2 appointments, the mobile app can now display fuller location details and provide quick actions such as:
+
+  
+
+
+  * copying the displayed location value  
+  
+
+  * opening **View Location** for physical addresses  
+  
+
+  * opening **Join Meeting** for virtual links
+
+
+  
+
+
+For full details about how this works in Service v2 appointments, refer to <span style="color:blue">Manage Service v2 Appointments in the Mobile App</span>.

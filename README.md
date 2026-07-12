@@ -56,9 +56,9 @@ This repository contains the complete documentation from the [GoHighLevel Suppor
 
 ---
 
-*Last updated: 2026-07-05 08:59 UTC from the [GoHighLevel Support Portal](https://help.gohighlevel.com/support/solutions).*
+*Last updated: 2026-07-12 08:59 UTC from the [GoHighLevel Support Portal](https://help.gohighlevel.com/support/solutions).*
 
 **Statistics:**
 - Categories: 48
 - Folders: 256
-- Articles: 1871
+- Articles: 1870

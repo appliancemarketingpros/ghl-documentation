@@ -6,21 +6,35 @@
 
 ---
 
-Quickly transform existing Word docs, PDFs, and rich‑text notes into AI‑ready knowledge for your HighLevel agents. Upload documents or write directly in a rich‑text editor to centralize information faster and reduce manual copy‑paste. Automatic parsing structures content into searchable chunks so agents retrieve accurate answers. Ideal for teams consolidating SOPs, product docs, and support playbooks.
+Document and Rich-Text Support helps you turn existing files and written notes into searchable Knowledge Base content for HighLevel AI tools. Upload DOC, DOCX, or PDF files, or write content directly in the rich-text editor. HighLevel extracts text, detects headings, structures content into searchable sections, and indexes it so connected AI experiences can retrieve relevant answers.
 
 * * *
 
-# **What is Document Support for Knowledge Base?**
+**TABLE OF CONTENTS**
+
+  * What is Document Support for Knowledge Base?
+  * Key Benefits of Document Support for Knowledge Base
+  * Supported File Types & Ingestion Behavior
+  * Automatic Parsing & Structuring
+  * How To Upload & Use Documents in Knowledge Base
+  * Troubleshooting Document and Rich-Text Sources
+  * Frequently Asked Questions
+  * Related Articles
+
+
+* * *
+
+## **What is Document Support for Knowledge Base?**
 
   
 
 
-Document Support adds two ways to populate a HighLevel Knowledge Base: upload document files (DOC, DOCX, PDF) and create/edit content directly in a built‑in rich‑text editor. During ingestion, HighLevel extracts headings and text so AI agents can find and cite exactly the right passages.
+Document and Rich-Text Support adds two ways to populate a HighLevel Knowledge Base: file uploads and rich-text entries. File uploads let you reuse existing Word documents and PDFs, while rich-text entries let you write or edit Knowledge Base content directly inside HighLevel.
 
   
 
 
-HighLevel’s Knowledge Base can now ingest content from common document formats and rich text. The system automatically parses documents into structured sections, which improves answer quality and reduces manual formatting work.
+During ingestion, HighLevel extracts text from supported documents, detects headings, and organizes content into searchable sections. This helps connected AI tools find relevant passages when answering customer or internal questions.
 
 * * *
 
@@ -105,7 +119,7 @@ Parsing converts long documents into manageable chunks that align with sections 
 
 * * *
 
-# **How To Upload & Use Documents in Knowledge Base**
+## **How To Upload & Use Documents in Knowledge Base**
 
   
 
@@ -160,49 +174,281 @@ Proper setup ensures documents entries ingest cleanly and become searchable quic
 
 * * *
 
+## **Troubleshooting Document and Rich-Text Sources**
+
+  
+
+
+Most document and rich-text issues are caused by unsupported file types, unclear formatting, incomplete processing, image-only content, or duplicate sources. Reviewing the source status and testing retrieval usually helps identify the cause.
+
+  
+
+
+**File upload fails**
+
+  
+
+
+  * Confirm the file type is DOC, DOCX, or PDF.  
+  
+
+  * Try uploading the file again.  
+  
+
+  * Check whether the file is corrupted or password-protected.  
+  
+
+  * Export the document to a supported format and re-upload.
+
+
+  
+
+
+  
+
+
+**Uploaded file is stuck processing**
+
+  
+
+
+  * Wait for processing and indexing to complete.  
+  
+
+  * Refresh the Knowledge Base source tab.  
+  
+
+  * Try a smaller or cleaner version of the file if processing does not complete.  
+  
+
+  * Re-upload the document if needed.
+
+
+  
+
+
+  
+
+
+**Document content is missing**
+
+  
+
+
+  * Confirm the document contains selectable text.  
+  
+
+  * Check whether the PDF is scanned or image-only.  
+  
+
+  * Review the document headings and structure.  
+  
+
+  * Re-upload a cleaner version with searchable text.
+
+
+  
+
+
+  
+
+
+**Images inside the document are not available**
+
+  
+
+
+  * This is expected. Embedded images are skipped during ingestion.  
+  
+
+  * Add important image-based information as written text in the document or as a rich-text entry.
+
+
+  
+
+
+  
+
+
+**Rich-text edits do not update uploaded files**
+
+  
+
+
+  * This is expected. File uploads and rich-text entries are stored separately.  
+  
+
+  * Update the rich-text entry directly, or upload a revised document if the source file changed.
+
+
+  
+
+
+  
+
+
+**AI retrieves the wrong source**
+
+  
+
+
+  * Check for duplicate or conflicting content.  
+  
+
+  * Remove outdated sources.  
+  
+
+  * Add clearer headings and direct answers.  
+  
+
+  * Use the Retrieval Tester to confirm which source is being returned.
+
+
+  
+
+
+  
+
+
+**AI cannot find expected document content**
+
+  
+
+
+  * Confirm the source status is **Processed**.  
+  
+
+  * Check whether the document includes the terms users are asking about.  
+  
+
+  * Add customer-friendly wording or synonyms.  
+  
+
+  * Break large, unclear documents into smaller focused files.  
+  
+
+  * Retest after updating the content.
+
+
+  
+
+
+  
+
+
+**Uploaded document contains outdated information**
+
+  
+
+
+  * Delete the outdated file source.  
+  
+
+  * Upload the revised version.  
+  
+
+  * Retest important questions to confirm the new source is retrieved.
+
+
+* * *
+
 ## **Frequently Asked Questions**
 
   
 
 
-**Q: Do images inside my Word or PDF import?**
-
-Only text is ingested. Images are skipped to keep knowledge lightweight and searchable.
-
-  
-
-
-**Q: How fast do new uploads become available to agents?**
-
-Content is available immediately or within about a minute, depending on file size and indexing.
+**Q: Which document file types are supported?**  
+DOC, DOCX, and PDF files are supported.
 
   
 
 
-**Q: Can I upload Google Docs directly?**
+  
 
-Export your Google Doc as .DOCX or .PDF, then upload the exported file.
+
+**Q: Do images inside Word documents or PDFs import?**  
+No. Only text is ingested. Embedded images are skipped so the Knowledge Base remains focused on searchable content.
 
   
 
 
-**Q: Will rich‑text edits overwrite my uploaded files?**
+  
 
-No. File‑based sources and rich‑text entries are stored separately, preserving both versions.
+
+**Q: What should I do if my PDF is scanned or image-only?**  
+Convert the PDF into selectable text before uploading, or add the important information as a rich-text entry.
 
   
 
 
-**Q: Does Document Support replace URL or FAQ sources?**
+  
 
-No. Documents and rich text complement URLs and FAQs, giving your bot deeper, more reliable training data.
+
+**Q: How fast do new uploads become available to AI tools?**  
+Content is usually available immediately or within about a minute, depending on file size and indexing.
 
   
 
 
-**Q: Will document uploads overwrite existing Knowledge Base entries?**
+  
 
-No. Each upload is added as a new source. You can keep file‑based sources and rich‑text entries alongside URLs and FAQs.
+
+**Q: Can I upload Google Docs directly?**  
+Export the Google Doc as a DOCX or PDF file, then upload the exported file.
+
+  
+
+
+  
+
+
+**Q: Can I edit an uploaded document inside HighLevel?**  
+Uploaded file sources are managed as files. To change document content, update the original file and upload the revised version. Use rich text when you want to write and edit content directly in HighLevel.
+
+  
+
+
+  
+
+
+**Q: Will rich-text edits overwrite uploaded files?**  
+No. File-based sources and rich-text entries are stored separately.
+
+  
+
+
+  
+
+
+**Q: Will document uploads overwrite existing Knowledge Base entries?**  
+No. Each upload is added as a new source. You can keep file-based sources, rich-text entries, URLs, FAQs, tables, and other supported sources together.
+
+  
+
+
+  
+
+
+**Q: Does Document Support replace URL, FAQ, or table sources?**  
+No. Documents and rich text complement other Knowledge Base sources and can be used alongside them.
+
+  
+
+
+  
+
+
+**Q: How do I test whether uploaded content is retrievable?**  
+Use the Knowledge Base Retrieval Tester to ask customer-style questions and review which sources are returned.
+
+  
+
+
+  
+
+
+**Q: Why is the wrong source being retrieved?**  
+Duplicate, outdated, or overlapping content may be competing with the correct source. Review retrieved sources, update headings, remove old content, and retest.
 
 * * *
 

@@ -16,6 +16,7 @@ Set up staff inside Services to control who can be booked, when they’re availa
   * Key Benefits of Configuring Staff
   * Accessing the Staff Panel
   * Adding a Staff Member
+  * Default Availability When Adding Staff to a Service
   * Editing a Staff Member / Advanced Settings
   * Understanding Availability
   * Best Practices
@@ -184,6 +185,41 @@ If Hannah’s default availability is set to **Mon–Fri, 9:00 AM – 5:00 PM** 
 
 * * *
 
+## **Default Availability When Adding Staff to a Service**
+
+  
+
+
+Default availability helps new staff become bookable faster by giving each newly assigned service user a starting schedule right away. This reduces setup friction and makes it easier to test the booking experience without manually configuring hours first.
+
+  
+
+
+When a new staff member is added to a service, HighLevel now automatically applies a default availability of 9:00 AM to 5:00 PM.
+
+  
+
+
+This helps:  
+  
+
+
+  * make the service visible on the booking page sooner  
+  
+
+  * reduce manual setup during initial service configuration  
+  
+
+  * allow teams to experience the booking flow immediately
+
+
+  
+
+
+After the staff member is added, you can continue adjusting their availability as needed based on your business hours and scheduling preferences.
+
+* * *
+
 ## **Editing a Staff Member / Advanced Settings**
 
   
@@ -295,7 +331,7 @@ Override weekly hours for special days:
   * These can be configured for specific services and locations as well  
   
 
-  * Non-consecutive dates are split into separate entires   
+  * Non-consecutive dates are split into separate entires  
   
 
 

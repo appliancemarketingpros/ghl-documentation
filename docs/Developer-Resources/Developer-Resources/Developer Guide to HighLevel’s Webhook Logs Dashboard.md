@@ -92,6 +92,40 @@ The global search bar supports substring matching across payloads, allowing you 
 
 * * *
 
+## **Longer Retry Windows for Some Failed Webhooks**
+
+  
+
+
+Webhook logs help developers understand how delivery attempts progress over time. Because retry behavior now differs by failure type, some failed webhook events may remain visible across a longer retry timeline than before.
+
+  
+
+
+When reviewing failed webhook attempts in the logs:
+
+  
+
+
+  * **HTTP 429** failures continue to follow the existing retry behavior  
+  
+
+  * other failed webhook attempts may now retry over a longer period because they use**exponential backoff**  
+  
+
+  * non-429 failures can continue retrying for **up to 3 days**
+
+
+  
+
+
+This makes the logs more useful for investigating temporary endpoint instability and verifying whether a failed webhook was later recovered.
+
+  
+
+
+* * *
+
 ## **Detail Panel**
 
   

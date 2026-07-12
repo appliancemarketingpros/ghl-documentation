@@ -21,6 +21,11 @@
 
 The **Pause Account** option gives you the flexibility to step away while keeping your setup and data safe. You can resume whenever you're ready and pick up exactly where you left off.
 
+  
+
+
+If you plan to start a new account in the future, we encourage you to consider our Pause Account Plan at $27/month if you decide to cancel temporarily again. This plan is designed for users who need to keep their data active and secure during periods when they are not using the full-service subscription.
+
 * * *
 
 ## **What happens when you pause your account?**

@@ -476,6 +476,103 @@ The fallback value can be set by clicking on the custom value tag inside the ema
 
 * * *
 
+## **Voice AI Merge Fields**
+
+  
+
+
+Voice AI merge fields, also called Custom Values in Voice AI prompts, let your AI voice agent personalize phone conversations using information already stored in HighLevel. These values can pull in details such as contact, company, appointment, calendar, account, or location information when they are available in the call context.
+
+  
+
+
+Voice AI supports Custom Values in agent prompts and supported message fields. Use the Custom Value picker inside the Voice AI builder when adding dynamic information to a prompt.  
+  
+
+
+Field Type| Merge Field Example| Example Use  
+---|---|---  
+Contact First Name| `{{contact.first_name}}`| “Hi {{contact.first_name}}, thanks for calling.”  
+Contact Full Name| `{{contact.name}}`| “I see your name is {{contact.name}}.”  
+Contact Email| `{{contact.email}}`| “We have your email as {{contact.email}}.”  
+Contact Phone| `{{contact.phone}}`| “Is {{contact.phone}} still the best number to reach you?”  
+Company Name| `{{company.name}}`| “I see you are calling from {{company.name}}.”  
+Location Name| `{{location.name}}`| “Thanks for calling {{location.name}}.”  
+Location Phone| `{{location.phone}}`| “You can also reach us at {{location.phone}}.”  
+Location Email| `{{location.email}}`| “Our team can follow up from {{location.email}}.”  
+Appointment Start Time| `{{appointment.start_time}}`| “Your appointment is scheduled for {{appointment.start_time}}.”  
+Calendar Name| `{{calendar.name}}`| “This appointment is booked on the {{calendar.name}} calendar.”  
+  
+  
+  
+
+    
+    
+    **Important:** Available merge fields may vary based on the Voice AI prompt field, call direction, contact record, appointment context, and the data available in the account. If a value is missing from the record, the merge field may appear blank during the conversation.
+    
+
+  
+
+
+  
+
+
+For setup instructions, see [How to Use Custom Values in Voice AI Agent Prompts](<https://help.gohighlevel.com/en/support/solutions/articles/155000004690>).
+
+* * *
+
+## **Conversation AI Merge Fields**
+
+  
+
+
+Conversation AI merge fields help AI agents personalize automated conversations by using available contact, company, location, and other supported HighLevel data. These values are useful when configuring bot prompts, Bot Goals, AI-generated responses, and supported Conversation AI actions.
+
+  
+
+
+Use the Custom Value picker when adding merge fields inside Conversation AI. This helps ensure the selected value is supported in that part of the bot setup.
+
+  
+
+
+  
+
+
+Field Type| Merge Field Example| Example Use  
+---|---|---  
+Contact First Name| `{{contact.first_name}}`| “Hi {{contact.first_name}}, how can I help today?”  
+Contact Full Name| `{{contact.name}}`| “Thanks, {{contact.name}}. I can help with that.”  
+Contact Email| `{{contact.email}}`| “I have your email listed as {{contact.email}}.”  
+Contact Phone| `{{contact.phone}}`| “Is {{contact.phone}} the best number for follow-up?”  
+Company Name| `{{company.name}}`| “I see this is related to {{company.name}}.”  
+Company Email| `{{company.email}}`| “We have the company email listed as {{company.email}}.”  
+Company Phone| `{{company.phone}}`| “The company phone number on file is {{company.phone}}.”  
+Location Name| `{{location.name}}`| “You are chatting with {{location.name}}.”  
+Location Email| `{{location.email}}`| “Our team can follow up from {{location.email}}.”  
+Location Phone| `{{location.phone}}`| “You can also contact us at {{location.phone}}.”  
+  
+  
+
+
+Conversation AI Bot Goals include prompt settings, actions, and testing tools that help shape how the AI agent communicates and responds. After adding merge fields, test the bot response to confirm the correct values populate before enabling the bot for live conversations.
+
+  
+
+    
+    
+    **Important:** Merge field availability can depend on the Conversation AI area being edited, the selected channel, the bot configuration, and whether the related contact, company, or location data exists. If a field does not have saved data, the value may populate as blank.
+
+  
+
+
+  
+
+
+For setup instructions, see [Bot Goals Overview - Conversation AI](<https://help.gohighlevel.com/en/support/solutions/articles/155000004417>) and [Conversation AI Bot Explained](<https://help.gohighlevel.com/en/support/solutions/articles/155000001335>).
+
+* * *
+
 ## **Frequently Asked Questions**
 
   

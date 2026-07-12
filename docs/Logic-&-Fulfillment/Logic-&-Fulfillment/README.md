@@ -11,7 +11,6 @@
 - [Sub-Account Transfer FAQs](Sub-Account Transfer FAQs.md)
 - [Glossary](Glossary.md)
 - [How to Use Webhooks in HighLevel (Zapier)](How to Use Webhooks in HighLevel (Zapier).md)
-- [Sub-Account Transfer Guide](Sub-Account Transfer Guide.md)
 - [Sub Account Transfers : Eject Sub-Account to a New Agency](Sub Account Transfers Eject Sub-Account to a New Agency.md)
 - [What happen​s to your data when you cancel your HighLevel Subscription?](What happen​s to your data when you cancel your HighLevel Subscription.md)
 - [Sub-Accounts Transfers: Bulk Transfer Sub-accounts to an Existing Agency](Sub-Accounts Transfers Bulk Transfer Sub-accounts to an Existing Agency.md)

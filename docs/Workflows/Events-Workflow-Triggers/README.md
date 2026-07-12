@@ -9,3 +9,4 @@
 - [Workflow Trigger - Customer Replied](Workflow Trigger - Customer Replied.md)
 - [Workflow Trigger - Email Events](Workflow Trigger - Email Events.md)
 - [Workflow Trigger - Inbound Email](Workflow Trigger - Inbound Email.md)
+- [Workflow Trigger - User Replied](Workflow Trigger - User Replied.md)

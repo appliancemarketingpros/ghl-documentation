@@ -6,7 +6,7 @@
 
 ---
 
-This article will show you how to use Voice AI Custom Actions to enable real-time webhook integrations during live calls. This powerful feature allows your AI agents to interact with external systems mid-conversation—pulling data, executing processes, and improving automation without waiting until after the call ends.
+This article explains how to use Voice AI Custom Actions to send real-time POST webhook requests during live calls. Custom Actions allow Voice AI agents to interact with external systems mid-conversation, such as looking up data, sending information, or triggering external processes before the call ends.
 
 * * *
 
@@ -33,7 +33,7 @@ This article will show you how to use Voice AI Custom Actions to enable real-tim
   
 
 
-Voice AI Custom Actions allow AI agents to trigger custom POST webhook calls to external APIs during a live conversation. These actions can include authentication, headers, and dynamic parameters collected in real-time from the call. This enables agents to retrieve or send information instantly based on what the caller says.
+Voice AI Custom Actions allow Voice AI agents to send custom POST webhook requests to external APIs during a live conversation. These actions can include webhook URLs, headers, authentication, and dynamic parameters collected from the caller in real time. This helps the agent retrieve or send information based on what the caller says during the call.
 
 * * *
 
@@ -42,34 +42,28 @@ Voice AI Custom Actions allow AI agents to trigger custom POST webhook calls to 
   
 
 
-Voice AI Custom Actions enable seamless integrations with external systems directly within a live call. This enhances the agent’s ability to personalize and resolve issues faster.
+Voice AI Custom Actions help Voice AI agents connect with external systems during a live call. This allows the agent to personalize responses, retrieve information, and complete tasks faster.
 
   
 
 
-  * Perform real-time API calls triggered by conversation cues.  
+  * Send real-time POST webhook requests based on caller intent or conversation cues.  
   
 
-
-  * Automate data lookups or submissions mid-call.
-
-    * **For example:** If a customer asks, “What’s the status of my recent order?”, the AI can instantly call your order management system and retrieve the real-time status—without putting the caller on hold.  
+  * Look up or submit information during the call.  
+(Example: If a caller asks, “What’s the status of my recent order?”, the AI can call your order management system and retrieve the order status without putting the caller on hold.)  
   
 
-
-  * Configure POST requests with authentication and headers.  
+  * Configure webhook URLs, headers, and authentication.  
   
 
-
-  * Dynamically pass call data, like phone numbers or order IDs.  
+  * Pass dynamic call data, such as phone numbers, email addresses, dates, or order IDs.  
   
 
-
-  * Test webhook responses before going live.  
+  * Test webhook requests and responses before saving the action  
   
 
-
-  * Reduce follow-up tasks by resolving needs during the call.
+  * Reduce manual follow-up by resolving more requests during the call.
 
 
 * * *
@@ -79,22 +73,23 @@ Voice AI Custom Actions enable seamless integrations with external systems direc
   
 
 
-Triggers define the conditions under which a Custom Action is executed during the call. You can create simple phrase-based triggers or configure more complex logic. Triggers can also be layered with **conditions** like “only run if parameter X is present.”
+Conversation triggers define when a Custom Action should run during a call. A trigger can be based on what the caller says, the information they provide, or the intent detected by the Voice AI agent.
 
   
 
 
 **Example triggers:**
 
-  * When a user says: “I want to check my appointment.”  
   
 
 
-  * When an email is mentioned.  
+  * When a caller says, “I want to check my appointment.”  
   
 
+  * When the caller provides an email address.  
+  
 
-  * When a string of digits (e.g., order number) is spoken.
+  * When the caller provides a string of digits, such as an order number, booking ID, or account number.
 
 
   
@@ -109,30 +104,32 @@ Triggers define the conditions under which a Custom Action is executed during th
   
 
 
-Webhook integration is the core of Voice AI Custom Actions. It allows your agents to interact with any external system that supports APIs—CRM, scheduling tools, databases, and more.
+Webhook integration is the core of Voice AI Custom Actions. It allows your Voice AI agent to interact with external systems that support API requests, such as CRMs, scheduling tools, databases, order management systems, and other business applications.
 
   
 
 
-**Each Custom Action is defined by a POST request, which may include:**
+Each Custom Action is defined by a POST request, which may include:
 
   
 
 
-  * A webhook endpoint URL.  
+  * A webhook endpoint URL  
+  
+
+  * Headers, such as API keys or tokens  
+  
+
+  * Authentication, such as Bearer token or Basic Auth  
+  
+
+  * A request body with dynamic parameters collected during the call
+
+
   
 
 
-  * Headers (e.g., API keys, tokens).  
-  
-
-
-  * A request body with dynamic parameters.  
-  
-
-
-  * Authentication (Bearer token, Basic Auth, etc.).
-
+Example: If you are integrating with a CRM, your webhook URL might target an endpoint such as `/api/v1/lookupContact` and include parameters like the caller’s email address or phone number.
 
   
 
@@ -151,7 +148,7 @@ Webhook integration is the core of Voice AI Custom Actions. It allows your agent
   
 
 
-Voice AI can extract and label relevant data in real time during conversations. These values are automatically assigned to parameters used in the webhook request. This is useful when, for example, the AI needs to extract both an order number and an email address before triggering a shipping status lookup. You can assign these extracted values to your webhook payload, ensuring the integration is context-aware and personalized.
+Voice AI can extract and label relevant information during a live conversation. These values can be assigned to parameters in the webhook request body. This is useful when the AI needs to collect details like an order number, email address, phone number, or appointment date before sending the webhook request.
 
   
 
@@ -161,22 +158,10 @@ Voice AI can extract and label relevant data in real time during conversations. 
   
 
 
-  * Text (String)  
-  
-
-
-  * Number (Numeric)  
-  
-
-
-  * Email  
-  
-
-
-  * Phone Number  
-  
-
-
+  * Text / String
+  * Number / Numeric
+  * Email
+  * Phone Number
   * Date
 
 
@@ -216,12 +201,12 @@ Navigate to **Voice AI > Agent Goals > Switch to Advanced Mode (_If not already 
   
 
 
-### _**Step 2:** Create Custom Action_
+### _**Step 2:** Add a Custom Action_
 
   
 
 
-Click **\+ New Action** to open the custom action configuration window.
+In the Setup your Actions section, click Custom Action to open the custom action configuration window.
 
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055755970/original/L86KAuL1cDyz8H2y8lY-p93YQNZgVNIgQw.jpeg?1760134618)  
@@ -230,40 +215,41 @@ Click **\+ New Action** to open the custom action configuration window.
   
 
 
-### _**Step 3:** Configure Custom Action_
+### _**Step 3:** Configure the Custom Action_
 
   
 
 
-Enter all necessary custom action details. Not all are required.
+Enter the required Custom Action details. Some fields may be optional depending on your webhook setup.
 
-  1. Name  
   
 
 
-  2. Set **conversation trigger conditions**
-
-     * ** _For example:_**_If a user asks, “check my account balance”, you can set a trigger with the phrase "check my balance" and define a parameter for their phone number to pass into your banking API._  
+  1. Enter a name for the Custom Action.  
   
 
-
-  3. Add your **Webhook URL** and select **POST** as the method.  
+  2. Set the conversation trigger conditions.  
+  
+Example: If a caller asks to “check my account balance,” you can set a trigger for that request and define a phone number parameter to pass into your external API.  
   
 
-
-  4. Add any custom **headers** as needed.  
+  3. Add your webhook URL.  
   
 
-
-  5. Enter any required **authentication** details (e.g., Bearer token).  
+  4. Confirm that the request method is POST.  
   
 
-
-  6. Define **parameters** dynamically pulled from the conversation.  
+  5. Add any required headers.  
   
 
+  6. Enter authentication details if required, such as a Bearer token or Basic Auth.  
+  
 
-  7. Use the **Test Webhook** feature to validate the setup.
+  7. Define the dynamic parameters that should be collected from the conversation.  
+  
+
+  8. Use the Test Webhook feature to validate the setup before saving.  
+  
 
 
   
@@ -278,22 +264,26 @@ Enter all necessary custom action details. Not all are required.
   
 
 
-Before saving a Custom Action, you can use the built-in **Test Webhook** tool. This allows you to simulate a call scenario, pass test data, and view the response from your external system in real time. You can use the test tool to mimic a customer asking to “reschedule an appointment” and check whether the webhook correctly pulls and sends the provided date and time to your calendar system.
+Before saving a Custom Action, use the built-in Test Webhook tool to validate the request and response. This allows you to pass test data, review the webhook request, and confirm that your external system returns the expected response.
 
   
 
 
 **You’ll be able to:**
 
-  * See the full request (headers + body).  
   
 
 
-  * View the raw response (200 OK, 404 Not Found, etc.). Example, If your webhook response includes an estimated delivery date, your AI agent can immediately inform the caller: “Your package is expected to arrive by Thursday.”  
+  * Review the full request, including headers and body.  
   
 
+  * View the raw response from the webhook, such as 200 OK, 400 Bad Request, or 404 Not Found.  
+  
 
-  * Identify and fix misconfigurations before saving.
+  * Confirm that the returned data can be used by the Voice AI agent during the call.  
+  
+
+  * Identify and fix configuration issues before saving.
 
 
   
@@ -317,7 +307,7 @@ No, only POST requests are currently supported for Custom Actions.
 
 **Q: Where do I access Voice AI Custom Actions?**
 
-You can access it under **Voice AI > Agent Goals > Switch to Advanced Mode (_If not already enabled_) > Custom Actions**.
+You can access Custom Actions by going to **AI Agents > Voice AI**, then creating or editing a Voice AI agent. In the agent setup area, go to Setup your Actions and select Custom Action.
 
   
 
@@ -331,7 +321,7 @@ Yes, you can use Bearer tokens, Basic Auth, or pass keys in headers.
 
 **Q: What if my webhook fails during the call?**
 
-The system logs the failure, and fallback behavior can be defined if no data is returned or the webhook times out.
+The system logs the failure. You can define fallback behavior for cases where no data is returned, the request fails, or the webhook times out.
 
   
 
@@ -345,7 +335,14 @@ Yes. Each Custom Action can be triggered independently based on its own conditio
 
 **Q: Do I need a developer to set up these actions?**
 
-Not necessarily. As long as you have access to the API documentation for the external system, you can set this up with minimal technical skills.
+Not always. Basic webhook setups may be configured by users who have the external system’s API documentation. More advanced use cases, authentication requirements, or custom payloads may require help from a developer.
+
+  
+
+
+**Q: What request method is supported?**
+
+Custom Actions currently support POST requests.
 
 * * *
 

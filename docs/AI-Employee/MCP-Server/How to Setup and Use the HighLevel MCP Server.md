@@ -1,6 +1,6 @@
-# HighLevel MCP Server: Connect AI Agents to HighLevel Tools
+# How to Setup and Use the HighLevel MCP Server
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000007981-highlevel-mcp-server-connect-ai-agents-to-highlevel-tools](https://help.gohighlevel.com/support/solutions/articles/155000007981-highlevel-mcp-server-connect-ai-agents-to-highlevel-tools)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000005741-how-to-setup-and-use-the-highlevel-mcp-server](https://help.gohighlevel.com/support/solutions/articles/155000005741-how-to-setup-and-use-the-highlevel-mcp-server)  
 **Category:** AI Employee  
 **Folder:** MCP Server
 
@@ -8,19 +8,23 @@
 
 The HighLevel MCP Server lets AI agents and MCP-compatible clients connect securely to HighLevel tools and services. With MCP, AI assistants can retrieve records, update data, send messages, search opportunities, access calendar information, and automate tasks through a standardized HTTP connection.
 
+  
+
+
 * * *
 
 **TABLE OF CONTENTS**
 
   * What is HighLevel MCP Server?
   * Key Benefits of HighLevel MCP Server
-  * Supported MCP Clients
+  * Example of Supported MCP Clients
   * Prerequisites
-  * How To Connect to the HighLevel MCP Server
+  * How To Setup the HighLevel MCP Server
   * Recommended Scopes
-  * Available MCP Tools
+  * Example of Some Available MCP Tools 
+  * Example Tool Call
   * Example MCP Workflows
-  * Using MCP in AI Clients
+  * How Users can Use the MCP Tool
   * Security and Authentication
   * Best Practices
   * Frequently Asked Questions
@@ -39,22 +43,16 @@ The HighLevel MCP Server uses the Model Context Protocol, or MCP, to let AI agen
 The MCP Server can be used with supported AI clients and developer tools to interact with HighLevel services such as Contacts, Conversations, Calendars, Opportunities, Payments, Locations, and Custom Fields.  
   
 
-
-**Production MCP Endpoint**
     
     
-    https://services.leadconnectorhq.com/mcp/
+    **HighLevel MCP Endpoint:**  
+      
+    <https://services.leadconnectorhq.com/mcp/>
 
 * * *
 
-  
+## **Key Benefits of HighLevel MCP Server**
 
-
-## **Key Benefits of HighLevel MCP Server**  
-  
-
-
-The MCP Server helps AI builders connect intelligent assistants to HighLevel data and actions without building a custom integration from scratch.  
   
 
 
@@ -78,10 +76,8 @@ The MCP Server helps AI builders connect intelligent assistants to HighLevel dat
 
 * * *
 
-  
+## **Example of Supported MCP Clients**
 
-
-## **Supported MCP Clients**  
   
 
 
@@ -108,11 +104,8 @@ Supported client examples include:
   * Custom MCP-compatible applications  
   
 
-  * Other HTTP-based MCP clients  
-  
+  * Other HTTP-based MCP clients
 
-
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074666168/original/ZPl2PdjICCrOIYRWbXUGdCSqYuEaVcUD9w.png?1782625638)**
 
 * * *
 
@@ -142,10 +135,8 @@ Before connecting to the HighLevel MCP Server, make sure you have:
 
 * * *
 
-  
+## **How To Setup the HighLevel MCP Server**
 
-
-## **How To Connect to the HighLevel MCP Server**  
   
 
 
@@ -153,7 +144,10 @@ Connecting an MCP client requires a Private Integration Token, the HighLevel MCP
   
 
 
-### **Step 1:**_Create a Private Integration Token_
+### **_Step 1:_**_Create a Private Integration Token_
+
+  
+
 
 Private Integration Tokens allow your MCP client to authenticate securely with HighLevel.  
   
@@ -174,28 +168,36 @@ Private Integration Tokens allow your MCP client to authenticate securely with H
   5. Click **Create New Integration**.  
   
 
-  6. Choose the required scopes.  
+  6. **Choose** the **required** **scopes**.  
   
 
   7. Click **Create Integration**.  
   
+![](https://jumpshare.com/share/7gA8UGKPR4X2jWsBJUWv+/GIF+Recording+2026-07-09+at+21.22.25.gif)  
+  
 
-  8. Copy and securely store the generated token.  
+  8. **Copy** the generated **token**.  
+  
+![](https://jumpshare.com/share/rcYMQpvMn05fORecK54M+/Screen+Shot+2026-07-09+at+21.23.11.png)  
   
 
 
-### **Step 2:**_Add the MCP Server to Your Client_  
+### **_Step 2:_**_Add the MCP Server to Your Client_
+
   
 
 
-Add the MCP endpoint and authentication headers to your MCP-compatible client.  
+Add the MCP endpoint and authentication headers to your MCP-compatible client.
+
   
 
     
     
-    {  "mcpServers": {    "prod-ghl-mcp": {      "url": "https://services.leadconnectorhq.com/mcp/",      "headers": {        "Authorization": "Bearer <your-token>",        "locationId": "<your-location-id>"      }    }  } }
+    {  "mcpServers": {    "prod-ghl-mcp": {      "url": "https://services.leadconnectorhq.com/mcp/",      "headers": {        "Authorization": "Bearer <your-token>",        "locationId": "<your-location-id>"      }    }  } }
 
   
+
+
 Replace:  
   
 
@@ -207,7 +209,8 @@ Replace:
   
 
 
-### **Step 3:**_Select the Required Tools_  
+### ** _Step 3:_**_Select the Required Tools_
+
   
 
 
@@ -219,7 +222,8 @@ After the client connects, available tools appear based on the scopes assigned t
 
 * * *
 
-## **Recommended Scopes**  
+## **Recommended Scopes**
+
   
 
 
@@ -255,21 +259,66 @@ Recommended scopes may include:
   * **Other:** View Custom Fields, View Forms, View Locations
 
 
-##   
-**Available MCP Tools**  
+* * *
+
+## **Example of Some Available MCP Tools**
+
   
 
 
-The HighLevel MCP Server includes tools across core HighLevel services. The tools available to your client depend on the permissions granted through the Private Integration Token.  
+The HighLevel MCP Server includes tools across core HighLevel services. The tools available to your client depend on the permissions granted through the Private Integration Token.
+
   
 
 
-### **Calendar Tools**  
+#| Tool| Endpoint| Description  
+---|---|---|---  
+1| Get Calendar Events| calendars_get-calendar-events| Get calendar events using userId, groupId, or calendarId.  
+2| Get Appointment Notes| calendars_get-appointment-notes| Retrieve notes for a specific appointment.  
+3| Get All Tasks| contacts_get-all-tasks| Retrieve all tasks for a contact.  
+4| Add Tags| contacts_add-tags| Add tags to a contact.  
+5| Remove Tags| contacts_remove-tags| Remove tags from a contact.  
+6| Get Contact| contacts_get-contact| Fetch contact details.  
+7| Update Contact| contacts_update-contact| Update a contact.  
+8| Upsert Contact| contacts_upsert-contact| Update or create a contact.  
+9| Create Contact| contacts_create-contact| Create a new contact.  
+10| Get Contacts| contacts_get-contacts| Fetch all contacts.  
+11| Search Conversation| conversations_search-conversation| Search/filter/sort conversations.  
+12| Get Messages| conversations_get-messages| Retrieve messages by conversation ID.  
+13| Send a New Message| conversations_send-a-new-message| Send a message to a conversation thread.  
+14| Get Location| locations_get-location| Get location details by ID.  
+15| Get Custom Fields| locations_get-custom-fields| Retrieve custom field definitions for a location.  
+16| Search Opportunity| opportunities_search-opportunity| Search for opportunities by criteria.  
+17| Get Pipelines| opportunities_get-pipelines| Fetch all opportunity pipelines.  
+18| Get Opportunity| opportunities_get-opportunity| Fetch opportunity details by ID.  
+19| Update Opportunity| opportunities_update-opportunity| Update opportunity details.  
+20| Get Order by ID| payments_get-order-by-id| Retrieve payment order details.  
+21| List Transactions| payments_list-transactions| Fetch paginated list of transactions.  
+22| Check Blog URL Slug| blogs_check-url-slug-exists| Check the blog slug which is needed before publishing any blog post.  
+23| Update Blog Post| blogs_update-blog-post| Update blog post for any given blog site  
+24| Create Blog Post| blogs_create-blog-post| create blog post for any given blog site  
+25| Get Blog Authors| blogs_get-all-blog-authors-by-location| get blog authors for a given location ID  
+26| Get Blog Categories| blogs_get-all-categories-by-location| get blog categories for a given location ID  
+27| Get Blog Posts by Blog ID| blogs_get-blog-post| get blog posts for any given blog site using blog ID  
+28| Get Blogs by Location| blogs_get-blogs| get blogs using Location ID  
+29| Create Email Template| emails_create-template| Create a new template  
+30| Get Email Templates| emails_fetch-template| Fetch email templates by location id  
+31| Get Social Media Accounts| socialmediaposting_get-account| Get list of accounts and groups  
+32| Get Social Media Statistics| socialmediaposting_get-social-media-statistics| Retrieve analytics data for multiple social media accounts  
+33| Create Social Media Post| socialmediaposting_create-post| Create posts for all supported platforms  
+34| Get Social Media Post| socialmediaposting_get-post| Get social media post  
+35| Get Social Media Posts| socialmediaposting_get-posts| Get social media posts  
+36| Update Social Media Post| socialmediaposting_edit-post| Edit social media post  
+  
+  
+
+
+### **Calendar Tools**
+
   
 
 
 Calendar tools help AI agents retrieve scheduling information and appointment details.  
-  
   
 
 
@@ -279,13 +328,15 @@ Calendar tools help AI agents retrieve scheduling information and appointment de
   * `calendars_get-appointment-notes`
 
 
-###   
-**Contact Tools**  
+`  
+`
+
+### **Contact Tools**
+
   
 
 
 Contact tools allow AI agents to find, create, update, and manage contact records.  
-  
   
 
 
@@ -295,8 +346,8 @@ Contact tools allow AI agents to find, create, update, and manage contact record
   * `contacts_add-tags`  
   
 
-  * `contacts_remove-tags`
-  *   
+  * `contacts_remove-tags`  
+  
 
   * `contacts_get-contact`  
   
@@ -316,8 +367,12 @@ Contact tools allow AI agents to find, create, update, and manage contact record
 
 **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074666188/original/ho3sEKy2qIzUvXOux5z_vsgsMOD01qdZAA.png?1782625774)**
 
-###   
-**Conversation Tools**  
+  
+
+
+  
+**Conversation Tools**
+
   
 
 
@@ -337,8 +392,14 @@ Conversation tools allow AI agents to search conversations, review message histo
 
 **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074666229/original/R4S_QOX4AKG3CbpIyuQkU4MXJMjnmCjmmA.png?1782626002)**
 
-###   
-**Location Tools**  
+  
+
+
+  
+
+
+### **Location Tools**
+
   
 
 
@@ -375,8 +436,14 @@ Opportunity tools allow AI agents to search, retrieve, and update pipeline oppor
 
 **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074666227/original/3FwqFMZ9rdYkj6-JAJ2DcRF8cXQNSquFmw.png?1782625987)**
 
-###   
-**Payment Tools**  
+  
+
+
+  
+
+
+### **Payment Tools**
+
   
 
 
@@ -392,7 +459,66 @@ Payment tools allow AI agents to retrieve order and transaction data.
 
 * * *
 
-## **Example MCP Workflows**  
+## **Example Tool Call**
+
+  
+
+
+Python example:
+
+  
+
+
+import requests
+
+  
+
+
+headers = {
+
+"Authorization": "Bearer YOUR_PIT_TOKEN",
+
+"locationId": "YOUR_LOCATION_ID"
+
+}
+
+  
+
+
+data = {
+
+"tool": "contacts_get-contact",
+
+"input": {
+
+"contactId": "abc123"
+
+}
+
+}
+
+  
+
+
+response = requests.post(
+
+"https://services.leadconnectorhq.com/mcp/",
+
+headers=headers,
+
+json=data
+
+)
+
+  
+
+
+print(response.json())
+
+* * *
+
+## **Example MCP Workflows**
+
   
 
 
@@ -433,19 +559,17 @@ Common workflows include:
 
 * * *
 
+## **How Users can****Use the MCP Tool**
+
+  
+Users can use the HighLevel MCP Server to complete actions inside HighLevel. After the MCP server is connected, the user can call available tools based on the user’s prompt and the token’s scopes.  
   
 
 
-## **Using MCP in AI Clients**
+**For example, a user could ask:**
 
-  
-AI clients can use the HighLevel MCP Server to discover tools and complete actions inside HighLevel. After the MCP server is connected, the client can call available tools based on the user’s prompt and the token’s scopes.  
-  
-
-
-For example, a user could ask:  
-  
-
+**  
+**
 
 Check if I have a contact named Bruce Wayne.  
   
@@ -455,9 +579,10 @@ The AI client can use contact tools to search HighLevel and return matching reco
   
 
 
-Another example:  
-  
+**Another example:**
 
+**  
+**
 
 Search for available opportunities in my account.  
   
@@ -471,7 +596,8 @@ The AI client can call opportunity tools and summarize the results.
 
 * * *
 
-## **Security and Authentication**  
+## **Security and Authentication**
+
   
 
 
@@ -497,7 +623,8 @@ Keep tokens private and never expose them in public repositories, screenshots, s
 
 * * *
 
-## **Best Practices**  
+## **Best Practices**
+
   
 
 
@@ -526,18 +653,42 @@ Following MCP best practices helps keep AI workflows secure, reliable, and easie
   * **Use clear prompts:** Give the AI agent specific instructions about when it should read data, update records, or ask for confirmation.
 
 
-##   
-**Frequently Asked Questions**  
+* * *
+
+## **Frequently Asked Questions**
+
   
 
 
 **Q: What does MCP stand for?**  
-MCP stands for Model Context Protocol. It is a standardized protocol that allows AI agents and copilots to connect with external tools and services.  
+MCP stands for Model Context Protocol. It is a standardized protocol that allows AI agents and copilots to connect with external tools and services.
+
   
 
 
 **Q: What does the HighLevel MCP Server do?**  
 It allows MCP-compatible AI clients to securely access supported HighLevel tools, retrieve data, and perform approved actions.  
+  
+
+
+**Q: Can I use this with OpenAI Playground or Claude?**
+
+Yes! Any client supporting HTTP requests can integrate with MCP.
+
+  
+
+
+**Q: Do I need to install an SDK?**
+
+No SDK is required — MCP uses a standard HTTP protocol.
+
+  
+
+
+**Q: Is my data secure?**
+
+Yes. Data access is fully scoped via Private Integration Tokens and secured through HTTPS.
+
   
 
 
@@ -581,20 +732,15 @@ Yes. Custom applications can connect if they support MCP over HTTP and can send 
 
 * * *
 
+## **Related Articles**
+
   
 
 
-## **Related Articles**  
+  * [How to Use the MCP Server within Ask AI](<https://help.gohighlevel.com/en/support/solutions/articles/155000005855>)  
   
 
-
-  * [HighLevel API Documentation](<https://help.gohighlevel.com/en/support/solutions/articles/48001060529>)  
+  * [Automate Workflows with GHL MCP and N8N](<https://help.gohighlevel.com/en/support/solutions/articles/155000007777>)  
   
 
-  * [Documents & Contracts: Public APIs](<https://help.gohighlevel.com/en/support/solutions/articles/155000006323>)  
-  
-
-  * [Private Integrations](<https://help.gohighlevel.com/en/support/solutions/articles/155000003054>)
-
-
-##
+  * [Connect External MCP Servers to AI Agents in Workflows](<https://help.gohighlevel.com/en/support/solutions/articles/155000008197>)

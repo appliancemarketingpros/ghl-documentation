@@ -16,7 +16,10 @@ HighLevel lets you synchronize external calendars (Google, Office 365, Outlook.c
   * When to Use Connected, Linked & Conflict Calendars
   * Prerequisites
   * Setting up the Linked Calendar
+  * Service Bookings Sync to Linked Third-Party Calendars
   * Sync Preferences (Advanced Settings)
+    * 1\. Default Sync (One Way Sync)
+    * 2\. Two-Way Sync
   * Conflict Calendars
   * How these Calendars Work
   * Best Practices & Considerations
@@ -177,6 +180,53 @@ In your HighLevel sub-account sidebar, go to **Settings → Calendars,** then cl
     2. The linked calendar is by default added to the conflict calendar. This means any event created on the third-party linked calendar will be fetched in the system, and any event created in the system will be pushed to the third-party linked calendar. 
       
     3. You can set your Sync Preferences from the Advanced Settings.
+
+* * *
+
+## **Service Bookings Sync to Linked Third-Party Calendars**
+
+  
+
+
+Linked calendars help staff keep their assigned service bookings visible alongside the rest of their schedule. This improves day-to-day calendar visibility and makes it easier to manage appointments across platforms like Google, Outlook, and iCloud.
+
+  
+
+
+Service bookings can now sync to the linked third-party calendar selected in Calendar Settings > Connections.
+
+  
+
+
+Supported linked calendars include:
+
+  
+
+
+  * Google
+  * Outlook
+  * iCloud
+
+
+  
+
+
+**Important:**
+
+  
+
+
+bookings assigned to you sync to your selected linked calendar
+
+if a single booking includes multiple services assigned to different staff members, each staff member sees only their own assigned booking on their own linked calendar
+
+  
+
+
+This keeps service scheduling more accurate across teams and avoids unnecessary visibility into bookings assigned to other users.
+
+  
+
 
 * * *
 

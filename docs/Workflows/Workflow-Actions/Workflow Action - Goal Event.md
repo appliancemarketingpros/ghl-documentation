@@ -6,7 +6,7 @@
 
 ---
 
-The **Goal Event Workflow Action** allows you to track specific milestones or behavioral actions that your contacts take — such as clicking a link, submitting a form, confirming an appointment, or making a payment. When a contact meets your defined goal, the system can automatically adjust their path in the workflow, making your automations more intelligent and responsive.
+The **Goal Event Workflow Action** allows you to track specific milestones or behavioral actions that your contacts take, such as clicking a link, submitting a form, confirming an appointment, making a payment, or a member of your team replying to the contact. When a contact meets your defined goal, the system can automatically adjust their path in the workflow, making your automations more intelligent and responsive.
 
   
 
@@ -333,6 +333,37 @@ Monitors when a contact’s appointment changes to a specific status such as _Ne
   * Trigger reminders or rescheduling flows for “No-show” appointments.
 
 
+  
+
+
+### **User Replied**
+
+  
+
+
+Completes the goal when a member of your team replies to the contact. The goal is met when the message is delivered, not the moment it is sent.
+
+  
+
+
+**Highlights:**
+
+  * Optionally narrow the goal to a specific user, such as the contact's assigned user, and to one or more channels.
+  * Most often used to stop an automated sequence as soon as a person replies.  
+  
+
+
+**Example Use Cases:**
+
+  * Stop a nurture or drip sequence the moment a rep personally replies, so the contact does not receive automated and manual messages at the same time.
+  * Move a contact to a "Handled by a person" path once a team member responds.
+
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155075541758/original/9mEoEa4vcrU2pbTFro9KiUSG4Q1PA9xj2g.png?1783523925)
+
 * * *
 
 ## **How to Set Up the Goal Event Action**
@@ -477,3 +508,10 @@ Only one Goal Event action can be added per workflow. You may configure multiple
 **Q:****Can I select multiple forms, products, or outbound communications in the goal configuration?**
 
 Yes, you can select multiple forms, products, or outbound communications in the goal configuration. They are evaluated using **OR** logic, meaning the goal will be achieved if **any one** of the selected items matches.
+
+  
+
+
+**Q: Can I stop a workflow when a member of my team replies?**
+
+Yes. Add a Goal Event and choose the **User Replied** goal type. When a user replies to the contact, the contact jumps to the goal, which you can use to end the workflow or skip the remaining steps.

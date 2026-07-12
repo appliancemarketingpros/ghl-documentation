@@ -17,11 +17,54 @@ From a modern UI and dark mode to intelligent tools like Universal Search and As
 
 * * *
 
+## **Faster App Launch Performance**
+
+  
+
+
+Faster app launch performance helps teams get into the mobile app more quickly so they can respond to leads, check opportunities, and continue work with less waiting. This improves the day-to-day mobile experience without changing how the app is used.
+
+  
+
+
+The mobile app now opens faster, helping users reach the home screen sooner after tapping the app icon. This improvement happens automatically after updating to the latest supported version.
+
+  
+
+
+**Important:**
+
+  
+
+
+  * No setup is required  
+  
+
+  * The app continues preparing in the background after launch  
+  
+
+  * Performance improvements may vary based on device model, operating system version, and network conditions  
+  
+
+  * This improvement applies to the HighLevel app, LeadConnector app, and self-serve white-label mobile apps
+
+
+  
+
+
+If your app is updated to the supported version, the faster launch experience is available automatically.
+
+* * *
+
 ### **Please Note**
 
-  * This new experience is available as a **Labs feature until 31st December 2025** and must be manually enabled.
+  * This new experience is available as a **Labs feature until 31st December 2025** and must be manually enabled.  
+  
 
-  * The redesign is being rolled out in phases - some modules will transition to the new design in upcoming releases.
+
+  * The redesign is being rolled out in phases - some modules will transition to the new design in upcoming releases.  
+  
+
 
   * Access to widgets and modules depends on **user roles and SaaS Configurator permissions**.
 
@@ -30,7 +73,9 @@ From a modern UI and dark mode to intelligent tools like Universal Search and As
 
 ### **Covered in This Article**
 
-  1. What’s New in the Revamped Mobile App
+  1. What’s New in the Revamped Mobile App  
+  
+
 
   2. How to Enable the New Mobile Experience
 
