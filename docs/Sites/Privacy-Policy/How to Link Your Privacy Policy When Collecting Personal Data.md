@@ -174,7 +174,35 @@ Each data-collection area in HighLevel offers a place to link your privacy polic
   
 
 
-  * **Link:** Link URL in Text in the widget description
+  * **Link:** Link URL in Text in the widget description  
+  
+
+
+###   
+
+
+### **Ecommerce Store Checkout**
+
+  
+
+
+You can add policy links to the mandatory consent checkbox on your Store Checkout page.  
+  
+
+
+  1. Go to **Sites → Stores**. Open the store and edit the **Checkout** page.  
+  
+
+
+  2. Select the **Checkout** element.  
+  
+
+
+  3. Scroll to **Terms and Conditions** in the right panel. Turn on **Enable Terms and Conditions**.  
+  
+
+
+  4. Customize the consent text and add your policy links.
 
 
 * * *

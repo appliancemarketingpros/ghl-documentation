@@ -56,7 +56,7 @@ This repository contains the complete documentation from the [GoHighLevel Suppor
 
 ---
 
-*Last updated: 2026-07-12 08:59 UTC from the [GoHighLevel Support Portal](https://help.gohighlevel.com/support/solutions).*
+*Last updated: 2026-07-19 08:58 UTC from the [GoHighLevel Support Portal](https://help.gohighlevel.com/support/solutions).*
 
 **Statistics:**
 - Categories: 48

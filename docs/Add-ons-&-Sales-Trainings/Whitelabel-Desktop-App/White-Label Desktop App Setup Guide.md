@@ -62,10 +62,8 @@ A branded desktop app helps agencies create a more consistent customer experienc
   * **Live preview before building:** The Desktop App Customizer shows changes in real time so agencies can review the app’s look and feel before submitting it for build.  
   
 
-  * **Automated builds:** After the Build App action is triggered, HighLevel starts the build process and generates application links when the build is complete.  
-  
-
-  * **Streamlined distribution:** Agencies can download the completed app or copy the generated access links within the timeframe shown in HighLevel.  
+  * **Automated builds:** After the Build App action is triggered, HighLevel starts the build process and generates application links when the build is complete.
+  * **Streamlined distribution:** Agencies can download the completed app, copy its access links, or promote a published app directly to sub-account users through an in-app download   
   
 
   * **More focused desktop experience:** A desktop app gives users a dedicated workspace outside the browser, helping reduce distractions and improve day-to-day workflow efficiency.
@@ -191,6 +189,39 @@ These links can be included in:
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073832219/original/YpXbTUgOhGNwA3yT1xi_xoaHBy2nRq6n_A.png?1781678530)
 
+  
+  
+
+
+### **Step 7: Promote the Published App to Sub-Accounts**
+
+After the app reaches the **Published** state, use the **Promote** toggle in the Desktop App Customizer to make the app available inside sub-accounts. 
+
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076276261/original/CyvUuk3SytyPjrhOzBadcMt2f_rrC1Gq2Q.png?1784308201)  
+  
+
+
+When promotion is enabled, sub-account users see a download banner for the agency’s White-Label Desktop App. 
+
+  
+
+
+Download links for the other supported operating systems remain available below the primary installer. All banner download links point to the latest published build.
+
+  
+
+
+The banner detects the user’s operating system and highlights the matching installer for:
+
+\- macOS 
+
+\- Windows 
+
+\- Linux  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076276291/original/bcSZcymE6XQyklhPftYoUTuo-0b4jgWNYw.png?1784308262)
+
 * * *
 
 ## **Using Desktop App Branding With a Whitelabel Domain**
@@ -241,8 +272,9 @@ HighLevel automatically starts the build process. Once the build is complete, ap
   
 
 
-**Q: How do I share the completed desktop app with users?**  
-After the build is complete, download the app or copy the generated access links from the Desktop App tab. These links can be shared with customers through onboarding emails, documentation, or a client portal.
+**Q: How do I share the completed desktop app with users?**
+
+After the app is built, you can download it or copy the generated access links from the Desktop App tab. After the app reaches the PUBLISHED state, you can also turn on the Promote toggle. This displays an app download banner inside sub-accounts. You can continue sharing direct links through onboarding emails, documentation, customer support responses, or client portals.
 
   
 
@@ -255,6 +287,13 @@ The release note lists Mac App Store and Microsoft Store listing as a future enh
 
 **Q: Is the whitelabel domain configured inside the Desktop App Customizer?**  
 No. The Desktop App Customizer controls the desktop app’s branding and build settings. A whitelabel domain is configured separately for the branded desktop web app login experience.
+
+  
+
+
+**Q: How does the download banner select an installer?**
+
+The banner detects the sub-account user’s operating system and highlights the matching macOS, Windows, or Linux installer. Links for the other supported operating systems remain available below the highlighted installer.
 
 * * *
 
