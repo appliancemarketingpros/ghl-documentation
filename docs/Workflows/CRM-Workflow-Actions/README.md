@@ -8,3 +8,4 @@
 - [Workflow Action – Remove Associated Records from Workflow](Workflow Action – Remove Associated Records from Workflow.md)
 - [Workflow Action – Add Associated Records to Workflow](Workflow Action – Add Associated Records to Workflow.md)
 - [Custom Object and Company Based Workflow Actions & Triggers](Custom Object and Company Based Workflow Actions & Triggers.md)
+- [Workflow Action: Associate Records](Workflow Action Associate Records.md)

@@ -6,7 +6,6 @@
 
 - [Overview of Flow Agents in Agent Studio](Overview of Flow Agents in Agent Studio.md)
 - [Agent Studio - Setting Up Triggers for Flow Agents](Agent Studio - Setting Up Triggers for Flow Agents.md)
-- [Agent Studio Template Library: Build AI Agents Faster with Reusable Templates](Agent Studio Template Library Build AI Agents Faster with Reusable Templates.md)
 - [How to Setup Flow Agents in Agent Studio](How to Setup Flow Agents in Agent Studio.md)
 - [Agent Studio - Router Tool (AI & Conditional Router)](Agent Studio - Router Tool (AI & Conditional Router).md)
 - [How to Create and Manage Folders in Agent Studio](How to Create and Manage Folders in Agent Studio.md)
@@ -23,3 +22,5 @@
 - [How AI Agents Use the Knowledge Base Tool to Answer Customer Inquiries](How AI Agents Use the Knowledge Base Tool to Answer Customer Inquiries.md)
 - [Import cURL in Agent Studio API Call Tool](Import cURL in Agent Studio API Call Tool.md)
 - [How to Use Web Search Tool in Agent Studio for Real-Time Responses](How to Use Web Search Tool in Agent Studio for Real-Time Responses.md)
+- [Scheduled Triggers for Super Agents in HighLevel](Scheduled Triggers for Super Agents in HighLevel.md)
+- [How to Clone and Share Super Agents Using Snapshots](How to Clone and Share Super Agents Using Snapshots.md)

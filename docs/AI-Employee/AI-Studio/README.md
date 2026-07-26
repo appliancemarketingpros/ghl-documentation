@@ -9,3 +9,4 @@
 - [Code Editor in AI Studio](Code Editor in AI Studio.md)
 - [Advanced SEO Support in AI Studio](Advanced SEO Support in AI Studio.md)
 - [Visual Edits in AI Studio](Visual Edits in AI Studio.md)
+- [Bulk Enable/Disable AI Studio Across Sub-Accounts](Bulk EnableDisable AI Studio Across Sub-Accounts.md)

@@ -12,14 +12,6 @@ Email Compliance
 
 Give contacts control over the types of marketing emails they want. Preference Management lets each location create subscription categories, link them to campaigns, and automatically honor opt-outs at a category level.
 
-Currently a Labs Feature — Enable Before Use
-
-Enable the following toggle from **Agency Settings → Labs** for all or specific sub-accounts:
-
-**Preference Management** _(Required)_
-
-**Important:** Preference Management is **irreversible** once enabled. Because it introduces location-level unsubscribe controls, this change **cannot be undone** after activation.
-
 No Default Categories
 
 For new configurations, HighLevel does **not** add a default "One-on-One" subscription type. Create the categories that fit your email program. Category names can be edited after creation and support up to **100 characters**.

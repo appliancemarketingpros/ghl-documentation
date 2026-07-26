@@ -1,39 +1,49 @@
-# Workflow Trigger - Call Status
+# Workflow Trigger - Call details
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000002552-workflow-trigger-call-status](https://help.gohighlevel.com/support/solutions/articles/155000002552-workflow-trigger-call-status)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000002552-workflow-trigger-call-details](https://help.gohighlevel.com/support/solutions/articles/155000002552-workflow-trigger-call-details)  
 **Category:** Workflows  
 **Folder:** Events Workflow Triggers
 
 ---
 
-This article explains the Call Status workflow trigger, a powerful tool that automates actions based on the outcome of calls. You will learn what this trigger does, its key benefits, how to configure it step-by-step, and real-world use cases. Finally, we address common questions to help you optimize this feature in your workflows.
+This article explains the Call details workflow trigger, a powerful tool that automates actions based on the outcome of calls. You will learn what this trigger does, its key benefits, how to configure it step-by-step, and real-world use cases. Finally, we address common questions to help you optimize this feature in your workflows.
 
 * * *
 
 **TABLE OF CONTENTS**
 
-  * What is Call Status Workflow Trigger
-  * Key Benefits of Call Status Workflow Trigger
-  * Configuring the Call Status Trigger
-    * Name Your Trigger
-    * Set Filters
-    * Call Direction
-    * Call Status
-    * In Workflow
-  * Use Cases
-  * Frequently Asked Questions
+  * **TABLE OF CONTENTS**
+    * What is Call Details Workflow Trigger
+      * Key Benefits of Call Details Workflow Trigger
+      * Configuring the Call Details Trigger
+        * Access Workflow Settings
+        * Add a New Trigger
+        * Name Your Trigger
+        * Set Filters
+        * Call Direction
+        * Call Details
+        * In Workflow
+        * Save the Trigger
+        * Test and Publish
+      * Use Cases
+        * Missed Call Follow-Up
+        * Customer Support Callback Workflow
+        * Sales Opportunity Follow-Up
+        * Voicemail Notification for Team Members
+        * Call Status Reporting
+      * Frequently Asked Questions
 
 
 * * *
 
-# **What is Call Status Workflow Trigger**
+# **What is Call Details Workflow Trigger**
 
   
-The Call Status workflow trigger activates when a call reaches a specific status, such as busy, canceled, voicemail, completed, or not answered. This trigger helps businesses streamline processes by automating follow-ups, notifications, and task assignments. It can be customized with filters like call direction and call status, ensuring workflows are tailored to meet specific business needs.
+The Call details workflow trigger activates when a call reaches a specific status, such as busy, canceled, voicemail, completed, or not answered. This trigger helps businesses streamline processes by automating follow-ups, notifications, and task assignments. It can be customized with filters like call direction and call status, ensuring workflows are tailored to meet specific business needs.
 
 * * *
 
-## **Key Benefits of Call Status Workflow Trigger**
+## **Key Benefits of Call Details Workflow Trigger**
 
   
 
@@ -55,12 +65,12 @@ The Call Status workflow trigger activates when a call reaches a specific status
 
 * * *
 
-## **Configuring the Call Status Trigger**
+## **Configuring the Call Details Trigger**
 
   
 
 
-Follow these steps to implement Call Status workflow trigger :
+Follow these steps to implement Call details workflow trigger :
 
   
 
@@ -68,7 +78,7 @@ Follow these steps to implement Call Status workflow trigger :
 ### **Access Workflow Settings**
 
   
-Navigate to the automation section. Create a new workflow from scratch or select the existing workflow where you want to implement the "Call Status" trigger.
+Navigate to the automation section. Create a new workflow from scratch or select the existing workflow where you want to implement the "Call details" trigger.
 
   
 
@@ -76,14 +86,15 @@ Navigate to the automation section. Create a new workflow from scratch or select
 ### **Add a New Trigger**
 
   
-Click **“Add New Trigger”** and select **"Call Status"** from the dropdown menu.
+Click **“Add New Trigger”** and select **"Call details"** from the dropdown menu.
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155039463752/original/6wpy7TAIJl6q9t_etd8zgd5c8vB_tvBZXg.png?1736332522)
+### **  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076744233/original/0O-lvChkAedb9xi9Zk5MJQQ5yKtGF7Jp4Q.png?1784874665)**
 
-  
+###   
 
 
 ### **Name Your Trigger**
@@ -94,7 +105,7 @@ Click **“Add New Trigger”** and select **"Call Status"** from the dropdown m
 Provide a descriptive name, such as “Missed Call Follow-Up.”
 
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155039463821/original/SzTdSzXUpe86j_NFXylje79iT5UN7xgs4Q.png?1736332569)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076744261/original/j65PwW7rbegBHfMU1AV5o1l9DAbvynDdUQ.png?1784874698)  
 
 
 ### **Set Filters**
@@ -105,27 +116,22 @@ Customize your trigger using filters:
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155039464058/original/GXFvWXK35rft5ZSlWO_YDemiQKaHygTJbw.png?1736332681)
-
-  
-
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076744279/original/TaoQmZrl8RSMEgFxRqzWvGUXuk5zhNpF9w.png?1784874750)
 
 ### **Call Direction**
 
   
-Specify whether the call is incoming or outgoing.  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155039463906/original/rDwlSIZM0YJJoM8M2w32bsR62yuHs31_ng.png?1736332607)
-
-  
+Specify whether the call is incoming or outgoing.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076744304/original/ajwyEdpm0wGv5Lf4F1sz2MAjVZTmBTfm9w.png?1784874781)  
 
 
-### **Call Status**
+  
+
+
+### **Call Details**
 
   
-Choose the call status that will activate the workflow (e.g., busy, voicemail, completed).  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155039463938/original/qefnjIMxlJ-V5uYu03UrPI7FRbt-IMhtNw.jpeg?1736332626)
+Choose the call details that will activate the workflow (e.g., busy, voicemail, completed).  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076744338/original/lGDHvW02K9dyl-dCDMwn1CI_6gyy0z6phg.png?1784874812)
 
   
 
@@ -135,11 +141,11 @@ Choose the call status that will activate the workflow (e.g., busy, voicemail, c
   
 Link the trigger to another workflow to create a seamless automation process. Just choose the existing workflows from the dropdown menu.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155039464006/original/fJGZ55rlEJBCypoYXYV7RWE6CfsyEI83kA.jpeg?1736332652)
+
 
 * * *
 
-### **Save the Trigger**
+### **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076744403/original/NTqb7vaw68Yl_BvCTro_l_ddaN-ZN-oPug.png?1784874875)Save the Trigger**
 
   
 Click the save button to confirm your setup.
@@ -178,7 +184,7 @@ Below are the different use cases where this trigger can be used.
   
 
 
-  * **Trigger:** Call Status.  
+  * **Trigger:** Call details.  
   
 
   * **Filter:** Call Status is “busy” or “not answered.”
@@ -211,10 +217,10 @@ Below are the different use cases where this trigger can be used.
   
 
 
-  * **Trigger:** Call Status.  
+  * **Trigger:** Call details.  
   
 
-  * **Filter:** Call Direction is “incoming,” and Call Status is “not answered.”
+  * **Filter:** Call Direction is “incoming,” and Call details is “not answered.”
 
 
   
@@ -239,10 +245,10 @@ Below are the different use cases where this trigger can be used.
   
 
 
-  * **Trigger:** Call Status.  
+  * **Trigger:** Call details.  
   
 
-  * **Filter:** Call Direction is “outgoing,” and Call Status is “completed.”
+  * **Filter:** Call Direction is “outgoing,” and Call details is “completed.”
 
 
   
@@ -267,10 +273,10 @@ Below are the different use cases where this trigger can be used.
   
 
 
-  * **Trigger:** Call Status.  
+  * **Trigger:** Call details.  
   
 
-  * **Filter:** Call Status is “voicemail.”
+  * **Filter:** Call details is “voicemail.”
 
 
   
@@ -295,7 +301,7 @@ Below are the different use cases where this trigger can be used.
   
 
 
-  * **Trigger:** Call Status.  
+  * **Trigger:** Call details.  
   
 
   * **Filter:** Call Status is “canceled” or “busy.”

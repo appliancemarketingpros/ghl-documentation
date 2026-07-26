@@ -44,6 +44,11 @@
     "hash": "061df52774ccb718",
     "title": "Launchpad Contextual In-App Nudges"
   },
+  "docs/Getting-Started-w-HighLevel/Foundational-Setup/File Share Notifications for Contacts in the Client Portal.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008265-file-share-notifications-for-contacts-in-the-client-portal",
+    "hash": "800f7ca62fa293fc",
+    "title": "File Share Notifications for Contacts in the Client Portal"
+  },
   "docs/Getting-Started-w-HighLevel/Marketing-&-Lead-Generation/Getting Started - Setup Social Planner.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000005063-getting-started-setup-social-planner",
     "hash": "ad65693ffe5e2474",
@@ -559,10 +564,10 @@
     "hash": "8782dc86e7b72f6e",
     "title": "How to Cancel Location Subscriptions from the Agency Billing Page"
   },
-  "docs/Agency-View/Template-Library/Template Library Marketplace Integration.md": {
+  "docs/Agency-View/Template-Library/Template Library - Marketplace Integration.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007747-template-library-marketplace-integration",
-    "hash": "1a746ea78543727f",
-    "title": "Template Library Marketplace Integration"
+    "hash": "912d360c8da38cf9",
+    "title": "Template Library - Marketplace Integration"
   },
   "docs/Agency-View/Agency-Settings/Reputation Management \u2013 Drip Mode in Reviews AI.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000003579-reputation-management-drip-mode-in-reviews-ai",
@@ -593,6 +598,11 @@
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007776-agency-billing-wallets-transactions-summary",
     "hash": "81e57e3b7177ce34",
     "title": "Agency Billing - Wallets & Transactions Summary"
+  },
+  "docs/Agency-View/Agency-Settings/Agency Wallet - Monthly Wallet Top-up Receipts.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008267-agency-wallet-monthly-wallet-top-up-receipts",
+    "hash": "1a7f2afa827b61ec",
+    "title": "Agency Wallet - Monthly Wallet Top-up Receipts"
   },
   "docs/AI-Employee/AI-Employee/AI Tools in HighLevel.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000002166-ai-tools-in-highlevel",
@@ -748,11 +758,6 @@
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000003970-workflow-ai-assistant",
     "hash": "501add578964cc38",
     "title": "Workflow AI Assistant"
-  },
-  "docs/AI-Employee/Workflow-AI/AI-Powered Custom Code Generation in Workflows.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004692-ai-powered-custom-code-generation-in-workflows",
-    "hash": "94413328b080bc32",
-    "title": "AI-Powered Custom Code Generation in Workflows"
   },
   "docs/AI-Employee/Workflow-AI/Voice Dictation in AI Builder & Assistant.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007418-voice-dictation-in-ai-builder-assistant",
@@ -1031,12 +1036,12 @@
   },
   "docs/AI-Employee/Ask-AI/How to Generate and Edit Images Using Ask AI.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000005764-how-to-generate-and-edit-images-using-ask-ai",
-    "hash": "1d0317f577082f99",
+    "hash": "b323175d1f2f8cc3",
     "title": "How to Generate and Edit Images Using Ask AI"
   },
   "docs/AI-Employee/Ask-AI/How to Use Edit with Ask AI Feature in Social Planner.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000005765-how-to-use-edit-with-ask-ai-feature-in-social-planner",
-    "hash": "e61f51ece95a25ab",
+    "hash": "190b85277e1fbbf8",
     "title": "How to Use Edit with Ask AI Feature in Social Planner"
   },
   "docs/AI-Employee/Ask-AI/Ask AI + Agent Studio Integration.md": {
@@ -1099,9 +1104,14 @@
     "hash": "640a56f606f7e94e",
     "title": "How to Use Ask AI to Create and Manage Courses"
   },
+  "docs/AI-Employee/Ask-AI/How to setup the Ask AI LeadConnector Chrome Extension.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008287-how-to-setup-the-ask-ai-leadconnector-chrome-extension",
+    "hash": "b2b53ed8d4043751",
+    "title": "How to setup the Ask AI LeadConnector Chrome Extension"
+  },
   "docs/AI-Employee/AI-Studio/AI Studio in HighLevel.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007587-ai-studio-in-highlevel",
-    "hash": "f6be24bdd5efead4",
+    "hash": "f970d351c3636a1d",
     "title": "AI Studio in HighLevel"
   },
   "docs/AI-Employee/AI-Studio/Connect Forms and Calendars in AI Studio.md": {
@@ -1124,6 +1134,11 @@
     "hash": "e8baec0bf9a3bf23",
     "title": "Visual Edits in AI Studio"
   },
+  "docs/AI-Employee/AI-Studio/Bulk EnableDisable AI Studio Across Sub-Accounts.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008246-bulk-enable-disable-ai-studio-across-sub-accounts",
+    "hash": "63121a4e1233565d",
+    "title": "Bulk Enable/Disable AI Studio Across Sub-Accounts"
+  },
   "docs/AI-Employee/Agent-Studio/Overview of Flow Agents in Agent Studio.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006058-overview-of-flow-agents-in-agent-studio",
     "hash": "7660b0b827e45cf1",
@@ -1133,11 +1148,6 @@
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007310-agent-studio-setting-up-triggers-for-flow-agents",
     "hash": "a3399cb4f5bb016b",
     "title": "Agent Studio - Setting Up Triggers for Flow Agents"
-  },
-  "docs/AI-Employee/Agent-Studio/Agent Studio Template Library Build AI Agents Faster with Reusable Templates.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007318-agent-studio-template-library-build-ai-agents-faster-with-reusable-templates",
-    "hash": "e2098a142eb6032c",
-    "title": "Agent Studio Template Library: Build AI Agents Faster with Reusable Templates"
   },
   "docs/AI-Employee/Agent-Studio/How to Setup Flow Agents in Agent Studio.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007393-how-to-setup-flow-agents-in-agent-studio",
@@ -1218,6 +1228,16 @@
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007965-how-to-use-web-search-tool-in-agent-studio-for-real-time-responses",
     "hash": "579a511633381331",
     "title": "How to Use Web Search Tool in Agent Studio for Real-Time Responses"
+  },
+  "docs/AI-Employee/Agent-Studio/Scheduled Triggers for Super Agents in HighLevel.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008245-scheduled-triggers-for-super-agents-in-highlevel",
+    "hash": "c03ba92864467464",
+    "title": "Scheduled Triggers for Super Agents in HighLevel"
+  },
+  "docs/AI-Employee/Agent-Studio/How to Clone and Share Super Agents Using Snapshots.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008247-how-to-clone-and-share-super-agents-using-snapshots",
+    "hash": "7236f98c57e7d30c",
+    "title": "How to Clone and Share Super Agents Using Snapshots"
   },
   "docs/AI-Employee/Email-AI/Email Campaign Agent (Beta).md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006670-email-campaign-agent-beta-",
@@ -1546,7 +1566,7 @@
   },
   "docs/Phone-System/LC-Phone-System/Phone System Pricing & Billing Guide.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001223556-phone-system-pricing-billing-guide",
-    "hash": "79b3e482cd65455e",
+    "hash": "25c7dd799daa9162",
     "title": "Phone System Pricing & Billing Guide"
   },
   "docs/Phone-System/LC-Phone-System/How to Disable LC Phone System for SubaccountLocation (LC to Twilio).md": {
@@ -1619,6 +1639,11 @@
     "hash": "3b605f0d4eae0fa0",
     "title": "How to create and link a Regulatory Bundle for Australian local numbers"
   },
+  "docs/Phone-System/LC-Phone-System/LC Phone - Inbound Call Routing by Working Hours.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008268-lc-phone-inbound-call-routing-by-working-hours",
+    "hash": "9c7aa81fb743e2d8",
+    "title": "LC Phone - Inbound Call Routing by Working Hours"
+  },
   "docs/Phone-System/Messaging/Troubleshooting SMS Delivery.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48000981696-troubleshooting-sms-delivery",
     "hash": "22cdc0184c0be452",
@@ -1641,53 +1666,53 @@
   },
   "docs/Phone-System/Messaging/Conversations Glitching Here's What\u2019s Going On.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001184861-conversations-glitching-here-s-what-s-going-on-",
-    "hash": "78c93ebb4657cfa0",
+    "hash": "9ec1776d8a87354b",
     "title": "Conversations Glitching? Here's What\u2019s Going On?"
   },
-  "docs/Phone-System/Messaging/Twilio Error 21610 The message fromto pair violates a blacklist rule when sending SMS.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/48001186075-twilio-error-21610-the-message-from-to-pair-violates-a-blacklist-rule-when-sending-sms",
-    "hash": "6466650c364de88d",
-    "title": "Twilio Error 21610 \"The message from/to pair violates a blacklist rule\" when sending SMS"
+  "docs/Phone-System/Messaging/Twilio Error 21610 Recipient unsubscribed (STOP) when sending SMS.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001186075-twilio-error-21610-recipient-unsubscribed-stop-when-sending-sms",
+    "hash": "03883a2a4cdd72f1",
+    "title": "Twilio Error 21610 \"Recipient unsubscribed (STOP)\" when sending SMS"
   },
   "docs/Phone-System/Messaging/Understanding Common SMS Delivery Errors.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001208912-understanding-common-sms-delivery-errors",
-    "hash": "da670b1aefc32699",
+    "hash": "1163a0f8717967dc",
     "title": "Understanding Common SMS Delivery Errors"
   },
   "docs/Phone-System/Messaging/How to check logs for a specific text message if you are connected to your own Twilio account.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001222601-how-to-check-logs-for-a-specific-text-message-if-you-are-connected-to-your-own-twilio-account",
-    "hash": "b383faa01d3416e3",
+    "hash": "a057347cbc74784d",
     "title": "How to check logs for a specific text message if you are connected to your own Twilio account"
   },
   "docs/Phone-System/Messaging/How to Calculate SMS and MMS Costs.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001203458-how-to-calculate-sms-and-mms-costs",
-    "hash": "d83f28e0b9a0fcce",
+    "hash": "0d0ff43b36d60d42",
     "title": "How to Calculate SMS and MMS Costs"
   },
   "docs/Phone-System/Messaging/Using media in SMS campaign - how will it look on receiver's device.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001205243-using-media-in-sms-campaign-how-will-it-look-on-receiver-s-device-",
-    "hash": "e7a6be1237a4a7ba",
+    "hash": "470e7532ca960862",
     "title": "Using media in SMS campaign - how will it look on receiver's device?"
   },
   "docs/Phone-System/Messaging/LC - Phone Messaging Policy.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001213941-lc-phone-messaging-policy",
-    "hash": "82334e72c95d39d1",
+    "hash": "906503b6562b3ccc",
     "title": "LC - Phone Messaging Policy"
   },
   "docs/Phone-System/Messaging/How to Prevent SMS Filtering by Carriers Error 30007.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001237726-how-to-prevent-sms-filtering-by-carriers-error-30007",
-    "hash": "0fbc849c839094be",
+    "hash": "ee35e77989e80e92",
     "title": "How to Prevent SMS Filtering by Carriers: Error 30007"
   },
-  "docs/Phone-System/Messaging/Understanding the Potential Delivery Issues of Text Messages with Shortened URLs.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/48001240115-understanding-the-potential-delivery-issues-of-text-messages-with-shortened-urls",
-    "hash": "bd87e869fbbaab85",
-    "title": "Understanding the Potential Delivery Issues of Text Messages with Shortened URLs"
+  "docs/Phone-System/Messaging/Shortened URLs and SMS Deliverability.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001240115-shortened-urls-and-sms-deliverability",
+    "hash": "dcfccac4cfa85990",
+    "title": "Shortened URLs and SMS Deliverability"
   },
-  "docs/Phone-System/Messaging/Action Required International SMS Compliance Updates \u2014 UK & Turkey.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/48001240411-action-required-international-sms-compliance-updates-uk-turkey",
-    "hash": "58502ae097e57b81",
-    "title": "Action Required: International SMS Compliance Updates \u2014 UK & Turkey"
+  "docs/Phone-System/Messaging/International SMS Compliance UK & Turkey Regulations.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001240411-international-sms-compliance-uk-turkey-regulations",
+    "hash": "e0987bfb27edad8b",
+    "title": "International SMS Compliance: UK & Turkey Regulations"
   },
   "docs/Phone-System/Messaging/Best Practices for SMS deliverability and Avoiding SMS Restrictions.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000000079-best-practices-for-sms-deliverability-and-avoiding-sms-restrictions",
@@ -1743,16 +1768,6 @@
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007237-how-to-get-your-phone-number-a2p-approved-in-2026",
     "hash": "08217e82d176c52e",
     "title": "How to get your phone number A2P approved in 2026"
-  },
-  "docs/Phone-System/A2P-registration/Revamped Trust Center and A2P experience.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007070-revamped-trust-center-and-a2p-experience",
-    "hash": "be2a3bf94b04e27c",
-    "title": "Revamped Trust Center and A2P experience"
-  },
-  "docs/Phone-System/A2P-registration/Email OTP Verification for Secure A2P Brand Registration.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005776-email-otp-verification-for-secure-a2p-brand-registration",
-    "hash": "c58904bdbd175a46",
-    "title": "Email OTP Verification for Secure A2P Brand Registration"
   },
   "docs/Phone-System/A2P-registration/A2P 10DLC Messaging Fees Registration, Monthly, and Carrier Costs.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000005200-a2p-10dlc-messaging-fees-registration-monthly-and-carrier-costs",
@@ -1994,6 +2009,11 @@
     "hash": "45371601302c1a9d",
     "title": "How to Add Your Own Email Service (MailGun) in Agency"
   },
+  "docs/Email/General/Auto-Enable Email DND When a Contact's Email Bounces.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008249-auto-enable-email-dnd-when-a-contact-s-email-bounces",
+    "hash": "17347257233e2e24",
+    "title": "Auto-Enable Email DND When a Contact's Email Bounces"
+  },
   "docs/Email/Deliverability/An Introduction To Email Deliverability.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001063371-an-introduction-to-email-deliverability",
     "hash": "cdb1334a192a4e9e",
@@ -2041,7 +2061,7 @@
   },
   "docs/Email/Deliverability/Preference Management (Email Unsubscription Management).md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007291-preference-management-email-unsubscription-management-",
-    "hash": "f57faf6138a561c8",
+    "hash": "e8e8d7252816eafa",
     "title": "Preference Management (Email Unsubscription Management)"
   },
   "docs/Email/LC-Email/What is LC Email.md": {
@@ -2111,7 +2131,7 @@
   },
   "docs/Email/LC-Email/Google Postmaster Tools.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000004150-google-postmaster-tools",
-    "hash": "935586e98631b001",
+    "hash": "a15d7f831f17a4f0",
     "title": "Google Postmaster Tools"
   },
   "docs/Email/LC-Email/Microsoft Smart Network Data Services (SNDS).md": {
@@ -4256,7 +4276,7 @@
   },
   "docs/Sites/Surveys/Conditional Logic in Surveys (v2).md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000005564-conditional-logic-in-surveys-v2-",
-    "hash": "0a8dcb379bec5364",
+    "hash": "dc66b9971f9a1889",
     "title": "Conditional Logic in Surveys (v2)"
   },
   "docs/Sites/Surveys/Progress Bar for Surveys & Quizzes on Mobile.md": {
@@ -4829,10 +4849,10 @@
     "hash": "dc3e305fcfcdbc94",
     "title": "Workflow Trigger - Form Submitted"
   },
-  "docs/Workflows/Events-Workflow-Triggers/Workflow Trigger - Call Status.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000002552-workflow-trigger-call-status",
-    "hash": "801a3d4385a9016c",
-    "title": "Workflow Trigger - Call Status"
+  "docs/Workflows/Events-Workflow-Triggers/Workflow Trigger - Call details.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000002552-workflow-trigger-call-details",
+    "hash": "792df7dce676535f",
+    "title": "Workflow Trigger - Call details"
   },
   "docs/Workflows/Events-Workflow-Triggers/Workflow Trigger - Customer Replied.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000002677-workflow-trigger-customer-replied",
@@ -4988,6 +5008,11 @@
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006701-custom-object-and-company-based-workflow-actions-triggers",
     "hash": "47a0bfedfcbc60f8",
     "title": "Custom Object and Company Based Workflow Actions & Triggers"
+  },
+  "docs/Workflows/CRM-Workflow-Actions/Workflow Action Associate Records.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007718-workflow-action-associate-records",
+    "hash": "466a2c5d1092d887",
+    "title": "Workflow Action: Associate Records"
   },
   "docs/Workflows/Communication-Workflow-Actions/Workflow Action - Send Email.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000002472-workflow-action-send-email",
@@ -6121,7 +6146,7 @@
   },
   "docs/Payments/Products,-Taxes-&-Coupons/Getting Started with Coupons.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007524-getting-started-with-coupons",
-    "hash": "b108436886701c7f",
+    "hash": "e2f3f3a9d767809c",
     "title": "Getting Started with Coupons"
   },
   "docs/Payments/Products,-Taxes-&-Coupons/Image Zoom on the Product Details Page.md": {
@@ -6896,7 +6921,7 @@
   },
   "docs/Account-Snapshots/Snapshots/Creating New Snapshots in HighLevel.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48000982512-creating-new-snapshots-in-highlevel",
-    "hash": "0a83c88b47c844e7",
+    "hash": "94d169807394d279",
     "title": "Creating New Snapshots in HighLevel"
   },
   "docs/Account-Snapshots/Snapshots/How to Share Snapshots.md": {
@@ -8054,10 +8079,10 @@
     "hash": "1592a0b7b16c48ca",
     "title": "How to Create a Product and Attach It to a Membership Course Offer"
   },
-  "docs/Memberships-&-Communities/Membership-Courses-Sites/How to Create a Whitelabel Membership App (PWA).md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/48001224426-how-to-create-a-whitelabel-membership-app-pwa-",
-    "hash": "d55abeca20b006f2",
-    "title": "How to Create a Whitelabel Membership App (PWA)"
+  "docs/Memberships-&-Communities/Membership-Courses-Sites/How to Create a Whitelabel Membership PWA in Legacy Memberships.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001224426-how-to-create-a-whitelabel-membership-pwa-in-legacy-memberships",
+    "hash": "d0a7179858d6d167",
+    "title": "How to Create a Whitelabel Membership PWA in Legacy Memberships"
   },
   "docs/Memberships-&-Communities/Membership-Courses-Sites/How to Create Assessments Quizzes for Membership Courses.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001224429-how-to-create-assessments-quizzes-for-membership-courses",

@@ -419,7 +419,7 @@ You can edit certain coupon settings (like name, limits, or validity), but chang
 
 ### **Does the coupon apply on Set-up Fees?**
 
-No. Coupon doesn't apply on set-up fees in case of subscription products, it only applies on the actual subscription payment amount.
+Yes. Coupon applies on set-up fees in case of subscription products.
 
 * * *
 

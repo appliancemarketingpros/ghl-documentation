@@ -6,297 +6,630 @@
 
 ---
 
-Conditional Logic v2 helps you create smarter, more dynamic **surveys** in HighLevel.  
-It lets you show or hide slides, display messages, redirect users, disqualify responses, or jump between slides — all based on how someone answers.
+Conditional Logic v2 helps you build smarter, more personalized surveys by changing what respondents see and where they go based on their answers. Create dynamic experiences by showing or hiding fields, displaying custom messages, redirecting users, disqualifying responses, or sending respondents to different slides—all without creating multiple surveys.  
+  
 
-This guide explains how to use Conditional Logic in surveys, what’s new in v2, and which fields are supported.
 
-* * *
+**Important**  
+  
 
-### ⚠️ IMPORTANT
 
-Conditional Logic v2 is available **only for newly created or cloned surveys**.  
-Logic rules **do not transfer** when an account snapshot is created.
+  * Conditional Logic v2 is available only for **newly created or cloned surveys**.  
+  
+
+  * Conditional Logic rules **are not included in account snapshots**.  
+  
+
 
 * * *
 
 **TABLE OF CONTENTS**
 
-  * What Is Conditional Logic in Surveys
+  * What Is Conditional Logic in Surveys?
+  * Key Benefits
   * What’s New in v2
   * Available Actions
-  * How to Set Up Conditional Logic in Surveys
-  * Supported Fields
+  * How to Set Up Conditional Logic
+  * Creating Multiple Survey Outcomes
   * Supported Operators by Field Type
   * Survey-Specific Features
-  * Behavior & Evaluation
-  * Tips
-  * FAQs
+  * Jump To
+  * Rule Filtering
+  * Rule Behavior & Evaluation
+  * Best Practices
+  * Frequently Asked Questions
   * Related Articles
 
 
 * * *
 
-## What Is Conditional Logic in Surveys
-
-Conditional Logic automates actions inside your survey based on user input.  
-You can define conditions like:
-
-  * If the answer is “No,” show a custom message.
-
-  * If the score is below 5, disqualify the lead.
-
-  * If the date is within a range, redirect to another page.
-
-  * Jump users to a specific slide instead of showing all slides.
+# **What Is Conditional Logic in Surveys?**  
+  
 
 
-This makes your surveys more interactive, relevant, and efficient.
+Conditional Logic automatically performs actions based on a respondent’s answers. Instead of showing every question to every respondent, you can create personalized survey experiences that adapt in real time.
 
-* * *
+For example, you can:  
+  
 
-## What’s New in v2
 
-  * **Simplified 3-Step Builder:** Select Field → Select State → Provide Value
+  * Display additional questions based on previous answers.  
+  
 
-  * **“Between” Operator:** For number, score, monetary, and date fields
+  * Skip irrelevant sections.  
+  
 
-  * **Jump To Branching:** Create slide-to-slide jumps inside surveys
+  * Show personalized messages.  
+  
 
-  * **Expanded Field Support:** Checkboxes, multi-dropdowns, TnC1/TnC2, file uploads, signatures
+  * Redirect respondents to another webpage.  
+  
 
-  * **New Show/Hide Targets:** Text, HTML, Image, TnC elements
+  * Disqualify respondents that don’t meet your criteria.  
+  
 
-  * **Rule List Filtering:** Filter rules by field or slide
+  * Jump respondents directly to another slide.  
+  
 
-  * **Cycle Protection:** Prevents loops (Slide A → Slide B → Slide A)
 
-  * **Localized & Accessible:** Keyboard navigation and translated labels
-
+This helps reduce survey length, improve completion rates, and collect more relevant information.
 
 * * *
 
-## Available Actions
+## **Key Benefits**  
+  
 
-When you open Conditional Logic, you’ll see the available action types:
+
+Conditional Logic helps you create more intelligent survey experiences while reducing unnecessary questions.  
+  
+
+
+  * **Personalize the survey experience:** Display only questions relevant to each respondent.  
+  
+
+  * **Improve completion rates:** Skip unnecessary questions and shorten surveys.  
+  
+
+  * **Automatically qualify leads:** Identify qualified and unqualified respondents instantly.  
+  
+
+  * **Create multiple survey paths:** Send respondents to different slides based on their answers.  
+  
+
+  * **Reduce manual review:** Automatically perform actions instead of reviewing responses later.  
+  
+
+  * **Build advanced survey flows:** Combine multiple rules for dynamic experiences.
+
+
+* * *
+
+## **What’s New in v2**  
+  
+
+
+Conditional Logic v2 introduces several improvements:  
+  
+
+
+  * Simplified three-step rule builder  
+  
+
+  * **Between** operator for numbers, scores, monetary, and date fields  
+  
+
+  * Jump To slide branching  
+  
+
+  * Expanded support for additional field types  
+  
+
+  * Show or hide Text, HTML, Images, and Terms & Conditions elements  
+  
+
+  * Rule filtering by field or slide  
+  
+
+  * Loop protection to prevent circular routing  
+  
+
+  * Improved accessibility and localized labels
+
+
+* * *
+
+## **Available Actions**  
+  
+
+
+Conditional Logic supports the following actions.  
+  
+
 
 **Action**| **Description**  
 ---|---  
-**Show/Hide Fields**|  Dynamically show or hide questions or slides.  
-**Display Custom Message**|  Show personalized instructions or messages.  
-**Redirect to URL**|  Send respondents to a custom webpage after submission.  
-**Disqualify Lead**|  Automatically mark unqualified responses.  
-**Jump To (Slide)**|  Skip or branch to another slide based on answers. _(Surveys only)_  
+Show / Hide Fields| Display or hide fields, questions, or slides.  
+Display Custom Message| Show personalized messages based on responses.  
+Redirect to URL| Send respondents to another webpage after submission.  
+Disqualify Lead| Automatically mark respondents as unqualified.  
+Jump To| Skip directly to another slide or question within the survey.  
   
-> **Rules are executed top-to-bottom.**  
-> **Later matches override earlier ones when applicable.**
+  
+**Note:** Rules are evaluated from top to bottom. When multiple rules match, later Show/Hide rules override earlier ones, while Redirect, Display Message, Disqualify, and Jump To execute according to their evaluation behavior.
 
 * * *
 
-## How to Set Up Conditional Logic in Surveys
-
-You can add and manage rules directly inside the Survey Builder.
-
-### 1\. Open Conditional Logic
-
-  * In the survey builder, click **Conditional Logic** in the top bar.
-
-  * Or open it from the right-sidebar **Conditional Logic** link.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055505701/original/_r54-LIqjTPUsHKiGGV61zG1YvSEQPIbLA.png?1759919572)
+## **How to Set Up Conditional Logic**  
+  
 
 
-### 2\. Add a New Condition
-
-  * Click **Add New Condition**.
-
-  * Choose an action (Show/Hide, Message, Redirect, Disqualify, or Jump To).
-
-  * The 3-step logic builder opens.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055505810/original/2AklOvUBEagY-NTHR7Q9L1En-vfvVMpX_A.png?1759919604)
+Conditional Logic rules are created directly inside the Survey Builder after your survey questions and slides have been added.  
+  
 
 
-### 3\. Build the Rule
-
-Follow the guided flow:
-
-  1. **Select Field** – Choose the survey field or slide to base the rule on.
-
-  2. **Select State** – Pick the operator (e.g., _is equal to_ , _is empty_).
-
-  3. **Provide Value** – Enter the value (text, number, date, option).
+### **Step 1:**_Open the Survey Builder_  
+  
 
 
-You can add multiple conditions in the same rule using **AND** or **OR** connectors.
-
-  * **AND** = all conditions must be true.
-
-  * **OR** = any condition can be true.
+From the account dashboard, navigate to **Sites** , open **Surveys** , and select an existing survey or create a new one.  
+  
 
 
-> Switching between AND and OR updates all conditions in the block.
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076853899/original/VJX-0DI7DWjRw53SswqAqPpsxBipAh1iaA.png?1785040325)**
 
-Some operators don’t require values (e.g., _is empty_ , _is checked_).
-
-### 4\. Choose the Action Result
-
-Depending on your selection:
-
-  * **Redirect to URL:** Enter a valid link (e.g., `https://example.com`)
-
-  * **Display Message:** Add your custom message text
-
-  * **Show/Hide Fields:** Select fields to display or hide
-
-  * **Disqualify Lead:** Automatically stop submission
-
-  * **Jump To (Surveys only):** Select the target slide or question
+###   
+**Step 2:**_Review Your Survey Structure_  
+  
 
 
-### 5\. Save the Rule
+Before creating logic, verify your survey contains all required questions, slides, and outcome pages.
 
-  * The **Save** button activates only after all required inputs are filled.
+For example, you may want separate slides for:  
+  
 
-  * The system checks for missing values and prevents looping logic.
 
-  * Rules run **top-down** in the list.
+  * Qualified respondents  
+  
 
+  * Disqualified respondents  
+  
+
+  * Booking appointments  
+  
+
+  * Thank-you pages  
+  
+
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076853903/original/qpzkUoz_cSPfNWqlRcv1UsfJ2N7wwlO25A.png?1785040341)**
+
+###   
+**Step 3:**_Open Conditional Logic_  
+  
+
+
+Click **Conditional Logic** from the Survey Builder toolbar or open it from the right-side panel.
+
+###   
+**Step 4:**_Create a Rule_  
+  
+
+
+Select **Add New Condition**.  
+  
+
+
+Choose the action you want to perform:  
+  
+
+
+  * Show or Hide Fields  
+  
+
+  * Display Message  
+  
+
+  * Redirect to URL  
+  
+
+  * Disqualify Lead  
+  
+
+  * Jump To
+
+
+###   
+**Step 5:**_Configure the Logic_  
+  
+
+
+Build your rule using the three-step builder.  
+  
+
+
+### **Select Field**
+
+Choose the question or slide that will trigger the rule.  
+  
+
+
+### **Select State**
+
+Choose an operator such as:  
+  
+
+
+  * Is Equal To  
+  
+
+  * Contains  
+  
+
+  * Greater Than  
+  
+
+  * Between  
+  
+
+  * Is Empty
+
+
+###   
+**Provide Value**  
+  
+
+
+Enter or select the value that must match before the rule runs.  
+  
+
+
+You can also combine multiple conditions using:  
+  
+
+
+  * **AND** — every condition must be true.  
+  
+
+  * **OR** — any condition can be true.  
+  
+
+
+**Note:** A single rule can use either **AND** or **OR** , but not both.
+
+###   
+**Step 6:**_Configure the Action_  
+  
+
+
+Depending on the selected action, configure one of the following:  
+  
+
+
+  * Select fields to show or hide.  
+  
+
+  * Enter a custom message.  
+  
+
+  * Enter a redirect URL.  
+  
+
+  * Select the destination slide.  
+  
+
+  * Mark the respondent as disqualified.
+
+
+###   
+**Step 7:**_Save and Preview_  
+  
+
+
+Save the rule and preview your survey to verify every response path behaves as expected before publishing.
 
 * * *
 
-## Supported Fields
-
-Conditional Logic v2 supports a wide range of survey fields.
-
-**Survey Fields**
-
-  * Single Line
-
-  * Multi Line
-
-  * Number
-
-  * Monetary
-
-  * Score
-
-  * Date Picker
-
-  * Dropdown (Single)
-
-  * Dropdown (Multi)
-
-  * Radio Select
-
-  * Checkbox
-
-  * Terms & Conditions (TnC1 / TnC2)
-
-  * File Upload
-
-  * Signature
+## **Creating Multiple Survey Outcomes**  
+  
 
 
-**Static Elements**
+Conditional Logic allows one survey to produce multiple outcomes depending on how respondents answer.
 
-  * Text
-
-  * HTML
-
-  * Image
+For example:  
+  
 
 
-> **Note:** Calendar fields are not supported in Conditional Logic.
+### **Qualified Path**  
+  
+
+
+If a respondent meets your qualification criteria:  
+  
+
+
+  * Continue to the next questions.  
+  
+
+  * Jump directly to a booking slide.  
+  
+
+  * Display a qualified thank-you message.
+
+
+###   
+**Disqualified Path**  
+  
+
+
+If a respondent doesn’t qualify:  
+  
+
+
+  * Display a custom message explaining they aren’t eligible.  
+  
+
+  * Jump directly to a disqualification slide.  
+  
+
+  * Stop asking unnecessary questions.  
+  
+
+
+###   
+**Temporary Branches**  
+  
+
+
+You can temporarily send respondents to another slide to collect additional information before continuing with the survey.  
+  
+
+
+Example:  
+  
+
+
+Question 3  
+  
+
+
+↓  
+  
+
+
+Additional Information Slide  
+  
+
+
+↓  
+  
+
+
+Return to Slide 5  
+  
+
+
+**Note:** Conditional Logic prevents circular paths that would create an endless loop (for example, Slide A → Slide B → Slide A).
+
+###   
+**Supported Fields**  
+  
+
+
+Conditional Logic supports the following survey fields.
+
+###   
+**Input Fields**  
+  
+
+
+  * Single Line Text  
+  
+
+  * Multi Line Text  
+  
+
+  * Number  
+  
+
+  * Monetary  
+  
+
+  * Score  
+  
+
+  * Date Picker  
+  
+
+  * Dropdown (Single)  
+  
+
+  * Dropdown (Multiple)  
+  
+
+  * Radio Select  
+  
+
+  * Checkbox  
+  
+
+  * Terms & Conditions  
+  
+
+  * File Upload  
+  
+
+  * Signature  
+  
+
+
+### **Static Elements**  
+  
+
+
+  * Text  
+  
+
+  * HTML  
+  
+
+  * Image  
+  
+
+
+**Note:** Calendar fields aren’t supported.
 
 * * *
 
-## Supported Operators by Field Type
+## **Supported Operators by Field Type**  
+  
 
-**Field Type**| **Operators**  
+
+**Field Type**| **Supported Operators**  
 ---|---  
-Text (single/multi line)| equal to, not equal to, contains, does not contain, starts with, ends with, is empty, is filled  
-Number / Score / Monetary| equal to, not equal to, greater than, less than, between, is empty, is filled  
-Date| equal to, before, after, between, is empty, is filled  
-Dropdown (Single) / Radio| is equal to, is not equal to, is empty, is filled  
-Multi Dropdown / Checkbox| is equal to {Option}, is not equal to {Option}, is empty, is filled  
-TnC1 / TnC2| is checked, is not checked  
-File Upload / Signature| is empty, is filled  
+Text| Equal To, Not Equal To, Contains, Starts With, Ends With, Is Empty, Is Filled  
+Number, Score, Monetary| Equal To, Greater Than, Less Than, Between, Is Empty, Is Filled  
+Date| Equal To, Before, After, Between, Is Empty, Is Filled  
+Single Dropdown, Radio| Equal To, Not Equal To, Is Empty, Is Filled  
+Multi Dropdown, Checkbox| Equal To, Not Equal To, Is Empty, Is Filled  
+Terms & Conditions| Is Checked, Is Not Checked  
+File Upload, Signature| Is Empty, Is Filled  
   
 * * *
 
-## Survey-Specific Features
+## **Survey-Specific Features**
 
-### Jump To Logic
-
-  * **IF Basis:** Field or Slide
-
-  * **THEN Action:** Jump to a slide or question
-
-  * **When It Runs:** On click of **Next**
-
-  * **Conflict Handling:** If multiple Jump To rules match, the first runs
-
-  * **Protection:** Prevents loops (Slide A ↔ Slide B)
-
-
-### Rule Filtering
-
-In surveys, filter rules for easier editing:
-
-  * **By Field:** Shows rules linked to a specific field
-
-  * **By Slide:** Shows rules that affect or target a selected slide
-
-
-* * *
-
-## Behavior & Evaluation
-
-  * Rules run **top-down** in order.
-
-  * **Redirect / Message / Disqualify:** Only the first matching rule executes.
-
-  * **Show/Hide:** Later rules override earlier ones.
-
-  * **Jump To:** Evaluated on slide transition (Next button).
-
-  * Text matching is case-insensitive and ignores extra spaces.
-
-  * Date logic uses the account timezone.
-
-
-* * *
-
-## Tips
-
-  * Use **Between** for numeric or date ranges (inclusive).
-
-  * Try quick date presets like **Today** or **This Week**.
-
-  * “Radio Other” appears only if custom input is enabled.
-
-  * Always preview your survey to verify logic and Jump To flow.
-
-
-* * *
-
-## FAQs
-
-**1\. Can I mix AND and OR in the same rule?**  
-No. Each rule must use only one type of connector.
-
-**2\. Can I have multiple rules in the same survey?**  
-Yes. Each rule runs independently.
-
-**3\. What happens if more than one condition matches?**  
-For Redirect, Message, or Disqualify actions, the first match wins.  
-For Show/Hide, later rules override earlier ones.
-
-**4\. Can I create loops in Jump To logic?**  
-No. The builder blocks loops and displays a warning if detected.
-
-**5\. Why can’t I select fields in the IF dropdown?**  
-Check that each survey field has a unique Query Key, then refresh the panel.
-
+###   
+**Jump To**  
   
 
+
+Jump respondents directly to another survey slide based on their answers.  
+  
+
+
+  * Triggered when respondents select **Next**
+  * Supports branching within surveys  
+  
+
+  * Prevents circular routing
+
+
+* * *
+
+## **Rule Filtering**  
+  
+
+
+Filter rules by:  
+  
+
+
+  * Field  
+  
+
+  * Slide  
+  
+
+
+This makes complex surveys easier to manage.
+
+* * *
+
+## **Rule Behavior & Evaluation**  
+  
+
+
+Understanding how rules are evaluated helps prevent unexpected behavior.  
+  
+
+
+  * Rules are evaluated from top to bottom.  
+  
+
+  * Redirect, Display Message, and Disqualify execute only the first matching rule.  
+  
+
+  * Show/Hide rules can override previous rules.  
+  
+
+  * Jump To evaluates when respondents move to the next slide.  
+  
+
+  * Text comparisons ignore capitalization and extra spaces.  
+  
+
+  * Date comparisons use your account’s timezone.
+
+
+* * *
+
+## **Best Practices**  
+  
+
+
+Following these recommendations helps create predictable survey experiences.  
+  
+
+
+  * Create all slides before adding Conditional Logic.  
+  
+
+  * Give every survey field a unique Query Key.  
+  
+
+  * Keep rule logic as simple as possible.  
+  
+
+  * Test every possible survey path.  
+  
+
+  * Use **Between** for numeric and date ranges.  
+  
+
+  * Preview every Jump To path before publishing.  
+  
+
+  * Avoid creating unnecessary or overlapping rules.
+
+
+* * *
+
+## **Frequently Asked Questions**  
+  
+
+
+**Q: Can I mix AND and OR within the same rule?**
+
+No. Each rule supports either **AND** or **OR** logic.
+
+  
+**Q: Can I have multiple Conditional Logic rules?**
+
+Yes. Each rule runs independently according to its position in the rule list.  
+  
+
+
+**Q: How can I create different outcomes for qualified and disqualified respondents?**
+
+Create separate slides for each outcome, then use **Jump To** , **Display Message** , or **Disqualify Lead** actions to send respondents to the appropriate path based on their answers.  
+  
+
+
+**Q: Can I send respondents to another slide and then continue the survey?**
+
+Yes. Use **Jump To** to branch respondents to another slide before continuing to the remaining survey questions. Circular routing is automatically prevented.  
+  
+
+
+**Q: What happens if multiple rules match?**
+
+Redirect, Display Message, and Disqualify execute the first matching rule. Show/Hide actions continue evaluating and may override earlier rules.  
+  
+
+
+**Q: Why don’t fields appear in the Conditional Logic dropdown?**
+
+Verify that every survey field has a unique Query Key, then refresh the Conditional Logic panel.
 
 * * *
 
@@ -305,6 +638,10 @@ Check that each survey field has a unique Query Key, then refresh the panel.
   
 
 
-  * [Math Calculations in Forms/Surveys](<https://help.gohighlevel.com/support/solutions/articles/155000003634-math-calculations-in-forms-surveys>)
-  * [Survey Create Contact on Partial Completion](<https://help.gohighlevel.com/support/solutions/articles/155000004191-survey-create-contact-on-partial-completion>)
-  * [Workflow Trigger - Survey Submitted](<https://help.gohighlevel.com/support/solutions/articles/155000003259-workflow-trigger-survey-submitted>)[](<https://help.gohighlevel.com/support/solutions/articles/48001224541-how-to-build-a-survey-in-gohighlevel>)
+  * [](<https://help.gohighlevel.com/support/solutions/articles/155000003634-math-calculations-in-forms-surveys>)[Math Calculations in Forms/Surveys](<https://help.gohighlevel.com/en/support/solutions/articles/155000003634>)  
+  
+
+  * [](<https://help.gohighlevel.com/support/solutions/articles/155000004191-survey-create-contact-on-partial-completion>)[Survey Create Contact on Partial Completion](<https://help.gohighlevel.com/en/support/solutions/articles/155000004191>)[](<https://help.gohighlevel.com/support/solutions/articles/155000003259-workflow-trigger-survey-submitted>)
+
+
+#

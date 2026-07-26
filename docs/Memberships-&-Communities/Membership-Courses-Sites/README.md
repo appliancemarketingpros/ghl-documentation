@@ -20,7 +20,7 @@
 - [How to Add Funnels as Lessons in HighLevel Courses](How to Add Funnels as Lessons in HighLevel Courses.md)
 - [How To Build Courses / Membership Sites](How To Build Courses Membership Sites.md)
 - [How to Create a Product and Attach It to a Membership Course Offer](How to Create a Product and Attach It to a Membership Course Offer.md)
-- [How to Create a Whitelabel Membership App (PWA)](How to Create a Whitelabel Membership App (PWA).md)
+- [How to Create a Whitelabel Membership PWA in Legacy Memberships](How to Create a Whitelabel Membership PWA in Legacy Memberships.md)
 - [How to Create Assessments/ Quizzes for Membership Courses](How to Create Assessments Quizzes for Membership Courses.md)
 - [How to Grant Access to Membership Courses Using Workflows](How to Grant Access to Membership Courses Using Workflows.md)
 - [How to Manage Comments In Memberships](How to Manage Comments In Memberships.md)

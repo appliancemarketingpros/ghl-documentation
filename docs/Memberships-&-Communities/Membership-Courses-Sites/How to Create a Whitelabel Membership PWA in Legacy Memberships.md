@@ -1,12 +1,21 @@
-# How to Create a Whitelabel Membership App (PWA)
+# How to Create a Whitelabel Membership PWA in Legacy Memberships
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/48001224426-how-to-create-a-whitelabel-membership-app-pwa-](https://help.gohighlevel.com/support/solutions/articles/48001224426-how-to-create-a-whitelabel-membership-app-pwa-)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/48001224426-how-to-create-a-whitelabel-membership-pwa-in-legacy-memberships](https://help.gohighlevel.com/support/solutions/articles/48001224426-how-to-create-a-whitelabel-membership-pwa-in-legacy-memberships)  
 **Category:** Memberships & Communities  
 **Folder:** Membership/Courses Sites
 
 ---
 
 Creating a whitelabel membership Progressive Web App (PWA) allows businesses to offer a seamless, branded experience without the need for a traditional mobile app. This guide walks you through setting up, customizing, and deploying your PWA using HighLevel. You'll also find installation instructions, and comparisons with native mobile apps.
+
+  
+
+    
+    
+    **Important:** The Membership PWA is available only in the Legacy Memberships experience. It is not supported in the Client Portal experience. If your location is using Client Portal, switch to Legacy Memberships before configuring the PWA.
+
+  
+
 
 * * *
 
@@ -17,12 +26,9 @@ Creating a whitelabel membership Progressive Web App (PWA) allows businesses to 
   * Why You Should Consider Creating a PWA : Key Differences
   * Prerequisites: Prepare Your Membership and Branding
   * How to Set Up Your Whitelabel Membership PWA
+  * Troubleshooting the Membership PWA
   * Frequently Asked Questions
-
-
-* * *
-
-  
+  * Related Articles
 
 
 * * *
@@ -39,6 +45,11 @@ A Progressive Web App (PWA) is a web-based application that provides a mobile ap
 
 Unlike native mobile apps, PWAs are accessed through a web browser and can be installed directly onto a user's device without going through Apple’s App Store or Google Play. This makes them a flexible and cost-effective alternative for businesses wanting to offer an app-like experience without the complexity of native app development.
 
+  
+
+
+In HighLevel, the Membership PWA is part of the Legacy Memberships experience. It is separate from the Client Portal and Client Portal mobile app.
+
 * * *
 
 ## **Key Benefits of Using a Whitelabel Membership PWA**
@@ -52,19 +63,7 @@ Unlike native mobile apps, PWAs are accessed through a web browser and can be in
   
 
 
-  * **Offline Access:** Users can access previously loaded content even when offline.
-
-
-  
-
-
-  * **SEO Benefits:** PWAs are indexable by search engines, improving discoverability.
-
-
-  
-
-
-  * **Faster Load Times:** Optimized performance for a smooth user experience.
+  * **App-Like Experience:** Learners can open the membership portal from their Home Screen, desktop, or application launcher.
 
 
 * * *
@@ -78,8 +77,8 @@ Feature| PWA| Native Mobile App
 ---|---|---  
 Installation| Installed via browser, no app store required| Downloaded from App Store/Google Play  
 Updates| Automatically updated when refreshed| Requires manual updates via app stores  
-Offline Capability| Limited offline access with cached content| Full offline functionality  
-Push Notifications| Supported on Android (limited on iOS)| Fully supported  
+Offline Capability| Internet access is generally required; availability of previously loaded content may vary.| Full offline functionality  
+Push Notifications| Availability depends on the device, browser, operating system, and HighLevel feature support.| Fully supported  
 Performance| Fast and lightweight| Generally faster for complex apps  
 Approval Process| No app store approval required| Subject to App Store/Google Play guidelines  
   
@@ -98,12 +97,12 @@ Before configuring your Membership PWA, it’s important to ensure your branding
   
 
 
-**Customize Your Branding:** Go to Memberships > Settings > Branding. Upload your business logo, choose your color scheme, and add a favicon for browser tab branding. These visual elements appear throughout the app and reinforce your brand identity.
+**Customize Your Branding:** Switch to Legacy Memberships, then navigate to **Memberships > Courses > Settings** and configure the available branding and app settings. Upload your business logo, choose your color scheme, and add a favicon for browser tab branding. These visual elements appear throughout the app and reinforce your brand identity.
 
   
 
 
-**Set Up Your Membership Structure:** Navigate to Memberships > Products. Create product tiers, add courses, and configure pricing and access levels. Organizing your content now ensures a smooth learning journey inside the PWA.
+**Set Up Your Membership Structure:** In Legacy Memberships, navigate to **Memberships > Courses > Products** to create or review your courses, offers, access levels, and related content. Create product tiers, add courses, and configure pricing and access levels. Organizing your content now ensures a smooth learning journey inside the PWA.
 
   
 
@@ -127,7 +126,7 @@ Once these steps are complete, you’re ready to begin configuring your Membersh
   
 
 
-To begin setting up your Membership PWA, navigate to the Memberships section in the left-hand menu, then use the top navigation bar to go to Courses > Settings. This will open the Membership Settings area, where you’ll find key configuration options.
+To begin setting up your Membership PWA, In the sub-account, navigate to **Memberships**. If Client Portal opens, use the Memberships switcher to move to **Legacy Memberships**. Then select **Courses > Settings** from the top navigation menu. This will open the Membership Settings area, where you’ll find key configuration options.
 
   
 
@@ -147,6 +146,11 @@ Once you’ve navigated to Courses > Settings, you’ll land on the main configu
   
 
 
+If the **App Settings** tile is not visible, confirm that the location is using Legacy Memberships rather than Client Portal.
+
+  
+
+
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155043790991/original/xDipl4dNfcTNskX1LzA_GSVxyZljptM94w.png?1742714874)
 
   
@@ -160,12 +164,12 @@ Once you’ve navigated to Courses > Settings, you’ll land on the main configu
   
 
 
-Enabling PWA installation allows your users to “install” your app on their devices just like a native app, improving accessibility and engagement. Once enabled, users visiting your PWA on compatible browsers (Chrome, Safari, Edge) will see an installation option or prompt.
+Enabling PWA installation allows your users to “install” your app on their devices just like a native app, improving accessibility and engagement. Once enabled, After PWA installation is enabled, learners can install it from supported browsers. The available installation option and wording vary by browser, operating system, and device.
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155043790999/original/47KSfeV99d_O7408PxXFpmpJvPdKCnzi2A.png?1742714903)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076517577/original/BOTGuB2amhBSSHAJ6yt9yLrov4SsGlvq4w.png?1784648504)
 
   
 
@@ -258,12 +262,12 @@ After you’ve entered your app details, uploaded icons, and chosen your theme c
 
 * * *
 
-**Installing PWA on a Windows Computer:**
+**Installing the PWA on a Windows Computer:**
 
   
 
 
-After you are done customizing and enabling your Memberships WPA, all that is needed to be done by your client is for them to click on this icon in their Browser Address Bar in **Chrome, when logging in to your Memberships Login Portal:**
+After you are done customizing and enabling your Membership PWA, all that is needed to be done by your client is for them to click on this icon in their Browser Address Bar in **Chrome, when logging in to your Memberships Login Portal:**
 
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48261426288/original/MbJoVwLdImX7MlCkuaUrRXz-474N0gpvdQ.png?1667582738)
@@ -274,7 +278,7 @@ After you are done customizing and enabling your Memberships WPA, all that is ne
   
 
 
-And it would allow them to access your WPA on their desktop as a shortcut:
+And it would allow them to access your PWA on their desktop as a shortcut:
 
   
 
@@ -288,18 +292,66 @@ And it would allow them to access your WPA on their desktop as a shortcut:
   
 
 
-Once your PWA configurations are complete and PWA is enabled, only using a Chrome browser your clients would be able to download the Memberships PWA by clicking here when logging in to your Memberships Login Portal:  
+#### **Chrome or Microsoft Edge**
+
+  1. Open the Membership login portal.  
+  
+
+  2. Sign in to the membership account.  
+  
+
+  3. Select the install icon in the browser address bar.  
+  
+
+  4. Confirm the installation.
+
+
+####   
+
+
+#### **Safari on supported macOS versions**
+
+  
+
+
+  1. Open the Membership portal in Safari.  
+  
+
+  2. Select **File > Add to Dock**.  
+  
+
+  3. Enter the app name.  
+  
+
+  4. Select **Add**.
+
+
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48261435611/original/p4ATAFL_gbARRLkJuKIPjBtPuF03iwQa1Q.png?1667586436)
 
 * * *
 
-### **Installing PWA on an Android Mobile device:**
+### **Installing PWA on an Android device:**
 
   
 
 
-PWA is only supported on a Chrome browser in an Android device. It can be installed by Adding the PWA to your Home Screen from your Chrome browser as in the video below.
+For the most consistent installation experience, open the Membership login portal in Google Chrome. It can be installed by Adding the PWA to your Home Screen from your Chrome browser as in the video below.
+
+  
+
+
+  * Sign in to the membership account.  
+  
+
+  * Open the Chrome menu.  
+  
+
+  * Select **Install app** or **Add to Home screen**.  
+  
+
+  * Follow the on-screen instructions.
+
 
   
   
@@ -312,11 +364,59 @@ PWA is only supported on a Chrome browser in an Android device. It can be instal
   
 
 
-On an iOS Mobile device, only Safari (versions 11.3+) is supported for PWA. On your iPhone/iPad, open Safari and open the memberships website. Follow the onscreen pop-up instructions as follows:
+  * Open the Membership login portal in Safari.  
+  
+
+  * Sign in to the membership account.  
+  
+
+  * Tap the **Share** icon.  
+  
+
+  * Select **Add to Home Screen**.  
+  
+
+  * Review the app name and tap **Add**.
+
 
   
   
 
+
+  
+
+
+* * *
+
+## **Troubleshooting the Membership PWA**
+
+  
+
+
+**App Settings is not visible**
+
+Confirm that the location is using Legacy Memberships. The Membership PWA cannot be configured from the Client Portal experience.
+
+  
+
+
+**The installation option does not appear**
+
+Confirm that PWA installation is enabled and the settings have been saved. Open the published Membership portal using HTTPS, sign in through a supported browser, and check the browser menu for Install app or Add to Home Screen.
+
+  
+
+
+**Updated branding is not appearing**
+
+Remove the previously installed PWA, clear the relevant browser cache, reopen the Membership portal, and install the PWA again.
+
+  
+
+
+**Users are opening Client Portal instead**
+
+Confirm which membership experience is active and switch to Legacy Memberships before using the Membership PWA.
 
 * * *
 
@@ -327,21 +427,26 @@ On an iOS Mobile device, only Safari (versions 11.3+) is supported for PWA. On y
 
 **Q: Can I still submit my PWA to the App Store?**
 
-Yes, but you’ll need to package it as a native wrapper using tools like PWABuilder or Capacitor.
+The Membership PWA is designed to be installed directly from a supported browser. Packaging it with a third-party native wrapper is outside HighLevel’s standard Membership PWA setup and may require developer support and separate compliance with Apple or Google requirements.
+
+  
+
+
+For a supported branded native app experience, review HighLevel’s Client Portal Branded Mobile App options.
 
   
 
 
 **Q: Does my PWA work offline?**
 
-Yes, but only for previously loaded content. A full offline experience requires advanced caching strategies.
+An internet connection is generally required to sign in, load courses, and access current membership content. Previously loaded content may remain temporarily available depending on the device and browser, but complete offline access is not guaranteed.
 
   
 
 
 **Q: Can I send push notifications with a PWA?**
 
-Push notifications work on Android but have limited support on iOS.
+Push-notification availability depends on the device, browser, operating system, and notification functionality supported by HighLevel. Installing the Membership PWA does not automatically enable push notifications.
 
   
 
@@ -349,3 +454,18 @@ Push notifications work on Android but have limited support on iOS.
 **Q: Do I need a developer to set up a whitelabel PWA?**
 
 No, HighLevel's interface makes it easy to configure without coding skills.
+
+* * *
+
+### **Related Articles**
+
+  
+
+
+  * [How to Set Up the Client Portal ](<https://help.gohighlevel.com/en/support/solutions/articles/155000000193>)  
+  
+
+  * [Client Portal App – Custom Mobile App Notifications ](<https://help.gohighlevel.com/en/support/solutions/articles/155000004592>)  
+  
+
+  * [Legacy Membership to Client Portal Migration ](<https://help.gohighlevel.com/en/support/solutions/articles/155000002045>)

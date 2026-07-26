@@ -9,8 +9,6 @@
 - [Pre-Built A2P Campaign (Widget-First) Registration Flow](Pre-Built A2P Campaign (Widget-First) Registration Flow.md)
 - [Getting Started with A2P 10DLC](Getting Started with A2P 10DLC.md)
 - [How to get your phone number A2P approved in 2026](How to get your phone number A2P approved in 2026.md)
-- [Revamped Trust Center and A2P experience](Revamped Trust Center and A2P experience.md)
-- [Email OTP Verification for Secure A2P Brand Registration](Email OTP Verification for Secure A2P Brand Registration.md)
 - [A2P 10DLC Messaging Fees: Registration, Monthly, and Carrier Costs](A2P 10DLC Messaging Fees Registration, Monthly, and Carrier Costs.md)
 - [Updated Messaging Policies for Canadian 10DLC Numbers: A2P Registration Requirements](Updated Messaging Policies for Canadian 10DLC Numbers A2P Registration Requirements.md)
 - [A2P Campaign Registration: Step by Step Guide and FAQs](A2P Campaign Registration Step by Step Guide and FAQs.md)

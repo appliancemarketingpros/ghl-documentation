@@ -6,7 +6,7 @@
 
 ---
 
-This article shows you how to generate and edit images directly in HighLevel using Ask AI. Whether you’re creating social posts, crafting email designs, or working on a website, you can now easily generate and edit images with natural, conversational prompts.
+This article explains how to generate, edit, and describe images with Ask AI. You can create images from conversational prompts, modify generated or attached images, and ask questions about an image. Ask AI also supports multiple aspect ratios for social posts, Stories, videos, banners, portrait graphics, and landscape content.
 
 * * *
 
@@ -15,9 +15,7 @@ This article shows you how to generate and edit images directly in HighLevel usi
   * What is Generating & Editing Images with Ask AI? 
   * Key Benefits of Generating & Editing Images with Ask AI
   * How To Generate and Edit Images with Ask AI 
-    * 1: Generate & Edit Images in the Ask AI Modal
-    * 2\. Edit Images Generated via Content AI
-    * 3\. Save or Copy Images
+  * Supported Aspect Ratios
   * Example Use Cases
   * Session-Aware Editing & History
   * Frequently Asked Questions
@@ -31,7 +29,12 @@ This article shows you how to generate and edit images directly in HighLevel usi
   
 
 
-Generating and editing images with Ask AI is an innovative feature that enables users to create and refine images through natural language prompts. By leveraging advanced AI, it simplifies the process of visual content creation and iterative image editing, ensuring that your visuals are as dynamic and engaging as your ideas.
+Ask AI helps you create and work with images through natural-language prompts. You can generate a new image, edit an existing image, or attach an image and ask Ask AI to describe or analyze it.
+
+  
+
+
+When generating an image, you can specify an aspect ratio or describe the intended platform or use case. Ask AI uses that information to create an appropriately formatted image.
 
 * * *
 
@@ -175,6 +178,66 @@ After any generation or edit:
 
 * * *
 
+## **Supported Aspect Ratios**
+
+  
+
+
+Ask AI supports the following aspect ratios:
+
+  
+
+
+Aspect ratio| Common use  
+---|---  
+1:1| Square posts and profile images  
+4:5| Instagram feed posts  
+9:16| Stories, Reels, and TikTok content  
+16:9| YouTube thumbnails and banners  
+21:9| Cinematic graphics and wide headers  
+2:3| Portrait images  
+3:4| Portrait images  
+3:2| Landscape images  
+4:3| Landscape images  
+5:4| Landscape images  
+  
+  
+
+
+Include the ratio **directly** **in** **the** **prompt** when you need a specific format.
+
+  
+
+
+**Example:**
+
+  
+
+
+Create a cinematic city skyline at night in a 21:9 aspect ratio.
+
+  
+
+
+You can also describe the intended platform or use case.
+
+  
+
+
+**Example:**
+
+  
+
+
+Create an image for an Instagram Story promoting a summer event.
+
+  
+
+
+Ask AI uses the prompt’s intent to determine an appropriate image format when you do not specify a ratio.
+
+* * *
+
 ## **Example Use Cases**
 
   
@@ -233,6 +296,20 @@ Yes, you can include details like “cartoon,” “realistic,” or “3D” in
 **Q: Where are the generated images stored?**
 
 Images are initially saved within your Ask AI session. Click “Save” to transfer an image to your Media Library.
+
+  
+
+
+**Q: How do I select an aspect ratio?**
+
+Include the aspect ratio in your prompt. For example, enter “Create a product image in a 4:5 aspect ratio.”
+
+  
+
+
+**Q: Can Ask AI choose the aspect ratio automatically?**
+
+Yes. Describe the intended platform or use case in your prompt, such as an Instagram Story or YouTube thumbnail. Ask AI uses that intent to select an appropriate format.
 
   
 

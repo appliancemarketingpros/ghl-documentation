@@ -72,6 +72,13 @@ Canada| $0.00747| $0.00747
   
 A 10% discount is applied to the $0.0083 list price for both local and toll-free numbers.
 
+  
+
+
+Note
+
+For all other countries, refer to the country-specific sms pricing PDFs attached at the bottom of this page.
+
 MMS
 
 Per-segment pricing — US, Canada & Australia
@@ -82,7 +89,9 @@ US| $0.0220| $0.0165 (Local) / $0.0200 (Toll-free)
 Canada| $0.0220| $0.0165 (Local) / $0.0200 (Toll-free)  
 Australia| $0.3500| $0.3500 (Local & Toll-Free)  
   
-For segment calculation details, refer to the [How to Calculate SMS and MMS Costs](<https://help.gohighlevel.com/support/solutions/articles/48001203458-how-to-calculate-sms-and-mms-costs>) guide.
+For segment calculation details, refer to the [How to Calculate SMS and MMS Costs](<https://help.gohighlevel.com/support/solutions/articles/48001203458-how-to-calculate-sms-and-mms-costs>) guide.  
+  
+
 
 Carrier Fees
 
@@ -222,9 +231,9 @@ How Re-billing Works
 
 The 5% markup above always applies to the categories listed. If your agency has re-billing enabled, your configured re-billing amount is applied in addition to this markup.
 
-  * **Re-billing enabled:**   
+  * **Re-billing enabled:**  
 Base cost → +5% location markup → + agency's configured re-billing amount.
-  * **Re-billing disabled:**   
+  * **Re-billing disabled:**  
 Base cost → +5% location markup only. No additional re-billing markup is added.
 
 

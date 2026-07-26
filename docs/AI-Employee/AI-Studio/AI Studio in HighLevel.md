@@ -925,6 +925,43 @@ Follow the steps below to clone a project:
   4. Click **Clone**.
 
 
+  
+
+
+  
+
+
+### **Share Projects Using Snapshots**
+
+  
+
+
+You can also use Snapshots to share multiple AI Studio projects across agencies or sub-accounts. Snapshots let you package selected projects from a source sub-account and reuse them in existing sub-accounts or when creating new ones.
+
+  
+
+
+Use Snapshots when you want to:  
+  
+
+
+  * Share multiple AI Studio projects at once  
+  
+
+  * Create reusable project templates  
+  
+
+  * Standardize AI Studio setups across sub-accounts  
+  
+
+  * Speed up onboarding without cloning each project individually
+
+
+  
+
+
+To create and use a Snapshot, see [Creating New Snapshots in HighLevel.](<https://help.gohighlevel.com/en/support/solutions/articles/48000982512>)
+
 * * *
 
 ## **Submission Data of your Project**

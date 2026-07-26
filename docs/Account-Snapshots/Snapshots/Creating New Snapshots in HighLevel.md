@@ -148,11 +148,11 @@ HighLevel preserves the full hierarchy: Campaign Group → Campaign → Ad.
 
     
     
-    Note: Lead Gen Forms are not included in snapshots.
+    **Note:** Lead Gen Forms are not included in snapshots.
     
     
     
-    **Note:** Associations between CRM objects are included automatically in snapshots as long as both objects in the relationship are selected. Contact-to-Contact associations are not supported at this time.
+    **Note:** Associations between CRM objects are included automatically in snapshots as long as both objects in the relationship are selected. Contact-to-Contact associations are not supported at this time.
 
   
 
@@ -173,7 +173,7 @@ You build a sub-account, not the snapshot itself. Then you capture that sub-acco
 
 
 **Q: What’s included in a snapshot?**  
-Included: Workflows, Funnels, Calendars, Forms, Emails, Triggers, Custom Fields, Custom Values,Membership content, Services, Webinars and more.
+Included: Workflows, Funnels, Calendars, Forms, Emails, Triggers, Custom Fields, Custom Values, Membership content, Services, Webinars, AI Studio projects and more.
 
   
 

@@ -46,6 +46,10 @@ What Data Points Does Google Postmaster Tools Provide?
 
 7
 
+Reauthentication & Migrate to Postmaster Tools API v2
+
+8
+
 Frequently Asked Questions
 
 1
@@ -170,7 +174,7 @@ Grant Required Permissions
 
 On the permissions screen, **check the box** next to:
 
-**✓**  _"See email traffic metrics for the domains you have registered in Gmail Postmaster Tools."_
+**✓** _"See email traffic metrics for the domains you have registered in Gmail Postmaster Tools."_
 
 Then click **Continue** to complete the connection.
 
@@ -206,6 +210,52 @@ Feedback Loop| User-reported spam complaints, used to help you reduce spam rate 
   
 7
 
+## Reauthentication & Migrate to Postmaster Tools API v2
+
+Google has released a new version of the Postmaster Tools API. To move your connection over, you'll re-authenticate from the Postmaster Tools tab — no need to disconnect and reconnect from scratch.
+
+Step 1
+
+Look for the Re-Authenticate Button
+
+On the Google Postmaster tab, you'll see a banner letting you know Google has released new Postmaster data, along with a **Re-Authenticate** button next to **Revoke**.
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076653375/original/aqXoawyAJkhc9wqJiuGSGfsuBMTMV2Q96w.png?1784790598)
+
+The Re-Authenticate and Revoke actions appear once Google has new Postmaster data available for your account.
+
+Step 2
+
+Re-Authenticate With Google
+
+Click **Re-Authenticate**. You'll be redirected to your Google account to confirm access, the same way you did during the original connection.
+
+Step 3
+
+You're Switched to v2
+
+Once reauthentication completes, your connection is automatically switched to **Postmaster Tools API v2**. The banner and the Re-Authenticate button disappear from the connection card.
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076653403/original/IRcqgtDmkR6jZyc5AJmfW8IL4XolZuGHpA.png?1784790625)
+
+After migrating, each connected domain shows its compliance status, delivery error rate, and spam ratio right on the card.
+
+Version 2 of the Postmaster Tools API consolidates existing functionality and adds new capabilities for retrieving email statistics. With v2, you can now
+
+**See a new Compliance Status tab** — inside the platform, covering whether each requirement is passing or failing for a domain. All other tabs (User Reported Spam, Spam Feedback, Authenticated Traffic, Encrypted Traffic, Delivery Errors) stay the same.
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076653418/original/up0jGxwp_N-Jthih8_Y_xTnROjvtEts9cA.png?1784790644)
+
+The Compliance Status tab breaks down every Gmail sender requirement — SPF & DKIM, From: header alignment, DMARC, encryption, spam rate, DNS records, and one-click/honor unsubscribe — for both the sub domain and primary domain.
+
+Note
+
+The IP Reputation and Domain Reputation tabs will soon be deprecated by Google. Google has not shared an ETA for when this will happen.
+
+Learn more: [Google's Postmaster Tools reputation dashboard deprecation notice](<https://support.google.com/mail/answer/16594218?hl=en#zippy=%2Cwhat-is-deprecated%2Cwhy-is-the-reputation-dashboard-being-deprecated%2Cwhat-about-the-dashboards-in-the-old-postmaster-tools>).
+
+8
+
 ## Frequently Asked Questions
 
 Q: Is Google Postmaster Tools free?
@@ -235,3 +285,7 @@ No. The integration only requests read access to the email traffic metrics for t
 Q: Can I disconnect Postmaster Tools later?
 
 Yes. You can revoke access at any time from your Google account permissions, and disconnect the integration from Settings → Email Services → Postmaster Tools inside the platform.
+
+Q: Do I have to re-authenticate to keep using Postmaster Tools?
+
+Re-authenticating is how you migrate to API v2 and grant access to the newly available compliance metrics. If you don't re-authenticate, your existing connection keeps working, but you won't see the new Compliance Status tab or date-range reporting until you do.
