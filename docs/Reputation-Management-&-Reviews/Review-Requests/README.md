@@ -10,7 +10,6 @@
 - [Reputation Management - Customizing & Displaying the Review Widget](Reputation Management - Customizing & Displaying the Review Widget.md)
 - [Call Tracking and Missed Call Text Back Through Google Business Profile](Call Tracking and Missed Call Text Back Through Google Business Profile.md)
 - [Reputation - Breaking Down the Reputation Overview Dashboard](Reputation - Breaking Down the Reputation Overview Dashboard.md)
-- [Reputation - Breaking Down the Reviews Tab](Reputation - Breaking Down the Reviews Tab.md)
 - [Customizing Review Widgets in Reputation](Customizing Review Widgets in Reputation.md)
 - [Maximizing Customer Engagement with Reviews AI: A Guide to Suggestive and Auto-Pilot Modes](Maximizing Customer Engagement with Reviews AI A Guide to Suggestive and Auto-Pilot Modes.md)
 - [How to Set up Digital QR Code for Maximising Review Generation](How to Set up Digital QR Code for Maximising Review Generation.md)
@@ -24,3 +23,4 @@
 - [Integrating Multiple Review Platforms to Manage and Monitor Reviews](Integrating Multiple Review Platforms to Manage and Monitor Reviews.md)
 - [How to send recurring emails with multiple email templates](How to send recurring emails with multiple email templates.md)
 - [Reputation Management: Personalize Recurring Emails with Custom Templates](Reputation Management Personalize Recurring Emails with Custom Templates.md)
+- [Multi-Channel Review Requests](Multi-Channel Review Requests.md)

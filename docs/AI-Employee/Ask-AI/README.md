@@ -22,3 +22,4 @@
 - [How to Provide Feedback on Ask AI Responses](How to Provide Feedback on Ask AI Responses.md)
 - [How to Use Ask AI to Create and Manage Courses](How to Use Ask AI to Create and Manage Courses.md)
 - [How to setup the Ask AI LeadConnector Chrome Extension](How to setup the Ask AI LeadConnector Chrome Extension.md)
+- [Ask AI Templates](Ask AI Templates.md)

@@ -10,6 +10,24 @@ Email Notifications in Forms & Surveys offer a convenient way to stay updated on
 
 * * *
 
+**TABLE OF CONTENTS**
+
+  * What are Email Notifications in Forms & Surveys?
+  * Key Benefits of Email Notifications in Forms & Surveys
+  * Finding Notification Icon
+  * Navigate to Forms or Surveys
+  * Select or Create a Form or Survey
+  * Open the Notification Sidebar
+  * Configure Email Notifications
+  * Attach the submission as a PDF 
+  * How it works
+  * Configure Auto Responder
+  * How to View Survey Responses After Receiving an Email Notification
+  * Frequently Asked Questions
+
+
+* * *
+
 # **What are Email Notifications in Forms & Surveys?**
 
   
@@ -68,6 +86,15 @@ The notification option is found in the form editor's secondary bar. From here, 
   
 
 
+### **Access Notification Settings**
+
+  
+
+
+Notification settings are available from the dedicated Notifications tab in the Form and Survey builders. From this tab, you can configure internal email notifications and Auto Responder emails.
+
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076931433/original/ei3C2iFHEPnGjHnArctHL9mqKo2_-5INrQ.png?1785156510)  
   
 
 
@@ -76,30 +103,13 @@ The notification option is found in the form editor's secondary bar. From here, 
   
 
 
-Go to Sites → Forms (or Sites → Surveys) from the top navigation bar. This is where all your forms or surveys are stored and managed.
+Go to Sites → Forms or Sites → Surveys. Select an existing form or survey, or create a new one.
 
+  
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054693559/original/grjS3_gBCCE79cDoTv7IQOAw3QRWGTr47Q.png?1758896344)
-
-  
-
-
-  
-
-
-### **Select or Create a Form or Survey**
-
-  
-
-
-In the dashboard, you can either select an existing form or survey from the list or click the Add Form button in the top right to create a new one.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054693581/original/-AvTQAy2mn-ZUTtdDO_wex_D174Q6TyCPw.png?1758896368)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076931864/original/6bfoco2K1JFXPJXBCld6ssjI-vhJIqsrFw.png?1785156688)
 
   
 
@@ -112,12 +122,13 @@ In the dashboard, you can either select an existing form or survey from the list
   
 
 
-Inside the form or survey editor, click the Bell icon in the secondary bar. This opens the Form Notification panel on the left side of the screen.
+Inside the Form or Survey builder, select the Notifications tab. The notification settings panel opens, where you can configure email notifications and Auto Responder emails.
 
+  
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054693673/original/djiUT4bnc0JX_yWrRrp5xDImOb2uWwQR0A.png?1758896413)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076932032/original/rzRxfRZCSRbbcnc576qukjTQoDa57Zn2AA.png?1785156768)
 
 * * *
 
@@ -126,55 +137,43 @@ Inside the form or survey editor, click the Bell icon in the secondary bar. This
   
 
 
-The Email Notifications sidebar allows you to configure who receives alerts and how the email appears.
+Open the Notifications tab, then enable Email Notification.
 
   
 
 
-Configuring email notifications properly ensures that the right team members are informed, and that your notifications appear consistent with your organization’s standards.
+Complete the following fields:
 
   
 
 
-Click the **Bell icon** in the form editor. Toggle on **Email Notification**.
-
-Fill out the configuration fields:
+**Subject:** Enter the notification email subject. If you leave this field blank, HighLevel uses the form or survey name.
 
   
 
 
-  * **Subject** : Enter a subject line. If left blank, the form or survey name will be used. You can also include a custom field.
-
-
-  
-
-
-  * **Email (To)** : Enter one or multiple email addresses. Each address will convert into a tag.
-
+**Email (To):** Enter one or more recipient email addresses.
 
   
 
 
-  * **Reply-to Email** : Add the email address you want replies directed to.
-
-
-  
-
-
-  * **Sender Name** : If left empty, the location or agency name will be used by default.
-
+**Reply-to Email:** Enter the email address that receives replies.
 
   
 
 
-  * **Save** your changes.
+**Sender Name:** Enter the sender name. If you leave this field blank, HighLevel uses the location or agency name.
 
+  
+
+
+Select **Save** to apply your changes.
 
   
 
     
     
-    **Note:** Email notifications use email credits. Ensure your account has credits available.
+    **Note:** Email notifications use email credits. Confirm that your account has sufficient credits.
 
   
 
@@ -182,7 +181,62 @@ Fill out the configuration fields:
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054693910/original/HPewSlXztrt9mIgJ-Jf5adgB7_kjf_k7YQ.png?1758896549)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076942042/original/GDdHD5uUbhTTETzjwHu0CFkHJKFzo7aMog.png?1785160653)
+
+##   
+
+
+### **Attach the submission as a PDF**
+
+  
+
+
+You can automatically attach a submission PDF to your email notifications. When enabled, HighLevel generates a PDF of the submitted Form/Survey/Quiz and includes it as an attachment—no manual download required.
+
+####   
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076942278/original/kwKXiDwHIumUlBcZ9rhnX7hL9wUz927b2g.png?1785160702)
+
+  
+
+
+  
+**How it works**  
+  
+
+
+  * The attachment is generated from the submission record at send time.  
+  
+
+
+  * Use the **PDF layout selector** in the submissions view if you need to compare **New** vs **Old** formatting.   
+  
+
+
+#### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064679075/original/egAEc1KiVMiWY-gZxSylv4XPEWXrN123Zg.png?1770811503)
+
+####   
+
+
+**Steps**  
+  
+
+
+  1. Open the form or survey editor and click the Notification tab open notifications.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076942482/original/sN5uVYaYGhWDzNb9aQIP4zjOKZ36KmL-hQ.png?1785160784)  
+  
+
+  2. Enable Email Notification or Auto Responder.  
+  
+
+  3. Auto Responder sends an automated email to the person who submits the form (email includes a copy of the information they entered in the form).  
+  
+
+
+  4. Save your changes.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076942515/original/LI1ZKg19SaF6hafvDFiMGDNBZ_1CSZC-tA.png?1785160813)
+
 
 * * *
 
@@ -191,12 +245,17 @@ Fill out the configuration fields:
   
 
 
-Auto Responder sends an automated email to the contact who submitted the form.
+Auto Responder sends an email to the contact after they submit the form or survey.
 
   
 
 
-Auto Responder helps build trust with contacts by instantly acknowledging their submission and optionally sending them a copy of their responses.
+Open the Notifications tab, then enable Auto Responder.
+
+  
+
+
+Complete the available email fields, then select Save.
 
   
 
@@ -236,17 +295,18 @@ Fill out the configuration fields:
 
     
     
-    **Note:** The Reply-To you set here applies only to the auto-responder email that goes to the submitter. It does not affect the team notification email.
+    **Note:** The Reply-To you set here applies only to the auto-responder email that goes to the submitter. It does not affect the team notification email. Replies to this notification will go to the address set in the "Reply-to-email" field".
+
+  
+
     
-    Replies to this notification will go to the address set in the "Reply-to-email" field".
+    
+    **Test Your Notification Settings:** After saving the form or survey, open its preview and submit a test response. Confirm that the internal notification and Auto Responder email reach the intended recipients.
 
   
 
 
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054694119/original/4VHPEtW8lADxTHpSPlE2Q2qzoZ3dlteOtA.png?1758896677)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076942623/original/dIVyrbNpxS6lNQ7uFvwq-NVYjPyiE2kjzQ.png?1785160848)
 
 * * *
 
@@ -260,13 +320,21 @@ Email notifications serve as alerts only and do not include full survey response
   
 
 
-**Steps:**
+**Steps:**  
+  
 
-  1. Navigate to **Sites** from the left-hand menu.
 
-  2. Select the **Surveys** tab, then click **Submissions**.
+  1. Navigate to **Sites** from the left-hand menu.  
+  
 
-  3. Review the list of submissions with timestamps and answers.
+
+  2. Select the **Surveys** tab, then click **Submissions**.  
+  
+
+
+  3. Review the list of submissions with timestamps and answers.  
+  
+
 
   4. Click an individual entry to see all responses.
 

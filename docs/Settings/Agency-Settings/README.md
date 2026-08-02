@@ -19,3 +19,4 @@
 - [Unified Payment Options Across All SaaS Locations](Unified Payment Options Across All SaaS Locations.md)
 - [In-App Banner Management](In-App Banner Management.md)
 - [Snapshot Version Management](Snapshot Version Management.md)
+- [Add Funds to Your Agency Wallet Using ACH Direct Debit](Add Funds to Your Agency Wallet Using ACH Direct Debit.md)

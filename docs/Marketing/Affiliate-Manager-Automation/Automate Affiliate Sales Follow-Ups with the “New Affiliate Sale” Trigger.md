@@ -6,7 +6,7 @@
 
 ---
 
-Want to save time and engage affiliates automatically after a sale? The New Affiliate Sale trigger in Workflows lets you do exactly that. Whether it’s sending a congratulatory message or reminding an affiliate to add payout details—this trigger handles it all for you.
+Want to save time and maintain communication with Contacts after an affiliate sale? The New Affiliate Sale trigger in Workflows helps you automatically follow up with the buyer, notify your team, organize affiliate-generated customers, and run other actions after a successful sale. Because the workflow commonly runs on the buyer’s Contact record, standard actions such as Send Email or Send SMS may contact the buyer rather than the affiliate.
 
 * * *
 
@@ -200,6 +200,38 @@ Here are a few examples of how to put the Affiliate Sales Trigger to use:
   
   
 By implementing these automations, businesses can create a seamless experience for both affiliates and customers, enhancing satisfaction, engagement, and performance.
+
+* * *
+
+## **Frequently Asked Questions**
+
+**Q: Does the New Affiliate Sale trigger run on the affiliate or the buyer?**  
+The workflow commonly runs on the buyer’s Contact record. Standard Contact actions may therefore affect or message the buyer unless you use an affiliate-specific action.  
+  
+
+
+**Q: Can I use Send Email or Send SMS to contact the affiliate?**  
+Not reliably. Standard Send Email and Send SMS actions are tied to the workflow’s primary Contact record, which may be the buyer. Use an affiliate-specific communication action when the message is intended for the affiliate.  
+  
+
+
+**Q: Can I limit the workflow to specific affiliates or campaigns?**  
+Yes. Use the Affiliate(s) or Campaign filters to control which affiliate sales can enter the workflow.  
+  
+
+
+**Q: Can the workflow remind affiliates to complete payout or tax information?**  
+Yes. Use the Payout Method Status or Tax Form Status filters, then add the appropriate follow-up action for the affiliate.  
+  
+
+
+**Q: Does the trigger work for recurring affiliate sales?**  
+Yes. The trigger can fire for one-time, recurring, and manually tracked affiliate sales.  
+  
+
+
+**Q: Can I award community leaderboard points with this trigger?**  
+Yes, but the workflow must run on the correct community group member. The trigger does not automatically switch the workflow from the buyer’s Contact record to the affiliate’s community profile.
 
 * * *
 

@@ -9,7 +9,7 @@
 - [Client Portal Dashboard](Client Portal Dashboard.md)
 - [Client Portal SSO Magic Links: Enable One-Click Access to Client Apps](Client Portal SSO Magic Links Enable One-Click Access to Client Apps.md)
 - [Notifications inside Client Portal](Notifications inside Client Portal.md)
-- [App Permissions in Client Portal: Enabling/Disabling a child app](App Permissions in Client Portal EnablingDisabling a child app.md)
+- [App Permissions in Client Portal for Enabling/Disabling a child app](App Permissions in Client Portal for EnablingDisabling a child app.md)
 - [Quick Start Guide - Kollab (iOS & Android)](Quick Start Guide - Kollab (iOS & Android).md)
 - [How to Use Assignments in Courses](How to Use Assignments in Courses.md)
 - [Subscription Management in Client Portal](Subscription Management in Client Portal.md)

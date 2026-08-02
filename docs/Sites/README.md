@@ -12,6 +12,8 @@
 
 ### [Funnel & Website Builder](Funnel-&-Website-Builder/)
 
+### [Schema Markup](Schema-Markup/)
+
 ### [Stores (E-commerce)](Stores-(E-commerce)/)
 
 ### [Analytics (Funnels, Websites, & QR Codes)](Analytics-(Funnels,-Websites,-&-QR-Codes)/)

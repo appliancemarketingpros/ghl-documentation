@@ -214,10 +214,15 @@ Number not A2P compliant. Please register for A2P.
 
 **Resolution:**
 
-  * Register your number through Twilio's Trust Hub.
+  * Make sure you have completed[ A2P 10DLC registration for your Brand and Campaign](<https://help.gohighlevel.com/en/support/solutions/articles/155000002380>). This may take some time to go through after submission before you are able to send messages.
   * Link the number to an approved Messaging Service.
   * Confirm proper campaign association.
 
+
+  
+
+
+For more information on resolving this error, see: [How to Link a Phone Number to an Approved A2P Campaign](<https://help.gohighlevel.com/en/support/solutions/articles/155000008316>)
 
 Error 30008
 

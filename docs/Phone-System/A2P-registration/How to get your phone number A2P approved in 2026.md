@@ -512,7 +512,4 @@ To reach support, click the **Help (?)** button in the upper right corner of the
   * [Understanding A2P 10DLC Messaging Fees: Registration, Monthly, and Carrier Costs](<https://help.gohighlevel.com/en/support/solutions/articles/155000005200>)  
   
 
-  * [A2P Standard Brand Registration for 10DLC](<https://help.gohighlevel.com/en/support/solutions/articles/48001225526>)  
-  
-
-  * [A2P 10DLC Campaign Rejection Reasons and Resolutions](<https://help.gohighlevel.com/en/support/solutions/articles/155000004746>)
+  * [](<https://help.gohighlevel.com/en/support/solutions/articles/48001225526>)[Registering Your A2P Brand](<https://help.gohighlevel.com/en/support/solutions/articles/155000008140>)

@@ -11,21 +11,18 @@ The client portal is a unified platform designed to provide seamless interaction
   
 
 
-#### **Covered in this Article:**
+**TABLE OF CONTENTS**
 
-#### **What is the Client Portal?**
-
-####  What are some strong usage cases for this feature?
-
-#### What are some benefits of this feature?
-
-#### **How to set up your client portal?**
-
-####  Configuring a custom Domain:
-
-#### Branding your Client Portal:
-
-  
+  * What is the Client Portal?
+    * What are some strong usage cases for this feature?
+    * What are some benefits of this feature?
+  * How to set up your client portal?
+  * Configuring a custom Domain:
+  * Branding your Client Portal:
+  * Set a Default Language (Optional)
+  * Invite Clients to your client portal.
+  * Configure Google Sign-In
+  * FAQs
 
 
 * * *
@@ -450,8 +447,52 @@ You might consider incorporating this URL into a welcome email or newsletter for
 
 Remember, your client portal is a hub for all your services. So, when sharing the URL, make sure to highlight the benefits and resources clients will gain by accessing the portal. This could include exclusive content, direct support channels, access to community (upcoming) discussions, and more.
 
+* * *
+
+## **Configure Google Sign-In**
+
   
 
+
+Sub-account admins can control whether the **Sign in with Google** option appears on the Client Portal sign-up and login pages.  
+  
+
+
+To manage this setting:
+
+  1. Go to **Client Portal settings** in the appropriate sub-account.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077252276/original/hTGW8HpqVPk_kl7a5BEN-3ZJH47ix0mcKQ.png?1785419157)  
+  
+
+
+  2. Open **App Permissions**.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077252377/original/zrgp7yPeFOMVgTdHVxzxcaNfqSF2RAMPIQ.gif?1785419187)  
+  
+
+
+  3. Turn **Google Sign-In** on or off.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077252390/original/fdboWxsMmbqb4-lgXxwK1D06S0F8HDRceg.png?1785419201)  
+  
+
+
+  4. Save your changes.  
+  
+
+
+When Google Sign-In is disabled, contacts can continue to access the Client Portal using email and password or a secure code.  
+  
+
+
+This setting applies separately to each sub-account and is available on the Client Portal web platform.
+
+  
+
+    
+    
+    **Note:** Removing Google Sign-In can help businesses align their authentication options with internal privacy, data-handling, or regional requirements. This setting does not by itself guarantee regulatory compliance.
 
 * * *
 

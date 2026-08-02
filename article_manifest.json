@@ -49,6 +49,11 @@
     "hash": "800f7ca62fa293fc",
     "title": "File Share Notifications for Contacts in the Client Portal"
   },
+  "docs/Getting-Started-w-HighLevel/Foundational-Setup/Global Search V2.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008323-global-search-v2",
+    "hash": "980a39797d990fd9",
+    "title": "Global Search V2"
+  },
   "docs/Getting-Started-w-HighLevel/Marketing-&-Lead-Generation/Getting Started - Setup Social Planner.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000005063-getting-started-setup-social-planner",
     "hash": "ad65693ffe5e2474",
@@ -289,6 +294,11 @@
     "hash": "08deee88d1e5862a",
     "title": "How to Enable Support Access for Your HighLevel Account"
   },
+  "docs/Agency-View/AI-Agents-Contest/Skills Platform for AI Agents.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008315-skills-platform-for-ai-agents",
+    "hash": "4edf06bea49e4a71",
+    "title": "Skills Platform for AI Agents"
+  },
   "docs/Agency-View/Agency-Launchpad/Agency Launchpad.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000005494-agency-launchpad",
     "hash": "964b24bcf66ce002",
@@ -323,6 +333,11 @@
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006065-customize-default-naming-conventions-for-new-saas-accounts",
     "hash": "abe144dd8ffa1a69",
     "title": "Customize Default Naming Conventions for New SaaS Accounts"
+  },
+  "docs/Agency-View/SaaS-Configurator/SaaS Multi-Brands Overview.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007248-saas-multi-brands-overview",
+    "hash": "9a8fca3c0a110e9d",
+    "title": "SaaS Multi-Brands Overview"
   },
   "docs/Agency-View/Prospecting-Tool/How to Resell and use Prospecting Tool for Sub-Accounts.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000004341-how-to-resell-and-use-prospecting-tool-for-sub-accounts",
@@ -393,6 +408,11 @@
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000008047-how-prospecting-creates-contacts-in-your-crm",
     "hash": "e4effbba31ad5574",
     "title": "How Prospecting creates contacts in your CRM"
+  },
+  "docs/Agency-View/Prospecting-Tool/Prospect AI Activity Center & CRM Pipeline Integration.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008295-prospect-ai-activity-center-crm-pipeline-integration",
+    "hash": "5caece9a78bb613f",
+    "title": "Prospect AI Activity Center & CRM Pipeline Integration"
   },
   "docs/Agency-View/Core-Functionality/How to Generate Leads Using the HighLevel Prospecting Tool.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001231875-how-to-generate-leads-using-the-highlevel-prospecting-tool",
@@ -571,7 +591,7 @@
   },
   "docs/Agency-View/Agency-Settings/Reputation Management \u2013 Drip Mode in Reviews AI.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000003579-reputation-management-drip-mode-in-reviews-ai",
-    "hash": "8e8fe5eb9449f164",
+    "hash": "e384a08712287aa7",
     "title": "Reputation Management \u2013 Drip Mode in Reviews AI"
   },
   "docs/Agency-View/Agency-Settings/Labs Features - Complete Overview.md": {
@@ -603,701 +623,6 @@
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000008267-agency-wallet-monthly-wallet-top-up-receipts",
     "hash": "1a7f2afa827b61ec",
     "title": "Agency Wallet - Monthly Wallet Top-up Receipts"
-  },
-  "docs/AI-Employee/AI-Employee/AI Tools in HighLevel.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000002166-ai-tools-in-highlevel",
-    "hash": "23ba1983458b3413",
-    "title": "AI Tools in HighLevel"
-  },
-  "docs/AI-Employee/AI-Employee/AI Employee Overview.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000003906-ai-employee-overview",
-    "hash": "32697cf0ae500d4d",
-    "title": "AI Employee Overview"
-  },
-  "docs/AI-Employee/AI-Employee/AI Product Pricing.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006652-ai-product-pricing",
-    "hash": "ce1143136668698a",
-    "title": "AI Product Pricing"
-  },
-  "docs/AI-Employee/AI-Employee/Introducing AI Build Hours.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006137-introducing-ai-build-hours",
-    "hash": "01fcabcd0f6a5946",
-    "title": "Introducing AI Build Hours"
-  },
-  "docs/AI-Employee/AI-Employee/How to Use Public APIs in Agent Studio.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007515-how-to-use-public-apis-in-agent-studio",
-    "hash": "b9beaa78efc8e279",
-    "title": "How to Use Public APIs in Agent Studio"
-  },
-  "docs/AI-Employee/AI-Employee/Agent Logs Overview.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007657-agent-logs-overview",
-    "hash": "0c8a4515096c1d8c",
-    "title": "Agent Logs Overview"
-  },
-  "docs/AI-Employee/AI-Employee/Google sheet integration for Knowledge Base.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007717-google-sheet-integration-for-knowledge-base",
-    "hash": "b76aab430f3658da",
-    "title": "Google sheet integration for Knowledge Base"
-  },
-  "docs/AI-Employee/AI-Employee/Agent Logs Metrics.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007732-agent-logs-metrics",
-    "hash": "62fe1fce1dfed45a",
-    "title": "Agent Logs Metrics"
-  },
-  "docs/AI-Employee/AI-Employee/AI Usage Dashboard.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007742-ai-usage-dashboard",
-    "hash": "d614a8066ee668de",
-    "title": "AI Usage Dashboard"
-  },
-  "docs/AI-Employee/AI-Employee/Summer of AI 2026.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008057-summer-of-ai-2026",
-    "hash": "fcf19946dce84043",
-    "title": "Summer of AI 2026"
-  },
-  "docs/AI-Employee/Voice-AI/Overview of Voice AI Agents.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000003911-overview-of-voice-ai-agents",
-    "hash": "0156720ebeeddc3e",
-    "title": "Overview of Voice AI Agents"
-  },
-  "docs/AI-Employee/Voice-AI/How to Create Voice AI Agents.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004107-how-to-create-voice-ai-agents",
-    "hash": "b8fed43137c26319",
-    "title": "How to Create Voice AI Agents"
-  },
-  "docs/AI-Employee/Voice-AI/How to Test Voice AI Agents.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004108-how-to-test-voice-ai-agents",
-    "hash": "09078e16cc55df2a",
-    "title": "How to Test Voice AI Agents"
-  },
-  "docs/AI-Employee/Voice-AI/Voice AI - How to Configure Inbound Call Flow.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000003431-voice-ai-how-to-configure-inbound-call-flow",
-    "hash": "df81e2b92b0f4b5d",
-    "title": "Voice AI - How to Configure Inbound Call Flow"
-  },
-  "docs/AI-Employee/Voice-AI/How to Set Working Hours for Voice AI Agents.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004139-how-to-set-working-hours-for-voice-ai-agents",
-    "hash": "a592b1c3b1db0b10",
-    "title": "How to Set Working Hours for Voice AI Agents"
-  },
-  "docs/AI-Employee/Voice-AI/Multi-Language Support for Voice AI Agents.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004683-multi-language-support-for-voice-ai-agents",
-    "hash": "c61fa42905d42bd7",
-    "title": "Multi-Language Support for Voice AI Agents"
-  },
-  "docs/AI-Employee/Voice-AI/How to Use Custom Values in Voice AI Agent Prompts.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004690-how-to-use-custom-values-in-voice-ai-agent-prompts",
-    "hash": "9faa150876edf7a1",
-    "title": "How to Use Custom Values in Voice AI Agent Prompts"
-  },
-  "docs/AI-Employee/Voice-AI/Voice AI Agents Dashboard Overview.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004693-voice-ai-agents-dashboard-overview",
-    "hash": "1679bdf5c85ae94c",
-    "title": "Voice AI Agents Dashboard Overview"
-  },
-  "docs/AI-Employee/Voice-AI/How to Keep Callers Engaged with the Voice AI Idle Reminder Timer.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005207-how-to-keep-callers-engaged-with-the-voice-ai-idle-reminder-timer",
-    "hash": "7aabcd9382d2ec64",
-    "title": "How to Keep Callers Engaged with the Voice AI Idle Reminder Timer"
-  },
-  "docs/AI-Employee/Voice-AI/How to Assign Twilio Numbers to Voice AI Agents.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005210-how-to-assign-twilio-numbers-to-voice-ai-agents",
-    "hash": "e0d16ec760ead0c6",
-    "title": "How to Assign Twilio Numbers to Voice AI Agents"
-  },
-  "docs/AI-Employee/Voice-AI/How to View Test Call Logs in the Voice AI Dashboard.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005211-how-to-view-test-call-logs-in-the-voice-ai-dashboard",
-    "hash": "a500891f978b23ed",
-    "title": "How to View Test Call Logs in the Voice AI Dashboard"
-  },
-  "docs/AI-Employee/Voice-AI/How to Configure Voice AI Performance Summary Emails.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005214-how-to-configure-voice-ai-performance-summary-emails",
-    "hash": "1944fc9abe1547a0",
-    "title": "How to Configure Voice AI Performance Summary Emails"
-  },
-  "docs/AI-Employee/Voice-AI/Number Pool Support in Voice AI Agents.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005221-number-pool-support-in-voice-ai-agents",
-    "hash": "7128f25586987d28",
-    "title": "Number Pool Support in Voice AI Agents"
-  },
-  "docs/AI-Employee/Voice-AI/Knowledge Base Integration for Voice AI Agents.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005266-knowledge-base-integration-for-voice-ai-agents",
-    "hash": "c4e3924f037c2fa7",
-    "title": "Knowledge Base Integration for Voice AI Agents"
-  },
-  "docs/AI-Employee/Voice-AI/Separate During-Call and Post-Call Actions in Voice AI.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005267-separate-during-call-and-post-call-actions-in-voice-ai",
-    "hash": "3ed867868fd9e52f",
-    "title": "Separate During-Call and Post-Call Actions in Voice AI"
-  },
-  "docs/AI-Employee/Voice-AI/Appointment Booking in Voice AI.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005293-appointment-booking-in-voice-ai",
-    "hash": "9b9f6a96bbea32f2",
-    "title": "Appointment Booking in Voice AI"
-  },
-  "docs/AI-Employee/Voice-AI/Voice AI Custom Actions.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005461-voice-ai-custom-actions",
-    "hash": "c8280aed3b7019b6",
-    "title": "Voice AI Custom Actions"
-  },
-  "docs/AI-Employee/Voice-AI/How to Upgrade a Voice AI Agent to the New Voice AI Experience.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005556-how-to-upgrade-a-voice-ai-agent-to-the-new-voice-ai-experience",
-    "hash": "aa8223c466ccf824",
-    "title": "How to Upgrade a Voice AI Agent to the New Voice AI Experience"
-  },
-  "docs/AI-Employee/Voice-AI/Managing Granular Permissions for Voice AI Agents.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005680-managing-granular-permissions-for-voice-ai-agents",
-    "hash": "c2b442e418266b6e",
-    "title": "Managing Granular Permissions for Voice AI Agents"
-  },
-  "docs/AI-Employee/Voice-AI/Voice AI Translation Service for Call Transcript & Summary.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005797-voice-ai-translation-service-for-call-transcript-summary",
-    "hash": "5b872918b48bec3a",
-    "title": "Voice AI: Translation Service for Call Transcript & Summary"
-  },
-  "docs/AI-Employee/Workflow-AI/Workflow AI Assistant.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000003970-workflow-ai-assistant",
-    "hash": "501add578964cc38",
-    "title": "Workflow AI Assistant"
-  },
-  "docs/AI-Employee/Workflow-AI/Voice Dictation in AI Builder & Assistant.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007418-voice-dictation-in-ai-builder-assistant",
-    "hash": "12aec44248a4f2d3",
-    "title": "Voice Dictation in AI Builder & Assistant"
-  },
-  "docs/AI-Employee/Conversation-AI/Bot Status for Individual Contacts.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004096-bot-status-for-individual-contacts",
-    "hash": "6ecb10e799a834ff",
-    "title": "Bot Status for Individual Contacts"
-  },
-  "docs/AI-Employee/Conversation-AI/Guided Form Based Setup for Conversation AI.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005382-guided-form-based-setup-for-conversation-ai",
-    "hash": "834d9da5cd6dd334",
-    "title": "Guided Form Based Setup for Conversation AI"
-  },
-  "docs/AI-Employee/Conversation-AI/Conversation AI Agents Dashboard.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005427-conversation-ai-agents-dashboard",
-    "hash": "59d63e037ec0f28b",
-    "title": "Conversation AI Agents Dashboard"
-  },
-  "docs/AI-Employee/Conversation-AI/Conversation AI- Bot Snapshots.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005460-conversation-ai-bot-snapshots",
-    "hash": "cf14628a87e64d80",
-    "title": "Conversation AI- Bot Snapshots"
-  },
-  "docs/AI-Employee/Conversation-AI/Cancellation and Rescheduling of Appointments in Form Based Bots.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005503-cancellation-and-rescheduling-of-appointments-in-form-based-bots",
-    "hash": "2e26b95dc38c6e56",
-    "title": "Cancellation and Rescheduling of Appointments in Form Based Bots"
-  },
-  "docs/AI-Employee/Conversation-AI/Managing Granular Permissions For Conversation AI Agents.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006054-managing-granular-permissions-for-conversation-ai-agents",
-    "hash": "054d516d18884efb",
-    "title": "Managing Granular Permissions For Conversation AI Agents"
-  },
-  "docs/AI-Employee/Conversation-AI/Conversation AI Flow Builder.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006515-conversation-ai-flow-builder",
-    "hash": "27e548a4d245577d",
-    "title": "Conversation AI Flow Builder"
-  },
-  "docs/AI-Employee/Conversation-AI/Conversations AI Bots can now Respond to Images.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006537-conversations-ai-bots-can-now-respond-to-images",
-    "hash": "c93642705d77a1f7",
-    "title": "Conversations AI Bots can now Respond to Images"
-  },
-  "docs/AI-Employee/Conversation-AI/How to Generate Conversation Summaries and Transcript in Conversation AI.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006597-how-to-generate-conversation-summaries-and-transcript-in-conversation-ai",
-    "hash": "bf39cec25f516659",
-    "title": "How to Generate Conversation Summaries and Transcript in Conversation AI"
-  },
-  "docs/AI-Employee/Conversation-AI/Conversation AI Public API.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006639-conversation-ai-public-api",
-    "hash": "e398fb8a02effb43",
-    "title": "Conversation AI Public API"
-  },
-  "docs/AI-Employee/Conversation-AI/Conversations AI Bots can now Respond to Audio.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006650-conversations-ai-bots-can-now-respond-to-audio",
-    "hash": "b1e676b418bc5fc5",
-    "title": "Conversations AI Bots can now Respond to Audio"
-  },
-  "docs/AI-Employee/Conversation-AI/Conversation AI Multi-Calendar Booking Setup Guide.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006559-conversation-ai-multi-calendar-booking-setup-guide",
-    "hash": "cea16f6a3b614bc8",
-    "title": "Conversation AI Multi-Calendar Booking Setup Guide"
-  },
-  "docs/AI-Employee/Conversation-AI/Forward Emails from Conversations in HighLevel.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007241-forward-emails-from-conversations-in-highlevel",
-    "hash": "37663ab00543bd39",
-    "title": "Forward Emails from Conversations in HighLevel"
-  },
-  "docs/AI-Employee/Conversation-AI/Configure Response Settings in Conversation AI.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007421-configure-response-settings-in-conversation-ai",
-    "hash": "a45592f6274fe915",
-    "title": "Configure Response Settings in Conversation AI"
-  },
-  "docs/AI-Employee/Conversation-AI/Conversation AI Email Channel Support.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007621-conversation-ai-email-channel-support",
-    "hash": "a6865d620b0adbd9",
-    "title": "Conversation AI Email Channel Support"
-  },
-  "docs/AI-Employee/Getting-Started-w-Conversation-AI/Conversation AI Bot Explained.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000001335-conversation-ai-bot-explained",
-    "hash": "75530af7c7d2402f",
-    "title": "Conversation AI Bot Explained"
-  },
-  "docs/AI-Employee/Getting-Started-w-Conversation-AI/How to Set Up a Conversation AI Bot.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004401-how-to-set-up-a-conversation-ai-bot",
-    "hash": "eb00b68424535ac2",
-    "title": "How to Set Up a Conversation AI Bot"
-  },
-  "docs/AI-Employee/Getting-Started-w-Conversation-AI/Conversation AI - Advanced Settings Overview.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004415-conversation-ai-advanced-settings-overview",
-    "hash": "a7384e113a80f7c1",
-    "title": "Conversation AI - Advanced Settings Overview"
-  },
-  "docs/AI-Employee/Getting-Started-w-Conversation-AI/Conversation AI - Primary vs Non-Primary Bots.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004414-conversation-ai-primary-vs-non-primary-bots",
-    "hash": "acfea796c0fca63f",
-    "title": "Conversation AI - Primary vs Non-Primary  Bots"
-  },
-  "docs/AI-Employee/Getting-Started-w-Conversation-AI/How to Use Conversation AI in the Mobile App (HighLevel & LeadConnector).md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000002669-how-to-use-conversation-ai-in-the-mobile-app-highlevel-leadconnector-",
-    "hash": "fb1c4028c6039990",
-    "title": "How to Use Conversation AI in the Mobile App (HighLevel & LeadConnector)"
-  },
-  "docs/AI-Employee/Conversation-AI-Response-Modes/Auto-Pilot Mode in Conversation AI for Efficient Communication.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008094-auto-pilot-mode-in-conversation-ai-for-efficient-communication",
-    "hash": "72c04f8074580f9e",
-    "title": "Auto-Pilot Mode in Conversation AI for Efficient Communication"
-  },
-  "docs/AI-Employee/Conversation-AI-Training-Bots/Training Your Conversation AI Bot.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004416-training-your-conversation-ai-bot",
-    "hash": "c691897e2b8f94d4",
-    "title": "Training Your Conversation AI Bot"
-  },
-  "docs/AI-Employee/Conversation-AI-Training-Bots/Web URLs and Links.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000001338-web-urls-and-links",
-    "hash": "a6031c2443ae3341",
-    "title": "Web URLs and Links"
-  },
-  "docs/AI-Employee/Conversation-AI-Training-Bots/Conversation AI New Query Detection Flow.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000003206-conversation-ai-new-query-detection-flow",
-    "hash": "45e0fcc8e8811866",
-    "title": "Conversation AI: New Query Detection Flow"
-  },
-  "docs/AI-Employee/Conversation-AI-Training-Bots/Review and Edit Website Content Used by Conversation AI.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000003215-review-and-edit-website-content-used-by-conversation-ai",
-    "hash": "7efa4973d59f0da4",
-    "title": "Review and Edit Website Content Used by Conversation AI"
-  },
-  "docs/AI-Employee/Conversation-AI-Training-Bots/Response Info for your AI message.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000003706-response-info-for-your-ai-message",
-    "hash": "0f3e6853d5cfcfa5",
-    "title": "Response Info for your AI message"
-  },
-  "docs/AI-Employee/Conversation-AI-Training-Bots/How to Use Knowledge Base Triggers in Conversation AI.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007791-how-to-use-knowledge-base-triggers-in-conversation-ai",
-    "hash": "18e6953ecf90d16e",
-    "title": "How to Use Knowledge Base Triggers in Conversation AI"
-  },
-  "docs/AI-Employee/Conversation-AI-Training-Bots/Conversation AI - New Knowledge Sources & Quality Upgrades.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006456-conversation-ai-new-knowledge-sources-quality-upgrades",
-    "hash": "3d13921f5e9c4f51",
-    "title": "Conversation AI - New Knowledge Sources & Quality Upgrades"
-  },
-  "docs/AI-Employee/Conversation-AI-Goals,-Prompts,-&-Actions/AI Prompting 101.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000002254-ai-prompting-101",
-    "hash": "7c4c4ed9ce4fc450",
-    "title": "AI Prompting 101"
-  },
-  "docs/AI-Employee/Conversation-AI-Goals,-Prompts,-&-Actions/Bot Goals Overview - Conversation AI.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004417-bot-goals-overview-conversation-ai",
-    "hash": "07e425d636627763",
-    "title": "Bot Goals Overview - Conversation AI"
-  },
-  "docs/AI-Employee/Conversation-AI-Goals,-Prompts,-&-Actions/Appointment Booking in Conversation AI.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000000210-appointment-booking-in-conversation-ai",
-    "hash": "b7cbe17de5a09cbc",
-    "title": "Appointment Booking in Conversation AI"
-  },
-  "docs/AI-Employee/Conversation-AI-Goals,-Prompts,-&-Actions/How to Configure Bot Goals in Conversation AI.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004095-how-to-configure-bot-goals-in-conversation-ai",
-    "hash": "8b3f4fe37197707c",
-    "title": "How to Configure Bot Goals in Conversation AI"
-  },
-  "docs/AI-Employee/Conversation-AI-Goals,-Prompts,-&-Actions/How to Use the Add Contact Info Action in Conversation AI.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004097-how-to-use-the-add-contact-info-action-in-conversation-ai",
-    "hash": "3593180f0fcc0adf",
-    "title": "How to Use the Add Contact Info Action in Conversation AI"
-  },
-  "docs/AI-Employee/Conversation-AI-Goals,-Prompts,-&-Actions/How to Customize Conversation AI Agent Responses with Prompts and Instructions.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000002255-how-to-customize-conversation-ai-agent-responses-with-prompts-and-instructions",
-    "hash": "c339889033d7b81b",
-    "title": "How to Customize Conversation AI Agent Responses with Prompts and Instructions"
-  },
-  "docs/AI-Employee/Conversation-AI-Goals,-Prompts,-&-Actions/AI Action Logging & Filtering in Conversations.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005004-ai-action-logging-filtering-in-conversations",
-    "hash": "92aacc4a0ed7981f",
-    "title": "AI Action Logging & Filtering in Conversations"
-  },
-  "docs/AI-Employee/Conversation-AI-Goals,-Prompts,-&-Actions/Conversation AI - Auto Follow-Up Action.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005500-conversation-ai-auto-follow-up-action",
-    "hash": "a9bc34be0ba6b5e4",
-    "title": "Conversation AI - Auto Follow-Up Action"
-  },
-  "docs/AI-Employee/Conversation-AI-Goals,-Prompts,-&-Actions/Conversation AI - Transfer Bot Action.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005371-conversation-ai-transfer-bot-action",
-    "hash": "d373c5062a32ab23",
-    "title": "Conversation AI - Transfer Bot Action"
-  },
-  "docs/AI-Employee/Conversation-AI-Goals,-Prompts,-&-Actions/Conversation AI - Human Handover Action.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005615-conversation-ai-human-handover-action",
-    "hash": "8733da9c72d16729",
-    "title": "Conversation AI - Human Handover Action"
-  },
-  "docs/AI-Employee/Conversation-AI-+-Workflows/Conversation AI Live Chat Channel in Workflow Action.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000003216-conversation-ai-live-chat-channel-in-workflow-action",
-    "hash": "14f177148ad22ae3",
-    "title": "Conversation AI: Live Chat Channel in Workflow Action"
-  },
-  "docs/AI-Employee/Conversation-AI-+-Workflows/Trigger a Workflow within Conversation AI.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004098-trigger-a-workflow-within-conversation-ai",
-    "hash": "bf0095d866285919",
-    "title": "Trigger a Workflow within Conversation AI"
-  },
-  "docs/AI-Employee/Content-AI/How to Find Past Records of Content Generated by Content AI.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/48001234812-how-to-find-past-records-of-content-generated-by-content-ai",
-    "hash": "9c936cf5be3b0662",
-    "title": "How to Find Past Records of Content Generated by Content AI"
-  },
-  "docs/AI-Employee/Content-AI/Brand Voice Integration in Content AI.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005308-brand-voice-integration-in-content-ai",
-    "hash": "6e1df06142485775",
-    "title": "Brand Voice Integration in Content AI"
-  },
-  "docs/AI-Employee/Content-AI/Thumbs UpDown Feedback for Content AI.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005517-thumbs-up-down-feedback-for-content-ai",
-    "hash": "812437ec119ff736",
-    "title": "Thumbs Up/Down Feedback for Content AI"
-  },
-  "docs/AI-Employee/Content-AI-in-Social-Planner/Content AI with Social Planner.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/48001234788-content-ai-with-social-planner",
-    "hash": "92360abba58d9d38",
-    "title": "Content AI with Social Planner"
-  },
-  "docs/AI-Employee/Content-AI-in-Social-Planner/How to generate images for Social Planner using Content AI.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000000088-how-to-generate-images-for-social-planner-using-content-ai",
-    "hash": "30106e96003df3a2",
-    "title": "How to generate images for Social Planner using Content AI"
-  },
-  "docs/AI-Employee/Content-AI-in-Social-Planner/How to fix grammar and spelling, make longer content and improve writing in Social Post.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000001325-how-to-fix-grammar-and-spelling-make-longer-content-and-improve-writing-in-social-post-",
-    "hash": "d612c3a1453ff60e",
-    "title": "How to fix grammar and spelling, make longer content and improve writing in Social Post?"
-  },
-  "docs/AI-Employee/Content-AI-in-Social-Planner/Content AI Guided Content Questions in Social Planner.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005685-content-ai-guided-content-questions-in-social-planner",
-    "hash": "b4d2aae6c4fd0ec0",
-    "title": "Content AI: Guided Content Questions in Social Planner"
-  },
-  "docs/AI-Employee/Content-AI-in-the-Email-Builder/How to create Emails using Content AI.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/48001236751-how-to-create-emails-using-content-ai-",
-    "hash": "064447b32d08eac8",
-    "title": "How to create Emails using Content AI?"
-  },
-  "docs/AI-Employee/Content-AI-in-Funnels-and-Website/How to fix grammar and spelling, make longer content and improve writing in Funnels and Website.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000001441-how-to-fix-grammar-and-spelling-make-longer-content-and-improve-writing-in-funnels-and-website-",
-    "hash": "9fbcf5d6d2ebd3e4",
-    "title": "How to fix grammar and spelling, make longer content and improve writing in Funnels and Website?"
-  },
-  "docs/AI-Employee/Content-AI-in-Blogs/How to create blog post outline with Content AI.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/48001236120-how-to-create-blog-post-outline-with-content-ai-",
-    "hash": "981c3974f3c169b6",
-    "title": "How to create blog post outline with Content AI?"
-  },
-  "docs/AI-Employee/Content-AI-in-Blogs/How to fix grammar and spelling, make longer content and improve writing in Blogs.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000001527-how-to-fix-grammar-and-spelling-make-longer-content-and-improve-writing-in-blogs-",
-    "hash": "52fad62d76d4d1bb",
-    "title": "How to fix grammar and spelling, make longer content and improve writing in Blogs?"
-  },
-  "docs/AI-Employee/Ask-AI/Overview of Ask AI Assistant.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005327-overview-of-ask-ai-assistant",
-    "hash": "89866bbb5506ac90",
-    "title": "Overview of Ask AI Assistant"
-  },
-  "docs/AI-Employee/Ask-AI/How to Generate a Contact's Summary Using Ask AI.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005484-how-to-generate-a-contact-s-summary-using-ask-ai",
-    "hash": "12e4b8aa356b86b1",
-    "title": "How to Generate a Contact's Summary Using Ask AI"
-  },
-  "docs/AI-Employee/Ask-AI/Funnel Creation Agent in Ask AI.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005521-funnel-creation-agent-in-ask-ai",
-    "hash": "6b0f584b559bf523",
-    "title": "Funnel Creation Agent in Ask AI"
-  },
-  "docs/AI-Employee/Ask-AI/How to Generate and Edit Images Using Ask AI.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005764-how-to-generate-and-edit-images-using-ask-ai",
-    "hash": "b323175d1f2f8cc3",
-    "title": "How to Generate and Edit Images Using Ask AI"
-  },
-  "docs/AI-Employee/Ask-AI/How to Use Edit with Ask AI Feature in Social Planner.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005765-how-to-use-edit-with-ask-ai-feature-in-social-planner",
-    "hash": "190b85277e1fbbf8",
-    "title": "How to Use Edit with Ask AI Feature in Social Planner"
-  },
-  "docs/AI-Employee/Ask-AI/Ask AI + Agent Studio Integration.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006677-ask-ai-agent-studio-integration",
-    "hash": "fc75a15be6589f4e",
-    "title": "Ask AI + Agent Studio Integration"
-  },
-  "docs/AI-Employee/Ask-AI/How to Use the MCP Server within Ask AI.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005855-how-to-use-the-mcp-server-within-ask-ai",
-    "hash": "ddcd586cb234d56f",
-    "title": "How to Use the MCP Server within Ask AI"
-  },
-  "docs/AI-Employee/Ask-AI/Using Ask AI to Create and Update SaaS Plans.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007807-using-ask-ai-to-create-and-update-saas-plans",
-    "hash": "e27bd77a53e24b56",
-    "title": "Using Ask AI to Create and Update SaaS Plans"
-  },
-  "docs/AI-Employee/Ask-AI/Using Ask AI Artifacts and Mermaid Diagrams in HighLevel.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007812-using-ask-ai-artifacts-and-mermaid-diagrams-in-highlevel",
-    "hash": "c365feb8a01c1a21",
-    "title": "Using Ask AI Artifacts and Mermaid Diagrams in HighLevel"
-  },
-  "docs/AI-Employee/Ask-AI/Ask AI Session Examples & Usage Costs.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007818-ask-ai-session-examples-usage-costs",
-    "hash": "3985ee6c975fdfa7",
-    "title": "Ask AI Session Examples & Usage Costs"
-  },
-  "docs/AI-Employee/Ask-AI/Create and Attach Knowledge Bases with Ask AI.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007960-create-and-attach-knowledge-bases-with-ask-ai",
-    "hash": "8c4d1fcc97af8f9c",
-    "title": "Create and Attach Knowledge Bases with Ask AI"
-  },
-  "docs/AI-Employee/Ask-AI/What is Ask AI Memory.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007963-what-is-ask-ai-memory-",
-    "hash": "357155a7bd819689",
-    "title": "What is Ask AI Memory?"
-  },
-  "docs/AI-Employee/Ask-AI/How to Use Scheduled Tasks in Ask AI to Automate Prompts.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007966-how-to-use-scheduled-tasks-in-ask-ai-to-automate-prompts",
-    "hash": "b0279198dab81635",
-    "title": "How to Use Scheduled Tasks in Ask AI to Automate Prompts"
-  },
-  "docs/AI-Employee/Ask-AI/How to Generate SEO-Friendly Blog Posts Using Ask AI in HighLevel.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007967-how-to-generate-seo-friendly-blog-posts-using-ask-ai-in-highlevel",
-    "hash": "fbcebc5989e63635",
-    "title": "How to Generate SEO-Friendly Blog Posts Using Ask AI in HighLevel"
-  },
-  "docs/AI-Employee/Ask-AI/How to Use Ask AI Voice Mode.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008022-how-to-use-ask-ai-voice-mode",
-    "hash": "a574e8ecdb358dab",
-    "title": "How to Use Ask AI Voice Mode"
-  },
-  "docs/AI-Employee/Ask-AI/How to Provide Feedback on Ask AI Responses.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008024-how-to-provide-feedback-on-ask-ai-responses",
-    "hash": "8bddd4f65957d519",
-    "title": "How to Provide Feedback on Ask AI Responses"
-  },
-  "docs/AI-Employee/Ask-AI/How to Use Ask AI to Create and Manage Courses.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008027-how-to-use-ask-ai-to-create-and-manage-courses",
-    "hash": "640a56f606f7e94e",
-    "title": "How to Use Ask AI to Create and Manage Courses"
-  },
-  "docs/AI-Employee/Ask-AI/How to setup the Ask AI LeadConnector Chrome Extension.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008287-how-to-setup-the-ask-ai-leadconnector-chrome-extension",
-    "hash": "b2b53ed8d4043751",
-    "title": "How to setup the Ask AI LeadConnector Chrome Extension"
-  },
-  "docs/AI-Employee/AI-Studio/AI Studio in HighLevel.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007587-ai-studio-in-highlevel",
-    "hash": "f970d351c3636a1d",
-    "title": "AI Studio in HighLevel"
-  },
-  "docs/AI-Employee/AI-Studio/Connect Forms and Calendars in AI Studio.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007599-connect-forms-and-calendars-in-ai-studio",
-    "hash": "36d126be15df2a76",
-    "title": "Connect Forms and Calendars in AI Studio"
-  },
-  "docs/AI-Employee/AI-Studio/Code Editor in AI Studio.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007652-code-editor-in-ai-studio",
-    "hash": "7548e415a5baec00",
-    "title": "Code Editor in AI Studio"
-  },
-  "docs/AI-Employee/AI-Studio/Advanced SEO Support in AI Studio.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007691-advanced-seo-support-in-ai-studio",
-    "hash": "28a5f91b6c74b91a",
-    "title": "Advanced SEO Support in AI Studio"
-  },
-  "docs/AI-Employee/AI-Studio/Visual Edits in AI Studio.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007914-visual-edits-in-ai-studio",
-    "hash": "e8baec0bf9a3bf23",
-    "title": "Visual Edits in AI Studio"
-  },
-  "docs/AI-Employee/AI-Studio/Bulk EnableDisable AI Studio Across Sub-Accounts.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008246-bulk-enable-disable-ai-studio-across-sub-accounts",
-    "hash": "63121a4e1233565d",
-    "title": "Bulk Enable/Disable AI Studio Across Sub-Accounts"
-  },
-  "docs/AI-Employee/Agent-Studio/Overview of Flow Agents in Agent Studio.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006058-overview-of-flow-agents-in-agent-studio",
-    "hash": "7660b0b827e45cf1",
-    "title": "Overview of Flow Agents in Agent Studio"
-  },
-  "docs/AI-Employee/Agent-Studio/Agent Studio - Setting Up Triggers for Flow Agents.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007310-agent-studio-setting-up-triggers-for-flow-agents",
-    "hash": "a3399cb4f5bb016b",
-    "title": "Agent Studio - Setting Up Triggers for Flow Agents"
-  },
-  "docs/AI-Employee/Agent-Studio/How to Setup Flow Agents in Agent Studio.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007393-how-to-setup-flow-agents-in-agent-studio",
-    "hash": "fe84ee7b16669077",
-    "title": "How to Setup Flow Agents in Agent Studio"
-  },
-  "docs/AI-Employee/Agent-Studio/Agent Studio - Router Tool (AI & Conditional Router).md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007404-agent-studio-router-tool-ai-conditional-router-",
-    "hash": "45f9523ccdce97a3",
-    "title": "Agent Studio - Router Tool (AI & Conditional Router)"
-  },
-  "docs/AI-Employee/Agent-Studio/How to Create and Manage Folders in Agent Studio.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007417-how-to-create-and-manage-folders-in-agent-studio",
-    "hash": "c6d33ae710bae982",
-    "title": "How to Create and Manage Folders in Agent Studio"
-  },
-  "docs/AI-Employee/Agent-Studio/How to Test and Debug AI Conversations in Agent Studio.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007425-how-to-test-and-debug-ai-conversations-in-agent-studio",
-    "hash": "6c24a93c96b3a298",
-    "title": "How to Test and Debug AI Conversations in Agent Studio"
-  },
-  "docs/AI-Employee/Agent-Studio/How to Use Custom Values and Variables in Agent Studio.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007432-how-to-use-custom-values-and-variables-in-agent-studio",
-    "hash": "4b8d4b5f612353d2",
-    "title": "How to Use Custom Values and Variables in Agent Studio"
-  },
-  "docs/AI-Employee/Agent-Studio/How to Clone and Share Agent Studio Agents Using Snapshots.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007504-how-to-clone-and-share-agent-studio-agents-using-snapshots",
-    "hash": "400a39ee01c5ac4c",
-    "title": "How to Clone and Share Agent Studio Agents Using Snapshots"
-  },
-  "docs/AI-Employee/Agent-Studio/How to Use Brand Voice and Brand Kit in Agent Studio.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007510-how-to-use-brand-voice-and-brand-kit-in-agent-studio",
-    "hash": "6fe1509e434749aa",
-    "title": "How to Use Brand Voice and Brand Kit in Agent Studio"
-  },
-  "docs/AI-Employee/Agent-Studio/Agent Studio - Multi Agent System Builder.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007609-agent-studio-multi-agent-system-builder",
-    "hash": "654336bb0d81feb8",
-    "title": "Agent Studio - Multi Agent System Builder"
-  },
-  "docs/AI-Employee/Agent-Studio/Graph Builder Copy, Paste, and Bulk Delete in Agent Studio.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007645-graph-builder-copy-paste-and-bulk-delete-in-agent-studio",
-    "hash": "8669afa17c3c1f84",
-    "title": "Graph Builder Copy, Paste, and Bulk Delete in Agent Studio"
-  },
-  "docs/AI-Employee/Agent-Studio/Build Smarter AI Agents Using AI Agent Node in Agent Studio.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007648-build-smarter-ai-agents-using-ai-agent-node-in-agent-studio",
-    "hash": "ecc3cc98bef0d0dd",
-    "title": "Build Smarter AI Agents Using AI Agent Node in Agent Studio"
-  },
-  "docs/AI-Employee/Agent-Studio/How to Build Structured Agent Flows Using Sequential Node in Agent Studio.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007655-how-to-build-structured-agent-flows-using-sequential-node-in-agent-studio",
-    "hash": "6808b9437dde058c",
-    "title": "How to Build Structured Agent Flows Using Sequential Node in Agent Studio"
-  },
-  "docs/AI-Employee/Agent-Studio/How to Collect User Inputs with Capture Tools in Agent Studio.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007802-how-to-collect-user-inputs-with-capture-tools-in-agent-studio",
-    "hash": "99a7b2c7357fa2e5",
-    "title": "How to Collect User Inputs with Capture Tools in Agent Studio"
-  },
-  "docs/AI-Employee/Agent-Studio/How to Create AI Content with Generative AI tools In Agent Studio.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007806-how-to-create-ai-content-with-generative-ai-tools-in-agent-studio",
-    "hash": "7fe9e806e03ed557",
-    "title": "How to Create AI Content with Generative AI tools In Agent Studio"
-  },
-  "docs/AI-Employee/Agent-Studio/How AI Agents Use the Knowledge Base Tool to Answer Customer Inquiries.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007824-how-ai-agents-use-the-knowledge-base-tool-to-answer-customer-inquiries",
-    "hash": "a9da9cf2b0ce0b45",
-    "title": "How AI Agents Use the Knowledge Base Tool to Answer Customer Inquiries"
-  },
-  "docs/AI-Employee/Agent-Studio/Import cURL in Agent Studio API Call Tool.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007933-import-curl-in-agent-studio-api-call-tool",
-    "hash": "b74443c96076db61",
-    "title": "Import cURL in Agent Studio API Call Tool"
-  },
-  "docs/AI-Employee/Agent-Studio/How to Use Web Search Tool in Agent Studio for Real-Time Responses.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007965-how-to-use-web-search-tool-in-agent-studio-for-real-time-responses",
-    "hash": "579a511633381331",
-    "title": "How to Use Web Search Tool in Agent Studio for Real-Time Responses"
-  },
-  "docs/AI-Employee/Agent-Studio/Scheduled Triggers for Super Agents in HighLevel.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008245-scheduled-triggers-for-super-agents-in-highlevel",
-    "hash": "c03ba92864467464",
-    "title": "Scheduled Triggers for Super Agents in HighLevel"
-  },
-  "docs/AI-Employee/Agent-Studio/How to Clone and Share Super Agents Using Snapshots.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008247-how-to-clone-and-share-super-agents-using-snapshots",
-    "hash": "7236f98c57e7d30c",
-    "title": "How to Clone and Share Super Agents Using Snapshots"
-  },
-  "docs/AI-Employee/Email-AI/Email Campaign Agent (Beta).md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006670-email-campaign-agent-beta-",
-    "hash": "9a18032f2019d8fd",
-    "title": "Email Campaign Agent (Beta)"
-  },
-  "docs/AI-Employee/MCP-Server/How to Setup and Use the HighLevel MCP Server.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005741-how-to-setup-and-use-the-highlevel-mcp-server",
-    "hash": "d36c359b8cae1c81",
-    "title": "How to Setup and Use the HighLevel MCP Server"
-  },
-  "docs/AI-Employee/MCP-Server/Automate Workflows with GHL MCP and N8N.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007777-automate-workflows-with-ghl-mcp-and-n8n",
-    "hash": "7c460f7f9cd26927",
-    "title": "Automate Workflows with GHL MCP and N8N"
-  },
-  "docs/AI-Employee/Knowledge-Bases/Knowledge Base - Web Crawler.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006625-knowledge-base-web-crawler",
-    "hash": "1fccb335424b0678",
-    "title": "Knowledge Base - Web Crawler"
-  },
-  "docs/AI-Employee/Knowledge-Bases/AI Employee - Knowledge Base Tables.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006637-ai-employee-knowledge-base-tables",
-    "hash": "b84caff2ea452c8d",
-    "title": "AI Employee - Knowledge Base Tables"
-  },
-  "docs/AI-Employee/Knowledge-Bases/Auto Refresh of Knowledge Base Trained Links.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006539-auto-refresh-of-knowledge-base-trained-links",
-    "hash": "3d5fd1cacde29ef9",
-    "title": "Auto Refresh of Knowledge Base Trained Links"
-  },
-  "docs/AI-Employee/Knowledge-Bases/Knowledge Base - Document & Rich-Text Support.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006671-knowledge-base-document-rich-text-support",
-    "hash": "3fbcfb27f8adf588",
-    "title": "Knowledge Base - Document & Rich-Text Support"
-  },
-  "docs/AI-Employee/Knowledge-Bases/Bundle Knowledge Bases with AI Agent Templates.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007077-bundle-knowledge-bases-with-ai-agent-templates",
-    "hash": "34221323d3701d02",
-    "title": "Bundle Knowledge Bases with AI Agent Templates"
-  },
-  "docs/AI-Employee/Knowledge-Bases/Knowledge Base Overview.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007313-knowledge-base-overview",
-    "hash": "bdaebe893327de54",
-    "title": "Knowledge Base Overview"
-  },
-  "docs/AI-Employee/Knowledge-Bases/What is the Knowledge Base Retrieval Tester.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007758-what-is-the-knowledge-base-retrieval-tester-",
-    "hash": "ce1e12ece9c4f91f",
-    "title": "What is the Knowledge Base Retrieval Tester?"
-  },
-  "docs/AI-Employee/Knowledge-Bases/How to Download Knowledge Base Tables in CSV.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007930-how-to-download-knowledge-base-tables-in-csv",
-    "hash": "7376bf6035ac052a",
-    "title": "How to Download Knowledge Base Tables in CSV"
-  },
-  "docs/AI-Employee/Knowledge-Bases/Knowledge Base - Google Drive Integration.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008095-knowledge-base-google-drive-integration",
-    "hash": "9621be850dfa3a00",
-    "title": "Knowledge Base - Google Drive Integration"
   },
   "docs/SaaS-Configurator/Saas-Mode/Activate SaaS Mode, Request Payment, and Configure Phone Rebilling.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001177740-activate-saas-mode-request-payment-and-configure-phone-rebilling",
@@ -1559,10 +884,10 @@
     "hash": "41a23f9d92fd8ca5",
     "title": "Regulatory Bundle and Address Creation for Sub-Accounts"
   },
-  "docs/Phone-System/LC-Phone-System/What is LC (Lead Connector) Phone System.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/48001223546-what-is-lc-lead-connector-phone-system-",
-    "hash": "f3cf41211b46e81d",
-    "title": "What is LC (Lead Connector) Phone System?"
+  "docs/Phone-System/LC-Phone-System/What is the Native Phone System.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001223546-what-is-the-native-phone-system-",
+    "hash": "dfcf69e4c54f3524",
+    "title": "What is the Native Phone System?"
   },
   "docs/Phone-System/LC-Phone-System/Phone System Pricing & Billing Guide.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001223556-phone-system-pricing-billing-guide",
@@ -1606,7 +931,7 @@
   },
   "docs/Phone-System/LC-Phone-System/LC Phone System - Error Code and Warning Dictionary.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000005526-lc-phone-system-error-code-and-warning-dictionary",
-    "hash": "7fc80704f2d1cf20",
+    "hash": "715cb63c336458b5",
     "title": "LC Phone System - Error Code and Warning Dictionary"
   },
   "docs/Phone-System/LC-Phone-System/Why You Can't Delete a Twilio Subaccount from the Highlevel.md": {
@@ -1616,7 +941,7 @@
   },
   "docs/Phone-System/LC-Phone-System/KYC Verification on Persona \u2014 Best Practices.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006990-kyc-verification-on-persona-best-practices",
-    "hash": "5708602c82ee210f",
+    "hash": "a860ea9cc0126237",
     "title": "KYC Verification on Persona \u2014 Best Practices"
   },
   "docs/Phone-System/LC-Phone-System/Custom Dispositions for Voice Calls.md": {
@@ -1676,7 +1001,7 @@
   },
   "docs/Phone-System/Messaging/Understanding Common SMS Delivery Errors.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001208912-understanding-common-sms-delivery-errors",
-    "hash": "1163a0f8717967dc",
+    "hash": "f139d3cc0597be9d",
     "title": "Understanding Common SMS Delivery Errors"
   },
   "docs/Phone-System/Messaging/How to check logs for a specific text message if you are connected to your own Twilio account.md": {
@@ -1716,7 +1041,7 @@
   },
   "docs/Phone-System/Messaging/Best Practices for SMS deliverability and Avoiding SMS Restrictions.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000000079-best-practices-for-sms-deliverability-and-avoiding-sms-restrictions",
-    "hash": "4cd4c368ebbc3da6",
+    "hash": "f4aae8fbbe53ccc3",
     "title": "Best Practices for SMS deliverability and Avoiding SMS Restrictions"
   },
   "docs/Phone-System/Messaging/Why SMS in Mexico May Appear from a Different Number.md": {
@@ -1744,74 +1069,64 @@
     "hash": "943b3e0598520b07",
     "title": "Messaging Ramp Progress Card"
   },
-  "docs/Phone-System/A2P-registration/AI-Powered A2P Compliance Validation.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007604-ai-powered-a2p-compliance-validation",
-    "hash": "4d575ec3c63853b8",
-    "title": "AI-Powered A2P Compliance Validation"
+  "docs/Phone-System/A2P-registration/How to Link a Phone Number to an Approved A2P Campaign.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008316-how-to-link-a-phone-number-to-an-approved-a2p-campaign",
+    "hash": "2c7429aaf7d3f42b",
+    "title": "How to Link a Phone Number to an Approved A2P Campaign"
+  },
+  "docs/Phone-System/A2P-registration/Pre-Built A2P Campaign Registration with Chat Widget.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008307-pre-built-a2p-campaign-registration-with-chat-widget",
+    "hash": "4ae295ba66138f08",
+    "title": "Pre-Built A2P Campaign Registration with Chat Widget"
+  },
+  "docs/Phone-System/A2P-registration/Registering Your A2P Brand.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008140-registering-your-a2p-brand",
+    "hash": "9fdf3924e48d1d3a",
+    "title": "Registering Your A2P Brand"
   },
   "docs/Phone-System/A2P-registration/A2P Campaign Rejections, Required Fixes & Vetting Errors.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007572-a2p-campaign-rejections-required-fixes-vetting-errors",
     "hash": "1e04a19e4d2b089a",
     "title": "A2P Campaign Rejections, Required Fixes & Vetting Errors"
   },
-  "docs/Phone-System/A2P-registration/Pre-Built A2P Campaign (Widget-First) Registration Flow.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007437-pre-built-a2p-campaign-widget-first-registration-flow",
-    "hash": "a9e60a8e9c4fcb15",
-    "title": "Pre-Built A2P Campaign (Widget-First) Registration Flow"
-  },
-  "docs/Phone-System/A2P-registration/Getting Started with A2P 10DLC.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007411-getting-started-with-a2p-10dlc",
-    "hash": "0d9f4dbdc9647c41",
-    "title": "Getting Started with A2P 10DLC"
-  },
   "docs/Phone-System/A2P-registration/How to get your phone number A2P approved in 2026.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007237-how-to-get-your-phone-number-a2p-approved-in-2026",
-    "hash": "08217e82d176c52e",
+    "hash": "2acf4c716e62bbfe",
     "title": "How to get your phone number A2P approved in 2026"
   },
   "docs/Phone-System/A2P-registration/A2P 10DLC Messaging Fees Registration, Monthly, and Carrier Costs.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000005200-a2p-10dlc-messaging-fees-registration-monthly-and-carrier-costs",
-    "hash": "40bb3b73e2343309",
+    "hash": "8c388446b527568b",
     "title": "A2P 10DLC Messaging Fees: Registration, Monthly, and Carrier Costs"
   },
   "docs/Phone-System/A2P-registration/Updated Messaging Policies for Canadian 10DLC Numbers A2P Registration Requirements.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000004915-updated-messaging-policies-for-canadian-10dlc-numbers-a2p-registration-requirements",
-    "hash": "7568b84e803dd511",
+    "hash": "b388ff0e27a97460",
     "title": "Updated Messaging Policies for Canadian 10DLC Numbers: A2P Registration Requirements"
   },
   "docs/Phone-System/A2P-registration/A2P Campaign Registration Step by Step Guide and FAQs.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000004539-a2p-campaign-registration-step-by-step-guide-and-faqs",
-    "hash": "b99262fb9d7dc5b8",
+    "hash": "5e72f61662af652f",
     "title": "A2P Campaign Registration: Step by Step Guide and FAQs"
   },
-  "docs/Phone-System/A2P-registration/Message throughput (MPS) and Trust Scores for A2P 10DLC in the US.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004527-message-throughput-mps-and-trust-scores-for-a2p-10dlc-in-the-us",
-    "hash": "0a482be04136c2a9",
-    "title": "Message throughput (MPS) and Trust Scores for A2P 10DLC in the US"
+  "docs/Phone-System/A2P-registration/What is Message Throughput (MPS).md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004527-what-is-message-throughput-mps-",
+    "hash": "82ec0ae2c80c026f",
+    "title": "What is Message Throughput (MPS)?"
   },
   "docs/Phone-System/A2P-registration/What is A2P 10 DLC Brand and Campaign Registration.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000002380-what-is-a2p-10-dlc-brand-and-campaign-registration",
-    "hash": "f21e7d886f32b932",
+    "hash": "e8e8d8b1fd1dc8f8",
     "title": "What is A2P 10 DLC: Brand and Campaign Registration"
-  },
-  "docs/Phone-System/A2P-registration/A2P Opt-In Form - Privacy Policy and Terms and Conditions Guidelines.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000001426-a2p-opt-in-form-privacy-policy-and-terms-and-conditions-guidelines",
-    "hash": "606db25594d0a553",
-    "title": "A2P Opt-In Form - Privacy Policy and Terms and Conditions Guidelines"
   },
   "docs/Phone-System/A2P-registration/A2P 10DLC Brand Approval Best Practices.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000000508-a2p-10dlc-brand-approval-best-practices",
     "hash": "5e227ef444effc12",
     "title": "A2P 10DLC Brand Approval Best Practices"
   },
-  "docs/Phone-System/A2P-registration/A2P - Sole Proprietor Brand Registration for 10DLC.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000000340-a2p-sole-proprietor-brand-registration-for-10dlc",
-    "hash": "405baa831df12cf1",
-    "title": "A2P - Sole Proprietor Brand Registration for 10DLC"
-  },
   "docs/Phone-System/A2P-registration/A2P 10DLC Campaign Use Cases.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000000235-a2p-10dlc-campaign-use-cases",
-    "hash": "e97bf92ddc51ef03",
+    "hash": "a91074dc29ad9f53",
     "title": "A2P 10DLC Campaign Use Cases"
   },
   "docs/Phone-System/A2P-registration/A2P 10DLC Campaign Approval Best Practices.md": {
@@ -1819,14 +1134,9 @@
     "hash": "3d022efed755edc9",
     "title": "A2P 10DLC Campaign Approval Best Practices"
   },
-  "docs/Phone-System/A2P-registration/A2P - Standard Brand Registration for 10DLC.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/48001225526-a2p-standard-brand-registration-for-10dlc",
-    "hash": "22505011c4df5c89",
-    "title": "A2P - Standard Brand Registration for 10DLC"
-  },
   "docs/Phone-System/A2P-registration/Forbidden message categories for SMS and MMS in the US and Canada.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001219617-forbidden-message-categories-for-sms-and-mms-in-the-us-and-canada",
-    "hash": "abab8e6106114d2c",
+    "hash": "6ecda216944534ab",
     "title": "Forbidden message categories for SMS and MMS in the US and Canada"
   },
   "docs/Phone-System/Voicemail/Voicemail For Company And For Users.md": {
@@ -1871,7 +1181,7 @@
   },
   "docs/Phone-System/Phone-numbers/Porting Options US In-App vs International Manual Process.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001211919-porting-options-us-in-app-vs-international-manual-process",
-    "hash": "cdfb8364e646c1bc",
+    "hash": "f159c63ed6de59c0",
     "title": "Porting Options: US In-App vs International Manual Process"
   },
   "docs/Phone-System/Phone-numbers/Toll-Free Number Verification Guide for LC - Phone (USCanada).md": {
@@ -2013,6 +1323,11 @@
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000008249-auto-enable-email-dnd-when-a-contact-s-email-bounces",
     "hash": "17347257233e2e24",
     "title": "Auto-Enable Email DND When a Contact's Email Bounces"
+  },
+  "docs/Email/General/Email AI - Smart Countdown Timer Creation.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008314-email-ai-smart-countdown-timer-creation",
+    "hash": "5a20c7b1841e2e41",
+    "title": "Email AI - Smart Countdown Timer Creation"
   },
   "docs/Email/Deliverability/An Introduction To Email Deliverability.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001063371-an-introduction-to-email-deliverability",
@@ -2726,7 +2041,7 @@
   },
   "docs/Conversations/Conversations/Getting Started with the Conversations Tab.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006610-getting-started-with-the-conversations-tab",
-    "hash": "02caab4853e790a6",
+    "hash": "a87f991978f32acf",
     "title": "Getting Started with the Conversations Tab"
   },
   "docs/Conversations/Manual-Actions/How To Add a Manual Call Action to a Workflow.md": {
@@ -2954,6 +2269,11 @@
     "hash": "040cad5cdabace11",
     "title": "Guide to Changing Agency System Email Templates"
   },
+  "docs/Marketing/Others/Email Actions for Company & Custom Object Workflows.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008293-email-actions-for-company-custom-object-workflows",
+    "hash": "7a0c84dbed5f96bb",
+    "title": "Email Actions for Company & Custom Object Workflows"
+  },
   "docs/Marketing/Email-Sequences-Beta-Labs/How to create an email sequence.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007608-how-to-create-an-email-sequence-",
     "hash": "75319d3a4dbf26ac",
@@ -3088,6 +2408,11 @@
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000004797-how-to-create-a-meta-sales-objective-campaign-for-conversion",
     "hash": "207ae48efec42a53",
     "title": "How to create a Meta Sales objective campaign for Conversion"
+  },
+  "docs/Marketing/Ad-Campaign-Creation-and-Management/Opportunity Score for Meta Campaigns.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008300-opportunity-score-for-meta-campaigns",
+    "hash": "fd6355629d076bc9",
+    "title": "Opportunity Score for Meta Campaigns"
   },
   "docs/Marketing/Facebook-Conversion-API-(CAPI)/How to send the Conversion data to Ad Manager.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000002478-how-to-send-the-conversion-data-to-ad-manager-",
@@ -3426,7 +2751,7 @@
   },
   "docs/Marketing/Affiliate-Manager-Automation/Automate Affiliate Sales Follow-Ups with the \u201cNew Affiliate Sale\u201d Trigger.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000003664-automate-affiliate-sales-follow-ups-with-the-new-affiliate-sale-trigger",
-    "hash": "e07591bb22fc11af",
+    "hash": "2c2c5a0436957856",
     "title": "Automate Affiliate Sales Follow-Ups with the \u201cNew Affiliate Sale\u201d Trigger"
   },
   "docs/Marketing/Affiliate-Manager-Automation/Automate Lead Assignment & Notifications in Affiliate Manager Workflows.md": {
@@ -3588,6 +2913,11 @@
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000008071-how-to-create-and-manage-events-in-highlevel-private-beta-",
     "hash": "7f5ecc963df137a4",
     "title": "How to Create and Manage Events in HighLevel[Private Beta]"
+  },
+  "docs/Marketing/Events/Check-in Experience for In Person Events.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008294-check-in-experience-for-in-person-events",
+    "hash": "f9130f59ca490422",
+    "title": "Check-in Experience for In Person Events"
   },
   "docs/Opportunities-&-Pipelines/Introduction-to-Opportunities/Understanding Pipelines.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000001982-understanding-pipelines",
@@ -3829,11 +3159,6 @@
     "hash": "0bf7e0c9a8ced517",
     "title": "Disabling Search Engines from Indexing your Website/Funnel Page using Custom Tag"
   },
-  "docs/Sites/Funnels-and-Websites/Stripe Troubleshooting Why is my Stripe Plan not shown in the Funnel Products.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/48001158124-stripe-troubleshooting-why-is-my-stripe-plan-not-shown-in-the-funnel-products-",
-    "hash": "e62bc3d9151071ec",
-    "title": "Stripe Troubleshooting | Why is my Stripe Plan not shown in the Funnel Products?"
-  },
   "docs/Sites/FAQs-and-Common-Troubleshooting-Steps/FAQs, Basic Troubleshooting - Funnels, Websites, Webinars.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000004983-faqs-basic-troubleshooting-funnels-websites-webinars",
     "hash": "a595db6cf398abbe",
@@ -3893,6 +3218,26 @@
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007737-border-control-in-page-builder",
     "hash": "6dfdfa335c956725",
     "title": "Border Control in Page Builder"
+  },
+  "docs/Sites/Schema-Markup/How to Manually Add Schema Markups in Funnels & Websites.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007406-how-to-manually-add-schema-markups-in-funnels-websites",
+    "hash": "f69a16f2812ab3c5",
+    "title": "How to Manually Add Schema Markups in Funnels & Websites"
+  },
+  "docs/Sites/Schema-Markup/Generate Schema Markups Using AI in Funnels & Websites.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007520-generate-schema-markups-using-ai-in-funnels-websites",
+    "hash": "0a579e11acd31f24",
+    "title": "Generate Schema Markups Using AI in Funnels & Websites"
+  },
+  "docs/Sites/Schema-Markup/How to Delete Schema Markups in Funnels & Websites.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007744-how-to-delete-schema-markups-in-funnels-websites",
+    "hash": "9c983340a63d0de4",
+    "title": "How to Delete Schema Markups in Funnels & Websites"
+  },
+  "docs/Sites/Schema-Markup/Auto-Generate Schema Markup on Publish in Funnels & Websites.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008306-auto-generate-schema-markup-on-publish-in-funnels-websites",
+    "hash": "700d3c7ce1fc0dbd",
+    "title": "Auto-Generate Schema Markup on Publish in Funnels & Websites"
   },
   "docs/Sites/Stores-(E-commerce)/Custom Product Details Page for E-commerce Stores.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006238-custom-product-details-page-for-e-commerce-stores",
@@ -4181,7 +3526,7 @@
   },
   "docs/Sites/Forms/Email Notifications in Forms and Surveys.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000001640-email-notifications-in-forms-and-surveys",
-    "hash": "79537ba1601de0df",
+    "hash": "a1e1ee9787b0318a",
     "title": "Email Notifications in Forms and Surveys"
   },
   "docs/Sites/Forms/Payment in Forms (Including Donations).md": {
@@ -4293,6 +3638,11 @@
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007166-enhanced-consent-checking-for-voice-ai-outbound-calling-forms-surveys-calendars-",
     "hash": "bbfdd1ea26be2c64",
     "title": "Enhanced Consent Checking for Voice AI Outbound Calling (Forms, Surveys, Calendars)"
+  },
+  "docs/Sites/Surveys/Save Progress for Forms, Surveys & Quizzes.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008305-save-progress-for-forms-surveys-quizzes",
+    "hash": "de45f5d2604a5116",
+    "title": "Save Progress for Forms, Surveys & Quizzes"
   },
   "docs/Sites/Chat-Widget/Getting Started with Chat Widget.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000004102-getting-started-with-chat-widget",
@@ -4506,7 +3856,7 @@
   },
   "docs/Sites/Quizzes/Quiz Builder Guide.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000004126-quiz-builder-guide",
-    "hash": "a2b7097bb03edf43",
+    "hash": "1a34ef3a13114817",
     "title": "Quiz Builder Guide"
   },
   "docs/Sites/Quizzes/Workflow Trigger - Quiz Submitted.md": {
@@ -5036,7 +4386,7 @@
   },
   "docs/Workflows/Communication-Workflow-Actions/Workflow Action - Call.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000003274-workflow-action-call",
-    "hash": "9323e636adbba7d7",
+    "hash": "8ce602023941cd48",
     "title": "Workflow Action - Call"
   },
   "docs/Workflows/Communication-Workflow-Actions/Workflow Action - Voicemail.md": {
@@ -5456,7 +4806,7 @@
   },
   "docs/Calendars-&-Appointments/Services/Ask the Booker Location Support for Service v2 Mobile Appointments.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007948-ask-the-booker-location-support-for-service-v2-mobile-appointments",
-    "hash": "dcc1bc6e433775e3",
+    "hash": "f17556b7d8d127cf",
     "title": "Ask the Booker Location Support for Service v2 Mobile Appointments"
   },
   "docs/Calendars-&-Appointments/Mobile-App/How to Book Service (v2) Appointments Using the Mobile App.md": {
@@ -6216,7 +5566,7 @@
   },
   "docs/Payments/Payment-integrations,-methods-and-settings/ACH - bank transfer support on NMI.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007497-ach-bank-transfer-support-on-nmi",
-    "hash": "c0e830d4fea87612",
+    "hash": "091b47731666356e",
     "title": "ACH - bank transfer support on NMI"
   },
   "docs/Payments/Payment-integrations,-methods-and-settings/How to integrate with Mercado Pago for accepting payments.md": {
@@ -6248,6 +5598,11 @@
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006987-how-to-send-gift-cards",
     "hash": "cedc1d5e6abec431",
     "title": "How to Send Gift Cards"
+  },
+  "docs/Payments/Gift-Cards/How to Redeem Gift Cards For Offline Off-session Payments.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008318-how-to-redeem-gift-cards-for-offline-off-session-payments",
+    "hash": "e172ccb2a78d4636",
+    "title": "How to Redeem Gift Cards For Offline / Off-session Payments"
   },
   "docs/Settings/Agency-Settings/Agency Company Settings in HighLevel.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48000982604-agency-company-settings-in-highlevel",
@@ -6323,6 +5678,11 @@
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000006497-snapshot-version-management",
     "hash": "156398c78ff3ffa2",
     "title": "Snapshot Version Management"
+  },
+  "docs/Settings/Agency-Settings/Add Funds to Your Agency Wallet Using ACH Direct Debit.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008325-add-funds-to-your-agency-wallet-using-ach-direct-debit",
+    "hash": "0f53c196623a177d",
+    "title": "Add Funds to Your Agency Wallet Using ACH Direct Debit"
   },
   "docs/Settings/Sub-Account-Settings/How do I find my Client's Location ID.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001204848-how-do-i-find-my-client-s-location-id-",
@@ -8081,7 +7441,7 @@
   },
   "docs/Memberships-&-Communities/Membership-Courses-Sites/How to Create a Whitelabel Membership PWA in Legacy Memberships.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001224426-how-to-create-a-whitelabel-membership-pwa-in-legacy-memberships",
-    "hash": "d0a7179858d6d167",
+    "hash": "f3ca0d793ee1bcf9",
     "title": "How to Create a Whitelabel Membership PWA in Legacy Memberships"
   },
   "docs/Memberships-&-Communities/Membership-Courses-Sites/How to Create Assessments Quizzes for Membership Courses.md": {
@@ -8631,7 +7991,7 @@
   },
   "docs/Client-Portal/Client-Portal/How to set up the Client Portal.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000000193-how-to-set-up-the-client-portal-",
-    "hash": "7065155c549cb5fa",
+    "hash": "7ef03202bff867ab",
     "title": "How to set up the Client Portal?"
   },
   "docs/Client-Portal/Client-Portal/Client Portal Dashboard.md": {
@@ -8649,10 +8009,10 @@
     "hash": "4d6b27275205e03b",
     "title": "Notifications inside Client Portal"
   },
-  "docs/Client-Portal/Client-Portal/App Permissions in Client Portal EnablingDisabling a child app.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/155000002136-app-permissions-in-client-portal-enabling-disabling-a-child-app",
-    "hash": "ad00d2ddd077a2d7",
-    "title": "App Permissions in Client Portal: Enabling/Disabling a child app"
+  "docs/Client-Portal/Client-Portal/App Permissions in Client Portal for EnablingDisabling a child app.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000002136-app-permissions-in-client-portal-for-enabling-disabling-a-child-app",
+    "hash": "cc2ea86253111940",
+    "title": "App Permissions in Client Portal for Enabling/Disabling a child app"
   },
   "docs/Client-Portal/Client-Portal/Quick Start Guide - Kollab (iOS & Android).md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000002412-quick-start-guide-kollab-ios-android-",
@@ -8771,13 +8131,8 @@
   },
   "docs/Reputation-Management-&-Reviews/Review-Requests/Reputation - Breaking Down the Reputation Overview Dashboard.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/48001222767-reputation-breaking-down-the-reputation-overview-dashboard",
-    "hash": "33caa7a1d4dd13c2",
+    "hash": "77a4ea53e8c1cab2",
     "title": "Reputation - Breaking Down the Reputation Overview Dashboard"
-  },
-  "docs/Reputation-Management-&-Reviews/Review-Requests/Reputation - Breaking Down the Reviews Tab.md": {
-    "url": "https://help.gohighlevel.com/support/solutions/articles/48001222826-reputation-breaking-down-the-reviews-tab",
-    "hash": "8f2956017f56f5c8",
-    "title": "Reputation - Breaking Down the Reviews Tab"
   },
   "docs/Reputation-Management-&-Reviews/Review-Requests/Customizing Review Widgets in Reputation.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000000997-customizing-review-widgets-in-reputation",
@@ -8843,6 +8198,11 @@
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000004716-reputation-management-personalize-recurring-emails-with-custom-templates",
     "hash": "84c09b01af1119a9",
     "title": "Reputation Management: Personalize Recurring Emails with Custom Templates"
+  },
+  "docs/Reputation-Management-&-Reviews/Review-Requests/Multi-Channel Review Requests.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004803-multi-channel-review-requests",
+    "hash": "48e749cbf30a8df3",
+    "title": "Multi-Channel Review Requests"
   },
   "docs/Reputation-Management-&-Reviews/Competitor-Analysis/Reputation Management Competitor Analysis in HighLevel.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000005344-reputation-management-competitor-analysis-in-highlevel",
@@ -9221,7 +8581,7 @@
   },
   "docs/CRM/Import-Export/Import data from HubSpot.md": {
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007947-import-data-from-hubspot",
-    "hash": "6b2d5976655a32e6",
+    "hash": "26386c2bbdb08199",
     "title": "Import data from HubSpot"
   },
   "docs/CRM/Managing-your-CRM-Views/Searching an Object Record.md": {
@@ -9358,5 +8718,720 @@
     "url": "https://help.gohighlevel.com/support/solutions/articles/155000007745-how-to-add-and-reuse-images-in-forms-surveys-qr-codes-with-media-picker",
     "hash": "3776ef1849b5ed17",
     "title": "How to Add and Reuse Images in Forms, Surveys & QR Codes with Media Picker"
+  },
+  "docs/AI-Employee/AI-Employee/AI Tools in HighLevel.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000002166-ai-tools-in-highlevel",
+    "hash": "23ba1983458b3413",
+    "title": "AI Tools in HighLevel"
+  },
+  "docs/AI-Employee/AI-Employee/AI Employee Overview.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000003906-ai-employee-overview",
+    "hash": "32697cf0ae500d4d",
+    "title": "AI Employee Overview"
+  },
+  "docs/AI-Employee/AI-Employee/AI Product Pricing.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006652-ai-product-pricing",
+    "hash": "41ca087d41856609",
+    "title": "AI Product Pricing"
+  },
+  "docs/AI-Employee/AI-Employee/Introducing AI Build Hours.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006137-introducing-ai-build-hours",
+    "hash": "01fcabcd0f6a5946",
+    "title": "Introducing AI Build Hours"
+  },
+  "docs/AI-Employee/AI-Employee/How to Use Public APIs in Agent Studio.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007515-how-to-use-public-apis-in-agent-studio",
+    "hash": "b9beaa78efc8e279",
+    "title": "How to Use Public APIs in Agent Studio"
+  },
+  "docs/AI-Employee/AI-Employee/Agent Logs Overview.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007657-agent-logs-overview",
+    "hash": "0c8a4515096c1d8c",
+    "title": "Agent Logs Overview"
+  },
+  "docs/AI-Employee/AI-Employee/Google sheet integration for Knowledge Base.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007717-google-sheet-integration-for-knowledge-base",
+    "hash": "b76aab430f3658da",
+    "title": "Google sheet integration for Knowledge Base"
+  },
+  "docs/AI-Employee/AI-Employee/Agent Logs Metrics.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007732-agent-logs-metrics",
+    "hash": "62fe1fce1dfed45a",
+    "title": "Agent Logs Metrics"
+  },
+  "docs/AI-Employee/AI-Employee/AI Usage Dashboard.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007742-ai-usage-dashboard",
+    "hash": "d614a8066ee668de",
+    "title": "AI Usage Dashboard"
+  },
+  "docs/AI-Employee/AI-Employee/Summer of AI 2026.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008057-summer-of-ai-2026",
+    "hash": "fcf19946dce84043",
+    "title": "Summer of AI 2026"
+  },
+  "docs/AI-Employee/Voice-AI/Overview of Voice AI Agents.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000003911-overview-of-voice-ai-agents",
+    "hash": "be0d1f17c7eecfaa",
+    "title": "Overview of Voice AI Agents"
+  },
+  "docs/AI-Employee/Voice-AI/How to Create Voice AI Agents.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004107-how-to-create-voice-ai-agents",
+    "hash": "9215f02a18352664",
+    "title": "How to Create Voice AI Agents"
+  },
+  "docs/AI-Employee/Voice-AI/How to Test Voice AI Agents.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004108-how-to-test-voice-ai-agents",
+    "hash": "09078e16cc55df2a",
+    "title": "How to Test Voice AI Agents"
+  },
+  "docs/AI-Employee/Voice-AI/Voice AI - How to Configure Inbound Call Flow.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000003431-voice-ai-how-to-configure-inbound-call-flow",
+    "hash": "df81e2b92b0f4b5d",
+    "title": "Voice AI - How to Configure Inbound Call Flow"
+  },
+  "docs/AI-Employee/Voice-AI/How to Set Working Hours for Voice AI Agents.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004139-how-to-set-working-hours-for-voice-ai-agents",
+    "hash": "a592b1c3b1db0b10",
+    "title": "How to Set Working Hours for Voice AI Agents"
+  },
+  "docs/AI-Employee/Voice-AI/Multi-Language Support for Voice AI Agents.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004683-multi-language-support-for-voice-ai-agents",
+    "hash": "c61fa42905d42bd7",
+    "title": "Multi-Language Support for Voice AI Agents"
+  },
+  "docs/AI-Employee/Voice-AI/How to Use Custom Values in Voice AI Agent Prompts.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004690-how-to-use-custom-values-in-voice-ai-agent-prompts",
+    "hash": "9faa150876edf7a1",
+    "title": "How to Use Custom Values in Voice AI Agent Prompts"
+  },
+  "docs/AI-Employee/Voice-AI/Voice AI Agents Dashboard Overview.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004693-voice-ai-agents-dashboard-overview",
+    "hash": "1679bdf5c85ae94c",
+    "title": "Voice AI Agents Dashboard Overview"
+  },
+  "docs/AI-Employee/Voice-AI/How to Keep Callers Engaged with the Voice AI Idle Reminder Timer.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005207-how-to-keep-callers-engaged-with-the-voice-ai-idle-reminder-timer",
+    "hash": "7aabcd9382d2ec64",
+    "title": "How to Keep Callers Engaged with the Voice AI Idle Reminder Timer"
+  },
+  "docs/AI-Employee/Voice-AI/How to Assign Twilio Numbers to Voice AI Agents.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005210-how-to-assign-twilio-numbers-to-voice-ai-agents",
+    "hash": "e0d16ec760ead0c6",
+    "title": "How to Assign Twilio Numbers to Voice AI Agents"
+  },
+  "docs/AI-Employee/Voice-AI/How to View Test Call Logs in the Voice AI Dashboard.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005211-how-to-view-test-call-logs-in-the-voice-ai-dashboard",
+    "hash": "a500891f978b23ed",
+    "title": "How to View Test Call Logs in the Voice AI Dashboard"
+  },
+  "docs/AI-Employee/Voice-AI/How to Configure Voice AI Performance Summary Emails.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005214-how-to-configure-voice-ai-performance-summary-emails",
+    "hash": "1944fc9abe1547a0",
+    "title": "How to Configure Voice AI Performance Summary Emails"
+  },
+  "docs/AI-Employee/Voice-AI/Number Pool Support in Voice AI Agents.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005221-number-pool-support-in-voice-ai-agents",
+    "hash": "7128f25586987d28",
+    "title": "Number Pool Support in Voice AI Agents"
+  },
+  "docs/AI-Employee/Voice-AI/Knowledge Base Integration for Voice AI Agents.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005266-knowledge-base-integration-for-voice-ai-agents",
+    "hash": "c4e3924f037c2fa7",
+    "title": "Knowledge Base Integration for Voice AI Agents"
+  },
+  "docs/AI-Employee/Voice-AI/Separate During-Call and Post-Call Actions in Voice AI.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005267-separate-during-call-and-post-call-actions-in-voice-ai",
+    "hash": "66d9e1a972ed69e3",
+    "title": "Separate During-Call and Post-Call Actions in Voice AI"
+  },
+  "docs/AI-Employee/Voice-AI/Appointment Booking in Voice AI.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005293-appointment-booking-in-voice-ai",
+    "hash": "9b9f6a96bbea32f2",
+    "title": "Appointment Booking in Voice AI"
+  },
+  "docs/AI-Employee/Voice-AI/Voice AI Custom Actions.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005461-voice-ai-custom-actions",
+    "hash": "c8280aed3b7019b6",
+    "title": "Voice AI Custom Actions"
+  },
+  "docs/AI-Employee/Voice-AI/How to Upgrade a Voice AI Agent to the New Voice AI Experience.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005556-how-to-upgrade-a-voice-ai-agent-to-the-new-voice-ai-experience",
+    "hash": "aa8223c466ccf824",
+    "title": "How to Upgrade a Voice AI Agent to the New Voice AI Experience"
+  },
+  "docs/AI-Employee/Voice-AI/Managing Granular Permissions for Voice AI Agents.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005680-managing-granular-permissions-for-voice-ai-agents",
+    "hash": "c2b442e418266b6e",
+    "title": "Managing Granular Permissions for Voice AI Agents"
+  },
+  "docs/AI-Employee/Voice-AI/Voice AI Translation Service for Call Transcript & Summary.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005797-voice-ai-translation-service-for-call-transcript-summary",
+    "hash": "5b872918b48bec3a",
+    "title": "Voice AI: Translation Service for Call Transcript & Summary"
+  },
+  "docs/AI-Employee/Workflow-AI/Workflow AI Assistant.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000003970-workflow-ai-assistant",
+    "hash": "501add578964cc38",
+    "title": "Workflow AI Assistant"
+  },
+  "docs/AI-Employee/Workflow-AI/Voice Dictation in AI Builder & Assistant.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007418-voice-dictation-in-ai-builder-assistant",
+    "hash": "12aec44248a4f2d3",
+    "title": "Voice Dictation in AI Builder & Assistant"
+  },
+  "docs/AI-Employee/Conversation-AI/Bot Status for Individual Contacts.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004096-bot-status-for-individual-contacts",
+    "hash": "6ecb10e799a834ff",
+    "title": "Bot Status for Individual Contacts"
+  },
+  "docs/AI-Employee/Conversation-AI/Guided Form Based Setup for Conversation AI.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005382-guided-form-based-setup-for-conversation-ai",
+    "hash": "834d9da5cd6dd334",
+    "title": "Guided Form Based Setup for Conversation AI"
+  },
+  "docs/AI-Employee/Conversation-AI/Conversation AI Agents Dashboard.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005427-conversation-ai-agents-dashboard",
+    "hash": "59d63e037ec0f28b",
+    "title": "Conversation AI Agents Dashboard"
+  },
+  "docs/AI-Employee/Conversation-AI/Conversation AI- Bot Snapshots.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005460-conversation-ai-bot-snapshots",
+    "hash": "cf14628a87e64d80",
+    "title": "Conversation AI- Bot Snapshots"
+  },
+  "docs/AI-Employee/Conversation-AI/Cancellation and Rescheduling of Appointments in Form Based Bots.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005503-cancellation-and-rescheduling-of-appointments-in-form-based-bots",
+    "hash": "2e26b95dc38c6e56",
+    "title": "Cancellation and Rescheduling of Appointments in Form Based Bots"
+  },
+  "docs/AI-Employee/Conversation-AI/Managing Granular Permissions For Conversation AI Agents.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006054-managing-granular-permissions-for-conversation-ai-agents",
+    "hash": "054d516d18884efb",
+    "title": "Managing Granular Permissions For Conversation AI Agents"
+  },
+  "docs/AI-Employee/Conversation-AI/Conversation AI Flow Builder.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006515-conversation-ai-flow-builder",
+    "hash": "27e548a4d245577d",
+    "title": "Conversation AI Flow Builder"
+  },
+  "docs/AI-Employee/Conversation-AI/Conversations AI Bots can now Respond to Images.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006537-conversations-ai-bots-can-now-respond-to-images",
+    "hash": "c93642705d77a1f7",
+    "title": "Conversations AI Bots can now Respond to Images"
+  },
+  "docs/AI-Employee/Conversation-AI/How to Generate Conversation Summaries and Transcript in Conversation AI.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006597-how-to-generate-conversation-summaries-and-transcript-in-conversation-ai",
+    "hash": "bf39cec25f516659",
+    "title": "How to Generate Conversation Summaries and Transcript in Conversation AI"
+  },
+  "docs/AI-Employee/Conversation-AI/Conversation AI Public API.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006639-conversation-ai-public-api",
+    "hash": "e398fb8a02effb43",
+    "title": "Conversation AI Public API"
+  },
+  "docs/AI-Employee/Conversation-AI/Conversations AI Bots can now Respond to Audio.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006650-conversations-ai-bots-can-now-respond-to-audio",
+    "hash": "b1e676b418bc5fc5",
+    "title": "Conversations AI Bots can now Respond to Audio"
+  },
+  "docs/AI-Employee/Conversation-AI/Conversation AI Multi-Calendar Booking Setup Guide.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006559-conversation-ai-multi-calendar-booking-setup-guide",
+    "hash": "cea16f6a3b614bc8",
+    "title": "Conversation AI Multi-Calendar Booking Setup Guide"
+  },
+  "docs/AI-Employee/Conversation-AI/Forward Emails from Conversations in HighLevel.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007241-forward-emails-from-conversations-in-highlevel",
+    "hash": "37663ab00543bd39",
+    "title": "Forward Emails from Conversations in HighLevel"
+  },
+  "docs/AI-Employee/Conversation-AI/Configure Response Settings in Conversation AI.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007421-configure-response-settings-in-conversation-ai",
+    "hash": "a45592f6274fe915",
+    "title": "Configure Response Settings in Conversation AI"
+  },
+  "docs/AI-Employee/Conversation-AI/Conversation AI Email Channel Support.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007621-conversation-ai-email-channel-support",
+    "hash": "a6865d620b0adbd9",
+    "title": "Conversation AI Email Channel Support"
+  },
+  "docs/AI-Employee/Getting-Started-w-Conversation-AI/Conversation AI Bot Explained.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000001335-conversation-ai-bot-explained",
+    "hash": "75530af7c7d2402f",
+    "title": "Conversation AI Bot Explained"
+  },
+  "docs/AI-Employee/Getting-Started-w-Conversation-AI/How to Set Up a Conversation AI Bot.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004401-how-to-set-up-a-conversation-ai-bot",
+    "hash": "eb00b68424535ac2",
+    "title": "How to Set Up a Conversation AI Bot"
+  },
+  "docs/AI-Employee/Getting-Started-w-Conversation-AI/Conversation AI - Advanced Settings Overview.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004415-conversation-ai-advanced-settings-overview",
+    "hash": "9550c38464eeb12e",
+    "title": "Conversation AI - Advanced Settings Overview"
+  },
+  "docs/AI-Employee/Getting-Started-w-Conversation-AI/Conversation AI - Primary vs Non-Primary Bots.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004414-conversation-ai-primary-vs-non-primary-bots",
+    "hash": "acfea796c0fca63f",
+    "title": "Conversation AI - Primary vs Non-Primary  Bots"
+  },
+  "docs/AI-Employee/Getting-Started-w-Conversation-AI/How to Use Conversation AI in the Mobile App (HighLevel & LeadConnector).md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000002669-how-to-use-conversation-ai-in-the-mobile-app-highlevel-leadconnector-",
+    "hash": "fb1c4028c6039990",
+    "title": "How to Use Conversation AI in the Mobile App (HighLevel & LeadConnector)"
+  },
+  "docs/AI-Employee/Conversation-AI-Response-Modes/Auto-Pilot Mode in Conversation AI for Efficient Communication.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008094-auto-pilot-mode-in-conversation-ai-for-efficient-communication",
+    "hash": "94e45670288bf150",
+    "title": "Auto-Pilot Mode in Conversation AI for Efficient Communication"
+  },
+  "docs/AI-Employee/Conversation-AI-Training-Bots/Training Your Conversation AI Bot.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004416-training-your-conversation-ai-bot",
+    "hash": "c691897e2b8f94d4",
+    "title": "Training Your Conversation AI Bot"
+  },
+  "docs/AI-Employee/Conversation-AI-Training-Bots/Web URLs and Links.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000001338-web-urls-and-links",
+    "hash": "a6031c2443ae3341",
+    "title": "Web URLs and Links"
+  },
+  "docs/AI-Employee/Conversation-AI-Training-Bots/Conversation AI New Query Detection Flow.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000003206-conversation-ai-new-query-detection-flow",
+    "hash": "45e0fcc8e8811866",
+    "title": "Conversation AI: New Query Detection Flow"
+  },
+  "docs/AI-Employee/Conversation-AI-Training-Bots/Review and Edit Website Content Used by Conversation AI.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000003215-review-and-edit-website-content-used-by-conversation-ai",
+    "hash": "7efa4973d59f0da4",
+    "title": "Review and Edit Website Content Used by Conversation AI"
+  },
+  "docs/AI-Employee/Conversation-AI-Training-Bots/Response Info for your AI message.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000003706-response-info-for-your-ai-message",
+    "hash": "0f3e6853d5cfcfa5",
+    "title": "Response Info for your AI message"
+  },
+  "docs/AI-Employee/Conversation-AI-Training-Bots/How to Use Knowledge Base Triggers in Conversation AI.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007791-how-to-use-knowledge-base-triggers-in-conversation-ai",
+    "hash": "18e6953ecf90d16e",
+    "title": "How to Use Knowledge Base Triggers in Conversation AI"
+  },
+  "docs/AI-Employee/Conversation-AI-Training-Bots/Conversation AI - New Knowledge Sources & Quality Upgrades.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006456-conversation-ai-new-knowledge-sources-quality-upgrades",
+    "hash": "3d13921f5e9c4f51",
+    "title": "Conversation AI - New Knowledge Sources & Quality Upgrades"
+  },
+  "docs/AI-Employee/Conversation-AI-Goals,-Prompts,-&-Actions/AI Prompting 101.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000002254-ai-prompting-101",
+    "hash": "7c4c4ed9ce4fc450",
+    "title": "AI Prompting 101"
+  },
+  "docs/AI-Employee/Conversation-AI-Goals,-Prompts,-&-Actions/Bot Goals Overview - Conversation AI.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004417-bot-goals-overview-conversation-ai",
+    "hash": "07e425d636627763",
+    "title": "Bot Goals Overview - Conversation AI"
+  },
+  "docs/AI-Employee/Conversation-AI-Goals,-Prompts,-&-Actions/Appointment Booking in Conversation AI.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000000210-appointment-booking-in-conversation-ai",
+    "hash": "b7cbe17de5a09cbc",
+    "title": "Appointment Booking in Conversation AI"
+  },
+  "docs/AI-Employee/Conversation-AI-Goals,-Prompts,-&-Actions/How to Configure Bot Goals in Conversation AI.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004095-how-to-configure-bot-goals-in-conversation-ai",
+    "hash": "8b3f4fe37197707c",
+    "title": "How to Configure Bot Goals in Conversation AI"
+  },
+  "docs/AI-Employee/Conversation-AI-Goals,-Prompts,-&-Actions/How to Use the Add Contact Info Action in Conversation AI.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004097-how-to-use-the-add-contact-info-action-in-conversation-ai",
+    "hash": "3593180f0fcc0adf",
+    "title": "How to Use the Add Contact Info Action in Conversation AI"
+  },
+  "docs/AI-Employee/Conversation-AI-Goals,-Prompts,-&-Actions/How to Customize Conversation AI Agent Responses with Prompts and Instructions.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000002255-how-to-customize-conversation-ai-agent-responses-with-prompts-and-instructions",
+    "hash": "c339889033d7b81b",
+    "title": "How to Customize Conversation AI Agent Responses with Prompts and Instructions"
+  },
+  "docs/AI-Employee/Conversation-AI-Goals,-Prompts,-&-Actions/AI Action Logging & Filtering in Conversations.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005004-ai-action-logging-filtering-in-conversations",
+    "hash": "92aacc4a0ed7981f",
+    "title": "AI Action Logging & Filtering in Conversations"
+  },
+  "docs/AI-Employee/Conversation-AI-Goals,-Prompts,-&-Actions/Conversation AI - Auto Follow-Up Action.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005500-conversation-ai-auto-follow-up-action",
+    "hash": "a9bc34be0ba6b5e4",
+    "title": "Conversation AI - Auto Follow-Up Action"
+  },
+  "docs/AI-Employee/Conversation-AI-Goals,-Prompts,-&-Actions/Conversation AI - Transfer Bot Action.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005371-conversation-ai-transfer-bot-action",
+    "hash": "d373c5062a32ab23",
+    "title": "Conversation AI - Transfer Bot Action"
+  },
+  "docs/AI-Employee/Conversation-AI-Goals,-Prompts,-&-Actions/Conversation AI - Human Handover Action.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005615-conversation-ai-human-handover-action",
+    "hash": "8733da9c72d16729",
+    "title": "Conversation AI - Human Handover Action"
+  },
+  "docs/AI-Employee/Conversation-AI-+-Workflows/Conversation AI Live Chat Channel in Workflow Action.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000003216-conversation-ai-live-chat-channel-in-workflow-action",
+    "hash": "14f177148ad22ae3",
+    "title": "Conversation AI: Live Chat Channel in Workflow Action"
+  },
+  "docs/AI-Employee/Conversation-AI-+-Workflows/Trigger a Workflow within Conversation AI.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000004098-trigger-a-workflow-within-conversation-ai",
+    "hash": "bf0095d866285919",
+    "title": "Trigger a Workflow within Conversation AI"
+  },
+  "docs/AI-Employee/Content-AI/How to Find Past Records of Content Generated by Content AI.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001234812-how-to-find-past-records-of-content-generated-by-content-ai",
+    "hash": "9c936cf5be3b0662",
+    "title": "How to Find Past Records of Content Generated by Content AI"
+  },
+  "docs/AI-Employee/Content-AI/Brand Voice Integration in Content AI.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005308-brand-voice-integration-in-content-ai",
+    "hash": "6e1df06142485775",
+    "title": "Brand Voice Integration in Content AI"
+  },
+  "docs/AI-Employee/Content-AI/Thumbs UpDown Feedback for Content AI.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005517-thumbs-up-down-feedback-for-content-ai",
+    "hash": "812437ec119ff736",
+    "title": "Thumbs Up/Down Feedback for Content AI"
+  },
+  "docs/AI-Employee/Content-AI-in-Social-Planner/Content AI with Social Planner.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001234788-content-ai-with-social-planner",
+    "hash": "92360abba58d9d38",
+    "title": "Content AI with Social Planner"
+  },
+  "docs/AI-Employee/Content-AI-in-Social-Planner/How to generate images for Social Planner using Content AI.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000000088-how-to-generate-images-for-social-planner-using-content-ai",
+    "hash": "30106e96003df3a2",
+    "title": "How to generate images for Social Planner using Content AI"
+  },
+  "docs/AI-Employee/Content-AI-in-Social-Planner/How to fix grammar and spelling, make longer content and improve writing in Social Post.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000001325-how-to-fix-grammar-and-spelling-make-longer-content-and-improve-writing-in-social-post-",
+    "hash": "d612c3a1453ff60e",
+    "title": "How to fix grammar and spelling, make longer content and improve writing in Social Post?"
+  },
+  "docs/AI-Employee/Content-AI-in-Social-Planner/Content AI Guided Content Questions in Social Planner.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005685-content-ai-guided-content-questions-in-social-planner",
+    "hash": "b4d2aae6c4fd0ec0",
+    "title": "Content AI: Guided Content Questions in Social Planner"
+  },
+  "docs/AI-Employee/Content-AI-in-the-Email-Builder/How to create Emails using Content AI.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001236751-how-to-create-emails-using-content-ai-",
+    "hash": "064447b32d08eac8",
+    "title": "How to create Emails using Content AI?"
+  },
+  "docs/AI-Employee/Content-AI-in-Funnels-and-Website/How to fix grammar and spelling, make longer content and improve writing in Funnels and Website.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000001441-how-to-fix-grammar-and-spelling-make-longer-content-and-improve-writing-in-funnels-and-website-",
+    "hash": "9fbcf5d6d2ebd3e4",
+    "title": "How to fix grammar and spelling, make longer content and improve writing in Funnels and Website?"
+  },
+  "docs/AI-Employee/Content-AI-in-Blogs/How to create blog post outline with Content AI.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001236120-how-to-create-blog-post-outline-with-content-ai-",
+    "hash": "981c3974f3c169b6",
+    "title": "How to create blog post outline with Content AI?"
+  },
+  "docs/AI-Employee/Content-AI-in-Blogs/How to fix grammar and spelling, make longer content and improve writing in Blogs.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000001527-how-to-fix-grammar-and-spelling-make-longer-content-and-improve-writing-in-blogs-",
+    "hash": "52fad62d76d4d1bb",
+    "title": "How to fix grammar and spelling, make longer content and improve writing in Blogs?"
+  },
+  "docs/AI-Employee/Ask-AI/Overview of Ask AI Assistant.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005327-overview-of-ask-ai-assistant",
+    "hash": "89866bbb5506ac90",
+    "title": "Overview of Ask AI Assistant"
+  },
+  "docs/AI-Employee/Ask-AI/How to Generate a Contact's Summary Using Ask AI.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005484-how-to-generate-a-contact-s-summary-using-ask-ai",
+    "hash": "12e4b8aa356b86b1",
+    "title": "How to Generate a Contact's Summary Using Ask AI"
+  },
+  "docs/AI-Employee/Ask-AI/Funnel Creation Agent in Ask AI.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005521-funnel-creation-agent-in-ask-ai",
+    "hash": "6b0f584b559bf523",
+    "title": "Funnel Creation Agent in Ask AI"
+  },
+  "docs/AI-Employee/Ask-AI/How to Generate and Edit Images Using Ask AI.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005764-how-to-generate-and-edit-images-using-ask-ai",
+    "hash": "b323175d1f2f8cc3",
+    "title": "How to Generate and Edit Images Using Ask AI"
+  },
+  "docs/AI-Employee/Ask-AI/How to Use Edit with Ask AI Feature in Social Planner.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005765-how-to-use-edit-with-ask-ai-feature-in-social-planner",
+    "hash": "190b85277e1fbbf8",
+    "title": "How to Use Edit with Ask AI Feature in Social Planner"
+  },
+  "docs/AI-Employee/Ask-AI/Ask AI + Agent Studio Integration.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006677-ask-ai-agent-studio-integration",
+    "hash": "fc75a15be6589f4e",
+    "title": "Ask AI + Agent Studio Integration"
+  },
+  "docs/AI-Employee/Ask-AI/How to Use the MCP Server within Ask AI.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005855-how-to-use-the-mcp-server-within-ask-ai",
+    "hash": "ddcd586cb234d56f",
+    "title": "How to Use the MCP Server within Ask AI"
+  },
+  "docs/AI-Employee/Ask-AI/Using Ask AI to Create and Update SaaS Plans.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007807-using-ask-ai-to-create-and-update-saas-plans",
+    "hash": "e27bd77a53e24b56",
+    "title": "Using Ask AI to Create and Update SaaS Plans"
+  },
+  "docs/AI-Employee/Ask-AI/Using Ask AI Artifacts and Mermaid Diagrams in HighLevel.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007812-using-ask-ai-artifacts-and-mermaid-diagrams-in-highlevel",
+    "hash": "c365feb8a01c1a21",
+    "title": "Using Ask AI Artifacts and Mermaid Diagrams in HighLevel"
+  },
+  "docs/AI-Employee/Ask-AI/Ask AI Session Examples & Usage Costs.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007818-ask-ai-session-examples-usage-costs",
+    "hash": "3985ee6c975fdfa7",
+    "title": "Ask AI Session Examples & Usage Costs"
+  },
+  "docs/AI-Employee/Ask-AI/Create and Attach Knowledge Bases with Ask AI.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007960-create-and-attach-knowledge-bases-with-ask-ai",
+    "hash": "8c4d1fcc97af8f9c",
+    "title": "Create and Attach Knowledge Bases with Ask AI"
+  },
+  "docs/AI-Employee/Ask-AI/What is Ask AI Memory.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007963-what-is-ask-ai-memory-",
+    "hash": "357155a7bd819689",
+    "title": "What is Ask AI Memory?"
+  },
+  "docs/AI-Employee/Ask-AI/How to Use Scheduled Tasks in Ask AI to Automate Prompts.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007966-how-to-use-scheduled-tasks-in-ask-ai-to-automate-prompts",
+    "hash": "b0279198dab81635",
+    "title": "How to Use Scheduled Tasks in Ask AI to Automate Prompts"
+  },
+  "docs/AI-Employee/Ask-AI/How to Generate SEO-Friendly Blog Posts Using Ask AI in HighLevel.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007967-how-to-generate-seo-friendly-blog-posts-using-ask-ai-in-highlevel",
+    "hash": "fbcebc5989e63635",
+    "title": "How to Generate SEO-Friendly Blog Posts Using Ask AI in HighLevel"
+  },
+  "docs/AI-Employee/Ask-AI/How to Use Ask AI Voice Mode.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008022-how-to-use-ask-ai-voice-mode",
+    "hash": "a574e8ecdb358dab",
+    "title": "How to Use Ask AI Voice Mode"
+  },
+  "docs/AI-Employee/Ask-AI/How to Provide Feedback on Ask AI Responses.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008024-how-to-provide-feedback-on-ask-ai-responses",
+    "hash": "8bddd4f65957d519",
+    "title": "How to Provide Feedback on Ask AI Responses"
+  },
+  "docs/AI-Employee/Ask-AI/How to Use Ask AI to Create and Manage Courses.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008027-how-to-use-ask-ai-to-create-and-manage-courses",
+    "hash": "640a56f606f7e94e",
+    "title": "How to Use Ask AI to Create and Manage Courses"
+  },
+  "docs/AI-Employee/Ask-AI/How to setup the Ask AI LeadConnector Chrome Extension.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008287-how-to-setup-the-ask-ai-leadconnector-chrome-extension",
+    "hash": "8519360225cc0180",
+    "title": "How to setup the Ask AI LeadConnector Chrome Extension"
+  },
+  "docs/AI-Employee/Ask-AI/Ask AI Templates.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008297-ask-ai-templates",
+    "hash": "cb39081ae3ea4105",
+    "title": "Ask AI Templates"
+  },
+  "docs/AI-Employee/AI-Studio/AI Studio in HighLevel.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007587-ai-studio-in-highlevel",
+    "hash": "532cf53abad5688f",
+    "title": "AI Studio in HighLevel"
+  },
+  "docs/AI-Employee/AI-Studio/Connect Forms and Calendars in AI Studio.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007599-connect-forms-and-calendars-in-ai-studio",
+    "hash": "36d126be15df2a76",
+    "title": "Connect Forms and Calendars in AI Studio"
+  },
+  "docs/AI-Employee/AI-Studio/Code Editor in AI Studio.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007652-code-editor-in-ai-studio",
+    "hash": "7548e415a5baec00",
+    "title": "Code Editor in AI Studio"
+  },
+  "docs/AI-Employee/AI-Studio/Advanced SEO Support in AI Studio.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007691-advanced-seo-support-in-ai-studio",
+    "hash": "28a5f91b6c74b91a",
+    "title": "Advanced SEO Support in AI Studio"
+  },
+  "docs/AI-Employee/AI-Studio/Visual Edits in AI Studio.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007914-visual-edits-in-ai-studio",
+    "hash": "e8baec0bf9a3bf23",
+    "title": "Visual Edits in AI Studio"
+  },
+  "docs/AI-Employee/AI-Studio/Bulk EnableDisable AI Studio Across Sub-Accounts.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008246-bulk-enable-disable-ai-studio-across-sub-accounts",
+    "hash": "63121a4e1233565d",
+    "title": "Bulk Enable/Disable AI Studio Across Sub-Accounts"
+  },
+  "docs/AI-Employee/AI-Studio/AI Studio Form Submitted Workflow Trigger.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008298-ai-studio-form-submitted-workflow-trigger",
+    "hash": "7e0bc66cf164f90e",
+    "title": "AI Studio Form Submitted Workflow Trigger"
+  },
+  "docs/AI-Employee/AI-Studio/AI Studio - Pricing.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008322-ai-studio-pricing",
+    "hash": "c457f8a4f200be8a",
+    "title": "AI Studio - Pricing"
+  },
+  "docs/AI-Employee/Agent-Studio/Overview of Flow Agents in Agent Studio.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006058-overview-of-flow-agents-in-agent-studio",
+    "hash": "7660b0b827e45cf1",
+    "title": "Overview of Flow Agents in Agent Studio"
+  },
+  "docs/AI-Employee/Agent-Studio/Agent Studio - Setting Up Triggers for Flow Agents.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007310-agent-studio-setting-up-triggers-for-flow-agents",
+    "hash": "a3399cb4f5bb016b",
+    "title": "Agent Studio - Setting Up Triggers for Flow Agents"
+  },
+  "docs/AI-Employee/Agent-Studio/How to Setup Flow Agents in Agent Studio.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007393-how-to-setup-flow-agents-in-agent-studio",
+    "hash": "fe84ee7b16669077",
+    "title": "How to Setup Flow Agents in Agent Studio"
+  },
+  "docs/AI-Employee/Agent-Studio/Agent Studio - Router Tool (AI & Conditional Router).md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007404-agent-studio-router-tool-ai-conditional-router-",
+    "hash": "45f9523ccdce97a3",
+    "title": "Agent Studio - Router Tool (AI & Conditional Router)"
+  },
+  "docs/AI-Employee/Agent-Studio/How to Create and Manage Folders in Agent Studio.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007417-how-to-create-and-manage-folders-in-agent-studio",
+    "hash": "c6d33ae710bae982",
+    "title": "How to Create and Manage Folders in Agent Studio"
+  },
+  "docs/AI-Employee/Agent-Studio/How to Test and Debug AI Conversations in Agent Studio.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007425-how-to-test-and-debug-ai-conversations-in-agent-studio",
+    "hash": "6c24a93c96b3a298",
+    "title": "How to Test and Debug AI Conversations in Agent Studio"
+  },
+  "docs/AI-Employee/Agent-Studio/How to Use Custom Values and Variables in Agent Studio.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007432-how-to-use-custom-values-and-variables-in-agent-studio",
+    "hash": "4b8d4b5f612353d2",
+    "title": "How to Use Custom Values and Variables in Agent Studio"
+  },
+  "docs/AI-Employee/Agent-Studio/How to Clone and Share Agent Studio Agents Using Snapshots.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007504-how-to-clone-and-share-agent-studio-agents-using-snapshots",
+    "hash": "400a39ee01c5ac4c",
+    "title": "How to Clone and Share Agent Studio Agents Using Snapshots"
+  },
+  "docs/AI-Employee/Agent-Studio/How to Use Brand Voice and Brand Kit in Agent Studio.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007510-how-to-use-brand-voice-and-brand-kit-in-agent-studio",
+    "hash": "6fe1509e434749aa",
+    "title": "How to Use Brand Voice and Brand Kit in Agent Studio"
+  },
+  "docs/AI-Employee/Agent-Studio/Agent Studio - Multi Agent System Builder.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007609-agent-studio-multi-agent-system-builder",
+    "hash": "654336bb0d81feb8",
+    "title": "Agent Studio - Multi Agent System Builder"
+  },
+  "docs/AI-Employee/Agent-Studio/Graph Builder Copy, Paste, and Bulk Delete in Agent Studio.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007645-graph-builder-copy-paste-and-bulk-delete-in-agent-studio",
+    "hash": "8669afa17c3c1f84",
+    "title": "Graph Builder Copy, Paste, and Bulk Delete in Agent Studio"
+  },
+  "docs/AI-Employee/Agent-Studio/Build Smarter AI Agents Using AI Agent Node in Agent Studio.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007648-build-smarter-ai-agents-using-ai-agent-node-in-agent-studio",
+    "hash": "ecc3cc98bef0d0dd",
+    "title": "Build Smarter AI Agents Using AI Agent Node in Agent Studio"
+  },
+  "docs/AI-Employee/Agent-Studio/How to Build Structured Agent Flows Using Sequential Node in Agent Studio.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007655-how-to-build-structured-agent-flows-using-sequential-node-in-agent-studio",
+    "hash": "6808b9437dde058c",
+    "title": "How to Build Structured Agent Flows Using Sequential Node in Agent Studio"
+  },
+  "docs/AI-Employee/Agent-Studio/How to Collect User Inputs with Capture Tools in Agent Studio.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007802-how-to-collect-user-inputs-with-capture-tools-in-agent-studio",
+    "hash": "99a7b2c7357fa2e5",
+    "title": "How to Collect User Inputs with Capture Tools in Agent Studio"
+  },
+  "docs/AI-Employee/Agent-Studio/How to Create AI Content with Generative AI tools In Agent Studio.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007806-how-to-create-ai-content-with-generative-ai-tools-in-agent-studio",
+    "hash": "7fe9e806e03ed557",
+    "title": "How to Create AI Content with Generative AI tools In Agent Studio"
+  },
+  "docs/AI-Employee/Agent-Studio/How AI Agents Use the Knowledge Base Tool to Answer Customer Inquiries.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007824-how-ai-agents-use-the-knowledge-base-tool-to-answer-customer-inquiries",
+    "hash": "a9da9cf2b0ce0b45",
+    "title": "How AI Agents Use the Knowledge Base Tool to Answer Customer Inquiries"
+  },
+  "docs/AI-Employee/Agent-Studio/How to Setup and Use Super Agents in Agent Studio.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007931-how-to-setup-and-use-super-agents-in-agent-studio",
+    "hash": "79a6930b30efe256",
+    "title": "How to Setup and Use Super Agents in Agent Studio"
+  },
+  "docs/AI-Employee/Agent-Studio/Import cURL in Agent Studio API Call Tool.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007933-import-curl-in-agent-studio-api-call-tool",
+    "hash": "b74443c96076db61",
+    "title": "Import cURL in Agent Studio API Call Tool"
+  },
+  "docs/AI-Employee/Agent-Studio/How to Use Web Search Tool in Agent Studio for Real-Time Responses.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007965-how-to-use-web-search-tool-in-agent-studio-for-real-time-responses",
+    "hash": "579a511633381331",
+    "title": "How to Use Web Search Tool in Agent Studio for Real-Time Responses"
+  },
+  "docs/AI-Employee/Agent-Studio/Scheduled Triggers for Super Agents in HighLevel.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008245-scheduled-triggers-for-super-agents-in-highlevel",
+    "hash": "c03ba92864467464",
+    "title": "Scheduled Triggers for Super Agents in HighLevel"
+  },
+  "docs/AI-Employee/Email-AI/Email Campaign Agent (Beta).md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006670-email-campaign-agent-beta-",
+    "hash": "9a18032f2019d8fd",
+    "title": "Email Campaign Agent (Beta)"
+  },
+  "docs/AI-Employee/MCP-Server/How to Setup and Use the HighLevel MCP Server.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000005741-how-to-setup-and-use-the-highlevel-mcp-server",
+    "hash": "d36c359b8cae1c81",
+    "title": "How to Setup and Use the HighLevel MCP Server"
+  },
+  "docs/AI-Employee/MCP-Server/Automate Workflows with GHL MCP and N8N.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007777-automate-workflows-with-ghl-mcp-and-n8n",
+    "hash": "7c460f7f9cd26927",
+    "title": "Automate Workflows with GHL MCP and N8N"
+  },
+  "docs/AI-Employee/MCP-Server/MCP Connectors.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008304-mcp-connectors",
+    "hash": "b07aee6a9ff92858",
+    "title": "MCP Connectors"
+  },
+  "docs/AI-Employee/Knowledge-Bases/Knowledge Base - Web Crawler.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006625-knowledge-base-web-crawler",
+    "hash": "1fccb335424b0678",
+    "title": "Knowledge Base - Web Crawler"
+  },
+  "docs/AI-Employee/Knowledge-Bases/AI Employee - Knowledge Base Tables.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006637-ai-employee-knowledge-base-tables",
+    "hash": "b84caff2ea452c8d",
+    "title": "AI Employee - Knowledge Base Tables"
+  },
+  "docs/AI-Employee/Knowledge-Bases/Auto Refresh of Knowledge Base Trained Links.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006539-auto-refresh-of-knowledge-base-trained-links",
+    "hash": "3d5fd1cacde29ef9",
+    "title": "Auto Refresh of Knowledge Base Trained Links"
+  },
+  "docs/AI-Employee/Knowledge-Bases/Knowledge Base - Document & Rich-Text Support.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000006671-knowledge-base-document-rich-text-support",
+    "hash": "3fbcfb27f8adf588",
+    "title": "Knowledge Base - Document & Rich-Text Support"
+  },
+  "docs/AI-Employee/Knowledge-Bases/Bundle Knowledge Bases with AI Agent Templates.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007077-bundle-knowledge-bases-with-ai-agent-templates",
+    "hash": "34221323d3701d02",
+    "title": "Bundle Knowledge Bases with AI Agent Templates"
+  },
+  "docs/AI-Employee/Knowledge-Bases/Knowledge Base Overview.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007313-knowledge-base-overview",
+    "hash": "bdaebe893327de54",
+    "title": "Knowledge Base Overview"
+  },
+  "docs/AI-Employee/Knowledge-Bases/What is the Knowledge Base Retrieval Tester.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007758-what-is-the-knowledge-base-retrieval-tester-",
+    "hash": "ce1e12ece9c4f91f",
+    "title": "What is the Knowledge Base Retrieval Tester?"
+  },
+  "docs/AI-Employee/Knowledge-Bases/How to Download Knowledge Base Tables in CSV.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000007930-how-to-download-knowledge-base-tables-in-csv",
+    "hash": "7376bf6035ac052a",
+    "title": "How to Download Knowledge Base Tables in CSV"
+  },
+  "docs/AI-Employee/Knowledge-Bases/Knowledge Base - Google Drive Integration.md": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000008095-knowledge-base-google-drive-integration",
+    "hash": "9621be850dfa3a00",
+    "title": "Knowledge Base - Google Drive Integration"
   }
 }

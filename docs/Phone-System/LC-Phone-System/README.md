@@ -7,7 +7,7 @@
 - [How do I migrate my agency and sub-account over to LC Phone?](How do I migrate my agency and sub-account over to LC Phone.md)
 - [Why is your account suspended](Why is your account suspended.md)
 - [Regulatory Bundle and Address Creation for Sub-Accounts](Regulatory Bundle and Address Creation for Sub-Accounts.md)
-- [What is LC (Lead Connector) Phone System?](What is LC (Lead Connector) Phone System.md)
+- [What is the Native Phone System?](What is the Native Phone System.md)
 - [Phone System Pricing & Billing Guide](Phone System Pricing & Billing Guide.md)
 - [How to Disable LC Phone System for Subaccount/Location (LC to Twilio)](How to Disable LC Phone System for SubaccountLocation (LC to Twilio).md)
 - [Phone System Messaging Analytics Overview](Phone System Messaging Analytics Overview.md)

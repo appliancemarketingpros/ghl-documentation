@@ -12,10 +12,7 @@ Creating a whitelabel membership Progressive Web App (PWA) allows businesses to 
 
     
     
-    **Important:** The Membership PWA is available only in the Legacy Memberships experience. It is not supported in the Client Portal experience. If your location is using Client Portal, switch to Legacy Memberships before configuring the PWA.
-
-  
-
+    **Important:** The Membership PWA is _available only in the Legacy Memberships experience_._It is n_ _ot supported in the Client Portal experience_. If your location is using Client Portal, switch to Legacy Memberships before configuring the PWA.
 
 * * *
 
@@ -26,6 +23,11 @@ Creating a whitelabel membership Progressive Web App (PWA) allows businesses to 
   * Why You Should Consider Creating a PWA : Key Differences
   * Prerequisites: Prepare Your Membership and Branding
   * How to Set Up Your Whitelabel Membership PWA
+  * How to Install the PWA
+    * Installing the PWA on a Windows Computer
+    * Installing PWA on a Mac Computer
+    * Installing PWA on an Android device:
+    * Installing PWA on an iOS Mobile Device:
   * Troubleshooting the Membership PWA
   * Frequently Asked Questions
   * Related Articles
@@ -57,9 +59,7 @@ In HighLevel, the Membership PWA is part of the Legacy Memberships experience. I
   
 
 
-  * **Works Across All Devices:** Accessible on mobile, tablet, and desktop without separate development.
-
-
+  * **Works Across All Devices:** Accessible on mobile, tablet, and desktop without separate development.  
   
 
 
@@ -82,9 +82,6 @@ Push Notifications| Availability depends on the device, browser, operating syste
 Performance| Fast and lightweight| Generally faster for complex apps  
 Approval Process| No app store approval required| Subject to App Store/Google Play guidelines  
   
-  
-
-
 * * *
 
 ## **Prerequisites: Prepare Your Membership and Branding**
@@ -97,17 +94,14 @@ Before configuring your Membership PWA, it’s important to ensure your branding
   
 
 
-**Customize Your Branding:** Switch to Legacy Memberships, then navigate to **Memberships > Courses > Settings** and configure the available branding and app settings. Upload your business logo, choose your color scheme, and add a favicon for browser tab branding. These visual elements appear throughout the app and reinforce your brand identity.
-
+  1. **Customize Your Branding:** Switch to Legacy Memberships, then navigate to **Memberships > Courses > Settings** > **Branding** and configure the available branding and app settings. Upload your business logo and add a favicon for browser tab branding. These visual elements appear throughout the app and reinforce your brand identity.  
   
 
-
-**Set Up Your Membership Structure:** In Legacy Memberships, navigate to **Memberships > Courses > Products** to create or review your courses, offers, access levels, and related content. Create product tiers, add courses, and configure pricing and access levels. Organizing your content now ensures a smooth learning journey inside the PWA.
-
+  2. **Set Up Your Membership Structure:** In Legacy Memberships, navigate to **Memberships > Courses > Products** to create or review your courses, offers, access levels, and related content. Create product tiers, add courses, and configure pricing and access levels. Organizing your content now ensures a smooth learning journey inside the PWA.  
   
 
+  3. **Link a Custom Domain (Optional):** Connect a custom domain (e.g., app.yourbrand.com) via **Settings** > **Domains**. Adding a branded domain enhances trust and gives your PWA a more polished, app-like experience.
 
-**Link a Custom Domain (Optional):** Connect a custom domain (e.g., app.yourbrand.com) via Settings > Domains. Adding a branded domain enhances trust and gives your PWA a more polished, app-like experience.
 
   
 
@@ -121,7 +115,7 @@ Once these steps are complete, you’re ready to begin configuring your Membersh
   
 
 
-### **Access Memberships**
+####  _**Step 1:** Access Memberships_
 
   
 
@@ -130,18 +124,25 @@ To begin setting up your Membership PWA, In the sub-account, navigate to **Membe
 
   
 
+    
+    
+    **Important:** The Membership PWA is available only in the _Legacy Memberships experience_. It is not supported in the Client Portal experience.
 
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155043790988/original/Jw_NBG-BSTHD4Pr_3QhBnvoaUZbm9u2adA.png?1742714853)
 
   
 
 
-### **Select App Settings**
+  
+
+
+#### **_Step 2:_**_Select App Settings_
 
   
 
 
-Once you’ve navigated to Courses > Settings, you’ll land on the main configuration page for your memberships. From here, look for the App Settings tile. This is where you’ll customize how your Progressive Web App (PWA) appears and behaves on both desktop and mobile devices.
+Once you’ve navigated to **Courses** > **Settings** , look for the **App Settings (App Details)** tile. This is where you’ll customize how your Progressive Web App (PWA) appears and behaves on both desktop and mobile devices.
 
   
 
@@ -151,7 +152,7 @@ If the **App Settings** tile is not visible, confirm that the location is using 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155043790991/original/xDipl4dNfcTNskX1LzA_GSVxyZljptM94w.png?1742714874)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077162932/original/b9H9zmARpQR_3EiWzEgvQZYRi5LqdabqGw.png?1785339077)
 
   
 
@@ -159,7 +160,7 @@ If the **App Settings** tile is not visible, confirm that the location is using 
   
 
 
-### **Enable PWA Installation**
+#### _**Step 3:** Enable PWA Installation_
 
   
 
@@ -177,12 +178,12 @@ Enabling PWA installation allows your users to “install” your app on their d
   
 
 
-### **Customize Your PWA Settings**
+#### _**Step 4:** Customize Your PWA Settings_
 
   
 
 
-Once you’ve toggled Enable PWA to “on” inside the App Settings area, you’ll unlock a set of configuration fields that define how your PWA appears and behaves. This is where the real customization begins—giving your app its name, identity, and look.
+Once you’ve toggled Enable PWA to “on” inside the App Settings area, you can next define how your PWA appears and behaves. This is where the real customization begins—giving your app its name, identity, and look.
 
   
 
@@ -212,7 +213,7 @@ These fields shape how your app is presented to users across devices:
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155043791012/original/Vcoc6hZ7Kw6KldhhkG8b-AVcFs2zAA6-kQ.png?1742714955)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077163368/original/viPTzwiwRrLODd58BceOHplB2Y3j-MZ77Q.png?1785339246)
 
   
 
@@ -230,7 +231,7 @@ You’ll need to upload two icons—a larger (512x512) and smaller (192x192) ver
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155043791026/original/LeloYP5WvL80RZy5Mfks-XLr05u7e8MxQQ.png?1742714981)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077163400/original/BjqqFc4oNuK6oy9BOJQ9iv8aoh2CPAiicw.png?1785339269)
 
   
 
@@ -248,12 +249,15 @@ HighLevel offers a selection of predefined color palettes for your app theme. Th
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155043791031/original/r4pk9ZjA6VlRPciApO7AtBgJb-MVOCjLRA.png?1742715007)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077163435/original/Q784u70VOrL6eO2wYuB0-NPJWH4LPE0Bxw.png?1785339290)
 
   
 
 
-**Save Your Settings**
+  
+
+
+#### **_Step 5:_**_Save Your Settings_
 
   
 
@@ -262,7 +266,9 @@ After you’ve entered your app details, uploaded icons, and chosen your theme c
 
 * * *
 
-**Installing the PWA on a Windows Computer:**
+## **How to Install the PWA**
+
+### **Installing the PWA on a Windows Computer**
 
   
 
@@ -287,12 +293,15 @@ And it would allow them to access your PWA on their desktop as a shortcut:
 
 * * *
 
-**Installing PWA on a Mac Computer:**
+### **Installing PWA on a Mac Computer**
 
-  
+####   
 
 
 #### **Chrome or Microsoft Edge**
+
+  
+
 
   1. Open the Membership login portal.  
   
@@ -307,6 +316,12 @@ And it would allow them to access your PWA on their desktop as a shortcut:
 
 
 ####   
+
+
+  
+
+
+  
 
 
 #### **Safari on supported macOS versions**
@@ -341,16 +356,16 @@ For the most consistent installation experience, open the Membership login porta
   
 
 
-  * Sign in to the membership account.  
+  1. Sign in to the membership account.  
   
 
-  * Open the Chrome menu.  
+  2. Open the Chrome menu.  
   
 
-  * Select **Install app** or **Add to Home screen**.  
+  3. Select **Install app** or **Add to Home screen**.  
   
 
-  * Follow the on-screen instructions.
+  4. Follow the on-screen instructions.
 
 
   
@@ -364,19 +379,19 @@ For the most consistent installation experience, open the Membership login porta
   
 
 
-  * Open the Membership login portal in Safari.  
+  1. Open the Membership login portal in Safari.  
   
 
-  * Sign in to the membership account.  
+  2. Sign in to the membership account.  
   
 
-  * Tap the **Share** icon.  
+  3. Tap the **Share** icon.  
   
 
-  * Select **Add to Home Screen**.  
+  4. Select **Add to Home Screen**.  
   
 
-  * Review the app name and tap **Add**.
+  5. Review the app name and tap **Add**.
 
 
   
@@ -457,7 +472,7 @@ No, HighLevel's interface makes it easy to configure without coding skills.
 
 * * *
 
-### **Related Articles**
+## **Related Articles**
 
   
 

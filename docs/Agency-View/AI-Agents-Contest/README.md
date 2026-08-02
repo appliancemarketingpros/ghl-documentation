@@ -6,3 +6,4 @@
 
 - [HighLevel AI Agents Contest 2025 – $50K Prize Pool](HighLevel AI Agents Contest 2025 – $50K Prize Pool.md)
 - [How to Enable Support Access for Your HighLevel Account](How to Enable Support Access for Your HighLevel Account.md)
+- [Skills Platform for AI Agents](Skills Platform for AI Agents.md)

@@ -94,7 +94,10 @@ Visibility into scheduled and sent replies ensures accountability, helps forecas
   * **Backlog Progress:** Monitor how many eligible reviews remain and estimated days to completion based on caps.  
   
 
-  * **Failures & Retries: **Identify any failed sends and take corrective action where available.
+  * **Failures & Retries: **Identify any failed sends and take corrective action where available.  
+  
+
+  * **Failures & Retries:** Identify failed sends and take corrective action where available. If Google or Facebook deletes a review included in a Drip Mode campaign, HighLevel does not repeatedly retry the deleted review or generate additional billable AI responses for it.
 
 
   
@@ -247,6 +250,12 @@ A clear, step‑by‑step setup ensures your campaign starts cleanly, respects b
 
 **Q: Where do I see failures or retry items?  
 ** Use the monitoring views to check for failed sends and take corrective action if options are available in your account.
+
+  
+
+
+**Q: What happens if Google or Facebook deletes a review in an active Drip Mode campaign?**  
+HighLevel does not repeatedly retry a review that has been deleted at its source. The campaign also does not generate additional billable AI responses for that deleted review
 
 * * *
 

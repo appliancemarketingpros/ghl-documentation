@@ -996,6 +996,8 @@ Users can view submissions in:
 
 ### **How Workflows Connect to Form Submissions**
 
+**New:** AI Studio forms can now use the **AI Studio Form Submitted** workflow trigger. It starts a workflow when a connected AI Studio form is submitted and supports filters for the AI Studio project, form, page path, and domain. [Learn more about the AI Studio Form Submitted trigger](<https://help.gohighlevel.com/support/solutions/articles/155000008298-ai-studio-form-submitted-workflow-trigger/>).
+
   
 
 

@@ -6,528 +6,190 @@
 
 ---
 
-This article explains the Advanced Settings available in Conversation AI and how to configure them to control bot behavior, response timing, conversation limits, sleep and reactivation settings, and response styles.
+Conversation AI
 
-* * *
+# Advanced Settings Overview – Conversation AI
 
-**TABLE OF CONTENTS**
+Master every configuration option to fine-tune how your AI bots engage contacts across channels
 
-  * What are Advanced Settings in Conversation AI?
-  * Key Benefits of Advanced Settings
-  * How to Access Advanced Settings
-  * Autopilot Mode Settings
-  * Wait Time Before Responding
-  * Maximum Messages a Bot Can Send in a Conversation
-  * Allow the Bot to Respond to Images and Voice Notes
-  * Bot Sleep and Reactivation Settings
-  * Response Settings
-  * Frequently Asked Questions
-  * Related Articles
+What You'll Learn
 
+This article covers the advanced settings that control Conversation AI bot behavior, including the new 100-message limit, response timing, channel preferences, and safety controls.
 
-* * *
+Configure these settings to balance automation with human oversight and deliver the right customer experience at scale.
 
-# **What are Advanced Settings in Conversation AI?**
+Table of Contents
 
-  
-
-
-Advanced Settings help you fine-tune how your Conversation AI bot behaves during customer interactions. These settings provide additional controls that allow you to customize how the bot responds to contacts, creating a more personalized and efficient conversational experience.
-
-  
-
-
-With Advanced Settings, you can:
-
-  
-
-
-  * Control how long the bot waits before responding.  
-  
-
-  * Limit the number of messages the bot can send in a conversation.  
-  
-
-  * Enable the bot to respond to images and voice notes in Autopilot Mode.  
-  
-
-  * Automatically pause bot responses when manual or workflow messages are sent.  
-  
-
-  * Configure when the bot should reactivate after being put to sleep.  
-  
-
-  * Adjust the level of detail used in bot responses through Response Style Settings.
-
-
-  
-
-
-Properly configuring these settings can help improve engagement, streamline human handoffs, prevent unwanted automated interactions, and ensure your bot responds in a way that aligns with your business goals. By tailoring these options to your workflows, you can optimize the bot's performance for sales, support, lead qualification, and customer engagement scenarios.
-
-* * *
-
-## **Key Benefits of Advanced Settings**
-
-  
-
-
-  * **Improved Response Timing:** Control how long the bot waits before responding to collect multiple messages and provide more contextual replies.  
-  
-
-  * **Better Conversation Management:** Set message limits to prevent excessive automated interactions.  
-  
-
-  * **Enhanced Customer Experience:** Enable support for image and voice note inputs in Autopilot Mode.  
-  
-
-  * **Seamless Human Handoffs:** Automatically pause bot responses when team members or workflows send messages.  
-  
-
-  * **Customizable Communication Style:** Adjust response detail levels to match your business needs and audience expectations.  
-  
-
-  * **Flexible Reactivation Controls:** Automatically resume bot activity after a specified period or keep it disabled until manually reactivated.
-
-
-* * *
-
-## **How to Access Advanced Settings**
-
-  
-
-
-Advanced Settings can be configured when creating a new Conversation AI bot or when editing an existing bot. This flexibility allows you to adjust bot behavior at any stage of your implementation.
-
-  
-
-
-### **While Creating a New Bot**
-
-  
-
-    
-    
-    **Note:** Checkout our detailed article on [Setting Up Conversation AI](<https://help.gohighlevel.com/en/support/solutions/articles/155000004401>)
-
-  
-
-
-  1. Navigate to **AI Agents** > **Conversation AI**.  
-  
-
-  2. Click **\+ Create Bot**.  
-  
-
-  3. Select your **preferred setup method** :  
-  
-
-     * Guided Form Setup
-     * Prompt Based Bot
-     * Flow Based Builder  
-  
-
-  4. Complete the initial bot configuration.  
-  
-
-  5. Scroll to **Bot Settings** and locate **Advanced Settings**.
-
-
-  
-
-
-**![](https://jumpshare.com/share/IqYCzXpWcXimKXdNU25d+/GIF+Recording+2026-05-29+at+19.20.32.gif)**  
-
-
-  
-
-
-### **While Editing an Existing Bot**
-
-  
-
-
-  1. Navigate to **AI Agents** > **Conversation AI**.  
-  
-
-  2. Locate the bot in the Agent List.  
-  
-
-  3. Click the **three-dot menu** and select **Edit**.  
-  
-
-
-OR  
-  
-
-
-  4. **Click** directly on the **bot name**.  
-  
-
-  5. Scroll to **Bot Settings** and locate **Advanced Settings**. 
-
-
-  
-
-
-![](https://jumpshare.com/share/pALRit5uJSXpV34YAb2f+/GIF+Recording+2026-05-29+at+19.23.20.gif)
-
-* * *
-
-## **Autopilot Mode Settings**
-
-  
-
-
-Autopilot Mode Settings determine how your bot automatically interacts with contacts. These controls help balance responsiveness, conversation quality, and operational efficiency.
-
-  
-
-
-### **1\. Wait Time Before Responding**
-
-  
-
-
-The Wait Time Before Responding setting determines how long the bot waits before sending a reply. This delay allows the bot to collect multiple incoming messages and respond more naturally with a single, contextual answer.
-
-  
-
-
-**You can configure the delay using:**
-
-  
-
-
-  * Minutes 
-  * Seconds
-
-
-  
-
-
-**Example:** If a contact sends three messages within a few seconds, the bot can wait, process all messages together, and provide one complete response instead of sending multiple replies.
-
-  
-
-
-![](https://jumpshare.com/share/MWmNh9JUq2UwPmQbHMgA+/Screenshot+2026-05-29+at+19.51.38.png)  
-
-
-  
-
-
-### **2\. Maximum Messages a Bot Can Send in a Conversation**
-
-  
-
-
-This setting limits the total number of automated messages the bot can send within a conversation before it automatically goes to sleep for that contact.
-
-  
-
-
-**Configuration range:**
-
-  
-
-
-  * **Minimum:** 1 message  
-
-  * **Maximum:** 100 messages
-
-
-  
-
-
-**When the limit is reached:**
-
-  
-
-
-  * The bot stops responding to that contact.  
-
-  * The conversation must be reactivated before automated responses resume.
-
-
-  
-
-
-**To reactivate the bot:**
-
-  
-
-
-  * Mark the conversation as **Read**.  
-
-  * Or use another configured reactivation method.
-
-
-  
-
-
-![](https://jumpshare.com/share/pfBqlUwj5bukAv1mykjK+/Screen+Shot+2026-05-29+at+20.03.54.png)  
-
-
-  
-
-
-### **3\. Allow the Bot to Respond to Images and Voice Notes**
-
-  
-
-
-This setting enables the bot to process and respond to image and voice note inputs from contacts.
-
-  
-
-
-**Supported input types:**
-
-  
-
-
-  * Images  
-
-  * Voice Notes
-
-
-  
-
-    
-    
-    **Important:** This feature is only supported when the bot is operating in **Autopilot Mode**.
-    If the bot is configured in **Suggestive Mode** , enabling this setting will not activate image or voice note processing. 
-    
-    Response times for image and voice note analysis may be slightly longer than standard text responses.
-
-  
-
-
-![](https://jumpshare.com/share/DVdjjrzWUSGUgm5mJuZ5+/Screen+Shot+2026-05-29+at+20.08.39.png)  
-
-
-  
-
-
-### **4.****Send Bot to Sleep for Manual or Workflow Messages.**
-
-  
-
-
-Use these settings to choose which outbound message types should put the bot to sleep.
-
-  
-
+1
 
-Available controls include:
+Accessing Advanced Settings
 
-  
-
-
-**Manual Message:** Puts the bot to sleep when an agent sends a manual outbound message.
-
-  
-**Workflow Message:** Puts the bot to sleep when a workflow-triggered outbound message is sent.
-
-  
-
-
-You can enable either control, both controls, or neither control.
-
-  
-
-
-#### **Common Configurations Include:**
-
-  
-
-
-  1. Enable Manual Message only when agent replies should pause the bot during handoff.  
-  
-
-  2. Enable Workflow Message only when workflow-triggered messages should pause the bot.  
-  
-
-  3. Enable both controls when any manual or workflow outbound message should pause the bot.  
-  
-
-  4. Disable both controls when outbound messages should not pause the bot.
-
-
-  
-
-
-When a selected message type is sent, the bot stops responding to that contact until it is reactivated. These settings apply only to bots in Auto-Pilot mode.
-
-  
-
-
-Existing bots keep their current sleep behavior unless these settings are updated.
-
-  
-
+2
 
-#### **Reactivate Bot After**
+Maximum Message Limit (1–100)
 
-  
-
-
-This setting determines when the bot should automatically resume responding after being put to sleep.
-
-  
-
-
-**You can configure:**
-
-  
+3
 
+Response Delay Settings
 
-  * Hours
-  * Minutes
-  * Seconds
+4
 
+Channel-Specific Controls
 
-  
-
-
-**When enabled:**
-
-  
-
+5
 
-  * The bot automatically becomes active again after the selected duration.
+Safety and Fallback Options
 
+6
 
-  
+Resetting the Message Counter
 
+7
 
-**When disabled:**
+Frequently Asked Questions
 
-  
+1
 
+## Accessing Advanced Settings
 
-  * The bot remains inactive indefinitely.  
-  
+Every Conversation AI bot—whether Prompt-based or Form-based—has a dedicated Settings panel where you control message limits, response timing, and channel behavior.
 
-  * A user must manually reactivate the bot before automated responses can resume.
+Step 1
 
+Navigate to Your Bots
 
-  
+Go to **Sub-Account** → **Conversation AI** → **Bots**.
 
+Step 2
 
-**![](https://jumpshare.com/share/eg7We8NSbcL9SvhIJAfu+/GIF+Recording+2026-05-29+at+20.19.38.gif)**
+Open Bot Settings
 
-* * *
+Click the bot you want to configure, then select **Bot Settings** from the navigation.
 
-## **Response Settings  
-**
+Step 3
 
-  
+Adjust and Save
 
+Modify any field below, then click **Save** at the bottom of the panel.
 
-Response Settings help control how detailed the AI bot's replies are. This allows businesses to tailor conversations based on customer expectations and communication preferences.
+2
 
-  
+## Maximum Message Limit (1–100)
 
+The **Maximum messages a Bot can send in a Conversation** field caps how many replies your bot may send in a single thread before going to sleep. HighLevel recently raised this ceiling from 25 to **100 messages** , allowing bots to handle longer, more complex dialogues without manual intervention.
 
-Enabling Response Style Settings allows you to choose the level of detail the bot uses when generating responses.
+Why This Matters
 
-  
+Previously, over 5,000 contacts hit the 25-message cap every day, causing conversations to stall. The new 100-message limit reduces manual escalations and keeps customer journeys flowing smoothly.
 
+### How It Works
 
-**Available styles include:**
+Once the bot sends its maximum number of messages in a conversation, it automatically goes dormant. Only bot-generated messages count toward the limit—human agent replies, workflow messages, and inbound contact messages do not increment the counter.
 
+Conversation Type| Recommended Limit  
+---|---  
+Quick FAQs, Lead Capture| 10–25 messages  
+Appointment Scheduling, Simple Troubleshooting| 26–60 messages  
+In-Depth Guidance, Multi-Step Forms| 61–100 messages  
   
+Note
 
+Raising the limit can increase Conversation AI usage costs. Every bot-generated message counts toward your plan's AI generation quota, so monitor usage after adjusting this setting.
 
-  * Concise
-  * Balanced
-  * Detailed
+### Setting the Limit
 
+In the **Bot Settings** panel, locate the **Maximum messages a Bot can send in a Conversation** field. Enter any value from **1 to 100** (the default for new bots is 100). Click **Save** to apply the change immediately to all active conversations.
 
-  
-
+3
 
-![](https://jumpshare.com/share/3g0RRRExjUfTgZfJecjA+/Screen+Shot+2026-05-29+at+20.23.39.png)
+## Response Delay Settings
 
-* * *
+Control how quickly your bot replies to create a more natural conversation pace. Add artificial delays to simulate human typing behavior or keep responses instant for high-volume support queues.
 
-## **Frequently Asked Questions**
+Option
 
-  
+Minimum Response Delay
 
+Set a floor (in seconds) before the bot can reply. Use 2–5 seconds to mimic human reading time.
 
-**Q: What happens when the maximum message limit is reached?**
+Option
 
-The bot automatically goes to sleep for that contact and stops sending responses until it is reactivated.
+Maximum Response Delay
 
-  
+Cap the longest delay (in seconds). Prevents frustration if the bot takes too long to respond.
 
+4
 
-**Q: Can the bot respond to images and voice notes in Suggestive Mode?**
+## Channel-Specific Controls
 
-No. Image and voice note processing is currently supported only in Autopilot Mode.
+Enable or disable your bot on individual channels (SMS, Facebook Messenger, Instagram, WhatsApp, etc.). The Maximum Message Limit applies uniformly across all enabled channels—you cannot set different limits per channel.
 
-  
+Tip
 
+If certain channels require shorter conversations, create a separate bot with a lower message limit and assign it only to those channels.
 
-**Q: Does enabling Response Style Settings affect bot training?**
+5
 
-No. Response Style Settings control how the bot responds, while training controls what information the bot uses.
+## Safety and Fallback Options
 
-  
+Configure guardrails to protect contacts from repetitive loops or off-brand responses. These settings work alongside the message limit to ensure quality interactions.
 
+Setting
 
-**Q: Can I disable automatic bot reactivation?**
+Fallback Message
 
-Yes. If automatic reactivation is disabled, the bot remains inactive until manually reactivated.
+Displayed when the bot cannot generate a confident reply or when it hits the message limit.
 
-  
+Setting
 
+Content Filters
 
-**Q: What is the best response style for most businesses?**
+Block specific words or phrases to prevent the bot from discussing sensitive topics.
 
-Balanced is generally recommended because it provides a good mix of detail and efficiency.
+Setting
 
-  
+Auto-Escalation
 
+Automatically assign conversations to a human agent after the bot hits its limit or detects frustration.
 
-**Q: Why would I increase the wait time before responding?**
+6
 
-Longer wait times allow the bot to collect multiple messages and provide more contextual responses.
+## Resetting the Message Counter
 
-  
+When a bot hits its maximum message limit, it goes to sleep. You can wake it manually or via workflow to resume the conversation.
 
+### Manual Reset
 
-**Q: Will workflow messages always put the bot to sleep?**
+In the **Conversations** inbox, open the sleeping bot conversation and mark it as **Read**. This resets the counter to zero and reactivates the bot immediately.
 
-Only if the workflow message option is enabled within the Bot Sleep Settings.
+### Workflow-Based Reset
 
-  
+Use the **Update Conversation AI Bot and Status** workflow action to programmatically wake the bot. Pair this with conditions (e.g., "contact replied with keyword") to resume automation only when appropriate.
 
+Pro Tip
 
-**Q: Can I update Advanced Settings after the bot is live?**
+Set a workflow trigger on "Conversation Status = Bot Sleeping" to automatically re-engage the bot after 24 hours if the contact sends a new message.
 
-Yes. Advanced Settings can be modified at any time by editing the bot configuration.
+7
 
-* * *
+## Frequently Asked Questions
 
-### **Related Articles**
+Q: Does the 100-message limit apply to my existing bots?
 
-  
+Yes. All Prompt-based and Form-based bots automatically inherit the new 100-message ceiling. You can lower the limit if your use case requires shorter conversations.
 
+Q: Can I set different limits for different channels?
 
-  * [Setting Up Conversation AI](<https://help.gohighlevel.com/en/support/solutions/articles/155000004401>)  
-  
+No. The Maximum Message Limit is set at the bot level and applies uniformly across SMS, Facebook, Instagram, WhatsApp, and all other enabled channels.
 
+Q: Will raising the limit increase my costs?
 
-  * [Training the Conversation AI Bot](<https://help.gohighlevel.com/en/support/solutions/articles/155000000996>)  
-  
+Potentially. Every AI-generated message counts toward your Conversation AI usage quota. Monitor your billing dashboard after increasing the limit to track any changes in consumption.
 
+Q: Do human agent messages count toward the limit?
 
-  * [Workflow X Conversation AI](<https://help.gohighlevel.com/en/support/solutions/articles/155000001358>)  
-  
+No. Only bot-generated messages increment the counter. Messages from human agents, workflows, or inbound contact messages do not count.
 
+Q: What happens when the bot hits the limit mid-conversation?
 
-  * [Workflow Action - Appointment Booking Conversation AI Booking Bot](<https://help.gohighlevel.com/en/support/solutions/articles/155000003363>)
+The bot goes to sleep immediately after sending its final allowed message. You can reactivate it manually (mark as Read) or via the "Update Conversation AI Bot and Status" workflow action.

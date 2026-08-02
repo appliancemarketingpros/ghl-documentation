@@ -13,11 +13,16 @@ The Ask AI LeadConnector Chrome Extension allows Ask AI to open webpages, click,
   
 
 
-You can install it by entering a browser-based request in Ask AI and selecting **Install** when prompted, or by opening the [LeadConnector – Ask AI listing in the Chrome Web Store](<https://chromewebstore.google.com/detail/leadconnector-ask-ai/idbhohjlbibgnelhchaakcpdjkodggpl>) directly.
+You can install it by entering a browser-based request in Ask AI and selecting **Install** when prompted, or by opening the link directly: [LeadConnector – Ask AI listing in the Chrome Web Store](<https://chromewebstore.google.com/detail/leadconnector-ask-ai/idbhohjlbibgnelhchaakcpdjkodggpl>) ([](<https://chromewebstore.google.com/detail/leadconnector-ask-ai/idbhohjlbibgnelhchaakcpdjkodggpl>)<https://chromewebstore.google.com/detail/leadconnector-ask-ai/idbhohjlbibgnelhchaakcpdjkodggpl>).
 
 * * *
 
 # **How to Install the Ask AI LeadConnector Chrome Extension**
+
+  
+
+
+You can install the AI LeadConnector directly from this link: [](<https://chromewebstore.google.com/detail/leadconnector-ask-ai/idbhohjlbibgnelhchaakcpdjkodggpl>)[LeadConnector – Ask AI listing in the Chrome Web Store](<https://chromewebstore.google.com/detail/leadconnector-ask-ai/idbhohjlbibgnelhchaakcpdjkodggpl>) or by following the steps below.
 
   
 
@@ -29,7 +34,7 @@ You can install it by entering a browser-based request in Ask AI and selecting *
 
   2. Enter a request that requires browser interaction.  
   
-_Example: Open Google Docs and create an event landing page outline._  
+_Example: "Open Google Docs and create an event landing page outline."_  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076734319/original/_lV-VWRzUKewUmkuuMYPz9DJnOtcQJDY3g.png?1784844929)  
   

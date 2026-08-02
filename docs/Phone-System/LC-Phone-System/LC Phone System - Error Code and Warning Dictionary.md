@@ -893,7 +893,12 @@ Consult the linked documentation for each cause. You can also try sending again 
   
 
 
-This message appears when a user tries to send SMS messages using a newly registered A2P 10DLC (Application-to-Person 10-Digit Long Code) number in the U.S., but the registration process has not been fully completed. While the brand and campaign may be approved, the carrier-level provisioning can take additional time, during which SMS sending attempts may fail.
+Error **30034** can occur when the sending number is not linked to a valid, approved A2P campaign. It can also occur when a **Sole Proprietor** registration has more than one local number, because Sole Proprietor registrations only support one local number per campaign.
+
+  
+
+
+To confirm the number is linked correctly, follow the steps in [How to Link a Phone Number to an Approved A2P Campaign.](<https://help.gohighlevel.com/en/support/solutions/articles/155000008316>)
 
   
 

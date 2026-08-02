@@ -18,3 +18,4 @@
 - [Manage Prospect Statuses and Onboarding in Prospecting](Manage Prospect Statuses and Onboarding in Prospecting.md)
 - [Prospecting Free Tier in Agency Sub-Accounts](Prospecting Free Tier in Agency Sub-Accounts.md)
 - [How Prospecting creates contacts in your CRM](How Prospecting creates contacts in your CRM.md)
+- [Prospect AI Activity Center & CRM Pipeline Integration](Prospect AI Activity Center & CRM Pipeline Integration.md)

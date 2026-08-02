@@ -30,6 +30,7 @@ Some HighLevel AI features are included with AI Employee, some are free with fai
   * Product Pricing Details
     * Ask AI
     * Conversation AI
+    * Conversations AI Prompt Optimizer
     * Voice AI
     * Voice AI Prompt Optimizer
     * Agent Studio
@@ -41,8 +42,9 @@ Some HighLevel AI features are included with AI Employee, some are free with fai
     * Reviews AI
     * AI Studio
   * Billing and Administration
-    * How to Review AI Usage and Charges
-    * Glossary
+  * Rebilling AI Usage to Locations
+  * How to Review AI Usage and Charges
+  * Glossary
   * Frequently Asked Questions
   * Related Articles
 
@@ -65,6 +67,7 @@ Feature| Pay-Per-Use| AI Employee Growth| AI Employee Unlimited
 | $50/month  
 | $97/month  
 **Conversation AI**|  At token cost| 1,000 Agent responses/month| Unlimited  
+**Conversation AI Prompt Optimizer**|  100 messages/day then at Token Cost| 100 messages/day + 500 additional messages/month then at token cost.| Unlimited, subject to fair use.  
 **Voice AI (Inbound, Outbound, Widget)**|  Voice + token cost| 100 AI Agent minutes/month| Unlimited  
 **Reviews AI**|  $0.01/ review| Unlimited| Unlimited  
 **Content AI**|  $0.063/image and $0.0945/1,000 words| Unlimited| Unlimited  
@@ -99,6 +102,12 @@ Feature| Pay-Per-Use| AI Employee Growth| AI Employee Unlimited
 
 No monthly subscription fee for AI features. Usage is billed at token cost based on the models and actions used. This plan applies to any location that is not on AI Employee Growth or AI Employee Unlimited.
 
+  
+
+
+  * **Conversation AI Prompt Optimizer:** 100 messages/day then at Token Cost.  
+
+
 * * *
 
 ## **AI Employee Growth Plan**
@@ -113,11 +122,16 @@ Available for $50/month per enabled location. Includes generous monthly limits a
 
 **Included monthly limits:**
 
+  
+
+
   * 1,000 Conversation AI Agent responses
+  * Conversation AI Prompt Optimizer: 100 messages/day + 500 additional messages/month then at token cost.
   * 100 Voice AI minutes (covers inbound, outbound, and widget usage combined)
   * Unlimited Reviews AI
   * Unlimited Content AI
-  * 100 minutes Voice AI Prompt Optimizer
+  * 100 minutes Voice AI Prompt Optimizer  
+
   * Ask AI usage included
   * AI Studio usage included
   * Funnel AI usage included
@@ -149,7 +163,11 @@ Available for $97/month per enabled location. Unlimited usage across Conversatio
 
 **Included features:**
 
+  
+
+
   * Unlimited Conversation AI
+  * Unlimited Conversation AI Prompt Optimizer
   * Unlimited Voice AI (inbound, outbound, and widget)
   * Unlimited Reviews AI
   * Unlimited Content AI
@@ -180,9 +198,6 @@ Available for $97/month per enabled location. Unlimited usage across Conversatio
 
 
 Each product below shows which plan covers it, any included limits, and the pay-per-use rates that apply when usage exceeds plan limits or when on Pay-Per-Use.
-
-  
-
 
   
 
@@ -246,9 +261,6 @@ Use the [Ask AI Sessions Pricing Overview](<https://help.gohighlevel.com/en/supp
   
 
   * **Pay-Per-Use:** Token-based billing.
-
-
-  
 
 
   
@@ -331,9 +343,6 @@ Because of this, two conversations using the same AI model can still have differ
   
 
 
-  
-
-
 ### **Conversation AI token rates**
 
   
@@ -348,6 +357,22 @@ OpenAI| Chat GPT-4.1 Mini| $0.40| $1.60
   
 * * *
 
+## **Conversations AI Prompt Optimizer**
+
+  
+
+
+  * **AI Employee Growth:** 100 messages/day + 500 additional messages/month. After the included messages are used, additional usage is billed at the applicable Conversations AI pay-per-use rate.  
+  
+
+  * **AI Employee Unlimited:** Unlimited, subject to fair use.  
+  
+
+  * **Pay-Per-Use:** 100 messages/day. After the 100 included messages are used, additional usage is billed at the applicable Conversations AI pay-per-use rate.
+
+
+* * *
+
 ## **Voice AI**
 
   
@@ -360,9 +385,6 @@ OpenAI| Chat GPT-4.1 Mini| $0.40| $1.60
   
 
   * **Pay-Per-Use:** Three-component billing: Voice Engine + TTS + LLM token cost. Phone System charges apply separately.
-
-
-  
 
 
   
@@ -752,9 +774,6 @@ If you use OpenAI or another external model inside a workflow, such as through a
   
 
 
-  
-
-
 ### **Workflow Pro Plan for bulk premium actions**
 
   
@@ -909,6 +928,11 @@ Reviews AI| $0.01/review
 
 
 Usage is measured in 5-hour windows. Each plan has its own usage limit within that window. AI Employee Unlimited includes 3x the limit of AI Employee Growth. If a limit is reached, access resets at the end of the 5-hour window.
+
+  
+
+
+Use the [AI Studio Pricing ](<https://help.gohighlevel.com/support/solutions/articles/155000008322-ai-studio-pricing>) article for detailed examples of how different task types affect cost.
 
   
 

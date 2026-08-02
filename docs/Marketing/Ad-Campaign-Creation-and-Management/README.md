@@ -20,3 +20,4 @@
 - [How to Create a Meta Click to Direct(CTX )Ad for Engagement](How to Create a Meta Click to Direct(CTX )Ad for Engagement.md)
 - [How to create a conversation form in Ad Manager](How to create a conversation form in Ad Manager.md)
 - [How to create a Meta Sales objective campaign for Conversion](How to create a Meta Sales objective campaign for Conversion.md)
+- [Opportunity Score for Meta Campaigns](Opportunity Score for Meta Campaigns.md)

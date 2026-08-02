@@ -458,6 +458,26 @@ Use the **search bar** within the filter menu to locate message or activity type
 
 * * *
 
+## **Archiving Conversations**
+
+  
+
+
+Archiving lets you remove conversations out of your Recents tab without deleting them or losing any messages.
+
+What happens when you archive a conversation:
+
+  * It's removed from the Recents tab but remains fully accessible under the All tab.
+  * Nothing is deleted - the entire conversation history is preserved.Notifications stay on. New messages will still trigger notifications as usual.
+  * When a new message arrives in an archived conversation, the conversation stays archived (it does not move back to Recents). Instead, it appears in the Unread tab so you don't miss it.
+  * You can unarchive a conversation at any time by clicking the Unarchive button.
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076919583/original/lCOiuOHL_XTlkSKaow1v8kAUR7N0liMtyQ.jpeg?1785151726)
+
+  
+
+
 ## **View Message Source in Message Details**
 
   

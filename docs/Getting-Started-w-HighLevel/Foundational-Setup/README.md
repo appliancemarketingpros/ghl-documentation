@@ -14,3 +14,4 @@
 - [Getting Started - Setup Pipelines and Opportunities](Getting Started - Setup Pipelines and Opportunities.md)
 - [Launchpad Contextual In-App Nudges](Launchpad Contextual In-App Nudges.md)
 - [File Share Notifications for Contacts in the Client Portal](File Share Notifications for Contacts in the Client Portal.md)
+- [Global Search V2](Global Search V2.md)

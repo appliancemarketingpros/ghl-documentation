@@ -49,7 +49,7 @@ When you’re ready to port your number, you’ll just need to send us a signed 
   
 
 
-The porting process takes between two and four weeks from when you submit the required documentation for port requests of fewer than 50 numbers and six to eight weeks for larger, more complex ports. During this process, you’ll have full access to your phone number, as there is no downtime associated with porting a phone number. 
+The porting process takes between two and four weeks from when you submit the required documentation for port requests of fewer than 50 numbers and six to eight weeks for larger, more complex ports. During this process, you’ll have full access to your phone number, as there is no downtime associated with porting a phone number.
 
   
 
@@ -538,4 +538,8 @@ Only after the port completes and you’ve verified calls/messages are working i
 
 **Q. My port request was rejected — what do I do?**
 
-Check the description shown in the Port-In Numbers tab (in-app) or the email notification (manual form) for the rejection reason. Common causes include a mismatched account number, incorrect PIN, or a billing statement older than 90 days. Correct the issue and resubmit.
+Check the description shown in the Port-In Numbers tab (in-app) or the email notification for the rejection reason. Common causes include an invalid address, mismatched account number, incorrect PIN, suspended account, or a billing statement older than 90 days.  
+  
+
+
+**Important: Rejected requests cannot be edited.** You must **delete the request and create a brand new one** with corrected information. Contact your current carrier to verify the correct details before resubmitting.

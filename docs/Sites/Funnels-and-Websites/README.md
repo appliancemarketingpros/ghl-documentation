@@ -20,4 +20,3 @@
 - [Show Popup on Entering Funnel/Website](Show Popup on Entering FunnelWebsite.md)
 - [Funnels & Websites | Creating Categories in the Navigation Menu](Funnels & Websites Creating Categories in the Navigation Menu.md)
 - [Disabling Search Engines from Indexing your Website/Funnel Page using Custom Tag](Disabling Search Engines from Indexing your WebsiteFunnel Page using Custom Tag.md)
-- [Stripe Troubleshooting | Why is my Stripe Plan not shown in the Funnel Products?](Stripe Troubleshooting Why is my Stripe Plan not shown in the Funnel Products.md)

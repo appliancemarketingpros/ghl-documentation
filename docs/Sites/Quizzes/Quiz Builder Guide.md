@@ -67,20 +67,33 @@ You can build from scratch or use templates, and publish using an embed code or 
   
 
 
-Builder tabs (Edit, Settings, Submissions) Use the top navigation to switch between:
+Use the builder tabs to move between the main quiz areas:
 
   
 
 
-  * Edit to build questions and design the quiz
-  * Settings to configure quiz logic and integrations
-  * Submissions to view response data without leaving the builder
-
+**Edit:** Add questions, pages, and design elements.
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071190023/original/4V046NbYfvc0IYsYfbpJa-MyPTzBIrrQZA.png?1778636958)
+**Settings:** Configure quiz logic, results, and integrations.
+
+  
+
+
+**Notifications:** Configure internal email notifications and Auto Responder emails.
+
+  
+
+
+**Submissions:** Review quiz response data without leaving the builder.
+
+  
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076943935/original/449-4rhOYsJQQ_s-kRvenVY-gjkP5ZMfcw.png?1785161418)
 
   
 
@@ -171,6 +184,7 @@ Scoring and categories are the “logic layer” of a quiz. They help you transl
 
 
   
+  
 
     
     
@@ -248,11 +262,13 @@ Score tiers let you display different results content based on the contact’s t
 
   2. Click **Configure Score Tiers**  
   
+  
 **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065729398/original/iLSmfGLnsKvXYVDhQbi46uoYFsYLG0oCHQ.png?1772058571)**  
   
 
 
   3. Edit the names, colors and and ranges for each of the tiers. You can also removing existing tiers or add new ones.  
+  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065729376/original/LfcCqmLr7uOOoTJhnIvmooyRzDEBTZSZPw.png?1772058463)
 
@@ -330,6 +346,7 @@ Navigate to **Sites → Quizzes → + Add Quiz** or select a quiz to edit.
 
 Choose **Start** **From Scratch** or**From Template**. In the Template Library you can browse, filter, and search for a template. Preview and activate one to load it into the Quiz Builder.  
   
+  
 **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065729948/original/JQf9IOObLj218f1RFBX3BfHH-NFJBqSjkA.jpeg?1772060188)**  
   
 
@@ -346,12 +363,14 @@ Configure the quiz based on your needs. You can add as many questions and pages 
 
 **Add and Delete Pages:** All pages will appear in the order listed (Page 1 first, Page 2 second, etc).  
   
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065730042/original/7qm9Du_2x7d7RiBiDtaoYkpLk4qw60seFg.jpeg?1772060479)  
   
 
 
 **Add and Delete Elements:** Elements must be added to a Page. Elements can be dragged and dropped to reorder them inside a Page or to move them to a different Page.
 
+  
   
 
 
@@ -363,27 +382,41 @@ Configure the quiz based on your needs. You can add as many questions and pages 
 
 **Edit Element:** Click an Element to highlight it and also open its settings in the Right Panel. Generally the Element will have a Question (the question shown to the Quiz user) and other standard settings like the Query Key (to pre-fill the question from a URL parameter and Required or Hidden. Each Element also has unique settings (ex: choice questions have Options which also allow Jump To branching logic).  
   
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065730058/original/_9El0vvRMFPLU8NiNKs297pyqgPRPaXTEg.jpeg?1772060581)  
   
 
 
-**Notifications:** Click the Bell icon to show in the Left Panel. Toggle your personal Email Notification and an Auto Responder for the quiz user. You can set Subject, Email To, Reply To, and Sender Name.  
-  
-Quiz email notifications can attach:
+**Notifications:** Select the Notifications tab to configure quiz email settings. You can enable an internal Email Notification and an Auto Responder for the person who submits the quiz.
 
   
 
 
-  * Quiz Submission PDF (the submitted responses)
-  * Quiz Results Page PDF (the evaluated/scored results page)  
-
+You can configure the subject, recipient email address, reply-to email address, and sender name.
 
   
 
 
-Enable the Auto Responder in the quiz notification settings so recipients receive the PDF automatically.  
+Quiz email notifications can include:
+
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065730115/original/rBdREgAZD595NM8gQR1lRFY_CSMoBdmoMg.jpeg?1772060872)
+
+
+**Quiz Submission PDF:** Contains the submitted responses.
+
+  
+
+
+**Quiz Results Page PDF:** Contains the evaluated or scored results page.
+
+  
+
+
+Enable Auto Responder when you want the quiz participant to receive the selected PDF automatically.
+
+  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077026618/original/ktGHZwJUqKqb-CbHU7xV52CZzJoekc3qbA.png?1785240890)
 
   
 
@@ -392,6 +425,7 @@ Enable the Auto Responder in the quiz notification settings so recipients receiv
 
 
 **Categories:** Click the Grid icon to open the category popover. From here, you can add, rename, and delete categories, then assign categories and scores to answer options. The popover also explains how categories flow into the Result Page, so you understand how category scores will display.  
+  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065730122/original/1msD9NGgPgRuHyabWXwIAYoAeD3A8yJzdQ.jpeg?1772060895)  
   

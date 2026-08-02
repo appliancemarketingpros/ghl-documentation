@@ -1,194 +1,231 @@
 # Auto-Pilot Mode in Conversation AI for Efficient Communication
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000001022-auto-pilot-mode-in-conversation-ai-for-efficient-communication](https://help.gohighlevel.com/support/solutions/articles/155000001022-auto-pilot-mode-in-conversation-ai-for-efficient-communication)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000008094-auto-pilot-mode-in-conversation-ai-for-efficient-communication](https://help.gohighlevel.com/support/solutions/articles/155000008094-auto-pilot-mode-in-conversation-ai-for-efficient-communication)  
 **Category:** AI Employee  
 **Folder:** Conversation AI - Response Modes
 
 ---
 
-The Conversation AI Bot in Auto-pilot mode is designed to facilitate instant responses to leads and conversations at any time, enhancing user interaction and engagement. This article provides a comprehensive overview of accessing, configuring, and optimizing the Auto-pilot mode for efficient conversation management.
+Conversation AI
 
+# Auto-Pilot Mode in Conversation AI
+
+Let your AI bot handle conversations autonomously with extended 100-message capacity and smart sleep controls
+
+What You'll Learn
+
+Auto-Pilot Mode enables Conversation AI bots to manage customer conversations independently, now supporting up to 100 messages per thread—4x the previous limit.
+
+This guide covers how Auto-Pilot works, when bots go to sleep, and how to optimize the new message limit for longer, more complex dialogues without manual intervention.
+
+Table of Contents
+
+1
+
+What is Auto-Pilot Mode?
+
+2
+
+The New 100-Message Limit
+
+3
+
+How Auto-Pilot Handles Message Limits
+
+4
+
+Enabling and Configuring Auto-Pilot
+
+5
+
+When Bots Go to Sleep
+
+6
+
+Waking a Sleeping Bot
+
+7
+
+Best Practices for Message Limits
+
+8
+
+Frequently Asked Questions
+
+1
+
+## What is Auto-Pilot Mode?
+
+Auto-Pilot Mode allows Conversation AI bots to operate independently without requiring human oversight for every interaction. When enabled, the bot handles incoming messages across all connected channels—SMS, Facebook Messenger, Instagram, WhatsApp, and more—until it reaches its configured message limit or encounters a condition that requires escalation.
+
+This mode is ideal for high-volume use cases like lead qualification, appointment scheduling, FAQ handling, and basic troubleshooting where the bot can resolve most inquiries without intervention.
+
+Key Benefit
+
+With the new 100-message limit, Auto-Pilot bots can now support 4x longer conversations than before, reducing the need for manual intervention and enabling more complex multi-step workflows.
+
+2
+
+## The New 100-Message Limit
+
+HighLevel recently increased the maximum number of messages a bot can send in a single conversation from 25 to **100 messages**. This enhancement allows Auto-Pilot bots to handle significantly longer dialogues without requiring manual reactivation.
+
+Why This Matters
+
+Previously, over 5,000 contacts hit the 25-message cap every day, causing conversations to stall mid-flow. The new 100-message ceiling eliminates this bottleneck for the vast majority of use cases.
+
+### What Counts Toward the Limit
+
+Only bot-generated messages increment the counter. The following do **not** count:
+
+**Human Agent Messages** — Replies from team members in the Conversations inbox
+
+**Workflow Messages** — Automated messages sent via workflows or campaigns
+
+**Inbound Contact Messages** — Messages received from the contact
+
+3
+
+## How Auto-Pilot Handles Message Limits
+
+When a bot operating in Auto-Pilot Mode reaches its configured message limit (anywhere from 1 to 100 messages), it automatically goes to sleep for that conversation. This prevents runaway loops and gives you control over when automation should pause.
+
+### Sleep Behavior
+
+Once the bot reaches its limit:
+
+Step 1
+
+Bot Sends Final Message
+
+The bot delivers its last allowed reply (message #25, #50, #100, or whatever limit you set).
+
+Step 2
+
+Bot Goes Dormant
+
+The bot stops responding to new messages in that conversation thread until manually or programmatically reactivated.
+
+Step 3
+
+Conversation Remains Open
+
+The conversation stays in your inbox. Human agents can still reply, and workflows can still trigger—but the bot will not generate new messages.
+
+Note
+
+The bot does not automatically send a "goodbye" message when hitting the limit. If you want contacts to know the bot is pausing, include that instruction in your bot's prompt or use a workflow fallback.
+
+4
+
+## Enabling and Configuring Auto-Pilot
+
+Auto-Pilot Mode is enabled by default for all Conversation AI bots. The key configuration is setting the appropriate message limit for your use case.
+
+Step 1
+
+Navigate to Bot Settings
+
+Go to **Sub-Account** → **Conversation AI** → **Bots** , then select the bot you want to configure.
+
+Step 2
+
+Set Maximum Message Limit
+
+In **Bot Settings** , locate **Maximum messages a Bot can send in a Conversation**. Enter a value between 1 and 100 (default is 100 for new bots).
+
+Step 3
+
+Save Changes
+
+Click **Save**. The new limit applies immediately to all new conversations; existing conversations retain their current counter but will use the new limit going forward.
+
+5
+
+## When Bots Go to Sleep
+
+A bot in Auto-Pilot Mode will go to sleep in two scenarios:
+
+Scenario 1
+
+Message Limit Reached
+
+The bot has sent the maximum number of messages you configured (1–100) in the current conversation thread.
+
+Scenario 2
+
+Manual or Workflow Pause
+
+A human agent or workflow action explicitly put the bot to sleep using the "Update Conversation AI Bot and Status" action.
+
+Tip
+
+Monitor conversations that consistently hit the 100-message limit. If you see this pattern, consider raising the limit further or reviewing your bot's prompt to make responses more concise.
+
+6
+
+## Waking a Sleeping Bot
+
+When a bot goes to sleep after hitting its message limit, you have two options to reactivate it and reset the message counter to zero.
+
+### Manual Reactivation
+
+Open the conversation in the **Conversations** inbox and mark it as **Read**. This immediately wakes the bot and resets the counter, allowing it to send up to 100 more messages (or whatever your configured limit is).
+
+### Workflow Reactivation
+
+Use the **Update Conversation AI Bot and Status** workflow action to programmatically wake the bot. This is useful for automated scenarios like:
+
+**Time-Based Resume** — Re-engage the bot after 24 hours if the contact sends a new message
+
+**Keyword Trigger** — Wake the bot only when the contact says "I need help" or similar phrases
+
+**Tag-Based Logic** — Reactivate if the contact is tagged with "VIP" or "High Priority"
+
+Pro Tip
+
+Create a workflow trigger on "Conversation Status = Bot Sleeping" to automatically route high-value conversations to a human agent instead of reactivating the bot.
+
+7
+
+## Best Practices for Message Limits
+
+Choosing the right message limit balances automation with quality. Here are recommended ranges based on conversation complexity:
+
+Use Case| Recommended Limit  
+---|---  
+Quick FAQs, Lead Capture| 10–25 messages  
+Appointment Scheduling, Simple Troubleshooting| 26–60 messages  
+In-Depth Product Guidance, Multi-Step Forms| 61–100 messages  
   
+### Monitoring and Adjustment
 
+Review conversation transcripts weekly. If most chats end well before the limit, consider lowering it to keep metrics tidy and reduce unnecessary AI usage costs. If many conversations hit the cap, raise it or refine your bot's prompt to be more concise.
 
-**TABLE OF CONTENTS**
+Cost Consideration
 
-  * Accessing Auto-pilot Mode:
-  * Navigate to the Conversation AI settings located in the Sub-account settings.
-  * Features:
-  * Advanced Auto-pilot Settings:
-  * Training the Bot:
-  * Pricing:
-  * Fully Automatic AI Bot Demo Video:
-  * FAQs
-    * Q: How can I access the Auto-pilot mode?
-    * Q: Can I configure the wait time before the bot responds?
-    * Q: Is there a charge for bot training and trial?
-    * Q: How can I provide feedback to the bot?
-    * Q: Can I configure the business name for the Conversation AI bot?
-    * Q: Is there a limit to the number of messages a bot can send to a contact?
-    * Q: How can I reactivate the bot once it goes to sleep?
-    * Q: How does the Auto-pilot bot handle multiple inbound messages?
-    * Q: Can the Auto-pilot bot be used across different platforms like SMS, Facebook, and Instagram?
-    * Q: Is it possible to test the bot’s responses before enabling it?
-    * Q: What happens if the bot receives a message manually or through a workflow?
-    * Q: Is there an unlimited usage plan available for the Auto-pilot mode?
-    * Q: Can the Auto-pilot mode be configured for almost instant responses?
-  * Conclusion:
+Every AI-generated message counts toward your Conversation AI usage quota. Raising the limit from 25 to 100 can increase costs if conversations routinely use the full range. Monitor your billing dashboard after making changes.
 
+8
 
-  
+## Frequently Asked Questions
 
+Q: Does the 100-message limit apply to my existing bots?
 
-# **Accessing Auto-pilot Mode:**
+Yes. All Prompt-based and Form-based bots automatically inherit the new 100-message ceiling. You can lower the limit in Bot Settings if your use case requires shorter conversations.
 
-  * #  Navigate to the Conversation AI settings located in the Sub-account settings.
+Q: Can I set different message limits for different channels?
 
-  * In the "bot settings" tab, you will find the new mode "Auto-pilot."
+No. The Maximum Message Limit is set at the bot level and applies uniformly across SMS, Facebook, Instagram, WhatsApp, and all other enabled channels.
 
+Q: What happens if a contact keeps messaging after the bot sleeps?
 
-# **Features:**
+The bot remains dormant and does not respond. The conversation stays open in your inbox, and you can either manually mark it as Read to reactivate the bot or have a human agent take over.
 
-  * **Inbound Message Handling:** The bot waits for a configured amount of time before collecting all messages of a conversation and replying to the contact.
-  * **Channel Availability:** Auto-pilot is available for SMS, Facebook, and Instagram, and the channels can be configured in the Bot Settings tab.
-  * **Sleep Mode:** The bot goes to sleep for 2 hours in case of a manual or a workflow-based message.
-  * **Feedback Mechanism:** Every message from the Auto-pilot Bot will contain Thumbs up and Thumbs down to provide feedback, add FAQs, and train the bot.
-  * **Appointment Booking:** The bot's primary goal is to get appointment bookings for your business and sends the booking/scheduling link directly to the contact based on the selected calendar.
+Q: Does resetting the counter start it from zero?
 
+Yes. When you mark a conversation as Read or use the workflow action to reactivate the bot, the message counter resets to zero, giving the bot another full cycle (up to 100 messages or your configured limit).
 
-# **Advanced Auto-pilot Settings:**
+Q: Can I use Auto-Pilot with hybrid human-bot conversations?
 
-  * **Business Name Configuration:** Allows setting up a business name for the conversation AI bot.
-  * **Wait Time before Responding:** Configurable time between 1 second and 5 minutes, allowing the bot to collect all messages before responding. The default limit is 2 mins.
-  * **Maximum Message Limit:** The bot will go to sleep if this limit is reached in a conversation. To activate the bot again, mark the conversation as "Read." The default limit is 10 messages in a single conversation.
-
-
-  
-
-
-# **Training the Bot:**
-
-Training the bot is crucial for optimizing its performance. Users can train the bot based on URLs or FAQs, and the bot trial is free of charge. For detailed instructions on training the bot, refer to [Training the Conversation AI Bot.](<https://help.gohighlevel.com/support/solutions/articles/155000000996-training-the-conversation-ai-bot>)
-
-  
-
-
-# **Pricing:**
-
-Bot training and trial are free of charge. Once the settings are changed from off to either suggestive or autopilot, a charge of five cents per generation is applicable.
-
-  
-
-
-# **Fully Automatic AI Bot Demo Video:**  
-
-
-* * *
-
-# **FAQs**
-
-  
-
-
-## **Q: How can I access the Auto-pilot mode?**
-
-A: Navigate to Conversation AI settings in the Sub-account settings and select "Auto-pilot" in the "bot settings" tab.
-
-  
-
-
-## **Q: Can I configure the wait time before the bot responds?**
-
-A: Yes, you can configure the wait time between 1 second and 5 minutes in the advanced settings.
-
-  
-
-
-## **Q: Is there a charge for bot training and trial?**
-
-A: No, bot training and trial are free of charge.
-
-  
-
-
-## **Q: How can I provide feedback to the bot?**
-
-A: Every Auto-pilot Bot's message will contain Thumbs up and Thumbs down options for providing feedback and training the bot.
-
-  
-
-
-## **Q: Can I configure the business name for the Conversation AI bot?**
-
-A: Yes, you can configure the business name in the advanced Auto-pilot settings.
-
-  
-
-
-## **Q: Is there a limit to the number of messages a bot can send to a contact?**
-
-A: Yes, the default limit is 10 messages in a single conversation, after which the bot goes to sleep.
-
-  
-
-
-## **Q: How can I reactivate the bot once it goes to sleep?**
-
-A: To reactivate the bot, mark the conversation as "Read."
-
-  
-
-
-## **Q:****How does the Auto-pilot bot handle multiple inbound messages?**
-
-A: The bot waits for a configured amount of time to collect all messages in a conversation before responding, allowing it to understand the context better and respond to all messages in one go.
-
-  
-
-
-## **Q: Can the Auto-pilot bot be used across different platforms like SMS, Facebook, and Instagram?**
-
-A: Yes, the Auto-pilot bot is versatile and can be configured to respond on SMS, Facebook, and Instagram through the Bot Settings tab.
-
-  
-
-
-## **Q: Is it possible to test the bot’s responses before enabling it?**
-
-A: Absolutely, you can utilize the bot trial feature to assess the bot’s responses in real-time to various messages and intents before enabling it.
-
-  
-
-
-## **Q: What happens if the bot receives a message manually or through a workflow?**
-
-A: The bot will go to sleep for a duration of 2 hours if it receives a manual or a workflow-based message.
-
-## **Q: Is there an unlimited usage plan available for the Auto-pilot mode?**
-
-A: An unlimited plan is under development and will soon be available, offering unlimited usage per location.
-
-  
-
-
-## **Q: Can the Auto-pilot mode be configured for almost instant responses?**
-
-A: Yes, the wait time can be configured to as low as one second for the bot to respond almost instantly.
-
-  
-
-
-  
-
-    
-    
-    For more detailed information on using Conversation AI, please refer to  
-    - [How to Use Conversation AI in Your Appointment Bookings.](<https://help.gohighlevel.com/support/solutions/articles/155000000210-how-to-use-conversation-ai-in-your-appointment-bookings->)   
-    - [Training the Conversation AI Bot](<https://help.gohighlevel.com/support/solutions/articles/155000000996-training-the-conversation-ai-bot>)
-
-  
-
-
-# **Conclusion:**
-
-The Auto-pilot mode of the Conversation AI Bot is a powerful tool designed to enhance user interaction and engagement by providing instant responses to leads and conversations. By understanding and utilizing its features and settings effectively, users can optimize their conversation management and improve their business's overall communication strategy.
+Yes. Human agents can jump into any Auto-Pilot conversation at any time. Their messages do not count toward the bot's limit. The bot will continue responding (up to its limit) unless you manually put it to sleep or it reaches the cap.

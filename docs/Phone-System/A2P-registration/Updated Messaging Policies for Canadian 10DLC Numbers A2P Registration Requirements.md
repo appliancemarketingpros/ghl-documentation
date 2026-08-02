@@ -235,12 +235,15 @@ Confirm:
 
 ## **Related** **Articles**
 
+  
+
+
   * **[](<https://help.gohighlevel.com/en/support/solutions/articles/155000002380>)**[](<https://help.gohighlevel.com/en/support/solutions/articles/155000002380>)[What is A2P 10DLC Brand and Campaign Registration?](<https://help.gohighlevel.com/en/support/solutions/articles/155000002380>)  
   
 
 
-  * **[](<https://help.gohighlevel.com/en/support/solutions/articles/155000006960>)**[](<https://help.gohighlevel.com/en/support/solutions/articles/155000006960>)[Updated Messaging Guidelines for the U.S.& Canada ](<https://help.gohighlevel.com/en/support/solutions/articles/155000006960>)  
+  * **[](<https://help.gohighlevel.com/en/support/solutions/articles/155000006960>)**[](<https://help.gohighlevel.com/en/support/solutions/articles/155000006960>)[](<https://help.gohighlevel.com/en/support/solutions/articles/155000006960>)[Registering Your A2P Brand](<https://help.gohighlevel.com/en/support/solutions/articles/155000008140>)  
   
 
 
-  * **[](<https://help.gohighlevel.com/en/support/solutions/articles/155000000340>)**[](<https://help.gohighlevel.com/en/support/solutions/articles/155000000340>)[A2P Sole Proprietor Brand Registration for 10DLC](<https://help.gohighlevel.com/en/support/solutions/articles/155000000340>)
+  * [A2P Campaign Registration: Step by Step Guide and FAQs](<https://help.gohighlevel.com/en/support/solutions/articles/155000004539>)

@@ -142,7 +142,11 @@ This is the total amount of reviews divided but the total amount of stars given 
 
 ## Sentiment:
 
-This is a great way to understand how people feel about your business or service. The sentiment is derived using Google's AI to determine either positive or negative based on reviews on Facebook and Google. 
+Sentiment Sentiment helps you understand how customers feel about your business or service. HighLevel uses a large language model to classify written reviews as Positive, Neutral, or Negative. For reviews without a written comment, HighLevel determines sentiment from the star rating:   
+\- **4 or 5 stars:** Positive   
+\- **3 stars:** Neutral   
+\- **1 or 2 stars:** Negative   
+Historical reviews have also been rescored. Sentiment trends, heatmaps, and breakdowns reflect the improved scoring for both past and new reviews.
 
   
 

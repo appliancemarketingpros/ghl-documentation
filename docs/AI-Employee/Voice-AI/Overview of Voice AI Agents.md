@@ -461,7 +461,7 @@ Voice AI can perform actions both during a call and after a conversation ends, a
   
 
 
-During call actions may include:
+During the Call: Applies the contact update immediately and includes confirmation during the conversation. The actions may include:
 
   
 
@@ -474,7 +474,7 @@ During call actions may include:
   
 
 
-Post call actions may include:
+After the Call: Applies the contact update silently without interrupting the caller or adding confirmation. The actions may include:
 
   
 
@@ -489,6 +489,9 @@ Post call actions may include:
 
 
 **Learn more:**[Separate During and Post Call Actions](<https://help.gohighlevel.com/en/support/solutions/articles/155000005267>)
+
+  
+
 
   
 

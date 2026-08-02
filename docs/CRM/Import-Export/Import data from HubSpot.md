@@ -157,6 +157,12 @@ For unsupported objects, use your broader migration plan or the manual migration
   * **Associations:** Some associations may not be imported due to platform limits. Customers should validate critical associations after migration.
 
 
+  
+
+
+  * **Emails:** Imported emails from HubSpot will be read only.
+
+
 * * *
 
 ## **How To Use the HubSpot Importer**
@@ -307,11 +313,11 @@ Pipeline stages are imported along with pipelines. You don't need to recreate th
   
 
 
-Click **Continue** to move on.
+Click **Continue** to move on.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077135238/original/1A01i5guYSTtXZdcUO45yOufFVaZeW8Hwg.png?1785327504)
 
-  
-![The Review included data step showing Contacts \(Properties\) and Deals \(Properties and Pipelines\) included by default.](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071278794/original/u8FoSSVv1uvMeNggxsVU10-RKbPNOCDkOw.png?1778701266)  
-  
+####   
 
 
 #### _**Step 7:** Confirm Record Counts_

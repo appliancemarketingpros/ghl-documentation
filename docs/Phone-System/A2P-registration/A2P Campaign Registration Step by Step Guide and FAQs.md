@@ -6,800 +6,376 @@
 
 ---
 
-Need help with A2P 10DLC Campaign Registration? This guide walks HighLevel users through the updated 2023 registration process to ensure SMS compliance and deliverability.
+SMS Compliance
 
-* * *
+# A2P Campaign Registration Guide
 
-**TABLE OF CONTENTS**
+Complete A2P Campaign registration to define your messaging use case, establish user consent, and enable compliant SMS delivery on 10DLC phone numbers.
 
-  * Overview of Campaigns
-  * Campaign Details
-  * Messaging Use Case
-    * 1\. Campaign Use Case
-    * 2\. Use Case Description
-    * 3\. Sample Message #1 and #2
-  * User Consent
-    * 1\. Opt In Method and Opt In Form URL
-    * 2\. How do Contacts Opt-in to Messages?
-  * Requirements and Best Practices
-    * Consent Checkboxes
-    * Privacy Policy
-    * Terms of Service
-  * Frequently Asked Questions
-  * Related Articles
+What You'll Learn
 
+This article walks you through completing A2P Campaign registration in HighLevel. A2P Campaign registration is the second step in the A2P 10DLC registration process after Brand registration.
 
-* * *
+Before starting, your Brand registration should already be submitted and approved, or you should be continuing directly from the Brand Registration flow.
 
-## **Overview of Campaigns**
+Table of Contents
 
-  
-
-
-Once your Brand registration is successfully approved as part of the A2P 10DLC (Application-to-Person 10-Digit Long Code) setup, the next essential step is to register a Campaign associated with that Brand. This step is mandatory to begin sending A2P messages through 10DLC phone numbers.
-
-  
-
-
-Once your Brand registration is approved as part of the A2P 10DLC setup, HighLevel automatically submits the associated Campaign for review. You do not need to manually submit the Campaign.
-
-  
-
-
-This applies to both Standard and Sole Proprietor A2P registration flows.
-
-  
-
-    
-    
-    **Pricing & Fees:** A2P 10DLC registration/vetting, monthly campaign fees, and carrier per-message charges are passthrough via LC Phone with no HighLevel markup. For current fee tables, see [Understanding A2P 10DLC Messaging Fees: Registration, Monthly, and Carrier Costs](<https://help.gohighlevel.com/support/solutions/articles/155000005200>),
-
-[](<https://help.gohighlevel.com/en/support/solutions/articles/155000005200>)
-
-  
-
-
-  
-
-
-What You Should Do
-
-  
-
-
-After receiving confirmation that your Brand is approved:
-
-  
-
-
-  1. Go to **Settings** > **Phone System** >**Trust Center**.  
-  
-
-  2. Click on **Brands & Campaigns** then go to the **Campaigns** tab.  
-  
-
-  3. Click **Create Campaign**.****  
-  
-
-  4. Fill out the Campaign Details.  
-  
-
-  5. Await Campaign approval before using your number for A2P messaging.
-
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065627813/original/1wduF8yBrMXh47brc9Bu7GWOCQS7hMT-vw.png?1771965703)
-
-* * *
-
-## **Campaign Details**
-
-  
-
-
-Once you complete the steps to submit the Brand Details, you will be taken to Campaign Details page.
-
-Campaign Details page has two sub-sections:  
-  
-
-
-  * Messaging Use Case  
-  
-
-  * User Consent
-
-
-* * *
-
-## **Messaging Use Case**
-
-  
-
-
-Clearly describe the purpose of your SMS campaign. Specify who will receive the messages, the nature of the content, and the context in which messages will be sent. For example, _"Sending appointment reminders to clients who have opted in via our website."_
-
-  
-
-
-For detailed Messaging Use Cases refer to [List of campaign use case types for A2P 10DLC registration.](<https://help.gohighlevel.com/en/support/solutions/articles/155000000235>)
-
-  
-
-
-You will see the following campaign fields on this page:
-
-  
-
-
-  
-
-
-### **1\. Campaign Use Case**
-
-  
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065623634/original/prYCmHSbUB8oe-MnYbUiS545xa3c6U0_iQ.png?1771958624)**
-
-  
-
-
-  
-
-    
-    
-    In the Pre-Built Chat Widget registration flow, transactional / non-marketing campaigns are automatically assigned ** **Customer Care**. That guided flow does not require manual use-case selection for transactional campaigns.
-
-  
-
-
-**  
-**
-
-### **2\. Use Case Description**
-
-  
-
-
-The **use case description** field under Messaging Use Case outlines the specific purpose and intended usage of your SMS campaign. It’s a critical requirement for approval because it informs carriers about how and why you are sending messages, ensuring compliance with regulations and transparency.  
-  
-
-
-The description must explain what type of SMS the client will be sending (e.g., marketing messages, appointments, notifications, etc.). This description must match both the Campaign Use Case and the sample messages.
-
-  
-
-
-Click on **See Example** in the top right to check out examples for your use case. It's best to keep it simple. If you outline all the use cases, you will need to provide the opt-in link for each one.
-
-  
-
-    
-    
-    **Important:** If you have an EIN for your company but you want to use a different brand name for your messages, you can add this sentence "We are doing DBA as [Business_Name]" in the Campaign Use Case.
-    
-    Make sure the rest of the submission, including the website,  Privacy policy, Terms & Conditions, and the business name shown in opt-in form checkboxes, matches the declared [Legal Business Name] DBA [DBA Name]. You can register the same EIN for up to 10 brands.
-
-  
-
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065623848/original/zz7xQEg31IhdyjZ-3JR_Aa4renCsDAtP9A.jpeg?1771959036)
-
-  
-
-
-  
-
-
-**Use Case Description Examples**
-
-  
-
-
-  * "This campaign sends appointment confirmations, message notifications, and offers for chiropractic adjustments to existing patients or new patients who have opted in to receive SMS notifications. The communications are sent via the website form."  
-  
-
-  * "This campaign targets customers who have opted in to receive marketing updates via our subscription form. Messages will include promotional discounts, new product announcements, and exclusive offers. Users can opt out anytime by replying STOP."
-
-
-  
-
-
-  
-
-
-### **3\. Sample Message #1 and #2**
-
-  
-
-
-Sample Message #1 and #2 are examples of the SMS content you plan to send under this campaign. Carriers use these samples to validate your declared use case and messaging mix.
-
-  
-
-
-**Sample Message #1 (Promotional/Marketing)**
-
-  
-
-
-Use this field for marketing content such as promotions, discounts, special offers, and announcements.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072234682/original/YKuti1RH3WzH29lMT6G7Qt6aScbPxK0fdQ.png?1779805578)
-
-  
-
-
-  
-
-
-**Sample Message #2 (Transactional/Informational)**
-
-  
-
-
-Use this field for informational content such as appointment reminders, confirmations, status updates, and support follow-ups.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072234745/original/gshH1E1I7XG7BGnfWQmoxFrmgEyd5SB0Pw.png?1779805604)
-
-  
-
-
-  
-
-
-**Both sample messages must:**
-
-  
-
-
-  * Include the lead’s name, your name (or staff name), your business name, and opt-out language (for example, “Reply STOP to unsubscribe”).  
-  
-
-  * Match the campaign use case and your use case description.  
-  
-
-  * Reflect real messages you will send.
+1
 
+What is A2P Campaign Registration?
 
-  
-
-
-**Tips**
-
-  
-
-
-  * For mixed messaging, submit at least one promotional sample and one transactional sample (use each field as intended).  
-  
-
-  * Use the “See Example” option to view examples filtered to the required content type for each field.  
-  
-
-  * Do not include custom field tokens or values in sample messages.
-
-
-  
-
-    
-    
-    **Important:** Do _NOT_ including custom fields or values in the sample messages. 
-
-* * *
-
-## **User Consent**
-
-  
-
-
-Users must clearly and willingly agree to receive messages, and the consent should specify the type of messages being sent, such as marketing, transactional, or informational.
-
-Ensure users are fully informed during the opt-in process. Clearly communicate:  
-  
-
-
-  * The type of messages they will receive.  
-  
-
-  * The expected frequency of the messages.  
-  
-
-  * Any associated costs, such as standard message and data rates.
-
-
-  
-
-    
-    
-    **Important:** Brands cannot submit Campaigns using [company name] and will need to update their flows to have their own BRAND NAME rather than "the company" or "the business".
-    
-    Brands cannot use HighLevel's demo numbers in their opt-in flows and campaigns or submit using HighLevel's sample number provided in guidance.
-
-  
-
-
-  
-
-
-### **1\. Opt In Method and Opt In Form URL**
-
-  
-
-
-If consent is being obtained on the website, please provide the URL. If it’s verbally, provide the script with the above requirements. If it’s a keyword opt-in, please provide the image of how the keyword is being advertised to the end users with all the required disclaimers. If it’s over a paper form, please provide a picture of the form where we can see all the disclaimers and where the end user is providing their phone number.
+2
 
-  
-
-    
-    
-    **Tip:** If the checkbox is showing at the end of the survey, or behind an appointment form. Please include a hosted link to an image of the opt-in
-
-  
-
-
-  
-
-
-For detailed list of all Opt-In methods refer to [A2P 10DLC Campaign Approval Best Practices](<https://help.gohighlevel.com/en/support/solutions/articles/48001229784>).
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065625444/original/7mEi5v9MhTqQ4nrcyO-gvHbF2Ol5BWdPpw.jpeg?1771961059)
-
-  
-
-
-  
-
-
-**Example of Web Form Opt-In Flow**
-
-  
+Before You Start
 
+3
 
-  * Consent check boxes should be separated for both Marketing and Non-Marketing Messages.  
-  
-
-  * Consent **check boxes cannot be pre-selected** and **should be optional** when **Phone Number is required.**  
-  
-
-  * SMS notifications cannot be forced in the form. Meaning **you cannot require BOTH consent and the phone number to proceed.**  
-  
+What is a Messaging Use Case
 
-  * **Privacy Policy** and **TnC** at footer.
+4
 
-
-  
-
-
-For more details on best practices and examples for Web Form Opt-In requirements, see [How to get your phone number A2P approved in 2026](<https://help.gohighlevel.com/en/support/solutions/articles/155000007237>)
-
-  
+How to Access Campaign Registration
 
+5
 
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065627886/original/XBwuoN2CqnohL2H9NkY29_pJUQtuXfHl1w.png?1771965899)|   
-  
----|---  
-  
-  
+How to Register an A2P Campaign
 
+6
 
-  
+Frequently Asked Questions
 
+7
 
-### **2\. How do Contacts Opt-in to Messages?**
+Related Articles
 
-  
+1
 
+## What is A2P Campaign Registration?
 
-#### **How do Contacts Opt-in to Messages?**
+Once your Brand registration is approved as part of the A2P 10DLC (Application-to-Person 10-Digit Long Code) setup, the next required step is to register a Campaign associated with that Brand. This step is mandatory before you can begin sending A2P messages using 10DLC phone numbers.
 
-  
+An A2P Campaign defines how your business uses SMS messaging. It includes details such as the type of messages you send, who receives your messages, and how contacts opt in to receive messages.
 
+Your Campaign works together with your Brand:
 
-Explain how the customers are opting into receiving messages. Explain the flow that these users will go though. This must match your use case and your opt in message.
+**Brand** — Who is sending messages
 
-  
+**Campaign** — What messages are being sent, why they are sent, and how consent is collected
 
+Carriers use Campaign registration to evaluate compliance, messaging intent, and user consent. Accurate Campaign details are critical for approval and long-term message deliverability.
 
-  
+Pricing Information
 
+Pricing for A2P 10DLC registration, vetting, monthly Campaign fees, and carrier per-message charges are passthrough via LC Phone with no HighLevel markup. For current fee details, see [A2P 10DLC Messaging Fees.](<https://help.gohighlevel.com/en/support/solutions/articles/155000005200>)
 
-**Example of How Contacts Opt-In to Messages**
+2
 
-  
+## Before You Start
 
+Before completing Campaign registration, make sure your Brand registration has already been submitted and approved, or that you are continuing directly from the Brand Registration flow.
 
-  * "Customers opt in to receive account-related SMS notifications from Golden nest after being informed of the nature of the notifications and providing explicit consent during account setup or enrollment. Opt-out instructions are included in each message."
+If you have not completed Brand registration yet, start with the appropriate Brand Registration article before continuing with Campaign registration. For step-by-step instructions, see [A2P 10DLC Brand Registration](<https://help.gohighlevel.com/en/support/solutions/articles/155000008140>).
 
+Important
 
-  
+Campaign approval is handled by carriers and registration partners. HighLevel provides the registration workflow in Trust Center, but approval is based on the accuracy and compliance of the information submitted.
 
+3
 
-Click on **See Example** in the top right to check out examples for your use case.
+## What is a Messaging Use Case
 
-  
+Campaign use case types represent the specific purpose of your SMS or MMS messages. When registering a campaign, you're required to select a use case that accurately describes the nature of your communication—such as customer care, two-factor authentication, or marketing.
 
+Choosing the correct campaign type is essential to meet industry compliance standards, avoid filtering or blocking, and maintain trust with carriers and recipients.
 
-  
+To see a list of use cases, see: [A2P 10DLC Campaign Use Cases](<https://help.gohighlevel.com/en/support/solutions/articles/155000000235>)
 
+4
 
-#### **Opt-In Message**
+## How to Access Campaign Registration
 
-  
+There are two ways to access Campaign registration.
 
+If you are completing A2P registration for the first time, you may continue into **Campaign** **Details** after completing the Brand Registration steps.
 
-It should not exceed 160 characters and must have the following:  
-  
+If your Brand is already approved and you want to create another Campaign, you can start from Trust Center. To create a Campaign from Trust Center:
 
+Step 1
 
-  * Program/company name  
-  
+Navigate to Trust Center
 
-  * Message frequency (must align with the frequency on the CTA and SMS Terms)  
-  
+Navigate to **Settings > Phone System > Trust Center** tab. Then in the A2P Messaging (SMS) card, click **Brand & Campaigns**.
 
-  * Disclosure: Message and data rates may apply  
   
 
-  * Customer care contact details: Reply HELP for help.  
-  
 
-  * Opt-out instructions: Reply STOP to opt-out.
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077175440/original/65YK636Ftk3aK0CqZDEyvuPQGxQI-TmoXQ.jpeg?1785347277)
 
+Step 2
 
-  
+Create a Campaign
 
+Open the **Campaigns** tab then click **Create Campaign**. From the dropdown, select the brand you want to create the campaign for. After selecting the Brand, you will enter the same Campaign setup flow described in this article.
 
   
-
 
-**Examples of Opt-In Messages**
 
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077175463/original/28M7dnFv8xqPgr0RF_OtdUy3r_aIjUgg9Q.jpeg?1785347315)
 
-
-  * "[Company name]: Thank you for signing up for updates! Msg freq varies. Msg&Data rates may apply. Reply HELP for help, STOP to cancel."  
-  
+5
 
+## How to Register an A2P Campaign
 
-  * "You have successfully opted in for messages from ABC Company. Reply STOP to unsubscribe"
+After accessing Campaign registration, complete the Campaign setup steps below.
 
+Step 1
 
-  
+Select Your Messaging Volume
 
+The first step in Campaign details is selecting your messaging volume. The available options depend on your Brand type.
 
-Click on **See Example** in the top right to check out examples for your use case.
+**If you have a Tax ID** , choose the messaging volume option that best matches your business texting needs.
 
+Standard Brand Option| Best For| Key Information  
+---|---|---  
+Low Volume Standard Brand| Registered businesses with lower messaging volume and throughput needs.| Supports multiple phone numbers. Allows up to 6,000 SMS segments per day. Lower cost than High Volume*  
+High Volume Standard Brand| Registered businesses that send larger volumes of messages and require higher throughput.| Supports multiple phone numbers. Allows up to 600,000 SMS segments per day. Higher cost than Low Volume*  
   
-
+*For specific pricing information, see: [A2P 10DLC Messaging Fees: Registration, Monthly, and Carrier Costs](<https://help.gohighlevel.com/en/support/solutions/articles/155000005200>)
 
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065625860/original/jsoPuY8CxEiCPMZzwiubFH5JhRhJO8ML3Q.png?1771962000)**
+**If you do not have a Tax ID,** the only available option is Single-number registration. Note that only one number can be linked to this registration. You can change the number later.
 
   
 
 
-**P rivacy Policy URL and Terms & Conditions URL **
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077175477/original/x4Wm53WKpNPlzL3bH6UdU4_A47hJpOM-vw.jpeg?1785347341)
 
-  
+Step 2
 
+Choose Quick Setup or Manual Setup
 
-These fields are now required for self-serve campaign registration.
-
-  
+After selecting your messaging volume, choose a registration flow. You will see two options.
 
+**Quick setup** — Recommended for most standard Campaigns. It is the fastest path and helps reduce compliance mistakes by using a HighLevel-generated text opt-in widget. This option may be best if you want HighLevel to generate the opt-in widget, prefer several Campaign fields to be pre-filled, do not need a custom opt-in method, and want the lowest-risk path for most standard Campaigns.
 
-  * In the**"Privacy Policy URL"** field, enter the publicly accessible link to your business's Privacy Policy page.  
-  
+**Manual setup** — Gives you more control over each Campaign field and supports custom opt-in methods. This option may be best if you collect consent through existing website forms, paper forms, Facebook lead forms, QR codes, kiosks, verbal consent, or other approved opt-in methods. Manual setup may take longer and has a higher chance of mistakes or delays because each field must be completed manually.
 
-  * In the **"Terms & Conditions URL" **field, enter the publicly accessible link to your Terms & Conditions (or Terms of Service) page.  
-  
+After choosing a registration flow, follow the section that matches your selection:
 
-  * Both fields appear directly below the **"How do contacts Opt-in"** and **"Opt-in Message"** fields in the self-serve campaign registration flow.  
   
 
-  * **If you do not have these URLs,** consider registering through the **prebuilt chat widget flow,** which includes compliant Privacy Policy and Terms & Conditions automatically.
 
+If you selected **Quick Setup** , continue to **Step 3A: Complete Quick Setup.**
 
   
 
-    
-    
-    **Tip: Your Privacy Policy must include the following paragraph to comply with carrier requirements:** "No mobile information will be shared with third parties/affiliates for marketing/promotional purposes. Information sharing to subcontractors in support services, such as customer service is permitted. All other use case categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties."
-    
 
-##   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073470513/original/iu1MsYTKqtlbJIMUKxboB3O_14-QpEp3vw.png?1781183924)  
-**Widget-First Campaign Use-Case Guidance**
+If you selected **Manual Setup** , continue to **Step 3B: Complete Manual Setup.**
 
   
 
 
-The pre-built Chat Widget-first registration flow uses guided use-case ordering to help reduce incorrect selections during campaign setup.
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077175598/original/HCMuD1klhuPmKQrixoclFaYCgi5Y6yOxKA.jpeg?1785347421)
 
-  
+Quick Setup Path
 
+### Complete Quick Setup
 
-In this flow:
+Follow these steps if you selected Quick Setup. For Manual Setup, skip to Step 3B below.
 
-  
+Step 3A: Quick Setup
 
+### Messaging Use Case, Widget Setup, and Compliance
 
-  * **Customer Care** appears first
-  * **Account Notification** appears second
+If you selected Quick Setup, complete the following information:
 
+1\. Messaging use case & website details
 
-  
+  * **Messaging use case:** Campaign use case types represent the specific purpose of your SMS or MMS messages. Select a use case that accurately describes the nature of your communication. For detailed info on Messaging Use Cases, refer to List of campaign use case types for A2P 10DLC registration.
+  * **Your business website URL:** Enter the website where users will provide consent to receive messages. This should be a live, publicly accessible site that represents your business and matches the information provided in your Brand registration. The website should clearly display your business name and contact details.
+  * **Age-gated content checkbox:** Select this option only if your business sends age-restricted content.
 
 
-This guided order is intended to improve submission quality for chat-widget-based campaigns. For widget-first setup and compliance requirements, refer to the dedicated widget-first registration article.
+2.Copy & install the widget code
 
-  
+Copy the widget code provided in the Chat widget setup section and install it on your website. Click **Copy code** to copy the snippet displayed on screen, then paste the snippet into the `<body>` or footer section of your website. If needed, use **Customize widget** to adjust the widget before installing it.
 
+Make sure the widget is fully installed and visible on your website before continuing to the next step.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071997852/original/uA-dF86FEgnj2Of61dbmzsCDAxklhSz1tw.png?1779452698)
+3.Website compliance check
 
-* * *
+Carriers require that the chat widget is the only form on the page collecting SMS consent.
 
-## **Requirements and Best Practices**
+Do not place the widget on a page that also contains other SMS opt-in forms, such as Contact forms, Lead capture forms, or Appointment forms.
 
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077176179/original/l0EtHDpRUzgYT_-faVbO32WH70qMSWTHyw.png?1785347803)
 
+Compliance Tip
 
-### **Consent Checkboxes**
+For more detailed guidance on compliance requirements and examples, see [A2P 10DLC Campaign Approval Best Practices](<https://help.gohighlevel.com/en/support/solutions/articles/48001229784>)
 
-  
+Step 4A: User Consent
 
+After completing the widget setup, HighLevel automatically fills in the inputs for User Case Description, Sample Message #1, Sample Message #2, How do Contacts Opt-in to Messages, and the Opt-in Message.
 
-Both the consent checkboxes must be option, must not be pre-checked and must allow form submission even if the check boxes are not selected. You must execute the communication channels based on their selections
+Review the generated information carefully to ensure it matches your business and messaging intent.
 
   
 
 
-Make sure you have two checkboxes with the following exact messages:
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077176203/original/Mbdu75m3e4HMncMxe52LwrBbK7OUNNhZEw.jpeg?1785347850)
 
-  
+Step 5A: Business Website Compliance Checklist
 
-
-  * I consent to receive marketing text messages, about special offers, discounts, and service updates, from [BUSINESS NAME] at the phone number provided. Message frequency may vary. Message & data rates may apply. Text HELP for assistance, reply STOP to opt out.  
-  
+After reviewing all checklist items, select the blue **Review Application** button. Then click here to move on to Step 6.
 
-  * I consent to receive non-marketing text messages from [BUSINESS NAME] about [USE_CASE_FROM_CAMPAIGN_DESCRIPTION] Message frequency may vary, message & data rates may apply. Text HELP for assistance, reply STOP to opt out.  
   
 
 
-For more information on consent checkbox requirements and to see examples, [click here](<https://help.gohighlevel.com/support/solutions/articles/155000007237#Opt-In-Form>).
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077176244/original/N_U6s4jOnshqz0G9DeahPaHXTwM-cwB9RA.jpeg?1785347879)
 
-  
-
-
-  
+Manual Setup Path
 
+### Complete Manual Setup
 
-### **Privacy Policy**
+Follow these steps if you selected Manual Setup. For Quick Setup, see Step 3A above.
 
-[](<https://help.gohighlevel.com/en/support/solutions/articles/155000001426>)
+Step 3B: Campaign Details
 
-  
+If you selected Manual Setup, complete the following fields manually.
 
+**Campaign Use Case** — Select the use case that best matches the type of messages your business will send. This should align with your business purpose, the messages you plan to send, and how contacts opt in. For detailed info on Messaging Use Cases, refer to [List of campaign use case types for A2P 10DLC registration.](<https://help.gohighlevel.com/en/support/solutions/articles/155000000235>)
 
-Here are guidelines on the [Privacy Policy](<https://help.gohighlevel.com/support/solutions/articles/155000001426>):
+**Website URL** — Enter your business website URL. This should be a live, publicly accessible site that represents your business and matches the information provided in your Brand registration. The website should clearly display your business name and contact details.
 
-  
+**Use Case Description** — Provide a clear explanation of how your business will use SMS messaging. Include who is sending the messages, who will receive them, what types of messages will be sent, and how contacts opt in. The description should match your selected use case and sample messages.
 
+**Sample Messages** — Enter example messages that represent the types of SMS your business will send. These should reflect real messaging content, include your business or sender name, and match your use case. Messages should also include opt-out language such as "Reply STOP to unsubscribe." Do NOT include custom fields or values in the sample messages.
 
-  1. Find Keywords: Look for words like share, disclose, sell, affiliate, and third-party.  
-  
+**Additional Message Details** — Select any options that apply to your messaging content, such as whether messages include links, phone numbers, age-gated content, or financial-related content. These selections help carriers evaluate compliance and may affect approval requirements.
 
-  2. Check Context: See if the sentence allows sharing or selling leads' information with others.  
-  
+Helpful Tip
 
-  3. Remove or Fix: Delete or reword any text that says leads' information is shared or sold.  
-  
+You can click See Example in HighLevel for guidance on how to complete these fields.
 
-  4. Confirm: Make sure the policy clearly states that you don’t share or sell leads' information.  
-  
+For detailed requirements and examples for each field, see [A2P 10DLC Campaign Approval Best Practices and Compliance Requirements.](<https://help.gohighlevel.com/en/support/solutions/articles/48001229784>)
 
-  5. Must add this paragraph:  
-  
-"No mobile information will be shared with third parties/affiliates for marketing/promotional purposes. Information sharing to subcontractors in support services, such as customer service is permitted. All other use case categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties."  
   
 
 
-For more information on privacy policy requirements and to see examples, [click here](<https://help.gohighlevel.com/support/solutions/articles/155000007237#Privacy-Policy-Essentials>).
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077176288/original/w24DXJ8Im_oeKHP2TlnzaBdB0uJGbVJ9aQ.png?1785347911)
 
-  
+ImportanT
 
-
-  
+If you have an EIN for your company but you want to use a different brand name for your messages, you can add this sentence "We are doing DBA as [Business_Name]" in the Campaign Use Case.
 
+Make sure the rest of the submission, including the website, Privacy policy, Terms & Conditions, and the business name shown in opt-in form checkboxes, matches the declared [Legal Business Name] DBA [DBA Name]. You can register the same EIN for up to 10 brands.
 
-### **Terms of Service**
+Step 4B: User Consent
 
-  
+Provide details about how contacts opt in to receive messages by filling out the following fields:
 
+**Opt-In Method** — Select how contacts opt in to receive messages. Common options include website forms, paper forms, Facebook lead forms, QR codes, kiosks, or verbal consent.
 
-Here are guidelines on the [Terms of Service](<https://help.gohighlevel.com/support/solutions/articles/155000001426>):
+**Opt-in Form URL** — Enter a publicly accessible URL that shows where users provide their phone number and opt in to receive messages. If your opt-in method is not publicly visible, such as a paper form or QR code, provide a hosted image or public link that clearly shows the opt-in flow.
 
-  
+**Description of opt-in flow** — Provide a clear explanation of the opt-in process. Include where contacts provide their phone number, what language they see before opting in, whether the opt-in is optional, and what type of messages they are agreeing to receive.
 
+**Opt-in Message** — Enter the consent language or confirmation message shown to users when they opt in. This should align with your Campaign use case and sample messages and must include: Program/company name, Message frequency (must align with the frequency on the CTA and SMS Terms), Disclosure: Message and data rates may apply, Customer care contact details: Reply HELP for help, Opt-out instructions: Reply STOP to opt-out.
 
-  * Make sure the company name & logo is branded in the webpage header to ensure consistency.  
-  
+**Privacy Policy URL** — Provide a publicly accessible link to your Privacy Policy. This page must be visible to users and accessible to reviewers.
 
-  * Provide publicly accessible terms of service URL.  
-  
+**Terms & Conditions URL** — Provide a publicly accessible link to your Terms & Conditions. This page must be visible to users and accessible to reviewers.
 
-  * Must add these 6 bullet points:  
-  
+Helpful Tip
 
-    1. Program Name  
-  
+You can click **See Example** in HighLevel for guidance on how to complete these fields.
 
-    2. {Insert program description here; a brief description of the types of messages users can expect upon opting in.}  
-  
+For detailed requirements and examples for each field, see [A2P 10DLC Campaign Approval Best Practices and Compliance Requirements.](<https://help.gohighlevel.com/en/support/solutions/articles/48001229784>)
 
-    3. You can cancel the SMS service at any time. Simply text "STOP" to the shortcode. Upon sending "STOP," we will confirm your unsubscribe status via SMS. Following this confirmation, you will no longer receive SMS messages from us. To rejoin, sign up as you did initially, and we will resume sending SMS messages to you.  
   
 
-    4. Carriers are not liable for delayed or undelivered messages.  
-  
 
-    5. As always, message and data rates may apply for messages sent to you from us and to us from you. Message frequency varies. For questions about your text plan or data plan, contact your wireless provider.  
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077176309/original/-XXgaagGJdejovzrihZX7FQQtXwKJypITA.png?1785347944)
 
-    6. For privacy-related inquiries, please refer to our privacy policy: {link to privacy policy}.
+Step 5B: Business Website Compliance Checklist
 
+After reviewing all checklist items, select the blue **Review Application** button. Then continue to Step 6.
 
   
-
-
-For more information on privacy policy requirements and to see examples, [click here](<https://help.gohighlevel.com/support/solutions/articles/155000007237#Terms-of-Service-Clauses>).**[](<https://help.gohighlevel.com/en/support/solutions/articles/155000001426>)**
-
-* * *
-
-## **Frequently Asked Questions**
-
-####   
 
 
-**Q: What is changing?**
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077176318/original/PPKJfhjeuOdyZMMrZR-w7tgBGmveeW5ppQ.png?1785347965)
 
-Starting January 26, 2023, all new US A2P 10DLC Campaign registrations (Standard, Low volume standard, and Sole Proprietor 2.0) will be subject to a manual vetting process and be charged a one-time $15.75 campaign verification fee at the time of registration. 
+#### Step 6: Run AI Compliance Review and Submit
 
-  
+Click **Review Application** to run the AI compliance review.
 
+If any checks fail, review the issue, fix the required item, and click **Review Again**. You cannot submit the Campaign until all compliance checks pass. Once all checks pass, submit your Campaign for review.
 
   
-
 
-**Q: Why is this change happening, and is this a LeadConnector-specific requirement?**
 
-This is an industry-wide change to improve the Campaign Vetting process to reduce spam, fraud, and unwanted messaging and protect SMS as a trusted communications channel in the U.S. Every messaging provider who services A2P Campaigns must conduct this vetting.
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077176331/original/DUM4Cqnp3ci1lTVLEPJTQ5zjGZ0BIWM7hg.jpeg?1785347998)
 
-  
+6
 
+## After Your A2P Campaign is Approved
 
-**Note:** We are collecting the campaign verification fee and will pass that along without markup to our telecommunications partners. The cost is not levied by us directly. 
+After your A2P brand and campaign are approved, confirm that each applicable phone number is linked to the approved campaign before sending SMS or MMS. Campaign approval does not always mean every phone number in the sub-account is already associated with the campaign.
 
   
 
 
+To confirm your number is ready:  
   
 
 
-**Q: How do the new fees fit in with existing registration fees?**
-
-The below table details the existing registration fees and new registration fees:  
+  1. Go to **Settings > Phone System > Phone Numbers**.  
   
-
 
+  2. Locate the phone number you want to use for messaging.  
   
-| **Sole Prop**| **Low Volume Standard**| **Standard**  
----|---|---|---  
-**Existing Fee**|   
-|   
-|   
-  
-Brand registration fee (one time)| $4.2| $4.2| $4.2  
-Monthly campaign fee (monthly recurring)| $2.1| $1.5-$12 (depending on the use case type)| $1.5-$12 (depending on the use case type)  
-**New fee**|   
-|   
-|   
-  
-Campaign verification fee (one time)| $15.75| $15.75| $15.75  
-  
-  
-
-
-**Q: How will this affect Campaign Vetting?**
 
-With this new vetting process, a newly submitted Campaign will be put in a “Pending” state until it has been vetted and approved in the manual vetting process. Customers can only send compliant messages on the A2P route once the Campaign is fully approved.
-
-**  
-**
-
-**Q: What will determine whether a Campaign passes or fails this vetting?**
-
-To help ensure your Campaigns are approved in this vetting process, please follow these best practices in [A2P Campaign Approval Best Practices.](<https://help.gohighlevel.com/en/support/solutions/articles/48001229784>)
-
-**  
-**
-
-**Q: Will I get my $15.75 back if my Campaign fails to vet?**
-
-No, the $15.75 Campaign vetting fee is non-refundable. Telephony System is working on an expedited pre-screening process to catch issues before the Campaign is sent for external vetting. We will share more news on this once we have an update.
-
+  3. Confirm that the number displays the green **A2P Verified** label.  
   
-
 
-**Q: Are existing Campaigns affected by this change?**
-
-At this time, only new Campaigns are affected by this change. If this changes for existing Campaigns, we will communicate any new vetting requirements.
-
+  4. If the label is missing, link the number to the approved A2P campaign.  
   
-
 
-**Q: Are monthly recurring fees affected by this change?**
+  5. Repeat this check whenever you purchase or add another applicable local number.
 
-No, recurring fees remain the same and are based on the campaign use case.
 
   
 
 
-**Q: Do this new vetting process and $15.75 fee also extend to “post-approval” Campaigns like Agents/Franchise and Proxy? If yes, does it occur before the carrier approval, after the carrier approval, or instead of the carrier approval?**
+For step-by-step instructions, see [How to Link a Phone Number to an Approved A2P Campaign.](<https://help.gohighlevel.com/en/support/solutions/articles/155000008316>)
 
-Yes, it applies to post-approval Campaigns. It happens after carrier approval.
+7
 
-**  
-**
+## Frequently Asked Questions
 
-**Q: What can I do if my campaigns are rejected?**
+Q: How will this affect Campaign Vetting?
 
-Contact the support team here so our LC phone specialist team will help you fix your Campaign registration / re-submit a new Campaign. There are no charges for a resubmission of a rejected campaign.
+With this vetting process, a newly submitted Campaign will be put in a "Pending" state until it has been vetted and approved in the manual vetting process. Customers can only send compliant messages on the A2P route once the Campaign is fully approved.
 
-**  
-**
+Q: What can I do if my campaigns are rejected?
 
-**Q: Are there exceptions to these changes?**
+Contact the support team so our LC phone specialist team will help you fix your Campaign registration or resubmit a new Campaign. There are no charges for a resubmission of a rejected campaign.
 
-Toll-Free messaging remains an attractive alternative to A2P 10DLC. Toll-Free messaging does [require a verification process](<https://help.gohighlevel.com/en/support/solutions/articles/48001204834>) but does not rely on Brand and Campaign registration.
+Q: Are there exceptions to these changes?
 
-  
-
-
-**Q: Does HighLevel add a markup (like 1.05×) to A2P fees?**  
-No. All A2P fees (TCR registration/vetting, monthly campaign charges, and carrier per-message rates) are passed through via LC Phone with no HighLevel markup. Refer to [Understanding A2P 10DLC Messaging Fees ](<https://help.gohighlevel.com/en/support/solutions/articles/155000005200>)for the current breakdown.
-
-* * *
-
-## **Related Articles**
-
-  
+Toll-Free messaging remains an attractive alternative to A2P 10DLC. Toll-Free messaging does require a verification process but does not rely on Brand and Campaign registration.
 
-
-  * [A2P 10DLC Campaign Approval Best Practices](<https://help.gohighlevel.com/en/support/solutions/articles/48001229784>)  
-  
+Q: Does HighLevel add a markup (like 1.05×) to A2P fees?
 
-  * [A2P Standard Brand Registration for 10DLC](<https://help.gohighlevel.com/en/support/solutions/articles/48001225526>)  
-  
+No. All A2P fees (TCR registration/vetting, monthly campaign charges, and carrier per-message rates) are passed through via LC Phone with no HighLevel markup.
 
-  * [A2P 10DLC Campaign Use Cases](<https://help.gohighlevel.com/en/support/solutions/articles/155000000235>)  
-  
+8
 
-  * [What is A2P 10 DLC- Brand and Campaign Registration](<https://help.gohighlevel.com/en/support/solutions/articles/155000002380>)  
-  
+## Related Articles
 
-  * [How to get your phone number A2P approved in 2026](<https://help.gohighlevel.com/en/support/solutions/articles/155000007237>)  
-[](<https://help.gohighlevel.com/en/support/solutions/articles/155000001426>)[](<https://help.gohighlevel.com/en/support/solutions/articles/155000001426>)[](<https://help.gohighlevel.com/en/support/solutions/articles/155000001426>)
+  * [What is A2P 10 DLC: Brand and Campaign Registration](<https://help.gohighlevel.com/en/support/solutions/articles/155000002380>)
+  * [Registering Your A2P Brand](<https://help.gohighlevel.com/en/support/solutions/articles/155000008140>)
+  * [A2P 10DLC Campaign Approval Best Practices](<https://help.gohighlevel.com/en/support/solutions/articles/48001229784>)
+  * [A2P 10DLC Messaging Fees: Registration, Monthly, and Carrier Costs](<https://help.gohighlevel.com/en/support/solutions/articles/155000005200>)

@@ -1,6 +1,6 @@
-# What is LC (Lead Connector) Phone System?
+# What is the Native Phone System?
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/48001223546-what-is-lc-lead-connector-phone-system-](https://help.gohighlevel.com/support/solutions/articles/48001223546-what-is-lc-lead-connector-phone-system-)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/48001223546-what-is-the-native-phone-system-](https://help.gohighlevel.com/support/solutions/articles/48001223546-what-is-the-native-phone-system-)  
 **Category:** Phone System  
 **Folder:** LC Phone System
 

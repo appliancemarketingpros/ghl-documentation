@@ -69,7 +69,7 @@ Creating a Voice AI Agent is fast and easy, and it will help your business field
   
 
 
-When configuring your Voice AI Agent, you will need to follow a multi-step process including configuring the AI Agent, assigning actions that will happen after the phone call, and connecting the AI Agent to a phone number in your sub-account.
+When configuring your Voice AI agent, configure the agent details, assign actions that run during or after calls, and connect the agent to a phone number in your sub-account.
 
   
 
@@ -170,9 +170,8 @@ Settings Tab simplifies the Voice AI Agent setup process by giving you few optio
   
 
     * **Send SMS:** Configure the agent to send SMS messages during or after the call.  
-  
 
-    * **Update Contact Fields:** Specify how information collected should update contact records.  
+    * **Update Contact Field:** Specify how collected information updates the contact record. Choose During the Call to apply the update with confirmation, or choose After the Call to apply it silently after the conversation.  
   
 
     * Appointment Booking.  

@@ -6,11 +6,15 @@
 
 ---
 
+The Call workflow action helps your team respond quickly by automatically calling the person responsible for a contact and then connecting that person with the contact. HighLevel can play a personalized whisper message before placing the contact call, giving the recipient useful context before the conversation begins. Use this action for time-sensitive follow-up, appointment outreach, new-customer onboarding, and other situations where a live conversation is valuable.
+
+* * *
+
 **TABLE OF CONTENTS**
 
   * What is the Call Workflow Action?
-    * Action Name
-    * Action Description
+    * Key Benefits of the Call Workflow Action
+    * How Call Routing Works
     * Action Details
     * How to Configure this Workflow Action
     * Disable Voicemail Detect
@@ -24,25 +28,84 @@
   
 
 
-The **Call** action within a workflow is used to initiate a call to either the assigned user or a designated number. This feature includes playing a whisper message, which provides information before the call connects. Additionally, it offers advanced settings such as voicemail detection and options for connecting the call after a keypress.
-
-* * *
-
-## **Action Name**
+The **Call** workflow action creates an automated call connection between an internal recipient and a workflow contact. Understanding the order of the calls helps you configure the correct recipient, write a useful whisper message, and avoid contacting a lead before a team member is ready.
 
   
 
 
-**Call**
+When a contact reaches the Call action, HighLevel first calls one of the following recipients:  
+  
 
-* * *
 
-## **Action Description**
+  1. The user assigned to the contact.  
+  
+
+  2. If the contact is unassigned, this event will call the number listed in Settings > Company tab > Company Phone field  
+  
+
+
+After the recipient answers, HighLevel plays the configured whisper message. Depending on the action’s keypress setting, the recipient may need to press a number key before HighLevel calls the contact. If the contact answers, HighLevel bridges the two parties.
 
   
 
 
-The Call action allows users to automatically initiate a call as part of a workflow. Depending on whether the contact has been assigned to a user or not, it will call the user or a default company number. A whisper message can be played before the call is connected, and the workflow can handle voicemail detection to ensure the call is not connected to a voicemail.
+The company phone number used for an unassigned contact is configured in the sub-account’s Business Profile.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077377071/original/p69RQfBs7YHRV4lrgvj5rpbXYARE1Yv1BQ.png?1785526566)
+
+* * *
+
+## **Key Benefits of the Call Workflow Action**
+
+  
+
+
+  * **Faster lead response:** Automatically alert and connect a team member when a contact completes an important action.  
+  
+
+  * **Assignment-based routing:** Call the user responsible for the contact without manually selecting a recipient for every workflow execution.  
+  
+
+  * **Context before connection:** Play a whisper message containing the contact’s name, the triggering event, or other relevant information.  
+  
+
+  * **Flexible automation:** Use the action after triggers such as an appointment being confirmed or a tag being added.
+
+
+* * *
+
+## **How Call Routing Works**
+
+  
+
+
+The Call action uses a flow that adapts based on whether the contact is assigned or unassigned.
+
+  
+
+
+  1. The contact reaches the Call action in the workflow.
+  2. HighLevel calls the correct internal recipient:
+     * **Assigned user** (if the contact is assigned), or
+     * **Company phone** (if the contact is unassigned)
+  3. The internal recipient answers the call.
+  4. HighLevel plays the whisper message to give context.
+  5. If keypress is enabled, the recipient must press a number key to continue.
+  6. HighLevel calls the contact.
+  7. If the contact answers, both parties are connected.
+
+
+  
+
+    
+    
+    **Note:** The number called if the contact is not assigned to a user is the number listed in Settings > Company tab > Company Phone field
+
+  
+
 
 * * *
 
@@ -64,6 +127,11 @@ Connect Call After Keypress| If enabled, the call will only connect after the re
     
     
     **Important:** Note: The Call Whisper message uses Text-to-Speech (TTS). TTS is billed at $0.00084 per 100 characters.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077377766/original/9ZEyLgjKwF6pAGSfCQS0B_cRKasQgAShRg.jpeg?1785528036)
 
 * * *
 

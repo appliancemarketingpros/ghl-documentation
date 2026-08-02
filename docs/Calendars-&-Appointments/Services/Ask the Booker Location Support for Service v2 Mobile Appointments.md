@@ -10,6 +10,27 @@ Ask the Booker location support lets service businesses collect the customer’s
 
 * * *
 
+**TABLE OF CONTENTS**
+
+  * What is Ask the Booker Location Support?
+  * Key Benefits of Ask the Booker Location Support
+  * Availability and Requirements
+  * Web Setup for Ask the Booker Locations
+  * Selecting an Ask the Booker Location in the Mobile App
+  * Required Service Address Field
+  * Viewing the Saved Address on the Appointment
+  * Editing or Duplicating Appointments with Ask the Booker Locations
+  * Multiple Location Type Behavior
+  * How To Use Ask the Booker Location Support in the Mobile App
+  * Frequently Asked Questions
+  * Related Articles
+
+
+  
+
+
+* * *
+
 # **What is Ask the Booker Location Support?**
 
   
@@ -76,15 +97,25 @@ This feature is available for:
   
 
 
-  * **Service Calendar v2 appointments only**
+  * **Service Calendar v2 appointments only**  
+  
 
-  * **HighLevel mobile app**
 
-  * **LeadConnector mobile app**
+  * **HighLevel mobile app**  
+  
 
-  * **White-labeled mobile apps**
 
-  * **Mobile app version 4.10.0 (810) or later**
+  * **LeadConnector mobile app**  
+  
+
+
+  * **White-labeled mobile apps**  
+  
+
+
+  * **Mobile app version 4.10.0 (810) or later**  
+  
+
 
   * **Web and mobile Service v2 booking flows**
 
@@ -109,8 +140,7 @@ Ask the Booker locations are created and managed from the web app. This setup te
 To configure the location:
 
   1. Go to **Calendar Settings > Services (v2) > Locations**.  
-  
-
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077026147/original/FicfTGTCaN7ZHN2fPnQyhB3JQIzkz8gg_A.png?1785240655)
 
   2. Create a new location or edit an existing location.  
   
@@ -121,8 +151,7 @@ To configure the location:
 
 
   4. Assign the location to staff availability as needed.  
-  
-
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077026401/original/CAPwLWfqL0yXmgyhXrzTAat8j8cjrm8YRA.png?1785240783)
 
   5. Save the location settings.
 
@@ -152,20 +181,27 @@ To select the location:
 
   2. Go to **Calendars**.  
   
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077026899/original/YXUfn2tvREPJXqWPPwk75J4eu7Lgv09ejw.png?1785241131)  
 
 
   3. Tap **\+ New Service Appointment** , or start a Service v2 booking from Contacts, Conversations, or Opportunities.  
   
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077027446/original/VUlZlBhPBVytZkTxFhufNByQ_97BhGV15w.png?1785241427)  
 
 
   4. In **Location Details** , tap the location dropdown.  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077028409/original/iaRPauC4qyycPQKUywjpz6w2QbmEc_sXHg.png?1785241827)
+
+  5. Select the location configured to ask the booker for an address, such as **Enter manual**.
+
+
   
 
 
-  5. Select the location configured to ask the booker for an address, such as **Home Address**.
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077028630/original/iarEk1hp2deFF2a9i1vzZ9xR61Eq3R-OCg.png?1785241901)
 
+  
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071322533/original/UgWpKRfiPp9cyMmPtTKR6dlqEzBblmbYZg.png?1778757772)
 
 * * *
 
@@ -257,16 +293,18 @@ If the selected location is configured to ask the booker for a service address, 
   
 
 
-Using Ask the Booker location support in mobile ensures every Service v2 appointment includes the service address needed for on-site work. Once the location is configured on web, mobile users can collect the address during booking.
+Ask the Booker location support allows mobile users to enter a customer’s service address while creating a Service v2 appointment. Once the location is configured on the web app, selecting it during mobile booking displays a required address field.
 
   
 
 
-  1. Confirm the Ask the Booker location has been configured on web.  
-  
+Before proceeding, confirm that you are using mobile app version 4.10.0 (810) or later.
+
+  1. Confirm that the Ask the Booker location has been configured on the web app under **Calendar Settings > Services (v2) > Locations**.  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077066827/original/4SMIHcGetcD_0NmTJFbdPym9-zcmv4wnkg.jpeg?1785259791)  
 
 
-  2. Open the mobile app.  
+  2. Open the HighLevel, LeadConnector, or white-label mobile app.  
   
 
 
@@ -274,32 +312,42 @@ Using Ask the Booker location support in mobile ensures every Service v2 appoint
   
 
 
-  4. Tap **\+ New Service Appointment** , or create a Service v2 booking from another supported app entry point.  
+  4. Tap **\+ New Service Appointment**.
+
+You can also start a Service v2 booking from **Contacts** , **Conversations** , or **Opportunities**.  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077067412/original/V0HWAif66RpbFl85vxt1xMGsjSd5iuq_cg.jpeg?1785260383)
+
+  5. Search for and select the customer.  
   
 
 
-  5. Enter or select the customer.  
+  6. Under **Location Details** , tap the location dropdown.  
   
 
 
-  6. In **Location Details** , select the Ask the Booker location.  
+  7. Select the location configured to collect the booker’s service address.  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077067467/original/dhRUasc0gz-KjlvNt2WIaukXGrFzwYKIew.png?1785260442)
+
+  8. Enter the customer’s service address in the required address field.
+
+The booking cannot be scheduled until a service address is entered.  
   
 
 
-  7. Enter the customer’s service address in the required address field.  
+  9. Add the applicable services, staff members, date, time, and appointment status.  
   
 
 
-  8. Add the service details, staff, date, time, and status.  
+  10. Review the booking information and tap **Schedule Booking**.  
   
 
 
-  9. Tap **Schedule Booking**.  
-  
+  11. Open the appointment details and confirm that the saved address appears under **Location Details**.
 
 
-  10. Open the appointment detail screen to confirm the address appears under **Location Details**.
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077067502/original/B4n4kNnC9nFPlh73Se0s5h8KSPdnghfzig.png?1785260494)
 
+From the appointment details, users can copy the address or tap **View Location** to open it in their device’s maps application.
 
 * * *
 

@@ -7,7 +7,6 @@ This repository contains the complete documentation from the [GoHighLevel Suppor
 - [Getting Started w/ HighLevel](docs/Getting-Started-w-HighLevel/)
 - [Customer Support](docs/Customer-Support/)
 - [Agency View](docs/Agency-View/)
-- [AI Employee](docs/AI-Employee/)
 - [SaaS Configurator](docs/SaaS-Configurator/)
 - [Phone System](docs/Phone-System/)
 - [Email](docs/Email/)
@@ -52,13 +51,14 @@ This repository contains the complete documentation from the [GoHighLevel Suppor
 - [GoKollab](docs/GoKollab/)
 - [Tasks](docs/Tasks/)
 - [Media Storage](docs/Media-Storage/)
+- [AI Employee](docs/AI-Employee/)
 
 
 ---
 
-*Last updated: 2026-07-26 09:12 UTC from the [GoHighLevel Support Portal](https://help.gohighlevel.com/support/solutions).*
+*Last updated: 2026-08-02 09:14 UTC from the [GoHighLevel Support Portal](https://help.gohighlevel.com/support/solutions).*
 
 **Statistics:**
 - Categories: 48
-- Folders: 256
-- Articles: 1875
+- Folders: 257
+- Articles: 1890

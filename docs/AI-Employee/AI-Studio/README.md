@@ -10,3 +10,5 @@
 - [Advanced SEO Support in AI Studio](Advanced SEO Support in AI Studio.md)
 - [Visual Edits in AI Studio](Visual Edits in AI Studio.md)
 - [Bulk Enable/Disable AI Studio Across Sub-Accounts](Bulk EnableDisable AI Studio Across Sub-Accounts.md)
+- [AI Studio Form Submitted Workflow Trigger](AI Studio Form Submitted Workflow Trigger.md)
+- [AI Studio - Pricing](AI Studio - Pricing.md)
