@@ -109,14 +109,21 @@ When you open the builder you can find the Workflow AI on the bottom left corner
   
 
 
-**There are 3 ways you can chat with Workflow AI:**
+**There are 4 ways you can chat with Workflow AI:**
 
   
 
 
-  1. **Analyze Workflow:** Click the "Describe this Workflow" button to have Workflow AI analyze your workflow.
-  2. **Help Building:** Click the "Assist with Building" button to get suggestions for your workflow from Workflow AI.
-  3. **Standard Chat:** Start typing in the text box and ask it anything.
+  1. **Analyze Workflow:** Click the "Describe this Workflow" button to have Workflow AI analyze your workflow.  
+  
+
+  2. **Help Building:** Click the "Assist with Building" button to get suggestions for your workflow from Workflow AI.  
+  
+
+  3. **Standard Chat:** Start typing in the text box and ask it anything.  
+  
+
+  4. **Explain a Workflow Imported Through a Snapshot:** When you open a workflow imported through a snapshot, an Explain This Workflow pill appears at the top of the workflow.
 
 
   
@@ -124,13 +131,7 @@ When you open the builder you can find the Workflow AI on the bottom left corner
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035129651/original/jwZwwK-eV9l0uxQNXMPz-hmo_Hz25Owq7A.jpeg?1729538529)
 
-  
-
-
 * * *
-
-  
-
 
 # **Learn More About Workflows**
 
@@ -199,6 +200,9 @@ If you'd like to export your current chat and keep a record of the conversation,
 
 # **How to Analyze Your Entire Workflow**
 
+  
+
+
 If you want Workflow AI to analyze your workflow and describe the workflow to you or your team, all you need to do is click the **"Describe This Workflow"** button.
 
   
@@ -228,12 +232,30 @@ Workflow AI will give you a detailed overview of your workflow from start to fin
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035128009/original/2uRHFRGQU_PlxHq5KIlIMMVIx1wybKli_g.png?1729536011)
 
-  
-
-
 * * *
 
+## **Explain a Workflow Imported Through a Snapshot**
+
   
+
+
+Workflows imported through snapshots include an Explain This Workflow pill at the top of the workflow. Use this option when you need context about a workflow you did not build yourself.  
+  
+To explain a snapshot workflow:  
+  
+1\. Open a workflow that was imported through a snapshot.  
+2\. Click **Explain This Workflow** at the top of the workflow.  
+3\. The AI Assistant opens and explains the workflow's triggers, actions, and branching logic.  
+4\. Continue the conversation to ask follow-up questions about specific parts of the workflow.  
+  
+You can also ask AI to make changes to the workflow after reviewing the explanation.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077919281/original/4Yrui_TXaDkGXfFlwwtXDiWTsTKjb5mVbw.png?1786120999)
+
+#   
 
 
 # **How to Build Workflows with AI**

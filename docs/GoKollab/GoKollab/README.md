@@ -14,3 +14,4 @@
 - [GoKollab for Communities (Marketplace for communities)](GoKollab for Communities (Marketplace for communities).md)
 - [Manage Purchases on GoKollab](Manage Purchases on GoKollab.md)
 - [How to Use GoKollab Chats for Direct Messages in Communities](How to Use GoKollab Chats for Direct Messages in Communities.md)
+- [GoKollab Mobile App (Beta v2) - Native iOS & Android Experience](GoKollab Mobile App (Beta v2) - Native iOS & Android Experience.md)

@@ -6,301 +6,323 @@
 
 ---
 
-Connect Printful with HighLevel to sync print-on-demand products and automate order fulfillment for your Ecommerce Store. This article shows how to connect your Printful account, sync products, and manage fulfillment workflows inside HighLevel.
+E-Commerce Integration
+
+# How to Use the Printful Integration with HighLevel
+
+Connect your Printful account to HighLevel and start selling custom print-on-demand products directly through your e-commerce store with automated order fulfillment.
+
+What You'll Learn
+
+This guide walks you through setting up the Printful integration in HighLevel, syncing your print-on-demand products to your e-commerce store, and automating order fulfillment.
+
+You'll learn how to install the Printful app, import product templates, manage variants and pricing, and handle customer data and order synchronization.
 
   
 
 
-* * *
+Table of Contents
 
-**TABLE OF CONTENTS**
+1
 
-  * What is the Printful Integration?
-  * Key Benefits of the Printful Integration
-  * How To Connect Printful to HighLevel
-  * Functionality of the Printful Integration
-  * Things to Note
-  * Shipping Profiles and Live Rates at Checkout
-  * Frequently Asked Questions
-  * Related Articles
+What is the Printful Integration?
 
+2
 
-* * *
+Key Benefits of Printful Integration
 
-# **What is the Printful Integration?**
+3
 
-  
+How to Install the Printful Integration
 
+4
 
-The Printful integration connects your HighLevel Ecommerce Store with your Printful account, allowing you to sell print-on-demand products without managing inventory or handling shipping manually. Once connected, products created in Printful can sync to your HighLevel store, and customer orders placed in HighLevel are automatically sent to Printful for fulfillment.
+How to Add Products to Your HighLevel Store
 
-* * *
+5
 
-## **Key Benefits of the Printful Integration**
+Managing Product Sync and Pricing
 
-  
+6
 
+Order Fulfillment and Customer Data Sync
 
-  * **Automated Order Fulfillment** : Orders placed in HighLevel are automatically sent to Printful for fulfillment.  
-  
+7
 
+Shipping Profiles and Live Rates at Checkout
 
-  * **Product Synchronization** : Sync products and variants directly from Printful into your HighLevel Ecommerce Store.  
-  
+8
 
+Frequently Asked Questions
 
-  * **Inventory-Free Selling** : Sell print-on-demand products without maintaining physical inventory.  
-  
+9
 
+Related Articles
 
-  * **Automatic Tracking Updates** : Fulfillment and tracking information can sync back into HighLevel.  
-  
+1
 
+## What is the Printful Integration?
 
-  * **Streamlined Ecommerce Operations** : Reduce manual tasks associated with ecommerce fulfillment workflows.  
-  
+The Printful integration allows you to connect your Printful print-on-demand account directly with HighLevel's e-commerce platform. Printful is a Drop Shipping company that handles printing and fulfillment of custom apparel, accessories, and other products featuring your own designs and logos.
 
+This integration enables you to sell Printful products through your HighLevel website or funnel without manually managing inventory, order processing, or shipping. When customers purchase products from your HighLevel store, orders automatically sync to Printful for fulfillment.
 
-  * **Scalable Product Expansion** : Quickly add new products and variants from Printful to your store.
+The integration is available through HighLevel's Integrations section and can also be discovered in the HighLevel Marketplace at marketplace.gohighlevel.com, where you can explore apps from external developers and private companies.
 
+2
 
-* * *
+## Key Benefits of Printful Integration
 
-## **How To Connect Printful to HighLevel**
+**Automated Product Sync** — Products you create or import in Printful automatically appear in your HighLevel store with titles, images, variants, and pricing intact.
 
-  
+**Seamless Order Fulfillment** — When customers purchase products through your HighLevel store, orders sync directly to Printful for automatic fulfillment based on your Printful subscription settings.
 
+**Customer Data Integration** — Shipping addresses, email notifications, and customer information flow into your HighLevel CRM so you can manage everything from one platform.
 
-###  _**Step 1:** Open the Printful Integration_
+**Use Existing Product Templates** — Import product templates from existing Printful stores so you don't have to recreate designs or variants from scratch.
 
-  
+**Workflow Automation Support** — Trigger HighLevel workflows based on order submissions for review requests, shipping updates, team notifications, and more.
 
+**Opportunities Pipeline Integration** — Track orders through custom pipelines with stages like "Order Placed" and "Order Fulfilled" for team coordination and follow-up.
 
-  1. Log in to your HighLevel sub-account.  
-  
+3
 
+## How to Install the Printful Integration
 
-  2. Go to **Settings** > **Integrations**.  
-  
+Follow these steps to connect your Printful account to your HighLevel sub-account:
 
+Step 1
 
-  3. Scroll to the bottom of the integrations page.  
-  
+Navigate to Integrations in HighLevel
 
-
-  4. Locate the **Printful** integration.  
-  
-
-
-  5. Click **Manage**.  
-  
-
-
-  6. Click **Install.**  
-  
-
-
-  7. Select **Allow & Install**.****
-
-
-  
-![](https://jumpshare.com/share/XBePBzlHvuZXWhBIdfRQ+/GIF+Recording+2026-05-26+at+16.39.31.gif)  
-  
-
-
-### _**Step 2:** Review and Allow Permissions_
+In your HighLevel sub-account, go to **Settings** > **Integrations**. Scroll to locate the **Printful** option or search for it.
 
   
 
 
-  1. Review the permissions requested by the Printful app.  
-  
+![](https://jumpshare.com/share/CdBw3F193rGaKC6WBtvg+/GIF+Recording+2026-08-03+at+19.46.21.gif)
 
+Step 2
 
-  2. Click **Accept.**  
-  
+Install the Printful App
 
-
-  3. To create a new store, select **Create a New Store**.  
-  
-
-  4. You will be redirected to Printful.
-
+Click **Manage** , then click **Install**. Review the permissions the app is requesting for your sub-account and click **Allow and Install**.
 
   
 
 
-![](https://jumpshare.com/share/pigDnO2AmM9ARP3S2QBj+/Screen+Shot+2026-05-26+at+16.44.09.png)
+![](https://jumpshare.com/share/PEdTmeGn8gxCWsy20e3Q+/GIF+Recording+2026-08-03+at+19.47.18.gif)
 
-* * *
+Step 3
 
-## **Functionality of the Printful Integration**
+Authorize Access in Printful
 
-  
-
-
-  1. **Product Import:** Seamlessly import all your products from a specific Printful store to your selected LeadConnector eCommerce store location.  
-  
-
-  2. **Product Synchronization:** Sync your products between Printful and your eCommerce store, ensuring updates for creation, modification, and deletion are reflected in real-time.  
-  
-
-  3. **Order Creation:** Automatically create orders in the connected Printful store whenever an order is placed in your eCommerce store.  
-  
-
-  4. **Order Fulfilment Sync:** Keep your order fulfilment status up-to-date by syncing shipping information from Printful to your eCommerce store, including both partial and complete fulfillments.  
-  
-
-  5. **Notification based on order status:** Once the order is fulfilled either partially or complete, the users will receive notifications via email. The shipping details will be shared by Printful's end.
-
-
-* * *
-
-## **Things to Note**
+You'll be redirected to printful.com. **Login** to your **Printful** account or **Sign** **up** and **create** a **new** **account**.
 
   
 
 
-  * In this iteration, while importing the Products, the Description will not be pulled from Printful due to the Printful Store Limitations.  
-  
+![](https://jumpshare.com/share/KnC6xST4tR4XbchKKPAl+/Screen+Shot+2026-08-03+at+19.52.45.png)
 
-  * Users should publish the products with care and after verifying, as some of the products are only delivered to certain locations. This will be available in the product catalog of Printful.  
-  
+Step 4
 
-  * The delivery address should be correct in order for the order to get synced with Printful, upon wrong delivery information, order will not get created (or) synced in Printful.
+Create or Select a Printful Store
 
-
-  
-
-
-![CleanShot 2024-05-17 at 18](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155027182173/original/4VWlbVhkng8XbtlHTfOH0gFz4URrKh2n-A.jpeg?1717616947)
+Choose whether to **create** a **new********Printful** **store** or **connect** an **existing** store then click **Accept**. Your HighLevel account will now have access to Printful, and a new store named "Lead Connector" will be created in Printful.
 
   
 
 
-  
-![CleanShot 2024-05-17 at 18](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155027182170/original/pHAI3fkU-ex24K96jptzL3E6UA7rRT1tGA.jpeg?1717616947)  
-![CleanShot 2024-05-17 at 18](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155027182172/original/PC2ktrNKtAUPHDF2RN8fm7g40BOiijq74A.jpeg?1717616947)
+![](https://jumpshare.com/share/OUKUXllswSr6SoTf5Kf4+/Screen+Shot+2026-08-03+at+19.57.41.png)
+
+4
+
+## How to Add Products to Your HighLevel Store
+
+Once the integration is active, you can add Printful products that will automatically sync to your HighLevel product catalog:
+
+Step 1
+
+Access Your Lead Connector Store in Printful
+
+In Printful, go to the **Stores** section in the left sidebar. You'll see your new **Lead Connector** store listed. Click on the **three** **dots** and then on **View** **Products** for this specific HighLevel integration.
 
   
 
 
-![CleanShot 2024-05-17 at 18](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155027182171/original/dCWxz2JzXmcbOXWcaOuiAzMMBfGNnMI4IQ.jpeg?1717616947)
+![](https://jumpshare.com/share/QWlYQTmPAHCtkE02k45w+/GIF+Recording+2026-08-03+at+20.03.36.gif)
 
-* * *
+Step 2
 
-## **Shipping Profiles and Live Rates at Checkout**
+Add Products to the Store
+
+Click the **Add Product** button. **Create New Products** — Design new products from scratch using Printful's catalog (apparel, accessories, home goods, etc.).
+
+![](https://jumpshare.com/share/P5XeRZ3sgFJ0zf6XHVQb+/GIF+Recording+2026-08-03+at+20.07.52.gif)
+
+Step 3
+
+Configure Mockups and Product Details
+
+After selecting a product or template, proceed through Printful's product setup flow. You'll generate mockup images, and configure variants (sizes, colors, etc.). Once done, click on **Save Template**.
 
   
 
+
+![](https://jumpshare.com/share/LtA6mOZ6parC18qc1nIn+/GIF+Recording+2026-08-03+at+20.39.35.gif)
+
+Step 4
+
+Publish the Product
+
+Choose **mockup** **images** to **display** , **pricing** and **product** **name** then click on **Publish**.
+
+  
+
+
+![](https://jumpshare.com/share/D2p1OwhuIJtNpNdNp4b8+/GIF+Recording+2026-08-03+at+20.46.04.gif)
+
+Success
+
+Your product is now synced between Printful and HighLevel. Any changes you make to titles, pricing, or variants in Printful will automatically update in HighLevel.
+
+5
+
+## Managing Product Sync and Pricing
+
+Once products are added in Printful, they automatically appear in your HighLevel product catalog with most details intact:
+
+Viewing Synced Products
+
+Check Your HighLevel Products
+
+In HighLevel, navigate to **Payments** > **Products**. You'll see your Printful product(s) listed with the same names, images, variants, and pricing you configured in Printful.
+
+  
+
+
+![](https://jumpshare.com/share/W0bgLRrhl0GpBii9NVWL+/GIF+Recording+2026-08-03+at+21.06.10.gif)
+
+Editing Products in HighLevel
+
+Make Adjustments as Needed
+
+Click the three dots next to any product and select **Edit**. You can modify details just like any other HighLevel product. Note that product descriptions do not currently sync from Printful, so you'll need to add those manually in HighLevel.
+
+  
+
+
+To make a product available on your HighLevel e-commerce site, toggle on **Include in Online Store** in the product settings. This ensures the product appears on your live storefront.
+
+  
+
+
+![](https://jumpshare.com/share/O1ElAPIg2ZXKsEXt1W4g+/GIF+Recording+2026-08-03+at+21.12.35.gif)
+
+Important
+
+Product descriptions are not synced from Printful. You must manually add descriptions in HighLevel's product editor before publishing to your store.
+
+The following product data syncs automatically from Printful to HighLevel:
+
+  * Product titles
+  * Product images and mockups
+  * Variants (sizes, colors, etc.)
+  * Pricing for each variant
+
+
+Seamless E-Commerce
+
+Sell Custom Products Without Managing Inventory
+
+The Printful integration handles production, shipping, and fulfillment so you can focus on marketing and customer relationships.
+
+6
+
+## Order Fulfillment and Customer Data Sync
+
+One of the most powerful aspects of this integration is automated order fulfillment and customer data synchronization:
+
+Automatic Order Sync
+
+Orders Flow to Printful for Fulfillment
+
+When a customer purchases a Printful product from your HighLevel store, the order automatically syncs to your Printful account. Depending on your Printful subscription settings, orders may be fulfilled automatically or require manual approval before production begins.
+
+Customer Data Import
+
+Shipping and Contact Information Sync to HighLevel
+
+Customer information such as shipping addresses and email addresses is imported into your HighLevel CRM. This allows you to manage customer relationships, send follow-up communications, and track order history directly within HighLevel.
+
+Viewing Orders in Printful
+
+Monitor Fulfillment Status
+
+All synced orders appear in your Printful dashboard under the Lead Connector store. You can view order details, fulfillment status, and shipping tracking information from within Printful.
+
+Pro Tip
+
+Check your Printful subscription plan to understand whether orders are fulfilled automatically or require manual confirmation. This ensures you maintain control over quality and timing.
+
+7
+
+## Shipping Profiles and Live Rates at Checkout
 
 To enable live shipping rates for Printful products at checkout, the system automatically manages a dedicated Printful shipping profile.
 
-  
+What to Expect:
 
+  * A system-generated Printful shipping profile is created and configured automatically.
+  * For existing installations, syncing or updating Printful products can activate the shipping profile and start showing live rates at checkout.
+  * Products must stay assigned to the Printful shipping profile. Removing them disables live rate calculation for those products.
+  * If the Printful shipping profile is deleted, it is not recreated automatically. Reinstall the Printful integration to restore it.
 
-What to expect:
-
-  
-
-
-  * A system-generated Printful shipping profile is created and configured automatically.  
-  
-
-  * For existing installations, syncing or updating Printful products can activate the shipping profile and start showing live rates at checkout.  
-  
-
-  * Products must stay assigned to the Printful shipping profile. Removing them disables live rate calculation for those products.  
-  
-
-  * If the Printful shipping profile is deleted, it is not recreated automatically. Reinstall the Printful integration to restore it.  
-  
-
-
-![](https://jumpshare.com/share/aUbUpFBdZnCsexiFXWNw+/image+%284%29+%282%29.png)
-
-* * *
-
-## **Frequently Asked Questions**
 
   
 
 
-**Q: Does Printful automatically fulfill orders placed in HighLevel?**
+![](https://jumpshare.com/share/VrBbN5UhtUgZMm1SR90g+/Screen+Shot+2026-08-03+at+21.15.35.png)
 
-Yes. Once the integration is connected and products are synced properly, customer orders placed through your HighLevel E-commerce Store are automatically sent to Printful for fulfillment.
+Note
 
-  
+Live shipping rates are calculated based on customer location and product specifications. Ensure your Printful products remain assigned to the correct shipping profile to maintain accurate checkout pricing.
 
+8
 
-**Q: Can I sync product variants such as sizes and colors?**
+## Frequently Asked Questions
 
-Yes. Product variants created in Printful can sync into HighLevel during the product synchronization process.
+Q: Do I need an existing Printful account to use this integration?
 
-  
+Yes, you need a Printful account to use this integration. If you don't have one, you can create a free account at printful.com before installing the integration in HighLevel.
 
+Q: Can I use products from multiple Printful stores in one HighLevel account?
 
-**Q: Do I need to manage inventory manually?**
+The integration creates a dedicated "Lead Connector" store in Printful that syncs with your HighLevel sub-account. While you can import templates from other Printful stores, active sync only occurs between the Lead Connector store and HighLevel.
 
-No. Printful operates as a print-on-demand provider, so physical inventory management is handled by Printful.
+Q: What product information syncs from Printful to HighLevel?
 
-  
+Product titles, images, variants (sizes, colors), and pricing sync automatically. Product descriptions do NOT sync and must be added manually in HighLevel's product editor.
 
+Q: Are orders automatically fulfilled by Printful?
 
-**Q: Can I disconnect and reconnect the integration later?**
+It depends on your Printful subscription and account settings. Some plans support automatic fulfillment, while others require manual approval before production begins. Check your Printful settings to confirm your fulfillment workflow.
 
-Yes. However, disconnecting the integration may temporarily interrupt product synchronization and automated fulfillment workflows.
+Q: Can I edit product details after they sync to HighLevel?
 
-  
+Yes, you can edit products in HighLevel just like any other product. However, changes made in Printful (titles, pricing, variants) will sync back to HighLevel and may overwrite your edits. For best results, manage titles and pricing in Printful, and use HighLevel for descriptions and store-specific settings.
 
+9
 
-**Q: How long does product synchronization take?**
+## Related Articles
 
-Synchronization times vary depending on the number of products and variants being imported.
-
-  
-
-
-**Q: Will tracking numbers automatically update inside HighLevel?**
-
-Tracking information may sync back into HighLevel after Printful begins fulfillment and generates shipment tracking details.
-
-  
+  * [How to Set Up an E-Commerce Online Store (Websites)](<https://help.gohighlevel.com/en/support/solutions/articles/155000001157>)
 
 
-**Q: Can I edit synced products inside HighLevel?**
-
-Some product details can be edited inside HighLevel, but certain changes may not sync back to the original Printful product automatically.
-
-  
+  * [Printify Integration for Ecommerce Stores](<https://help.gohighlevel.com/en/support/solutions/articles/155000006595>)
 
 
-**Q: What happens if Printful fulfillment fails?**
-
-Failed fulfillment issues typically require troubleshooting inside Printful, including payment verification, shipping restrictions, or product availability checks.
-
-  
+  * [Getting Started - Create & Sell Products](<https://help.gohighlevel.com/en/support/solutions/articles/155000005071>)
 
 
-**Q: Can I use multiple fulfillment providers with HighLevel?**
-
-Depending on your e-commerce configuration, you may be able to connect additional fulfillment or shipping integrations alongside Printful.
-
-* * *
-
-### **Related Articles**
-
-  
-
-
-  * [How to Set Up an E-Commerce Online Store (Websites) ](<https://help.gohighlevel.com/en/support/solutions/articles/155000001157>)  
-  
-
-  * [Shipping and Delivery Rates for Ecommerce Stores ](<https://help.gohighlevel.com/en/support/solutions/articles/155000002842>)  
-  
-
-  * [Shipping Profiles: Custom Shipping Rates and App Integrations](<https://help.gohighlevel.com/en/support/solutions/articles/155000006618>)  
-  
-
-  * [How to Print Packing Slips for Your Ecommerce Orders](<https://help.gohighlevel.com/en/support/solutions/articles/155000003121>)  
-[](<https://help.gohighlevel.com/en/support/solutions/articles/155000004302>)
+  * [Shipping and Delivery Rates for Ecommerce Stores](<https://help.gohighlevel.com/en/support/solutions/articles/155000002842>)

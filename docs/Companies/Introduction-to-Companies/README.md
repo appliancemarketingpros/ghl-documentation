@@ -9,3 +9,4 @@
 - [Import Contacts and Automatically Create Associate Companies](Import Contacts and Automatically Create Associate Companies.md)
 - [Export Companies (CSV Download)](Export Companies (CSV Download).md)
 - [Smart lists in Companies](Smart lists in Companies.md)
+- [Bulk Import Companies](Bulk Import Companies.md)

@@ -4,6 +4,7 @@
 
 ## Articles
 
+- [How to Create Custom Profile Card QR Codes](How to Create Custom Profile Card QR Codes.md)
 - [QR Code Bulk Actions, Renaming & Copy Link Shortcut](QR Code Bulk Actions, Renaming & Copy Link Shortcut.md)
 - [How to Create Custom Business Card QR Codes](How to Create Custom Business Card QR Codes.md)
 - [How to Create vCards in the QR Code Builder](How to Create vCards in the QR Code Builder.md)

@@ -1,6 +1,6 @@
-# Calendar View for Rentals
+# Rentals - Calendar View
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000006641-calendar-view-for-rentals](https://help.gohighlevel.com/support/solutions/articles/155000006641-calendar-view-for-rentals)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000006641-rentals-calendar-view](https://help.gohighlevel.com/support/solutions/articles/155000006641-rentals-calendar-view)  
 **Category:** Calendars & Appointments  
 **Folder:** Rentals
 

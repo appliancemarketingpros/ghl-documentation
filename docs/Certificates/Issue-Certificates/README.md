@@ -13,5 +13,5 @@
 - [Certificates: Snapshot & Clone Support](Certificates Snapshot & Clone Support.md)
 - [How to Send a Certificate After Passing a Quiz or Assignment](How to Send a Certificate After Passing a Quiz or Assignment.md)
 - [How to Set Manual Expiry Dates for Templates](How to Set Manual Expiry Dates for Templates.md)
-- [Share and Download Certificates in HighLevel](Share and Download Certificates in HighLevel.md)
+- [How to Download Share Certificates & Badges](How to Download Share Certificates & Badges.md)
 - [Export Issued Certificates as CSV](Export Issued Certificates as CSV.md)

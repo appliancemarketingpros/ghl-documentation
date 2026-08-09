@@ -1,6 +1,6 @@
-# Global Settings in Rentals
+# Rentals - Global Settings
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000006640-global-settings-in-rentals](https://help.gohighlevel.com/support/solutions/articles/155000006640-global-settings-in-rentals)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000006640-rentals-global-settings](https://help.gohighlevel.com/support/solutions/articles/155000006640-rentals-global-settings)  
 **Category:** Calendars & Appointments  
 **Folder:** Rentals
 

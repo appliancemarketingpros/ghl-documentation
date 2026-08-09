@@ -1,6 +1,6 @@
-# Taxes for Rentals
+# Rentals - Taxes
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000007423-taxes-for-rentals](https://help.gohighlevel.com/support/solutions/articles/155000007423-taxes-for-rentals)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000007423-rentals-taxes](https://help.gohighlevel.com/support/solutions/articles/155000007423-rentals-taxes)  
 **Category:** Calendars & Appointments  
 **Folder:** Rentals
 

@@ -1,6 +1,6 @@
-# Overview of Bookings
+# Rentals - Overview of Bookings
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000006622-overview-of-bookings](https://help.gohighlevel.com/support/solutions/articles/155000006622-overview-of-bookings)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000006622-rentals-overview-of-bookings](https://help.gohighlevel.com/support/solutions/articles/155000006622-rentals-overview-of-bookings)  
 **Category:** Calendars & Appointments  
 **Folder:** Rentals
 

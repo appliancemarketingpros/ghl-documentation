@@ -132,7 +132,7 @@ A completed release request gives Support the details needed to locate the domai
 
   1. Open the domain release request form:  
   
-<https://api.golevel.bid/widget/form/IDn1mHxUWwEKay1LH2Yr>  
+[https://www.gohighlevel.com/domain-transfer](<https://api.golevel.bid/widget/form/IDn1mHxUWwEKay1LH2Yr>)  
   
 
   2. Enter the requested contact and account information.  

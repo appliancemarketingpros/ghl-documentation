@@ -203,7 +203,7 @@ Here's a step-by-step guide on how to add A records and CNAME records:
   * Select the type of record you want to add (A or CNAME).  
   
 
-  * Enter the details - for an A record, this would be the IP address **34.67.19.69**
+  * Enter the details - for an A record, this would be the IP address **162.159.140.166**
   * ; for a CNAME record, this would be the target domain **[preview.clientclub.net](<//preview.clientclub.net>)**
   * Save your changes.
 

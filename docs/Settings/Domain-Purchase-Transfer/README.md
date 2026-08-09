@@ -12,3 +12,4 @@
 - [LC Domain: Multiple Year Domain Purchase](LC Domain Multiple Year Domain Purchase.md)
 - [Domains - Transfer-In Process](Domains - Transfer-In Process.md)
 - [Releasing Purchased Domains from a Cancelled Account](Releasing Purchased Domains from a Cancelled Account.md)
+- [Transfer a Domain Out of HighLevel](Transfer a Domain Out of HighLevel.md)

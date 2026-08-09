@@ -1,6 +1,6 @@
-# Understanding Listings & Categories
+# Rentals - Listings & Categories
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000006573-understanding-listings-categories](https://help.gohighlevel.com/support/solutions/articles/155000006573-understanding-listings-categories)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000006573-rentals-listings-categories](https://help.gohighlevel.com/support/solutions/articles/155000006573-rentals-listings-categories)  
 **Category:** Calendars & Appointments  
 **Folder:** Rentals
 

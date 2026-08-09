@@ -13,3 +13,4 @@
 - [The Phone Dialer Overview](The Phone Dialer Overview.md)
 - [Moving Phone Numbers: Migration Guide](Moving Phone Numbers Migration Guide.md)
 - [5% Stripe Markup Removed From All Phone System Charges](5% Stripe Markup Removed From All Phone System Charges.md)
+- [Audio Device Settings in the Web Dialer](Audio Device Settings in the Web Dialer.md)

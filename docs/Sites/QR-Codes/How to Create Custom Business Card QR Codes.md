@@ -81,7 +81,7 @@ The Business Card QR Code builder in HighLevel lets you create a professional, s
   
 
 
-### _**Step 1:** Access the QR Code Builder_
+#### _**Step 1:** Access the QR Code Builder_
 
   
 
@@ -112,7 +112,7 @@ The Business Card QR Code builder in HighLevel lets you create a professional, s
   
 
 
-### **_Step 2:_**_Configure QR Code Details_
+#### **_Step 2:_**_Configure QR Code Details_
 
   
 
@@ -141,73 +141,33 @@ The Business Card QR Code builder in HighLevel lets you create a professional, s
   
 
 
-### **_Step 3:_**_Set Page Color_
+#### **_Step 3:_**_Enter Your_ _Business Information_
 
   
 
 
-  1. Click the **color picker** to pick a custom color or use predefined hex code.  
+  1. Click **Browse** to your company logo then select the opacity level (%).  
   
 
-  2. Choose a **page color** that matches your brand or preference.
-
-
-  
-![](https://jumpshare.com/v/ErBB0X0sVWOfswnDdqYC+/GIF+Recording+2025-07-21+at+9.37.37+PM.gif)
-
-####   
-  
-
-
-### **_Step 4:_**_Add Branding Image_
-
+  2. Enter your company information including:
+     * Company Name
+     * Company Description
+     * Email
+     * Website
+     * Phone
+     * Address  
   
 
-
-  1. Upload an **image** to appear at the top of the card (e.g., your logo or profile picture).  
+  3. Use the toggle switches to mark which days you're open or closed. By default, Sunday is toggled off (closed). Set the open and close times for each day you're operational.  
   
 
-  2. Adjust the **image transparency** using the slider (0% to 100%).  
-  
+  4. Once all information has been added, click on the **Styles** tab at the top.
 
-
-![](https://jumpshare.com/v/22CunSCjKoUoxWBMjiml+/GIF+Recording+2025-07-21+at+9.42.07+PM.gif)
-
-####   
-  
-
-
-### **_Step 5:_**_Enter Business Contact Information_
 
   
 
 
-  1. Fill in the following **required** fields:  
-  
-
-     * **Phone Number**  
-  
-
-     * **Email Address**  
-  
-
-  2. Optionally add:  
-  
-
-     * **Website URL**  
-  
-
-     * **Company Name**  
-  
-
-     * **Company Description**  
-  
-
-  3. Enter your **S****treet/Business address**.  
-  
-
-
-![](https://jumpshare.com/v/A69aAoEPhhgHRENU6nyy+/Screen+Shot+2025-07-21+at+9.52.20+PM.png)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077730825/original/6FlbRdpr2xaycn8Z5aZLVkXIML8jf5AUew.gif?1785951155)
 
 ####   
 
@@ -215,75 +175,90 @@ The Business Card QR Code builder in HighLevel lets you create a professional, s
   
 
 
-### **_Step 6:_**_Set Business Hours_
+#### **_Step 4:_**_Customize_ _the Style_
 
   
 
 
-  1. Use the **toggle switches** to mark which days you're open or closed.  
+  1. Select one of the available cover-image templates, or click **Browse** to use a custom image. Then select the opacity level (%).  
   
 
-     * By default, **Sunday is toggled off** (closed).  
+  2. Use the**** color picker to select a color for the page, text, logo/icon, button and button color.  
+  
+
+  3. Turn **Show icon label** on to display labels such as Phone and Email, or turn it off for a more minimal design.  
+  
+
+  4. Once all customizations have been set, click on the **Links** tab at the top.
+
+
   
 
 
-  2. Set the **open and close times** for each day you're operational.
-
-
-  
-![](https://jumpshare.com/v/VYQkJyPiJfzAnWYEnBLQ+/Screen+Shot+2025-07-21+at+9.56.57+PM.png)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077731075/original/g-M7GE0Ix-rFQ1Z084ehZW86gsyybpObhw.gif?1785951425)
 
 ####   
   
 
 
-### **_Step 7:_**_Add Social Media Links_
+#### **_Step 5:_**_Add Links_
 
   
 
 
-  1. Choose from supported platforms:  
+  1. Select built-in social links, such as X, Instagram, Facebook, LinkedIn, YouTube, TikTok, or Pinterest, then enter the corresponding URL or username.  
   
 
-     * X (Twitter)  
-
-
-     * Instagram   
+  2. To add another destination, click **Add custom links** , enter the link name and URL, and choose an icon.  
   
 
-
-     * Facebook  
+  3. Use the drag handles to reorder links or click the trash icon to remove a link.  
   
 
-
-     * LinkedIn   
-  
+  4. Once all links have been set, click on the **Exchange Contact** tab at the top.
 
 
-     * Pinterest  
+####   
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077731891/original/0FcZb9jHN9SvmmR0_W94ugrUJbnPhJZh_g.gif?1785951983)  
   
 
 
-     * TikTok  
+#### **_Step 6:_**_Exchange Contact Settings_
+
+  
+
+
+Exchange Contact turns your Business Card into a lead-capture tool by letting visitors submit their own contact information. When they complete the form, a new contact is created in the CRM and the activity shows that the lead came from the Business Card.
+
   
 
 
-     * YouTube  
+  1. Open the **Exchange contact** tab and turn on **Exchange contact**.  
+  
+
+  2. Choose **New form** to create a form for the card, or **Use an existing form** to select a HighLevel form you already created. Click **Edit form** to update the fields, styling, or form settings without leaving the QR Code Builder.  
+  
+
+  3. Customize the Exchange Contact button text as needed, then review the button and form in the live preview.  
+  
+
+  4. Turn on **Open Exchange Contact Form by Default** to display the form when the Business Card opens.  
+  
+
+  5. Turn on **Automatically Download My Contact Info** to begin the contact-saving experience when the page opens.  
+  
+
+  6. Once all settings have been set, click **Next**.
+
+
+####   
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077732082/original/Ad5gh9aEbBE9NmoKIZuJb9qd_lKR6GYD6A.gif?1785952249)  
   
 
 
-  2. Paste the URL for each platform you want to display.  
-  
-
-  3. Click on **Next**.
-
-
-  
-![](https://jumpshare.com/v/AAqGPtQ6Pgecv2X5SfJv+/GIF+Recording+2025-07-21+at+10.06.07+PM.gif)  
-  
-
-
-### **_Step 8:_**_Customize QR Code Appearance_
+#### **_Step 7:_**_Customize the QR Code Design_
 
   
 
@@ -313,7 +288,7 @@ The Business Card QR Code builder in HighLevel lets you create a professional, s
   
 
 
-### **_Step 9:_**_Download and Save_
+#### **_Step 8:_**_Download and Save_
 
   
 

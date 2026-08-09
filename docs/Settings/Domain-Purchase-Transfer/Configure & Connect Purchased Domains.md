@@ -31,7 +31,7 @@ Every domain has configuration settings (DNS). When the domain is purchased thro
   
 
 
-> If your account has been cancelled and you need to request the release or transfer of a domain purchased through HighLevel, please submit the domain release request form [here](<https://api.golevel.bid/widget/form/IDn1mHxUWwEKay1LH2Yr>).
+> If your account has been cancelled and you need to request the release or transfer of a domain purchased through HighLevel, please submit the domain release request form [here](<https://www.gohighlevel.com/domain-transfer>).
 
   
 

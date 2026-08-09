@@ -15,3 +15,4 @@
 - [Setting Up Single Sign-On (SSO) on HighLevel](Setting Up Single Sign-On (SSO) on HighLevel.md)
 - [Google Login for WL agencies](Google Login for WL agencies.md)
 - [Authenticator App Support for Two-Factor Authentication (2FA)](Authenticator App Support for Two-Factor Authentication (2FA).md)
+- [Password Best Practices for Enhanced Security](Password Best Practices for Enhanced Security.md)

@@ -25,18 +25,54 @@ We're thrilled to unveil a brand-new feature in Chat Widget - You can now custom
   4. Once that is done, you will be able to go to Widget to customise the look and feel with options of different style and themes. There options to select the avatar images, select the placements and size of the widget.
 
 
-  * **Chat Launcher:** Add a chat launcher with or without a prompt message to encourage visitor engagement.
-  * **Chat Icon Selection:** Choose the chat icon that best matches your brand and website experience.
-  * **Theme Customization:** Select a predefined theme or fully customize the widget colors and styling to align with your brand identity.
-  * **First-Time & Returning Visitor Messages:** Configure personalized messages for first-time visitors and returning users to create a more engaging chat experience.
-  * **Avatar Images:** Add avatar images for agents or support teams to create a more professional and humanized interaction.
-  * **Widget Placement:** Select where the widget appears on your website, such as the bottom left or bottom right corner.
-  * **Widget Dimensions:** Keep the widget dimensions set to auto or customize the width and height based on your website layout preferences.
+  * **Chat Launcher:** Add a chat launcher with or without a prompt message to encourage visitor engagement.  
+  
+
+  * **Chat Icon Selection:** Choose the chat icon that best matches your brand and website experience.  
+  
+
+  * **Theme Customization:** Select a predefined theme or fully customize the widget colors and styling to align with your brand identity.  
+  
+
+  * **First-Time & Returning Visitor Messages:** Configure personalized messages for first-time visitors and returning users to create a more engaging chat experience.  
+  
+
+  * **Avatar Images:** Add avatar images for agents or support teams to create a more professional and humanized interaction.  
+  
+
+  * **Widget Placement:** Select where the widget appears on your website, such as the bottom left or bottom right corner.  
+  
+
+  * **Widget Dimensions:** Keep the widget dimensions set to **Auto** , or select **Custom** to configure the width and height for your website layout.  
+  
+
+
+Custom dimensions support values starting from **200px** and are no longer restricted by the previous placement-based minimum dimensions.  
+  
+
+
+Use **Set to Default** to restore the recommended dimensions for the current widget placement.  
+  
+
+
+When you switch between **Sticky** and **Embedded Live Chat** , custom dimensions reset to the recommended defaults for the newly selected placement.  
+  
+
+
+If custom dimension values are missing or set to **Auto** , the widget uses the default dimensions.  
+  
+
+
+Configured dimensions are respected without being automatically increased to the previous minimum values. Improved overflow handling also helps keep the widget within its container.  
+  
 
 
 ![Screenshot 2024-07-11 at 9](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030318954/original/j_h-ffjZXUp7Z_PlRC4j5JrTX0JMySdzaA.jpeg?1722542586)
 
-![Screenshot 2024-07-11 at 9](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030318951/original/DHpLVDJJk4b3Bel7UvbdiFCzqd-0O6aBgg.png?1722542586)![Screenshot 2024-07-11 at 9](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030318952/original/ZSaNgMvaEYvs5GLfMqCHIf4nqq3Hi2RXGw.png?1722542586)  
+![Screenshot 2024-07-11 at 9](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030318951/original/DHpLVDJJk4b3Bel7UvbdiFCzqd-0O6aBgg.png?1722542586)![Screenshot 2024-07-11 at 9](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030318952/original/ZSaNgMvaEYvs5GLfMqCHIf4nqq3Hi2RXGw.png?1722542586)
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077917651/original/-Pt4u6gVcTIuu1zzaNirrmqc3rdr-fAk8Q.png?1786119882)  
+  
 
 
   5. Next is Chat Window, all the message which are static visible to visitors are configured here. For each type, the chat widget adds extra fields. In Chat window, they are asking for branding and compliance parts.

@@ -6,28 +6,35 @@
 
 ---
 
-This article addresses frequently asked billing questions for HighLevel agency accounts, including subscription types, payment issues, invoice access, financial assistance, cancellations, and upgrades. It helps agency owners manage their billing effectively and understand HighLevel's plan options.
+Billing questions are easier to resolve when you know where a charge originated and which records to review. This guide explains how to manage your HighLevel agency subscription, identify subscription and usage-based charges, review invoices, troubleshoot payments, and escalate a billing dispute. It also clarifies the difference between agency billing, Wallet activity, Marketplace purchases, and client payments. 
 
   
 
     
     
-    **IMPORTANT :** If you **signed up through another agency** and not directly with HighLevel, please **contact your Agency Admin to cancel your services**. HighLevel cannot process cancellations for agency-managed accounts.
+    **IMPORTANT :** If you purchased access through another agency rather than directly from HighLevel, contact that **agency’s administrator** for subscription changes or cancellations. **HighLevel cannot cancel an account managed by another agency.**
 
 * * *
 
 **TABLE OF CONTENTS**
 
+  
+
+
   * What is HighLevel Agency Billing?
   * Key Benefits of HighLevel Agency Billing
   * How to Set Up and Manage Billing in HighLevel
+  * How to Upgrade Your HighLevel Account
+  * Downgrade Your Agency Plan
+  * How to Cancel Your HighLevel Subscription
+  * How to Reactivate Your Account
   * HighLevel Agency Plan Comparison
   * Proration Explained (Immediate Charges After Upgrading)
   * Financial Assistance Requests
   * Error: "Please Update the Billing Address"
   * Issues with Online Listing Services
   * Accepted Card Payment Types
-  * Card Payment Errors
+  * Card Payment Issues
   * Viewing Past Invoices
   * Frequently Asked Questions
   * Related Articles
@@ -40,11 +47,33 @@ This article addresses frequently asked billing questions for HighLevel agency a
   
 
 
-HighLevel Agency Billing is the system used by agency account holders to manage their subscription plans, payments, invoices, and financial settings. It supports billing operations such as upgrading or downgrading plans, viewing invoices, reactivating accounts, and troubleshooting billing errors.  
+HighLevel Agency Billing gives agencies a central place to manage their subscription, payment method, invoices, Wallet activity, and eligible add-on services. Understanding where each charge is recorded helps you confirm its purpose, identify the sub-account or service responsible, and resolve billing questions faster.
+
+Your billing information can include several different types of activity:
+
+  * Your recurring HighLevel agency subscription  
+  
+
+  * Plan upgrades or other prorated adjustments  
+  
+
+  * Agency Wallet recharges and usage  
+  
+
+  * Phone, messaging, email, AI, and workflow charges  
+  
+
+  * A2P registration and messaging fees  
+  
+
+  * Marketplace apps and other paid add-ons  
+  
+
+  * Services enabled for individual sub-accounts  
   
 
 
-Understanding how billing works within the platform is essential to avoid service disruptions, make the most of subscription benefits, and efficiently manage client sub-accounts.
+Your HighLevel subscription and Agency Wallet are billed separately. Wallet credits cannot be used to pay the recurring agency subscription.
 
   
 
@@ -59,23 +88,22 @@ Understanding how billing works within the platform is essential to avoid servic
   
 
 
-HighLevel’s billing platform offers flexibility, transparency, and control over your subscription. Key benefits include:  
+  * **Centralized subscription management:** Review or modify your agency subscription from Agency Settings.  
   
 
-
-  * Easy upgrades and downgrades with pro-rata adjustments  
+  * **Invoice visibility:** Access previous invoices and payment records from the Billing area.  
   
 
-  * Transparent access to current and past invoices  
+  * **Usage transparency:** Review Wallet-funded activity and identify which services or sub-accounts generated usage.  
   
 
-  * Support for multiple payment methods  
+  * **Flexible plan management:** Upgrade your subscription and choose an available monthly or annual billing cycle.  
   
 
-  * Financial assistance options for temporary relief  
+  * **Payment troubleshooting:** Review failed invoices, correct card information, and complete bank authentication when required.  
   
 
-  * Direct subscription control from the agency portal
+  * **Faster dispute resolution:** Collect the right transaction details before contacting HighLevel Support.
 
 
 * * *
@@ -114,9 +142,41 @@ Setting up and managing billing is straightforward in your agency account. Follo
 
   7. Click on **Pay (amount) & Subscribe** button. (You’ll be charged a prorated amount immediately.)  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155047003949/original/-P0Nl9YSzBxAJlkJfT4wulkNTwiRLokwEw.gif?1747832998)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155047003949/original/-P0Nl9YSzBxAJlkJfT4wulkNTwiRLokwEw.gif?1747832998)
+
+
   
 
+
+### Downgrade Your Agency Plan
+
+Before downgrading, review which features and sub-account limits are included in the lower plan.
+
+  1. Go to **Agency Settings > Billing**.
+
+  2. Click **Want to Modify/Cancel Your Subscription?**
+
+  3. Select an available lower-tier plan.
+
+  4. Review the new price, effective date, and any prorated adjustment.
+
+  5. Confirm the change.
+
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077738944/original/S5NNkOrVbMYp0jGhpIc4iU9cLBDhY8Eu-w.gif?1785962307)
+
+  
+
+
+> 
+>     **Important:** Downgrading your plan does not automatically cancel add-ons, Marketplace apps, phone numbers, or other paid services.
+>     
+>      If the downgrade option is unavailable, contact HighLevel Support using the **blue question-mark icon**.
+
+* * *
 
 ### **How to Cancel Your HighLevel Subscription**
 
@@ -149,7 +209,11 @@ Setting up and managing billing is straightforward in your agency account. Follo
 
   9. Click **Submit**.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155047001744/original/P_w7n67nuqoWGf1nt33CnXqEIv2ILB3cWQ.gif?1747831561)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155047001744/original/P_w7n67nuqoWGf1nt33CnXqEIv2ILB3cWQ.gif?1747831561)
+
+
+* * *
+
   
 
 
@@ -165,66 +229,19 @@ Setting up and managing billing is straightforward in your agency account. Follo
   
 
   3. You may be prompted to add a new payment method.  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155047008186/original/qVrBMvesTVAo0Iof7L2CRKV6_-6p-LKifg.png?1747835957)
 
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077814181/original/z_yZxsbaz_oFbZGSGWNR2D16T1Qqu0d98Q.png?1786027768)
 
 * * *
 
 ## **HighLevel Agency Plan Comparison**
 
   
-There are three main subscription tiers for agencies. Each offers different sub-account limits and support options.  
-  
-
-
-### **Starter Plan (****$97/month)****:**
-
-  
-
-
-  * 3 sub-accounts
-  * App Marketplace for Agency & Sub-accounts
-  * HighLevel community and help videos
-  * High-level mobile app access
-  * Workflow Builder
-  * Campaign Builder
-  * 2-way SMS
-  * 2 Way Email  
-  
-
-
-### **Freelancer Plan ($297/month):**
-
-  
-
-
-  * All features of Starter plan, plus
-  * Unlimited sub-accounts
-  * White-label Desktop
-  * Memberships
-  * Chat Support
-  * Phone Support
-  * Partner Program  
-  
-
-
-### **Agency Pro Plan ($497/month):**
-
-  
-
-
-  * Everything in Freelancer plus
-  * SaaS Mode
-  * Custom Objects
-  * Email / Phone / Text Rebilling
-  * Split Testing
-  * Agent Reporting
-  * AI Conversational Bot
-  * Advanced API Access  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155047009896/original/0mvjDFYfgc28LTWRzi4vTh41BXYgrriU_Q.png?1747837090)
-
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077738236/original/BoQh_qqqLNgfXA5kCHWt1NTdVdfcNP9rWA.png?1785960810)
 
 * * *
 
@@ -283,6 +300,15 @@ HighLevel supports temporary relief for agencies needing financial help:
   * Approved accounts receive **1-month access at only 10% of their plan cost**.
 
 
+  
+
+    
+    
+    PLEASE NOTE: **Financial assistance is a ONE time discount.**
+
+  
+
+
 * * *
 
 ## **Error: "Please Update the Billing Address"**
@@ -327,20 +353,23 @@ For any other issues with Online Listing Services, please contact HighLevel Supp
 ## **Accepted Card Payment Types**
 
   
-Accepted payment types:  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077738273/original/cZW5NhiXcWHlBWhes7cjz_wMnvd66zSYiQ.png?1785960900)
+
+###   
+
+    
+    
+    **Please Note:** **We don’t accept PayPal, checks -** ACH bank transfer now available for payments over $1000
+    
+    You can now pay by ACH bank transfer for any payment of $1000 or more. ACH transfers take 3-10 business days to process — credit card remains available for all payment amounts. 
+
   
 
 
-  * Visa
-  * Mastercard
-  * American Express (AMEX)
-  * Discover
-  * Visa-Debit  
+###   
 
-  * Ensure card details (CVV, expiry, billing address) are correct to avoid issues.
-
-
-* * *
 
 ### **Card Payment Issues**
 
@@ -371,6 +400,12 @@ If your card payment fails or you receive a card payment error, please check the
 
   * **Failed Payment Access & Dunning Period:** If an agency subscription payment fails, the agency will continue to have account access for **21 days** from the failed payment date. If the payment issue is not resolved within 21 days, account access will be locked. Payment retries will continue in the background for up to **1 month/30 days** from the failed payment date.
 
+
+  
+
+    
+    
+    **Note: If you receive a general payment decline, try using an incognito window or a different browser. This often resolves browser-related issues that may be blocking the payment.**
 
   
 
@@ -408,44 +443,34 @@ To access invoice history:
 
 
 **Q: Why was I charged twice this month?**  
-Charges may include prorated upgrades or failed previous attempts. Check the invoice section for the breakdown.
-
-  
-**Q: What if I signed up via another agency?****  
-**Contact your Agency Admin for any subscription changes. HighLevel cannot process cancellations for agency-managed accounts.
-
-  
-**Q: Can I switch between monthly and yearly billing?****  
-**Yes. When upgrading, you can toggle between billing cycles.
-
-  
-**Q: Will my data be deleted if I cancel?****  
-**Your data is retained but inaccessible. You can reactivate to regain access.
-
-  
-**Q: I can’t see the modify/cancel button. What should I do?****  
-**Reach out to support via live chat. They can assist or escalate your request.
+You may have a prorated charge, a retried payment, or a separate subscription or add-on. Some services may have the same price as an agency plan, such as AI Employee at $97 or HIPAA at $297. Check your invoices and Wallet transactions to identify each charge.
 
   
 
 
-**Q: What does “Email Notification” mean in Wallet Transactions?**
-
-“Email Notification” refers to transactional emails (like confirmation emails, workflow-based messages, or other automated sends) that use LC Email, HighLevel’s built-in email service. These messages are billed per send and deducted from your Wallet balance.
-
-  
-
-
-If you’re seeing charges labelled this way, it means your account is actively sending emails via LC Email. You can review and confirm these in Settings > Billing > Wallet Transactions and check corresponding sends in the Email Logs under Marketing > Emails > Logs.
+**Q: What if I signed up through another agency?**  
+Contact your Agency Admin for subscription changes or cancellations. HighLevel cannot manage accounts purchased through another agency.
 
   
 
 
-**Can I use my Agency Wallet to pay for my HighLevel subscription?**
+**Q: Can I switch between monthly and yearly billing?**  
+You can choose monthly or yearly billing when upgrading. Changing an existing yearly plan back to monthly is not available in the platform, so you must contact HighLevel Support.
 
-No. Agency Wallet funds cannot be used to pay for your HighLevel subscription plan. Your HighLevel subscription must be paid using the payment method on file, such as a valid credit or debit card.
+  
 
-The Agency Wallet is used for eligible usage-based services and wallet-related charges, but it does not apply toward the agency’s main HighLevel subscription fee.
+
+**Q: Will my data be deleted if I cancel?**  
+Yes. Your data is deleted after 90 days. To keep your data, you can use the $27 per month Pause Plan instead of canceling.
+
+  
+
+
+**Q: I cannot see the modify or cancel button. What should I do?**  
+Contact HighLevel Support through Live Chat. They can review your account and help with the request.
+
+  
+
 
 * * *
 

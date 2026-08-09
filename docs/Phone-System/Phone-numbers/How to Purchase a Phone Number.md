@@ -16,6 +16,15 @@ This article walks you through how to purchase a phone number within a HighLevel
     
     **Alternatively** , please contact our Support team for assistance.
 
+  
+
+    
+    
+    **Note:** If porting in an existing number, please see: [Porting Options: US In-App vs International Manual Process](<https://help.gohighlevel.com/support/solutions/articles/48001211919-porting-options-us-in-app-vs-international-manual-process>)
+
+  
+
+
 * * *
 
 **TABLE OF CONTENTS**
@@ -261,7 +270,7 @@ Cause| Explanation
 
     
     
-     Note: If you don't find any international number to purchase, read this article:[ How to request a number that is not available](<https://help.gohighlevel.com/en/support/solutions/articles/48001231625>)[](<https://help.gohighlevel.com/support/solutions/articles/48001231625-how-to-request-a-number-that-s-not-available->)[](<https://help.gohighlevel.com/support/solutions/articles/48001231625-how-to-request-a-number-that-s-not-available->)[](<https://help.gohighlevel.com/support/solutions/articles/48001231625-how-to-request-a-number-that-s-not-available->)**[](<https://help.gohighlevel.com/support/solutions/articles/48001231625-how-to-request-a-number-that-s-not-available->)**
+    **Note:** If you don't find any international number to purchase, read this article:[ How to request a number that is not available](<https://help.gohighlevel.com/en/support/solutions/articles/48001231625>)[](<https://help.gohighlevel.com/support/solutions/articles/48001231625-how-to-request-a-number-that-s-not-available->)[](<https://help.gohighlevel.com/support/solutions/articles/48001231625-how-to-request-a-number-that-s-not-available->)[](<https://help.gohighlevel.com/support/solutions/articles/48001231625-how-to-request-a-number-that-s-not-available->)**[](<https://help.gohighlevel.com/support/solutions/articles/48001231625-how-to-request-a-number-that-s-not-available->)**
 
 * * *
 

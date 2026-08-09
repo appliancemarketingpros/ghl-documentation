@@ -6,6 +6,92 @@
 
 ---
 
+## **Let's Get You to the Right Team****  
+**
+
+  
+
+
+**New to HighLevel?** (First 14 days or trial)  
+
+
+  
+
+
+Meet with our **Trial Experience Team** to get set up and make the most of your account.
+
+**[speakwith.us/kickoff](<https://speakwith.us/kickoff>)**
+
+**Haven't signed up yet?**
+
+  
+Schedule a personalized **HighLevel demo** to see the platform in action.  
+**[speakwith.us/demo](<https://speakwith.us/demo>)**
+
+  
+
+
+**Paying customer (First 90 days)**  
+Connect with our **Success Team** for onboarding guidance, best practices, and help getting started.  
+**[speakwith.us/success](<https://speakwith.us/success>)**
+
+  
+
+
+**Paying customer (More than 90 days)**
+
+Our **Support Team** is here to help with product questions and troubleshooting through **Live Chat or Zoom**. (shown below) 
+
+  
+
+
+* * *
+
+## **Get Help With Billing or Account Access**
+
+  
+
+
+If you can't access your account because of a billing issue, the HighLevel Billing team can help with:
+
+  * Payment or invoice questions
+  * Subscription changes
+  * Account reactivation
+  * Billing-related account access issues
+
+
+###   
+
+
+### **Contact the Billing Team**
+
+  
+
+
+Choose the option that works best for you:
+
+  
+
+
+**Email:** Send a message to **[billing@gohighlevel.com](<mailto:billing@gohighlevel.com>)**. This automatically creates a support ticket.
+
+  
+
+
+**Phone:** Call **1-888-732-4197** and select **Option 2** for Billing.
+
+To help us assist you faster, include:
+
+  * Agency name
+  * Agency login email
+  * Agency Relationship Number (if available)
+  * A brief description of the issue
+  * Any relevant invoice or payment details
+
+
+#   
+
+
 # **⭐️ Upgrade to Premium Support ⭐️**
 
   

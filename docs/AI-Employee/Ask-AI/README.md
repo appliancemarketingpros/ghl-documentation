@@ -23,3 +23,4 @@
 - [How to Use Ask AI to Create and Manage Courses](How to Use Ask AI to Create and Manage Courses.md)
 - [How to setup the Ask AI LeadConnector Chrome Extension](How to setup the Ask AI LeadConnector Chrome Extension.md)
 - [Ask AI Templates](Ask AI Templates.md)
+- [AI Browser Control Extension](AI Browser Control Extension.md)

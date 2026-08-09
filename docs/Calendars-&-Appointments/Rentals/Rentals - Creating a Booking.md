@@ -1,6 +1,6 @@
-# Creating a Booking
+# Rentals - Creating a Booking
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000006624-creating-a-booking](https://help.gohighlevel.com/support/solutions/articles/155000006624-creating-a-booking)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000006624-rentals-creating-a-booking](https://help.gohighlevel.com/support/solutions/articles/155000006624-rentals-creating-a-booking)  
 **Category:** Calendars & Appointments  
 **Folder:** Rentals
 

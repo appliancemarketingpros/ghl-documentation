@@ -270,7 +270,7 @@ Configure the coupon:
   
 
 
-Attendees apply the code by clicking **Have a coupon code?** on the ticket selection screen.
+Attendees apply the code by clicking **Have a coupon code?** on the ticket selection screen. 
 
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073296805/original/6LbpSac12JWVBqCNeWbCG1DXRMR2GL_pdg.png?1781025959)
@@ -440,7 +440,7 @@ The three-dot menu at the top right of the event gives quick access to common ev
   
 
 
-The attendee experience starts on the public event page and continues through ticket selection, checkout, and confirmation. Reviewing this flow before sharing your event helps ensure the page, tickets, coupons, and payment settings work as expected.
+The attendee experience starts on the public event page and continues through a dedicated full-page checkout. The expanded layout provides more space for ticket selection, attendee information, billing details, and payment when required.
 
   
 
@@ -449,17 +449,28 @@ The attendee experience starts on the public event page and continues through ti
 
 Attendees choose their ticket type and quantity. They can enter a coupon code for a discount, and the order summary updates in real time.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073297590/original/bUSz1bUcAZrHXUSlyxU6YFJg5HoyrYd4XA.png?1781026603)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077511357/original/-Jo0vSW1MFhnt_OytKY6KAQFyJUHBm8OKg.png?1785775237)  
   
 
 
 **Checkout and Payment**
 
-After selecting tickets, attendees enter their details, billing address, and card information when payment is required. The order summary remains visible during the checkout flow.
+After selecting tickets, attendees continue through the required checkout steps. Depending on the ticket and event configuration, they provide attendee details, billing information, and payment information.
+
+Event details and the order summary remain available throughout the checkout journey, allowing attendees to review their selections without leaving the flow.
 
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073297608/original/cmgBkFtinh6YBH4hj7eyZ9MLr-69YPdqQA.png?1781026630)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077511388/original/KBUWTHPfEhF075e1z5uNqUB_Gcvv6Ql3TA.png?1785775279)
 
+  
+
+
+After completing the required checkout steps, attendees continue to the confirmation step.
+
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077511948/original/quWHbJYGTQSya0PbB26SUsF01U1drqbqnQ.gif?1785775528)
+
+  
   
 
 

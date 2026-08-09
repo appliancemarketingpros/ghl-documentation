@@ -1,6 +1,6 @@
-# Configuring Pricing & Discounts
+# Rentals - Configuring Pricing & Discounts
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000006611-configuring-pricing-discounts](https://help.gohighlevel.com/support/solutions/articles/155000006611-configuring-pricing-discounts)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000006611-rentals-configuring-pricing-discounts](https://help.gohighlevel.com/support/solutions/articles/155000006611-rentals-configuring-pricing-discounts)  
 **Category:** Calendars & Appointments  
 **Folder:** Rentals
 

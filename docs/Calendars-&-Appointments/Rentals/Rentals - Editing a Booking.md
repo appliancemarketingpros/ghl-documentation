@@ -1,6 +1,6 @@
-# Editing a Rental Booking
+# Rentals - Editing a Booking
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000006626-editing-a-rental-booking](https://help.gohighlevel.com/support/solutions/articles/155000006626-editing-a-rental-booking)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000006626-rentals-editing-a-booking](https://help.gohighlevel.com/support/solutions/articles/155000006626-rentals-editing-a-booking)  
 **Category:** Calendars & Appointments  
 **Folder:** Rentals
 

@@ -1,6 +1,6 @@
-# Create & Edit Listings
+# Rentals Create & Edit Listings
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000006579-create-edit-listings](https://help.gohighlevel.com/support/solutions/articles/155000006579-create-edit-listings)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000006579-rentals-create-edit-listings](https://help.gohighlevel.com/support/solutions/articles/155000006579-rentals-create-edit-listings)  
 **Category:** Calendars & Appointments  
 **Folder:** Rentals
 

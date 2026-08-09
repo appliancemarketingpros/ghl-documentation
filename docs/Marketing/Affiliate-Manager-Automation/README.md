@@ -10,3 +10,4 @@
 - [Automate Affiliate Sales Follow-Ups with the “New Affiliate Sale” Trigger](Automate Affiliate Sales Follow-Ups with the “New Affiliate Sale” Trigger.md)
 - [Automate Lead Assignment & Notifications in Affiliate Manager Workflows](Automate Lead Assignment & Notifications in Affiliate Manager Workflows.md)
 - [Automating Affiliate Commissions with 'Add Manual Sales For An Affiliate' Workflow Action](Automating Affiliate Commissions with 'Add Manual Sales For An Affiliate' Workflow Action.md)
+- [TypeScript/JavaScript SDK for OAuth 2.0 Automation](TypeScriptJavaScript SDK for OAuth 2.0 Automation.md)

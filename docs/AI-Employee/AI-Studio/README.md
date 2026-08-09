@@ -12,3 +12,5 @@
 - [Bulk Enable/Disable AI Studio Across Sub-Accounts](Bulk EnableDisable AI Studio Across Sub-Accounts.md)
 - [AI Studio Form Submitted Workflow Trigger](AI Studio Form Submitted Workflow Trigger.md)
 - [AI Studio - Pricing](AI Studio - Pricing.md)
+- [AI Studio Success Pack Course](AI Studio Success Pack Course.md)
+- [AI Suite Walkthrough Course](AI Suite Walkthrough Course.md)

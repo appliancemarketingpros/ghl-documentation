@@ -6,8 +6,8 @@
 
 ---
 
-Ad Manager in HighLevel is a centralized tool that allows agencies and sub-accounts to create, manage, and track advertising campaigns across multiple platforms in one place.
-
+Ad Manager in HighLevel is a centralized tool that allows agencies and sub-accounts to create, manage, and track advertising campaigns across multiple platforms in one place.  
+  
   
 
 

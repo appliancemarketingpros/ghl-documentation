@@ -1,6 +1,6 @@
-# Blocked Slots for Rental Listings
+# Rentals - Blocked Slots for Listings
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000007944-blocked-slots-for-rental-listings](https://help.gohighlevel.com/support/solutions/articles/155000007944-blocked-slots-for-rental-listings)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000007944-rentals-blocked-slots-for-listings](https://help.gohighlevel.com/support/solutions/articles/155000007944-rentals-blocked-slots-for-listings)  
 **Category:** Calendars & Appointments  
 **Folder:** Rentals
 

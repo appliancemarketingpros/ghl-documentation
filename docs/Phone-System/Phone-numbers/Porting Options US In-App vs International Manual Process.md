@@ -344,7 +344,7 @@ Each entry also shows the Request SID, created date, and a description of the cu
   
 
 
-**IMPORTANT** : We are currently able to port in numbers from the United States only. For any other country's porting please refer to Let's port your phone number. If a Letter of Authorization (LOA) is required, use this template.  
+**IMPORTANT** : We are currently able to port in numbers from the United States only. For any other country's porting please refer to [Let's port your phone number](<https://twlo.my.salesforce-sites.com/InternationalPorting>). If a Letter of Authorization (LOA) is required, use this template.  
 This process typically takes 2-4 weeks, and we will provide updates via email.
 
   

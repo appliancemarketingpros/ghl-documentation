@@ -141,8 +141,8 @@ Custom Reports allow you to build and schedule tailored reports, perfect for sha
 
     
     
-    **Note: PDF export and preview link from email behave differently.**
-    - Preview link: Images and iframes are included and visible to recipients.
+    **Note: PDF export and preview link from email behave differently. Table widgets are capped at the first 100 records; drill-downs aren't available.**
+    - Preview link: Images and iframes are included and visible to recipients. 
     - PDF download: Images and iframes are excluded due to security restrictions.
     
     For best results when embedding images, use JPEG or PNG formats — other 
@@ -272,6 +272,9 @@ Note: Widget-level date settings can still differ from the report-level date ran
 # FAQ
 
 **Q: Can I send scheduled reports to people who don't have a HighLevel account?**  
-Yes. In the Schedule setup, add any valid email address under **Recipients** — they'll receive the report directly in their inbox with no HighLevel login required. Note: Use Custom Reports (not the Dashboard share link) for this; Dashboard links require authentication.
+Yes. In the Schedule setup, add any valid email address under **Recipients** — they'll receive the report directly in their inbox with no HighLevel login required. Note: Use Custom Reports (not the Dashboard share link) for this; Dashboard links require authentication. Note that, the table widgets in the email and PDF show only the first 100 records, and drill-down charts aren't available in either format. To see the complete dataset or use drill-downs, the recipient needs to log in and open the report or dashboard directly in HighLevel.
+
+  
+
 
 ###

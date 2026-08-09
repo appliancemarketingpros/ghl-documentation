@@ -28,8 +28,6 @@
 
 ### [Content AI in the Email Builder](Content-AI-in-the-Email-Builder/)
 
-### [Content AI in Funnels and Website](Content-AI-in-Funnels-and-Website/)
-
 ### [Content AI in Blogs](Content-AI-in-Blogs/)
 
 ### [Ask AI](Ask-AI/)

@@ -142,7 +142,7 @@ Yes. You’ll still receive renewal reminders before your domain registration pe
 No. Your upfront payment covers the total cost of the selected registration period. Renewal pricing in future years will follow standard rates at that time.
 
 **Q: What happens if my account is cancelled but I still need access to a domain I purchased for multiple years?  
-** If your account has been cancelled and you need to request the release or transfer of a purchased domain, submit the domain release request form here.
+** If your account has been cancelled and you need to request the release or transfer of a purchased domain, submit the [domain release request form here](<https://www.gohighlevel.com/domain-transfer>).
 
 * * *
 

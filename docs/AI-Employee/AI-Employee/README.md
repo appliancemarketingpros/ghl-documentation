@@ -14,3 +14,4 @@
 - [Agent Logs Metrics](Agent Logs Metrics.md)
 - [AI Usage Dashboard](AI Usage Dashboard.md)
 - [Summer of AI 2026](Summer of AI 2026.md)
+- [How to Use Workflow AI Assistant Performance Analytics](How to Use Workflow AI Assistant Performance Analytics.md)

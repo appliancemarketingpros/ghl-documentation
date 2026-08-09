@@ -58,15 +58,15 @@ Use the Send Email action to automate communications for various business scenar
 
 **Customer onboarding** — Send welcome emails when a new Company or Custom Object record is created.
 
-**Renewal reminders** — Automate reminders for contracts, subscriptions, or memberships approaching expiration.
+****Renewal reminders** — Automate reminders to insurance policy holders when their policies approach expiration.**
 
-**Project or deal updates** — Send status updates to associated stakeholders when project milestones are reached.
+****Birthday greetings** — Send personalized birthday wishes to pet owners for their furry friends.**
 
-**Order or service notifications** — Trigger notifications based on Custom Object status changes, such as order fulfillment or service completion.
+****Property updates** — Send automated updates on listings and properties to real estate leads.**
 
 **Internal approvals** — Send approval requests to associated support representatives or team members.
 
-**Follow-up emails** — Automate follow-ups when a Company or Custom Object reaches a specific stage in your business process.
+****Marketing follow-ups** — Send targeted follow-up marketing emails based on service records or patient history.**
 
 3
 
@@ -124,6 +124,16 @@ Select Association Labels (Optional)
 
 If you want to target specific types of associated contacts, use the Association Label field to select one or more association labels. This filters which contacts receive the email based on their relationship type. If you leave this field empty, the email sends based on your Email Recipients selection without filtering by association type.
 
+  
+
+
+  
+
+    
+    
+    **Note:** The **Association Label** option is currently supported only for **Custom Object** workflows. It is **not available for Company** workflows at this time. If you're using a Company workflow, this field will not be displayed.
+    
+
 Step 6
 
 Configure Email Settings
@@ -145,7 +155,23 @@ Step 7
 
 Create Your Email Content
 
-Compose your email content using the email editor. You can include custom fields, personalization tokens, and formatting as needed. The editor supports the same features available in other workflow email actions.
+  
+
+
+Compose your email content using the email editor. You can include custom fields, personalization tokens, and formatting as needed.
+
+  
+
+
+**You can use personalization tokens from the associated Contact as well as the Company or Custom Object records, allowing you to dynamically personalize your email content.**
+
+  
+
+
+  
+
+
+The editor supports the same features available in other workflow email actions.
 
   
 
