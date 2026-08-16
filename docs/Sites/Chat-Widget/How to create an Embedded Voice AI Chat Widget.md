@@ -377,7 +377,13 @@ Some controls are automatically hidden because they only apply to floating widge
 
 
 **Q: Can I use the Embedded/Inline placement for Live Chat widgets as well?**  
-Yes, embedded/inline support is available for Live Chat. For more information, [click here.](<https://help.gohighlevel.com/en/support/solutions/articles/155000007601>)
+Yes, embedded/inline support is available for Live Chat. For more information, [click here.](<https://help.gohighlevel.com/en/support/solutions/articles/155000007601>)  
+  
+
+
+**Q: Which Chat Widget types support Embedded / Inline placement?**
+
+Embedded / Inline placement is available for All-in-One Chat, Email/SMS, WhatsApp, Facebook, Instagram, Live Chat, and Voice AI.
 
 * * *
 

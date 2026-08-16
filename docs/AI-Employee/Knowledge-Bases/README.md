@@ -13,3 +13,4 @@
 - [What is the Knowledge Base Retrieval Tester?](What is the Knowledge Base Retrieval Tester.md)
 - [How to Download Knowledge Base Tables in CSV](How to Download Knowledge Base Tables in CSV.md)
 - [Knowledge Base - Google Drive Integration](Knowledge Base - Google Drive Integration.md)
+- [Google Drive Daily Sync for Knowledge Base Files](Google Drive Daily Sync for Knowledge Base Files.md)

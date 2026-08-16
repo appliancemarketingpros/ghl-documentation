@@ -36,7 +36,11 @@ The Group Chat for SMS feature allows you to create a group and send SMS message
 
     
     
-    **Note:** Group Chat supports **sending and receiving attachments**. Images appear inline and files show as a downloadable chip. For more info, see [SMS Attachment Size Limits](<https://help.gohighlevel.com/support/solutions/articles/48001208913-file-size-limits-for-attachments-in-sms-and-email#SMS-Attachment-Size-Limits>)
+    **Note: 1.** Group Texting is only supported on +1 (US+Canada) long code numbers. Toll-free numbers and short codes cannot exchange group in texts from Twilio.
+    
+    **2.** Group Chat supports **sending and receiving attachments**. Images appear inline and files show as a downloadable chip. For more info, see [SMS Attachment Size Limits](<https://help.gohighlevel.com/support/solutions/articles/48001208913-file-size-limits-for-attachments-in-sms-and-email#SMS-Attachment-Size-Limits>)
+    
+    
 
 * * *
 

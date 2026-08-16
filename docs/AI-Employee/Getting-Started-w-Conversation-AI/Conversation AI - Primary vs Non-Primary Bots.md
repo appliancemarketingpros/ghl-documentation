@@ -42,12 +42,6 @@ Primary bots handle conversations from assigned communication channels, such as 
 
   
 
-    
-    
-    **PLEASE NOTE:** You can change primary bots at any time. Changing which bot is primary will not affect that bot’s configurations, but you should make sure any missing communication channels are assigned to the new primary bot if needed.
-
-  
-
 
   * **General Conversations:** Primary bots automatically respond to messages received outside of workflow automation.  
   
@@ -55,6 +49,12 @@ Primary bots handle conversations from assigned communication channels, such as 
 
   * **Channel Dependence:** A primary bot’s ability to respond is determined by the communication channels assigned to it.
 
+
+  
+
+    
+    
+    **PLEASE NOTE:** You can change primary bots at any time. Changing which bot is primary will not affect that bot’s configurations, but you should make sure any missing communication channels are assigned to the new primary bot if needed.
 
 * * *
 

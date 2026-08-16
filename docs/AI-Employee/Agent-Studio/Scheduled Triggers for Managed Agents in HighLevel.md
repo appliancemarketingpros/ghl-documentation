@@ -1,44 +1,44 @@
-# Scheduled Triggers for Super Agents in HighLevel
+# Scheduled Triggers for Managed Agents in HighLevel
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000008245-scheduled-triggers-for-super-agents-in-highlevel](https://help.gohighlevel.com/support/solutions/articles/155000008245-scheduled-triggers-for-super-agents-in-highlevel)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000008245-scheduled-triggers-for-managed-agents-in-highlevel](https://help.gohighlevel.com/support/solutions/articles/155000008245-scheduled-triggers-for-managed-agents-in-highlevel)  
 **Category:** AI Employee  
 **Folder:** Agent Studio
 
 ---
 
-Scheduled Triggers allow Super Agents to run automatically at a specific time or on a recurring schedule. You can create a one-time schedule, repeat an agent at a set interval, or use a cron expression for more precise timing. Once the Super Agent is published, HighLevel runs the complete agent—including its instructions, skills, and CRM actions—without requiring a manual kickoff.
+Scheduled Triggers allow Managed Agents (formerly Super Agents) to run automatically at a specific time or on a recurring schedule. You can create a one-time schedule, repeat an agent at a set interval, or use a cron expression for more precise timing. Once the Managed Agent is published, HighLevel runs the complete agent—including its instructions, skills, and CRM actions—without requiring a manual kickoff.
 
 * * *
 
 **TABLE OF CONTENTS**
 
-  * What Are Scheduled Triggers for Super Agents?
+  * What Are Scheduled Triggers for Managed Agents?
   * Key Benefits of Scheduled Triggers
   * Schedule Modes
   * Recurring Schedule End Conditions
-  * Multiple Schedules for One Super Agent
+  * Multiple Schedules for One Managed Agent
   * Natural-Language Scheduling
   * Scheduled Trigger Timezone
   * Scheduled Runs and Activity Tracking
   * Scheduled Triggers Compared With Workflow Scheduler
-  * How to Set Up Scheduled Triggers for a Super Agent
+  * How to Set Up Scheduled Triggers for a Managed Agent
   * Frequently Asked Questions
   * Related Articles
 
 
 * * *
 
-# **What Are Scheduled Triggers for Super Agents?**
+# **What Are Scheduled Triggers for Managed Agents?**
 
   
 
 
-Scheduled Triggers give Super Agents a time-based starting point. Instead of waiting for a user to manually run the agent, HighLevel starts it according to the schedule you configure. This is useful for recurring operational work, scheduled reviews, reminders, summaries, and other tasks that need to happen at predictable times.
+Scheduled Triggers give Managed Agents a time-based starting point. Instead of waiting for a user to manually run the agent, HighLevel starts it according to the schedule you configure. This is useful for recurring operational work, scheduled reviews, reminders, summaries, and other tasks that need to happen at predictable times.
 
   
 
 
-A Scheduled Trigger can start a Super Agent:  
+A Scheduled Trigger can start a Managed Agent:  
   
 
 
@@ -55,7 +55,7 @@ A Scheduled Trigger can start a Super Agent:
 
 
   
-Every scheduled execution runs the full Super Agent, including its instructions, configured skills, and CRM actions.
+Every scheduled execution runs the full Managed Agent, including its instructions, configured skills, and CRM actions.
 
 * * *
 
@@ -64,11 +64,11 @@ Every scheduled execution runs the full Super Agent, including its instructions,
   
 
 
-Scheduled Triggers help teams automate recurring work while maintaining visibility into when each Super Agent runs and what it does.  
+Scheduled Triggers help teams automate recurring work while maintaining visibility into when each Managed Agent runs and what it does.  
   
 
 
-  * **Hands Free Execution:** Run Super Agents automatically without requiring someone to start them manually.  
+  * **Hands Free Execution:** Run Managed Agents automatically without requiring someone to start them manually.  
   
 
   * **Flexible Scheduling:** Choose a one-time schedule, a repeating interval, or an advanced cron expression.  
@@ -77,7 +77,7 @@ Scheduled Triggers help teams automate recurring work while maintaining visibili
   * **Recurring Schedule Controls:** Limit recurring runs to selected weekdays and define when the schedule should end.  
   
 
-  * **Multiple Schedules:** Add more than one schedule to the same Super Agent when different cadences are required.  
+  * **Multiple Schedules:** Add more than one schedule to the same Managed Agent when different cadences are required.  
   
 
   * **Complete Agent Execution:** Run the agent’s full instructions, skills, and CRM actions during every scheduled execution.  
@@ -99,7 +99,7 @@ Scheduled Triggers help teams automate recurring work while maintaining visibili
   
 
 
-Each schedule mode supports a different type of timing requirement. Selecting the appropriate mode helps ensure the Super Agent runs at the correct time and cadence.
+Each schedule mode supports a different type of timing requirement. Selecting the appropriate mode helps ensure the Managed Agent runs at the correct time and cadence.
 
   
 
@@ -109,7 +109,7 @@ Each schedule mode supports a different type of timing requirement. Selecting th
   
 
 
-Use the Once option when the Super Agent should run one time at a specific date and time.
+Use the Once option when the Managed Agent should run one time at a specific date and time.
 
   
 
@@ -141,7 +141,7 @@ A one-time schedule does not repeat after the configured execution.
   
 
 
-Use Set interval when the Super Agent should run repeatedly at a regular cadence.
+Use Set interval when the Managed Agent should run repeatedly at a regular cadence.
 
   
 Available interval units include:  
@@ -181,7 +181,7 @@ Recurring schedules can also include:
 
 
   
-For example, a Super Agent can run every Tuesday, Wednesday, and Thursday at 9:00 AM until the end of the month.
+For example, a Managed Agent can run every Tuesday, Wednesday, and Thursday at 9:00 AM until the end of the month.
 
   
 
@@ -197,7 +197,7 @@ Use a Cron expression for advanced schedules that require more precise timing th
 
     
     
-    Review the expression carefully before publishing the Super Agent to ensure it represents the intended schedule.
+    Review the expression carefully before publishing the Managed Agent to ensure it represents the intended schedule.
 
 * * *
 
@@ -206,7 +206,7 @@ Use a Cron expression for advanced schedules that require more precise timing th
   
 
 
-End conditions control how long a repeating schedule remains active. Choosing the correct end condition prevents recurring Super Agents from continuing beyond the period when they are needed.
+End conditions control how long a repeating schedule remains active. Choosing the correct end condition prevents recurring Managed Agents from continuing beyond the period when they are needed.
 
   
 
@@ -225,21 +225,21 @@ A recurring schedule can be configured to end:
 
 
   
-Use a date-based end condition for time-limited initiatives, such as monthly campaigns. Use a run-count end condition when the Super Agent should complete a known number of scheduled executions.
+Use a date-based end condition for time-limited initiatives, such as monthly campaigns. Use a run-count end condition when the Managed Agent should complete a known number of scheduled executions.
 
 * * *
 
-## **Multiple Schedules for One Super Agent**
+## **Multiple Schedules for One Managed Agent**
 
   
 
 
-Multiple schedules allow one Super Agent to support more than one operating cadence. This reduces the need to create duplicate agents when the instructions, skills, and CRM actions are the same.
+Multiple schedules allow one Managed Agent to support more than one operating cadence. This reduces the need to create duplicate agents when the instructions, skills, and CRM actions are the same.
 
   
 
 
-For example, one Super Agent can be configured to:  
+For example, one Managed Agent can be configured to:  
   
 
 
@@ -255,7 +255,7 @@ For example, one Super Agent can be configured to:
   
 
 
-Each schedule is configured separately within the Super Agent’s Triggers area.
+Each schedule is configured separately within the Managed Agent’s Triggers area.
 
 * * *
 
@@ -277,7 +277,7 @@ Natural-language scheduling allows the builder to configure a Scheduled Trigger 
   
 
 
-The builder interprets the requested cadence and configures the trigger. Review the resulting schedule before publishing the Super Agent to confirm that the dates, times, weekdays, and end condition match your intent.
+The builder interprets the requested cadence and configures the trigger. Review the resulting schedule before publishing the Managed Agent to confirm that the dates, times, weekdays, and end condition match your intent.
 
 * * *
 
@@ -286,7 +286,7 @@ The builder interprets the requested cadence and configures the trigger. Review 
   
 
 
-Scheduled Triggers use the sub-account’s local timezone. Verifying the timezone before publishing helps prevent the Super Agent from running earlier or later than expected.
+Scheduled Triggers use the sub-account’s local timezone. Verifying the timezone before publishing helps prevent the Managed Agent from running earlier or later than expected.
 
   
 
@@ -298,7 +298,7 @@ The selected date and time should be interpreted according to the timezone confi
   * Team members work in different regions  
   
 
-  * The Super Agent supports contacts across multiple timezones  
+  * The Managed Agent supports contacts across multiple timezones  
   
 
   * A schedule must align with business hours  
@@ -317,12 +317,12 @@ Review the sub-account timezone before activating a new schedule.
   
 
 
-The Activity feed provides visibility into scheduled Super Agent executions. Reviewing scheduled activity helps confirm that an agent ran and supports troubleshooting when an expected action did not occur.
+The Activity feed provides visibility into scheduled Managed Agent executions. Reviewing scheduled activity helps confirm that an agent ran and supports troubleshooting when an expected action did not occur.
 
   
 
 
-Every scheduled run is logged after the Super Agent executes. Use this record to monitor recurring work and verify that scheduled activity is taking place.
+Every scheduled run is logged after the Managed Agent executes. Use this record to monitor recurring work and verify that scheduled activity is taking place.
 
   
 
@@ -340,14 +340,14 @@ Scheduled Triggers and the Workflow Scheduler both support time-based automation
   
 
 
-  * A Scheduled Trigger starts a Super Agent and runs its instructions, skills, and CRM actions.  
+  * A Scheduled Trigger starts a Managed Agent and runs its instructions, skills, and CRM actions.  
   
 
   * A Workflow Scheduler starts a HighLevel workflow.
 
 
   
-Use Scheduled Triggers when the task should be completed by a Super Agent. Use the Workflow Scheduler when the process should be handled through workflow actions and workflow logic.
+Use Scheduled Triggers when the task should be completed by a Managed Agent. Use the Workflow Scheduler when the process should be handled through workflow actions and workflow logic.
 
   
 Learn more in [Workflow Trigger - Scheduler](<https://help.gohighlevel.com/en/support/solutions/articles/155000006653>).
@@ -357,16 +357,16 @@ Learn more in [Workflow Trigger - Scheduler](<https://help.gohighlevel.com/en/su
 
 * * *
 
-## **How to Set Up Scheduled Triggers for a Super Agent**
+## **How to Set Up Scheduled Triggers for a Managed Agent**
 
   
 
 
-A complete schedule requires the correct trigger mode, timing, recurrence settings, and publishing status. Reviewing each setting before publishing helps ensure the Super Agent runs when intended.  
+A complete schedule requires the correct trigger mode, timing, recurrence settings, and publishing status. Reviewing each setting before publishing helps ensure the Managed Agent runs when intended.  
   
 
 
-  1. Open Agent Studio in the applicable sub-account. Open the Super Agent you want to schedule.  
+  1. Open Agent Studio in the applicable sub-account. Open the Managed Agent you want to schedule.  
   
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076390831/original/562jqV6HvofTsEUhDFZO0ymKZY5ADUa-zA.png?1784550611)  
@@ -446,16 +446,16 @@ For a one-time schedule:
   8. Review the schedule using the sub-account’s local timezone.  
   
 
-  9. Add another schedule when the Super Agent requires more than one cadence.  
+  9. Add another schedule when the Managed Agent requires more than one cadence.  
   
 
-  10. Publish the Super Agent.
+  10. Publish the Managed Agent.
 
 
   
 
 
-The schedule becomes active after the Super Agent is published. No manual kickoff is required after activation.
+The schedule becomes active after the Managed Agent is published. No manual kickoff is required after activation.
 
 * * *
 
@@ -464,14 +464,14 @@ The schedule becomes active after the Super Agent is published. No manual kickof
   
 
 
-**Q. Does a Scheduled Trigger run the entire Super Agent?**
+**Q. Does a Scheduled Trigger run the entire Managed Agent?**
 
-A. Yes. Every scheduled execution runs the Super Agent’s instructions, skills, and CRM actions, just as the full agent would run during a live execution.
+A. Yes. Every scheduled execution runs the Managed Agent’s instructions, skills, and CRM actions, just as the full agent would run during a live execution.
 
   
-**Q. Does the Super Agent need to be published?**
+**Q. Does the Managed Agent need to be published?**
 
-A. Yes. Publishing the Super Agent activates its configured schedule.
+A. Yes. Publishing the Managed Agent activates its configured schedule.
 
   
 
@@ -483,9 +483,9 @@ A. Scheduled Triggers use the sub-account’s local timezone.
   
 
 
-**Q. Can one Super Agent have more than one schedule?**
+**Q. Can one Managed Agent have more than one schedule?**
 
-A. Yes. Multiple schedules can be added to one Super Agent when it needs to run at different cadences.
+A. Yes. Multiple schedules can be added to one Managed Agent when it needs to run at different cadences.
 
   
 

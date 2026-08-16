@@ -1,14 +1,12 @@
-# How to Create and Manage Events in HighLevel[Private Beta]
+# How to Create and Manage Events in HighLevel
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000008071-how-to-create-and-manage-events-in-highlevel-private-beta-](https://help.gohighlevel.com/support/solutions/articles/155000008071-how-to-create-and-manage-events-in-highlevel-private-beta-)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000008071-how-to-create-and-manage-events-in-highlevel](https://help.gohighlevel.com/support/solutions/articles/155000008071-how-to-create-and-manage-events-in-highlevel)  
 **Category:** Marketing  
 **Folder:** Events
 
 ---
 
-****NOTE : Events feature is currently in Private Beta and will go live in a few weeks.****  
- **  
-**HighLevel Events lets you create and manage Ticketed and RSVP events directly inside your sub-account. You can build a public event page, sell tickets, collect registrations, add schedules and speakers, send event notifications, and check in attendees from one place. This article walks you through setting up an event from draft to published status, then managing registrations and attendee check-in after launch.
+HighLevel Events lets you create and manage Ticketed and RSVP events directly inside your sub-account. You can build a public event page, sell tickets, collect registrations, add schedules and speakers, send event notifications, and check in attendees from one place. This article walks you through setting up an event from draft to published status, then managing registrations and attendee check-in after launch.
 
 * * *
 
@@ -398,40 +396,7 @@ Once your event is live, use the following tabs to manage attendees:
   
 
 
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073297440/original/gjY9ynf_4Tem954kM20Dd6JDg786cgN-Nw.png?1781026436)**  
-  
-
-
-### **Danger Zone**
-
-  
-
-
-Under **Settings → Danger zone** , you will find actions that affect event availability or event data:
-
-  * **Unpublish Event:** Takes the event offline. Existing registrations are preserved.
-  * **Archive Event:** Removes the event from the active list. Archived events can be restored.
-  * **Delete Event:** Permanently deletes the event and associated data. This action cannot be undone.  
-  
-
-
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073297515/original/N_cD0QifMTIi4yjLe8rIi95mCiA3nPNXgw.png?1781026521)**  
-
-
-### **Event Overflow Menu**
-
-  
-
-
-The three-dot menu at the top right of the event gives quick access to common event actions:
-
-  * **Share event**
-  * **Duplicate Event**
-  * **Delete Draft**  
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073297572/original/Gk3Syj4HY9yxwr0GiAlAC-tBVKWFJD1fwg.png?1781026561)
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073297440/original/gjY9ynf_4Tem954kM20Dd6JDg786cgN-Nw.png?1781026436)**
 
 * * *
 

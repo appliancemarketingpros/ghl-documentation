@@ -5,6 +5,7 @@
 ## Articles
 
 - [Adding Closed Captions and Subtitles to your video courses](Adding Closed Captions and Subtitles to your video courses.md)
+- [Automate Group Join Requests with Workflows](Automate Group Join Requests with Workflows.md)
 - [Checkout Orchestrator](Checkout Orchestrator.md)
 - [Course Preview and Drip Scheduling Improvements](Course Preview and Drip Scheduling Improvements.md)
 - [Courses - Import from Media Storage](Courses - Import from Media Storage.md)
@@ -23,4 +24,3 @@
 - [How to Create a Whitelabel Membership PWA in Legacy Memberships](How to Create a Whitelabel Membership PWA in Legacy Memberships.md)
 - [How to Create Assessments/ Quizzes for Membership Courses](How to Create Assessments Quizzes for Membership Courses.md)
 - [How to Grant Access to Membership Courses Using Workflows](How to Grant Access to Membership Courses Using Workflows.md)
-- [How to Manage Comments In Memberships](How to Manage Comments In Memberships.md)

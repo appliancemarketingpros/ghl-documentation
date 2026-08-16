@@ -44,6 +44,15 @@ Make it easy for clients to **sign a document and pay in one flow**.
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155051366166/original/JCxJUNJo-GPfNfUveyySJsp7N7q-NHoV3A.png?1754927734)  
 
 
+  4. You can also use **Show image in list** to display or hide the product image. When adding a new product from the document editor, you can upload its image before adding the product to the list.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078276159/original/adVtdg-UjKEX9YHIMENTsfOKyYG319kiyA.png?1786559933)
+
+  
+  
+  
+
+
      1. If a One time product is added - The invoice type is set to One time.  
   
 \- You can select a product and change it to an optional item and make its quantities editable if needed from the properties section in the right.  
@@ -65,7 +74,13 @@ Make it easy for clients to **sign a document and pay in one flow**.
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155051366803/original/kYuN_Ssu2furPuvhpj6ug9l1pn1EcDxEtw.png?1754928047)  
 
 
-  4. Pick configurations you need (see quick callouts; full details in **Configurations** below):  
+  5.   
+
+
+  6.   
+
+
+  7. Pick configurations you need (see quick callouts; full details in **Configurations** below):  
   
 
 
@@ -85,11 +100,11 @@ Make it easy for clients to **sign a document and pay in one flow**.
   
 
 
-  5. **Send** the document.  
+  8. **Send** the document.  
   
 
 
-  6. **What happens at signing**  
+  9. **What happens at signing**  
   
 
 

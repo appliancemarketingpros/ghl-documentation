@@ -6,245 +6,244 @@
 
 ---
 
-Multi-Language Support for Voice AI Agents lets you choose the language your agent uses when speaking with callers. This article shows how to update the agent language, customize voice options, and save the changes in the updated Voice AI interface.
+Voice AI
 
-* * *
+# Multi-Language Support for Voice AI Agents
 
-**TABLE OF CONTENTS**
+Multi-Language Support for Voice AI Agents lets you choose the language your agent uses when speaking with callers. You can configure an agent for a specific language or select **Multilingual** to support both English and Spanish with one Voice AI Agent. This article explains supported languages, multilingual voice options, setup, and best practices.
 
-  * What is Multi-Language Support for Voice AI Agents?
-  * Key Benefits of Multi-Language Voice AI
-  * Supported Languages
-  * How to Configure Language for Voice AI Agents
-  * Best Practices for Optimal Performance
-  * Frequently Asked Questions
-  * Related Articles
+Table of Contents
 
-
-* * *
-
-# **What is Multi-Language Support for Voice AI Agents?**
-
-  
+  1. What is Multi-Language Support for Voice AI Agents?
+  2. Key Benefits of Multi-Language Voice AI
+  3. Supported Languages
+  4. Multilingual English and Spanish Support
+  5. Multilingual Voice Selection
+  6. How To Setup Multi-Language Support for Voice AI Agents
+  7. Best Practices for Optimal Performance
+  8. Frequently Asked Questions
+  9. Related Articles
 
 
-Multi-Language Support allows Voice AI Agents in HighLevel to communicate with callers in the selected language. This helps businesses provide a more localized caller experience by pairing the agent’s language with an appropriate voice, accent, and gender when available.
+1
 
-  
+## What is Multi-Language Support for Voice AI Agents?
 
+Multi-Language Support allows Voice AI Agents in HighLevel to communicate with callers in the language configured for the agent. Businesses can pair the selected language with an appropriate voice, accent, and gender when available to create a more localized caller experience.
 
 HighLevel Voice AI Agents support multiple languages, allowing businesses to configure each agent for the audience they serve. You can update the language directly from the agent editor or customize the voice further by selecting an accent, gender, and specific voice.
 
-* * *
+For businesses serving both English- and Spanish-speaking callers, the **Multilingual** option allows one Voice AI Agent to communicate in either language and switch between English and Spanish as needed.
 
-## **Key Benefits of Multi-Language Voice AI**
+2
 
-  
+## Key Benefits of Multi-Language Voice AI
 
+Multi-Language Support helps businesses create more accessible and natural caller experiences by matching the agent's language and voice to their audience. The Multilingual option extends this flexibility by allowing one agent to support both English and Spanish.
 
-  * **Localized Caller Experience:** Configure Voice AI Agents to speak in the language your callers expect.  
-  
+**Localized Caller Experience:** Configure Voice AI Agents to communicate in the language your callers expect.
 
+**Voice Customization:** Select available accents, genders, and voices for a more natural conversation.
 
-  * **Voice Customization:** Select available accents, genders, and voices for a more natural conversation.  
-  
+**Flexible Agent Setup:** Apply language settings while creating a new agent or editing an existing one.
 
+**Improved Caller Clarity:** Match the agent's spoken language to the audience it is designed to support.
 
-  * **Flexible Agent Setup:** Apply language settings while creating a new agent or editing an existing one.  
-  
+**English and Spanish in One Agent:** Select Multilingual to serve English- and Spanish-speaking callers without creating separate agents for each language.
 
+**Seamless Language Switching:** Multilingual agents can respond in English or Spanish and switch between the two languages as needed.
 
-  * **Improved Caller Clarity:** Match the agent’s spoken language to the audience it is designed to support.  
-  
+**Multilingual Voices:** Use voice profiles fine-tuned for both English and Spanish to provide natural-sounding interactions in either language.
 
+3
 
-  * **Multilingual Support:** Use one of the supported language options available for Voice AI Agents.
+## Supported Languages
 
+Voice AI Agents support a wide range of languages so businesses can configure agents for different customer audiences. Selecting an individual language configures the agent for that language, while selecting Multilingual enables English and Spanish support within one agent.
 
-* * *
-
-## **Supported Languages**
-
-  
-
-
-Voice AI Agents support a wide range of languages so businesses can configure agents for different customer audiences. The available language options appear inside the Voice AI Agent language and voice settings.
-
-  
-
-
-**Supported language options include:**
-
-  
-
+Supported language options include:
 
 English, German, Spanish, French, Portuguese, Italian, Dutch, Hindi, Japanese, Polish, Romanian, Turkish, Vietnamese, Swedish, Norwegian, Russian, Indonesian, Greek, Danish, Finnish, Chinese, Korean, Slovak, Bulgarian, Malay, Hungarian, Arabic, Tamil, Ukrainian, Filipino, Czech, Croatian, Afrikaans, Armenian, Azerbaijani, Bosnian, Galician, Hebrew, Icelandic, Kannada, Kazakh, Latvian, Lithuanian, Macedonian, Marathi, Nepali, Persian, Serbian, Slovenian, Swahili, Thai, Urdu, Welsh, and Multilingual.
 
-  
-There are also voices with **Multilingual** **support** (English and Spanish).  
-  
+Note
+
+Multilingual voices currently support **English and Spanish**.
+
+The voice library continues to expand, so additional voices and language options may become available over time.
+
+4
+
+## Multilingual English and Spanish Support
+
+The Multilingual setting is designed for businesses that want one Voice AI Agent to serve both English- and Spanish-speaking callers. Unlike selecting English or Spanish individually, Multilingual allows the agent to communicate across both supported languages.
+
+  * Callers can interact with the Voice AI Agent in English or Spanish.
+  * The agent responds in the detected or selected language.
+  * The agent can switch between English and Spanish as needed during the conversation.
+  * Businesses do not need separate English and Spanish Voice AI Agents.
+  * Multilingual voice profiles are fine-tuned for both English and Spanish.
 
 
-Our voice library is continually growing, ensuring more voices and languages will be added over time. 
+This option is useful when your audience includes callers who prefer different languages or may switch between English and Spanish during a conversation.
 
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078457224/original/jt7idiqRXz1031ZEIewAukasrPqO9CKRjA.png?1786716152)
 
-    
-    
-    **Tip:** You can import custom voices from ElevenLabs. [Click here to learn more.](<https://help.gohighlevel.com/en/support/solutions/articles/155000005874>)
+5
 
-* * *
+## Multilingual Voice Selection
 
-## **How to Configure Language for Voice AI Agents**
+Selecting a compatible voice helps the Voice AI Agent provide a consistent experience in both English and Spanish. Multilingual voice profiles are specifically fine-tuned for both languages so callers can hear the same voice as the conversation moves between English and Spanish.
 
-  
+When configuring the agent's voice, you can review available language, accent, gender, and voice options. Use the voice preview option to hear a voice before assigning it to the agent.
 
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078457866/original/BQagBX731mwXkrMPzJ36CtAbtj-OHapEAg.gif?1786716451)
 
-Proper setup ensures the Voice AI Agent uses the intended language and voice when speaking with callers. After selecting the language and voice, always save the changes and test the agent before using it with live callers.
+6
 
-  
+## How To Setup Multi-Language Support for Voice AI Agents
 
+Properly configuring the agent's language and voice ensures callers receive the intended experience. For a single-language agent, select the appropriate individual language. For one agent that needs to support both English and Spanish, select Multilingual and assign a compatible multilingual voice.
 
-  1. Log in to your HighLevel account.  
-  
+Step 1
 
+Log in to your HighLevel account.
 
-  2. Click **AI Agents** from the left menu.  
-  
+Step 2
 
+Click **AI Agents** from the left menu.
 
-  3. Click **Voice AI**.  
-  
-![](https://jumpshare.com/share/d14v7eFDCd32fOQlUEAO+/Screen+Shot+2026-06-22+at+21.41.16.png)  
-  
+Step 3
 
+Click **Voice AI**.
 
-  4. Choose one of the following options:  
-  
+Step 4
 
+Choose one of the following:
 
-     * Click **\+ Create Agent** to [create a new Voice AI Agent](<https://help.gohighlevel.com/en/support/solutions/articles/155000004107>).  
-  
+  * Click **\+ Create Agent** to create a new Voice AI Agent.
+  * Click **Agent List** and edit an existing Voice AI Agent.
 
-
-     * Click **Agent List** and edit an existing Voice AI Agent.  
-  
-![](https://jumpshare.com/share/KIv6pBMyNxFe8t5DmI4e+/Screen+Shot+2026-06-22+at+21.43.26.png)  
-  
-
-
-  5. Select the desired language from the **Language** option.  
-  
-![](https://jumpshare.com/share/oOMKIG5TmtS4jYsMLmlM+/Screenshot+2026-06-22+at+21.46.55.png)  
-  
-
-
-  6. To customize the voice further, click **Voice**.  
-  
-
-
-  7. Select the **language** , **accent** , **gender** , and **preferred voice**.  
-  
-
-
-  8. Use the **play button** to preview available voices.  
-  
-
-
-  9. Click **Save Voice**.  
-  
-
-
-  10. Click **Save** in the top-right corner to apply all changes.  
-  
-![](https://jumpshare.com/share/zSULvBliYFxj6zcpZQ5p+/GIF+Recording+2026-06-22+at+22.13.48.gif)
-
-
-* * *
-
-## **Best Practices for Optimal Performance**
 
   
 
 
-To maximize the effectiveness of your multilingual Voice AI, keep these best practices in mind:
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078457967/original/oNJLrm0-K-MRRN9eRK3BfyCn8zjsz1a2iw.png?1786716540)
+
+Step 5
+
+Locate the **Language** option in Agent Details.
 
   
 
 
-  * **Select the Correct Language** – The Voice Agent will only process and respond in the language configured, so ensure you choose the right one during setup.  
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078458009/original/J9GKp2BRLYDrviZ3nfdsq970cTuRH2LutA.png?1786716581)
 
+Step 6
 
-  * **Avoid Language Prompts** – Do not include explicit language instructions in your prompts, as this may cause confusion. The system automatically detects and operates in the selected language.  
-  
+Select the desired language.
 
+Step 7
 
-  * **Update Greeting Messages** – Customize the greeting message to match the selected language for a smooth and natural interaction with users.
-
-
-* * *
-
-## **Frequently Asked Questions**
+To support both English and Spanish with the same agent, select **Multilingual**.
 
   
 
 
-**Q: How many voices are available for each language?**
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078458087/original/K3q-Rc6pDMsbqBS03WqTEVe0n0jw3pFmww.png?1786716621)
 
-Our library includes over 80 voices, and the selection updates automatically based on the chosen language. More voices will continue to be added over time.  
-  
+Step 8
 
+Click **Voice** to customize the agent's voice.
 
-**Q: Can I change the language of an existing Voice Agent?**
+Step 9
 
-Yes, you can update the language selection within the configuration settings. However, you should also update the greeting message to align with the new language.  
-  
-
-
-**Q: Will additional languages be added in the future?**
-
-Yes! We are continuously working to expand our language and voice offerings to better support global users.
+Select a multilingual-compatible voice when using the Multilingual language setting.
 
   
 
 
-**Q: When I change the Agent’s Language, does the greeting update automatically?**
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078458148/original/HtgQhkcpuhLoGXtH0mKfpMXoj5K9_pO1cg.png?1786716664)
 
-Yes. Changing the Language in Agent Details instantly auto-translates the Agent’s Initial Message into the selected language. Make sure you review the translation and make any needed edits before saving.
+Step 10
 
-  
-
-
-**Q: Do all languages have the same accent and gender options?**  
-Available accents, genders, and voices vary by provider and language.
+Use the **Play** button to preview available voices.
 
   
 
 
-**Q: Should I test the agent after changing the language or voice?**  
-Yes. Place a test call to confirm the agent uses the correct language, voice, accent, and greeting.
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078458287/original/glMwxhj1NOUyVubVZulILvhlFmrn1eJ10Q.png?1786716707)
 
-* * *
+Step 11
 
-### **Related Articles**
+Click **Save Voice**.
 
-  
+Step 12
 
+Click **Save** in the top-right corner to apply all changes.
 
-  * [How to Create and Set Up a Voice AI Agent](<https://help.gohighlevel.com/support/solutions/articles/155000004107-creating-voice-ai-agents>)  
-  
+Step 13
 
+Test the agent before using it with live callers.
 
-  * [AI Voice Agents Overview](<https://help.gohighlevel.com/support/solutions/articles/155000003911-ai-voice-agents-overview>)  
-[ ](<https://help.gohighlevel.com/support/solutions/articles/155000003911-ai-voice-agents-overview>)
+7
 
-  * [Testing Voice AI Agents](<https://help.gohighlevel.com/support/solutions/articles/155000004108-testing-voice-ai-agents>)  
-  
+## Best Practices for Optimal Performance
 
+Choosing the correct language mode, voice, and greeting helps the Voice AI Agent communicate clearly with callers. Testing is especially important for Multilingual agents because both English and Spanish experiences should be validated before the agent is used with live callers.
 
-  * [Voice AI: Translation Service for Call Transcript & Summary](<https://help.gohighlevel.com/en/support/solutions/articles/155000005797>)  
-  
+**Choose the Right Language Mode:** Select an individual language when the agent should communicate in one language. Select Multilingual when the same agent needs to support both English and Spanish.
 
+**Use a Compatible Multilingual Voice:** When Multilingual is selected, choose a voice profile designed for English and Spanish.
 
-  * [Managing Granular Permissions for Voice AI Agents](<https://help.gohighlevel.com/en/support/solutions/articles/155000005680>)
+**Avoid Unnecessary Language Instructions:** Rely on the configured language settings instead of adding conflicting language instructions to the agent prompt.
+
+**Review the Initial Greeting:** Make sure the greeting aligns with the caller experience you want to provide.
+
+**Test English and Spanish:** For Multilingual agents, test calls in both languages before going live.
+
+**Test Language Switching:** When relevant to your use case, test a conversation that moves between English and Spanish to confirm the expected behavior.
+
+**Retest After Changes:** Place a new test call whenever you update the language, voice, or greeting.
+
+## Frequently Asked Questions
+
+### What is the difference between selecting English or Spanish and selecting Multilingual?
+
+Selecting English or Spanish configures the Voice AI Agent for that individual language. Selecting Multilingual allows the same agent to communicate in both English and Spanish.
+
+### Do I need separate Voice AI Agents for English and Spanish?
+
+No. Selecting Multilingual allows one Voice AI Agent to support both English- and Spanish-speaking callers.
+
+### Can a Multilingual Voice AI Agent switch languages during a conversation?
+
+Yes. The agent can communicate in English or Spanish and switch between the two languages as needed.
+
+### Does Multilingual support every language available in Voice AI?
+
+No. The Multilingual option described here supports English and Spanish. Other supported languages can be selected individually.
+
+### Do I need to select a specific voice for Multilingual?
+
+Use a multilingual-compatible voice profile that is fine-tuned for both English and Spanish.
+
+### Can I enable Multilingual on an existing Voice AI Agent?
+
+Yes. Edit the existing agent, change the Language setting to Multilingual, assign a compatible multilingual voice, save the changes, and test the agent.
+
+### Should I test both languages after enabling Multilingual?
+
+Yes. Test both English and Spanish before using the agent with live callers. If callers may switch languages during a conversation, test that scenario as well.
+
+### Does changing an agent's language affect the Initial Greeting Message?
+
+Changing the language in Agent Details can update the Initial Greeting Message for the selected language. Review the greeting before saving to make sure it matches the experience you want to provide.
+
+## Related Articles
+
+  * [How to Create Voice AI Agents](<https://help.gohighlevel.com/support/solutions/articles/155000004107-creating-voice-ai-agents>)
+  * [Overview of Voice AI Agents](<https://help.gohighlevel.com/support/solutions/articles/155000003911-ai-voice-agents-overview>)
+  * [How to Test Voice AI Agents](<https://help.gohighlevel.com/support/solutions/articles/155000004108-testing-voice-ai-agents>)
+  * [How Auto-Translated Greetings Work in Voice AI](<https://help.gohighlevel.com/support/solutions/articles/155000007512-how-auto-translated-greetings-work-in-voice-ai>)
+  * [How to Edit a Voice AI Agent's Voice](<https://help.gohighlevel.com/support/solutions/articles/155000005874-how-to-edit-a-voice-ai-agents-voice>)
+  * [Voice AI: Translation Service for Call Transcript & Summary](<https://help.gohighlevel.com/support/solutions/articles/155000005797>)

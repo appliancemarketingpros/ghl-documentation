@@ -80,6 +80,26 @@ Creating QR codes in HighLevel offers both convenience and flexibility, making i
 
 * * *
 
+## **QR Code Redirect Options**
+
+  
+
+
+QR Codes can redirect users to any of the following destinations:
+
+  
+
+
+Website, Review Link, Call, SMS, Email, Payment, Whatsapp, Funnel, Form, Survey, Quiz
+
+  
+
+    
+    
+    **Note:** QR Codes have Dynamic URLs. You can update your QR destination at any time without needing to generate a new QR image.
+
+* * *
+
 ## **How to Generate a QR Code**
 
   
@@ -288,9 +308,11 @@ Yes! You can link to forms, surveys, funnels, review links, payment pages, email
 
 **Q: What format should I choose for downloading?**
 
-  * PNG for general use
-  * SVG for responsive design
-  * PDF for print  
+PNG for general use
+
+SVG for responsive design
+
+PDF for print  
   
 
 

@@ -11,61 +11,59 @@ HighLevel has begun capturing Tax ID numbers from its customers worldwide to ens
 
     
     
-    Value Added Tax (VAT)  
-    If your organization is located within the European Union, Norway, Turkey, or the United Kingdom, Value-added tax (or VAT) will be added to your purchases (e.g. subscriptions, renewals) and you'll see the tax as a separate line item on your invoices.  
-      
-    VAT Exemption  
-    If you are a registered business, you may be exempt from VAT (i.e. reverse charge may apply) on your future purchases if a valid VAT ID is entered via the **Agency Settings > Billing > Payments page.**
+    **Value Added Tax (VAT)** If your organization is located within the European Union, Norway, Turkey, or the United Kingdom, Value-added tax (or VAT) will be added to your purchases (e.g. subscriptions, renewals) and you'll see the tax as a separate line item on your invoices.
+    
+    **VAT Exemption** If you are a registered business, you may be exempt from VAT (i.e. reverse charge may apply) on your future purchases if a valid VAT ID is entered via the Agency Settings > Billing > Payments page.
 
 * * *
 
 **TABLE OF CONTENTS**
 
-  * Updating the Tax ID
-  * Choosing the Correct Tax ID Type
+  * How to Update the Tax ID
+  * How to Choose the Correct Tax ID Type
+  * Related Articles
 
 
 * * *
 
-## **Updating the Tax ID**
+## **How to Update the Tax ID**
 
   
 
 
   1. Tax ID information can be accessed in **_Agency Settings > Billing > Payments_**  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155025689072/original/woWrc1qkJs_DoQ2NbBSgeFm2SkCxV1K19A.png?1715157380)  
+![](https://jumpshare.com/share/RY1EuputfiVESeSdNQds+/Screen+Shot+2026-08-14+at+18.54.53.png)  
+  
 
 
   2. Select the **_Edit_** button to start updating the Tax ID information.  
   
+![](https://jumpshare.com/share/NBs3pWcCCPg6j5tW0S83+/Screen+Shot+2026-08-14+at+18.56.18.png)
 
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155025689611/original/7N1-JO9HRHOIDAeLxTFmlnPgICQBNuYY0Q.png?1715157704)  
-
-
+  
   
 
 
   3. In the Tax ID pop-up as shown below:  
   
 
-     1. Choose the Tax ID type based on your region. _(A detailed guide on choosing the correct region based on your country is available below.)_  
+     1. **Choose** the **Tax****ID****type** based on your **region**. _(A detailed guide on choosing the correct region based on your country is available below.)_  
   
 
-     2. Enter the Tax ID number.  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155025689848/original/TqXTvTFBDEZmPbwQZgvi5cL8xvZpSfuMiw.png?1715157900)  
+     2. **Enter** the **Tax****ID** number.  
   
 
-  4. Select **_Save_**.
-
-
+  4. Select **_Save_**.  
   
+![](https://jumpshare.com/share/lGtNZIzbAOhxkhEmPBw0+/Screen+Shot+2026-08-14+at+18.58.32.png)  
+  
+
 
     
     
-    Select the 'I do not have a Tax ID' checkbox if:  
+    Select the '**I do not have a Tax ID** ' checkbox if:
+      
     - you have a Tax ID but it is **not in the list** below  
     - you **do not have** a Tax ID number  
     - you do not wish to disclose your Tax ID
@@ -74,7 +72,7 @@ HighLevel has begun capturing Tax ID numbers from its customers worldwide to ens
 
 * * *
 
-## **Choosing the Correct Tax ID Type**
+## **How to Choose the Correct Tax ID Type**
 
   
 
@@ -198,9 +196,9 @@ _
 
 * * *
 
-## **Related Articles**
+### **Related Articles**
 
   
 
 
-  * [Automatic Tax Category IDs and Names](<https://help.gohighlevel.com/en/support/solutions/articles/155000006278>)
+  * [ Automatic Tax Category IDs and Names](<https://help.gohighlevel.com/en/support/solutions/articles/155000006278>)

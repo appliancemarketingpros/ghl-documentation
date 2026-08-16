@@ -234,7 +234,34 @@ Before downgrading, review which features and sub-account limits are included in
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077814181/original/z_yZxsbaz_oFbZGSGWNR2D16T1Qqu0d98Q.png?1786027768)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077814181/original/z_yZxsbaz_oFbZGSGWNR2D16T1Qqu0d98Q.png?1786027768)  
+  
+
+
+If your account is eligible, you can move to a lower-tier plan while reactivating your subscription without contacting Support.  
+  
+
+
+  1. On the reactivation screen, select Click Here next to the option to modify your current subscription.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078459254/original/fldrndZ9MR6IOlqeytJAPCcwCjOol3D0sQ.png?1786717342)  
+  
+
+  2. In the subscription modification window, select Downgrade Plan.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078459613/original/tXBTQ2l51LqwirRo3umUmU6bJX2Ya0geIQ.png?1786717393)  
+  
+
+  3. Review the lower-tier plan available to your account.  
+  
+
+  4. Complete the requested downgrade details and acknowledgements shown on the screen.  
+  
+
+  5. Confirm the downgrade to reactivate your subscription on the lower-tier plan.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078459653/original/ucsERmjGY7mOCBB5UsXqW6T076jN6bqIQg.png?1786717411)
+
 
 * * *
 

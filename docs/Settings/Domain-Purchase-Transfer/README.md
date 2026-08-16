@@ -9,7 +9,6 @@
 - [How to Enable and Rebill Domain Purchase?](How to Enable and Rebill Domain Purchase.md)
 - [How to Purchase Domain Step by Step](How to Purchase Domain Step by Step.md)
 - [Get Additional Domain Extensions While Buying or Managing Domains](Get Additional Domain Extensions While Buying or Managing Domains.md)
-- [LC Domain: Multiple Year Domain Purchase](LC Domain Multiple Year Domain Purchase.md)
 - [Domains - Transfer-In Process](Domains - Transfer-In Process.md)
 - [Releasing Purchased Domains from a Cancelled Account](Releasing Purchased Domains from a Cancelled Account.md)
 - [Transfer a Domain Out of HighLevel](Transfer a Domain Out of HighLevel.md)

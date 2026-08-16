@@ -23,7 +23,19 @@ With Workflows, you can add Facebook Conversion event actions in automation to s
 
   1. For **Funnel events** in Facebook conversion API action, you can use the following triggers; Form Submitted, Survey Submitted, Customer Booked Appointment, and Order Form Submission.  
 (For an appointment, it will only work with "Customer Booked appointment," not with "appointment," as appointments are the general triggers and "Customer Booked appointment" is the trigger for the widget; click" [here](<https://help.gohighlevel.com/support/solutions/articles/48001081184>) to learn more.)
-  2. For **Lead events** in Facebook conversion API action, you can only use the trigger "Facebook Lead Form Submission" and "Pipeline Stage Change"(This will work if your contact is coming from a facebook lead form)
+  2. **For Lead Events:**
+
+Facebook Lead Form Submission and Pipeline Stage Change are commonly used triggers; however, the Facebook Conversions API action is **not limited to these triggers**.
+
+Other workflow triggers, such as **Contact Tag Added, Opportunity Status Changed, Contact Changed, or similar contact-based triggers** , can also be used **as long as the contact has valid Facebook attribution data available**.
+
+For the conversion to be attributed and sent correctly to Meta, the contact should have Facebook attribution information, such as:
+
+     * `fbclid` / Facebook Click ID (`fbc`), or
+     * Paid Social (Facebook) attribution associated with the contact.
+  3. For example, if a contact originally entered CRM through a Facebook ad and later has a tag added, a workflow triggered by **Contact Tag Added** can run the Facebook Conversions API action using the Facebook attribution information stored against that contact.
+
+If the contact does not have the required Facebook attribution information, the workflow action may execute in HighLevel, but Meta may not be able to receive or correctly attribute the conversion.
 
 
   
@@ -110,7 +122,16 @@ This happens when you send test data (we're not sure why Facebook does this), bu
   
 
 
-Yes, it is possible to do so and we will be using the last possible pixel data to send this event. Basically, if the fbclid id is found, the data will be sent to conversion API. It can be best explained by the following examples:
+**Yes.** These triggers can be used when the contact already has valid Facebook attribution information. HighLevel uses the available Facebook attribution data associated with the contact when sending the conversion event to Meta.
+
+For example:
+
+  * A contact enters through a Facebook ad and receives Facebook attribution data.
+  * Later, a tag is added or the opportunity status changes.
+  * A workflow triggered by that action can send a Facebook Conversions API event using the attribution information already associated with the contact.
+
+
+**Important:** The workflow trigger itself does not create Facebook attribution data. The contact must already have the required attribution information from a previous Facebook interaction.
 
   
 

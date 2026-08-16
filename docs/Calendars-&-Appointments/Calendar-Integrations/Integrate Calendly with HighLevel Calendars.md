@@ -195,6 +195,9 @@ Check the consent box to allow HighLevel to fetch your Calendly events and relat
     
     
     We automatically import both upcoming events and past events created within the last 180 days at the time of connecting your Calendly account.
+    
+    **Important:** Workflows trigger only for future events. Past events imported during the initial Calendly connection do not trigger workflows.
+    
 
   
 

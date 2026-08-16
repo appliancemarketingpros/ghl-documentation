@@ -100,7 +100,7 @@ This helps speed up onboarding by bringing over important data and structure, in
   
 
 
-The HubSport Importer currently supports Contacts, Opportunities (Deals), Custom Fields (Properties), Custom Folders, Pipelines, Stages, Notes and Tasks.
+The HubSport Importer currently supports Contacts, Opportunities (Deals), Companies, Custom Fields (Properties), Custom Folders, Pipelines, Stages, Emails, Notes and Tasks.
 
   
 
@@ -114,16 +114,15 @@ Migration Type| What It Does
 ---|---  
 Contacts migration| Brings HubSpot contact records into HighLevel.  
 Opportunities migration| Imports HubSpot Deals as HighLevel Opportunities.  
-Custom Fields migration| Maps HubSpot Contact and Deal Properties to HighLevel Custom Fields.  
+Companies migration| Imports HubSpot companies as new records into HighLevel.  
+Custom Fields migration  
+| Maps HubSpot Contact and Deal Properties to HighLevel Custom Fields.  
+  
 Pipelines & Stages migration| Preserves the full pipeline structure, including stages.  
 Custom Folders migration| Carries over folder organization for supported imported data.  
+Email migration| Brings over all of your emails from HubSpot into HighLevel  
 Tasks migration| Brings your reminders and to-dos into HighLevel.  
   
-  
-
-
-Other HubSpot objects (Companies, Tickets, Engagements, Workflows, etc.) are not yet included and are coming soon.
-
   
 
 
@@ -136,7 +135,7 @@ For unsupported objects, use your broader migration plan or the manual migration
   
 
 
-  * **Pipelines & Opportunities:** Pipelines and pipeline stages are imported. An opportunity can be associated with up to 10 additional contacts.  
+  * **Pipelines & Opportunities:** Pipelines and pipeline stages are imported. An opportunity can be associated with up to 10 additional contacts. Also an opportunity with no contacts associated to it cannot be imported.  
   
 
   * **C****ustom Fields:** Custom field mapping is based on field keys. If a conflicting field key already exists in HighLevel, the import may fail. HubSpot calculated fields are imported as Single Line Text fields.  
@@ -148,17 +147,14 @@ For unsupported objects, use your broader migration plan or the manual migration
   * **Contacts:** If an imported contact is deleted in HighLevel and the importer is run again, the contact will be imported again. If the deleted contact is later restored, duplicate contacts may be created.  
   
 
-  * **Notes:** A note can be associated with only one record of each object type. For example, a note can be linked with one contact, one opportunity and one company.  
+  * **Notes:** A note can be associated with only one record of each object type. For example, a note can be linked with one contact, one opportunity. Currently - notes cannot be associated to companies.  
   
 
-  * **Tasks:** Recurring tasks are not supported. A task can be associated with up to 10 records of each object type. For example, a task can be linked with 10 contacts, 10 opportunities and 10 companies.  
+  * **Tasks:** Recurring tasks are not supported. A task can be associated with up to 10 records of each object type. For example, a task can be linked with 10 contacts, 10 opportunities or 10 companies.  
   
 
-  * **Associations:** Some associations may not be imported due to platform limits. Customers should validate critical associations after migration.
-
-
+  * **Associations:** Some associations may not be imported due to platform limits. Customers should validate critical associations after migration.  
   
-
 
   * **Emails:** Imported emails from HubSpot will be read only.
 
@@ -175,7 +171,7 @@ For unsupported objects, use your broader migration plan or the manual migration
   
 
 
-From Contacts (or Opportunities), open the Import menu in the top-right and select Import data. 
+From Contacts (or Companies or Opportunities), open the Import menu in the top-right and select Import data. 
 
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071283631/original/mrGot9kMZ6vWQcy9ipDvtgU9TgFqcPNjfw.png?1778710020)
@@ -267,6 +263,7 @@ Choose which HubSpot objects to bring over:
   * **Deals:** Track pipeline value and status. Deals are imported as **Opportunities**.  
   
 Importing Deals requires Contacts. Contacts will be auto-selected if you pick Deals.
+  * **Companies** : Brings over your company object records as Companies.
 
 
   
@@ -274,9 +271,7 @@ Tick the boxes for what you want, then click **Continue**.
   
 
 
-![The Select objects step showing two cards: Contacts and Deals, with checkboxes to choose which to import.](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071278773/original/nT85rW9mnb8lOhAzBt0-0HB5Lv3J8LeRqA.png?1778701230)  
-  
-
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078262193/original/9J14TQ92R36XCt6EAI5P7VvEAC6Sa_yM9w.png?1786548570)
 
 #### _**Step 6:** Review What is Included_
 
@@ -287,7 +282,7 @@ The wizard automatically includes the related data needed to keep your records c
   
 
 
-  * **Contacts:** all properties (standard + custom fields), notes  
+  * **Contacts:** all properties (standard + custom fields), notes, emails  
   
 
 
@@ -295,7 +290,8 @@ The wizard automatically includes the related data needed to keep your records c
   
 
 
-  * **Deals:** all properties, pipelines, notes, associations.  
+  * **Deals:** all properties, pipelines, notes, associations.
+  * **Companies** : properties and associations.  
   
 Pipeline stages are imported along with pipelines. You don't need to recreate them.  
   
@@ -314,8 +310,7 @@ Pipeline stages are imported along with pipelines. You don't need to recreate th
 
 
 Click **Continue** to move on.  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077135238/original/1A01i5guYSTtXZdcUO45yOufFVaZeW8Hwg.png?1785327504)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078261235/original/jpWs8pZkJ4ht6uPqRgZjg0UrNOZcQVo9UQ.png?1786547999)
 
 ####   
 
@@ -355,12 +350,12 @@ Optionally click the **Edit** (pencil) icon next to contact properties or deal p
 
 
 Click **Confirm and start import** to kick it off. Confirm once more in the dialog that follows.  
-  
-![The Preview and import step showing a Confirm import details table with HubSpot data, Imported as, and Records found counts.](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071278805/original/Z-_MD9oRaYaV-PAkZDKlaGQvF0GhKPRiEQ.png?1778701293)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078261342/original/kSvGt3X3jjOcvSgWTLBsj8ESpnlpHeztiA.png?1786548053)
 
   
-  
+You can also choose to modify and bring in only certain custom fields from HubSpot and not all of them.
 
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078261390/original/5kwnilw8ChlaQMKJIKL0SjmR1fn7CSNS_A.png?1786548079)
 
 #### _**Step 8:** Your Import is Running_
 
@@ -383,7 +378,7 @@ You can close the window or navigate away, the import keeps running. Come back t
   
 
 
-When you're ready to review results, click the **eye icon** in the **Actions** column of an import row. The **Import details** modal opens.  
+When you're ready to review results, click the **stats icon** in the **Actions** column of an import row. The **Import details** modal opens.  
   
 
 
@@ -410,10 +405,9 @@ The four cards at the top give you the headline numbers:
 **Object view** (the default tab) summarizes each object: how many succeeded, how many errored, and overall status.
 
   
-![The Import details modal in Object view, showing total records, success, errors, and imported-with-warnings counts plus a per-object summary table.](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071278815/original/zKJLQBdvxJ4p4St10bqYnIcpVisDj9xgrg.png?1778701321)
 
-  
-  
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078261790/original/P_qYFR7xV5eP3ezjJ3da9jUyfMG-W57eXg.png?1786548354)  
 
 
 #### _**Step 10:** Drill into Individual Records_
@@ -436,8 +430,7 @@ Use the filters at the top:
   * **Status:** filter by **Success** , **Error** , or **Imported with warnings**.
 
 
-  
-![The Import details modal in Record view, filtered to Status = Success, showing successfully imported records.](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071278820/original/nx7JZoAveOBkgtxT9nOFwAV2FnTgUeV9kw.png?1778701335)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078261814/original/fwWBJSqFQiURRDSnfzLISs1TF70kzSnWWw.png?1786548363)  
   
 
 
@@ -458,20 +451,11 @@ Click **Download** in the bottom-left to export the full error list as a CSV, us
 
 Common error causes are covered in the Troubleshooting and FAQ sections below.
 
-![The Import details modal filtered to Status = Error, showing rows of failed records with error messages referencing HubSpot record IDs.](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071278831/original/jYbzrfeK7K-Dqv6z5QkLmeIgOs7Vk9UD5Q.png?1778701352)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078261819/original/RflIwLxZKQ8TXd3tmJ_nV82idHVgrEw3rw.png?1786548374)
 
 * * *
 
 ## **Troubleshooting**
-
-  
-
-
-#### **The Verify & Connect button gives me an error.**
-
-Double-check that your service key starts with `pat-` and that all four read-only scopes 
-
-`crm.objects.contacts.read`, `crm.objects.deals.read`, `crm.schemas.contacts.read`, `crm.schemas.deals.read`) are attached to the key. If it still fails, generate a fresh key in HubSpot and try again.
 
   
 

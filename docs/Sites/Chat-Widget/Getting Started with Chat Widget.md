@@ -250,7 +250,7 @@ Once you select the chat widget type, there will 3 pages (4 if the chat type sup
 **  
 **
 
-  * **Style:** User selects the themes, icons and welcome messages. User can also select the avatar and placement of chat widget. User can configure different sizes of chat widget.  
+  * **Style:** User selects the themes, icons and welcome messages. User can also select the avatar and placement of chat widget. User can configure different sizes of chat widget. Customize the widget theme, icons, welcome messages, avatar, placement, and dimensions. Under Widget Placement, choose Sticky or Embedded / Inline. Embedded / Inline placement is available across all supported Chat Widget types.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060347414/original/f6s2mdzpV4ZXnYyNacuQDaSVh7eimwKKyw.png?1765387459)  
   

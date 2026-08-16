@@ -99,17 +99,44 @@ Note: If you do not see “All-in-One Chat,” ensure your account has access to
   
 
   3. **Select Channels**
-     1. After creating the All-in-One Chat widget, open it and go to the **Style** tab.
+     1. After creating the All-in-One Chat widget, open it and go to the **Style** tab.  
+  
+
      2. In **Chat Type** , use the multi-select dropdown to choose any combination of:  
 \- Live Chat  
 \- SMS/Email  
 \- Voice AI  
 \- Facebook  
 \- Instagram  
-\- WhatsApp
+\- WhatsApp  
+  
+
      3. You can enable any number of these channels at once. The preview updates instantly to reflect your selection.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060490340/original/CKiaFjXGmHmw9wNsy3lX8Vux5k9pxKVMPQ.png?1765540649)
+
+     4. Choose Widget Placement
+
+  
+
+
+Under the **Style** tab, select a placement under Widget Placement:
+
+  
+
+
+**Sticky:** Keeps the widget fixed in a page corner.
+
+**Embedded / Inline:** Renders the All-in-One Chat experience inline within your page content.
+
+  
+
+
+With Embedded / Inline placement, the widget opens automatically and remains visible within the page. The floating chat bubble and its initial prompt popup are not displayed, and the embedded widget cannot be minimized.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060490340/original/CKiaFjXGmHmw9wNsy3lX8Vux5k9pxKVMPQ.png?1765540649)  
+  
+
+
   4. **Customize Widget Settings**
      1. **General Settings:**
         1. Name your widget for easy reference (e.g., “Main Website Widget”).

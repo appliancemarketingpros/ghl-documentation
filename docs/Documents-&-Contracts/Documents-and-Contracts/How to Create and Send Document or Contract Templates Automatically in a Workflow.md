@@ -122,7 +122,7 @@ Templates are reusable and can include logos, custom values, pricing tables, and
   
 
 
-  * **Product List:** Include services or items with pricing pulled from your catalog.  
+  * **Product List:** Include services or items with pricing pulled from your catalog. You can show or hide a product image using **Show image in list**. When creating a new product from the document editor, you can also upload its image.  
   
 
 

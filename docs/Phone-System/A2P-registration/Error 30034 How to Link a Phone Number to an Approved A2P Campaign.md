@@ -1,6 +1,6 @@
-# How to Link a Phone Number to an Approved A2P Campaign
+# Error 30034: How to Link a Phone Number to an Approved A2P Campaign
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000008316-how-to-link-a-phone-number-to-an-approved-a2p-campaign](https://help.gohighlevel.com/support/solutions/articles/155000008316-how-to-link-a-phone-number-to-an-approved-a2p-campaign)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000008316-error-30034-how-to-link-a-phone-number-to-an-approved-a2p-campaign](https://help.gohighlevel.com/support/solutions/articles/155000008316-error-30034-how-to-link-a-phone-number-to-an-approved-a2p-campaign)  
 **Category:** Phone System  
 **Folder:** A2P registration
 
@@ -68,6 +68,11 @@ Before continuing, verify that:
 
   * The phone number is an applicable 10-digit local number. 
 
+
+  
+
+
+Need help registering your A2P brand or campaign? See [What is A2P 10 DLC: Brand and Campaign Registration](<https://help.gohighlevel.com/en/support/solutions/articles/155000002380>)
 
   
 

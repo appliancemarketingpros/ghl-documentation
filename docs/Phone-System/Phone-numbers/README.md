@@ -6,7 +6,7 @@
 
 - [Moving Phone Numbers across accounts (US and International)](Moving Phone Numbers across accounts (US and International).md)
 - [Moving US numbers from Twilio to LeadConnector(LC)](Moving US numbers from Twilio to LeadConnector(LC).md)
-- [Moving Numbers across Sub-Accounts (Same Agency)](Moving Numbers across Sub-Accounts (Same Agency).md)
+- [Moving Numbers between Sub-Accounts (Same Agency)](Moving Numbers between Sub-Accounts (Same Agency).md)
 - [Buying a Twilio Number in Your Own Twilio Account Connected to HighLevel](Buying a Twilio Number in Your Own Twilio Account Connected to HighLevel.md)
 - [Overview of Phone Number Configuration Options](Overview of Phone Number Configuration Options.md)
 - [How to buy a toll free number inside GHL?](How to buy a toll free number inside GHL.md)

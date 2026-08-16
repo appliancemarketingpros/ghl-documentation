@@ -58,6 +58,17 @@ Upload files effortlessly via **drag-and-drop**. Just drag media from your compu
 
 You can also upload **font files** (such as `.ttf`, `.otf`, `.woff`, `.woff2`) up to **100MB** in size. These can be used to customize branding in websites or funnels using Custom CSS.
 
+  
+
+
+When you upload files to Media Storage, the upload panel shows progress in real time. The header shows the number of items uploading, the transferred size, and the overall upload percentage.
+
+Each file shows its upload percentage and transferred size compared with its total file size. As each file finishes uploading, a green checkmark marks it as complete.
+
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078463018/original/1w229jac7jaWmhus7TiOtfxT0yF9uwWtDw.png?1786718595)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078463052/original/VhHTXkGwMLWNsKeqpJsxAR-8E7mnn_NX5Q.png?1786718610)
+
 * * *
 
 ## **Uploading Folders  

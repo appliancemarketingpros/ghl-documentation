@@ -4,7 +4,7 @@
 
 ## Articles
 
-- [How to Link a Phone Number to an Approved A2P Campaign](How to Link a Phone Number to an Approved A2P Campaign.md)
+- [Error 30034: How to Link a Phone Number to an Approved A2P Campaign](Error 30034 How to Link a Phone Number to an Approved A2P Campaign.md)
 - [Pre-Built A2P Campaign Registration with Chat Widget](Pre-Built A2P Campaign Registration with Chat Widget.md)
 - [Registering Your A2P Brand](Registering Your A2P Brand.md)
 - [A2P Campaign Rejections, Required Fixes & Vetting Errors](A2P Campaign Rejections, Required Fixes & Vetting Errors.md)

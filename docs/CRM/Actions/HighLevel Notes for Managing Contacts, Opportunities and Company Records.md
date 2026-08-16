@@ -1,12 +1,17 @@
-# Efficiently Using HighLevel Notes for Managing Contacts, Opportunities and Company Records
+# HighLevel Notes for Managing Contacts, Opportunities and Company Records
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000004555-efficiently-using-highlevel-notes-for-managing-contacts-opportunities-and-company-records](https://help.gohighlevel.com/support/solutions/articles/155000004555-efficiently-using-highlevel-notes-for-managing-contacts-opportunities-and-company-records)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000004555-highlevel-notes-for-managing-contacts-opportunities-and-company-records](https://help.gohighlevel.com/support/solutions/articles/155000004555-highlevel-notes-for-managing-contacts-opportunities-and-company-records)  
 **Category:** CRM  
 **Folder:** Actions
 
 ---
 
 HighLevel Notes help teams capture important details, track updates, and keep everyone aligned when working with contacts, opportunities, and company records. This article explains how Notes work in each module, highlights their benefits, and provides step-by-step guidance on adding, searching, filtering, and viewing notes. By the end, you’ll know how to use Notes to improve collaboration and maintain accurate records.
+
+* * *
+
+  
+
 
 * * *
 
@@ -203,10 +208,16 @@ The Companies module aggregates notes across all contacts associated with a comp
   
 
 
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078239643/original/rzr-WvfVDfMIAEZDgZRFz2B0lEnUdpT1xQ.png?1786538559)
+
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067209118/original/6vM5vOLYUpR8LVnUJt2rz2xwFysshan4EQ.png?1773835103)
+  
+
+    
+    
+    Note: New documents uploaded as Notes attachments are private by default and are stored in the "Notes attachments" folder under Documents. Documents uploaded through Notes before this update retain their existing public status.
 
   
 

@@ -20,3 +20,4 @@
 - [Smart Lists in Opportunities](Smart Lists in Opportunities.md)
 - [How to Customize Pipeline Stage Colors in Opportunities](How to Customize Pipeline Stage Colors in Opportunities.md)
 - [Reordering Pipelines in Opportunities](Reordering Pipelines in Opportunities.md)
+- [Conditional Custom Fields for Opportunities](Conditional Custom Fields for Opportunities.md)

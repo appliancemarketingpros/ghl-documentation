@@ -1,6 +1,6 @@
-# MCP Connectors
+# MCP Connectors for Superagent
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000008304-mcp-connectors](https://help.gohighlevel.com/support/solutions/articles/155000008304-mcp-connectors)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000008304-mcp-connectors-for-superagent](https://help.gohighlevel.com/support/solutions/articles/155000008304-mcp-connectors-for-superagent)  
 **Category:** AI Employee  
 **Folder:** MCP Server
 
@@ -8,7 +8,7 @@
 
 AI Automation
 
-# MCP App Connectors
+# MCP App Connectors **for Superagents**
 
 Extend your Superagents with powerful third-party integrations through Model Context Protocol (MCP) connectors.
 
@@ -85,6 +85,10 @@ OpenArt| Create AI-generated artwork and visual content through OpenArt.
 Monday.com| Manage work in boards, create and update items, and move tasks through statuses.  
 Cal.com| Book, reschedule, and manage meetings on connected calendars automatically.  
 Higgsfield| Generate cinematic AI videos and images from text or reference inputs.  
+GitHub| Read code, manage issues and pull requests, and trigger actions across development workflows.  
+Shippo| Compare carrier rates, purchase and print shipping labels, and track shipments.  
+Windsor.ai| Pull unified marketing and advertising data from 350+ sources and take actions on connected platforms, such as adjusting campaign budgets or pausing ads.  
+Vapi| Trigger and manage AI voice calls, route calls to voice assistants, and retrieve call details.  
   
 More Connectors Coming Soon
 

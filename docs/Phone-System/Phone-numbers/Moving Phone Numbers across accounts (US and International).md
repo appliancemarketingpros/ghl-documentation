@@ -18,9 +18,6 @@ This guide explains how to move numbers from LC Phone to Twilio, from Twilio to 
 
   
 
-
-  
-
     
     
     **IMPORTANT** : You no longer need to open a Twilio Support ticket. HighLevel Support coordinates migrations end-to-end.
@@ -54,7 +51,7 @@ Ensure you have the following information and access:
   
 
 
-  * **Twilio Account SID** (gaining for LC→Twilio, losing for Twilio→LC)  
+  * **Twilio Account SID** (gaining for LC→Twilio, losing for Twilio→LC. Not needed for LC→LC)  
   
 
   * **Destination sub-account ID** (where the number will live)  
@@ -113,6 +110,9 @@ The three moves—**LC→Twilio** , **Twilio→LC** , and **LC→LC (different a
 
 ### _**Step 1:** Gather Twilio credentials (when required)_
 
+  
+
+
 These can be found in the Twilio Console under the Account Info section.
 
   
@@ -137,7 +137,10 @@ These can be found in the Twilio Console under the Account Info section.
 
 ###  _**Step 2:** Obtain the Location ID consisting the phone number (or where to transfer the phone number)_
 
-Navigate to Settings → Business Profile in your HighLevel account to locate the Sub-account ID (also known as Location ID) of the LC Phone Sub-account holding the phone number(s).
+  
+
+
+Navigate to **Settings → Business Profile** in your HighLevel account to locate the Sub-account ID (also known as Location ID) of the LC Phone Sub-account holding the phone number(s).
 
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054160913/original/MuHzpQF5_gS-jMkoIU47bJNg2hvRs4tLqA.png?1758293832)  
@@ -145,6 +148,9 @@ Navigate to Settings → Business Profile in your HighLevel account to locate th
 
 
 ### _**Step 3:** Open a HighLevel Support ticket_
+
+  
+
 
 This ticket kicks off the migration—include the numbers, the relevant gaining/losing Twilio Account SID, the destination sub-account ID, and your preferred cutover window. HighLevel Support schedules and coordinates everything, then confirms when the number is live (no Twilio ticket needed).  
   

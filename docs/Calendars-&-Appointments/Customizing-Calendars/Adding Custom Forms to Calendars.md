@@ -44,6 +44,45 @@ Custom forms in HighLevel allow you to gather personalized information from cont
 
 * * *
 
+## **Key Benefits of Using Custom Forms with Calendars**
+
+  
+
+
+Attaching a custom form to your calendar booking flow ensures that you capture the most relevant details before an appointment is set. This improves lead handling, automates data collection, and enhances your ability to deliver personalized experiences.
+
+  
+
+
+  * **Lead Qualification:** Ask important pre-booking questions to filter out unqualified leads.  
+  
+
+
+  * **Automated Data Collection:** Map form responses directly to contact records for CRM efficiency.  
+  
+
+
+  * **Improved Personalization:** Use collected data to tailor communications, services, or offers.  
+  
+
+
+  * **Reduced Back-and-Forth:** Get all the necessary details upfront to avoid delays or follow-ups.  
+  
+
+
+  * **Compliance and Consent:** Add terms, agreements, or consent checkboxes to meet legal needs.  
+  
+
+
+  * **Workflow Triggers:** Initiate automations based on custom field responses submitted in the form.  
+  
+
+
+  * **Better Client Experience:** Provide a seamless and structured way for clients to share info before booking.
+
+
+* * *
+
 ## **How Custom Forms Behave During Booking**
 
   
@@ -89,6 +128,9 @@ The confirmation page setting lets you choose what happens after the form is sub
 
 Available options include:
 
+  
+
+
   1. Default
   2. Redirect URL
   3. Use custom form rules
@@ -113,45 +155,6 @@ When **Use custom form rules** is selected, the booking flow follows the form’
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071119890/original/ARsjHKJxwrXkgv_yiGsi5VUTzzJokkveFA.png?1778582179)
-
-* * *
-
-## **Key Benefits of Using Custom Forms with Calendars**
-
-  
-
-
-Attaching a custom form to your calendar booking flow ensures that you capture the most relevant details before an appointment is set. This improves lead handling, automates data collection, and enhances your ability to deliver personalized experiences.
-
-  
-
-
-  * **Lead Qualification:** Ask important pre-booking questions to filter out unqualified leads.  
-  
-
-
-  * **Automated Data Collection:** Map form responses directly to contact records for CRM efficiency.  
-  
-
-
-  * **Improved Personalization:** Use collected data to tailor communications, services, or offers.  
-  
-
-
-  * **Reduced Back-and-Forth:** Get all the necessary details upfront to avoid delays or follow-ups.  
-  
-
-
-  * **Compliance and Consent:** Add terms, agreements, or consent checkboxes to meet legal needs.  
-  
-
-
-  * **Workflow Triggers:** Initiate automations based on custom field responses submitted in the form.  
-  
-
-
-  * **Better Client Experience:** Provide a seamless and structured way for clients to share info before booking.
-
 
 * * *
 

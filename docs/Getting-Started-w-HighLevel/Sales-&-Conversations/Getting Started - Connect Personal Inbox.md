@@ -29,15 +29,15 @@ Ready to streamline your email management? Here's how you can quickly connect yo
   
 
 
-  * Go to **Settings > My Profile > Email (2-way sync)**.  
+  1. Go to **Settings > My Profile > Email (2-way sync)**.  
   
 
-  * Choose **Gmail** or **Outlook** , then click **Connect**.  
+  2. Choose **Gmail** or **Outlook** , then click **Connect**.  
   
 **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046886503/original/wlIzt4ohhqao3OMU4ruXMtXaEn8TD4dRXg.png?1747694876)**  
   
 
-  * Follow the prompts to**accept** **permissions**. It's safe and secure!  
+  3. Follow the prompts to**accept** **permissions**. It's safe and secure!  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046886508/original/QeM2ih-tIpDggV2SEmCbDnF2TXxV7IVVlA.png?1747694925)
 
@@ -57,6 +57,11 @@ Ready to streamline your email management? Here's how you can quickly connect yo
 
  _Next, you can start sending messages directly from within HighLevel to make your workflow even smoother._
 
+  
+
+
+Need help troubleshooting? Check out [Email Failure: Insufficient Permission for 2-Way Sync](<https://help.gohighlevel.com/en/support/solutions/articles/155000006053>)
+
 * * *
 
 ## **Use Your Connected Email**
@@ -68,23 +73,23 @@ Now that you've got your inbox connected, you're all set to manage your emails d
   
 
 
-  * Navigate to **Conversations**.  
+  1. Navigate to **Conversations**.  
   
 
-  * Click on **Create New Message** (the pencil-on-paper icon).  
+  2. Click on **Create New Message** (the pencil-on-paper icon).  
   
 
-  * Select **Direct Message**.  
+  3. Select **Direct Message**.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046886699/original/2RmZnJEROfqY_iXzlGMbjIQTtVQXtu-zaQ.png?1747695680)  
   
 
-  * Choose your contact and click **Continue**.  
+  4. Choose your contact and click **Continue**.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046886724/original/skyZC4rN3t9yD9qwALmBqjA6UVIh0R5GcQ.png?1747695777)  
   
 
-  * Your connected email address will automatically populate in the "**From** " field.  
+  5. Your connected email address will automatically populate in the "**From** " field.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046886742/original/LACGHPQyZi4BUtuW-86xpEQdzqOK_Y6xtw.png?1747695895)  
   

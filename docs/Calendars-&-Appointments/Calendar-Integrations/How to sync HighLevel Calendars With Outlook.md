@@ -264,6 +264,11 @@ Account role message: Outlook Integration is not enabled for your account. Pleas
 
 * * *
 
+###   
+
+
+* * *
+
 ### **Limitations with Outlook Integration**
 
 Each user can connect only one Outlook integration per subaccount, and the same Outlook integration cannot be connected across multiple subaccounts. For instance, if User A has already connected their Outlook integration in Subaccount A, they won't be able to link the same outlook integration in Subaccount B.

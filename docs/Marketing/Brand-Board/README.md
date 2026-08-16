@@ -12,5 +12,5 @@
 - [Brand Voice in Brand Boards](Brand Voice in Brand Boards.md)
 - [Help Guide: Global Custom Color](Help Guide Global Custom Color.md)
 - [Global Custom Colors in Color Picker](Global Custom Colors in Color Picker.md)
-- [Create Your Brand Voice from Text or URL](Create Your Brand Voice from Text or URL.md)
+- [How to Create Brand Voice from Text or URL](How to Create Brand Voice from Text or URL.md)
 - [Brand Board Colors in the Form, Survey and Quiz Builder](Brand Board Colors in the Form, Survey and Quiz Builder.md)

@@ -8,3 +8,4 @@
 - [Cancellation for reselling subscriptions: In-app](Cancellation for reselling subscriptions In-app.md)
 - [Reselling - Paywall Payment Error Handling Improvements](Reselling - Paywall Payment Error Handling Improvements.md)
 - [Reselling Performance Insights in the Agency Dashboard](Reselling Performance Insights in the Agency Dashboard.md)
+- [Fixed-Rate Rebilling for AI Products](Fixed-Rate Rebilling for AI Products.md)

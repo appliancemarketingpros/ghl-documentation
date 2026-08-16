@@ -8,6 +8,12 @@
 
 This article outlines the steps required to transfer a domain to a different Cloudflare account. It consists of a pre-requisite, preparation steps, and the transfer process.
 
+  
+
+    
+    
+    **Transferring a domain to a different registrar?** See [Transfer a Domain Out of HighLevel](<https://help.gohighlevel.com/en/support/solutions/articles/155000008384>) for details. This article only applied to Cloudflare.
+
 * * *
 
 **TABLE OF CONTENTS**
@@ -83,7 +89,7 @@ Ensure **proxy is turned OFF** for all records before clicking 'Continue to Acti
   
 
 
-Once you have completed all above process, obtain the **account ID** of your Cloudflare account and share it with us. To obtain the account ID, extract the alphanumeric value from the URL.
+Once you have completed all above process, obtain the **account ID** of your Cloudflare account and share it with us via [Support](<https://help.gohighlevel.com/en/support/solutions/articles/155000000969>). To obtain the account ID, extract the alphanumeric value from the URL.
 
   
 **Example:** In this case, this is the account ID: `0d2031c4bcda5980204101c44294740c`

@@ -6,7 +6,6 @@
 
 - [Call Events Not Working for Twilio](Call Events Not Working for Twilio.md)
 - [Geo Permissions - Voice](Geo Permissions - Voice.md)
-- [How To Fix - Phone Call Redirect Loop](How To Fix - Phone Call Redirect Loop.md)
 - [Using Call Connect to Ensure Accurate Call Status Tracking](Using Call Connect to Ensure Accurate Call Status Tracking.md)
 - [How to check logs for a specific Call in Twilio](How to check logs for a specific Call in Twilio.md)
 - [How to Set Up Call Tracking (Number Pool)](How to Set Up Call Tracking (Number Pool).md)
@@ -24,3 +23,4 @@
 - [SIM-based calling with the Mobile App](SIM-based calling with the Mobile App.md)
 - [Remediate 'Spam Likely' on your Caller ID using Free Caller Registry](Remediate 'Spam Likely' on your Caller ID using Free Caller Registry.md)
 - [Local Presence Dialing with the HighLevel Phone System](Local Presence Dialing with the HighLevel Phone System.md)
+- [Why doesn’t my Business Name display after CNAM registration?](Why doesn’t my Business Name display after CNAM registration.md)

@@ -12,6 +12,7 @@ This is a comprehensive guide for migrating online communities, courses, and rel
 
 **TABLE OF CONTENTS**
 
+  * What is Skool to HighLevel Migration?
   * Preparation for Migration
   * Use the Skool Importer for a More Streamlined Migration
   * Data Migration
@@ -20,19 +21,34 @@ This is a comprehensive guide for migrating online communities, courses, and rel
   * Testing and Validation
   * Team Training and Transition
   * Decommissioning Skool
+  * Related Articles
 
 
 * * *
 
-# **Preparation for Migration**
+# **What is Skool to HighLevel Migration?**
 
   
 
+
+Migrating from Skool to HighLevel is the process of moving your community members, courses, content, events, and related operations into HighLevel. A successful migration helps preserve important member and course data while giving you access to HighLevel’s CRM, automation, community, and marketing tools in one platform. 
+
+  
+
+
+Careful planning, migration, testing, and validation can help minimize disruption for both your team and community members.
+
+* * *
+
+## **Preparation for Migration**
 
   
 
 
 ###  _**Step 1:** Review Current Skool Setup_
+
+  
+
 
   * **Identify Key Assets:** Catalog all essential elements, including community members, courses, content, events, and automation workflows currently used within Skool.  
   
@@ -43,10 +59,10 @@ This is a comprehensive guide for migrating online communities, courses, and rel
   
 
 
+### _**Step 2:** Define Migration Objectives_
+
   
 
-
-### _**Step 2:** Define Migration Objectives_
 
   * **Set Clear Goals:** Define the primary reasons for migrating to HighLevel, such as better CRM integration, advanced marketing automation, or a more unified platform.  
   
@@ -57,18 +73,15 @@ This is a comprehensive guide for migrating online communities, courses, and rel
   
 
 
+### _**Step 3:** Prepare Backup_
+
   
 
-
-### _**Step 3:** Prepare Backup_
 
   * **Export Data from Skool:** Export all relevant data (members list, courses, community content) from Skool as CSV files or other applicable formats.  
   
 
   * **Backup Documentation:** Securely store all exported files and related documentation to ensure data safety before starting the migration process.
-
-
-  
 
 
   
@@ -83,29 +96,24 @@ This is a comprehensive guide for migrating online communities, courses, and rel
   
 
 
-If you are migrating from Skool, HighLevel also provides a dedicated Skool Importer that helps bring over community members and content more efficiently.
+If you are migrating from Skool, HighLevel also provides a dedicated [**_Skool Importer_**](<https://help.gohighlevel.com/en/support/solutions/articles/155000005150>) that helps bring over community members and content more efficiently.
 
   
 
 
 The importer now supports a more seamless multi-group migration experience and preserves imported content order more accurately.
 
-  
-
-
-For the most current importer workflow, refer to the dedicated Skool Importer article.
-
 * * *
 
-# **Data Migration**
-
-  
-
+## **Data Migration**
 
   
 
 
 ###  _**Step 1:** Export Data from Skool_
+
+  
+
 
   * **Export Members:** In Skool, navigate to the Members section and use the export function to download the member list as a CSV file, including names, emails, and any custom fields.  
   
@@ -119,10 +127,10 @@ For the most current importer workflow, refer to the dedicated Skool Importer ar
   
 
 
+### _**Step 2:** Import Data into HighLevel_
+
   
 
-
-### _**Step 2:** Import Data into HighLevel_
 
   * **Import Members:** In HighLevel, go to Contacts > Import Contacts and upload the CSV file exported from Skool. Ensure all fields are correctly mapped during the import process.  
   
@@ -136,22 +144,19 @@ For the most current importer workflow, refer to the dedicated Skool Importer ar
   
 
 
-  
-
-
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155032355223/original/G-aCOKgK9gRTh0btOOE9BSPdR683i814-w.png?1725556379)
 
 * * *
 
-# **Rebuilding Community and Courses**
-
-  
-
+## **Rebuilding Community and Courses**
 
   
 
 
 ### ** _Step 1:_**_Set Up Community Channels in HighLevel_
+
+  
+
 
   * **Create Channels:** In HighLevel, create new channels for each community or discussion group that was present in Skool. Customize the channel settings, including privacy options and access levels.  
   
@@ -162,10 +167,10 @@ For the most current importer workflow, refer to the dedicated Skool Importer ar
   
 
 
+### **_Step 2:_**_Recreate and Organize Courses_
+
   
 
-
-### **_Step 2:_**_Recreate and Organize Courses_
 
   * **Set Up Course Structure:** Use HighLevel’s course creation tools to structure courses similarly to how they were organized in Skool. Create sections and modules as needed, and upload all relevant content.  
   
@@ -176,10 +181,10 @@ For the most current importer workflow, refer to the dedicated Skool Importer ar
   
 
 
+### **_Step 3:_**_Manage Member Roles and Permissions_
+
   
 
-
-### **_Step 3:_**_Manage Member Roles and Permissions_
 
   * **Assign Roles:** Assign roles such as Admin, Moderator, or Contributor to members in HighLevel, ensuring that the community hierarchy and permissions are preserved.  
   
@@ -190,22 +195,19 @@ For the most current importer workflow, refer to the dedicated Skool Importer ar
   
 
 
-  
-
-
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155032355226/original/bZnq9YD8Dz4oHkxglEm_7-7mVoCgF3n98A.png?1725556379)
 
 * * *
 
-# **Rebuilding Events and Automations**
-
-  
-
+## **Rebuilding Events and Automations**
 
   
 
 
 ### ** _Step 1:_**_Recreate Events in HighLevel_
+
+  
+
 
   * **Set Up Event Calendar:** Use HighLevel’s calendar feature to recreate events that were scheduled in Skool. Set up recurring events and ensure that all relevant members are invited.  
   
@@ -216,10 +218,10 @@ For the most current importer workflow, refer to the dedicated Skool Importer ar
   
 
 
+### **_Step 2:_**_Rebuild Automation Workflows_
+
   
 
-
-### **_Step 2:_**_Rebuild Automation Workflows_
 
   * **Create Automation Flows:** In HighLevel, navigate to Automations > Workflows to recreate Skool’s automation processes, such as welcome messages, course completion notifications, and event reminders.  
   
@@ -230,22 +232,19 @@ For the most current importer workflow, refer to the dedicated Skool Importer ar
   
 
 
-  
-
-
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155032355222/original/3UlJhzZaRVir_VgOoJ4LSW3jNPXftkGNRQ.png?1725556379)
 
 * * *
 
-# **Testing and Validation**
-
-  
-
+## **Testing and Validation**
 
   
 
 
 ### ** _Step 1:_**_Test Community and Course Functionality_
+
+  
+
 
   * **Perform End-to-End Testing:** Simulate member interactions, such as joining channels, accessing courses, and participating in discussions, to ensure everything functions as intended.  
   
@@ -256,10 +255,10 @@ For the most current importer workflow, refer to the dedicated Skool Importer ar
   
 
 
+### **_Step 2:_**_Validate Event and Automation Setups_
+
   
 
-
-### **_Step 2:_**_Validate Event and Automation Setups_
 
   * **Run Test Scenarios:** Test each event and automation workflow to verify that triggers and actions work correctly, ensuring a smooth experience for all members.  
   
@@ -270,22 +269,19 @@ For the most current importer workflow, refer to the dedicated Skool Importer ar
   
 
 
-  
-
-
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155032355227/original/4Or9nxGkndP0_JhVE9Asaf9vBszBHUqvnA.png?1725556379)
 
 * * *
 
-# **Team Training and Transition**
-
-  
-
+## **Team Training and Transition**
 
   
 
 
 ### ** _Step 1:_**_Train Team Members_
+
+  
+
 
   * **HighLevel Training:** Conduct training sessions to familiarize team members with HighLevel’s interface, especially focusing on community management, course setup, and automation tools.  
   
@@ -296,10 +292,10 @@ For the most current importer workflow, refer to the dedicated Skool Importer ar
   
 
 
+### **_Step 2:_**_Monitor and Optimize_
+
   
 
-
-### **_Step 2:_**_Monitor and Optimize_
 
   * **Monitor System Performance:** Regularly review the performance of community engagement, course completion rates, and automation effectiveness post-migration.  
   
@@ -310,22 +306,19 @@ For the most current importer workflow, refer to the dedicated Skool Importer ar
   
 
 
-  
-
-
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155032355224/original/CXKuWpPL22CqNUBnw_hr0uycOdmBGRturw.png?1725556379)
 
 * * *
 
-# **Decommissioning Skool**
-
-  
-
+## **Decommissioning Skool**
 
   
 
 
 ### ** _Step 1:_**_Transition Period_
+
+  
+
 
   * **Run Systems in Parallel:** Consider running Skool and HighLevel in parallel for a brief period to ensure a smooth transition for members and administrators.  
   
@@ -336,10 +329,10 @@ For the most current importer workflow, refer to the dedicated Skool Importer ar
   
 
 
+### **_Step 2:_**_Cancel Skool Subscription_
+
   
 
-
-### **_Step 2:_**_Cancel Skool Subscription_
 
   * **Final Backup:** Ensure all necessary data is backed up before canceling the Skool subscription.  
   
@@ -350,10 +343,10 @@ For the most current importer workflow, refer to the dedicated Skool Importer ar
   
 
 
+### **_Step 3:_**_Post-Migration Review_
+
   
 
-
-### **_Step 3:_**_Post-Migration Review_
 
   * **Review Success:** Assess the success of the migration, documenting any challenges and resolutions for future reference.  
   
@@ -364,7 +357,22 @@ For the most current importer workflow, refer to the dedicated Skool Importer ar
   
 
 
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155032355225/original/2Pnx15QnI5xTF48IVqh1q88T8fCHbn6cKw.png?1725556379)
+
+* * *
+
+### **Related Articles**
+
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155032355225/original/2Pnx15QnI5xTF48IVqh1q88T8fCHbn6cKw.png?1725556379)
+  * [Hubspot to HighLevel (Migration Guide)](<https://help.gohighlevel.com/en/support/solutions/articles/155000003388>)  
+  
+
+  * [MailChimp to HighLevel (Migration Guide)](<https://help.gohighlevel.com/en/support/solutions/articles/155000003392>)  
+  
+
+  * [Pipedrive to HighLevel (Migration Guide)](<https://help.gohighlevel.com/en/support/solutions/articles/155000003700>)  
+  
+
+  * [Salesforce to HighLevel (Migration Guide)](<https://help.gohighlevel.com/en/support/solutions/articles/155000004305>)

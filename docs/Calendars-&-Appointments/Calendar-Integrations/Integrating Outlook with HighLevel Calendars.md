@@ -85,7 +85,6 @@ Integrating your Outlook calendar with HighLevel helps you **sync your bookings*
   1. Go to your sub-account **Settings.**   
   
 ![](https://jumpshare.com/v/ryQPlQhQckXw3YtcO6Sw+/Screen+Shot+2025-05-28+at+8.48.27+PM.png)  
-  
 
   2. Select **Calendars** under Business Services.  
   
@@ -104,7 +103,6 @@ Integrating your Outlook calendar with HighLevel helps you **sync your bookings*
   1. From the **Connections** page, click on the **Connect** button beside **Outlook****Calendar**.  
   
 ![](https://jumpshare.com/v/HkeaAlT9pE52VsDA28QH+/Screen+Shot+2025-05-28+at+8.54.15+PM.png)  
-  
 
   2. Sign in to your **Outlook Account**.  
   
@@ -120,6 +118,32 @@ Integrating your Outlook calendar with HighLevel helps you **sync your bookings*
     
     **Supported** : Microsoft 365 / Exchange Online accounts. 
     **Not Supported** : Stand-alone or on-premises Microsoft Exchange servers.
+
+* * *
+
+## **Seeing “Need Admin Approval” When Connecting Outlook?**
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078090851/original/0UHHS7FYylNh-e03HkuZ3SGQnonpuqne8w.png?1786433770)**
+
+  
+
+
+When connecting Outlook as a third-party calendar in HighLevel, you may see a**“Need admin approval”** screen. This means your organization requires an administrator to approve the connection before it can be completed.
+
+  
+
+
+**Prerequisite:** Sign in to the Microsoft Entra admin center with an **administrator account** or as a **designated reviewer with the appropriate role** to review and approve the request.
+
+  
+
+
+For instructions on reviewing and approving the request, refer to Microsoft’s documentation:
+
+<https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/review-admin-consent-requests>
+
+  
+
 
 * * *
 

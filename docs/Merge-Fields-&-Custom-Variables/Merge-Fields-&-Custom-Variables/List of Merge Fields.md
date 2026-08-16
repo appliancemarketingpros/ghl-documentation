@@ -481,7 +481,7 @@ The fallback value can be set by clicking on the custom value tag inside the ema
   
 
 
-Voice AI merge fields, also called Custom Values in Voice AI prompts, let your AI voice agent personalize phone conversations using information already stored in HighLevel. These values can pull in details such as contact, company, appointment, calendar, account, or location information when they are available in the call context.
+Voice AI merge fields, also called Custom Values in Voice AI prompts, let your AI voice agent personalize phone conversations using information already stored. These values can pull in details such as contact, company, appointment, calendar, account, or location information when they are available in the call context.
 
   
 
@@ -526,7 +526,7 @@ For setup instructions, see [How to Use Custom Values in Voice AI Agent Prompts]
   
 
 
-Conversation AI merge fields help AI agents personalize automated conversations by using available contact, company, location, and other supported HighLevel data. These values are useful when configuring bot prompts, Bot Goals, AI-generated responses, and supported Conversation AI actions.
+Conversation AI merge fields help AI agents personalize automated conversations by using available contact, company, location, and other supported data. These values are useful when configuring bot prompts, Bot Goals, AI-generated responses, and supported Conversation AI actions.
 
   
 

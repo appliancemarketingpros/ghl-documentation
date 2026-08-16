@@ -134,7 +134,18 @@ The Booking Page Settings are broken down into 4 sections; Customize Booking Pag
   * **Company Name & Logo:** Add your company name and upload your company logo, which will be displayed on your booking page.  
   
 
+  * **Service Images:** Choose whether service images are displayed on your booking page.
+    * With Images: Displays uploaded service images on service cards.
+    * Without Images: Hides service images and displays service information in a text-focused layout.  
+This setting applies across the Services booking page and helps you choose the presentation that best fits your business.  
+  
+
   * **Account Slug:** Your account slug is a unique identifier used as the base for all your service URLs.  
+  
+
+  * **Browse By:** Control how customers discover services on your booking page.
+    * Browse by Category: Customers first select a category and then choose from the services available within that category.
+    * Browse All Services: Customers can view all available services upfront and optionally use categories to filter the list.  
   
 
   * **Booking Page Order:** Decide the flow of your booking page. In case of multiple locations, choose whether customers select a service first or a location first before proceeding with the booking.  
@@ -143,7 +154,7 @@ The Booking Page Settings are broken down into 4 sections; Customize Booking Pag
   * **Booking Page Layout:** Decide how services appear on your booking page — display them in a card view, a list view, or give customers the option to choose their preferred view in real time.  
   
 
-  * **Filter & Sort Menu Placement:** Set how filters and sorting options are displayed on the booking page — either horizontally at the top or vertically on the left, based on your preferred browsing experience.  
+  * **Filter & Sort Menu Placement:** Set how filters and sorting options are displayed on the booking page — horizontally at the top in a dropdown, vertically on the left or categories as tabs on the top — based on your preferred browsing experience.  
   
 
   * **Theme:** Choose between a light or dark theme for your booking page, which affects the header, footer, and widgets.  
@@ -193,16 +204,16 @@ The Booking Page Settings are broken down into 4 sections; Customize Booking Pag
   * **Allow Multiple Service Selection:** Enable this to let customers book multiple services in one session.  
   
 
-  * **Auto-Assign Staff Based On:** Used when the customer doesn’t select a staff member. The system will follow this preference to assign one automatically.
+  * **Auto-Assign Staff Based On:** Used when the customer doesn’t select a staff member. The system will follow this preference to assign one automatically.  
+  
+
+  * **Allow Customers to Explore Other Services:** Enable Allow customers to explore other services to let customers browse beyond the service or category they originally opened. When enabled, customers who enter the booking page using a direct service or category link can explore and add services from other categories during the same booking journey.
 
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155052228871/original/fqBhBPAaHNyoEkWEa3NjpWOu2Fjr4NDd9w.png?1756011126)
-
-  
-
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078080202/original/BWlat3kQ5eavHBg8TfdX2ZHrRsJSMnD7kg.png?1786423197)
 
   
 
@@ -257,16 +268,36 @@ After a booking is made, choose to show a custom message on the default confirma
   * **Currency:** Select the currency in which payments will be displayed and collected. This will apply to all services. If you are changing your currency, please ensure that the corresponding pricing for each service is updated accordingly.  
   
 
-  * **Booking Payment Options:** Set how payments are handled on your booking page. This will determine what your customers see during checkout.  
+  * **Booking Payment Options:** Choose how you want to handle payments when customers book a service:
+    * Online Payment: Customers pay online at the time of booking. If online payment is selected, you can enable Allow deposit or full payment choice to give customers more flexibility when booking services that have a deposit configured. At checkout, customers can choose to either pay the required deposit or make the full payment upfront.
+    * Pay in Person: Customers pay when they arrive. No card or payment details are collected during booking, and no payment options are displayed at checkout.
+    * Card on File Only: Card details are collected securely during booking, but the customer is not charged at the time of booking.  
   
 
-  * **Hide Payment Amount:** Enable this option to hide the payment amount on the booking page. This setting only applies when the payment method is set to Pay in Person or Card on File.
+  * **Hide Payment Amount:** Enable this option to hide the payment amount on the booking page. This setting only applies when the payment method is set to Pay in Person or Card on File.  
+  
+
+  * **Coupon Codes:** Enable Coupon Codes to allow customers to apply a coupon during the booking process. Before enabling this option, make sure you have created valid coupons under Payments > Coupon Codes. Customers can then enter an applicable coupon code while booking to receive the configured discount.  
+  
+
+  * **Taxes:** Taxes for Services are configured at the individual service or associated product level rather than in Global Settings. To charge tax for a service, open the individual service or its associated product and configure the applicable manual tax rate. Once configured, the tax will automatically appear in the booking details.  
+  
+
+  * **Price Display Format:** Choose how service prices are displayed when a service has multiple prices:
+    * Show Price Range: Displays both the lowest and highest available price.
+    * Show Starting Price: Displays only the lowest available price as the starting price.
 
 
   
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155052228898/original/mD7UqiA_C1NoolBMZN55J5Z3fU3HEuCXgg.png?1756011301)
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078080385/original/15qzPXZ-ip3FaGLQPcthLLw1akgwfSGCxA.png?1786423566)  
+
 
 * * *
 
@@ -281,24 +312,26 @@ After a booking is made, choose to show a custom message on the default confirma
   * **Minimum Scheduling Notice:** The minimum time required after which an appointment cannot be booked. For example, if the notice is set to 2 hours, a 10 AM slot cannot be booked after 8 AM on the same day.  
   
 
-  * **Date Range:** Controls how far into the future customers can book appointments. If set to 1 month, only slots for the next 30 days will be available.  
+  * **Booking Window:** Control how far into the future customers can view availability and book your services. Choose between two booking window types:
+    * Range based: Shows availability for a rolling number of days from today. As time passes, new days automatically become available for booking. For example, setting the range to 30 days means customers can always book up to 30 days from the current date.
+    * Date-based: Lets you define a specific date range up to which customers can book. Unlike a rolling range, the start and end date remains fixed.  
   
 
-  * **Cancellation & Reschedule:**  
-****
+  * **Service Booking Title:** Customize the title used for appointments created through your Services booking page. You can use custom values, such as {{contact.name}}, to dynamically personalize the booking title with customer information.  
+  
+
+  * **Cancellation & Reschedule:**
     * **Allow Cancellation:** When enabled, you can set an expiration time to your cancellation link. This link will expire at the set time before the appointment, preventing last-minute cancellations.  
   
 
     * **Allow Rescheduling:** Similar to cancellation, enabling this lets you set an expiration time to the rescheduling link. It will expire as configured before the appointment time.  
   
 
-    * **Auto Confirm New Appointments:** New bookings will automatically be marked as confirmed by default. If disabled, appointments will be unconfirmed, allowing manual review before confirmation.
-
-
+    * **Auto Confirm New Appointments:** New bookings will automatically be marked as confirmed by default. If disabled, appointments will be unconfirmed, allowing manual review before confirmation.  
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155047089610/original/ohRu0KNX_kehM4h0fv8stofvkQYnrD9bdw.png?1747931116)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078080470/original/6o8TSY_MRXa90OBOdyzxTkhLh7tt8-jtwQ.png?1786423794)
 
 * * *
 
@@ -419,13 +452,18 @@ Notifications can be delivered via:
   
 
 
+  * **WhatsApp** — send booking notifications and updates to customers through WhatsApp.  
   
 
 
+    
+    
+    Note: WhatsApp notifications currently support booking-level custom values, but not individual service-level custom values. For example, if a customer books three services in a single booking, you can dynamically include information for the overall booking, but you cannot currently reference dynamic values for each individual service within the WhatsApp notification.
+
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155052228980/original/3eVR2q3RH0Or1X9rSZoP1SXcch78NtLX1A.png?1756011892)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078080648/original/Ml6vUZaIuuVv5bUmAHm6BnGpjWmDgpDNWQ.png?1786424161)
 
 * * *
 

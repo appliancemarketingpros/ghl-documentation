@@ -4,7 +4,11 @@
 
 ## Articles
 
-- [How to Create and Manage Events in HighLevel[Private Beta]](How to Create and Manage Events in HighLevel[Private Beta].md)
+- [How to Create and Manage Events in HighLevel](How to Create and Manage Events in HighLevel.md)
 - [Check-in Experience for In Person Events](Check-in Experience for In Person Events.md)
 - [Events: Custom CSS with Live Element Selection](Events Custom CSS with Live Element Selection.md)
 - [Embed Events with Code Snippet](Embed Events with Code Snippet.md)
+- [Events - How to Manually Add Attendees](Events - How to Manually Add Attendees.md)
+- [Multi-Attendee Registration with Individual Details and Data Copying](Multi-Attendee Registration with Individual Details and Data Copying.md)
+- [Events and Workflows Integration](Events and Workflows Integration.md)
+- [Multi-Attendee Registration in HighLevel Events Guide](Multi-Attendee Registration in HighLevel Events Guide.md)

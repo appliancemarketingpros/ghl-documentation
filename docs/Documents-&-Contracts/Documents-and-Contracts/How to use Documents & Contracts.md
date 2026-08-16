@@ -149,10 +149,7 @@ You can narrow down results by selecting a start and end date from the calendar.
   
 
 
-You can create documents in three ways, depending on your needs.
-
-  
-
+You can create a new document from the **\+ New** menu or clone an existing document from its three-dot action menu.
 
   
 
@@ -181,6 +178,36 @@ Click the **\+ New** button at the top right of the dashboard. Choose from:
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054055258/original/0ilqxRWMqzRTETE5RqLlmfvJADEATM8qxQ.png?1758201378)
+
+  
+  
+
+
+### **Clone an Existing Document**
+
+  
+
+
+Clone an existing document to create a duplicate without first converting the document into a template.  
+  
+
+
+  1. Go to Payments → Documents & Contracts.  
+  
+
+  2. Find the document you want to duplicate.  
+  
+
+  3. Open the three-dot menu next to the document.  
+  
+
+  4. Select Clone.  
+  
+
+
+HighLevel creates a new document named “Document Name Copy.”  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078162372/original/71xYxnsroXrE9JvRXFDjJFZrFgv4FiNoNw.png?1786467318)
 
 * * *
 

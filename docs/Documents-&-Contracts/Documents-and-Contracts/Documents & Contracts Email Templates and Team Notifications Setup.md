@@ -565,12 +565,17 @@ This template notifies your internal team when a document has been successfully 
   
 
 
-Enable this option to notify the document owner when a client opens and views a document. Customizing the **subject line** and template ensures your team receives clear, timely updates on client engagement.
+Enable**Document Viewed** to receive an email notification when any recipient views the document for the first time. The native notification sends only one alert for the first view across all recipients, even when the document has multiple recipients. You can customize the notification email by editing the subject and body. In the email body, insert {{Preview URL}} when you want to include the document preview URL.
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155052242740/original/AWWmWZNn_u0_uWZjAFf-fUKLFtaMh8W5Uw.png?1756056154)
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155052242740/original/AWWmWZNn_u0_uWZjAFf-fUKLFtaMh8W5Uw.png?1756056154)  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078141343/original/7hfrJXQTcrcj5tBNKNosDb_ntPSVJxtZqA.png?1786456825)
 
   
 

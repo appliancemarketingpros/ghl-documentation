@@ -16,3 +16,4 @@
 - [Surveys - How to Setup and Use Order Bumps](Surveys - How to Setup and Use Order Bumps.md)
 - [Enhanced Consent Checking for Voice AI Outbound Calling (Forms, Surveys, Calendars)](Enhanced Consent Checking for Voice AI Outbound Calling (Forms, Surveys, Calendars).md)
 - [Save Progress for Forms, Surveys & Quizzes](Save Progress for Forms, Surveys & Quizzes.md)
+- [Customize Image Layouts in Forms & Surveys](Customize Image Layouts in Forms & Surveys.md)

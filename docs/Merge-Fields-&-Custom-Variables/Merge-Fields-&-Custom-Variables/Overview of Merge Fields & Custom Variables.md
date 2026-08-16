@@ -203,7 +203,7 @@ _![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/produc
   
 
 
-Merge fields and custom values in workflows can include built-in system fields in addition to your saved custom values. HighLevel now supports more workflow-ready fields in the picker for merge fields and If/Else conditions.
+Merge fields and custom values in workflows can include built-in system fields in addition to your saved custom values. The system now supports more workflow-ready fields in the picker for merge fields and If/Else conditions.
 
   
 

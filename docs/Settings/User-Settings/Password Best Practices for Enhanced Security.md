@@ -195,7 +195,7 @@ Navigate to the HighLevel login page and select **Forgot Password?**
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077689008/original/VoTDj42r0enJid1QEdJWkeKjsRWlK_gXKA.png?1785930537)
 
-ep 2
+STep 2
 
 Submit a password-reset request
 
@@ -203,7 +203,7 @@ Enter the email address associated with your HighLevel account and submit the pa
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077689163/original/A7bGmc3T-eZeyo3Lt41y5o3mAI5g9coQgw.png?1785930589)
 
-tep 3
+Step 3
 
 Check your inbox for the reset email
 
@@ -260,7 +260,7 @@ Locate the **Change Password** section on your profile page.
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077689575/original/NHYRISxC2Nbm49N3dkVUqTH4R2SsUtNzRA.png?1785930789)
 
-tep 3
+Step 3
 
 Enter your current password
 
@@ -326,7 +326,7 @@ HighLevel supports time-based one-time password authenticator apps, including Go
 
 Q: Does my HighLevel password require a special character?
 
-Yes. Your password must be at least 12 characters long an include letters, numbers, and at least one special character. 
+Yes. Your password must be at least 12 characters long an include letters, numbers, and at least one special character.
 
 Q: Can I use the same password for HighLevel and another account?
 

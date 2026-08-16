@@ -34,7 +34,7 @@ Creating a Voice AI Agent is fast and easy, and it will help your business field
 
 * * *
 
-# **How to Create a Voice AI Agent**
+## **How to Create a Voice AI Agent**
 
   
 
@@ -64,7 +64,35 @@ Creating a Voice AI Agent is fast and easy, and it will help your business field
 
 * * *
 
-# **How to Configure Voice AI Agent Details**
+## **Start with the Preconfigured Flow Builder Agent**
+
+  
+
+
+When you create a new, empty Voice AI agent in Flow Builder, the canvas starts with a ready-to-test flow. The Start Call node is already connected to an AI Agent node.
+
+  
+
+
+The AI Agent includes a default prompt personalized with your agent name and sub-account. You can test the starter flow immediately or customize the prompt and add Voice AI Actions for your use case.
+
+  
+
+
+The starter flow applies only to brand-new, empty agents. When you reopen an existing agent, Flow Builder displays the flow you previously saved.  
+
+
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078115672/original/an3JyyuhBYx9B1XTWkFZvaqvHWcGXZ09Ig.png?1786445202)  
+  
+
+    
+    
+    **Note:** The starter flow is generated when you open the canvas and is saved only after you save the agent for the first time.
+
+* * *
+
+## **How to Configure Voice AI Agent Details**
 
   
 
@@ -74,7 +102,7 @@ When configuring your Voice AI agent, configure the agent details, assign action
   
 
 
-## **Agent Details Tab**
+### **Agent Details Tab**
 
   
 
@@ -123,7 +151,7 @@ When configuring your Voice AI agent, configure the agent details, assign action
   
 
 
-## **Settings Tab**
+### **Settings Tab**
 
   
 

@@ -1,7 +1,7 @@
 # In-App Banner Management
 
 **Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000006527-in-app-banner-management](https://help.gohighlevel.com/support/solutions/articles/155000006527-in-app-banner-management)  
-**Category:** Settings  
+**Category:** Agency View  
 **Folder:** Agency Settings
 
 ---

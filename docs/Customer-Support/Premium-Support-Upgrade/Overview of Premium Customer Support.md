@@ -6,13 +6,7 @@
 
 ---
 
-Premium Customer Support Upgrade offers enhanced, personalized assistance beyond standard and priority support. This article explains what’s included, why it matters, and how to upgrade to get faster, more proactive help tailored to your business needs.
-
-  
-
-    
-    
-    **Note:** To get started, learn [How to Upgrade to Premium Customer Support](<https://help.gohighlevel.com/en/support/solutions/articles/155000005394>).
+Premium Customer Support Upgrade offers enhanced, personalized assistance beyond standard and priority support. This article explains what’s included, why it matters, and how to upgrade to get faster, more proactive help tailored to your business needs.[](<https://help.gohighlevel.com/en/support/solutions/articles/155000005394>)
 
 * * *
 
@@ -23,10 +17,14 @@ Premium Customer Support Upgrade offers enhanced, personalized assistance beyond
   * What is Premium Customer Support?
   * Key Benefits of Premium Customer Support
   * Why Upgrade to Premium Support?
+  * Premium Support — Eligibility, Pricing & Billing
+  * Ready to Subscribe?
+  * Subscription Requirement
   * Faster Issue Resolution
   * Technical Account Manager (TAM)
   * Dedicated Slack Channel
   * Proactive & Advanced Support
+  * How To Setup Premium Support
   * Frequently Asked Questions
   * Related Articles
 
@@ -63,7 +61,9 @@ Premium Support is not just an upgrade—it is a comprehensive, technical approa
   
 
 
-**_Enhanced Customer Experience:_**
+**_Enhanced Customer Experience:_**  
+  
+
 
   * Faster response times with Chat & Zoom wait times reduced from 6 minutes (Standard) to 1 minute, and ticket first responses from 10 hours to 3 hours.  
   
@@ -72,19 +72,25 @@ Premium Support is not just an upgrade—it is a comprehensive, technical approa
   
 
 
-**_Streamlined Offerings:_**
+**_Streamlined Offerings:_**  
+  
+
 
   * An upgraded support plan that builds on the proven capabilities of Priority Support, adding key personalized features without complicating your support structure.  
   
 
 
-**_Stronger Value Proposition:_**
+**_Stronger Value Proposition:_**  
+  
+
 
   * Differentiates our support plans by offering exclusive premium features such as a dedicated Technical Account Manager (TAM) and a private Slack channel for real-time collaboration.  
   
 
 
-**_Opportunities for Growth:_**
+**_Opportunities for Growth:_**  
+  
+
 
   * Provides proactive guidance and regular reviews, helping your business scale effectively by ensuring issues are resolved quickly and strategically.
 
@@ -94,11 +100,20 @@ Premium Support is not just an upgrade—it is a comprehensive, technical approa
 
 **_Premium Support Sidebar (In-App Experience):_**
 
-Premium Support includes a refreshed sidebar inside your HighLevel dashboard so you can reach expert help without leaving your workspace. The Premium Support sidebar acts as your all-in-one hub for high-touch assistance and key resources.
+  
+Premium Support includes a refreshed sidebar inside your HighLevel dashboard so you can reach expert help without leaving your workspace. The Premium Support sidebar acts as your all-in-one hub for high-touch assistance and key resources.  
+  
 
-  * Use Slack Support to message the Premium Support team directly.
-  * Book a Call for live troubleshooting with one click.
+
+  * Use Slack Support to message the Premium Support team directly.  
+  
+
+  * Book a Call for live troubleshooting with one click.  
+  
+
   * Start Chat to begin a real-time support conversation.  
+  
+  
   
 
 
@@ -145,6 +160,60 @@ Quarterly Business Reviews|  ✗ |  ✓
 Dedicated Slack Channel|  ✗ |  ✓   
 Direct TAM Booking Access|  ✗ |  ✓   
   
+* * *
+
+## **Premium Support — Eligibility, Pricing & Billing**
+
+  
+
+
+Before subscribing to Premium Support, review the following eligibility, pricing, and billing details:  
+  
+
+
+Detail| Premium Support  
+---|---  
+**Eligibility**|  Available after you have completed **90 days with HighLevel**  
+**Monthly Plan**| **$500/month**  
+**Annual Plan**| **$5,000/year** — save $1,000 compared with monthly billing  
+**Billing**|  Premium Support is an optional paid add-on and is billed separately from your main HighLevel subscription  
+**Cancellation**|  You can cancel Premium Support from your **Billing** settings at any time. Premium Support benefits remain available until the end of your current billing cycle.  
+  
+###   
+
+
+### **Ready to Subscribe?**
+
+  
+
+
+From your Agency account, navigate to **Settings → Billing** , locate **Premium Support** under **Add-ons** , and select **Subscribe Now**.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078234135/original/nfvOSr05nezx4B40yfBlAEIlt9rLa-cWKA.png?1786536054)  
+
+
+  
+
+
+You'll be asked to select your billing plan and payment method and accept the Premium Support terms and conditions before completing your subscription.
+
+  
+
+
+For complete step-by-step subscription, billing, setup, and cancellation instructions, see **[How to Upgrade to Premium Customer Support](<https://help.gohighlevel.com/support/solutions/articles/155000005394-how-to-upgrade-to-premium-customer-support>)**.
+
+* * *
+
+## **Subscription Requirement**
+
+  
+
+
+When subscribing to Premium Support, you must accept the Premium Support terms and conditions during checkout before the purchase can be completed.
+
 * * *
 
 ## **Faster Issue Resolution**

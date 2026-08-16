@@ -6,236 +6,249 @@
 
 ---
 
-Keeping your HighLevel wallet funded ensures uninterrupted SMS, email, and phone usage for you and your clients. **Auto Recharge** automatically tops up your wallet balance when it dips below a threshold, while **Smart Adjustment** intelligently increases that top‑up amount when your usage grows. This guide explains how Wallet Auto Recharge works, how Smart Adjustment affects your recharge amount, and what can or cannot be disabled. 
+Keeping your HighLevel wallet funded helps prevent interruptions to wallet-funded services such as SMS, email, phone, and other usage-based features. Auto Recharge automatically adds funds when your wallet balance falls below a configured threshold, while Smart Adjustment can increase the recharge amount when recharges occur frequently. This guide explains how both features work, how to configure them, and which settings can be changed or disabled.
 
 * * *
 
 **TABLE OF CONTENTS**
 
-  * What are Auto Recharge & Smart Adjustment?
-  * Key Benefits of Auto Recharge & Smart Adjustment
-  * Auto Recharge 
+  * What Are Wallet Auto Recharge and Smart Adjustment?
+  * Key Benefits of Auto Recharge and Smart Adjustment
+  * Auto Recharge
   * Smart Adjustment
-  * How To Setup Auto Recharge
-  * How to Disable Smart Adjustment / Auto-update
-  * Frequently Asked Questions 
+  * How to Configure Auto Recharge
+  * How to Disable Smart Adjustment (Auto-update)
+  * Frequently Asked Questions
   * Related Articles
 
 
 * * *
 
-# **What are Auto Recharge & Smart Adjustment?**
-
+# **What Are Wallet Auto Recharge and Smart Adjustment?**  
   
 
 
-Auto Recharge adds funds to your HighLevel wallet whenever the balance falls under a limit you decide. Smart Adjustment is an adaptive tier system that , based on recent recharge frequency , raises your Auto Recharge amount to ensure fewer funding interruptions as your volume scales.
-
+Auto Recharge and Smart Adjustment work together to help maintain sufficient funds in your Agency Wallet. Auto Recharge controls when funds are added, while Smart Adjustment helps reduce frequent recharge transactions by increasing the recharge amount when needed.  
   
 
-    
-    
-    ****Note:******** Auto Recharge **cannot be disabled** for the Wallet. This is required to ensure uninterrupted service for wallet-funded features such as SMS, email, phone usage, and other billable services. You can disable Smart Adjustment / Auto-update to prevent the recharge amount from increasing automatically, but Auto Recharge will continue based on the configured recharge amount and balance threshold.
+
+Auto Recharge adds funds to your Agency Wallet when the balance falls below your configured threshold.  
+  
+
+
+Smart Adjustment, shown as **Auto-update** in the settings menu, monitors how frequently the same recharge amount is triggered. If it triggers more than three times within seven days, HighLevel automatically increases the amount to the next recharge level for future top-ups.
+
+**IMPORTANT:** Wallet Auto Recharge cannot be disabled. You can disable Smart Adjustment (Auto-update) if you do not want HighLevel to automatically increase your recharge amount. Disabling Smart Adjustment does not disable Auto Recharge.
 
 * * *
 
-## **Key Benefits of Auto Recharge & Smart Adjustment**
-
+## **Key Benefits of Auto Recharge and Smart Adjustment**  
   
 
 
-Keeping your wallet funded isn’t just convenient; it protects campaign deliverability and client satisfaction.  
+Maintaining sufficient wallet funds helps reduce interruptions to the usage-based HighLevel services your agency and sub-accounts rely on.  
   
 
 
-  * **Uninterrupted Service:** Prevents SMS, email, and call failures caused by insufficient wallet funds.  
+  * **Reduced Service Interruptions:** Helps maintain sufficient funds for SMS, email, phone, and other wallet-funded services.  
   
 
-  * **Time Savings:** Eliminates manual deposits, allowing you to focus on revenue‑generating work.  
+  * **Automatic Wallet Funding:** Reduces the need to manually monitor and replenish your Agency Wallet.  
   
 
-  * **Scales With You:** Smart Adjustment increases the recharge tier automatically as your usage grows, reducing the number of recharges and potential card authorization holds.  
+  * **Fewer Recharge Transactions:** Smart Adjustment can increase the recharge amount when Auto Recharge occurs frequently.  
   
 
-  * **Budget Visibility:** Threshold and recharge amounts are fully configurable, giving you predictable cash‑flow control.  
-
-  * **Smart Adjustment Control:** Turn off automatic recharge amount increases while keeping the required Wallet Auto Recharge active.
-
-
-* * *
-
-## **Auto Recharge**
-
+  * **Configurable Recharge Settings:** Choose the available recharge amount and balance threshold that best match your agency’s usage.  
   
 
-
-Auto Recharge uses two simple fields: 
-
-  
-
-
-  1. **Recharge Amount** – The dollar amount added to your wallet each time Auto Recharge triggers.  
-  
-
-
-  2. **Threshold Balance** – The wallet balance that triggers the recharge once it’s reached or passed.
-
-
-  
-
-
-**Example** : If Recharge Amount = $50 and Threshold Balance = $25, then when your wallet balance hits $24.99, HighLevel instantly charges your saved payment method $50 and deposits it in your wallet.
-
-  
-![](https://jumpshare.com/share/rlACktfgJJFZs1li6Utm+/Screen+Shot+2025-07-30+at+10.01.10+PM.png)
-
-* * *
-
-## **Smart Adjustment**
-
-  
-
-
-Smart Adjustment monitors how often Auto Recharge fires. When the same recharge amount triggers more than **three times within any seven‑day window** , HighLevel moves you to the next preset tier (e.g., from $200 → $500). 
-
-  
-
-
-**Why it matters:** As your sending volume grows, larger recharges mean fewer credit‑card holds and fewer risk‑flag reviews by card issuers.
-
-  
-![](https://jumpshare.com/share/YT6lVh2lNJBlMMWDhzc2+/Screen+Shot+2025-07-30+at+9.53.56+PM.png)
-
-* * *
-
-## **How To Set Up Auto Recharge**
-
-  
-
-
-  1. Login to your Agency account and click on **Settings**.  
-  
-![](https://jumpshare.com/share/taCq0QNVpt5Gqy25C9N3+/Screen+Shot+2025-07-30+at+10.09.18+PM.png)  
-  
-
-
-  2. Navigate to **Billing › Wallet & Transactions**.  
-  
-![](https://jumpshare.com/share/PrPj2noGdrNY9uJA0GwH+/Screen+Shot+2025-07-30+at+10.12.07+PM.png)  
-  
-
-
-  3. In the **Auto recharge with** dropdown, select the amount HighLevel should add (e.g., $200).  
-  
-
-
-  4. In the **Balance** **is lower than** dropdown, choose the trigger amount (e.g., $50).  
-  
-![](https://jumpshare.com/share/6BcdO4Z6GfE29ZwhSxNA+/GIF+Recording+2025-07-30+at+10.08.36+PM.gif)
+  * **Smart Adjustment Control:** Disable Auto-update if you do not want HighLevel to automatically increase your recharge amount.
 
 
 * * *
 
-## **How to Disable Smart Adjustment / Auto-update**
-
-  
-
-    
-    
-    **IMPORTANT NOTE:** Disabling Smart Adjustment does **NOT turn off Auto Recharges** for the Agency Wallet. This simply prevents the amount that is recharged from dynamically updating. 
-
+## **Auto Recharge**  
   
 
 
+Auto Recharge uses two settings to determine how much is added to your Agency Wallet and when a recharge occurs.  
   
 
 
-  1. In the same **Auto Recharge** tile, click the **three‑dot** menu on the right.  
-  
-![](https://jumpshare.com/share/h0c8I7cpswOhzLbzKY16+/Screen+Shot+2025-07-30+at+10.16.20+PM.png)  
+  * **Recharge Amount:** The amount charged to your Agency payment method and added to your wallet each time Auto Recharge triggers.  
   
 
-
-  2. Select **Disable Auto‑update**.  
-  
-![](https://jumpshare.com/share/RvHO8vJDzhraHEyUgMBQ+/Screen+Shot+2025-07-30+at+10.22.10+PM.png)  
+  * **Threshold Balance:** The wallet balance below which Auto Recharge is triggered.  
   
 
 
-  3. Confirm by clicking **Yes**.  
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078267601/original/qrf_HLjWpHAH7XVfIUdxrRE2_4gOOuIeog.png?1786551336)**
+
   
-![](https://jumpshare.com/share/oh6hi4M1slJ7tspaW6ha+/Screen+Shot+2025-07-30+at+10.22.45+PM.png)
+**Example:** If your Recharge Amount is $50 and your Threshold Balance is $25, Auto Recharge triggers when the wallet balance falls below $25. HighLevel then charges the saved Agency payment method $50 and adds those funds to the wallet.  
+  
 
 
+A higher threshold causes Auto Recharge to trigger earlier. Agencies with higher wallet usage may want to use a higher threshold to reduce the risk of the available balance becoming too low before additional funds are added.  
   
 
 
 * * *
 
-## **Frequently Asked Questions**
-
+## **Smart Adjustment**  
   
 
 
-**Q: Can I turn off Wallet Auto Recharge completely?**
-
-No. Wallet Auto Recharge cannot be fully disabled for the Agency Wallet.
-
+Smart Adjustment helps reduce frequent wallet top-ups by automatically increasing your Auto Recharge amount when the current amount is being triggered frequently.  
   
 
 
-**Q: How does HighLevel determine the next tier when Smart Adjustment upgrades?**
-
-It moves to the very next predefined recharge tier (e.g., $200 → $500 → $1,000). Custom amounts are not skipped.
-
+If the same recharge amount is triggered more than three times within seven days, HighLevel considers the amount too low for your current usage and automatically increases it to the next recharge level for future top-ups.  
   
 
 
-**Q:****Will I receive email notifications when Auto Recharge or Smart Adjustment occurs?**
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078267687/original/1zsAl4dJlKfKHdSI5dGqIW1pM8DTJKSTVQ.png?1786551396)**
 
-Yes. Billing notification emails are sent to agency owner admins by default.
-
+  
+**Example:** If your current recharge amount is $200 and it is triggered more than three times within seven days, Smart Adjustment can move the recharge amount to the next available level, such as $500. Future Auto Recharges then use the updated amount.  
   
 
 
-**Q: Can I change the Threshold Balance without affecting Smart Adjustment history?**
-
-Yes. Adjusting the threshold does not reset your usage count. The three‑in‑seven‑days rule still applies.
-
+Disabling Smart Adjustment prevents these automatic increases, but it does not disable Wallet Auto Recharge.  
   
 
-
-**Q: What happens if my saved payment method fails?**
-
-HighLevel will retry the charge up to three times over 24 hours and email you each attempt. Service pauses after final failure.
-
-  
-
-
-**Q: Does disabling Smart Adjustment stop future charges?**
-
-No. Disabling Smart Adjustment only stops HighLevel from automatically increasing your recharge amount. Auto Recharge will still run when your wallet balance drops below the configured threshold.
 
 * * *
 
-## **Related Articles**
-
+## **How to Configure Auto Recharge**  
   
 
 
-  * [Billing Related Questions for Agencies](<https://help.gohighlevel.com/support/solutions/articles/48001208376-billing-related-questions-for-agencies>)  
+Configuring the recharge amount and threshold lets you control how much is added to your Agency Wallet and how low the balance can fall before Auto Recharge is triggered.  
+
+
+  1. Log in to your Agency account and click **Settings**.  
   
 
-  * [How to Cancel Location Subscriptions from the Agency Billing Page](<https://help.gohighlevel.com/support/solutions/articles/155000005136-how-to-cancel-location-subscriptions-from-the-agency-billing-page>)  
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078268108/original/W0uLM9NEsPrA9xAZKASK0UbCjfGKmqy0Vw.png?1786551578)**  
   
 
-  * [HighLevel Pricing & Billing: Wallets, Charges, Rebilling](<https://help.gohighlevel.com/support/solutions/articles/155000001156-highlevel-pricing-guide>)  
+
+  2. Click**Billing** , then select the **Wallet & Transactions**tab.  
   
 
-  * [Agency Billing - Wallets & Transactions Summary](<https://help.gohighlevel.com/support/solutions/articles/155000007776-agency-billing-wallets-transactions-summary>)  
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078268137/original/IRU0Ecn0HXWi14OdDfuTlIHLd7NZsBIp_Q.png?1786551611)**  
   
 
-  * [Account Billing Dashboard in Sub-Accounts](<https://help.gohighlevel.com/support/solutions/articles/155000004182-account-billing-dashboard>)  
+
+  3. Locate the**Auto Recharge** controls under your wallet balance.  
   
 
-  * [Rebilling, Reselling, and Wallets Explained](<https://help.gohighlevel.com/support/solutions/articles/155000002095-rebilling-reselling-and-wallets-explained>)
+  4. In the **Auto recharge with** dropdown, select the amount you want HighLevel to add each time Auto Recharge triggers.  
+  
+
+  5. In the **when balance is lower than** dropdown, select the balance that should trigger Auto Recharge.  
+  
+
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078268176/original/YdRJ4HtW-ZCvtlO39_RNp8UiseUYnWeefQ.gif?1786551641)**
+
+
+  
+Changes to these settings determine the amount added during future Auto Recharges and when those recharges are triggered.  
+  
+
+
+* * *
+
+## **How to Disable Smart Adjustment (Auto-update)**
+
+Smart Adjustment can be disabled if you want to prevent HighLevel from automatically increasing your recharge amount based on recharge frequency.  
+  
+
+
+**IMPORTANT:** Disabling Smart Adjustment does not disable Agency Wallet Auto Recharge. Your wallet will continue to recharge when the balance falls below the configured threshold.
+
+  1. From **Settings → Billing → Wallet & Transactions**, locate the Auto Recharge controls and click the **three-dot menu** on the right.  
+  
+
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078268259/original/Vw5wVZ4eGuw6mIpN9XbUKNtz1GM1T5vasw.png?1786551681)**  
+  
+
+
+  2. Click**Disable Auto-update**.  
+  
+
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078268301/original/AxlPlWOm5FqOovgj_Px40IxdPHEZlqR2fA.png?1786551696)**  
+  
+
+
+  3. In the confirmation window, click**Yes**.  
+  
+
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078268353/original/_1dztRdcDUioViVs2y9ZvBKI2Tl70_Me9A.png?1786551730)**
+
+
+  
+Smart Adjustment will no longer automatically increase the recharge amount. Auto Recharge will remain active using your configured recharge settings.  
+  
+
+
+* * *
+
+## **Frequently Asked Questions**  
+  
+
+
+**Q: Is an Auto Recharge the same as a usage charge?**
+
+No. An Auto Recharge adds prepaid funds to your Agency Wallet. Eligible usage-based services then deduct charges from the available wallet balance as they are used.  
+  
+
+
+**Q: Is the Agency Wallet used to pay my main HighLevel subscription?**
+
+No. The Agency Wallet is used for eligible usage-based services and wallet-related charges. It does not pay the agency’s primary HighLevel subscription fee.  
+  
+
+
+**Q: Why is my Agency Wallet recharging frequently?**
+
+Frequent recharges generally mean wallet-funded services are consuming the balance quickly relative to your current recharge amount and threshold. Review **Settings → Billing → Wallet & Transactions** to see where wallet spending is occurring. If Smart Adjustment is enabled, HighLevel may also increase the recharge amount after the same amount is triggered more than three times within seven days.  
+  
+
+
+**Q: Where can I review which services are using my wallet balance?**
+
+Go to **Settings → Billing → Wallet & Transactions**. The Summary and Detailed Transactions views can help you review wallet spending and identify usage by product or sub-account.  
+  
+
+
+**Q: Where can I review records of previous wallet top-ups?**
+
+Monthly Wallet Top-up Receipts provide a record of wallet funding transactions, including Auto Recharges. These receipts can be accessed from the Billing Dashboard for reconciliation and recordkeeping.  
+  
+
+
+**Q: Can I stop Smart Adjustment without stopping Auto Recharge?**
+
+Yes. Use **Disable Auto-update** to stop Smart Adjustment from automatically increasing the recharge amount. Wallet Auto Recharge will remain active.
+
+* * *
+
+### **Related Articles**  
+  
+
+
+  * [HighLevel Pricing & Billing: Wallets, Charges, Rebilling](<https://help.gohighlevel.com/en/support/solutions/articles/155000002095>)  
+  
+
+  * [Agency Billing - Wallets & Transactions Summary](<https://help.gohighlevel.com/en/support/solutions/articles/155000007776>)  
+  
+
+  * [Agency Wallet - Monthly Wallet Top-up Receipts ](<https://help.gohighlevel.com/en/support/solutions/articles/155000008267>)

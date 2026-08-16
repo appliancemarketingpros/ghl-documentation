@@ -57,7 +57,7 @@ The integration focuses on the core data needed to run CRM workflows and manage 
 Event Date & Time**  
 **| Cancelled or rescheduled events are not updated in HighLevel  
 Guest Name & Email**  
-**| Historical events (created before setup)  
+**| Past events created more than 180 days before the Calendly account is connected  
 Appointment Title**  
 **| Attachments or notes  
 Source (marked as “Calendly”)**  
@@ -92,7 +92,7 @@ The Calendly integration works a bit differently from other calendar platforms l
   
 
 
-Once your Calendly account is connected and at least one calendar is selected, HighLevel will begin pulling in new events automatically. Only events created after the integration is set up will sync into your calendar.
+Once your Calendly account is connected and at least one calendar is selected, HighLevel imports all future scheduled events and past events created within the last 180 days at the time of connection. New Calendly events continue syncing after setup.
 
   
 
@@ -366,7 +366,7 @@ HighLevel captures phone numbers from Calendly using clear source rules to reduc
 
 **Q: Why don’t older Calendly events appear in HighLevel?**
 
-Only events created after the integration was set up and the calendar selected are imported.
+When you initially connect Calendly, HighLevel imports past events created within the last 180 days. Past events created more than 180 days before the connection are not included in the initial import. HighLevel also imports all future scheduled events.
 
   
 
@@ -378,9 +378,9 @@ No. Events must be edited directly inside Calendly.
   
 
 
-**Q: What happens if I reconnect a calendar or re-add Calendly?**
+**Q: What happens if I reconnect Calendly?**
 
-Only new events going forward will be synced. Previously missed or disconnected events will not appear.
+When Calendly is reconnected, HighLevel imports upcoming events and past events created within the last 180 days at the time of connection.
 
   
 

@@ -11,7 +11,7 @@ Opportunity Score helps you review your Meta campaign setup in HighLevel Ad Mana
   
 
 
-Use Opportunity Score as a pre-launch review tool to catch setup gaps before sending your campaign for publishing. Opportunity Score is currently available for Meta campaigns on the Review screen before publishing. 
+Use Opportunity Score as a pre-launch review tool to catch setup gaps before sending your campaign for publishing. Opportunity Score is available for Meta, Google and LinkedIn campaigns on the Review screen before publishing. 
 
 * * *
 
@@ -35,7 +35,7 @@ Use Opportunity Score as a pre-launch review tool to catch setup gaps before sen
   
 
 
-Opportunity Score is a campaign-readiness tool in HighLevel Ad Manager that helps you review important parts of a Meta campaign before launch. It gives you a percentage score, a band label, and specific recommendations so you can identify setup areas that may need attention before publishing.
+Opportunity Score is a campaign-readiness tool in HighLevel Ad Manager that helps you review important parts of your campaign before launch. It gives you a percentage score, a band label, and specific recommendations so you can identify setup areas that may need attention before publishing.
 
   
 
@@ -54,7 +54,7 @@ Opportunity Score gives advertisers a faster way to review campaign setup qualit
   
 
 
-  * **Pre-launch review:** Review your Meta campaign setup before publishing from the Review screen.
+  * **Pre-launch review:** Review your campaign setup before publishing from the Review screen.
 
 
   
@@ -84,7 +84,7 @@ Opportunity Score gives advertisers a faster way to review campaign setup qualit
   
 
 
-  * **Better setup confidence:** Reduce missed setup issues before launching your Meta campaign.
+  * **Better setup confidence:** Reduce missed setup issues before launching your campaign.
 
 
 * * *
@@ -399,12 +399,12 @@ Open **Marketing** , then select **Ad Manager**. This is where you can create, e
   
 
 
-### **Create a new Meta campaign or open an existing draft**
+### **Create a new campaign or open an existing draft**
 
   
 
 
-Start a new Meta campaign or open a campaign draft that has not been published yet. Opportunity Score is currently available for Meta campaigns on the Review screen before publishing.
+Start a new Meta, Google or LinkedIn campaign or open a campaign draft that has not been published yet. Opportunity Score is available for Meta, Google and LinkedIn campaigns on the Review screen before publishing.
 
   
 
@@ -674,7 +674,7 @@ No. Opportunity Score helps review campaign readiness before publishing. Use Ad 
 
 **Q: Is Opportunity Score available for Google Ads campaigns?**
 
-Opportunity Score is currently available for Meta campaigns in Ad Manager.
+Yes, it is available for Meta, Google and LinkedIn ad campaigns as well.
 
 * * *
 

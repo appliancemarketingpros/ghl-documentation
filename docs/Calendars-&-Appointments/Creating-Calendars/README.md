@@ -6,7 +6,7 @@
 
 - [Show seats per slot for Class booking on the booking widget](Show seats per slot for Class booking on the booking widget.md)
 - [Pre and Post buffers](Pre and Post buffers.md)
-- [Consent checkbox for compliance](Consent checkbox for compliance.md)
+- [How to Enable Consent Checkbox Calendars](How to Enable Consent Checkbox Calendars.md)
 - [In App Calendar view](In App Calendar view.md)
 - [Google Organic Booking](Google Organic Booking.md)
 - [Calendar Widget Customization](Calendar Widget Customization.md)

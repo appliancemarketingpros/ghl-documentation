@@ -43,6 +43,14 @@ We're thrilled to unveil a brand-new feature in Chat Widget - You can now custom
   * **Widget Placement:** Select where the widget appears on your website, such as the bottom left or bottom right corner.  
   
 
+  * **Widget Placement:** Choose how the Chat Widget appears on your page:  
+  
+Sticky: Keeps the widget fixed in a page corner.  
+Embedded / Inline: Renders the complete conversation experience inline within your page content.  
+  
+Embedded / Inline placement is available for All-in-One Chat, Email/SMS, WhatsApp, Facebook, Instagram, Live Chat, and Voice AI.  
+  
+
   * **Widget Dimensions:** Keep the widget dimensions set to **Auto** , or select **Custom** to configure the width and height for your website layout.  
   
 
@@ -71,7 +79,12 @@ Configured dimensions are respected without being automatically increased to the
 
 ![Screenshot 2024-07-11 at 9](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030318951/original/DHpLVDJJk4b3Bel7UvbdiFCzqd-0O6aBgg.png?1722542586)![Screenshot 2024-07-11 at 9](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155030318952/original/ZSaNgMvaEYvs5GLfMqCHIf4nqq3Hi2RXGw.png?1722542586)
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077917651/original/-Pt4u6gVcTIuu1zzaNirrmqc3rdr-fAk8Q.png?1786119882)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077917651/original/-Pt4u6gVcTIuu1zzaNirrmqc3rdr-fAk8Q.png?1786119882)
+
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078109675/original/d72weq53CPNez0fDlOSwUHIfjaI-LzQQLg.png?1786442567)
+
+  
   
 
 

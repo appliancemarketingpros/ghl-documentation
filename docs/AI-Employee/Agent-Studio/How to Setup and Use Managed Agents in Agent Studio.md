@@ -1,6 +1,6 @@
-# How to Setup and Use Super Agents in Agent Studio
+# How to Setup and Use Managed Agents in Agent Studio
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000007931-how-to-setup-and-use-super-agents-in-agent-studio](https://help.gohighlevel.com/support/solutions/articles/155000007931-how-to-setup-and-use-super-agents-in-agent-studio)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000007931-how-to-setup-and-use-managed-agents-in-agent-studio](https://help.gohighlevel.com/support/solutions/articles/155000007931-how-to-setup-and-use-managed-agents-in-agent-studio)  
 **Category:** AI Employee  
 **Folder:** Agent Studio
 
@@ -8,21 +8,21 @@
 
 AI Automation
 
-# Super Agents: Build AI Agents with Natural Language
+# Managed Agents: Build AI Agents with Natural Language
 
 Create production-ready AI agents in minutes by describing what you want in plain language, no flowcharts or complex configuration required.
 
 What You'll Learn
 
-This guide explains how Super Agents enables you to build intelligent CRM agents using conversational prompts instead of manual node-based workflows. You'll learn how to describe your automation goals, connect agents to Knowledge Bases and CRM actions, configure event-driven triggers, and safely test before going live.
+This guide explains how Managed Agents enables you to build intelligent CRM agents using conversational prompts instead of manual node-based workflows. You'll learn how to describe your automation goals, connect agents to Knowledge Bases and CRM actions, configure event-driven triggers, and safely test before going live.
 
-Whether you're automating social media posts, answering customer questions, or managing email campaigns, Super Agents accelerates your journey from idea to production-ready AI automation.
+Whether you're automating social media posts, answering customer questions, or managing email campaigns, Managed Agents accelerates your journey from idea to production-ready AI automation.
 
 Table of Contents
 
 1
 
-What is Super Agents?
+What is Managed Agents?
 
 2
 
@@ -50,7 +50,7 @@ Built-in Testing Panel
 
 8
 
-How to Set Up Super Agents
+How to Set Up Managed Agents
 
 9
 
@@ -58,15 +58,15 @@ Frequently Asked Questions
 
 1
 
-## What is Super Agents?
+## What is Managed Agents?
 
-Super Agents is an AI-first builder in HighLevel that creates powerful CRM agents from a simple conversation instead of a complex flowchart. By describing your use case in natural language, you receive a fully configured agent that can answer questions, use your Knowledge Base, and perform CRM actions, all powered by the same Agent Studio engine you use for visual AI workflows.
+Managed Agents (formerly Super Agents) is an AI-first builder in HighLevel that creates powerful CRM agents from a simple conversation instead of a complex flowchart. By describing your use case in natural language, you receive a fully configured agent that can answer questions, use your Knowledge Base, and perform CRM actions, all powered by the same Agent Studio engine you use for visual AI workflows.
 
-Super Agents removes the need to design every node on a canvas. Under the hood, it uses Agent Studio's event-driven model and tools, so the agents it generates follow the same lifecycle (draft, test, publish).
+Managed Agents removes the need to design every node on a canvas. Under the hood, it uses Agent Studio's event-driven model and tools, so the agents it generates follow the same lifecycle (draft, test, publish).
 
 2
 
-## Key Benefits of Super Agents
+## Key Benefits of Managed Agents
 
 **Build in minutes** — Go from idea to production-ready agent by describing what you want the agent to do and how it should behave.
 
@@ -84,9 +84,9 @@ Super Agents removes the need to design every node on a canvas. Under the hood, 
 
 ## Build Agents Using Natural Language
 
-Describing your automation goals in everyday language gives Super Agents enough context to design a working agent for you. This conversational approach helps you move quickly from vague ideas to a concrete, testable automation.
+Describing your automation goals in everyday language gives Managed Agents enough context to design a working agent for you. This conversational approach helps you move quickly from vague ideas to a concrete, testable automation.
 
-When you start a Super Agent, you'll see a prompt area where you can explain:
+When you start a Managed Agent, you'll see a prompt area where you can explain:
 
   * The role of the agent (e.g., "social media assistant," "email campaign manager," "community moderator").
   * The channels it should work on (e.g., website chat, SMS, email).
@@ -98,7 +98,7 @@ Example Prompt
 
 "Create a Social Media Assistant that writes and schedules on-brand posts for Facebook, Instagram, and LinkedIn. It should pull product details from our 'Marketing KB', follow our voice and tone guidelines, and save content ideas to a custom field on the contact record when they come from inbound chat conversations."
 
-After you submit your description, Super Agents will:
+After you submit your description, Managed Agents will:
 
   * Generate a draft agent with a clear goal and behavior.
   * Propose triggers and channels based on what you described.
@@ -113,7 +113,7 @@ You can then refine the agent by continuing the conversation (for example, "Make
 
 ## Intelligent CRM Agents
 
-Super Agents are built to do real work inside your HighLevel account, not just chat. They combine AI reasoning with your CRM data and Knowledge Base so they can both "talk" and "take action."
+Managed Agents are built to do real work inside your HighLevel account, not just chat. They combine AI reasoning with your CRM data and Knowledge Base so they can both "talk" and "take action."
 
 Capability 1
 
@@ -144,7 +144,7 @@ Ready-to-Build Use Cases:
 
 **Day-to-Day Task Automation** — Automates repetitive CRM tasks and routine operations.
 
-Because Super Agents are powered by Agent Studio, they inherit the same ability to route conversations, call external APIs, and work with advanced nodes if you choose to fine-tune them later.
+Because Managed Agents are powered by Agent Studio, they inherit the same ability to route conversations, call external APIs, and work with advanced nodes if you choose to fine-tune them later.
 
   
 
@@ -155,9 +155,9 @@ Because Super Agents are powered by Agent Studio, they inherit the same ability 
 
 ## Event-Driven Automation
 
-Event-driven automation ensures your Super Agents spring into action exactly when they're needed, without manual intervention from your team. 
+Event-driven automation ensures your Managed Agents spring into action exactly when they're needed, without manual intervention from your team. 
 
-Some of Super Agent's trigger types include:
+Some of Managed Agent's trigger types include:
 
 Trigger 1
 
@@ -165,7 +165,7 @@ Tag Changed
 
 Fire an agent when a contact gains or loses a specific tag—perfect for onboarding flows, upsell offers, or VIP outreach based on segmentation.
 
-Example: When a contact is tagged "New Customer," a Super Agent sends a personalized welcome series and logs orientation tasks in the CRM.
+Example: When a contact is tagged "New Customer," a Managed Agent sends a personalized welcome series and logs orientation tasks in the CRM.
 
 Trigger 2
 
@@ -173,7 +173,7 @@ Form Submitted
 
 Launch the agent after a specific form is submitted (e.g., demo request, support escalation, feedback survey).
 
-Example: After a "Website Demo Request" form is submitted, a Super Agent qualifies the lead, books an appointment if they're a fit, and passes notes to your sales funnel.
+Example: After a "Website Demo Request" form is submitted, a Managed Agent qualifies the lead, books an appointment if they're a fit, and passes notes to your sales funnel.
 
 Trigger 3
 
@@ -181,25 +181,25 @@ Chat Interface
 
 Trigger agents directly from chat channels (web chat widget, SMS, social channels, etc.), similar to how Conversation AI bots are deployed.
 
-Example: A Super Agent deployed to your chat widget answers pre-sales questions, checks Knowledge Base entries, and tags contacts for a sales follow-up.
+Example: A Managed Agent deployed to your chat widget answers pre-sales questions, checks Knowledge Base entries, and tags contacts for a sales follow-up.
 
 ![](https://jumpshare.com/share/TB99Fu5AM0Py3BEmeXNT+/Screen+Shot+2026-07-28+at+19.18.30.png)
 
 Ready to Build?
 
-Follow the setup guide below to create your first Super Agent
+Follow the setup guide below to create your first Managed Agent
 
 Describe your automation goal, test thoroughly, and publish to start automating real CRM workflows.
 
 8
 
-## How to Set Up Super Agents
+## How to Set Up Managed Agents
 
-Setting up Super Agents involves creating an agent from a conversation, testing it thoroughly, and then wiring it to real CRM events. Following these steps ensures your first deployment is safe, predictable, and aligned with your business rules.
+Setting up Managed Agents involves creating an agent from a conversation, testing it thoroughly, and then wiring it to real CRM events. Following these steps ensures your first deployment is safe, predictable, and aligned with your business rules.
 
 Step 1
 
-Access Super Agents under Agent Studio
+Access Managed Agents under Agent Studio
 
   
 
@@ -210,7 +210,7 @@ Access Super Agents under Agent Studio
   2. Navigate to **AI Agents → Agent Studio**.  
   
 
-  3. Click on the **Super Agents** tab.
+  3. Click on the **Managed Agents** tab.
 
 
   
@@ -220,7 +220,7 @@ Access Super Agents under Agent Studio
 
 Step 2
 
-Create a Super Agent from a conversation
+Create a Managed Agent from a conversation
 
   
 
@@ -240,7 +240,7 @@ Create a Super Agent from a conversation
   3. or you can also **choose** from **pre** **built** **use** **cases**.  
   
 
-  4. **Submit** the description and wait for Super Agents to generate the draft agent.
+  4. **Submit** the description and wait for Managed Agents to generate the draft agent.
 
 
   
@@ -282,7 +282,7 @@ Review and refine the generated agent
 
 Step 4
 
-Test the Super Agent in the built-in panel
+Test the Managed Agent in the built-in panel
 
   
 
@@ -329,7 +329,7 @@ Monitor and optimize
   1. After going live, monitor agent performance from Agent Studio and related reporting (e.g., conversations handled, conversions, escalations).  
   
 
-  2. Periodically return to the Super Agent's chat builder to refine rules, tone, and behaviors based on real-world outcomes.  
+  2. Periodically return to the Managed Agent's chat builder to refine rules, tone, and behaviors based on real-world outcomes.  
   
 
   3. Keep your Knowledge Base clean and updated; tools like the Knowledge Base Retrieval Tester help identify missing or low-quality content that could affect answers.
@@ -337,36 +337,36 @@ Monitor and optimize
 
 Success
 
-Once published, your Super Agent runs automatically based on the triggers you configured. It will handle conversations, answer questions from your Knowledge Base, and execute CRM actions exactly as you described—all without manual intervention.
+Once published, your Managed Agent runs automatically based on the triggers you configured. It will handle conversations, answer questions from your Knowledge Base, and execute CRM actions exactly as you described—all without manual intervention.
 
 9
 
 ## Frequently Asked Questions
 
-Q: How is a Super Agent different from a Flow Based Agent?
+Q: How is a Managed Agent different from a Flow Based Agent?
 
-A Super Agent is created conversationally from your natural-language description, whereas a Flow Based Agent is built manually on the node-based canvas. New agent creation should be done using Super Agents. Existing Flow Agents continue to run normally and can still be opened, edited, and managed from the Flow Agents page.
+A Managed Agent is created conversationally from your natural-language description, whereas a Flow Based Agent is built manually on the node-based canvas. New agent creation should be done using Managed Agents. Existing Flow Agents continue to run normally and can still be opened, edited, and managed from the Flow Agents page.
 
-Q: What happens if my Knowledge Base content changes after I publish a Super Agent?
+Q: What happens if my Knowledge Base content changes after I publish a Managed Agent?
 
 The agent will automatically pull updated information from your Knowledge Base the next time it runs, as long as the content has been indexed. To ensure accuracy, use the Knowledge Base Retrieval Tester to validate that new or modified content is discoverable before your agent references it in live conversations.
 
-Q: Can I use multiple triggers for a single Super Agent?
+Q: Can I use multiple triggers for a single Managed Agent?
 
-Yes. You can configure multiple triggers (Tag Changed, Form Submitted, Chat Interface) for one Super Agent so it responds to different events. For example, your agent could answer questions in chat and also send a welcome email when a "New Customer" tag is applied to a contact.
+Yes. You can configure multiple triggers (Tag Changed, Form Submitted, Chat Interface) for one Managed Agent so it responds to different events. For example, your agent could answer questions in chat and also send a welcome email when a "New Customer" tag is applied to a contact.
 
-Q: How do I prevent a Super Agent from making unwanted CRM changes?
+Q: How do I prevent a Managed Agent from making unwanted CRM changes?
 
 Use the chat-based editing experience to set explicit guardrails. For example, you can instruct the agent to "only suggest CRM changes for human approval" or "never apply discounts over 10%." Always test thoroughly in the built-in testing panel before publishing to confirm the agent respects your constraints.
 
-Q: Do I need coding or technical skills to build a Super Agent?
+Q: Do I need coding or technical skills to build a Managed Agent?
 
-No. Super Agents is designed for users without technical backgrounds. You describe your automation goals in plain language, and the system generates the agent configuration automatically. No coding, flowchart design, or complex setup is required.
+No. Managed Agents is designed for users without technical backgrounds. You describe your automation goals in plain language, and the system generates the agent configuration automatically. No coding, flowchart design, or complex setup is required.
 
-Q: What channels can Super Agents work on?
+Q: What channels can Managed Agents work on?
 
-Super Agents can be deployed to chat interfaces (website chat widget, SMS, social messaging), triggered by CRM events (Tag Changed, Form Submitted), or used in workflows. The specific channels available depend on how you configure triggers and which integrations are active in your HighLevel account.
+Managed Agents can be deployed to chat interfaces (website chat widget, SMS, social messaging), triggered by CRM events (Tag Changed, Form Submitted), or used in workflows. The specific channels available depend on how you configure triggers and which integrations are active in your HighLevel account.
 
-Q: How long does it take to build a Super Agent?
+Q: How long does it take to build a Managed Agent?
 
-You can create a functional Super Agent in minutes by describing your use case, reviewing the generated agent, and testing it. The exact time depends on complexity and how much refinement you do.
+You can create a functional Managed Agent in minutes by describing your use case, reviewing the generated agent, and testing it. The exact time depends on complexity and how much refinement you do.

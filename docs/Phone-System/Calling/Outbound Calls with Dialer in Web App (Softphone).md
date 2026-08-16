@@ -231,7 +231,9 @@ A: The power dialer is in Conversations > Manual Actions. You use a workflow to 
 
 **Q: Why do I hear a short “connecting” tone before the normal ringing sound?**
 
-A: HighLevel plays a brief **connecting** tone while it is still reaching the recipient’s carrier. You will hear the familiar **ringback** tone only after the carrier confirms the destination device is actually ringing. If the carrier can’t be reached, the call ends after the connecting tone instead of “phantom ringing.”
+A: HighLevel first plays a brief connecting tone while it reaches the recipient’s carrier. After the carrier confirms that the destination device is ringing, the ringback tone begins.
+
+For supported countries, HighLevel localizes the ringback tone to match the country of the phone number involved in the call. If the carrier cannot be reached, the call ends after the connecting tone instead of producing phantom ringing.
 
   
 
