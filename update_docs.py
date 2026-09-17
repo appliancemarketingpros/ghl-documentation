@@ -143,15 +143,28 @@ def get_folders_from_category(category_url):
     return folders
 
 
+def folder_id(url):
+    match = re.search(r'/support/solutions/folders/(\d+)', url or '')
+    return match.group(1) if match else None
+
+
 def get_folder_info(folder_url):
-    """Every article in a folder, following the portal's own "Next" links.
+    """Every article in a folder plus its subfolders, following the portal's own "Next" links.
 
     The portal pages folders at /folders/<id>/page/N, 20 articles a page, and
     ignores ?page=N (which just returns page 1 again). Requesting ?page=N capped
     every folder at its first 20 articles, so this follows the Next link the
     page itself renders instead.
+
+    Folders can hold subfolders, and some subfolders are linked only from their
+    parent folder's page, never from the category page (52 folders and 320
+    articles on 09/16/2026). They are returned so the caller can scrape them too.
+    The "(N)" count in a folder's title counts its subfolders as well as its
+    articles.
     """
     all_articles, seen = [], set()
+    subfolders = []
+    own_id = folder_id(folder_url)
     folder_name = "Unknown"
     listed_count = None
     url, visited = folder_url, set()
@@ -175,15 +188,24 @@ def get_folder_info(folder_url):
                 seen.add(href)
                 full_url = BASE_URL + href if href.startswith('/') else href
                 all_articles.append({'title': html.unescape(text) if text else '', 'url': full_url})
+        for link in soup.find_all('a', href=re.compile(r'/support/solutions/folders/\d+')):
+            # Breadcrumbs link back up to parent folders; only children count.
+            if link.find_parent(class_=re.compile('breadcrumb', re.I)) or '/page/' in link['href']:
+                continue
+            sub_id = folder_id(link['href'])
+            sub_url = f"{BASE_URL}/support/solutions/folders/{sub_id}"
+            if sub_id and sub_id != own_id and sub_url not in subfolders:
+                subfolders.append(sub_url)
         next_link = next((a for a in soup.find_all('a', href=re.compile(r'/page/\d+$'))
                           if a.get_text(strip=True).lower().startswith('next')), None)
         if not next_link:
             break
         href = next_link['href']
         url = BASE_URL + href if href.startswith('/') else href
-    if listed_count is not None and len(all_articles) < listed_count:
-        print(f"  [WARN] {folder_name}: portal lists {listed_count} articles, found {len(all_articles)}")
-    return folder_name, all_articles
+    if listed_count is not None and len(all_articles) + len(subfolders) < listed_count:
+        print(f"  [WARN] {folder_name}: portal lists {listed_count} items, found "
+              f"{len(all_articles)} articles and {len(subfolders)} subfolders")
+    return folder_name, all_articles, subfolders
 
 
 def scrape_article(article_url):
@@ -271,6 +293,11 @@ def main():
                       "[GoHighLevel Support Portal](https://help.gohighlevel.com/support/solutions).\n\n")
     index_content += "## Categories\n\n"
 
+    # Every folder a category page lists, gathered up front, so a subfolder found
+    # later is only scraped once and stays under the category that lists it.
+    category_folders = {c['url']: get_folders_from_category(c['url']) for c in categories}
+    seen_folders = {folder_id(u) for urls in category_folders.values() for u in urls}
+
     for cat_idx, category in enumerate(categories):
         cat_name = category['name']
         cat_dir_name = safe_dirname(cat_name)
@@ -279,16 +306,22 @@ def main():
 
         print(f"\n[2/5] [{cat_idx+1}/{len(categories)}] Category: {cat_name}")
 
-        folders = get_folders_from_category(category['url'])
+        folders = list(category_folders[category['url']])
         cat_index = f"# {cat_name}\n\n**Source:** [{category['url']}]({category['url']})\n\n## Folders\n\n"
 
         if not folders:
-            folder_name, articles = get_folder_info(category['url'])
+            folder_name, articles, _ = get_folder_info(category['url'])
             if articles:
                 folders = [category['url']]
 
-        for folder_url in folders:
-            folder_name, articles = get_folder_info(folder_url)
+        queue = list(folders)
+        while queue:
+            folder_url = queue.pop(0)
+            folder_name, articles, subfolders = get_folder_info(folder_url)
+            for sub_url in subfolders:
+                if folder_id(sub_url) not in seen_folders:
+                    seen_folders.add(folder_id(sub_url))
+                    queue.append(sub_url)
             if not articles:
                 continue
 
