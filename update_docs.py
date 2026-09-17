@@ -74,6 +74,16 @@ def content_hash(text):
     return hashlib.sha256(text.encode('utf-8')).hexdigest()[:16]
 
 
+def repo_path(path):
+    """Repo-relative path with forward slashes, the form the manifest stores.
+
+    os.path.relpath uses backslashes on Windows, which never match a manifest
+    written on Linux: every article then looks new, every old entry looks
+    removed, and the removal step deletes the files that were just written.
+    """
+    return os.path.relpath(path, REPO_DIR).replace(os.sep, '/')
+
+
 def fetch_page(url, retries=3):
     for attempt in range(retries):
         try:
@@ -296,7 +306,7 @@ def main():
                 stats['articles_scraped'] += 1
                 art_filename = safe_filename(title or art_title) + ".md"
                 art_path = os.path.join(folder_dir, art_filename)
-                rel_path = os.path.relpath(art_path, REPO_DIR)
+                rel_path = repo_path(art_path)
 
                 article_md = (f"# {title}\n\n"
                               f"**Source URL:** [{art_url}]({art_url})  \n"
@@ -326,12 +336,12 @@ def main():
             folder_readme = os.path.join(folder_dir, "README.md")
             with open(folder_readme, 'w', encoding='utf-8') as f:
                 f.write(folder_index)
-            written_files.add(os.path.relpath(folder_readme, REPO_DIR))
+            written_files.add(repo_path(folder_readme))
 
         cat_readme = os.path.join(cat_dir, "README.md")
         with open(cat_readme, 'w', encoding='utf-8') as f:
             f.write(cat_index)
-        written_files.add(os.path.relpath(cat_readme, REPO_DIR))
+        written_files.add(repo_path(cat_readme))
 
         index_content += f"- [{cat_name}](docs/{cat_dir_name}/)\n"
 
@@ -352,13 +362,21 @@ def main():
 
     # ── Detect removed articles ────────────────────────────────────────
     print("\n[3/5] Detecting removed articles...")
-    for old_path in old_manifest:
-        if old_path not in new_manifest:
-            stats['articles_removed'] += 1
-            full_path = os.path.join(REPO_DIR, old_path)
-            if os.path.exists(full_path):
-                os.remove(full_path)
-                print(f"  Removed: {old_path}")
+    to_remove = [old_path for old_path in old_manifest if old_path not in new_manifest]
+    # The help center retires a handful of articles a week, not hundreds. A
+    # removal list this long means the paths stopped matching (a renamed
+    # category, a platform path bug), and acting on it would delete live docs.
+    if previous and len(to_remove) > max(50, previous * 0.1) and not FORCE:
+        print(f"\n[ABORT] This run would remove {len(to_remove)} of {previous} articles. "
+              f"Nothing was removed, committed, or pushed. Check the manifest paths, "
+              f"or re-run with --force if the help center really removed them.")
+        sys.exit(1)
+    for old_path in to_remove:
+        stats['articles_removed'] += 1
+        full_path = os.path.join(REPO_DIR, *old_path.split('/'))
+        if os.path.exists(full_path):
+            os.remove(full_path)
+            print(f"  Removed: {old_path}")
 
     # Clean up empty directories
     for dirpath, dirnames, filenames in os.walk(OUTPUT_DIR, topdown=False):
