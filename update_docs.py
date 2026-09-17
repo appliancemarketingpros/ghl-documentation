@@ -149,12 +149,12 @@ def folder_id(url):
 
 
 def get_folder_info(folder_url):
-    """Every article in a folder plus its subfolders, following the portal's own "Next" links.
+    """Every article in a folder plus its subfolders, following the portal's own page links.
 
-    The portal pages folders at /folders/<id>/page/N, 20 articles a page, and
+    The portal pages folders at /folders/<id>/page/N, 20 items a page, and
     ignores ?page=N (which just returns page 1 again). Requesting ?page=N capped
-    every folder at its first 20 articles, so this follows the Next link the
-    page itself renders instead.
+    every folder at its first 20 articles, so this walks the page links the
+    pager itself renders instead.
 
     Folders can hold subfolders, and some subfolders are linked only from their
     parent folder's page, never from the category page (52 folders and 320
@@ -167,8 +167,11 @@ def get_folder_info(folder_url):
     own_id = folder_id(folder_url)
     folder_name = "Unknown"
     listed_count = None
-    url, visited = folder_url, set()
-    while url and url not in visited and len(visited) < 100:
+    url, visited, page_queue = folder_url, set(), []
+    while url and len(visited) < 100:
+        if url in visited or (url.endswith('/page/1') and folder_url in visited):
+            url = page_queue.pop(0) if page_queue else None
+            continue
         visited.add(url)
         page_html = fetch_page(url)
         if not page_html:
@@ -196,12 +199,17 @@ def get_folder_info(folder_url):
             sub_url = f"{BASE_URL}/support/solutions/folders/{sub_id}"
             if sub_id and sub_id != own_id and sub_url not in subfolders:
                 subfolders.append(sub_url)
-        next_link = next((a for a in soup.find_all('a', href=re.compile(r'/page/\d+$'))
-                          if a.get_text(strip=True).lower().startswith('next')), None)
-        if not next_link:
-            break
-        href = next_link['href']
-        url = BASE_URL + href if href.startswith('/') else href
+        # Queue every numbered page this pager links to, not just "Next": the portal
+        # sometimes renders a middle page with no pager at all (page 2 of Funnels and
+        # Websites on 09/17/2026), which silently ended the walk there.
+        for link in soup.find_all('a', href=re.compile(r'/support/solutions/folders/\d+/page/\d+$')):
+            if folder_id(link['href']) != own_id:
+                continue
+            href = link['href']
+            page_url = BASE_URL + href if href.startswith('/') else href
+            if page_url not in visited and page_url not in page_queue:
+                page_queue.append(page_url)
+        url = page_queue.pop(0) if page_queue else None
     if listed_count is not None and len(all_articles) + len(subfolders) < listed_count:
         print(f"  [WARN] {folder_name}: portal lists {listed_count} items, found "
               f"{len(all_articles)} articles and {len(subfolders)} subfolders")
