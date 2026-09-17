@@ -34,3 +34,13 @@
 
 ### [Calendar FAQ's](Calendar-FAQ's/)
 
+### [Service Calendars](Service-Calendars/)
+
+### [Simple Calendars](Simple-Calendars/)
+
+### [Round Robin Calendars](Round-Robin-Calendars/)
+
+### [Class Booking Calendars](Class-Booking-Calendars/)
+
+### [Collective Booking Calendars](Collective-Booking-Calendars/)
+

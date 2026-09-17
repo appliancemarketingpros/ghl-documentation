@@ -1,12 +1,12 @@
 # Documents & Contracts Templates with Opportunity Custom Values
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000008460-documents-contracts-templates-with-opportunity-custom-values](https://help.gohighlevel.com/support/solutions/articles/155000008460-documents-contracts-templates-with-opportunity-custom-values)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000004039-documents-contracts-templates-with-opportunity-custom-values](https://help.gohighlevel.com/support/solutions/articles/155000004039-documents-contracts-templates-with-opportunity-custom-values)  
 **Category:** Documents & Contracts  
 **Folder:** Documents and Contracts
 
 ---
 
-Opportunity custom values let you personalize Documents & Contracts templates with deal-specific information, such as a project budget, service type, or closing date. When a workflow generates the document, the platform replaces each merge field with information from the relevant Opportunity. This reduces manual editing and keeps documents accurate and consistent.
+Opportunity custom values let you personalize Documents & Contracts templates with deal-specific information, such as a project budget, service type, or closing date. When a workflow generates the document, HighLevel replaces each merge field with information from the relevant Opportunity. This reduces manual editing and keeps documents accurate and consistent.
 
 * * *
 
@@ -35,7 +35,7 @@ Opportunity custom fields store information about a specific deal. A merge field
   
 
 
-_![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078647993/original/ucokRQbsZNUCMCrEK6NdGK41ePWBpxqX6Q.png?1787025621)_  
+_![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078647668/original/K5RJ3twUj85Avyh94q_yIsJeRLN1Ethjsg.png?1787024665)_  
   
 
 
@@ -124,7 +124,7 @@ Using the merge-field menu inserts the correct field token and helps prevent for
   
 
 
-_![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078647998/original/NlNTxn7V3MIBN7WP2B71zDnOU1zGEQD4kg.png?1787025639)_  
+_![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078647682/original/24P4yjrkzpI_b2IZAvd7OvtkQ89npjFEFw.png?1787024721)_  
 
 
   5. Select:  
@@ -158,7 +158,7 @@ _![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/produc
   
 
 
-An Opportunity-related workflow trigger gives the platform the deal context needed to populate the template’s Opportunity merge fields.  
+An Opportunity-related workflow trigger gives HighLevel the deal context needed to populate the template’s Opportunity merge fields.  
   
 
 

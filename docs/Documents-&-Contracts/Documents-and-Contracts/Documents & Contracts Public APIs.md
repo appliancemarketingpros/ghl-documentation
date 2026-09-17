@@ -1,12 +1,12 @@
 # Documents & Contracts: Public APIs
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000007531-documents-contracts-public-apis](https://help.gohighlevel.com/support/solutions/articles/155000007531-documents-contracts-public-apis)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000006323-documents-contracts-public-apis](https://help.gohighlevel.com/support/solutions/articles/155000006323-documents-contracts-public-apis)  
 **Category:** Documents & Contracts  
 **Folder:** Documents and Contracts
 
 ---
 
-Automate document workflows in HighLevel with Documents & Contracts Public APIs. These APIs let developers list documents, send existing documents to contacts, retrieve templates, and generate documents from templates without manual work. This makes it easier to sync records, trigger document delivery from external systems, and streamline contract-related processes inside HighLevel. The feature is part of the broader Documents & Contracts experience in HighLevel and is designed for programmatic use.
+Documents & Contracts: Public APIs empower you to automate document workflows directly within HighLevel. With these APIs, you can seamlessly list, send, and manage documents and templates, eliminating manual processes and streamlining integrations with external systems.
 
 * * *
 
@@ -18,12 +18,8 @@ Automate document workflows in HighLevel with Documents & Contracts Public APIs.
   * Send Document
   * List Templates
   * Send Template
-  * How To Setup Documents & Contracts Public APIs
+  * How To Set Up Documents & Contracts: Public APIs
   * Frequently Asked Questions
-  * Related Articles
-
-
-  
 
 
 * * *
@@ -33,63 +29,37 @@ Automate document workflows in HighLevel with Documents & Contracts Public APIs.
   
 
 
-Documents & Contracts Public APIs give developers a way to work with document assets in HighLevel through API requests instead of manual actions in the app. They are useful when you need to connect HighLevel with external systems, automate sending from your own workflows, or dynamically create documents from saved templates. These APIs are scoped to the relevant HighLevel location and are best used when your process requires developer-led automation rather than a no-code workflow alone.
-
-  
-
-
-Documents & Contracts Public APIs currently support core document workflow actions such as:
-
-  * Listing documents in a location  
-  
-
-
-  * Sending an existing document to one or more contacts  
-  
-
-
-  * Listing templates in a location  
-  
-
-
-  * Creating and sending a document from a template in a single request
-
-
-  
-
+Documents & Contracts: Public APIs provide developers with programmatic access to core document and contract features in HighLevel. They allow you to fetch documents, send them to contacts, access templates, and even generate and send documents in one step. By integrating these APIs, you can automate workflows, ensure consistency, and scale document management across your business applications.
 
 * * *
 
-## **Key Benefits of Documents & Contracts: Public APIs  
-**
+## **Key Benefits of Documents & Contracts: Public APIs**
 
   
 
 
-Documents & Contracts Public APIs help teams reduce manual effort and connect document operations to the rest of their tech stack. They are especially valuable for businesses that want tighter control over when documents are generated, sent, and followed up on.  
+Harnessing these APIs delivers efficiency and automation that improve how you manage document workflows.
+
+  
+
+
+  * **Document listings** : Retrieve a complete list of documents for accurate tracking.  
   
 
 
-  * **Automate document delivery** : Send documents from external tools, custom apps, or internal systems without manually opening HighLevel.  
+  * **Automated sending** : Send documents directly to contacts without manual intervention.  
   
 
 
-  * **Use saved templates efficiently** : Generate new documents from existing templates in one API call to speed up repeatable processes.  
+  * **Template access** : Quickly fetch available templates to generate documents faster.  
   
 
 
-  * **Keep document data in sync** : Retrieve document and template lists for reporting, system syncing, or operational visibility.  
+  * **One-step creation & sending**: Create and send documents from templates with a single API call.  
   
 
 
-  * **Support scalable workflows** : Connect API-based sends with downstream workflow triggers for reminders, follow-ups, and status-based automation.  
-  
-
-
-  * **Reduce manual errors** : Standardize how templates are selected and sent across teams, systems, or client-facing processes.
-
-
-  
+  * **Seamless integration** : Connect document workflows with other apps and systems to reduce friction.
 
 
 * * *
@@ -99,31 +69,21 @@ Documents & Contracts Public APIs help teams reduce manual effort and connect do
   
 
 
-Listing documents helps you retrieve available document records within a specific HighLevel location. This is useful for integrations that need to sync document inventories, display available items in another system, or verify which assets already exist before triggering additional actions.
+The List Documents endpoint lets you retrieve all documents within a specific HighLevel location. This is useful for syncing document records across your CRM, dashboards, or custom apps. For more, refer to [List Documents.](<https://highlevel.stoplight.io/docs/integrations/60ec57df068f6-list-documents>)
 
   
 
 
-You can use the **List Documents** endpoint to:
-
-  * Retrieve documents available in a location  
+  * Pull a full list of documents tied to your account.  
   
 
 
-  * Support syncing between HighLevel and an external system  
+  * Keep document records updated in real time.  
   
 
 
-  * Build internal tools that reference existing document records  
-  
+  * Enable integrations that rely on document metadata.
 
-
-  * Reduce duplicate creation by checking what already exists first
-
-
-****
-
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068515262/original/W6-WmKB31secM6433B3-w6qeRauKgJ4Y5A.png?1775466052)**
 
 * * *
 
@@ -132,44 +92,21 @@ You can use the **List Documents** endpoint to:
   
 
 
-Sending an existing document by API is helpful when a document has already been prepared in HighLevel and only needs to be delivered to the right contact at the right time. This supports custom business logic, external application triggers, and developer-driven automation beyond standard workflow actions.  
-  
-
-
-You can use the **Send Document** endpoint to:
-
-  * Send a prebuilt document to a contact  
-  
-
-
-  * Trigger document delivery from an external form, portal, or app  
-  
-
-
-  * Standardize document sends across custom workflows  
-  
-
-
-  * Reduce manual handoff steps for sales or onboarding teams
-
+With the Send Document endpoint, you can automatically dispatch an existing document to one or multiple contacts. This reduces time spent manually sending documents and ensures a consistent process. For more, refer to [Send Document.](<https://highlevel.stoplight.io/docs/integrations/f7326427fcf70-send-document>)
 
   
 
 
-Keep in mind:
-
-  * The document must already exist in HighLevel before it can be sent  
+  * Select an existing document for sending.  
   
 
 
-  * Recipient behavior should follow the capabilities defined in the official API documentation  
+  * Choose one or more contact recipients.  
   
 
 
-  * API-driven sends can be paired with workflow-based follow-up automation after the document is sent or signed
+  * Automate document delivery to improve response times.
 
-
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068515535/original/9f9zIAfoaHjASv4pPYD1boGb9vDMDMkYSg.png?1775466517)**
 
 * * *
 
@@ -178,34 +115,20 @@ Keep in mind:
   
 
 
-Listing templates helps developers retrieve reusable document blueprints that are available in a HighLevel location. This is especially helpful when your external system needs to let users choose from approved templates without rebuilding the same content each time.
+The List Templates endpoint provides access to all available templates in your HighLevel location. This enables developers to fetch templates dynamically when building automated workflows or integrations. For more, refer to [List Templates](<https://highlevel.stoplight.io/docs/integrations/da393f098cd9e-list-templates>).
 
   
 
 
-You can use the **List Templates** endpoint to:
-
-  * Fetch template records available in a location  
+  * Fetch a central list of templates.  
   
 
 
-  * Populate a template picker in an external app or internal tool  
+  * Identify the right template for any use case.  
   
 
 
-  * Verify template availability before generating a document  
-  
-
-
-  * Standardize repeatable document creation across teams
-
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068515858/original/L4tOJaf_IWH4w_cV5ctEF2Y17fHqPPlwLQ.png?1775466989)
-
-  
+  * Power integrations with up-to-date template availability.
 
 
 * * *
@@ -215,84 +138,109 @@ You can use the **List Templates** endpoint to:
   
 
 
-Sending a template lets you create and send a document from a saved template in one API call. This is one of the most useful options for automating proposals, agreements, and other repeatable document types because it combines document generation and delivery into a single action.
-
-You can use the **Send Template** endpoint to:
+The Send Template endpoint combines template-based document creation and sending into a single API call. This reduces the workflow to one action, making it easier to build automation at scale. For more, refer to [Send Template.](<https://highlevel.stoplight.io/docs/integrations/c2be6fd51f42c-send-template>)
 
   
 
 
-  * Generate a new document from a template  
+  * Generate a new document from a template.  
   
 
 
-  * Send the generated document immediately  
+  * Immediately send it to designated contacts.  
   
 
 
-  * Automate repeatable contract or proposal workflows  
-  
+  * Simplify your process with fewer steps.
 
-
-  * Support personalized document delivery from external triggers or systems  
-  
-
-
-This option is often best when:
-
-  * You already use standardized templates in HighLevel  
-  
-
-
-  * You need a fresh document created for each contact  
-  
-
-
-  * Your process starts outside HighLevel but should still use HighLevel’s document infrastructure
-
-
-**Suggested screenshot:** Template selection or template editor view in HighLevel, showing the reusable structure the API can generate from.
 
 * * *
 
-## **How To Setup Documents & Contracts Public APIs**
+## **How To Set Up Documents & Contracts: Public APIs**
 
   
 
 
-A proper setup ensures your integration can authenticate securely, use the right HighLevel location, and call the correct API endpoints. Before building, make sure you understand whether your use case is better served by a Private Integration or a broader developer implementation supported through the HighLevel API platform.
+Correctly setting up API access ensures your integrations run smoothly, securely, and at scale. Follow the steps below to configure your HighLevel account for API usage:
 
   
 
 
-  1. Confirm that Documents & Contracts is part of your workflow and that the needed documents or templates already exist in the correct HighLevel location.  
   
 
 
-  2. Review the current **HighLevel API Documentation** to confirm endpoint behavior, authentication requirements, and request details. HighLevel’s official API documentation is now hosted through the Developer Marketplace documentation path.  
+### _**Step 1:** Obtain API Credentials_
+
+Go to **Agency** **Settings > Private Integrations** in your HighLevel account and create a **Private Integration token** (recommended over API keys for enhanced security and access control). 
+
+  
+
+    
+    
+    **IMPORTANT** : Scopes determine the permissions that the third-party app has to access your account data or perform actions. It's recommended to grant as few scopes as necessary for better account security.
+
   
 
 
-  3. Decide on the correct authentication method for your integration. Private Integrations are intended for secure internal connections, while Marketplace-style developer flows may use OAuth-based access.  
   
 
 
-  4. Make sure your API requests are targeting the correct HighLevel location context so that documents and templates are retrieved from the intended account area.  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155053781481/original/4c1yU4D8Qr94ycqumFEQMR0ig3l8TO6SgQ.gif?1757939075)
+
   
 
 
-  5. Test your request flow for the specific action you need:
+  
 
-     * List Documents
 
-     * Send Document
+### _**Step 2:** Review API Documentation_
 
-     * List Templates
+Visit the [Public API documentation portal.](<https://highlevel.stoplight.io/docs/integrations/7d92ac20e1355-documents-and-contracts-api>) Identify which endpoints your workflow requires (List Documents, Send Document, List Templates, Send Template).
 
-     * Send Template
+  
 
-  6. If you want actions after a send, connect your process to workflow automations that respond to document events such as sent, viewed, signed, or completed.
 
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155053781579/original/PW18r5Ci6TL3FisjacnDXoBp7fCWwHi-UA.png?1757939149)
+
+  
+
+
+  
+
+
+### _**Step 3:** Test API Calls_
+
+Use a tool like Postman to make sample requests. Set your authentication header as `Authorization: Bearer <your-token>`. Enter required parameters (document ID, template ID, contact IDs).
+
+  
+
+
+  
+
+
+### _**Step 4:** Validate Responses_
+
+Review the JSON output from each call. Confirm that documents or templates are returned and sent successfully.
+
+  
+
+
+  
+
+
+### _**Step 5:** Integrate with Your Workflow_
+
+Embed API calls into your CRM, automation scripts, or backend processes. Optionally connect with HighLevel workflows that trigger based on document actions (e.g., “Document Sent” or “Document Signed”).
+
+  
+
+
+  
+
+
+### _**Step 6:** Deploy Securely_
+
+Store your API tokens securely, rotate them periodically, and monitor API usage to avoid hitting rate limits.
 
 * * *
 
@@ -301,73 +249,41 @@ A proper setup ensures your integration can authenticate securely, use the right
   
 
 
-**Q: Are Documents & Contracts Public APIs meant for developers?**  
-Yes. The feature is designed for programmatic use, especially for teams building integrations, automations, or custom applications around HighLevel document workflows.
+**Q: What endpoints are included in Documents & Contracts: Public APIs?**  
+You can use endpoints for listing documents, sending documents, listing templates, and sending templates.
 
   
 
 
-**Q: What is the difference between Send Document and Send Template?**  
-**Send Document** sends an existing document that is already in HighLevel. **Send Template** creates a new document from a template and sends it in the same request.
+  
+
+
+**Q: Where do I find the official API documentation?**  
+Full documentation is available at the [HighLevel Public API portal](<https://highlevel.stoplight.io/docs/integrations/7d92ac20e1355-documents-and-contracts-api>).
 
   
 
 
-**Q: Can I use these APIs instead of workflows?**  
-Yes, when your process starts outside HighLevel or needs custom logic. Workflows are often better for no-code automation inside HighLevel, while APIs are better for developer-led integrations.
+  
+
+
+**Q: Do I need specific permissions to access these APIs?**  
+Yes, valid API credentials (preferably Private Integration tokens) are required for access.
 
   
 
 
-**Q: Do these APIs work with templates already created in HighLevel?**  
-Yes. The template-related endpoints are designed to retrieve templates in a location and create documents from them programmatically.
+  
+
+
+**Q: How can I test the APIs safely?**  
+Use Postman or a similar API client with sample data before moving to production.
 
   
 
 
-**Q: Can I automate follow-ups after a document is sent?**  
-Yes. You can pair API-based sends with Documents & Contracts workflow triggers to automate reminders, internal notifications, or downstream actions based on document status.
-
   
 
 
-**Q: Do I need Private Integrations to use these APIs?**  
-Not always. Private Integrations are one option for secure internal use cases, but HighLevel also supports broader developer access patterns through its current API platform and Marketplace documentation.
-
-  
-
-
-**Q: What does “location” mean for these endpoints?**  
-These endpoints operate within the relevant HighLevel location context, so documents and templates returned by the API are tied to that location’s data.
-
-  
-
-
-**Q: Can I manage every document action through these public APIs?**  
-The feature article specifically documents listing and sending actions for documents and templates. For the most current endpoint coverage, always confirm the official API documentation.
-
-* * *
-
-### **Related Articles**
-
-  * [HighLevel API Documentation ](<https://help.gohighlevel.com/en/support/solutions/articles/48001060529>)  
-  
-
-
-  * [Documents & Con tracts in HighLevel – Setup and Guide ](<https://help.gohighlevel.com/support/solutions/articles/155000000594-how-to-use-documents-contracts-?>)  
-  
-
-
-  * [Send Contracts & Proposals Using Workflows in HighLevel ](<https://help.gohighlevel.com/support/solutions/articles/155000001301-how-to-create-and-send-document-or-contract-templates-automatically-in-a-workflow?utm_source=chatgpt.com>)  
-  
-
-
-  * [Workflow Trigger - Documents & Contracts ](<https://help.gohighlevel.com/en/support/solutions/articles/155000001491>)  
-  
-
-
-  * [Workflow Action - Send Documents & Contracts ](<https://help.gohighlevel.com/en/support/solutions/articles/155000004887>)  
-  
-
-
-  * [Private Integrations: Everything you need to know ](<https://help.gohighlevel.com/en/support/solutions/articles/155000003054>)
+**Q: Is there a difference between using a document and using a template?**  
+Yes. A document refers to an existing file in your account, while a template is a predefined structure that can be used to generate and send new documents.

@@ -1,6 +1,6 @@
 # Creating and Managing Custom Fields for Better Data Organization
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000008466-creating-and-managing-custom-fields-for-better-data-organization](https://help.gohighlevel.com/support/solutions/articles/155000008466-creating-and-managing-custom-fields-for-better-data-organization)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000008030-creating-and-managing-custom-fields-for-better-data-organization](https://help.gohighlevel.com/support/solutions/articles/155000008030-creating-and-managing-custom-fields-for-better-data-organization)  
 **Category:** Merge Fields & Custom Variables  
 **Folder:** Merge Fields & Custom Variables
 
@@ -120,7 +120,7 @@ Go to **Settings → Custom Fields** , select the appropriate object, and open *
   
 
 
-### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079787959/original/qwGRZHAEr7oJGe9IRmyQPKThvxySViwFtA.png?1788259539)
+### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079788094/original/epqHbCf1zJVFwmGCA5kPcwlfd1aXhBta0A.png?1788259608)
 
   
 Open **Settings → Custom Fields → Folders** , then select **Create folder**. Use folders to keep related custom fields grouped together.
@@ -150,7 +150,7 @@ Select the object you want to manage, then open the **Fields** tab. Existing fie
   
 
 
-### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079787986/original/AZIgZmOB6T8p2RsrchZ3pdDwqm8Q1Y1Xrg.png?1788259564)
+### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078749689/original/SvfJvuw6OK9uV3EHSfA6WdtW0WW7QzanIQ.png?1787112857)
 
   
 Select the appropriate object and remain on the **Fields** tab. From here, you can review existing fields or select **Create field** to add one.  
@@ -244,9 +244,8 @@ Once the configuration is correct, click **Create custom field**.
   
 
 
-### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078749979/original/BQlCzAoHSIDz0gWlvWoo58_pXEJHhWFejg.png?1787113639)
+### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078749723/original/q8gabYtu42c05zyYQF9LSOw_FG_Hq6LsUw.png?1787112955)
 
-  
 Review the configuration one final time, then click **Create custom field** to add it to the selected object.
 
 * * *
@@ -324,41 +323,3 @@ The field key identifies the custom field and can be used by supported features 
 **Q: Can custom fields be used in reports and dashboards?**
 
 Supported Contact and Opportunity custom fields can be used in certain dashboard and reporting components. Availability depends on the widget, report, object, and field type.
-
-* * *
-
-## **Need Help?**  
-  
-
-
-If a custom field is missing, unavailable, or not working as expected, first confirm that the field was created under the correct object and is supported in the area where you are trying to use it.  
-  
-
-
-Before troubleshooting further, verify that:  
-  
-
-
-  * The correct object is selected under **Settings → Custom Fields**.  
-  
-
-  * The custom field exists and has not been deleted.  
-  
-
-  * The correct field type was selected.  
-  
-
-  * The field is assigned to the intended folder.  
-  
-
-  * The feature where you are using the field supports that object and field type.  
-  
-
-  * The field contains a value when using it in merge fields, filters, workflows, or reporting.  
-  
-
-  * You are selecting the correct field when similarly named or duplicate fields exist.  
-  
-
-
-If the issue continues, collect the custom field name, object, field type, field key, folder, and screenshots showing where the field is expected to appear before contacting support.

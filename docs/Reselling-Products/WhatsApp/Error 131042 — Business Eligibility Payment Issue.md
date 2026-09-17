@@ -1,6 +1,6 @@
 # Error 131042 — Business Eligibility Payment Issue
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000007938-error-131042-business-eligibility-payment-issue](https://help.gohighlevel.com/support/solutions/articles/155000007938-error-131042-business-eligibility-payment-issue)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000007936-error-131042-business-eligibility-payment-issue](https://help.gohighlevel.com/support/solutions/articles/155000007936-error-131042-business-eligibility-payment-issue)  
 **Category:** Reselling Products  
 **Folder:** WhatsApp
 

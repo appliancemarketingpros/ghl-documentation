@@ -6,201 +6,198 @@
 
 ---
 
-This article explains how to include the Listings add-on in a [SaaS](<https://help.gohighlevel.com/support/solutions/articles/48001184920>) plan using HighLevel’s SaaS Configurator. Listings allow you to provide enhanced visibility services as part of your subscription offering, helping agencies increase recurring revenue while delivering more value to clients.
+Listings • SaaS Configurator • Add-Ons
 
-* * *
+How to Add Listings to a SaaS Plan
 
-**TABLE OF CONTENTS**
+HighLevel lets agencies package Listings directly inside SaaS plans so clients can receive directory-management capabilities as part of their subscription. Listings helps businesses keep important information consistent across major online directories while giving agencies another way to increase the value of their SaaS packages. This guide explains how Listings add-on billing works, how to include Listings in a SaaS plan, what happens after purchase, and how to identify sub-accounts using Listings.
 
-  * Overview of Adding Listings to a SaaS Plan
-  * Key Benefits of Including Listings in a SaaS Plan
-  * Pre-requisites
-  * How to Add Listings to a SaaS Plan
-  * How will my Client set up Listings after purchasing my SaaS Plan?
-  * How do I see which Locations Signed up for my Listings Offer?
-  * Frequently Asked Questions
-  * Related Articles
+What You'll Learn
+
+Learn how Listings fits into a SaaS plan, who pays for bundled Listings, how to add it through the SaaS Configurator, what clients need to complete after provisioning, and how to locate sub-accounts with Listings enabled.
+
+Important
+
+When Listings is included as an add-on inside a SaaS plan, the add-on cost is billed to your agency rather than separately to the subscribing sub-account. Review the add-on cost and include the appropriate amount and margin in your SaaS plan pricing before selling the plan.
+
+Table of Contents
+
+1\. What Is Listings in a SaaS Plan?  
+2\. Key Benefits of Including Listings in a SaaS Plan  
+3\. Before You Add Listings  
+4\. How Listings Add-On Billing Works  
+5\. How To Add Listings to a SaaS Plan  
+6\. What Happens After a Client Purchases the Plan?  
+7\. How To Find Sub-Accounts With Listings  
+8\. Frequently Asked Questions  
+9\. Related Articles
+
+1
+
+# What Is Listings in a SaaS Plan?
+
+Listings is an online directory-management service that helps businesses keep important information such as their business name, address, phone number, hours, and other profile details consistent across supported publishers.
+
+Adding Listings to a SaaS plan lets you bundle the service with the client's broader subscription instead of requiring the client to purchase Listings separately. When an eligible new SaaS sub-account is provisioned with the plan, the selected add-on is deployed as part of that package.
+
+Automatic provisioning gives the sub-account access to Listings, but the business still needs to provide and verify the information required for its Listings profile.
+
+2
+
+## Key Benefits of Including Listings in a SaaS Plan
+
+Bundling Listings with a SaaS subscription creates a more complete service package while allowing the agency to control how the add-on cost is incorporated into plan pricing.
+
+  * **Simplified Packaging:** Include Listings alongside the other features and services offered through a SaaS plan.
+  * **Automatic Provisioning:** New qualifying sub-accounts created through the plan receive the selected add-on automatically.
+  * **Flexible Plan Positioning:** Include Listings in selected plans to differentiate service tiers and premium packages.
+  * **Recurring Revenue Potential:** Account for the Listings cost plus your desired margin when determining the SaaS subscription price.
+  * **Centralized Configuration:** Add or remove supported add-ons while managing the SaaS plan from the Configurator.
 
 
-* * *
+3
 
-# **Overview of Adding Listings to a SaaS Plan**
+## Before You Add Listings
 
+Confirm that your SaaS billing architecture and plan configuration are ready before adding paid add-ons. Proper billing setup ensures subscription and add-on charges are associated with the intended agency configuration.
+
+  * You need access to **Agency View → SaaS Configurator**.
+  * Create the SaaS plan first or select an existing plan you want to edit.
+  * Complete the applicable payment-provider setup for the SaaS architecture you are using.
+  * For SaaS V1, Stripe is the billing system of record and must be configured for the agency.
+  * For SaaS V2, billing is tied to the configured Agency Sub-Account and its supported payment-provider setup.
+  * Review the cost of Listings before determining the final price of the SaaS plan.
+
+
+4
+
+## How Listings Add-On Billing Works
+
+Add-ons included directly inside a SaaS plan use a different billing model from an add-on purchased separately by a client. Understanding this distinction helps prevent unexpected agency charges and protects your plan margin.
+
+Billing Item| How It Works  
+---|---  
+**Listings add-on cost**|  The agency is responsible for the bundled add-on cost when Listings is included directly in a SaaS plan.  
+**Sub-account charge**|  The subscribing sub-account is not separately charged for that bundled add-on.  
+**Your SaaS price**|  Set the SaaS plan price high enough to account for the add-on cost and your desired margin.  
+**Future bundle changes**|  Changes to bundled add-ons apply to future qualifying sub-accounts and do not automatically reconfigure existing clients.  
   
+**Plan your margins before saving:** Review the add-on cost shown in the SaaS Configurator and incorporate that cost into your subscription price. Bundling Listings without adjusting your SaaS pricing can reduce the margin on every client subscribed to that plan.
 
+5
 
-The Listings add-on allows you to package business directory syncing as part of your SaaS plans. Instead of selling Listings separately, you can embed it directly into a subscription plan in the SaaS Configurator. This ensures clients automatically receive this feature when they subscribe to a plan.
+## How To Add Listings to a SaaS Plan
 
-* * *
+Adding Listings through the SaaS Configurator attaches the add-on to the selected SaaS package. Review both the add-on selection and your resulting plan cost before saving the changes.
 
-## **Key Benefits of Including Listings in a SaaS Plan**
+  1. From **Agency View** , select **SaaS Configurator**.
 
-  
 
+![Agency View navigation showing SaaS Configurator](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155049237716/original/nJRDyrJjz40yEL_ctabbQ6VqE6pFygHctQ.png?1751466118)
 
-Bundling Listings into your SaaS plans offers strategic upselling opportunities and simplifies feature access for your clients.  
-  
+  2. Locate the SaaS plan you want to update and click **Edit Details**.
 
 
-  * **Simplified Packaging** : Clients automatically receive Listings when they subscribe to the plan  
-  
+![SaaS Configurator plan showing the Edit Details option](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155049237745/original/d70dNiFCYzlghEdyUJa1BH3fCCjYY-dJFw.png?1751466152)
 
+  3. Open the **Add-Ons** section of the plan configuration.
 
-  * **Upsell Integration** : Easily position Listings as part of a higher-tier plan to increase plan value  
-  
 
+![SaaS plan editor showing the Add-Ons section](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155049237755/original/JNg8NqittWtYJ6HOr8BovVBAZv08wv4HsA.png?1751466167)
 
-  * **Streamlined Delivery** : Listings is provisioned automatically with no manual setup needed  
-  
+  4. Locate **Listings** and select it to include the add-on in the plan.
+  5. Review the add-on cost displayed in the Configurator.
+  6. Confirm that your SaaS subscription price accounts for the Listings cost and your desired margin.
+  7. Click **Save Changes**.
 
 
-  * **Increased MRR** : Generates more revenue by building premium features into recurring plans  
-  
+![Listings selected as an add-on in the SaaS plan configuration](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155049237838/original/ZkQbPgfzW05qrC1CNPZWnrPr6M0pziEYVA.png?1751466259)
 
+6
 
-  * **Easy Configuration** : Add or remove Listings from plans in just a few clicks
+## What Happens After a Client Purchases the Plan?
 
+Bundling Listings handles access and provisioning, but the client must still complete the business information required for Listings to distribute accurate data to supported publishers.
 
-* * *
+  1. The qualifying SaaS sub-account is provisioned with Listings as part of the selected plan.
+  2. Inside the sub-account, navigate to **Reputation → Listings**.
+  3. Complete any required business information shown during Listings onboarding.
+  4. Review the business name, address, phone number, operating hours, website, and other required profile information for accuracy.
+  5. Complete any additional connection or verification steps shown in the Listings experience.
 
-## **Pre-requisites**
 
-  
+**Existing clients:** Changing the add-ons attached to a SaaS plan does not automatically apply that new bundle configuration to existing sub-accounts. The updated configuration is used for qualifying new sub-accounts going forward.
 
+7
 
-  * You must be on the pro plan and have your plans configured on the SaaS Configurator. [Click here to learn more on how to setup SaaS Mode](<https://help.gohighlevel.com/en/support/solutions/articles/48001184920>)  
-  
+## How To Find Sub-Accounts With Listings
 
-  * You must have your Stripe account connected to the agency level. [Click here to learn more on how to connect Stripe to your agency dashboard](<https://help.gohighlevel.com/en/support/solutions/articles/48001171910>)  
-  
+Filtering sub-accounts by Listings status gives you a quick way to identify which clients currently have the service enabled without reviewing each account individually.
 
+### Current Sub-Accounts Filter
 
-    
-    
-    **Important** : Please note that once the Agency Stripe account is connected, it can not be changed later. So please ensure that you are connecting the right Stripe account to your agency.
+  1. From **Agency View** , open **Sub-Accounts**.
+  2. Click **Advanced Filters**.
+  3. Open the **Reselling** filter category.
+  4. Select the **Listings** filter and choose the applicable status.
+  5. Apply the filter to review matching sub-accounts.
 
-* * *
 
-## **How to Add Listings to a SaaS Plan**
+**Why this method is preferred:** The current Sub-Accounts experience includes Listings under its Reselling filters, allowing you to identify enabled accounts directly from the account list.
 
-  
+### Agency Billing View Reference
 
+Some agency interfaces may also expose Listings subscription information through the agency Billing area. The following screenshots are retained as a reference for that view. Use the Sub-Accounts Advanced Filters method above as the primary current workflow.
 
-You can include Listings in any SaaS plan directly through the SaaS Configurator. Here’s how to do it:  
-  
+1\. From **Agency View** , open **Settings**.
 
-    
-    
-    **Important** : You will be charged for deploying these services. Sub-accounts subscribing to this plan won't be charged extra for the services selected below. Please make sure to add your margins to the price of the SaaS product itself.
+![Agency View showing Settings in the navigation](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155049239059/original/C8G_CEKAC25yicZTa2gSM5TLlUTFIyue2Q.png?1751467077)
 
-  
+2\. If available in your interface, open **Billing** and locate the Listings subscription area.
 
+![Agency Billing page showing the Listings subscription area](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155049239506/original/APX0zsx2Q-3r8ccQeFAtPRmqc7dIFU5WMA.png?1751467464)
 
-  1. From the left-hand navigation bar in Agency-View, click on **SaaS Configurator**  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155049237716/original/nJRDyrJjz40yEL_ctabbQ6VqE6pFygHctQ.png?1751466118)  
-  
+3\. The subscription view can display the applicable sub-accounts and billing information when that Billing experience is available.
 
-  2. Find the plan you want to edit and click **Edit Details**  
-  
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155049237745/original/d70dNiFCYzlghEdyUJa1BH3fCCjYY-dJFw.png?1751466152)**  
-  
+![Listings subscription window showing subscribed sub-accounts and billing information](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155049239595/original/hCXdT-rZkADWuJIuxZRw7hXKF62Keu7qMQ.png?1751467546)
 
-  3. Navigate to the**Addons** section  
-  
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155049237755/original/JNg8NqittWtYJ6HOr8BovVBAZv08wv4HsA.png?1751466167)**  
-  
+8
 
-  4. Check the box labeled**Listings** to include it in the plan then click **Save Changes** to confirm  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155049237838/original/ZkQbPgfzW05qrC1CNPZWnrPr6M0pziEYVA.png?1751466259)
+## Frequently Asked Questions
 
+Q: Who is charged for Listings when it is included in a SaaS plan?
 
-* * *
+The agency is responsible for the Listings add-on cost when it is bundled directly into a SaaS plan. The subscribing sub-account is not separately charged for that bundled add-on, so factor the cost into your SaaS plan price.
 
-## **How will my Client set up Listings after purchasing my SaaS Plan?**
+Q: Does bundling Listings mean the client has nothing left to configure?
 
-  
+No. Bundling handles access and provisioning, but the business still needs to complete the required Listings profile information and any applicable onboarding or connection steps.
 
+Q: Can I include Listings in more than one SaaS plan?
 
-Once purchased, all other steps for setting up Listings, managing Listings, client notifications, etc. will remain the same as discussed in this article: [Online Listing Overview & Setup Doc](<https://help.gohighlevel.com/en/support/solutions/articles/48001196389>)
+Yes. You can include Listings in multiple SaaS plans when configuring the add-ons for each plan.
 
-  
+Q: If I add Listings to a plan today, will existing clients automatically receive it?
 
-    
-    
-    **Note** : This setting will not affect your existing clients and will only apply to new SaaS clients you sign up in future (after making the changes shown above)
+No. Changes to the add-ons attached to a SaaS plan apply to qualifying future sub-accounts and do not automatically reconfigure existing clients.
 
-* * *
+Q: What happens if I remove Listings from a SaaS plan later?
 
-## **How do I see which Locations Signed up for my Listings Offer?**
+Removing the add-on from the plan changes the configuration for future qualifying clients. Do not assume that an existing Listings subscription is automatically canceled; manage existing subscriptions separately when required.
 
-  
+Q: Where does a client manage Listings after provisioning?
 
+Inside the applicable sub-account, go to **Reputation → Listings** to access the Listings experience and complete the required business information.
 
-To see which locations have signed up for your Listings offer, follow these steps:  
-  
+Q: How can I quickly find which sub-accounts have Listings enabled?
 
+From Agency View, open **Sub-Accounts → Advanced Filters** and use the Listings option under the **Reselling** filter category.
 
-  1. From Agency View, go to the bottom left and click **Settings**  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155049239059/original/C8G_CEKAC25yicZTa2gSM5TLlUTFIyue2Q.png?1751467077)  
-  
+### Related Articles
 
-  2. In the Settings menu, select **Billing**. Locate the Listings section and click **Show sub-accounts**  
-  
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155049239506/original/APX0zsx2Q-3r8ccQeFAtPRmqc7dIFU5WMA.png?1751467464)**  
-  
-
-  3. A window will pop up showing all subscribed sub-accounts, their plan details, and billing status  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155049239595/original/hCXdT-rZkADWuJIuxZRw7hXKF62Keu7qMQ.png?1751467546)
-
-
-* * *
-
-## **Frequently Asked Questions**
-
-  
-
-
-**Q: What happens when I include Listings in a plan?**  
-The client will automatically receive access to Listings as soon as they purchase or upgrade to that plan.  
-  
-
-
-**Q: Can I include Listings in multiple plans?**  
-Yes, you can include Listings in any or all of your SaaS plans by selecting the add-on during configuration.  
-  
-
-
-**Q: Is the cost of Listings billed to the agency or client?**  
-The agency is billed for Listings, but you can bake this cost into the SaaS plan pricing.  
-  
-
-
-**Q: Can I change which plans include Listings later?**  
-Yes, you can edit any plan in the SaaS Configurator to add or remove Listings at any time.  
-  
-
-
-**Q: Will clients know Listings is included in their plan?**  
-Yes, Listings appears on the plan features list during checkout and onboarding.
-
-* * *
-
-## **Related Articles**
-
-  
-
-
-  * [Guide to SaaS Plan Creation, Sales, and Customer Onboarding](<https://help.gohighlevel.com/en/support/solutions/articles/155000003670>)  
-  
-**[](<https://help.gohighlevel.com/en/support/solutions/articles/48001196389>)**[](<https://help.gohighlevel.com/en/support/solutions/articles/48001196389>)[](<https://help.gohighlevel.com/en/support/solutions/articles/48001196389>)
-  * [Online Listing Overview& Setup Doc](<https://help.gohighlevel.com/en/support/solutions/articles/48001196389>)  
-  
-
-  * [SaaS Mode - Full Setup Guide + FAQ](<https://help.gohighlevel.com/en/support/solutions/articles/48001184920>)  
-  
-
-  * [How To Connect Stripe To Your Agency Dashboard](<https://help.gohighlevel.com/en/support/solutions/articles/48001171910>)[](<https://help.gohighlevel.com/en/support/solutions/articles/48001196389>)**[](<https://help.gohighlevel.com/en/support/solutions/articles/48001196389>)**
+  * [ How to Package Add-Ons as Part of SaaS Plans ](<https://help.gohighlevel.com/support/solutions/articles/155000007221-how-to-package-add-ons-as-part-of-saas-plans>)
+  * [ Getting Started with the SaaS Configurator ](<https://help.gohighlevel.com/support/solutions/articles/155000008015-getting-started-with-the-saas-configurator>)
+  * [ Online Listing Overview & Setup Doc ](<https://help.gohighlevel.com/support/solutions/articles/48001196389>)
+  * [ How to Resell Listings to Your Clients ](<https://help.gohighlevel.com/support/solutions/articles/155000001901-how-to-resell-listings-to-your-clients>)
+  * [ SaaS V1 vs SaaS V2: What's the Difference? ](<https://help.gohighlevel.com/support/solutions/articles/155000007968-saas-v1-vs-saas-v2-what-s-the-difference->)
+  * [ Cancelling Listings for Your Sub-Account in HighLevel ](<https://help.gohighlevel.com/support/solutions/articles/155000001886>)

@@ -54,3 +54,23 @@
 
 ### [Events](Events/)
 
+### [Email Builder Capabilities](Email-Builder-Capabilities/)
+
+### [Workflow Email Action](Workflow-Email-Action/)
+
+### [Campaign configurations](Campaign-configurations/)
+
+### [Campaign Settings/Functionalities](Campaign-Settings-Functionalities/)
+
+### [Types of Workflow Campaigns](Types-of-Workflow-Campaigns/)
+
+### [RSS Guide](RSS-Guide/)
+
+### [Troubleshooting Ad Manager](Troubleshooting-Ad-Manager/)
+
+### [Google Ads](Google-Ads/)
+
+### [LinkedIn Ads](LinkedIn-Ads/)
+
+### [Affiliate Reporting & Insights](Affiliate-Reporting-&-Insights/)
+

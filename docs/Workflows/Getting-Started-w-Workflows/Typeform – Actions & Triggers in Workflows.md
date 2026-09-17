@@ -1,236 +1,125 @@
 # Typeform – Actions & Triggers in Workflows
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000006676-typeform-actions-triggers-in-workflows](https://help.gohighlevel.com/support/solutions/articles/155000006676-typeform-actions-triggers-in-workflows)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000006443-typeform-actions-triggers-in-workflows](https://help.gohighlevel.com/support/solutions/articles/155000006443-typeform-actions-triggers-in-workflows)  
 **Category:** Workflows  
 **Folder:** Getting Started w/ Workflows
 
 ---
 
-Connect Typeform to HighLevel to automate lead capture, surveys, and feedback in real time. This guide covers the instant **Typeform → HighLevel** trigger, all **Typeform actions** you can run from a workflow, and step‑by‑step setup. You’ll also find best‑practice mapping tips, billing notes, and links to related resources so your team can launch confidently.
+## **1\. Introduction**
 
-* * *
+The **Typeform integration** in HighLevel enables seamless automation between your CRM workflows and Typeform’s interactive form platform. Whether you’re capturing leads, collecting survey data, or tracking customer feedback, this integration connects Typeform submissions directly with HighLevel automations — ensuring instant data sync and workflow execution.
 
-**TABLE OF CONTENTS**
+### **Why It Matters**
 
-  * What is the Typeform Integration in Workflows?
-  * Key Benefits of the Typeform Integration
-  * Triggers & Actions
-  * How To Set Up the Typeform Integration
-  * Use Cases
-  * Frequently Asked Questions
-  * Related Articles
+With this integration, agencies, marketers, and businesses can:
 
+  * Automatically capture and use Typeform responses in HighLevel workflows.
 
-* * *
+  * Create personalized follow-ups, CRM entries, or notifications based on new submissions.
 
-# **What is the Typeform Integration in Workflows?**
-
-  
-HighLevel’s native Typeform integration lets you react to Typeform submissions instantly and perform Typeform tasks directly from a workflow. Use the **New Entry (Instant)** trigger to start automations the moment a form is submitted, and add Typeform **actions** (like creating or duplicating a form, or searching responses) to streamline onboarding, feedback collection, and CRM enrichment.
-
-* * *
-
-## **Key Benefits of the Typeform Integration**
-
-  
-These benefits highlight how HighLevel and Typeform work together to route leads faster, reduce manual tasks, and centralize operations in one automation hub.
-
-  
-
-
-  * **Instant routing** : start workflows the moment a Typeform is submitted—no polling delays.  
-  
-
-
-  * **Form ops at scale** : create or duplicate forms during an automation so each client/project has its own copy.  
-  
-
-
-  * **Response utilization** : search historic responses to personalize follow‑ups and enrich CRM data.  
-  
-
-
-  * **Reduced context‑switching** : work inside HighLevel—no jumping between tools for common form tasks.  
-  
-
-
-  * **Predictable billing** : premium executions are billed per run and can be rebilled to sub‑accounts (see [Workflows Pro Plan – New Pricing Tiers](<https://help.gohighlevel.com/support/solutions/articles/155000003971-workflows-pro-plan-new-pricing-tiers>) and [How to enable and rebill Premium Features for Workflows](<https://help.gohighlevel.com/support/solutions/articles/155000005678-how-to-enable-and-rebill-premium-features-for-workflows>)).
+  * Save time by automating repetitive data-entry and response-handling tasks.
 
 
 * * *
 
-## **Triggers & Actions**
+## **2\. Triggers and Actions**
 
-  
-This overview consolidates the Typeform **trigger** and **actions** in one place so you can quickly compare capabilities, required inputs, and the data each step returns for downstream mapping.
+### **Triggers (Typeform → HighLevel)**
 
+These are events in **Typeform** that can initiate workflows inside **HighLevel**.
+
+**Trigger Name**| **Description**  
+---|---  
+**New Entry** ⚡ Instant| Fires instantly when a new response is submitted in Typeform.  
   
+> ? _This is an instant trigger — meaning HighLevel captures new form submissions in real time as soon as they occur._
+
+* * *
+
+### **Actions (HighLevel → Typeform)**
+
+These are actions that **HighLevel** can execute in **Typeform** through workflows.
+
+**Action Name**| **Description**  
+---|---  
+**Create Empty Form**|  Create a new blank form in Typeform.  
+**Duplicate Existing Form**|  Make a copy of an existing form, preserving its structure and questions.  
+**Search Responses In A Form**|  Search for and retrieve existing responses from a selected Typeform form.  
+  
+> ? _These are premium actions and are billed according to HighLevel’s standard action pricing._
+
+* * *
+
+## **3\. Getting Started**
+
+Follow these steps to start using Typeform triggers and actions in your workflows:
+
+  1. **Search in Workflows**
+
+     * Open your HighLevel **workflow builder**.
+
+     * Search for “Typeform” in the trigger or action menu.
+
+  2. **Connect Your Typeform Account**
+
+     * If your Typeform account is already connected, you’ll see configuration options right away.
+
+     * If not, click **Connect Now** and complete the OAuth setup to link your Typeform account.
+
+  3. **Alternative Method**
+
+     * You can also connect from **Settings → Integrations**.
+
+     * Locate **Typeform** and complete the authorization process.
 
 
-Type| Name| Description  
----|---|---  
-Trigger| **New Entry (Instant)**|  Fires immediately when a Typeform submission is received and enrolls the record into the workflow.  
-Action| **Create Empty Form**|  Creates a new blank Typeform in the connected workspace and returns the new Form ID/URL.  
-Action| **Duplicate Existing Form**|  Clones an existing Typeform (structure/logic/design) and returns the new Form ID/URL.  
-Action| **Search Responses in a Form**|  Retrieves existing submissions for a selected Typeform so you can branch logic and map fields.  
-  
-  
+Once connected, you can seamlessly add Typeform triggers or actions to your automation workflows.
+
+* * *
+
+## **4\. How Typeform Triggers Work**
+
+Typeform triggers rely on webhooks through the Typeform API. When a new entry (form submission) occurs, HighLevel instantly receives that data and triggers the defined workflow.
+
+### **Setup Instructions:**
+
+  1. Choose the trigger **New Entry (Instant)**.
+
+  2. Select the form you want to connect.
+
+  3. Click **Test Trigger** — HighLevel will fetch a sample entry to map fields.
+
+  4. Map the Typeform fields (e.g., name, email, responses) to HighLevel workflow variables.
 
 
 * * *
 
-## **How To Set Up the Typeform Integration**
+## **5\. Common Use Cases**
 
-  
-A clean connection and correct mapping ensure instant enrollments and reliable downstream actions. Use the options below to connect quickly and verify with a live test.  
-  
+Use Case 1: Create Tasks and Notify Team from Typeform Submissions  
+**Goal** : Automatically create a ClickUp task, update the contact field, and send an internal notification when someone submits a Typeform entry.
 
-
-**Connect Typeform (two paths)**  
-  
-
-
-**From a Trigger/Action step**
-
-  
-
-
-  * Go to **Automations** → **Workflows** , then open or create a workflow.
-  * Add a Typeform trigger or action.
-  * Review the available Typeform fields shown in the step.
-  * Click Connect your account.
-  * Complete the Typeform authorization in the pop-up window.
-  * Select the connected Typeform account, when prompted.
-  * Configure the unlocked fields.
-
-
-  
-
-
-If you switch connected accounts, Typeform-dependent fields may reload or reset. Review the step before saving.
-
-  
-
-
-  
-
-
-**How to Configure  
-**  
-  
-Click on `Test Your Trigger > Fetch Trigger Data` -> Webhook starts waiting for a new sample payload -> User does a quick form submission -> New sample payload is detected by Test Trigger
-
-  
-
-
-Once payload is selected and trigger is saved, user can select the Questions by their title in the output to map the answers directly  
-  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155057111603/original/HikZ1CeoU7HLqS9KAVxED07VYEYFZP7pLA.png?1761743828)  
-  
-  
-
-
-  * **From Settings → Integrations**
-
-    * Go to **Settings → Integrations** , locate **Typeform** , and complete the OAuth connection (connections are per sub‑account; see **[Marketplace Apps – Managing External Connections](<https://help.gohighlevel.com/support/solutions/articles/155000004585-marketplace-apps-managing-external-connections>)**).  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155057111647/original/ELK9XGF2B_8eh0NXXbgsoxzTnF4VN9ZvfA.png?1761743838)  
-  
-
-
-### **_Build your first flow:_**
-
-  
-
-
-  1. From the desired **sub‑account** , go to **Automations → Workflows** and click **Create Workflow** (or open an existing workflow).  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155057111428/original/y7kNInyhPqauQZaGAxdAwmcWvso3bhbG9g.png?1761743775)  
-  
-
-
-  2. Add **New Entry (Instant) Trigger** and select the form.  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155057112946/original/8O4wVYYGNrfWpprxdwhZKtqZZ-C1yQLQqw.png?1761744471)
-
-  
-
-
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155057113115/original/Br4R3Vi4OSAcC8bgvBVTIKDXn5RL0eSDUg.png?1761744535)  
-  
-
-  3. Add Typeform Actions **Create/Update Contact** ; map email/phone from the submission.  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155057112971/original/6pOHjEM-d41kcmWdophCFkF1GHKgOd1EOg.png?1761744486)
-
-  
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155057113194/original/Yd8Az8xImDRr_EEAdlEx5RHWYX4POqLBeQ.png?1761744581)  
-  
-
-  4. Add follow‑ups (e.g., **Send Email** , **Notify User** , **Create Opportunity**).  
-  
-
-
-  5. **Publish** and submit the Typeform once to verify entries appear in **Execution Logs**
-
-
-* * *
-
-## **Use Cases**
-
-  
-
-
-** _Use Case 1: Create Tasks and Notify Team from Typeform Submissions_**
-
-**  
-****Goal** : Automatically create a ClickUp task, update the contact field, and send an internal notification when someone submits a Typeform entry.
-
-  
-
-
-**Workflow Setup:  
-**
-
-  
-
-
-  * **Trigger** : Typeform → New Entry (Instant)
+  * **Workflow Setup:  
+****Trigger** : Typeform → New Entry (Instant)
   * **Filter:** Form Name = “Client Onboarding Form”
   * **Actions:**
     * Create Task (ClickUp)
-    * Update Contact Field (workflows)
-    * Send Internal Notification (workflows)
-
-
-  
+    * Update Contact Field (HighLevel)
+    * Send Internal Notification (HighLevel)
 
 
 **Example:  
-** A new client fills out your “Client Onboarding Form” in Typeform. Instantly, a ClickUp task is created with the client’s details, their contact field in workflows is updated with the latest information, and your internal team receives a notification to begin the onboarding process.  
-  
+** A new client fills out your “Client Onboarding Form” in Typeform. Instantly, a ClickUp task is created with the client’s details, their contact field in HighLevel is updated with the latest information, and your internal team receives a notification to begin the onboarding process.
 
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055323343/original/ax9fOQv54xWP3-d6xfAkPdtrk3U0m4cICA.png?1759755610)
 
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155057111847/original/7sDu8L7Z7q4WhIdugpL5vTqZSdMrv9beMg.png?1761743990)**
+* * *
 
-###   
+Use Case 2: Create Conditional Tasks and Send Notifications from Typeform Submissions  
+**Goal** : Automatically create a new document, check form response values, and trigger different follow-up actions based on the number of items submitted in a Typeform entry.
 
-
-**_Use Case 2: Create Conditional Tasks and Send Notifications from Typeform Submissions_**
-
-**  
-****Goal** : Automatically create a new document, check form response values, and trigger different follow-up actions based on the number of items submitted in a Typeform entry.
-
-  
-
-
-**Workflow Setup:**  
-**  
+**Workflow Setup:  
 **
 
   * **Trigger** : Typeform → New Entry (Instant)
@@ -239,58 +128,42 @@ Once payload is selected and trigger is saved, user can select the Questions by 
     * Create New Document (ClickUp)
     * Condition: Check if “total_items” equals “3”
     * Branch (If True):
-      * Update Contact Field (workflows)
-      * Send Internal Notification (workflows)
-      * Send Email (workflows)
+      * Update Contact Field (HighLevel)
+      * Send Internal Notification (HighLevel)
+      * Send Email (HighLevel)
     * Branch (If False):
       * End Workflow
 
 
-  
-
-
 **Example** :  
-A customer submits an order through your “Order Submission Form” on Typeform. The workflow creates a new document in ClickUp with their order details. If the customer ordered exactly three items, the contact record is updated, the operations team is notified internally, and a confirmation email is sent to the customer. If the total items are not three, the workflow ends without additional actions.  
-  
-
-
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155057111954/original/9ZBEUuEnYxDadIjJM0UYWq-ZaNwjhnyqmw.png?1761744016)**
+A customer submits an order through your “Order Submission Form” on Typeform. The workflow creates a new document in ClickUp with their order details. If the customer ordered exactly three items, the contact record in HighLevel is updated, the operations team is notified internally, and a confirmation email is sent to the customer. If the total items are not three, the workflow ends without additional actions.
 
   
 
 
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055323302/original/b2WKgCzFdxO7advNUh3c79jk2ibGVSPT3w.png?1759755600)
 
+* * *
 
-**_Use Case 3: Automate Document Creation and Notifications on Pipeline Stage Change_**
+Use Case 3: Automate Document Creation and Notifications on Pipeline Stage Change  
+**Goal** : Automatically check for existing form responses when a deal’s pipeline stage changes, create or duplicate documents accordingly, and notify the team or contact based on the outcome.
 
-**  
-****Goal** : Automatically check for existing form responses when a deal’s pipeline stage changes, create or duplicate documents accordingly, and notify the team or contact based on the outcome.
-
-  
-
-
-**Workflow Setup:**
-
-**  
+**Workflow Setup:  
 **
 
-  * **Trigger** : Pipeline Stage Changed (CRM)
+  * **Trigger** : Pipeline Stage Changed (HighLevel CRM)
   * **Filter** : Pipeline = “Client Onboarding Pipeline”
   * **Actions** :
     * Search Responses in a Form (Typeform)
     * **Branch**(Responses Found):
       * Create New Document (ClickUp)
-      * Update Contact Field (workflows)
-      * Send Internal Notification (workflows)
-      * Send Email (workflows)
+      * Update Contact Field (HighLevel)
+      * Send Internal Notification (HighLevel)
+      * Send Email (HighLevel)
     * **Branch**(Responses Not Found):
       * Duplicate Existing Form (Typeform)
-      * Send Internal Notification (workflows)
-      * Send Email (workflows)
-
-
-  
+      * Send Internal Notification (HighLevel)
+      * Send Email (HighLevel)
 
 
 **Example** :  
@@ -304,74 +177,23 @@ When a deal moves to the “Onboarding” stage in your CRM pipeline, the workfl
   
 
 
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155057112029/original/057TFJUCA2cfcQtdhEkJgsKnG8MQ14IXPA.png?1761744041)**
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055323932/original/uJjeoYxQqm7oxf0OKT3u8c6BbwoBF4PRjA.png?1759755870)
+
+  
+
 
 * * *
 
-## **Frequently Asked Questions**
+## **6\. FAQs**
 
-  
+**Q: Do I need a paid Typeform account to use this integration?**  
+A: No. The integration works with both free and paid Typeform accounts. However, certain features (like response limits or branding removal) depend on your Typeform plan.
 
+**Q: Is this integration available to all HighLevel users?**  
+A: Yes, it’s available to all accounts that have access to **workflows** and **integrations**.
 
-**Q: Do I need a paid Typeform plan?**
+**Q: Are these actions and triggers premium?**  
+A: Yes. The Typeform trigger and actions are premium and billed at the standard rate per execution.
 
-The integration works with free and paid Typeform accounts. Typeform’s own plan limits (e.g., response caps, branding) still apply.
-
-  
-
-
-**Q: Is this integration available to all users?  
-** Yes, it’s available to all accounts that have access to workflows and integrations.
-
-  
-
-
-**Q: Are the Typeform steps premium‑billed in HighLevel?**  
-Yes. The **Typeform trigger and actions** are premium and billed per execution at your account’s standard rate. Agencies can optionally rebill sub‑accounts.
-
-  
-
-
-**Q: Where do new/duplicated forms live?**  
-Forms are created in the connected Typeform workspace tied to the OAuth account selected for that step.
-
-  
-
-
-**Q: Can I edit questions of an existing Typeform from a workflow?**  
-Not at this time. Current actions include **Create Empty Form** , **Duplicate Existing Form** , and **Search Responses in a Form**.
-
-  
-
-
-**Q: How do I troubleshoot failures?**  
-Check **Execution Logs** for the specific step error (e.g., invalid form ID, missing permissions). If authorization expired, reconnect the Typeform app and re‑run a test.
-
-* * *
-
-## **Related Articles**
-
-  
-
-
-  * [Introduction to Workflows and Automations](<https://help.gohighlevel.com/support/solutions/articles/155000002288-getting-started-with-workflows>)  
-  
-
-
-  * [Workflow Builder Walkthrough](<https://help.gohighlevel.com/support/solutions/articles/155000001254-workflow-builder-walkthrough>)  
-  
-
-
-  * [Workflows Pro Plan – New Pricing Tiers](<https://help.gohighlevel.com/support/solutions/articles/155000003971-workflows-pro-plan-new-pricing-tiers>)  
-  
-
-
-  * [Installing Marketplace Apps Directly from the Workflow Builder (Discover)](<https://help.gohighlevel.com/support/solutions/articles/155000005791-installing-marketplace-apps-directly-from-the-workflow-builder>)  
-  
-
-
-  * [Marketplace Apps – Managing External Connections](<https://help.gohighlevel.com/support/solutions/articles/155000004585-marketplace-apps-managing-external-connections>)  
-  
-
-
-  * [How to reconnect broken Marketplace Apps](<https://help.gohighlevel.com/support/solutions/articles/155000003717-how-to-reconnect-broken-marketplace-apps->)
+**Q: How fast does the trigger respond?**  
+A: The **New Entry** trigger is _instant_ , meaning data flows to your workflow within seconds of a Typeform submission.
