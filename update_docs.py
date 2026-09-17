@@ -4,6 +4,10 @@ GHL Documentation Update Scraper
 Re-scrapes all documentation from help.gohighlevel.com, detects changes
 (new, updated, removed articles), and commits only the differences to Git.
 Designed to be run on a weekly schedule.
+
+Usage: python update_docs.py [--no-push] [--force]
+  --no-push  commit locally but do not push, so the result can be reviewed first
+  --force    commit even when the scrape came back much shorter than the last run
 """
 
 import os
@@ -20,10 +24,17 @@ import html2text
 
 # ── Configuration ──────────────────────────────────────────────────────────
 BASE_URL = "https://help.gohighlevel.com"
-REPO_DIR = "/home/ubuntu/ghl-documentation"
+# The repository this script lives in, so it runs from any checkout.
+REPO_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(REPO_DIR, "docs")
 MANIFEST_PATH = os.path.join(REPO_DIR, "article_manifest.json")
 DELAY = 0.5  # seconds between requests
+# A scrape that returns fewer articles than this share of the last run is treated
+# as a failed scrape (network trouble, a blocked request, a changed page layout),
+# not as the help center deleting that many articles.
+MIN_SCRAPED_RATIO = 0.9
+NO_PUSH = '--no-push' in sys.argv
+FORCE = '--force' in sys.argv
 
 # ── HTTP Session ───────────────────────────────────────────────────────────
 session = requests.Session()
@@ -215,7 +226,7 @@ def main():
     # Load previous manifest for change detection
     old_manifest = {}
     if os.path.exists(MANIFEST_PATH):
-        with open(MANIFEST_PATH, 'r') as f:
+        with open(MANIFEST_PATH, 'r', encoding='utf-8') as f:
             old_manifest = json.load(f)
 
     new_manifest = {}
@@ -328,6 +339,17 @@ def main():
             print(f"\n--- Progress: {stats['articles_scraped']} scraped, "
                   f"{stats['articles_new']} new, {stats['articles_updated']} updated ---\n")
 
+    # ── Refuse to act on a short scrape ────────────────────────────────
+    # Every article missing from this run gets deleted below, so a scrape that
+    # broke halfway would wipe real documentation. Stop before any removal,
+    # manifest write, or commit when the run came back clearly short.
+    previous = len(old_manifest)
+    if previous and stats['articles_scraped'] < previous * MIN_SCRAPED_RATIO and not FORCE:
+        print(f"\n[ABORT] Scraped {stats['articles_scraped']} articles, but the last run "
+              f"had {previous}. Nothing was removed, committed, or pushed. "
+              f"Re-run with --force if the help center really shrank.")
+        sys.exit(1)
+
     # ── Detect removed articles ────────────────────────────────────────
     print("\n[3/5] Detecting removed articles...")
     for old_path in old_manifest:
@@ -358,10 +380,10 @@ def main():
     with open(os.path.join(REPO_DIR, "README.md"), 'w', encoding='utf-8') as f:
         f.write(index_content)
 
-    with open(MANIFEST_PATH, 'w') as f:
+    with open(MANIFEST_PATH, 'w', encoding='utf-8') as f:
         json.dump(new_manifest, f, indent=2)
 
-    with open(os.path.join(REPO_DIR, "scrape_stats.json"), 'w') as f:
+    with open(os.path.join(REPO_DIR, "scrape_stats.json"), 'w', encoding='utf-8') as f:
         json.dump(stats, f, indent=2)
 
     # ── Git commit & push ──────────────────────────────────────────────
@@ -386,11 +408,14 @@ def main():
     )
 
     run_git('commit', '-m', changes_summary)
-    rc, out, err = run_git('push', 'origin', 'main')
-    if rc != 0:
-        print(f"  [ERROR] Push failed: {err}")
+    if NO_PUSH:
+        print("  Committed locally; --no-push given, so nothing was pushed.")
     else:
-        print(f"  Push successful.")
+        rc, out, err = run_git('push', 'origin', 'main')
+        if rc != 0:
+            print(f"  [ERROR] Push failed: {err}")
+        else:
+            print(f"  Push successful.")
 
     # ── Summary ────────────────────────────────────────────────────────
     print(f"\n{'='*60}")
