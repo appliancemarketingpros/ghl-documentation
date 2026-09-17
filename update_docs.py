@@ -286,7 +286,7 @@ def main():
         'categories': 0, 'folders': 0,
         'articles_found': 0, 'articles_scraped': 0, 'articles_failed': 0,
         'articles_new': 0, 'articles_updated': 0, 'articles_unchanged': 0,
-        'articles_removed': 0
+        'articles_removed': 0, 'stale_files_removed': 0
     }
 
     # Track every file path we write so we can detect removals
@@ -373,7 +373,8 @@ def main():
 
                 # Compare with old manifest
                 old_entry = old_manifest.get(rel_path)
-                if old_entry and old_entry.get('hash') == new_hash:
+                # An unchanged hash only means "skip the write" if the file is really there.
+                if old_entry and old_entry.get('hash') == new_hash and os.path.exists(art_path):
                     stats['articles_unchanged'] += 1
                 elif old_entry:
                     stats['articles_updated'] += 1
@@ -431,6 +432,24 @@ def main():
             os.remove(full_path)
             print(f"  Removed: {old_path}")
 
+    # Files this run did not write and the manifest never tracked: copies left under an
+    # article's old title or folder, and indexes for folders the help center dropped.
+    stale = []
+    for dirpath, _, filenames in os.walk(OUTPUT_DIR):
+        for name in filenames:
+            path = repo_path(os.path.join(dirpath, name))
+            if name.endswith('.md') and path not in written_files:
+                stale.append(path)
+    if previous and len(stale) > max(50, previous * 0.1) and not FORCE:
+        print(f"\n[ABORT] {len(stale)} files under docs/ were not written by this run. "
+              f"Nothing else was removed, committed, or pushed. Check the paths, "
+              f"or re-run with --force if they really are stale.")
+        sys.exit(1)
+    for path in sorted(stale):
+        os.remove(os.path.join(REPO_DIR, *path.split('/')))
+        stats['stale_files_removed'] += 1
+        print(f"  Removed stale file: {path}")
+
     # Clean up empty directories
     for dirpath, dirnames, filenames in os.walk(OUTPUT_DIR, topdown=False):
         if not dirnames and not filenames:
@@ -472,6 +491,7 @@ def main():
         f"- New articles: {stats['articles_new']}\n"
         f"- Updated articles: {stats['articles_updated']}\n"
         f"- Removed articles: {stats['articles_removed']}\n"
+        f"- Stale files removed: {stats['stale_files_removed']}\n"
         f"- Unchanged articles: {stats['articles_unchanged']}\n"
         f"- Failed to scrape: {stats['articles_failed']}\n"
         f"- Total articles: {stats['articles_scraped']}\n"
@@ -499,6 +519,7 @@ def main():
     print(f"  Updated    : {stats['articles_updated']}")
     print(f"  Unchanged  : {stats['articles_unchanged']}")
     print(f"  Removed    : {stats['articles_removed']}")
+    print(f"  Stale      : {stats['stale_files_removed']}")
     print(f"  Failed     : {stats['articles_failed']}")
     print(f"{'='*60}")
 
