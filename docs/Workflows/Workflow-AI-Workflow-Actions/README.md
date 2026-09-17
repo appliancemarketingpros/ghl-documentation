@@ -14,3 +14,6 @@
 - [Workflow Action - AI Extract Data](Workflow Action - AI Extract Data.md)
 - [Workflow Action - Update Conversation AI Bot and Status](Workflow Action - Update Conversation AI Bot and Status.md)
 - [How to Parse Emails Using AI Extract Data Action](How to Parse Emails Using AI Extract Data Action.md)
+- [Workflow Action – AI Image Generation](Workflow Action – AI Image Generation.md)
+- [Workflow Action – AI Analyze Image](Workflow Action – AI Analyze Image.md)
+- [Workflow Action - AI Email Parser](Workflow Action - AI Email Parser.md)

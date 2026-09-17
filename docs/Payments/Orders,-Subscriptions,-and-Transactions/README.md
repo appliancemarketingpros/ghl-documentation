@@ -4,7 +4,7 @@
 
 ## Articles
 
-- [Payments - What is listed on the Subscriptions page?](Payments - What is listed on the Subscriptions page.md)
+- [Payments - What Is Listed on the Subscriptions Page?](Payments - What Is Listed on the Subscriptions Page.md)
 - [Subscription & Refund trigger for payments](Subscription & Refund trigger for payments.md)
 - [Subscription Settings - Failed Payment Retries](Subscription Settings - Failed Payment Retries.md)
 - [Pause and Resume Subscriptions](Pause and Resume Subscriptions.md)
@@ -15,3 +15,4 @@
 - [Export or Download Orders as CSV](Export or Download Orders as CSV.md)
 - [Export or Download Subscriptions as CSV](Export or Download Subscriptions as CSV.md)
 - [In-App Cancellation for Reselling Subscriptions](In-App Cancellation for Reselling Subscriptions.md)
+- [How to Manually Retry Failed Subscription Payments](How to Manually Retry Failed Subscription Payments.md)

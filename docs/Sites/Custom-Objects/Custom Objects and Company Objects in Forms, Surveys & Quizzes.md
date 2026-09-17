@@ -88,9 +88,86 @@ Think of it this way:
 
   6. The system automatically adds the primary field.
 
-  7. Add more fields of the same object type.
+  7. To add additional fields, open **Add Object Fields** in the left sidebar. You can add fields individually or select and add multiple fields at once.
 
   8. Save and publish — submissions now link the contact and the object.
+
+
+* * *
+
+  
+
+
+  
+
+
+### **Add Object Fields in Bulk**
+
+You can add multiple object fields at once in the Forms, Surveys, and Quizzes builders.
+
+  
+
+
+  * Open the Form, Survey, or Quiz you want to edit.
+  * Open **Add Object Fields** from the left sidebar.
+  * Select an object from the dropdown, such as **Contact** , **Opportunity** , **Business** , or an available custom object.
+  * Search by field name or browse the available folders.
+
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079939292/original/LU8dG82KcLZi4w6izzMlcXVOvnA3xcwXUw.png?1788365431)
+
+  
+
+
+  * Use the field type icon and query key to identify the field you need.
+  * Select the checkboxes for the fields you want to add.
+  * Add the selected fields using either option:
+    * Click **Add fields** to insert all selected fields.
+    * Drag any selected field onto the canvas to move the selected fields as a group.
+
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079939598/original/2Ayotr30b5n6ZjdggE2XrlnzXzzfgEeGBw.png?1788365593)  
+
+
+  
+
+
+Bulk-added fields are inserted in the same order they appear in the sidebar.
+
+If a canvas element is active, the fields are inserted after that element. If no element is active, the fields are added at the end of the current page or slide.
+
+  
+
+
+#### **Bulk Field Selection Behavior**
+
+Keep these behaviors in mind when selecting multiple fields:
+
+  
+
+
+  * Your selections remain selected while you scroll or search.
+  * Changing the selected object clears the current field selection.
+  * Shift-click can select a range of available fields while skipping fields that are already added or unavailable.
+  * The selection bar shows how many fields are selected and updates the **Add N fields** action.
+  * Dragging one selected field moves the current selection as a group.
+
+
+#### 
+    
+    
+    **Identify Fields in the Sidebar:** Each field row includes a type icon and query key to help distinguish fields with similar names. If a field name or query key is truncated, hover over it to view the full value in a tooltip.
+
+  
+
+
+  
 
 
 * * *

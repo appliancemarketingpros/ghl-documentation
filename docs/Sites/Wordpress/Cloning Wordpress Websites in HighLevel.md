@@ -74,6 +74,7 @@ If a user lacks the necessary permissions, they will only be able to create a ne
 
      * Choose **Create New** or **Select Blank WordPress**.  
   
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080490848/original/2JmX39iStGrCxD_Y4eUT6hta-CwqsCwMpQ.png?1788957436)  
 
   2. **Access the Cloning Option** :
 
@@ -92,6 +93,9 @@ If a user lacks the necessary permissions, they will only be able to create a ne
   
 
      * Enter a **New Website Name**.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080491111/original/q8zC_nbvWfzTTZoGFGzMENMATQW7gNE5tQ.png?1788957535)  
+  
   
 
   4. **Start Cloning** :

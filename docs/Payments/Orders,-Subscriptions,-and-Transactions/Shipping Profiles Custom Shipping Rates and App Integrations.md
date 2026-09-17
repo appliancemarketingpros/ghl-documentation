@@ -314,6 +314,15 @@ When you connect the Printful integration and sync Printful products, the system
   
 
 
+**Q: How do live shipping rates work for Printify products?**
+
+When you connect Printify and sync products, HighLevel automatically creates a dedicated Printify shipping profile.
+
+Products assigned to this profile receive live Printify shipping rates at checkout. Products must remain assigned to the Printify shipping profile to continue receiving live rates.
+
+  
+
+
 **Q: What happens if I delete a custom profile?**
 
 Products in that profile automatically return to the General Profile.

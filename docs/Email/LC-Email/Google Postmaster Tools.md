@@ -184,7 +184,7 @@ Connected
 
 Once connected, your verified dedicated sending domains will start displaying metrics pulled from Google Postmaster.
 
-![Connected dashboard showing Postmaster metrics for your dedicated sending domains](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155034624675/original/xLL4ReVsFA_D4SNCyWXvZ6kJfoh-DvsAWg.png?1728893641)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079044739/original/0B05xkypTQdq81_QSwerR8mk8tRBpkTAjQ.png?1787339733)
 
 Monitor Your Data
 

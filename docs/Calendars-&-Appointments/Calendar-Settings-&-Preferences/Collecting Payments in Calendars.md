@@ -22,6 +22,86 @@ Calendar Payments are now possible when booking an appointment. It allows the lo
   
 
 
+  
+
+
+## **Choose How to Collect Payment Details**
+
+Calendar Payment settings let you charge customers during booking or collect their card details without charging them.
+
+  
+
+
+### **Charge upfront**
+
+Enable **Charge upfront** when you want to collect payment during the booking process.
+
+  
+
+
+Payment collection depends on the final amount due:
+
+  * If the final amount is greater than **$0** , the customer provides payment details and pays the final amount.
+  * If the configured amount is **$0** , card collection and payment are skipped.
+  * If a coupon reduces the final amount to **$0** , card collection and payment are skipped.
+  * If a coupon reduces the amount but leaves a balance greater than **$0** , the customer pays the discounted amount.
+
+
+###   
+
+
+### **Collect Card on File**
+
+Enable **Collect Card on File** when you want to securely save the customer's card details without charging them during booking.
+
+  
+
+
+When this option is enabled:
+
+  
+
+
+  * The customer provides their card details during booking.
+  * The card is securely saved for future use.
+  * The customer is not charged during the booking.
+  * No payment transaction is created during the booking.
+
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079903459/original/aKkkDjAd15id4Y8sJdlh11G32TuMKznCQQ.png?1788350018)
+
+  
+
+
+  
+
+
+  
+
+
+**Calendar payment setup**| **Final amount**| **Card collected?**| **Payment processed?******  
+---|---|---|---  
+**Collect Card on File**|  No upfront charge | **Yes** | **No**  
+**Charge upfront** | Greater than $0 | **Yes** | **Yes**  
+**Charge upfront** | Configured as $0| **No** | **No**  
+**Charge upfront + coupon** | Reduced to $0 | **No**| **No**  
+**Charge upfront + coupon**|  Greater than $0| **Yes**| **Yes, final discounted amount**  
+  
+  
+
+
+  
+
+
+  
+
+
+  
+
+
 ### **Available payment providers and how to add them**
 
   

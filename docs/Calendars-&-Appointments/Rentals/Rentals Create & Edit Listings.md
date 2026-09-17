@@ -564,6 +564,8 @@ Choosing the Right Mode**
 
   * **Maximum Advance Booking Window** — The furthest date customers can book ahead.
 
+    * **[Count Available Days Only](<https://help.gohighlevel.com/en/support/solutions/articles/155000008529>)** — Toggle this on to count only the days your listing is available when calculating the Maximum Advance Booking Window. 
+
 
   
 **Example:**  
@@ -777,6 +779,13 @@ External bookings are imported every hour to ensure up-to-date availability.
 **Q: Can I disconnect a synced calendar?**  
 Yes. You can remove iCal links from the Calendar Sync tab at any time.
 
+  
+
+
+Q: What does the "Count available days only" toggle do on the advance booking window?
+
+When enabled, the advance booking window counts only days your listing is available based on your schedule, starting after your minimum scheduling notice period. Bookers always see the full number of days you have set, even if some days in between have no availability.
+
 * * *
 
 ## **Related Articles**
@@ -802,4 +811,7 @@ Yes. You can remove iCal links from the Calendar Sync tab at any time.
   * [Creating a Booking](<https://help.gohighlevel.com/en/support/solutions/articles/155000006624>)  
   
 
-  * [Editing a Rental Booking](<https://help.gohighlevel.com/en/support/solutions/articles/155000006626>)
+  * [Editing a Rental Booking](<https://help.gohighlevel.com/en/support/solutions/articles/155000006626>)  
+  
+
+  * [Date Range — Count Available Days Only](<https://help.gohighlevel.com/en/support/solutions/articles/155000008529>)

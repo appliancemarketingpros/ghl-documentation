@@ -13,16 +13,24 @@ Transferring a domain out of HighLevel lets you move its registration and renewa
 **TABLE OF CONTENTS**
 
   * What Is Domain Transfer-Out?
-    * Key Benefits of Domain Transfer-Out
-    * Domain Transfer Eligibility
-    * How To Transfer-Out a Domain
-    * Frequently Asked Questions
-    * Related Articles
+  * What Is Domain Transfer-Out?
+  * Key Benefits of Domain Transfer-Out
+  * Domain Transfer Eligibility
+  * How To Transfer-Out a Domain
+      * Step 1: Open the Domain Settings
+      * Step 2: Open Advanced Settings
+      * Step 3: Select a Registrar
+      * Step 4: Unlock the Domain
+      * Step 5: Request the EPP Authorization Code
+      * Step 6: Check the Authorized Email Inboxes
+      * Step 7: Complete the Transfer With the Receiving Registrar
+  * Frequently Asked Questions
+  * Related Articles
 
 
 * * *
 
-# **What Is Domain Transfer-Out?**
+## **What Is Domain Transfer-Out?**
 
   
 
@@ -125,7 +133,7 @@ Completing each step in order ensures that HighLevel can verify the domain’s s
   
 
 
-#### _**Step 1:** Open the Domain Settings_
+### _**Step 1:** Open the Domain Settings_
 
   
 
@@ -143,7 +151,7 @@ Go to **Settings > Domains & URL Redirects. **Locate the domain you want to tran
   
 
 
-#### _**Step 2:** Open Advanced Settings_
+### _**Step 2:** Open Advanced Settings_
 
   
 
@@ -164,7 +172,7 @@ Once you click **Transfer to Another Registrar** , the domain will automatically
   
 
 
-#### _**Step 3:** Select a Registrar_
+### _**Step 3:** Select a Registrar_
 
   
 
@@ -182,7 +190,7 @@ Choose the registrar that will receive the domain from the available dropdown. S
   
 
 
-#### _**Step 4:** Unlock the Domain_
+### _**Step 4:** Unlock the Domain_
 
   
 
@@ -200,12 +208,12 @@ If the domain is locked, use the available control to unlock it. A registrar loc
   
 
 
-#### _**Step 5:** Request the EPP Authorization Code_
+### _**Step 5:** Request the EPP Authorization Code_
 
   
-
-
-Select the option to request the EPP code. The EPP code confirms that the person initiating the transfer is authorized to move the domain.
+Click ** **Get Code** ** to request the EPP authorization code. The EPP code confirms that the person initiating the transfer is authorized to move the domain.  
+  
+After the request succeeds, HighLevel displays the masked email addresses where the authorization code was sent. The EPP code itself is not displayed on this screen.
 
   
 
@@ -218,26 +226,33 @@ Select the option to request the EPP code. The EPP code confirms that the person
   
 
 
-#### _**Step 6:** Check the Authorized Email Inboxes_
-
-  
-
-
-HighLevel sends the authorization code to:  
-  
-
-
-  * The domain purchaser’s email address  
-  
-
-
-  * The agency owner’s email address
+### _**Step 6:** Check the Authorized Email Inboxes_  
 
 
   
 
 
-Check the inboxes, spam folders, and filtered folders associated with both email addresses. When the code does not arrive or another code is needed, wait at least five minutes before using the option to request it again. Use the most recently delivered code when completing the transfer.
+  
+After you request the EPP authorization code, the confirmation screen shows the masked email addresses where HighLevel sent the code.  
+  
+**Email addresses are masked to protect the full address:**  
+  
+1\. For a local part or domain segment with more than two characters, HighLevel shows the first and last characters and masks the characters between them.
+
+  
+2\. For a two-character segment, HighLevel shows only the first character.
+
+  
+3\. For a single-character segment, HighLevel masks the character completely.
+
+  
+4\. The top-level domain, such as `.com` or `.org`, remains visible.  
+  
+When the code is sent to more than two email addresses, HighLevel displays the first two masked addresses and a **+N more** indicator. Hover over the indicator to view the additional masked addresses.  
+  
+Check the inboxes, spam folders, and filtered folders for the displayed email addresses. The EPP authorization code is sent by email and is not displayed on the transfer confirmation screen.  
+  
+When the code does not arrive or another code is needed, wait at least five minutes before requesting it again. Use the most recently delivered code when completing the transfer.
 
   
 
@@ -250,7 +265,15 @@ Check the inboxes, spam folders, and filtered folders associated with both email
   
 
 
-#### _**Step 7:** Complete the Transfer With the Receiving Registrar_
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080115814/original/4Fg357w8bLvA0XMmxhdN1JnupTe6EHv98g.png?1788528440)
+
+###   
+
+
+  
+
+
+### _**Step 7:** Complete the Transfer With the Receiving Registrar_
 
   
 
@@ -276,9 +299,18 @@ No. Requesting the EPP code only provides the authorization needed to begin the 
   
 
 
+  
+
+
 **Q: Can I transfer a domain that I connected to HighLevel but purchased elsewhere?**
 
 A domain purchased from another registrar remains managed by that registrar. Begin the transfer through the registrar where the domain is currently registered.
+
+  
+
+
+  
+
 
 **Q: Can I transfer a domain to Cloudflare using the standard process?**
 
@@ -287,9 +319,15 @@ No. Cloudflare transfers use a dedicated workflow. Follow the Cloudflare transfe
   
 
 
+  
+
+
 **Q: Can I transfer a`.uk` domain with an EPP code?**
 
 The `.uk` extension family uses a different transfer process. Contact HighLevel Support for assistance.
+
+  
+
 
   
 

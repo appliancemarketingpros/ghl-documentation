@@ -71,22 +71,34 @@ This feature transforms local SEO analysis by allowing you to tailor heatmaps fo
   
 
 
-Custom Keyword Heatmaps enable you to analyze multiple services by simply entering any keyword of your choice. This flexibility allows you to run side-by-side analyses that are finely tuned to reflect the most valuable services for your prospects.
+Custom Keyword Heatmaps let you analyze local search visibility across the services that matter most to a business.
 
   
 
 
-  * Type in any keyword (e.g., “drain cleaning” or “roof repair”) and rerun the grid on the fly.  
+  * Add keywords that represent different services or search terms.  
   
 
-  * Configure different radius sizes (0.5–30 miles) and grid sizes (3×3, 5×5, 7×7) to match diverse business needs.  
+
+  * Create up to three Local SEO heatmaps for the same business.  
   
 
-  * Create multiple heatmaps with distinct configurations for comprehensive comparisons.  
+
+  * Configure the keyword, grid size, and search radius separately for each heatmap.  
   
 
-  * When generating Web URLs or PDFs of prospect reports, select which heatmaps to include for targeted reporting.
 
+  * Remove the automatically selected keyword when you want to focus the analysis on other keywords.  
+  
+
+
+  * When you share a Marketing Audit Report on the web, prospects can switch between the heatmaps you created to compare local visibility across different keywords.
+
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080098422/original/hraE2kS0DfeDyT4ZEGOsgi0tjK9zYBK7Fw.png?1788520263)
 
 * * *
 
@@ -165,6 +177,25 @@ Pin-Level Competitor Insights deepen your local analysis by showing the prospect
 
 * * *
 
+## **Default Heatmap Configuration**
+
+  
+
+
+Set your preferred grid size and search radius as defaults for Local SEO heatmaps. HighLevel uses these settings when creating future reports, helping you keep audit coverage consistent and reduce repetitive configuration.
+
+  
+
+
+You can still configure the keyword, grid size, and search radius for individual heatmaps based on the business or service you are analyzing.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080098683/original/9xaZrmAtTv9BCsl_O6AIkc4gPmKitm4-FA.png?1788520394)
+
+* * *
+
 ## **How To Use Interactive Heatmap, Customization & Competitors **
 
   
@@ -218,7 +249,7 @@ Pin-Level Competitor Insights deepen your local analysis by showing the prospect
   
 
 
-  1. When the report loads, click on the **SEO Analysis** tab in the left sidebar.  
+  1. When the report loads, click on the **SEO Analysis** tab in the left sidebar. You can also remove the automatically selected keyword when it is not relevant to the business. This lets you focus the Local SEO analysis on the keywords and services you want to evaluate.  
   
 ![](https://jumpshare.com/share/Uli6xvic8BTCQfKXZuZt+/Screen+Shot+2025-10-03+at+10.27.51+PM.png)  
   
@@ -253,11 +284,11 @@ Pin-Level Competitor Insights deepen your local analysis by showing the prospect
 
     
     
-    **Note:** You can generate up to **2 heatmaps** per month per prospect.
+    **Note:** You can create up to **three** Local SEO heatmaps for the same business. Each heatmap can use its own keyword, grid size, and search radius.
     
 
   
-![](https://jumpshare.com/share/n47FjXyyjQnOXM1zx9Is+/GIF+Recording+2025-10-03+at+10.35.11+PM.gif)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080098962/original/wOQKlJq9IKsAwHlcbkcT0sMnJsdsEoIKhg.png?1788520581)
 
   
   
@@ -302,8 +333,12 @@ _**Step 6:** Control what Appears in Reports_
 
   2. Only the selected heatmap is included in the **Share Report link and Export PDF**.  
   
-![](https://jumpshare.com/share/wrDHJKnTGtMopRDImdQp+/Screenshot+2025-10-03+at+10.49.56%E2%80%AFPM.png)  
+
+  3. When you share a Marketing Audit Report on the web, the prospect can switch between the different Local SEO heatmaps you created.  
   
+Each heatmap can represent a different keyword, grid size, and search radius. This makes it easier to compare local visibility across multiple services within the same shared report.  
+  
+![](https://jumpshare.com/share/wrDHJKnTGtMopRDImdQp+/Screenshot+2025-10-03+at+10.49.56%E2%80%AFPM.png)  
 
 
 ### **For Sub-Accounts**
@@ -359,6 +394,8 @@ _**Step 3:** Add Custom Keyword_
 
   1. When the report loads, click on the **SEO Analysis** tab in the left sidebar.  
   
+You can also remove the automatically selected keyword when it is not relevant to the business. This lets you focus the Local SEO analysis on the keywords and services you want to evaluate  
+  
 ![](https://jumpshare.com/share/Nma2VSJqu0F70zpNyiwB+/Screen+Shot+2025-10-03+at+11.00.42+PM.png)  
   
 
@@ -392,7 +429,7 @@ _**Step 3:** Add Custom Keyword_
 
     
     
-    **Note:** You can generate up to **2** **heatmaps** per month per prospect.
+    **Note:** You can create up to three Local SEO heatmaps for the same business. Each heatmap can use its own keyword, grid size, and search radius.
 
   
 ![](https://jumpshare.com/share/yUm9nDzB7OFrKjcTBqRR+/GIF+Recording+2025-10-03+at+11.04.17+PM.gif)  
@@ -426,19 +463,20 @@ _**Step 3:** Add Custom Keyword_
   6. Click any **business name** to open its Google Business Profile.  
   
 ![](https://jumpshare.com/share/ZUrX08wz8R8T1g243Nev+/GIF+Recording+2025-10-03+at+11.10.54+PM.gif)  
+  
 
 
-#### _**Step 6:** Control what Appears in Reports_
+#### _**Step 6:** Share Multiple Heatmaps in Web Reports_
 
   
 
 
-  1. If you’ve generated multiple heatmaps (e.g., default + custom keyword), **choose****which****heatmap** to show in the **reports**.  
+  1. When you share a Marketing Audit Report on the web, the recipient can switch between the different Local SEO heatmaps you created. Each heatmap can use a different keyword, grid size, and search radius.  
   
 
-  2. Only the selected heatmap is included in the **Share****Report****link** and **Export****PDF**.  
+  2. The Selected heatmaps are included in the **Share****Report****link** and **Export****PDF**.  
   
-![](https://jumpshare.com/share/KdEckPEYp4hXzn6SLMZg+/Screenshot+2025-10-03+at+11.12.18%E2%80%AFPM.png)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080100058/original/PU15hAJbENhk7qV1YmqWTl86V7P5FwBnNA.png?1788521127)
 
 
 * * *
@@ -477,6 +515,13 @@ The Keyword Ranking Score card appears as part of the heatmap interface, summari
 **Q: How do I decide which heatmaps to include in a prospect report?**
 
 When sharing your report via Web URL or PDF, you can manually select the heatmaps that best highlight the prospect’s service areas and competitive standing.
+
+  
+
+
+**Q: Can prospects view multiple heatmaps in a shared report?**
+
+Yes. When you share a Marketing Audit Report on the web, prospects can switch between the different Local SEO heatmaps you created. This lets them compare local visibility across different keywords and services.
 
 * * *
 

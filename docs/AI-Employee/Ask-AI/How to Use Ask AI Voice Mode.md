@@ -125,9 +125,33 @@ Ask AI Voice Mode is available directly from the Ask AI workspace. Make sure you
 
   
   
-3\. ****Allow microphone access and speak:** **Allow microphone access when prompted, then speak your request to Ask AI.  
+3\. **Allow microphone access and speak:** Allow microphone access when prompted, then speak your request to Ask AI.  
   
 ![](https://jumpshare.com/share/41pvIAwPIEjrApxjIBuh+/Screen+Shot+2026-07-01+at+11.01.56+AM.png)
+
+* * *
+
+## **Use Voice Mode with Page Context**
+
+  
+
+
+You can combine Ask AI Voice Mode with page context when Ask AI is open alongside a HighLevel page. If you select a page element before speaking, the selection remains attached while your voice request is transcribed. This lets you point to something on the page and then explain what you want using voice.
+
+  
+
+
+For example, you can select a field or section and ask:
+
+  
+
+
+_“What does this do?”_
+
+  
+
+
+For more information about selecting page elements and using page context, see [Using Page Context with Ask AI.](<https://help.gohighlevel.com/en/support/solutions/articles/155000008754>)
 
 * * *
 

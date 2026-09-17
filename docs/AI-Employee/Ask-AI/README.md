@@ -4,12 +4,11 @@
 
 ## Articles
 
-- [Overview of Ask AI Assistant](Overview of Ask AI Assistant.md)
+- [Ask AI Assistant](Ask AI Assistant.md)
 - [How to Generate a Contact's Summary Using Ask AI](How to Generate a Contact's Summary Using Ask AI.md)
 - [Funnel Creation Agent in Ask AI](Funnel Creation Agent in Ask AI.md)
 - [How to Generate and Edit Images Using Ask AI](How to Generate and Edit Images Using Ask AI.md)
 - [How to Use Edit with Ask AI Feature in Social Planner](How to Use Edit with Ask AI Feature in Social Planner.md)
-- [Ask AI + Agent Studio Integration](Ask AI + Agent Studio Integration.md)
 - [How to Use the MCP Server within Ask AI](How to Use the MCP Server within Ask AI.md)
 - [Using Ask AI to Create and Update SaaS Plans](Using Ask AI to Create and Update SaaS Plans.md)
 - [Using Ask AI Artifacts and Mermaid Diagrams in HighLevel](Using Ask AI Artifacts and Mermaid Diagrams in HighLevel.md)
@@ -24,3 +23,11 @@
 - [How to setup the Ask AI LeadConnector Chrome Extension](How to setup the Ask AI LeadConnector Chrome Extension.md)
 - [Ask AI Templates](Ask AI Templates.md)
 - [AI Browser Control Extension](AI Browser Control Extension.md)
+- [How to Access and Manage Media Storage Using Ask AI](How to Access and Manage Media Storage Using Ask AI.md)
+- [Ask AI Multi-Threading: Run Multiple Tasks at Once](Ask AI Multi-Threading Run Multiple Tasks at Once.md)
+- [Ask AI Skills and Connectors](Ask AI Skills and Connectors.md)
+- [Create Email Templates with Ask AI](Create Email Templates with Ask AI.md)
+- [Ask AI - Audio & Video Generation](Ask AI - Audio & Video Generation.md)
+- [Ask AI Triggers: Automate AI Actions Based on CRM Events](Ask AI Triggers Automate AI Actions Based on CRM Events.md)
+- [How to use Ask AI in Split Mode](How to use Ask AI in Split Mode.md)
+- [Using Page Context with Ask AI](Using Page Context with Ask AI.md)

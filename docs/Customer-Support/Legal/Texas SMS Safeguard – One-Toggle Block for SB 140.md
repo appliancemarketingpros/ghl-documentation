@@ -6,13 +6,13 @@
 
 ---
 
-Texas SMS Safeguard helps HighLevel users instantly comply with Texas SB 140 by blocking automation texts sent to or from Texas numbers—no workflow edits required. This guide explains what the safeguard does, why it matters, and how to enable it in seconds.
+[](<https://www.sos.state.tx.us/statdoc/faqs3400.shtml>)Texas SMS Safeguard provides a regional messaging restriction that can help HighLevel users reduce SMS/MMS sends to or from Texas numbers. This guide explains the Texas SB 140 requirements, what the safeguard does, and how to configure it in HighLevel.
 
   
 
     
     
-    **NOTE:** This information is for educational purposes only and does not constitute legal advice. The content provided is general in nature and may not reflect the most up-to-date information. HighLevel strongly advises consulting with a qualified legal counsel to ensure your compliance with applicable laws and regulations in connection with your use of our services.
+    **NOTE:** This information is for educational purposes only and does not constitute legal advice. Laws, regulatory interpretations, and compliance requirements can change. HighLevel strongly recommends consulting qualified legal counsel to determine the requirements that apply to your business and messaging activity.
 
 * * *
 
@@ -32,20 +32,25 @@ Texas SMS Safeguard helps HighLevel users instantly comply with Texas SB 140 by 
   * Resources
 
 
-* * *
+  
+
 
 ## **What’s Changing with the Texas Mini-TCPA Law?**
 
   
 
 
-Texas has amended its telemarketing law (Chapter 302, Business & Commerce Code), which previously applied only to voice telephone calls, to apply to text messages. The expansion of the law’s application to text messages means that you may need to register your business with the Texas Secretary of State if you are sending marketing messages to Texas residents or are located in Texas and sending marketing texts. The amendments also make it easier for individuals to file lawsuits and recover significant damages for violations.
+Texas Senate Bill 140 (SB 140) took effect on **September 1, 2025**. The law amended Texas telemarketing rules, including Chapter 302 of the Texas Business & Commerce Code, so that certain text, graphic, and image messages can fall within the definition of a telephone solicitation.
 
+  
+
+
+As a result, businesses sending solicitation messages to Texas recipients or sending them from Texas may be subject to additional Texas telemarketing requirements, depending on the nature of the messages, consent, available exemptions, and other circumstances.  
   
 
     
     
-    **IMPORTANT : **These changes go into effect on September 1, 2025.
+    **IMPORTANT:** The Texas Secretary of State currently states that, based on the position taken by the Texas Attorney General and Secretary of State and an agreement reached in ongoing litigation, a business sending text messages **with the consumer’s prior consent is not required to complete the Telephone Solicitation Registration Statement under Chapter 302**. Businesses should review the current Texas Secretary of State guidance and consult legal counsel to determine their specific obligations.
 
 * * *
 
@@ -54,7 +59,11 @@ Texas has amended its telemarketing law (Chapter 302, Business & Commerce Code),
   
 
 
-Texas SMS Safeguard is a single toggle inside HighLevel’s SMS Compliance settings that automatically prevents marketing or promotional SMS/MMS messages triggered by automations or bulk tools when either the recipient’s number is in Texas or the sending number has a Texas area code. The safeguard was introduced ahead of the Texas Mini-TCPA (SB 140) taking effect on September 1, 2025, which expands telemarketing rules to text messaging.
+Texas SMS Safeguard is a regional restriction available within HighLevel’s **Messaging Compliance** settings.
+
+When enabled, the current setting is designed to **block SMS/MMS sent to Texas recipients or from phone numbers with Texas area codes**. This provides an additional safeguard for businesses that choose to restrict Texas-related messaging while evaluating or managing their compliance requirements.
+
+The safeguard does not determine whether a particular message is legally permitted, whether your business qualifies for an exemption, or whether registration or other compliance requirements apply to you.
 
 * * *
 
@@ -63,35 +72,43 @@ Texas SMS Safeguard is a single toggle inside HighLevel’s SMS Compliance setti
   
 
 
-The law applies to “sellers” and “telephone solicitors” who send marketing SMS/text messages:
+SB 140 may affect sellers and telephone solicitors sending solicitation messages involving Texas, including businesses:
 
   
 
 
-  * **TO** Texas residents (regardless of where you’re located)  
-  
-
-  * **FROM** Texas (regardless of where your recipients are located)
-
-
+  * Sending messages **to Texas recipients** , even when the business is located outside Texas.  
   
 
 
+  * Sending messages **from Texas** , even when the recipient is located outside Texas.  
   
 
 
-**Examples:**
+**Examples may include:**  
+**  
+**
 
+  * A California agency sending solicitation messages to Texas consumers.  
   
 
 
-  * A California agency sending SMS to Texas consumers = May be covered  
+  * A Texas agency sending solicitation messages to California consumers.  
   
 
-  * A Texas agency sending SMS to California consumers = May be covered  
+
+  * A Texas business sending solicitation messages to recipients in Texas.  
   
 
-  * A Texas agency sending SMS to Texas businesses = May be covered
+
+Whether the law applies to a particular business or message depends on factors including the type of communication, consent, available statutory exemptions, and current regulatory guidance.  
+  
+
+    
+    
+    **Note:** The Texas Secretary of State currently states that businesses sending text messages with the consumer’s prior consent are not required to complete the Chapter 302 Telephone Solicitation Registration Statement. This guidance should be considered when determining your registration obligations.
+
+  
 
 
 * * *
@@ -101,19 +118,23 @@ The law applies to “sellers” and “telephone solicitors” who send marketi
   
 
 
-  * One-click SB 140 protection—no workflow rebuilds  
+  * **Simple regional control:** Enable a single setting instead of building separate Texas exclusion logic across individual campaigns.  
   
 
-  * Covers Workflows and Bulk Messaging in every sub-account  
+
+  * **Sender and recipient coverage:** The restriction evaluates Texas recipients as well as sending numbers with Texas area codes.  
   
 
-  * Custom error message (“Blocked by Texas SMS Safeguard…”) clarifies why a send failed  
+
+  * **Sub-account-level control:** Configure the restriction based on the needs of each location.  
   
 
-  * Reduces legal exposure and accidental violations that can cost up to $5,000 per text  
+
+  * **Reduced accidental sends:** Helps prevent messaging to or from Texas numbers when your business has chosen to restrict those communications.  
   
 
-  * Saves time by eliminating manual segmentation or exclusion logic
+
+  * **Centralized compliance management:** The setting is available alongside other SMS/MMS compliance controls in Messaging Compliance.
 
 
 * * *
@@ -123,37 +144,48 @@ The law applies to “sellers” and “telephone solicitors” who send marketi
   
 
 
-Yes, but they are narrow. Examples include:
+Yes. Chapter 302 contains multiple exemptions that may apply depending on the business and circumstances. 
 
+  
+Examples include certain:  
   
 
 
-  * Certain publicly traded companies and their subsidiaries  
+  * Publicly traded companies and subsidiaries.  
   
 
-  * Certain financial institutions  
+
+  * Financial institutions.  
   
 
-  * Educational institutions  
+
+  * Educational institutions.  
   
 
-  * 501(c)(3) nonprofits  
+
+  * Nonprofit organizations.  
   
 
-  * Businesses marketing the sale of food  
+
+  * Businesses soliciting the sale of food.  
   
 
-  * Retail sellers with brick-and-mortar locations if it has operated under the same name for the last two years and a majority of sales occur at retail locations  
+
+  * Retail businesses meeting specific statutory requirements.  
   
 
-  * Businesses contacting their current or former customers if that business has operated under the same business name for the last two years
 
+  * Businesses soliciting former or current customers when the applicable statutory requirements are met.  
+  
+
+
+In addition to statutory exemptions, the Texas Secretary of State currently states that a business sending text messages **with the consumer’s prior consent is not required to complete the Telephone Solicitation Registration Statement under Chapter 302**.
 
   
 
     
     
-    **Note:** Exemptions are fact-specific and the burden of proof is on you to demonstrate qualification. Consult legal counsel to determine if you qualify.
+    **Note:** Exemptions and registration requirements are fact-specific. Do not assume that an exemption applies solely based on your industry or relationship with a contact. Consult qualified legal counsel if you are unsure.
 
 * * *
 
@@ -162,30 +194,43 @@ Yes, but they are narrow. Examples include:
   
 
 
-You may need to:
-
+If, after reviewing the current Texas Secretary of State guidance and applicable exemptions, you determine that your business is required to register under Chapter 302, the registration process may include:  
   
 
 
-  * File a registration statement with Texas (including personal, financial, and business details that become “public information”).  
+  * Filing a Telephone Solicitation Registration Statement with the Texas Secretary of State.  
   
 
-  * Pay a $200 application fee which will need to be renewed after one year.  
+
+  * Paying the current **$200 filing fee**.  
   
 
-  * Post a $10,000 security deposit in the form of a bond executed by a corporate security, an irrevocable letter of credit, or certain certificates of deposit. Additional information regarding the form of any security can be found in Section 302.107 of the law.  
+
+  * Providing the required business and registration information.  
   
 
-  * Comply with specific disclosure requirements and quiet hours restrictions.
+
+  * Posting a **$10,000 security deposit** in an accepted form.  
+  
+
+
+  * Renewing the registration as required.  
+  
 
 
   
 
     
     
-    **Important:** Your registration is only valid once the Texas Secretary of State issues the certificate, not when you submit the application.
+    Important: Your registration is only valid once the Texas Secretary of State issues the certificate, not when you submit the application.
     
-    Registration is done with the state of Texas. [Click here to learn more.](<https://www.sos.state.tx.us/statdoc/faqs3400.shtml>)
+    Registration is done with the state of Texas. [Click here to learn more.](<https://www.sos.state.tx.us/statdoc/faqs3400.shtml>)
+
+  
+
+
+  
+
 
 * * *
 
@@ -194,22 +239,15 @@ You may need to:
   
 
 
-Non-compliance can result in:
-
+Failure to comply with applicable Texas telemarketing requirements can create legal and financial exposure, including potential regulatory enforcement and private legal claims.  
   
 
 
-  * Civil penalties up to $5,000 per violation  
+SB 140 also amended Texas law to expand private remedies associated with certain solicitation-related violations and provides that previous recovery does not necessarily prevent a claimant from pursuing recovery for later violations.  
   
 
-  * Treble damages under the Texas Deceptive Trade Practices Act (DTPA)  
-  
 
-  * Attorney fees and costs awarded to successful plaintiffs  
-  
-
-  * Increased risk of lawsuits (Texas now allows “serial” private actions, meaning a single campaign could expose you to multiple lawsuits for the same conduct).
-
+Because the requirements and potential remedies depend on the specific law, conduct, and circumstances involved, businesses should work with qualified legal counsel to understand their exposure rather than relying solely on the Texas SMS Safeguard.
 
 * * *
 
@@ -233,7 +271,7 @@ Non-compliance can result in:
   * **Strengthen consent:** Make sure you have documented opt-in proof for every contact.  
   
 
-  * **Talk to your attorney:** Determine if an exemption applies or if you need to register and post a bond before September 1, 2025.
+  * **Talk to your attorney:** Determine whether an exemption applies or whether your business has registration, security deposit, or other compliance obligations under current Texas requirements.
 
 
 * * *
@@ -243,35 +281,35 @@ Non-compliance can result in:
   
 
 
-HighLevel is a platform provider only. We do not act as the telemarketer or seller. You (the agency/business) control:  
+HighLevel provides the communication platform and compliance controls that businesses can use as part of their messaging operations.  
   
 
 
-  * Who receives messages  
-  
+You control:
 
-  * What messages say  
-  
+  * Who receives your messages.
 
-  * When messages are sent  
-  
+  * What your messages contain.
 
-  * Whether you qualify for an exemption
+  * When messages are sent.
 
+  * How consent is collected and documented.
 
-  
+  * Whether the Texas regional restriction is enabled.
 
-
-You are the “**seller** ” or “**telemarketer** ” for all legal purposes.
-
+  * Whether your business qualifies for an exemption or has registration or other legal obligations.  
   
 
 
+HighLevel’s compliance features are tools to help you manage your messaging practices; they do not determine your legal status or replace your responsibility to comply with applicable laws.  
   
 
     
     
-    **Takeaway:** If you send SMS to Texas residents or from a Texas location, you are responsible for compliance with the new law. Please consult your counsel before September 1, 2025. You can also contact the Texas Secretary of State with questions or for additional information.
+    **Takeaway:** If your business sends SMS/MMS involving Texas recipients or Texas-area-code sending numbers, review the current Texas requirements, your consent practices, and the Texas Secretary of State guidance. Consult qualified legal counsel if you need help determining your obligations.
+
+  
+
 
 * * *
 
@@ -280,17 +318,21 @@ You are the “**seller** ” or “**telemarketer** ” for all legal purposes.
   
 
 
-Enabling the safeguard takes less than a minute and instantly applies across the sub-account.
+The Texas regional restriction is configured at the **sub-account (Location) level** within Messaging Compliance. HighLevel’s current Messaging Compliance experience includes a regional restriction for blocking SMS/MMS to Texas recipients or from Texas-area-code numbers.
 
+  1. Log in to the desired **Location (sub-account)**.  
   
 
 
-Log in to the desired Location (sub-account).Click Settings in the left-hand menu. Choose Phone Numbers, then select Additional Settings. Open the SMS Compliance tab. Toggle Texas SMS Safeguard ON and click Save.
-
+  2. Click **Settings** in the left navigation menu. Go to **Phone System**. Open the **Messaging** tab.  
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056478325/original/R7Th_AGn7Jc1C9_lAo7gsoKqmMiAe5L3wQ.png?1761051801)
+  3. Toggle Texas SMS Safeguard ON and click Save.  
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078723926/original/awIwBdBSPe9wTCo4pWmjUaY-E2njQ87c2A.png?1787069258)
 
 * * *
 
@@ -389,4 +431,5 @@ Yes. Agency Admins can enable or disable it per Location; there is no global-all
   * [Registration Form (3401)](<https://www.sos.state.tx.us/statdoc/forms/3401.pdf>)  
   
 
-  * [Texas SoS FAQ](<https://www.sos.state.tx.us/statdoc/faqs3400.shtml>)[](<https://www.sos.state.tx.us/statdoc/faqs3400.shtml>)
+  * [Texas SoS FAQ](<https://www.sos.state.tx.us/statdoc/faqs3400.shtml>)
+  * [Set Up Automatic Opt-Out and Sender Info Updates in Messaging Compliance](<https://help.gohighlevel.com/support/solutions/articles/155000006771-set-up-automatic-opt-out-and-sender-info-updates-in-messaging-compliance>)[](<https://www.sos.state.tx.us/statdoc/faqs3400.shtml>)

@@ -6,7 +6,7 @@
 
 ---
 
-This article explains how HighLevel AI products are priced, which features are included in AI Employee Unlimited, which features are part of AI Employee Growth, how Voice AI costs are calculated, and where agencies can review or rebill AI usage.
+[](<https://help.gohighlevel.com/en/support/solutions/articles/155000007813>)[](<https://help.gohighlevel.com/en/support/solutions/articles/155000007813>)[](<https://help.gohighlevel.com/en/support/solutions/articles/155000007813>)[](<https://help.gohighlevel.com/en/support/solutions/articles/155000007813>)[](<https://help.gohighlevel.com/en/support/solutions/articles/155000007813>)[](<https://help.gohighlevel.com/en/support/solutions/articles/155000007813>)[](<https://help.gohighlevel.com/en/support/solutions/articles/155000007813>)This article explains how HighLevel AI products are priced, which features are included in AI Employee Unlimited, which features are part of AI Employee Growth, how Voice AI costs are calculated, and where agencies can review or re-bill AI usage.
 
   
 
@@ -41,6 +41,7 @@ Some HighLevel AI features are included with AI Employee, some are free with fai
     * Content AI
     * Reviews AI
     * AI Studio
+    * Managed Agents
   * Billing and Administration
   * Rebilling AI Usage to Locations
   * How to Review AI Usage and Charges
@@ -72,20 +73,20 @@ Feature| Pay-Per-Use| AI Employee Growth| AI Employee Unlimited
 **Reviews AI**|  $0.01/ review| Unlimited| Unlimited  
 **Content AI**|  $0.063/image and $0.0945/1,000 words| Unlimited| Unlimited  
 **Voice AI Prompt Optimizer**|  At Token Cost| 100 minutes/month, then at pay per use rate| Unlimited  
-**Ask AI**|  At token cost| Usage included| 3x usage included  
-**AI Studio***|  At token cost| Usage included| 3x usage included  
-**Funnel AI**|  Included| Included| Included  
-**Workflow AI**|  Included| Included| Included  
-**Email AI**|  Included| Included| Included  
+**[Ask AI](<https://ai-plan-calculator.vibepreview.com/>)**|  At token cost| Usage included| 3x usage included  
+**[AI Studio*](<https://ai-plan-calculator.vibepreview.com/>)**|  At token cost| Usage included| 3x usage included  
+**Funnel AI**|  Free| Free| Free  
+**Workflow AI**|  Free| Free| Free  
+**Email AI**|  Free| Free| Free  
 **Agent Studio**|  At token cost| At token cost| At token cost  
+**Managed Agents**|  At token cost| 100 runs/month| 1000 runs/month  
   
 [](<https://help.gohighlevel.com/en/support/solutions/articles/155000008057>)
 
   
 
-    
-    
-    Note: Ask AI and AI Studio will be free as part of the Summer of AI promotion and the charges mentioned here will be applicable post Summer of AI promotion. For more details about Summer of AI promotion, please visit our [Summer of AI Help Doc](<https://help.gohighlevel.com/en/support/solutions/articles/155000008057>).
+
+**Fair use policy:** Free and unlimited usage is subject to HighLevel's Terms of Service, including excessive-use restrictions. If usage is excessive, abusive, or negatively affects platform performance, HighLevel may throttle, limit, require service upgrades, or terminate access with or without notice.
 
   
 
@@ -115,34 +116,45 @@ No monthly subscription fee for AI features. Usage is billed at token cost based
   
 
 
-Available for $50/month per enabled location. Includes generous monthly limits across the full AI suite, ideal for scaling teams that want cost visibility and a predictable baseline without constantly watching usage.
+Available for **$50/month per enabled location**. Includes generous monthly limits across the full AI suite, ideal for scaling teams that want cost visibility and a predictable baseline without constantly watching usage.
 
   
 
 
 **Included monthly limits:**
 
-  
-
-
   * 1,000 Conversation AI Agent responses
-  * Conversation AI Prompt Optimizer: 100 messages/day + 500 additional messages/month then at token cost.
-  * 100 Voice AI minutes (covers inbound, outbound, and widget usage combined)
-  * Unlimited Reviews AI
-  * Unlimited Content AI
-  * 100 minutes Voice AI Prompt Optimizer  
 
-  * Ask AI usage included
-  * AI Studio usage included
+  * Conversation AI Prompt Optimizer: 100 messages/day + 500 additional messages/month, then billed at token cost
+
+  * 100 Voice AI minutes (inbound, outbound, and widget usage combined)
+
+  * Unlimited Reviews AI
+
+  * Unlimited Content AI
+
+  * 100 minutes of Voice AI Prompt Optimizer
+
+  * **Ask AI usage included —[See what your included usage looks like](<https://ai-plan-calculator.vibepreview.com/>)**
+
+  * **AI Studio usage included —[See what your included usage looks like](<https://ai-plan-calculator.vibepreview.com/>)**
+
   * Funnel AI usage included
-  * Workflow AI usage included.
-  * Email AI usage included.
+
+  * Workflow AI usage included
+
+  * Email AI usage included
 
 
   
 
-
-**Overages:** Once a monthly limit is reached, additional usage is automatically billed at pay-per-use rates (if overages are set). Access is not paused or interrupted.
+    
+    
+    **Overages:** Once the included monthly allowance is reached, additional usage will be billed at applicable pay-per-use rates. 
+    
+    **Whether AI continues or stops** **depends** on the **location’s AI Usage Limit settings**. With **Keep AI running, just notify** , or when **Spending Limits are disabled** , usage continues. With **Block AI at the limit** , AI stops when the configured limit is reached.
+    
+    For more information, checkout our detailed article on [**AI Usage Limits**](<https://help.gohighlevel.com/support/solutions/articles/155000007813-ai-usage-limits>).
 
   
 
@@ -156,39 +168,46 @@ Available for $50/month per enabled location. Includes generous monthly limits a
   
 
 
-Available for $97/month per enabled location. Unlimited usage across Conversation AI, Voice AI, Reviews AI, and Content AI, plus generous included usage for Ask AI and AI Studio, ideal for agencies ready to deploy AI at scale without worrying about hitting a ceiling, subject to fair use.
+Available for **$97/month per enabled location**. Includes unlimited usage across Conversation AI, Voice AI, Reviews AI, and Content AI, plus increased included usage for Ask AI and AI Studio. Ideal for agencies ready to deploy AI at scale, subject to fair use.
 
   
 
 
 **Included features:**
 
-  
-
-
   * Unlimited Conversation AI
+
   * Unlimited Conversation AI Prompt Optimizer
+
   * Unlimited Voice AI (inbound, outbound, and widget)
+
   * Unlimited Reviews AI
+
   * Unlimited Content AI
+
   * Unlimited Voice AI Prompt Optimizer
-  * Ask AI (3x usage included)
-  * AI Studio (3x usage included)
+
+  * **Ask AI — 3x usage included —[See what your included usage looks like](<https://ai-plan-calculator.vibepreview.com/>)**
+
+  * **AI Studio — 3x usage included —[See what your included usage looks like](<https://ai-plan-calculator.vibepreview.com/>)**
+
   * Funnel AI usage included
+
   * Workflow AI usage included
+
   * Email AI usage included
 
 
   
 
 
-**Fair use policy:** Unlimited usage is subject to HighLevel's Terms of Service, including excessive-use restrictions. If usage is excessive, abusive, or negatively affects platform performance, HighLevel may throttle, limit, require service upgrades, or terminate access with or without notice
+**Fair use policy:** Unlimited usage is subject to HighLevel's Terms of Service, including excessive-use restrictions. If usage is excessive, abusive, or negatively affects platform performance, HighLevel may throttle, limit, require service upgrades, or terminate access with or without notice.
 
   
 
     
     
-    Note: Agent Studio is not included in any subscription plan and remains pay-per-use across all plans.
+    Note: **Agent** **Studio** is **not** **included** **in** **any** **subscription** **plan** and **remains** **pay** -**per** -**use** **across** **all** **plans**.
 
 * * *
 
@@ -238,14 +257,10 @@ Ask AI session cost can vary based on:
 
   
 
-
-Use the [Ask AI Sessions Pricing Overview](<https://help.gohighlevel.com/en/support/solutions/articles/155000007818>) article for detailed examples of how different task types affect cost.
-
-  
-
     
     
-    Note: Ask AI will be free as part of Summer of AI promotion and the charges mentioned here will be applicable post Summer of AI promotion. For more details about Summer of AI promotion, please visit our [Summer of AI Help Doc](<https://help.gohighlevel.com/en/support/solutions/articles/155000008057>).
+    **Note:** Use the [Ask AI Sessions Pricing Overview](<https://help.gohighlevel.com/en/support/solutions/articles/155000007818>) article for detailed examples of how different task types affect cost.[](<https://help.gohighlevel.com/en/support/solutions/articles/155000008057>)
+    
 
 * * *
 
@@ -343,6 +358,9 @@ Because of this, two conversations using the same AI model can still have differ
   
 
 
+  
+
+
 ### **Conversation AI token rates**
 
   
@@ -390,7 +408,50 @@ OpenAI| Chat GPT-4.1 Mini| $0.40| $1.60
   
 
 
-### **How Cost is Calculated**
+### **Speech-to-Speech Cost Calculations**
+
+  
+
+
+#### **Why use Speech-to-Speech Voice AI?**
+
+  
+
+
+Speech-to-Speech Voice AI lets your agent hear audio and respond with audio through a single realtime model. Traditional Voice AI converts speech to text, processes it, then converts text back to speech — a multi-step pipeline that adds latency at every hop. S2S removes those steps entirely.
+
+  
+The difference shows up in the conversation itself. Your agents pick up on tone and emotion that plain text loses, respond with noticeably lower latency, and can adapt when a caller switches languages mid-call. The result sounds far closer to talking with a person than to querying a system.
+
+  
+**All-in-one per-minute rate**
+
+  
+We've bundled audio, text, cache tokens, transcripts, and infrastructure into a single, predictable per-minute price.  
+With most Voice AI models, cost swings based on how the conversation goes. S2S gives you one rate for every minute — which makes it far easier to understand your costs, price confidently for clients, and scale without surprises.
+
+  
+
+    
+    
+    **Note:** Agent prompts are **capped at 15K tokens on both models**. This applies to your agent's instructions, not to call length or conversation history.
+
+  
+
+
+Provider| Model| S2S Rate  
+  
+---|---|---  
+Google| gemini-3.1-flash-live-preview| $0.10/min  
+OpenAI| gpt-realtime-2/2.1| $0.20/min  
+  
+  
+
+
+  
+
+
+### **How Text-to-Speech Cost is Calculated**
 
   
 
@@ -826,13 +887,13 @@ Build funnels and websites with AI| 1,000 prompts/day per location| Free
   
 
 
-  * **AI Employee Growth:** Included, subject to fair use.  
+  * **AI Employee Growth:** Included at no additional cost, subject to fair use.  
   
 
-  * **AI Employee Unlimited:** Included, subject to fair use.  
+  * **AI Employee Unlimited:** Included at no additional cost, subject to fair use.  
   
 
-  * **Pay-Per-Use:** Included, subject to fair use.
+  * **Pay-Per-Use:** Included at no additional cost, subject to fair use.
 
 
 * * *
@@ -842,13 +903,13 @@ Build funnels and websites with AI| 1,000 prompts/day per location| Free
   
 
 
-  * **AI Employee Growth:** Included, subject to fair use.  
+  * **AI Employee Growth:** Included at no additional cost, subject to fair use.  
   
 
-  * **AI Employee Unlimited:** Included, subject to fair use.  
+  * **AI Employee Unlimited:** Included at no additional cost, subject to fair use.  
   
 
-  * **Pay-Per-Use:** Included, subject to fair use.
+  * **Pay-Per-Use:** Included at no additional cost, subject to fair use.
 
 
 * * *
@@ -934,12 +995,92 @@ Usage is measured in 5-hour windows. Each plan has its own usage limit within th
 
 Use the [AI Studio Pricing ](<https://help.gohighlevel.com/support/solutions/articles/155000008322-ai-studio-pricing>) article for detailed examples of how different task types affect cost.
 
+* * *
+
+## **Managed Agents**
+
   
 
-    
-    
-    Note:  AI Studio will be free as part of Summer of AI promotion and the charges mentioned here will be applicable post Summer of AI promotion (September 1, 2026). For more details about Summer of AI promotion, please visit our [Summer of AI Help Doc](<https://help.gohighlevel.com/support/solutions/articles/155000008057-summer-of-ai-2026>).
 
+  * **AI Employee Growth:** 100 runs/month.  
+  
+
+  * **AI Employee Unlimited:** 1000 runs/month  
+  
+
+  * **Pay-Per-Use:** At Token Cost.  
+  
+
+  * **Free Test Run:** 30 runs/month
+
+
+  
+
+
+Managed Agents, formerly Super Agents has three plans meter usage in runs; Pay per use meters token consumption with no run allowance.
+
+  
+
+
+  
+
+
+### **How is a Run Counted**
+
+  
+
+
+A run is one agent execution. How it is counted depends on how the agent was invoked.
+
+  
+
+
+Invocation| One run =| Example  
+---|---|---  
+Chat/Conversation| One session| 2 sessions = 2 runs  
+Trigger - event| One event received and executed| Contact tag added → agent executes = 1 Run  
+Trigger - scheduled| One run per scheduled invocation| Daily at a fixed time = 30 runs in 30 days  
+  
+  
+
+
+  
+
+
+See the table below for examples.
+
+  
+
+
+Scenario| Runs  
+---|---  
+One chat session| 1  
+Three separate chat sessions| 3  
+Tag-added trigger fires 12 times in a month| 12  
+Daily scheduled trigger, 30-day month| 30  
+  
+  
+
+
+  
+
+
+### **Free Test Run**
+
+  
+
+
+30 free runs per month via the Test Section. Chat tests have a 400,000 - token session limit.
+
+  
+
+
+Test Type| One test run =| Condition  
+---|---|---  
+Chat test| One session, up to 400,000 tokens| A 520,000-token session = 2 runs  
+Trigger test - event| One event received and executed| Contact tag added → agent executes = 1 Run  
+Trigger test - scheduled| One run per scheduled invocation| Daily at a fixed time = 30 runs in 30 days  
+  
 * * *
 
 # **Billing and Administration**
@@ -955,7 +1096,7 @@ Use the [AI Studio Pricing ](<https://help.gohighlevel.com/support/solutions/art
   
 
 
-AI usage may be charged to the agency first and then rebilled to locations when supported by the agency plan and rebilling settings.
+AI usage may be charged to the agency first and then re-billed to locations when supported by the agency plan and rebilling settings.
 
   
 
@@ -981,6 +1122,12 @@ Usage-based services are typically funded through the Agency Wallet. Common wall
 
 
 Agency Admins can review supported AI usage in the **AI Suite**. The AI Suite is available at the Agency level for Agency Admins. It includes location level breakdowns, but it is not accessed from individual location pages.
+
+  
+
+    
+    
+    **Note:** For more information, checkout our detailed article on [**AI Usage Limits**](<https://help.gohighlevel.com/support/solutions/articles/155000007813-ai-usage-limits>).
 
 **  
 **
@@ -1037,7 +1184,7 @@ Agency Wallet| The funding source for usage-based services such as the Phone Sys
 
 **Q: What happens when I hit the monthly limits on AI Employee Growth?**
 
-Once a monthly limit is reached, such as 1,000 Conversation AI responses or 100 Voice AI minutes, additional usage is automatically billed at pay-per-use rates. Access is not paused or interrupted.
+Once an included monthly allowance is reached, what happens next **depends on the location’s[AI Usage Limit](<https://help.gohighlevel.com/en/support/solutions/articles/155000007813>) **settings. If **Keep AI running, just notify** is selected, **or Spending Limits are disabled** , AI usage continues and applicable overages are billed at pay-per-use rates. If **Block AI at the limit** is selected, AI usage stops when the configured limit is reached.
 
   
 
@@ -1117,6 +1264,9 @@ No. Agent Studio is pay-per-use across all plans (Pay-Per-Use, AI Employee Growt
 
 
   * [AI Employee Overview](<https://help.gohighlevel.com/support/solutions/articles/155000003906-ai-employee-overview?utm_source=chatgpt.com>)  
+  
+
+  * [AI Usage Limits](<https://help.gohighlevel.com/en/support/solutions/articles/155000007813>)  
   
 
   * [HighLevel Pricing Guide](<https://help.gohighlevel.com/support/solutions/articles/155000001156-highlevel-pricing-guide?utm_source=chatgpt.com>)  

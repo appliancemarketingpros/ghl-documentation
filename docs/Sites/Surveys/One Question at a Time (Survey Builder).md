@@ -59,12 +59,11 @@ When enabled:
 
 ## **Things to Know**
 
-  * If you’re using conditional logic, turning this on may affect how logic works. You’ll see a warning before anything changes.  
+  * If you’re using conditional logic, turning this on may affect how logic works. You’ll see a warning before anything changes.
+
+  * When **One Question at a Time** is enabled, object fields added in bulk continue to follow the one-question-per-slide layout. Bulk-added fields are split onto separate slides where appropriate.  
   
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155058342855/original/X1WLkPs3z1_xo-wGKTofr4FE-kQsug4hWg.png?1763069250)
-
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155058342855/original/X1WLkPs3z1_xo-wGKTofr4FE-kQsug4hWg.png?1763069250)  
   
 
 

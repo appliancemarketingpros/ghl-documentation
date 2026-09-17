@@ -22,3 +22,5 @@
 - [Domain Warmup: How It Works (Fixed-Stage Model)](Domain Warmup How It Works (Fixed-Stage Model).md)
 - [LC Email: Email Service Provider Block Notification - Email Sending Temporarily Restricted (Action Required)](LC Email Email Service Provider Block Notification - Email Sending Temporarily Restricted (Action Re.md)
 - [How Sender Domains Work in LC Email Campaigns](How Sender Domains Work in LC Email Campaigns.md)
+- [LC Email: Email Service Provider Block Detected - Immediate Action Required to Restore Email Sending](LC Email Email Service Provider Block Detected - Immediate Action Required to Restore Email Sending.md)
+- [LC Email Sending Limits, Ramp-Up, and Trial Agency Rules](LC Email Sending Limits, Ramp-Up, and Trial Agency Rules.md)

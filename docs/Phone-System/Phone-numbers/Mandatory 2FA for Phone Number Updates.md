@@ -234,14 +234,12 @@ Follow the steps below to update a phone number securely. Steps include both the
 
   1. Go to **Settings → My Profile** (or your user profile page).  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155063874131/original/DtyezxbDeqn57WpkYiTmx90fYtlc1SXCmQ.png?1769786018)  
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080705808/original/cyvwBHYBGSz3ghTKfNhu_wEFDREyv-mdNA.png?1789126693)  
 
 
   2. In **Personal Data,** edit the phone number.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155063874312/original/BxZUdpeimN-lD-T8SEKmkRnrAt23UzRNBQ.png?1769786159)  
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080705833/original/GJZM91-nhhp6jhAmIzx2n7QyUKOvU84UVw.png?1789126711)  
 
 
   3. Enter the **new phone number******,** **then**** click**Update Profile.**  
@@ -295,14 +293,12 @@ Follow the steps below to update a phone number securely. Steps include both the
 
   1. Go to **Settings → Team** and open the team member’s profile.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155063874146/original/u7IMsnM74t_6gi4gt5u5anHJsllXWe00ZQ.jpeg?1769786034)  
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080705888/original/sl4zLKmJLmR6pbR6gq2u7PhJyexS5Kkflg.png?1789126744)  
 
 
   2. **Edit** the **Phone number** and enter the new number.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155063876146/original/zB-Vg9thz-YcohkZ2aHaPjZPFkPrTMXV-Q.png?1769787396)  
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080706898/original/cVCo8j598y4_8xHd9lQ1-hFImsv3dz_5bQ.png?1789127238)  
 
 
   3. On **Choose how to verify** , select an available channel. The code is delivered to the **team member’s** verified email/phone, or they can provide the code from their Authenticator App.  

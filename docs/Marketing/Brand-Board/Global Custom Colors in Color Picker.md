@@ -238,7 +238,11 @@ Once at least one Global Custom Color is saved, a “Global Custom Colors” gro
   
 
 
-  * Forms & Surveys
+  * Forms & Surveys  
+  
+
+
+  * Countdown Timers
 
 
   
@@ -252,7 +256,7 @@ Once at least one Global Custom Color is saved, a “Global Custom Colors” gro
   
 
 
-  1. Open the builder (e.g., Email, Funnel Page, or Form) and select any element with a color setting (text, button, background, border).  
+  1. Open the builder (e.g., Email, Funnel Page, Countdown Timeror Form) and select any element with a color setting (text, button, background, border).  
   
 
 

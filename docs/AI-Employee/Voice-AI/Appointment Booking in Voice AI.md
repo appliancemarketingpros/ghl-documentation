@@ -211,6 +211,20 @@ Hours between slots to control spacing between offered times
 
 * * *
 
+## **Notifications after a booking call**
+
+  
+
+
+  * **Booking confirmation notifications:** Appointment-related confirmations are handled by the notification settings associated with the calendar used for the booking.
+
+  * **Voice AI post-call email notifications:** These are separate emails sent after the Voice AI call ends and can include the call summary, contact information, and call transcript.
+
+
+Configuring a Voice AI post-call email does not replace or control the calendar’s booking confirmation notifications. To configure emails sent after a Voice AI call, see [Creating Voice AI Agents](<https://help.gohighlevel.com/support/solutions/articles/155000004107-creating-voice-ai-agents>) and review the **Email Notifications/Post-Call** settings.
+
+* * *
+
 ## **Where the AI’s Answers Are Saved**
 
   

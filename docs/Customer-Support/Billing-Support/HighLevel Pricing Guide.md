@@ -54,7 +54,7 @@ At the core of the HighLevel service is our subscription plans which are in thre
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155063620661/original/Pnq9_0iZAu_ofzFdp_b_kWCF4Zc3d45fbg.png?1769539270)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079084430/original/DN0ZiJ4yo9DhGTn7ZMvN6J8HwmmGbHkoPQ.png?1787436488)
 
 *Subject to change. We are always coming out with new features or adjusting our offerings to best serve you.
 
@@ -182,7 +182,7 @@ For the latest LC Phone number and messaging rates, refer to the LC Phone Pricin
   
 
 
-AI Employee is a suite of HighLevel AI tools that helps agencies automate conversations, content creation, review responses, and in-app assistance. AI Employee pricing is available under three plans. Choose the plan that fits your location's usage and billing preference. 
+AI Employee is a suite of HighLevel AI tools that helps agencies automate conversations, content creation, review responses, and in-app assistance. AI Employee pricing is available under three plans. Choose the plan that fits your location's usage and billing preference.
 
   
 

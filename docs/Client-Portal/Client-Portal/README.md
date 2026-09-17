@@ -24,3 +24,7 @@
 - [ClientPortal Builder Enhancement Pack](ClientPortal Builder Enhancement Pack.md)
 - [Chat Widget Integration with the Client Portal](Chat Widget Integration with the Client Portal.md)
 - [Client Portal - Edit Default Email Templates](Client Portal - Edit Default Email Templates.md)
+- [Upload Documents Through the Client Portal](Upload Documents Through the Client Portal.md)
+- [Client Portal - File Share Notifications for Contacts](Client Portal - File Share Notifications for Contacts.md)
+- [Unified Client Portal Experience](Unified Client Portal Experience.md)
+- [Client Portal Appointments: Book and Manage Meetings](Client Portal Appointments Book and Manage Meetings.md)

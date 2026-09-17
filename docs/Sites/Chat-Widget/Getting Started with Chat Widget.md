@@ -254,15 +254,18 @@ Once you select the chat widget type, there will 3 pages (4 if the chat type sup
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060347414/original/f6s2mdzpV4ZXnYyNacuQDaSVh7eimwKKyw.png?1765387459)  
   
+  
 
-  * **Chat Window: Chat window allows user to customise the title, intro message and contact form customisations. It also allows business to add their own brand url in the chat widget for more visibility and meet any compliance regulations with checkboxes.**  
+  * **Chat Window:****Customize the title, intro message, contact form, branding, and other Chat Window options. Under Additional options → Compliance notice & consent, you can configure a legal notice and a consent checkbox independently. You can also make the consent checkbox required or pre-check it by default.**  
 **  
 **
         
         **Tip:** To improve initial page performance, enable Load on user interaction in **Chat Window > Additional Options**. The widget loads after visitor interaction (scroll/click/touch), or after an automatic fallback delay (about 8 seconds). 
 
   
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060347459/original/gILumKvE-3NwMDZprahF0xcPW5u4b5E2dQ.png?1765387535)**
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060347459/original/gILumKvE-3NwMDZprahF0xcPW5u4b5E2dQ.png?1765387535)**  
+  
+
   * **Messaging:** Here the user configure the acknowledgement of message and icons. They can also configure the language of chat widget.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060347511/original/ZWxJuodd5cwBylUwtW86CmPV2hmWV_9IEQ.png?1765387587)  

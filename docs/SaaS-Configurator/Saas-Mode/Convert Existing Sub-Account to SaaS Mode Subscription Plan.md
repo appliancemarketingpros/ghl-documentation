@@ -70,7 +70,15 @@ Review plan details before you continue. In the **Select Subscription Plan** mod
 ![](https://jumpshare.com/share/baD1dldAsCjUeBgfdr0C+/Screen+Shot+2026-02-03+at+1.06.00+AM.png)  
   
 
-  9. The selected **plan will be activated once the client adds their payment method(card)** , until then it will be **on****Hold**.  
+  9. If a payment method is not available when the plan is assigned, the selected plan remains On Hold.  
+  
+When the client reaches the lockout screen:  
+  
+If no card is on file, the client can add one and attempt payment.  
+  
+If a card is already on file, HighLevel displays the saved card and lets the client proceed to payment without adding another card.  
+  
+After successful payment, HighLevel automatically unlocks the sub-account.  
   
 ![](https://jumpshare.com/share/8ksVfUlrQWbFtqnc8ZYu+/Screen+Shot+2026-02-03+at+1.11.13+AM.png)
 

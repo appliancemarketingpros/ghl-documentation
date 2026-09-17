@@ -13,8 +13,28 @@ Billing questions are easier to resolve when you know where a charge originated 
     
     
     **IMPORTANT :** If you purchased access through another agency rather than directly from HighLevel, contact that **agency’s administrator** for subscription changes or cancellations. **HighLevel cannot cancel an account managed by another agency.**
+    **If you’re ready to cancel your HighLevel agency subscription and don’t need the rest of the billing guide, jump directly to. "How to Cancel Your HighLevel Subscription" in the article******
 
-* * *
+  
+
+
+****  
+
+    
+    
+    **Note: Agency accounts cannot be paused or placed on hold. To stop an Agency account, you must cancel the subscription. You can reactivate it later by resuming your subscription, and your data will be restored.**
+
+  
+
+
+  
+
+
+  
+
+
+  
+
 
 **TABLE OF CONTENTS**
 
@@ -265,10 +285,63 @@ If your account is eligible, you can move to a lower-tier plan while reactivatin
 
 * * *
 
+## **Payment and Reactivation Troubleshooting**
+
+  1. **If the payment shows “Processing payment,”** avoid submitting multiple payment attempts. Check the payment status before retrying.
+
+  2. **If the payment failed:**
+
+     * Confirm the card number, expiration date, CVV, billing address, and ZIP/postal code.
+
+     * Confirm the bank is not blocking the charge.
+
+     * Go to **Agency Settings > Billing > Payments**.
+
+     * Locate the most recent failed subscription invoice and click **Retry**.
+
+     * Complete any 3D Secure (3DS), OTP, or bank authentication prompt.
+
+  3. For more information, see **[How to make agency subscription payments with 3DS cards?](<https://help.gohighlevel.com/support/solutions/articles/155000001685-how-to-make-agency-subscription-payments-with-3ds-cards->)**.
+
+
+**Agency Settings > Billing > Payments showing a failed subscription invoice and the Retry option.**
+
+  3. **If the payment succeeds but the account does not reactivate, or the payment continues to fail, contact the HighLevel Billing team:**
+
+     * Email **[billing@gohighlevel.com](<mailto:billing@gohighlevel.com>)**
+
+     * Call **1-888-732-4197** and select **Option 2 for Billing**
+
+
+Include your agency name, agency login email, Agency Relationship Number if available, and relevant invoice or payment details.
+
+### Cross-Link for the Support Article
+
+If your agency subscription payment failed or your account did not reactivate, review **[Payment and Reactivation Troubleshooting](<https://help.gohighlevel.com/support/solutions/articles/48001208376-common-billing-related-questions>)** before contacting Billing.
+
+* * *
+
 ## **HighLevel Agency Plan Comparison**
 
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077738236/original/BoQh_qqqLNgfXA5kCHWt1NTdVdfcNP9rWA.png?1785960810)
+
+* * *
+
+## Billing Changes & Refunds
+
+  * **Update payment details:** Go to **Agency Settings > Billing** and use the available billing or payment-method controls for your account. If you are reactivating an account, HighLevel may prompt you to add a new payment method during reactivation.
+
+  * **Fix a billing-address error:** If you see the **“Please Update the Billing Address”** error, confirm that the postal code, address line, and CVV match the information your card issuer has on file. A mismatch between the billing details and card information can cause the payment to fail.
+
+  * **Make changes in HighLevel when the option is available:** Eligible actions such as upgrading, downgrading, canceling, reactivating, or requesting financial assistance can be completed from **Agency Settings > Billing** when the corresponding option is available for your account.
+
+  * **Contact Support when a billing change is unavailable:** Some subscription changes cannot be completed directly in the platform. For example, if a downgrade option is unavailable or you need to move an existing yearly subscription back to monthly billing, contact the HighLevel Billing team for assistance.
+
+  * **Request help with refunds or disputed charges:** Refund requests and billing disputes require review by the HighLevel Billing team. Provide your agency name, agency login email, Agency Relationship Number if available, a brief explanation of the issue, and any relevant invoice or payment details to help the team investigate the charge.
+
+
+For billing assistance, refer to [24/7 Customer Support Options](<https://help.gohighlevel.com/support/solutions/articles/155000000969>).
 
 * * *
 

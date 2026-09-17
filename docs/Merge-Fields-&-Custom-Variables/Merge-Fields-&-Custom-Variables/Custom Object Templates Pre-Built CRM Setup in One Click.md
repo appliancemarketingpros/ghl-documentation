@@ -101,7 +101,7 @@ To use a Custom Object Template:
 1\. Go to Settings.
 
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070638862/original/7pIlsLQSMYGlBt9FhHMZhmUdaila4qEucg.png?1777999412)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079786629/original/RjTEWwfJPG0_PQJGUum0K5CSzLfCtW4NkQ.png?1788258989)
 
   
   
@@ -111,7 +111,7 @@ To use a Custom Object Template:
 
   
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070638870/original/bxc-f30g4GVU8joZLSieq9UUlj970Sv-mg.png?1777999433)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079786716/original/sUvIa9q4UtFUnZBePep2kB8LNcr7phPyCQ.png?1788259015)
 
   
 
@@ -125,7 +125,7 @@ To use a Custom Object Template:
 
 
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070638886/original/hLYAjkSq1l9ipAyQxrUzrdWJKS5xlJkxnw.png?1777999456)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079786809/original/G0XDMkkWlwfdDE3jbJISj-riNDXl7l4qyA.png?1788259063)
 
   
 
@@ -200,8 +200,7 @@ Custom Object templates use the same visibility controls as other Template Libra
   2. Click the **Settings (gear) icon** in the top-right.  
   
 
-  3. To control visibility per sub-account:  
-
+  3. To control visibility per sub-account:
      * Go to the **Customize for Sub-Account Settings** tab.  
   
 
@@ -211,8 +210,7 @@ Custom Object templates use the same visibility controls as other Template Libra
      * Choose to hide the Template Library fully, show it, or hide it only for specific modules (including **Custom Objects**).  
   
 
-  4. To control which categories are globally visible:  
-
+  4. To control which categories are globally visible:
      * Go to the **Categories** tab and toggle visibility on individual categories (e.g., Real Estate, Insurance).  
   
 
@@ -222,12 +220,12 @@ Custom Object templates use the same visibility controls as other Template Libra
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072108525/original/0jP5v3r5HyYmZfcRL5JSZnF4gD93E7MzUw.jpeg?1779694017)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079786963/original/xoCxhQvkXjCN-ThM3kBcoUGNzEHWFx83uQ.png?1788259131)
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072108523/original/4RFkk96jQLTUvXYQID84tnnCRpAKvDJrJw.jpeg?1779694017)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079787025/original/LkoVNhvjbJm33IFM-qhAXW-peqSWrFKYcw.png?1788259157)
 
   
 

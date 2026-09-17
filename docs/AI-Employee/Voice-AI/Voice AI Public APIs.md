@@ -1,0 +1,254 @@
+# Voice AI Public APIs
+
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000006379-voice-ai-public-apis](https://help.gohighlevel.com/support/solutions/articles/155000006379-voice-ai-public-apis)  
+**Category:** AI Employee  
+**Folder:** Voice AI
+
+---
+
+HighLevel offers Voice AI Public APIs so you can programmatically manage agents and actions, retrieve call logs and transcripts, and connect real‑time webhooks to your workflows. This article gives a high‑level overview and links to the **official API documentation** for technical details.
+
+* * *
+
+**TABLE OF CONTENTS**
+
+  * What are Voice AI Public APIs?
+  * Key Benefits of Voice AI Public APIs
+  * Voice AI API Documentation
+  * Voices (Catalog APIs)
+  * Call Log APIs
+  * Agents APIs
+  * Actions APIs
+  * Frequently Asked Questions
+  * Related Articles
+
+
+* * *
+
+# **What are Voice AI Public APIs?**
+
+  
+
+
+The Voice AI Public APIs give you direct access to configure agents, manage actions, retrieve call data, and integrate web-hooks into your workflows. This elevates Voice AI from a product feature to an extensible capability that can be integrated directly into your workflows and applications.
+
+  
+
+
+Instead of limiting Voice AI to in-app controls, you can:
+
+  
+
+
+  * **Manage Agents & Actions: **Create, update, and organize agents and their behaviors via API.  
+  
+
+  * **Retrieve Call Data:** Access logs and transcripts for reporting, compliance, or analytics.  
+  
+
+  * **Leverage Webhooks:** Receive real-time call outcomes, transcripts, and summaries in your own systems.
+
+
+  
+
+
+[Link to API Documentation](<https://marketplace.gohighlevel.com/docs/ghl/voice-ai/dashboard/index.html>)
+
+* * *
+
+## **Key Benefits of Voice AI Public APIs**
+
+  
+
+
+  * **Data Access:** Pull call outcomes, transcripts, and metrics for detailing tracking and reporting  
+  
+
+  * **Workflow Integration:** Automate setup and tailor Voice AI to fit your applications and operational needs  
+  
+
+  * **Extensibility** Public APIs make Voice AI not just usable, but buildable
+
+
+* * *
+
+## **Voice AI API Documentation**
+
+  
+
+
+API Documentation for Voice AI Public APIs includes details on Call Logs, Agents and Actions. Access requirements, environments, and auth details may evolve. Always refer to the API docs for the latest details.  
+  
+[Click here to access Voice AI API Documentation](<https://marketplace.gohighlevel.com/docs/ghl/voice-ai/dashboard/index.html>)
+
+* * *
+
+## **Voices (Catalog APIs)**
+
+  
+
+
+You can now browse the Voice AI catalog using public APIs:
+
+  
+
+
+Get Voices: Retrieve a paginated, filterable list of voices. You can filter by language and optionally pass an `agentId` to return only compatible voices.  
+
+
+Fetch Voice Details: Retrieve detailed metadata for a specific voice, including a preview URL for testing. 
+
+  
+
+
+For full technical details, refer to the Voice AI API documentation in the Developer Portal.
+
+* * *
+
+## **Call Log APIs**
+
+  
+
+
+Call Log APIs provide access to calls handled by Voice AI; supporting analytics, quality reviews, and compliance. Use it to list calls with filters or fetch individual call details, including transcripts when available. See API Reference docs for additional details.
+
+  
+
+
+  * **List Call Logs:** Returns call logs for Voice AI agents scoped to a location. Supports filtering by agent, contact, call type, action types, and date range (interpreted in the provided IANA timezone). Also supports sorting and 1-based pagination.  
+  
+
+  * **Get Call Log:** Returns a call log by call ID
+
+
+  
+
+
+[Click here to access Voice AI API Documentation on Call Logs](<https://marketplace.gohighlevel.com/docs/ghl/voice-ai/dashboard/index.html>)
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054329203/original/ATZxLVzhlZt3oQxz_cmtFfJOYtMjm__3TA.jpeg?1758567297)
+
+* * *
+
+## **Agents APIs**
+
+  
+
+
+The Agents APIs lets you programmatically create, list, read, update, and delete Voice AI agents so you can roll out consistent configurations across locations and environments. See API Reference docs for additional details.
+
+  
+
+
+  * **Create Agent:** Create a new Voice AI agent configuration and settings  
+  
+
+
+  * **Patch Agent:** Partially update an existing Voice AI agent  
+  
+
+
+  * **List Agents:** Retrieve a paginated list of agents for given location  
+  
+
+
+  * **Get Agent:** Retrieve detailed configuration and settings for a specific Voice AI agent  
+  
+
+
+  * **Delete Agent:** Delete a Voice AI agent and all its configurations
+
+
+  
+
+
+[Click here to access Voice AI API Documentation on Agents](<https://marketplace.gohighlevel.com/docs/ghl/voice-ai/agents>)
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070064429/original/OoULFqhsONqyjqhd5PhCDX1pK6V_YiOqIQ.png?1777315428)
+
+* * *
+
+## **Actions APIs**
+
+  
+
+
+Actions define what an agent can do; such as invoking a webhook, retrieving data, or posting results. The Actions APIs enable you to create and update these behaviors programmatically and keep them synchronized with your systems. See API Reference docs for additional details.
+
+  
+
+
+  * **Create Agent Action:** Create a new action for a voice AI agent. Actions define specific behaviors and capabilities for the agent during calls.  
+  
+
+  * **Update Agent Action:** Update an existing action for a voice AI agent. Modifies the behavior and configuration of an agent action.  
+  
+
+  * **Get Agent Action:** Retrieve details of a specific action by its ID. Returns the action configuration including actionParameters.  
+  
+
+  * **Delete Agent Action:** Delete an existing action from a voice AI agent. This permanently removes the action and its configuration.
+
+
+  
+
+
+[Click here to access Voice AI API Documentation on Actions](<https://marketplace.gohighlevel.com/docs/ghl/voice-ai/actions>)
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054329625/original/kUXx2iuDCi72uXhPvUaW2YYM_CMoqUtBIg.png?1758567937)
+
+* * *
+
+## **Frequently Asked Questions**
+
+  
+
+
+**Q: Can I manage voices via API?**
+
+Yes. You can use the Voices APIs to retrieve available voices and fetch detailed metadata, including preview URLs, to help select the right voice for your agent.
+
+  
+
+
+**Q: Do I need special permissions to use these APIs?**  
+You must have appropriate HighLevel access to manage Voice AI and read call data. Coordinate with your account admin if you can’t access certain resources.
+
+  
+
+
+**Q: Where can I find the most current endpoints and request/response schemas?**  
+Always use the official API docs: [Click here to view API Documentation](<https://marketplace.gohighlevel.com/docs/ghl/voice-ai/dashboard>)
+
+* * *
+
+## **Related Articles**
+
+  
+
+
+  * [HighLevel API](<https://help.gohighlevel.com/en/support/solutions/articles/48001060529>)  
+  
+
+  * [Private Integrations: Everything you need to know](<https://help.gohighlevel.com/en/support/solutions/articles/155000003054>)  
+  
+
+  * [How to Use Webhook.site to Troubleshoot your API Requests](<https://help.gohighlevel.com/en/support/solutions/articles/48001212085>)  
+  
+
+  * [AI Voice Agents Overview](<https://help.gohighlevel.com/en/support/solutions/articles/155000003911>)  
+  
+
+  * [Call Logs for Voice AI Agents](<https://help.gohighlevel.com/en/support/solutions/articles/155000005900>)  
+  
+
+  * [Voice AI Agents Dashboard](<https://help.gohighlevel.com/en/support/solutions/articles/155000004693>)

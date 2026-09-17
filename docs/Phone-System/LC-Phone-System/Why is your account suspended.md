@@ -6,10 +6,23 @@
 
 ---
 
-Go to Settings -> Phone number
+**Understanding Account Suspensions: What You Need to Know**
+
+If your HighLevel account has been suspended, this guide provides essential information to help you understand why and how to address the issue. We'll cover common reasons for account suspensions, including policy violations and billing issues, and offer steps to resolve the situation and regain access to your account. 
 
   
 
+
+  
+
+
+  
+
+
+  
+
+
+Go to Settings -> Phone number
 
   
 
@@ -328,6 +341,6 @@ Your messaging activity reflects consumer impacting and/or policy-violating cont
   
 
 
-A good opt-out rate is typically in the range of 0—0.3%
+A good opt-out rate is typically in the range of 0—1%
 
 A good error rate is typically in the range of 0—6%

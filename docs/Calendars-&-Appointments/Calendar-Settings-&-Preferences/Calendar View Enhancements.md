@@ -10,24 +10,20 @@ The enhanced **Calendar View** in HighLevel delivers a cleaner, more spacious, a
 
 * * *
 
-  
-
-
-**TABLE OF CONTENTS**  
-  
-
+**TABLE OF CONTENTS**
 
   * What is Calendar View Enhancements?
-  * Key Benefits of Calendar View Enhancements
-  * Dedicated Scheduling Types
-  * Smart Dropdown Navigation
-  * Contextual Filters
-  * Unified Service View
-  * More Space to View Events
-  * Mini Month Calendar Relocation
-  * Calendar View Enhancements Availability
-  * Frequently Asked Questions
-  * Related Articles
+    * Key Benefits of Calendar View Enhancements
+    * Dedicated Scheduling Types
+    * Smart Dropdown Navigation
+    * Contextual Filters
+    * Unified Service View
+    * More Space to View Events
+    * View Buffer Time in Day and Week Views
+    * Mini Month Calendar Relocation
+    * Calendar View Enhancements Availability
+    * Frequently Asked Questions
+    * Related Articles
 
 
 * * *
@@ -79,7 +75,11 @@ Understanding the main advantages helps you maximize productivity and simplify d
   
 
 
-  * **Unified Service View:** Displays multi-staff service bookings clearly in one view.
+  * **Unified Service View:** Displays multi-staff service bookings clearly in one view.  
+  
+
+
+  * **Buffer visibility:** Show pre-buffer and post-buffer time in Day and Week views to understand appointment spacing at a glance.
 
 
 * * *
@@ -228,6 +228,50 @@ _This makes it ideal for users who handle a high volume of appointments and need
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056526806/original/cQklwSSD9_4i0SHZwxaCT2bS9wDaKnntxQ.png?1761107048)
+
+* * *
+
+## **View Buffer Time in Day and Week Views**
+
+  
+
+
+You can display pre-buffer and post-buffer times directly in the Day and Week calendar views.
+
+  
+
+
+To show buffer time:
+
+  
+
+
+  1. Go to **Calendars**.  
+  
+
+  2. Select **Day view** or **Week view**.  
+  
+
+  3. Click **Manage View**.  
+  
+
+  4. Turn on **Show buffer time**.
+
+
+  
+
+
+Configured pre-buffer and post-buffer periods appear as visually distinct blocks around appointments. This helps you identify the time reserved before or after an appointment without changing the appointment itself or its scheduling rules.
+
+  
+
+
+Turn off **Show buffer time** when you want to hide buffer blocks from the calendar view.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079483830/original/BPysafVVK7sZmYy0eqTzkZ8OTLE_U0hxCg.png?1787849135)
 
 * * *
 

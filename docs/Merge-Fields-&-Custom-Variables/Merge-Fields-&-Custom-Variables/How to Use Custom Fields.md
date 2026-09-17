@@ -1,6 +1,6 @@
 # How to Use Custom Fields
 
-**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000008030-how-to-use-custom-fields](https://help.gohighlevel.com/support/solutions/articles/155000008030-how-to-use-custom-fields)  
+**Source URL:** [https://help.gohighlevel.com/support/solutions/articles/155000008031-how-to-use-custom-fields](https://help.gohighlevel.com/support/solutions/articles/155000008031-how-to-use-custom-fields)  
 **Category:** Merge Fields & Custom Variables  
 **Folder:** Merge Fields & Custom Variables
 
@@ -291,7 +291,7 @@ After creating folders, you can assign fields to them for better organization.
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072345249/original/9WM6xEwUql6LJ_YMI5CUSGdgjitfhVoFaw.png?1779911559)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079788176/original/drZ2u_TjUQaNte7AooYZROc7xCKGIMlJpw.png?1788259655)
 
 * * *
 
@@ -312,7 +312,7 @@ Follow these steps to create and organize custom fields in your account:
 
 In your account, click **Settings** , then click **Custom Fields**.  
   
-_![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072345282/original/x0bFESQf9MqQAaLmhX0a1y6u9EG-Up4Zpg.png?1779911669)_
+_![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079788258/original/Geeq2-Ipr1WJ5QcFAsuNs-A2yKdvRQUzqQ.png?1788259685)_
 
   
 
@@ -468,11 +468,8 @@ The Dropdown (multiple) field can have a lot of options (50+) so there is no pra
 
 * * *
 
-## **Related Articles**  
+## **Need Help?**  
   
 
 
-  * [List of Merge Fields](<https://help.gohighlevel.com/en/support/solutions/articles/48001078171>)  
-  
-
-  * [Map Quiz Results Directly to CRM Custom Fields](<https://help.gohighlevel.com/en/support/solutions/articles/155000006913>)
+If you need assistance creating, organizing, or troubleshooting custom fields, contact support or your system administrator for additional help

@@ -67,9 +67,7 @@ Frequently Asked Questions
   * These measures are in place to comply with **local spam and regulatory requirements**.
 
 
-Note
-
-The “nine texts in two minutes” figure is not a published rule—it is an example of the kind of velocity pattern that can trip a carrier’s automated anti-spam filters.
+**Note:** The “nine texts in two minutes” figure is not a published rule—it is an example of the kind of velocity pattern that can trip a carrier’s automated anti-spam filters.
 
 3
 

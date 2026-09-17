@@ -6,13 +6,6 @@
 
 ---
 
-# **What is Attribution?**
-
-Attribution provides a breakdown of which channels or sources a contact came from. With this information, we will be able to identify growth opportunities and determine which channels offer the most potential. For example, if we are running Facebook and Google Ads, we would like to know which is more effective at generating leads into HighLevel. Attribution can make this happen.
-
-  
-
-
 In the article below, we will walk through attribution in HighLevel and even where to go to set up your ad reporting. Let's hop in!
 
   
@@ -48,7 +41,21 @@ In the article below, we will walk through attribution in HighLevel and even whe
 
 * * *
 
-# **What is "First" or "Latest" Attribution?**
+# **What is Attribution?**
+
+  
+
+
+Attribution provides a breakdown of which channels or sources a contact came from. With this information, we will be able to identify growth opportunities and determine which channels offer the most potential.
+
+  
+
+
+For example, if we are running Facebook and Google Ads, we would like to know which is more effective at generating leads into HighLevel. Attribution can make this happen.
+
+* * *
+
+## **What is "First" or "Latest" Attribution?**
 
 When attributing a contact to a specific source it is common to consider the first and lastest attribution. Both are always stored on every single contact.
 
@@ -208,14 +215,11 @@ UTM Source| utm_source| fb_ad|
 UTM Medium| utm_medium| {{adset.name}}|   
 |   
   
-UTM Campaign| utm_campaign| {{campaign.name}}| manual, changeable  
-| summer_sale  
-  
+UTM Campaign| utm_campaign| {{campaign.name}}| manual, changeable| summer_sale  
 UTM Content| utm_content| {{ad.name}}|   
 |   
   
-Campaign ID| campaign_id| {{campaign.id}}| set by Facebook Ads, constant  
-| 123456789  
+Campaign ID| campaign_id| {{campaign.id}}| set by Facebook Ads, constant| 123456789  
   
   
 
@@ -310,7 +314,13 @@ When a lead is created by a third-party tool like Zap, its source is defined as 
 
 # **What Events Record Attribution?**
 
+  
+
+
 Within the same session, a contact must do one or more of the following actions:
+
+  
+
 
   1. Form/Survey Submission
   2. Calendar Booking Submission
@@ -320,12 +330,18 @@ Within the same session, a contact must do one or more of the following actions:
 
   
 
-    
-    
-    **This action must be a****HighLevel Form, Survey, Calendar, Chat Widget and Order Form in order for all attribution data to be captured**. Non-HighLevel events will not capture attribution data -- this includes UTM Parameter data.
+
+HighLevel Forms, Surveys, Calendars, Chat Widgets, and Order Forms capture attribution data when a contact completes a supported action.
 
   
 
+
+Supported third-party forms can also capture attribution data when they are tracked through **External Tracking**. External Tracking automatically detects supported DOM-based forms and captures attribution data such as UTM parameters, page URLs, and session data.
+
+  
+
+
+For setup requirements and supported form types, see [Tracking External Forms with GoHighLevel.](<https://help.gohighlevel.com/en/support/solutions/articles/155000006092>)
 
 * * *
 

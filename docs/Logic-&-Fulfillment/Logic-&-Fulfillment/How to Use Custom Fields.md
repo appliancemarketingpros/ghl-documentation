@@ -6,7 +6,9 @@
 
 ---
 
-This article will show you how to create and use custom fields to collect and organize lead data in your HighLevel account. Custom fields let you tailor forms, workflows, and CRM records to match your unique business needs, like qualifying real estate buyers vs. sellers or tracking preferred contact methods.
+This article already explains the manual custom-field workflow. The new subsection should introduce Ask AI as an additional management method without replacing the existing Settings instructions.
+
+* * *
 
   
 
@@ -26,7 +28,7 @@ This article will show you how to create and use custom fields to collect and or
 
 * * *
 
-# **What are Custom Fields?**
+## **What are Custom Fields?**
 
   
 
@@ -101,18 +103,32 @@ Choosing the right type of custom field is essential for keeping your data organ
 
 Organizing your fields keeps your data tidy and easier to use inside records.  
   
-Folders appear as sections in the record layout.  
-You can use folders to group related custom fields.  
+Folders appear as sections in the record layout.
+
+  
+You can use folders to group related custom fields.
+
+  
 To create a folder:
 
   
 
 
-  1. Go to **Settings** > **Custom Fields**.
-  2. Use the object selector at the top of the page to choose the object you want to manage.
-  3. Open the **Folders** tab.
-  4. Click **Create folder**.
-  5. Enter the folder name.
+  1. Go to **Settings** > **Custom Fields**.  
+  
+
+  2. Use the object selector at the top of the page to choose the object you want to manage.  
+  
+
+  3. Open the **Folders** tab.  
+  
+
+  4. Click **Create folder**.  
+  
+
+  5. Enter the folder name.  
+  
+
   6. Click Create.  
   
 After you create a folder, you can assign custom fields to it for better organization.  
@@ -120,6 +136,30 @@ After you create a folder, you can assign custom fields to it for better organiz
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155049900396/original/PCF0QM0G-of9ERI8GPRYhxJPesPmgYofaw.png?1752609459)
+
+* * *
+
+## **Manage Custom Fields with Ask AI**
+
+  
+
+
+You can also use Ask AI to create, update, and manage custom fields using natural-language requests.
+
+  
+
+
+Ask AI can identify a custom field by its name, so you do not need to provide the Field ID.
+
+  
+
+
+**For example: “Update Boat Size to Large.”**
+
+  
+
+
+Ask AI supports custom fields associated with Contacts, Opportunities, and Custom Objects. For fields such as picklists, Ask AI can manage the available field options before applying a new value when required. Ask AI may request your approval before making changes to custom fields or field values.
 
 * * *
 
@@ -133,18 +173,20 @@ Follow these steps to create and organize custom fields in your sub-account:
   
 
 
-#### _**Step 1:** Navigate to Settings → Custom Fields_
+### _**Step 1:** Navigate to Settings → Custom Fields_
 
 ####   
 
 
-In your sub-account, click **Settings** , then click **Custom Fields**.  
+In your sub-account, click **Settings** , then click **Custom Fields**.
+
+  
 _![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155049899570/original/Yh9Qi_nPEsGdQ6sTnTPWqfsfYOoqiPMDKw.jpeg?1752607385)_
 
   
 
 
-_**Step 2:** Select the object_
+### _**Step 2:** Select the object_
 
   
 
@@ -154,19 +196,28 @@ Use the object selector at the top of the page to choose the object you want to 
   
 
 
-_**Step 3:** Open the Fields tab_
+  
+
+
+### _**Step 3:** Open the Fields tab_
 
   
 
 
 Stay on the **Fields** tab to view existing fields and create new ones.
 
+  
+
+
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069289224/original/FCj3FKJDzVDpKkC5YnjnnlwgJD-QxfL5Sw.png?1776338503)
 
   
 
 
-#### _**Step 3:** Click **Create Field**_
+  
+
+
+### _**Step 4:** Click **Create Field**_
 
 ####   
 
@@ -176,12 +227,15 @@ Click **Create field** on the top right of the page.
   
 
 
+  
+
+
 #### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069289062/original/9Cy4csr4uJVrlRoGC_Fp-rsknDIOqdDRgQ.png?1776338432)
 
   
 
 
-_Step 5**: Select a field type**_
+### _Step 5**: Select a field type**_
 
   
 
@@ -196,36 +250,54 @@ Choose the field type you want to create.
   
 
 
-_**Step 6:** Fill in the field details_
+  
+
+
+### _**Step 6:** Fill in the field details_
 
   
 
 
 Enter the field details, including the field name and folder if needed.
 
+  
+
+
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069290765/original/6zaShf6HHJz7SAL7gro4_9WumqfukG6YWw.png?1776339089)
 
   
 
 
-_**Step 7:** Review the Live preview_
+  
+
+
+### _**Step 7:** Review the Live preview_
 
   
 
 
 Use the Live preview panel to confirm how the field will appear.
 
+  
+
+
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069291322/original/EPYVFabzkOzqPJKnuMsnoK2DdkBzTkKCUA.png?1776339395)
 
   
 
 
-_**Step 8:** Create the field_
+  
+
+
+### _**Step 8:** Create the field_
 
   
 
 
 Click **Create custom field** to save the field.
+
+  
+
 
   
 
@@ -282,14 +354,23 @@ No. You must recreate the field under the correct object type. Field objects can
   
 
 
+  
+
+
 **Q: What types of fields can I create?**  
 You can create Short Text, Long Text, Drop downs, Date Pickers, Phone, Email, Radio Selects, Checkbox Groups, URLs, and more.
 
   
 
 
+  
+
+
 **Q: Why don’t my fields show in a form or workflow?**  
 Ensure the object type matches the use case. Only Contact fields appear in forms and contact workflows.
+
+  
+
 
   
 

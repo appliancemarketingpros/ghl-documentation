@@ -164,6 +164,21 @@ To create a template from scratch:
   
 
 
+###   
+
+
+### **Selecting and Resizing Elements**
+
+Hover over an element in the Certificate Builder to highlight it before selecting it. This makes it easier to identify the element you want to edit, especially when working with complex designs.
+
+To resize an element, select it and drag an edge or corner to the desired size.
+
+##   
+
+
+##   
+
+
 ## **Editing Templates**
 
   
@@ -250,7 +265,7 @@ To edit a template, there are various elements to use:
   * Choose Font Styles, Font Size, Font Type (Heading 1, Heading 2, etc ...), Font Colour, etc. from the top bar after selecting a text  
   
 
-  * To resize, move the blue dots of the text box
+  * To resize the element, select it and drag an edge or corner to the desired size.
 
 
   
@@ -288,7 +303,24 @@ To edit a template, there are various elements to use:
   * Choose Font Styles, Font Size, Font Type (Headings,Paragraohs, etc..), Font Colour, etc. from the top bar after selecting a text  
   
 
-  * To resize, move the blue dots of the text box
+  * To resize the element, select it and drag an edge or corner to the desired size.
+
+
+  
+
+
+  * When editing text, use these keyboard shortcuts to apply formatting:
+
+    * **Ctrl/Cmd + B:** Bold
+    * **Ctrl/Cmd + I:** Italic
+    * **Ctrl/Cmd + U:** Underline
+
+
+    
+    
+    You can copy content from external sources and paste it into the Certificate Builder. Pasted content is handled without introducing broken formatting, making it easier to bring existing content into your design.
+
+  
 
 
   
@@ -318,7 +350,7 @@ To edit a template, there are various elements to use:
   * Choose the opacity of the background image by using the opacity slider  
   
 
-  * To resize, move the blue dots of the box
+  * To resize the element, select it and drag an edge or corner to the desired size.
 
 
   
@@ -342,7 +374,7 @@ To edit a template, there are various elements to use:
   * Choose a badge with from the options by clicking on it  
   
 
-  * To resize, move the blue dots of the box
+  * To resize the element, select it and drag an edge or corner to the desired size.
 
 
   
@@ -369,7 +401,7 @@ To edit a template, there are various elements to use:
   * Choose the signature styles after selecting the signature  
   
 
-  * To resize, move the blue dots of the box
+  * To resize the element, select it and drag an edge or corner to the desired size.
 
 
   

@@ -30,7 +30,7 @@ In this guide, you’ll learn how to register your U.S. phone numbers with HighL
   
 
 
-Legitimate calls shouldn’t be mistaken for spam. With HighLevel’s Voice Integrity, you can register your U.S. phone numbers with the leading caller-ID analytics firms (First Orion, Hiya, TNS) to remove “spam likely” labels, repair a troubled reputation, and boost your answer rates, especially for numbers that have been blocked or flagged in the past.
+HighLevel Voice Integrity submits eligible U.S. phone numbers to First Orion, Hiya, and TNS for reputation review. These providers evaluate calling activity and may update how the number is classified. Voice Integrity can help address incorrect spam labels, but each provider and carrier makes its own reputation decisions.
 
 * * *
 
@@ -68,17 +68,21 @@ Before you enable Voice Integrity, make sure you’ve met the following key requ
   
 
 
-  1. **SHAKEN/STIR Registration** (required)  
-To prove each outgoing call is authentic, you must have a valid SHAKEN/STIR attestation on your account.  
+  1. **SHAKEN/STIR Registration**  
+SHAKEN/STIR must be configured before you can submit a Voice Integrity application. It authenticates caller ID information and helps carriers verify that your business is authorized to use the displayed phone number.  
   
 
 
-  2. **CNAM (Caller Name)** (recommended)  
+  2. **EIN requirement:** A valid Employer Identification Number (EIN) is required for the documented HighLevel SHAKEN/STIR registration process.  
+  
+
+
+  3. **CNAM (Caller Name)** (recommended)  
 Submitting a branded name alongside your number further enhances trust in analytics platforms.  
   
 
 
-  3. **U.S. Phone Numbers Only**  
+  4. **U.S. Phone Numbers Only**  
 Voice Integrity currently applies solely to domestic traffic—international numbers are not supported.
 
 
@@ -191,7 +195,24 @@ At this time, only U.S. numbers are supported. We’re evaluating expansion to o
 
 
 **Q: Why is CNAM optional?**  
-SHAKEN/STIR is the core requirement for proving call authenticity. Adding a branded CNAM record is recommended to maximize trust and answer rates, but not strictly mandatory.
+CNAM provides caller-name identification, while SHAKEN/STIR provides caller authentication and Voice Integrity handles reputation review. CNAM is not required for Voice Integrity, but an accurate caller name can provide an additional identification signal.
+
+  
+
+
+**Q: Does Voice Integrity guarantee spam-label removal?**
+
+No. Voice Integrity submits eligible phone numbers to caller-ID analytics providers for reputation review. Each provider and carrier evaluates reputation independently, so label removal is not guaranteed and may take time.
+
+  
+
+
+**Q: What should I do if my business does not have an EIN?**  
+Businesses without an EIN cannot use the documented HighLevel SHAKEN/STIR registration process required for Voice Integrity. For eligible U.S. numbers, use the Free Caller Registry as an alternative reputation-remediation option.
+
+**Q: Can my number be marked as spam again after Voice Integrity registration?**  
+Yes. Carriers and analytics providers continue to evaluate call volume, recipient complaints, engagement, calling patterns, and other reputation signals. Voice Integrity registration does not permanently prevent future spam labels.**  
+**
 
 * * *
 

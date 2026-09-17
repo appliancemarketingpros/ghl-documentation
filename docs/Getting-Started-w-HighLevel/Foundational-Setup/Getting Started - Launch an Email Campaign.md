@@ -14,7 +14,9 @@ Ready to captivate your audience? Launching an email campaign is one of the best
 
   * Start From An Email Template
   * Edit Email Template
+  * Dock the Edit Panel & Work with Email AI
   * Create Email Campaign from Template
+  * Related Articles
 
 
 * * *
@@ -26,7 +28,12 @@ Ready to captivate your audience? Launching an email campaign is one of the best
 
 Every great email campaign starts with a stunning template. Think of your template as the blueprint for success—it's the foundation upon which you'll build compelling messages again and again. Ready to get started?
 
-  1. Navigate to **Marketing > Emails.**
+  
+
+
+  1. Navigate to **Marketing > Emails.**  
+  
+
   2. Click the **Templates** Tab.  
   
 
@@ -34,8 +41,11 @@ Every great email campaign starts with a stunning template. Think of your templa
   
 
   4. Select **Email Marketing Templates.**  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064550947/original/eIvlbI2zvNz38rUz8GY9PxuWZfT4HGOmmw.png?1770712009)
-  5. **Browse, search, and filter** available templates to find the perfect fit.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064550947/original/eIvlbI2zvNz38rUz8GY9PxuWZfT4HGOmmw.png?1770712009)  
+  
+
+  5. **Browse** or search the **Template** **Library** to find a design that fits your campaign or **create from scratch**.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046412027/original/_6U2IlDsztiTyFlDsC-kwhUmgfREzU-_8A.png?1746824623)  
   
@@ -43,17 +53,14 @@ Every great email campaign starts with a stunning template. Think of your templa
   6. **Preview** your desired template to see how it resonates.  
   
 
-  7. Click **Continue** to open it in the Email Editor.  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046412053/original/qlTNqutilrkFht2gXkbTrlm6xYVQryX0LQ.png?1746824679)  
+  7. Click **Choose template** to open it in the Email Editor.  
   
 
   8. This will create the template and open it in the **Builder**.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046412081/original/M0iw1ZUpItdxwJUjlfUklVeYcYPxBx8_xg.png?1746824779)
-
-
+![](https://jumpshare.com/share/fW2LCXdhJMSf3yz06HNJ+/GIF+Recording+2026-08-17+at+19.56.12.gif)  
   
+
 
     
     
@@ -64,10 +71,13 @@ Every great email campaign starts with a stunning template. Think of your templa
 
 **Learn More** :
 
-  * [Email Templates vs Email Campaigns ](<https://help.gohighlevel.com/en/support/solutions/articles/48001215255>)  
   
 
-  * [How to add your email templates in Template Library ](<https://help.gohighlevel.com/en/support/solutions/articles/155000003186>)  
+
+  * [Email Templates vs Email Campaigns](<https://help.gohighlevel.com/en/support/solutions/articles/48001215255>)  
+  
+
+  * [How to add your email templates in Template Library](<https://help.gohighlevel.com/en/support/solutions/articles/155000003186>)  
   
 
 
@@ -80,7 +90,9 @@ Every great email campaign starts with a stunning template. Think of your templa
   
 
 
-Editing your template is where the magic happens. This is your chance to truly make the template your own by adding your personal touch, brand voice, and compelling visuals. Let's polish that template to perfection!
+Editing your template is where the magic happens. This is your chance to truly make the template your own by adding your personal touch, brand voice, and compelling visuals. Let's polish that template to perfection!  
+  
+
 
   1. Navigate to **Marketing > Emails > Templates**.  
   
@@ -94,13 +106,18 @@ Editing your template is where the magic happens. This is your chance to truly m
   
 
   4. Click **Save Template** to keep your changes.  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046413344/original/bLlCHGCsQj472PmWuIDMzfn60AbpuhwkWw.png?1746832471)
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046413344/original/bLlCHGCsQj472PmWuIDMzfn60AbpuhwkWw.png?1746832471)  
+  
+
   5. For peace of mind, click the **3-dot action menu > Test Email**  
   
 **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046413361/original/41PoXAa4QMAGJta5WxVNYkGVWVlSao6UIQ.png?1746832527)**  
   
 
-  6. Fill in details such as**sender** information and **recipients**.
+  6. Fill in details such as**sender** information and **recipients**.  
+  
+
   7. Click **Send Test Email**.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046413368/original/ScuDb80Q2QXi5oTGtn8O1glcHDVUzoHRtA.png?1746832601)  
@@ -112,17 +129,22 @@ Editing your template is where the magic happens. This is your chance to truly m
 
 Your template looks fantastic! Next, why not create an email campaign to reach your audience?
 
-  
-
+* * *
 
 ## **Dock the Edit Panel & Work with Email AI**
+
+  
+
 
 Create faster by placing the edit panel on the **right** and working **side by side** with **Email AI**.
 
   
 
 
-**Steps**
+**Steps:**
+
+  
+
 
   1. Open your campaign/template in the Email Builder.  
   
@@ -133,13 +155,11 @@ Create faster by placing the edit panel on the **right** and working **side by s
   3. Use the panel switch in the editor to move the panel **Right** (or back to **Left**).  
   
 
-  4. Continue editing, preview, and publish as usual.
+  4. Continue editing, preview, and publish as usual.  
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064552634/original/Rhbkn0NIq7wRBrze20HteYr6r6ynhdwLug.png?1770713083)
-
-  
-
 
 * * *
 
@@ -150,11 +170,18 @@ Create faster by placing the edit panel on the **right** and working **side by s
 
 With your refined template ready, it's time to share it with your audience! Turning your template into a live campaign is straightforward and exciting. Let’s make it happen!
 
-  1. Go to **Marketing > Emails > Campaigns****.**
+  
+
+
+  1. Go to **Marketing > Emails > Campaigns****.**  
+  
+
   2. Click **New > Select Template.**  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046413397/original/-GYDSE124zTfKDca_nqPAWXcpW-_yq83fA.png?1746832945)
-  3. Or you can select **Templates Tab > click the 3-dot action menu** next to your chosen email template and select **Create Campaign**  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046413397/original/-GYDSE124zTfKDca_nqPAWXcpW-_yq83fA.png?1746832945)  
+  
+
+  3. Or you can select **Templates Tab > click the 3-dot action menu** next to your chosen email template and select **Create Campaign.**  
   
 **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046413404/original/3ssKl7S0r4rWH06vcVo_JJi1Pb8Z-5-xog.png?1746833027)**  
   
@@ -175,11 +202,16 @@ With your refined template ready, it's time to share it with your audience! Turn
   7. Sit back and **watch** the status change from Sending to Sent—congratulations!  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046413459/original/301v7Yeero16drImklqVHW2H4qWKqIfcBQ.png?1746833356)  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046413473/original/EvbdaeOZNyKaBttt-H06d4q6qi-zL2G5KQ.png?1746833454)  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046413473/original/EvbdaeOZNyKaBttt-H06d4q6qi-zL2G5KQ.png?1746833454)
+
+
+* * *
+
+### **Related Articles**
+
   
 
-
-**Learn More** :
 
   * [How to send a Regular Email Campaign (Send Now or Schedule) ](<https://help.gohighlevel.com/en/support/solutions/articles/48001215263>)  
   
@@ -190,8 +222,4 @@ With your refined template ready, it's time to share it with your audience! Turn
   * [How to Use the Email Builder and its In-line Editor ](<https://help.gohighlevel.com/en/support/solutions/articles/155000000087>)  
   
 
-  * [Preview And Test Your Email Campaign/Templates ](<https://help.gohighlevel.com/en/support/solutions/articles/48001215382>)  
-  
-
-
-Feeling accomplished? Awesome! **Next** , consider reviewing your campaign analytics to see how your audience engages.
+  * [Preview And Test Your Email Campaign/Templates](<https://help.gohighlevel.com/en/support/solutions/articles/48001215382>)

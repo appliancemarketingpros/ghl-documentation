@@ -6,11 +6,7 @@
 
 ---
 
-Ask AI now delivers richer, execution-ready responses that help you move from prompt to action faster. Instead of returning only plain text, Ask AI can intelligently organize information into structured formats such as tables, charts, todo lists, guided questions, code blocks, web search cards, media, approval requests, and Mermaid diagrams. These artifacts make it easier to analyze data, visualize workflows, create content, and collaborate with your team—all without leaving Ask AI.  
-  
-
-
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155074661628/original/L6xI_zt20FlftA8cN-0rDtsXUXH1OtcB0w.png?1782589204)**
+Ask AI now delivers richer, execution-ready responses that help you move from prompt to action faster. Instead of returning only plain text, Ask AI can intelligently organize information into structured formats such as tables, charts, todo lists, guided questions, code blocks, web search cards, media, approval requests, and Mermaid diagrams. These artifacts make it easier to analyze data, visualize workflows, create content, and collaborate with your team—all without leaving Ask AI.
 
 * * *
 
@@ -397,7 +393,8 @@ Depending on the supported workflow, media may include generated images or other
 
 * * *
 
-## **Web Search Cards**  
+## **Web Search Cards**
+
   
 
 
@@ -405,10 +402,8 @@ Web Search Cards present supported web search results as structured preview card
 
 * * *
 
-  
+## **Approval Requests**
 
-
-## **Approval Requests**  
   
 
 
@@ -416,7 +411,8 @@ Some Ask AI workflows require confirmation before continuing. Approval Requests 
 
 * * *
 
-## **Error Blocks**  
+## **Error Blocks**
+
   
 
 
@@ -424,7 +420,8 @@ If Ask AI cannot generate or render a requested artifact, it may display a struc
 
 * * *
 
-## **How to Use Ask AI Artifacts**  
+## **How to Use Ask AI Artifacts**
+
   
 
 
@@ -465,7 +462,9 @@ Providing clear instructions helps Ask AI choose the most appropriate artifact a
   6. Review the generated artifact.  
   
 
-  7. Continue the conversation to refine, expand, or modify the response as needed.  
+  7. Continue the conversation to refine, expand, or modify the response as needed.
+
+
   
 
 
@@ -498,10 +497,8 @@ Create a Mermaid flowchart for a missed-call text-back automation with fallback 
 
 * * *
 
-  
+## **Best Practices**
 
-
-## **Best Practices**  
   
 
 

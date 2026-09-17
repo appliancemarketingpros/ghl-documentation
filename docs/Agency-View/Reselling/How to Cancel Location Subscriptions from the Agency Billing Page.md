@@ -6,7 +6,7 @@
 
 ---
 
-Agency users can now cancel location-level subscriptions directly from their Billing page using a guided 3-step unsubscribe flow. This article walks you through the cancellation options, what to expect at each step, and what's coming next. If you're looking to manage subscriptions quickly without support intervention, this guide is for you.
+Agency users can cancel eligible location-level reselling subscriptions directly from the Agency Billing page using a guided cancellation flow. You can choose to cancel a subscription immediately or at the end of the current billing cycle. This article walks you through each step and explains when billing and access to the canceled subscription end.
 
 * * *
 
@@ -59,21 +59,33 @@ Agency users can now cancel location-level subscriptions directly from their Bil
   
 
 
-### **_Step 3:_**_Choose when to Cancel_
+### _**Step 3:** Choose When to Cancel_
 
   
 
 
-  1. You’ll be prompted to select one of the following cancellation options:  
+You’ll be prompted to select when you want the subscription to end. Review the options carefully before continuing:
+
   
 
-     * **Cancel at End of Billing Cycle** – Subscription ends after the current billing period (no refunds).  
+
+Cancellation option| When billing ends| When access ends  
+---|---|---  
+**Cancel at End of Billing Cycle**|  The subscription will not renew after the current billing cycle. Billing ends on the effective cancellation date.| Access to the canceled product remains available until the end of the current billing cycle and ends on the effective cancellation date.  
+**Cancel Immediately**|  The subscription ends immediately. There is no refund or proration for unused time.| Access to the canceled product ends immediately.  
+  
   
 
-     * **Cancel Immediately** – Subscription ends right away (no refunds or proration).  
+
+Select your preferred option, then click **Proceed to cancellation**.
+
   
 
-  2. Select your desired option and click on the **Proceed to cancellation** button.
+    
+    
+    **Important:** Canceling a reselling subscription does not cancel the entire sub-account. It only ends the selected product subscription.
+
+  
 
 
   
@@ -115,7 +127,9 @@ Agency users can now cancel location-level subscriptions directly from their Bil
   2. Confirm cancellation by typing **DELETE** in the box.  
   
 
-  3. Click on the **Cancel Subscription** button.  
+  3. Click on the **Cancel Subscription** button.
+
+
   
 
 

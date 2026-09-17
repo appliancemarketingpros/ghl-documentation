@@ -21,6 +21,9 @@ This article provides an overview of the main areas inside Bot Goals. For detail
   * Key Benefits of Bot Goals
   * How To Access Bot Goals
   * Prompt
+  * Model selector
+  * Model accuracy
+  * Accuracy and Relative Cost
   * Personality
   * Goal or Intent
   * Additional Information
@@ -39,7 +42,7 @@ This article provides an overview of the main areas inside Bot Goals. For detail
 
 * * *
 
-# **What are Bot Goals in Conversation AI?**
+## **What are Bot Goals in Conversation AI?**
 
   
 
@@ -105,7 +108,6 @@ Bot Goals are configured inside each Conversation AI agent. Since each agent can
   1. Go to **AI Agents**.
   2. Select **Conversation AI**.
   3. Open or select the agent you want to configure.
-  4. Click the **Bot Goals** tab.
 
 
   
@@ -174,13 +176,127 @@ The Prompt area may include:
 
 Depending on your account or UI version, the primary objective field may appear as **Goal** or **Intent**. Both refer to the main outcome the agent should work toward during the conversation.
 
+* * *
+
+## **Model selector**
+
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073258967/original/IeCXcuNOQrkWO52BBy81ee3WCr51PG3yhg.gif?1781008049)
+Use the model selector to choose the OpenAI model your Conversation AI agent uses to generate responses.  
+  
+GPT-4.1 remains the recommended model. Conversation AI also supports the following GPT-5.x models:  
+  
+**1.** GPT-5.6 Sol
+
+  
+**2.** GPT-5.6 Luna  
+  
+**3.** GPT-5.5
+
+  
+**4.** GPT-5.4
+
+  
+**5.** GPT-5.4 Mini
+
+  
+**6.** GPT-5.4 Nano
+
+  
+**7.** GPT-5.2
+
+  
+**8.** GPT-5.1
 
   
 
+
+Select a model from the Model dropdown in the Conversation AI agent editor.
+
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155081019482/original/50wfdZH_LY6gd-wllIUok5y7GjKXJbidxQ.png?1789505837)
+
+  
+
+
+  
+
+
+**To change the model:**  
+  
+1\. Go to 'Conversation AI' and open the agent you want to edit.
+
+  
+2\. Select your preferred model from the **Model** dropdown.
+
+  
+3\. If needed, select a secondary model.
+
+  
+4\. Click 'Save'.
+
+  
+5\. Test the agent before using the updated configuration in live conversations.
+
+  
+
+
+  
+
+
+You can also select a secondary model for the agent.
+
+  
+
+
+Select a secondary model from the model settings.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155081019523/original/MV6OKSHqhvnYcOswuEEmF13av6PWKCEmOw.png?1789505911)
+
+* * *
+
+## **Model accuracy**
+
+  
+
+
+In the production evaluation provided with this release, all eight GPT-5.x models matched or exceeded GPT-4.1 accuracy.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155081019619/original/wUMB9IwofxEJMtofGBulASwNFb8DDmH03g.png?1789506088)
+
+  
+
+
+  
+
+
+Accuracy comparison of GPT-4.1 and GPT-5.x models based on production conversations.
+
+* * *
+
+## **Accuracy and Relative Cost**
+
+  
+
+
+The available models provide different tradeoffs between response accuracy and relative cost per generated reply.
+
+  
+
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155081019643/original/u9rWWjCh-aYRfB6ZLUTPdBN5K0Ng8j9E_Q.png?1789506149)**
+
+  
+
+
+Accuracy and relative cost per reply for GPT-4.1 and GPT-5.x models.
 
 * * *
 
@@ -383,7 +499,7 @@ You are a bot for {{ai.business_name}}, tasked to assist customers.\
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073259423/original/OCLC3ewWn7GFewh_YAIwv1DhvIs78myeDA.png?1781008279)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155081020340/original/3bYtQ-oNgQ6zOiADzdaN4Jpq_GskJL7riQ.png?1789507891)
 
 * * *
 
@@ -449,7 +565,7 @@ Use the action-specific articles for full setup details. This overview explains 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073259619/original/O0ljlcA9bjoaQbMIrAbXiX7ph1pHQwgFwQ.png?1781008371)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155081020348/original/3piRKI7rtcpjqbfegYdtRoU9UjfwRNbKbg.png?1789507940)
 
 * * *
 
@@ -735,8 +851,14 @@ Bot Goals control the agent’s prompt, personality, goal or intent, supporting 
   
 
 
+  
+
+
 **Q: What is the difference between Prompt and Setup your Actions?**  
 The Prompt controls how the agent communicates and what it should focus on. Setup your Actions controls what the agent can do, such as booking appointments, triggering workflows, or collecting contact information.
+
+  
+
 
   
 
@@ -747,8 +869,14 @@ Depending on your account or UI version, the primary objective field may appear 
   
 
 
+  
+
+
 **Q: Should I add calendar availability to the prompt?**  
 No. Calendar availability should come from appointment booking settings. Adding specific slots to the prompt may cause inaccurate responses if availability changes.
+
+  
+
 
   
 
@@ -759,8 +887,14 @@ Yes, when the Contact Info action is configured. This is typically used to colle
   
 
 
+  
+
+
 **Q: Can Bot Goals trigger workflows?**  
 Yes. Use Trigger Workflow when the conversation should start an automation after a specific outcome or condition.
+
+  
+
 
   
 
@@ -771,12 +905,15 @@ Yes. Always test after changing prompts or actions to confirm the agent responds
   
 
 
+  
+
+
 **Q: Why is the bot not following my prompt?**  
 The prompt may be vague, conflicting, or missing important context. Make the instruction more specific, remove conflicts, and test again.
 
 * * *
 
-### **Related Articles**
+## **Related Articles**
 
   
 

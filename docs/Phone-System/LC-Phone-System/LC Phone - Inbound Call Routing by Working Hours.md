@@ -13,19 +13,21 @@ Inbound Call Routing by Working Hours helps prevent work calls from ringing outs
 **TABLE OF CONTENTS**
 
   * What Is Inbound Call Routing by Working Hours?
+  * Key Benefits of Inbound Call Routing by Working Hours
   * Who Can Configure Inbound Call Routing
   * How Calls Are Routed Outside Working Hours
   * How to Set Up Inbound Call Routing by Working Hours
     * Configure the Setting for Your Profile
     * Configure the Setting for a Team Member
   * How Forwarding Numbers Are Handled
+  * Important Limitations
   * Frequently Asked Questions
   * Related Articles
 
 
 * * *
 
-# **What Is Inbound Call Routing by Working Hours?**
+## **What Is Inbound Call Routing by Working Hours?**
 
   
 
@@ -48,6 +50,28 @@ When **Only ring during working hours** is enabled, any inbound call that reache
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076517184/original/6hyNBeH53XiPEUxB3yiiJB5Q_rFEvmgHdA.png?1784648284)
+
+* * *
+
+## **Key Benefits of Inbound Call Routing by Working Hours**
+
+  
+
+
+  * **Prevent after-hours interruptions:** Stop work calls from ringing users outside their selected availability.  
+  
+
+  * **Use existing availability schedules:** Control inbound ringing with a selected schedule instead of manually changing call settings.  
+  
+
+  * **Support team-based routing:** Unavailable users can be skipped while other eligible users continue receiving calls in supported routing scenarios.  
+  
+
+  * **Handle holidays and time off:** Date-specific schedule entries can prevent calls from ringing users on holidays or other unavailable dates.  
+  
+
+  * **Preserve existing backup routing:** When a user is unavailable, supported calls continue through the phone number’s existing routing or backup configuration.
+
 
 * * *
 
@@ -77,7 +101,7 @@ HighLevel checks the selected schedule before ringing the user. The result depen
 
 Routing scenario| During working hours| Outside working hours  
 ---|---|---  
-**Assigned user or contact**|  The user rings normally| The user is skipped, and the call follows the phone number’s existing backup (Voice mail or Voice AI)  
+**Assigned user or contact**|  The user rings normally| User is skipped, and call follows existing backup (**Voice mail or Voice AI**)  
 **Ring All**|  All eligible users ring normally| Users outside working hours are skipped; available users continue to ring  
 **Call Menu or IVR**|  Configured recipients ring normally| The unavailable user is skipped; other recipients continue to ring  
 **Only recipient in an IVR connect step**|  The user rings normally| No recipient is connected, and the call flow continues  
@@ -108,7 +132,7 @@ Selecting the correct schedule ensures HighLevel can accurately determine when y
   2. Click on**My Profile.**  
   
 
-  3. Scroll too the **Inbound call routing** card.  
+  3. Scroll to the **Inbound call routing** card.  
   
 
   4. Enable **Only ring during working hours**.  
@@ -170,18 +194,36 @@ Selecting the correct schedule ensures HighLevel can accurately determine when y
 ## **How Forwarding Numbers Are Handled**
 
   
-
-
-HighLevel prevents a user from being reached indirectly through a matching forwarding number when that user is outside working hours. This ensures the selected schedule is respected throughout the routing flow.  
-  
-
-
-When your personal phone number is also configured as the forwarding number for a phone number assigned to you, or as the business phone number, no additional setup is required. Outside your working hours, HighLevel automatically skips that forwarding number along with you and sends the call to the phone number’s existing backup.
+When a user's personal number matches a configured forwarding or business phone number, HighLevel also skips that matching number outside the user's working hours. This prevents the user from being reached indirectly and ensures the selected schedule is respected.
 
   
 
 
 ![](https://jumpshare.com/share/r8qmylw8JqFaUD8hu4h7+/4SWAcLuwcT4fvhC2Hb7xoEeJjtRaW7Qnkg.png)
+
+* * *
+
+## **Important Limitations**
+
+  
+
+
+Keep the following limitations in mind when using working-hours routing:
+
+  
+
+
+  * **Transferred calls are not currently filtered by working hours.** Existing transfer behavior applies when a call is transferred to a user.  
+  
+
+  * **Working-hours routing does not create a separate after-hours destination.** Calls received outside a user's selected schedule continue through the phone number's existing routing or backup configuration.  
+  
+
+  * **The setting is user-specific.** Each user who should be excluded from calls outside their availability must have the appropriate schedule selected and the setting enabled.  
+  
+
+  * **Schedule configuration matters.** Weekly hours, date-specific availability, and the schedule timezone determine whether HighLevel considers a user available.
+
 
 * * *
 
@@ -196,8 +238,14 @@ No. The setting is off by default, and call routing remains unchanged until it i
   
 
 
+  
+
+
 **Q: Which schedule does HighLevel use?**  
 HighLevel uses the schedule selected from the **Call routing schedule** dropdown. You can change the selected schedule at any time.
+
+  
+
 
   
 
@@ -208,8 +256,14 @@ Add a date-specific entry with no available hours for that date to the selected 
   
 
 
+  
+
+
 **Q: Does working-hours routing apply to transferred calls?**  
 Not yet. This release applies to inbound calls routed to assigned users, **Ring All** , and call menu or IVR steps. Transferred calls are not currently supported.
+
+  
+
 
   
 
@@ -220,8 +274,29 @@ Not in this version. Calls received outside your working hours follow the phone 
   
 
 
+  
+
+
 **Q: Why do calls still reach me after hours after I enabled the setting?**  
 Confirm that the correct schedule is selected, the current time falls outside that schedule, and the schedule’s timezone is correct. Also verify that the toggle is enabled for the correct user profile. When testing a holiday or day off, confirm that the date-specific entry has no available hours.
+
+  
+
+
+  
+
+
+**Q: Does this setting change my phone number's normal routing during working hours?**  
+No. During the selected working hours, supported inbound calls continue through the existing routing configuration.
+
+  
+
+
+  
+
+
+**Q: What happens in Ring All if some team members are outside their working hours?**  
+Users outside their selected working hours are skipped. Other eligible users can continue receiving the call.
 
 * * *
 

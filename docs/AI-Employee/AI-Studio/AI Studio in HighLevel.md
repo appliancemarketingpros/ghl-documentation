@@ -24,33 +24,25 @@ AI Studio is an AI-powered builder in HighLevel that helps you create websites, 
   * User Permissions for AI Studio
   * AI Studio Home and Interface Overview 
   * Creating a Project in AI Studio
-    * Start with a Prompt
-    * Guided Design Preferences
-    * Start with a Template
-    * How to Edit and Refine Projects
+  * How to Edit and Refine Projects
   * Visual Edits in AI Studio
   * Code Editor in AI Studio
   * Advanced SEO Support in AI Studio
   * Previewing and Reviewing Your Project
   * Version History
   * Forms and Calendar Integration
-    * How Forms Work in AI Studio
-    * How Calendars Work in AI Studio
   * Publishing Your Projects
-    * Publish to a Preview Domain
-    * Connect a Custom Domain
-    * Set a Primary Published URL
   * Cloning Projects in AI Studio
   * Submission Data of your Project
-  * How Workflows Connect to Form Submissions
   * Current Limitations and Important Notes
+  * Troubleshoot Issues with AI Studio
   * Frequently Asked Questions
   * Related Articles
 
 
 * * *
 
-# **What is AI Studio**
+## **What is AI Studio**
 
   
 
@@ -1055,6 +1047,32 @@ Knowing the current boundaries of AI Studio helps set expectations and prevents 
 
 * * *
 
+## **Troubleshoot Issues with AI Studio**
+
+  
+When you ask AI Studio to fix a problem, it can investigate the running project to better understand what is happening before making changes.  
+  
+When deeper troubleshooting is needed, AI Studio can inspect the application's behavior, review relevant project information, test functionality and external resources, and use those results to identify the cause of an issue.
+
+  
+
+
+  
+**For example** , AI Studio can identify when a preview is showing an outdated version, check whether an external resource is available, or investigate an application error before applying a fix. 
+
+  
+
+
+If the project environment becomes stale or unresponsive, AI Studio can attempt to recover it and continue working.
+
+  
+After applying a fix, AI Studio can check the project again to verify the result before completing the request.
+
+  
+You do not need to run these troubleshooting steps manually. Ask AI Studio to build, change, or fix your project as usual.
+
+* * *
+
 ## **Frequently Asked Questions**
 
   
@@ -1066,8 +1084,11 @@ No. AI Studio can also create other front-end experiences such as multi-step sur
   
 
 
+  
+
+
 **Q: How much does AI Studio cost?**  
-AI Studio will be free to use until September 1, 2026. Starting September 1, 2026, AI Studio will use the following pricing structure:
+AI Studio uses the following pricing structure:
 
   * **AI Employee Growth:** Usage Included.
   * **AI Employee Unlimited:** 3x Usage Included.
@@ -1079,14 +1100,23 @@ Usage is measured in 5-hour windows. Each plan has its own usage limit within th
   
 
 
+  
+
+
 **Q: Do I need to move an AI Studio project into Funnels or Websites before publishing it?**  
 No. AI Studio projects can be published directly from AI Studio. You can build multiple pages, connect them within the same project, and then publish and connect a domain from there
 
   
 
 
+  
+
+
 **Q: Can I move or copy an AI Studio project into Funnels or Websites under Sites?**  
 No. AI Studio projects stay in AI Studio and cannot be copied into the standard Funnels or Websites builders under Sites. AI Studio is designed to publish directly from its own workspace, you do not need to move the output into the legacy Funnels or Websites builders.
+
+  
+
 
   
 
@@ -1122,7 +1152,4 @@ Yes. AI Studio includes preview options for desktop, tablet, and mobile views so
   * [Tracking External Forms with GoHighLevel](<https://help.gohighlevel.com/en/support/solutions/articles/155000006092>)  
   
 
-  * [Connecting Your Domain on GHL - A Guide](<https://help.gohighlevel.com/en/support/solutions/articles/155000005132>)  
-  
-
-  * [WordPress - AI-Powered Page Builde](<https://help.gohighlevel.com/en/support/solutions/articles/155000007585>)
+  * [Connecting Your Domain on GHL - A Guide](<https://help.gohighlevel.com/en/support/solutions/articles/155000005132>)

@@ -35,7 +35,7 @@ This article provides a comprehensive guide to every option within the 'Settings
   
 
 
-Workflow Settings are the master controls for an individual workflow. Instead of configuring rules for each action, these settings apply to the entire workflow, governing its fundamental behavior from start to finish. They determine how contacts enter and re-enter, when messages can be sent, and what happens when a contact responds, ensuring your automation is both powerful and precise.
+Workflow Settings are the master controls for an individual workflow in HighLevel. They determine how contacts enter and re-enter a workflow, when communications can be sent, which sender details are used, and what happens when a contact responds. Configuring these settings correctly helps workflows behave consistently while reducing duplicate messages, sender issues, and unexpected automation behavior.
 
   
 
@@ -303,6 +303,29 @@ This section allows you to set default sender information for all communications
 
   * From **Number** : A dropdown to select the default phone number for sending SMS messages.
 
+
+  
+
+
+### **Sender Details Troubleshooting**
+
+  
+
+
+If Sender Details will not save, check the email address and sending domain first.
+
+  * Make sure the **From Email** is a complete, valid email address.
+
+  * If you use a dedicated sending domain, make sure the From Email matches the intended domain.
+
+  * If multiple sending domains are configured, confirm you are using the correct one.
+
+  * Check individual **Send Email** actions for a From Email that may override the workflow setting.
+
+  * Review any validation message shown in HighLevel and correct the issue before saving again.
+
+
+Before contacting Support, confirm the From Email, sending domain, and any action-level overrides, and capture the exact error message.
 
 * * *
 

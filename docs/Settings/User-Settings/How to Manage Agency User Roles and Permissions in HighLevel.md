@@ -204,19 +204,33 @@ To give a user access to selected sub-accounts without agency-wide access:
   
 
 
-  1. Go to **Agency View > Settings > Team**.
+  1. Go to **Agency View > Settings > Team**.  
+  
 
-  2. Edit the applicable user.
 
-  3. Open **Roles & Permissions**.
+  2. Edit the applicable user.  
+  
 
-  4. Set **User Type** to **Account**.
 
-  5. Select the sub-accounts the user should be able to access.
+  3. Open **Roles & Permissions**.  
+  
 
-  6. Choose the appropriate **Role**.
 
-  7. Configure the user's module and granular permissions.
+  4. Set **User Type** to **Account**.  
+  
+
+
+  5. Select the sub-accounts the user should be able to access.  
+  
+
+
+  6. Choose the appropriate **Role**.  
+  
+
+
+  7. Configure the user's module and granular permissions.  
+  
+
 
   8. Save the changes.
 
@@ -280,7 +294,7 @@ The permissions available to a user can include the following modules and functi
   
 
 
-  * **AI Agents:** Build and manage supported Voice AI and Chat AI agents, training, logs, summaries, and related functionality.
+  * **AI Agents:** Build and manage supported Managed Agents, Voice AI and Chat AI agents, training, logs, summaries, and related functionality.
 
 
   

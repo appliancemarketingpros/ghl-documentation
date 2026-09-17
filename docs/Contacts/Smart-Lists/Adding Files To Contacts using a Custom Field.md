@@ -6,7 +6,7 @@
 
 ---
 
-This article explains how to add and manage files for contacts in HighLevel, covering both direct uploads and custom fields for a more organized approach to document management.
+This article explains how to add and manage files for contacts in HighLevel using a File Upload custom field. This allows you to store documents such as contracts, invoices, forms, and other files directly within a contact record.
 
 * * *
 
@@ -15,11 +15,18 @@ This article explains how to add and manage files for contacts in HighLevel, cov
   * Why Add Files to Contacts?
   * Key Considerations Before Creating a Custom Field
   * Upload Files to a Contact Using a Custom Field
-    * Step 1: Create a Custom Field Called File Upload
-    * Step 2: Add a File to a Contact
-    * Step 3: Upload a File
+  * Frequently Asked Questions
+  * Why Add Files to Contacts?
+  * Key Considerations Before Creating a Custom Field
+  * Upload Files to a Contact Using a Custom Field
+  * Step 1: Create a Custom Field Called File Upload
+  * Step 2: Add a File to a Contact
+  * Step 3: Upload a File
   * Frequently Asked Questions
   * Related Articles
+
+
+  
 
 
 * * *
@@ -29,21 +36,18 @@ This article explains how to add and manage files for contacts in HighLevel, cov
   
 
 
-Adding files to contacts in GoHighLevel allows you to store important documents directly within the contact profile, such as contracts, invoices, and notes. This feature streamlines client management by keeping all essential files organized and easily accessible.
+Adding files to contacts helps keep important documents associated with the appropriate contact record, making them easier for your team to access and manage.
 
   
 
 
-**HighLevel provides two methods to upload files to a contact:**
+To upload a file within a contact's Custom Fields section, you must first create a custom field using the File Upload field type. The file can then be uploaded, viewed, replaced, or deleted from that field on the contact record.
 
   
 
-
-  1. Directly via the contact profile.  
-  
-
-  2. Using a custom field for file uploads.
-
+    
+    
+    **Important:** Uploading a file through a File Upload custom field is different from other file or document features available in HighLevel. The steps in this article specifically cover files stored in a contact's custom field.
 
 * * *
 
@@ -52,26 +56,19 @@ Adding files to contacts in GoHighLevel allows you to store important documents 
   
 
 
-When setting up a custom file upload field in GoHighLevel, you have several important options to configure for better organization and functionality. These options determine how the field behaves, where it appears, and what type of files it can handle.
+When setting up a File Upload custom field, you can configure options that determine what files can be uploaded and how the field appears.
 
   
 
 
-**Field**| **What It Does**| **Details and Examples**  
+Field| What It Does| Details and Examples  
 ---|---|---  
-**File Type**|  Specifies the types of files users can upload through this custom field.| Supported formats: **PDF, DOC/DOCX, JPG/JPEG, PNG, GIF, XLS/CSV.** This ensures only compatible files are accepted.  
-**File Restriction**|  Sets the maximum file size allowed for uploads.| Maximum size per file: **250MB**. Ensure users are aware of this limit to avoid errors during uploads.  
-**Allow Multiple Files**|  Defines whether users can upload a single file or multiple files.| **Single File:** Restrict to one file for simplicity.  
-**Multiple Files:** Specify the maximum number of files (e.g., 3 or 5).  
-**Object Type**|  Determines the category where the custom field will be applied.| **Contact:** Attach files to individual contact profiles.  
-**Opportunity:** Link files to deals or leads.  
-**Company:** Associate files with company profiles.  
-**Surfboards:** Customize for your unique business needs.  
-**Group Tab**|  Organizes the custom field within a specific section or grouping in the system for better visibility and usability.| Examples:  
-**Contact Information:** Core details like personal documents.  
-**General Info:** Miscellaneous files.  
-**Additional Info:** Supplementary or secondary documents.  
-**Save the Field**|  Finalizes the creation process, making the field available for use.| Once saved, this field will appear in the **Custom Fields Section** of the selected object (e.g., contact profile).  
+File Type| Specifies the types of files users can upload through the custom field.| Select the supported file types appropriate for the field.  
+File Restriction| Sets the maximum file size allowed for uploads.| Maximum file size is 250 MB per file.  
+Allow Multiple Files| Determines whether the field accepts a single file or multiple files.| Choose a single file or configure the number of files allowed.  
+Object Type| Determines where the custom field is used.| Select Contact when you want the uploaded file associated with a contact record.  
+Group Tab| Determines where the custom field appears for easier organization.| For example: Contact Information, General Info, or Additional Info.  
+Save the Field| Makes the custom field available for use.| After saving, the field appears within the appropriate Custom Fields section.  
   
 * * *
 
@@ -80,81 +77,102 @@ When setting up a custom file upload field in GoHighLevel, you have several impo
   
 
 
-In HighLevel, the ability to upload files to a contact is only available after creating a custom field of the **File Upload** type. Once the custom field is created, you can navigate to the contact's profile to upload, view, or delete files directly within the designated field.
+Uploading a file through the Custom Fields section requires a custom field with the File Upload field type.
+
+Once the field has been created, you can locate it on a contact's profile and upload files into the designated field.
 
   
 
 
-### **_Step 1:_**_Create a Custom Field Called File Upload_
+### **Step 1: Create a File Upload Custom Field**  
+  
+
+
+  1. Go to Settings from the left-hand navigation menu.  
+  
+
+  2. Select Custom Fields.  
+  
+
+  3. Click Create Custom Field.  
+  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078254559/original/IWdXdnFhSG-7IEfVgMuFg5FNOhFESboBAQ.png?1786544809)  
+  
+
+  4. Select the File Upload field type.  
+  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078254767/original/LQ98qclqWlGPNppdDf38WlNXpKxpqQ3Lpw.png?1786544883)  
+  
+
+  5. Enter a descriptive name for the field, such as Contract Upload or Client Document.  
+  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078254827/original/06zi099n_eeujnL39CP6wI3EWp9mSjJ1Ug.png?1786544916)  
+  
+
+  6. Configure the file and field settings as needed.  
+  
+
+  7. Save the custom field.  
+  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078254916/original/_97G1OUXcSs_NKmRvrhi8vw8nasHmhJF9Q.png?1786544984)  
+
+
+  
+The File Upload field will now be available for the selected object.
+
+###   
+**Step 2: Locate the File Upload Field on the Contact**  
+  
+
+
+  1. Go to Contacts.  
+  
+
+  2. Select the contact whose file you want to add.  
+  
+
+  3. Navigate to the Custom Fields section of the contact profile.  
+  
+
+  4. Locate the File Upload custom field you created.  
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078568938/original/uS3W81z0gHYc7IZ30hNyEJk3Iix0k4f6lA.gif?1786958285)  
+  
+
+
+If you have several custom fields, locate the field within the Group Tab you selected when creating it.
 
   
 
 
-A custom field must be created as it is not available by default; only after creating it can the field be seen and used under the Contact section.
-
+### **Step 3: Upload the File**  
   
 
 
-Go to **Settings** from the left-hand menu and select **Custom Fields,** then**c** lick the **Add Custom Field** button. Choose the **File Upload** field type from the available options. Give the field a descriptive name (e.g., "Contract Upload" or "Client Document") and finally save the custom field.
-
+  1. Locate the File Upload custom field on the contact.  
   
 
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069224077/original/BrkDDzrLI4MYVx6S6zZL-8H3CeLN3_tRaQ.gif?1776263765)
-
+  2. Click Upload File.  
   
 
-
+  3. Select the file from your device.  
   
 
-
-### **_Step 2:_**_Add a File to a Contact_
-
-  
-
-
-Once the custom field is created, follow these steps to upload a file to a contact. If you have multiple custom fields created, search the Custom Field inside the Group Tab. 
-
-  
-
-
-Go to the **Contacts** section from the left-hand menu and select the contact you want to update. In the **Custom Fields Section** of the contact's profile, locate the file upload field you created.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069224182/original/-CauqohYKubmrTnay-CPPHvM4kVojwAu8g.gif?1776263797)
-
-  
+  4. Confirm the upload.
 
 
   
-
-
-### **_Step 3:_**_Upload a File_
-
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078569830/original/DfFbYSS2n5KrVGrdE0gbr2TquLFYno85bg.gif?1786958604)  
   
 
 
-Once the custom field is visible in the Contact's profile, you can upload the desired file directly into the field by selecting and confirming the file from your device.
-
-  
-
-
-Scroll to the **Custom Fields** section of the contact's profile and locate the file upload field you created earlier. Click **Upload File** and select a file from your device and confirm the upload to store the file within the contact's profile.
-
-****
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069224216/original/90I2tmK9SWWG9EpiQUnv1Z3wNH8zLmKNKQ.gif?1776263812)
-
-  
-
-
-  
-
-    
-    
-     After uploading a file to the custom field, you can **Manage** it directly from the Contact’s profile. To **View** the file, simply click on the file link in the custom field to open and review it. If you need to **Delete** a file, it can be removed from the field or replaced by uploading a new one. In case of accidental deletion, an **Undo** option will appear immediately, allowing you to restore the file quickly and effortlessly.
+After the file has been uploaded, you can manage it directly from the contact profile. To view an uploaded file, select the file link within the custom field. You can also delete or replace a file from the field. If a file is accidentally deleted and an Undo option appears, select it to restore the file.
 
 * * *
 
@@ -163,43 +181,48 @@ Scroll to the **Custom Fields** section of the contact's profile and locate the 
   
 
 
-**Q. What file types can I upload? Are Video uploads supported?**
+**Q. What file types can I upload? Are video uploads supported?**
 
-No, videos are not supported. You can upload PDF, DOCX, PNG, JPG, CSV, PPTX, and XLSX files.
-
-  
-
-
-**Q. What is the maximum file size allowed?**
-
-Each file can be up to 250MB.
+A. Videos are not supported. Supported document and image formats include PDF, DOCX, PNG, JPG, CSV, PPTX, and XLSX.
 
   
 
 
-**Q. Can I delete or replace a file after uploading?**
+**Q. What is the maximum file size?**
 
-Yes, files can be deleted or replaced. For custom fields, simply upload a new file to overwrite the old one.
+A. Each file can be up to 250 MB.
 
   
 
 
-**Q. Can I upload multiple files at once?**
+**Q. Do I need to create a custom field before uploading a file to a contact?**
 
-  * Direct Upload: No, files must be uploaded one at a time.
-  * Custom Fields: You can create multiple custom fields for multiple uploads.
+A. Yes, for the workflow described in this article. To store a file in the contact's Custom Fields section, first create a custom field using the File Upload field type. Once created, the field becomes available on the contact record for uploading and managing files.
 
+  
+
+
+**Q. Can I delete or replace an uploaded file?**
+
+A. Yes. Files stored in a File Upload custom field can be deleted or replaced from the contact record.
+
+  
+
+
+**Q. Can I upload multiple files?**
+
+A. When creating the File Upload custom field, configure the Allow Multiple Files setting according to how many files you want the field to accept.
 
   
 
 
 **Q. What should I do if a file fails to upload?**
 
-If a file fails to upload:
+A. If a file fails to upload:
 
-  * Ensure it meets the file type and size requirements.
+  * Confirm that the file meets the supported file type and size requirements.
   * Check your internet connection.
-  * Refresh the page and try again.
+  * Refresh the page and try the upload again.
 
 
 * * *

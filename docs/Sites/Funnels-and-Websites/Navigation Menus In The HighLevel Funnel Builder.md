@@ -49,10 +49,7 @@ A Navigation Menu is an interactive element that allows visitors to move between
   
 
 
-  * Nested submenus  
-  
-
-
+  * `Dropdown menus with one level of nested menu items`
   * Anchor-based scrolling  
   
 
@@ -71,24 +68,15 @@ Navigation menus are commonly placed in headers and footers.
   
 
 
-  1. Open your Funnel or Website in the Builder.  
+`1. Go to Sites and open the funnel or website you want to edit.`  
   
-
-
-  2. Click **Add Element**.  
+`2. Open the page in the builder.`  
   
-
-
-  3. Select **Navigation Menu**.  
+`3. From Elements, locate Navigation Menu.`  
   
-
-
-  4. Drag the element into your desired section.  
+`4. Drag the Navigation Menu element into the desired section or row.`  
   
-
-
-  5. Click the element to configure its settings.
-
+`5. Select the Navigation Menu to open its configuration options in the right sidebar.`
 
 * * *
 
@@ -101,28 +89,23 @@ Within the Navigation Menu settings panel, you can:
   
 
 
-  * Add new menu items  
+`1. Select the Navigation Menu element.`  
+  
+`2. Click Add Item → New Menu Item.`  
+  
+`3. Enter the menu item name and destination.`  
+  
+`4. Drag the item below the desired parent item.`  
+  
+`5. Move it slightly to the right until it appears indented.`  
+  
+`6. Repeat for additional items under the same parent.`
+
   
 
-
-  * Rename menu labels  
-  
-
-
-  * Link to internal pages  
-  
-
-
-  * Link to external URLs  
-  
-
-
-  * Add dropdown (child) items  
-  
-
-
-  * Reorder menu items
-
+    
+    
+    Note: Standard Navigation Menu dropdowns support one level of nested menu items.
 
   
 
@@ -148,12 +131,12 @@ To create a dropdown:
 
 * * *
 
-## **Wrap Option (New Enhancement)**
+## **Wrap Navigation Menu Items**
 
   
 
 
-A new **Wrap option** is now available for Navigation Menu elements.
+`The Wrap option allows navigation items to move onto another line when there is not enough horizontal space to display them in a single row.`
 
   
 

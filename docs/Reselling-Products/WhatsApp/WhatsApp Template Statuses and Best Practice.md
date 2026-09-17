@@ -6,152 +6,218 @@
 
 ---
 
-Feature GuideWhatsApp Message TemplatesEverything you need to know about creating, submitting, and managing WhatsApp message templates in HighLevel.  
----  
-What you'll learn| ✓ Template approval process| ✓ Common rejection reasons| ✓ Sending templates| ✓ Template statuses explained  
----|---|---|---  
-  
-* * *
-
-**TABLE OF CONTENTS**
-
-  * Overview
-  * Template Migration — Important Notice
-  * Approval Process
-  * Common Template Rejection Reasons
-  * Sending WhatsApp Templates
-  * WhatsApp Template Statuses
-  * Frequently Asked Questions
-
-
-* * *
-
-OverviewWhat are WhatsApp message templates and why do you need them?  
+WhatsApp TemplatesWhatsApp Template Statuses and Best PracticesUnderstand WhatsApp template approval, inline variable validation, common rejection reasons, sending requirements, and template statuses in HighLevel.  
 ---  
   
-Templates are pre-approved message formats used to open **marketing** , **utility** , and **authentication** conversations with customers. They are the only type of message that can be sent to customers who have not messaged you in the last 24 hours, or who have never contacted your business before.
+What You'll Learn
 
-All templates must be **approved by Meta** before they can be sent. Once approved, templates can still be automatically paused or disabled if they receive negative customer feedback or low engagement.
+Learn how WhatsApp template review works, which variable problems are now caught before saving, which issues can still cause Meta rejection, how to interpret template statuses, and what to check before sending.
 
-* * *
+Table of Contents
 
-⚠️ Template Migration — Important NoticePlease read this carefully before creating templates  
----  
+  1. What are WhatsApp Message Templates?
+  2. Key Benefits of WhatsApp Template Best Practices
+  3. Template Migration
+  4. Sample Variable Values
+  5. Variable Validation Before Save
+  6. Approval Process
+  7. Common Template Rejection Reasons
+  8. Sending WhatsApp Templates
+  9. WhatsApp Template Statuses
+  10. How to Review and Manage Templates
+  11. Frequently Asked Questions
+  12. Related Articles
+
+
+# What are WhatsApp Message Templates?  
   
-When you first connect your WhatsApp Business Account to HighLevel, your existing templates from Meta are **imported once** as part of the onboarding process.
 
-**After this initial import, there is no ongoing sync between Meta and HighLevel.** This means:
 
-| ✘ Templates created directly in Meta Business Manager **after onboarding will not appear** in HighLevel  
----  
-| ✘ Changes made to templates in Meta **will not be reflected** in HighLevel automatically  
----  
-| ✓ All new templates must be **created directly inside HighLevel CRM** to be available for use  
----  
-      
-    
-    **Important:** Always create and manage your WhatsApp templates inside HighLevel CRM — not in Meta Business Manager. Any template created outside of HighLevel after the initial onboarding will not be synced and will not be available to send from the CRM.
+WhatsApp message templates are pre-approved message formats used for business-initiated Marketing, Utility, and Authentication communication. Approved templates allow businesses to initiate messaging outside the 24-hour customer service window while following WhatsApp requirements.
 
-* * *
+Templates must be approved by Meta before they can be used. After approval, their quality status can also change based on customer feedback and other quality signals.
 
-Approval ProcessWhat happens after you submit a template  
----  
+## Key Benefits of WhatsApp Template Best Practices  
   
-Once you create and submit a template, it goes through Meta's review process. This typically takes **up to 24 hours**. Here's what happens next:
 
-| ✅ **Approved** — Status is set to **Active - Quality Pending** and you can start sending it immediately  
----  
-| ✘ **Rejected** — You can edit the template and resubmit, or appeal the decision  
----  
-      
-    
-    If your template is approved, its status will be set to **Active - Quality Pending** and you can begin sending it to customers. If rejected, you can [edit and resubmit](<https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#editing>) it, or [appeal the decision](<https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#appeals>).
 
-## How to Create a Template
+Following template formatting and quality best practices helps reduce avoidable submission problems and makes it easier to maintain reliable WhatsApp messaging after approval.
 
-## Sample Variable Values
+  * **Earlier error detection:** supported variable-format problems are now flagged in the template builder before saving.
+  * **Fewer avoidable submissions:** malformed placeholders can be corrected before Meta review.
+  * **Clearer approval troubleshooting:** builder validation errors are separated from Meta rejection reasons.
+  * **Better template health:** monitoring quality and status changes helps identify templates that may need attention.
 
-When submitting templates, always include **sample variable values** to show Meta how the template will look when sent to customers. Samples can be added during template creation and help improve approval rates.
 
-![Template samples screenshot](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155024924194/original/pom_P9j4uQOeludQsVMRpySTTfFyQYWwGQ.png?1713872158)
-
-* * *
-
-Common Template Rejection ReasonsAvoid these mistakes to get your template approved faster  
----  
+## Template Migration — Important Notice  
   
-Templates are most commonly rejected for the following reasons:
 
-| ✘ Variable parameters are missing or have mismatched curly braces. The correct format is `{{1}}`  
----  
-| ✘ Variable parameters contain special characters such as `#`, `$`, or `%`  
----  
-| ✘ Variable parameters are not sequential — e.g. `{{1}}`, `{{2}}`, `{{4}}` but `{{3}}` is missing  
----  
-| ✘ Template content violates the [WhatsApp Commerce Policy](<https://www.whatsapp.com/legal/commerce-policy/>) — prices, fees, or product descriptions must comply  
----  
-| ✘ Template requests sensitive information such as full payment card numbers or national ID numbers  
----  
-| ✘ Template contains threatening or abusive content — e.g. threatening legal action or public shaming  
----  
-| ✘ Template is a duplicate of an existing one — same body and footer wording will be automatically rejected  
----  
+
+Understanding how templates are brought into HighLevel helps prevent confusion when a template exists in Meta but is not available in the sub-account.
+
+When you first connect your WhatsApp Business Account to HighLevel, existing templates from Meta are imported as part of onboarding.
+
+**After the initial import, templates should be created and managed inside HighLevel for consistent availability in the CRM.**
+
+**Best practice:** Create new WhatsApp templates from **Settings > WhatsApp > Templates** so they are available in the workflows and messaging areas where you intend to use them.
+
+## Sample Variable Values  
   
-![Template rejection screenshot](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155024924765/original/bANeo0nAPgu7BC2MFPs18SXmyeDD8Nrz7Q.png?1713872446)
 
-* * *
 
-Sending WhatsApp TemplatesWhen and how to send approved templates to customers  
----  
+Sample values show Meta what dynamic content will look like when the template is sent. Every variable used in a template should have a realistic sample value during template creation.
+
+![WhatsApp template sample variable values](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155024924194/original/pom_P9j4uQOeludQsVMRpySTTfFyQYWwGQ.png?1713872158)
+
+Add realistic sample values for variables used in the template.
+
+## Variable Validation Before Save  
   
-Once a template's status is set to **ACTIVE** , you can begin sending it to customers. You can send templates at any time — both inside and outside the 24-hour customer service window.
-    
-    
-    A template's status can change automatically from **ACTIVE** to **PAUSED** or **DISABLED** based on customer feedback and engagement. We recommend monitoring status changes regularly and updating any templates that are in danger of being paused or disabled.
 
-* * *
 
-WhatsApp Template StatusesUnderstand what each status means for your templates  
----  
+The WhatsApp template builder now validates supported variable formatting while you type. Instead of allowing certain invalid placeholders to be saved and discovered later during review, the affected Header or Body field is flagged immediately and saving is blocked until the error is corrected.
+
+Validation Rule| Valid Example| Invalid Example  
+---|---|---  
+**Use numbered variables**| `{{1}}`, `{{2}}`| `{{1$}}`  
+**Use balanced braces**| `{{1}}`| `{{1` or `{{1}}}`  
+**Add text around Body variables**| `Hi {{1}}, your order is ready.`| `{{1}} your order is ready.`  
   
-Templates can have the following statuses. You can view a template's current status by going to **WhatsApp > Templates > Status**.
+Body Placement Rule
 
-Status| What it means  
+A template Body cannot begin or end with a variable. Add regular text before and after the placeholder. This placement rule applies specifically to the Body.
+
+Header and Body Validation
+
+Malformed variables such as unsupported characters, missing braces, or extra braces are flagged in both the **Header** and **Body** where variables are supported.
+
+### Reputation Review-Request Preset
+
+The default Reputation review-request preset has also been updated. New templates created from the preset no longer end the Body with a trailing variable, so the preset meets the new Body-placement validation rule without requiring a manual correction.
+
+## Approval Process  
+  
+
+
+Passing the builder's inline checks confirms that the supported variable-validation rules have been satisfied. Meta still reviews the complete template for category, content, formatting, and policy compliance.
+
+**Approved:** The template becomes available for sending and may initially display **Active - Quality Pending**.
+
+**Rejected:** Review the reason provided by Meta, correct the template when possible, and follow the available edit, resubmit, or appeal path.
+
+**Important:** Inline variable validation reduces avoidable formatting mistakes but does **not** guarantee template approval.
+
+## Common Template Rejection Reasons  
+  
+
+
+Some variable-format problems are now prevented before saving, while other formatting, content, or policy issues may still be identified during Meta review. Knowing the difference helps you troubleshoot at the correct stage.
+
+### Caught Before Save
+
+  * Malformed or unbalanced variable braces, such as `{{1` or `{{1}}}`.
+  * Unsupported variable tokens or characters, such as `{{1$}}`.
+  * A Body that begins or ends with a variable.
+
+
+### May Still Be Identified During Submission or Meta Review
+
+  * Non-sequential variables, such as `{{1}}`, `{{2}}`, and `{{4}}` when `{{3}}` is missing.
+  * Too many variable parameters relative to the message content.
+  * Content that does not meet WhatsApp Business or Commerce requirements.
+  * Requests for prohibited or sensitive information.
+  * Threatening, abusive, or otherwise prohibited content.
+  * Unsupported character, length, or formatting requirements.
+  * Duplicate templates with substantially the same Body and Footer content.
+
+
+![WhatsApp template rejection example](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155024924765/original/bANeo0nAPgu7BC2MFPs18SXmyeDD8Nrz7Q.png?1713872446)
+
+## Sending WhatsApp Templates  
+  
+
+
+Approved templates allow your business to initiate supported WhatsApp conversations, including communication outside the 24-hour customer service window.
+
+Once a template is **Active** , it can be selected in supported messaging areas. Continue monitoring template quality because a previously active template can later be paused or disabled.
+
+**Best practice:** Send relevant messages to contacts who expect to hear from your business. Negative feedback can affect template quality and availability.
+
+## WhatsApp Template Statuses  
+  
+
+
+Template status tells you whether a message is still being reviewed, ready to send, experiencing quality issues, or unavailable. Check the current status before troubleshooting a template that cannot be used.
+
+Status| What It Means  
 ---|---  
-In Review| Template is under review by Meta. Review takes up to 24 hours.  
-Rejected| Template was rejected for violating policies. You can edit and resubmit, or appeal.  
-Active - Quality Pending| Approved but no quality feedback yet. Ready to send to customers.  
-Active - High Quality| Received little to no negative feedback. Best performing status.  
-Active - Medium Quality| Receiving some negative feedback. May soon become paused. Monitor closely.  
-Active - Low Quality| Multiple customers gave negative feedback. Still sendable but at risk of being paused. Address issues urgently.  
-Paused| Paused due to recurring negative feedback. Cannot be sent until quality improves.  
-Disabled| Disabled due to recurring negative feedback. Cannot be sent to customers.  
-Appeal Requested| An appeal has been submitted and is being reviewed by Meta.  
-      
-    
-    ? Tip: You can view a template's current status by going to **WhatsApp > Templates > Status** inside HighLevel.
+**In Review**|  Meta is reviewing the template.  
+**Rejected**|  The template was not approved. Review the rejection reason before editing, resubmitting, or appealing.  
+**Active - Quality Pending**|  Approved and ready to send, but not enough quality feedback has been collected yet.  
+**Active - High Quality**|  The template is active and has strong quality signals.  
+**Active - Medium Quality**|  The template is active but receiving some negative quality signals. Monitor it closely.  
+**Active - Low Quality**|  The template remains active but is at greater risk of being paused.  
+**Paused**|  The template cannot currently be sent because of quality-related restrictions.  
+**Disabled**|  The template is unavailable for sending.  
+**Appeal Requested**|  An appeal has been submitted and is awaiting a decision.  
+  
+![WhatsApp template status view](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155024925270/original/MeSdtU1yIn3tBYgblzakubUS9tTBMZi0OA.jpeg?1713872747)
 
-![Template status screenshot](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155024925270/original/MeSdtU1yIn3tBYgblzakubUS9tTBMZi0OA.jpeg?1713872747)
+## How to Review and Manage WhatsApp Templates  
+  
 
-* * *
 
-Frequently Asked QuestionsCommon questions about WhatsApp message templates  
----  
-❓ What are WhatsApp message templates and why do I need them?Templates are pre-approved message formats that let you reach out to customers who haven't messaged you in the last 24 hours, or who have never contacted your business before. They are essential for proactive outreach, marketing campaigns, and transactional notifications.  
----  
-❓ How are templates different from regular WhatsApp messages?Regular (free-form) messages can only be sent within the 24-hour customer service window — after a customer has messaged you first. Templates can be sent at any time, to any contact, regardless of when they last messaged you.  
----  
-❓ How long does template approval take?Approval typically takes **up to 24 hours**. You will receive a notification once a decision has been made by Meta.  
----  
-❓ Why was my template rejected?The most common reasons are formatting errors in variable parameters, content that violates WhatsApp's Commerce or Business Policy, or the template being too similar to an existing one. Review the rejection reasons section above and fix the issue before resubmitting.  
----  
-❓ My template status changed — what does that mean?Status changes like **Active - Low Quality** or **Paused** reflect how customers are responding to your template. Monitor these statuses regularly. If a template is paused, edit it to improve quality and resubmit for approval.  
----  
-❓ What happens if my template receives negative feedback?If your template receives negative feedback or low engagement, Meta may automatically pause it to protect your phone number's quality rating. Pausing duration varies based on quality. You will be notified when a template is paused, and you can edit and resubmit it.  
----  
-❓ Can I edit a paused template?Yes. You can edit a paused template to improve its content, then resubmit it for approval. Its status will change to **In Review** until Meta makes a decision.  
----  
-❓ I created a template in Meta Business Manager but it's not showing in HighLevel — why?Templates are only imported from Meta **once during the initial onboarding**. After that, there is no ongoing sync. Any templates created in Meta after onboarding must be **recreated directly inside HighLevel CRM** to be available for use.  
----  
-✅ You're all set!Always create and manage your WhatsApp templates inside HighLevel CRM. Keep an eye on template quality ratings, respond to feedback quickly, and ensure your templates comply with WhatsApp's policies to maintain high delivery rates.  
----
+Checking template status and validation errors from one place makes it easier to determine whether a template needs editing, additional review time, or quality improvements.
+
+  1. Go to **Settings > WhatsApp > Templates**.
+  2. Locate the template you want to review.
+  3. Check its current status before making changes.
+  4. If you are creating or editing a template, correct any inline Header or Body variable errors before saving.
+  5. If Meta rejected the template, review the rejection reason and update the applicable content or formatting.
+  6. After approval, continue monitoring quality status as the template is used.
+
+
+For complete creation instructions, see [How to Create a WhatsApp Template](<https://help.gohighlevel.com/support/solutions/articles/155000000861-how-to-create-a-whatsapp-template->).
+
+## Frequently Asked Questions  
+  
+
+
+Q: Why can't I save my WhatsApp template?
+
+Check the Header and Body for inline variable errors. Unsupported tokens, missing or extra braces, or a Body that starts or ends with a variable must be corrected before saving.
+
+Q: What variable format should I use?
+
+Use numbered placeholders such as `{{1}}`, `{{2}}`, and `{{3}}`. Keep both braces balanced and do not add unsupported characters inside the placeholder.
+
+Q: Can a template Body begin or end with a variable?
+
+No. Add regular text before and after the variable. The builder now flags this placement problem inline and prevents saving until it is corrected.
+
+Q: If the builder accepts my variables, is Meta approval guaranteed?
+
+No. Inline validation only confirms the supported variable-format and placement rules checked by the builder. Meta can still reject a template for other formatting, content, category, duplication, or policy reasons.
+
+Q: Why was my template rejected even though no variable error appeared?
+
+The template may have failed another Meta requirement, such as category alignment, content or policy rules, unsupported formatting, duplicate content, or other parameter requirements.
+
+Q: Does the Reputation review-request preset need to be manually fixed?
+
+New Reputation review-request templates use an updated preset that no longer ends the Body with a trailing variable, so no manual correction is required for that specific validation rule.
+
+Q: What should I do if an active template moves to Low Quality or Paused?
+
+Review the message content and audience relevance, reduce behavior that may be generating negative feedback, and monitor the template's quality status before continuing high-volume usage.
+
+### Related Articles  
+  
+
+
+  * [How to Create a WhatsApp Template](<https://help.gohighlevel.com/support/solutions/articles/155000000861-how-to-create-a-whatsapp-template->)
+  * [Why WhatsApp Templates Are Rejected with an “Invalid Format” Error](<https://help.gohighlevel.com/support/solutions/articles/155000006330-why-whatsapp-templates-are-rejected-with-an-invalid-format-error>)
+  * [WhatsApp Template Categorization Guidelines](<https://help.gohighlevel.com/support/solutions/articles/155000001058-template-categorisation-guidelines>)
+  * [WhatsApp Media Templates](<https://help.gohighlevel.com/support/solutions/articles/155000002330>)
+  * [WhatsApp Quality Rating, Status Changes, and Messaging Limits](<https://help.gohighlevel.com/support/solutions/articles/155000002659-about-your-whatsapp-business-phone-number-s-quality-rating>)
+  * [WhatsApp: Send Message Templates](<https://help.gohighlevel.com/support/solutions/articles/155000003069>)

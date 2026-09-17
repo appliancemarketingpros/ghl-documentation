@@ -305,6 +305,33 @@ This allows you to insert your own data into notifications, such as custom links
   * Click **Save** to activate WhatsApp notifications.
 
 
+  
+
+
+* * *
+
+## **Troubleshooting Blank Reschedule or Cancellation Links**
+
+  
+
+
+If `{{appointment.reschedule_link}}` or `{{appointment.cancellation_link}}` is blank, check the following:
+
+  * **Confirm the message is connected to an appointment.** Appointment merge fields need appointment data to populate.  
+  
+
+  * **Check the workflow trigger.** If the message is being sent from a workflow, use an appointment-based trigger.  
+  
+
+  * **Use appointment triggers when needed.** Examples include **Appointment Status** and **Customer Booked Appointment**.  
+  
+
+  * **Test with a real appointment.** Book a test appointment before checking whether appointment merge fields are working correctly.
+
+
+  
+
+
 * * *
 
 ## **Important Notes**
@@ -407,21 +434,33 @@ This allows you to insert your own data into notifications, such as custom links
   
 
 
-**Q: Can I personalize SMS with appointment details?**
+**Q: Why is my reschedule link blank?**
 
-Yes. You can use merge fields, including Custom Values, by clicking the { } icon in the message editor.
-
+The reschedule link requires appointment data. If the message or workflow does not have access to an appointment record, the link may appear blank.  
   
 
 
-**Q: Does SMS support all appointment events?**  
-Yes, Unconfirmed, Confirmed, Cancellation, Reschedule, Reminder, and Follow-Up.
+**Q: Why is my cancellation link blank?**
 
+The cancellation link also requires appointment data. Confirm that the message is associated with an appointment and that any workflow sending the message uses an appointment-based trigger.  
   
 
 
-**Q: How do I test without notifying the client?**  
-Use Send Test SMS with a personal or team test number.
+**Q: Which workflow triggers can provide appointment context?**
+
+Common appointment-based triggers include **Appointment Status** and **Customer Booked Appointment**.  
+  
+
+
+**Q: Why does an appointment merge field work after a real booking but not during a test?**
+
+Some tests may not include appointment information. Booking a real test appointment gives HighLevel the appointment data needed to populate appointment merge fields.  
+  
+
+
+**Q: Can I use appointment details in SMS and email notifications?**
+
+Yes. You can add supported Custom Values and merge fields to appointment
 
 * * *
 

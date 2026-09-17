@@ -6,392 +6,338 @@
 
 ---
 
-If you are on the Pro Plan and have a sub-account in SaaS mode, you can enable any of the 3 SaaS plans for them. Once added to a SaaS plan from the system, their Subscription is handled at the Stripe level. You can toggle on a setting that lets them **Upgrade (only)** their Subscription on their end. If you need to upgrade/downgrade their account on your side, you must do this from Stripe.
+SaaS • Plan Changes • Subscription Sync
 
-  
-
-
-* * *
-
-**TABLE OF CONTENTS**
-
-  * What is Upgrading/Downgrading a SaaS Plan for a Location?
-  * Key Benefits of Upgrade / Downgrade SaaS Plan
-  * How to Allow All Clients/Locations to Changes Plans Themselves
-  * How to Allow Specific Clients/Locations to Changes Plans Themselves
-  * How Clients/Locations Can Upgrade the Subscription
-  * How to change the SaaS plan from your end:
-  * Frequently Asked Questions
-  * Related Articles
-
-
-* * *
-
-# **What is Upgrading/Downgrading a SaaS Plan for a Location?**
-
-  
-
-
-Upgrading or downgrading a SaaS plan lets an agency or client move a HighLevel location (sub-account) to a different subscription tier. This impacts billing, feature access, and available usage limits. Understanding who can change plans, when charges apply, and why certain plans appear (or don’t) helps avoid surprises for both you and your clients.
-
-  
-
-    
-    
-    **SaaS V2 billing Interval Limitation:** SaaS V2 subscriptions can only be upgraded or downgraded within the same billing interval.
-
-  
-
-
-  
-
-
-**Supported SaaS V2 Plan Changes:**
-
-  
-
-
-Monthly → Monthly
-
-  
-
+How to Upgrade or Downgrade a SaaS Plan for a Location
 
-Yearly → Yearly
+Upgrading or downgrading a SaaS plan changes the client's subscription tier, billing, and feature access. For eligible SaaS V1 subscriptions sold through a selling sub-account, supported plan changes now keep the Stripe subscription and corresponding sub-account subscription aligned. This helps current product, price, invoice, and tax data stay consistent after future upgrades or downgrades.
 
-  
-
-    
-    
-    SaaS V2 does not currently support billing interval changes on existing subscriptions. Monthly → Yearly and Yearly → Monthly options are hidden in the upgrade flow to prevent incorrect billing. This limitation applies only to SaaS V2 subscriptions. SaaS V1 subscriptions are unaffected because Stripe manages interval changes natively.
-    
-
-  
-
-
-* * *
-
-## **Key Benefits of Upgrade / Downgrade SaaS Plan**
-
-  
-
-
-  * **Revenue growth:** Enabling self-serve upgrades inside Company Billing helps clients access more features the moment they need them.  
-  
-
-  * **Billing accuracy:** Proration rules ensure clients are fairly charged or credited when moving between plans.  
-  
-
-  * **Feature control:** Plan-based permissions add or remove features as soon as the change takes effect.  
-  
-
-  * **Churn reduction:** Downgrade reasons and optional save/discount offers help retain customers at risk of cancellation.  
-  
+What You'll Learn
 
-  * **Operational clarity:** Clear category/level settings and Stripe product alignment prevent missing or incorrect plan options.
+This guide explains SaaS V1 and V2 plan-change behavior, how to enable client-initiated upgrades and downgrades, how eligible V1 subscriptions stay synchronized after a supported plan change, and what to expect for billing, invoices, taxes, and historical subscription mismatches.
 
+Important
 
-* * *
+**SaaS V1 and SaaS V2 use different billing architectures.** SaaS V1 continues to use Stripe as its system of record. The new V1 subscription bridge does not convert V1 subscriptions into V2 subscriptions; it keeps the corresponding subscription in the V1 selling sub-account aligned when a supported upgrade or downgrade occurs.
 
-## **How to****Allow All Clients/Locations to Changes Plans Themselves**
+Table of Contents
 
-  
+1
 
+What is Upgrading or Downgrading a SaaS Plan?
 
-Agencies can now allow their SaaS clients to upgrade their SaaS subscriptions from the company billing page. This setting is controlled on the Agency SaaS Configurator. 
+2
 
-  
+Key Benefits of SaaS Plan Changes
 
-    
-    
-    **Note:** This will apply this setting to **all SAAS accounts** that will be created using your SAAS configurator moving forward.
+3
 
-  
+SaaS V1 vs. SaaS V2 Plan-Change Behavior
 
+4
 
-  1. Login to your **Agency** account.  
-  
+SaaS V1 Subscription Sync After a Plan Change
 
-  2. Click on **SaaS Configurator**.  
-  
+5
 
-  3. Click on the **Advanced****Settings** tab.  
-  
-![](https://jumpshare.com/share/xv1OPqX0ZwCnrfFityhe+/Screen+Shot+2025-12-09+at+7.29.16+PM.png)  
-  
+How To Set Up Client Plan Changes
 
-  4. Enable the option to **Allow sub-account admins to upgrade their subscription**.  
-  
+6
 
-  5. If you want to give access to the new feature and apps to the client upon upgrading right away, enable the option to **Add New Plans Features and Apps Upon Upgrading.**  
-  
-**![](https://jumpshare.com/share/XM23h8d2Cq8inOMAS2Hr+/Screen+Shot+2025-12-09+at+8.00.58+PM.png)**
+How Clients Change Their SaaS Plan
 
+7
 
-* * *
+Agency-Side SaaS V1 Plan Changes
 
-## **How to Allow Specific Clients/Locations to Changes Plans Themselves**
+8
 
-  
+Frequently Asked Questions
 
+9
 
-This setting can also be personalized at a per-client level by Going to: 
+Related Articles
 
-  
+1
 
+# What is Upgrading or Downgrading a SaaS Plan for a Location?
 
-  1. Login to your agency account.  
-  
+Upgrading or downgrading a SaaS plan moves a client sub-account from one configured SaaS subscription tier to another. A plan change can affect billing, product and price information, feature access, usage limits, and when applicable, the client's billing interval.
 
-  2. Click on **Sub-accounts**.  
-  
+Clients can perform supported self-service plan changes when the appropriate SaaS Configurator settings are enabled. Agencies can also manage plan changes according to the billing architecture used by the subscription.
 
-  3. For the sub-account you want to enable self-serve plan upgrade, click on the **Three****Dots** > **Manage****Client**.  
-  
-![](https://jumpshare.com/share/rVRGLPVrZWBJ1eZiMlXw+/Screen+Shot+2025-12-09+at+8.12.08+PM.png)  
-  
+For eligible SaaS V1 subscriptions sold through a selling sub-account, supported upgrades and downgrades now synchronize the Stripe subscription with the corresponding subscription stored in that selling sub-account.
 
-  4. Enable the option to **Allow sub-account admins to upgrade their subscription**.  
-  
+2
 
-  5. If you want to give access to the new feature and apps to the client upon upgrading right away, enable the option to **Add New Plans Features and Apps Upon Upgrading.**  
-  
-![](https://jumpshare.com/share/tFgldzrcAp6bsYEORmyr+/Screenshot+2025-12-09+at+8.08.11%E2%80%AFPM.png)
+## Key Benefits of SaaS Plan Changes
 
+Well-configured upgrade and downgrade workflows give clients flexibility while helping agencies keep plan access and billing data aligned. The new V1 subscription bridge also reduces the chance of stale product, price, invoice, or tax information after supported plan changes.
 
-* * *
+**Revenue Growth:** Self-service upgrades let clients move to higher-value plans when they need additional capabilities.
 
-## **How Clients/Locations Can Upgrade the Subscription**
+**Billing Accuracy:** Eligible SaaS V1 plan changes keep the Stripe subscription and corresponding selling-sub-account subscription aligned.
 
-  
+**Invoice Accuracy:** Sub-account invoices can reflect the current product and price after a supported V1 upgrade or downgrade.
 
+**Tax Accuracy:** Tax can be recalculated using current plan information instead of stale subscription data after an eligible plan change.
 
-  1. Login to your sub-account  
-  
+**Feature Control:** Plan-based settings determine which features and apps become available when the change takes effect.
 
-  2. **Settings > Company Billing.**  
-  
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060236383/original/Y9q2Uq2hSKlLAnk2V2fnBESOlVoeW1IxWA.png?1765292095)**  
-  
+**Churn Reduction:** Configurable downgrade reasons and optional deflection offers can help retain customers considering a lower plan.
 
-  3. Click on**Upgrade**.  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060236426/original/kNndbG7aeuo39PgK2NDdrM2htx9BaHwRhg.png?1765292134)  
-  
+3
 
-  4. Choose the desired plan.  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060236668/original/PA1QyQasuchZqKo6CZqlMkTHULfeNbvy4A.png?1765292284)  
-  
+## SaaS V1 vs. SaaS V2 Plan-Change Behavior
 
-  5. Upon choosing their desired plan, they will see a confirmation message which will also allow them to choose between the Monthly and the annual variant of your created plan:  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48283852490/original/kFYGhwqxIrVkK_C_8uqXFaTt6SBcEmhZZQ.png?1677442334)  
-  
+SaaS V1 and V2 can coexist, but they use different billing systems of record. Identifying which architecture owns the subscription is important before changing billing details or troubleshooting plan-change behavior.
 
-  6. Clicking on **Confirm & Pay** will charge them and you can then unlock the features associated with that plan in their account.  
+Behavior| SaaS V1| SaaS V2  
+---|---|---  
+**Billing system of record**|  Stripe| HighLevel through the selected Agency Sub-Account  
+**New subscription bridge**|  Applies to eligible V1 subscriptions sold through the supported selling-sub-account workflow.| Not the scope of this V1 bridge because V2 already uses the Agency Sub-Account architecture.  
+**Billing interval changes**|  Managed according to the Stripe/V1 subscription configuration.| Monthly and annual intervals can be changed as part of a supported plan change.  
+**Proration**|  May be handled through the V1/Stripe billing workflow.| **No proration** for tier changes, billing interval changes, or combined tier and interval changes.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48283852530/original/RMElQ7DTY-E66queGSyUWLBgJ01MOLS23A.png?1677442426)
+### SaaS V2 Billing Interval Changes
 
+SaaS V2 clients can move between monthly and annual billing while changing to another supported SaaS plan. This allows the tier and billing interval to be selected in the same plan-change experience.
 
-* * *
+**Important:** SaaS V2 does not support proration for plan-tier changes, billing-interval changes, or changes that combine both.
 
-## **How to change the SaaS plan from your end:**
+4
 
-  
+## SaaS V1 Subscription Sync After a Plan Change
 
+Eligible SaaS V1 subscriptions can exist in both Stripe and the selling sub-account used to sell the SaaS plan. The subscription bridge keeps these two records aligned when a supported SaaS upgrade or downgrade occurs, reducing billing differences between the systems.
 
-In this example, we have 3 SaaS plans, Standard, Professional, and Premium. Each higher plan has more features offered.
-
+Before the Subscription Bridge| With the Subscription Bridge  
+---|---  
+The SaaS plan change updated the Stripe subscription.| The supported SaaS plan change updates the Stripe subscription **and** the corresponding selling-sub-account subscription.  
+The selling-sub-account subscription could continue referencing an older product or price.| The selling-sub-account subscription receives the current product and price information.  
+Invoices generated from stale sub-account subscription data could reference incorrect plan details.| Invoices generated from the selling sub-account can reflect the current product and price after the plan change.  
+Tax could be calculated using outdated plan information.| Tax is recalculated against the current plan information when the supported plan change occurs.  
   
+### Which SaaS V1 Subscriptions Are Covered?
 
+The bridge is intended for the SaaS V1 selling pattern where the SaaS product is created in Stripe, imported into an agency-owned selling sub-account, and sold from that sub-account through a supported payment link or funnel.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48179188952/original/xg82nBBNc8zEEx0Q6jvtLt240q4mCO6EIg.png?1642180292)
+**Supported pattern:** SaaS Plan → Stripe Product → Product imported into the selling sub-account → Subscription sold through the selling sub-account → Supported SaaS upgrade or downgrade.
 
-  
+### Historical Subscription Mismatches
 
+The subscription bridge is not a retroactive backfill. If the Stripe subscription and selling-sub-account subscription became mismatched before this behavior was introduced, the existing mismatch is not automatically repaired simply because the bridge is now available.
 
-We have a location on the Standard plan with basic features only.  
-  
+**Existing mismatches:** A future supported upgrade or downgrade can update both records through the new flow. Until a qualifying plan change occurs, older mismatches may remain.
 
+### What the New Sync Does Not Guarantee
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48179189995/original/MTfPSGTUV_DzOktBCvriVc4ymTDBR-Oc6Q.png?1642180555)
+The subscription bridge is tied to supported SaaS upgrade and downgrade events. Avoid extending this behavior to unrelated subscription changes unless that workflow explicitly supports the same synchronization.
 
-  
-  
+  * Do not assume arbitrary manual edits made directly in Stripe trigger the same bridge.
+  * Do not assume cancellations, pauses, resumptions, or failed-payment states use this upgrade/downgrade synchronization unless documented separately.
+  * The V1 bridge does not change SaaS V2 architecture.
+  * Stripe remains the SaaS V1 billing system of record.
 
 
-To upgrade this location to the Professional plan, we will need to go into our Stripe account and open the customer associated with this location.
+5
 
-###   
-**Finding the Stripe Customer**
+## How To Set Up Client Plan Changes
 
-  
+Plan-change permissions determine whether clients can manage upgrades or downgrades without contacting your agency. Configure these settings before directing clients to Company Billing so the intended plans and actions are available.
 
+### Allow Upgrades for All Future SaaS Clients
 
-You can search the customer in Stripe using your client's email. However, the preferred method is to search for the invoice ID for this location and get the customer ID from there.
+The agency-level upgrade setting applies your preferred self-service behavior to SaaS accounts created through the SaaS Configurator moving forward.
 
-  
+  1. Sign in to your **Agency** account.
+  2. Open **SaaS Configurator**.
+  3. Open **Advanced Settings**.
+  4. Enable **Allow sub-account admins to upgrade their subscription**.
+  5. If clients should receive new plan features and apps immediately after upgrading, enable **Add New Plans Features and Apps Upon Upgrading**.
 
 
-1\. Go into Subaccount Settings > Company Billing and click "View" for any invoice shown in the Billing History.
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080791576/original/kJoICfb8Cd9YhngyWP0xAimdoBt_-bKLmQ.png?1789247807)
 
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080791578/original/1Nblpes9hZRTFImH5wleyKYlkuBpHh3uGA.png?1789247863)
 
+### Allow Upgrades for a Specific Client
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48179191623/original/YgHpXmm6kMJ-ZXFtH_ampYMSw6Qq10CdJQ.png?1642180932)
+Per-client controls let you enable self-service upgrades for an individual sub-account without changing the agency-wide default for other clients.
 
-  
-  
+  1. Sign in to your agency account.
+  2. Go to **Sub-accounts**.
+  3. Find the client sub-account and select **⋯ > Manage Client**.
+  4. Enable **Allow sub-account admins to upgrade their subscription**.
+  5. Enable **Add New Plans Features and Apps Upon Upgrading** if the upgraded feature set should become available immediately.
 
 
-2\. Copy the invoice number.  
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080791588/original/GrykPcD4gLGceumsyE25X0tFT6butC-B9A.png?1789247910)
 
+![Per-client SaaS upgrade permissions](https://jumpshare.com/share/tFgldzrcAp6bsYEORmyr+/Screenshot+2025-12-09+at+8.08.11%E2%80%AFPM.png)
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48179191948/original/28_J0a_IQe8l30wGT2UWHt0iDyTkxAwCqQ.png?1642181036)
+### Configure Client-Initiated Downgrades
 
-  
-  
+Downgrades use separate settings from the upgrade permission. You can decide whether clients may downgrade themselves, collect downgrade reasons, and optionally configure retention offers before a lower-tier plan is scheduled.
 
+Configure downgrade behavior in **SaaS Configurator > Downgrade Settings**. Eligible downgrades take effect according to the configured downgrade flow, typically at the start of the next billing cycle. See [How to Configure Downgrade Settings for SaaS Clients](<https://help.gohighlevel.com/support/solutions/articles/155000006450-how-to-configure-downgrade-settings-for-saas-clients>).
 
-3\. Search for the invoice number on Stripe and click on the invoice to open the details.  
-  
+6
 
+## How Clients Change Their SaaS Plan
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48179192675/original/IxhpfGaIOK5uxgGt3WgUba37jlPIW6ybQg.png?1642181198)
+Clients can manage available plan changes from their billing area when your agency has enabled the relevant self-service permissions. The exact options shown depend on the client's current plan, plan category and level, currency, architecture, and your configured upgrade or downgrade rules.
 
-  
-  
+### Client Upgrade Flow
 
+The upgrade flow lets an eligible client select a higher plan and complete the associated billing change from Company Billing.
 
-4\. Click on the customer email shown in the 'Billed to' column on the invoice; it will take you to the customer's profile in Stripe.  
-  
+Step 1
 
+Open Company Billing
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48179193172/original/jJl6AoSWYy6CzP-DRhLJOuy9aCe_S1tF0Q.png?1642181316)
+Sign in to the client sub-account and go to **Settings > Company Billing**.
 
-  
-  
+![Company Billing page inside a client sub-account](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060236383/original/Y9q2Uq2hSKlLAnk2V2fnBESOlVoeW1IxWA.png?1765292095)
 
+Step 2
 
-### **Changing the subscription plan**
+Select Upgrade
 
-  
+Click **Upgrade** to view the plans available to the client.
 
+![Upgrade action in Company Billing](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060236426/original/kNndbG7aeuo39PgK2NDdrM2htx9BaHwRhg.png?1765292134)
 
-Now that we are in the customer profile on Stripe, we have updated the client's subscription plan.
+Step 3
 
-  
+Choose the New Plan
 
+Select the destination SaaS plan. Available choices depend on the configured plan category, level, pricing, currency, and client eligibility.
 
-1\. Click on the pencil icon to update the subscription plan.  
-  
+![Available SaaS plans shown during the upgrade flow](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060236668/original/PA1QyQasuchZqKo6CZqlMkTHULfeNbvy4A.png?1765292284)
 
+Step 4
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48179204701/original/tW6N-xWl8eQg9Slvwr0PISwUriI_BCJgzg.png?1642183950)
+Review Billing Options
 
-  
-  
+Review the plan price and available billing interval options. For SaaS V2 subscriptions, monthly and annual billing can be changed as part of the supported plan change.
 
+![Plan change screen showing billing interval options](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48283852490/original/kFYGhwqxIrVkK_C_8uqXFaTt6SBcEmhZZQ.png?1677442334)
 
-**2.** Remove the current price and add the new plan's price.  
-  
+Step 5
 
+Confirm the Plan Change
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48179205217/original/qgQsQVyZBOJFYg9daBCfeUTldUzQNuxs2A.png?1642184088)
+Review the final billing information and select **Confirm & Pay**. If immediate feature access is enabled by the agency, the client can receive the new plan's configured features and apps when the upgrade completes.
 
-  
-  
+![Confirm and Pay step for a SaaS plan upgrade](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48283852530/original/RMElQ7DTY-E66queGSyUWLBgJ01MOLS23A.png?1677442426)
 
+**Eligible SaaS V1 subscriptions:** When the supported upgrade completes, the subscription bridge updates both the Stripe subscription and the corresponding subscription in the selling sub-account.
 
-3\. Review your changes, prorate changes if you want to adjust the billing difference in the next invoice, and then hit the update button.  
-  
+### Client Downgrade Flow
 
+When self-service downgrades are enabled, clients can initiate a move to a lower plan from their billing settings. Downgrades can include a required reason and optional retention offer, and eligible changes are scheduled according to your downgrade configuration.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48179205549/original/YHLzV6ZB7SuwdPZgJPqUR47CJ458GKHFgQ.png?1642184206)
+**Typical client path:** Account Settings → Billing → Modify Subscription → Downgrade.
 
-  
-  
+**Downgrade timing:** If a downgrade is scheduled for the start of the next billing cycle, the V1 subscription synchronization should be understood as occurring when the qualifying downgrade takes effect—not merely when the client first requests it.
 
+7
 
-4\. On your agency account, go to the Accounts tab > View details for the location. The plan is now upgraded, **but** you still need to update their accessible features according to the new plan:
+## Agency-Side SaaS V1 Plan Changes
 
-  
+SaaS V1 continues to use Stripe as its billing system of record, so agencies may still need to work with the customer's Stripe subscription in legacy or manual scenarios. Direct Stripe edits should be treated separately from the supported SaaS upgrade/downgrade event that triggers the new subscription bridge.
 
+**Important:** Do not assume an arbitrary manual Stripe edit automatically updates the corresponding subscription in the selling sub-account. The new bridge is documented for supported SaaS upgrade/downgrade events. After a direct Stripe edit, verify the subscription state and client feature access.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48179200049/original/j2uNrKdUuGRToQ7uQSxL_inhtBd_CYkXlw.png?1642183048)
+### Find the SaaS V1 Customer in Stripe
 
-  
-  
+Use the client's invoice information to identify the correct Stripe customer before making a manual V1 subscription change. This helps avoid modifying the wrong customer record.
 
+  1. Open the client sub-account and go to **Settings > Company Billing**.
+  2. Select **View** for an invoice in Billing History.
+  3. Copy the invoice number.
+  4. Search for that invoice in Stripe and open it.
+  5. Select the customer shown in the invoice's billing details to open the correct Stripe customer profile.
 
-5\. Save the updated feature set for this location, and then you're good to go!
 
-  
+![Company Billing invoice history](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48179191623/original/YgHpXmm6kMJ-ZXFtH_ampYMSw6Qq10CdJQ.png?1642180932)
 
+![Invoice number used to locate the Stripe customer](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48179191948/original/28_J0a_IQe8l30wGT2UWHt0iDyTkxAwCqQ.png?1642181036)
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48179200337/original/oun45XOJp3E2WWwfY5NH_zIyebPvLT-YOQ.png?1642183137)
+![Stripe invoice details used to identify the SaaS customer](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48179192675/original/IxhpfGaIOK5uxgGt3WgUba37jlPIW6ybQg.png?1642181198)
 
-* * *
+### Change the SaaS V1 Subscription in Stripe
 
-## **Frequently Asked Questions**
+For a manual V1 change, edit the customer's existing Stripe subscription carefully and confirm the intended price and billing behavior before saving.
 
-  
+  1. Open the customer's active subscription in Stripe.
+  2. Select the edit control for the subscription.
+  3. Remove the current price and add the correct price for the destination SaaS plan.
+  4. Review any Stripe proration or billing adjustments that apply to the V1 change.
+  5. Save the subscription update.
 
 
-**Q: Can clients upgrade immediately and get features right away?**
+![Stripe subscription edit control](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48179204701/original/tW6N-xWl8eQg9Slvwr0PISwUriI_BCJgzg.png?1642183950)
 
-Yes, if you enable the option to **Add New Plans Features and Apps Upon Upgrading.**
+![Stripe subscription price selection](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48179205217/original/qgQsQVyZBOJFYg9daBCfeUTldUzQNuxs2A.png?1642184088)
 
-  
+![Stripe subscription update and proration options](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48179205549/original/YHLzV6ZB7SuwdPZgJPqUR47CJ458GKHFgQ.png?1642184206)
 
+### Verify Feature Access and Subscription Alignment
 
-**Q: Why doesn’t the destination plan appear for my client?**
+After a direct Stripe change, verify the client's plan access in the agency and confirm that any corresponding selling-sub-account subscription reflects the intended state. Manual Stripe edits are not the same as a supported SaaS plan-change event.
 
-Check **Category/Level** alignment, **currency** match, self-serve permissions, and whether the **Stripe price** has been imported into HighLevel.
+  1. Return to the agency view and open the client's account details.
+  2. Verify that the client's accessible features match the intended destination plan.
+  3. Save any required feature-access changes.
+  4. If the subscription was originally sold through a V1 selling sub-account, verify that the sub-account subscription is not left with stale product or price information.
 
-  
 
+![Agency account details used to verify SaaS plan feature access](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080791562/original/8YyjlynWu_RqI0QbCorzn3HBRX9lME5YWA.png?1789247677)
 
-**Q: Can I block clients from downgrading on their own?**
+8
 
-Yes. Disable self-downgrades and handle plan changes through agency support instead.
+## Frequently Asked Questions
 
-  
+Q: Does a supported SaaS V1 upgrade update both Stripe and the selling-sub-account subscription?
 
+Yes, for eligible V1 subscriptions created through the supported selling-sub-account pattern. The supported upgrade flow updates the Stripe subscription and the corresponding subscription inside the selling sub-account.
 
-**Q: What if we changed prices in Stripe and the new price isn’t showing?**
+Q: Does the same synchronization apply to downgrades?
 
-**Import** the updated price into HighLevel and ensure the correct **currency** and **price ID** are selected for the plan.
+Yes, when an eligible SaaS V1 downgrade goes through the supported plan-change flow. If the downgrade is scheduled for a later billing date, the synchronized plan change occurs when the downgrade takes effect.
 
-  
+Q: Are older V1 subscription mismatches automatically repaired?
 
+No. Existing mismatches are not automatically backfilled. A future supported upgrade or downgrade can update both subscription records through the new bridge.
 
-**Q: What happens if a payment fails after changing plans?**
+Q: Will invoices use the new product and price after an eligible V1 plan change?
 
-The account may **auto-pause**. Update the payment method, retry the charge, and **resume** the account.
+Yes. Keeping the selling-sub-account subscription aligned allows invoices generated from that subscription to reference the current product and price after the supported plan change.
 
-* * *
+Q: Is tax recalculated after an eligible V1 upgrade or downgrade?
 
-### **Related Articles**
+Yes. The synchronized subscription uses the current plan information so tax can be recalculated against the updated plan instead of stale product or price data.
 
-  
+Q: Does manually editing a Stripe subscription guarantee the same V1 synchronization?
 
+No automatic guarantee should be assumed for arbitrary direct Stripe edits. The bridge is documented for supported SaaS upgrade and downgrade events. Verify the corresponding selling-sub-account subscription after a manual Stripe change.
 
-  * [How to Cancel SaaS sub-account for your client](<https://help.gohighlevel.com/en/support/solutions/articles/48001216453>)  
-  
+Q: Why doesn't the destination plan appear for my client?
 
+Check plan category and level alignment, currency, client self-service permissions, and the pricing configuration associated with the destination plan.
 
-  * [How to Configure Downgrade Settings for SaaS Clients](<https://help.gohighlevel.com/en/support/solutions/articles/155000006450>)  
-  
+Q: Can clients receive upgraded features immediately?
 
+Yes, when **Add New Plans Features and Apps Upon Upgrading** is enabled for the applicable client or SaaS setup.
 
-  * [SaaS Configurator - Modify Plan Category and Plan Level](<https://help.gohighlevel.com/en/support/solutions/articles/155000006506>)  
-  
+Q: Can SaaS V2 clients switch between monthly and annual billing?
 
+Yes. SaaS V2 subscriptions can switch between monthly and annual billing as part of a supported plan upgrade or downgrade. SaaS V2 does not support proration for tier changes, billing-interval changes, or combined tier and interval changes.
 
-  * [Convert Existing Sub-Account to SaaS Mode Subscription Plan](<https://help.gohighlevel.com/en/support/solutions/articles/48001188055>)  
-  
+9
 
+### Related Articles
 
-  * [SaaS Mode - Full Setup Guide + FAQ](<https://help.gohighlevel.com/en/support/solutions/articles/48001184920>)
+[ Getting Started with the SaaS Configurator ](<https://help.gohighlevel.com/support/solutions/articles/155000008015-getting-started-with-the-saas-configurator>) [ How to Configure Downgrade Settings for SaaS Clients ](<https://help.gohighlevel.com/support/solutions/articles/155000006450-how-to-configure-downgrade-settings-for-saas-clients>) [ Automatic Tax Calculation with Stripe for SaaS Subscriptions ](<https://help.gohighlevel.com/support/solutions/articles/155000007789-automatic-tax-calculation-with-stripe-for-saas-subscriptions>) [ Payments - What is listed on the Subscriptions page? ](<https://help.gohighlevel.com/support/solutions/articles/48001225935>) [ SaaS Configurator - Modify Plan Category and Plan Level ](<https://help.gohighlevel.com/support/solutions/articles/155000006506>) [ How to Cancel SaaS Sub-Account for Your Client ](<https://help.gohighlevel.com/support/solutions/articles/48001216453>)

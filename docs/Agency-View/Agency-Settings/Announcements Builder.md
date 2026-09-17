@@ -101,18 +101,52 @@ When creating an announcement, configure the core banner details such as:
 Choosing the right visibility scope helps agencies avoid over-communicating while still keeping the correct users informed. This is especially important when announcements apply only to agency users, only to sub-accounts, or to both experiences.
 
   
-Announcements Builder supports banner visibility across:  
+
+
+Announcements Builder supports banner visibility across:
+
   
 
 
-  * **Agency Level:** Use this when the announcement is intended for users operating in the agency experience  
+\- Agency Level: Use this when the announcement is intended for users operating in the agency experience
+
+\- Account Level: Use this when the announcement should appear for sub-account users
+
+\- Both: Use this when the message is broadly relevant across both agency and account-level experiences
+
   
 
-  * **Account Level:** Use this when the announcement should appear for sub-account users  
+
+### Advanced Filters
+
   
 
-  * **Both:** Use this when the message is broadly relevant across both agency and account-level experiences
 
+For more precise targeting, use Advanced Filters to show a banner only when specific conditions are met. Filters are grouped into two categories:
+
+  
+
+
+**User fields:** Email, First name, Last name, User (search), Role, Platform Language, Type
+
+  
+
+
+**Sub-account fields:** Sub-account (search), Status, Suspended reason, Address, City, Country, Currency, State, Postal code, Phone, Website, Timezone, Locale, Niche, HIPAA compliance, Agency account, Has LC email, LC email permanent lock, SaaS mode, Snapshot
+
+  
+
+
+Conditions work as follows:
+
+\- Conditions added within the same filter group are combined with AND — all must be true for the banner to show
+
+\- Click "+ Add filter" to create a new group, which is combined with OR — the banner shows if any group's conditions are met
+
+  
+
+
+Example: "Sub-account Is [Name]" AND "Country Is one of Australia" — OR — "Has LC email Is True"
 
 * * *
 
@@ -163,6 +197,14 @@ Announcements can include an optional CTA button with:
   
 Use CTA buttons when the banner should send users to a specific page, resource, or workflow. Keep the destination relevant to the announcement so users can act on the message immediately.
 
+  
+
+
+Redirect behavior, including the option to Open in new tab, so users stay on your platform while the linked page opens separately
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079575378/original/bL1LhH3nXcfVKJmgHKkirp9cxEoNt-NEtQ.png?1787934486)  
+
+
 * * *
 
 ## **Priority and Frequency Behavior**
@@ -205,8 +247,7 @@ Proper setup helps ensure announcements are clear, relevant, and shown to the ri
 
   2. Add the Message Content for the announcement.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069618369/original/a2VDtk7lzeatZBnPsitheZaYl6hRuaT9sA.png?1776779587)  
-
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069618369/original/a2VDtk7lzeatZBnPsitheZaYl6hRuaT9sA.png?1776779587)
   3. Choose the appropriate Priority level: Critical, Warning, or General.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069618459/original/gAKu0uNjqcnGF9pV7BTGhLb0p-cBkfw83g.gif?1776779677)  
@@ -226,12 +267,9 @@ Proper setup helps ensure announcements are clear, relevant, and shown to the ri
 
   7. Configure the destination URL and redirect behavior.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069618929/original/nXTkoi0KfqRzAbQ6qy-tAvKohRHb6uzCag.png?1776779967)  
-
-  8. Review the banner in real-time preview for agency and sub-account presentation.  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069618995/original/OED-biy54A8_HPa_WcSlO2pjeys98rU7jA.png?1776779995)  
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069618929/original/nXTkoi0KfqRzAbQ6qy-tAvKohRHb6uzCag.png?1776779967)
+  8. Under the Audience tab, set Advanced Filters if you want to target specific sub-accounts or users. Choose a field, operator, and value, then use "+ Add" for AND conditions or "+ Add filter" for OR groups.  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079575808/original/vQEDoxsDAhyJbJjhuEybuZAxZCBUB1v49A.png?1787934677)  
 
   9. Save the announcement as Draft if it still needs review, or set it to Active when it is ready to be displayed.  
   
@@ -282,8 +320,15 @@ Proper setup helps ensure announcements are clear, relevant, and shown to the ri
 ** A: This feature is best managed by agency-side users who are responsible for communication and platform administration. HighLevel’s current help content places related banner-management controls in Agency Settings, and access is generally governed by agency roles and permissions.
 
   
-**Q: Does HighLevel already support more advanced targeting and lifecycle states?  
-** A: The release details you provided list granular targeting, page-level visibility controls, dismissal configuration, and extended states such as Scheduled and Expired as future updates, so they should not be treated as current standard functionality in this article.
+**Q: Can I target a banner to specific sub-accounts or users?  
+** A: Yes. Use Advanced Filters in the Audience tab to build conditions based on sub-account or user attributes. Combine conditions with AND within a group, or add a new group for OR logic. 
+
+  
+
+
+**Q:Can a CTA button open a link in a new tab?**
+
+Q: A: Yes. When configuring the CTA button's redirect behavior, you can choose "Open in new tab" to send users to an external page without navigating away from HighLevel.
 
 * * *
 

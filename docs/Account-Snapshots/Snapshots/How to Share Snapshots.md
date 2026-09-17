@@ -6,263 +6,249 @@
 
 ---
 
-Snapshots can be shared to new and existing sub-accounts. We'll cover how to share a snapshot with another sub-account and how to use them with SaaS mode so new sub-accounts will be created with the snapshot you define instantly. 
+Snapshots • Sharing • Assets Protection
 
-* * *
+How to Share Snapshots
 
-**TABLE OF CONTENTS**
+Share reusable Snapshot configurations with the right recipients, choose the appropriate link type, and control how protected assets behave when a Snapshot crosses agency boundaries.
 
-  * What is Snapshot Sharing?
-  * Key Benefits of Snapshot Sharing
-  * How To Share a Snapshot 
-  * Link Types & When to Use Them
-  * Frequently Asked Questions
-  * Related Articles
+What You'll Learn
 
+Snapshot sharing lets agencies distribute reusable configurations through controlled share links without rebuilding assets manually. This guide explains the available link types, Assets Protection, mixed Snapshots, protected-asset review, and how Snapshot sharing differs from SaaS provisioning.
 
-* * *
+You'll also learn how sharing, importing, and loading work together and what to do when you need to distribute an updated Snapshot.
 
-# **What is Snapshot Sharing?**
+Important
 
-  
+Sharing, importing, and loading are different Snapshot actions. **Sharing** generates access to a Snapshot, **importing** adds a shared Snapshot to the recipient's agency-level Snapshot library, and **loading** applies selected Snapshot assets to a sub-account.
 
+Table of Contents
 
-Snapshot Sharing is the process of generating a secure link (or invite) that allows another agency or sub-account to import a curated package of assets—funnels, workflows, forms, templates, and more from your HighLevel account. Understanding how sharing works ensures you pick the right link type, protect your intellectual property, and streamline onboarding.
+1
 
-  
+What is Snapshot Sharing?
 
+2
 
-  * Sharing provides recipients a way to **import** the Snapshot into their own agency/sub-account.  
-  
+Key Benefits of Snapshot Sharing
 
+3
 
-  * Some link types allow **one-time** use, while others are **permanent** or **restricted** to specific recipients.  
-  
+Link Types & When to Use Them
 
+4
 
-  * **Assets Protected Snapshots** stop recipients from duplicating or re-sharing protected content.
+Sharing Snapshots That Contain Protected Assets
 
+5
 
-* * *
+Snapshot Sharing vs. SaaS Provisioning
 
-## **Key Benefits of Snapshot Sharing**
+6
 
-  
+How To Set Up Snapshot Sharing
 
+7
 
-  * **Speed of deployment:** roll out proven funnels, automations, and settings in minutes across many accounts.  
-  
+Frequently Asked Questions
 
+8
 
-  * **Consistency:** eliminate configuration drift by distributing standardized builds.  
-  
+Related Articles
 
+1
 
-  * **Control:** choose link types that fit each scenario—single-use, permanent, or restricted.  
-  
+# What is Snapshot Sharing?
 
+Snapshot Sharing is the process of generating a share link or invitation that gives another recipient access to a reusable Snapshot. A Snapshot can contain selected configuration assets such as workflows, funnels, forms, templates, calendars, and other supported account settings.
 
-  * **Protection:** lock down high-value assets with Assets Protected Snapshots.  
-  
+When another agency receives a share link, it imports the Snapshot into its agency-level Snapshot library. The imported Snapshot can then be loaded into the appropriate sub-account according to the access and restrictions associated with the share.
 
+Share-link options let you control who can access a Snapshot, whether the link can be reused, and whether Assets Protection should restrict protected content from being redistributed outside the receiving agency.
 
-  * **Scale for SaaS:** auto-provision new SaaS signups with a preselected default snapshot.
+2
 
+## Key Benefits of Snapshot Sharing
 
-* * *
+Snapshot sharing makes repeatable configurations easier to distribute while giving agencies control over recipient access and protected content. Choosing the right sharing method helps balance speed, consistency, and protection.
 
-## **How To Share a Snapshot**
+**Faster Deployment:** Distribute proven workflows, funnels, templates, and other configurations without rebuilding them manually.
 
-  
+**Consistency:** Give recipients access to standardized configurations that can be imported and reused.
 
+**Controlled Access:** Choose reusable, single-use, agency-restricted, or sub-account-restricted sharing methods.
 
-Follow these steps from the Snapshots list to produce the right type of share link and distribute it to recipients.
+**Assets Protection:** Allow protected assets to be used within the receiving agency while restricting their redistribution outside that agency.
 
-  
+**Mixed Snapshot Sharing:** Continue sharing eligible non-protected assets even when the Snapshot also contains protected assets.
 
-    
-    
-    **Note** : It is important to [refresh the Snapshot](<https://help.gohighlevel.com/en/support/solutions/articles/48000982583>) before pushing updates to connected sub-accounts. After pushing the updates, you will have the option to choose which updates to bring over.
+**Pre-Share Visibility:** Review protected assets that will be excluded before completing an external share.
 
-  
+3
 
+## Link Types & When to Use Them
 
-  1. Go to **Agency View → Account Snapshots > My Snapshots**.  
-  
-![](https://jumpshare.com/share/QmzbOAYgy2d10wuvVx9A+/Screen+Shot+2025-12-10+at+8.01.02+PM.png)  
-  
+Each Snapshot sharing option controls who can access the Snapshot and how the link can be used. Selecting the appropriate link type reduces accidental reuse and helps match access to the intended recipient.
 
-
-  2. Locate your snapshot and click **⋯ three dots → Share Snapshot**.  
-  
-![](https://jumpshare.com/share/ogUl0SQhW4w2Fy8vph9O+/Screen+Shot+2025-12-10+at+8.06.36+PM.png)  
-  
-
-
-  3. Choose a **Share Option** :  
-  
-
-
-     * **Permanent Link** : generates a reusable link for repeated imports.  
-  
-  
-
-     * **One-Time Link** : generates a single-use link you send directly.  
-  
-
-
-     * **Email Link:** Single use link sent via email.  
-  
-
-
-     * **Agency-Restricted** : enter the partner agency’s **relationship number**.  
-  
-
-
-     * **Sub-Account Restricted** : select the exact destination sub-account.  
-  
-_Tip: If your goal is to sell this Snapshot on the Marketplace, you can use**⋯ → Sell on Marketplace** from **Account Snapshots** to launch a guided listing flow and get your Marketplace link immediately. Marketplace Share Link remains the backend URL concept used for Marketplace listings._  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064696055/original/FFdPVRdO1QCb0YJu2yo0CaeVfGr8Ss_JUw.gif?1770819813)  
-
-
-  4. Toggle **Assets Protected** to prevent copying/re-sharing of protected content. _(Optional)_   
-  
-
-
-  5. Click **Get Link**.  
-
-
-  6. Copy the link and share it with the intended recipient(s).  
-  
-![](https://jumpshare.com/share/KAsxVvxJwfGqQHYm728A+/Screen+Shot+2025-12-10+at+9.35.56+PM.png)
-
-
-* * *
-
-## **Link Types & When to Use Them**
-
-  
-
-
-Picking the correct link type prevents accidental reuse, limits exposure, and matches real-world sharing needs.
-
-  
-
-
-Link Type| Who Can Import| Reuse/Behavior  
+Link Type| Who Can Import| Behavior / Best Use  
 ---|---|---  
-**Permanent Link**  
-|  Anyone with the URL  
-| Unlimited imports; stays active until you manually revoke or delete snapshot.[](<https://help.gohighlevel.com/support/solutions/articles/48000982513-how-to-share-snapshots>)  
+**Permanent Link**|  Anyone with the active URL| Reusable for repeated imports. Best when the same Snapshot needs to be distributed more than once.  
+**One-Time Link**|  Anyone with the URL until the permitted import is completed| Designed for a single successful import. Generate another link for another recipient.  
+**Email Link**|  The intended email recipient| A single-use sharing experience delivered by email instead of manually copying the URL.  
+**Agency-Restricted Link**|  Only agencies whose relationship numbers are specified| Restricts access to approved agencies. Multiple agency relationship numbers can be specified when supported by the sharing workflow.  
+**Sub-Account Restricted Link**|  Only the designated sub-account| Best when the Snapshot must be limited to a specific destination rather than broadly reusable.  
+**Marketplace Share Link**|  Eligible buyers through the HighLevel App Marketplace listing| Used as part of Marketplace Snapshot distribution. Assets Protection is automatically applied to help prevent protected assets from being repackaged or resold.  
   
-**One-Time Share Link**|  Anyone with the URL (until first import)| Expires after a single successful import; you must generate a new link for each new buyer/client.[](<https://help.gohighlevel.com/support/solutions/articles/48000982513-how-to-share-snapshots>)  
-**Email Link**|  Email recipients  
-| Functionally same as a one‑time link, but delivered via email; can be used from the email by any agency owner logged into GHL.[](<https://help.gohighlevel.com/support/solutions/articles/48000982513-how-to-share-snapshots>)  
+**Selling on the Marketplace:** From **Agency View > Account Snapshots**, use the Snapshot action menu and select **Sell on Marketplace** to begin the guided Marketplace listing workflow.
+
+![Sell on Marketplace Snapshot workflow](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064696055/original/FFdPVRdO1QCb0YJu2yo0CaeVfGr8Ss_JUw.gif?1770819813)
+
+4
+
+## Sharing Snapshots That Contain Protected Assets
+
+Assets Protection controls what happens when protected Snapshot content would leave an agency. Protected assets can be reused across sub-accounts and Snapshots inside the receiving agency, but the protected status remains attached and restricts external redistribution.
+
+Applying Assets Protection to a Snapshot You Share
+
+Turn on **Assets Protected** when generating the share if you want applicable Snapshot assets to remain protected after the recipient imports them. Recipients can use those protected assets within their agency, but protected content remains restricted from external redistribution or resale.
+
+Sharing a Snapshot That Already Contains Protected Assets
+
+If the Snapshot contains protected assets inherited from an earlier protected Snapshot, those assets can continue to be used internally. When the Snapshot is shared outside the agency, protected assets are excluded while eligible non-protected assets continue through the share.
+
+**Important:** The presence of protected content does not make the entire Snapshot unshareable. Mixed Snapshots can still be shared externally; only the protected assets are held back.
+
+### **Review Protected Assets Before Sharing**
+
+When protected content is detected during external sharing, HighLevel provides a review of the assets that cannot leave the agency and the eligible assets that can continue. Expand asset groups when you need to inspect individual items before completing the share.
+
+![Pre-share review showing protected assets that will be excluded from an external Snapshot share](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079639423/original/E7foOi4Auy87TrfEgsQWdNFHXG4a6NkMrA.png?1788098960=)
+
+![Expanded protected-asset review showing individual Snapshot asset sharing status](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079639427/original/ynk1V7vKC42k6ZVMz8XJE7wwx_KblmGv4Q.png?1788098976=)
+
+For the complete protection model, see [Assets Protected Snapshots (Called "IP Protected" Earlier)](<https://help.gohighlevel.com/support/solutions/articles/155000002852-assets-protected-snapshots-called-ip-protected-earlier->).
+
+5
+
+## Snapshot Sharing vs. SaaS Provisioning
+
+Manual Snapshot sharing and SaaS provisioning can both distribute Snapshot configurations, but they solve different onboarding needs. Understanding the distinction prevents share links from being confused with automated SaaS account creation.
+
+Workflow| How It Works| Best For  
+---|---|---  
+**Snapshot Sharing**|  You generate a share link or invite. The recipient imports the Snapshot and then uses it in the appropriate account workflow.| Manual distribution to agencies, clients, partners, or specific destinations.  
+**SaaS Provisioning**|  A Snapshot is attached to a SaaS plan and can be automatically applied when checkout provisions a new sub-account.| Automated SaaS onboarding and repeatable account creation.  
   
-**Agency-Restricted Link**|  Only agencies whose relationship ID you list| Unlimited imports, but **only** into the specified agency accounts; you can list multiple relationship numbers.  
-**Sub-Account Restricted Link**|  Only the exact sub-accounts specified| Single destination; only that specific sub‑accounts can import from that link (no cross‑agency reuse).  
-**Marketplace Share Link**|  Any buyer via GHL App Marketplace listing  
-| Used as the backend URL for your Marketplace “app”; IP protection is on by default so assets are harder to resell; imports are controlled by Marketplace licensing.  
-  
-  
-* * *
+For automated SaaS provisioning, see [Getting Started with the SaaS Configurator](<https://help.gohighlevel.com/support/solutions/articles/155000008015-getting-started-with-the-saas-configurator>).
 
-## **Frequently Asked Questions**
+6
 
-  
+## How To Set Up Snapshot Sharing
 
+Proper setup ensures the Snapshot reaches the intended recipient with the correct access and protection settings. Confirm permissions and refresh the Snapshot when needed before generating the share.
 
-**Q: Are all link types available on all three HighLevel plans ($97/$297/$497)?**
+Required Access
 
-Yes, all link types are available on every plan tier.
+The user must have the appropriate Snapshot permissions. If the sharing action is unavailable, verify that **Share/Import Snapshots** access is enabled for that user.
 
-  
+Before Sharing Updated Content
 
+If the source sub-account changed after the Snapshot was created, [refresh the Snapshot](<https://help.gohighlevel.com/support/solutions/articles/48000982583-refresh-or-update-snapshots>) first so the share contains the intended current assets.
 
-**Q: If I share a snapshot with agencies outside of my own and later make updates to it, will those changes be reflected or automatically updated in the snapshot previously shared with other agencies?**
+Step 1
 
-No, regardless of your share options (1-4), snapshots are always considered clones of a specific sub-account at a specific moment. Therefore, any updates made to a snapshot will not be automatically reflected in previously shared snapshots.
+Open My Snapshots
 
-  
+From **Agency View** , go to **Account Snapshots > My Snapshots**.
 
+![Account Snapshots page showing My Snapshots](https://jumpshare.com/share/QmzbOAYgy2d10wuvVx9A+/Screen+Shot+2025-12-10+at+8.01.02+PM.png)
 
-**Q: How can I update a snapshot for sub-accounts within my agency?**
+Step 2
 
-To update a snapshot for sub-accounts within your agency, you need to follow these steps:  
-  
+Open the Share Snapshot Workflow
 
+Locate the Snapshot you want to distribute, open the **⋯ three-dot** action menu, and select **Share Snapshot**.
 
-  * First, update the Snapshot with the desired changes.
-  * Next, push the updated Snapshot to the linked sub-accounts within your agency.
+![Snapshot action menu showing Share Snapshot](https://jumpshare.com/share/ogUl0SQhW4w2Fy8vph9O+/Screen+Shot+2025-12-10+at+8.06.36+PM.png)
 
+Step 3
 
-  
+Choose a Share Option
 
+Select the sharing method that matches the intended recipient and reuse requirements:
 
-**Q: How should I update a shared snapshot using share options 1, 2, and 3 from above to agencies outside of mine?**
-
-If you have shared a snapshot using share options 1, 2, or 3, and you want to update it, follow these steps:
-
-  
+  * **Permanent Link** for reusable sharing.
+  * **One-Time Link** for a single-use share.
+  * **Email Link** for single-use delivery by email.
+  * **Agency-Restricted** to limit access to specified agencies.
+  * **Sub-Account Restricted** to limit the Snapshot to the selected destination.
 
 
-  * Refresh or update the existing snapshot with the desired changes.
-  * Re-share the NEW snapshot URL with the agencies involved.
+Step 4
+
+Configure Assets Protection (Optional)
+
+Turn on **Assets Protected** when you want the applicable Snapshot assets to remain protected after the recipient imports them. Protected assets can be reused within the receiving agency but remain restricted from external redistribution or resale.
+
+![Share Snapshot modal with Assets Protection enabled](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080790014/original/J98dDhBlRFMrf3IRwqjvrl0I4uXCbmdd9Q.png?1789242364)
+
+Enable Assets Protection before generating the protected share.
+
+Step 5
+
+Review Protected Assets When Applicable
+
+If the Snapshot already contains protected assets and the share would send content outside the agency, review the protected content shown before continuing. Protected assets will be excluded while eligible non-protected assets can continue through the share.
+
+Step 6
+
+Generate and Share the Link
+
+  1. Click **Get Link**.
+  2. Copy the generated link and send it to the intended recipient.
 
 
-  
+![Generated Snapshot share link ready to copy](https://jumpshare.com/share/KAsxVvxJwfGqQHYm728A+/Screen+Shot+2025-12-10+at+9.35.56+PM.png)
 
+7
 
-It's important to note that generating a new Snapshot URL will invalidate the previous one. Therefore, ensure that you share the new URL for the updated snapshot.
+## Frequently Asked Questions
 
-  
+Q: Can I share a Snapshot that contains protected assets?
 
+Yes. If the Snapshot contains both protected and non-protected assets, the eligible non-protected assets can still be shared externally. Protected assets are excluded when they would leave the agency.
 
-**Q:How can I share an updated snapshot with agencies using 'Sub-account' or 'Agency' restricted share links (Share options 3 & 4 from above)?**
+Q: Do I need to remove protected assets manually before sharing a mixed Snapshot?
 
-To share a new snapshot with agencies using 'Sub-account' or 'Agency' restricted share links, follow these steps:
+No. HighLevel identifies protected assets during external sharing and excludes them while allowing eligible assets to continue.
 
-  
+Q: Can the receiving agency reuse protected assets internally?
 
+Yes. Protected assets can be reused across sub-accounts and Snapshots inside the receiving agency. Their protected status continues to follow them.
 
-  1. [Refresh or update](<https://help.gohighlevel.com/en/support/solutions/articles/48000982583>) the current snapshot with the desired changes.
-  2. Go to the snapshot share modal and select the 'Sub-account' or 'Agency' restricted share link.
-  3. Enter all the _**existing and new**_ 'sub-account' or 'Agency' relationship numbers.
-  4. Click on 'share' to generate a new snapshot URL.
-  5. Share this new URL with the agencies involved, as the old URL will no longer work.
+Q: Can the receiving agency re-share or resell protected assets to another agency?
 
+No. Protected assets remain restricted when they would leave the receiving agency.
 
-  
+Q: If I update a Snapshot after sharing it with another agency, does the recipient receive the changes automatically?
 
+No. External agencies do not receive Snapshot updates automatically. Refresh the Snapshot, generate the appropriate updated share, and have the external agency import the updated Snapshot.
 
-**Q:I shared my snapshot and did not see the 'New' items. What happened?**
+Q: How do I update sub-accounts inside my own agency?
 
-If you shared a snapshot and did not see the 'New' items, you may not have updated the existing snapshot before sharing it. Remember that snapshots are copies of a specific account at a specific point in time.  
-  
-To include the 'New' items in the shared snapshot, you need to follow these steps:
+Refresh the Snapshot first. You can then use **Push Updates** for eligible linked sub-accounts inside your agency and choose which refreshed assets to send.
 
-  
+Q: I shared a Snapshot but the recipient did not see my newest assets. What happened?
 
+The Snapshot may not have been refreshed after the source sub-account changed. Refresh the Snapshot so the new or modified assets are captured, then share the updated Snapshot again.
 
-  * Update the existing snapshot to include the 'New' items.[](<https://help.gohighlevel.com/en/support/solutions/articles/48001185085>)
-  * Re-share the updated snapshot or [push the update](<https://help.gohighlevel.com/en/support/solutions/articles/48000982583>) to the relevant sub-accounts.
+Q: Why don't I see the option to share a Snapshot?
 
+Check the user's Snapshot permissions. The appropriate **Share/Import Snapshots** permission must be enabled for the user to perform Snapshot sharing actions.
 
-* * *
+8
 
-## **Related Articles**
+### Related Articles
 
-  
-
-
-  * [Creating New Snapshots in HighLevel](<https://help.gohighlevel.com/en/support/solutions/articles/48000982512>)  
-  
-
-  * [How to Import Snapshots](<https://help.gohighlevel.com/en/support/solutions/articles/48000982581>)  
-  
-
-  * [Refresh or Update Snapshots](<https://help.gohighlevel.com/en/support/solutions/articles/48000982583>)  
-  
-
-  * [Assets Protected Snapshots ( Called "IP Protected" Earlier )](<https://help.gohighlevel.com/en/support/solutions/articles/155000002852>)
+[ Assets Protected Snapshots (Called "IP Protected" Earlier) ](<https://help.gohighlevel.com/support/solutions/articles/155000002852-assets-protected-snapshots-called-ip-protected-earlier->) [ Snapshots - Overview ](<https://help.gohighlevel.com/support/solutions/articles/48000982511>) [ Creating New Snapshots in HighLevel ](<https://help.gohighlevel.com/support/solutions/articles/48000982512-creating-new-snapshots-in-highlevel>) [ How to Import Snapshots in HighLevel ](<https://help.gohighlevel.com/support/solutions/articles/155000007995-how-to-import-snapshots-in-highlevel>) [ Refresh or Update Snapshots ](<https://help.gohighlevel.com/support/solutions/articles/48000982583-refresh-or-update-snapshots>) [ Granular Permissions for Snapshots ](<https://help.gohighlevel.com/support/solutions/articles/155000004594-granular-permissions-for-snapshots>)

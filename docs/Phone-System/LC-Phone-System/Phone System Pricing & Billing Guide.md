@@ -10,7 +10,7 @@ Overview
 
 This guide outlines the full pricing structure for the native Phone System within the platform, including phone number rental, SMS/MMS messaging, voice calling, carrier pass-through charges, and A2P registration. Pricing matches Twilio's rates.
 
-All prices are in USD. Country-specific pricing PDFs are attached at the bottom of this page.
+All prices are in USD.
 
 Table of Contents
 
@@ -123,6 +123,9 @@ Component| Rate
 Outbound USA| $0.0126/min (10% discount on $0.014 list)  
 Client Minutes| $0.004/min  
   
+  
+
+
 Inbound — Web, Mobile, or Deskphone
 
 **Total:~~~~**~~~~$0.0129~~~~**~~ ~~ $0.01165 / minute**  
@@ -135,6 +138,11 @@ Component| Rate
 Incoming Call (USA)| $0.00765/min (10% discount on $0.0085 list)  
 Client Minutes| $0.004/min  
   
+  
+
+
+**Note:** Inbound calls to US Toll-Free numbers cost $0.0198/ minute (a 10% discount from Twilio's $0.22/min rate)
+
 Inbound — USA Forwarding Number
 
 Total: $0.02 / minute

@@ -5,7 +5,7 @@
 ## Articles
 
 - [Manychat to HighLevel Integration](Manychat to HighLevel Integration.md)
-- [Finding the Pipeline and Stage ID using zapier](Finding the Pipeline and Stage ID using zapier.md)
+- [How to Find Pipeline, Stage, and Opportunity IDs in HighLevel](How to Find Pipeline, Stage, and Opportunity IDs in HighLevel.md)
 - [How to use Custom Values](How to use Custom Values.md)
 - [How to Use Custom Fields](How to Use Custom Fields.md)
 - [Glossary](Glossary.md)

@@ -13,12 +13,14 @@ This article will show you how to use the improved Add Guests features in HighLe
 **TABLE OF CONTENTS**
 
   * Overview of Adding Guests in Calendar Bookings
-    * Key Benefits of Add Guests to Bookings
-    * How To Enable Add Guests Features
-    * Require Guests for Booking
-    * Collect Payment for All Attendees
-    * Frequently Asked Questions
-    * Related Articles
+  * Key Benefits of Add Guests to Bookings
+  * How To Enable Add Guests Features
+  * Require Guests for Booking
+  * How Guest Contacts Are Created
+  * Guest Contact Timezones
+  * Collect Payment for All Attendees
+  * Frequently Asked Questions
+  * Related Articles
 
 
 * * *
@@ -46,20 +48,29 @@ Gain greater control over group bookings while minimizing errors in guest data a
   
 
 
-  * Collect accurate payments based on the total number of attendees  
+  * Collect accurate payments based on the total number of attendees.  
   
 
-  * Ensure required guest details are captured at the time of booking.  
+
+  * Choose whether to collect guest email addresses, phone numbers, or both.  
   
 
-  * Display complete guest lists in appointment records.  
+
+  * Collect only the guest count when individual guest contact details are not needed.  
   
 
-  * Optionally collect guest email addresses for communications.  
+
+  * Create or match guest contacts using the email address and/or phone number provided during booking.  
   
+
+
+  * Display complete guest lists in appointment records when guest details are collected.  
+  
+
 
   * Track attendance and group sizes more effectively.  
   
+
 
   * Minimize payment confusion and reduce support inquiries.
 
@@ -92,7 +103,28 @@ Use the Calendar settings to activate both guest collection and attendee-based p
 
   4. Scroll to the **Add Guests** section. Toggle on**Require Guests for Booking** to make guest information mandatory.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155052949283/original/QUqXB9g16aeDdl3Yj_D-R75fZQ6lLVoltg.png?1756838152)  
+Choose which information to collect for each guest:  
+  
+
+     * **Name & Email** — Collect the guest's name and email address.  
+  
+
+
+     * **Name & Phone** — Collect the guest's name and phone number.  
+  
+
+
+     * **Name, Email & Phone** — Collect all three guest details.  
+  
+
+
+     * **Guest Count Only** — Collect only the number of guests without creating individual guest contacts.
+
+  
+**Note:** Existing calendars that already collect guest details continue using **Name & Email**. New calendars default to **Name, Email & Phone**.
+
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080713067/original/icIJYyD4jV05aSwetFUl4A9mgD14TTcHWQ.png?1789130117)  
   
 
   5. Scroll down to the Payments section. Enable **Accept Payments** for all attendees to calculate payment based on the total number of participants.  
@@ -107,12 +139,41 @@ Use the Calendar settings to activate both guest collection and attendee-based p
   
 
 
-This setting is useful for businesses that depend on the participation of more than one individual in each session. When enabled, it ensures that the user cannot proceed with the booking unless at least one guest is added.
+This setting is useful for businesses that depend on the participation of more than one individual in each session. 
 
   
 
 
-Guest details, such as name and optionally email, must be provided before the booking can be submitted. This helps businesses like therapy practices, group fitness instructors, or event venues maintain clear attendance records and ensure operational readiness.
+When enabled, the customer cannot proceed with the booking unless the required guest information is provided.
+
+  
+
+
+The information collected depends on the calendar's guest configuration. Businesses can collect each guest's name and email, name and phone, name with both email and phone, or only the total guest count.
+
+* * *
+
+## **How Guest Contacts Are Created**
+
+  
+
+
+When individual guest details are collected, HighLevel automatically creates or matches a contact for each guest using the email address and/or phone number provided during booking.
+
+  
+
+
+If **Guest Count Only** is selected, HighLevel records only the number of guests and does not create individual guest contacts.
+
+  
+
+
+### **Guest Contact Timezones**
+
+  
+When HighLevel creates a new guest contact during a booking, the guest inherits the primary contact's timezone.
+
+If the guest already exists as a contact in the CRM, HighLevel keeps that contact's existing timezone unchanged.
 
 * * *
 
@@ -188,6 +249,16 @@ Guests will only receive confirmation emails if their email addresses are collec
 
 **Q: Can the booker add multiple guests?**  
 Yes. The booking form supports multiple guest entries. The number of guests can be configured based on your service or appointment type.
+
+  
+
+
+**Q: What information can I collect for each guest?**  
+You can collect **Name & Email**, **Name & Phone**, **Name, Email & Phone**, or choose **Guest Count Only**.
+
+  
+**Q: Does HighLevel create a contact for each guest?**  
+When guest details are collected, HighLevel creates or matches a contact using the email address and/or phone number provided. If **Guest Count Only** is selected, individual guest contacts are not created.
 
 * * *
 

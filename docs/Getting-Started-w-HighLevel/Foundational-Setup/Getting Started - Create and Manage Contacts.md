@@ -16,6 +16,7 @@ Creating and managing contacts in HighLevel helps you keep customer information 
   * How to Create a New Contact
   * Edit Existing Contact
   * Delete an Existing Contact
+  * More Ways to Manage Contacts
   * Frequently Asked Questions
   * Related Articles
 
@@ -196,6 +197,31 @@ Follow these steps to delete a contact:
   
 ![](https://jumpshare.com/share/6kMSylQYqUP4qWoCNZkg+/Screen+Shot+2026-07-02+at+20.25.55.png)
 
+
+* * *
+
+## **More Ways to Manage Contacts**
+
+  
+
+
+Creating and editing individual contacts is only one part of contact management. As your contact list grows, HighLevel provides additional tools to help you add contacts efficiently, organize the information you collect, manage multiple records at once, and keep your contact database clean.
+
+  
+
+
+Capability| What you can do  
+---|---  
+**Import contacts**|  Add multiple contacts at once by importing a CSV file instead of creating each contact manually. You can map your file columns to the appropriate contact fields during the import. **Refer to[Getting Started - Import Existing Contacts](<https://help.gohighlevel.com/support/solutions/articles/155000005056-getting-started-import-existing-contacts>) for step-by-step instructions.**  
+**Use custom fields**|  Capture information that is specific to your business and not included in the standard contact fields, such as lead type, budget, preferences, or other details you want to track. **Learn more in[How to Use Custom Fields](<https://help.gohighlevel.com/support/solutions/articles/48001161579-how-to-use-custom-fields>).**  
+**Manage contacts in bulk**|  Select multiple contacts and perform actions on them together instead of updating each record individually. Bulk actions can help with tasks such as adding or removing tags, sending messages, or deleting contacts. **Refer to[Bulk Actions for Contacts & SmartLists](<https://help.gohighlevel.com/support/solutions/articles/48001167703-bulk-actions-for-contacts-smartlists>) to explore the available bulk actions.**  
+**Manage duplicate contacts**|  Keep your contact database organized by identifying records that belong to the same person and merging duplicate contacts when needed. **Learn more in[How to Manage and Merge Duplicate Contacts](<https://help.gohighlevel.com/support/solutions/articles/48001202210-how-to-manage-and-merge-duplicate-contacts>).**  
+**Restore deleted contacts**|  Recover contacts that were deleted accidentally when they are still eligible for restoration. This can also help when contacts were removed through a bulk delete action. **Refer to[Restore Deleted Contacts or Undo Bulk Deletes](<https://help.gohighlevel.com/support/solutions/articles/48001211386-restore-deleted-contacts-or-undo-bulk-deletes>) for recovery steps.**  
+  
+  
+
+
+These capabilities help you manage contacts more efficiently as your database grows. Use the linked guides when you are ready to explore a specific task in more detail.
 
 * * *
 

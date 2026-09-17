@@ -8,8 +8,7 @@
 
 Effortlessly keep your WordPress site secure and up to date! With enhanced update management, you can individually enable automatic updates for WordPress Core, Plugins, and Themes, reducing manual effort while improving security and performance.
 
-  
-
+* * *
 
 **TABLE OF CONTENTS**
 
@@ -22,18 +21,30 @@ Effortlessly keep your WordPress site secure and up to date! With enhanced updat
   * Frequently Asked Questions
 
 
-# **Key Benefits of Automatic WordPress Updates**
+* * *
+
+## **Key Benefits of Automatic WordPress Updates**
 
   
-Automatic updates ensure your WordPress site remains secure and up to date without manual intervention. Key benefits include:
+Automatic updates ensure your WordPress site remains secure and up to date without manual intervention. Key benefits include:  
+  
 
-  * **Enhanced Security** – Prevent vulnerabilities by ensuring timely updates.
 
-  * **Improved Performance** – Keep your site optimized with the latest improvements.
+  * **Enhanced Security** – Prevent vulnerabilities by ensuring timely updates.  
+  
 
-  * **Reduced Manual Effort** – Eliminate the need to manually check and update WordPress Core, Plugins, and Themes.
 
-  * **Customizable Update Preferences** – Choose between full updates, minor updates, or disabling automatic updates as per your needs.
+  * **Improved Performance** – Keep your site optimized with the latest improvements.  
+  
+
+
+  * **Reduced Manual Effort** – Eliminate the need to manually check and update WordPress Core, Plugins, and Themes.  
+  
+
+
+  * **Customizable Update Preferences** – Choose between full updates, minor updates, or disabling automatic updates as per your needs.  
+  
+
 
   * **Seamless Management** – Easily control updates from the WordPress Dashboard.
 
@@ -41,83 +52,129 @@ Automatic updates ensure your WordPress site remains secure and up to date witho
 ##   
 **How to Manage Automatic WordPress Updates**
 
+  
+
+
 You can manage automatic updates for WordPress Core, Plugins, and Themes through the WordPress Dashboard. Follow the steps below to configure settings as per your requirements.
 
-##   
+###   
 **Managing WordPress Core Updates**
 
-Customize how WordPress core updates are handled using the **Advanced Settings**.
+  
+
+
+Customize how WordPress core updates are handled using the **Advanced Settings**.  
+  
+
 
   1. **Navigate to the Sites Section**
 
-     * Go to **Sites** → **WordPress Dashboard**.
+     * Go to **Sites** → **WordPress Dashboard** and Click on the site you want to manage.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080401122/original/VwJVtqMksHM46VDVD2j5ZsHWmBkdWsizZA.png?1788881473)  
+  
 
-  2. **Select Your WordPress Site**
 
-     * Click on the site you want to manage.
+  2. **Access Advanced Settings**
 
-  3. **Access Advanced Settings**
+     * Under **Advanced Settings** → **WordPress Management** , locate the **Core Update Preferences**.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080401361/original/UFCI79Mx7t_jOy6RxUv3TQ-Y0oRiMZy-WA.png?1788881605)  
+  
 
-     * Under **Advanced Settings** → **WordPress Management** , locate the **Core Update Preferences**.
 
-  4. **Choose Your Update Preference**
+  3. **Choose Your Update Preference**
 
-     * **Off** – Disables automatic updates.
+     * **Off** – Disables automatic updates.  
+  
 
-     * **Latest Version** – Updates to the newest available version.
+
+     * **Latest Version** – Updates to the newest available version.  
+  
+
 
      * **Minor Version** – Restricts updates to minor versions only.
 
 
-##   
+###   
 **Managing Plugin Updates**
 
-Individually enable or disable automatic updates for installed plugins.
+  
 
-  1. **Go to the WordPress Dashboard** → **Site** → **Plugins**.
 
-  2. **Find the Installed Plugins List**.
+Individually enable or disable automatic updates for installed plugins.  
+  
+
+
+  1. **Go to the WordPress Dashboard** → **Site** → **Plugins**.  
+  
+
+
+  2. **Find the Installed Plugins List**.  
+  
+
 
   3. **Enable or Disable Auto Updates**
 
-     * Toggle automatic updates ON or OFF for each installed plugin as per your preference.
+     * Toggle automatic updates ON or OFF for each installed plugin as per your preference.  
+  
 
 
-##   
+### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080402175/original/EsWAigATrczwDTZ3ncQpllAjsV2wzlu1Yw.png?1788882031)  
 **Managing Theme Updates**
 
-Control automatic updates for installed WordPress themes.
+  
 
-  1. **Navigate to the WordPress Dashboard** → **Site** → **Themes**.
 
-  2. **Select the Theme to Configure**.
+Control automatic updates for installed WordPress themes.  
+  
+
+
+  1. **Navigate to the WordPress Dashboard** → **Site** → **Themes**.  
+  
+
+
+  2. **Select the Theme to Configure**.  
+  
+
 
   3. **Enable or Disable Automatic Updates**
 
      * Toggle automatic updates ON or OFF for each installed theme.
 
 
-##   
-**Tracking & Analytics**
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080402436/original/YZ5sb3IoOCc0agyssKWGqp5-bS2NjptReQ.png?1788882166)
+
+* * *
+
+## **Tracking & Analytics**
+
+  
+
 
 To better understand user engagement with auto-update settings, **Pendo track events** are implemented. These events:
 
-  * Monitor when auto-update settings are modified.
+  
 
-  * Analyze how frequently users enable or disable automatic updates.
 
-  * Help improve the feature based on user behavior and feedback.
+  * Monitor when auto-update settings are modified.  
+  
+
+
+  * Analyze how frequently users enable or disable automatic updates.  
+  
+
+
+  * Help improve the feature based on user behavior and feedback.  
+  
 
 
 This update makes managing automatic WordPress updates easier, more flexible, and efficient!
 
-  
-
-
 * * *
-
-  
-
 
 ## **Frequently Asked Questions**
 
@@ -145,23 +202,38 @@ A: You can disable automatic updates by selecting **Off** under **Core Update Pr
 **Q: Are minor and major WordPress core updates handled separately?**  
 A: Yes, you can choose to restrict updates to **Minor Versions Only** or allow updates to the **Latest Version**.
 
-##   
-
+* * *
 
 ## **Related Article****s**
 
-  * How to Backup Your WordPress Site Before Updates
+  
 
-  * Managing Plugins in WordPress
 
-  * Best Practices for WordPress Security
+  * How to Backup Your WordPress Site Before Updates  
+  
 
-  * Understanding WordPress Advanced Settings
+
+  * Managing Plugins in WordPress  
+  
+
+
+  * Best Practices for WordPress Security  
+  
+
+
+  * Understanding WordPress Advanced Settings  
+  
+
 
   * How to Rollback WordPress Updates
 
 
+* * *
+
 ## **Next Step****s**
+
+  
+
 
   * Review your current WordPress update settings and adjust them based on your requirements.
 

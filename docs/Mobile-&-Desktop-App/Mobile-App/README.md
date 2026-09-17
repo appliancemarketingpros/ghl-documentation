@@ -22,3 +22,6 @@
 - [Unified Contacts Workspace in Mobile App](Unified Contacts Workspace in Mobile App.md)
 - [Custom Module Links with Role & Account-Based Visibility](Custom Module Links with Role & Account-Based Visibility.md)
 - [Manage Service v2 Appointments in the Mobile App](Manage Service v2 Appointments in the Mobile App.md)
+- [Opportunities V2 Mobile App](Opportunities V2 Mobile App.md)
+- [HighLevel Mobile App Experience](HighLevel Mobile App Experience.md)
+- [How to Transfer Calls to Staff Without a Personal Phone Number](How to Transfer Calls to Staff Without a Personal Phone Number.md)

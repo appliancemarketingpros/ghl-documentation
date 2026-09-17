@@ -16,7 +16,7 @@ What You'll Learn
 
 Email providers and anti-spam networks monitor bounce rates for every email you send and use that information to suspend sending for accounts with high bounce rates. High bounce rates directly hurt your email deliverability.
 
-This article covers what bounces are, what causes an account suspension, how to fix a hard bounce and reactivate the account, and the best practices that prevent it happening again.
+This article covers what bounces are, what causes an account suspension, how to fix a hard bounce and reactivate the account, the best practices that prevent it happening again, and the latest changes to the Bounce AUP Lock system.
 
 Table of Contents
 
@@ -49,6 +49,10 @@ How to Prevent Future Suspensions
 Email Best Practices
 
 8
+
+Bounce AUP Lock: What's Changing (Aug 13, 2026)
+
+9
 
 Frequently Asked Questions
 
@@ -244,6 +248,40 @@ A clear, working unsubscribe link reduces spam complaints (which feed into the s
 
 8
 
+## Bounce AUP Lock: What's Changing (Effective Aug 13, 2026)
+
+What Changed
+
+Starting **August 13, 2026** , the Bounce AUP Lock — the automated system behind the bounce block escalation in Section 3 — now requires a larger, more statistically reliable sample before it can lock an account. The goal is the same (catch genuinely bad lists), but low-volume senders are far less likely to be caught by noise.
+
+Two changes take effect together under **1\. Bounce Lock** :
+
+Change 1
+
+Tiered minimum send floor: 50 → 500
+
+**Before:** The system would evaluate bounce rate after just 50 emails sent — far too small a sample.
+
+**After:** The minimum send count before a lock can fire is now tiered based on the bounce rate. Higher rates still trigger earlier; borderline rates require more sends to confirm.
+
+Change 2
+
+Minimum bounce count: 15 → 25
+
+**Before:** Just 15 bounced emails could contribute to a lock.
+
+**After:** At least 25 bounces must occur before the system considers locking. This aligns with the new send floor — at 500 sends and a 5% rate, exactly 25 bounces occur.
+
+Before
+
+Out of every 10 bounce locks that fired, 7 were on senders who hadn't sent enough emails to make a reliable decision. A sub-account sending 60 emails with 3 bounces (5%) would get locked — even though 3 bounces tells us nothing about their actual list quality.
+
+After
+
+The system now waits for a statistically meaningful sample before locking. Senders with genuinely bad lists are still locked. Senders caught on noise are no longer disrupted.
+
+9
+
 ## Frequently Asked Questions
 
 Q: What's a healthy bounce rate?
@@ -277,3 +315,7 @@ Change your user role from **agency admin** to **user**. Only agency admins rece
 Q: My bounce rate is fine now — can I resume sending right away?
 
 Wait for the 12-hour temporary block to lift, or enable the Email Verification Service to resume sooner. After lifting, ramp up volume gradually and segment to your most engaged contacts first.
+
+Q: Does the Aug 13, 2026 Bounce AUP Lock update change what counts as a healthy bounce rate?
+
+No. The 0–3% healthy range and the 3%/5% warning and block thresholds from Section 3 are unchanged. What changed is how much data (minimum sends and minimum bounce count) the system requires before it acts on those thresholds — so low-volume sends are no longer locked on a handful of bounces.

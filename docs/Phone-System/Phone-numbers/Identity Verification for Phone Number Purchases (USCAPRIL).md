@@ -29,12 +29,12 @@ HighLevel has introduced Persona identity verification into the phone number pur
   
 
 
-HighLevel uses Persona to verify the identity of a user in a sub‑account when purchasing new **US/Canada/Puerto Rico (+1) and Israel(+972)** numbers under **LC Phone–managed** telephony. Completing Persona one time per sub‑account unlocks future number purchases and related messaging/calling registrations (A2P 10DLC, Toll‑Free Verification, CNAM, SHAKEN/STIR).
+HighLevel uses Persona to verify the identity of a user in a sub‑account when purchasing new **US/Canada/Puerto Rico (+1) and Israel(+972)** numbers under **LC Phone–managed** telephony. Completing Persona one time per sub-account verifies the identity associated with future eligible phone-number purchases and related compliance actions. Persona does not complete or replace A2P 10DLC registration, Toll-Free Verification, CNAM setup, or SHAKEN/STIR authentication; those processes must still be completed separately when applicable. HighLevel Support Portal.
 
   
 
 
-  * Applies to **LC Phone–managed** sub‑accounts that purchase +1 and +972 numbers.  
+  * Applies to **LC Phone–managed** sub‑accounts that purchase +1 and +972 numbers.   
   
 
 
@@ -90,7 +90,7 @@ Persona is required **only if** all of the following are true:
   
 
 
-After one successful verification (per sub‑account), you **won’t be prompted again**. This verified status applies to future:  
+After one successful Persona verification per sub-account, you will not be prompted to complete Persona again for future eligible phone-number purchases or related compliance actions. The verified identity may be reused during these processes, but each registration or verification must still be completed separately when required:  
   
 
 
@@ -158,6 +158,33 @@ After one successful verification (per sub‑account), you **won’t be prompted
 
 * * *
 
+## **Troubleshooting Phone Number Purchase Errors**
+
+  
+
+
+If you cannot complete a phone number purchase, check the following:
+
+  * **Persona prompt does not appear:** Refresh the page and retry the purchase. If it still does not appear, contact HighLevel Support.
+
+  * **Persona verification is already open:** Do not refresh or leave the page. If the session remains stuck for more than 24 hours, contact Support.
+
+  * **Number unavailable:** Refresh the available numbers or try a different area code, region, or number type.
+
+  * **Region or inventory limitation:** Some numbers may not be available based on provider inventory or location.
+
+  * **Regulatory requirement:** Some regions require an approved Regulatory Bundle or Address before a number can be purchased.
+
+
+    
+    
+    ****Contact HighLevel Support** when the Persona prompt still does not appear after a refresh and retry, a Persona session remains stuck beyond 24 hours, or no suitable LC Phone number is available after adjusting your search.**
+
+* * *
+
+  
+
+
 ## **Frequently Asked Questions**
 
   
@@ -214,10 +241,4 @@ Refresh the page and try the purchase again. In some cases, the updated verifica
   * [What is A2P 10 DLC- Brand and Campaign Registration](<https://help.gohighlevel.com/en/support/solutions/articles/155000002380>)  
   
 
-  * [Toll‑Free Number Verification Guide for LC Phone (US/Canada)](<https://help.gohighlevel.com/en/support/solutions/articles/48001222300>)  
-  
-
-  * [How to Set Up Call Tracking (Number Pool) ](<https://help.gohighlevel.com/en/support/solutions/articles/48000981393>)  
-  
-
-  * [Improve your Phone Number’s Reputation with Voice Integrity ](<https://help.gohighlevel.com/en/support/solutions/articles/155000005566>)
+  * [Toll‑Free Number Verification Guide for LC Phone (US/Canada)](<https://help.gohighlevel.com/en/support/solutions/articles/48001222300>)

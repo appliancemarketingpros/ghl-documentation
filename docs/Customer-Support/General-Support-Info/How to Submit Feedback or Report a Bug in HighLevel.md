@@ -15,11 +15,7 @@ When submitting feedback or reporting a technical issue in HighLevel, clicking *
   * Overview
   * How to Access Feedback and Bug Reporting
   * Routing to Technical Support
-  * What’s New: Automatic Screen Capture on Upload
-  * How the Screen Capture Works
-  * Screenshot Successfully Attached
-  * Why This Matters
-  * What Did Not Change
+  * Automatic Screen Capture on Upload
   * Frequently Asked Questions
   * Related Articles
 
@@ -96,7 +92,7 @@ Once routing is complete, the issue submission form opens.
 
 * * *
 
-## **What’s New: Automatic Screen Capture on Upload**
+## **Automatic Screen Capture on Upload**
 
   
 
@@ -123,7 +119,8 @@ This behavior runs in the background and attaches the screenshot directly to you
 
 * * *
 
-## **How the Screen Capture Works**  
+### **How the Screen Capture Works**
+
   
 
 
@@ -148,9 +145,10 @@ This behavior runs in the background and attaches the screenshot directly to you
 
 Once permission is granted, the capture completes automatically.
 
-* * *
+##   
 
-## **Screenshot Successfully Attached**
+
+### **Screenshot Successfully Attached**
 
   
 
@@ -173,9 +171,10 @@ After the screen is captured:
 
 **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064211417/original/dfK4Sq_6vS8c3jFUYPyxo9fz7xwDho7tJQ.png?1770230560)**
 
-* * *
+###   
 
-## **Why This Matters**
+
+### **Why This Matters**
 
   
 
@@ -197,32 +196,6 @@ Automatic full-screen capture helps:
 
 
   * Improve accuracy when diagnosing complex issues
-
-
-* * *
-
-## **What Did Not Change**
-
-  
-
-
-This enhancement does **not** change:  
-  
-
-
-  * How you start a feedback or bug report  
-  
-
-
-  * Where the **Click to upload** option appears  
-  
-
-
-  * User roles, permissions, or access levels  
-  
-
-
-  * The ability to upload other files manually
 
 
 * * *
@@ -261,8 +234,15 @@ It applies when submitting feedback or reporting technical issues using **Click 
 
 ## **Related Articles**
 
-  * [24/7 Customer Support Options](<https://help.gohighlevel.com/en/support/solutions/articles/155000000969>)  
   
+
+
+  * [**24/7 Customer Support Options**](<https://help.gohighlevel.com/en/support/solutions/articles/155000000969>)**  
+**  
+
+
+  * **[How to Enable Support Access for Your HighLevel Account](<https://help.gohighlevel.com/support/solutions/articles/155000008037-how-to-enable-support-access-for-your-highlevel-account?utm_source=chatgpt.com>)**
+  * **[Labs Features - Complete Overview](<https://help.gohighlevel.com/support/solutions/articles/155000003588-labs-features-complete-overview>)**
 
 
 ##   

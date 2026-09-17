@@ -14,6 +14,7 @@ This article focuses on the **SaaS Analytics** tab in the Agency Dashboard and e
 
   * What is the SaaS Analytics in the Agency Dashboard?
   * Key Benefits of the SaaS Analytics Tab
+  * Understanding Your SaaS Metrics
   * How to Access and Read SaaS Analytics
   * State Transitions → MRR Type
   * Subscription Status Meanings
@@ -71,6 +72,31 @@ The **SaaS Analytics** tab gives agencies a deep analytical view of their SaaS b
 
 * * *
 
+## **Understanding Your SaaS Metrics**
+
+  
+
+
+Use the metrics in SaaS Analytics to understand how your recurring revenue and customer base are changing over time.
+
+  
+
+
+Metric| What it means| Why it matters  
+---|---|---  
+**MRR**|  The monthly recurring revenue generated from eligible active SaaS subscriptions. Recurring charges are normalized to a monthly value.| Shows the current size of your recurring SaaS revenue base.  
+**New MRR**|  Recurring revenue generated from customers starting a paid SaaS subscription for the first time.| Helps you understand revenue growth from newly acquired customers.  
+**Expansion MRR**|  Additional recurring revenue generated when an existing customer increases their subscription value, such as by moving to a higher-priced plan.| Shows how much recurring revenue is growing within your existing customer base.  
+**Contraction MRR**|  Recurring revenue lost when an existing customer moves to a lower subscription value without fully canceling.| Helps identify revenue decreases caused by downgrades or reduced subscription value.  
+**Churned MRR**|  Recurring revenue lost when an existing paid subscription ends.| Shows how much recurring revenue is being lost through customer churn.  
+**Reactivation MRR**|  Recurring revenue restored when a previously inactive SaaS subscription becomes active again.| Helps track revenue recovered from returning customers.  
+**Total SaaS Revenue**|  The total SaaS revenue generated during the selected reporting period.| Provides a broader view of SaaS revenue alongside recurring revenue metrics such as MRR.  
+**Total SaaS Customers**|  The number of SaaS customers represented in the selected reporting period.| Helps you track the size and growth of your SaaS customer base.  
+**ARPA**|  Average Revenue Per Account shows the average revenue generated per SaaS account.| Helps you understand the average value of your SaaS customers and how that value changes over time.  
+**Net MRR Churn Rate**|  Measures the recurring revenue lost from existing customers after accounting for revenue gained through expansion.| Helps you understand whether growth from existing customers is offsetting revenue lost through churn and contraction.  
+  
+* * *
+
 ## **How to Access and Read SaaS Analytics**
 
   
@@ -87,7 +113,7 @@ Subscriptions must be created and managed in HighLevel to appear in SaaS Analyti
 
   2. Navigate to **Agency Dashboard** > **SaaS**.  
   
-![](https://jumpshare.com/share/dNf0EtGFrzYYMT8YIA9E+/Screen+Shot+2025-12-16+at+3.28.38+PM.png)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078640035/original/6Gv_FWLHbKt4sB8M2oe04dixbGIWNQMSUQ.png?1786998631)  
   
 
 

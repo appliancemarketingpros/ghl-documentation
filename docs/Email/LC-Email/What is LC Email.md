@@ -134,8 +134,8 @@ Day 4| 2,500
 Day 5| 5,000  
 Day 6| 7,500  
 Day 7| 10,000  
-Day 8 & Ongoing| Shared domain: 150,000  
-Dedicated domain: 450,000  
+Day 8 & Ongoing| Shared domain:25,000/ day  
+Dedicated domain: 550,000/day.  
   
 Please Note
 
@@ -155,9 +155,9 @@ Agency View → Sub-Accounts → [Search & click Sub-Account Name] → Additiona
 
 A
 
-Shared Domain — up to 150,000/day
+Shared Domain — up to 25,000/day
 
-The limit for shared IP email sending ranges from 250 to 150,000. To go beyond this, you must set up a Dedicated Sending Domain for the sub-account.
+The limit for shared IP email sending ranges from 250 to 25,000. To go beyond this, you must set up a Dedicated Sending Domain for the sub-account.
 
 ![Shared domain sending limit setting in Additional Settings](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155029831160/original/IxE4M2xEjR2qx9aoQ10sAa-0ZvnYSO-UJQ.jpg?1721846888)
 
@@ -165,9 +165,9 @@ The limit for shared IP email sending ranges from 250 to 150,000. To go beyond t
 
 B
 
-Dedicated Domain — up to 450,000/day
+Dedicated Domain — up to 550,000/day
 
-The limit for dedicated IP email sending ranges from 250 to 450,000. To increase beyond 450,000, please contact the support team.
+The limit for dedicated IP email sending ranges from 250 to 550,000. To increase beyond 450,000, please contact the support team.
 
 ![Dedicated domain sending limit setting](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155029831185/original/Ctf9TQgszFvp8BSf5E340Lvcy56c_rpNaA.jpg?1721846955)
 

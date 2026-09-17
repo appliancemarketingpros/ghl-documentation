@@ -33,6 +33,9 @@ Inbound calling on the Mobile App enables users to receive business calls made t
 
   
 
+
+  
+
     
     
     **Note:** For inbound calling to work, you must purchase a number within the sub-account and assign it to a user.
@@ -96,6 +99,8 @@ Setting up inbound calling requires configuring your Staff Member's settings in 
 
   3. Choose the specific **Staff Member** you want to enable and click the **Edit** button next to their name.  
   
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079830197/original/AWHfnXr1TDl9C2c-PKJabKk6pf5LsiZn9Q.png?1788277312)  
+  
 
 
   4. Click on the **Call and Voicemail Settings** tab.  
@@ -112,9 +117,8 @@ Setting up inbound calling requires configuring your Staff Member's settings in 
 
   7. Click the blue **Save** button at the bottom right corner to apply changes.  
   
-
-
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155045796817/original/uIzgaB24-xW7J-XLD2zwYvZWKcKd-TjzHA.png?1745868902)
+
 
 * * *
 

@@ -6,3 +6,4 @@
 
 - [How to Use Badges in Certificate Builder](How to Use Badges in Certificate Builder.md)
 - [Automate Badge Issuance in Workflows (Using “Issue Certificate” Action)](Automate Badge Issuance in Workflows (Using “Issue Certificate” Action).md)
+- [Automate Badge Issuance with Workflows](Automate Badge Issuance with Workflows.md)

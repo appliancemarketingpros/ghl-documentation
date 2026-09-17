@@ -6,7 +6,7 @@
 
 ---
 
-This article shows you how to create and use Call Scripts in HighLevel’s Web Dialer, App Dialer and Lead Connector App. Call Scripts help agents stay consistent and productive by following a structured script during calls, keeping messaging accurate and eliminating the need to switch tabs or search for notes.
+Call Scripts provide reusable talking points and conversation guidance that agents can view directly during live calls in supported HighLevel dialers. This article explains how to create and manage Call Scripts at the sub-account level and how agents can open and follow a script from the Web Dialer, HighLevel Mobile App, or LeadConnector Mobile App.
 
   
 
@@ -19,9 +19,10 @@ This article shows you how to create and use Call Scripts in HighLevel’s Web D
 
 **TABLE OF CONTENTS**
 
-  * What is Call Scripts?
+  * What are Call Scripts?
   * Key Benefits of Call Scripts
-  * How To Create Call Scripts
+  * How to Create and Use Call Scripts in Web & App Dialers
+  * What You Can Add to a Call Script
   * How to Use Call Scripts in the Web & App Dialers
   * Frequently Asked Questions
   * Related Articles
@@ -29,12 +30,12 @@ This article shows you how to create and use Call Scripts in HighLevel’s Web D
 
 * * *
 
-# **What is Call Scripts?**
+## **What are Call Scripts?**
 
   
 
 
-Call Scripts is a new feature within the HighLevel web dialer, app dialer and Lead Connector app dialer that delivers on-demand conversation guidance for agents. This tool empowers your team with structured insights during every call, ensuring that important qualifiers are never missed, objections are handled smoothly, and compliance requirements are met consistently.
+Call Scripts provide on-demand conversation guidance that agents can view while speaking with a contact. Scripts can contain approved talk tracks, discovery questions, qualification criteria, objection-handling guidance, or compliance language so agents can stay consistent without switching tabs or searching for external notes.
 
 * * *
 
@@ -48,24 +49,24 @@ Call Scripts enhance your team’s performance by providing clear, repeatable ta
   
 
 
-  * Provides agents with a reliable framework for discovery and objection handling.  
+  * **Keep messaging consistent:** Give agents repeatable talk tracks for common conversations.  
   
 
-  * Accelerates training by offering consistent guidelines for new reps.  
+  * **Support faster onboarding:** Help new team members follow approved discovery and qualification processes.  
   
 
-  * Save time by eliminating manual note-taking or hunting for resources  
+  * **Reduce context switching:** Keep guidance visible inside the dialer instead of requiring external notes or documents.  
   
 
-  * Boosts conversion rates through improved qualification and structured conversation flow.  
+  * **Improve call structure:** Help agents cover important questions, objections, and next steps consistently.  
   
 
-  * Enhances compliance and builds customer trust with repeatable, high-quality interactions.
+  * **Support compliance:** Provide approved language agents can reference during relevant calls.
 
 
 * * *
 
-## **How To Create Call Scripts**
+## **How to Create and Use Call Scripts in Web & App Dialers**
 
   
 
@@ -75,25 +76,62 @@ Creating Call Scripts is a straightforward process designed to integrate guided 
   
 
 
-  1. Login to your sub-account and click on **Settings**.  
+1\. Login to your sub-account and click on **Settings**.  
   
 ![](https://jumpshare.com/share/rCL4O7JdW3kUkHJbD0QY+/Screen+Shot+2025-07-31+at+9.06.14+PM.png)  
   
 
-  2. Navigate to **Phone Systems** and click on **Voice**.   
+
+2\. Navigate to **Phone Systems** and click on **Voice**.   
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155062377171/original/S3hbiAE9QBep9UgxIogosdpjCvCVVzl7XQ.png?1768060143)  
   
 
-  3. Click on **Call Scripts** and then on**Add Scripts** button.  
+
+3\. Click on **Call Scripts** and then on**Add Scripts** button.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155062377191/original/WGeW8B1xLQEkKvgN2S4VtmujknPdjIEUoA.png?1768060204)  
   
 
-  4. Create a new call script by inputting your preferred content and click on **Save**.  
+
+4\. Create a new call script by inputting your preferred content and click on **Save**.  
   
 ![](https://jumpshare.com/share/fyR4YRDPZWX2vnVHGsKZ+/Screen+Shot+2025-07-31+at+9.18.54+PM.png)
 
+* * *
+
+## **What You Can Add to a Call Script**
+
+  
+
+
+Call Scripts currently support **plain text**. Use them for content such as:
+
+  
+
+
+  * Opening statements  
+  
+
+  * Discovery questions  
+  
+
+  * Qualification criteria  
+  
+
+  * Objection-handling responses  
+  
+
+  * Required disclosures  
+  
+
+  * Closing or next-step prompts
+
+
+  
+
+
+> **Note:** Rich-text formatting and clickable hyperlinks are not currently supported.
 
 * * *
 
@@ -107,14 +145,19 @@ Agents can access Call Scripts during live calls from directly within the Dialer
   
 
 
+Once a Call Script is available to you, you can open it directly from a supported dialer during an active call.
+
+  
+
+
 Steps to Use Call Scripts:  
   
 
 
-  1. **Make a call** or **receive a call** using the any of the **supported** **dialers**.  
+  1. Start or answer a call using the HighLevel Web Dialer, HighLevel Mobile App, or LeadConnector Mobile App.  
   
 
-  2. Click on the **Scripts** button within the dialer interface.  
+  2. During the active call, click or tap **Scripts**.  
   
 
      * **Web Dialer  
@@ -127,7 +170,7 @@ Steps to Use Call Scripts:
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155050751309/original/LWVWBftq9wTgpvDA9LYTk3JZTdHrW9Pn7A.png?1753978347)  
   
 
-  3. **Select a script** from the dropdown list.  
+  3. **Select the Call Script you want to use.**  
   
 
      * **Web Dialer****  
@@ -140,8 +183,13 @@ Steps to Use Call Scripts:
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155050752044/original/anfTPl5z6ivt7eZpeZZWjji6m7nGhBGJTA.png?1753978998)  
   
 
-  4. **Read** and **follow** the script during the **live** **call**.
+  4. Review and follow the script while speaking with the contact. Switch scripts if another available script is more appropriate for the conversation.
 
+
+  
+
+
+**Note:** Opening or switching a Call Script does not affect the active call.
 
 * * *
 
@@ -150,9 +198,11 @@ Steps to Use Call Scripts:
   
 
 
-****Q: Which app versions support call scripts?****
+******Q. Why don't I see Call Scripts in the mobile app?**  
+**** Make sure you're using the latest available version of the HighLevel or LeadConnector mobile app. If the option still isn't available, verify that a script has been created and is available to your user.
 
-Call Scripts are available in HighLevel v3.103.4 and above, and in LeadConnector v3.103.4 and above.
+  
+
 
   
 
@@ -164,6 +214,9 @@ Yes, call scripts can be updated at any time from the web interface to refine yo
   
 
 
+  
+
+
 **Q: Is the call script feature available for white labelled apps?**
 
 Yes, although updates for white labelled apps must be requested separately.
@@ -171,9 +224,14 @@ Yes, although updates for white labelled apps must be requested separately.
   
 
 
-**Q: Are call scripts visible to all users in a location?**
+  
 
-Yes. All users in a location can access the full list of available scripts during a call.
+
+****Q. Who can access a Call Script?**  
+** Call Scripts can be configured at the sub-account level and, where supported, assigned to specific users or teams. Users only see scripts available to them during supported calls.
+
+  
+
 
   
 
@@ -185,9 +243,22 @@ At this time, Call Scripts support plain text only. Rich formatting and hyperlin
   
 
 
-**Q: Will updates to scripts be reflected immediately?**
+  
 
-Yes, any updates made to a script will automatically be available to all users the next time they open the Web Dialer.
+
+**Q. When do edits to a Call Script become available?**
+
+Saved updates are reflected when users next open or reload the script in a supported dialer.
+
+  
+
+
+  
+
+
+**Q. Are Call Scripts the same as Manual Call actions?**
+
+No. A Call Script provides guidance during a live call. A Manual Call workflow action creates a call task for a user under **Conversations → Manual Actions**. You can use both together—for example, a workflow can create the call task and the agent can reference a Call Script while completing it.
 
 * * *
 

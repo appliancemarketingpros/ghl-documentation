@@ -145,11 +145,48 @@ Scenario| Setup/Action| What You’ll See in Payments Tab
 ---|---|---  
 **Pay in Full at Booking**|  Enable **Accept Payments** on the calendar; book normally| **Amount Paid** equals **Total Amount** ; attendee statuses = **Paid** ; transactions show charge(s)  
 **Deposit (Partial Payment)**|  Enable **Partial Payment/Deposit** ; collect deposit at booking| **Remaining Balance** shows due; after collecting later via **Collect Payment** , statuses update from **Partially Paid** to **Paid**  
-**Coupon Applied**|  Enable **Coupon Codes** on the calendar; customer enters code on widget| Summary shows **Discount (Coupon)** line; **Total Amount** reflects discount; transactions include charge(s) against discounted total  
+**Coupon Applied**|  Enable **Coupon Codes** on the calendar; customer applies a coupon that leaves an amount due| Summary shows the **Discount (Coupon)** line; **Total Amount** reflects the discount; the remaining discounted amount is collected  
+**Collect Card on File**  
+|  Enable **Collect Card on File** in Calendar Payment settings  
+| The customer provides card details during booking. The card is saved for future use, but the customer is not charged and no payment transaction is created during booking  
+  
 **Add Guests Post‑Booking**|  Edit appointment → add guests → collect per attendee| One order exists from initial booking; additional orders may be created on subsequent saves when **Collect Payment for Guest** is enabled  
 **Recurring – First Only**|  Collect only for first occurrence on the widget| Initial appointment shows the payment; later occurrences require manual collection and will initially show balances due  
 **Recurring – All Occurrences**|  Collect for all occurrences on the widget| The series total is collected upfront; the appointment record shows paid totals and transactions for the full amount  
   
+  
+##   
+
+
+### **Collect Card on File**
+
+  
+
+
+Use **Collect Card on File** when you want to securely save a customer's card details without collecting an upfront payment.
+
+  
+
+
+When **Collect Card on File** is enabled:
+
+  
+
+
+  * The customer is asked to provide their card details during booking.
+
+  * The card is securely saved for future use.
+
+  * The customer is not charged during booking.
+
+  * No payment transaction is created during booking.
+
+
+  
+
+
+This is different from a free or **$0 booking**. When **Charge upfront** is enabled and the final amount due is **$0** , card collection and payment are skipped.
+
 * * *
 
 ## **How To Use the Payments Tab**

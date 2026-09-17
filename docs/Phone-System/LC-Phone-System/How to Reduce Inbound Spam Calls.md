@@ -6,17 +6,27 @@
 
 ---
 
-Spam calls can overwhelm your team, inflate call volume, and waste time. This guide walks through practical steps you can take to reduce inbound spam calls using built in tools and call routing strategies.
+Spam calls can interrupt your team and make genuine customer calls harder to manage. HighLevel provides several tools that can help identify suspicious callers and reduce repeat spam calls.
+
+  
+
+
+You can use **Number Intelligence** to flag likely spam, **Custom Dispositions** to let agents mark unwanted calls, **Inbound DND** to block repeat callers, and optionally **IVR** to screen callers before routing them to your team.
+
+  
+
+
+Number Intelligence identifies likely spam but does not automatically block the call. You must configure DND or call-routing logic if you want to prevent future calls.
 
 * * *
 
 **TABLE OF CONTENTS**
 
   * What is Inbound Spam Call Reduction in HighLevel?
-  * Key Benefits of Inbound Spam Call Reduction
-  * Number Intelligence (Spam Detection, Caller ID & Validation)
-  * Custom Dispositions for Voice Calls (Create “Spam call”)
-  * Workflow — Contact DND (Quarantine Marked Spam)
+  * How Inbound Spam Call Reduction Works
+  * Step 1 — Enable Number Intelligence
+  * Step 2 — Create a Spam Call Custom Disposition
+  * Step 3 — Block Repeat Spam Callers with Inbound DND
   * Interactive Voice Response (IVR) — Light Front-Door Filter (Optional)
   * VIP/Safe List & Auto-Clear DND (Rollback Patterns)
   * Mobile Visibility (Spam Labels on App)
@@ -32,144 +42,181 @@ Spam calls can overwhelm your team, inflate call volume, and waste time. This gu
   
 
 
-Inbound spam call reduction is a layered configuration that identifies likely spam before agents engage, quarantines repeat offenders automatically, and adds a light IVR “front door” to deter bots. Combining detection (Number Intelligence), agent input (Custom Dispositions), and automation (DND + IVR) delivers strong protection without blocking real customers.
+HighLevel can help reduce unwanted inbound calls by combining spam detection with call-handling automation.
+
+A common setup uses:
+
+  * **Number Intelligence** to identify calls that may be spam.  
+  
+
+  * **Custom Dispositions** so agents can mark unwanted calls consistently.  
+  
+
+  * **Inbound DND** to block future inbound calls from contacts identified as spam.  
+  
+
+  * **IVR** , optionally, to require callers to make a keypad selection before reaching your team.
+
+
+  
+
+
+You can use these tools individually or together depending on how aggressively you want to filter inbound calls.
 
 * * *
 
-## **Key Benefits of Inbound Spam Call Reduction**
+## **How Inbound Spam Call Reduction Works**
 
   
 
 
-Understanding the outcomes helps you deploy the right balance of protection and accessibility. These benefits focus on reducing interruptions, preserving lead flow, and keeping rollback options simple.
+A typical setup follows this flow:
 
+  1. An unknown number calls your HighLevel number.  
   
 
-
-  * **Fewer agent interruptions** : reduce spam that rings through to users.
-
-
+  2. Number Intelligence checks the incoming call.  
   
 
-
-  * **Faster handling** : agents can mark a call as **Spam call** with one tap/click.
-
-
+  3. If the number appears suspicious, HighLevel can show **Spam Likely**.  
   
 
-
-  * **Automatic quarantine** : a workflow places marked numbers in **DND** to prevent future inbound rings.
-
-
+  4. An agent can mark the completed call with a **Spam call** Custom Disposition.  
   
 
+  5. A workflow can detect that disposition and enable inbound DND for the contact.  
+  
 
-  * **Front-door screening (IVR)** : simple keypress prompts repel robocalls while routing real people quickly.
+  6. Future inbound calls from that contact are blocked.
 
 
   
 
 
-  * **Safe-list & rollback**: VIPs can bypass filters; DND can auto-clear after review or X days.
+You can optionally place an IVR before your normal call routing to reduce automated robocalls.
+
+* * *
+
+## **Step 1 — Enable Number Intelligence**
+
+  
+
+
+Number Intelligence checks incoming calls from unknown U.S. numbers and can identify calls that are likely to be spam.
+
+  
+
+
+When a call is identified as suspicious, HighLevel displays a **Spam Likely** indicator. Number Intelligence does not automatically block the call.
+
+  
+
+
+To enable it:
+
+  1. Go to **Settings > Phone System**.  
+  
+
+  2. Open **Additional Settings > Number Intelligence**.  
+  
+
+  3. Enable **Gather Intelligence on Unknown Phone Numbers**.  
+  
+
+  4. Save your changes.
 
 
   
 
 
-  * **Measurable impact** : track “Spam Likely” rates, IVR completion, and fewer agent-handled spam calls.
+Number Intelligence is usage-based. For current pricing and availability details, see the Number Intelligence article.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080466023/original/juzu57BEFtjvDOY9PbjxXqKPey66ocUdBg.png?1788948763)
+
+  
+
+    
+    
+    **Note:** Spam indicators may also appear in supported HighLevel mobile call views. Keep the HighLevel mobile app updated to the latest available version.
+
+  
 
 
 * * *
 
-## **Number Intelligence (Spam Detection, Caller ID & Validation)**
+## **Step 2 — Create a Spam Call Custom Disposition**
 
   
 
 
-Number Intelligence adds network-level signals (e.g., **Spam Likely**) to your call logs and phone experience. Turning it on provides early detection so you can flag/route suspicious calls before agents engage.
+Create a Custom Disposition so agents can consistently mark calls that should be treated as spam.
+
+  1. Go to **Settings > Phone System > Voice > Custom Dispositions**.  
+  
+
+  2. Click **\+ Add Disposition**.  
+  
+
+  3. Enter **Spam call** as the disposition name.  
+  
+
+  4. Save the disposition.
+
 
   
 
 
-  * **Where to enable:** **Settings → Phone System → Additional Settings → Number Intelligence** (sub-account).
-
-
-  
-
-
-  * **Scope & notes:** Spam Detection/Caller Name Lookup availability and pricing are documented in the Number Intelligence article; charges are usage-based per lookup/event. Availability may vary by country; **Spam Detection is most effective in the U.S. (for more information, refer to this article:[Number Intelligence - Spam Detection, Caller ID & SMS Validation](<https://help.gohighlevel.com/support/solutions/articles/48001153968>)**
-
+After a suspicious call ends, the agent can select **Spam call** as the disposition. A workflow can then use this value to identify the contact and take further action.
 
   
 
 
-  * ****Verify it’s working:** Look for **Spam Likely** indicators on inbound calls in call logs and supported dialer views.**
-
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080466515/original/yY55WLRrtXfP3JqqRWAQpfMdlLeCTGvDBw.png?1788948974)
 
 * * *
 
-## **Custom Dispositions for Voice Calls (Create “Spam call”)**
+## **Step 3 — Block Repeat Spam Callers with Inbound DND**
 
   
 
 
-Custom Dispositions standardize agent feedback. Adding a **Spam call** disposition lets agents consistently label unwanted calls, which your workflow can use to auto-quarantine future attempts.
+After an agent marks a call as **Spam call** , create a workflow that enables inbound DND for that contact.
 
+  1. Go to **Automation > Workflows**.  
   
 
-
-  * **Create the disposition:** **Settings → Phone System → Dispositions → Add Disposition → Name: “Spam call” → Save**.
-
-
+  2. Create a new workflow.  
   
 
-
-  * **Where agents use it:** Call end screen (web and mobile).
-
-
+  3. Add the **Call Details** trigger.  
   
 
-
-  * **Guidelines:** Keep the label short and unambiguous (e.g., **Spam call**).
-
-
-* * *
-
-## **Workflow — Contact DND (Quarantine Marked Spam)**
-
+  4. Configure these filters:
+     * **Call Direction = Incoming**  
   
 
-
-Workflows operationalize your policy. When an agent marks **Spam call** , a workflow can enable **DND** for that contact—silencing future inbound rings from the same number while preserving your ability to reach out if needed.
-
+     * **Custom Disposition = Spam call**  
   
 
-
-**Recommended safe preset (clarity on terms):**
-
+  5. Add the **Enable/Disable DND** action.  
   
 
+  6. Set **DND Direction = Inbound**.  
+  
 
-  * **Direction** controls which way communication is blocked (e.g., **Inbound**).
+  7. Configure the supported inbound channel option shown in your account.  
+  
+
+  8. Save and publish the workflow.
 
 
   
 
 
-  * **Channels** control _what_ is blocked (e.g., **Voice** vs **All channels**). Start conservatively with **Inbound + Voice** so legitimate SMS/email aren’t affected.
-
-
-  
-
-
-**Recipe:**
-
-  1. **Trigger:** **Call Details**.
-
-  2. **Filter:** **Disposition = Spam call** (and optionally **Direction = Inbound**).
-
-  3. **Action:** **Enable/Disable DND** → **Direction = Inbound** → **Channels = Voice** → Save & Publish.
-
+This workflow helps prevent repeat unwanted callers from continuing to reach your team.
 
 * * *
 
@@ -552,7 +599,7 @@ Remove DND on the contact record (or let your auto-clear workflow lift DND after
 
 **Q: Can I send spam-labeled calls straight to voicemail?**
 
-Yes. Route via IVR timeout/invalid or add a workflow branch that sends **Inbound, Voice** to voicemail when disposition = Spam call.
+Yes. Route via IVR timeout/invalid or add a workflow branch that sends **Inbound, Voice** to voicemail when Custom disposition = Spam call.
 
   
 

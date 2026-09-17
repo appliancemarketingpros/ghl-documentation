@@ -125,6 +125,41 @@ These settings control how the AI Agent behaves and give you the core inputs nee
 
 * * *
 
+## **Choosing a Model and Effort Level**
+
+  
+
+
+Use the Model dropdown to choose the AI provider and model that best fits your task. Models are grouped by provider, including Anthropic, Google, and OpenAI.
+
+  
+
+
+Each model includes a short description explaining what it is designed for. Models that support reasoning also display a thinking chip.
+
+  
+
+
+For supported models, you can select Low, Medium, or High effort. 
+
+Choose a lower effort level for straightforward tasks and a higher effort level when the agent needs deeper reasoning for complex work.
+
+  
+
+
+**Low** : Prioritizes faster responses for simpler tasks.
+
+**Medium:** Available as an effort option.
+
+**High** : Provides deeper reasoning for more complex tasks.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079026846/original/g1IyZpTHG0cXg0lJ1jDyaOD6sFwtYb_pSg.gif?1787325769)
+
+* * *
+
 ## **Templates**
 
   
@@ -816,7 +851,9 @@ Yes. You can add up to 10 tools per agent. Internal tools such as Date Calculato
 
 
 **Q: Which model should I use?**  
-GPT-5.2 (Low thinking) is recommended for most use cases because it provides a strong balance of quality and speed. Use higher thinking levels for more complex logic, and use GPT-5 Nano for simpler tasks where speed and cost matter most.
+
+
+Choose a model based on the type and complexity of the task. Use the description shown under each model to understand what it is designed for. For simpler tasks, such as intent classification, simple reads, or basic operations, consider a faster model and a lower effort level when supported. For complex or multi-step tasks that require deeper reasoning, choose a reasoning-capable model and increase the effort level when needed. Model availability, token usage, and pricing can vary. Review the current model options and applicable pricing when configuring the action.
 
   
 

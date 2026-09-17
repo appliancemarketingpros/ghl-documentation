@@ -4,5 +4,4 @@
 
 ## Articles
 
-- [Voicemail For Company And For Users](Voicemail For Company And For Users.md)
-- [Create Audio File For Voicemail (and Drops)](Create Audio File For Voicemail (and Drops).md)
+- [How to Setup Voicemail in HighLevel](How to Setup Voicemail in HighLevel.md)

@@ -117,9 +117,6 @@ The Courses dashboard displays your existing courses, shows extra information ab
   
 
 
-  
-
-
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155033965715/original/bI5EVigTSg5Kb8KxthEh7khbRi9rtGJP0Q.png?1727883470)
 
 * * *
@@ -130,6 +127,9 @@ The Courses dashboard displays your existing courses, shows extra information ab
 
 
 ###  _**Step 1:** Export Products from ClickFunnels as a CSV_
+
+  
+
 
   * **Log into ClickFunnels 2.0:** Navigate to Products and use the checkboxes to select the products in the export.  
   
@@ -145,19 +145,22 @@ The Courses dashboard displays your existing courses, shows extra information ab
 
 ###  _**Step 2:** Import Products into HighLevel_
 
-  * I**mport Products into HighLevel:** In HighLevel, go Payments > Products > Import as CSV in the top left.  
-  
-
-  * [Click here to learn more about importing products into HighLevel from Stripe](<https://help.gohighlevel.com/support/solutions/articles/48001202184-import-products-price-from-stripe>)
-
-
   
 
 
+  * **I****mport Products into HighLevel:** In HighLevel, go Payments > Products > Import as CSV in the top left.  
+  
+
+  * [Click here to learn more about importing products into HighLevel](<https://help.gohighlevel.com/support/solutions/articles/155000003715-how-to-bulk-import-products-into-highlevel?utm_source=chatgpt.com>)
+
+
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155033966695/original/JhzxYEdhAF_L4SRIum2mGP2MIPKzHuf3Yg.png?1727884186)
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078640635/original/P4udcndEWQ2FrSWh55U9pgUyNNNxetroKA.png?1787000210)
 
 * * *
 
@@ -176,6 +179,9 @@ Payments AI in ClickFunnels 2.0 is an integrated system that handles payments th
 
 ### _**Step 1:** Access Payments AI_
 
+  
+
+
   * **Document Payment Methods:** Click on Payments on the bottom left side. In the top navigation bar, click Gateways to open the payment gateway management area.
 
 
@@ -187,21 +193,23 @@ Payments AI in ClickFunnels 2.0 is an integrated system that handles payments th
 
 ### _**Step 2:** Connect HighLevel to your Preferred Payment Method_
 
-  * **Connect Stripe:**
+  
+
+
+  * **Connect Stripe:**  
+
     * Log into the HighLevel sub-account.  
   
 
     * Go to Payments > Integrations to connect Stripe, then follow the authorization process.  
   
 
+    * [Click here to learn to Connect Stripe](<https://help.gohighlevel.com/support/solutions/articles/155000005073-getting-started-connect-stripe?utm_source=chatgpt.com>)
     * [Click here to learn how to manage payment methods displayed with Stripe integration](<https://help.gohighlevel.com/support/solutions/articles/155000002377-manage-payment-methods-displayed-with-stripe-integration>)
   * **Connect NMI:**[ Click here to learn how to connect NMI to your HighLevel location](<https://help.gohighlevel.com/support/solutions/articles/48001235741-how-to-set-up-the-nmi-integration->).  
   
 
   * **Authorize.net:**[ Click here to learn how to connect Authorize.net to your HighLevel location.](<https://help.gohighlevel.com/support/solutions/articles/48001231144-authorize-net-integration-for-processing-payments>)
-
-
-  
 
 
   
@@ -243,6 +251,9 @@ In ClickFunnels, you build and manage sales funnels and websites using the Page 
 
 ### **_Step 2:_**_Import Funnels from ClickFunnels_
 
+  
+
+
   * [ Click here to learn how to import funnels from ClickFunnels into your HighLevel location.](<https://help.gohighlevel.com/support/solutions/articles/48000980322-how-to-import-a-funnel-from-clickfunnels->)
 
 
@@ -271,6 +282,9 @@ Store Funnels in ClickFunnels manage product sales and checkout processes. These
 
 ### _**Step 1:** Document Store Funnel Details_
 
+  
+
+
   * **List Store Funnels:** Document each store funnel in ClickFunnels, including product details, checkout pages, upsell/downsell pages, and payment integrations.  
   
 
@@ -285,6 +299,9 @@ Store Funnels in ClickFunnels manage product sales and checkout processes. These
 
 ### _**Step 2:** Recreate Store Funnels in HighLevel_
 
+  
+
+
   * [Click here to learn how to setup Ecommerce stores in HighLevel](<https://help.gohighlevel.com/support/solutions/articles/155000001157-how-to-set-up-an-e-commerce-online-store-websites->)
 
 
@@ -295,6 +312,9 @@ Store Funnels in ClickFunnels manage product sales and checkout processes. These
 
 
 ###  _**Step 3:** Post-Migration Check_
+
+  
+
 
   * **Test Purchase Flow:** Perform a test purchase to ensure the checkout process works smoothly and all upsells/downsells are functioning correctly.
 
@@ -324,6 +344,9 @@ ClickFunnels allows for basic email marketing through workflows and broadcasts. 
 
 ### _**Step 1:** Document Email Workflows & Broadcasts_
 
+  
+
+
   * **List Workflows & Broadcasts:** Document all email workflows and broadcasts in ClickFunnels, including triggers, email content, and timing.  
   
 
@@ -337,6 +360,9 @@ ClickFunnels allows for basic email marketing through workflows and broadcasts. 
 
 
 ### _**Step 2:** Recreate Email Sequences in HighLevel_
+
+  
+
 
   * [Click here to learn How to Use Email Template Builder in the Workflow Send Email Action](<https://help.gohighlevel.com/support/solutions/articles/155000002652-how-to-use-email-template-builder-in-the-workflow-send-email-action>)  
   
@@ -403,13 +429,13 @@ ClickFunnels' Contact Profiles provide a view of each lead’s information, incl
 
 ### _**Step 3:** Bulk Import Contacts into HighLevel_
 
-  * [Click here to learn how to bulk import contacts into HighLevel.](<https://help.gohighlevel.com/support/solutions/articles/48000982206-bulk-importing-contacts-via-csv-walkthrough>)  
+  * [Click here to learn how to bulk import contacts into HighLevel.](<https://help.gohighlevel.com/support/solutions/articles/155000004432-importing-contacts-using-a-csv-file?utm_source=chatgpt.com>)  
   
 
   * If you're having trouble bulk importing contacts, [click here to learn more about Troubleshooting Bulk Imports Via CSV.](<https://help.gohighlevel.com/support/solutions/articles/48001223155-troubleshooting-bulk-imports-via-csv#%E2%80%8BBulk-Importing-Master-Error-Code-List>)
 
 
-﻿﻿
+﻿
 
   
 
@@ -425,14 +451,19 @@ ClickFunnels' Contact Profiles provide a view of each lead’s information, incl
 
 ###  _**Step 1:** Training and Support_
 
+  
+
+
   * **Internal Training:** Provide training sessions for team members on using HighLevel, focusing on new features and differences between ClickFunnels and HighLevel Funnels, Memberships and Online Stores.  
   
 
-  * **Access HighLevel Support:** Ensure your team knows how to access HighLevel’s support resources
+  * **Access HighLevel Support:** Ensure your team knows how to access HighLevel’s support resources  
+  
+
     * [Click here to learn more about HighLevel's 24/7 Customer Support Options](<https://help.gohighlevel.com/support/solutions/articles/155000000969-24-7-customer-support-options>)  
   
 
-    * [Click here to learn more about HighLevel's Priority Support Upgrade Overview](<https://help.gohighlevel.com/support/solutions/articles/48001219635-priority-support-upgrade-overview>)
+    * [Click here to learn more about HighLevel's Priority Support Upgrade Overview](<https://help.gohighlevel.com/support/solutions/articles/155000004578-overview-of-premium-customer-support?utm_source=chatgpt.com>)
 
 
   
@@ -443,14 +474,20 @@ ClickFunnels' Contact Profiles provide a view of each lead’s information, incl
 
 ###  _**Step 2:** Ongoing Monitoring_
 
+  
+
+
   * **Monitor Performance:** Regularly review the performance of funnels, courses, and email campaigns in HighLevel to ensure they meet your business needs.  
   
 
-  * **Optimize Settings:** Use HighLevel’s analytics tools to identify areas for improvement post-migration.
+  * **Optimize Settings:** Use HighLevel’s analytics tools to identify areas for improvement post-migration.  
+  
+
     * [Click here to learn more about using Funnel Statistics](<https://help.gohighlevel.com/support/solutions/articles/48001190447-funnel-statistics>)  
   
 
-    * [Click here to learn more about using Email Statistics](<https://help.gohighlevel.com/support/solutions/articles/48001190447-funnel-statistics>)  
+    * [Click here to learn more about using Email Statistics](<https://help.gohighlevel.com/support/solutions/articles/48001215386-email-statistics?utm_source=chatgpt.com>)  
+  
 
     * [Click here to learn How to Edit a Dashboard (Pro Plan Only)](<https://help.gohighlevel.com/support/solutions/articles/155000001536-how-to-edit-a-dashboard>)
 

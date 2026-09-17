@@ -8,12 +8,6 @@
 
 HubSpot Importer helps you move important HubSpot CRM data into HighLevel faster. This article walks you through importing your HubSpot data (contacts, deals, custom fields, and pipelines) and reviewing the import results so you can spot and fix any errors.
 
-  
-
-    
-    
-    HubSpot Importer is currently in beta and available only for for select users. If you do not see the **Import from HubSpot** option, the feature may not be enabled for your account yet.
-
 * * *
 
 **TABLE OF CONTENTS**
@@ -271,7 +265,9 @@ Tick the boxes for what you want, then click **Continue**.
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078262193/original/9J14TQ92R36XCt6EAI5P7VvEAC6Sa_yM9w.png?1786548570)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078262193/original/9J14TQ92R36XCt6EAI5P7VvEAC6Sa_yM9w.png?1786548570)  
+  
+
 
 #### _**Step 6:** Review What is Included_
 
@@ -290,7 +286,9 @@ The wizard automatically includes the related data needed to keep your records c
   
 
 
-  * **Deals:** all properties, pipelines, notes, associations.
+  * **Deals:** all properties, pipelines, notes, associations.  
+  
+
   * **Companies** : properties and associations.  
   
 Pipeline stages are imported along with pipelines. You don't need to recreate them.  
@@ -309,10 +307,15 @@ Pipeline stages are imported along with pipelines. You don't need to recreate th
   
 
 
-Click **Continue** to move on.  
+Click **Continue** to move on.
+
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078261235/original/jpWs8pZkJ4ht6uPqRgZjg0UrNOZcQVo9UQ.png?1786547999)
 
 ####   
+
+
+  
 
 
 #### _**Step 7:** Confirm Record Counts_
@@ -349,13 +352,23 @@ Optionally click the **Edit** (pencil) icon next to contact properties or deal p
   
 
 
-Click **Confirm and start import** to kick it off. Confirm once more in the dialog that follows.  
+Click **Confirm and start import** to kick it off. Confirm once more in the dialog that follows.
+
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078261342/original/kSvGt3X3jjOcvSgWTLBsj8ESpnlpHeztiA.png?1786548053)
+
+  
+
 
   
 You can also choose to modify and bring in only certain custom fields from HubSpot and not all of them.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078261390/original/5kwnilw8ChlaQMKJIKL0SjmR1fn7CSNS_A.png?1786548079)
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078261390/original/5kwnilw8ChlaQMKJIKL0SjmR1fn7CSNS_A.png?1786548079)  
+  
+
 
 #### _**Step 8:** Your Import is Running_
 
@@ -407,7 +420,12 @@ The four cards at the top give you the headline numbers:
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078261790/original/P_qYFR7xV5eP3ezjJ3da9jUyfMG-W57eXg.png?1786548354)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078261790/original/P_qYFR7xV5eP3ezjJ3da9jUyfMG-W57eXg.png?1786548354)
+
+  
+
+
+  
 
 
 #### _**Step 10:** Drill into Individual Records_
@@ -428,6 +446,9 @@ Use the filters at the top:
 
 
   * **Status:** filter by **Success** , **Error** , or **Imported with warnings**.
+
+
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078261814/original/fwWBJSqFQiURRDSnfzLISs1TF70kzSnWWw.png?1786548363)  

@@ -159,10 +159,10 @@ Enter a new password
 
 Enter a new password that:
 
-  * Contains at least 12 characters
-  * Includes letters
-  * Includes numbers
-  * Must to have uppercase letters, lowercase letters, and special characters
+  * Contain at least 12 characters
+  * Include uppercase and lowercase letters
+  * Include at least one number
+  * Include at least one special character
 
 
 Step 4

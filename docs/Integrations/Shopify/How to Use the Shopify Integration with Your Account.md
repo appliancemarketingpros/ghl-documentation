@@ -66,6 +66,12 @@ The Shopify integration helps ecommerce teams centralize Shopify activity inside
   * **Centralized ecommerce visibility:** View and use supported Shopify information from inside the connected HighLevel sub-account.
 
 
+  
+
+
+  * **Automatic contact enrichment:** Every contact synced from a connected Shopify store is enriched with purchase history data- lifetime spend, order count, first and last order date, and tax-exempt status. These fields are visible directly on the contact record, with no extra setup.
+
+
 * * *
 
 ## **Shopify Connection Methods**
@@ -141,6 +147,47 @@ Before selecting sync options, confirm which Shopify data your team needs in Hig
 
 * * *
 
+## **Contact Fields Added from Shopify**
+
+When a contact is imported or synced from a connected Shopify store, the integration automatically creates and keeps a set of fields updated on that contact's record. These fields update on their own after the initial sync- there's no per-field setup required.
+
+Standard contact fields
+
+These map to fields that already exist on every HighLevel contact. Shopify only fills them in if they're currently empty — it never overwrites a value you or another source already set.
+
+Field| Filled from Shopify  
+---|---  
+First name / Last name| Customer's name on Shopify  
+Email| Customer's default email (used to match the Shopify customer to the HighLevel contact — never overwritten)  
+Phone| Customer's default phone number  
+Address| Customer's default address  
+  
+  
+
+
+New Shopify custom fields
+
+Field| Shows| Updates when  
+---|---|---  
+Shopify Customer ID| Internal Shopify customer reference| Once, when the contact is first created  
+Shopify Store Name| Which connected Shopify store the contact came from| Once, when the store is connected  
+Shopify Lifetime Value| Total amount the customer has spent in that Shopify store| After each completed (paid) order  
+Shopify Order Count| Total number of completed orders| After each completed (paid) order  
+Shopify Last Order Date| Date of the customer's most recent completed order| After each completed order  
+Shopify Last Order Value| Value of the customer's most recent completed order| After each completed order  
+Shopify First Order Date| Date of the customer's first completed order| Once, after their first completed order  
+Shopify Tax Exempt| Whether Shopify has this customer marked as tax-exempt (a common signal for wholesale/B2B buyers)| Whenever the customer's Shopify record is updated  
+Shopify Email Consent (Coming soon)| The customer's email marketing consent status on Shopify| Whenever consent changes in Shopify  
+Shopify SMS Consent(Coming soon)| The customer's SMS marketing consent status on Shopify| Whenever consent changes in Shopify  
+  
+  
+
+
+Shopify customer tags are synced to the existing tag field for a contact record. Use these fields as filters in Smart Lists (for example, "orders more than 90 days ago") or as conditions in Workflows to branch messaging by purchase behavior.
+
+##   
+
+
 ## **Important Notes and Limitations**
 
   
@@ -161,6 +208,24 @@ Shopify sync behavior may vary depending on Shopify plan access, selected settin
   
 
   * Shopify workflow triggers may change over time. HighLevel’s workflow trigger list currently identifies some older Shopify-specific triggers as deprecating soon, including Shopify Abandoned Cart and Shopify Order Fulfilled, while newer ecommerce store triggers are available for current store connections. 
+
+
+  
+
+
+  * All Shopify contact fields sync automatically once a store is connected- there's currently no option to turn off or opt out of individual fields. For existing customers integrated with Shopify, updating the integration settings will sync these fields.
+
+
+  * A refund or cancelled order does not reduce Shopify Order Count, since the order was still placed; Shopify Lifetime Value updates automatically to reflect the refund.
+
+
+  
+
+
+  * Draft orders in Shopify (for example, a manual quote) don't affect any contact field - only a completed, paid order does.
+
+
+  * Shopify Lifetime Value reflects Shopify purchases only.   
 
 
 * * *
@@ -310,7 +375,22 @@ A: Existing legacy Custom App connections may continue working while connected. 
 
   
 **Q: Where do I find my Shopify store name?**  
-A: Use the store name or Shopify store URL associated with the Shopify admin account you want to connect. Confirm the store details in Shopify before authorizing the connection.
+A: Use the store name or Shopify store URL associated with the Shopify admin account you want to connect. Confirm the store details in Shopify before authorizing the connection. 
+
+  
+
+
+Q: What contact fields get added when I connect Shopify?
+
+A: The integration automatically creates fields for lifetime spend, order count, last/first order date and value, customer tags, tax-exempt status, and email/SMS marketing consent (coming soon)- see "Contact Fields Added from Shopify" above for the full list.
+
+Q: Can I choose which Shopify fields sync to the contact record?
+
+A: No. All fields sync automatically for a connected store, and there isn't a field-by-field opt-in or opt-out in the current version.
+
+Q: Does the Shopify lifetime value field include revenue from other sources?
+
+A: No. Shopify Lifetime Value reflects only purchases made through the connected Shopify store and is kept separate from other revenue figures on the contact.
 
 * * *
 

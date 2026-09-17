@@ -152,19 +152,18 @@ Tap **Continue** to initiate the integration process.
 
 4
 
-Enter Business Details
+Enter Phone number
 
-Fill in all required business information, select **Create WhatsApp Business Account** , then click **Next**.
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068214872/original/rIfuYZJrnzFtH6WG0WjBONujSiLlLY3vdw.png?1775029179)
+Enter a new business phone number, or select an existing phone number from the dropdown, to associate with their WhatsApp Business Account.  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155081076365/original/Ll-vFqcBUL4KBKryzH4x4lgsXilb0HeekQ.png?1789560713)
 
 5
 
-Add Your Phone Number
+Phone Number Dropdown
 
-Enter the phone number you want to integrate. Make sure it's active and accessible for verification.
+The phone number dropdown offers two ways to supply a number: Enter a new phone number, or Use a display name with a virtual number instead. Below those, it lists the business phone numbers already associated with the business customer, each with its eligibility status, which the business customer can search and select from.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068215543/original/IW_9Cd0a7nFBYhk9EKgcZF8b5-7QCHGwtw.png?1775029366)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155081076473/original/nuM_dHb-GQCT6aNYcbB2ZJFTuHxPhmuixg.png?1789560773)
 
 6
 
@@ -176,19 +175,17 @@ Enter the one-time password received by SMS or voice call, then click **Next**.
 
 7
 
-Review and Confirm
+Review Business asset Selection Screen 
 
-Check all entered details carefully, then click **Confirm**.
+Select existing business assets, such as a Meta business portfolio and WhatsApp Business Account, to use with the new phone number.You  can also create new assets if you have not reached portfolio limit.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068216333/original/eJbzYX4YGjAFSMYfZ7A_y7tMXXiE8doA1g.png?1775029697)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155081076795/original/M8Wgp66Ti07x4E-zf4IsEjkNkQdoSX3qHA.png?1789560897)
 
 ✓
 
 Integration Complete
 
 Your WhatsApp Business Account is now successfully integrated and ready to use.
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068216551/original/bIQdElpzhwrR77RM_MO_6ZgMatqi7xHRnA.png?1775029827)
 
 Method 3 Migrate from an Existing BSP
 

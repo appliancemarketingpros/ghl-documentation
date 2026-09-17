@@ -224,6 +224,19 @@ Less than
 
 * * *
 
+## **Use “me” for Owner and Follower Rules**
+
+When creating a Smart Tag rule, you can select **me** as the value for the **Owner** or **Follower** filter.
+
+The **me** value dynamically represents the user viewing the Opportunities list. For example, a rule using **Owner = me** matches opportunities owned by the current viewer.
+
+  
+
+
+Because **me** resolves for each viewer, the same Smart Tag can provide personalized results for different team members without creating a separate rule for each user.
+
+* * *
+
 ## **Preview, Edit or Delete Tags**
 
   

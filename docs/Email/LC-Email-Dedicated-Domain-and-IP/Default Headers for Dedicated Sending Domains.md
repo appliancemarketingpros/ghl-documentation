@@ -8,19 +8,21 @@
 
 Email Deliverability
 
-Setting Default Headers (From Name & From Email) for Your Dedicated Sending Domain
+Default Headers & the From Email Fallback Chain for Your Dedicated Sending Domain
 
-Configure a fallback From Name and From Email keeping your emails authenticated and your brand consistent.
+How the Default Header overrides your campaigns and workflows — and exactly what address is used when the Default Header, the campaign/workflow From Email, and your Business Profile email are all left blank.
 
-Overview
+What You'll Learn
 
-A **default header** provides a fallback From Name and From Email for outbound messages sent via a dedicated sending domain. ensuring deliverability and brand consistency without any manual intervention.
+The **Default Header** sets a From Name and From Email for a dedicated sending domain. Once configured, it **always overrides** the From Name and From Email set on any campaign or workflow sent through that domain — regardless of what was typed into the campaign or workflow itself.
+
+This article also covers what happens as each layer is left blank: if the Default Header, the campaign/workflow From Email, **and** your Business Profile email are all empty, the platform still finds a way to send — using an automatically generated **reply@ <your-subdomain>** address.
 
 Table of Contents
 
 1
 
-When to Use Default Headers
+When to Use a Default Header
 
 2
 
@@ -28,61 +30,59 @@ Prerequisites
 
 3
 
-Setting Default Headers
+Setting the Default Header
 
 4
 
-How Default Headers Work in Practice
+How the Override Works in Practice
 
 5
 
-Example: Finished Default Header Setup
+The Full Fallback Chain When Everything Is Blank
 
 6
 
-Best Practices & Considerations
+Example: Three Scenarios Side by Side
 
 7
 
-Common Troubleshooting Scenarios
+Best Practices & Considerations
 
 8
+
+Common Troubleshooting Scenarios
+
+9
 
 Frequently Asked Questions
 
 1
 
-## When to Use Default Headers
+## When to Use a Default Header
 
 Use Case 1
 
-Fallback for DMARC Failures
+Enforce One Sender Identity Across Every Send
 
-If a campaign's From address does not align with your dedicated sending domain's DKIM/SPF records, the platform will automatically substitute the default header so the message is still authenticated and delivered.
+Set the From Name and From Email once at the domain level, and every campaign and workflow sent through that domain uses it automatically — even if a teammate types a different From Name or From Email into an individual campaign or workflow, the Default Header takes over at send time.
 
 Use Case 2
 
-Maintain Consistent Branding
-
-Even if a typo or misconfiguration causes a non-aligned From address, recipients will see your brand's domain in the From field rather than a rejected or unfamiliar address.
-
-Use Case 3
-
 Regulatory & Compliance Requirements
 
-Industries with strict email authentication requirements — such as finance and healthcare — should configure default headers to prevent DMARC rejections or quarantine actions that could interrupt critical communications.
+Industries with strict communication standards — such as finance and healthcare — can lock every outbound email to a single, approved sender identity by setting a Default Header, removing the risk of any individual campaign or workflow going out under an unapproved From Name or From Email.
 
 2
 
 ## Prerequisites
 
-Before configuring default headers, confirm the following are in place.
+Before configuring a Default Header, confirm the following are in place.
 
 Requirement 1
 
 You're Working in a Sub-Account
 
-Default headers can only be set on dedicated sending domains managed within a sub-account. Agency-level domains do not support per-sub-account default header configuration.
+Default Headers can only be set on dedicated sending domains managed within a sub-account. Agency-level domains do not support per-sub-account Default Header configuration.
 
 Requirement 2
 
@@ -94,9 +94,9 @@ A green checkmark next to your domain under **Settings → Email Service → SMT
 
 3
 
-## Setting Default Headers (From Name & From Email)
+## Setting the Default Header (From Name & From Email)
 
-Default headers are configured per dedicated domain within a sub-account. Navigate to the location below to access the setting.
+The Default Header is configured per dedicated domain within a sub-account. Navigate to the location below to access the setting.
 
 Navigation
 
@@ -108,155 +108,190 @@ Find your validated domain and click "Set Headers" to open the configuration pan
 
 ![Set Headers form showing From Name and From Email fields](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155044882742/original/u4kpWwg9k_Mdzc7Ts-PGYh3_0vTOcvXr5w.png?1744290526)
 
-Enter your fallback From Name and From Email, then save.
-
 How It's Applied
 
-The default header is applied to emails sent through the dedicated domain **only when DMARC alignment fails**. If the campaign's From address already aligns with your domain, the campaign's original From Name and From Email are used as-is.
+Once saved, the Default Header **always overrides** the From Name and From Email configured on any campaign or workflow sent through this dedicated domain — there is no condition attached, it applies to every send. If you leave the Default Header fields blank, the platform moves down the fallback chain described in Section 5.
 
 4
 
-## How Default Headers Work in Practice
+## How the Override Works in Practice
 
 Step 1
 
-Campaign Configuration
+Campaign or Workflow Configuration
 
-When creating a broadcast or workflow email, you set a campaign-level From Name and From Email.
-
-If the campaign's From Email (e.g., sales@differentdomain.com) does not match your dedicated sending domain (e.g., email.yourbrand.com), DMARC alignment will fail at send time.
+When creating a broadcast or workflow email, you can still set a campaign-level From Name and From Email as usual. This is what will be used **only if** no Default Header is configured for the sending domain.
 
 Step 2
 
-DMARC Check & Fallback Decision
+Default Header Check at Send Time
 
-At send time, the platform checks DMARC alignment between the campaign's From address and the sending domain's DKIM/SPF records. One of two things happens:
-
-Alignment Passes
-
-The email is sent with the campaign's original From Name and From Email.
-
-Alignment Fails
-
-The platform substitutes the default header you configured — the email is sent with your fallback From Name and From Email instead.
+At the moment the email sends, the platform checks whether a Default Header is saved for the dedicated domain. If one is set, it takes priority automatically — the campaign's or workflow's own From Name and From Email are ignored, not just used as a backup.
 
 Step 3
 
 Recipient Experience
 
-  * Recipients see a valid From Name and From Email that matches your authenticated sending domain.
-  * The email remains DMARC-compliant and is less likely to be rejected or flagged as spam.
+  * If a Default Header is set, recipients always see that From Name and From Email — regardless of what was entered on the campaign or workflow.
+  * Because the address comes from your authenticated sending domain, the email stays DMARC-compliant and is less likely to be rejected or flagged as spam.
 
 
 5
 
-## Example: Finished Default Header Setup
+## The Full Fallback Chain When Everything Is Blank
 
-Scenario
+A Default Header is only the first check the platform makes. Every email needs a valid From Name and From Email to send, so the platform works down a four-tier fallback chain until it finds one — even if every field along the way was left empty.
+
+Tier 1 — Highest Priority
+
+Default Header on the Dedicated Domain
+
+If a Default Header is saved for the sending domain, it is used — always. Nothing below this tier is ever checked.
+
+Tier 2
+
+Campaign or Workflow From Name & From Email
+
+If the Default Header is left blank, the platform uses whatever From Name and From Email was typed directly into that specific campaign or workflow.
+
+Tier 3
+
+Business Email From Your Business Profile
+
+If **both** the Default Header and the campaign/workflow From Email are left blank, the platform checks the Business Email saved under your **Business Profile**. If one is present, that address is used as the From Email for the send.
+
+Tier 4 — Final Safety Net
+
+Auto-Generated reply@<your-subdomain> Address
+
+If **all three** of the above are blank — no Default Header, no campaign/workflow From Email, and no Business Profile email — the platform automatically generates a From address using your active, validated sending subdomain, in the format reply@<your-subdomain>, and uses it to send the email. This guarantees a send never fails purely for lack of a configured sender address.
+
+Priority| Source Checked| Used When…  
+---|---|---  
+1| Default Header| It is set for the domain (always wins if present)  
+2| Campaign / Workflow From Name & Email| Default Header is blank  
+3| Business Profile — Business Email| Default Header AND campaign/workflow From Email are both blank  
+4| Auto-generated reply@<subdomain>| Default Header, campaign/workflow From Email, AND Business Profile email are all blank  
+  
+Watch Out
+
+This chain exists so a send is never blocked purely because a From address wasn't configured somewhere — not so you can skip configuring one. Reaching Tier 4 means recipients see a generic reply@ address instead of your brand's name, which looks less trustworthy and can hurt open rates. Set at least a Business Email in your Business Profile as a safety net beneath your Default Header.
+
+6
+
+## Example: Three Scenarios Side by Side
+
+Setup
 
 Setting| Value  
 ---|---  
 Dedicated Sending Domain| email.yourbrand.com (validated)  
-Default Header — From Name| YourBrand Support  
-Default Header — From Email| support@email.yourbrand.com  
+Business Profile — Business Email| hello@yourbrand.com  
+Campaign From Name / Email (when filled in)| Jane from YourBrand / jane@email.yourbrand.com  
   
-Broadcast / Workflow Email Configured by the User
+What Recipients See in Each Scenario
 
-Field| Value  
----|---  
-Campaign From Name| Jane from YourBrand  
-Campaign From Email| jane@anotherdomain.com (does not align with email.yourbrand.com)  
-  
-What Recipients See at Send Time
+Scenario 1 — Default Header Is Set
 
-If Campaign From Email Aligns
+From: YourBrand Support <support@email.yourbrand.com>  
+The campaign's "Jane from YourBrand" name and address are ignored completely, even though they were correctly configured and properly aligned to the domain.
 
-From: Jane from YourBrand <jane@email.yourbrand.com> (or whatever aligned address you selected)
+Scenario 2 — Default Header Blank, Campaign From Email Filled In
 
-If DMARC Alignment Fails — Default Header Applied
+From: Jane from YourBrand <jane@email.yourbrand.com>  
+With no Default Header saved for the domain, the campaign's own From Name and From Email are used as configured (Tier 2).
 
-From: YourBrand Support <support@email.yourbrand.com>
+Scenario 3 — Default Header AND Campaign From Email Both Blank
+
+From: YourBrand <hello@yourbrand.com>  
+With both of those blank, the platform falls to Tier 3 and uses the Business Email saved in the Business Profile.
+
+Scenario 4 — Default Header, Campaign From Email, AND Business Profile Email All Blank
+
+From: reply@email.yourbrand.com  
+With every layer above empty, the platform falls all the way to Tier 4 and auto-generates a reply@ address on your active, validated sending subdomain so the email still sends.
 
 How to Confirm It Worked
 
-  1. Send a test email using a non-aligned From Email (domain mismatch intentional).
-  2. Open the received email and check its From address — it should match your configured default header.
+  1. Save a Default Header whose From Name and From Email differ from a campaign's configured values, then send a test — confirm the Default Header wins.
+  2. Clear the Default Header and the campaign's From Email, but keep a Business Email saved — send a test and confirm the Business Email is used.
+  3. Clear all three (Default Header, campaign/workflow From Email, and Business Profile email) and send a test — confirm the From address comes back as reply@ your validated subdomain.
 
 
-6
+7
 
 ## Best Practices & Considerations
 
 A
 
-Configure Default Headers Before Sending
+Decide Before You Set It — It Overrides Everything
 
-Always set up your fallback header before launching major campaigns. If a DNS or DMARC misconfiguration occurs mid-send, the default header kicks in automatically — but only if it's already been saved.
+Because the Default Header overrides every campaign and workflow sent through the domain, confirm this is the sender identity you want used across the board before saving it. Any campaign-level From Name or From Email your team configures afterward will be ignored while the Default Header is active.
 
 B
 
-Monitor Replies
+Keep a Business Email on File as a Safety Net
 
-The default From Email can be any address on your sending domain, but ensure that mailbox is actively monitored or aliased correctly (e.g., support@yourbrand.com forwarding to the right team) so customer replies don't go unread.
+Since Tier 3 of the fallback chain uses the Business Email in your Business Profile, keep that field filled in even if you rely on a Default Header day-to-day. It's the difference between a send falling back to your business's own address versus falling all the way to an auto-generated reply@ address.
 
 C
 
-Test Before Scaling
+Monitor Replies
 
-Send a small internal test using a non-aligned From address to confirm the platform defaults correctly. Check both inbox placement and DMARC status before rolling out to your full audience.
+The Default Header's From Email can be any address on your sending domain, but ensure that mailbox is actively monitored or aliased correctly (e.g., support@yourbrand.com forwarding to the right team) so customer replies don't go unread. This applies just as much to an auto-generated reply@ address — check that mailbox too if you ever land on Tier 4.
 
 D
 
-Understand Propagation Delays
+Test Before Scaling
 
-Changes to DNS records (DKIM, SPF, TXT) can take up to 48 hours to fully propagate. If you launch campaigns before propagation completes and no default header is set, messages may be rejected. Default headers protect against this window.
+Send a small internal test to confirm the Default Header is being applied. Check that the From Name and From Email recipients actually see match your Default Header configuration — not whatever was typed into the campaign or workflow, and not a fallback tier you didn't intend to reach.
 
 E
 
+Tell Your Team It's Set
+
+A Default Header silently overrides whatever From Name and From Email a teammate configures at the campaign or workflow level. Make sure anyone building campaigns or workflows on this domain knows a Default Header is active, so they aren't confused when their custom From address never actually gets used.
+
+F
+
 Segregate by Sub-Account
 
-If you manage multiple brands or departments, create separate sub-accounts — each with its own dedicated domain and default headers — for fully isolated sending control and reputation management.
-
-7
-
-## Common Troubleshooting Scenarios
-
-Issue| Possible Cause| Resolution  
----|---|---  
-"Set Headers" option is not visible| You're in an agency-level view, or the domain is not validated under a sub-account.| Switch to the correct sub-account. Add and validate a dedicated domain under **Settings → Email Service → SMTP Service → Dedicated Domain and IP**.  
-Emails still failing to send after fallback| DNS records (DKIM/SPF) are incomplete or incorrectly formatted.| Double-check DNS entries for your sending domain. Use an online DKIM/SPF validator. Allow up to 48 hours for propagation before testing again.  
-Fallback header not applied when expected| The campaign From address aligns with the sending domain (even if unintentional), so no fallback is triggered.| Verify the campaign's From Email is genuinely non-aligned (domain mismatch). Review DMARC reports to confirm alignment failures.  
-Recipients see the wrong From Name or From Email| The campaign or workflow hard-codes a display name that overrides expectations.| Edit the campaign/workflow From Name and From Email. Ensure the fallback header is correctly spelled and contains no stray spaces.  
-SSL certificate not issued for the sending domain| Missing or incorrect CNAME/DNS records for domain validation.| In **Settings → Dedicated Domain** , click "Edit DNS Info" and follow the instructions exactly. Wait for propagation before retrying verification.  
-  
-8
+If you manage multiple brands or departments, create separate sub-accounts — each with its own dedicated domain and Default Header — for fully isolated sending control and reputation management.
 
 ## Frequently Asked Questions
 
-Q: Does the default header override every email, or only when DMARC fails?
+Q: Does the Default Header override every email, or only in certain situations?
 
-Only when DMARC alignment fails. If your campaign's From Email already matches your dedicated sending domain, the platform sends the email exactly as configured in the campaign — the default header is never applied. It is purely a fallback mechanism.
+The Default Header overrides **every** campaign and workflow email sent through that dedicated domain — always, not just as a backup. As long as a Default Header is saved, it takes priority over any From Name and From Email configured on a campaign or workflow, even if the campaign's own address was correctly configured. It is only skipped when the Default Header fields themselves are left blank, in which case the platform moves to the next tier of the fallback chain.
 
-Q: Can I set different default headers for each dedicated domain?
+Q: What's the full order of priority for the From address?
 
-Yes. Default headers are configured per dedicated domain. If your sub-account has multiple validated sending domains, each one can have its own independent From Name and From Email fallback.
+In order: (1) the Default Header set on the dedicated domain, (2) the From Name and From Email typed into the specific campaign or workflow, (3) the Business Email saved in your Business Profile, and (4) an auto-generated reply@<your-subdomain> address if all three of the above are blank. See the full fallback chain for details.
 
-Q: What happens if I don't set a default header?
+Q: Does the platform ever check my Business Profile for a From Email?
 
-If no default header is configured and a campaign's From address doesn't align with your sending domain, those emails may fail DMARC checks and be rejected or sent to spam by recipient mail servers. Setting a default header is strongly recommended before launching any campaigns.
+Yes. If no Default Header is set on the dedicated domain and the campaign or workflow itself has no From Email configured, the platform looks at the Business Email saved in your Business Profile and uses that address before falling back any further.
 
-Q: Does the default header affect the Reply-To address?
+Q: What happens if the Default Header, the campaign/workflow From Email, and my Business Profile email are all left blank?
 
-No. The default header only controls the From Name and From Email fields. If you have set a Reply-To address in your campaign or workflow, that Reply-To will continue to be used regardless of whether the fallback was triggered.
+The platform still needs to send the email, so it automatically builds a From address using your active, validated sending subdomain in the format reply@<your-subdomain>. This guarantees delivery is never blocked by a missing sender address, but you have no control over the name or mailbox recipients see, so it's best treated as a safety net rather than a strategy.
 
-Q: Can the default From Email be on a different subdomain from my sending domain?
+Q: Can I set a different Default Header for each dedicated domain?
 
-The default From Email must align with your validated dedicated sending domain for DMARC compliance. For example, if your sending domain is email.yourbrand.com, your default From Email should use that same domain (e.g., support@email.yourbrand.com).
+Yes. The Default Header is configured per dedicated domain. If your sub-account has multiple validated sending domains, each one can have its own independent From Name and From Email override.
 
-Q: Will contacts notice when the default header is used instead of the campaign's From address?
+Q: Does the Default Header apply to workflows, or only broadcast campaigns?
 
-Yes — they will see the fallback From Name and From Email rather than what the campaign specified. However, since both names come from your brand, this is typically transparent to the recipient. The more important outcome is that the email is delivered and authenticated rather than rejected.
+Both. The Default Header, and every tier of the fallback chain below it, applies to any email sent through the dedicated domain, whether it's triggered by a broadcast campaign or by a workflow action.
+
+Q: Does the Default Header affect the Reply-To address?
+
+No. The Default Header only controls the From Name and From Email fields. If you have set a Reply-To address on your campaign or workflow, that Reply-To continues to be used regardless of the Default Header or which fallback tier was used.
+
+Q: Should the Default Header's From Email use the domain I validated?
+
+Yes. The Default Header's From Email should sit on your validated dedicated sending domain (e.g., if your domain is email.yourbrand.com, use something like support@email.yourbrand.com) so it stays properly authenticated by the SPF and DKIM records you set up. The same applies to the auto-generated Tier 4 address, which is always built on your active, validated subdomain for this reason.
 
 Related Articles
 
-[How to Set Up a Dedicated Sending Domain (LC - Email)](<https://help.gohighlevel.com/en/support/solutions/articles/48001226115>) [SSL Certificate for Dedicated Sending Domain (LC - Email)](<https://help.gohighlevel.com/en/support/solutions/articles/48001227438>) [How to Migrate My Agency Over to LC - Email](<https://help.gohighlevel.com/en/support/solutions/articles/48001222501>)
+[How to Set Up a Dedicated Sending Domain](<https://help.gohighlevel.com/en/support/solutions/articles/48001226115>) [SSL Certificate for Dedicated Sending Domain](<https://help.gohighlevel.com/en/support/solutions/articles/48001227438>) [How to Migrate My Agency to LC - Email](<https://help.gohighlevel.com/en/support/solutions/articles/48001222501>)

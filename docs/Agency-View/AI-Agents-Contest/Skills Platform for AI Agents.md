@@ -155,7 +155,7 @@ Category 5
 
 External Operations Skills
 
-Call external APIs, webhooks, or AI-oriented connectors so AI Agents can operate beyond HighLevel while still respecting permissions and auditability.
+Call external APIs, Webhooks, or AI-oriented connectors so AI Agents can operate beyond HighLevel while still respecting permissions and auditability.
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077282131/original/BMXmEfZc-L4mVF-EpeOodpTeswQvy1XjHA.png?1785438187)
 

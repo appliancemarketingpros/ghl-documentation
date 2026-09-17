@@ -160,7 +160,7 @@ Follow the steps below to generate a CSV file with your sub-account information:
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155051477787/original/I9AL27weAnK04WMKT3rY5712jHcOmFk7DA.png?1755030339)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078853608/original/-h0ac9_Hu1BaUZh1wcT9Be62PHPpIAF2mA.png?1787182698)
 
   
 
@@ -178,7 +178,7 @@ Click the **Export Report** button in the upper-right hand corner
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155051477810/original/meujoQ_0y7JElAZ8uyKXPZggM1fF4CvUCQ.png?1755030394)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078853613/original/UkxFrdvLwj_LPZut7reGYV163QeXvRB40g.png?1787182728)
 
   
 

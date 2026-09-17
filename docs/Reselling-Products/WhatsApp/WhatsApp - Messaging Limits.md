@@ -14,7 +14,16 @@ Messaging limits are the maximum number of unique WhatsApp user phone numbers yo
 
 Messaging limits are calculated and set at the **business portfolio level** and are shared by all business phone numbers within a portfolio. This means that if a business portfolio has multiple business phone numbers, it's possible for one number to consume all of the portfolio's messaging capability within a given period.
 
-Business portfolios are initially limited to **250 messages** in a 24-hour moving period, but this limit can be increased.
+Business portfolios are initially limited to **250 messages** in a 24-hour moving period, but this limit can be increased.  
+  
+
+    
+    
+    HighLevel displays the WhatsApp messaging limit at the business portfolio level. If multiple WhatsApp phone numbers belong to the same business portfolio, they share the displayed messaging limit rather than receiving separate limits for each phone number.
+    
+
+  
+
 
 Table of Contents
 
@@ -44,7 +53,7 @@ Newly created business portfolios start with a messaging limit of **250**. Howev
 
 ►**Unlimited** — via automatic scaling
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069298296/original/xCZrl1lrcq_07N-US7KNdv962MQNm9uIpg.png?1776342881)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079457680/original/ADWlmIkNr-vI6NYSCD6i7Gf6EhrMMqnvfw.png?1787837069)
     
     
     Note: Messaging limits are shared across all business phone numbers within a portfolio. A single high-volume number can consume the entire portfolio's daily limit.

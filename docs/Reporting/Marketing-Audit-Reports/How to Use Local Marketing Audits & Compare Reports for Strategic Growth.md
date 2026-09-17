@@ -170,7 +170,7 @@ When you update your website, GBP, listings, or tracking, you can refresh the au
   
 
 
-To refresh your audit, just click **Refresh Report** at the top of the Local Marketing Audit page. 
+To refresh your audit, just click **Refresh Report** at the top of the Local Marketing Audit page.
 
   
 
@@ -202,9 +202,8 @@ The report is organized into two primary areas. Use **Your Business Profile** to
   
 
 
-  3. **Local SEO Heat Map:** Visualize your local visibility across various search terms and geographies.  
+  3. **Local SEO Heat Map:** Visualize local search visibility across different keywords and geographic areas. Create up to three heatmaps for the business, with a separate keyword, grid size, and search radius for each heatmap. You can also remove the automatically selected keyword and use the keywords most relevant to your analysis.  
   
-
 
   4. **Listings Analysis:** Ensure your business information is consistently and accurately listed across platforms.  
   
@@ -377,14 +376,16 @@ Use a PDF when you need a client-ready report with consistent formatting. You ca
 
   1. Click **Export PDF**.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155063627500/original/3wkX53iy1xJVBVzsOq_A0CnqbjYchWqQ8A.png?1769551504)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080101547/original/geu2mNPaVgy0joYQmtTHw1TzhQ-OdDMJOQ.png?1788521902)  
   
 
-  2. Select a **language** from the dropdown then click **Export PDF** to download.  
+  2. Select a **language** from the dropdown then click **Export PDF** to download.   
+When the shared web report contains multiple Local SEO heatmaps, recipients can switch between the heatmaps to compare local visibility across different keywords.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155063627524/original/f8nvjK1OlC7anb8iM3Lob48JWXVntSkDFA.png?1769551590)
 
 
+  
   
 
 

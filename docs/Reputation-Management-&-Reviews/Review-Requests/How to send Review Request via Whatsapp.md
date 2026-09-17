@@ -18,9 +18,10 @@ Sending review requests via WhatsApp is a powerful way to engage with your custo
     * Single Review Request
     * Bulk Review Requests
     * Workflow Review Requests
-  * Best Practices for Sending WhatsApp Review Requests  
-  
+  * Best Practices for Sending WhatsApp Review Requests
 
+
+* * *
 
 ## **Step 1: Set Up WhatsApp Integration**
 
@@ -34,7 +35,18 @@ Before you can send review requests, ensure WhatsApp is integrated into your acc
 
 * * *
 
-## **Step 2: Customise Your Review Request Message**
+## **Step 2: Select the Default WhatsApp Sender Number**
+
+After connecting WhatsApp, choose which connected number should send WhatsApp review requests.
+
+  1. Go to **Reputation → Settings → WhatsApp Requests**.
+  2. 2\. Under **Default WhatsApp sender number** , select the connected WhatsApp number you want to use.
+  3. Click **Save** The selected number becomes the default sender for WhatsApp review requests.
+
+
+* * *
+
+## **Step 3: Customise Your Review Request Message**
 
   1. Go to the **WhatsApp****Review Request** section in your dashboard.
   2. Customise the message:
@@ -46,7 +58,7 @@ Before you can send review requests, ensure WhatsApp is integrated into your acc
 
 * * *
 
-## **Step 3: Sending Review Requests**
+## **Step 4: Sending Review Requests**
 
 ### **Single Review Request**
 

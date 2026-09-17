@@ -167,7 +167,26 @@ _
   
 
 
-Click on Styling and adjust the timer’s appearance, including colors, fonts, expiry image, and time display format. 
+Click **Styling** to customize the timer's appearance, including its colors, fonts, expiry image, and time display format.
+
+  
+
+
+Under **Color options** , you can customize the **Counter color** , **Label color** , **Separator color** , and **Background color**. When you open a color picker, you can select from:  
+  
+
+
+  * **Brand Colors** from the location's default Brand Board  
+  
+
+  * **Global Custom Colors** configured for the location  
+  
+
+  * **Default Colors** available in the color picker
+
+
+  
+Click **Manage** next to Global Custom Colors to open Brand Boards Global Settings and add or edit your reusable colors. Colors you add from the timer color picker are saved at the location level and remain available across countdown timers.
 
   
 
@@ -180,7 +199,7 @@ Click on Styling and adjust the timer’s appearance, including colors, fonts, e
   
 
 
-####  _**Step 8:** Rename Timer_
+#### _**Step 8:** Rename Timer_
 
   
 

@@ -292,7 +292,17 @@ Ask AI supports **all MCP actions** except those tied to modules not available o
 
 You can access your entire conversation history through the **Chat History** section, allowing you to pick up where you left off or revisit previous outputs.
 
-## ****
+  
+
+    
+    
+    **Availability: Ask AI on mobile is currently available to Agency Admins.**
+
+  
+
+
+  
+
 
 ## **7\. Core Enhancements**
 

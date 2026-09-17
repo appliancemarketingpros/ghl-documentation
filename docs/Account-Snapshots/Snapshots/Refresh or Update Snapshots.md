@@ -120,9 +120,9 @@ After refreshing a snapshot, you’ll see the **“Push Update”** button avail
 
   3. **Manually sync updates** into those sub-accounts without reloading the entire snapshot  
   
+[](<https://help.gohighlevel.com/support/solutions/articles/48000982587-pushing-loading-snapshot-updates-to-client-accounts>)[](<https://help.gohighlevel.com/support/solutions/articles/48000982587-pushing-loading-snapshot-updates-to-client-accounts>)
 
 
-[ ](<https://help.gohighlevel.com/support/solutions/articles/48000982587-pushing-loading-snapshot-updates-to-client-accounts>)[Watch the detailed video here](<https://help.gohighlevel.com/support/solutions/articles/48000982587-pushing-loading-snapshot-updates-to-client-accounts>)
     
     
     **Note:** Updates only push to sub-accounts inside your own agency. External agencies must re-import using a new link.

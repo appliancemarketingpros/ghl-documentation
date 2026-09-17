@@ -158,6 +158,21 @@ After the draft is generated, refine it using plain-language commands: **Rewrite
 
 ![Conversational editing commands in Email AI](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155065200495/original/3nQJp7nPGNFj5SajHPLmcSUNDYQwBJCpYw.gif?1771430724)
 
+Version Restore
+
+Restore a Previous Version with Email AI
+
+You can restore a saved version directly through the Email AI chat without manually recreating previous changes. This works for both templates and campaign emails.
+
+  1. Open **Email AI** in Email Builder or Vibe Editor.
+  2. Ask Email AI to restore the version you want. For example:
+     * “Revert to the previous version.”
+     * “Switch to version 2.”
+     * “Go back to where I changed the colors.”
+  3. Review the restored version directly on the canvas.
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080149524/original/pxoAQU6tObM5mbQRjvlFxYw1eLglc1M9Cw.png?1788547772)**
+
 Step 6
 
 Preview and finalize
@@ -178,7 +193,7 @@ Open **Version History** from the Kebab Menu to compare and restore earlier gene
 
 You're All Set
 
-Your email is ready to schedule or send. Return to Version History any time to restore a previous generation.
+Your email is ready to schedule or send. To restore an earlier version, use Version History or ask Email AI to restore the version directly from the chat.
 
 4
 
@@ -206,7 +221,7 @@ Yes. Use conversational commands like "Translate to Spanish." Always have a nati
 
 Q: Where can I access previous versions of a generated email?
 
-Open **Version History** from the Kebab Menu in the Email Editor to review, compare, and restore earlier generations.
+Open **Version History** from the Kebab Menu in the Email Editor to review, compare, and restore earlier generations. You can also ask Email AI to restore the previous version, a numbered version, or a version associated with an earlier change. Email AI restores the selected version directly on the canvas.
 
 Q: Does changing my default Brand Board restyle existing emails?
 

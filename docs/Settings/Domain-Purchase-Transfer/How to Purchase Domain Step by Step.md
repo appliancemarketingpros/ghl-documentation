@@ -341,7 +341,7 @@ Yes. You can renew or extend the domain later based on the options available for
 
 
 **Q: Will I receive reminders before my multi-year registration ends?**  
-Yes. You’ll still receive renewal reminders before your domain registration period ends to ensure you have the option to renew in advance.
+Yes. HighLevel automatically sends a renewal reminder to the domain owner 67 days before the domain expires. It also sends a final expiration notice 10 days after the expiration date if the domain has lapsed. Both emails are sent regardless of whether auto-renew is enabled or disabled. No user configuration is required.
 
 **Q: Is WHOIS privacy included with domains purchased through HighLevel?**  
 Yes. WHOIS privacy protection is automatically included so your personal registration details are not visible in public WHOIS lookups.

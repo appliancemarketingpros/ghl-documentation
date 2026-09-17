@@ -253,7 +253,25 @@ After a booking is made, choose to show a custom message on the default confirma
   
 
 
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155047089548/original/IU0Pfc5jV3vWVBJn2wp3soRIfINHbF7FdQ.png?1747931071)**
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080593638/original/yZ6inPUwOC0Csi_i6HFXIhTR7ipjN2L6sQ.png?1789041038)**
+
+  
+
+
+**Let a custom form override this with its own rules:** Enable this option to let the custom form control the confirmation page experience. When enabled:
+
+  * If the form's On Submit action is set to **Thank you message** or **Redirect URL** , that is used as the confirmation page experience.
+  * If the form's On Submit action is set to **Order confirmation** , or if the form has no applicable On Submit action, the confirmation page settings configured here are used as the fallback.
+  * The form's conditional rules — such as redirects, custom messages, and lead disqualification — also apply after booking when this is enabled.  
+  
+
+
+    
+    
+    _Note: Show/hide field conditions from a custom form always apply during booking, regardless of this setting._
+
+  
+
 
 * * *
 
@@ -277,17 +295,22 @@ After a booking is made, choose to show a custom message on the default confirma
   * **Hide Payment Amount:** Enable this option to hide the payment amount on the booking page. This setting only applies when the payment method is set to Pay in Person or Card on File.  
   
 
-  * **Coupon Codes:** Enable Coupon Codes to allow customers to apply a coupon during the booking process. Before enabling this option, make sure you have created valid coupons under Payments > Coupon Codes. Customers can then enter an applicable coupon code while booking to receive the configured discount.  
+  * **Coupon Codes:** Enable this option to allow customers to enter and apply a coupon code during booking. Before enabling coupon codes, create valid coupons under **Payments > Coupon Codes**. When this option is disabled, the coupon code field is hidden from the booking page.  
   
 
   * **Taxes:** Taxes for Services are configured at the individual service or associated product level rather than in Global Settings. To charge tax for a service, open the individual service or its associated product and configure the applicable manual tax rate. Once configured, the tax will automatically appear in the booking details.  
   
 
-  * **Price Display Format:** Choose how service prices are displayed when a service has multiple prices:
-    * Show Price Range: Displays both the lowest and highest available price.
-    * Show Starting Price: Displays only the lowest available price as the starting price.
+  * **Price Display Format:** Choose how prices appear when a service has multiple prices:  
+  
+**Show Price Range:** Displays the lowest and highest available prices.  
+  
+**Show Starting Price:** Displays only the lowest available price as the starting price.  
+  
+The displayed starting price may change after the customer selects service variations or add-ons. The final price is calculated based on the customer's selections.
 
 
+  
   
 
 
@@ -313,8 +336,27 @@ After a booking is made, choose to show a custom message on the default confirma
   
 
   * **Booking Window:** Control how far into the future customers can view availability and book your services. Choose between two booking window types:
-    * Range based: Shows availability for a rolling number of days from today. As time passes, new days automatically become available for booking. For example, setting the range to 30 days means customers can always book up to 30 days from the current date.
-    * Date-based: Lets you define a specific date range up to which customers can book. Unlike a rolling range, the start and end date remains fixed.  
+
+  
+
+
+    * **Range based:** Shows availability for a rolling number of days from today. As time passes, new days automatically become available for booking. For example, setting the range to 30 days means customers can always book up to 30 days from the current date.
+        * **Count available days only** — Toggle this on to count only the days your services are staffed and available when calculating the booking window. When enabled, the system skips days outside your staff availability schedule and starts counting from the first available day after your minimum scheduling notice period ends. Bookers always see the full number of days you have configured — not a blank calendar on days you are closed.  
+When the toggle is off, the booking window counts every calendar day including days with no availability. This is the default behavior.  
+  
+Example — Count available days only with notice  
+
+          * Today: Wednesday, 12 Aug
+          * Minimum Scheduling Notice: 2 days
+          * Availability: Monday–Friday
+          * Booking Window: 5 days (Range based)
+          * Toggle: On  
+  
+The system applies the notice period first, then counts 5 available days from the first available day after notice ends:  
+Booking widget shows: 14, 15, 18, 19, 20 Aug — all 5 available days visible.  
+  
+
+    * **Date-based:** Lets you define a specific date range up to which customers can book. Unlike a rolling range, the start and end date remains fixed.  
   
 
   * **Service Booking Title:** Customize the title used for appointments created through your Services booking page. You can use custom values, such as {{contact.name}}, to dynamically personalize the booking title with customer information.  
@@ -552,7 +594,15 @@ Yes. Service, staff, and category share links are filtered views of the same boo
 
 Use the booking page preview for the service to verify before sharing links. Previewing lets you confirm that global changes render as expected on the public booking page.
 
-* * *
+  
+
+
+Q: Does "Count available days only" work with Date-based booking windows?
+
+No. The toggle only applies to Range based booking windows. When Date-based is selected, the start and end dates are fixed and the toggle has no effect.
+
+  
+
 
 ## **Related Articles**
 
@@ -574,4 +624,7 @@ Use the booking page preview for the service to verify before sharing links. Pre
   * [Resources in Services](<https://help.gohighlevel.com/en/support/solutions/articles/155000003505>)  
   
 
-  * [Workflow Trigger – Service Booking](<https://help.gohighlevel.com/en/support/solutions/articles/155000006140>)
+  * [Workflow Trigger – Service Bookin](<https://help.gohighlevel.com/en/support/solutions/articles/155000006140>)  
+
+
+#

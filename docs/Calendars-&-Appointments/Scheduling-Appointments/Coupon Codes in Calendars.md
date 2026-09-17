@@ -111,6 +111,16 @@ Before creating coupons, make sure payments are enabled on your calendar.
     **Note** : You must enable coupons individually for each calendar where you want them active.
 
   
+
+    
+    
+    **Note for Services:** Coupon code visibility for Services is managed globally. Go to **Calendars > Services > Global Settings > Payment Settings** and configure **Coupon Codes**. When coupon codes are disabled, the coupon code field is hidden from the Services booking page.
+    
+
+  
+
+
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155053042348/original/2BmUcD2W08bw34s9w76leLfpB334HvfghQ.png?1756923074)
 
 ###   
@@ -219,6 +229,26 @@ Once saved, the coupon is ready to share with your customers.
   
 
 
+When **Charge upfront** is enabled, the final amount after the coupon determines whether payment is collected.
+
+  
+
+
+  * If the coupon leaves an amount greater than **$0** , the customer provides payment details and pays the discounted amount.
+
+
+  
+
+
+  * If the coupon reduces the final amount to **$0** , the booking continues without collecting card details or processing a payment.
+
+
+  
+
+
+  
+
+
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155053042475/original/22Nepc6ubOIoY2QkZJ9V__078Aw5h90NfA.png?1756923322)
 
   
@@ -281,14 +311,31 @@ Earlier, when a booking involved partial payments, a **partially paid invoice** 
 ###   
 
 
-### **2\. Why You See a $0 Transaction**
+### **2.****$0 Calendar Booking Payment Behavior**
 
-Anytime an **order is created via the in-app booking flow** , a **$0 transaction** will be recorded against that order.
+  
 
-  * This transaction represents **order creation** , not an actual payment
 
-  * It does **not** indicate a charge or successful payment
+When **Charge upfront** is enabled, payment collection is based on the final amount due after any coupon or discount is applied.
 
+  
+
+
+  * If the final amount is greater than **$0** , the customer is asked to provide payment details and the final amount is charged.
+
+  * If the configured booking amount is **$0** , the customer is not asked to provide card details and no payment is processed.
+
+  * If a coupon reduces the final amount to **$0** , the customer is not asked to provide card details and no payment is processed.
+
+  * If a coupon reduces the price but leaves an amount greater than **$0** , the customer is asked to provide payment details and the remaining discounted amount is charged.
+
+
+  
+
+
+This ensures that customers making a free booking do not need to enter unnecessary payment details or go through a **$0 payment transaction**.
+
+> **Note:** If you want to save a customer's card details without charging them during booking, use **Collect Card on File** instead of configuring a $0 upfront payment.
 
 ###   
 
@@ -301,8 +348,6 @@ Anytime an **order is created via the in-app booking flow** , a **$0 transaction
 
 
 This behavior applies even when:
-
-  * A coupon code brings the payable amount down to $0
 
   * No immediate payment is collected at the time of booking
 
@@ -318,30 +363,6 @@ If you have workflows configured using the **“Invoice Created”** trigger, yo
 
 
 **Action required:** Replace **Invoice Created** triggers with **Order Created** triggers to ensure workflows continue to run as expected
-
-###   
-
-
-### **5\. Handling $0 Transactions in Workflows**
-
-If you’re using workflows that rely on payment-related triggers, we recommend updating them as follows:
-
-  * Use the **Payment Received** trigger
-
-  * Add an **If/Else** condition
-
-  * In the **If** branch, set the condition: **Amount is greater than 0**
-
-  * Trigger your workflow actions only in this branch
-
-
-  
-
-
-This ensures that workflows are executed **only for actual payments** and are not triggered for **$0 system-generated transactions** created during order creation.
-
-  
-
 
 * * *
 

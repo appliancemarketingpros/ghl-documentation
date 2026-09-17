@@ -12,6 +12,7 @@
 - [Optimize Experience Features](Optimize Experience Features.md)
 - [How to change Agency's address in HighLevel?](How to change Agency's address in HighLevel.md)
 - [How do I find my Agency's Relationship Number?](How do I find my Agency's Relationship Number.md)
+- [Audit Logs](Audit Logs.md)
 - [Billing Related Questions for Agencies](Billing Related Questions for Agencies.md)
 - [Login As User (Agency Admin Only)](Login As User (Agency Admin Only).md)
 - [How to make agency subscription payments with 3DS cards?](How to make agency subscription payments with 3DS cards.md)

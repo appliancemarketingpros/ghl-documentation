@@ -14,8 +14,10 @@ LaunchPad provides a guided, interactive onboarding experience at both the agenc
 
   * What is the Subaccount Launchpad?
   * Key Benefits of the Subaccount LaunchPad
+  * Availability and Rollout
   * Outcome‑Oriented Setup Actions
   * Guided Onboarding Videos
+  * How Agency Sub-Account supports onboarding tracking
   * Product Tour Guide in LaunchPad Actions
   * Progress Tracking & Auto‑Completion
   * Accessibility in LaunchPad
@@ -35,7 +37,17 @@ LaunchPad is an onboarding workspace that assembles essential tasks, videos, and
   
 
 
-LaunchPad appears for new users on first sign-in and can be reopened later from within the app. Content adjusts based on user role and the features available in the sub-account, ensuring each user sees the most relevant steps.
+LaunchPad appears for eligible users and can be reopened later from within the app. The content adjusts based on the user’s role, permissions, and available features so each user sees relevant onboarding steps.
+
+  
+
+
+For the current Sub-Account LaunchPad rollout, eligibility also depends on when the agency joined HighLevel and whether the agency is included in the active rollout group.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080761554/original/7TZqC0wsvcO9PeYHCgtLB2oPdWuUeznLrQ.png?1789180937)
 
 * * *
 
@@ -63,6 +75,44 @@ Understanding the outcomes LaunchPad drives helps teams align onboarding efforts
 
 
   * **Reduced support load:** In-app help and links prevent common missteps and repeat questions.
+
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080761576/original/j76NBCxWkfPwGrgUNoaJPSdnPqIZTPg4Lw.png?1789181014)
+
+  
+
+
+* * *
+
+## **Availability and Rollout**
+
+  
+
+
+Sub-Account LaunchPad availability depends on the agency’s signup timing, plan, permissions, and current rollout group. These conditions determine whether users within the agency receive the new guided onboarding experience.
+
+  
+
+
+  * **Expanded plan access:** The new Sub-Account LaunchPad expands access from the $97 plan to eligible $297 and $497 plan customers.  
+  
+
+  * **New agencies only:** The current rollout applies to eligible agencies joining HighLevel from the launch forward and their sub-accounts.  
+  
+
+  * **Existing agencies remain unchanged:** Existing agencies do not receive the new Sub-Account LaunchPad through this rollout, even if they create a new sub-account.  
+  
+
+  * **A/B rollout:** HighLevel is testing the new experience with 50% of eligible customers receiving the new LaunchPad and 50% remaining outside the test group.  
+  
+
+  * **Personalized guidance:** Tutorial videos and relevant setup actions are tailored to the customer’s plan and the user’s permission level.  
+  
+
+  * **Role-aware routing:** Users are directed to the Agency LaunchPad or Sub-Account LaunchPad based on their role and persona.
 
 
 * * *
@@ -99,7 +149,7 @@ LaunchPad groups first‑time setup around the business outcomes that matter mos
 ## **Guided Onboarding Videos**
 
   
-Every action includes built‑in guidance so users can learn by doing. The guided onboarding experience is **available for all sub‑accounts** and provides consistent help inside each action.
+Every available LaunchPad action includes guidance that helps users learn while completing setup. The guidance shown depends on the user’s available LaunchPad experience, plan, permissions, and supported actions.
 
   
 
@@ -112,7 +162,7 @@ Every action includes built‑in guidance so users can learn by doing. The guide
   
 
 
-  * **Consistent experience** : All sub‑accounts have access to the new LaunchPad with guided help—no experimentation required.
+  * **Relevant guidance:** Available LaunchPad actions provide onboarding guidance based on the user’s plan, permissions, and supported features.
 
 
   
@@ -167,7 +217,7 @@ Product Tour Guide is an in‑app, click‑by‑click walkthrough that opens fro
   
 
 
-  * **Stable guidance** : The guided onboarding experience (including Product Tour Guide) is available for **all sub‑accounts**.  
+  * **Eligibility-aware guidance:** Product Tour Guide is available within supported LaunchPad actions when the user has access to the applicable guided experience.  
   
 
 
@@ -223,8 +273,12 @@ LaunchPad includes improvements that help users complete guided actions with scr
 
 **Screen reader support**
 
-  * Announces step progress as users move through the flow.
-  * Provides clearer modal context to help users understand where they are.
+  * Announces step progress as users move through the flow.  
+  
+
+  * Provides clearer modal context to help users understand where they are.  
+  
+
   * Communicates form validation feedback to support error recovery.
 
 
@@ -233,9 +287,15 @@ LaunchPad includes improvements that help users complete guided actions with scr
 
 **Keyboard-only navigation**
 
-  * Supports tabbing through interactive elements in the experience.
-  * Supports Enter/Space activation where available (for example, supported tutorial video controls).
-  * Supports Escape to close supported modals.
+  * Supports tabbing through interactive elements in the experience.  
+  
+
+  * Supports Enter/Space activation where available (for example, supported tutorial video controls).  
+  
+
+  * Supports Escape to close supported modals.  
+  
+
   * Improves focus visibility and focus behavior across guided steps.
 
 
@@ -252,6 +312,15 @@ Accessibility labels, announcements, and alt text are translated across 13 local
 
   
 These steps help teams get value immediately—learn in the flow of work, complete a task, and move to the next outcome.
+
+  
+
+    
+    
+    Note: The new Sub-Account LaunchPad is currently limited to eligible agencies in the rollout. Existing agencies are not moved to the new experience simply by creating a new sub-account.
+
+  
+
 
   
 
@@ -312,14 +381,11 @@ These steps help teams get value immediately—learn in the flow of work, comple
   
 
 
-**Q: I don’t see LaunchPad—how can I access it?**  
-First, use the app navigation or global search to look for LaunchPad. If you still don’t see it, ask an admin to check:
+**Q: I don’t see the new Sub-Account LaunchPad. How can I access it?**
 
-  1. Sub-account Settings → Features and Limits (LaunchPad toggle).
-  2. Your user role permissions for LaunchPad.
-  3. Your SaaS plan settings (if the account is on a SaaS plan).
+First confirm that your agency is eligible for the current rollout. Existing agencies are not moved to the new experience, even when they create a new sub-account. For eligible agencies, LaunchPad availability can also depend on the current rollout group and user permissions. If the agency is eligible but LaunchPad is unavailable, check the applicable LaunchPad and user permissions.
 
-
+  
   
 
 
@@ -379,3 +445,43 @@ Yes. The Agency view focuses on agency-level configuration and management, while
 
 **Q: Is LaunchPad available on mobile?**  
 Core guidance can be accessed on a desktop for the best experience. Availability on mobile may vary by task.
+
+  
+
+
+  
+
+
+**Q: Which plans are included in the expanded Sub-Account LaunchPad rollout?**
+
+The rollout expands the new Sub-Account LaunchPad beyond the $97 plan to eligible customers on the $297 and $497 plans.
+
+  
+
+
+  
+
+
+**Q: Will creating a new sub-account give an existing agency the new LaunchPad?**
+
+No. Existing agencies are not included in this rollout, even when they create a new sub-account.
+
+  
+
+
+  
+
+
+**Q: Who can receive the new Sub-Account LaunchPad?**
+
+The current rollout applies to eligible agencies joining HighLevel from the launch forward and their sub-accounts.
+
+  
+
+
+  
+
+
+**Q: Why might two otherwise eligible agencies have different LaunchPad experiences?**
+
+The release currently uses a 50/50 A/B test. Half of eligible customers receive the new LaunchPad while the other half remain outside the test group.

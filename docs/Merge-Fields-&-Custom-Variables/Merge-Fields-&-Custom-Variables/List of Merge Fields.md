@@ -44,6 +44,15 @@ Merge fields let you personalize messages and documents by inserting saved detai
 
 * * *
 
+## **How To Use Merge Fields and Fallback Values**
+
+  
+
+
+For instructions on using merge fields and fallback values (what gets displayed if the merge field source is empty) see the article [How To Use Merge Fields and Fallback Values](<https://help.gohighlevel.com/en/support/solutions/articles/155000008467>).
+
+* * *
+
 ## **Contact Merge Fields**
 
   

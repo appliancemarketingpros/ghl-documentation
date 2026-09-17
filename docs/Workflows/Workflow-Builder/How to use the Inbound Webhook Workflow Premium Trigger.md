@@ -299,6 +299,6 @@ As shown above, you can use the values from the Inbound Webhook inside all other
   * Ensure the data is sent as a JSON object, the only supported data format.
   * To compile correctly, keys must be a single string without space separations; consider using CamelCase or snake_case instead of separating key names with spaces.
   * Providing an Email or Phone number in the payload is mandatory, as the workflow requires contact information. An Email or Phone is required to Find or Create the Contact.
-  * Arrays are not supported in custom values. You can send them in the request but cannot use them inside actions.
+  * List or array values received through an Inbound Webhook can be used in supported workflow text fields when the workflow detects the list in the current execution context. Selecting a list from the Custom Value picker opens the list formatter, where you can choose a field to extract and how the values should be displayed.
   * If your data structure changes, re-select the Mapping Reference inside the Inbound Webhook Trigger setup to address those fields in other actions correctly.
   * If your Inbound Webhook Trigger URL gets compromised or leaked and you want to prevent unwanted requests, Delete the existing Inbound Webhook Trigger and Add a New Inbound Webhook Trigger. A new URL with a different ending ID will be generated; update your integrations to match the new URL. Once saved, incoming requests from the old URL won't enter your workflow; only requests from the new URL will.

@@ -12,3 +12,6 @@
 - [Multi-Attendee Registration with Individual Details and Data Copying](Multi-Attendee Registration with Individual Details and Data Copying.md)
 - [Events and Workflows Integration](Events and Workflows Integration.md)
 - [Multi-Attendee Registration in HighLevel Events Guide](Multi-Attendee Registration in HighLevel Events Guide.md)
+- [How to Duplicate and Reuse Events](How to Duplicate and Reuse Events.md)
+- [Meta Pixel Tracking for Events](Meta Pixel Tracking for Events.md)
+- [How to Manage Event Refunds, Cancellations, and Check-In Eligibility](How to Manage Event Refunds, Cancellations, and Check-In Eligibility.md)

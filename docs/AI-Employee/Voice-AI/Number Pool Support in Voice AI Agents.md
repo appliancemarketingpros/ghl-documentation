@@ -98,53 +98,38 @@ We now support assigning a Number Pool, a collection of multiple phone numbers t
   
 
 
-### **_Step 3:_**_Open the Phone & Availability Tab_
+### **_Step 3:_**_ Open the Deploy Tab and assign a Number Pool_
 
   
 
 
-  1. Inside the agent editor, click on the **Phone & Availability** tab.  
+  1. Inside the Voice AI agent editor, click the **Deploy** tab.  
   
 
+  2. In the **Phone** section, locate **Numbers & number pool**.  
+  
 
-  2. Locate the section labeled **Phone Number / Number Pool**.
+  3. Click the **Numbers & number pool** dropdown.  
+  
+
+  4. Select the Number Pool you want to assign to the Voice AI agent.  
+  
+
+  5. Confirm that the correct Number Pool is selected before continuing.  
+  
+Only existing Number Pools are available for assignment. If you do not have a Number Pool, create one before assigning it to the agent.
 
 
   
-![](https://jumpshare.com/v/KuHOHqf16Zr7wncQN4E4+/Screen+Shot+2025-06-12+at+6.30.52+PM.png)  
-
-
-  
-
-
-### **_Step 4:_**_Assign a Number Pool_
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079359971/original/iZR-zypmRkrjuTkCMt3CaNufqXXAGckT7g.png?1787753875)
 
   
-
-
-  1. Click on the **Phone Number / Number Pool** dropdown.  
-  
-
-
-  2. Select the **Number Pool** you want to assign to this Voice AI Agent.  
-  
-
-
-     * Only pre-created number pools will appear in the list.  
-  
-
-
-     * You must create a number pool before this step if none exist.
 
 
   
 
 
-![](https://jumpshare.com/v/nLc57hei0bH6ThTiHZMs+/Screenshot+2025-06-12+at+6.34.00%E2%80%AFPM.png)  
-  
-
-
-### **_Step 5:_**_Save the Configuration_
+### **_Step 4:_**_Save the Configuration_
 
   
 
@@ -157,7 +142,7 @@ We now support assigning a Number Pool, a collection of multiple phone numbers t
   
 
 
-![](https://jumpshare.com/v/9EguSK1qB7f2QMzH4YY6+/Screen+Shot+2025-06-12+at+6.40.07+PM.png)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079360291/original/kQtUCmXmB9Q0rbvC-lkfw5GHaSF7vrmW8Q.png?1787754005)
 
 * * *
 

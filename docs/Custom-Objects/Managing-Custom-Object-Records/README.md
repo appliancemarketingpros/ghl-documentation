@@ -10,3 +10,4 @@
 - [Custom Objects - Unique Fields Support](Custom Objects - Unique Fields Support.md)
 - [Using Notes in Custom Objects](Using Notes in Custom Objects.md)
 - [Bulk Delete for Custom Object Records](Bulk Delete for Custom Object Records.md)
+- [Trigger Automations in Bulk for Companies and Custom Objects](Trigger Automations in Bulk for Companies and Custom Objects.md)

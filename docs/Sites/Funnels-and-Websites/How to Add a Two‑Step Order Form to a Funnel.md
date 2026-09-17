@@ -8,9 +8,6 @@
 
 Learn how to add and configure a Two‑Step Order Form in a HighLevel funnel. This article goes through attaching products and prices, customizing the form and enabling options like Cart Mode, Order Bump, and Coupon Codes.
 
-  
-
-
 * * *
 
 **TABLE OF CONTENTS**
@@ -96,10 +93,14 @@ You can optionally use **Product Name Override** to edit the name to control how
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155061956386/original/GqtqcHzgl3r6U9MRT3RcyacJ7Ygzl_ZbAg.png?1767653578)  
   
+
+
+  5. Click **Additional options** to configure how the product can be purchased:  
   
-
-
-  5. Click **Additional options** to Allow multiple quantity, set Max per order and Mark this item as a Main product or a Bump product.  
+\- Enable Allow multiple quantity to let customers purchase more than one unit of the product.  
+\- Use Max per order to set the maximum quantity a customer can purchase in one order. You can set the limit from 1–999 units.  
+\- Choose whether the item is a Main product or Bump product.  
+  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155061956405/original/tMSy-2mZSUHmLv0lrgOwDdBF_1WeBiV-zA.png?1767653725)  
   
@@ -234,12 +235,18 @@ Use the additional settings to control how products are presented, whether you o
   
 
 
-  * Toggle **Enable cart mode** (when available for your funnel version). To learn more about Shopping Cart Mode in Order Forms, [click here!](<https://help.gohighlevel.com/en/support/solutions/articles/48001221440>)  
+  * Toggle **Enable cart mode** (when available for your funnel version).   
+  
+**Enable Cart Mode:** Turn on **Cart Mode** to allow customers to purchase multiple products from the same order form. Customers can select the products they want and adjust quantities for products that have **Allow multiple quantity** enabled.  
   
 
-  * Choose whether to show **Product description** and **Pricing information**.  
+
+Without Cart Mode, the order form can be used for single-product selection. Cart Mode is available for supported V2 funnel order forms.  
   
 
+
+  * **Product Description and Pricing:** Choose whether product descriptions and pricing information appear on the order form. For recurring products, the product description can display the price breakdown, including details such as the setup fee, trial period, number of trial days, and recurring payment information. Disable Product Description if you do not want these details displayed.  
+  
 
   * Enable and configure an**Order Bump.** To learn more about Order Bumps in Forms, [click here!](<https://help.gohighlevel.com/en/support/solutions/articles/155000006914>)  
   

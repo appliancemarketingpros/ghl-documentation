@@ -70,6 +70,27 @@ An A2P Brand is the verified identity of the business or individual responsible 
 
 Your Brand is separate from your Campaign. The Brand identifies who is sending messages, while the Campaign explains what types of messages you plan to send, why you are sending them, and how contacts gave consent to receive them. After your Brand is approved, you can continue to Campaign registration, where you'll describe your message use case, sample messages, opt-in method, and consent details.
 
+  
+
+
+### **Revised Brand Type Comparison**
+
+  
+
+
+If your business...| Register as...| Key Requirements  
+---|---|---  
+Has an EIN, Tax ID, Business Number, or other accepted business registration number| **Standard Brand**|  Use your legal business name and registration number exactly as shown in official records. A business-domain email is recommended when possible.  
+Does not have an EIN, Tax ID, Business Number, or registered business entity and has only 1 employee| **Sole Proprietor Brand**|  Use an individual or unregistered business name. A public-domain email such as Gmail, Hotmail, or Yahoo is required. Business-domain emails are not eligible.  
+  
+  
+
+
+  
+
+
+**Important:** Sole Proprietor Brands are only for businesses or individuals without a Tax ID. If your business has an EIN, Tax ID, Business Number, or other accepted business registration number, you must register as a Standard Brand.
+
 2
 
 ## Choose the Correct Brand Type for Your Business
@@ -354,9 +375,19 @@ Can I use a DUNS number for U.S. Brand registration?
 
 No, DUNS numbers are not accepted for U.S. A2P Brand registration. You must use your EIN (Employer Identification Number) exactly as it appears on your IRS CP-575 or 147C letter.
 
-How long does Brand registration approval take?
+### **How long does Brand registration approval take?**
 
-Standard Brand registration typically takes 1-3 business days, though approval times may vary depending on verification requirements. Sole Proprietor Brand registration is usually faster but may take up to 1 business day.
+Brand registration approval times vary based on the Brand type and whether additional verification or manual review is required.
+
+  
+
+
+Standard Brand registrations may take several business days, while Sole Proprietor Brand registrations are often reviewed more quickly. If additional verification is required, approval may take longer.
+
+  
+
+
+This version is safer because it preserves the distinction between Brand types without overpromising a fixed timeline.
 
 Can I use a Gmail address for Standard Brand registration?
 

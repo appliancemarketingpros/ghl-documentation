@@ -144,8 +144,6 @@ Register your Business Profile, A2P Brand, and campaign
 
 The messaging world is moving toward a state where, without these registrations, no messages will be delivered. You can view the Trust Center tab once the sub-account country is set to US.
 
-[Trust Center Support Doc](<https://help.gohighlevel.com/support/solutions/articles/48001225526-lc-phone-system-trust-center>) [A2P Campaign Registration Best Practices](<https://help.gohighlevel.com/support/solutions/articles/48001229784-a2p-10dlc-campaign-approval-best-prac>)
-
 Non-US Accounts
 
 If the country is not set to US, you can still use the system by following these best practices so the delivery rate stays high and the SMS is not flagged. A2P campaign registration is an enhanced safety net for delivery, but it doesn't mean you cannot use the system without it.

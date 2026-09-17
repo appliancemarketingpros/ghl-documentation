@@ -123,7 +123,10 @@ To open Incoming Call Settings:
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064214866/original/gr_BcIaxLmpUKEs341FRACYL6lQM9VCwYw.jpeg?1770236884)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080608868/original/AtbjavgK3cMjQRikg_FoaoZ8QEkbs6FdUA.png?1789046927)
+
+  
+
 
 * * *
 

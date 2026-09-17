@@ -223,7 +223,13 @@ Before you start, confirm that your domain meets industry requirements and is re
      * It has been purchased or transferred in last 60 days
      * It has an EPP status that does not allow for transfers (eg, pendingDelete, redemptionPeriod, serverHold etc)
      * The transfer would result in the term of the domain exceeding the maximum allowed term
-     * Domain extension is not supported.  
+     * Domain extension is not supported.
+     * If DNSSEC is enabled for the domain, HighLevel displays a specific notice explaining that DNSSEC must be disabled before the transfer can continue. This replaces the generic transfer-unavailable message for this particular transfer blocker and gives you a clear action to resolve it.
+
+Use the help link in the notice for instructions on disabling DNSSEC with your current provider.
+
+After DNSSEC is disabled, allow **up to 48 hours** for the change to take effect before checking the domain's transfer eligibility again.
+
   
 
   5. In these cases, the **Continue button will be disabled** , and a relevant error message will **explain why the domain cannot be transferred at this time**.  
@@ -384,6 +390,9 @@ On the Finalize Transfer screen, you will:
         3. Find the option for DNSSEC and disable it.
         4. If Whois Privacy Protection is enabled, turn it off.
         5. Save changes  
+  
+**Important:** After you disable DNSSEC with your current provider, it may take up to **48 hours** for the change to take effect. If the domain still appears ineligible for transfer, wait for the change to propagate before checking the transfer again.  
+  
   
 
      2. **GoDaddy** : [Disabling DNSSEC](<https://www.godaddy.com/en-in/help/turn-dnssec-on-or-off-6420>) and [Removing Whois Privacy](<https://www.godaddy.com/en-in/help/change-my-domain-privacy-level-32283>) Note: It may take a few minutes for the DNSSEC record to be fully removed. You’ll see a confirmation on GoDaddy once the setting is updated.  

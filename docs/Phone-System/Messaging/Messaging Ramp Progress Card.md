@@ -101,13 +101,11 @@ Important
 
 This ramp will not start on the signup date. It will start on the day when the first successful SMS message is sent.
 
-  * All locations start at Level 1, enabling them to send 100 SMS within 24 hours.
+  * All locations start at Level 1, enabling them to send 500 SMS within 24 hours.
   * To increase sending limits, the location must send the full level sending limit within a 24-hour window.
   * After sending the full level sending limit within 24 hours, the location will be temporarily restricted from sending SMS for the next 24 hours. During this temporary restriction, SMS sending is disabled.
   * After the 24 hours, the temporary restriction will be removed. The location will be able to send messages again and will unlock the next level sending limit, increasing their sending limit.
 
-
-![Diagram of how the Messaging Ramp progresses through levels](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064306084/original/cxfwDvVkr4oYtO1ID-o2StXTE6RVspCyEg.png?1770327600)
 
 5
 

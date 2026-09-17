@@ -120,9 +120,15 @@ Social media icons
      3. **Meta Controls** : History, undo, preview, save, publish, etc.
      4. **Left Panel** : Elements and settings for the page.
      5. **Center Panel:** Live editable preview of your page.
-     6. **Right Panel:** Settings and styling options for the selected Section, Row, or Element.  
+     6. **Right Panel:** Settings and styling options for the selected Section, Row, or Element.
+     7. **Breadcrumb Bar:** Shows the hierarchy of the selected element at the bottom of the builder. Hover over an ancestor to highlight it on the canvas, or click it to select and edit it.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155047698398/original/QDiRTb63ytLpjq98Gt1sdpVAhq9Uh6Ok6w.png?1748998154)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155047698398/original/QDiRTb63ytLpjq98Gt1sdpVAhq9Uh6Ok6w.png?1748998154)
+
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155081120423/original/VWMmzo5_kE0JL045HkIvElK_yvhxXefe0Q.png?1789584510)
+
+  
   
 
   4. **Add a Section:** In the center (if empty) or by clicking the **\+ (Add Element/Section)** icon on the left sidebar, choose **Sections** , then select a section width (e.g., **Full Width**).  
@@ -293,3 +299,211 @@ Social media icons
   6. **Connect a domain** : Optional, but if you have a custom domain you can attach it to your site. To connect a domain, leave the page builder and go to the **Settings** tab. From here, you can select a domain, add a favicon, add tracking code, add a chat widget and more.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155068547621/original/qr6JiyZFBcKVyqGuSrxP-pIPOPn5mvHsqw.png?1775504166)
+
+
+* * *
+
+## **Troubleshooting Website Launch Issues**
+
+  
+
+
+If your website does not look or behave as expected after publishing, use the checks below.
+
+###   
+
+
+### **The live website still shows old content**
+
+Saving a page does not always make the latest version live.
+
+  1. Open the affected page in the Website Builder.  
+  
+
+
+  2. Click **Save**.  
+  
+
+
+  3. Click **Publish**.  
+  
+
+
+  4. Open the live URL in an incognito or private browser window and check the page again.
+
+
+  
+
+
+Make sure each page that should be live has been published.
+
+###   
+
+
+### **The domain shows as pending or is not connecting**
+
+  
+
+
+If the domain has not finished connecting:
+
+  * Confirm the DNS records match the values provided by HighLevel.  
+  
+
+
+  * Check the record type, host/name, and value for typing errors.  
+  
+
+
+  * Remove conflicting DNS records when applicable.  
+  
+
+
+  * Allow time for recent DNS changes to propagate.
+
+
+  
+
+
+If automatic domain connection is unavailable, use the manual DNS configuration option provided during setup.
+
+###   
+
+
+### **The website opens a 404 page**
+
+  
+
+
+Confirm that:
+
+  * The domain is assigned to the correct website.  
+  
+
+
+  * The intended page has been published.  
+  
+
+
+  * The page URL path is configured correctly.  
+  
+
+
+  * The correct page is configured as the website's default or home page.
+
+
+###   
+
+
+### **The website shows an SSL or privacy warning**
+
+  
+
+
+Check for incorrect or conflicting DNS records.
+
+If you use Cloudflare, confirm that records requiring direct DNS resolution are configured as **DNS only** when instructed by HighLevel.
+
+After correcting the DNS records, allow time for the SSL certificate to be issued.
+
+###   
+
+
+### **Navigation links open the wrong page**
+
+  
+
+
+Open the **Navigation Menu** element and confirm that every menu item points to the correct page or URL.
+
+If pages were added, renamed, or reordered, review the navigation links again before publishing.
+
+###   
+
+
+### **The website looks incorrect on mobile**
+
+Open the page in the Website Builder and switch to the mobile view.
+
+Check:
+
+  * Element spacing and alignment.  
+  
+
+
+  * Font and button sizes.  
+  
+
+
+  * Section and row widths.  
+  
+
+
+  * Elements configured as desktop-only or mobile-only.
+
+
+Adjust the mobile layout as needed, then save and publish the page again.
+
+###   
+
+
+### **Forms, calendars, or buttons are not working**
+
+  
+
+
+Before sharing the site publicly:
+
+  * Submit each form as a test visitor.  
+  
+
+
+  * Test calendar booking links.  
+  
+
+
+  * Click each button and call-to-action.  
+  
+
+
+  * Confirm links open the intended page or destination.  
+  
+
+
+  * Verify that test submissions create the expected record or notification.
+
+
+###   
+
+
+### **Final Website Launch Check**
+
+Before sharing your website, confirm that:
+
+  * The domain is connected and verified.  
+  
+
+
+  * The website loads securely over `https://`.  
+  
+
+
+  * The correct homepage appears.  
+  
+
+
+  * All required pages are published.  
+  
+
+
+  * Navigation links work.  
+  
+
+
+  * Forms and buttons work.  
+  
+
+
+  * Desktop and mobile layouts display correctly.
+
+  * The latest published content appears on the live site.

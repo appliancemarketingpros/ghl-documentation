@@ -12,5 +12,5 @@
 - [What Email Deliverability Stats Should I Look For?](What Email Deliverability Stats Should I Look For.md)
 - [How List-Unsubscribe helps email deliverability](How List-Unsubscribe helps email deliverability.md)
 - [Achieving Compliance: Meeting Google and Yahoo's Email Sender Requirements in 2024](Achieving Compliance Meeting Google and Yahoo's Email Sender Requirements in 2024.md)
-- [How to Resubscribe After Unsubscribing from an Email List](How to Resubscribe After Unsubscribing from an Email List.md)
+- [How Recipients Can Resubscribe to an Email List After Unsubscribing](How Recipients Can Resubscribe to an Email List After Unsubscribing.md)
 - [Preference Management (Email Unsubscription Management)](Preference Management (Email Unsubscription Management).md)

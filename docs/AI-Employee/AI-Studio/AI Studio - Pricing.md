@@ -52,22 +52,41 @@ More complex projects — more pages, more refinements, connected components —
 
 ## AI Studio Pricing Overview
 
+AI Studio operates on a usage-based model, so session cost varies based on the complexity of the request, the number of AI operations performed, and any generated assets or connected actions.
+
+Cost is not simply based on the number of pages. AI-generated images and other media can have a larger impact on usage. For example, a single image-heavy landing page may cost more than a structured 7-page site with fewer generated images.
+
   
 
 
-AI Studio operates on a usage-based model, so session cost varies with the complexity of the request, the number of AI operations performed, and any generated assets or connected actions. Cost is not simply proportional to the number of pages — the volume of AI-generated imagery and other media tends to be a larger driver. In the examples below, a single image-heavy landing page can cost more than a structured 7-page site that relies on less generated imagery.
+**Want to estimate your usage?[Use the AI Plan Calculator](<https://ai-plan-calculator.vibepreview.com/>) to see what your included AI Studio usage looks like.**
 
-**Note:** AI Studio is available through Labs. The session details in this article report both the work performed (turns, actions, outputs) and the total session cost.
+  
+
+    
+    
+    ****Note:** AI Studio is available through Labs. Session details show both the work performed (turns, actions, and outputs) and the total session cost.
+    **
+
+  
+
 
 Because cost is based on the work performed in a session, the total generally scales with:
 
   * Number of reasoning and planning steps
+
   * Number of pages generated
+
   * Content and copy generation
+
   * AI-generated images and other media
+
   * Reference URL or image analysis
+
   * Form and calendar connections
+
   * Iterative refinements and version history
+
   * Publishing and custom domain setup
 
 

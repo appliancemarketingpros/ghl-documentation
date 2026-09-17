@@ -24,9 +24,6 @@ Track key performance metrics like page views, form submissions, and completion 
   * Audience & Traffic Breakdown
   * Form-Level Analytics
   * How To Set Up Analytics for External Tracking
-    * Step 1: Install the External Tracking Script
-    * Step 2: Access the Analytics Dashboard
-    * Step 3: Verify Data Tracking
   * Frequently Asked Questions
 
 
@@ -363,14 +360,8 @@ The option only appears when the tracking script is properly installed and conne
   
 
 
-  
-
-
 **Q: How long does it take for data to appear?**  
 There may be a slight delay after activity occurs before data is reflected in the dashboard.
-
-  
-
 
   
 
@@ -381,14 +372,8 @@ Form Views count how many times a form is seen, while Responses track successful
   
 
 
-  
-
-
 **Q: How is Completion Rate calculated?**  
 Completion Rate is the percentage of users who submitted the form compared to total form views.
-
-  
-
 
   
 
@@ -399,14 +384,8 @@ It represents users who leave the page within 30 seconds, commonly referred to a
   
 
 
-  
-
-
 **Q: Why is Average Time on Page missing for older data?**  
 This metric started tracking on January 20, 2026, so earlier data is not available.
-
-  
-
 
   
 

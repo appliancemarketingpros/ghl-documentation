@@ -6,21 +6,22 @@
 
 ---
 
-Email Notifications in Forms & Surveys offer a convenient way to stay updated on form submissions without the need for manual monitoring. With this feature, you can respond promptly, share submission details with team members, and ensure seamless form management. Additionally, Auto Responder allows you to automatically send a confirmation email back to the person who filled out the form.
+Email Notifications let you notify team members when someone submits a Form or Survey. You can also use **Auto Responder** to automatically send a confirmation email to the person who submitted it.
+
+  
+
+
+This article explains how to configure notification recipients, customize the email, attach submission details when supported, and test your setup.
 
 * * *
 
 **TABLE OF CONTENTS**
 
-  * What are Email Notifications in Forms & Surveys?
-  * Key Benefits of Email Notifications in Forms & Surveys
-  * Finding Notification Icon
-  * Navigate to Forms or Surveys
-  * Select or Create a Form or Survey
-  * Open the Notification Sidebar
+  * What Are Email Notifications and Auto Responder?
+  * Open Notification Settings
   * Configure Email Notifications
-  * Attach the submission as a PDF 
-  * How it works
+  * Attach Submission Details as a PDF
+  * The PDF is generated from the submission record when the email is sent.
   * Configure Auto Responder
   * How to View Survey Responses After Receiving an Email Notification
   * Frequently Asked Questions
@@ -28,107 +29,49 @@ Email Notifications in Forms & Surveys offer a convenient way to stay updated on
 
 * * *
 
-# **What are Email Notifications in Forms & Surveys?**
+# **What Are Email Notifications and Auto Responder?**
 
   
 
 
-Email Notifications are alerts sent whenever a form or survey is submitted. These notifications go directly to designated inboxes, keeping teams informed in real time. Auto Responder works alongside this feature, sending an automated reply to the person submitting the form, which may include a copy of their responses.
-
-* * *
-
-# **Key Benefits of Email Notifications in Forms & Surveys**
+**Email Notification** sends an alert to one or more designated email addresses whenever a Form or Survey is submitted.
 
   
 
 
-Email notifications and auto responders improve efficiency, speed, and collaboration for teams handling form and survey data.
+**Auto Responder** sends an automatic email to the person who submitted the Form or Survey.
 
+You can use these features to:
+
+  * notify team members about new submissions,  
   
 
-
-  * **Instant alerts** : Receive an immediate email whenever someone submits a form or survey.
-
-
+  * acknowledge the submitter automatically,  
   
 
-
-  * **Improved response time** : Ensure faster follow-up with leads and contacts.
-
-
+  * customize the email subject, sender name, and reply-to address,  
   
 
-
-  * **Collaboration** : Send notifications to multiple team members at once.
-
-
-  
-
-
-  * **Customization** : Personalize the subject, sender name, and reply-to email for better organization.
-
-
-  
-
-
-  * **Auto Responder** : Automatically acknowledge the person submitting the form, creating a professional touch.
+  * and attach submission details as a PDF when supported.
 
 
 * * *
 
-## **Finding Notification Icon**
+## **Open Notification Settings**
 
+  1. Go to **Sites > Forms** or **Sites > Surveys**.  
   
 
-
-The notification option is found in the form editor's secondary bar. From here, you can enable email notification and auto responder.
-
+  2. Open an existing Form or Survey, or create a new one.  
   
 
-
-### **Access Notification Settings**
-
-  
-
-
-Notification settings are available from the dedicated Notifications tab in the Form and Survey builders. From this tab, you can configure internal email notifications and Auto Responder emails.
-
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076931433/original/ei3C2iFHEPnGjHnArctHL9mqKo2_-5INrQ.png?1785156510)  
-  
-
-
-### **Navigate to Forms or Surveys**
-
-  
-
-
-Go to Sites → Forms or Sites → Surveys. Select an existing form or survey, or create a new one.
-
-  
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076931864/original/6bfoco2K1JFXPJXBCld6ssjI-vhJIqsrFw.png?1785156688)
-
-  
+  3. In the builder, select the **Notifications** tab.
 
 
   
 
 
-### **Open the Notification Sidebar**
-
-  
-
-
-Inside the Form or Survey builder, select the Notifications tab. The notification settings panel opens, where you can configure email notifications and Auto Responder emails.
-
-  
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076932032/original/rzRxfRZCSRbbcnc576qukjTQoDa57Zn2AA.png?1785156768)
+The Notifications panel lets you configure internal Email Notifications and Auto Responder emails.
 
 * * *
 
@@ -137,37 +80,29 @@ Inside the Form or Survey builder, select the Notifications tab. The notificatio
   
 
 
-Open the Notifications tab, then enable Email Notification.
-
+  1. Open the **Notifications** tab.  
   
 
-
-Complete the following fields:
-
+  2. Enable **Email Notification**.  
   
 
+  3. Configure the available fields:
 
-**Subject:** Enter the notification email subject. If you leave this field blank, HighLevel uses the form or survey name.
 
+  * **Subject** — Enter the notification subject. If left blank, HighLevel uses the Form or Survey name.  
   
 
-
-**Email (To):** Enter one or more recipient email addresses.
-
+  * **Email (To)** — Enter one or more email addresses that should receive the notification.  
   
 
-
-**Reply-to Email:** Enter the email address that receives replies.
-
+  * **Reply-to Email** — Enter the email address that should receive replies to the notification.  
   
 
-
-**Sender Name:** Enter the sender name. If you leave this field blank, HighLevel uses the location or agency name.
-
-  
+  * **Sender Name** — Enter the name displayed as the sender. If left blank, HighLevel uses the applicable sub-account or agency name.
 
 
-Select **Save** to apply your changes.
+  4. Click **Save**.
+
 
   
 
@@ -186,12 +121,34 @@ Select **Save** to apply your changes.
 ##   
 
 
-### **Attach the submission as a PDF**
+## **Attach Submission Details as a PDF**
+
+  
+When the PDF attachment option is enabled, HighLevel can include a PDF containing the submitted responses with the notification email.
 
   
 
 
-You can automatically attach a submission PDF to your email notifications. When enabled, HighLevel generates a PDF of the submitted Form/Survey/Quiz and includes it as an attachment—no manual download required.
+The PDF is generated from the submission record when the email is sent.
+
+To configure it:
+
+  1. Open the Form or Survey.  
+  
+
+  2. Select the **Notifications** tab.  
+  
+
+  3. Enable **Email Notification** or **Auto Responder** , depending on where you want the attachment sent.  
+  
+
+  4. Enable the available option to attach the submission as a PDF.  
+  
+
+  5. Save your changes.
+
+
+**Note:** Available PDF options can depend on the builder and submission type.
 
 ####   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076942278/original/kwKXiDwHIumUlBcZ9rhnX7hL9wUz927b2g.png?1785160702)
@@ -200,15 +157,8 @@ You can automatically attach a submission PDF to your email notifications. When 
 
 
   
-**How it works**  
-  
+The PDF is generated from the submission record when the email is sent.
 
-
-  * The attachment is generated from the submission record at send time.  
-  
-
-
-  * Use the **PDF layout selector** in the submissions view if you need to compare **New** vs **Old** formatting.   
   
 
 
@@ -240,62 +190,42 @@ You can automatically attach a submission PDF to your email notifications. When 
 
 * * *
 
-# **Configure Auto Responder**
+## **Configure Auto Responder**
 
   
 
 
-Auto Responder sends an email to the contact after they submit the form or survey.
+Auto Responder sends an automatic email to the person who submits the Form or Survey.
 
+  1. Open the **Notifications** tab.  
   
 
-
-Open the Notifications tab, then enable Auto Responder.
-
+  2. Enable **Auto Responder**.  
   
 
+  3. Configure the available fields:
 
-Complete the available email fields, then select Save.
 
+  * **Subject** — Enter the email subject. If left blank, HighLevel uses the Form or Survey name.  
   
 
-
-Open the **Form Notification** sidebar. Toggle on **Auto Responder**.
-
+  * **Reply-to Email** — Enter the email address that should receive replies from the submitter.  
   
 
-
-Fill out the configuration fields:
-
-  
+  * **Sender Name** — Enter the sender name. If left blank, HighLevel uses the sub-account name.
 
 
-  * **Subject** : Enter a subject line. Default is the form name.
+  4. Save your changes.
 
 
   
-
-
-  * **Reply-to Email** : Add an email for contact replies.
-
-
-  
-
-
-  * **Sender Name** : If blank, defaults to the sub-account name.
-
-
-  
-
-
-  * **Save** your changes.
 
 
   
 
     
     
-    **Note:** The Reply-To you set here applies only to the auto-responder email that goes to the submitter. It does not affect the team notification email. Replies to this notification will go to the address set in the "Reply-to-email" field".
+    **Note:** The Reply-to Email configured for Auto Responder applies to the email sent to the submitter. It does not change the Reply-to Email used for the internal Email Notification.****
 
   
 
@@ -349,6 +279,22 @@ Email notifications serve as alerts only and do not include full survey response
 **Q: Can I send email notifications conditionally, based on how someone answers a form or survey question?**
 
 No, native email notifications in the Form Notification sidebar apply to all submissions equally. If you want conditional routing (for example, send to one team member if the answer is “Option A” and another if it’s “Option B”), you’ll need to use **Workflows**. The “Form Submitted” workflow trigger allows you to set conditions and route notifications accordingly.
+
+  
+
+
+**Q: Can I Notify More Than One Team Member?**
+
+Yes. Add multiple valid recipient email addresses in the **Email (To)** field.
+
+  
+
+
+**Q: What Is the Difference Between Email Notification and Auto Responder?**
+
+**Email Notification** alerts your team or designated recipients about a new submission.
+
+**Auto Responder** sends an automatic email to the person who submitted the Form or Survey.
 
   
 

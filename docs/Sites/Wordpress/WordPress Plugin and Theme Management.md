@@ -6,67 +6,227 @@
 
 ---
 
-# 
+Manage installed WordPress plugins and themes directly from HighLevel. You can review versions, update supported items, and activate, deactivate, or delete extensions from your WordPress hosting dashboard.
 
-Managing your WordPress environment just got easier. With the Plugin and Theme Management feature, you get a holistic, top-down view of every plugin and theme installed across your WordPress site—directly from your CRM dashboard.
+WordPress Plugin and Theme Management lets you maintain installed extensions without opening native WordPress for routine changes. You can review versions, update items, and manage their status from HighLevel.
 
-You no longer need to log into the native WordPress admin panel (wp-admin) just to perform basic maintenance. This guide will show you how to view, update, and manage your site's extensions seamlessly.
+* * *
 
-## ?️ What Can You Do From This Dashboard?
+**TABLE OF CONTENTS**
 
-This feature provides full visibility and control over your site's add-ons. From a single screen, you can:
-
-  * View Inventory: See exactly which plugins and themes are currently installed on your site.
-
-  * Status Control: Instantly Activate or Deactivate items as needed.
-
-  * Clean Up: Delete unused or outdated plugins and themes to improve your site's security and loading speed.
-
-  * Version Control: Easily identify outdated items and update them to the latest versions with just a click.
+  * Key Benefits of WordPress Plugin and Theme Management
+  * Plugin and Theme Actions
+  * Installing New WordPress Plugins
+  * Live and Staging Environments
+  * How to Manage WordPress Plugins and Themes
+  * Frequently Asked Questions
+  * Related Articles
 
 
-NOTE: Plugins cannot be installed from this dashboard
+* * *
 
-## ?️ How to Access and Manage Your Plugins & Themes
+## **Key Benefits of WordPress Plugin and Theme Management**
 
-Step 1: Navigate to Your WordPress Dashboard
-
-Log into your account and navigate to Sites > WordPress.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155075589163/original/7yFzFK4xas9bmTZhnVxAtQ02Q6ThAO2SgQ.png?1783585051)
 
-Step 2: Open the Plugin & Theme Manager
 
-Inside your WordPress hosting dashboard, locate and click on the tab specifically designated for Plugins and Themes.  
+Centralized plugin and theme controls make routine WordPress maintenance faster and easier.
+
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155075589161/original/7bV1yKsq037JxStnxdSBZAlV1LA4kpJOTQ.png?1783585051)  
+
+
+  * **Centralized management:** Manage installed plugins and themes from HighLevel.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155075589162/original/CocmNAZ9GKOxV-sAtY0OggVcMCVpbk60LA.png?1783585051)
-
-Step 3: Review Current vs. Available Versions
-
-In the management list, you will see dedicated columns displaying the Current Version installed on your site next to the Available Version (the newest release).
-
-  * If an update is available, you will see a prompt allowing you to seamlessly update the plugin or theme to its latest iteration.
 
 
-Step 4: Change Status (Activate / Deactivate / Delete)
-
-To change the status of a specific plugin or theme, click on the Edit icon (usually represented by three dots or a pencil) next to the item.
-
-  * A menu will appear allowing you to choose Activate, Deactivate, or Delete.
-
-  * Select your desired action and click the confirmation button to proceed. The changes will instantly reflect on your live WordPress site.
+  * **Version visibility:** Compare current and available versions.  
+  
 
 
-## ❓ Frequently Asked Questions (FAQ)
+  * **Quick updates:** Update supported plugins and themes to the latest version.  
+  
 
-Q: Can I downgrade a plugin or theme to an older version using this tool?
 
-A: No, downgrading is not currently supported through this dashboard. The tool only allows you to update items to their latest available versions. If an update breaks your site and you need to restore an older version, you can either restore your site from a recent Daily Backup or handle the rollback manually inside your WordPress admin portal.
+  * **Flexible access:** Use native WP Admin when you need additional WordPress controls.  
+  
 
-Q: Can I still manage my plugins and themes directly from the native WordPress Dashboard?
 
-A: Yes, absolutely! You can always log directly into your native WordPress Dashboard (yourdomain.com/wp-admin) and manage your plugins and themes exactly as you normally would. The CRM dashboard tool is simply provided as a convenient, time-saving alternative.
+  * **Safer testing:** Use Staging to test changes before publishing them to Live.
 
-? Need help? If you experience any issues managing your plugins or themes, please reach out to our support team for assistance!
+
+* * *
+
+## **Plugin and Theme Actions**
+
+  
+
+
+Each action affects an installed plugin or theme differently, so choose the option that matches your goal.
+
+  
+
+
+  * **Activate:** Enables an installed item.  
+  
+
+
+  * **Deactivate:** Disables the item without deleting it.  
+  
+
+
+  * **Delete:** Removes the installed item.  
+  
+
+
+  * **Update:** Updates the item to the latest available version.
+
+Version details help you identify which plugins or themes need updates.  
+  
+
+
+    * **Current Version:** The version installed on your site.  
+  
+
+
+    * **Available Version:** The latest version available.  
+  
+
+
+HighLevel does not support downgrading plugins or themes from this dashboard.  
+  
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080398686/original/1hI8LhOUvRZ3N2Jlwu08VnCdHEKmY3PN0Q.png?1788880242)**
+
+* * *
+
+## **Installing New WordPress Plugins**
+
+  
+
+
+The management dashboard is designed for extensions that are already installed. New plugins must be added through another supported workflow.
+
+  
+
+
+You can:
+
+  * Select supported plugins during WordPress site creation.
+
+  * Install additional plugins through native WordPress under **Plugins > Add New**.
+
+  * Manage installed plugins afterward from HighLevel.
+
+
+* * *
+
+## **Live and Staging Environments**
+
+  
+
+
+Staging lets you test plugin and theme changes separately from your live website. This can reduce risk when making larger updates or troubleshooting site behavior.  
+  
+
+
+Changes made in **Staging** do not affect the live site until Staging is published to Live. Changes made in the **Live** environment affect the production site.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080399371/original/a1qJSRerH2wwaLPlAJhvggT29qWxq_UXrQ.png?1788880586)
+
+* * *
+
+## **How to Manage WordPress Plugins and Themes**
+
+  
+
+
+Following the correct workflow helps ensure you make changes to the intended site and environment.
+
+  1. Go to **Sites > WordPress**. Click **Manage Site** to open the WordPress site you want to manage.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080399129/original/0qIAfh3_zfC6MIvTtwsnCBmUh4iQUfrg2g.png?1788880485)  
+  
+
+
+  2. Confirm whether you are working in **Live** or **Staging**.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080399420/original/UYU1dCq2D8WwIztYSwmiJkLziI33b-GtCg.png?1788880626)  
+  
+
+
+  3. Open **Plugins or Themes**. Locate the plugin or theme you want to manage.
+
+  4. Review the **Current Version** and **Available Version**.
+
+  5. Update the item if a newer version is available.
+
+  6. Open the action menu to **Activate** , **Deactivate** , or **Delete** the item.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080399666/original/0KxoeeVOzqGQ5QAD-szVttlhOocIDerH6Q.png?1788880733)  
+
+
+  7. Review your website after making changes.
+
+
+* * *
+
+## **Frequently Asked Questions**
+
+  
+
+
+**Q: Can I install a new plugin from this dashboard?**  
+A: No. Install new plugins during site creation or through native WordPress.  
+  
+
+
+**Q: Can I downgrade a plugin or theme?**  
+A: No. The HighLevel management dashboard only supports updating to the latest available version.  
+  
+
+
+**Q: What should I do if a plugin causes a site issue?**  
+A: Use the WordPress Plugin Troubleshooter or restore the site from an available backup.  
+  
+
+
+**Q: Do Staging changes immediately affect my live site?**  
+A: No. Staging changes remain separate until you publish Staging to Live.  
+  
+
+
+**Q: Can I still manage plugins and themes in native WordPress?**  
+A: Yes. Use the **WP Admin** button to access the native WordPress dashboard.  
+  
+
+
+**Q: Why can’t I use a specific plugin?**  
+A: Some plugins are restricted in HighLevel’s WordPress hosting environment. Check the blocked-plugin list for current restrictions.
+
+* * *
+
+## **Related Articles**
+
+  
+
+
+  * [WordPress: Automatic Updates Management for Core, Plugins, and Themes](<https://help.gohighlevel.com/support/solutions/articles/155000004715-wordpress-automatic-updates-management-for-core-plugins-and-themes>)  
+  
+
+
+  * [WordPress - Staging Environment Access](<https://help.gohighlevel.com/support/solutions/articles/155000000938-wordpress-staging-environment-access>)  
+  
+
+
+  * [How to Use the WordPress Plugin Troubleshooter](<https://help.gohighlevel.com/support/solutions/articles/155000006064-how-to-use-the-wordpress-plugin-troubleshooter>)  
+  
+
+
+  * [How to Setup WordPress for Clients](<https://help.gohighlevel.com/support/solutions/articles/48001199648-getting-started-with-wordpress-client-side-setup-guide>)  
+  
+
+
+  * [List of Blocked WordPress Plugins](<https://help.gohighlevel.com/support/solutions/articles/48001214712>)  
+  
+
+
+  * [WordPress: Single Sign On Admin](<https://help.gohighlevel.com/support/solutions/articles/155000004154-wordpress-single-sign-on-admin>)

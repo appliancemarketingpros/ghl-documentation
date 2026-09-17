@@ -122,14 +122,24 @@ Go to **Sites > Forms > Builder
   
 
 
-### **Drag and Drop:**
+### **Add One or Multiple Fields**
 
-Drag and drop the desired field into the form or survey to place it where you want it.
+You can add fields individually or select multiple fields before adding them to the builder.
+
+Open **Add Object Fields** to browse or search the available fields. Select the fields you want using the checkboxes, then add them using either option:
+
+  * Click **Add N fields** to add all selected fields at once.
+  * Drag any selected field onto the canvas to add the selected fields as a group.
+
 
   
 
 
-Dragging fields now provides smoother movement and clearer visual feedback. As you move a field, HighLevel shows a subtle shadow around the dragged element, and long forms or surveys automatically scroll when you drag near the top or bottom of the builder. This makes it easier to reposition fields without stopping to scroll manually.
+Bulk-added fields are inserted in the same order they appear in the sidebar. If an element is active on the canvas, the fields are inserted after that element. If no element is active, they are added at the end of the page or slide.
+
+You can also continue to drag and drop individual fields onto the canvas. Dragging fields provides smooth movement and visual feedback. Long forms and surveys automatically scroll when you drag near the top or bottom of the builder.
+
+For details about selecting fields by object, identifying fields by type and query key, and managing multi-field selections, see **Custom Objects and Company Objects in Forms, Surveys & Quizzes**.
 
   
 

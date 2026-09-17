@@ -17,16 +17,13 @@ In order to give users the option to publish their ad campaigns on Instagram too
 
   * How is using Instagram ads along with Facebook ads beneficial?
   * How can I connect Instagram account with Facebook page?
-    * Step 1: Switch to an Instagram Business or Creator Account
-    * Step 2: Connect Instagram to Your Facebook Page
-    * Step 3: Verify the Connection in Meta Business Suite
-    * Final Check:
+  * Step 1: Switch to an Instagram Business or Creator Account
+  * Step 2: Connect Instagram to Your Facebook Page
+  * Step 3: Verify the Connection in Meta Business Suite
+  * Final Check:
   * How to Publish ads on Instagram?
   * Reporting of Instagram ads
   * How to delink an Instagram account from a Facebook page?
-
-
-  
 
 
 * * *
@@ -36,8 +33,10 @@ In order to give users the option to publish their ad campaigns on Instagram too
   
 
 
-Using **Instagram ads** alongside **Facebook ads** allows businesses to reach a broader, more diverse audience by leveraging the unique strengths of each platform. Instagram targets a younger, visually-driven audience, while Facebook has a broader age range. Combining both maximises visibility and engagement through different ad formats, such as Stories on Instagram and Carousel Ads on Facebook.
+Using **Instagram ads** alongside **Facebook ads** allows businesses to reach a broader, more diverse audience by leveraging the unique strengths of each platform. Instagram targets a younger, visually-driven audience, while   
+Facebook has a broader age range. Combining both maximises visibility and engagement through different ad formats, such as Stories on Instagram and Carousel Ads on Facebook.
 
+  
 The cross-platform targeting enables retargeting, increasing conversion opportunities, and the unified Ad Manager makes campaign management and analytics more efficient. Overall, using both platforms enhances **audience reach** , **engagement** , and **ad performance**.
 
 * * *
@@ -89,9 +88,12 @@ Below is the step-by-step guide to Connect Your Instagram Account to a Facebook 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155040691108/original/5FsVpOHXG7Qp9p33IE3cU-DgXWWJ1sLJzg.png?1738217049)
 
   
+  
 
 
-******B:** Via Instagram App(this option will be available if you have a professional account)
+******B:** Via Instagram App(this option will be available if you have a professional account)  
+  
+
 
   * Go to your Instagram Profile.
   * Tap Edit Profile → Scroll to Public Business Information.
@@ -109,6 +111,8 @@ Below is the step-by-step guide to Connect Your Instagram Account to a Facebook 
   * Click Settings → Instagram Accounts.
   * Your Instagram account should be listed.
   * If not, click Add Instagram Account and follow the login steps.  
+  
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155040691856/original/eUpki8wBwS8Abjl4X3ULQDJ-3fvzzIbcmA.png?1738218247)  
@@ -155,15 +159,26 @@ On the Ad Manager home page, click on 'Create Campaign' and proceed to create a 
   2. Select the Instagram account you want to use to publish ad. There will be two cases while selecting an Instagram account:  
 **A:** If no Instagram account is connected to the selected Facebook page, user can select "Use Facebook page" from the Instagram account dropdown and your Instagram ad will use the name, profile picture and other details from your Facebook Page.  
   
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155040696394/original/3qcLBIswBMTflJktZkhmS7StIevD6bJ9wQ.png?1738223106)  
+  
 **B:** If user already has an Instagram account linked to the selected Facebook page, then that account gets automatically selected and will be used to publish ad campaign on Instagram.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155040696681/original/TlSl65t7YUsZe5_vgZut8k349qUfkNwLyg.png?1738223330)
-  3. All the placements of Instagram are shown in the manual placement section and user can select the ones which they want as their ad placement. When the placements are Auto, all are selected for Instagram.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155040697046/original/VdVbdtyZV5Zxc5UbsRYK4WurM9o5KtnWuQ.png?1738223651)
-  4. Proceed with adding the ad text & media, budget, audience and other details for your ad campaign and hit publish to reach your ad audience both on Facebook and Instagram.
-  5. A preview of how your ad will look on Instagram can be checked in the preview window and selecting the Instagram tab.  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155040696681/original/TlSl65t7YUsZe5_vgZut8k349qUfkNwLyg.png?1738223330)  
+  
+
+  3. Available Instagram placements appear in the **Manual Placements** section. Select the placements you want to use for your ad. **Instagram Explore Feed** is no longer available as a selectable placement.
+  4.   
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155040697046/original/VdVbdtyZV5Zxc5UbsRYK4WurM9o5KtnWuQ.png?1738223651)  
+  
+
+  5. Proceed with adding the ad text & media, budget, audience and other details for your ad campaign and hit publish to reach your ad audience both on Facebook and Instagram.  
+  
+
+  6. A preview of how your ad will look on Instagram can be checked in the preview window and selecting the Instagram tab.  
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155040953988/original/e1Ux8VDmjNV5yQ5lKIhfo1FLwf8J4cqTSg.png?1738652690)
 
 

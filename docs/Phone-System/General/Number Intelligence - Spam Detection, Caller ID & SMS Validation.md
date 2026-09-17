@@ -6,41 +6,59 @@
 
 ---
 
-Number Intelligence is a bundle of best-practice phone number checks. It ensures that using the phone for calls and texts works as expected, keeps costs under control, and protects reputation.
+Number Intelligence helps HighLevel evaluate incoming callers and validate phone numbers before the first outbound SMS. It combines **Spam Detection** , **Name Lookup** , and **Number Validation** into one setting so businesses can identify suspicious callers, recognize unknown contacts, and avoid sending SMS to numbers that cannot receive them. The three functions are enabled or disabled together within the HighLevel Phone System.
 
 * * *
 
 **TABLE OF CONTENTS**
 
-  * What Is Number Intelligence
+  * What is Number Intelligence?
   * Key Benefits of Number Intelligence
-  * How to Enable or Disable Number Intelligence
+  * How Number Intelligence Works
+  * Spam Detection for Incoming Calls
+  * Name Lookup for Incoming Calls
+  * Number Validation for Outbound SMS
   * Number Intelligence Pricing
-  * Call Handling with Spam Detection
+  * Number Intelligence for New Sub-Accounts
+  * How To Setup Number Intelligence
   * Frequently Asked Questions
-  * Related Articles
 
 
 * * *
 
-## **What Is Number Intelligence**
+# **What is Number Intelligence?**
 
   
 
 
-Number Intelligence is a bundle of functions that clarify details about how phone calls and SMS are expected to work:
+Number Intelligence is a bundle of phone-number checks that supports both voice and SMS activity in HighLevel. Two of its features operate on applicable incoming U.S. calls, while Number Validation checks numbers worldwide before an applicable first outbound SMS is sent.
 
   
 
 
-  * **Spam Detection:** detects and flags risky incoming calls from unknown USA numbers. If flagged, calls are tagged as “Spam Likely” in call logs and conversations. This information can be used in automations and by your team to improve operations.  
+Number Intelligence includes:
+
   
 
-  * **Name Lookup:** fetches the name of unknown USA callers. With the caller name the CRM will have complete records and your team can personalize call handling.  
+
+  * **Spam Detection:** Checks applicable incoming U.S. calls for spam signals and can mark suspicious callers as **Spam Likely**.
+
+  * **Name Lookup:** Attempts to retrieve available caller-name information for applicable incoming U.S. calls.
+
+  * **Number Validation:** Checks a phone number before the first outbound SMS to determine whether the destination is valid and capable of receiving the message.
+
+
   
 
-  * **Number Validation:** verifies the validity of a number worldwide before sending the first SMS to ensure deliverability. Validation is only performed when an SMS is queued before sending, not during Contact Import/Creation. If the number is identified as a landline number, we will not send even the first message to the carriers.
 
+A helpful way to think about the bundle is:
+
+  
+
+
+**Incoming calls → Spam Detection + Name Lookup**
+
+**First outbound SMS → Number Validation**
 
 * * *
 
@@ -49,58 +67,151 @@ Number Intelligence is a bundle of functions that clarify details about how phon
   
 
 
-  * **Reduce wasted time:** Automatically detects and filters spam so your team only handles real calls.  
+Number Intelligence gives your team additional context before answering calls and helps prevent unnecessary SMS attempts. Because all three capabilities work together, businesses can improve both inbound-call handling and outbound-messaging efficiency from one setting.
+
   
 
-  * **Increase call answer rates:** Redirects your team’s attention from spam to genuine customer calls.  
-  
 
-  * **Improve customer satisfaction:** Greets incoming leads by name to create a more personalized experience.  
-  
+  * **Identify suspicious callers:** Flag potentially risky incoming calls as Spam Likely so your team can respond appropriately.
 
-  * **Maintain strong SMS performance:** Sends messages only to valid numbers to boost delivery rates and keep metrics healthy.
+  * **Recognize unknown callers:** Retrieve available caller-name information for applicable incoming U.S. calls.
+
+  * **Avoid unnecessary SMS attempts:** Validate numbers before the first outbound SMS and prevent the message from being sent when the destination fails validation.
+
+  * **Improve contact context:** Add available caller-name information when a matching contact does not already contain a completed name.
+
+  * **Support SMS deliverability:** Reduce attempts to send SMS to numbers that are not capable of receiving them.
+
+  * **Simplify configuration:** Manage Spam Detection, Name Lookup, and Number Validation through one bundled setting.
 
 
 * * *
 
-## **How to Enable or Disable Number Intelligence**
-
   
 
-    
-    
-    **Number Intelligence Pricing:** 
-    Incoming call from an unknown USA number: **Name lookup** - **$0.01** , **S****pam detection** - **$0.005**. 
-    Outgoing SMS to a new phone number worldwide: **Number validity check** - **$0.005**.
+
+## **How Number Intelligence Works**
 
   
 
 
-Follow these steps to enable or disable Number Intelligence:
+Each Number Intelligence function runs at a different point in the customer communication journey. Understanding when each check occurs makes it easier to interpret the result and understand why a particular lookup or validation was performed.
 
   
 
 
-  1. Login to your sub-account.  
+Feature| Trigger| Coverage| Result  
+---|---|---|---  
+**Spam Detection**|  Applicable incoming call from an unknown number| U.S.| Checks for spam signals and can display Spam Likely  
+**Name Lookup**|  Applicable incoming call where caller-name information is needed| U.S.| Retrieves available caller-name information  
+**Number Validation**|  Before the first outbound SMS to the number| Worldwide| Checks whether the number is valid and capable of receiving SMS  
+  
   
 
-  2. Go to **Settings.**  
-  
-**![](https://jumpshare.com/share/j8Dk8gnpJuZDlzeImWVb+/Screen+Shot+2025-12-01+at+8.59.46+PM.png)**  
+
+Current HighLevel pricing documentation continues to describe Number Intelligence as a three-function bundle that is turned on or off together.
+
+* * *
+
+## **Spam Detection for Incoming Calls**
+
   
 
-  3. Click on the******Phone** **System** tab.  
+
+Spam Detection gives your team an early signal when an applicable incoming U.S. caller may be suspicious. It identifies and labels potential spam, but it does not automatically block every call that receives the label.
+
+For Spam Detection, an **unknown number** is a number that is not already saved as a contact in HighLevel.
+
   
 
-  4. Click on **Additional** **Settings** > **Number Intelligence**.  
-  
-![](https://jumpshare.com/share/lbcNcPTVbXGCmrC9sKkA+/Screen+Shot+2025-12-01+at+9.01.50+PM.png)  
+
+When an applicable call is identified as suspicious:
+
   
 
-  5. **Select** or **Deselect** the **Gather Intelligence on Unknown Phone Numbers** box to **enable** or **disable** the feature.  
-  
-![](https://jumpshare.com/share/NJ7B1n75jGu5zftuyK6w+/Screen+Shot+2025-12-01+at+9.04.08+PM.png)
 
+  * The incoming call can display **Spam Likely**.
+
+  * The result can appear in supported call logs and phone experiences.
+
+  * Your team can use the result when deciding how to handle the caller.
+
+  * Additional HighLevel tools can be used if you want to quarantine or block repeat unwanted callers.
+
+
+  
+
+
+Number Intelligence itself provides the detection signal. HighLevel's inbound-spam documentation explains how Spam Detection can be combined with **Custom Dispositions, Workflows, Inbound Voice DND, and optional IVR filtering** when businesses want stronger spam-call controls.
+
+For advanced spam-call handling, see **How to Reduce Inbound Spam Calls**. [How to Reduce Inbound Spam Calls](<https://help.gohighlevel.com/support/solutions/articles/155000007360-how-to-reduce-inbound-spam-calls?utm_source=chatgpt.com>)
+
+* * *
+
+## **Name Lookup for Incoming Calls**
+
+  
+
+
+Name Lookup helps your team recognize applicable incoming U.S. callers when HighLevel does not already have complete caller-name information. This can provide useful context before or during a conversation and can improve the completeness of the contact record.
+
+  
+
+
+Name Lookup can run when:
+
+  
+
+
+  * The incoming number is not linked to an existing contact.
+
+  * A matching contact exists, but the contact's name field is empty.
+
+
+  
+
+
+This differs slightly from Spam Detection, which treats an unknown caller as a number that is not already saved as a contact.
+
+When caller-name information is available, HighLevel can use the result to provide more context about the incoming caller.
+
+* * *
+
+## **Number Validation for Outbound SMS**
+
+  
+
+
+Number Validation helps prevent HighLevel from attempting the first SMS to a destination that cannot successfully receive it. Unlike Spam Detection and Name Lookup, Number Validation is an outbound messaging check and supports phone numbers worldwide.
+
+  
+
+
+Validation does **not** run simply because a contact is created or imported.
+
+  
+
+
+Instead, HighLevel performs the applicable validation **before the first outbound SMS is sent**.
+
+  
+
+
+The flow is:
+
+  
+
+
+**First SMS is prepared → Number Validation checks the destination → Validation passes or fails → SMS is sent or prevented**
+
+  
+
+
+If the destination fails validation, the SMS is not sent. HighLevel's existing Number Intelligence documentation specifically identifies landline numbers as an example where the first message is prevented from being sent.
+
+This helps reduce unnecessary SMS attempts and supports healthier messaging practices.
+
+For broader guidance, see **Best Practices for SMS Deliverability and Avoiding SMS Restrictions**.
 
 * * *
 
@@ -109,33 +220,119 @@ Follow these steps to enable or disable Number Intelligence:
   
 
 
-Number Intelligence is charged to the **Agency Wallet at these prices**. The Subaccount wallet is charged according to the SaaS Rebilling you setup.
+Number Intelligence uses usage-based pricing, so charges occur when applicable checks are performed. Keeping pricing in one place makes it easier to understand how each component is billed without duplicating the same information throughout the article.
 
   
 
 
-  * **Spam Detection:** $0.005 per call from unknown U.S. numbers. This checks all incoming calls from unknown USA numbers. "Unknown" means the number is not saved as a contact.  
+Current documented pricing is:
+
   
 
-  * **Name Lookup:** $0.01 per call from unknown U.S. numbers. This looks up the name for all incoming calls from unknown USA numbers. "Unknown" means the number is not saved to a contact that has a completed name field. So this will trigger when the number is not saved OR when it is a contact but the name field is empty.  
+
+  * **Spam Detection:** $0.005 per applicable test.
+
+  * **Name Lookup:** $0.01 per applicable lookup.
+
+  * **Number Validation:** $0.005 per applicable validation.
+
+  * **Number format lookups required to support calls:** Free.
+
+
   
 
-  * **Number Validation:** $0.005 per validation. This applies to all numbers worldwide and is not charged when the phone number is added to the contact but before the first SMS is sent. If it fails, the SMS is not sent.
 
+The Number Intelligence bundle is enabled or disabled as a whole. You cannot currently enable only Spam Detection, only Name Lookup, or only Number Validation.
+
+  
+
+
+For broader Phone System rates and billing information, see **Phone System Pricing & Billing Guide**. [Phone System Pricing & Billing Guide](<https://help.gohighlevel.com/support/solutions/articles/48001223556?utm_source=chatgpt.com>)
 
 * * *
 
-## **Call Handling with Spam Detection**
+## **Number Intelligence for New Sub-Accounts**
 
   
 
 
-Incoming calls that fail Spam Detection are marked “**Spam Likely** ” on the web dialer when you receive the call and shown with a tag in the Contacts tab for transparency.
+Agency-level default phone preferences help agencies standardize how new sub-accounts are configured. If you want Number Intelligence enabled automatically when new sub-accounts are created, you can configure that preference from Agency Settings.
 
   
 
 
-![](https://jumpshare.com/share/E4hyiiIrHI2j3YXMKkMq+/DPOZ1lBojoeHqHEG3SzqyjtLwv181zY5-A.png)
+Agency admins can manage the default from:
+
+  
+
+
+**Agency Settings → Phone Integration → Account Creation**
+
+Enable **Automatically Enable Number Intelligence** to make Number Intelligence part of the starting phone configuration for newly created sub-accounts.
+
+Changing this setting affects **new sub-accounts only**. It does not retroactively enable or disable Number Intelligence for existing sub-accounts.
+
+  
+
+
+For more information, see **Understanding Default Phone Preferences for New Sub-Accounts**. [Understanding Default Phone Preferences for New Sub-Accounts](<https://help.gohighlevel.com/support/solutions/articles/155000004593-understanding-default-phone-preferences-for-new-sub-accounts?utm_source=chatgpt.com>)
+
+* * *
+
+## **How To Setup Number Intelligence**
+
+  
+
+
+Enabling Number Intelligence activates Spam Detection, Name Lookup, and Number Validation together. Review all three functions before changing the setting so you understand how disabling the bundle affects both incoming calls and outbound SMS validation.
+
+  
+
+
+  1. Log in to the applicable HighLevel sub-account.
+
+  2. Go to **Settings**.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080385506/original/X4mvv1yNtHibc7dQhZWj_2NDMZaS2g0JGw.png?1788875089)  
+
+
+  3. Open **Phone System**.
+
+  4. Go to **Additional Settings → Number Intelligence**.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080385544/original/vXwZYefDZxGGmlB0ZaCfVJJOu3uKQ26XvA.png?1788875108)  
+  
+
+
+  5. Locate **Gather Intelligence on Unknown Phone Numbers**.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080385626/original/JHjMC8WJ7uOep8PiEHtQxfzxhEXaPoNOHQ.png?1788875141)  
+  
+
+
+  6. Select the setting to enable Number Intelligence, or clear it to disable the bundle.
+
+  7. Save your changes if prompted.
+
+
+  
+
+
+The same general navigation remains documented in HighLevel's current inbound-spam guidance.
+
+**Important:** Disabling Number Intelligence stops all three functions:
+
+  
+
+
+  * Spam Detection
+
+  * Name Lookup
+
+  * Number Validation
+
+
+They cannot currently be controlled independently.
 
 * * *
 
@@ -144,61 +341,61 @@ Incoming calls that fail Spam Detection are marked “**Spam Likely** ” on the
   
 
 
-**Q: What are the charges for using Number Intelligence?**
-
-Incoming call from an unknown USA number: **Name lookup** \- $0.01, **spam detection** \- $0.005. 
-
-Outgoing SMS to a new phone number worldwide: **Number validity check** \- $0.005.
+**Q: Does Number Intelligence automatically block Spam Likely calls?**  
+No. Spam Detection identifies and labels potentially suspicious incoming calls. If you want to block or quarantine repeat spam callers, HighLevel supports additional approaches using dispositions, workflows, Inbound Voice DND, and optional IVR filtering.
 
   
 
 
-**Q: What happens if I disable Number Intelligence?**
-
-When disabled, spam calls, name lookups, and SMS validations will no longer be performed. Calls and SMS will proceed as usual, but spam may not be flagged, names on unknown callers will not show up. SMS delivery rate may reduce because you may end up trying to send SMS to phone numbers incapable of receiving SMS.
-
-  
-
-
-**Q: Can I customize which features of Number Intelligence are enabled?**
-
-As of Dec 5th, 2024, all three features (Spam Detection, Name Lookup, and Number Validation) are activated or deactivated together.
+**Q: When does Number Validation run?**  
+Number Validation runs before the applicable first outbound SMS is sent to the phone number. It does not run simply because the contact was created or imported.
 
   
 
 
-**Q: Does this feature work outside USA?**
-
-Spam Detection and Name lookup currently applies only to calls from phone numbers from USA. The location of the sub-account or their phone number does not matter. SMS validation works worldwide.
-
-  
-
-
-**Q: How does the system handle spam calls?**
-
-Spam calls are flagged as “Spam Likely” and can still appear in call logs and conversations. You can later add these numbers to an inbound DND list for further blocking.
+**Q: What happens if Number Validation fails?**  
+The SMS is not sent when the destination fails validation.
 
   
 
 
-**Q: Will I be notified of spam calls?**
+**Q: Why can Name Lookup run for a contact that already exists?**  
+Name Lookup can still run when a matching contact exists but the contact's name field is empty.
 
-Yes, spam calls will appear in your call logs and the Contacts tab, tagged as “Spam Likely.”
+  
+
+
+**Q: Can I enable Spam Detection without enabling Number Validation?**  
+No. Spam Detection, Name Lookup, and Number Validation are part of the same Number Intelligence bundle and are currently turned on or off together.
+
+  
+
+
+**Q: Does Number Intelligence work internationally?**  
+Number Validation supports numbers worldwide. Spam Detection and Name Lookup are documented for applicable U.S. incoming calls.
+
+  
+
+
+**Q: Is Number Intelligence the same as Voice Integrity?**  
+No. Number Intelligence's Spam Detection evaluates applicable **incoming callers**. Voice Integrity is a separate HighLevel feature used to help address the reputation of eligible **outbound business phone numbers**.
+
+  
+
+
+**Q: Can an agency automatically enable Number Intelligence for new sub-accounts?**  
+Yes. Agency admins can enable **Automatically Enable Number Intelligence** under **Agency Settings → Phone Integration → Account Creation**. The setting applies to newly created sub-accounts and does not retroactively change existing ones.
 
 * * *
 
-## **Related Articles**
+**Related Articles**
 
   
 
 
-  * [What is LC (Lead Connector) Phone System?](<https://help.gohighlevel.com/en/support/solutions/articles/48001223546>)  
-  
-
-  * [How to Purchase a Phone Number in a Sub-Account](<https://help.gohighlevel.com/en/support/solutions/articles/155000003226>)  
-  
-
-  * [Overview of Phone Number Configuration Options](<https://help.gohighlevel.com/en/support/solutions/articles/48001229976>)  
-  
-
-  * [Improve your Phone Number's reputation with Voice Integrity](<https://help.gohighlevel.com/en/support/solutions/articles/155000005566>)
+  * How to Reduce Inbound Spam Calls [Open article](<https://help.gohighlevel.com/support/solutions/articles/155000007360-how-to-reduce-inbound-spam-calls?utm_source=chatgpt.com>)
+  * Phone System Pricing & Billing Guide [Open article](<https://help.gohighlevel.com/support/solutions/articles/48001223556?utm_source=chatgpt.com>)
+  * Workflow Trigger - Number Validation
+  * Understanding Default Phone Preferences for New Sub-Accounts [Open article](<https://help.gohighlevel.com/support/solutions/articles/155000004593-understanding-default-phone-preferences-for-new-sub-accounts?utm_source=chatgpt.com>)
+  * Best Practices for SMS Deliverability and Avoiding SMS Restrictions
+  * Improve Your Phone Number's Reputation with Voice Integrity

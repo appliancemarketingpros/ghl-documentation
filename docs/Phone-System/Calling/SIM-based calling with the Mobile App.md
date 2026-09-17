@@ -6,210 +6,174 @@
 
 ---
 
-Skip the copy-paste and dial leads straight from HighLevel or LeadConnector using the mobile number already on your phone plan. SIM-based calling launches your device’s native dialer with the contact’s digits pre-filled, so you can act on opportunities the moment you see them—no business number or extra setup required.
+Mobile App · Calling
 
-* * *
+# SIM-Based Calling with the Mobile App
 
-**TABLE OF CONTENTS**
+Place calls from the HighLevel mobile app using your phone's SIM and native carrier calling service when LC Phone is not active for the sub-account.
 
-  * What Is SIM-Based Calling?
-  * Key Benefits of SIM-Based Calling
-  * Prerequisites & Limitations
-  * Where You Can Place SIM‑based Calls
-  * Manuel Call Logging
-  * How to Place a SIM-Based Call
-  * Frequently Asked Questions
-  * Related Articles
+Overview
 
+SIM-based calling lets you start a call from the HighLevel mobile app using the mobile number and carrier plan already configured on your phone. HighLevel passes the contact's phone number to your device's native dialer, where you place the call using your SIM.
 
-* * *
+Important
 
-# **What Is SIM-Based Calling?**
+SIM-based calling is available only when an LC Phone number is not active for the sub-account. Once LC Phone is set up, the mobile app uses the HighLevel Phone System instead of SIM-based calling.
 
+Table of Contents
+
+1\. What Is SIM-Based Calling?
+
+2\. Key Benefits
+
+3\. SIM-Based vs HighLevel Calling
+
+4\. Prerequisites and Limitations
+
+5\. Where You Can Place SIM-Based Calls
+
+6\. How to Place a SIM-Based Call
+
+7\. Manual Call Logging
+
+8\. Troubleshooting
+
+9\. Frequently Asked Questions
+
+10\. Related Articles
+
+## 1\. What Is SIM-Based Calling?
+
+SIM-based calling is a quick way to start a phone call from the HighLevel mobile app using your device's normal carrier calling service.
+
+When you tap the call icon next to a contact's number, HighLevel passes the number to your phone's native dialer. You then place the call using the SIM or mobile line configured on your device.
+
+## 2\. Key Benefits
+
+SIM-based calling provides a simple way to contact customers directly from the mobile app without manually copying their phone number.
+
+**Quick Calling**
+
+Tap the call icon and open your phone's native dialer with the contact's number already filled in.
+
+**Uses Your Existing Mobile Plan**
+
+Calls use your mobile carrier and SIM instead of the HighLevel Phone System.
+
+**Mobile-Friendly Workflow**
+
+Call contacts directly while working from Contacts, Opportunities, or Conversations in the mobile app.
+
+## 3\. SIM-Based vs HighLevel Calling
+
+SIM-based calls and HighLevel Phone System calls use different calling methods and provide different features.
+
+Feature| SIM-Based Call| HighLevel Phone Call  
+---|---|---  
+**Calling network**|  Mobile carrier/SIM| HighLevel Phone System  
+**Number used**|  Carrier mobile number| HighLevel phone number  
+**How the call is placed**|  Uses the device's carrier/SIM calling service| Uses the HighLevel Phone System  
+**HighLevel call recording**|  Not available for the SIM call| Available when supported and configured  
+**HighLevel call transfer**|  Not available for the SIM call| Available where supported  
+**HighLevel call analytics**|  Not automatically captured| Available for supported calls  
+**Billing**|  Mobile carrier plan| HighLevel Phone System usage  
   
+## 4\. Prerequisites and Limitations
 
+Before using SIM-based calling, review the following requirements and limitations.
 
-SIM-based calling is a one-tap shortcut that hands a lead’s phone number from the HighLevel mobile app to your phone’s built-in dialer. Because the call routes through your personal or carrier-issued SIM, you can start conversations even if your workspace hasn’t purchased a dedicated business line.
+  * **No active LC Phone number:** SIM-based calling is available only when an LC Phone number has not been purchased and activated for the sub-account. Once LC Phone is active, calls use the HighLevel Phone System instead.
+  * **Carrier charges may apply:** Calls use your existing mobile plan. Standard minutes, roaming charges, international calling charges, or other carrier fees may apply.
+  * **HighLevel call features do not apply to the SIM call:** Because the call is handled through your device's carrier service, HighLevel call recording, transfer controls, and automatic call analytics are not available for that call.
+  * ****Manual logging is required for HighLevel tracking:** **SIM-based calls are not automatically logged in HighLevel. If you want the call outcome recorded in the contact record, log it manually after the call.
+  * **Local Presence Dialing does not apply:** SIM-based calls use the phone number associated with your mobile carrier line instead of a HighLevel phone number.
 
-  
 
-    
-    
-    **Important:** This will work only when an LC phone is **not** purchased and active at the sub-account level. Once LC Phone is setup, SIM-based calling is no longer available.
+## 5\. Where You Can Place SIM-Based Calls
 
-* * *
+When SIM-based calling is available, you can start a call from common areas of the HighLevel mobile app where a contact's phone number appears.
 
-## **Key Benefits of SIM-Based Calling**
+  * **Contacts:** From the contact profile.
+  * **Opportunities:** From an opportunity card or opportunity details.
+  * **Conversations:** From the call action available in the conversation.
 
-****
 
-Empower your team with friction-free outreach while you work toward a full Voice setup.  
-  
+## 6\. How to Place a SIM-Based Call
 
+You do not need to copy and paste the contact's phone number. Start the call directly from the mobile app.
 
-  * **Zero Setup** : Works automatically before enabling LC Phone  
-  
+Step 1
 
+Open **Contacts** , **Opportunities** , or **Conversations** and locate the contact you want to call.
 
-  * **Faster Outreach** : One tap launches the dialer with the number pre‑filled, no copy & paste  
-  
+Step 2
 
+Tap the **phone icon** next to the contact's phone number.
 
-  * **Carrier Billing** : Uses your existing SIM phone billing plan  
-  
+![Phone icon displayed next to the contact phone number in the HighLevel mobile app](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155050758768/original/HQ1PZAMFo_oFCKrMxFcZCCmNkCNIKZA9NA.png?1753990762)
 
+Step 3
 
-  * **Mobile First Experience:** Perfect for users who live inside the app  
-  
+Your device's native dialer opens with the contact's phone number pre-filled. Use the native dialer to place the call.
 
+![Native mobile dialer opened with the contact phone number pre-filled](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155050758778/original/V0R7qk2rfG5RzSyTeU1kxQBwljH1EPMXZQ.png?1753990791)
 
-  * **Bridges the Gap:** Teams can start calling today and upgrade to built-in business numbers later
+**Result:** The call is placed through your mobile carrier just like a standard phone call made from your device.
 
+## 7\. Manual Call Logging
 
-* * *
+SIM-based calls are handled outside the HighLevel Phone System, so they are not automatically logged as HighLevel calls.
 
-## **Prerequisites & Limitations**
+After completing a SIM-based call, record the outcome when needed so the contact record and sales process remain up to date.
 
-  
+  * Add a **Note** to the contact record with the call outcome.
+  * Use an applicable manual or external call logging option when your workflow requires structured call tracking.
 
 
-  * **No LC Phone number** must exist at the sub‑account level. Once a number is purchased, SIM calling is no longer available  
-  
+For automated or workflow-based call tracking, see the related **Log External Call** and **Manual Call** documentation.
 
+## 8\. Troubleshooting
 
-  * **Standard carrier minutes/charges** apply. Calls are not billed through LC Phone or HighLevel  
-  
+If SIM-based calling does not work as expected, check the device and sub-account calling configuration first.
 
+**The native dialer does not open**
 
-  * **No call recording, transfer, or analytics** are available (these rely on LC Phone)  
-  
+Confirm that your device has an active calling app and an active mobile line. Then reopen the HighLevel mobile app and try the call again.
 
+**The SIM-based calling option is missing**
 
-  * **Manual logging** is required to track SIM-based calls in HighLevel
+Check whether an LC Phone number is already active for the sub-account. SIM-based calling is only available when LC Phone is not active. If no LC Phone number is active and the option is still missing, contact HighLevel Support.
 
+## 9\. Frequently Asked Questions
 
-* * *
+Does SIM-based calling cost anything extra in HighLevel?
 
-## **Where You Can Place SIM‑based Calls**
+SIM-based calls are not billed through the HighLevel Phone System. They use your mobile carrier plan, so standard minutes, roaming, international calling, or other applicable carrier charges may apply.
 
-  
+What caller ID will the contact see?
 
+Because the call is placed through your SIM and mobile carrier, the recipient generally sees the caller ID provided by the carrier for that line. Caller ID presentation can vary by carrier, device, and region.
 
-Find the **Call** icon wherever phone numbers surface in the mobile app. This includes:
+Will HighLevel automatically log my SIM-based calls?
 
-  
+No. SIM-based calls use the device's carrier network and are not automatically logged as HighLevel Phone System calls. Record the outcome manually when tracking is required.
 
+Can I use HighLevel call recording or call transfer during a SIM-based call?
 
-  * **Contacts:** Top-right of the profile header  
-  
+No. The call uses your device's carrier network, so HighLevel call recording and transfer controls are not available for that SIM-based call.
 
-  * **Opportunities:** Inside the Kanban card and detail view  
-  
+Does Local Presence Dialing work with SIM-based calls?
 
-  * **Conversations:** Quick-action toolbar above each thread
+No. Local Presence Dialing uses HighLevel phone numbers, while SIM-based calls use the phone number associated with your mobile carrier line.
 
+Why did the SIM-based calling option disappear after I set up LC Phone?
 
-* * *
+SIM-based calling is available only when an LC Phone number is not active for the sub-account. Once LC Phone is set up, the mobile app uses the HighLevel Phone System for calling instead.
 
-## **Manuel Call Logging**
+## 10\. Related Articles
 
-  
-
-
-SIM calls are not auto-logged inside HighLevel. Track outcomes manually so your pipeline stays accurate. Here are three easy ways to capture every outcome:
-
-  
-
-
-  * Tap **Notes** on the contact profile to record outcomes  
-  
-
-  * **Workflow Action - Log External Call:** Log External Call to attribute manual notes to reporting fields. To learn more, see: [Workflow Action - Log External Call](<https://help.gohighlevel.com/en/support/solutions/articles/155000002930>)  
-  
-
-  * **Workflow Action - Manual Call:** Manual Call to schedule follow‑ups. To learn more, see: [Workflow Action - Manual Call](<https://help.gohighlevel.com/en/support/solutions/articles/155000003376>)
-
-
-* * *
-
-## **How to Place a SIM-Based Call**
-
-  
-
-
-Follow these three moves—no settings to toggle.
-
-  
-
-
-  1. Open **Contacts** , **Opportunities** , or **Conversations**  
-  
-
-  2. Tap the **phone****icon** next to the lead’s number  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155050758768/original/HQ1PZAMFo_oFCKrMxFcZCCmNkCNIKZA9NA.png?1753990762)  
-  
-
-  3. Your device’s dialer pops up with the number pre-filled. Just press the Number to place the call  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155050758778/original/V0R7qk2rfG5RzSyTeU1kxQBwljH1EPMXZQ.png?1753990791)
-
-
-  
-
-
-  
-
-
-That’s it! The call uses your carrier minutes or unlimited plan just like any personal call.
-
-* * *
-
-## **Frequently Asked Questions**
-
-**Q: Does this feature cost anything extra?**
-
-No. Calls use your existing mobile plan minutes or VoLTE data. Nothing is billed through HighLevel.
-
-  
-
-
-**Q: Will contacts see my personal caller ID?**
-
-Yes. Because the call originates from your SIM, recipients will see the name or number attached to your carrier line.
-
-  
-
-
-**Q: Will HighLevel log my SIM‑based calls?**  
-A: Automatic logging is only available for LC Phone (VoIP) calls. SIM calls use your carrier network and calls are not logged automatically through HighLevel. This must be done manually.
-
-  
-
-
-**Q: The option to place a SIM-based call disappeared after I bought a LC phone number—why?**  
-When an LC Phone number is active in a sub‑account, the mobile app defaults to VoIP calling and SIM-based calling is no longer available. SIM-based calling is only meant to be a bridge to use while setting up LC Phone.
-
-* * *
-
-## **Related Articles**
-
-  
-
-
-  * [What is LC (Lead Connector) Phone System?](<https://help.gohighlevel.com/en/support/solutions/articles/48001223546>)  
-  
-
-  * [Outbound Calling Using the HighLevel Mobile App](<https://help.gohighlevel.com/en/support/solutions/articles/155000005543>)  
-  
-
-  * [Mobile App - Inbound Call Transfer](<https://help.gohighlevel.com/en/support/solutions/articles/155000005438>)  
-  
-
-  * [How To Add a Manual Call Action to a Workflow](<https://help.gohighlevel.com/en/support/solutions/articles/48000979920>)  
-  
-
-  * [Workflow Action - Log External Call](<https://help.gohighlevel.com/en/support/solutions/articles/155000002930>)  
-  
-
-  * [Workflow Action - Manual Call](<https://help.gohighlevel.com/en/support/solutions/articles/155000003376>)
+  * [ Outbound Calling Using the HighLevel Mobile App ](<https://help.gohighlevel.com/en/support/solutions/articles/155000005543>)
+  * [ What Is LC (Lead Connector) Phone System? ](<https://help.gohighlevel.com/en/support/solutions/articles/48001223546>)
+  * [ Local Presence Dialing in the Mobile App ](<https://help.gohighlevel.com/en/support/solutions/articles/155000006736>)
+  * [ Workflow Action - Log External Call ](<https://help.gohighlevel.com/en/support/solutions/articles/155000002930>)
+  * [ Workflow Action - Manual Call ](<https://help.gohighlevel.com/en/support/solutions/articles/155000003376>)

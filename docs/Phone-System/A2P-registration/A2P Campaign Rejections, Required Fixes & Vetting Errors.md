@@ -6,7 +6,12 @@
 
 ---
 
-When an A2P 10DLC campaign is rejected, it's important to understand exactly what went wrong , and what needs to change before you resubmit. We've made this process clearer with a new "View required fixes →" experience that gives you structured, actionable detail for every rejection reason.
+When an A2P 10DLC Campaign is rejected, HighLevel displays the rejection reason and the corrections required before you can resubmit. 
+
+  
+
+
+This guide explains how to view required fixes, understand A2P rejection and vetting error codes, determine whether a Campaign can be resubmitted, and resolve common issues related to consent, websites, business information, use cases, and messaging content.
 
 * * *
 
@@ -17,33 +22,17 @@ When an A2P 10DLC campaign is rejected, it's important to understand exactly wha
   * How to View Your Required Fixes
   * Before You Resubmit
   * Rejection Codes & Required Fixes
-    * Part 1: Rejection Types Eligible for Resubmission
-      * Opt-In & Consent
-      * Website
-      * Business Identity
-      * Campaign Use Case
-      * Registration & Brand
-    * Part 2: Rejection Types Ineligible for Resubmission
-      * SHAFT Content Violations
-      * Disallowed Content
-      * High Risk
-      * Legacy Codes (Pre-March 23, 2026)
-    * Part 3: New Granular Error Codes (Effective March 23, 2026)
-      * Opt-In & Consent
-      * Website
-      * Business Identity
-      * Use Case
-      * SHAFT Content Violations (Ineligible for Resubmission)
-      * Disallowed Content (Ineligible for Resubmission)
-      * High Risk (Ineligible for Resubmission)
-      * Registration Issue
+  * Part 1: Rejection Types Eligible for Resubmission
+  * Part 2: Rejection Types Ineligible for Resubmission
+  * Part 3: New Granular Error Codes (Effective March 23, 2026)
   * Campaign Vetting Fees and Resubmission Notes
-    * Frequently Asked Questions
+  * Handling the "Maximum 3 Tries Exhausted" Error
+  * Frequently Asked Questions
 
 
 * * *
 
-# **What are Required Fixes?**
+## **What are Required Fixes?**
 
   
 
@@ -54,6 +43,9 @@ Every rejection reason includes a "**View required fixes →** " link. Clicking 
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067598509/original/toPmCfMxWrRzTwVst_EprwtB3aQmrseOdg.png?1774353402)
+
+  
+
 
   
 
@@ -86,24 +78,29 @@ Newly submitted Campaigns may remain in **Pending** status until review is compl
   
 
 
-  1. Navigate to your **A2P Campaign** submission in the portal.  
+  1. Go to **Settings → Phone System → Trust Center**. Open **Brands & Campaigns**, then select the **Campaigns** tab. Locate the Campaign with a **Rejected status**. Click View required fixes → next to each rejection reason.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080473850/original/ZG5fAOmK_tCIs94o4bkCfeWpG0rBd2sEMg.png?1788951565)  
   
 
-  2. Locate the rejected campaign and find the listed rejection reason(s).  
+  2. Navigate to your **A2P Campaign** submission in the portal.  
   
 
-  3. Click "**View required fixes →** " next to the rejection reason.  
+  3. Locate the rejected campaign and find the listed rejection reason(s).  
+  
+
+  4. Click "**View required fixes →** " next to the rejection reason.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067598623/original/YFbcG7KVWQPjCP6smtLbZH3TfX53Fxs1FQ.png?1774353448)  
   
 
-  4. Review each of the four fields in the modal carefully.  
+  5. Review each of the four fields in the modal carefully.  
   
 
-  5. Make the corrections indicated under "**Correction needed**."  
+  6. Make the corrections indicated under "**Correction needed**."  
   
 
-  6. Resubmit your campaign once all issues are resolved.
+  7. Resubmit your campaign once all issues are resolved.
 
 
   
@@ -136,6 +133,12 @@ For example, the Campaign use case and Opt-in message may not be editable during
 
 If the rejection is related to disallowed, forbidden, or high-risk content, the Campaign may not be eligible for standard correction and resubmission.
 
+  
+
+    
+    
+    **IMPORTANT :** Before resubmitting, review your entire Campaign—not only the field identified in the rejection. Verify that your Campaign description, use case, sample messages, website, opt-in flow, Privacy Policy, and Terms & Conditions are accurate and consistent. Fix all listed rejection reasons before resubmitting.
+
 * * *
 
 ## **Rejection Codes & Required Fixes**
@@ -143,7 +146,24 @@ If the rejection is related to disallowed, forbidden, or high-risk content, the 
   
 
 
-##  _Part 1: Rejection Types Eligible for Resubmission_
+  
+
+
+If your Campaign is...| What to do  
+---|---  
+**Pending**|  Wait for the review to finish. Do not resubmit or create another Campaign while review is in progress.  
+**Rejected with a correctable error**|  Open **View required fixes →** , correct every listed issue, review the full Campaign, and resubmit.  
+**Rejected and a required field cannot be edited**|  Correct the underlying issue and create a new Campaign if necessary.  
+**Rejected for forbidden/high-risk content**|  Do not resubmit the same Campaign. Review the applicable messaging restrictions.  
+**Approved but SMS is not working**|  Verify that the sending number is linked to the approved Campaign and troubleshoot the SMS error separately.  
+  
+  
+
+
+  
+
+
+### **_Part 1:_**_Rejection Types Eligible for Resubmission_
 
   
 
@@ -257,7 +277,7 @@ Error Code| What It Means| Correction Needed
   
 * * *
 
-## _Part 2: Rejection Types Ineligible for Resubmission_
+### _**Part 2:** Rejection Types Ineligible for Resubmission_
 
   
 
@@ -362,7 +382,7 @@ Error Code| Rejection Category| What It Means
   
 * * *
 
-## _Part 3: New Granular Error Codes (Effective March 23, 2026)_
+## _**Part 3:** New Granular Error Codes (Effective March 23, 2026)_
 
   
 
@@ -533,6 +553,9 @@ Error Code| What It Means| Correction Needed
 ---|---|---  
 **30995**|  Account has reached the maximum Messaging Services phone number limit.| Contact Support.  
   
+  
+
+
 * * *
 
 ## **Campaign Vetting Fees and Resubmission Notes**
@@ -559,6 +582,62 @@ Review the rejection reason carefully before resubmitting or creating a new Camp
 
 * * *
 
+## **Handling the "Maximum 3 Tries Exhausted" Error**
+
+  
+
+
+If you see the error "**Maximum 3 tries exhausted"** , please [**fill out this form**](<https://link.gohighlevel.com/widget/form/mfl7sSEccNAaQZOCalsA>) once you have collected the **CP 575 Form.** It means the registration attempts have failed due to mismatched or invalid business details.  
+  
+
+
+#### **Next Steps:**
+
+  
+
+
+  1. **Obtain your CP 575 EIN Confirmation Letter** (or request a 147c letter from the IRS if the CP 575 is unavailable).  
+  
+
+  2. **Upload your business registration form** in your support communication with us.  
+  
+
+
+  3. **Email or send a screenshot** of your CP 575 form to the HighLevel team.  
+  
+
+
+We will submit this documentation on your behalf for Brand approval.
+
+  
+
+
+**Important Tips:**
+
+  
+
+
+  * Ensure the **legal business name and EIN number exactly match** what’s shown on the CP 575 form.  
+  
+
+
+  * Do **not** use the business name found on W2 or W9 forms, as they may differ.  
+  
+
+  * If the business name spans multiple lines on your CP 575/147c letter, you must enter **all lines above the address line** during registration.  
+  
+**Example:**  
+  
+ABC Holding Group Inc.  
+Division of Regional Services  
+123 Main Street  
+New York, NY 10001  
+  
+**The legal name to enter would be:** ABC Holding Group Inc. Division of Regional Services
+
+
+* * *
+
 ## **Frequently Asked Questions**
 
   
@@ -571,8 +650,14 @@ Yes, for eligible rejection codes. Once you've addressed all listed rejection re
   
 
 
+  
+
+
 **Q: My campaign has multiple rejection reasons. Do I need to fix all of them?**  
 Yes. All rejection reasons must be resolved before resubmission. Addressing only some issues will likely result in another rejection.
+
+  
+
 
   
 
@@ -584,6 +669,9 @@ Yes. If you believe your rejection was made in error, contact support with the s
   
 
 
+  
+
+
 **Q: I fixed the issue but my campaign was rejected again. What should I do?**
 
 Review the new rejection reasons carefully , carriers may surface additional issues on subsequent reviews. If you believe your campaign is compliant and continue to face rejections, contact our support team for assistance.
@@ -591,9 +679,15 @@ Review the new rejection reasons carefully , carriers may surface additional iss
   
 
 
+  
+
+
 **Q: Why is my Campaign in Pending status?**
 
 Newly submitted A2P 10DLC Campaigns may remain in Pending status while they are reviewed by carriers or registration partners. If the Campaign is approved, it can move forward for A2P messaging. If it does not meet requirements, it may be rejected with required fixes.
+
+  
+
 
   
 

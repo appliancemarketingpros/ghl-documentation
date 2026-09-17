@@ -82,6 +82,41 @@ A **master record** is the contact profile that remains after the merge. Some in
 
 * * *
 
+**What Will Be Kept When Contacts Are Merged?**
+
+  
+
+
+Different types of contact data are handled differently during a merge. Review how HighLevel retains or combines information before selecting a master contact and confirming the merge.
+
+  
+
+
+Data or Behavior| What Happens During the Merge  
+---|---  
+**Master contact**|  The contact selected as the master remains after the merge. Existing values on the master contact are kept by default where applicable.  
+**Appointments, payments, orders, and invoices**|  These default to the master contact’s values.  
+**Custom fields**|  A value from another selected contact is added only when the corresponding custom field on the master contact is blank. Existing custom field values on the master contact are not overwritten.  
+  
+|   
+  
+**Workflows**|  Active workflow execution can transfer to the master contact. If the master contact is already running the same workflow, the existing execution is kept and the additional execution may end. Workflow waits, goals, re-entry settings, and actions tied to the original contact can also affect behavior after a merge.  
+**Undoing the merge**|  A completed contact merge cannot be reversed.  
+  
+> 
+>     ****Important:** Contact merges are permanent. Before confirming the merge, verify that you selected the correct master contact and review the affected custom fields, appointments, payments, orders, invoices, and active workflow behavior.
+>     
+>     **
+
+##   
+
+
+##   
+
+
+##   
+
+
 ## **How to Manually Merge from the Contacts List**
 
   

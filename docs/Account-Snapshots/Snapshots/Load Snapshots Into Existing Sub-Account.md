@@ -8,21 +8,21 @@
 
 This article explains how to load a snapshot into an existing sub-account. Snapshots allow you to copy pre-built workflows, funnels and other assets into a sub-account without starting from scratch. This article walks you through the step-by-step process and highlights how to select specific assets, manage conflicts, and confirm your data load.
 
+  
+
+
+****
+
 * * *
 
 **TABLE OF CONTENTS**
 
   * What is Loading a Snapshot into an Existing Account?
-  * Key Benefits of Loading a Snapshot into an Existing Account
-  * How To Load a Snapshot into an Existing Sub-Account
-    * Step 1: Navigate to "Manage Client"
-    * Step 2: Select and Load Snapshot
-    * Step 3: Choose the Snapshot
-    * Step 4: Choose the Assets
-    * Step 5: Resolve Conflicts
-    * Step 6: Confirm the Import
-  * Frequently Asked Questions
-  * Related Articles
+    * Key Benefits of Loading a Snapshot into an Existing Account
+    * Loading a Snapshot vs. Pushing a Snapshot Update
+    * How To Load a Snapshot into an Existing Sub-Account
+    * Frequently Asked Questions
+    * Related Articles
 
 
 * * *
@@ -60,6 +60,28 @@ Loading a snapshot is a strategic way to duplicate assets across multiple client
 
   * **Conflict Warnings** : See what might be overridden before taking action
 
+
+* * *
+
+## **Loading a Snapshot vs. Pushing a Snapshot Update**
+
+  
+
+
+Loading and pushing a snapshot serve different purposes:
+
+  
+
+
+Action| When to Use It  
+---|---  
+**Load Snapshot**|  Add selected assets from a snapshot into an existing sub-account. This is commonly used when initially deploying a template or adding snapshot content to an account.  
+**Push Update**|  Send selected changes from a refreshed snapshot to sub-accounts that previously received that snapshot.  
+  
+  
+
+
+If you need to update accounts that are already using a snapshot, see [Refresh or Update Snapshots](<https://help.gohighlevel.com/en/support/solutions/articles/48000982583>).
 
 * * *
 

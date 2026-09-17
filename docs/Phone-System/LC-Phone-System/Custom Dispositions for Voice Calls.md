@@ -6,209 +6,116 @@
 
 ---
 
-Log every voice-call outcome in seconds and let HighLevel automate the follow-up for you. Custom Dispositions turn “what happened on that call?” into actionable data that fires workflows and fuels reporting.
+Use Custom Dispositions to record the outcome of each voice call with a consistent label such as Follow Up, Qualified, or Requested Appointment. Dispositions help teams standardize call outcomes and can be used to trigger automated follow-up actions.
 
 * * *
 
 **TABLE OF CONTENTS**
 
-  * What are Custom Dispositions for Voice Calls?
-  * Key Benefits of Custom Dispositions for Voice Calls
-  * Creating and Managing Dispositions
-  * Using Custom Call Disposition in Workflows
-  * How To Set Up Custom Dispositions for Voice Calls
-  * How does Call Disposition Work
-  * Using Dispositions in Reporting
-  * Custom Dispositions on Mobile 
-  * Supported Call Types
-  * Limitations
-  * Migration Note: Call Status → Call Disposition
+  * What Are Custom Dispositions for Voice Calls?
+  * Key Benefits
+  * How to Create and Manage Custom Dispositions
+  * How to Use a Custom Disposition After a Call
+  * Custom Dispositions on Mobile
+  * Use Custom Dispositions in Workflows
+  * Call Status vs. Custom Disposition
+  * Supported Calls and Limitations
+  * Migration from Legacy Call Status
   * User Roles and Permissions
   * Frequently Asked Questions
 
 
 * * *
 
-## **What are Custom Dispositions for Voice Calls?**
+## **What Are Custom Dispositions for Voice Calls?**
 
-  
+Custom Dispositions are user-defined call outcomes that team members can select after a call. For example, you can create dispositions such as **Follow Up** , **Qualified** , **Requested Appointment** , or **Not Interested**.
 
-
-Custom Dispositions let agents (or the Power Dialer) choose a single outcome—like Follow Up, Requested Appointment, or Not Interested—immediately after each call. That selection is stored on the call record, can trigger automations, and appears in Call Reporting for analysis.
+Each call can have one disposition. The selected disposition is stored with the call and can be used in workflows to automate the appropriate next step.
 
 * * *
 
-## **Key Benefits of Custom Dispositions for Voice Calls**
+## **Key Benefits**
 
   
 
 
-Custom Dispositions make every call count by delivering:
-
+  * **Standardize call outcomes:** Give team members a consistent set of options for recording what happened on a call.  
   
 
-
-  * **Faster wrap-up** : agents pick an outcome in one click, so they can move to the next call sooner.  
+  * **Speed up post-call work:** Select an outcome immediately after a call instead of recording it manually elsewhere.  
   
 
-  * **Cleaner automation** : workflows can start the moment a specific disposition is chosen (e.g., send SMS, re-enqueue in Power Dialer).  
+  * **Automate follow-up:** Use dispositions with the Call Details workflow trigger to send messages, create tasks, update opportunities, and more.  
   
 
-  * **Better visibility** : standardized outcomes become filterable columns in Call Reporting  
-  
-
-  * **Seamless migration** : replaces legacy Call Status with zero data loss (update your Call Details triggers). 
+  * **Support web and mobile teams:** Select dispositions after supported calls from both the web and mobile apps.
 
 
 * * *
 
-## **Creating and Managing Dispositions**
+## **How to Create and Manage Custom Dispositions**
 
   
 
 
-**Admins** control the list their team will see in the dialer. Build concise, action-oriented outcomes that match your pipeline stages. Dispositions may be reordered for agent convenience and edited at any time—existing workflows keep working when a disposition is renamed.
-
-* * *
-
-## **Using Custom Call Disposition in Workflows**
-
+Sub-account admins control which dispositions are available to users. Each sub-account can have up to **10 dispositions**.  
   
 
 
-Dispositions feed directly into the Call Details workflow trigger via the new Custom Disposition filter. Combine dispositions with other filters (direction, duration, tags) to:
+  1. Go to **Settings → Phone System → Voice → Call Dispositions**.  
+  
 
+  2. Review the existing dispositions available for the sub-account.  
+  
+
+  3. Add a new disposition or edit an existing disposition as needed.  
+  
+
+  4. Reorder dispositions to control how they appear to users.  
+  
+
+  5. Save your changes.  
   
 
 
-  * Send personalized SMS/email sequences  
+Use short, action-oriented names that clearly describe the outcome of a call.  
   
 
-  * Re-enqueue leads in Power Dialer  
-  
-
-  * Apply or remove tags  
-  
-
-  * Create tasks or opportunities  
-  
-
-  * Link: Workflow Trigger – Call Details
-
-
-  
-
-
-  
-
-
-### **How to Set Up:**
-
-  
-
-
-### _**Step1:** Under Automations, Add a trigger: Call Details._
-
-**  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060736511/original/Kte17wDCzmo4xm58mn038SVTzixpdTvlXQ.jpeg?1765894701)**  
-
-
-  
-
-
-  
-
-
-### **_Step 2:_**_Select the filter Custom Disposition._**__**
-
-Choose one or more dispositions to automate your desired follow-up actions.
-
-  
-
-
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060736938/original/I-IpD8mHIl-AZtsdPAYy9z6HMmbU0EzKPA.png?1765894876)**
-
-  
-
-
-  
-
-
-### _**Step 3:** Your chosen disposition can automatically trigger workflows such as:_
-
-Sending a follow-up SMS or email
-
-  
-
-
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060737194/original/Ae-SV-vPICDEUq1cLN5v9iyTbNW31TsQyA.png?1765894974)  
-  
-
-
-  * Scheduling an appointment.  
-  
-
-  * Adding the contact to a specific pipeline or campaign.
-
-
-* * *
-
-## **How To Set Up Custom Dispositions for Voice Calls**
-
-  
-
-
-**Default Dispositions** : By default, every account starts with preset dispositions for visibility and ease of use. Admins can add or modify these.
-
-  
-
-
-**Creating & Editing Dispositions: **Only sub-account admins can create, edit, or delete dispositions. You can have up to 10 dispositions per sub-account.
-
-  
-
-
-**For Set-up:** Go to **Sub-account Settings → Phone System → Voice → Call Dispositions**. Edit the existing ones or add new ones.
-
-  
-
+    
+    
+    **Note:** Renaming a disposition does not break workflows that already use it because HighLevel tracks the disposition using its internal ID. If you delete a disposition used by a workflow, update the workflow to use a valid disposition.
+    
+    
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060735935/original/8Xs4t_P7W78b1WLZExcb-u7wbmZn4sL4-w.png?1765894460)
 
 * * *
 
-## **How does Call Disposition Work**
+## **How to Use a Custom Disposition After a Call**
 
   
 
 
-When a call ends in the web dialer, you’ll see up to 10 call dispositions to choose from, for example, Follow Up or Requested Appointment. You simply select the appropriate one to log the outcome.
+When a supported call ends, the post-call screen displays the dispositions configured for the sub-account.  
+  
 
+
+  1. Complete the call.  
+  
+
+  2. Select the disposition that best describes the outcome, such as **Follow Up** or **Requested Appointment**.  
+  
+
+  3. The selected disposition is saved with the call and can be used by configured workflows.  
+  
+
+
+Only one disposition can be selected for each call. Selecting a disposition is optional, but using them consistently helps teams maintain standardized call records and automation.  
   
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060736264/original/6F0yy191Z5J0IRKfHhr-b2hGj-Mw178LSg.png?1765894587)
-
-* * *
-
-## **Using Dispositions in Reporting**
-
-  
-
-
-Reporting: All selected dispositions are stored and can be viewed in: **Reporting → Call Reporting**
-
-  
-
-
-This lets you track patterns like call outcomes per user or team performance. In the Call Reporting table, you’ll now see a new column for Call Disposition. You can also use it as a filter to analyze performance by disposition, for example, how many calls resulted in “Requested Callback”.
-
-  
-
-    
-    
-    **IMPORTANT** : This feature is coming soon!
 
 * * *
 
@@ -217,138 +124,169 @@ This lets you track patterns like call outcomes per user or team performance. In
   
 
 
-Custom Dispositions are now fully supported on mobile, making it easy to log clear call outcomes and trigger next steps instantly—right from your phone. This feature is live across HighLevel, LeadConnector, and Whitelabelled mobile apps on both iOS and Android.
-
+Custom Dispositions are supported in the HighLevel, LeadConnector, and whitelabeled mobile apps on both iOS and Android.  
   
 
 
-  
-**What's New**
-
+  * **Select after a call:** Choose a disposition from the call-end or post-call screen.  
   
 
-
-  * **Call End Screen Support:****** Select a disposition immediately when a call ends or from the post-call view, no desktop required.
-  * **Single Disposition per Call:****** Log one definitive outcome (e.g., Follow Up, Qualified) to ensure clean data and consistent reporting.
-  * **Workflow-Ready:** Use the Custom Disposition filter in workflows to automatically trigger follow-ups, tasks, pipeline movements, and more.  
+  * **One outcome per call:** Only one disposition can be recorded for each call.  
   
+
+  * **Workflow-ready:** A selected disposition can trigger follow-up automation configured using the Call Details workflow trigger.  
+  
+
+
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155062133363/original/sZ7BDtwmaLNhQ1H0u2sfdyyMcajmKLCa4g.jpeg?1767795525)
-
-  
-  
-
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155062133361/original/oqPVNBse0sw3edWLPaKTY5d75FpiRPPF-A.jpeg?1767795524)
 
-
 ###   
-**Mobile-Specific Notes**
+**Mobile-Specific Note**
 
-  * **Sub-Account Matching Required:** Dispositions only appear when the selected sub-account matches the call’s location. Since mobile apps can receive calls across multiple sub-accounts, cross-sub-account dispositions are not supported. Use the **Switch** option if needed.
-
-
-* * *
-
-## **Supported Call Types**
-
-  
-
-
-1\. Call Dispositions work for:
-
-  
-
-
-  * All calls made or received via the web or mobile app  
-  
-
-  * Both LC Phone and Twilio sub-accounts
-
-
-  
-
-
-2\. Not supported for: Calls answered via personal number or desk phone.
+**Sub-account matching is required:** Dispositions appear only when the active sub-account matches the location associated with the call. If the mobile app receives calls for multiple sub-accounts, use the **Switch** option to open the correct sub-account before selecting a disposition.
 
 * * *
 
-## **Limitations**
+## **Use Custom Dispositions in Workflows**
 
   
 
 
-  * Only one disposition per call  
+Custom Dispositions can be used with the **Call Details** workflow trigger to automate actions based on the outcome selected after a call.  
   
 
-  * Maximum 10 dispositions per account  
+
+For example, a workflow can:
+
+  * Send a follow-up SMS or email.
+  * Create a task.
+  * Update or create an opportunity.
+  * Add or remove tags.
+  * Re-enqueue a contact in the Power Dialer.
+  * Trigger other follow-up actions based on the selected disposition.  
   
 
-  * Sub-dispositions (nested outcomes) are not available  
-  
 
-  * Multiple selections are not supported
-
+For complete instructions on configuring the trigger and the **Custom Disposition** filter, see [ **Workflow Trigger – Call Details** ](<https://help.gohighlevel.com/support/solutions/articles/48001212511>).
 
 * * *
 
-## **Migration Note: Call Status → Call Disposition**
+## **Call Status vs. Custom Disposition**
 
   
 
 
-If you were previously using Call Status in the Power Dialer (Manual Actions):
+Call Status and Custom Disposition describe different information about a call.  
+  
+
+
+**Field**| **What It Represents**| **Examples**  
+---|---|---  
+**Call Status**|  A system-recorded result based on what happened technically during the call.| Busy, Voicemail, No Answer, Completed  
+**Custom Disposition**|  A user-defined classification selected after the call to describe its business outcome.| Follow Up, Qualified, Requested Callback  
+  
+  
+Both can be used as filters in the **Call Details** workflow trigger when you need automation based on either the technical call result or the team's selected outcome.
+
+* * *
+
+## **Supported Calls and Limitations**
 
   
 
 
-  * The manual call status selection option has been replaced by Call Disposition.  
+**Supported**| **Limitations**  
+---|---  
+Calls made or received through the HighLevel web app| Only one disposition can be selected per call  
+Calls made or received through supported mobile apps| Maximum of 10 dispositions per sub-account  
+LC Phone and Twilio sub-accounts| Nested or sub-dispositions are not supported  
+Supported WhatsApp calls made through HighLevel| Calls answered through a personal number or desk phone do not support disposition selection  
+  
+  
+For information about dispositions with WhatsApp calls, see [ **WhatsApp Calling in HighLevel** ](<https://help.gohighlevel.com/support/solutions/articles/155000007253-whatsapp-calling>).
+
+* * *
+
+## **Migration from Legacy Call Status**
+
   
 
-  * Existing workflows using “Call Status” triggers should be updated to use the Custom Disposition filter in Call Details Trigger instead.  
+
+If you previously used the manual **Call Status** selection available in Power Dialer Manual Actions, that manual classification has been replaced by **Call Disposition**.  
   
 
-  * Your older data will remain visible, but new automations should use the new system
+
+  * Use Custom Dispositions for user-selected post-call outcomes.  
+  
+
+  * Historical Call Status information remains available.  
+  
+
+  * Review older workflows that depended on the legacy manually selected status and update them to use the **Custom Disposition** filter where appropriate.  
+  
+
+
+    
+    
+    **Important:** System-generated Call Status values such as Busy, Voicemail, No Answer, and Completed are still supported in the Call Details workflow trigger. Do not replace those filters when your automation intentionally depends on the system-recorded call result.
+
+  
 
 
 * * *
 
 ## **User Roles and Permissions**
 
-  
-
-
-Role| Action  
+**Role**| **Available Action**  
 ---|---  
-Admin| Create, Edit, and Delete dispositions  
-User| Select disposition after call  
+Admin| Create, edit, delete, and manage dispositions  
+User| Select an available disposition after a supported call  
   
 * * *
 
 ## **Frequently Asked Questions**
 
+**Q: Do users have to select a disposition after every call?**
+
+No. Selecting a disposition is optional, but consistently using dispositions helps standardize call outcomes and ensures disposition-based workflows can run when configured.
+
+**Q: What happens if I rename a disposition used in a workflow?**
+
+The workflow continues to use the disposition because HighLevel tracks it using its internal ID.
+
+**Q: What happens if I delete a disposition used in a workflow?**
+
+Update the affected workflow to remove or replace the deleted disposition before testing the workflow again.
+
+**Q: Can I select multiple dispositions for one call?**
+
+No. Only one Custom Disposition can be selected for each call.
+
+**Q: What is the difference between Call Status and Custom Disposition?**
+
+Call Status is recorded automatically by HighLevel and represents a technical call result such as Busy, Voicemail, No Answer, or Completed. Custom Disposition is a user-defined business outcome selected after the call, such as Qualified or Follow Up.
+
+**Q: Can Custom Dispositions trigger workflows?**
+
+Yes. Add the **Call Details** workflow trigger and use the **Custom Disposition** filter to start a workflow when a specific disposition is recorded.
+
+**Q: Will historical Call Status data remain available?**
+
+Yes. Historical Call Status information remains available. Use Custom Dispositions for new user-selected post-call classifications.
+
+* * *
+
+## **Related Articles**
+
   
 
 
-**Q: Do agents have to pick a disposition after every call?**
+  * [ Workflow Trigger – Call Details ](<https://help.gohighlevel.com/support/solutions/articles/48001212511>)  
+  
 
-No. Selecting a disposition is optional, but highly recommended for accurate reporting and automation. 
+  * [ How to Reduce Inbound Spam Calls ](<https://help.gohighlevel.com/support/solutions/articles/155000007360-how-to-reduce-inbound-spam-calls>)  
+  
 
-**Q: What happens if I rename a disposition that’s used in workflows?**
-
-Workflows continue to fire; the system tracks the disposition’s internal ID.
-
-**Q: What happens if I delete a disposition?**
-
-Associated workflows will stop triggering until you remove or replace that filter.
-
-**Q: Are multiple dispositions per call supported?**
-
-Not at this time—only one disposition can be selected per call. 
-
-**Q: Which call types support dispositions?**
-
-All web- or mobile-app calls on LC Phone or Twilio numbers. Calls answered on a personal or desk phone are excluded. 
-
-**Q: Will historical Call Status data remain visible?**
-
-Yes, but new automations should switch to the Custom Disposition filter.
+  * [ WhatsApp Calling in HighLevel ](<https://help.gohighlevel.com/support/solutions/articles/155000007253-whatsapp-calling>)

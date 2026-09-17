@@ -6,78 +6,91 @@
 
 ---
 
+**TABLE OF CONTENTS**
+
+  * How to Send Invoice from a New Document 
+  * Configurations 
+  * Direct Payment
+  * How to Automate 2 in 1 Documents
+  * Tracking
+  * Tips & Edge Cases
+  * Frequently Asked Questions
+
+
 [](<https://ideas.gohighlevel.com/changelog/2-in-1-documents-direct-invoice-payments-after-signing>)
-
-  
-
-
-# **How to get a Document signed and collect payment immediately?**
-
-  
-
-
-Make it easy for clients to **sign a document and pay in one flow**.  
-
-
-  
-
-
-1\. Add a product list -> Enable Direct Payments -> Send the document -> User signs and gets redirected to invoice immediately
 
 * * *
 
-## **Send from a New Document****  
-**
+  
 
-  1. Go to**Payments › Documents & Contracts › New Document**.  
+
+  
+
+
+* * *
+
+# **How to Send Invoice from a New Document**
+
+  
+
+
+  1. Go to **Payments › Documents & Contracts › New Document**.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155051365192/original/Vc1wvMN6oETE-ZfL0WmBUl5YOBBL-lyvyw.png?1754927243)  
+  
 
 
   2. Add a the **Primary signer**.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155051366150/original/yOa2RSTtVxoTgsulKr-slgKZelwoZszJ2g.png?1754927718)  
+  
 
 
-  3. **Add Product List**. Item types determine whether the list is **One‑time** or **Recurring** ; **tags** appear automatically.  
+  3. **Add Product List:** Add a product list to the document. Product types determine whether the generated invoice is one-time or recurring.  
+  
+
+     * If the selected products are one-time only, the document generates a one-time invoice.  
+  
+
+
+     * If the selected products include a recurring product, the document generates a recurring invoice.  
+  
+
+
+     * If the product list contains optional one-time and recurring products, the invoice type is based on the products the recipient selects. Selecting only one-time products generates a one-time invoice.  
+  
+
+
+     * One document can use only one recurring frequency. Configure the frequency in the invoice settings.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155051366166/original/JCxJUNJo-GPfNfUveyySJsp7N7q-NHoV3A.png?1754927734)  
+  
 
 
   4. You can also use **Show image in list** to display or hide the product image. When adding a new product from the document editor, you can upload its image before adding the product to the list.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078276159/original/adVtdg-UjKEX9YHIMENTsfOKyYG319kiyA.png?1786559933)
-
-  
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078276159/original/adVtdg-UjKEX9YHIMENTsfOKyYG319kiyA.png?1786559933)  
   
 
 
-     1. If a One time product is added - The invoice type is set to One time.  
+  5. If a One time product is added - The invoice type is set to One time.  
   
 \- You can select a product and change it to an optional item and make its quantities editable if needed from the properties section in the right.  
   
 \- From the Payments section in the left side - you can set the configurations as per your need.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155051366432/original/bhM_qquIzDeGHIaeNvYDXLWPjyCP0u23cQ.png?1754927827)
-
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155051366432/original/bhM_qquIzDeGHIaeNvYDXLWPjyCP0u23cQ.png?1754927827)  
   
-
-
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155051366606/original/jTxRkj0ltdrXRljZlzTpKmYOovynXZ20xA.png?1754927890)  
   
 
 
-     2. If one or more recurring product is added in the product list -> the invoice type changes to Recurring. One document can only have one recurring frequency which can be chosen from the Invoice frequency settings in the left.  
+  6. If one or more recurring product is added in the product list -> the invoice type changes to Recurring. One document can only have one recurring frequency which can be chosen from the Invoice frequency settings in the left.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155051366786/original/3I3qx7U4b4K_DFgdFusKaZgxiZVMbtJN8A.png?1754928032)  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155051366803/original/kYuN_Ssu2furPuvhpj6ug9l1pn1EcDxEtw.png?1754928047)  
-
-
-  5.   
-
-
-  6.   
+  
+  
 
 
   7. Pick configurations you need (see quick callouts; full details in **Configurations** below):  
@@ -131,10 +144,11 @@ Make it easy for clients to **sign a document and pay in one flow**.
 
 ## **Configurations**
 
-###   
-**Direct Payment**  
-**  
-**
+####   
+**Direct Payment**
+
+  
+
 
   * **ON:** If an invoice exists at signing, the **primary signer** is redirected to the invoice page immediately after signing; invoice email also goes out.  
   
@@ -143,8 +157,9 @@ Make it easy for clients to **sign a document and pay in one flow**.
   * **OFF:** No redirect; payer uses the emailed invoice (or you send it later from drafts).
 
 
-###   
-**Send Invoice**  
+####   
+**Send Invoice**
+
   
 
 
@@ -155,43 +170,41 @@ Make it easy for clients to **sign a document and pay in one flow**.
   * **OFF:** Keeps the invoice as **draft** so you can review and send manually.
 
 
-###   
-
-
-### **Auto‑Payment**  
-**  
-**
-
-  * **ON:** Saves card (supported gateways) and **autocharges** subsequent invoices in the recurring schedule or ones with payment schedules.  
   
 
 
-  * **OFF:** Payer pays each issued invoice manually.
+#### **Auto‑Payment**
+
+  
 
 
-> Auto‑Payment affects **recurring** schedules. One‑time is paid during the immediate checkout.
+  * **ON:** Saves card (supported gateways) and **auto-charges** subsequent invoices in the recurring schedule or ones with payment schedules.  
+  
 
-###   
-**Live Mode (true/false)**  
-**  
-**
+
+  * **OFF:** Payer pays each issued invoice manually.  
+
+
+  * Auto‑Payment affects **recurring** schedules. One‑time is paid during the immediate checkout.
+
+
+####   
+**Live Mode (true/false)**
+
+  
+
 
   * Documents & Contracts templates do not include a Live Mode toggle. If you need to test, use a payment experience that supports Test/Live mode (for example, invoices or payment links) or your gateway’s test configuration.”
 
 
-  
-
-
 * * *
 
+## **How to Automate 2 in 1 Documents**
+
   
 
 
-## **How to Automate 2 in 1 Documents: Save as a Template & Automate with Send Documents & Contracts Action**  
-**  
-**
-
-  1. Go to**Payments › Documents & Contracts › Templates › New Template**.  
+  1. Go to **Payments › Documents & Contracts › Templates › New Template**.  
   
 
 
@@ -210,6 +223,7 @@ Make it easy for clients to **sign a document and pay in one flow**.
   5. **Save** the template.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155051377851/original/8YcFgpdyieAbTCU_6H9pvaF3n-Ltf8qtmA.jpeg?1754936733)  
+  
 
 
   6. Open **Workflows** → add **Action: Send Documents & Contracts** → select your template. Once the workflow is triggered, the signer receives the document. Once Primary user signs the document -> they are redirected to the invoice if direct payments were enabled.  
@@ -217,11 +231,11 @@ Make it easy for clients to **sign a document and pay in one flow**.
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155051377889/original/d5kwC0KoHoruWVoaZv12ywCt9yS0UcPzIQ.jpeg?1754936745)
 
   
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155051377931/original/IfaA7MfDcYDTmeQN6G5ejMZOkqkCUNNXVg.jpeg?1754936845)  
   
-
 
   7. **What happens at signing** (same rules):  
   
@@ -236,9 +250,10 @@ Make it easy for clients to **sign a document and pay in one flow**.
 
 * * *
 
-## **Tracking**  
-**  
-**
+## **Tracking**
+
+  
+
 
   * **Payments › Documents & Contracts:** Document + signing + payment status in one place.  
   
@@ -252,19 +267,19 @@ Make it easy for clients to **sign a document and pay in one flow**.
   
 
 
-## **Tips & Edge Cases****  
-**  
+## **Tips & Edge Cases**
+
+  
 
 
   * **Weekly example:** If the schedule is **every Thursday** and signing completes on Thursday, the first invoice is generated **immediately** → redirect applies. Otherwise, the first invoice is sent on the **next Thursday**.  
   
 
-
   * **Multiple recipients:** Only the **primary signer** is redirected to pay.  
   
 
 
-  * **Setup fees:** Show as a **one‑time** line on the first invoice; only the recurring line continues.  
+  * **If recurring and one-time products are optional** , the generated invoice type depends on the products the recipient selects. Selecting only one-time products generates a one-time invoice.  
   
 
 
@@ -273,27 +288,31 @@ Make it easy for clients to **sign a document and pay in one flow**.
 
 * * *
 
-## **Frequently Asked Questions****  
-**  
+## **Frequently Asked Questions**
+
+  
 
 
-  1. **Why didn’t my client get redirected after signing?**  
+**Q: Why didn’t my client get redirected after signing?**  
 Either **Direct Payment** is OFF, or there wasn’t an invoice **at signing** (e.g., recurring starts later). Enable Direct Payment and, for recurring, set start = **at signing**.  
   
 
-  2. **Where do I track progress?**  
+
+**Q: Where do I track progress?**  
 In **Documents & Contracts** (document-level status) and **Invoices** (invoice/payment status, schedules, auto‑payment results).  
   
 
-  3. **Can I mix one‑time and recurring items?**  
+
+**Q: Can I mix one‑time and recurring items?**  
 Yes. The product list tags show types. One‑time bills first; recurring continues as per the schedule.  
   
 
-  4. **I had a payment schedule in my document, but the invoice was not generated**
+
+**Q: I had a payment schedule in my document, but the invoice was not generated**
 
 This usually happens when one of the payment schedule dates goes past the invoice due date. This often occurs if the first payment was set using a Custom date. To avoid this, set the first payment to “Upon primary signature” so the schedule aligns correctly and the invoice can be generated.  
   
 
 
-  5. **Can I send invoices in “test mode” from a Documents & Contracts template?**  
+**Q: Can I send invoices in “test mode” from a Documents & Contracts template?**  
 Documents & Contracts templates don’t include a “Live Mode” toggle. To run test payments, use a payment flow that supports **Test/Live mode** (such as Payment Links or invoice sending options) or your gateway’s test configuration.

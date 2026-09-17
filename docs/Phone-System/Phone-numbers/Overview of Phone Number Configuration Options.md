@@ -19,10 +19,10 @@ This article walks you through how to configure a specific phone number inside y
 **TABLE OF CONTENTS**
 
   * What is Phone Number Configuration?
-    * Phone Number Configuration Options – At a Glance
-    * How to Edit Your Phone Configuration
-    * Frequently Asked Questions
-    * Related Articles
+  * Phone Number Configuration Options – At a Glance
+  * How to Edit Your Phone Configuration
+  * Frequently Asked Questions
+  * Related Articles
 
 
 * * *
@@ -32,7 +32,12 @@ This article walks you through how to configure a specific phone number inside y
   
 
 
-Phone number configuration in HighLevel enables you to**control how each phone number behaves for****both inbound and outbound calls**. These configurations are crucial for teams that rely on efficient phone communications, whether they show a custom caller ID, route calls to users, or enable voicemail.
+Phone number configuration in HighLevel enables you to**control how each phone number behaves for****both inbound and outbound calls**.
+
+  
+
+
+These configurations are crucial for teams that rely on efficient phone communications, whether they show a custom caller ID, route calls to users, or enable voicemail.
 
 * * *
 
@@ -292,7 +297,7 @@ _
 
 * * *
 
-## ****Frequently Asked Questions****
+## **Frequently Asked Questions**
 
 **  
 **
@@ -337,7 +342,7 @@ If the call is answered through the HighLevel web app, mobile app, or desktop ap
 
 * * *
 
-## ****Related Articles****
+## **Related Articles**
 
   
 

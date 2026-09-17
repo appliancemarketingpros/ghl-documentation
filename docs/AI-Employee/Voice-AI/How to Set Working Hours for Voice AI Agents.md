@@ -26,12 +26,12 @@ Set working hours for Voice AI agents to control when they answer calls. This ar
   
 
 
-Working hours let you control when a Voice AI agent is available to answer calls. This is useful when you only want the agent to respond during specific business hours instead of staying active all day. When working hours are turned off, the agent remains available at all times.
+Working Hours let you control when a Voice AI agent is available to answer calls. Select All Hours to keep the agent available at all times, or select Custom Schedule to define specific active days and time ranges.
 
   
 
 
-Working hours are configured per agent, so you can create a schedule that matches the needs of each business or use case.
+Working Hours are configured per agent, so you can create a schedule that matches the needs of each business or use case.
 
 * * *
 
@@ -85,25 +85,27 @@ Setting working hours correctly helps ensure your Voice AI agent is available on
 
   4. Click the **Deploy** tab.  
   
-
-
-  5. Under **Phone & Availability, **scroll to **Working Hours**.  
-  
-![](https://jumpshare.com/share/kzzZLCZlBos8K4yqUFTq+/Screen+Shot+2026-06-23+at+19.22.57.png)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079262869/original/vvw4vYHUsjXMWsbJi4xNGtT7yN-ykMMBRQ.jpeg?1787666325)  
   
 
 
-  6. Turn on **Set working hours for the agent**.  
+  5. In the **Deploy** tab, locate **Working Hours**.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079262910/original/GpUD__ZBbWVyoqSKOnNzTpWq1392s8kLMA.png?1787666343)  
   
 
-
-  7. **Select** the **days** when the **agent** **should** **be** **active**.  
+  6. Select the availability option for the agent:
+     * **All Hours:** Keep the agent available at all times.
+     * **Custom Schedule:** Define specific days and time ranges when the agent is available.  
   
 
-
-  8. **Choose** the **start** **time** and **end** **time** for **each** **active** **day**.  
+  7. If you select **Custom Schedule** , use the day chips to select the days when the agent should be active.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079262985/original/rUfsYiq5pj4y5j-OotBtwdosB4tTYNly4g.png?1787666408)  
   
 
+  8. Set the start and end time for each active day. Custom schedules can extend through midnight.  
+  
 
   9. Use the **bin** **icon** to **delete** your selection for the particular day.  
   

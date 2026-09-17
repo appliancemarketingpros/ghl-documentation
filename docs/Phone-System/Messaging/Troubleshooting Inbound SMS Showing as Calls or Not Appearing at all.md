@@ -51,7 +51,7 @@ Contact [Support](<https://help.gohighlevel.com/support/tickets/new>) for resolu
   * Check Twilio Number Configuration
     * Number is SMS/MMS-capable.
     * Webhook URL is correctly set for messaging.
-  * Check if Messaging Services are enabled.
+  * **Check whether the phone number is linked to a Twilio Messaging Service.** If it is, verify incoming-message routing in the Messaging Service's **Integration** settings. If it is not, verify the phone number's own Messaging webhook.
   * Review Message Logs.
   * If the issue still persists, contact [Twilio Support](<https://support.twilio.com>).
 
@@ -96,13 +96,40 @@ Screenshot 3.0
 
 Screenshot 3.1
 
-Step 3
+Step 3 
 
-Confirm Webhook Configuration
+### **Confirm the Incoming Message Webhook**
 
-  * Scroll down and check the **Messaging webhook settings**.
-  * If it's missing or incorrect, update it accordingly (Screenshot 3.2 and 3.3).
-  * Click Save.
+  
+
+
+First, check whether the Twilio number is connected to a **Messaging Service**.
+
+**If the number is not connected to a Messaging Service:**
+
+  1. Open the Twilio phone number.
+  2. Scroll to **Messaging**.
+  3. Set **A message comes in** to **Webhook**.
+  4. Enter:  
+`https://services.leadconnectorhq.com/appengine/twilio/incoming_message`
+  5. Set the method to **HTTP POST**.
+  6. Click **Save**.
+
+
+  
+
+
+**If the number is connected to a Messaging Service:**
+
+  1. Open the linked Messaging Service.
+  2. Go to **Integration**.
+  3. Under **Incoming Messages** , select **Send a webhook**.
+  4. Enter:  
+`https://services.leadconnectorhq.com/appengine/twilio/incoming_message`
+  5. Set the Request URL method to **HTTP POST**.
+  6. Enter the same URL as the **Fallback URL**.
+  7. Set the Fallback URL method to **HTTP POST**.
+  8. Click **Save**.
 
 
 ![Messaging webhook configuration field](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155048362616/original/2ntLPpZIJdr7VF4u9xmzO-7KppYrsCYUyQ.png?1750139542)
@@ -113,13 +140,24 @@ Screenshot 3.2
 
 Screenshot 3.3
 
-Now test to see if inbound messages are appearing correctly.
+### Test the Configuration
+
+  1. Send a new SMS to the Twilio number from an external phone.
+  2. Confirm that the message appears in **Conversations** in HighLevel.
+  3. If it does not appear, review the corresponding message in Twilio **Messaging Logs**.
+  4. Record the **Message SID** and exact timestamp if further troubleshooting is required.
+
 
 3
 
 ## Check SMS Capability
 
-Look for the dagger icon (**†**) next to the number — it means the number can send/receive SMS only within the country.
+Confirm that the Twilio phone number supports **SMS**. If the inbound message contains media, also confirm that the number supports **MMS**.
+
+  
+
+
+A dagger icon (†), when shown in Twilio, indicates that SMS capability may be limited to domestic messaging for that number.
 
 ![Dagger icon indicating domestic-only SMS capability](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155048330328/original/NZze8-m4RTxheJoX6VOiTVKmwDY7auuZLA.png?1750083890)
 
@@ -130,7 +168,10 @@ Screenshot 3.4
 ## Review Message Logs
 
   * In the left sidebar, click **Monitor > Logs > Messaging**.
-  * Enter the lead's phone number in the To field (numbers only — no spaces, dashes, or parentheses).
+  * Enter the **contact's phone number in the From field** when troubleshooting an inbound SMS.
+
+Use the **To** field when troubleshooting an outbound SMS sent to the contact.
+
   * Review the message status.
   * Click the Date to view message details.
 
@@ -141,7 +182,9 @@ Screenshot 4.0
 
 Note
 
-If the message status is **"Delivered"** but nothing shows in the platform, copy the Message SID and open a ticket with [Twilio Support](<https://support.twilio.com>).
+**Note:** If Twilio shows the inbound message in **Messaging Logs** but the message does not appear in HighLevel, copy the **Message SID** , exact timestamp, sender number, recipient number, and message status.
+
+Then verify the incoming-message webhook or Messaging Service configuration. If the configuration is correct and the issue continues, include these details when escalating the issue.
 
 5
 
@@ -157,7 +200,18 @@ Grab the Account SID from Agency View → Settings → Phone Integration → Sub
 
 Q: Why would an incoming text show up as a call instead of a message?
 
-This typically happens when the Twilio number's messaging webhook is missing, pointed at the wrong URL, or was overwritten by another integration. Reconfiguring the webhook in Step 3 usually resolves it.
+This can happen when Twilio's incoming-message routing is not configured correctly.
+
+First determine whether the number is connected to a **Messaging Service** :
+
+  * If it is not, verify the number-level **A message comes in** webhook.
+  * If it is, verify the Messaging Service's **Integration** settings.
+
+
+Also confirm that the HighLevel incoming-message endpoint is configured with **HTTP POST**.
+
+  
+
 
 Q: What does the dagger icon next to a number mean?
 

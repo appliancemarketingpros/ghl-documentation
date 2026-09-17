@@ -903,6 +903,18 @@ Real-world examples make it easier to choose the correct Wait option for your au
   
 
 
+**Q:What happens if I edit a workflow while contacts are already in a Wait action?**
+
+Contacts already in the Wait action keep their existing wait. Changing the Wait action does not update the wait for contacts already in that step.
+
+  
+
+
+Changes to steps after the Wait action can apply when those contacts continue through the workflow. This includes updates to existing actions and newly added actions.
+
+  
+
+
 **Q: What’s the difference between Segments and Conditions in a Wait action? How should I use them?**
 
 Conditions are individual rules, such as **Contact’s Job Title is CEO** or **Contact is in the High-Value tag**. Segments are groups of these conditions evaluated together using AND/OR logic. A contact exits the Wait step when any one segment is satisfied.

@@ -6,177 +6,274 @@
 
 ---
 
+Pre and post buffers give you extra time before or after appointments for preparation, travel, follow-up, or other transition activities. HighLevel automatically uses configured buffer times when calculating appointment availability. You can also display those buffers directly in Day and Week Calendar views, making it easier to understand your schedule at a glance. This article explains how to configure, view, and manage pre- and post-buffer time in HighLevel.
+
+* * *
+
 **TABLE OF CONTENTS**
 
-  
+  * What is Pre and Post Buffer Time?
+    * Key Benefits of Pre and Post Buffer Time
+    * How Buffer Time Affects Appointment Availability
+    * Viewing Buffer Time in Day and Week Calendar Views
+    * Buffer Time and External Calendar Events
+    * How To Setup Pre and Post Buffer Time
+    * Frequently Asked Questions
+    * Related Articles
 
 
-  * What are buffers?
-  * How to set buffers
-  * How to turn off buffers 
-  * Buffer Logic
-  * Buffer Duration Affecting Available Slots
-  * FAQs
+* * *
 
-
-###   
-
-
-### What are buffers?
-
-Buffers are additional time that can be added before and/or after a GHL event. This feature can be beneficial if you need extra time to get ready before a meeting, travel to an event, or wrap up after a presentation. Buffer settings are customised for each event type, allowing you to fine-tune and optimize them as needed
+# **What is Pre and Post Buffer Time?**
 
   
 
 
-### How to set buffers
-
-Here's how to add buffers to your appointments:
-
-  * Choose the calendar to which you want to add buffers for appointments.
-  * If you're creating a new calendar, go to "Advanced Settings." If you're working with an existing calendar, click on "Edit."
-  * Navigate to the "Availability" section.
-  * Look for the options labeled "Pre buffer time" and "Post buffer time"
-  * Specify the duration you want for both the pre and post buffers.
-  * Don't forget to save your settings.
-
+Pre- and post-buffer times reserve additional time immediately before or after an appointment. These periods help prevent appointments from being scheduled too close together while giving users dedicated transition time for activities such as preparation, travel, documentation, or follow-up.
 
   
 
 
-These buffers will ensure you have the extra time you need before and after your appointments.
+A **pre-buffer** reserves time before an appointment, while a **post-buffer** reserves time after it. Buffer settings are configured at the calendar level and influence which appointment slots remain available for booking.
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155008252070/original/Pk23PglvoH7miofggGQhAj0wlNq9uHGckg.png?1695296287)
+HighLevel can also display configured buffers as informational blocks in the **Day** and **Week** Calendar views. This visual representation makes it easier to distinguish appointment time from the transition time surrounding it.
+
+* * *
+
+## **Key Benefits of Pre and Post Buffer Time**
+
+  * **Better schedule visibility:** View configured pre- and post-buffer periods directly alongside appointments in Day and Week views.  
+  
+
+  * **More preparation time:** Reserve time before meetings for research, setup, travel, or other preparation.  
+  
+
+  * **More follow-up time:** Add space after appointments for notes, administrative work, cleanup, or travel.  
+  
+
+  * **Reduced back-to-back scheduling:** Prevent new appointments from being booked too close to existing appointments.  
+  
+
+  * **Easier schedule planning:** Visually identify the time occupied by buffers without confusing it with the appointment itself.  
+  
+
+  * **Flexible calendar management:** Show or hide buffer blocks in Calendar View without changing the underlying buffer configuration.
+
+
+* * *
+
+## **How Buffer Time Affects Appointment Availability**
 
   
 
 
-###   
-
-
-### How to turn off buffers 
-
-  * Choose the calendar for which you would want to turn off the buffers and click on edit
-  * Go to "Availability" and scroll down to the page where you see "Pre and Post buffer"
-  * Make the values as "0"
-  * Don't forget to save your settings
-
+Buffer time becomes part of the availability calculation around an appointment. Understanding this behavior helps explain why a time period that appears open may not always be available for another booking.
 
   
 
 
-This will ensure that going forward any appointment which gets booked on that calendar would not have any buffers
+For example, if an appointment lasts 30 minutes and has a 15-minute pre-buffer and a 15-minute post-buffer, HighLevel reserves additional time on both sides of the appointment. A new appointment must satisfy the buffer requirements of both the existing appointment and the appointment being scheduled.
 
   
 
 
-### Buffer Logic
-
-  
-Buffers are only applied to appointments created within the system or through third-party calendars with the 'Allow Contact Creation' feature enabled. However, blocked slots or events synced from third-party calendars (Google, Outlook, iCloud) are considered when applying buffers. This ensures that buffers do not overlap with blocked slots, providing appropriate buffer times for appointments.
-
-### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155008249415/original/Ew_k9fwnbzOx3l7xgYOFgGaaAjPOgYVEfQ.png?1695295311)
-
-### Buffer Duration Affecting Available Slots
+Using both pre- and post-buffers can create situations where apparently open periods cannot be booked because the required buffers overlap. If maximizing the number of bookable time slots is important, consider whether only a pre-buffer or only a post-buffer is necessary for the calendar.
 
   
 
 
-Using the example above, if there's a 30-minute event with 15-minute buffers before and after, someone else booking on the same day will see an available slot 30 minutes after the existing booking. 
+Buffer settings associated with a user can also affect that user's availability on other calendars:
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155008248682/original/ZynVOHKf4olx_WfqBLTqWcqXZDeSk9T9uw.png?1695295018)
-
-It's important to note that when using both Pre and Post buffers, there are instances where seemingly large free periods in the calendar cannot be booked. This is due to double buffering, where both before and after buffers are applied, resulting in the removal of significant time slots from the scheduling page.
-
+  * On **Round Robin calendars** , buffer settings from a user's other calendars can affect availability and may contribute to uneven appointment distribution.  
   
 
-    
-    
-    To maximize bookable time slots on your scheduling page, consider your event types to use only a single buffer, either pre or post buffer
-
-  
-
-
-A new event cannot be scheduled if it does not match the buffer criteria for that appointment slot as well as the previous booked slot.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155008248759/original/Hx5MxC2ya2FQPzRkH_BdOmFVw-zpDBL3NA.png?1695295045)
-
-  
-
-
-  
-
-    
-    
-    Note that if you set buffers for an individual schedule event, it will affect the user's availability across other calendars where they are involved as well.
-
-  
+  * On **Collective calendars** , a user's existing buffer time can prevent a slot from being available when that user is required for the appointment.
 
 
   
 
 
-  * In a round-robin calendar event, individual buffer settings on a user's other calendars can result in an uneven distribution of appointments.  
-  
+For additional information about calendar availability, see [Adjusting Availability Settings for Individual Calendars](<https://help.gohighlevel.com/support/solutions/articles/48001155718-adjusting-availability-settings-for-individual-calendars>).
 
-  * In a collective calendar event, an individual's buffer settings on their other calendars can block available slots that might otherwise appear free, as the buffer time occupies those slots.
+* * *
 
-
-  
-
+## **Viewing Buffer Time in Day and Week Calendar Views**
 
   
 
 
-### FAQs
+Visible buffer blocks help users understand why time surrounding an appointment is unavailable without having to review the calendar's configuration. The display is informational and does not change the duration or scheduling behavior of the configured buffer.  
+  
+
+
+  1. Go to **Calendars**.  
+  
+
+  2. Open **Calendar view**.  
+  
+
+  3. Click **Manage view**.  
+  
+
+  4. Turn on **Show buffer time**.  
+  
+
+  5. Use the available Users, Calendars, Groups, or other supported filters to view the relevant schedule.  
+  
+
+  6. Pre- and post-buffer periods associated with appointments will appear as visually distinct blocks next to the appointment.
+
 
   
 
 
-**Question:** Do buffers impact events booked outside of GHL?
-
-**Answer:** Buffers are applicable solely to appointments booked through the GHL app. However, there is an exception: if your two-way sync or smart sync feature is enabled (where the system converts third-party calendar events into appointments instead of treating them as blocked slots), buffers would be applied in such a scenario.
+Turning **Show buffer time** off only hides the buffer blocks from Calendar View. It does not remove the configured buffer or make the reserved time available for booking.
 
   
 
 
-**Question:** How do buffers affect available time slots for scheduling appointments?
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079484729/original/KJ2lXtk8sO0494rHy3o-FVrqf3rmvQUBJg.png?1787849837)
 
-**Answer:** Buffers affect available time slots. For example, if a 30-minute event has 15-minute pre and post buffers, the next appointment will be scheduled 30 minutes after the existing booking. Double buffers can limit seemingly free periods in the calendar, removing significant time slots. To maximize bookable time slots, consider using a single buffer (either pre or post).
+* * *
 
-  
-
-
-**Question:** Can I remove or alter a buffer once it's set for a booked appointment?
-
-**Answer:** Once a buffer is set for a booked appointment, it can be removed or altered. Buffers are applied based on the latest settings.
+## **How To Setup Pre and Post Buffer Time**
 
   
 
 
-**Question:** What happens if buffer settings are different on an individual's other calendars in a round-robin calendar event?
-
-**Answer:** In a round-robin calendar event, varying buffer settings on an individual's other calendars can result in an uneven distribution of appointments among users.
+Properly configuring buffer time ensures HighLevel reserves the intended amount of transition time when calculating appointment availability. Choose buffer durations based on the preparation or follow-up time realistically required for the type of appointment being scheduled.
 
   
 
 
-**Question:** Can buffer settings on an individual's other calendars affect the booking of appointments in a collective calendar event?
+  1. Go to **Calendars**.  
+  
 
-**Answer:** Yes, in a collective calendar event, buffer settings on an individual's other calendars can block available slots that may otherwise appear free due to buffer time occupying those slots.
+  2. Open **Calendar settings**.  
+  
+
+  3. Select the calendar where you want to configure buffer time and click **Edit**.  
+  
+
+  4. Open the **Availability** settings.  
+  
+
+  5. Locate **Pre buffer time** and **Post buffer time**.  
+  
+
+  6. Set the desired duration for either or both buffer types.  
+  
+
+  7. Save your changes.
+
 
   
 
 
-**Question:** What is double buffer?
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079484904/original/mfM9iXPqgrr_jv9dQaOghAcNVi9nK0RRZw.png?1787849917)**  
 
-**Answer:** Double buffering refers to the use of both pre-buffer and post-buffer times before and after an event or appointment. It means that extra time is added both before and after an event, effectively extending the duration of the buffer. This can result in time slots that appear to be free on the calendar but are not available for booking because the double buffering occupies those time slots. Double buffering reduces the number of bookable appointments within a given timeframe.
+
+  
+
+
+To remove buffer time from future availability calculations:
+
+  
+
+
+  1. Return to the calendar's **Availability** settings.  
+  
+
+  2. Set the applicable **Pre buffer time** or **Post buffer time** value to **0**.  
+  
+
+  3. Save your changes.
+
+
+  
+
+
+Buffer behavior is based on the current calendar settings, so changing the configured duration can alter how availability is calculated around appointments.
+
+* * *
+
+## **Frequently Asked Questions**
+
+  
+
+
+**Q: Does turning off Show buffer time remove the actual buffer?**  
+No. The **Show buffer time** toggle controls only whether buffer blocks are visible in Calendar View. The configured pre- or post-buffer continues to affect appointment availability.
+
+  
+
+
+**Q: Why can't I see buffer time in my current Calendar view?**  
+Buffer visibility is supported in **Day** and **Week** views. Confirm that you are using one of those views and that **Manage view → Show buffer time** is enabled.
+
+  
+
+
+**Q: Does displaying buffer time change appointment availability?**
+
+No. Displaying a buffer only makes the existing reserved period visible. Appointment availability is determined by the buffer duration configured in the calendar settings.
+
+  
+
+
+**Q: What is the difference between a buffer and a blocked calendar event?**  
+A buffer is transition time reserved before or after an appointment. A blocked event or conflict-calendar event represents a separate period when a user is unavailable because of another calendar commitment.
+
+  
+
+
+**Q: Can I change a buffer after appointments have already been booked?**  
+Yes. Buffer calculations use the latest applicable settings, so changing the configured buffer can affect availability around existing appointments.
+
+  
+
+
+**Q: Why does a time period look open but remain unavailable for booking?**  
+The available period may not be long enough to satisfy the appointment duration and required buffers. Using both pre- and post-buffers can also create overlapping buffer requirements that remove otherwise visible time from the booking schedule.
+
+  
+
+
+**Q: Can buffer settings affect Round Robin appointment distribution?**  
+Yes. A user's buffer time can affect their availability across calendars. If users have different buffer requirements, the number of available slots for each user can differ and may influence distribution.
+
+  
+
+
+**Q: Do third-party calendar events automatically receive visible buffers?**  
+Not necessarily. Third-party events may be treated as appointments or as blocked availability depending on the calendar synchronization configuration. Buffer display should not be confused with external busy or conflict periods.
+
+* * *
+
+## **Related Articles**
+
+  
+
+
+  * [Calendar View Enhancements](<https://help.gohighlevel.com/support/solutions/articles/155000006757-calendar-view-enhancements>)  
+  
+
+  * [Adjusting Availability Settings for Individual Calendars](<https://help.gohighlevel.com/support/solutions/articles/48001155718-adjusting-availability-settings-for-individual-calendars>)  
+  
+
+  * [Getting Started - Setup A Booking Calendar](<https://help.gohighlevel.com/support/solutions/articles/155000005061/>)  
+  
+
+  * [Round Robin Calendars: Setup, Distribution & Availability Explained](<https://help.gohighlevel.com/support/solutions/articles/155000001485-how-to-create-round-robin-calendars>)  
+  
+
+  * [Setting Up Linked Calendars & Conflict Calendars](<https://help.gohighlevel.com/support/solutions/articles/155000002374-setting-up-linked-calendars-conflict-calendars>)  
+  
+
+  * [Why Appointment Time Slots Are Missing on Your Calendar](<https://help.gohighlevel.com/support/solutions/articles/48001181711-why-appointment-time-slots-are-missing-on-your-calendar>)

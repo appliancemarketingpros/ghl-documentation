@@ -17,3 +17,4 @@
 - [Rentals - Taxes](Rentals - Taxes.md)
 - [Rentals - Blocked Slots for Listings](Rentals - Blocked Slots for Listings.md)
 - [How to Set Up WhatsApp Notifications for Rentals](How to Set Up WhatsApp Notifications for Rentals.md)
+- [How to Set Up Self-Service Cancellations for Rentals](How to Set Up Self-Service Cancellations for Rentals.md)

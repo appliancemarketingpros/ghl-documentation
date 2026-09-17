@@ -78,7 +78,7 @@ The redesigned Sub-Accounts List delivers several improvements to help agencies 
   
 
 
-**![](https://jumpshare.com/v/QLRXxTkbwJaiIfNQ6KXo+/Screen+Shot+2025-07-16+at+8.42.43+PM.png)**
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079166186/original/K9YG7c6j-q7iKhJXFVeiC4rb0MsBFhQ7gg.png?1787576912)**
 
 * * *
 
@@ -97,7 +97,7 @@ The **new Sub-Accounts List UI** in HighLevel now includes an **Advanced Filter*
   
 
 
-  1. Click on the **Filter(Funnel)** button at the top of the Sub-Accounts List.  
+  1. Click on the **Advanced** **Filters** button at the top of the Sub-Accounts List.  
   
 
   2. The **Advanced Filters panel** will slide open, displaying four filter categories:  
@@ -134,7 +134,7 @@ The **new Sub-Accounts List UI** in HighLevel now includes an **Advanced Filter*
     
 
   
-![](https://jumpshare.com/v/KHp5zkTNQIpoB2hInU9C+/GIF+Recording+2025-07-16+at+9.09.17+PM.gif)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079164137/original/By-_Pessr8QYXp7_vIs9SqcULoIxHdxvqg.png?1787576012)
 
   
 
@@ -160,7 +160,8 @@ The **new Sub-Accounts List UI** in HighLevel now includes an **Advanced Filter*
     
     **And Logic:** All conditions must be true for a result to be shown. Filters are combined so that the data must match every specified condition.  
       
-    **Example:** If you filter by (Date Added after Jan 1 and LC Email is Enabled), this will only show sub-accounts that were added after Jan 1 and also have LC Email enabled.
+    **Example:** If you filter for sub-accounts with a Date Created after January 1 and a Status of Trial, only sub-accounts that match both conditions appear.
+    
 
   
 
@@ -182,7 +183,9 @@ The **new Sub-Accounts List UI** in HighLevel now includes an **Advanced Filter*
   2. Review the returned Sub-Accounts that match your criteria.  
   
 
-  3. If no results match, HighLevel displays a message indicating that no locations were found.
+  3. If no results match, HighLevel displays a message indicating that no locations were found.  
+  
+
   4. After filters are applied, HighLevel keeps the active filter state visible on the listing page so you can quickly confirm which criteria are in use.  
 
 
@@ -202,23 +205,20 @@ Visible filter controls make it easier to understand why specific Sub-Accounts a
   
 
 
-  1. HighLevel shows a clear visual indicator for filters that are currently active.  
+  1. HighLevel shows a clear visual indicator for number of filters that are currently active.  
   
 
-  2. The applied-filter area gives you a quick preview of the filter criteria shaping the list.  
-  
-
-  3. You can remove or adjust filters with a single action to refine results more efficiently.
+  2. You can remove or adjust filters with a single action to refine results more efficiently.
 
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067709244/original/uRXoHZ4zt9XDHBPFROYMJTeWPBSQ4E4cOg.png?1774444458)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079164528/original/SnNw_yySwSnxP4C_YBThldTTrpALyoC_tA.png?1787576195)
 
 * * *
 
-### **Agency Sub-Account designation on the Unlimited Plan**
+## **Agency Sub-Account designation on the Unlimited Plan**
 
   
 
@@ -255,7 +255,7 @@ This feature applies to agencies on the **Unlimited Plan ($297)**.
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071873174/original/jBUJ-dqFa5ahLFKIRXmmaDbmhb2mzreCtQ.png?1779354111)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079166007/original/7xVFOAzcfvKoZ1gJKqL1LRB5WJtVu0kpUA.png?1787576852)
 
   
 
@@ -275,17 +275,17 @@ Bulk actions allow agencies to efficiently manage multiple sub-accounts at once,
   * Use checkboxes to select individual sub-accounts or click on the **Select** **all** check box.  
   
 
-  * Once you have selected desired sub-accounts, click on the **Bulk** **Actions** dropdown.  
+  * Once you have selected desired sub-accounts, the Bulk Actions appear on top of the list.  
   
 
-  * You have two bulk actions available: **Pause Sub-Account** and **Enable Rebilling**.  
+  * You have four bulk actions available: **Pause Sub-Account, Setup Calendars,Enable SaaS Mode** and **Enable Rebilling**.  
   
 
   * Click on the **Bulk Action History** (Clock) icon to see previous bulk action logs.   
   
 
 
-![](https://jumpshare.com/v/GVCRLZsQAepFqiZSz6EL+/GIF+Recording+2025-07-16+at+9.39.39+PM.gif)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079165598/original/hMocgpGKtkwWYh_Q0YK7YenVHlcwaNeoUw.png?1787576742)
 
 * * *
 

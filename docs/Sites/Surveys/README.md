@@ -5,8 +5,7 @@
 ## Articles
 
 - [Exporting Survey Answers to Google Sheets](Exporting Survey Answers to Google Sheets.md)
-- [Where Do Survey Answers Show Up](Where Do Survey Answers Show Up.md)
-- [How to Create a Stylized Survey](How to Create a Stylized Survey.md)
+- [How to Access and Export Survey Submissions](How to Access and Export Survey Submissions.md)
 - [New Footer in Surveys](New Footer in Surveys.md)
 - [Survey Create Contact on Partial Completion](Survey Create Contact on Partial Completion.md)
 - [Payments Integration in Surveys | Collect Payments & Sell Products](Payments Integration in Surveys Collect Payments & Sell Products.md)
@@ -17,3 +16,4 @@
 - [Enhanced Consent Checking for Voice AI Outbound Calling (Forms, Surveys, Calendars)](Enhanced Consent Checking for Voice AI Outbound Calling (Forms, Surveys, Calendars).md)
 - [Save Progress for Forms, Surveys & Quizzes](Save Progress for Forms, Surveys & Quizzes.md)
 - [Customize Image Layouts in Forms & Surveys](Customize Image Layouts in Forms & Surveys.md)
+- [Schedule Form, Survey & Quiz Availability with Custom Open & Expiry Experiences](Schedule Form, Survey & Quiz Availability with Custom Open & Expiry Experiences.md)

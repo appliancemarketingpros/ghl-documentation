@@ -6,7 +6,7 @@
 
 - [Getting Started - Create and Manage Contacts](Getting Started - Create and Manage Contacts.md)
 - [Getting Started - Import Existing Contacts](Getting Started - Import Existing Contacts.md)
-- [Getting Started - Launch A Funnel](Getting Started - Launch A Funnel.md)
+- [How top Launch a HighLevel Funnel](How top Launch a HighLevel Funnel.md)
 - [Getting Started - Setup Email, Phone, and SMS](Getting Started - Setup Email, Phone, and SMS.md)
 - [Getting Started - Launch an Email Campaign](Getting Started - Launch an Email Campaign.md)
 - [Getting Started - Automatic Email and SMS Followup](Getting Started - Automatic Email and SMS Followup.md)

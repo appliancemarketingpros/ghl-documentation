@@ -6,220 +6,205 @@
 
 ---
 
-# Create, Edit, and Clone WhatsApp Templates  
-  
-WhatsApp templates are required to send outbound WhatsApp messages. This guide shows how to create a template, track approval status, edit an existing template, and clone a template to save time.
+WhatsApp Templates
+
+How to Create a WhatsApp Template
+
+Create WhatsApp templates in HighLevel using supported content, variables, media, and buttons. The template builder now validates common variable errors inline so you can correct them before saving and submitting the template to Meta.
+
+What You'll Learn
+
+Learn how to create and submit a WhatsApp template, add valid numbered variables, fix inline validation errors, and avoid common variable-placement issues before Meta review. You will also learn how the updated Reputation review-request preset handles variables automatically.
 
 Table of Contents
 
-Template Category Validation in WhatsApp Manager Pre-Requisites Create a WhatsApp Template Add Variables (Header and Body) Add Buttons (Interactive Templates) Submit and Track Approval Status Edit or Resubmit a Template Clone a WhatsApp Template Frequently Asked Questions Related Articles
+  1. What is a WhatsApp Template?
+  2. Key Benefits
+  3. Template Category Validation
+  4. Before You Create a Template
+  5. How to Create a WhatsApp Template
+  6. Variable Validation Rules
+  7. Submit and Track Approval
+  8. Edit, Resubmit, or Clone a Template
+  9. Frequently Asked Questions
+  10. Related Articles
 
-* * *
 
-Template Category Validation in WhatsApp Manager
+# What is a WhatsApp Template?  
+  
 
-When you create a new template in WhatsApp Manager, you must select a category (for example, **Marketing** , **Utility** , or **Authentication**).
 
-Meta validates the selected category against its template category rules. The system assigns a status such as **Approved** , **Pending** , or **Rejected**.
+WhatsApp templates are pre-approved message formats used for business-initiated WhatsApp communication. HighLevel lets you build templates with text, variables, optional media, and interactive buttons before submitting them to Meta for approval.
 
-To avoid rejections, make sure the template content matches the category intent.
+The template builder now checks supported variable syntax and placement while you create the template. Invalid variables are flagged inline so they can be corrected before the template is saved.
 
-* * *
+## Key Benefits of WhatsApp Template Variable Validation  
+  
 
-Pre-Requisites
 
-Before you create templates in a sub-account (location), confirm:
+Inline validation helps catch formatting mistakes while the template is still being written, reducing avoidable corrections after submission and making variable requirements easier to understand.
 
-✓The location has an active WhatsApp subscription.
+  * **Immediate feedback:** Invalid variables are identified directly in the template builder.
+  * **Fewer avoidable rejections:** Common variable-format problems can be corrected before submission.
+  * **Clearer formatting:** The builder guides users toward supported numbered placeholders such as `{{1}}` and `{{2}}`.
+  * **Reliable presets:** New Reputation review-request templates use a valid structure without ending the body in a variable.
 
-✓Meta onboarding is completed successfully.
 
-* * *
+## Template Category Validation  
+  
 
-Create a WhatsApp Template
 
-1
+Selecting the correct template category helps Meta understand the purpose of your message. Category requirements are separate from variable validation, so both the message content and variable structure should be correct before submission.
+
+  * **Marketing:** Promotional offers, announcements, engagement, and similar promotional communication.
+  * **Utility:** Transactional or customer-requested updates such as confirmations, reminders, and service information.
+  * **Authentication:** Authentication and verification messages that follow Meta's supported authentication structure.
+
+
+## Before You Create a WhatsApp Template  
+  
+
+
+Confirming WhatsApp access and preparing your message content in advance helps you move through template creation without interruptions.
+
+  * The sub-account has an active WhatsApp subscription.
+  * WhatsApp onboarding has been completed successfully.
+  * You know the appropriate template category and language.
+  * You have realistic sample values ready for any variables used in the template.
+
+
+## How to Create a WhatsApp Template  
+  
+
+
+Creating the template in the correct order makes it easier to validate required fields, variables, and sample content before submission.
+
+Step 1
 
 Open WhatsApp Templates
 
-In your sub-account, go to **Settings → WhatsApp → Templates**. Then click **Create Template**.
+From your sub-account, go to **Settings > WhatsApp > Templates**, then click **Create Template**.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155070444574/original/YDOe-C1RwqhBdeu36rE_9JmowSIbCkwXrg.png?1777781258)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080743368/original/nqmo51R1VzVXawLINWrgqOHsYkYcBLkw1g.png?1789145369)
 
-[ Screenshot placeholder — Templates list view showing existing template names and statuses ]
+Step 2
 
-2
+Complete the Template Details
 
-Fill In Template Details
+  * **Template Name:** Enter a supported template name using lowercase letters and underscores.
+  * **Category:** Select Marketing, Utility, or Authentication based on the message purpose.
+  * **Language:** Select the template language.
+  * **Header:** Optionally add text, supported media, or a custom variable where available.
 
-Complete the template details:
 
-  * **Template Name** — Use lowercase letters and underscores.
-  * **Category** — Select the category for your use case.
-  * **Language** — Select the template language.
-  * **Header (Optional)** — Add header text (static or with one custom variable, such as `{{1}}`).
+Step 3
 
+Add the Body, Footer, and Variables
 
-2A
+Write the main message in the **Body**. Use **Add Variable** for dynamic placeholders such as `{{1}}` and `{{2}}`. A short Footer can also be added when needed.
 
-Add Header Media (Image, Video, or Document)
+Enter a realistic sample value for every variable used so Meta can review how the completed message will appear.
 
-If you set the header type to **Image** , **Video** , or **Document** , you now have two ways to add header media:
+Step 4
 
-  * **Upload from Computer** — Upload a new file from your device.
-  * **Choose from Media Library** — Reuse an existing asset stored in your location's Media Library.
+Add Optional Buttons
 
+Add supported interactive buttons when your template requires an action, such as Quick Reply, Visit Website, Call Phone Number, Copy Offer Code, or Marketing Opt-Out.
 
-When you open **Choose from Media Library** , the picker filters assets automatically based on your selected header type (image, video, or document). This helps prevent attaching unsupported file types.
+## Variable Validation Rules  
+  
 
-**Supported file types:** `png`, `jpg`, `mp4`, `pdf`
 
-3
+The template builder now checks supported variable syntax and Body placement as you type. When a supported validation rule fails, the affected field is flagged inline and the template cannot be saved until the variable is corrected.
 
-Add Body and Footer
+Rule| Valid| Invalid  
+---|---|---  
+**Numbered placeholder**| `{{1}}`, `{{2}}`| `{{1$}}`  
+**Balanced braces**| `{{1}}`| `{{1` or `{{1}}}`  
+**Body placement**| `Hi {{1}}, your appointment is confirmed.`| `{{1}} your appointment is confirmed.`  
+  
+Body Variable Placement
 
-Add your message content:
+A WhatsApp template **Body cannot begin or end with a variable**. Add regular text before and after the placeholder.
 
-  * **Body** — The main content of your message. Use **Add Variable** for placeholders such as `{{1}}`, `{{2}}`.
-  * **Footer (Optional)** — A short line at the bottom of the template.
+**Valid:** `Hi {{1}}, your order is ready.`  
+**Invalid:** `{{1}} your order is ready.`  
+**Invalid:** `Your order is ready for {{1}}`
 
+Header and Body Validation
 
-Meta requires **sample values** for every variable you include.
+Malformed variables are validated in both the **Header** and **Body**. The beginning/end placement restriction specifically applies to the Body. Correct the highlighted variable before saving the template.
 
-* * *
+### Reputation Review-Request Preset
 
-Add Variables (Header and Body)
+The default Reputation review-request preset has been updated so new templates no longer end with a trailing variable. New review-request templates created from the preset should meet the Body variable-placement rule without requiring a manual correction.
 
-To add variables:
+## Submit and Track Approval Status  
+  
 
-  1. Click **Add Variable** under **Header** or **Body**.
-  2. Choose a field (example: contact name).
-  3. Enter a sample value for Meta review.
 
+Inline variable validation removes common formatting problems before submission, but Meta still reviews the full template for category, content, and policy compliance.
 
-* * *
+  1. Review the template content, category, variables, sample values, and buttons.
+  2. Correct any inline variable-validation errors.
+  3. Click **Create** when the template is ready.
+  4. Go to **Settings > WhatsApp > Templates** to monitor the template status.
 
-Add Buttons (Interactive Templates)
 
-Buttons let customers respond or take action. You can add multiple buttons. If you add more than three, they may appear in a list.
+**Important:** Passing inline variable validation does not guarantee Meta approval. A template can still be rejected for category, content, policy, duplicate-template, or other review requirements.
 
-Common options include:
+## Edit, Resubmit, or Clone a WhatsApp Template  
+  
 
-Quick Reply Visit Website Personalized Website Link Call Phone Number Copy Offer Code Marketing Opt-Out
 
-* * *
+Existing templates can be updated after a rejection or cloned when you want to reuse an approved structure. Variable validation also helps catch supported formatting problems while editing cloned or resubmitted content.
 
-Submit and Track Approval Status
+Edit or Resubmit
 
-4
+  1. Go to **Settings > WhatsApp > Templates**.
+  2. Open the three-dot menu for the template.
+  3. Select **Edit template** , make the required changes, then submit again.
 
-Review and Submit
 
-When your template is complete, click **Create**. The system submits the template to Meta for approval.
+Clone a Template
 
-5
+  1. Open the three-dot menu for the template you want to duplicate.
+  2. Select **Clone template**.
+  3. Rename the template and update any content, variables, or buttons as needed.
+  4. Correct any inline validation errors, then create the new template.
 
-Track Status
 
-You can track approval status under **Settings → WhatsApp → Templates**.
+## Frequently Asked Questions  
+  
 
-Common statuses:
 
-●**Pending** — Submitted and waiting for Meta approval.
+Q: Why can't I save my WhatsApp template?
 
-●**Approved** — Ready to use.
+Check the Header and Body for highlighted variable errors. Invalid tokens, missing or extra braces, or a Body that starts or ends with a variable must be corrected before saving.
 
-●**Rejected** — Requires changes and resubmission.
+Q: What variable format should I use?
 
-* * *
+Use numbered placeholders such as `{{1}}`, `{{2}}`, and `{{3}}`. Keep the braces balanced and avoid unsupported characters inside the placeholder.
 
-Edit or Resubmit a Template
+Q: Can the Body start or end with a variable?
 
-To edit or resubmit a template:
+No. Add regular text before and after the variable. For example, use `Hi {{1}}, your appointment is confirmed.` rather than starting the message with `{{1}}`.
 
-  1. Go to **Settings → WhatsApp → Templates**.
-  2. Find your template and click the **three-dot menu**.
-  3. Select **Edit template** (then update and submit again).
+Q: Does inline validation guarantee Meta will approve my template?
 
+No. Inline validation catches the supported variable-format and placement issues described above. Meta still reviews the template for category, content, policy, and other approval requirements.
 
-* * *
+Q: Do I need to fix the default Reputation review-request template?
 
-Clone a WhatsApp Template
+New Reputation review-request templates use an updated preset that no longer ends with a trailing variable, so no manual change is required for that specific issue.
 
-Cloning lets you duplicate an existing template without rebuilding it from scratch.
-    
-    
-    **Important:** Cloning retains variables, buttons, and formatting.
+### Related Articles  
+  
 
-1
 
-Open the Templates List
-
-Go to **Settings → WhatsApp → Templates**.
-
-2
-
-Select Clone Template
-
-  1. Find the template you want to duplicate.
-  2. Click the **three-dot menu**.
-  3. Select **Clone template**.
-
-
-3
-
-Rename and Save
-
-In the Create Template screen, rename the template and update any content as needed. Then click **Save/Create**.
-
-* * *
-
-Frequently Asked Questions
-
-How do I add custom variables in the Header and Body?
-
-Click **Add Variable** under Header or Body, select the field, and enter a sample value for Meta review.
-
-What WhatsApp Template categories can I use?
-
-Common categories are **Marketing** , **Utility** , and **Authentication**. Choose the category that matches your message intent to reduce rejections.
-
-How do I edit or resubmit a rejected template?
-
-Go to **Settings → WhatsApp → Templates** , open the template actions, choose **Edit template** , make updates, and submit again.
-
-What do WhatsApp Template statuses mean?
-
-  * **Pending** : Awaiting Meta approval
-  * **Approved** : Ready to use
-  * **Rejected** : Needs changes and resubmission
-
-
-Can I use media like images or videos in templates?
-
-Yes. Media templates support:
-
-  * Images
-  * Videos
-  * Documents (some accounts may also support additional media types depending on Meta and product availability)
-
-
-Why is the Create button inactive?
-
-Common causes:
-
-  * The template is not approved yet.
-  * No valid WhatsApp number is connected.
-  * Required variable sample values are missing.
-  * Unsupported template content or button types were used.
-
-
-* * *
-
-Related Articles
-
-↗ WhatsApp Media Templates ↗ WhatsApp Location Onboarding Steps and Best Practices ↗ How to Setup and Use Trigger Links in WhatsApp Templates
-
-You're all set!
-
-Your WhatsApp templates are now ready to create, submit, edit, and clone with confidence. If you run into approval issues or have questions, contact our support team.
+  * [WhatsApp Template Statuses and Best Practice](<https://help.gohighlevel.com/support/solutions/articles/155000001623>)
+  * [WhatsApp Template Categorization Guidelines](<https://help.gohighlevel.com/support/solutions/articles/155000001058-template-categorisation-guidelines>)
+  * [WhatsApp Media Templates](<https://help.gohighlevel.com/support/solutions/articles/155000002330>)
+  * [How to Setup and Use Trigger Links in WhatsApp Templates](<https://help.gohighlevel.com/support/solutions/articles/155000006279-how-to-setup-and-use-trigger-links-in-whatsapp-templates>)
+  * [WhatsApp Settings](<https://help.gohighlevel.com/support/solutions/articles/155000006911>)
+  * [How to Send Review Requests via WhatsApp](<https://help.gohighlevel.com/support/solutions/articles/155000004326>)

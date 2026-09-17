@@ -71,14 +71,14 @@ Call transcription is a paid Voice Intelligence add‑on that converts inbound a
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064808158/original/kgBKYSFEa8rBd6IhOkuf3rAsikHovZb9GQ.png?1770914593)  
   
 
-  3. Click on **Voice** tab and then on **Call****Transcription**.  
+  3. Click on **Voice** tab and then on **Call****Transcription** available under the Call Recording and Transcription page.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064808246/original/Zxv5FvP_5weBqCSrBqVLbDquRBHRZdsRuw.png?1770914618)  
   
 
   4. Click on the **Enable Call Transcription** box under Voice Intelligence to turn it on.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064808274/original/kZbpywOdktqKwBZYg93FPPijcoHePGaZ-A.png?1770914629)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064808274/original/kZbpywOdktqKwBZYg93FPPijcoHePGaZ-A.png?1770914629)
 
 
     
@@ -89,6 +89,9 @@ Call transcription is a paid Voice Intelligence add‑on that converts inbound a
 * * *
 
 ## **How to Find the Call Transcriptions**
+
+  
+Completed transcripts are available directly from the associated call entry in Conversations, making it easy to review the call alongside its recording and contact history.
 
   
 

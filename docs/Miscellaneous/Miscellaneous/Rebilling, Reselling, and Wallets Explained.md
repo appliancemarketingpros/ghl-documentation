@@ -38,7 +38,7 @@ Have you ever wondered how the billing worked for HighLevel’s additional servi
     * How do I enable or Use one of these Services?
 
 
-****  
+  
 
 
 * * *
@@ -500,7 +500,11 @@ As the Agency Owner, you can update your Agency Wallet in the [Agency View > Set
 
 ## **How to Update the Sub-Account Wallet or Payment Method?**
 
-After Rebilling is enabled by the Agency, the Sub-Account Owner will be prompted to add a valid card. After a valid card is added, all LC Services used by the Sub-Account will be charged to the Agency Wallet - then with rebilling enabled, the Sub-Account Wallet will be charged as well.
+After Rebilling is enabled by the Agency, the Sub-Account Owner is prompted to add a valid card when one is not already available.
+
+If Rebilling is On Hold and a card is already attached to the sub-account, the lockout screen displays the saved card instead of asking for another card. The user can proceed to payment, and the account unlocks automatically after successful payment.
+
+After a valid card is available, LC Services continue to follow the existing rebilling and wallet behavior described above.
 
 **  
 **

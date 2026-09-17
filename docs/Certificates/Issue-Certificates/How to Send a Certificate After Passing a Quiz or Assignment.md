@@ -60,4 +60,4 @@ To issue the certificate only for the intended quiz or assignment, apply the fol
   
 
 
-You’re done! The system will now automatically send a certificate when the selected quiz/assignment is passed.
+You’re done! The system will now automatically send a certificate when the selected quiz/assignment is completed.

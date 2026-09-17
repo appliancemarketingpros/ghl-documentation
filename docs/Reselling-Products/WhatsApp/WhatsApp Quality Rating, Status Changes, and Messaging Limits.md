@@ -22,11 +22,11 @@ Your quality rating is a rating based on the recent messages that your customers
 
 You can find the quality rating below the **Phone numbers** tab in your Meta WhatsApp Manager. The **Quality rating** column displays the quality states, including:
 
-●**Green:** High quality
+● **Green:** High quality
 
-●**Yellow:** Medium quality
+● **Yellow:** Medium quality
 
-●**Red:** Low quality
+● **Red:** Low quality
 
 You can become eligible for more features when your business maintains a **High** quality rating. When a user blocks your business, they can select a block reason, including **No longer needed** , **Didn't sign up** , **Spam** , **Offensive messages** , or **No reason**.
 
@@ -34,9 +34,9 @@ If your quality rating is medium or low, you can hover over the rating in WhatsA
 
 You can subscribe to be notified for quality-related updates. You'll receive an email and a notification in Meta Business Manager when:
 
-►A phone number's status is changed to **Flagged** , or when this Flagged status is removed.
+► A phone number's status is changed to **Flagged** , or when this Flagged status is removed.
 
-►There is a change to a phone number's messaging limits.
+► There is a change to a phone number's messaging limits.
 
 You can find the quality rating over the past 30 days by clicking the icon in the **Settings** column. You can view the lowest quality score for the business on a given day, which enables a better understanding of potential drivers over the past 30 days that may have caused the quality rating to decline or increase.
 
@@ -54,9 +54,9 @@ Flagged
 
 This status occurs when the phone number's quality rating changes to Low and is on track to be downgraded to a lower message tier. Businesses cannot upgrade messaging limit tiers while the status is Flagged. If the quality rating:
 
-✓Improves to a high or medium quality by the seventh day from when the status was changed to Flagged, the status will return to **Connected** and the messaging limit tier will remain unaffected.
+✓ Improves to a high or medium quality by the seventh day from when the status was changed to Flagged, the status will return to **Connected** and the messaging limit tier will remain unaffected.
 
-✘Does not improve to a high or medium quality by the seventh day from when the status was changed to Flagged, the status will return to **Connected**. However, the messaging limit will decrease to the next level.
+✘ Does not improve to a high or medium quality by the seventh day from when the status was changed to Flagged, the status will return to **Connected**. However, the messaging limit will decrease to the next level.
 
 If your quality rating reaches low quality, or your phone number status changes to **Flagged** or **Restricted** status, you'll receive an email and notification in Business Manager as a warning.
 
@@ -71,17 +71,24 @@ This status occurs when you reach your messaging limit, regardless of the qualit
 
 Messaging Limits
 
-[Messaging limits](<https://developers.facebook.com/docs/whatsapp/api/rate-limits#messaging>) determine the maximum number of business-initiated conversations that each phone number can start in a rolling 24-hour period. A business-initiated conversation starts when the first message is delivered to a customer and ends 24 hours later. A conversation can't end before then. If you reach the messaging limit, you can start more conversations when one or more active conversations end. Remember that messaging limits don't apply to user-initiated conversations.
+WhatsApp messaging limits define the maximum number of unique WhatsApp users a business can message outside the customer service window within a rolling 24-hour period.
 
-There are four levels of messaging limits applying to businesses that have completed business verification:
+  
 
-►**1,000** business-initiated conversations (with 1,000 unique customers) in a rolling 24-hour period.
 
-►**10,000** business-initiated conversations (with 10,000 unique customers) in a rolling 24-hour period.
+Meta calculates messaging limits at the **business portfolio level** , not for each individual phone number. All WhatsApp business phone numbers within the same portfolio share one messaging limit.
 
-►**100,000** business-initiated conversations (with 100,000 unique customers) in a rolling 24-hour period.
+  
 
-►**Unlimited** business-initiated conversations in a rolling 24-hour period.
-    
-    
-    **Note:** A business starts with 1,000 business-initiated conversations per phone number when it completes business verification. Learn more about best practices to enable more features and reach more customers.
+
+New business portfolios start with a messaging limit of **250**. Eligible portfolios can increase to **2,000** , **10,000** , **100,000** , and **Unlimited** based on Meta's scaling requirements.
+
+  
+
+
+Because the limit is shared, messaging activity from one phone number can reduce the capacity available to other phone numbers in the same business portfolio.
+
+  
+
+
+For more information about messaging-limit tiers and how limits increase, see **[WhatsApp - Messaging Limits](<https://developers.facebook.com/documentation/business-messaging/whatsapp/messaging-limits#messaging>)**

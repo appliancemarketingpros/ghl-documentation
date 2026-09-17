@@ -11,17 +11,19 @@ GoHighLevel offers robust tools for managing opportunities, enabling users to ef
   
 
 
-**In this Article**
-
-  
-
+**TABLE OF CONTENTS**
 
       * Step 1: Accessing the Opportunities Section
       * Step 2: Locating the Opportunity to Edit
       * Step 3: Opening the Opportunity Details Page
-      * Step 4: Adding Notes and Attachments
-      * Step 5: Setting Tasks and Reminders
-      * Step 7: Managing Opportunity Status
+      * Step 4: Book or update an appointment
+      * Step 5: Adding Notes and Attachments
+      * Step 6: Setting Tasks and Reminders
+      * Step 7: Managing Pipeline Stages
+      * Step 8: Managing Opportunity Status
+
+
+  
 
 
 * * *
@@ -110,10 +112,16 @@ You can manage an appointment directly from the **Edit Opportunity** modal.
 
 ### **Step 6: Setting Tasks and Reminders**
 
-  * If there are specific tasks or follow-up actions associated with the opportunity, set tasks and reminders as needed by opening it from the sidebar.
-  * Assign tasks to yourself or team members, specifying due dates and priority levels.
-  * Similarly, you can also add appointments in the same way.
-  * Tasks and appointments added this way will also reflect on the contact's end.
+  * If there are specific tasks or follow-up actions associated with the opportunity, open **Tasks** from the sidebar.  
+  
+
+  * Create the required task and assign it to yourself or another team member.  
+  
+
+  * Set the appropriate due date and priority.  
+  
+
+  * Tasks created from the opportunity are also associated with the corresponding contact.
 
 
   
@@ -127,10 +135,13 @@ You can manage an appointment directly from the **Edit Opportunity** modal.
   
 
 
-**Step 7: Managing Pipeline Stages**
+### **Step 7: Managing Pipeline Stages**
 
-  * Adjust the pipeline stage of the opportunity to reflect its current status in the sales process.
-  * Move the opportunity through different stages as it progresses towards closure, updating its status accordingly.
+  * Adjust the pipeline stage of the opportunity to reflect its current status in the sales process.  
+  
+
+  * Move the opportunity through different stages as it progresses towards closure, updating its status accordingly.  
+  
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155020571804/original/mD9YjhGAcOuozHIm3ijS6b3XTmaBhrDKEg.png?1707937986)
@@ -140,8 +151,11 @@ You can manage an appointment directly from the **Edit Opportunity** modal.
 
 ### **Step 8: Managing Opportunity Status**
 
-  * Drag and drop the opportunity to any status as seen in the bottom to update it's status. 
-  * Possible statuses for an opportunity are "Open", "Won", "Lost" and "Abandoned". Default status for a new opportunity is "Open".
+  * Drag and drop the opportunity to any status as seen in the bottom to update it's status.  
+
+  * Possible statuses for an opportunity are "Open", "Won", "Lost" and "Abandoned". Default status for a new opportunity is "Open".  
+  
+
   * Marking an opportunity lost also allows you to add a lost reason for the same.
 
 

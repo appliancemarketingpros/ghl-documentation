@@ -10,11 +10,21 @@ Overview
 
 KYC (Know Your Customer) verification is a crucial step to ensure the authenticity and security of user identities. This article covers best practices for completing verification, common mistakes to avoid, and how to access KYC verification anytime without waiting for a phone number application.
 
+  
+
+
+Persona is the identity-verification provider HighLevel uses to verify the real person responsible for an LC Phone-managed sub-account. Verification may be required for eligible phone-number purchases and can also be reused during applicable compliance processes.
+
+  
+
+
+> **Important:** Persona verifies identity only. It does not replace A2P 10DLC registration, Toll-Free Verification, CNAM, SHAKEN/STIR, or other required compliance processes.
+
 Table of Contents
 
 1
 
-Access KYC Verification Anytime
+How to Complete Persona Verification Before It Is Required
 
 2
 
@@ -30,7 +40,7 @@ Frequently Asked Questions
 
 1
 
-## Access KYC Verification Anytime
+## How to Complete Persona Verification Before It Is Required
 
 You don't have to wait until you're applying for a phone number or registration to start your KYC verification. You can manually trigger the verification process anytime directly from your sub-account settings. This allows you to get verified early and avoid delays when you're ready to port or register a number.
 
@@ -42,9 +52,9 @@ Navigate to the following path in your account:
 
 **Sub-account Settings → Phone System → Additional Settings → KYC Verification → Complete Verification**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155076965632/original/HmwyRdRkAZplaIo9W4eWg4mYbWzhsaAmhQ.png?1785173366)
 
-Pro Tip
+Pro Tip: 
 
-Completing your KYC verification early means you'll have zero delays when you're ready to port a number or set up new phone services. Get verified now and be ready to go.
+Completing Persona verification in advance can help reduce delays when you later purchase eligible phone numbers or complete applicable compliance actions.
 
 2
 
@@ -71,9 +81,18 @@ If you encounter a "Session Expired" message, it usually means your verification
 
 Best Practice 3
 
-Use Documents from Your Country of Residence
+**Use a Supported Government-Issued ID**
 
-Always upload an identification document issued by the country you are currently based in. Using documents from a different country may result in verification failure or additional review steps.
+  
+Upload a valid government-issued identification document from the options presented during the Persona verification flow. Supported document types vary by country and verification context and may include a passport, national ID card, or driver's license.
+
+  
+
+
+Use an original, unexpired document and make sure all information is clearly visible.
+
+  
+
 
 **Acceptable documents include:**
 
@@ -88,7 +107,7 @@ Best Practice 4
 
 Do Not Use Electronic Replicas of ID Cards
 
-Electronic or digital replicas of identification cards (such as screenshots, scanned copies, or photos displayed on another device) are not accepted.
+> Do not submit screenshots, scanned copies, photocopies, or an image of an ID displayed on another screen. Capture the original supported identification document directly during the Persona flow.
 
 **Upload only:** Images of the original, physical ID card. This maintains authenticity and prevents verification delays or rejection.
 
@@ -100,7 +119,10 @@ Electronic or digital replicas of identification cards (such as screenshots, sca
   * **Avoid glare, blur, or cropped edges** on your ID images.
   * **Ensure your name and date of birth** match your registered account details exactly.
   * **Do not use an expired card** — your ID must be valid.
-  * **Have a stable internet connection** and sufficient time to complete the process in one sitting.
+  * **Have a stable internet connection** and sufficient time to complete the process in one sitting.  
+  
+
+  * The real person whose identity is being verified must personally complete the ID and live-selfie steps. You can use a supported desktop or mobile device, but another person should not complete the identity verification on your behalf.
 
 
 Heads Up
@@ -123,17 +145,23 @@ Q: How long does verification take after I submit?
 
 Verification typically completes within 24 hours. However, if your session expires or encounters an error, it may take longer. If your status remains "Pending" beyond 24 hours, submit a support ticket for assistance.
 
-Q: Do I need to reverify if I move to a different country?
+Q. Do I need to complete Persona every time I purchase a phone number?
 
-If you move, you may need to complete verification again with a document from your new country of residence. Contact support to understand your specific situation, as requirements may vary based on your service location and regional regulations.
+No. Persona is generally completed once per sub-account. After successful verification, the verified identity can be reused for future eligible phone-number purchases and applicable compliance actions.
 
-Q: Can I use a passport from a different country than where I'm based?
+  
 
-No, your identification document must be issued by the country you are currently based in. Using a document from a different country may result in verification failure or additional review steps. Always use an ID from your country of residence.
+
+Q: Does completing Persona mean I no longer need A2P or other registrations?
+
+No. Persona verifies the identity associated with the sub-account. It does not replace A2P 10DLC registration, Toll-Free Verification, CNAM, SHAKEN/STIR, or other compliance requirements that may apply.
 
 Q: What should I do if I get a "Session Expired" error?
 
 A "Session Expired" error means your verification session was interrupted. Your status will remain "Pending" until the system automatically updates (typically 24 hours). Avoid closing, refreshing, or leaving the tab during future attempts. If the issue persists beyond 24 hours, submit a support ticket.
+
+  
+
 
 You're All Set
 

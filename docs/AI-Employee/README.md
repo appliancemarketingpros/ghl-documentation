@@ -30,6 +30,8 @@
 
 ### [Content AI in Blogs](Content-AI-in-Blogs/)
 
+### [Reviews AI](Reviews-AI/)
+
 ### [Ask AI](Ask-AI/)
 
 ### [AI Studio](AI-Studio/)

@@ -84,7 +84,7 @@ Templates in Ads Manager make campaign creation faster and more effective. Hereâ
   1. Click on the **\+ Create Campaign** button.  
   
 
-  2. Choose either **Google** or **Meta** as a platform for your Ad campaign.  
+  2. Choose either **Google** or **Meta or Linkedin** as a platform for your Ad campaign.  
   
 
   3. Click **Next**.

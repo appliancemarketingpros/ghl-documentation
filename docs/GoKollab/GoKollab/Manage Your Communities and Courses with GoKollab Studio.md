@@ -6,7 +6,9 @@
 
 ---
 
-Kollab Studio is HighLevel’s creator hub, built to give community and course owners a single, streamlined place to manage all their digital products. Whether you’re updating content, adjusting pricing, or launching something new, Kollab Studio keeps everything organized in one dashboard so you can work faster and smarter.
+Kollab Studio is HighLevel’s creator hub, built to give community and course owners a single, streamlined place to manage all their digital products. Whether you’re updating content, adjusting pricing, or launching something new, Kollab Studio keeps everything organized in one dashboard so you can work faster and smarter.  
+  
+
 
 * * *
 

@@ -127,17 +127,33 @@ The Send SMS action is perfect for scenarios requiring timely and targeted commu
   
 
 
+  
+
+
 **Step 5: Test the SMS**
 
   
 
 
-• Use the “Test Phone Number” field to preview and test the message.
+Use the Test Phone Number field to preview and test your message before activating the workflow.
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155037717593/original/xUFXgIMGpNH7I4diECA_RXcSXsGD-Be5Pw.png?1733302585)
+1\. Check the country flag next to the Test Phone Number field. It defaults to your sub-account's country.  
+  
+
+
+2\. To use a different country, click the flag and search by country name or dialing code.  
+  
+
+
+3\. Enter the phone number in local format for the selected country and Click Send test SMS.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079722813/original/3shK6hN_PUfcsr0PPYzvft9w5L9xS5qTAA.png?1788189413)
 
   
 

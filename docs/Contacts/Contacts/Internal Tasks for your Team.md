@@ -6,81 +6,78 @@
 
 ---
 
-### More Tutorials from the Community
-
-<https://youtu.be/QjncCeaa1y8>
-
-<https://youtu.be/h3SGywAkIyY>
-
-[](<https://www.youtube.com/watch?v=nHxqwdWr5Ts>)<https://www.youtube.com/watch?v=QVUKrpakcDA>
-
-<https://youtu.be/5mYt9yQssJU>
+### 
 
   
 
 
-Create and Manage internal tasks for your team in the "Tasks List Page" for easier project management.
+Create and manage internal tasks for your team from the **Tasks List** page. Internal tasks can be created without associating them with a contact, making it easier to manage team responsibilities and other operational work.
 
   
 
 
-**In This Article**
-
-  * Create Contactless Tasks
-  * Filter Internal Tasks
-  * Assign, remove, or Reassign the Contact to a task
-  * Automate Contact-less Tasks with Workflows
-  * Frequently Asked Questions
-
-
-* * *
-
-## Create Contactless Tasks
-
-![ewdwedwedwedwed](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155017999879/original/tasteVukbuygzDXJiAv8pY4ysWes8CqSbA.png?1705512168)
-
-Create tasks on the task list page without a contact specifically for your team members. These tasks can be used to manage work and responsibilities within your team easily
+## **Create Contactless Tasks**
 
   
 
 
-## Filter Internal Tasks
-
-![ewdwedwedwedwed](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155017999902/original/l0cBkFjZyg-DLxPiwH71az2ISUUzZxalvQ.png?1705512178)
-
-Utilize the "Unassigned" option in the "Contact" filter field to filter out contactless/internal tasks for your team.
+Create tasks from the **Tasks List** page without associating them with a specific contact. These tasks can be assigned to team members to help manage internal work and responsibilities.
 
   
 
 
-## Assign, remove, or Reassign the Contact to a task
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078814306/original/w-SbUPC28U4YQ3Yb3b75FVUs3VafjMAiHg.png?1787147700)**
 
-Along with creating contactless tasks, the contact can be added, removed, or reassigned anytime post a task is created giving you absolute control over managing the tasks in your subaccount 
-
-  
+##   
 
 
-## 
-    
-    
-    These tasks are also visible in the Tasks list on the Dashboard page.
+## **Filter Internal Tasks**
 
   
 
 
-## Automate Contact-less Tasks with Workflows
+Use the **Unassigned** option in the **Contact** filter to display contactless/internal tasks. This makes it easier to identify tasks that are being used for internal team activities rather than tasks associated with specific contacts.
 
-**Add Task** can create **contact-less tasks** when the workflow has no contact (e.g., inbound system events). If a contact exists, the task attaches automatically.
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078814387/original/7PIaSIoC2QigKCvJqs9HwmcVdqhW7SnBBg.png?1787147751)
+
+##   
+
+
+## **Assign, Remove, or Reassign a Contact to a Task**
+
+  
+
+
+After creating a contactless task, you can add a contact to it later. You can also remove or reassign the associated contact as needed. This gives your team flexibility to manage a task as its requirements change.
+
+##   
+
+
+## **Automate Contactless Tasks with Workflows**
+
+  
+
+
+The **Add Task** workflow action can create contactless tasks when the workflow does not have an associated contact, such as when the workflow is triggered by an inbound system event. If a contact is available in the workflow, the task is automatically associated with that contact.
 
 * * *
 
 ## **Frequently Asked Questions**
 
+###   
+
+
+**Q. Can I schedule tasks with dynamic dates or create them automatically based on triggers?**
+
   
 
 
-**Q: Can I schedule tasks with dynamic dates or create them automatically based on triggers?**
+**A.** Yes. While the Tasks section allows you to manually create tasks for your team, advanced task scheduling and automation—such as setting a dynamic due date like **“2 days from now at 5:00 PM”** —can be configured using workflows.
 
-While the Tasks section allows manual task creation for your team, **advanced task scheduling and automation—like setting dynamic due dates (e.g., “2 days from now at 5PM”)—must be configured via workflows**.
+  
 
-To do this, use the **“Add Task”** workflow action under **Automation > Workflows**. This gives you full control over assigning tasks and defining dynamic due times based on triggers like form submissions, opportunity updates, and more.
+
+Go to **Automation → Workflows** and use the **Add Task** workflow action. This allows you to automate task creation, assign tasks, and configure dynamic due dates based on workflow triggers such as form submissions, opportunity updates, and other supported events.

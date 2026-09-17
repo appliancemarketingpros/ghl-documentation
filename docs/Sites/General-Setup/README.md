@@ -4,5 +4,5 @@
 
 ## Articles
 
-- [Setting up Whitelabel Domain, API Domain, Email Sending Domain,  Sites Domain, Client Portal Domain & more](Setting up Whitelabel Domain, API Domain, Email Sending Domain, Sites Domain, Client Portal Domain &.md)
+- [How to Set Up Different Domain Types in HighLevel: Websites, Email, WordPress & More](How to Set Up Different Domain Types in HighLevel Websites, Email, WordPress & More.md)
 - [XML Sitemaps](XML Sitemaps.md)

@@ -156,7 +156,7 @@ Step 2
 
 Add Products to the Store
 
-Click the **Add Product** button. **Create New Products** — Design new products from scratch using Printful's catalog (apparel, accessories, home goods, etc.).
+Click **Add Product** , then select **Create New Products** to design a product from scratch using Printful’s catalog of apparel, accessories, home goods, and more.
 
 ![](https://jumpshare.com/share/P5XeRZ3sgFJ0zf6XHVQb+/GIF+Recording+2026-08-03+at+20.07.52.gif)
 

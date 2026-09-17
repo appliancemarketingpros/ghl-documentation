@@ -55,21 +55,66 @@ Call forwarding allows you to seamlessly connect your personal or business phone
 
 * * *
 
-# **How Call Forwarding Works**
+## **How Call Forwarding Works**
 
   
 
 
 When call forwarding is enabled, incoming calls to your personal number (cell or landline) will be automatically redirected to your HighLevel phone number. HighLevel then handles the calls using its advanced Voice AI capabilities.
 
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155036926958/original/tflOXROBWlJrGdnLwxp_6wzsSeHjbJSPvg.png?1732135371)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079925562/original/PtzEzGiWgVT511kPMYiGEypIu62zlG1LAQ.png?1788358976)
 
 * * *
 
-# **Setting Up Call Forwarding for Major Carriers**
+## **Avoid Call Forwarding Loops**
+
+  
+
+
+Before enabling call forwarding, make sure your phone routing will not send the call back to the original number.
+
+  
+
+    
+    
+    **Warning: Avoid a Call Redirect Loop**
+    A redirect loop can occur when **Number A forwards to Number B, and Number B is configured to route or forward calls back to Number A**. This can cause calls to repeatedly redirect between the two numbers.
+    
+    Before completing your setup, verify that your HighLevel phone number, forwarding number, user phone number, and Business Profile phone number do not create a path that routes the call back to the original forwarding number.
+    
+    
+
+  
+
+
+### **Test Your Setup**
+
+  
+After enabling call forwarding:  
+  
+
+
+  1. Use a **different phone** to call the original number you configured to forward.  
+  
+
+
+  2. Confirm that the call successfully reaches your HighLevel phone number and follows the expected inbound call flow.  
+  
+
+
+  3. Make sure the call does not repeatedly reconnect, replay the same audio, or create multiple inbound calls in Conversations.  
+  
+
+
+  4. If you experience repeated calls or unexpected routing, **disable call forwarding and review your phone configuration before testing again**.  
+  
+
+
+If calls repeatedly redirect between numbers, follow the troubleshooting steps in **[How To Fix - Phone Call Redirect Loop](<https://help.gohighlevel.com/support/solutions/articles/48001076653-how-to-fix-phone-call-redirect-loop>)**.
+
+* * *
+
+## **Setting Up Call Forwarding for Major Carriers**
 
   
 
@@ -79,7 +124,9 @@ Follow the steps below based on your carrier. If you don’t see your carrier, r
   
 
 
-### **Verizon Wireless**
+### **Verizon Wireless**  
+  
+
 
   1. There are a few ways to forward calls from your Verizon Wireless phone to your HighLevel phone number:  
   
@@ -90,8 +137,12 @@ Follow the steps below based on your carrier. If you don’t see your carrier, r
      * **_To Forward MISSED CALLS_******_(unanswered calls or calls that receive a busy signal)_ : Dial * **71** followed by your HighLevel phone number (e.g., `*71 555-555-5555`).  
   
 
-  2. Press **Call**.
-  3. Wait for a confirmation tone or message.
+  2. Press **Call**.  
+  
+
+  3. Wait for a confirmation tone or message.  
+  
+
   4. To deactivate call forwarding, dial * **73**.[](<https://www.verizon.com/support/knowledge-base-181139/>)[](<https://www.verizon.com/support/knowledge-base-181139/>)
 
 
@@ -102,11 +153,19 @@ Follow the steps below based on your carrier. If you don’t see your carrier, r
 
 * * *
 
-### **AT &T (Mobile)**
+### **AT &T (Mobile)**  
+  
 
-  1. Dial * **21** followed by your HighLevel phone number (e.g., `*21 555-555-5555`).
-  2. Press **Call** or **Send**.
-  3. Wait for the confirmation tone.
+
+  1. Dial * **21** followed by your HighLevel phone number (e.g., `*21 555-555-5555`).  
+  
+
+  2. Press **Call** or **Send**.  
+  
+
+  3. Wait for the confirmation tone.  
+  
+
   4. To deactivate, dial **#21#**.
 
 
@@ -117,11 +176,19 @@ Follow the steps below based on your carrier. If you don’t see your carrier, r
 
 * * *
 
-### **AT &T (Business)**
+### **AT &T (Business)**  
+  
 
-  1. Dial * **72** on your landline phone and listen for the dial tone.
-  2. Enter your HighLevel phone number (e.g., `555-555-5555`).
-  3. Wait for the confirmation tone. The system will then place a call to the number to which calls will be forwarded. If the forward-to party answers the call, the feature is activated.
+
+  1. Dial * **72** on your landline phone and listen for the dial tone.  
+  
+
+  2. Enter your HighLevel phone number (e.g., `555-555-5555`).  
+  
+
+  3. Wait for the confirmation tone. The system will then place a call to the number to which calls will be forwarded. If the forward-to party answers the call, the feature is activated.  
+  
+
   4. To deactivate call forwarding, dial * **73**.
 
 
@@ -132,7 +199,9 @@ Follow the steps below based on your carrier. If you don’t see your carrier, r
 
 * * *
 
-### **T-Mobile**
+### **T-Mobile**  
+  
+
 
   1. There are a few ways to forward calls from your T-Mobile phone to your HighLevel phone number:  
   
@@ -143,7 +212,9 @@ Follow the steps below based on your carrier. If you don’t see your carrier, r
      * **_To Forward MISSED CALLS_******_(unanswered calls or calls that receive a busy signal)_ : Dial ****61*1** \+ **your HighLevel phone number** \+ **#** (e.g., `**61*1555-555-5555#`).  
   
 
-  2. Press **Call**.
+  2. Press **Call**.  
+  
+
   3. To deactivate call forwarding, dial **##61# or ##21#** , respectively.
 
 
@@ -154,7 +225,9 @@ Follow the steps below based on your carrier. If you don’t see your carrier, r
 
 * * *
 
-### **Xfinity Mobile**
+### **Xfinity Mobile**  
+  
+
 
   1. There are a few ways to forward calls from your Xfinity Mobile phone to your HighLevel phone number:  
   
@@ -165,8 +238,12 @@ Follow the steps below based on your carrier. If you don’t see your carrier, r
      * **_To Forward MISSED CALLS_******_(unanswered calls or calls that receive a busy signal)_ : Dial * **71** followed by your HighLevel phone number (e.g., `*71 555-555-5555`).  
   
 
-  2. Press **Call**.
-  3. Listen for a confirmation tone.
+  2. Press **Call**.  
+  
+
+  3. Listen for a confirmation tone.  
+  
+
   4. To turn off call forwarding, dial * **73**.
 
 
@@ -177,7 +254,9 @@ Follow the steps below based on your carrier. If you don’t see your carrier, r
 
 * * *
 
-### **Spectrum Mobile**
+### **Spectrum Mobile**  
+  
+
 
   1. There are a few ways to forward calls from your Spectrum Mobile phone to your HighLevel phone number:  
   
@@ -188,7 +267,9 @@ Follow the steps below based on your carrier. If you don’t see your carrier, r
      * **_To Forward MISSED CALLS_******_(unanswered calls or calls that receive a busy signal)_ : Dial * **71** followed by your HighLevel phone number (e.g., `*71 555-555-5555`).  
   
 
-  2. Press **Call** and wait for the confirmation tone.
+  2. Press **Call** and wait for the confirmation tone.  
+  
+
   3. To deactivate, dial * **73**.
 
 
@@ -199,34 +280,56 @@ Follow the steps below based on your carrier. If you don’t see your carrier, r
 
 * * *
 
-### **Other Carriers**
+### **Other Carriers**  
+  
+
 
 If your carrier is not listed above, either reach out to them directly or try the following steps:  
   
 
 
-  1. _To Forward**ALL CALLS** :_
-     * Dial ***72** on your phone and listen for the dial tone.
-     * Enter your HighLevel phone number (e.g., 555-555-5555).
-     * Wait for the confirmation tone.
+  1. _To Forward**ALL CALLS** :_  
+
+     * Dial ***72** on your phone and listen for the dial tone.  
+  
+
+     * Enter your HighLevel phone number (e.g., 555-555-5555).  
+  
+
+     * Wait for the confirmation tone.  
+  
+
      * To deactivate call forwarding, dial ***73**.  
   
 
-  2. _To Forward_** _MISSED CALLS_** _(unanswered calls or calls that receive a busy signal)_ :
-     * Dial ***92** on your phone and listen for the dial tone.
-     * Enter your HighLevel phone number (e.g., 555-555-5555).
-     * Wait for the confirmation tone.
+  2. _To Forward_** _MISSED CALLS_** _(unanswered calls or calls that receive a busy signal)_ :  
+  
+
+     * Dial ***92** on your phone and listen for the dial tone.  
+  
+
+     * Enter your HighLevel phone number (e.g., 555-555-5555).  
+  
+
+     * Wait for the confirmation tone.  
+  
+
      * To deactivate call forwarding, dial ***93**.
 
 
 * * *
 
-# **Frequently Asked Questions**
+## **Frequently Asked Questions**
 
   
 
 
 **Q: Can I forward calls from multiple numbers to HighLevel?**  
+
+
+  
+
+
 Yes, as long as each number supports call forwarding, you can forward multiple numbers to your HighLevel phone number.
 
   
@@ -236,6 +339,11 @@ Yes, as long as each number supports call forwarding, you can forward multiple n
 
 
 **Q: Will callers know their calls are being forwarded?**  
+
+
+  
+
+
 No, call forwarding is seamless, and the caller won’t be notified of the redirection.
 
   
@@ -245,6 +353,11 @@ No, call forwarding is seamless, and the caller won’t be notified of the redir
 
 
 **Q: Can I still make calls from my personal number after setting up call forwarding?**  
+
+
+  
+
+
 Yes, call forwarding only affects incoming calls. Outgoing calls from your personal number remain unaffected.
 
   
@@ -254,4 +367,24 @@ Yes, call forwarding only affects incoming calls. Outgoing calls from your perso
 
 
 **Q: Does call forwarding work internationally?**  
+
+
+  
+
+
 It depends on your carrier. Contact your carrier to verify if international call forwarding is supported.
+
+  
+
+
+**Q: What should I do if my forwarded calls keep repeating or looping?**
+
+  
+
+
+If calls repeatedly reconnect, play the same audio, or appear multiple times in Conversations, you may have created a phone call redirect loop.
+
+  
+
+
+Disable call forwarding temporarily and check that your forwarding number, user phone number, and Business Profile phone number are not routing calls back to the original number.

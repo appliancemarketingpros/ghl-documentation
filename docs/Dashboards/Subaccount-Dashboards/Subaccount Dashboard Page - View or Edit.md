@@ -45,24 +45,31 @@ The Dashboards are a highly customizable and always up to date report on the sta
 ### **Dashboard States:**
 
   * **With Widgets** (1 or more) - The normal state of a dashboard is to have multiple widgets and elements.  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155043962435/original/42rt1_NUSVoEgFDUC7qMwwUvaj0gCkKGvw.png?1742938777)  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079585437/original/fLrqkhfURbyOEilmkaRnKkgx1j48da4ZhA.png?1787945040)  
   
 
   * **Without Widgets** (0) - When a dashboard has no widgets, instead of being blank it will show a variety of quick start options. Add/create a widget to get started.  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155043962426/original/9Mrfu22FVBOevZWDfvO2EFTXXZiO55j-YA.jpeg?1742938753)
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079585479/original/PM7r6ddqljiwIY0osUf9jPotNXFvx1ViHQ.png?1787945109)
 
 
   
+  
 
 
-### **Dashboard Modes:**
+### **Dashboard Modes:**  
+  
+
 
   * **View Mode** \- Looks like a list of widgets with filters. The normal state of a dashboard where you change some dates and filters and learn about activity in the subaccount.  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155043962462/original/0n2XUYlt926yHzEMkK_U9aRMpO0TPFEGDQ.png?1742938880)  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079585550/original/5r2Yc5_BcqdYkCexn_PXQZRpmycAxxUk0A.png?1787945233)  
   
 
   * **Edit Mode** \- Looks like a list of widgets with edit options. When you temporarily switch into Edit Mode you can drag & drop the widgets into a new arrangement, add/delete widgets and elements, or change the theme or title.  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155043962477/original/ZXzWuAE06vDPAqSuRzOMFO4x_RXh_xeuxQ.png?1742938954)
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079585585/original/BCTl8nb41xZscdLLSptdwNPsS3q1k6ztHA.png?1787945281)
 
 
   
@@ -99,19 +106,23 @@ The dashboard stores the selected date range per user and can also apply a dashb
   7. **Widgets** \- A list of the widgets in the dashboard.  
   
 
-  8. **Quick Start Options** \- What you see if the dashboard doesn't have any widgets.
+  8. **Summarise with AI:** Ask AI generate an overall summary of the selected dashboard  
+**  
+**
+  9. **Quick Start Options** \- What you see if the dashboard doesn't have any widgets.
 
 
 **  
 **
 
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155043695384/original/xsept9H_RShLwkm5ptcDSOW2qA4eVClDgQ.png?1742499170)**
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079585943/original/5QZXaJxuCt-Jo7SM6ssZWsNn7LQ6c7UPaA.png?1787945535)**
 
   
 
 
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155043696273/original/eSySZjFkbRt7_9yT9fHvEXg5ei1TvTztAQ.png?1742500881)**
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079586080/original/IdNHxQy5oP0MgPruYtdHzpFvXFgIous-pQ.png?1787945705)**
 
+  
   
 
 
@@ -201,6 +212,7 @@ If a saved filter value is no longer available, such as a deleted pipeline, High
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155043958511/original/3UyApDwKSBdtKqDhPx71RW2EPMfVINC9qw.png?1742930300)
 
+  
   
 
 

@@ -170,6 +170,26 @@ The custom value used for the email signature is: `{{user.email_signature}}`
 
 * * *
 
+### **Using an Email Signature in a Campaign**
+
+  
+
+
+The `{{user.email_signature}}` merge field lets you dynamically insert a user's saved signature into a campaign email. Because user merge fields rely on the user context available when the email is generated, verifying the sender or assigned user helps ensure the correct signature appears.
+
+Add the merge field where you want the signature to appear in your campaign:
+
+`{{user.email_signature}}`
+
+For example, place it below your closing message so the appropriate user's saved signature is inserted when the email is generated.
+
+**Important:** If the signature appears blank or displays the wrong user's information, verify the user context associated with the email, such as the assigned user or sender. For additional causes and solutions, see [Troubleshooting Merge Fields](<https://help.gohighlevel.com/support/solutions/articles/155000008467-how-to-use-merge-fields-and-email-fallback-values#Troubleshooting-Merge-Fields>).
+
+* * *
+
+##   
+
+
 ## **Frequently Asked Questions**
 
   

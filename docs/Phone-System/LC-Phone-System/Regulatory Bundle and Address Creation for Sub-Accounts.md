@@ -6,402 +6,237 @@
 
 ---
 
-Learn how to create a regulatory bundle and address for sub-accounts in HighLevel using LC Phone. This ensures compliance with telecom regulations so you can successfully purchase phone numbers in regulated countries.
+International Phone Number Compliance
 
-* * *
+Regulatory Bundle and Address Creation for Sub-Accounts
 
-**TABLE OF CONTENTS**
+Create Address Bundles and Regulatory Bundles, submit country-specific compliance information, monitor review status, and connect approved bundles to regulated phone-number purchases in HighLevel.
 
-  * What is a Regulatory Bundle?
-  * Auto-population of Business Details
-  * Key Benefits of Bundles
-  * How to Create a Regulatory Bundle
-  * Step 1: Navigate to Regulatory Bundle/Address
-  * Step 2: Create a New Address Bundle
-  * Step 3: Create a Regulatory Bundle
-  * Assigning a Regulatory Bundle to a Phone Number
-  * Manage & Delete Bundles and Addresses
-  * Frequently Asked Questions
-  * Related Articles
+Overview
 
+Some phone numbers require verified identity, address, or regulatory information before they can be purchased or activated. HighLevel lets LC Phone users create and manage this information directly from the sub-account under **Phone System → Regulatory Bundle/Address**.
 
-  
+Address Bundles store identity and physical-address information, while Regulatory Bundles collect the country- and number-type-specific information required by local telecom rules.
 
+This guide explains when each bundle type is needed, how to create and submit bundles, how to monitor their status, how to use an approved bundle during phone-number purchase, and how deletion safeguards work.
 
-* * *
+Important
+
+A **Regulatory Bundle is not required for standard United States or Canada phone-number purchases**. Other verification processes can still apply, including identity verification and messaging-specific registrations.
+
+Requirements outside the United States and Canada vary by country, number type, intended use, and local regulation. Follow the fields and document requirements presented in HighLevel for the exact number you are attempting to purchase.
+
+Table of Contents
+
+What is a Regulatory Bundle? Key Benefits of Address and Regulatory Bundles Address Bundle vs. Regulatory Bundle Auto-Populated Business Details How to Set Up Address and Regulatory Bundles Assign an Approved Bundle to a Phone Number Manage and Delete Bundles and Addresses Troubleshooting Regulatory Bundles Frequently Asked Questions Related Articles
 
 # **What is a Regulatory Bundle?**
 
+Regulatory Bundles and Address Bundles provide the identity, location, and compliance information required to provision certain phone numbers. They help ensure that the person or business using a regulated number meets the requirements imposed by the applicable country and number type.
+
+An **Address Bundle** stores business or individual identity and physical-address information. A **Regulatory Bundle** stores additional compliance information and supporting documentation when required for a specific country or number type.
+
+These requirements are most commonly encountered when purchasing international phone numbers. HighLevel displays the applicable requirement during the phone-number purchase process so you can complete the correct compliance path.
+
+## **Key Benefits of Address and Regulatory Bundles**
+
+Creating the correct bundle before purchasing a regulated number reduces failed purchase attempts and keeps required compliance information organized inside the sub-account.
+
+  * **Regulatory Compliance:** Provide the information required for phone-number provisioning in regulated countries.
+  * **Purchase Readiness:** Complete required address and regulatory checks before attempting to purchase an affected number.
+  * **In-App Management:** Create, submit, review, and manage bundle records directly from HighLevel.
+  * **Auto-Populated Details:** Reuse available location-profile information to reduce repetitive address entry.
+  * **Clear Review Status:** Monitor bundle progress from the Regulatory Bundle/Address list.
+  * **Deletion Protection:** Prevent removal of bundles or addresses that are still connected to an active dependency.
+
+
+## **Address Bundle vs. Regulatory Bundle**
+
+Choosing the correct bundle type prevents unnecessary submissions and helps ensure the phone number is connected to the compliance information expected for its country and number type.
+
+Bundle Type| Purpose| When It May Be Needed  
+---|---|---  
+**Address Bundle**|  Stores business or individual identity and physical-address information.| When the selected phone number requires an approved address.  
+**Regulatory Bundle**|  Stores country- and number-type-specific compliance information and supporting documents.| When local telecom rules require additional identity or business verification.  
   
+**Which one should I create?** Use the requirement shown during phone-number purchase as your source of truth. Some international numbers require an Address Bundle, a Regulatory Bundle, or both.
 
+## **Auto-Populated Business Details**
 
-Address and Regulatory Bundles help meet carrier and local regulations for phone number provisioning. Address Bundles capture business identity and address. Regulatory Bundles link your business to country- or number-type rules so numbers can be provisioned without rejection.
+HighLevel can pre-fill Address Bundle fields using information already stored in the location profile. Reviewing these values before submission helps prevent mismatches between the bundle and the documents used to verify the business.
 
-  
+Available profile information can populate fields such as:
 
-
-**Key points:**
-
-  * **Address Bundle** : Business identity and address details.  
-  
-
-
-  * **Regulatory Bundle** : Compliance documents for a country/number type.  
-  
-
-
-  * Some countries require both to purchase or move numbers.
-
-
-* * *
-
-## **Auto-population of Business Details**
-
-  
-
-
-When creating a new Address Bundle, fields are pre-filled using data from the location profile when available. The following fields can auto-populate and remain editable:
-
-  
-
-
-  * Business name
-  * Address line 1
-  * Address line 2
+  * Business or customer name
+  * Address Line 1
+  * Address Line 2
   * City
-  * State
-  * Postal code
+  * State, province, or region
+  * Postal or ZIP code
+  * Country
 
 
-  
+Auto-populated fields remain editable. If information is missing from the location profile, complete the blank fields manually and make sure the submitted information matches the supporting documents.
 
+## **How to Set Up Address and Regulatory Bundles**
 
-If any location data is missing, the corresponding fields remain blank and can be filled in manually.
+Creating the bundle in the same sub-account that will use the phone number keeps the regulatory information connected to the correct location. Complete each requested field carefully because country-specific reviews can depend on exact matches between the form and uploaded documents.
 
-  
+### **Step 1: Open Regulatory Bundle/Address**
 
+  1. Open the sub-account that will use the phone number.
+  2. Click **Settings**.
+  3. Under Business Services, open **Phone System**.
+  4. Select **Regulatory Bundle/Address**.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155063162556/original/DFxvUE80i5rw-0BM8QyqxeH3jKXyKPbfpw.png?1769003421)
 
-* * *
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080148462/original/pUaQH9xhC1uLd8eDEjEsyPLQRqrrpZju6Q.png?1788546551)
 
-## **Key Benefits of Bundles**
+Settings highlighted from the sub-account dashboard.
 
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080148485/original/rXXNOnnuMdMqGASh8B3NgMN0NVso9-Kkzw.png?1788546573)
 
+Phone System → Regulatory Bundle/Address with the Create button.
 
-Submitting a regulatory bundle is essential for purchasing international phone numbers in compliance with regional laws. This process ensures verified identity, prevents telecom issues, and simplifies global number management across your agency.
+### **Step 2: Create an Address Bundle**
 
-  
+  1. Click **\+ Create**.
+  2. Review the **Address Bundle** and **Regulatory Bundle** options.
+  3. Select **Address Bundle**. It is pre-selected by default in the bundle picker.
+  4. Click **Next**.
+  5. Review or enter the requested business and address information.
+  6. Click **Submit**.
 
 
-  * **Compliance with Local Telecom Regulations:** Meets legal requirements in regulated countries to activate and maintain phone numbers.  
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080148489/original/EdnQh_KJ8LA6xPJRkr0mKteqiW_k3PLzaw.png?1788546586)
 
+Bundle picker showing Address Bundle selected.
 
-  * **Improved Deliverability and Service Quality:** Verified bundles reduce the risk of carrier filtering, suspension, or number removal.  
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080148493/original/5m62UyWGIeVXosNSVzwyiZA6FM8aoRiZYg.png?1788546604)
 
+Enter Business details form with editable address fields and Submit.
 
-  * **In-App Management:** Allows regulatory bundles to be created and submitted directly inside HighLevel — no need to leave the platform.  
-  
+### **Step 3: Create a Regulatory Bundle**
 
+  1. Return to **Phone System → Regulatory Bundle/Address**.
+  2. Click **\+ Create**.
+  3. Select **Regulatory Bundle**.
+  4. Choose the required **Country**.
+  5. Choose the appropriate **Number Type** , such as Local, Mobile, National, or Toll-Free when available.
+  6. Complete the requested business, individual, or representative information.
+  7. Upload each supporting document requested by the form.
+  8. Review the information and submit the bundle for review.
 
-  * **Faster Setup with Built-In Compliance Tab:** For LC Phone users, the Compliance tab streamlines document upload and address validation.
 
-  * **Deletion safeguards:** confirmation modal with Type, Country, and Bundle ID; deletion disabled when bundles/addresses are in use.  
-  
+**Document requirements vary.** Do not assume that requirements from one country or number type apply to another. Use the fields and upload prompts shown for the bundle you are creating.
 
+### **Step 4: Monitor the Bundle Status**
 
-  * **Auto-populated address:** business name and address fields pre-fill from the location profile; fields remain editable.  
-  
+Return to **Regulatory Bundle/Address** to monitor each submission. The list shows the country, bundle type, bundle ID, number type or address, and current status.
 
+If a bundle is rejected, review the reason provided, correct the requested information or documentation, and resubmit when the interface provides that option. Do not rely on a fixed approval time because review requirements can differ by country and submission.
 
-  * **Guided selection:** Address Bundle is pre-selected in the bundle picker with clear descriptions and Learn More links for faster, correct choices.
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080148494/original/mkTHjvcHR80OGxjFRoOK1eiS5HeEGKbgQA.png?1788546618)
 
+Regulatory Bundle/Address list showing bundle IDs and review statuses.
 
-* * *
+## **Assign an Approved Bundle to a Phone Number**
 
-## **How to Create a Regulatory Bundle**
+Creating a bundle does not automatically complete every phone-number purchase. When the selected number requires regulatory information, the approved bundle must be associated with the purchase before the number can be provisioned.
 
-  
+  1. Open the applicable sub-account.
+  2. Go to **Settings → Phone System**.
+  3. Open **Manage Numbers**.
+  4. Click **\+ Add Number** and select **Add Phone Number**.
+  5. Select the desired country, number type, and available phone number.
+  6. Continue to the purchase screen.
+  7. If HighLevel requires regulatory information, select the applicable approved Address Bundle or Regulatory Bundle.
+  8. Complete the remaining purchase steps.
 
 
-LC Phone users can create and manage regulatory bundles directly within HighLevel using the built-in Compliance tab in each Sub-Account.
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080148508/original/klz2a1hnu6hTYbaBGuPFl8989bUaAvRTfw.png?1788546628)
 
-###   
-_**Step 1:** Navigate to Regulatory Bundle/Address_
+Manage Numbers → + Add Number → Add Phone Number.
 
-  
+[ Learn more about purchasing a phone number in HighLevel → ](<https://help.gohighlevel.com/support/solutions/articles/155000003226>)
 
+## **Manage and Delete Bundles and Addresses**
 
-  * Navigate to the desired **Sub-Account** in your HighLevel Agency Dashboard.  
-  
+Bundle management includes confirmation and dependency safeguards designed to prevent accidental removal of regulatory information that is still being used by a phone number or provisioning workflow.
 
+### **Delete a Bundle or Address**
 
-  * Open the **Settings** navigation menu on the left side of the page  
-  
+  1. Go to **Phone System → Regulatory Bundle/Address**.
+  2. Locate the bundle or address you want to remove.
+  3. Open the available actions and choose the delete option.
+  4. Review the confirmation modal.
+  5. Verify the displayed **Type** , **Country** , and **Bundle ID** before confirming deletion.
 
 
-  * Choose the tab labeled **Phone Numbers** on the left  
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080148518/original/0Fk3CaNSjlDgwFboFfDTO3ZRaQSUiUIsNQ.png?1788546642)
 
+Delete Regulatory Bundle confirmation showing Type, Country, and Bundle ID.
 
-  * Select the tab labeled **Regulatory Bundle/Address** at the top  
-  
-![](https://jumpshare.com/v/Gw4ZD1r1zrQjJbIa7KX1+/GIF+Recording+2025-06-02+at+8.25.13+PM.gif)
+**Deletion is permanent.** If a bundle or address is already in use, HighLevel can disable deletion to protect the active dependency. Remove or update the dependency first if a different bundle or address needs to be used.
 
+## **Troubleshooting Regulatory Bundles**
 
-  
-  
+Most bundle issues are caused by missing regulatory requirements, mismatched business information, incomplete documentation, or attempting to use a bundle that is not yet approved for the selected country and number type.
 
+The Phone Number Cannot Be Purchased
 
-### ** _Step 2:_**_Create a New Address Bundle_
+Check whether the selected number requires an Address Bundle, Regulatory Bundle, identity verification, or another compliance step. Complete the requirement shown in the purchase flow before retrying.
 
-  
+The Regulatory Bundle Was Rejected
 
+Review the rejection reason and compare the submitted name, address, registration information, and documents. Correct the requested item and resubmit when the bundle workflow permits it.
 
-  1. Click the blue button in the upper left labelled **+****Create**  
-  
-**![](https://jumpshare.com/v/V005hoymPp4ex7dEL8ng+/Screen+Shot+2025-06-26+at+7.41.16+PM.png)**  
-  
+The Correct Bundle Does Not Appear During Purchase
 
+Confirm that the bundle was created in the correct sub-account, matches the required country and number type, and has completed the required review.
 
-  2. In the bundle selection popup, review the two available options:  
-  
-**Address Bundle:** stores business identity and address details  
-  
-**Regulatory Bundle:** stores country- and number-type-specific compliance details
+The Delete Option Is Disabled
 
-  3. **Address Bundle** is selected by default to help streamline the most common setup path.  
-![](https://jumpshare.com/v/02dJZfHnWy8TVPDQ0e3a+/Screen+Shot+2025-06-26+at+7.48.08+PM.png)  
-  
+The bundle or address is likely connected to an active dependency. Review the explanation shown in HighLevel and remove or update that dependency before attempting deletion again.
 
+No Suitable International Number Appears
 
-  4. Fill out requested business information including Business/Individual Name, Full Street Address, City, State/Province, Postal Code and Country  
-  
-
-
-  5. Click on **Submit.**  
-  
-![](https://jumpshare.com/v/xaRVQw2drMBOBV6i8RO7+/Screen+Shot+2025-06-26+at+7.52.54+PM.png)
-
-
-###   
-**_Step 3:_**_Create a Regulatory Bundle_  
-
-
-  
-
-
-  * Click the blue button in the upper left labelled **+****Create**  
-  
-
-
-  * A popup will appear with the options of Address Bundle or Regulatory Bundle. Select **Regulatory Bundle**.  
-  
-
-
-  * Using the **Select County** dropdown menu, select the desired country  
-  
-
-
-  * Using the **Select Number Type** selector, choose the type of number desired  
-  
-
-  * Fill out requested **Business Information**.  
-  
-
-  * Upload **Supporting Documents**.  
-  
-
-        
-        **Note:** While not all countries require documents, many do. Required document types and rules vary based on the country and usage.
-
-  
-
-  * **Submit** bundle for review  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155052898824/original/qpesiVPbTYBDiCfjIUVDocd6RFmWS_lDBw.png?1756809759)
-
-
-* * *
-
-## **Assigning a Regulatory Bundle to a Phone Number**
-
-  
-Once a regulatory bundle is approved, it must be assigned to the number you're purchasing. This step is required to activate regulated numbers and verify compliance before use.  
-  
-
-
-  1. Click on **Settings** from your sub-account**.**  
-  
-**![](https://jumpshare.com/v/Olo9d8WJe6hc3uex02EA+/Screen+Shot+2025-06-26+at+7.14.50+PM.png)**  
-  
-
-
-  2. Click on**Phone Numbers**.  
-  
-
-
-  3. Click **\+ Add Number** button and select **Add** **Phone** **Number** from the dropdown.  
-  
-![](https://jumpshare.com/v/61ANHkcMX3wz43zfpTYX+/Screen+Shot+2025-06-26+at+7.23.23+PM.png)   
-  
-
-
-  4. Select the desired **Country** and a **Number**.  
-  
-
-
-  5. If the number requires a regulatory bundle, you'll see **Required** under the **Address** **Requirement** column.  
-  
-![](https://jumpshare.com/v/5qh1yzOmhp9FnLAWH9uQ+/Screen+Shot+2025-06-26+at+7.25.59+PM.png)  
-  
-
-
-  6. Click on the **Proceed to Buy** button.  
-  
-![](https://jumpshare.com/v/hVG72QDk0uSazurJ7t4F+/Screen+Shot+2025-06-26+at+7.32.23+PM.png)  
-  
-
-
-  7. Use the dropdown to assign your approved **R****egulatory bundle**.  
-  
-
-
-  8. Click on **Proceed to Buy** button to complete the purchase.  
-  
-![](https://jumpshare.com/v/oucJCEZFH2FKrpzrnEgW+/Screen+Shot+2025-06-26+at+7.34.32+PM.png)
-
-
-* * *
-
-## Manage & Delete Bundles and Addresses
-
-  
-
-
-To reduce accidental removals and protect active services, bundle and address deletion now includes safeguards.
-
-  
-
-
-**Deletion confirmation modal**
-
-  
-
-
-  * When deletion is initiated for a **Regulatory Bundle** or an **Address Bundle** , a confirmation modal appears before the action completes.  
-  
-
-  * The modal clearly displays **Type** , **Country** , and **Bundle ID** so you can verify the correct item.  
-  
-
-  * You can confirm or cancel the deletion from the modal.  
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155063163683/original/hy7pZXBhHUe-dfLVHdmNBio1JfrWgUHVuQ.png?1769003888)
-
-* * *
-
-  
-
-
-## **When Deletion Is Unavailable  
-**
-
-Deletion is restricted when a bundle or address is already tied to an active dependency. This safeguard helps prevent accidental disruption to provisioning and compliance workflows.
-
-  
-
-
-  * If a bundle or address is currently in use, the delete option is disabled.  
-  
-
-  * HighLevel shows an explanation in the UI so the user understands why deletion is blocked.  
-  
-
-  * Remove or update the dependency first if a different bundle or address needs to be used.
-
-
-  
-
-
-* * *
+Number availability can change based on country, number type, inventory, and regulatory requirements. Confirm the required bundle is complete, broaden the available filters, or follow the unavailable-number process if inventory remains unavailable.
 
 ## **Frequently Asked Questions**
 
-  
+Q: Do I need a Regulatory Bundle for a United States or Canada phone number?
 
+A Regulatory Bundle is not required for standard US or Canada purchases. Separate requirements such as identity verification, A2P 10DLC registration, or Toll-Free Verification can still apply depending on the number and intended use.
 
-**Q: What is a regulatory bundle, and why is it needed?**  
-A regulatory bundle is a set of documents used to verify the identity and location of a person or business. It's required to purchase phone numbers in countries with telecom regulations, ensuring legal use and compliance.
+Q: Does every international phone number require the same documents?
 
-  
-**Q: Where do I create a regulatory bundle in HighLevel?**  
-Go to the Sub-Account, click **Phone Numbers** , and then open the **Compliance** tab. From there, click **Create Bundle** to begin the submission process.
+No. Required fields and documents vary by country, number type, business or individual use, and applicable local regulation. Follow the requirements displayed for the bundle you are creating.
 
-  
-**Q: What documents are required to create a bundle?**  
-Many countries require supporting documents (like proof of address, business registration and identity). Requirements vary by country and use type (personal or business).
+Q: How long does Regulatory Bundle approval take?
 
-  
-**Q: How long does bundle approval take?**  
-Most regulatory bundles are reviewed and approved within 72 hours. Ensure your documents are clear and accurate to avoid delays.
+Review time can vary by country, number type, documentation quality, and the applicable regulatory review. Monitor the Status column in Regulatory Bundle/Address instead of relying on a fixed approval time.
 
-  
-**Q: Can I reuse a bundle for multiple phone numbers?**  
-Yes. Once approved, a regulatory bundle can be used for additional phone numbers, as long as they fall under the same regulation and region.
+Q: Can an approved Regulatory Bundle be used for multiple phone numbers?
 
-  
-**Q: What happens if my bundle is rejected?**  
-You'll receive a reason for rejection. You can update the documents or details and resubmit the bundle for another review.
+An approved bundle can be reused for additional eligible numbers when they fall under the same applicable regulatory requirements. The purchase flow determines whether the bundle is valid for the selected number.
 
-  
-**Q: Can I edit or delete an existing bundle?**  
-Bundles cannot be edited once submitted, but you can create a new bundle and use that instead. Deletion options depend on review status and assignment history.
+Q: What should I do if my business details were auto-populated incorrectly?
 
-  
+Correct the editable fields before submitting the Address Bundle. The information should match the business or identity documents being used for verification.
 
+Q: Can I edit a Regulatory Bundle after submission?
 
-**Q: Why is Address Bundle selected by default when I click Create?**
+Available actions depend on the bundle's status and regulatory workflow. If a rejected bundle provides a correction or resubmission option, follow the reviewer instructions. If the submitted record cannot be edited, create a new bundle with the correct information.
 
-HighLevel pre-selects Address Bundle to simplify the most common setup path. You can still switch to Regulatory Bundle before continuing.
+Q: Why can't I delete an Address Bundle or Regulatory Bundle?
 
-  
+HighLevel blocks deletion when the item is connected to an active dependency. Review the message shown in the UI and remove or update that dependency before deleting the bundle or address.
 
+Q: What should I include when contacting HighLevel Support about a bundle problem?
 
-**Q: Why can’t I delete a bundle or address?**
+Include the affected sub-account, country, number type, Bundle ID or Address ID, current status, any rejection message, and a screenshot of the issue. If the problem occurs during purchase, also include the phone number or number type you are attempting to buy.
 
-Deletion is blocked when the bundle or address is already in use. HighLevel shows a message in the UI so you know the item has an active dependency.
+### **Related Articles**
 
-* * *
-
-## **Related Articles**
-
-  
-
-
-  * [How to Purchase a Phone Number in a Sub-Account](<https://help.gohighlevel.com/en/support/solutions/articles/155000003226>)  
-  
-
-
-  * [Create Regulatory Bundle from within the Web App](<https://help.gohighlevel.com/en/support/solutions/articles/48001213216>)  
-  
-
-
-  * [Regulatory Bundle Creation and View for LC Phone Accounts](<https://help.gohighlevel.com/en/support/solutions/articles/48001213216>)  
-  
-
-
-  * [How do I migrate my agency and sub-account over to LC Phone?](<https://help.gohighlevel.com/en/support/solutions/articles/48001204027>)  
-  
-
-
-  * [What is LC - Phone System?](<https://help.gohighlevel.com/en/support/solutions/articles/48001223546>)  
-  
-
-
-  * [How to buy a toll free number inside GHL?](<https://help.gohighlevel.com/en/support/solutions/articles/48001204834>)
+[ How to Purchase a Phone Number ](<https://help.gohighlevel.com/support/solutions/articles/155000003226>) [ Identity Verification for Phone Number Purchases (US/CA/PR/IL) ](<https://help.gohighlevel.com/support/solutions/articles/155000005798>) [ How to Create and Link a Regulatory Bundle for Australian Local Numbers ](<https://help.gohighlevel.com/support/solutions/articles/155000008023-how-to-create-and-link-a-regulatory-bundle-for-australian-local-numbers>) [ How to Request an Unavailable Phone Number ](<https://help.gohighlevel.com/support/solutions/articles/48001231625-how-to-request-a-number-that-s-not-available>) [ Moving Phone Numbers Across Accounts (US and International) ](<https://help.gohighlevel.com/support/solutions/articles/48001240107>) [ What is the Native Phone System?](<https://help.gohighlevel.com/support/solutions/articles/48001223546>)

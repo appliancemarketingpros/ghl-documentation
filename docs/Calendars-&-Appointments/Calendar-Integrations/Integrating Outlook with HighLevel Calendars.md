@@ -140,7 +140,9 @@ When connecting Outlook as a third-party calendar in HighLevel, you may see a**â
 
 For instructions on reviewing and approving the request, refer to Microsoftâ€™s documentation:
 
-<https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/review-admin-consent-requests>
+Help Doc: <https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/review-admin-consent-requests>
+
+Video Tutorial: <https://www.youtube.com/watch?v=8UIWEeTxaO0>
 
   
 

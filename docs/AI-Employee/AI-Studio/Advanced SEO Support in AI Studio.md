@@ -30,7 +30,7 @@ Your AI Studio sites just got a whole lot "louder" for the rest of the internet 
 
 * * *
 
-# **What is Advanced SEO Support for AI Studio?**
+## **What is Advanced SEO Support for AI Studio?**
 
   
 
@@ -166,15 +166,15 @@ From within your AI Studio project, follow these steps:
   
 
 
-  1. Click the project name dropdown in the top-left corner and select **Settings**.  
+  1. Open the AI Studio project you want to configure  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069331972/original/EwmPqKX5k6P-fEhvjgqRr4oYC0f-YYoWJA.png?1776365707)  
+  
   
 
 
-  2. In the left sidebar, open **SEO**.  
+  2. Click ** **More** ** at the top of the builder. In the More panel, open ** **SEO & AI search****  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069332001/original/K52TUtUlLGwldf_vxFggy4WVSoY99pHXDg.png?1776365755)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079917962/original/Jx2xQbkhl-JPN8Zq9WIkCF5g3d4x-GFjow.png?1788355686)  
   
 
 
@@ -218,19 +218,18 @@ To generate social media and link previews:
   
 
 
-  1. Click the project name dropdown in the top-left corner and select **Settings**.  
+  1. Open the AI Studio project you want to update.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069332203/original/PnV43GkNpBC35YdGUs_Nnr7uA86-bNpCdA.jpeg?1776366144)  
   
 
-  2. In the left sidebar, open **SEO**.  
+  2. Click ** **More** ** at the top of the builder, then open ** **SEO & AI search****.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069332198/original/mBDOUJ4394krRCp4tGQXA5Ve3TArlab7rw.jpeg?1776366132)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079918427/original/nMre5csDOlqLBug2cUOs-4n1Q9dYu_KNzg.png?1788355885)  
   
 
   3. Find **Improve social preview content** and click **Copy prompt**.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069332186/original/ENsFbvaIH2cOa0C4SKsk92ZToiHSQS1Pgg.png?1776366117)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079918507/original/aWwzBsRfTILM0fsAxPBuyTTJYDzmiXQ4Zg.png?1788355914)  
   
 
 
@@ -279,14 +278,13 @@ To generate a sitemap:
   
 
 
-  1. Click the project name dropdown in the top-left corner and select **Settings**.  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069332204/original/Q3wuCOLRszRoyIWAfDyaHcOUVktvn1QH5g.jpeg?1776366148)  
+  1. Open the AI Studio project you want to update.  
   
 
-  2. In the left sidebar, open **SEO**.  
+  2. Click ** **More** ** at the top of the builder, then open ** **SEO & AI search****.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155069332196/original/KOg-1ycomQ6GQZf-eNtvDugsRTlhIZpu9Q.jpeg?1776366126)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079918693/original/e5fIvAe1HlX4qA_AWKmvZsyVArwwRHrRcA.jpeg?1788355982)  
+  
   
 
   3. Find **Generate sitemap** and click **Copy prompt**.  
@@ -325,6 +323,9 @@ Yes. Publishing is required before completing the custom domain and SEO setup fl
   
 
 
+  
+
+
 **Q: Does pre-rendering change how my site looks or behaves for regular visitors?**
 
 No. Human visitors still receive the same fast, interactive SPA experience. Only bots and crawlers are served the pre-rendered HTML snapshots.
@@ -332,8 +333,14 @@ No. Human visitors still receive the same fast, interactive SPA experience. Only
   
 
 
+  
+
+
 **Q: Does Advanced SEO Support include automated schema markup injection?**  
 No. Schema markup is not added automatically by Advanced SEO Support itself. If you add schema through an AI Studio prompt and it is generated in the page code, supported bots can receive that schema as part of the rendered HTML when pre-rendering is enabled.
+
+  
+
 
   
 

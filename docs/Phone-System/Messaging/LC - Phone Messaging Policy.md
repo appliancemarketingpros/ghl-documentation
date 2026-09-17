@@ -8,354 +8,260 @@
 
 SMS Compliance
 
-LC - Phone Messaging Policy
+LC Phone Messaging Policy
 
-How sending limits, spam handling, and required consent language protect your SMS deliverability and reputation.
+Understand SMS sending limits, ramp-up restrictions, compliance suspensions, workflow impact, DND behavior, and the steps needed to recover safely after messaging is restricted.
 
-What You'll Learn
+Overview
 
-To protect agencies' SMS reputation and limit exposure, several safeguards have been implemented for LC - Phone. This messaging policy applies to all subaccounts using LC - Phone for communication within the CRM.
+LC Phone includes safeguards that help protect SMS deliverability as messaging volume grows. These safeguards include the Messaging Ramp, sending limits, temporary compliance restrictions, contact-level DND, sender identification, and opt-out requirements.
 
-We want every message you send to reach its recipient unhindered by filtering or blockers. To make that possible, LC - Phone and its customers work together to prevent and eliminate unwanted messages — ensuring SMS is sent only to consenting parties and in line with applicable laws, industry standards, and guidelines.
+This guide explains the difference between each restriction type, what can happen when workflows attempt to send SMS during a restriction, and how to identify and recover affected messages without rebuilding your automations.
 
 Table of Contents
 
-1
+What is the LC Phone Messaging Policy? Key Benefits of Following the Messaging Policy Understanding SMS Sending Restrictions Messaging Ramp-Up & Sending Limits What Happens to Workflows During an SMS Restriction? How to Recover After a Messaging Restriction Compliance Restrictions and Restriction History SMS DND and Carrier Filtering Sender Identification, Consent & Opt-Out Requirements How to Set Up SMS Compliance Settings Troubleshooting Messaging Restrictions Frequently Asked Questions Related Articles
 
-LC - Phone Messaging Policy & Violations
+# What is the LC Phone Messaging Policy?
 
-2
+The LC Phone Messaging Policy defines the requirements and safeguards used to keep business SMS compliant and deliverable. It applies to Application-to-Person (A2P) messaging sent through LC Phone, including one-to-one messages, workflows, bulk actions, and other automated SMS activity.
 
-SMS Ramp-Up Model (V2)
-
-3
-
-Spam Message Handling
-
-4
-
-Opt-Out Language Addition
-
-5
-
-Sender Information Addition
-
-6
-
-Error and Opt-Out Rate Monitoring
-
-7
-
-Frequently Asked Questions
-
-1
-
-## LC - Phone Messaging Policy
-
-All messaging transmitted via the platform — regardless of use case or phone number type (e.g., long code or toll-free) — needs to comply with Application-to-Person (A2P) messaging standards. All A2P messages originating from the system are subject to this policy, which covers rules and/or prohibitions regarding:
-
-  * **Consent ("opt-in"):** Consent can't be bought, sold, or exchanged — for example, you can't obtain consent by purchasing a phone list from another party. SMS should only be sent to opted-in contacts.
-  * **Revocation of Consent ("opt-out"):** The initial message sent to an individual must include language such as "Reply STOP to unsubscribe," so individuals can revoke consent at any time using a standard opt-out keyword.
-  * **Sender Identification:** Every initial message must clearly identify the sender (the party that obtained the opt-in), except in follow-up messages of an ongoing conversation.
-  * **Messaging Usage:** Messages must not relate to alcohol, firearms, gambling, tobacco, or other adult content.
-  * **Filtering Evasion:** Content specifically designed to evade unwanted-messaging detection is not allowed. This includes intentionally misspelled words or non-standard opt-out phrases created to evade these mechanisms. Snowshoeing — spreading similar or identical messages across many phone numbers to evade detection — is not permitted.
+  * **Consent:** Send SMS only to contacts who have provided valid permission. Consent cannot be purchased, sold, or exchanged.
+  * **Opt-Out:** Contacts must have a clear way to revoke consent, such as replying STOP.
+  * **Sender Identification:** Initial messages must clearly identify the business that obtained the consent.
+  * **Acceptable Content:** Messaging must follow applicable carrier, industry, and legal requirements.
+  * **No Filtering Evasion:** Practices intended to bypass carrier filtering or enforcement are prohibited.
 
 
-This policy applies to all customers who use LC - Phone messaging services, in order to safeguard their messaging capabilities and services.
+## **Key Benefits of Following the Messaging Policy**
 
-How We Handle Violations
+Healthy sending practices reduce carrier filtering and prevent avoidable disruptions to conversations and automated workflows. Understanding the restriction types also makes recovery faster when messaging is temporarily unavailable.
 
-When a violation is identified, we work with customers in good faith, where possible, to bring them back into compliance. However, to protect the ability of all customers to use messaging for legitimate purposes, we reserve the right to **suspend or remove platform access** for customers or end users who don't comply with this policy, or who don't follow applicable law or communications industry guidelines — in some cases with limited notice for serious violations.
+  * **Improved Deliverability:** Build a healthier messaging reputation with carriers.
+  * **Fewer Restrictions:** Reduce risk from high opt-out rates, poor lists, and excessive delivery errors.
+  * **Safer Automation:** Understand how failed SMS actions can affect contacts already moving through workflows.
+  * **Clearer Recovery:** Know where to find restriction details and affected workflow executions.
+  * **Better Consent Management:** Keep sender identification, opt-out language, and DND behavior aligned with messaging requirements.
 
-What error screens will a subaccount see during a violation?
 
-  * **Conversation Error:** "You have exceeded your SMS sending limit."
-  * **Bulk Action:** "You are allowed to send 5000 message(s) in a day. You have already sent 5000 message(s). If you wish to proceed, 1 Message(s) will be failed."
+## **Understanding SMS Sending Restrictions**
 
+Not every SMS restriction has the same cause. Identifying whether the issue comes from the Messaging Ramp, account-level compliance monitoring, or a contact's DND status determines what needs to happen next.
 
-![Conversation error screen showing SMS sending limit exceeded](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48222961915/original/2QKxVz00B7OVVQAHVK3y2npqoXsM7NyViA.png?1651581300)
+Restriction Type| What Causes It| Impact  
+---|---|---  
+**Ramp / Sending-Limit Restriction**|  The applicable outbound sending limit is reached.| Additional outbound SMS/MMS attempts can fail while the restriction is active.  
+**Compliance Restriction**|  Opt-out rates, delivery-error rates, or other messaging-policy concerns exceed acceptable thresholds.| Outbound SMS can fail until the temporary restriction is lifted.  
+**Contact-Level DND**|  A contact opts out or a qualifying delivery condition activates DND.| SMS is blocked for that contact rather than for the entire account.  
+  
+**Important:** A sending-limit restriction and a compliance restriction are different. Sending limits control volume, while compliance restrictions are triggered by messaging-health or policy concerns.
 
-![Bulk action error screen showing daily send limit reached](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48222962001/original/CJSFxDMFuf9RF8nd-vVYLdPc6GDRw2W76w.png?1651581314)
+## **Messaging Ramp-Up & Sending Limits**
 
-2
-
-## SMS Ramp-Up Model (V2)
-
-Starting February 1st, 2024, all subaccounts created under LC - Phone follow an 8-level ramp instead of the previous 7-day ramp with a lower limit. The table below details each level:
+The Messaging Ramp gradually increases sending capacity while a newer LC Phone account establishes healthy messaging behavior. Sending limits apply across qualifying outbound SMS activity and should be considered when planning workflows, campaigns, and bulk sends.
 
 Level| SMS Sending Limit  
 ---|---  
-1| 100  
-2| 250  
-3| 500  
-4| 750  
-5| 1500  
-6| 2250  
-7| 3000  
-8| 3000+  
+1| 500  
+2| 750  
+3| 1,000  
+4| 1,500  
+5| 2,000  
+6| 3,500  
+7| 5,000  
+8| 5,000+  
   
-Note
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080067339/original/Nclr2uhlYdu_MNlrY6Vkimh3-JP4F2ncAQ.png?1788500834)
 
-This ramp does not start on the signup date — it starts on the day the first successful SMS message is sent.
+When the available sending limit has already been reached, the bulk SMS confirmation warns that additional messages will fail if the send continues.
 
-How it works
+When the applicable limit is reached, additional outbound SMS attempts can fail until sending becomes available again. This affects messages sent manually as well as SMS actions that execute through automation.
 
-  1. All subaccounts start at Level 1, enabling 100 SMS within 24 hours.
-  2. To increase the sending limit, the subaccount must send the full level limit within a 24-hour window.
-  3. After sending the full level limit within 24 hours, the subaccount is temporarily restricted from sending SMS for the next 24 hours. During this restriction, SMS sending is disabled.
-  4. After 24 hours, the restriction lifts. The subaccount can send messages again and unlocks the next level's sending limit.
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080067403/original/PEfRPIGeER9ZBHNQDsDjoVzcwST9y-ynEQ.png?1788500852)
 
+An outbound message attempted after the applicable SMS sending limit is exceeded can appear as unsuccessful.
 
-An example
+**Inbound messages can still be received:** An outbound messaging restriction does not remove inbound conversations or contact records.
 
-  * A new subaccount starts on Level 1: 100 SMS within 24 hours.
-  * To unlock Level 2, the subaccount must send 100 SMS within 24 hours.
-  * After sending 100 SMS within 24 hours, the subaccount is restricted for 24 hours. Once that period ends, SMS sending resumes and Level 2's limit of 250 unlocks.
-  * To unlock Level 3, the subaccount must send 250 SMS within 24 hours; after that, another 24-hour restriction applies before Level 3's limit of 500 unlocks.
-  * This pattern of hitting the level's limit and waiting 24 hours continues until Level 8, which allows 3000+ SMS per day.
+[Learn more about the Messaging Ramp Progress Card →](<https://help.gohighlevel.com/support/solutions/articles/155000005572-messaging-ramp-progress-card>)
 
+## **What Happens to Workflows During an SMS Restriction?**
 
-Why the change?
+A messaging restriction affects outbound SMS delivery, but it should not be treated as a universal pause of the workflow engine. This distinction is important when contacts are already inside automations or continue qualifying for workflow triggers during a restriction period.
 
-The ramp-up model was implemented to:
-
-  1. Avoid SMS spam blasts from fake signups — new subaccounts follow the ramp-up model.
-  2. Avoid getting subaccounts blocked due to suspicious activity.
-  3. Avoid legal exposure from spamming non-consenting contacts. Only bulk SMS sending carries daily limitations, to prevent suspension from non-compliant messaging activity.
+  * If a workflow reaches a **Send SMS** action while outbound SMS is restricted, that SMS can fail.
+  * Failed SMS messages are **not automatically retried** after the restriction ends.
+  * Do not assume a contact is automatically held at the SMS action until sending becomes available again.
+  * Other workflow behavior depends on the automation's design.
+  * Review Workflow Execution Logs to see the exact path taken by an affected contact.
 
 
-3
+### **What about new contacts entering a funnel?**
 
-## Spam Message Handling
+An SMS restriction does not delete contacts or automatically stop every non-SMS workflow action. Contacts may still qualify for triggers and move through automation logic, but an SMS action reached while outbound messaging is unavailable can fail.
 
-Every message sent from a subaccount ends up with one of four statuses:
+For time-sensitive funnels, consider fallback logic such as email, internal notifications, waits, or delivery-error handling so the customer journey does not depend on a failed SMS being automatically retried later.
 
-  * **Sent:** No carrier response received yet — it can still resolve into any of the statuses below.
-  * **Delivered:** Successfully delivered to the contact.
-  * **Failed:** Canceled, or never forwarded to the carrier.
-  * **Undelivered:** The message was flagged as suspicious or didn't fulfill the messaging policy.
+### **How to find affected contacts**
+
+  1. Go to **Automation → Workflows**.
+  2. Open the affected workflow.
+  3. Open **Execution Logs**.
+  4. Locate contacts whose Send SMS action occurred during the restriction window.
+  5. Open the execution details to review the action result and the contact's workflow path.
 
 
-Only Undelivered messages are considered here. Each one carries a specific error code, tracked at the message level, which is used to enable Temporary or Permanent DND (Do Not Disturb) at the contact level — so future SMS aren't sent to contacts who won't receive them, improving your deliverability rate. The table below summarizes the undelivered SMS error codes, what each means, and the remediation taken:
+[Learn more about Workflow Execution Logs →](<https://help.gohighlevel.com/support/solutions/articles/155000003992-workflows-improved-execution-logs-enrollment-history>)
 
-Response Code| Code Description| Remediation  
+## **How to Recover After a Messaging Restriction**
+
+Recovery should focus on identifying the restriction, correcting its cause, and reviewing any SMS actions that failed while sending was unavailable. Avoid immediately resending everything without first confirming that the underlying issue has been resolved.
+
+  1. **Identify the restriction type.**  
+Review the Messaging Ramp and Restriction History to determine whether the issue is volume-related or compliance-related.
+  2. **Wait for the active restriction to end.**  
+Do not repeatedly attempt high-volume sends while outbound SMS is unavailable.
+  3. **Correct the root cause.**  
+For compliance restrictions, review consent, list quality, sender identification, opt-out language, message content, and delivery errors.
+  4. **Review Workflow Execution Logs.**  
+Identify Send SMS actions that failed while the restriction was active.
+  5. **Resend or re-enroll only where appropriate.**  
+Failed SMS messages are not automatically retried. Avoid creating duplicate communication when recovering affected contacts.
+  6. **Monitor the next sends.**  
+Confirm successful delivery before returning to higher-volume activity.
+
+
+**You do not need to rebuild a workflow simply because SMS was temporarily restricted.** Review affected executions and recover only the contacts or messages that require follow-up.
+
+## **Compliance Restrictions and Restriction History**
+
+High opt-out and delivery-error rates can indicate poor consent practices, invalid numbers, or carrier filtering. HighLevel monitors these signals and can temporarily restrict outbound SMS when documented thresholds are reached.
+
+Metric| Healthy Guidance| Restriction Threshold  
 ---|---|---  
-30005| User Inactive / Number does not exist| Enable Temporary DND  
-30003| Unreachable — Out of Service| Enable Temporary DND  
-30004| Do not want SMS / DND enabled| Enable Permanent DND  
-30006| Landline / incapable of receiving SMS| Enable Temporary DND  
-30008| None of the above scenarios matched| Do nothing  
+Opt-Out Rate| Keep as low as possible| Approximately 3%  
+Delivery Error Rate| Keep under documented warning thresholds| Approximately 10%  
   
-  * **Temporary DND:** DND set at the contact level can be revoked by the agency or location.
-  * **Permanent DND:** DND cannot be revoked by the agency or location from the UI, because the contact is incapable of receiving messages or has opted out.
-  * **Opt-Out Keyword:** Individuals must be able to revoke consent at any time by replying with a standard opt-out keyword like STOP or UNSUBSCRIBE. This also enables a permanent DND at the contact level.
+### **How to check Restriction History**
 
+  1. Go to **Settings → Phone System → Advanced Settings**.
+  2. Open **Restriction History**.
+  3. Review the restriction type, reason, timestamp, and applicable metrics.
 
-Advantage
 
-  * Restricts the location from sending SMS to non-relevant contacts, increasing deliverability and reducing the risk of being blocked.
-  * Locations only send messages to contacts who have opted in.
+[Learn more about SMS Restriction History →](<https://help.gohighlevel.com/support/solutions/articles/155000003568-sms-restriction-history>)
 
+## **SMS DND and Carrier Filtering**
 
-Spam messaging error screens
+DND protects individual contacts from receiving messages when they have opted out or when their number should no longer receive SMS. Unlike an account-level restriction, DND normally affects the specific contact and communication channel.
 
-  * **Conversation:** "Cannot send messages as DND is active for SMS."
-  * **Bulk Action:** All SMS sent via workflow or bulk SMS automatically skips DND-marked contacts from the sender list.
+  * **Channel-Specific DND:** SMS can be disabled independently from email, calls, and other communication channels.
+  * **Opt-Out DND:** Standard unsubscribe responses can activate SMS DND for the contact.
+  * **Outbound Blocking:** When SMS DND is active, additional SMS attempts to that contact are blocked.
 
 
-![Conversation screen showing DND active for SMS](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155053452149/original/MCPIyZBNxEMDLfROubCaT6EVYvv-erzHgQ.png?1757496520)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080067460/original/nhfhhO484n4AozZ1u4tWKyE04EZIa12TyQ.png?1788500887)
 
-How to revoke the DND for a contact
+DND settings can be managed by communication channel, allowing Text Messages to be controlled independently from email and calls.
 
-  1. **For Temporary DND** — go to the contact's details and remove the DND flag. See the sample screen below.
-  2. **For Permanent DND** — this cannot be revoked from the UI. Ask the contact to reply with "START," "YES," or "UNSTOP" to the number, which automatically removes the DND from the contact.
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080067473/original/sBmxktCQAyNWobjJatRuyYXNYR4dq13dKQ.png?1788500901)
 
+When SMS DND is active, an outbound message attempt can be blocked with a DND error.
 
-![Contact details screen with the DND flag removal option](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155053452338/original/djBu37YNnY_M087ZaisF71IYZXVxBWlBRA.png?1757496591)
+[Learn more about managing Do Not Disturb (DND) →](<https://help.gohighlevel.com/support/solutions/articles/48001214849>)
 
-Note
+## **Sender Identification, Consent & Opt-Out Requirements**
 
-If replying START doesn't revoke the DND and incoming/outgoing messages keep failing, please raise a support ticket.
+Clear consent and sender identification help recipients understand who is messaging them and how to stop future messages. These requirements also reduce complaints and carrier filtering.
 
-4
+  * **Consent must belong to the sender:** Do not use purchased or transferred consent lists.
+  * **Identify the sender:** The initial outbound message should clearly identify the business that obtained the contact's consent.
+  * **Include opt-out language:** Initial messages must give recipients a clear way to opt out.
+  * **Respect opt-outs:** Once SMS consent is revoked, future SMS should not continue unless the contact validly opts back in.
 
-## Opt-Out Language Addition
 
-  * Consent for communications can't be bought — the only path is taking explicit consent from the user for SMS campaigns and communications.
-  * Consent is taken by a specific entity — in this case, the subaccount that is the actual sender of these communications.
-  * To comply with the messaging policy, every initial message sent to an end user must include two mandatory pieces of information: **Sender ID** and **Opt-Out Language**.
-  * **Opt-Out Language:** The end user must be able to remove consent at any time, so each initial message includes opt-out keywords like STOP or UNSUBSCRIBE. The language "Reply STOP to unsubscribe" is added automatically.
+## **How to Set Up SMS Compliance Settings**
 
+SMS Compliance settings automatically help add sender identification and opt-out language to outbound messages. Configuring these settings correctly makes compliance text more consistent across conversations.
 
-Please Note
+  1. Go to **Settings → Phone System → Advanced Settings**.
+  2. Open the **SMS Compliance** tab.
+  3. Enable **Make SMS compliant by adding an opt out message**.
+  4. Click **Customize** if you need to edit the opt-out wording.
+  5. Enable **Make SMS compliant by adding a sender information**.
+  6. Customize the Sender ID and general sender text when needed.
+  7. Set how often the Sender ID and opt-out message should be included in ongoing conversations.
+  8. Save your changes and send a test SMS to verify the final message.
 
-The Opt-Out Message setting applies when it's the **first** SMS sent to a new contact who has never texted your system number, across: (1) a Bulk Action in the Contacts area, (2) Workflow "Send SMS" actions, (3) Campaigns (legacy feature), and (4) One-on-One messages sent via the Conversations area.
 
-![Sample message showing opt-out language appended to the first SMS](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155053453499/original/QjJraDPQbBjkiFGdJqmioh3v3Rm-P-b_9w.png?1757497254)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080067524/original/lPKhuYpdSFYz_EvLqopqyRC9QTaP6tZPeQ.png?1788501009)
 
-How can I customize the opt-out message?
+The SMS Compliance tab controls automatic opt-out text, sender information, and how frequently those details are added to outbound conversations.
 
-Go to **Sub-account → Settings → Phone Numbers → Advanced Settings → SMS Compliance** , where you can customize the opt-out message.
+### **Customize Sender Information**
 
-![SMS compliance settings screen for the opt-out message](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155053453762/original/-GbEFXZQWEdvoFpHxolBlf7ptBnchqL_JA.png?1757497403)
+The Sender ID identifies the business sending the message. When customizing the general text, keep **{{senderID}}** in the message so the configured Sender ID can be inserted automatically.
 
-![Opt-out message customization field](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155053454589/original/gDvz85IoJrfz0wAcKas2Ug3-vUZNGpyHXg.png?1757497788)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080067491/original/eLgKXUgKYk0fYxjaFjV2Sj-r7a9Eg1fFlQ.png?1788500948)
 
-What happens if my message already has opt-out language?
+Customize the Sender ID, whether the general text appears at the beginning or end of the message, and the text that accompanies the Sender ID.
 
-The platform suppresses the auto-added opt-out line only when it detects a **full opt-out instruction** already in the message — for example, an unsubscribe phrase. It does not suppress insertion for incidental keywords used in ordinary sentences.
+### **Verify the First Outbound Message**
 
-**Examples that suppress insertion:**
+After saving the SMS Compliance settings, send a test message to verify that the outbound SMS contains the expected sender identification and opt-out instructions.
 
-  * "Reply STOP to unsubscribe."
-  * "Text STOP to opt out."
-  * "Reply STOP to end."
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080067589/original/qWJdIv-HzHV2cSb74Ja7Ei-fazG9aMc_0g.png?1788501135)
 
+The first outbound message shows the configured opt-out instruction and sender identification appended to the original SMS.
 
-**Example that does not suppress insertion:**
+[Learn more about configuring SMS Compliance Settings →](<https://help.gohighlevel.com/support/solutions/articles/155000004684/>)
 
-  * "If you want to stop by the office tomorrow, we're open 9–5."
+## **Troubleshooting Messaging Restrictions**
 
+Start troubleshooting by identifying whether the problem is account-wide, contact-specific, or limited to a workflow execution. Reviewing the exact restriction or error prevents unnecessary resends and helps protect deliverability.
 
-What happens when an end user replies with the STOP keyword?
+Outbound SMS stopped after reaching the sending limit
 
-If an individual replies with a standard opt-out keyword like **STOP** , consent to send SMS is revoked. All upcoming and queued messages will fail, and a **permanent DND** is enabled at the contact level.
+Review the Messaging Ramp or applicable sending limit before attempting additional outbound SMS.
 
-Important
+A workflow SMS failed during the restriction
 
-This information is mandatory for end customers, so it's a required check on every initial message. The first outbound message in a conversation must include sender identification and opt-out language, regardless of other settings.
+Open Workflow Execution Logs and review the affected action. Failed SMS messages are not automatically retried after the restriction ends.
 
-5
+The account was restricted for compliance reasons
 
-## Sender Information Addition
+Open Restriction History and review the restriction reason and related metrics. Correct the underlying issue before resuming high-volume sends.
 
-  * Consent for communications can't be bought — the only path is taking explicit consent from the user for SMS campaigns and communications.
-  * Consent is taken by a specific entity — in this case, the location that is the actual sender of these communications.
-  * To comply with the messaging policy, every initial message must include two mandatory pieces of information: **Sender ID** and **Opt-Out Language**.
-  * **Sender ID:** Every message must clearly identify the sender (the party that obtained the opt-in), except in follow-up messages of an ongoing conversation. The sender info "Thanks, <Location Name>" is added automatically.
+Only one contact cannot receive SMS
 
+Check the contact's SMS DND status and review the failed message before attempting another send.
 
-Please Note
+## **Frequently Asked Questions**
 
-The Sender ID feature applies to all Bulk Actions (bulk SMS), Workflows, Campaigns, and One-on-One conversations.
+Q: Will I lose contacts who enter a workflow during an SMS restriction?
 
-Sample message screen
+No. A messaging restriction does not delete contact records. However, SMS actions reached while outbound messaging is unavailable can fail, so review Execution Logs to determine what happened to affected contacts.
 
-![Sample SMS showing the auto-appended sender ID](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155053454290/original/RFrhPHB8DSfzS3ESEC9vn0kEyBjZJM1YdA.png?1757497661)
+Q: Are failed workflow SMS messages automatically sent when the restriction ends?
 
-How can I customize the Sender ID?
+No. Failed SMS messages are not automatically retried. Review affected executions and resend or re-enroll contacts only when appropriate.
 
-Go to **Sub-account → Settings → Phone Numbers → Advanced Settings → SMS Compliance** , where you can customize the Sender ID message.
+Q: Does the entire workflow pause when SMS is restricted?
 
-![SMS compliance settings screen for the Sender ID message](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155053454545/original/Zw_-iAF7hig8ZzQOpJgQXoU359UxdrUTmw.png?1757497773)
+Do not assume the entire workflow pauses. The restriction controls outbound SMS. Use Workflow Execution Logs to verify how each contact progressed through the automation.
 
-Please Note
+Q: Can contacts still send inbound SMS while outbound messaging is restricted?
 
-This information is mandatory for end customers, so it's a required check on every initial message.
+Inbound conversations can continue even when an outbound messaging restriction prevents additional sends.
 
-6
+Q: How do I know why my SMS sending was restricted?
 
-## Error and Opt-Out Rate Monitoring
+Go to **Settings → Phone System → Advanced Settings → Restriction History** and review the restriction reason and related metrics.
 
-We monitor messaging performance and take proactive measures to maintain healthy delivery rates — preventing carriers from blocking or permanently suspending accounts due to poor usage patterns. We monitor overall delivery performance for each account and apply corrective actions to keep delivery rates within acceptable limits.
+Q: Do I need to rebuild my workflows after a temporary SMS restriction?
 
-Opt-Out and Bounce Rate Monitoring
+No. Review the workflow's Execution Logs, identify failed SMS actions, and determine whether those contacts need a resend or re-enrollment. Rebuilding the entire workflow is generally unnecessary.
 
-The charts below outline the opt-out and bounce rate thresholds at which Warnings (W) and Suspensions (S) are triggered.
+### **Related Articles**
 
-Locations Following Ramp-Up
-
-Warnings/suspensions are based on the location's ramp level (L1, L2, etc.), the number of SMS messages sent, and the opt-out count or opt-out percentage.
-
-![Opt-out rate warning and suspension thresholds by ramp level](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064877368/original/OvB291-hgT9EZ4nieVtbZ8Cr7uAKMnqPuQ.png?1770991583)
-
-Locations Created Before Feb 4, 2024 (Following Messaging Limits)
-
-Warning/suspension emails are triggered based on total SMS messages sent and the bounce count or bounce percentage.
-
-![Bounce rate warning and suspension thresholds for pre-ramp locations](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064876943/original/BgSXd43w2xWGD_osl4Be55xDFmFG-J4zXQ.png?1770991257)
-
-Error Rate Monitoring
-
-The charts below outline the error rate thresholds at which Warnings (W) and Suspensions (S) are triggered.
-
-Locations Following Ramp-Up
-
-Based on ramp level, number of SMS messages sent, and error count or error percentage.
-
-![Error rate warning and suspension thresholds by ramp level](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064877313/original/WtJjrAfPV7lqjNAVfjoY4jiMir6kuMccqg.png?1770991562)
-
-Locations Created Before Feb 4, 2024 (Following Messaging Limits)
-
-Based on total SMS messages sent and error count or error percentage.
-
-![Error rate warning and suspension thresholds for pre-ramp locations](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155064160668/original/Ex2774QQ4U7izMtOPXbkRmKzAnAdyHzWvA.png?1770200827)
-
-Note
-
-Locations created before **4th February 2024** did not follow the ramp-up process and were placed directly on messaging limits.
-
-Important
-
-Once an account enters **temporary suspension** , all outbound SMS will fail until **00:00 UTC** , when the suspension is automatically lifted.
-
-What should we do when we get a violation email?
-
-  1. Stop all workflows, campaigns, triggers, and/or bulk actions to contacts who have not explicitly opted in to receive messages from the subaccount.
-  2. Enable and customize the Opt-Out Language and Sender ID message for your use case, so upcoming messages aren't flagged.
-  3. Confirm with your client that no bulk communication, message blasts, or cold-prospecting campaigns will go out until you've replied to the ticket.
-
-
-What are error and opt-out rates, and what's a good threshold?
-
-  * A **high opt-out rate** indicates contacts have objected, complained, or marked your SMS as spam. A good opt-out rate is typically **0–1%**.
-  * A **high delivery error rate** indicates you're sending SMS to contacts who are out of service, unreachable, or on a non-SMS-capable device such as a landline — or that carrier filters are refusing delivery due to prior sending behavior.
-
-
-What do I do to get the subaccount suspension removed early?
-
-The suspension lifts automatically within 24 hours. If the subaccount is permanently suspended, see the related article on account suspension to un-suspend it.
-
-Note
-
-One-on-one conversations, test SMS, resend message, and Missed Call Text Back are still allowed even while an account is suspended.
-
-7
-
-## Frequently Asked Questions
-
-Q: Can I change or remove the Ramp-Up Model?
-
-No. Previously agencies could adjust the SMS limit within or after the ramp period — that capability has been removed.
-
-Q: Do one-to-one and Missed Call Text Back SMS count toward my daily limit?
-
-Yes. These message types were previously excluded from the day's total, but they're now counted toward the limit.
-
-Q: Can I send one-to-one messages during the 24-hour temporary restriction after hitting my level limit?
-
-No. One-to-one messages used to be exempt from a temporary restriction — that exemption has been removed.
-
-Q: I'd like to send more than 5000 SMS per day — how do I increase my limit?
-
-Once your location hits the 8th-day mark (3000+ SMS per day), you can reach out to support and request a limit extension.
-
-Q: What happens when we hit our daily limit — can we still respond if a lead replies?
-
-No, you cannot respond manually to incoming messages once the limit is reached. Daily limits affect all messaging activity, including manual SMS in conversations, workflow automations, and bulk actions.
-
-Q: How often does the SMS limit reset?
-
-The limit refreshes every 24 hours. For a brand-new account, the limit increases each day according to the ramp table until day 8, when it caps at 3000+ per day.
-
-Q: Can we undo the DND option in bulk?
-
-No — this restriction exists specifically to prevent sending SMS in bulk again after DND has been enabled for those contacts.
-
-Q: Does the auto-appended Sender ID and Opt-Out Language apply to every first text of a workflow or manual SMS?
-
-Yes, whenever it's the first SMS to a new contact who has never texted your system number, across: a Bulk Action in the Contacts area, Workflow "Send SMS" actions, Campaigns (legacy feature), and One-on-One messages sent via the Conversations area.
-
-Related Articles
-
-[What is LC - Phone System?](<https://help.gohighlevel.com/en/support/solutions/articles/48001223546>) [How to Migrate an Agency and Sub-Account to LC - Phone?](<https://help.gohighlevel.com/en/support/solutions/articles/48001204027>) [Regulatory Bundle and Address Creation for Sub-Accounts](<https://help.gohighlevel.com/en/support/solutions/articles/48001213216>) [Toll-Free Number Registration for LC - Phone (US/Canada)](<https://help.gohighlevel.com/en/support/solutions/articles/48001222300>)
+[Messaging Ramp Progress Card](<https://help.gohighlevel.com/support/solutions/articles/155000005572-messaging-ramp-progress-card>) [Track SMS Restriction History](<https://help.gohighlevel.com/support/solutions/articles/155000003568-sms-restriction-history>) [Best Practices for SMS Deliverability and Avoiding SMS Restrictions](<https://help.gohighlevel.com/support/solutions/articles/155000000079-best-practices-for-sms-deliverability-and-avoiding-sms-restrictions>) [Troubleshooting SMS Delivery Issues](<https://help.gohighlevel.com/support/solutions/articles/48000981696-troubleshooting-sms-delivery-issues>) [How to Configure SMS Compliance Settings](<https://help.gohighlevel.com/support/solutions/articles/155000004684/>) [Workflows - Improved Execution Logs & Enrollment History](<https://help.gohighlevel.com/support/solutions/articles/155000003992-workflows-improved-execution-logs-enrollment-history>)

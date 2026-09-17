@@ -6,251 +6,225 @@
 
 ---
 
-The **Call Details** workflow trigger allows workflows to start based on updates to call-related information. This trigger supports automation based on call outcomes, direction, phone numbers, and dispositions. It helps teams respond consistently to different call scenarios through automated actions.
+Workflow Automation
 
-* * *
+Workflow Trigger - Call Details
 
-**TABLE OF CONTENTS**
+Automate follow-up actions based on call direction, call outcomes, phone numbers, number pools, and custom call dispositions.
 
-  * What Is the Call Status Changed Workflow Trigger?
-    * Key Benefits of Call Status Changed Workflow Trigger
-    * How to Configure a Call Details Workflow Trigger?
-    * Frequently Asked Questions
+What You'll Learn
+
+The Call Details workflow trigger lets HighLevel respond automatically when a call matches specific outcomes or call information. You can target incoming or outgoing calls, specific statuses, phone numbers, number pools, and custom dispositions. This makes it easier to automate missed-call follow-up, voicemail handling, sales callbacks, internal notifications, and other call-based processes.
+
+Table of Contents
+
+  1. What is the Call Details Workflow Trigger?
+  2. Key Benefits of the Call Details Workflow Trigger
+  3. How the Call Details Trigger Works
+  4. Available Call Details Filters
+  5. How to Set Up the Call Details Workflow Trigger
+  6. Common Use Cases
+  7. Testing and Troubleshooting
+  8. Frequently Asked Questions
 
 
-* * *
+# **What is the Call Details Workflow Trigger?**
 
-# **What Is the Call Status Changed Workflow Trigger?**
+Call Details is an event-based workflow trigger that enrolls a contact when a call log matches the conditions you configure. Instead of manually reviewing calls and deciding what should happen next, HighLevel can evaluate the call information and automatically start the appropriate workflow.
 
+The trigger can evaluate information such as call direction, call status, the phone number involved, an associated Number Pool, and a Custom Disposition. Combining these filters makes it possible to create targeted automations for specific calling scenarios.
+
+Example
+
+A workflow could enroll a contact only when an **incoming** call has a status of **busy, voicemail, or no-answer**. The workflow could then send an internal notification, create a callback task, apply a tag, or begin another follow-up sequence.
+
+## **Key Benefits of the Call Details Workflow Trigger**
+
+Call-based automation helps teams respond consistently without requiring someone to monitor call logs throughout the day. Precise filters also make it possible to separate different calling scenarios and apply the right follow-up automatically.
+
+  * **Automated follow-up:** Start callbacks, notifications, tasks, tagging, or messaging when a qualifying call occurs.
+  * **Precise call targeting:** Narrow enrollment using call direction, status, phone numbers, Number Pools, and custom dispositions.
+  * **Consistent handling:** Apply the same response every time a missed call, voicemail, or other configured call outcome occurs.
+  * **Reduced manual monitoring:** Let workflows react to qualifying call events instead of requiring users to review call records manually.
+  * **Flexible sales and support automation:** Build different workflows for incoming leads, outbound sales calls, missed calls, callback requests, and other call outcomes.
+
+
+## **How the Call Details Trigger Works**
+
+Each qualifying call is evaluated against the filters configured on the trigger. Adding more filter types narrows the conditions the call must satisfy before the contact can enter the workflow.
+
+**1\. A call occurs** — HighLevel records the call and its available call details.
+
+**2\. Trigger filters are evaluated** — The call is compared with the Call Direction, Call Status, Number Pool, Custom Disposition, phone number, and any other configured conditions.
+
+**3\. The contact qualifies** — If the trigger conditions are satisfied and the workflow's enrollment rules permit entry, the contact enters the workflow.
+
+**4\. Workflow actions run** — The workflow can send messages, create tasks, notify users, update records, apply tags, or perform other configured actions.
+
+### **Call Status vs. Custom Disposition**
+
+These filters represent different types of call information. Choosing the correct one prevents workflows from relying on the wrong outcome data.
+
+Filter| What It Represents| Examples  
+---|---|---  
+**Call Status**|  A system-recorded call outcome.| Busy, voicemail, no-answer, completed  
+**Custom Disposition**|  A defined post-call classification selected for the call.| Follow Up, Qualified, No Answer, Voicemail, Requested Callback  
   
+Important
 
+Custom Dispositions are separate from system Call Status values. If your automation is intended to react to an agent-selected call outcome, use the **Custom Disposition** filter rather than relying on the legacy manual call-status behavior.
 
-The **Call Details** workflow trigger starts a workflow when information related to a phone call is updated. This includes changes to call status, call direction, associated phone numbers, number pools, and custom dispositions.
+## **Available Call Details Filters**
 
+Filters determine which calls qualify for the workflow. Use only the conditions necessary for the automation so that valid calls are not unintentionally excluded.
+
+Filter| Purpose| Example  
+---|---|---  
+**Call Direction**|  Separates incoming and outgoing call scenarios.| Incoming  
+**Call Status**|  Matches selected system call outcomes.| Busy, voicemail, no-answer  
+**In Number Pool**|  Limits the trigger to calls associated with a selected Number Pool.| Paid Search Tracking Pool  
+**Custom Disposition**|  Matches a call classification recorded after the call.| No Answer, Voicemail  
+**In Phone Number**|  Restricts the trigger to one or more selected phone numbers.| Main Sales Number  
   
+Filter Example
+
+If **Call Direction = Incoming** and Call Status includes **busy, voicemail, and no-answer** , the call must be incoming and match one of the selected call-status outcomes before the trigger qualifies.
+
+## **How to Set Up the Call Details Workflow Trigger**
+
+Proper trigger configuration ensures contacts enter the workflow only for the call scenarios you intend to automate. Build the trigger from the Workflow Builder, configure the required call filters, then test the workflow before publishing it.
+
+### **Step 1: Open or Create a Workflow**
+
+Navigate to **Automation → Workflows**. Open an existing workflow or click **Create Workflow** and choose **Start from Scratch** to build a new automation.
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080157480/original/hZk_OT9HooyMYEF2E4juLiYTlg1JRARYTQ.png?1788561508)
+
+### **Step 2: Add the Call Details Trigger**
+
+In the Workflow Builder, click **Add New Trigger**. Under the Events trigger category, select **Call Details**.
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080157484/original/fu4JTHxJv3347mT-F-ErBw34qOLo_wc6sA.png?1788561528)**
+
+### **Step 3: Name the Trigger**
+
+Enter a descriptive **Workflow Trigger Name**. The name does not change how the trigger executes, but clear names make workflows easier to understand and maintain.
+
+For example, use a name such as **Incoming Missed Call** , **Voicemail Follow-Up** , or **Call Status Changed**.
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080157487/original/YdRmOoa1UB30C3NsD-BX4gz-QlphziS9-Q.jpeg?1788561538)**
+
+### **Step 4: Configure Call Direction**
+
+Add the **Call Direction** filter when the workflow should apply only to incoming or outgoing calls. This is especially useful when inbound follow-up and outbound sales processes require different automations.
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080157488/original/Focb0LsQfpxO3tc14w2cbYVkwzOTxOacrw.png?1788561550)**  
 
 
-This trigger supports additional filters like call direction, phone number, number pool, and custom dispositions, allowing workflows to respond only to specific call scenarios. It is commonly used to automate follow-ups, apply tags, or trigger internal actions based on how a call concludes or is classified.
+### **Step 5: Configure Call Status**
 
-* * *
+Use **Call Status** to select the system-recorded call outcomes that should qualify. You can select applicable outcomes such as **busy** , **voicemail** , or **no-answer**.
 
-## **Key Benefits of Call Status Changed Workflow Trigger**
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080157495/original/gjZzcW4OR_J9nDFeOqdJznCNHDQUgM-NIQ.png?1788561561)**
 
+### **Step 6: Add a Number Pool Filter When Needed**
+
+Use **In Number Pool** when the automation should apply only to calls attributed to a specific call-tracking Number Pool. This helps separate automations by campaign, traffic source, or tracking configuration.
+
+For information about creating and managing Number Pools, see [How to Set Up Call Tracking (Number Pool)](<https://help.gohighlevel.com/support/solutions/articles/48000981393>).
+
+### **Step 7: Add a Custom Disposition Filter When Needed**
+
+Select **Custom Disposition** when the workflow should respond to a post-call classification such as No Answer, Voicemail, Follow Up, or another disposition configured for your account.
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080157501/original/xUIFiFbgHZx9V5RgfhO8F5r5osgB10WmqA.png?1788561574)**
+
+To learn how dispositions are created and used, see[Custom Dispositions for Voice Calls](<https://help.gohighlevel.com/support/solutions/articles/155000007191-custom-dispositions-for-voice-calls>).
+
+### **Step 8: Restrict the Trigger to a Phone Number When Needed**
+
+Use **In Phone Number** when the workflow should apply only to calls associated with a specific selected phone number. This is useful when different business lines require different call automations.
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080157506/original/lqqrxafBaTe6L5-QZpS2eLj5IHkc4BOMqA.png?1788561588)**
+
+### **Step 9: Save, Test, and Publish**
+
+Save the trigger after the required filters are configured. Add the workflow actions that should run after enrollment, then use the workflow testing tools and a representative call scenario to confirm the automation behaves as expected.
+
+Once testing is complete, switch the workflow from **Draft** to **Publish** so qualifying live calls can enroll contacts.
+
+## **Common Use Cases**
+
+The best trigger configuration depends on what should happen after the call. These examples show how call information can be turned into targeted follow-up automation.
+
+Scenario| Example Trigger Setup| Possible Actions  
+---|---|---  
+**Missed inbound call**|  Direction = Incoming; Status = busy or no-answer| Notify team, create callback task, send follow-up  
+**Voicemail follow-up**|  Status = voicemail| Notify assigned user or create follow-up task  
+**Disposition-based sales follow-up**|  Custom Disposition = Follow Up or Requested Callback| Create task, move opportunity, send follow-up message  
+**Campaign-specific calls**|  In Number Pool = selected tracking pool| Apply campaign-specific tags or internal routing  
+**Dedicated business line**|  In Phone Number = selected line| Run a workflow designed only for that department or line  
   
+## **Testing and Troubleshooting**
 
+When a qualifying call does not produce the expected automation, check both the trigger conditions and the workflow's enrollment settings. Most issues can be isolated by comparing the actual call record with every filter configured on the trigger.
 
-  * **Automates follow-ups based on call outcomes:** Triggers workflows automatically when a call status changes, ensuring timely follow-up actions without manual intervention.
+  1. **Confirm the workflow is published.** Draft workflows do not process live trigger events as published automations.
+  2. **Compare the call with every trigger filter.** Verify direction, status, Number Pool, phone number, and disposition values as applicable.
+  3. **Review Custom Disposition usage.** A disposition-based trigger requires the expected disposition to actually be recorded for the call.
+  4. **Check Allow Re-entry.** A new qualifying call does not automatically mean a contact can enroll again. Workflow Settings determine whether completed or manually removed contacts may re-enter.
+  5. **Check whether the contact is already active.** A contact cannot re-enter the same workflow while still active in it under normal re-entry behavior.
+  6. **Review Enrollment History and Execution Logs.** Use these tabs to confirm whether the contact entered the workflow and whether any subsequent action was skipped or failed.
+  7. **Test with a simplified trigger if needed.** Temporarily remove unnecessary filters to identify which condition is preventing qualification, then rebuild the required filter set.
 
 
-  
+Using Completed Call Status?
 
+If your automation depends on a **Completed** status representing a true human connection, review [Using Call Connect to Ensure Accurate Call Status Tracking](<https://help.gohighlevel.com/support/solutions/articles/48001181825-call-status-marking-calls-as-completed-when-the-client-didn-t-answer-the-call>). Call Connect can improve the accuracy of call outcomes used for reporting and automation.
 
-  * **Provides precise control using call-based filters:** Allows workflows to run only for specific call scenarios using filters such as call direction, call status, phone number, number pool, and custom dispositions.
+Re-entry
 
-
-  
-
-
-  * **Improves response consistency across teams:** Ensures calls marked as missed, voicemail, or no answer are handled consistently with predefined actions like task creation, tagging, or notifications.
-
-
-  
-
-
-  * **Reduces manual tracking and errors:** Eliminates the need to manually monitor call logs by reacting instantly to call status updates as they occur.
-
-
-* * *
-
-## **How to Configure a Call Details Workflow Trigger?**
-
-  
-
-
-Below are the key elements involved in configuring the **Call Details** workflow trigger. Each setting determines **when** and **under what conditions** a contact is added to a workflow.
-
-  
-
-
-### **Open the Workflow Builder**
-
-  
-
-
-Start by navigating to **Automation → Workflows** and either create a new workflow or open an existing one. The Workflow Builder is where all triggers and actions are defined. This step establishes the automation context in which the call-based trigger will operate.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155061322826/original/877GivrHZahADR6mM0zROjLyVQyyQhs4yA.png?1766588556)
-
-  
-
-
-  
-
-
-### **Add a Workflow Trigger**
-
-  
-
-
-Within the workflow canvas, select **Add Trigger** to choose what event should start the workflow. Triggers define the conditions under which contacts enter a workflow. Selecting the correct trigger type is essential for accessing call-related options.
-
-  
-
-
-### **Select the Call Details Trigger Type**
-
-  
-
-
-From the available trigger categories, choose **Call Details**. This enables triggers related to phone call activity, including call status, direction, phone number, and disposition-based conditions. Once selected, additional call-specific filters become available for configuration.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155061323483/original/as6KeZpSKctZitA5odrFg8jaxIU_2t6I3A.png?1766589178)
-
-###   
-
-
-### **Workflow Trigger Name**
-
-  
-
-
-The trigger name helps identify the purpose of the trigger within the workflow. While it does not affect execution, a clear name improves readability and long-term maintenance. Descriptive names are especially helpful in workflows with multiple triggers.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155061323562/original/i7UZfe5j9eEOqPTJdX8fx3qkI1n--9gKKQ.jpeg?1766589235)
-
-###   
-
-
-### **Add Filters**
-
-  
-
-
-The **Add Filters** option allows multiple conditions to be combined within a single trigger. All selected filters must be met for the workflow to run. This enables precise and highly targeted automation.
-
-  
-
-
-### **Call Direction**
-
-  
-
-
-Call Direction specifies whether the trigger should respond to incoming calls, outgoing calls, or both. This allows workflows to behave differently depending on how the call was initiated. It is useful for separating inbound lead handling from outbound call processes.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155061322639/original/Rks01lfEtsKumb9c9lFjMDS0yku7tfBm2g.png?1766588441)
-
-###   
-
-
-### **Call Status**
-
-  
-
-
-Call Status defines which call outcomes should activate the trigger, such as no answer, voicemail, or busy. The workflow runs only when a call updates to one of the selected statuses. This ensures automation is tied to meaningful call results.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155061322664/original/NUCgoi_uKg5tMJECgXEa2FtB4fN3Si8NOA.png?1766588459)
-
-###   
-
-
-### **In Number Pool**
-
-  
-
-
-This filter limits the trigger to calls associated with a specific number pool. It is helpful when different number pools are used for different campaigns or teams. Applying this filter ensures workflows respond only to calls from the intended sources.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155061322700/original/cBQQkoKgdB-FGl6WmpNDLkXWoMTpI89_NA.png?1766588476)
-
-  
-
-
-###   
-
-
-### **Custom Disposition**
-
-  
-
-
-Custom Disposition allows the trigger to respond to call classifications applied after a call ends. This provides an additional layer of control beyond standard call statuses. It is useful when workflows need to react to internal call outcomes marked by users or systems.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155061322781/original/I_YpN2Dc9FHQqw8ylGEXM8DgeDueeic6Cw.png?1766588521)
-
-###   
-
-
-### **In Phone Number**
-
-  
-
-
-This filter restricts the trigger to calls associated with specific phone numbers. It is useful when individual phone numbers serve different business functions. Using this filter helps keep workflows targeted and relevant.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155061322762/original/3si76Y7tgpyrbZ0mbYCpGNJPpKSOx66G8w.png?1766588498)
-
-###   
-
-
-### **Save Trigger**
-
-  
-
-
-Saving the trigger applies the configuration and activates it within the workflow. Once saved, contacts will be added to the workflow whenever the defined call detail conditions are met. This step ensures the trigger is ready for execution.
-
-* * *
+To review repeat-enrollment behavior, open the workflow's **Settings** tab and check **Allow Re-entry**. See [Workflow Settings - Overview](<https://help.gohighlevel.com/support/solutions/articles/48001239875-workflow-settings-overview>) for the current re-entry rules.
 
 ## **Frequently Asked Questions**
 
-  
+Q: Does Call Details trigger for every phone call?
 
+No. The call must match the conditions configured on the trigger. Adding filters such as Call Direction, Call Status, phone number, Number Pool, or Custom Disposition narrows which calls qualify.
 
-**Q: Does the Call Details trigger run every time a call is logged or only when specific details change?**
+Q: Can the same contact enter a Call Details workflow more than once?
 
-The trigger runs only when the selected call details—such as call status, direction, or disposition—match the configured conditions. It does not activate for every call by default. This ensures workflows respond only to relevant call events.
+A later qualifying call can create another trigger event, but repeat enrollment depends on the workflow's **Allow Re-entry** setting. When re-entry is enabled, a contact can re-enter after completing the workflow or being manually removed. A contact cannot normally re-enter while still active in the same workflow.
 
-  
+Q: What is the difference between Call Status and Custom Disposition?
 
+Call Status represents a system-recorded outcome such as busy, voicemail, no-answer, or completed. Custom Disposition represents a post-call classification configured for your team, such as Follow Up, Qualified, or Requested Callback.
 
-**Q: Can the Call Details trigger fire multiple times for the same contact?**
+Q: Can I select more than one call status?
 
-Yes, the trigger can run multiple times for the same contact if separate calls meet the trigger conditions. Each qualifying call event is evaluated independently. To control repeat enrollment, use workflow settings such as re-entry rules or additional filters.
+Yes. You can select multiple applicable values within the Call Status filter, such as busy, voicemail, and no-answer. Other filter rows still narrow the overall trigger configuration.
 
-  
+Q: Why is my Custom Disposition workflow not triggering?
 
+Confirm that the expected disposition was actually recorded for the call and still exists in the account. If a disposition used by a workflow is deleted, update the workflow filter to a valid disposition before testing again.
 
-**Q: How does Call Details differ from time-based or activity-based workflow triggers?**
+Q: Can one call qualify for multiple workflows?
 
-Call Details reacts specifically to changes in call-related information, rather than scheduled times or general contact activity. This makes it suitable for real-time or near-real-time automation based on call outcomes. It is especially useful for handling missed calls, voicemails, or follow-ups after specific call results.
+Yes. Separate workflows evaluate their own trigger configurations independently. A call can qualify for more than one workflow when it satisfies each workflow's conditions and its contact-enrollment rules permit entry.
 
-  
-**Q: What happens if multiple Call Details triggers exist across different workflows?**
+Q: What is the difference between In Number Pool and In Phone Number?
 
-Each workflow evaluates call events independently based on its own trigger configuration. A single call can add a contact to multiple workflows if the trigger conditions are met. Careful filter design helps prevent overlapping or conflicting automation.
+In Number Pool targets calls associated with a selected call-tracking Number Pool. In Phone Number targets one or more specific phone numbers. Choose the filter that matches how the call source is organized in your account.
+
+Q: Where should I look if the trigger appears correct but the workflow still does not run?
+
+Confirm the workflow is published, review the contact's Enrollment History, check Execution Logs, verify Allow Re-entry when applicable, and compare the actual call data with every configured trigger filter.
+
+### **Related Articles**
+
+  * [Getting Started with Workflows in HighLevel](<https://help.gohighlevel.com/support/solutions/articles/155000002288>)
+  * [A List of Workflow Triggers](<https://help.gohighlevel.com/support/solutions/articles/155000002292-a-list-of-workflow-triggers>)
+  * [Workflow Settings - Overview](<https://help.gohighlevel.com/support/solutions/articles/48001239875-workflow-settings-overview>)
+  * [Custom Dispositions for Voice Calls](<https://help.gohighlevel.com/support/solutions/articles/155000007191-custom-dispositions-for-voice-calls>)
+  * [How to Set Up Call Tracking (Number Pool)](<https://help.gohighlevel.com/support/solutions/articles/48000981393>)
+  * [Using Call Connect to Ensure Accurate Call Status Tracking](<https://help.gohighlevel.com/support/solutions/articles/48001181825-call-status-marking-calls-as-completed-when-the-client-didn-t-answer-the-call>)

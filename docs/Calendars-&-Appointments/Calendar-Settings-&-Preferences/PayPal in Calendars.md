@@ -229,6 +229,16 @@ A: Not yet—refunds must be processed from your PayPal dashboard.
 
 A: PayPal availability depends on PayPal’s supported regions and currencies. Check PayPal’s documentation if you are unsure.
 
+  
+
+
+**Q: Is PayPal guest checkout compatible with calendars?**
+
+A: PayPal guest checkout is not compatible with calendar bookings.
+
+  
+
+
 * * *
 
 ## **Related Articles**

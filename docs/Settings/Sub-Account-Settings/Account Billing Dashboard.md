@@ -13,13 +13,13 @@ This article provides a comprehensive guide to managing billing within HighLevel
 **TABLE OF CONTENTS**
 
   * Overview of Billing Dashboard
-    * Manage Subscriptions
-    * Payment Methods
-    * Update Billing Information
-    * View Charges and Transaction History
-    * Understanding Wallet Balances
-    * Frequently Asked Questions
-    * Related Articles
+  * Manage Subscriptions
+  * Payment Methods
+  * Update Billing Information
+  * View Charges and Transaction History
+  * Understanding Wallet Balances
+  * Frequently Asked Questions
+  * Related Articles
 
 
 * * *
@@ -160,7 +160,7 @@ Transparency in financial transactions is vital. The Billing section provides:
   * **Detailed Charges Overview:** Access a comprehensive list of all charges incurred.  
   
 
-  * **Invoices:** View and download invoices for your records.  
+  * **Invoices:** Review invoice details, identify the products associated with each charge, and download invoices when needed.  
   
 
   * **Transaction History:** Review past transactions to monitor spending and manage finances effectively.
@@ -169,7 +169,129 @@ Transparency in financial transactions is vital. The Billing section provides:
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066536641/original/DR_XYw629wAR2VXbVJzLokQMNWuI8EeFRg.png?1773082864)
+### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155066536641/original/DR_XYw629wAR2VXbVJzLokQMNWuI8EeFRg.png?1773082864)  
+**View and Manage Invoices**
+
+  
+
+
+The invoice list provides details about each charge so you can identify what you were billed for before opening or downloading an invoice.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079551373/original/AnrFdRJVtKAyTU6Oz9b0omNs4ZC8_bjrqQ.png?1787922325)
+
+  
+
+
+#### **Identify Products on an Invoice**
+
+  
+
+
+The Products column shows the product name associated with each invoice.
+
+  
+
+
+For invoices that contain multiple products, the first product name appears with a **+n** badge showing the number of additional products. Hover over the badge to view all product names included on the invoice.
+
+  
+
+
+Invoices with one product show only the product name. Long product names may appear truncated with an ellipsis to preserve the table layout.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079551615/original/qQDhqDImThUqXk5bemVluHgIF__aEVM7ug.png?1787922454)
+
+  
+
+
+#### **View and Copy the Transaction ID**
+
+  
+
+
+The Transaction ID identifies each invoice row in the invoice list.
+
+  
+
+
+The ID appears truncated in the table. Click the copy icon next to the Transaction ID to copy the full ID to your clipboard.
+
+  
+
+
+You can also view the full Transaction ID from the invoice details.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079551681/original/0zEb6abZZc2Mza97IydkE8MUW9XEW60Qfw.png?1787922503)
+
+  
+
+
+#### **View Invoice Details**
+
+  
+
+
+Click View for an invoice to open its details without automatically downloading the invoice PDF.
+
+  
+
+
+The invoice details include:
+
+  
+
+
+* Invoice ID
+
+* Invoice type
+
+* Date
+
+* Amount
+
+* Card
+
+* Status
+
+* Products
+
+  
+
+
+You can close the invoice details by clicking the X or clicking outside the modal.
+
+  
+
+
+#### **View or Download an Invoice**
+
+  
+
+
+From the invoice details, you can choose either of the following actions:  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079551873/original/opglcUuV60zVqEeC-npIg9UDiOlHvxvUYg.png?1787922594)
+
+  
+
+
+**View in Stripe:** Opens the Stripe invoice in a new browser tab.
+
+  
+**Download Invoice:** Downloads the invoice as a PDF.
+
+####   
+**Identify External Charges**
+
+  
+
+
+Invoices and products that originate outside the HighLevel platform display an External badge in both the invoice list and invoice details.
+
+  
+
+
+Use this badge to distinguish external charges from charges originating within HighLevel.
 
 * * *
 

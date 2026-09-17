@@ -11,7 +11,7 @@
 - [Troubleshooting Login issues](Troubleshooting Login issues.md)
 - [Understanding the Agency Owner Role in Your Agency Account: What You Need to Know](Understanding the Agency Owner Role in Your Agency Account What You Need to Know.md)
 - [How to Manage Agency User Roles and Permissions in HighLevel](How to Manage Agency User Roles and Permissions in HighLevel.md)
-- [User Roles, Permissions and Assigned data : Subaccount](User Roles, Permissions and Assigned data Subaccount.md)
+- [Sub-account: User Roles, Permissions and Assigned data](Sub-account User Roles, Permissions and Assigned data.md)
 - [Setting Up Single Sign-On (SSO) on HighLevel](Setting Up Single Sign-On (SSO) on HighLevel.md)
 - [Google Login for WL agencies](Google Login for WL agencies.md)
 - [Authenticator App Support for Two-Factor Authentication (2FA)](Authenticator App Support for Two-Factor Authentication (2FA).md)

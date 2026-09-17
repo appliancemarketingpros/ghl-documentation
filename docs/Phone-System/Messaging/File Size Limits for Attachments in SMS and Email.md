@@ -10,11 +10,15 @@ Conversations · Attachments
 
 Attachment Size Limits for SMS & Email
 
-Understand file size limits for SMS and email, and send larger files effortlessly with Media Library links and auto-generated video thumbnails.
+Understand file size limits for SMS and email, how HighLevel handles larger files, and when attachments are delivered as MMS or Media Library links.
 
 Overview
 
-This article explains the file size limits of attachments for both SMS and email sent through the platform. It also introduces a powerful enhancement — Attachments Made Easy in Conversations — which lets you send larger files effortlessly via Media Library links and auto-generates video thumbnails to boost engagement.
+This article explains attachment size limits for SMS/MMS and email sent through HighLevel. It also explains how HighLevel uses the Media Library to handle files that cannot be delivered directly and how attachment behavior differs between messaging channels.
+
+# What are File Size Limits for SMS and Email Attachments?
+
+Attachment size limits determine whether a file can be delivered directly through MMS or email or must be shared another way. Understanding these limits helps reduce delivery failures and clarifies when HighLevel will use a Media Library link instead of sending the original file as a direct attachment.
 
 Table of Contents
 
@@ -24,33 +28,29 @@ Key Benefits of Understanding File Size Limits
 
 2
 
-Impact on Users
+SMS Attachment Size Limits
 
 3
 
-SMS Attachment Size Limits
+Email Attachment Size Limits
 
 4
 
-Email Attachment Size Limits
+How to Upload Attachments in Conversations
 
 5
 
-How to Upload Attachments in Conversations
+Paste Attachments from Clipboard
 
 6
 
-Paste Attachments from Clipboard
+How to Send Larger Files
 
 7
 
-How to Send Larger Files
-
-8
-
 Frequently Asked Questions
 
-9
+8
 
 Related Articles
 
@@ -60,30 +60,22 @@ Video Walkthrough
 
 ## Key Benefits of Understanding File Size Limits
 
-Knowing attachment limits helps you avoid failed deliveries and ensures your emails and messages are optimized for deliverability and engagement.
+Knowing attachment limits helps you avoid failed deliveries and understand when files can be sent directly or should be shared through the Media Library.
 
-  * Prevents delivery issues caused by large files
-  * Ensures compliance with MMS and email provider rules
-  * Simplifies file handling using the built-in Media Library
-  * Boosts open and click rates with interactive video thumbnails
-  * Reduces manual effort and reliance on third-party file hosting
+  * **Improved Deliverability:** Reduce delivery issues caused by attachments that exceed supported limits.
+  * **Clearer Channel Requirements:** Understand how attachment handling differs between SMS/MMS and email.
+  * **Simplified File Handling:** Use the Media Library for files that cannot be sent directly.
+  * **Fewer Manual Workarounds:** Reduce the need to compress files or use third-party hosting.
+  * **Better Engagement:** Use supported video thumbnails and file links to make messages easier for recipients to access.
 
 
 2
 
-## Impact on Users
-
-  * Reduces manual workarounds like compressing or hosting files externally.
-  * Speeds up the attachment process with direct device uploads.
-  * Improves engagement by making emails more visually appealing and interactive.
-  * Ensures smooth delivery across SMS and email by auto-managing limits.
-
-
-3
-
 ## SMS Attachment Size Limits
 
-SMS messages can only contain text. To include attachments like images, videos, or audio files, you must use MMS, which is supported differently depending on the phone number type and carrier. If you're attaching a file to an SMS, it is automatically converted to an MMS. The following file types are supported for MMS:
+SMS itself supports text only. When supported media is sent directly with a text message, the message is delivered as MMS. If a file cannot be sent directly because of its size, file type, or delivery requirements, HighLevel can use the Media Library to share the file through a clickable link instead.
+
+Commonly supported image types for direct MMS include:
 
 **JPEG**
 
@@ -93,13 +85,13 @@ SMS messages can only contain text. To include attachments like images, videos, 
 
 Please Note
 
-Some file types like MP3, MP4, and PDF may work depending on the carrier and device. You can also check out Twilio’s list of supported media types here: [Twilio Supported File Types](<https://help.twilio.com/articles/223181188>).
+Other media types, including MP3, MP4, and PDF, may be handled differently depending on the carrier, device, and whether the file can be delivered directly as MMS. Files that cannot be delivered directly can be shared through a Media Library link.
 
 Part 1
 
 Carrier-Specific File Size Limits for MMS
 
-The recommended best practice is to keep MMS attachments **under 500 KB** to ensure successful delivery across all carriers.
+Carrier and number-type limits can vary. For the broadest compatibility, keeping direct MMS attachments **under 500 KB** is a conservative best practice, even when a higher technical limit may be supported.
 
 Carrier| Long Code MMS| Toll-Free MMS| Short Code MMS  
 ---|---|---|---  
@@ -111,42 +103,35 @@ Part 2
 
 Short Code, Toll-Free, and Long Code Support for MMS
 
-As of **October 2022** , **Toll-Free numbers support MMS**. Before that, they supported SMS only.
+Long Code, Short Code, and Toll-Free numbers can support MMS. The maximum supported file size can differ by carrier and number type, so the values below should be treated as upper limits rather than guaranteed delivery thresholds.
 
-Message Type| Supports MMS?| Recommended Max Size  
+Message Type| Supports MMS?| Maximum Size Reference  
 ---|---|---  
-Long Code (10DLC)| ✅ Yes| ~500 KB – 1 MB  
+Long Code (10DLC)| ✅ Yes| Varies by carrier  
 Short Code| ✅ Yes| Up to 5 MB  
-Toll-Free| ✅ Yes _(Since Oct 2022)_|  Up to 5 MB  
+Toll-Free| ✅ Yes| Up to 5 MB  
   
-4
+3
 
 ## Email Attachment Size Limits
 
-Attachment limits for email depend on the email provider used. Exceeding these limits can cause emails to bounce or be undeliverable.
+HighLevel limits the size of files that can be attached directly through the email composer. Recipient or sending email providers may also apply their own restrictions, so keeping attachments within the HighLevel composer limit helps reduce delivery issues.
 
 Good to Know
 
-The platform's email composer allows **up to 20 MB** in attachments. Files above this size will be automatically uploaded to the **Media Library** and sent as clickable links.
+HighLevel's email composer allows **up to 20 MB** in direct attachments. Files above this size are uploaded to the **Media Library** and shared as clickable links instead of being sent as direct email attachments.
 
-Email Provider| Max Attachment Size  
----|---  
-Gmail| 25 MB  
-Yahoo Mail| 25 MB  
-Outlook.com| 10 MB  
-Mailgun| 25 MB  
-  
-5
+4
 
 ## How to Upload Attachments in Conversations
 
-Uploading files directly in the Conversations composer has been made easier and more flexible with the new attachment workflow. Whether you're sending an SMS or an email, you can now upload files from your device or choose from your Media Library — all from within the message composer. This process eliminates the need to manually compress files or use third-party hosting platforms, streamlining your workflow and improving the customer experience. Here is a step-by-step process for uploading or attaching files.
+HighLevel lets you attach files directly from your device or select existing files from the Media Library while composing an SMS/MMS or email in Conversations. The steps below show where to access these options.
 
 Step 1
 
 Access the Attachment Options
 
-To begin, open a conversation under the **Conversations** tab and click the **three-dot icon (•••)** in the message composer.
+Open a conversation under the **Conversations** tab and click the **three-dot icon (•••)** in the message composer.
 
 ![Three-dot icon in the message composer](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155044663694/original/VghkbqBAuqr7F9TfukAwR8BHZYkE5mrw0w.png?1744036309)
 
@@ -154,7 +139,7 @@ Step 2
 
 Choose Your Attachment Source
 
-After clicking the three-dot icon, select **“Attach Files”**. You'll see two options:
+After clicking the three-dot icon, select **Attach Files**. You'll see two options:
 
 ![Attach Files options](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155044664243/original/e_BCXDXK9OyFh8A9HY6SbLrdGNs4rJ6OUg.png?1744036710)
 
@@ -164,73 +149,68 @@ After clicking the three-dot icon, select **“Attach Files”**. You'll see two
 
 Step 3
 
-Automatic Handling for Large Files
+Automatic Handling for Files That Cannot Be Sent Directly
 
-If the file exceeds **20 MB (for email)** or **any size for SMS** , the platform will automatically upload it to the **Media Library** and insert a **clickable link** into your message.
+For email, files above **20 MB** are uploaded to the **Media Library** and inserted into the message as a **clickable link**.
 
-This ensures that your message is delivered without hitting size limits.
+For SMS/MMS, files that cannot be delivered directly because of their size, type, or channel requirements can also be shared using a Media Library link.
 
 Important
 
-**Video Uploads Get Auto-Generated Thumbnails.** When uploading a video file through the Media Library, the platform will automatically generate a **GIF thumbnail** to be shown in your email, making your message more engaging and clickable.
+**Video Uploads Get Auto-Generated Thumbnails.** When a video file is uploaded through the Media Library for use in email, HighLevel can generate a **GIF thumbnail** that gives recipients a visual preview and clickable entry point to the video.
 
-6
+5
 
 ## Paste Attachments from Clipboard
 
-Instead of opening the attachment menu, you can attach files by pasting them.
+Clipboard pasting provides a faster way to attach a supported file or image without opening the attachment menu.
 
   1. Copy a supported file or image on your computer.
   2. Click inside the message composer in Conversations.
-  3. Press **Ctrl + V** (Windows) or **Cmd + V** (Mac), or right-click and **Paste**.
+  3. Press **Ctrl + V** (Windows) or **Cmd + V** (Mac), or right-click and select **Paste**.
 
 
-The pasted file attaches instantly to the current message and respects the same size limits and media-handling rules described above.
+The pasted file is added to the current message and follows the same attachment-size and delivery rules described above.
 
 ![Pasting an attachment from the clipboard](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155060706026/original/GL2S766DxhqHpZ2qVnlPEZTuSqpCUN0luA.gif?1765880533)
 
-7
+6
 
 ## How to Send Larger Files
 
-  * Upload directly via the email/SMS composer.
-  * Files larger than 20 MB are auto-hosted via the Media Library and inserted as links.
-  * Use cloud hosting only if needed outside the platform.
-  * Add videos via the Media Library for interactive thumbnails.
+Large files do not always need to be compressed or hosted outside HighLevel. The Media Library provides a way to share files as links when they exceed direct attachment limits.
+
+  * Upload the file through the email or SMS/MMS composer.
+  * Email files above 20 MB are hosted through the Media Library and inserted as clickable links.
+  * SMS/MMS files that cannot be delivered directly can be shared through a Media Library link.
+  * Use external cloud hosting only when the file needs to be managed outside HighLevel.
+  * Use Media Library video uploads when you want HighLevel to generate a visual thumbnail for email.
 
 
-8
+7
 
 ## Frequently Asked Questions
 
-Q: What happens to files over 20 MB?
+Q: Does a file uploaded to the Media Library have the same limit as a direct MMS or email attachment?
 
-They are auto-uploaded to the Media Library and sent as clickable links.
+No. Media Library storage and direct message-delivery limits are different. A file may be stored in the Media Library even when it is too large or otherwise unsuitable to send as a direct MMS or email attachment.
 
-Q: Can I upload attachments directly from my device?
+Q: What will the recipient see when HighLevel hosts a file instead of attaching it directly?
 
-Yes! You can choose between uploading from your system or browsing the Media Library.
+The message contains a clickable link to the hosted file instead of delivering the original file as a direct attachment.
 
-Q: Can I attach videos to an SMS?
+Q: Does adding supported media always keep a message as SMS?
 
-Yes, videos are sent as hosted links — not embedded files — to avoid delivery issues.
+No. SMS is text-only. Supported media that is delivered directly changes the message to MMS.
 
-Q: Do Toll-Free numbers support MMS?
+Q: Why can a file be stored in HighLevel but still fail as a direct MMS attachment?
 
-Yes! Since October 2022, Toll-Free numbers now support MMS and attachments.
+Media storage limits and carrier-delivery limits are separate. Carriers can impose lower limits on direct MMS delivery than the file sizes HighLevel can store.
 
-Q: Will video attachments generate a preview in emails?
+Q: Are MMS limits guaranteed to be the same across all carriers?
 
-Yes — GIF thumbnails are auto-generated for video files uploaded via the Media Library.
+No. MMS limits can vary by carrier and number type. Keeping direct MMS media relatively small improves compatibility across networks.
 
-Q: What's the safest file size to guarantee MMS delivery?
+### Related Articles
 
-Keeping MMS attachments under 500 KB is the recommended best practice to ensure successful delivery across all carriers.
-
-Q: Why did my SMS turn into an MMS?
-
-SMS can only carry text. As soon as you attach a file such as an image, GIF, or video, the message is automatically converted to an MMS so the media can be delivered.
-
-Related Articles
-
-[Attachments Made Easy in Conversations](<https://help.gohighlevel.com/support/solutions/articles/155000001323-attachments-made-easy-in-conversations>) [How to Attach Files to MMS Using Custom Values](<https://help.gohighlevel.com/support/solutions/articles/48001218845-how-to-attach-files-to-mms-using-custom-values>)
+[ Attachments Made Easy in Conversations ](<https://help.gohighlevel.com/support/solutions/articles/155000001323-attachments-made-easy-in-conversations>) [ How to Attach Files to MMS Using Custom Values ](<https://help.gohighlevel.com/support/solutions/articles/48001218845-how-to-attach-files-to-mms-using-custom-values>)

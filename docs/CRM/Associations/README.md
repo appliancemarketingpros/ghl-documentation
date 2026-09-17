@@ -4,5 +4,5 @@
 
 ## Articles
 
-- [Association Limits](Association Limits.md)
+- [Association Limits in Objects](Association Limits in Objects.md)
 - [Associations Between Opportunities, Companies & Custom Objects](Associations Between Opportunities, Companies & Custom Objects.md)

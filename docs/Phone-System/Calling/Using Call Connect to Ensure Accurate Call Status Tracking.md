@@ -6,7 +6,7 @@
 
 ---
 
-This article explains how the Call Connect feature ensures your call outcomes—like voicemail, pickup, or missed call—are accurately tracked. This gives you clear visibility into which calls were truly connected, not just attempted.
+This article explains how the Call Connect feature ensures your call outcomes, like voicemail, pickup, or missed call—are accurately tracked. This gives you clear visibility into which calls were truly connected, not just attempted.
 
 * * *
 
@@ -19,10 +19,6 @@ This article explains how the Call Connect feature ensures your call outcomes—
   * Frequently Asked Questions
   * Related Articles
 
-
-* * *
-
-# 
 
 * * *
 
@@ -98,32 +94,35 @@ You can enable Call Connect directly from the Phone Number settings, which is id
   
 
 
-  1. Go to **Settings > Phone Numbers**  
+  1. Go to **Settings > Phone System**  
 .
 
   2. Click the **three dots** next to the phone number you want to configure, then select **Edit Configuration**.  
   
-
-
-  3. Toggle on **Call Connect**.  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079844284/original/kZq1r4odwMLBqQU58ueVqjm9ipKopl6ORQ.png?1788287584)  
   
 
 
-  4. Toggle on **Play Whisper Message**.  
+  3. Go to **Advanced Settings**  
   
 
 
-  5. Customize the whisper message to instruct the user to connect (e.g., “You have a new call. Press any key to connect.”)  
+  4. Toggle on **Call Connect**.  
   
 
 
-  6. Click **Save** to apply the changes.
-
-
+  5. Toggle on **Play Whisper Message**.  
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155045941783/original/s7bLbxbWl_PgC4jGHAdBTwzQ6DO9IHjfdw.gif?1746039241)
+  6. Customize the whisper message to instruct the user to connect (e.g., “You have a new call. Press any key to connect.”)  
+  
+
+
+  7. Click **Save** to apply the changes.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079844391/original/YaK07xD4ky3Qd5TMEM45363voh-cPaKTww.png?1788287661)
+
 
 * * *
 
@@ -153,18 +152,47 @@ The call is not considered connected, ensuring better tracking and cleaner repor
 
 
 **Q: Will this impact my automations?**  
-Yes—in a good way! You'll be able to trigger automations only on truly connected calls.
+Yes, in a good way! You'll be able to trigger automations only on truly connected calls.
+
+  
+
+
+**Q: Does Call Connect work with calls answered in the HighLevel Web App?**  
+Calls can be answered directly in the Web App, but Call Connect is generally not needed for these calls because HighLevel can already confirm that a person answered within the app. Call Connect is primarily useful when calls are routed to an external phone number.
+
+  
+
+
+**Q: Does Call Connect work with calls answered in the Mobile App?**  
+Calls can also be answered through the HighLevel Mobile App. Similar to the Web App, Call Connect is generally not required when answering inside the app because HighLevel can identify that the call was answered by a person
+
+  
+
+
+**Q: Does Call Connect work if my HighLevel number is forwarded to my personal or external phone number?**  
+Yes. This is one of the main use cases for Call Connect. When a call is forwarded to an external or personal phone number, the person answering the call is prompted to press a key before being connected. This helps HighLevel distinguish between a real person answering and voicemail or an answering machine.
 
 * * *
 
 ## **Related Articles**
 
-  * [Call Status Workflow Trigger Setup](<https://help.gohighlevel.com/en/support/solutions/articles/48001212511>)
+  
 
-  * [Workflow Trigger - Call Status](<https://help.gohighlevel.com/en/support/solutions/articles/155000002552>)
 
-  * [Workflow Action - IVR Connect Call](<https://help.gohighlevel.com/en/support/solutions/articles/155000003371>)
+  * [Call Status Workflow Trigger Setup](<https://help.gohighlevel.com/en/support/solutions/articles/48001212511>)  
+  
 
-  * [Phone Number Configuration Options](<https://help.gohighlevel.com/en/support/solutions/articles/48001229976>)
+
+  * [Workflow Trigger - Call Status](<https://help.gohighlevel.com/en/support/solutions/articles/155000002552>)  
+  
+
+
+  * [Workflow Action - IVR Connect Call](<https://help.gohighlevel.com/en/support/solutions/articles/155000003371>)  
+  
+
+
+  * [Phone Number Configuration Options](<https://help.gohighlevel.com/en/support/solutions/articles/48001229976>)  
+  
+
 
   * [Call Connect Setup + Benefits](<https://blog.gohighlevel.com/how-to-set-up-the-highlevel-call-connect-feature-lead-follow-up-made-easy-and-automated/>)

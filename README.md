@@ -52,13 +52,14 @@ This repository contains the complete documentation from the [GoHighLevel Suppor
 - [Tasks](docs/Tasks/)
 - [Media Storage](docs/Media-Storage/)
 - [AI Employee](docs/AI-Employee/)
+- [Project management](docs/Project-management/)
 
 
 ---
 
-*Last updated: 2026-08-16 09:25 UTC from the [GoHighLevel Support Portal](https://help.gohighlevel.com/support/solutions).*
+*Last updated: 2026-09-17 04:08 UTC from the [GoHighLevel Support Portal](https://help.gohighlevel.com/support/solutions).*
 
 **Statistics:**
-- Categories: 48
-- Folders: 256
-- Articles: 1921
+- Categories: 49
+- Folders: 258
+- Articles: 2596

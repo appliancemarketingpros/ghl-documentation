@@ -66,7 +66,7 @@ Audio device settings provide several advantages for managing your call workflow
 
 **Test Before You Save** — Preview your speaker and additional ring device with test buttons, and verify your microphone is working with a live volume meter before committing to changes.
 
-**Precise Audio Control** — Choose exactly which devices handle call audio, eliminating guesswork and ensuring calls route to your preferred hardware every time.
+**Audio Device Control** — Choose which available microphone and speaker the Web Dialer should use for calls.
 
 3
 
@@ -78,7 +78,7 @@ Option 1
 
 Main Speaker (Required)
 
-This is the primary device that plays call audio. Select your preferred output device from the dropdown menu — this could be headphones, external speakers, or your computer's built-in speaker. The main speaker handles all audio playback during active calls.
+This is the primary device that plays call audio. Select your preferred output device from the dropdown menu — this could be headphones, external speakers, or your computer's built-in speaker. The **Main Speaker** plays the other caller's audio during an active Web Dialer call.
 
 Option 2
 
@@ -134,7 +134,12 @@ Step 5
 
 Save Your Settings
 
-After configuring your devices and testing them, click the save button to apply your changes. Your audio settings are now active and will be used for all future calls in the web dialer.
+After configuring your devices and testing them, click the save button to apply your changes. Your audio settings are now active for the Web Dialer in this browser and on this device.
+
+  
+
+
+If you use HighLevel in another browser or on another computer, configure the audio devices again.
 
 Pro Tip
 
@@ -179,7 +184,7 @@ The main speaker and microphone are used for both inbound and outbound calls. Th
 
 Q: What happens if I unplug my audio device during a call?
 
-If you disconnect a device that is actively being used for a call, the web dialer may automatically switch to another available audio device, typically your computer's built-in speaker and microphone. To avoid interruptions, configure your audio settings before starting calls and avoid disconnecting devices mid-conversation.
+If you disconnect an audio device during a call, your browser or operating system may switch to another available device. The exact behavior depends on your browser and operating system. To avoid call interruptions, keep your selected headset, speaker, or microphone connected during the call. If audio stops working, reopen Audio Settings and confirm the correct devices are selected.
 
 Q: Do I need to save my settings every time I open the web dialer?
 

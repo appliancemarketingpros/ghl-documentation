@@ -128,7 +128,32 @@ You can either:
   
 
 
-  5. Use **AND / OR** to control how conditions are grouped.  
+  5. Use **AND / OR** to control how conditions are grouped.
+
+
+  
+
+
+  
+
+
+#### **Find Fields in If/Else Conditions**
+
+Use the field picker to search for the field you want to use in an If/Else condition. Search results can include matching fields stored inside available folders and subfolders, so you do not need to open each folder before searching.
+
+You can also browse the available field groups and use the breadcrumb path to move between folders and subfolders.
+
+If a long field name is truncated, hover over it to view the full name in a tooltip.
+
+  
+
+    
+    
+    **Note:** Search only displays fields and folders that are available and enabled for the current context.
+
+  
+
+
   
 
 

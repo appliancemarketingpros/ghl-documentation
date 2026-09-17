@@ -11,7 +11,6 @@
 - [Manage Your Communities and Courses with GoKollab Studio](Manage Your Communities and Courses with GoKollab Studio.md)
 - [Introducing Chats: Start Conversations On GoKollab](Introducing Chats Start Conversations On GoKollab.md)
 - [GoKollab Affiliate Program for Communities](GoKollab Affiliate Program for Communities.md)
-- [GoKollab for Communities (Marketplace for communities)](GoKollab for Communities (Marketplace for communities).md)
 - [Manage Purchases on GoKollab](Manage Purchases on GoKollab.md)
 - [How to Use GoKollab Chats for Direct Messages in Communities](How to Use GoKollab Chats for Direct Messages in Communities.md)
 - [GoKollab Mobile App (Beta v2) - Native iOS & Android Experience](GoKollab Mobile App (Beta v2) - Native iOS & Android Experience.md)

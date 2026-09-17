@@ -24,3 +24,5 @@
 - [Listings - Self Service Onboarding](Listings - Self Service Onboarding.md)
 - [Added ability to dismiss “Missing Info” alerts on entity profiles](Added ability to dismiss “Missing Info” alerts on entity profiles.md)
 - [Publisher Listing Force Sync (Yext & Uberall)](Publisher Listing Force Sync (Yext & Uberall).md)
+- [Listings – Duplicate Suppression Management](Listings – Duplicate Suppression Management.md)
+- [Split Business Hours, 24-Hour Days, and No-Set-Hours in Listings](Split Business Hours, 24-Hour Days, and No-Set-Hours in Listings.md)

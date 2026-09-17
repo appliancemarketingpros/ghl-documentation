@@ -10,19 +10,119 @@
 
 A comprehensive overview of WhatsApp pricing, billing, and rebilling for agencies and sub-accounts in HighLevel.
 
+Upcoming Billing Change
+
+Service Messages & In-Window Utility Messages Become Billable — Effective 1 October 2026
+
+From **1 October 2026** , **all service messages** and **utility messages sent inside an open 24-hour customer service window** will be charged on a per-message basis. The first **1,000 service messages per phone number, per month** remain free, and that allowance resets at the start of each month. Per-message **rate card updates** and **nine newly-standalone markets** also take effect on the same date.
+
 Pricing Update
 
 Updated WhatsApp Per-Message Pricing — Effective 1st July 2026
 
-We are updating per-message pricing for WhatsApp template messages, effective with your July 2026 billing. These changes reflect updates to Meta's underlying per-message rates. **Service conversations remain FREE in all markets. Most markets see no change.**
+We updated per-message pricing for WhatsApp template messages, effective with your July 2026 billing. These changes reflect updates to the underlying per-message rates. **Most markets saw no change.** Service conversations remain free until 30 September 2026 — see the October 2026 change above.
 
 Table of Contents
 
-1 . July 2026 Pricing Update 2\. Overview of WhatsApp Billing 3\. WhatsApp Messaging Rates by Market/Country 4\. WhatsApp Subscription Charges for Agencies 5\. Message-Based Pricing [Effective 1 July 2025] 6\. Service Conversations [Effective 1 November 2024] 7\. Free Entry Point Conversations [Effective 1 June 2023] 8\. WhatsApp Calling Pricing 9 . Rebilling WhatsApp Messages 10\. Frequently Asked Questions 11\. Related Articles
+1\. October 2026 Billing Changes 2\. July 2026 Pricing Update 3\. Overview of WhatsApp Billing 4\. WhatsApp Messaging Rates by Market/Country 5\. WhatsApp Subscription Charges for Agencies 6\. Message-Based Pricing [Effective 1 July 2025] 7\. Service Conversations [Effective 1 November 2024] 8\. Free Entry Point Conversations [Effective 1 June 2023] 9\. WhatsApp Calling Pricing 10\. Rebilling WhatsApp Messages 11\. Frequently Asked Questions 12\. Related Articles
+
+## October 2026 Billing Changes [Effective 1 October 2026]
+
+Two categories of messages that are currently free will become billable from **1 October 2026**. Both changes apply on a **per-message basis** , consistent with how template messages are already charged.
+
+### Change 1 — Service Messages Become Billable
+
+►
+
+**What changes:** **All service messages will be charged on a per-message basis** , consistent with how template messages are charged.
+
+►
+
+**Why it matters:** Service messages have **not been charged since 1 November 2024**. From 1 October 2026, they return to being a billable message category.
+
+►
+
+**Free allowance:** The first **1,000 service messages per phone number** are **free**. The allowance is counted per phone number and **resets at the start of each following month**.
+
+### Change 2 — In-Window Utility Messages Become Billable
+
+►
+
+**What changes:** **Utility messages sent in response to users will be charged on a per-message basis** — that is, utility messages delivered **within an open 24-hour customer service window**.
+
+►
+
+**Why it matters:** In-window utility messages have **not been charged since 1 July 2025**. From 1 October 2026, a utility message is billable whether it is sent inside or outside the customer service window.
+
+### Before vs. After at a Glance
+
+Message Scenario| Through 30 Sep 2026| From 1 Oct 2026  
+---|---|---  
+Service message (free-form, inside an open CSW)| Free| Charged per message  
+first 1,000 / number / month free  
+Utility template **inside** an open CSW| Free| Charged per message  
+Utility template **outside** a CSW| Charged per message| Charged per message  
+Marketing template| Charged per message| Charged per message  
+Authentication template| Charged per message| Charged per message  
+Any message inside a Free Entry Point (CTWA) window| Free| Free  
+      
+    
+    **How the 1,000 free service messages work**
+    
+    • The allowance is tracked **per WhatsApp phone number** , not per sub-account or per contact.
+    • The first **1,000 service messages** delivered from that number in a calendar month are free.
+    • Once the number passes 1,000, every additional service message that month is charged per message.
+    • The counter **resets to zero at the start of the next month**.
+
+### Change 3 — Rate Card Updates
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080999266/original/vW7orwI9wzj1SQNLxBVluiPcjBi4mwLiIA.png?1789487657)  
+
+
+Per-message rates change in the following markets from **1 October 2026**. Markets marked ***** are also moving out of their regional "Rest Of" pricing bucket — see Change 4 below.
+
+Category| Direction| Markets  
+---|---|---  
+Marketing| Increase| Kuwait*, Mexico, Morocco*, Saudi Arabia, United Arab Emirates, Rest of Middle East, Rest of Asia Pacific  
+Utility| Increase| Kazakhstan*, Kuwait*, Morocco*, Oman*, Pakistan, Peru, South Africa, Ukraine*  
+Utility| Decrease| Bangladesh*, Iraq*, Nepal*, Sri Lanka*  
+  
+* Market is being moved out of its respective "Rest Of" pricing region to be standalone on the rate card.
+
+The nine markets with utility rate updates were given **four months' notice** rather than the usual one month.
+
+### Change 4 — Newly-Standalone Markets
+
+Six markets moved out of their respective "Rest Of" pricing region on **1 July 2026** — Hong Kong, Singapore, Hungary, Poland, Romania and Qatar. From **1 October 2026** , a further **nine markets** become standalone on the rate card:
+
+►
+
+**Standalone from 1 October 2026:** Bangladesh, Iraq, Kazakhstan, Kuwait, Morocco, Nepal, Oman, Sri Lanka and Ukraine.
+
+For those markets, this means:
+
+Charge| Until 30 September 2026| As of 1 October 2026  
+---|---|---  
+Rate charged| Rate of respective "Rest Of" pricing region| Rate of the newly-standalone market  
+      
+    
+    **What "standalone" means for your bill**
+    
+    Until 30 September 2026 a message to one of these countries is priced at its regional "Rest Of" rate.
+    
+    From 1 October 2026 the country has its own line on the rate card, with its own per-message rate.
+    
+    
+    **What you should do before 1 October 2026**
+    
+    • **Review your rebilling multiplier.** Service and in-window utility volume that cost you nothing will start carrying a per-message cost.
+    • **Audit high-volume support flows.** Sub-accounts that rely heavily on free-form support replies are the most exposed to the change.
+    • **Keep using Click to WhatsApp ads.** Free Entry Point conversations stay free for the full 72-hour window.
+    • **Watch your per-number volume.** Numbers that stay under 1,000 service messages a month are unaffected.
 
 ## July 2026 Pricing Update [Effective July 2026 Billing]
 
-The following rate changes and new named market additions take effect with July 2026 billing. All changes are reflected in the full rates table in Section 2.
+The following rate changes and new named market additions took effect with July 2026 billing. All changes are reflected in the full rates table in Section 4.
 
 ### Rate Updates
 
@@ -49,7 +149,7 @@ Romania| $0.0903| $0.0305| Rest of Central & Eastern Europe ($0.0223)
 Qatar| $0.0358| $0.0126| Rest of Middle East ($0.0096)  
       
     
-    **Highlight:** Poland Marketing drops 57% vs the old regional rate ($0.0903 to $0.0384). Hong Kong, Singapore, Hungary, Romania, and Qatar all see higher Utility rates than their previous regional bucket. Service conversations remain FREE in all markets.
+    **Highlight:** Poland Marketing dropped 57% vs the old regional rate ($0.0903 to $0.0384). Hong Kong, Singapore, Hungary, Romania, and Qatar all moved to higher Utility rates than their previous regional bucket.
 
 ## Overview of WhatsApp Billing
 
@@ -57,7 +157,7 @@ WhatsApp in HighLevel now uses a **per-message pricing model** , charging busine
 
 Messages are categorized into **Marketing** , **Utility** , **Authentication** , and **Service** types — each with its own pricing logic and strategic use cases.
 
-By aligning your outreach with these categories, you can take full advantage of cost-saving opportunities (like free utility messages within an open customer service window) while maintaining high-quality engagement.
+By aligning your outreach with these categories, you can take full advantage of cost-saving opportunities while maintaining high-quality engagement. Note that from **1 October 2026** , two previously free categories — service messages and in-window utility messages — become billable, per-message **rate card updates** take effect in several markets, and **nine markets** move out of their regional "Rest Of" bucket to become standalone. See October 2026 Billing Changes.
 
 ### Key Benefits of WhatsApp's Pricing Structure
 
@@ -75,28 +175,29 @@ Per-message billing simplifies client rebilling, enables transparent invoicing, 
 
 ✓
 
-Smarter Cost Control via Customer Service Windows
+A Monthly Free Service Allowance
 
-Utility messages sent within a 24-hour customer service window are free, reducing the cost of ongoing support while maintaining high responsiveness.
+From 1 October 2026, the first **1,000 service messages per phone number each month** are free, with the allowance resetting every month — so lower-volume support numbers keep sending at no cost.
 
 ✓
 
 Cost-Efficient Entry Points
 
-  * All service conversations are free and do not incur any messaging charges.
-  * Conversations initiated through Click-to-WhatsApp (CTWA) ads are free of cost.
-  * Utility messages sent in response to a user within the 24-hour customer service window are free.
+  * Conversations initiated through Click-to-WhatsApp (CTWA) ads are free of cost for the full 72-hour window.
+  * Service messages are free through 30 September 2026, and from 1 October 2026 the first 1,000 per phone number each month remain free.
+  * Utility messages sent inside the 24-hour customer service window are free through 30 September 2026.
   * User-initiated WhatsApp calling is available globally and is completely free of cost.
 
 
-## WhatsApp Messaging Rates by Market/Country [Effective 1 April 2026]
+## WhatsApp Messaging Rates by Market/Country [Effective July 2026 Billing]
 
 Understanding conversation rates by market or country helps businesses plan communication costs effectively. Rates vary depending on the type of message (Marketing, Utility, or Service) and the region where the message is sent.
     
     
-    **Service conversations are FREE in all markets.** Only Marketing and Utility template messages are charged. See the July 2026 update above for the latest rate changes.
+    **Service column applies through 30 September 2026.** Service conversations are free in all markets up to and including 30 September 2026. From **1 October 2026** , service messages are charged on a per-message basis, with the first **1,000 service messages per phone number, per month** free. Utility messages sent inside an open customer service window also become billable on that date at the market Utility rate shown below. Per-message **rate card updates** also take effect on 1 October 2026, and **nine markets** move out of their regional "Rest Of" bucket to become standalone. The Marketing and Utility rates in the table below apply **through 30 September 2026** for the affected markets. See October 2026 Billing Changes.
 
 Market| Currency| Marketing| Utility| Service  
+through 30 Sep 2026  
 ---|---|---|---|---  
 Argentina| $US| $0.0649| $0.0273| FREE  
 Brazil| $US| $0.0656| $0.0071| FREE  
@@ -110,17 +211,17 @@ Indonesia| $US| $0.0432| $0.0263| FREE
 Israel| $US| $0.0371| $0.0056| FREE  
 Italy Updated Jul 2026| $US| $0.0835| $0.0315| FREE  
 Malaysia| $US| $0.0903| $0.0147| FREE  
-Mexico| $US| $0.0320| $0.0089| FREE  
+Mexico Rate change 1 Oct 2026| $US| $0.0320| $0.0089| FREE  
 Netherlands| $US| $0.1677| $0.0525| FREE  
 Nigeria| $US| $0.0542| $0.0070| FREE  
-Pakistan Utility Updated Jul 2026| $US| $0.0497| $0.0105| FREE  
-Peru| $US| $0.0738| $0.0210| FREE  
+Pakistan Utility Updated Jul 2026 Rate change 1 Oct 2026| $US| $0.0497| $0.0105| FREE  
+Peru Rate change 1 Oct 2026| $US| $0.0738| $0.0210| FREE  
 Russia| $US| $0.0842| $0.0420| FREE  
-Saudi Arabia Updated Jul 2026| $US| $0.0526| $0.0112| FREE  
-South Africa| $US| $0.0398| $0.0080| FREE  
+Saudi Arabia Updated Jul 2026 Rate change 1 Oct 2026| $US| $0.0526| $0.0112| FREE  
+South Africa Rate change 1 Oct 2026| $US| $0.0398| $0.0080| FREE  
 Spain Updated Jul 2026| $US| $0.0742| $0.0210| FREE  
 Turkey Utility Down Jul 2026| $US| $0.0114| $0.0009| FREE  
-United Arab Emirates| $US| $0.0524| $0.0165| FREE  
+United Arab Emirates Rate change 1 Oct 2026| $US| $0.0524| $0.0165| FREE  
 United Kingdom Updated Jul 2026| $US| $0.0667| $0.0231| FREE  
 North America (US & Canada)| $US| $0.0263| $0.0036| FREE  
 Hong Kong New Jul 2026| $US| $0.0769| $0.0273| FREE  
@@ -130,14 +231,14 @@ Poland New Jul 2026| $US| $0.0384| $0.0128| FREE
 Romania New Jul 2026| $US| $0.0903| $0.0305| FREE  
 Qatar New Jul 2026| $US| $0.0358| $0.0126| FREE  
 Rest of Africa| $US| $0.0236| $0.0042| FREE  
-Rest of Asia Pacific| $US| $0.0769| $0.0119| FREE  
+Rest of Asia Pacific Rate change 1 Oct 2026| $US| $0.0769| $0.0119| FREE  
 Rest of Central & Eastern Europe| $US| $0.0903| $0.0223| FREE  
 Rest of Latin America| $US| $0.0777| $0.0119| FREE  
-Rest of Middle East| $US| $0.0358| $0.0096| FREE  
+Rest of Middle East Rate change 1 Oct 2026| $US| $0.0358| $0.0096| FREE  
 Rest of Western Europe| $US| $0.0622| $0.0180| FREE  
 Other| $US| $0.0634| $0.0081| FREE  
   
-Rows highlighted in green are new named markets added in July 2026. Updated rates are shown in red. Service conversations are always FREE.
+Rows highlighted in green are named markets added in July 2026. Updated rates are shown in red. The Service column reflects pricing **through 30 September 2026** ; from 1 October 2026 service messages are charged per message after the first 1,000 per phone number each month. Rows tagged Rate change 1 Oct 2026 have a per-message rate update taking effect on that date.
 
 ## WhatsApp Subscription Charges for Agencies
 
@@ -157,6 +258,8 @@ Understanding WhatsApp's messaging rates is critical for managing costs effectiv
 
   * **Payment Processing Fees:** A 5% Stripe fee is added to these rates, which should be considered when setting up rebilling.
   * **Regional Variations:** Rates differ significantly by region, so plan campaigns with regional costs in mind.
+  * **New Billable Categories from 1 Oct 2026:** Service messages (beyond the first 1,000 per phone number each month) and in-window utility messages become chargeable — factor this into your multiplier.
+  * **Rate Card Updates from 1 Oct 2026:** Per-message rates change in several markets, and nine markets become standalone with their own rate — see October 2026 Billing Changes.
 
 
     
@@ -185,7 +288,8 @@ Starting July 1, 2025, WhatsApp adopts a **message-based pricing model** that ch
 
   * **Definition:** Transactional messages relating to a specific agreed-upon transaction or update.
   * **Charged per message** when sent **outside** an open customer service window.
-  * **Free** if delivered **within** an active 24-hour customer service window initiated by the user.
+  * **Free** if delivered **within** an active 24-hour customer service window initiated by the user — **through 30 September 2026 only**.
+  * **From 1 October 2026:** utility messages sent in response to users inside an open customer service window are **charged per message** , the same as those sent outside the window.
   * **Use Cases:** Order confirmations, shipping updates, appointment reminders.
 
 
@@ -195,7 +299,8 @@ Starting July 1, 2025, WhatsApp adopts a **message-based pricing model** that ch
 
   * **Definition:** Used to resolve customer inquiries and issues.
   * **Opened by:** Free-form messages (any message that is not a template).
-  * **Cost:** Completely free — no charges apply.
+  * **Cost through 30 September 2026:** Completely free — no charges apply.
+  * **Cost from 1 October 2026:** Charged **per message** , consistent with template messages. The first **1,000 service messages per phone number, per month** are free, and the allowance resets each month.
 
 
     
@@ -216,8 +321,10 @@ Starting July 1, 2025, WhatsApp adopts a **message-based pricing model** that ch
 Message type| Category| When can it be sent?| Outside CSW*| Inside CSW*| Inside FEP** window  
 Template messages| Marketing| Anytime| Yes| Yes| No  
 Authentication| Anytime| Yes| Yes| No  
-Utility| Anytime| Yes| No| No  
-Non-template (free-form)| Service| Only inside an open CSW*| N/A| No| No  
+Utility| Anytime| Yes| No (through 30 Sep 2026)  
+Yes (from 1 Oct 2026)| No  
+Non-template (free-form)| Service| Only inside an open CSW*| N/A| No (through 30 Sep 2026)  
+Yes (from 1 Oct 2026, after the first 1,000 per number each month)| No  
   
 * **CSW** = Customer Service Window ** **FEP** = Free Entry Point
 
@@ -232,15 +339,24 @@ This 24-hour timer begins when a customer messages you. During this window, free
 
     
     
-    The customer service window is a 24-hour timer that starts with a user message and resets with each message. As long as the customer service window is open, businesses can respond to users via free-form messages or utility messages at no charge.
+    The customer service window is a 24-hour timer that starts with a user message and resets with each message.
     
     **Free-form messages** are any message type that is not a template.
+    
+    
+    **Change from 1 October 2026**
+    
+    Through **30 September 2026** , businesses can respond to users inside an open customer service window via free-form messages or utility messages at no charge.
+    
+    From **1 October 2026** :
+    • **Service messages are charged per message** — the first 1,000 per phone number, per month are free, and the counter resets monthly.
+    • **Utility messages sent inside the window are charged per message** at the market Utility rate.
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155048395776/original/B1fsAfdjLvwc-PIYGn10E1_NQ29jZF3hVw.png?1750161224)
 
 ## Free Entry Point Conversations [Effective 1 June 2023]
 
-Free entry point conversations provide cost-saving opportunities for businesses by allowing free communication for a limited duration.
+Free entry point conversations provide cost-saving opportunities for businesses by allowing free communication for a limited duration. They are **not affected by the 1 October 2026 changes** and remain free.
 
 ►
 
@@ -345,6 +461,10 @@ Rebilling offers agencies flexibility in setting WhatsApp messaging pricing for 
 
 **Default Multiplier:** The default multiplier is set at **1.05X** to cover payment processing fees.
 
+4
+
+**Plan for 1 October 2026:** Service messages beyond the first 1,000 per phone number each month, and utility messages sent inside an open customer service window, become billable — and therefore rebillable. **Per-message rates also change in several markets** , and nine markets move to standalone rates and standalone volume tiers, so your underlying cost per message may shift even where volume does not. Review your multiplier and client agreements before the change takes effect.
+
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155040536184/original/-KAyIRrTqLCTNrpXEihCEn8u1tSeQITYcg.jpeg?1738002508)
 
 ### How to Set Up WhatsApp Rebilling
@@ -363,12 +483,45 @@ Rebilling offers agencies flexibility in setting WhatsApp messaging pricing for 
 
 ## Frequently Asked Questions
 
+Q: What is changing on 1 October 2026?
+
+Four things change on that date — two categories become billable, and the rate card itself is updated:
+
+  * **Service messages** — all service messages will be charged on a per-message basis, consistent with how template messages are charged. These have not been charged since 1 November 2024.
+  * **In-window utility messages** — utility messages sent in response to users within an open 24-hour customer service window will be charged on a per-message basis. These have not been charged since 1 July 2025.
+  * **Rate card updates** — per-message rates increase or decrease in a number of markets.
+  * **Newly-standalone markets** — nine markets move out of their regional "Rest Of" pricing bucket and get their own rate.
+
+
+Q: How does the 1,000 free service message allowance work?
+
+The first **1,000 service messages per phone number** are free each month. The allowance is counted per WhatsApp phone number — not per sub-account or per contact — and **resets at the start of the following month**. Once a number exceeds 1,000 service messages in a month, each additional service message is charged per message.
+
+Q: Are utility messages inside the customer service window still free?
+
+They are free **through 30 September 2026**. From **1 October 2026** , a utility message is charged per message whether it is sent inside or outside an open customer service window.
+
+Q: Do the October 2026 changes affect Free Entry Point (Click to WhatsApp) conversations?
+
+No. Free Entry Point conversations remain free. Once triggered, no charges apply to any message type sent within the 72-hour window.
+
+Q: Which markets have rate changes on 1 October 2026?
+
+  * **Marketing increases** — Kuwait, Mexico, Morocco, Saudi Arabia, United Arab Emirates, Rest of Middle East, Rest of Asia Pacific.
+  * **Utility increases** — Kazakhstan, Kuwait, Morocco, Oman, Pakistan, Peru, South Africa, Ukraine.
+  * **Utility decreases** — Bangladesh, Iraq, Nepal, Sri Lanka.
+
+
+Q: What does it mean for a market to become "standalone"?
+
+A standalone market has its own line on the rate card instead of being priced under a regional "Rest Of" bucket. Until 30 September 2026 messages to these countries are charged at their regional rate. From 1 October 2026 each has its own per-message rate. Nine markets become standalone on that date: **Bangladesh, Iraq, Kazakhstan, Kuwait, Morocco, Nepal, Oman, Sri Lanka and Ukraine** — following the six that became standalone on 1 July 2026.
+
 Q: What are the different conversation categories?
 
   * **Marketing:** For promotional messages and retargeting campaigns.
   * **Utility:** For user-requested updates such as delivery or payment notifications.
   * **Authentication:** For verifying users with one-time passcodes.
-  * **Service:** For resolving customer inquiries or issues — always free.
+  * **Service:** For resolving customer inquiries or issues — free through 30 September 2026, then charged per message beyond the monthly free allowance.
 
 
 Q: Which markets were affected by the July 2026 pricing update?
@@ -383,11 +536,15 @@ The following rate changes apply from July 2026 billing:
 
 Q: What is a customer service window?
 
-A customer service window is a **24-hour timer** that starts when a customer messages you. It allows businesses to send free-form messages and utility template messages within that period at no charge.
+A customer service window is a **24-hour timer** that starts when a customer messages you and resets with each new message from them. It determines which message types you are allowed to send. Through 30 September 2026 it also makes free-form and utility messages free; from 1 October 2026 those messages become billable.
 
 Q: What is a free entry point conversation?
 
 Free entry point conversations are initiated when a customer contacts you via a **Click to WhatsApp Ad** or **Facebook Page Call-to-Action button** , and you respond within **24 hours**. It lasts for **72 hours** and allows sending all types of messages without additional charges.
+
+Q: Do I need to change my rebilling settings before October 2026?
+
+Rebilling continues to work the same way — but message volume that previously cost nothing will start carrying a per-message cost, and the underlying per-message rate changes in several markets. Agencies should review their multiplier and any fixed-price client agreements before 1 October 2026, especially for sub-accounts with heavy support-conversation volume or traffic to the markets listed above.
 
 Q: Are WhatsApp calls charged per minute or per call?
 

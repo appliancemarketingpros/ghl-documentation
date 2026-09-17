@@ -6,22 +6,48 @@
 
 ---
 
-Email Two Way Sync is a feature that allows the synchronization of emails between the CRM and an email client, in both directions. Any email sent, received, or updated in one platform is automatically synced with the other, ensuring that all relevant data is available in both places. Using 2-Way Sync for Outlook, Users can link their Outlook account with the CRM and sync emails to and from both platforms.
+Outlook Two-Way Email Sync creates a bidirectional connection between a user’s personal Outlook inbox and HighLevel, allowing supported one-to-one email conversations to stay synchronized across both platforms. Messages sent from HighLevel can appear in Outlook, while replies and emails from existing contacts can sync back into HighLevel Conversations, helping users maintain a complete contact history without constantly switching between systems.
 
   
 
 
-#### **Covered in this Article:**
+**TABLE OF CONTENTS**
 
-#### **How to Connect Outlook Two Way Email sync?**
+  * Key Benefits of Outlook Two-Way Email Sync
+  * How to Connect Outlook Two Way Email sync?
+  * How Outlook Two-Way Email Sync Works
+  * Emails Started in HighLevel
+  * Emails Received From Existing HighLevel Contacts
+  * Emails Sent From Outlook to a New Contact
+  * Other functionalities
+  * Email Types and Sender Behavior
+  * Outlook Two-Way Sync Limitations
+  * Frequently Asked Questions
+  * Related Articles
 
-#### **Steps to connect**
 
-#### **How does the 2-way sync work between the CRM and your email account?**
+  
 
-#### **Other functionalities**
 
-#### **Does Two-way sync only work with individual emails or bulk emails and workflows?**
+## **Key Benefits of Outlook Two-Way Email Sync**
+
+  
+
+
+  * **Centralized conversations:** Keep supported Outlook email conversations visible in HighLevel alongside other contact activity.  
+  
+
+  * **Two-way communication:** Send individual emails from HighLevel and keep supported replies synchronized with Outlook.  
+  
+
+  * **Existing-contact synchronization:** Incoming Outlook emails from existing HighLevel contacts can appear in Conversations automatically.  
+  
+
+  * **Contact creation with BCC:** Add a new contact and conversation to HighLevel when initiating an Outlook email to someone who is not already a contact.  
+  
+
+  * **Personal sending identity:** Use the connected Outlook account for supported one-to-one emails rather than relying on the sub-account email provider for those messages.
+
 
   
 
@@ -31,80 +57,92 @@ Email Two Way Sync is a feature that allows the synchronization of emails betwee
 ## **How to Connect Outlook Two Way Email sync?**
 
   
-  
 
 
-* * *
+1\. Open the appropriate **sub-account** in HighLevel, then go to **Settings > My Profile**, 
 
-# **Steps to connect**
-
-  
-
-
-In a sub-account, go to "Settings" > "My Profile" tab and scroll down to the section "Email (2-way sync)"  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48274395767/original/Rby05oCkzbYHyRC0wVO5O4aOWB8Qxw08AQ.png?1673362633)  
-
-
-  
-  
-Select **Outlook,** your email provider & click on **Connect.**  
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48274396289/original/mBVWnL8bflbaxM8Djfy_UHCxlhpa9aYGtQ.png?1673362734)**  
-  
-  
-
-
-Complete the authorization by entering your Outlook email ID credentials.  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48274396813/original/LD4N2tgQLSC-NRdaiZGUrm6eEE72i3r2YA.png?1673362821)  
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48286150045/original/2395BAOyhwzzqcDX-7ZUQXdm9mKz6fHR7w.png?1678347896)
-
-  
-  
-Approve for permissions requested for **LeadConnector:**
-
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48286150199/original/kGgkCc6_lLVmhqnQD4rLEctTCF9xVtGiQQ.png?1678347934)**  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48274401676/original/DNRjHYfFf17fEXfeXb-ypPjxirSlR7P5ZA.png?1673363630)  
-
+2\. Scroll to **Email (2-way sync)** , select **Outlook** , and click **Connect**.
 
   
 
 
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079018246/original/UF8TDp8T6iMMbyzlsrNttM4Z7RiKf3nNAA.gif?1787321044)**
+
   
+
+
+4\. Sign in with the Outlook or Microsoft 365 account you want to connect, review and approve the permissions
+
+requested by HighLevel/LeadConnector, 
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079026807/original/iduvTs9ZPGNj5NxZg21qkobvDTumG9TE-g.png?1787325751)
+
+  
+
+
+5\. Return to **Settings > My Profile > Email (2-way sync)** and confirm that the Outlook email address appears as connected.
+
+  
+
+
 In "Settings" > "My Profile" scroll down to the section "Email (2-way sync)" to view your email in the connection status.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48274407469/original/36-6kdo8xbItgNvL7sH3sbtwUlOAnuTfbQ.png?1673364584)  
-  
-  
-
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079027358/original/jwODgjOBbOIbGeeUY6bjdPvr6qIjm2ix4g.png?1787325925)
 
 * * *
 
-## **How does the 2-way sync work between the CRM and your email account?**
+## **How Outlook Two-Way Email Sync Works**
 
   
 
 
-Once the 2-way sync is connected (Gmail or Outlook):
+The way a message enters the conversation determines whether it can synchronize automatically. Knowing these common scenarios helps prevent confusion when a message appears in Outlook but does not immediately appear in HighLevel.
 
-  1. When you initiate an email from the CRM, the email thread and its subsequent messages will be in sync between both platforms (CRM & Outlook).
-
-  2. If you receive a new email in your inbox (Outlook) from an existing contact in the CRM, the email will automatically sync into the CRM along with the subsequent messages in the thread.
-  3. If you are sending a new email from your inbox to a contact that doesn’t exist in the CRM and you would like the email to be in sync with the CRM, use the BCC address in the Cc or Bcc field in your composer and send the email. By doing so, a new contact will be created in the CRM, and the email will be in sync between both platforms.
+  
 
 
-Note:
+### Emails Started in HighLevel
 
-  1. Emails from contacts who also happen to be sub-account users are not synced. Often, sub-account users are added as contacts for various purposes. Such emails are not synced as they may contain confidential information. If the email address doesn’t belong to a user, emails will sync as mentioned above.
+When you send an individual email from HighLevel using your connected Outlook account, the email thread can remain synchronized between HighLevel and Outlook. Subsequent supported replies in that thread can continue appearing in both places.
 
-  2. Please ensure you have enabled ‘Outlook 2-way Sync’ in Labs to make sure that the above-mentioned points work seamlessly. If the LABS is turned off, only the emails initiated from CRM will sync and Auto BCC will not sync the contact.
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079028052/original/9jKWVxztSXpqPYq39PZArS1ggHZ7A1of3Q.png?1787326168)
+
+  
 
 
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48274409947/original/nfYhNJX6kd_mnmRKWkhoz3S44-iW8-pTiA.png?1673365013)  
+
+
+### **Emails Received From Existing HighLevel Contacts**
+
+  
+
+
+When an existing HighLevel contact sends an email to the connected Outlook inbox, the incoming message can synchronize into that contact's conversation in HighLevel. Replies in the supported thread can continue syncing between the two platforms.
+
+Emails from contacts who are also users in the same sub-account are not synchronized. This protects potentially confidential communication between HighLevel users.
+
+  
+
+
+### **Emails Sent From Outlook to a New Contact**
+
+  
+
+
+Outlook two-way sync does not reliably capture every cold inbound or outbound email involving someone who is not already represented as a HighLevel contact. When sending a new email from Outlook to someone who is not yet a contact, use the HighLevel BCC address in the Cc or Bcc field. This can create the contact and conversation in HighLevel so future supported communication can synchronize.
+
+  1. Sync the contact.
+
+
+  
+  
   
 
 
@@ -114,7 +152,9 @@ Note:
   
   
 All subsequent messages in the email thread (initiated from the CRM) will be in sync. Outbound  
-emails sent from your email will start reflecting in the CRM and vice versa.   
+emails sent from your email will start reflecting in the CRM and vice versa. 
+
+  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48274411519/original/Qcf30hK4rYTieaYlqtiX7wPtH3YSk14exw.png?1673365274)  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48274411984/original/iRhDXxDWcE5l-Tq60A1ApVfKpQYbnuowfw.png?1673365374)
 
@@ -169,29 +209,104 @@ New outbound emails from the CRM will start syncing with the newly added email a
 
 * * *
 
-## **Does Two-way sync only work with individual emails or bulk emails and workflows?**
+## **Email Types and Sender Behavior**
 
   
 
 
-How the sender domain mapping works for different types of emails:
+Outlook Two-Way Email Sync is intended primarily for direct, one-to-one conversations. Bulk and automated messages use different sending infrastructure, so they should not be expected to behave like personal Outlook conversations.
 
   
 
 
-**Individual Email:** On connecting a personal email account (Outlook), the outlook email ID will be considered as the sender domain for the emails sent by the user for individual emails.
+  * **Individual emails:** Supported one-to-one emails can use the connected Outlook account and synchronize with the personal inbox.  
+  
+
+  * **Bulk emails:** Bulk email sending is handled separately from personal two-way sync and may use the configured sub-account email provider.  
+  
+
+  * **Workflow and automation emails:** Automated emails are sent through the configured sub-account-level provider rather than through the user's personal Outlook two-way sync. These messages do not synchronize with the Outlook inbox in the same way as individual emails.
+
+
+* * *
+
+## **Troubleshoot Outlook Two-Way Email Sync**
 
   
 
 
-**Bulk Email:** If the user enters their email ID (after setting up the two-way sync) under the “From Field,” the user email ID will be considered the sender domain for the bulk emails. If the field is blank, the sub-account level provider will be considered the sender domain.
+### **My Profile Is Missing**
 
   
 
 
-**Bulk Email:** If the user enters an email ID different from their email ID connected (Outlook), it will consider the sub-account level provider as the sender domain.
+The **My Profile** tab is available when the user is added to the sub-account currently being viewed. If you cannot see My Profile:
+
+  1. Confirm that you are inside the intended sub-account rather than the agency-level view.
+  2. Verify that your user has been added to that sub-account.
+  3. If appropriate for your access level, use **Login As** for a user of that sub-account.
+  4. Return to **Settings** and check for **My Profile** again.
+
+
+* * *
+
+## **Outlook Two-Way Sync Limitations**
+
+  * Emails from contacts who are also sub-account users are not synchronized because they may contain confidential user-to-user communication.  
+  
+
+  * Gmail/Outlook two-way sync does not reliably capture cold inbound email from unknown senders; HighLevel documents inbound email from existing contacts as supported for this configuration.  
+  
+
+  * Workflow and automation email is sent through the configured sub-account email provider rather than the personal Outlook connection.  
+  
+
+  * Removing or disconnecting a synchronized account stops new synchronization, but previously synchronized email remains available.  
+  
+
+  * Historical messages from before a personal inbox connection was established are not backfilled through two-way sync.
+
+
+* * *
+
+## **Frequently Asked Questions**
+
+### **Q: Does connecting Outlook import my historical email?**
+
+No. Messages from before the integration was connected are not synchronized retroactively. Only supported conversations after the connection is established can sync.
+
+**  
+**
+
+### **Q: Why can I not see My Profile?**
+
+The **My Profile** tab is available when the user has been added to the sub-account currently being viewed. Verify that you are in the correct sub-account and that your user has access to it before troubleshooting Microsoft permissions.
 
   
 
 
-**Workflow & Automation:** Emails will continue to go from sub-account level providers.These will not be in sync with your inbox.
+### **Q: What should I do if Reconnect is not displayed?**
+
+Verify that you are in the correct sub-account and that the Outlook mailbox appears under **Settings > Email Services**. If the mailbox is present but the expected reconnect or account-management control is still missing, contact HighLevel Support instead of repeatedly reauthorizing Microsoft permissions.
+
+  
+
+
+### **Q: When should I contact HighLevel Support?**
+
+Contact HighLevel Support if reconnecting does not restore synchronization, the same permission error continues after verifying the correct Microsoft account and permissions, or the expected HighLevel controls are unavailable. Include the affected email address, error details, screenshots, provider, approximate start time, and troubleshooting steps already completed.
+
+* * *
+
+  
+
+
+### Related Articles
+
+  * [Getting Started - Connect Personal Inbox](<https://help.gohighlevel.com/support/solutions/articles/155000005066/?utm_source=chatgpt.com>)
+  * [Email Failure: Insufficient Permission for 2-Way Sync](<https://help.gohighlevel.com/support/solutions/articles/155000006053/?utm_source=chatgpt.com>)
+  * [Connect Google to Use Gmail for Email](<https://help.gohighlevel.com/support/solutions/articles/48001235216-how-to-set-up-two-way-email-sync-for-gmail?utm_source=chatgpt.com>)
+  * [Inbound Email Workflow Trigger in HighLevel](<https://help.gohighlevel.com/support/solutions/articles/155000007650-workflow-trigger-inbound-email?utm_source=chatgpt.com>)
+
+
+* * *

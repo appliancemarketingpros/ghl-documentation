@@ -83,13 +83,11 @@ There are two ways to access the Import Contacts and Opportunities feature in Hi
   1. From within the **Contacts Tab**
      * Navigate to Contacts from the left-hand menu, click on the Smart Lists tab, and click the Import Contacts button.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155040930961/original/yW_9vq1gWBiCtPOzzi2VJmvf6boUSaN6zg.jpeg?1738599031)  
-  
-
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155081121499/original/u8qJivlF2Yo7bM49FnUhzFYeTN30qPkJWA.png?1789586517)
   2. From within the **Opportunities Tab**
      * Navigate to Opportunities from the left-hand menu, then Click the Import button in the top-right corner.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155040930986/original/8MqKQhBikQMrYyLxrl1XnGtTPblojpxx-A.jpeg?1738599048)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155081120771/original/bcBfw6z_jM4csEn2r36WA7VXpGfgMOLEYw.png?1789585038)
 
 
 ####   
@@ -251,6 +249,27 @@ Adding contacts to workflows
 
 * * *
 
+## **Common CSV Import Errors and Failure Scenarios**
+
+Error/Scenario| What It Means| Next Step  
+---|---|---  
+? **Duplicate contact or identifier**|  The same email, phone, Contact ID, or unique value appears more than once.| Remove or combine duplicates, then re-import.  
+? **Invalid email or phone**|  HighLevel cannot validate the value.| Correct the format and retry the affected rows.  
+? **Missing identifying information**|  HighLevel cannot create or match the contact.| Add a valid name, email, phone, or Contact ID.  
+? **Invalid field value**|  A date, dropdown, checkbox, or custom field value is not accepted.| Match the value to the correct HighLevel format or option.  
+? **Owner not found**|  The assigned owner cannot be matched to a HighLevel user.| Use the correct user name or email address.  
+? **Contact not found or update failed**|  HighLevel cannot locate or update the referenced contact.| Verify the Contact ID, email, or phone, then retry.  
+? **Partial or bulk action failure**|  Some rows imported successfully while others failed.| Correct and re-import only the failed rows.  
+? **Processing error**|  HighLevel could not complete the import because of a file or processing issue.| Review the CSV formatting and retry.  
+  
+> * * *
+> 
+>   
+> 
+
+##   
+
+
 ## **Frequently Asked Questions**
 
   
@@ -313,4 +332,4 @@ When importing contact notes, you may only have one note per contact record with
 ## **Related Articles**
 
   * **[](<https://help.gohighlevel.com/support/solutions/articles/155000004432-importing-contacts>)**[](<https://help.gohighlevel.com/support/solutions/articles/155000004432-importing-contacts>)[Importing Contacts](<https://help.gohighlevel.com/support/solutions/articles/155000004432-importing-contacts>)[](<https://help.gohighlevel.com/support/solutions/articles/155000004432-importing-contacts>)**[](<https://help.gohighlevel.com/support/solutions/articles/155000004432-importing-contacts>)**
-  * **[](<https://help.gohighlevel.com/support/solutions/articles/48001181714-allow-duplicate-contact-explained>)**[](<https://help.gohighlevel.com/support/solutions/articles/48001181714-allow-duplicate-contact-explained>)[Allow Duplicate Contact Explained](<https://help.gohighlevel.com/support/solutions/articles/48001181714-allow-duplicate-contact-explained>)[](<https://help.gohighlevel.com/support/solutions/articles/48001181714-allow-duplicate-contact-explained>)**[](<https://help.gohighlevel.com/support/solutions/articles/48001181714-allow-duplicate-contact-explained>)**
+  * **[](<https://help.gohighlevel.com/support/solutions/articles/48001181714-allow-duplicate-contact-explained>)**[](<https://help.gohighlevel.com/support/solutions/articles/48001181714-allow-duplicate-contact-explained>)[Allow Duplicate Contact Explained](<https://help.gohighlevel.com/support/solutions/articles/48001181714-allow-duplicate-contact-explained>)[](<https://help.gohighlevel.com/support/solutions/articles/48001181714-allow-duplicate-contact-explained>)

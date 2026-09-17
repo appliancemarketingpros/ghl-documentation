@@ -14,6 +14,8 @@ HighLevel provides a comprehensive API platform that enables developers to build
     
     **IMPORTANT : **V1 APIs has reached end-of-support as on 31-December-2025. 
     
+    **All API Documentation** - [**https://marketplace.gohighlevel.com/docs/**](<https://marketplace.gohighlevel.com/docs/>)
+    
     Existing connections/integrations will continue to work, however no support or updates will be provided for V1 APIs. 
     
     Want to migrate from V1 to V2? (with a ton of new functionalities and security features)
@@ -81,12 +83,12 @@ Versioned API documentation helps developers build and maintain integrations aga
   1. Open the official HighLevel API documentation.  
   
 
-  2. Use the version switcher in the documentation to select the API version you want to reference.  
+  2. Use the **version********switcher** in the documentation to select the API version you want to reference.  
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155071237524/original/TZhG34DI_hCiRcBOqxvvtfvPVs1XmS0lfg.png?1778677419)  
   
 
-  3. Review the endpoints, request parameters, schemas, and response details for that selected version.  
+  3. Review the **endpoints** , **request** **parameters** , **schemas** , and **response** **details** for that selected **version**.  
   
 
   4. Use older API versions when maintaining existing integrations.  
@@ -113,6 +115,9 @@ Agency Sub-Account support allows eligible agencies to identify and manage the p
 
 
 Document:
+
+  
+
 
   * eligibility or plan scope  
   
@@ -249,15 +254,12 @@ To monitor your limited usage, refer to the following API response headers:
 
 The HighLevel API allows developers to build custom integrations, automate workflows, and connect external applications with the HighLevel platform. It provides REST endpoints for contacts, conversations, calendars, workflows, payments, and more.
 
-###   
+  
 
 
 **Q. Does HighLevel still support API V1?**
 
 No. HighLevel API V1 has reached end-of-support. While existing integrations may continue to function, no updates or technical support are provided. Developers should migrate to API V2 for ongoing support and new features.
-
-  
-
 
   
 
@@ -273,9 +275,6 @@ HighLevel supports:
   
 
   * OAuth 2.0 for public integrations and Marketplace apps requiring user authorization
-
-
-  
 
 
   
@@ -303,9 +302,6 @@ Private Integration Tokens are best for internal tools or single-account use cas
   
 
 
-  
-
-
 **Q. What are the API rate limits in HighLevel?**
 
 HighLevel enforces:
@@ -322,7 +318,7 @@ HighLevel enforces:
 
 Rate limit headers are included in API responses to help track usage.
 
-###   
+  
 
 
 **Q. Can HighLevel Support help me build or debug my API integration?**
@@ -341,15 +337,9 @@ No. HighLevel Support does not provide hands-on API development or debugging ass
   
 
 
-  
-
-
 **Q. Where can I find the official HighLevel API documentation?**
 
 The official API documentation is available on the HighLevel Developer Marketplace: [https://marketplace.gohighlevel.com/docs/](<https://marketplace.gohighlevel.com/docs/?utm_source=chatgpt.com>)
-
-  
-
 
   
 
@@ -372,18 +362,9 @@ Some endpoints may only be available on higher plans.
   
 
 
-  
-
-
 **Q. How do I request a new API feature or endpoint?**
 
 You can submit API feature requests or report documentation issues by creating an issue in the official GitHub repository for HighLevel API docs.
-
-  
-
-
-  
-
 
   
 
@@ -395,14 +376,8 @@ Yes. HighLevel offers webhooks for real-time event updates, and SDKs are availab
   
 
 
-  
-
-
 **Q. Can I view documentation for different API versions?**  
 Yes. HighLevel API documentation now includes versioned references, allowing developers to select the API version they want to view from the version switcher.
-
-  
-
 
   
 
@@ -413,23 +388,14 @@ No. Versioned documentation does not impact existing integrations. It helps deve
   
 
 
-  
-
-
 **Q. Why should I select a specific API version in the documentation?**  
 Selecting a specific API version helps ensure you are reviewing the correct endpoints, schemas, request parameters, and response details for the version your integration uses.
 
   
 
 
-  
-
-
 **Q. Are older API versions still documented?**  
 Yes. Older API versions remain accessible and documented so developers can maintain existing integrations and plan migrations more easily.
-
-  
-
 
   
 

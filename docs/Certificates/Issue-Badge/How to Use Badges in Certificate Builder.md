@@ -153,6 +153,8 @@ You’ll be prompted to either:
 
   * #### Use the move icon to reposition very small or tightly packed elements more easily.
 
+  * #### Hover over an element to highlight it before selecting it. To resize a selected element, drag an edge or corner to the desired size.
+
   * #### Line and shape resizing is more reliable, and the canvas shows fewer corner markers for a cleaner view.
 
 
@@ -354,6 +356,24 @@ Save time with familiar commands so you can focus on creativity instead of menus
   
 
   * **Ctrl + V** — Paste element
+
+
+  
+
+
+  * **Ctrl/Cmd + B —** Bold selected text
+
+
+  
+
+
+  * **Ctrl/Cmd + I —** Italicize selected text
+
+
+**  
+**
+
+  * **Ctrl/Cmd + U —** Underline selected text
 
 
   

@@ -6,7 +6,7 @@
 
 ---
 
-This article offers step-by-step instructions for white label agencies on how to manage the visibility and installation of marketplace apps for their sub-accounts. This feature allows agencies to have granular control over which apps are available to their sub-account customers.
+This article explains how white label agencies can manage which Marketplace apps are available to their sub-accounts. Agencies can allow access to all Marketplace apps or restrict sub-accounts to apps explicitly approved by the agency.
 
   
 
@@ -20,57 +20,178 @@ This article offers step-by-step instructions for white label agencies on how to
   * Bulk Approve/Disapprove Marketplace Apps:
 
 
+* * *
+
+## **Choose Which Marketplace Apps Sub-Accounts Can Access**
+
+  
+Use **Show only approved apps to sub-accounts** to control whether your sub-accounts can access all Marketplace apps or only apps your agency has approved.
+
+Setting | App availability for sub-accounts  
+---|---  
+**Disabled** | All Marketplace apps are available to sub-accounts. This is the default setting.  
+**Enabled** | Only Marketplace apps explicitly approved by the agency are available to sub-accounts.  
+  
+Enable **Show only approved apps to sub-accounts** when you want your agency to control which Marketplace apps are available to sub-accounts.
+
+> **Before enabling this setting:** Review the current approval statuses in the app list and confirm that the apps you want sub-accounts to access are approved.
+
+* * *
+
+## **Manage App Access**
+
   
 
 
-##   
-**Locating the App Permissions Management:**
+Agency admins can control which Marketplace apps are available to their sub-accounts from one place.  
+  
+
+
+  1. Go to **App Marketplace**.  
+  
+
+
+  2. Click **Settings**.  
+  
+
+
+  3. Select **Manage App Access**.  
+  
+
+
+### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080370269/original/P7cMhAaNyeGeV550xLBR2bmwT5BmNJ7Qrw.jpeg?1788868462)
 
   
 
 
-  * Click on 'App Marketplace' on the left menu.  
-  
+**Control Which Apps Sub-Accounts Can Access**
 
-  * Note: If 'App marketplace' is not visible on your agency account, you can enable it from the labs.  
   
-
-  * Click on 'Manage App Permissions' located on the right top corner.  
-  
-
-  * Here, you will find apps that have a distribution type of either 'Sub-Account' or 'Agency & Subaccount'.  
+Use **Show only approved apps to sub-accounts** to control Marketplace app access.  
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009951632/original/ozEKYZYtKoO3gYFaCp0gJ8ra_0KTJ8glJw.png?1697115469)
-
-##   
-**Approving Apps:**
-
-  
-By Default:
-
-  * All apps that are in public and live status are approved for your sub-accounts.  
+  * **Disabled:** All Marketplace apps are available to sub-accounts.  
   
 
-  * This default setting also applies to new apps that pass our review process and are made public.
+
+  * **Enabled:** Only apps explicitly approved by the agency are available to sub-accounts.  
+  
+
+
+The setting is disabled by default.
+
+  
+
+
+### **Control Marketplace Discovery in Ask AI**
+
+  
+
+
+Agency admins can control whether sub-account admins can discover Marketplace apps through Ask AI.
+
+  
+
+    
+    
+    **Note:** This setting applies only to location admins. Agency admins can always discover marketplace apps in Ask AI.
+    
+
+  
+
+
+Configure Ask AI Discoverability
+
+  
+
+
+  1. Go to **App Marketplace**.  
+  
+
+  2. Click **Settings**.  
+  
+
+  3. Select**Marketplace Visibility.**  
+  
+
+  4. Locate**Ask AI Discoverability**.  
+  
+
+  5. **Enable** or **disable** the setting.
 
 
   
-To Approve Disapproved Apps:
 
-  * Under 'App state', select 'Disapproved apps'.  
+
+When enabled, sub-account admins can ask Ask AI for apps or integrations and receive relevant Marketplace recommendations.
+
   
 
-  * For bulk action, choose the apps you wish to approve and click the 'approve' button on the right top corner.
+
+When disabled, Ask AI does not surface Marketplace app recommendations to sub-account admins.
+
+  
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009952241/original/crNm9hhSccga56_GnJLMP4ZjpRHd-9-TJg.png?1697115627)
+Agency admins continue to have access to Marketplace discovery.
 
-  * Confirm your decision by clicking 'Approve' in the modal window.
+  
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009952348/original/ZNidXSC_JcD_9Ewv_N4NSJRuCsE9GXPplA.png?1697115648)
+Existing Marketplace visibility and app-access controls continue to apply.  
+  
+
+
+![](https://jumpshare.com/share/nJ4Kei9GFhvIkIgYuiwz+/GIF+Recording+2026-09-14+at+20.28.57.gif)
+
+* * *
+
+## **Approve Marketplace Apps**
+
+  
+
+
+You can review and approve Marketplace apps directly from **Manage App Access.**
+
+  
+
+
+1\. Go to App Marketplace → Settings → Manage App Access.
+
+  
+2\. Find the app you want to manage.
+
+  
+3\. Review its current approval status.
+
+  
+4\. Select Approve.
+
+  
+
+
+Use search and filters to find specific apps more quickly.
+
+  
+
+
+When Show only approved apps to sub-accounts is enabled, approved apps are available to sub-accounts.  
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009952241/original/crNm9hhSccga56_GnJLMP4ZjpRHd-9-TJg.png?1697115627)  
+  
+
+
+  * Confirm your decision by clicking 'Approve' in the modal window.  
+  
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009952348/original/ZNidXSC_JcD_9Ewv_N4NSJRuCsE9GXPplA.png?1697115648)  
+  
+
 
   * Once approved, the apps become visible to sub-account users under their App Marketplace. These users can then view and install them.
 
@@ -78,10 +199,16 @@ To Approve Disapproved Apps:
   
 **For Individual Apps:**
 
-  * Navigate to the app details page by clicking on the specific app.
+  
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009952447/original/kV2Q5zmlKngFwCeoRggiKvLyhdlx1uSxUw.png?1697115692)
+  * Navigate to the app details page by clicking on the specific app.  
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009952447/original/kV2Q5zmlKngFwCeoRggiKvLyhdlx1uSxUw.png?1697115692)  
+  
+
 
   * Click 'approve' on the right top corner.  
   
@@ -101,20 +228,26 @@ To Approve Disapproved Apps:
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009952542/original/OxMJRvLAfVqIwILE33GvCgpapUy_kPrilw.png?1697115717)
-
-  * For bulk action, choose the apps you wish to disapprove and click the 'disapprove' button on the right top corner.
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009952542/original/OxMJRvLAfVqIwILE33GvCgpapUy_kPrilw.png?1697115717)  
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009952652/original/_V33Bgz4gIO6zAKLKD1rH5m-7Mg5OKaXoA.png?1697115754)
+  * For bulk action, choose the apps you wish to disapprove and click the 'disapprove' button on the right top corner.  
+  
 
-  * Confirm your decision by typing 'CONFIRM' in the action box and then click on 'disapprove'.
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009952652/original/_V33Bgz4gIO6zAKLKD1rH5m-7Mg5OKaXoA.png?1697115754)  
+
+
+  * Confirm your decision by typing 'CONFIRM' in the action box and then click on 'disapprove'.  
+  
 
 
 ### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009952707/original/ZjBNjcxoXBNHy_wY8cPJhea8hFUI5iFmRw.png?1697115778)
 
   
-**Effects of Disapproving:**
+**Effects of Disapproving:**  
+  
+
 
   * The disapproved apps will no longer be visible or installable at the sub-account level.  
   
@@ -135,51 +268,88 @@ To Approve Disapproved Apps:
 
 Installed Apps may now separate app visibility into **Agency Apps** and **Sub-account Apps** , helping users manage app installations at the correct level based on their access and permissions.
 
-##   
-**Bulk Approve/Disapprove Marketplace Apps:**
+* * *
+
+## **Restrict Marketplace Access to Approved Apps**
 
   
-**Disabling this Option:**
-
-  * Click the settings icon on the top right corner.
-
-
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009952917/original/uNs0zVwyKWgbu2dMQ-wvzKOo8dOhH2WUgg.png?1697115833)**
-
-  * Deselect the option 'allow sub-accounts to view and install apps built by 3rd party developers'.
-  * Click 'Save'.
+Agencies can choose whether sub-accounts have access to all Marketplace apps or only apps approved by the agency.  
+  
 
 
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009952939/original/M5G8YAdkehh9LGRXHFg_Xkq4Ul_adiJdjQ.png?1697115866)**
-
-**  
-Effects of Disabling:**
-
-  * Sub-accounts can no longer view or install any marketplace apps. They'll only see an 'App marketplace' option in their left menu, prompting them to contact the agency admin for access.
+  1. Go to **App Marketplace > Settings > Manage App Access**.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080371209/original/n03A_xLSva2K24d2nsoDCfj606iFrwLvJA.png?1788868877)  
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080371284/original/B7c-kgTOP5RpxYylzGU-9nvtogsH4AfjEQ.png?1788868920)**  
 
 
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009953206/original/Iya2lcjME-mvrfRaEt-BKWrjlbNIYRbUDQ.png?1697115953)**
+  2. Locate**Show only approved apps to sub-accounts**.  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080371317/original/96zCarQl8syl15DFOKhKiXBsBLgZeyf3fg.png?1788868936)  
+  
 
-  * All apps will change to a disapproved status.
+
+  3. Enable the setting to restrict access to approved apps only.  
+  
 
 
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009953327/original/tp-hxcKw3W_GHiCiG6-k4cayO7VD1FLftA.png?1697116023)**
+  4. Review the Marketplace app list.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080371387/original/D2gRqO3qKQv9LpYYd36Gyvnoa4-5lKb4SA.png?1788868983)  
+  
 
-  * Previously installed apps in sub-accounts will be uninstalled.
+
+  5. Use **Approve** or **Disapprove** to manage access for individual apps.  
+  
+
+
+  6. Use search and filters to find specific apps.
 
 
 **  
 **
 
-**Re-enabling this Option:**
-
-  * Navigate to 'App Marketplace' from the left menu. (Enable from labs if not visible).
-  * Click 'Manage App Permissions' on the top right.
-  * Click the settings icon on the top right.
-  * Select the box 'allow sub-accounts to view and install apps built by 3rd party developers'.
-  * Click 'Save'.
+### **Effects of Disabling**  
+  
 
 
+  * Sub-accounts can view or install any marketplace apps.   
+  
+
+  * This is the default setting.  
+  
+
+
+**  
+**
+
+**Re-enabling this Option:**  
+  
+
+
+  * Navigate to 'App Marketplace' from the left menu. (Enable from labs if not visible).  
+  
+
+  * Click 'Manage App Permissions' on the top right.  
+  
+
+  * Click the settings icon on the top right.  
+  
+
+  * Select the box 'allow sub-accounts to view and install apps built by 3rd party developers'.  
+  
+
+  * Click 'Save'.  
+  
+
+
+    
+    
+    Only Marketplace apps explicitly approved by the agency are available to sub-accounts.
+
+  
+
+
+  
 **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009953103/original/Io6XUT3WdULW-GS8Usrj1AharLNOjtWT_g.png?1697115898)**
 
 ### **  
@@ -188,25 +358,18 @@ Effects of Disabling:**
 **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009953148/original/XhegHN1AksJVvGolrfv-Yk-BhkmoJo5WDQ.png?1697115919)**
 
   
-**Effects of Re-enabling:**
-
-  * All new public apps will automatically be approved for your sub-accounts.
-  * All previously approved apps will become visible and installable at the sub-account level.
-  * Disapproved apps will remain in their disapproved status until manually approved.
-
-
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009953560/original/h5AsP5DCRiqRGX_PyfSmNDr2oG4uDAaodg.png?1697116108)**
-
-##   
-
-
+**Effects of Re-enabling:**  
   
 
 
-**  
-**
+  * All new public apps will automatically be approved for your sub-accounts.  
+  
 
-**  
-**
+  * All previously approved apps will become visible and installable at the sub-account level.  
+  
 
-###
+  * Disapproved apps will remain in their disapproved status until manually approved.  
+  
+
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155009953560/original/h5AsP5DCRiqRGX_PyfSmNDr2oG4uDAaodg.png?1697116108)**

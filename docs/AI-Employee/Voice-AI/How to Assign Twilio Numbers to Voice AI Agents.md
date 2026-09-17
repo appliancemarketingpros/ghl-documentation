@@ -6,7 +6,7 @@
 
 ---
 
-Twilio number support allows Voice AI agents to use Twilio-connected phone numbers or number pools for call handling. Once a Twilio number is available in the sub-account, it can be assigned to a Voice AI agent from the **Phone & Availability** area. This article explains how to assign Twilio numbers to Voice AI agents, review routing and availability settings, and test inbound call behavior.
+Twilio number support allows Voice AI agents to use Twilio-connected phone numbers or number pools for call handling. Once a Twilio number is available in the sub-account, it can be assigned to a Voice AI agent from the agent's **Deploy** tab. This article explains how to assign Twilio numbers, review Call Routing and Working Hours, and test inbound call behavior.
 
 * * *
 
@@ -37,9 +37,7 @@ Twilio number support lets Voice AI agents handle calls through Twilio-connected
   
 
 
-Phone numbers are assigned per agent from the **Deploy** tab. If you manage multiple Voice AI agents, review each agent’s assigned numbers, routing, and availability separately.
-
-**Screenshot: Voice AI agent opened on the Deploy tab showing Phone & Availability.**
+Phone numbers are assigned per agent from the Deploy tab. If you manage multiple Voice AI agents, review each agent’s assigned numbers, routing, and availability separately.
 
 * * *
 
@@ -115,7 +113,7 @@ Before assigning a Twilio number, confirm the following:
   
 
 
-  * You have permission to edit Voice AI agents and phone availability settings.
+  * You have permission to edit Voice AI agents and deployment settings.
 
 
   
@@ -161,7 +159,7 @@ If you are unsure which option to use, review how the number or number pool is c
   
 
 
-Twilio numbers are assigned from the selected Voice AI agent’s **Deploy** tab. The **Phone & Availability** section controls which numbers are connected to the agent, how call routing behaves, and when the agent should be available.
+Twilio numbers are assigned from the selected Voice AI agent's **Deploy** tab. From Deploy, you can manage phone assignment, Call Routing, and Working Hours for the selected agent.
 
 ###   
 
@@ -217,41 +215,7 @@ Select **Deploy** to access the agent’s deployment settings. This area control
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073870225/original/DGnH1wK9wfhTBmsYpqCbZrqDfvwJemX6rQ.png?1781696092)
-
-  
-
-
-  
-
-
-### **Open Phone & Availability**
-
-  
-
-
-In the Deploy area, open **Phone & Availability**. This section contains phone number assignment, call routing, backup behavior, and working hours for the selected agent.
-
-  
-
-
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073870551/original/sjWXaVhzlP3gSCXhePBQaN2ZCt02Z5JSzg.png?1781696258)**  
-
-
-  
-
-
-### **Click Edit Phone Numbers**
-
-  
-
-
-Select **Edit Phone Numbers** to open the phone number selection modal. This is where you can choose the Twilio number or number pool that should be associated with the agent.
-
-  
-
-
-### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073870863/original/5Z5sFdnELucmAhsomfMIX6bQjISwrgZm2w.png?1781696366)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079264635/original/XaOwhEUkcooOCYb63ZNBezCvBfDfZYT1KA.png?1787667277)
 
   
 
@@ -269,11 +233,45 @@ Choose the Twilio number or available number pool that should route calls to the
   
 
 
-### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073871060/original/Nk8-aYNWVObmp_r32CbsADKgLYBs2_MHKQ.png?1781696443)
+### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079270203/original/lzoOWFmTQ2Ej5cxJ0qQ_uI058X_wip4OXw.png?1787670550)
 
   
 
 
+  
+
+
+### **Buy a new phone number**
+
+  
+
+
+If you need a new phone number, you can purchase one without leaving the agent's **Deploy** tab.
+
+  
+
+
+  1. In the **Phone** section, click **Buy new number** below **Numbers & number pool**.  
+  
+
+  2. Complete the phone-number purchase.  
+  
+
+  3. After the purchase is complete, choose whether to assign the new number to the Voice AI agent.  
+  
+
+  4. Confirm the correct number appears under **Numbers & number pool** before continuing with Call Routing and Working Hours.  
+  
+
+
+You can also click **Manage numbers** from the Phone section to manage existing phone numbers.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079270706/original/g1g44iFp6evmPeqJNLLWFyBysO5lBmht-Q.png?1787670988)
+
+  
   
 
 
@@ -282,17 +280,23 @@ Choose the Twilio number or available number pool that should route calls to the
   
 
 
-Review the call routing options for the selected number or number pool. If available, check whether **Enable AI Agent as a backup to the phone number/number pool** should be turned on.
+Choose how the Voice AI agent should handle incoming calls:  
+  
+
+
+  * **Answer Calls Directly:** Use this mode when the Voice AI agent should answer incoming calls directly.  
+  
+
+  * **Use as Backup:** Use this mode when the Voice AI agent should act as a backup for the primary call path.  
+  
+
+
+Review the selected mode carefully so calls follow the intended routing behavior.
 
   
 
 
-Backup behavior allows the Voice AI agent to act as a fallback based on the configured routing. Review this carefully so calls are handled by the correct destination when the primary route is unavailable or unanswered.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073871768/original/50MSD4fRnWEmIfdX5Wh_Llai51GBXG0jqw.png?1781696827)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079270346/original/tbYHtUdAO96gGtR0aHgQ9Qke4W2r0QU84Q.png?1787670654)
 
   
 
@@ -305,17 +309,16 @@ Backup behavior allows the Voice AI agent to act as a fallback based on the conf
   
 
 
-Use **Working Hours** to define when the Voice AI agent should be available. You can configure agent-specific availability by day and time.
+Use **Working Hours** to control when the Voice AI agent is available.  
+  
+
+
+Choose **All Hours** for unrestricted availability, or choose **Custom Schedule** to configure specific active days and time ranges.
 
   
 
 
-Calls outside working hours may follow the configured routing, backup, or unavailable-call behavior for the number or number pool.
-
-  
-
-
-### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073872004/original/a83Yr__exCpTvuW83kLQC3CkWqhs8yv-jA.png?1781696933)
+### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079270387/original/E9SszWD3nW5lhXdet5JoWa8NL_EZzBr3Ww.png?1787670685)
 
   
 
@@ -333,7 +336,7 @@ Click **Save** to apply the number assignment, routing, and availability changes
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073872148/original/s3wgbjCnHf_R8DFzyq2F9_9haDAyrSy6JQ.png?1781697009)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079270441/original/5GVyM9-kSxYhwAiIwbR3XgYp7kBOwnsanA.png?1787670734)
 
 ###   
 
@@ -347,46 +350,27 @@ Call the selected Twilio number to confirm the Voice AI agent answers as expecte
 
 * * *
 
-## **Call Routing and AI Backup Behavior**
+## **Call Routing Modes**
 
   
 
 
-Call routing determines how calls are handled when they come through the assigned number or number pool. The AI backup option can allow the Voice AI agent to act as a fallback when the primary call destination is unavailable or unanswered.
+Call Routing controls how the Voice AI agent handles incoming calls through the assigned number or number pool.
+
+Choose the mode that matches the intended call flow:
 
   
 
 
-Review these settings carefully because assigning a number alone may not guarantee that every call reaches Voice AI. Routing, working hours, backup settings, and phone number configuration can all affect the final call path.
-
+  * **Answer Calls Directly:** The Voice AI agent answers incoming calls directly.  
   
 
 
-Use call routing and AI backup behavior when you want to:
-
+  * **Use as Backup:** The Voice AI agent acts as a backup when the primary call path does not answer.  
   
 
 
-  * Let Voice AI answer when the primary route is unavailable.
-
-
-  
-
-
-  * Support fallback coverage for missed or unanswered calls.
-
-
-  
-
-
-  * Control whether the agent participates in the call flow.
-
-
-  
-
-
-  * Reduce missed calls by giving callers an AI-handled option.
-
+Assigning a number alone does not guarantee that every call reaches Voice AI. Call Routing, Working Hours, and the phone number's broader call-flow configuration can affect how incoming calls are handled.
 
 * * *
 
@@ -438,12 +422,9 @@ When configuring working hours, review each day and time block carefully. If the
   
 
 
-Assigning a number in **Phone & Availability** controls how the selected agent is available for calls through that number or number pool. This is especially important for inbound call handling.
+Assigning a number from the agent's Deploy tab controls how the selected agent is available for calls through that number or number pool. This is especially important for inbound call handling.
 
-  
-
-
-Outbound Voice AI calls configured through workflows may use separate outbound call setup. If you are configuring outbound Voice AI, review the outbound-specific setup resources instead of relying only on Phone & Availability.
+Outbound Voice AI calls configured through workflows may use separate outbound call settings. If you are configuring outbound Voice AI, review the outbound-specific setup resources instead of relying only on the agent's Deploy settings.
 
 * * *
 
@@ -486,16 +467,13 @@ Recommended testing checks:
   
 
 
-  * Confirm backup behavior works if AI backup is enabled.
+  * Confirm the selected Call Routing mode behaves as expected.
 
 
   
 
 
   * Confirm the wrong agent does not answer the call.
-
-
-  
 
 
   
@@ -518,7 +496,7 @@ It means Twilio-connected numbers or number pools available in the sub-account c
 
 
 **Q: Where do I assign a Twilio number to a Voice AI agent?**  
-Go to **AI Agents > Voice AI > Agents**, select the agent, then open **Deploy > Phone & Availability**.
+Go to **AI Agents > Voice AI > Agents**, select the agent, then open **Deploy > Phone.**
 
   
 
@@ -536,13 +514,14 @@ Confirm the number is connected to the sub-account and available in phone number
 
 
 **Q: Does assigning a number guarantee Voice AI will answer every call?**  
-Not always. Call routing, AI backup behavior, working hours, and phone number configuration can affect whether Voice AI receives the call.
+Not always. Call Routing, Working Hours, and the phone number's call-flow configuration can affect whether Voice AI receives the call.
 
   
 
 
-**Q: What does the AI backup setting do?**  
-The AI backup setting allows the Voice AI agent to act as a fallback for the selected number or number pool based on configured routing behavior.
+**Q: What does Use as Backup do?**
+
+**Use as Backup** configures the Voice AI agent to act as a backup when the primary call path does not answer.
 
   
 
@@ -566,7 +545,9 @@ Call the selected Twilio number and confirm the intended Voice AI agent answers.
 
 
 **Q: Is outbound Voice AI configured here?**  
-Not fully. Phone & Availability controls agent availability for assigned numbers or number pools. Outbound Voice AI calls configured through workflows may use separate outbound setup.
+
+
+Not fully. The **Deploy** tab manages deployment settings for assigned numbers or number pools. Outbound Voice AI calls configured through workflows may use separate outbound settings.
 
 * * *
 

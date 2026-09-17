@@ -9,7 +9,7 @@
 Welcome to an overview of the LaunchPad for agency accounts in HighLevel! This feature brings a guided, video-based onboarding experience to agency users, making it easier than ever to get started and realize value quickly.
     
     
-    **IMPORTANT** : This feature is currently only supported for new sign-ups.
+    **IMPORTANT** : The new Agency LaunchPad is available to eligible agency accounts on the $97, $297, and $497 plans that were created on or after **June 5, 2025**. Agency accounts created before this date do not currently have access to the new Agency LaunchPad.
 
 * * *
 
@@ -60,27 +60,39 @@ LaunchPad for Agency Accounts offers several advantages that help agencies onboa
 
 ## **Use Agency LaunchPad**
 
-Setting up and using the LaunchPad is straightforward, as it is automatically enabled for eligible agency accounts. Here’s how to get started and make the most of it:
+Agency LaunchPad is automatically available to eligible agency accounts. Before getting started, confirm that your agency account meets the availability requirements above.
 
   1. **Log in** to your HighLevel agency account.  
   
 
-  2. **Navigate to LaunchPad** (if you don't see it you can wait for the rollout or ask support to activate it).  
+  2. In the Agency View, locate **LaunchPad** in the navigation menu.  
   
 
-  3. Admins can hide LaunchPad by role permissions. If you don’t see it, verify your role permissions or ask an agency admin.  
+  3. If your eligible account does not show LaunchPad, verify that your user role has permission to access it.  
   
 
-  4. **Review the Guided Actions** : The LaunchPad presents a series of key onboarding actions. Just start with the one that is most relevant to you.  
+  4. If LaunchPad is still unavailable after confirming your permissions, contact HighLevel Support for assistance.  
   
 
-  5. **Click, Watch, Use** : Click on any action to navigate directly to that part of HighLevel, watch the video to learn what to do, then use the platform to perform the action.  
+  5. If your agency account was created before **June 5, 2025** , the new Agency LaunchPad is not currently available for that account.  
   
 
-  6. **Return to LaunchPad** : Navigate back to the LaunchPad.  
+  6. **Navigate to LaunchPad** (if you don't see it you can wait for the rollout or ask support to activate it).  
   
 
-  7. **Track Your Progress** : As you complete actions, the LaunchPad will update to reflect your progress.
+  7. Admins can hide LaunchPad by role permissions. If you don’t see it, verify your role permissions or ask an agency admin.  
+  
+
+  8. **Review the Guided Actions** : The LaunchPad presents a series of key onboarding actions. Just start with the one that is most relevant to you.  
+  
+
+  9. **Click, Watch, Use** : Click on any action to navigate directly to that part of HighLevel, watch the video to learn what to do, then use the platform to perform the action.  
+  
+
+  10. **Return to LaunchPad** : Navigate back to the LaunchPad.  
+  
+
+  11. **Track Your Progress** : As you complete actions, the LaunchPad will update to reflect your progress.
 
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155048040755/original/NmNcMEL-8uIyyw8lknz0ip55ABPL6CHD2w.png?1749604478)
@@ -131,18 +143,25 @@ LaunchPad includes improvements that help users complete guided onboarding actio
 
 ## **Frequently Asked Questions**
 
-**Q: Who gets access to the LaunchPad for Agency Accounts?**
+**Q: Who gets access to Agency LaunchPad?**
 
-All agency accounts on the $97, $297, and $497 plans are eligible. Currently, it’s being rolled out on a forward-going basis — meaning only new accounts created after the launch (5th June, 2025) will have access to the new LaunchPad version.
+Agency accounts on the **$97, $297, and $497 plans** are eligible when the agency account was created on or after **June 5, 2025**.
 
+Agency accounts created before June 5, 2025 do not currently have access to the new Agency LaunchPad.
+
+  
+
+
+**What should I do if I don't see Agency LaunchPad?**
+
+The next step depends on when your agency account was created:  
   
 
 
-**Q: What if I don’t see the LaunchPad when I log in?**
-
-The new LaunchPad is currently rolled out only to accounts created after its launch. So, if your account was created before 5th June 2025, it won’t have access to the new agency LaunchPad.
-
+  * **Account created on or after June 5, 2025:** Confirm that your user role has permission to access LaunchPad. If you are eligible and LaunchPad is still unavailable, contact HighLevel Support.  
   
+
+  * **Account created before June 5, 2025:** The new Agency LaunchPad is not currently available for the account. Waiting for rollout or requesting activation from Support is not required. 
 
 
   

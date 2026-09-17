@@ -6,319 +6,206 @@
 
 ---
 
-Before deploying your agent, it is important to test how it responds in real conversations. HighLevel Test Calls let you validate your Voice AI agent through either a Phone Call or a Web Call, so you can review its behavior, refine prompts, and confirm settings before launch. This article explains how Test Calls work, how to run each test method, and where to review your results.
+Voice AI • Testing • Web & Phone Calls
 
-* * *
+How to Test Voice AI Agents
 
-**TABLE OF CONTENTS**
+Testing a Voice AI agent before launch helps identify prompt gaps, incorrect responses, action failures, and telephony issues before customers interact with the agent. HighLevel supports both browser-based Web Call testing and Phone Call testing for a more production-like phone experience. Test-call logs can then be reviewed without affecting dashboard analytics or performance metrics.
 
-  * What are Test Calls for Voice AI Agents? 
-  * Key Benefits of Test Calls
-  * How To Setup Test Calls (Web Call & Phone Call)
-    * Type 1 : Start a Web Call
-    * Type 2: Start a Phone Call
-  * Test Call History & Logs
-  * Outbound Scenario Availability
-  * Frequently Asked Questions
-  * Related Articles
+What You'll Learn
+
+Learn when to use Web Call versus Phone Call testing, how to run each test method, where to review test-call logs, which Web Call limitations apply, and what to check when the Outbound scenario is unavailable.
+
+Important
+
+**Web Call does not replace phone-based validation.** Web Call is ideal for fast prompt and conversation testing, but Call Transfer is not supported during Web Call trials and browser testing does not validate the complete phone-number routing experience. Use Phone Call testing before launch when you need to confirm telephony-specific behavior.
+
+Table of Contents
+
+1\. What are Test Calls for Voice AI Agents?  
+2\. Key Benefits of Test Calls  
+3\. Web Call vs. Phone Call Testing  
+4\. Before You Test  
+5\. How To Test Voice AI Agents  
+6\. Test Call History & Logs  
+7\. Outbound Scenario Availability  
+8\. Frequently Asked Questions  
+9\. Related Articles
+
+1
+
+# What are Test Calls for Voice AI Agents?
+
+Test Calls let you interact with a Voice AI agent before relying on it for live customer conversations. Testing helps verify prompts, Knowledge Base answers, greetings, actions, conversation flow, and the overall caller experience while giving you an opportunity to correct problems before launch.
+
+HighLevel provides two test methods: **Web Call** for fast browser-based testing and **Phone Call** for validating the experience through an actual phone connection. After testing, you can review available transcripts, recordings, outcomes, and other call details in Voice AI logs.
+
+2
+
+## Key Benefits of Test Calls
+
+Testing creates a controlled feedback loop for improving an agent before real callers depend on it. Using the appropriate test method also helps separate prompt-quality issues from phone-routing or telephony issues.
+
+  * **Faster Validation:** Start a Web Call directly from your browser without purchasing or assigning a phone number.
+  * **Production-Like Testing:** Use Phone Call testing to validate behavior through a real phone connection.
+  * **Prompt Improvement:** Hear the agent respond, update prompts or knowledge, and retest immediately.
+  * **Action Testing:** Validate supported agent actions before relying on them during live conversations.
+  * **Conversation Review:** Use available transcripts and recordings to evaluate pacing, responses, and caller experience.
+  * **Clean Analytics:** Test calls appear in logs for review but are excluded from dashboard analytics and performance metrics.
 
 
-* * *
+3
 
-# **What are Test Calls for Voice AI Agents?**
+## Web Call vs. Phone Call Testing
 
+Web Call and Phone Call testing validate different parts of the Voice AI experience. Web Call is best for rapid iteration inside the browser, while Phone Call is better when you need to confirm behavior that depends on real telephony.
+
+Capability| Web Call| Phone Call  
+---|---|---  
+**Phone number required**|  No| Uses your telephony setup  
+**Best for**|  Prompts, responses, conversation flow, and supported actions| Phone routing, caller ID, transfer paths, and production-like behavior  
+**Call transfer**|  Not supported during Web Call trials| Use Phone Call testing to validate transfer behavior  
+**Caller context**|  Uses the logged-in user’s contact during the trial| Uses the phone number entered for the test  
+**Cost**|  No phone-number setup required| Standard telephony rates may apply  
   
+4
 
+## Before You Test
 
-Testing your Voice AI agent before launch helps you catch gaps early and improve performance before prospects or customers interact with it. Test Calls give you a safe way to simulate real conversations, verify how your agent responds, and confirm that prompts, knowledge, actions, and settings are working as expected.
+Preparing the agent and testing environment first reduces false failures and helps ensure the test reflects the configuration you actually intend to deploy.
 
-  
+  * Save the latest agent configuration before starting the test.
+  * Confirm your prompt, greeting, Knowledge Base, and configured actions are ready to validate.
+  * For Web Call, use a modern browser and allow microphone access.
+  * Confirm the correct input and output devices are selected.
+  * Close or adjust other applications that may be using the microphone.
+  * For Phone Call testing, confirm the caller ID and destination number you intend to use.
 
 
-With Test Calls, you can evaluate how your agent handles different scenarios, whether that means answering questions, following instructions, or guiding a caller through the next step in a conversation. HighLevel offers two ways to test: **Phone Call** and **Web Call**. A Phone Call helps you validate the full telephony experience, while a Web Call lets you test instantly in your browser without buying or assigning a number.
+5
 
-  
+## How To Test Voice AI Agents
 
+Use Web Call for fast conversation testing and Phone Call when you need to validate the real phone experience. Retest after meaningful prompt, knowledge, action, or call-setting changes so the latest configuration is validated before launch.
 
-Both methods are useful for improving call quality, adjusting conversation flow, and building confidence before going live. During Web Call trials, call transfer is not supported, and the session uses your logged-in contact as the caller identity.
+### Type 1: Start a Web Call
 
-* * *
+Web Call launches directly in your browser and is the fastest way to test prompts, responses, conversation flow, and supported actions without assigning a phone number.
 
-## **Key Benefits of Test Calls**
+  1. Go to **AI Agents > Voice AI**.
+  2. Open the Voice AI agent you want to test.
+  3. Locate the **Test Your Agent** panel.
+  4. Select **Web Call**.
+  5. Choose the available **Inbound** or **Outbound** scenario.
+  6. Click **Start Web Call**.
+  7. Allow microphone access when prompted.
+  8. Speak with the agent and evaluate its responses, actions, and conversation flow.
 
-  
 
+![Voice AI agent testing panel showing Web Call and Phone Call options](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080814578/original/FaEB5G9D0NvqXi6BZyEV6stZJNZOBgx2Nw.png?1789331226)
 
-  * **Faster testing** : Start a Web Call instantly without dialing or purchasing a phone number.  
-  
+![Live Transcript during a Voice AI Web Call test](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155067508823/original/k5ArbdGIf2leGeguY0Fwj-8WaX3797hrYQ.png?1774275423=)
 
+**Web Call limitation:** Call Transfer is not supported during Web Call trials. Use Phone Call testing or the deployed phone experience when transfer behavior needs to be validated.
 
-  * **Realistic validation** : Use the Phone Call method to test the full telephony experience from end to end.  
-  
+### Type 2: Start a Phone Call
 
+Phone Call testing uses your telephony setup and is better suited for validating caller ID, real phone connectivity, transfer paths, and other phone-specific behavior before launch.
 
-  * **Rapid feedback loops** : Hear responses right away, then update prompts, knowledge, and settings based on what you learn.  
-  
+  1. Open the Voice AI agent and locate **Test Your Agent**.
+  2. Select **Phone Call**.
+  3. Choose the available **Inbound** or **Outbound** scenario.
+  4. Select the **Caller ID** the agent should call from.
+  5. Enter the phone number that should receive the test call.
+  6. Click **Call me**.
+  7. Answer the call and test the agent as a real caller would.
 
 
-  * **High feature parity** : Test nearly all agent actions during trials, with the exception of call transfer during Web Call.  
-  
+**Billing note:** Phone Call testing uses your normal telephony setup, so standard telephony rates may apply.
 
+6
 
-  * **Clear caller identity** : Web Call uses the logged-in user's contact for consistent testing context.  
-  
+## Test Call History & Logs
 
+Test-call logs provide the detail needed to understand how an agent handled a trial conversation. Reviewing the recording and transcript together can reveal response errors, timing issues, silence, interruptions, action behavior, and other opportunities to improve the agent.
 
-  * **Test data hygiene** : Keep trial activity out of dashboard analytics and performance metrics so production insights remain accurate.
+**Analytics behavior:** Test calls can appear in Voice AI logs, but they are excluded from dashboard analytics and performance metrics.
 
+  1. Go to **AI Agents > Voice AI > Dashboard & Logs**.
+  2. Select **All Agents** or choose the specific agent you tested.
+  3. Confirm the date range includes the date of the test.
+  4. Open the **Live/Test** filter in the logs table and select **Test**.
+  5. Open the applicable log entry to review its available call details.
 
-* * *
 
-## **How To Setup Test Calls (Web Call & Phone Call)**
+![Voice AI Dashboard and Logs navigation](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073886742/original/wNjC72GYr-uOuGXQ6FXzunJvLuVTfcMHUg.png?1781702901=)
 
-  
+![Voice AI Live and Test filter in call logs](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073890886/original/SrPM6mmU-QNDIPD1bvAhGXL_CCnBEbOUGw.png?1781704591=)
 
+![Voice AI test call log entries with summary and call details](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155073891260/original/KEASsf1YnfffsHo3rxg9PvuQk48WYqWWEA.png?1781704731=)
 
-Running test calls regularly helps you validate changes before they affect live conversations. Use the steps below to launch either testing method and confirm your browser, device, and telephony settings are ready.
-
-  
-
-
-### **_Type 1 : Start a Web Call_**
-
-  
-
-
-Start a Web Call Web Call is the fastest way to test your Voice AI agent because it launches directly in your browser. It is ideal when you want to validate responses, prompts, and conversation flow without purchasing or assigning a phone number.
-
-  
-
-
-  1. Open**AI Agents** from the left sidebar and Click on **Voice AI** in the top navigation ribbon  
-  
-
-
-  2. Select **Agent List** in the secondary navigation ribbon then edit the agent you would like to test  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155053575402/original/U6-ugDbqmwvl2bIkDDUcV5-BkKsrga68Lg.png?1757598166)  
-  
-
-  3. On the Right side **Test Your Agent** panel click on **Web Call** and choose your Scenario **(Inbound or Outbound)**. Then click on **Start Web Call.**
-
-  
-**![](https://jumpshare.com/share/nljlFPbMsw5QPEt8hIqV+/Screen+Shot+2026-06-29+at+11.52.23.png)**  
-  
-
-
-  4. When prompted,**allow microphone access** in your browser.  
-  
-
-
-  5. Speak with your agent and observe responses and actions. During a Web Call trial, the call screen shows a **Live Transcript** panel. It updates in real time as you and the agent speak.  
-  
-_(Reminder:**call transfer is not supported** in Web Call trials.). _  
-  
-
-  6. Adjust prompts, knowledge base, or settings as needed, then repeat the trial.  
-  
-![](https://jumpshare.com/share/UGXVIKmhdBkFDX7UXbmF+/GIF+Recording+2026-06-29+at+11.55.17.gif)  
-  
-
-
-### **Note:**
-
-  
-
-
-  * ****Faster Testing** – **No need to **dial** or **purchase** a phone number. Simply click and start testing right away.  
-**  
-**
-  * **What it does:** Opens a browser‑based call so you can speak with the agent immediately.  
-  
-
-  * **Caller identity:** Uses the **logged‑in user’s contact** automatically.  
-  
-
-  * **Limitations:****Call transfer is not supported** in Web Call trials.  
-  
-
-  * **Device tips:** Allow microphone access, confirm input/output devices, and use an up‑to‑date browser.  
-  
-
-
-### **_Type 2: Start a Phone Call_**
-
-  
-
-
-Start a Phone Call Phone Call testing is useful when you want to validate the real calling experience through your telephony setup. It helps confirm how the agent behaves over an actual phone connection, including caller ID behavior and end-to-end call flow.
-
-  
-
-
-  1. On the Right side **Test Your Agent** section, click on **Phone** **Call** and choose your Scenario**(Inbound or Outbound).**   
-  
-
-  2. Proceed to **Select Caller ID** (the number the agent will use to call you).  
-  
-
-  3. Enter **Your Phone Number** (the number to receive the test call).  
-  
-
-
-  4. Click**Call me** to start the test and **answer the incoming call** on your device.  
-  
-![](https://jumpshare.com/share/uW0CMbfeKleULu627LIi+/Screen+Shot+2026-06-29+at+11.59.19.png)  
-  
-
-
-### **Note:**
-
-  
-
-
-  * **Select Caller ID:** Choose the phone number your agent will use to call you.  
-  
-
-
-  * **Enter Your Phone Number:** Provide the destination number to receive the test call.  
-  
-
-
-  * **Receive the Call:** Answer and interact with your agent as a caller would.  
-  
-
-
-  * **Billing note:** Phone‑based test calls use your normal telephony setup; **standard rates may apply**.
-
-
-* * *
-
-## **Test Call History & Logs**
-
-  
-
-
-When you're testing your Voice AI Agent, you can go back and look at previous test calls to learn more about the conversation and how the **AI Agent** interacted with the **caller**. Use this quick reference to understand what each field means so you can diagnose issues faster and confirm whether your agent achieved the intended outcome.
-
-  
-
-    
-    
-    **Analytics behavior:** Test calls are **excluded** from **D****ashboard Analytics and Performance Metrics.**
-
-  
-
-
-Understand where to review test results so you can iterate efficiently.  
-  
-
-
-  * **Where to find:** From the **Test Your Agent** , after your Test Call open **Call History** OR  
-  
-![](https://jumpshare.com/share/6xtAtDMfL6R6YRrCr3XT+/GIF+Recording+2026-06-29+at+12.12.41.gif)  
-  
-
-
-  * Go to **Voice AI → Dashboards & Logs** and filter by **Call Type: Test**  
-  
-
-
-  * **What you’ll see:** **Duration** , **Call Status** (e.g., Completed/Missed), **Transcript** , **Recording playback** , and **Call Summary**.  
-  
-![](https://jumpshare.com/share/vn9RFuh1a0bCbz1PRdEV+/GIF+Recording+2026-06-29+at+12.15.18.gif)  
-  
-
-
-Field| Description  
+Detail| How It Helps  
 ---|---  
-**Scenario**|  Shows whether the call ran as **Inbound** or **Outbound** , so you can compare behaviors across different call directions.  
-**Duration**|  Total connected time. Very short durations can indicate early hang-ups or permission issues.  
-**Call Status (e.g., Completed, Missed)**|  Final outcome such as Completed, Missed, Failed, or Canceled.  
-**Transcript of the Conversation**|  Full conversation text for review and prompt tuning.  
-**Call Recording Playback**|  Audio playback (if available) to evaluate voice quality, pacing, and tone.  
-**Caller Identity**|  For Web Call, the session maps to the logged-in user’s contact; for Phone Call, you’ll see the dialed destination number.  
-**Call Summary**|  Auto-generated recap of the conversation and outcomes for quick scanning.  
+**Call Status / Outcome**|  Confirm whether the test completed successfully or encountered a call issue.  
+**Transcript**|  Review the conversation quickly and identify prompt or knowledge gaps.  
+**Recording**|  Evaluate voice quality, pacing, interruptions, silence, and overall caller experience.  
+**Actions Triggered**|  Confirm supported configured actions ran when expected.  
+**Call Summary**|  Scan the conversation outcome before reviewing the complete transcript or recording.  
   
-  
-* * *
+7
 
-## **Outbound Scenario Availability**
+## Outbound Scenario Availability
 
-  
+The Outbound test scenario depends on the location meeting Voice AI outbound eligibility and compliance requirements. The previous separate **Enable Outbound Calls** setup flow is no longer the required path for accepting outbound calling terms.
 
+If the **Outbound** scenario is not available:
 
-Outbound testing is available only when your sub-account has been approved for Voice AI outbound calling and the required compliance setup is complete. If the **Outbound** scenario does not appear, go to **AI Agents → Voice AI** , click **Enable Outbound Calls** , and complete the registration process.
-
-  
-
-
-**Check out our detailed articles on:**[Voice AI Outbound Calling](<https://help.gohighlevel.com/en/support/solutions/articles/155000006598>) , [Voice AI Outbound Calling Compliance Checks](<https://help.gohighlevel.com/en/support/solutions/articles/155000006679>) , [Voice AI Outbound Calling Dashboard](<https://help.gohighlevel.com/en/support/solutions/articles/155000006680>) , [Voice AI - META Form Consent Guide For Outbound](<https://help.gohighlevel.com/en/support/solutions/articles/155000007987>)**  
-**  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155061009588/original/_aDI7U_fjSk3_7ZxPqt-uyI8RQYQdnsINA.png?1766149868)
-
-* * *
-
-## **Frequently Asked Questions**
-
-  
+  * Confirm the location meets Voice AI outbound eligibility requirements.
+  * Complete applicable KYC or location-verification requirements when prompted.
+  * Confirm an eligible Voice AI agent and outbound phone number are available.
+  * When required outbound terms have not yet been accepted, they can be accepted while configuring the **Voice AI Outbound Call** action in a workflow.
 
 
-**Q: Do I need to buy a phone number to test?**  
-**Web Call:** No number is required. **Phone Call:** Uses your existing telephony setup and **standard rates may apply**.  
-  
+**Learn more:** [Voice AI Outbound Calling](<https://help.gohighlevel.com/support/solutions/articles/155000006598-voice-ai-outbound-calling>) and [Voice AI Outbound Calling Compliance Checks](<https://help.gohighlevel.com/support/solutions/articles/155000006679-voice-ai-outbound-calling-compliance-checks>).
 
+8
 
-**Q: Are test calls included in analytics?**  
-No. **Test calls are excluded** from dashboard analytics and performance metrics.  
-  
+## Frequently Asked Questions
 
+Q: Do I need to buy a phone number to test a Voice AI agent?
 
-**Q: Will I see transcripts and recordings for trials?**  
-Yes. Open **Call History** or **Dashboards & Logs** to access **transcripts, recordings, and call summaries** for test calls.  
-  
+No for Web Call. Web Call runs in your browser without purchasing or assigning a phone number. Phone Call testing uses your telephony setup.
 
+Q: Are test calls included in Voice AI dashboard analytics?
 
-**Q: Can I test call transfers?**  
-**Web Call:** Not supported. **Phone Call:** Behaves according to your agent configuration and telephony setup.  
-  
+No. Test calls can appear in logs for review, but they are excluded from dashboard analytics and performance metrics.
 
+Q: Where can I find completed test calls?
 
-**Q: Who is shown as the caller in a Web Call?**  
-The **logged‑in user’s contact** is automatically used as the caller identity for the trial.  
-  
+Go to **AI Agents > Voice AI > Dashboard & Logs**, confirm the agent and date range, then use the **Live/Test** filter to display test activity.
 
+Q: Can I review transcripts and recordings for test calls?
 
-**Q: Which method should I choose?**  
-Use **Web Call** for rapid iteration without number setup. Use **Phone Call** to validate telephony‑specific experiences end‑to‑end.
+Yes. Test-call logs can include transcripts and recordings when those details are available and processing is complete.
 
-  
+Q: Can I test call transfers using Web Call?
 
+No. Call Transfer is not supported during Web Call trials. Use Phone Call testing or the deployed phone experience to validate transfer behavior.
 
-**Q: Do test calls affect my analytics?**  
-Test calls are meant for Quality Assessment and are **excluded** from your analytics.
+Q: Why can’t I find a test call in Dashboard & Logs?
 
-* * *
+Check the selected agent, date range, and Live/Test filter. Also confirm the test call completed successfully and allow time for available call details to finish processing.
 
-### **Related Articles**
+Q: Which test method should I use before launch?
 
-  
+Use Web Call for rapid prompt and conversation testing. Use Phone Call before launch when you need to validate phone-number behavior, routing, transfers, or the complete telephony experience.
 
+Q: What should I check if the Outbound test scenario does not appear?
 
-  * [AI Voice Agents Overview](<https://help.gohighlevel.com/support/solutions/articles/155000003911-ai-voice-agents-overview>)  
-  
+Confirm the location meets Voice AI outbound eligibility requirements and complete applicable verification requirements such as KYC. Required outbound calling terms can be accepted when configuring the Voice AI Outbound Call action in a workflow.
 
+9
 
-  * [Call Logs for Voice AI Agents](<https://help.gohighlevel.com/support/solutions/articles/155000005900-call-logs-for-voice-ai-agents>)  
-  
+### Related Articles
 
-
-  * [Test Call Logs visible in Voice AI Dashboard](<https://help.gohighlevel.com/support/solutions/articles/155000005211-test-call-logs-visible-in-voice-ai-dashboard>)  
-  
-
-
-  * [Voice AI Agents Dashboard](<https://help.gohighlevel.com/support/solutions/articles/155000004693-voice-ai-agents-dashboard>)  
-  
-
-
-  * [Managing Granular Permissions for Voice AI Agents](<https://help.gohighlevel.com/support/solutions/articles/155000005680-managing-granular-permissions-for-voice-ai-agents>)[](<https://help.gohighlevel.com/support/solutions/articles/155000005217-test-voice-ai-agent-while-creating-the-agent>)
+[ Web Call Testing for Voice AI Agents ](<https://help.gohighlevel.com/support/solutions/articles/155000007566-web-call-testing-for-voice-ai-agents>) [ How to View Test Call Logs in the Voice AI Dashboard ](<https://help.gohighlevel.com/support/solutions/articles/155000005211-test-call-logs-visible-in-voice-ai-dashboard>) [ Call Logs for Voice AI Agents ](<https://help.gohighlevel.com/support/solutions/articles/155000005900-call-logs-for-voice-ai-agents>) [ Voice AI Agents Dashboard Overview ](<https://help.gohighlevel.com/support/solutions/articles/155000004693-voice-ai-agents-dashboard-overview>) [ Voice AI Outbound Calling ](<https://help.gohighlevel.com/support/solutions/articles/155000006598-voice-ai-outbound-calling>) [ Voice AI Outbound Calling Compliance Checks ](<https://help.gohighlevel.com/support/solutions/articles/155000006679-voice-ai-outbound-calling-compliance-checks>)

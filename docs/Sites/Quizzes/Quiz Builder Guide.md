@@ -130,6 +130,17 @@ There are many prebuilt quiz elements to drag & drop. In addition to the quick a
   
 
 
+### **Add Object Fields**
+
+Use **Add Object Fields** in the Quiz Builder to browse or search fields from supported objects.
+
+You can select multiple fields and add them together by clicking **Add N fields** or by dragging the selected group onto the quiz canvas.
+
+Field rows display their type and query key to help you identify the correct field.
+
+  
+
+
 Type| Name| Description  
 ---|---|---  
 Quick Add > Questions| Single Choice| Many options visible, one selection.  

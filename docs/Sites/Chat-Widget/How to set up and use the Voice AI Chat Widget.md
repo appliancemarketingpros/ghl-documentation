@@ -20,14 +20,12 @@ This guide explains what the Voice AI Chat Widget does, how to set it up, and ho
     * Step 2: Configure the Widget
     * Step 3: Add the widget to a website or funnel
     * Step 4: How visitors interact
+    * Connect a Chat Widget from Voice AI Deploy
   * Best Practices
   * Security and Compliance
   * Troubleshooting
   * Example: Setting up for lead capture
   * Frequently Asked Questions
-
-
-  
 
 
 * * *
@@ -191,6 +189,57 @@ When a visitor opens the chat widget:
   
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155055903553/original/UKfdKiG-95x90FwGZZqvYEx2Gb1vGl6t8A.png?1760398471)
 
+
+* * *
+
+## **Connect a Chat Widget from Voice AI Deploy**
+
+  
+
+
+You can also connect a Chat Widget directly from a Voice AI agent's **Deploy** tab without leaving the agent setup.  
+  
+
+
+  1. Go to **AI Agents > Voice AI** and select the agent.  
+  
+
+
+  2. Open the **Deploy** tab.  
+  
+
+
+  3. In the **Widgets** section, locate **Chat widgets**.  
+  
+
+
+  4. To connect an existing widget, select the widget you want to associate with the Voice AI agent.  
+  
+
+
+  5. If you do not have a widget, click **Create new widget**. HighLevel creates a baseline widget and connects it to the agent.  
+  
+
+
+  6. To edit a connected widget, click the widget chip. The widget editor opens in a new browser tab, so the current Voice AI builder remains open.  
+  
+
+
+  7. You can also click **Manage widgets** to access your existing Chat Widgets.  
+  
+
+
+  8. To remove an existing connection, disconnect the widget from the agent as needed.  
+  
+
+
+  9. Click **Save** after updating the agent's deployment settings.
+
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079359369/original/D5CcT6Mr0shIwkBPsIRZnryHOT6wybUXAg.png?1787753581)
 
 * * *
 

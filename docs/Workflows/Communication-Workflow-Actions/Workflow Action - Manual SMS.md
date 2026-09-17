@@ -54,14 +54,16 @@ Templates| Select an SMS template from the pre-defined templates available.| No
 Message| The message body to be sent. This field supports custom values and trigger links.| Yes  
 Custom Values| Custom values available for personalising the message. Examples include contact name, appointment details, etc.| No  
 Add Attachment| Option to add attachments to the SMS message via URL.| No  
-Test Phone Number| A phone number to send a test SMS. Include country code.| No  
+Test Phone Number| A phone number to send a test SMS. The country picker defaults to your sub-account's country. Select another country if needed, then enter the number in local format.  
+| No  
 Assign To| Select a specific user to assign the manual SMS task to. Found under Advanced Settings. If left empty, defaults to the contact owner. If the selected user does not have contact access, the task is assigned to the contact owner or Unassigned if| No  
   
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155032219728/original/HpUKp_V3W_snYFG_RxXyaNZTC1EIGGN-qg.png?1725442538)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079723546/original/CIuiH5cyzFCF8V2tL8622JVd15eabHBT9g.gif?1788189833)
 
+  
   
 
 
@@ -71,7 +73,9 @@ Assign To| Select a specific user to assign the manual SMS task to. Found under 
   2. **Enter Message** : Write the message you want to send. Use the custom values dropdown to insert placeholders for dynamic data (e.g., contact name, appointment details).
   3. **Add Attachment** : If needed, add files by entering the URL.
   4. **Test SMS** : Enter a phone number to test how the SMS will appear when received.
-  5. **Assign To (Advanced Settings)** : Optionally select a specific user to assign the task to. This overrides the default contact owner assignment.
+  5. **Test SMS:** Check the country flag in the **Test Phone Number** field. It defaults to your sub-account's country. To use another country, click the flag and search by country name or dialing code. Enter the phone number in local format for the selected country, then click **Send test SMS**.
+  6. HighLevel saves the number in full international format before sending the test SMS. If the number is not valid, the field displays **“Invalid phone number.”**
+  7. **Assign To (Advanced Settings)** : Optionally select a specific user to assign the task to. This overrides the default contact owner assignment.
 
   
 
@@ -115,7 +119,7 @@ The Assign To field in Advanced Settings allows you to assign the manual SMS tas
   * **Trigger** : When a lead fills out a form on the website.
   * **Action** : Create a Manual SMS task for the assigned user to send a follow-up SMS.
   * **Message** : "Hi {{Contact Name}}, thank you for filling out our form. Click here to schedule an appointment: [Calendar Link]."
-  * **Test Phone Number** : +11234567890 (for testing the SMS)
+  * **Test Phone Number:** Confirm the appropriate country in the country picker, then enter the test number in local format.
 
 
   

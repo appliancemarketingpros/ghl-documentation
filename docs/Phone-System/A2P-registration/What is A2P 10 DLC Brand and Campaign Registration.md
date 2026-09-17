@@ -8,307 +8,326 @@
 
 SMS Compliance
 
-# A2P 10DLC Registration: Brand and Campaign Registration
+A2P 10DLC Registration: Brand and Campaign Registration
 
-Register your business for compliant text messaging using US 10-digit local phone numbers
+Understand A2P 10DLC registration, complete Brand and Campaign setup, avoid common carrier rejections, and troubleshoot rejected registrations in HighLevel.
 
 What You'll Learn
 
-If you send business text messages from a 10-digit local phone number, you will need to complete the A2P 10DLC registration to keep messaging active and deliverable. Use the links throughout this article to access step-by-step setup instructions, best practices and troubleshooting resources!
+A2P 10DLC registration verifies who is sending business text messages, what type of messages are being sent, and how recipients consent to receive them. This guide explains Brand and Campaign registration, the information you should prepare, current HighLevel setup options, and what happens after submission. It also explains how to diagnose a rejection, review required fixes, resubmit when eligible, and get help from Support when a registration continues to fail.
 
-Table of ContenT
+Table of Contents
 
-1
+  1. What is A2P 10DLC?
+  2. Key Benefits of A2P 10DLC Registration
+  3. Who Needs A2P 10DLC Registration?
+  4. Brand and Campaign Registration
+  5. Before You Start
+  6. How To Setup A2P 10DLC Registration
+  7. What Happens After Submission
+  8. If Your Brand or Campaign Is Rejected
+  9. A2P 10DLC Fees and Sending Considerations
+  10. Frequently Asked Questions
+  11. Related Articles
 
-What is A2P 10DLC?
 
-2
-
-Who Needs A2P 10DLC Registration?
-
-3
-
-How A2P 10DLC Works
-
-4
-
-Before You Start: Required Information
-
-5
-
-Brand Registration
-
-6
-
-Campaign Registration
-
-7
-
-What Happens After Submission
-
-8
-
-A2P 10DLC Fees
-
-9
-
-Related Articles
-
-10
-
-Frequently Asked Questions
-
-1
-
-## What is A2P 10DLC?
-
-A2P 10DLC (Application-to-Person 10-digit long code) is the US carrier registration required for businesses to send text messages to customers using standard 10-digit local numbers. Registration ties your messaging activity to a verified Brand (your business identity) and one or more Campaigns (how you plan to message), which helps carriers evaluate trust and reduce spam.
-
-While you submit the details through HighLevel, the actual review and approval process is handled by US phone carriers and their registration partners. Carriers decide whether a Brand or Campaign meets requirements and if the registration is accepted or rejected.
-
-In HighLevel, A2P 10DLC registration is managed through Trust Center. Trust Center provides a guided workflow for creating and managing Business Profiles, Brands, Campaigns, consent information, and registration submissions from a single location.
-
+# What is A2P 10DLC?  
   
 
+
+A2P 10DLC establishes a verified relationship between the business sending a text message, the messaging purpose, and the recipients who consented to receive those messages. Understanding these components is important because carriers evaluate the entire registration—not simply whether every required field was completed.
+
+A2P 10DLC (Application-to-Person 10-Digit Long Code) is the carrier registration framework used for business SMS and MMS messages sent to U.S. recipients from standard 10-digit local phone numbers.
+
+In HighLevel, registration is completed through **Settings > Phone System > Trust Center**. HighLevel provides the registration workflow, while carriers and their registration partners make the final approval or rejection decision.
 
 Key Terms
 
-**A2P** — Application to Person. HighLevel is the application, and the recipient you send SMS or MMS to is the person.
+**A2P:** Application to Person. HighLevel is the application and the recipient receiving the SMS or MMS is the person.
 
-**10DLC** — 10 Digit Long Code. This refers to both the number of digits in US phone numbers and the name of the registration standard.
+**10DLC:** 10-Digit Long Code, the standard local phone numbers used for business messaging in the United States.
 
-**The Campaign Registry (TCR)** — Works with North American mobile operators and messaging companies to register A2P text messaging campaigns, providing visibility into messaging source and content to allow carriers to deliver more reliable messaging services.
+**The Campaign Registry (TCR):** The registry used within the A2P ecosystem to identify Brands and Campaigns and provide carriers with information about messaging senders and use cases.
 
-2
+## Key Benefits of A2P 10DLC Registration  
+  
 
-## Who Needs A2P 10DLC Registration?
 
-A2P 10DLC registration is required if your business sends text messages to US recipients using 10-digit long code numbers. This includes messages such as appointment reminders, promotional messages, or customer support communications.
+Proper A2P registration helps carriers understand who is sending messages and why recipients should receive them. Accurate registration also reduces avoidable compliance problems and gives businesses a defined path for resolving registration failures.
 
-If you send messages to US recipients (including from Canadian numbers), A2P registration is required. If you do not send messages to recipients in the United States or Canada using long code numbers, you may not need A2P 10DLC registration.
+  * **Business verification:** Associates messaging activity with a verified business or qualified Sole Proprietor identity.
+  * **Clear messaging purpose:** Identifies the Campaign use case and types of messages recipients should expect.
+  * **Consent transparency:** Documents how contacts opt in and what consent language they see.
+  * **Improved troubleshooting:** Rejected Campaigns provide required-fix details that explain what failed and what must change.
+  * **Scalable messaging:** Approved Standard Brands can support multiple numbers and messaging-volume options based on business needs.
 
-Canadian Businesses
 
-If you are a Canadian business only sending SMS to Canadian recipients (CA → CA):
+## Who Needs A2P 10DLC Registration?  
+  
 
-  * **Numbers purchased before March 26, 2025:** A2P registration is not required.
-  * **Numbers purchased on or after March 26, 2025:** You can send messages either by completing A2P registration or by completing Persona verification (if you choose not to register for A2P).
 
+Registration requirements depend on the phone-number type and where messages are being delivered. Identifying the messaging route before registration prevents businesses from completing the wrong verification process.  
+  
+
+
+A2P 10DLC registration is required when a business sends SMS or MMS messages to U.S. recipients using standard 10-digit local phone numbers. This includes appointment reminders, customer-care messages, account notifications, marketing messages, and other application-generated business communications.  
+  
+
+
+Canadian 10DLC Numbers
+
+  * **Canada → United States:** A2P registration is required.
+  * **Canada → Canada, number purchased before March 26, 2025:** A2P registration is not required for Canada-only messaging.
+  * **Canada → Canada, number purchased on or after March 26, 2025:** Complete A2P registration or Persona verification before Canada-only messaging.
+
+
+See [Updated Messaging Policies for Canadian 10DLC Numbers](<https://help.gohighlevel.com/support/solutions/articles/155000004915-updated-messaging-policies-for-canadian-10dlc-numbers-a2p-registration-requirements>) for current requirements.
 
 Toll-Free Numbers
 
-Toll-free phone numbers do not require A2P 10DLC registration. They follow a different registration process. See the [Toll-Free Number Verification Guide](<https://help.gohighlevel.com/en/support/solutions/articles/48001222300>) for more information.
+Toll-Free numbers do not use A2P 10DLC Brand and Campaign registration. They follow a separate Toll-Free verification process. See the [Toll-Free Number Verification Guide](<https://help.gohighlevel.com/support/solutions/articles/48001222300-toll-free-verification-guide-for-lc-phone-us-canada->).
 
-3
-
-## How A2P 10DLC Works
-
-A2P 10DLC registration is built around two required components: Brands and Campaigns. Businesses must identify who they are to the carrier networks (Brand registration) and register what type of messages they send (Campaign registration).
-
-**1\. Brand Registration** — Identifies the business sending messages to carrier networks
-
-**2\. Campaign Registration** — Describes the type of messages being sent, such as notifications or marketing
-
-After Brand and Campaign approval, it can take up to 3 business days or longer for all carriers to receive registration information. This is normal as carriers receive your registered information. If the issue persists beyond 4 business days, contact HighLevel Support.
-
+## Brand and Campaign Registration  
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155077070002/original/dVRozt0gr5EqMrxkl1f9pMdtPQxxnijQFQ.png?1785262847)
+A2P registration separates business identity from messaging behavior. A Brand answers who is sending messages, while a Campaign explains what is being sent, why it is being sent, and how recipients provided consent.
 
-Pro Tip
+1\. Brand Registration — Who is sending?
 
-Start Sending Faster with Dual Registration
+Your Brand contains the legal or qualifying business identity responsible for the messages.
 
-Submit both Toll-Free and 10DLC registrations. Toll-Free approval can take as little as two days, while 10DLC takes 4–6 weeks. This lets you start sending sooner while waiting for local number approval.
+2\. Campaign Registration — What are you sending and why?
 
-4
+Your Campaign identifies the messaging use case, sample messages, consent process, website, and other compliance information.
 
-## Before You Start: Required Information
-
-Before beginning registration, gather all required business information. Requirements differ based on whether you register as a Standard Brand or Sole Proprietor Brand.
-
-### Standard Brand Requirements
-
-Standard Brand registration requires the following business information:
-
-  * Business Name
-  * Physical Address (Street, City, State/Province/Region, Postal Code, Country)
-  * Business Identity (Direct Customer or ISV/Reseller/Partner)
-  * Business Type (Sole Proprietorship/Partnership/Corporation/Co-Operative/LLC/Non-Profit)
-  * Company Status (Private/Public)
-  * Stock Ticker & Exchange (if Public)
-  * Business Registration Number & Type (EIN for US-based companies, other business identifiers for non-US companies)
-  * Industry
-  * Website
-  * Regions of Operations
-  * Points of Contact
-
-
-Authorized Representative
-
-One authorized representative is required with the following information:
-
-  * Name
-  * Email
-  * Title
-  * Phone Number
-  * Job Position (Director/VP/GM/General Counsel/CEO/CFO)
-
-
-A second point-of-contact may also be provided, but is optional.
-
-### Sole Proprietor Requirements
-
-Sole Proprietor registration requires the following information:
-
-  * Brand or business name
-  * First name
-  * Last name
-  * Email address
-  * Mobile phone number (in US or Canada)
-  * Physical address (in US or Canada)
-
-
-5
-
-## Brand Registration
-
-A Brand is the verified business identity behind your messaging. Carriers use Brand details to confirm that a real, legitimate business is responsible for the messages being sent. A2P 10DLC registration has different Brand registration paths depending on your business type. Selecting the correct path upfront helps avoid delays and rejections.
-
-To learn more about brand registration and how to select the correct brand type, see: [Registering Your A2P Brand](<https://help.gohighlevel.com/en/support/solutions/articles/155000008140>).
-
-Brand Type 1
-
+###   
 Standard Brand
 
-Used for registered businesses who have an EIN (for example, LLC, corporation, or other formally registered entities). Within Standard Brand, there is a High Volume and Low Volume option.
+Use Standard Brand registration if your business has an EIN, Tax ID, Business Number, or another accepted business registration number. U.S. businesses should use the legal business name and EIN exactly as shown on official records.
 
-Brand Type 2
-
+###   
 Sole Proprietor Brand
 
-Used when the business is not formally registered as a separate legal entity. To qualify for Sole Proprietor registration, you must not have an EIN (Employer Identification Number). Any business with a Tax ID (EIN) is not eligible and should instead register for a Low Volume Standard Brand. Sole Proprietor Brands are limited to individuals in the US and Canada.
+Sole Proprietor registration is intended for individuals or very small businesses with only one employee that do not have an EIN, Tax ID, Business Number, or registered business entity. A business that has a Tax ID should register as a Standard Brand instead.
 
-Brand Limits
+For complete eligibility and country-specific registration-number requirements, see [Registering Your A2P Brand](<https://help.gohighlevel.com/support/solutions/articles/155000008140>).
 
-Each mobile phone number can only be used to validate up to 3 Brands. Each email or physical address can only be used to validate up to 10 Brands. This limit applies for all A2P registrations within the ecosystem, even Brands registered outside of LeadConnector.
+![A2P Brand and Campaign registration flow in HighLevel Trust Center](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080156892/original/wyL71urs9RV8qzBDDnat25MidOTC0i6lnw.png?1788559979)
 
-6
+Screenshot: A2P Brand and Campaign registration flow in Trust Center.
 
-## Campaign Registration
-
-Campaign registration connects your approved Brand to a specific messaging purpose. Carriers review Campaign details to understand what type of messages you plan to send (for example, appointment reminders, account notifications, or marketing) and whether your opt-in language and sample messages align with that purpose.
-
-To learn more about campaign registration, see: [](<https://help.gohighlevel.com/en/support/solutions/articles/155000008140>)[A2P Campaign Registration.](<https://help.gohighlevel.com/en/support/solutions/articles/155000004539>)
-
-### Campaign Use Cases
-
-Use cases describe the type of messaging a Campaign will send. Selecting the correct use case matters because carriers approve (or reject) Campaigns based on whether your messaging content, opt-in flow, and stated intent match the use case requirements. Use cases vary from notifications and fraud alerts to customer care to social updates.
-
-Some companies may only need to register one campaign use case. In other scenarios, you may have multiple. For example, if you send authentication codes to validate new users but also send marketing messages, you should register two campaign use cases.
-
-Learn More
-
-For more information on Campaigns and a full list of campaign use cases, see the [Campaign Types and Use Case Types article](<https://help.gohighlevel.com/en/support/solutions/articles/155000000235>).
-
-### Forbidden Messaging Categories
-
-Some business use cases and messaging content is prohibited. Businesses submitting a registration for prohibited categories will not be approved. Businesses sending SMS/MMS messages with prohibited content, regardless of approved campaign status, may result in the revoking of approved campaigns, carrier fines, and other penalties.
-
-Important
-
-For more information on restricted categories and use cases, see the [Forbidden Message Categories article.](<https://help.gohighlevel.com/en/support/solutions/articles/48001219617>)
-
-7
-
-## What Happens After Submission
-
-HighLevel has no part in the vetting or approval process after submission. However, the platform provides guidance to help you submit detailed and accurate information to ensure a smooth review process.
-
+## Before You Start  
   
 
 
-Campaign approval does not always mean every local number in the sub-account is already associated with the campaign. After your A2P brand and campaign are approved, confirm that each applicable local number is linked to the approved campaign.
+Registration is most successful when the information submitted in Trust Center matches your real business records, website, messaging purpose, and consent process. Preparing these items before starting reduces preventable mismatches and repeat submissions.
 
+Area| Prepare  
+---|---  
+**Business identity**|  Exact legal business name, accepted registration number or Tax ID, business type, industry, registered address, and region of operation.  
+**Authorized contact**|  Name, reachable phone number, monitored email address, job title, and position.  
+**Website**|  A live, publicly accessible website that clearly identifies the business and matches the Brand registration.  
+**Messaging purpose**|  The Campaign use case, clear description of what messages are sent, and realistic sample messages.  
+**User consent**|  The actual opt-in method, consent language, message frequency disclosure, HELP/STOP information, Privacy Policy, and Terms & Conditions.  
+  
+U.S. Brand Tip
+
+For Standard U.S. Brands, the legal business name and EIN should match official IRS records. If available, uploading the CP-575 can help populate the business name, EIN, and registered address accurately. Newly issued EIN information may also require time to propagate to verification systems.
+
+## How To Setup A2P 10DLC Registration  
   
 
 
-A linked number displays the green **A2P Verified** label in **Settings > Phone System > Phone Numbers**. If a number does not display **A2P Verified** , link it to the approved campaign before using it for SMS or MMS.
+Completing the Brand first and then carefully matching the Campaign details to your real consent flow gives reviewers a consistent registration to evaluate. HighLevel now provides both a guided Chat Widget path and a Manual Setup path depending on how your business collects SMS consent.
 
+  1. **Open Trust Center.**  
+Go to **Settings > Phone System > Trust Center**.
+  2. **Start A2P registration.**  
+Under the A2P Messaging (SMS) area, select the option to begin registration.
+  3. **Select the correct Brand path.**  
+Indicate whether the business has a Tax ID or accepted registration number. This determines whether the registration follows the Standard Brand or Sole Proprietor path.
+  4. **Enter the Brand information exactly.**  
+Complete the legal business details, address, registration number, contact information, and any verification step requested by HighLevel.
+  5. **Continue to Campaign registration.**  
+After the Brand is eligible to continue, complete Campaign Details. If you are creating an additional Campaign later, go to **Trust Center > Brand & Campaigns > Campaigns > Create Campaign**.
+  6. **Select your messaging volume.**  
+Standard Brands can choose the applicable Low Volume or High Volume option. Sole Proprietor registrations use the applicable single-number path.
+  7. **Choose Chat Widget Setup or Manual Setup.**  
+Campaign registration opens with the HighLevel Chat Widget Setup by default. Use this option when the widget will collect SMS consent. Switch to **Manual Setup** if you use another consent method, such as an existing website form, paper form, lead form, QR code, kiosk, or verbal consent.
+  8. **Complete the Campaign and consent information.**  
+Confirm that the Campaign use case, description, sample messages, business website, consent workflow, opt-in language, Privacy Policy, and Terms & Conditions are accurate and consistent.
+  9. **Run the compliance review and submit.**  
+Select **Review Application**. If the AI Compliance Review identifies an issue, correct it and run the review again. Submit the Campaign after the required compliance checks pass.
+
+
+For the complete field-by-field walkthrough, see [A2P Campaign Registration: Step-by-Step Guide](<https://help.gohighlevel.com/support/solutions/articles/155000004539>).
+
+## What Happens After Submission  
   
 
 
-For step-by-step instructions, see [How to Link a Phone Number to an Approved A2P Campaign](<https://help.gohighlevel.com/en/support/solutions/articles/155000008316>).
+Your Campaign status determines the correct next action. Waiting when a Campaign is still under review, correcting required fixes after rejection, and verifying number association after approval prevents unnecessary duplicate submissions.
 
+Status| What It Means| What To Do  
+---|---|---  
+**Pending**|  The registration is still being reviewed.| Wait for the review to finish. Do not create another Campaign simply because the current Campaign is still Pending.  
+**Rejected**|  One or more issues were identified during review.| Open every rejection reason and review **View required fixes →** before changing or resubmitting the Campaign.  
+**Approved**|  The Brand and Campaign have passed review.| Confirm each applicable local number is linked to the Campaign and displays the green **A2P Verified** label.  
+  
+After Approval
+
+Go to **Settings > Phone System > Phone Numbers** and confirm the number displays **A2P Verified**. If it does not, link the number to the approved Campaign before sending SMS or MMS. Carrier systems may also require several business days to fully receive updated registration information after approval.
+
+See [How to Link a Phone Number to an Approved A2P Campaign](<https://help.gohighlevel.com/en/support/solutions/articles/155000008316>) for detailed instructions.
+
+## If Your Brand or Campaign Is Rejected  
   
 
 
-Best Practice
+A rejection does not always mean information was missing. Carrier review also checks whether your business identity, use case, sample messages, website, consent workflow, and policy pages are accurate and consistent with one another. Reviewing the actual rejection details before resubmitting prevents repeated blind submissions.
 
-Review [common reasons for failure before submitting your Brand or Campaign](<https://help.gohighlevel.com/en/support/solutions/articles/155000007572>). This helps avoid common failure reasons and ensures the fastest approval time possible. Submitting accurate information during your first submission assists in a faster review.
+Why Can I Be Rejected When Every Field Is Filled In?
 
-8
+Completion and compliance are different. A Campaign can contain values in every required field and still be rejected if those values conflict with official business records, the selected use case, the website, sample messages, or the way recipients actually opt in.
 
-## A2P 10DLC Fees
+### Brand Rejection vs. Campaign Rejection
 
-A2P 10DLC includes fees for registration and for sending messages. Planning for both the submission fees and ongoing carrier-related charges helps avoid surprises once your numbers are in use.
-
-**One-Time Registration Fees** — Brand and Campaign submissions include fees during the application process
-
-**Monthly Campaign Fees** — Monthly Campaign fees apply and vary based on campaign type
-
-**No Resubmission Fee** — If a Brand or Campaign is rejected and you need to correct and resubmit, there is not an additional resubmission fee
-
-Learn More
-
-For detailed information about registration pricing and fees, see the [Pricing and Fees article.](<https://help.gohighlevel.com/en/support/solutions/articles/155000005200>)
-
-9
-
-## Related Articles
-
-  * [Registering Your A2P Brand](<https://help.gohighlevel.com/en/support/solutions/articles/155000008140>)
-  * [A2P Campaign Registration: Step by Step Guide and FAQs](<https://help.gohighlevel.com/en/support/solutions/articles/155000004539>)
-  * [A2P 10DLC Campaign Use Cases](<https://help.gohighlevel.com/en/support/solutions/articles/155000000235>)
-  * [Forbidden Message Categories for SMS and MMS in the US and Canada ](<https://help.gohighlevel.com/en/support/solutions/articles/48001219617>)
-  * [Pricing and Fees for the A2P 10DLC Service](<https://help.gohighlevel.com/en/support/solutions/articles/155000005200>)
-  * [A2P 10DLC Campaign Approval Best Practices](<https://help.gohighlevel.com/en/support/solutions/articles/48001229784>)
-  * [](<https://help.gohighlevel.com/en/support/solutions/articles/48001219617>)[Toll-Free Number Verification Guide for LC - Phone (US/Canada)](<https://help.gohighlevel.com/en/support/solutions/articles/48001222300>)
+Registration| Common Problems| First Action  
+---|---|---  
+**Brand**|  Legal business name or EIN mismatch, incorrect registered address, wrong Brand type, recently issued EIN information not yet available to verification systems, or invalid contact/verification details.| Compare the Brand submission directly against official business records and correct the mismatch before resubmitting.  
+**Campaign**|  Use-case mismatch, incomplete Campaign description, unrealistic sample messages, unverifiable opt-in flow, missing consent disclosures, website mismatch, inaccessible Privacy Policy or Terms, DBA inconsistencies, or prohibited/high-risk content.| Open every rejection reason and select **View required fixes →** to see the exact correction requested.  
+  
+### How to View the Exact Campaign Rejection Reason  
+  
 
 
-10
+HighLevel displays structured required-fix information for rejected Campaigns so you can understand what failed before resubmitting.
 
-## Frequently Asked Questions
+  1. Go to **Settings > Phone System > Trust Center**.
+  2. Open your A2P Brand and Campaign information.
+  3. Locate the rejected Campaign.
+  4. Review every displayed rejection reason.
+  5. Select **View required fixes →** next to each reason.
+  6. Review the **Error code** , **Rejection category** , **What it means** , and **Correction needed**.
+  7. Correct all applicable issues before resubmitting.
 
-Q: Do Toll-Free numbers require A2P 10DLC registration?
 
-A2P 10DLC registration is required for standard 10-digit local phone numbers. Toll-free numbers (like 1-800) do not require A2P 10DLC registration. For more information on Toll-Free requirements, see the [Toll-Free Number Verification Guide](<https://help.gohighlevel.com/en/support/solutions/articles/48001222300>).
+Review the Entire Campaign
 
-Q: Does HighLevel approve or reject my Brand/Campaign?
+Do not correct only one visible field and immediately resubmit. Review the Campaign description, use case, sample messages, website, consent process, Privacy Policy, Terms & Conditions, and business naming together. A subsequent review can identify additional issues.
 
-No. You submit through HighLevel, but US carriers and their registration partners review and make the approval decision.
+### Common Campaign Rejection Categories  
+  
 
-Q: Is there a fee to resubmit after a rejection?
 
-No. If you need to resubmit a Brand or Campaign after a rejection, there is not an additional resubmission fee.
+Category| What to Review  
+---|---  
+**Opt-In & Consent**| Confirm the opt-in method is verifiable, optional, accurately described, and contains the required messaging disclosures.  
+**Website**|  Verify the site is live, publicly accessible, identifies the business, matches the Brand, and contains accessible Privacy Policy and Terms pages.  
+**Business Identity**|  Check legal name, DBA, Brand type, authorized contact information, and whether the same business appears throughout the submission and opt-in evidence.  
+**Campaign Use Case**|  Make sure the selected use case, description, sample messages, and actual messaging purpose agree with one another.  
+**Sample Messages**|  Use realistic examples that identify the sender, represent the selected use case, and include applicable opt-out language.  
+**Restricted or High-Risk Content**|  Review whether the business, website, Campaign description, or sample messages fall into a prohibited or high-risk category. Some rejection types are not eligible for normal resubmission.  
+  
+For individual rejection codes and their exact correction requirements, see [A2P Campaign Rejections, Required Fixes & Vetting Errors](<https://help.gohighlevel.com/support/solutions/articles/155000007572>).
 
-Q: What's the difference between a Brand and a Campaign?
+### When You May Need a New Campaign
 
-A Brand identifies the business sending messages. A Campaign describes the purpose and content type of the messages the Brand will send.
+Some Campaign fields cannot always be edited during a resubmission. If the required correction involves a locked field—such as the Campaign use case or certain opt-in information—you may need to create and submit a new Campaign instead of editing the rejected one. Follow the instructions shown in the required-fix details before creating another Campaign.
 
-Q: Is cold texting allowed?
+### What HighLevel Support Can Help With
 
-Cold texting is when someone sends an SMS to a recipient who did not opt-in or agreed to receive messages. This breaks TCR guidelines, carrier guidelines, and Phone System messaging policy. If you have not received explicit consent to message someone via SMS, do not message them. Those found cold messaging may not be approved for increased sending limits and are at high risk for SMS suspension.
+Support can help you understand the registration status, review the information in your submission, identify applicable required fixes, and help you correct or resubmit a Campaign when appropriate. If the registration requires a new Campaign, Support can also help clarify the next steps.
 
-Q: How long does registration take?
+Support Can
 
-Brand registration can typically be completed in a few minutes if you've collected all required information. However, if there is a discrepancy with the information you provide, a manual review may be required for Secondary Vetting, which can take up to 7 days. To avoid delays, review [A2P 10DLC Brand Approval Best Practices](<https://help.gohighlevel.com/en/support/solutions/articles/155000000508>) before submitting.
+  * Review your visible Brand or Campaign status and rejection information.
+  * Help you understand required fixes.
+  * Help troubleshoot Campaign registration or resubmission.
+  * Help determine whether a new Campaign is required.
+  * Assist with an appeal when you believe an eligible Campaign rejection was made in error.
 
-Q: Can I start texting the same day I register?
 
-No, messages will get filtered after a couple are sent and will receive a "30007: Message filtered" error. A workaround until the Brand is approved would be to get a toll-free number.
+Support Cannot
 
-Q: Does A2P 10DLC registration differ if we are using Twilio numbers through HighLevel?
+Support cannot guarantee approval or override a carrier or registration partner's final compliance decision.
 
-Yes, if you use your own Twilio account directly, you will complete the registration through your Twilio console. However, it is still necessary to complete registration, even if you are not using LeadConnector.
+### Before Contacting Support
+
+Collecting the following information helps Support review the correct registration without unnecessary back-and-forth:
+
+  * Brand name and current Brand status
+  * Campaign name and current Campaign status
+  * Exact rejection reason, error code, and rejection category
+  * Screenshots of the rejection and required fixes
+  * Business website and opt-in URL or consent evidence
+  * Campaign use case and sample messages
+  * Affected phone number
+  * Sub-account details and any relevant registration identifiers shown in Trust Center
+
+
+To contact Support, use the **Help (?)** button in HighLevel and request A2P assistance through Agent Chat or the available support options.
+
+Campaign Appeal
+
+If you believe an ineligible Campaign rejection was made in error, contact Support and include the full details of the appeal. The documented subject-line format is **10DLC Campaign Appeal for [your business name or number]**.
+
+## A2P 10DLC Fees and Sending Considerations  
+  
+
+
+A2P registration can include initial registration and vetting charges, recurring Campaign fees, and carrier messaging charges. Because industry pricing and carrier requirements can change, use the current pricing displayed in HighLevel and the dedicated pricing article rather than relying on older fee tables.
+
+**Registration and vetting:** Initial Brand and Campaign registration can include one-time registration and review charges.
+
+**Monthly Campaign fees:** Recurring Campaign charges depend on Campaign type and current carrier pricing.
+
+**Rejected Campaign resubmissions:** Eligible rejected Campaigns can currently be corrected and resubmitted without another Campaign Vetting Fee.
+
+**Messaging limits:** Available sending capacity depends on Brand and volume selection and remains subject to HighLevel messaging policies and carrier requirements.
+
+See [A2P 10DLC Messaging Fees: Registration, Monthly, and Carrier Costs](<https://help.gohighlevel.com/support/solutions/articles/155000005200>) for the current fee schedule.
+
+## Frequently Asked Questions  
+  
+
+
+Q: Why was my registration rejected if I filled out every required field?
+
+Completing every field does not guarantee approval. Reviewers evaluate whether your legal business information, Campaign purpose, sample messages, website, opt-in process, Privacy Policy, Terms & Conditions, and consent language are accurate and consistent with one another.
+
+Q: Where can I see the exact reason my Campaign failed?
+
+Open the rejected Campaign in Trust Center and select **View required fixes →** for every rejection reason. The required-fix details show the error code, rejection category, what the issue means, and the correction needed.
+
+Q: Can HighLevel Support overturn an A2P rejection?
+
+Support can help review your submission, explain required fixes, troubleshoot registration, help with resubmission, and assist with an eligible appeal. Support cannot guarantee approval or override the final decision made by carriers or registration partners.
+
+Q: What if the field I need to correct cannot be edited?
+
+Some corrections—such as changes involving certain locked Campaign fields—may require a new Campaign instead of a normal resubmission. Review the required-fix instructions before creating another Campaign.
+
+Q: Is there a fee to resubmit a rejected Campaign?
+
+Eligible rejected Campaigns can currently be corrected and resubmitted without another Campaign Vetting Fee. Review the current A2P pricing article for the latest carrier and registration fees.
+
+Q: My Campaign is approved, but SMS still is not working. What should I check?
+
+Verify that the sending number is linked to the approved Campaign and displays the green **A2P Verified** label under Settings > Phone System > Phone Numbers. If the number is already verified, troubleshoot the specific SMS error rather than resubmitting A2P unnecessarily.
+
+Q: Do Toll-Free numbers use the same A2P registration?
+
+No. Toll-Free numbers use a separate Toll-Free verification process rather than A2P 10DLC Brand and Campaign registration.
+
+### Related Articles  
+  
+
+
+  * [Registering Your A2P Brand](<https://help.gohighlevel.com/support/solutions/articles/155000008140>)
+  * [A2P Campaign Registration: Step-by-Step Guide](<https://help.gohighlevel.com/support/solutions/articles/155000004539>)
+  * [A2P Campaign Rejections, Required Fixes & Vetting Errors](<https://help.gohighlevel.com/support/solutions/articles/155000007572>)
+  * [A2P 10DLC Campaign Approval Best Practices](<https://help.gohighlevel.com/support/solutions/articles/48001229784>)
+  * [How to Get Your Phone Number A2P Approved in 2026](<https://help.gohighlevel.com/support/solutions/articles/155000007237>)
+  * [A2P 10DLC Messaging Fees: Registration, Monthly, and Carrier Costs](<https://help.gohighlevel.com/support/solutions/articles/155000005200>)

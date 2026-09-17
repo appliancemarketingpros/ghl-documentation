@@ -97,9 +97,19 @@ Proper setup ensures the source bot can identify when a transfer is needed and r
 
   7. Under **Setup your Actions** , click **Transfer Bot**.  
   
+Note: If you don't see the Transfer Bot button, open the **Flow Editor** with the **Edit Flow Builder** button, add an action, and search for "transfer" then click**Transfer Bot.**  
+  
+Note: If you see a totally different editor when you open the bot for editing, then click **Setup Your Actions** and click Transfer Bot in the dropdown.  
+  
 
 
-**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072660313/original/VVMaW8SY1OU9lOM5RmmTsnpM5JqlwbZZtA.png?1780377955)**  
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072660313/original/VVMaW8SY1OU9lOM5RmmTsnpM5JqlwbZZtA.png?1780377955)**
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080790179/original/Ly_7l6eVghMaLtvuQt0mO0F8wdmk-yMCfg.png?1789243091)  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080790346/original/7__d-qSUNTEajWJjCEqKGrrKEQLCwFhVtQ.png?1789243464)  
   
 
 

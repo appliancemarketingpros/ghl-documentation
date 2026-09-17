@@ -306,7 +306,6 @@ Flow Based Builder is best for advanced users who need visual logic, branching, 
   
 
   9. Configure global bot behavior, including:  
-  
 
      * Tone
      * Personality and style
@@ -316,7 +315,6 @@ Flow Based Builder is best for advanced users who need visual logic, branching, 
   
 
   10. Configure available **actions** such as:  
-  
 
      * Stop bot
      * [Human handover ](<https://help.gohighlevel.com/en/support/solutions/articles/155000005615>)

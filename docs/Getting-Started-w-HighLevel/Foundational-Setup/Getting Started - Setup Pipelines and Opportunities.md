@@ -6,17 +6,110 @@
 
 ---
 
-Organizing your sales pipeline might sound intimidating, but think of it like setting up your workspace for success—everything has a place, and nothing gets lost. With a structured pipeline, you can track leads effortlessly, automate follow-ups, and close deals swiftly. Ready to get your sales organized? Let's dive in!
+Pipelines and opportunities help you organize your sales process and track potential deals from the first interaction through completion. In this guide, you’ll learn how pipelines, stages, contacts, and opportunities work together, create your first pipeline, add opportunities manually or in bulk, and optionally automate opportunity creation with workflows.
+
+By the end of this guide, you’ll have a working pipeline with opportunities that your team can track and manage.
 
 * * *
 
 **TABLE OF CONTENTS**
 
+  * Understanding Pipelines and Opportunities
+  * How They Work Together
+  * Before You Begin
+  * Choose How You Want to Add Opportunities
   * Create Sales Pipeline
   * Import Contacts as Opportunities
   * Create Opportunity Manually
   * Create Opportunity by Automation
+  * Frequently Asked Questions
 
+
+* * *
+
+## **Understanding Pipelines and Opportunities**
+
+  
+
+
+Before creating your first pipeline, it helps to understand how the different parts of Opportunities work together.
+
+  
+
+
+Term| Description  
+---|---  
+**Pipeline**|  Represents the overall sales process you want to track.  
+**Stage**|  Represents a step within your sales process, such as New Lead, Booked Call, or Closed.  
+**Opportunity**|  Represents a potential deal that moves through your pipeline.  
+**Contact**|  The person associated with an opportunity.  
+  
+###   
+
+
+### **How They Work Together**
+
+  
+
+
+Think of the structure as:
+
+**Contact → Opportunity → Pipeline → Stage**
+
+  
+
+
+  
+
+
+For example, a contact named John Smith might have an opportunity in your **Sales Pipeline** currently sitting in the **Booked Call** stage.
+
+  
+
+
+> **Note:** Your pipeline stages should reflect the actual steps in your sales process. The examples used in this article are suggestions only and can be customized based on your business.
+
+* * *
+
+## **Before You Begin**
+
+  
+
+
+Before setting up Opportunities, consider:
+
+  
+
+
+  * What sales process you want to track.  
+  
+
+  * Which stages a lead normally moves through.  
+  
+
+  * Whether you'll add opportunities manually, import them in bulk, or create them automatically.  
+  
+
+  * Which team members will manage opportunities.
+
+
+* * *
+
+## **Choose How You Want to Add Opportunities**
+
+  
+
+
+Method| Best For  
+---|---  
+**Manual Creation**|  Adding individual opportunities as they arise.  
+**CSV Import**|  Migrating or bulk-adding existing opportunities.  
+**Workflow Automation**|  Automatically creating or updating opportunities when specific events occur.  
+  
+  
+
+
+You can use one or a combination of these methods.
 
 * * *
 
@@ -247,3 +340,92 @@ Trigger| One-Line Use Case
     
     
     **Note******:**** The action **Create/Update Opportunity** stays the same across workflows; only the **trigger** changes. Pick the trigger that best matches how (and when) a lead should appear in your pipeline.
+
+* * *
+
+## **Frequently Asked Questions**
+
+  
+
+
+**Q. What is the difference between a pipeline and an opportunity?**
+
+A pipeline represents your overall sales process, while an opportunity represents an individual potential deal moving through that process.
+
+  
+
+
+  
+
+
+**Q. What is a pipeline stage?**
+
+A stage represents a specific step within your sales process. Opportunities move between stages as they progress.
+
+  
+
+
+  
+
+
+**Q. Do I need to use workflows to create opportunities?**
+
+No. You can create opportunities manually, import them in bulk, or automatically create and update them using workflows.
+
+  
+
+
+  
+
+
+**Q. Why isn't my opportunity appearing in the expected pipeline?**
+
+Confirm that the correct pipeline and stage were selected when the opportunity was created. If the opportunity was created through a workflow, review the Create/Update Opportunity action configuration.
+
+  
+
+
+  
+
+
+**Q. Why didn't my workflow create an opportunity?**
+
+Verify that:
+
+  * The workflow is published.
+  * The contact met the workflow trigger conditions.
+  * The Create/Update Opportunity action is configured.
+  * The correct pipeline and stage are selected.
+
+
+  
+
+
+  
+
+
+**Q. Why didn't my opportunity move to another stage?**
+
+If you're using a workflow to update an existing opportunity, review the Create/Update Opportunity configuration and the Allow Opportunity to Move setting.
+
+  
+
+
+  
+
+
+**Q. Can I import multiple opportunities at once?**
+
+Yes. Use the Opportunities import option to upload and map opportunity data from a CSV file.
+
+  
+
+
+  
+
+
+**Q.Can I manually create an opportunity for an existing contact?**
+
+Yes. When creating an opportunity manually, you can select an existing contact and then assign the opportunity to the appropriate pipeline and stage.
+
+* * *

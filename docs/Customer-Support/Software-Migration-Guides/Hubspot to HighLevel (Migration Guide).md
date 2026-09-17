@@ -31,6 +31,9 @@ This is a comprehensive guide for migrating your business processes, data, and w
 
 ### ** _Step 1:_**_Review Current HubSpot Setup_
 
+  
+
+
   * **Identify Key Features:** List all key features used in HubSpot, such as CRM, automation workflows, marketing campaigns, calling, SMS messaging, and e-commerce tools.  
   
 
@@ -48,6 +51,9 @@ This is a comprehensive guide for migrating your business processes, data, and w
 
 ### **_Step 2:_**_Define Migration Goals_
 
+  
+
+
   * **Set Clear Objectives:** Define what you aim to achieve with the migration, such as improved automation, better CRM integration, or cost savings.  
   
 
@@ -61,6 +67,9 @@ This is a comprehensive guide for migrating your business processes, data, and w
 
 
 ### **_Step 3:_**_Prepare Backup_
+
+  
+
 
   * **Export Data from HubSpot:** Export all necessary data from HubSpot, including contacts, companies, deals, tickets, workflows, and other essential records.  
   
@@ -77,10 +86,13 @@ This is a comprehensive guide for migrating your business processes, data, and w
 
 ### ** _Step 1:_**_Export Data from HubSpot_
 
-  * **Contacts and Companies:** Navigate to Contacts > Contacts and CRM > Companies. Export data as CSV files.  
   
 
-  * **Deals and Pipelines:** Go to Sales > Deals. Export your pipelines and associated deals.  
+
+  * **Contacts and Companies:** Navigate to **Contacts > Contacts and CRM > Companies. **Export data as CSV files.  
+  
+
+  * **Deals and Pipelines:** Go to **Sales > Deals.** Export your pipelines and associated deals.  
   
 
   * **Marketing Assets:** Export emails, landing pages, forms, and workflows.  
@@ -105,18 +117,21 @@ This is a comprehensive guide for migrating your business processes, data, and w
 
 ### _**Step 2:** Import Data into HighLevel_
 
+  
+
+
   * **Import Contacts and Companies:**
-    * In HighLevel, navigate to Contacts > Import Contacts.
+    * In HighLevel, navigate to**Contacts > Import Contacts.**
     * Upload the CSV files exported from HubSpot, mapping fields appropriately (e.g., first name, last name, email).  
   
 
   * **Recreate Deals and Pipelines:**
-    * Set up new pipelines in HighLevel under Opportunities > Pipelines.
+    * Set up new pipelines in HighLevel under**Opportunities > Pipelines.**
     * Manually recreate deals or import them if necessary.  
   
 
   * **Migrate Products and Invoices:**
-    * Recreate product listings in HighLevel under Payments > Products.
+    * Recreate product listings in HighLevel under **Payments > Products.**
     * Set up invoices and payment links using HighLevel’s invoicing tool.
 
 
@@ -137,6 +152,9 @@ This is a comprehensive guide for migrating your business processes, data, and w
 
 ### ** _Step 1:_**_Review Existing HubSpot Workflows_
 
+  
+
+
   * **List Active Workflows:** Identify and document all active workflows in HubSpot, including triggers, actions, and delays.  
   
 
@@ -151,8 +169,11 @@ This is a comprehensive guide for migrating your business processes, data, and w
 
 ### **_Step 2:_**_Recreate Workflows in HighLevel_
 
+  
+
+
   * **Create Automation Triggers:**
-    * In HighLevel, navigate to Automation > Workflows.
+    * In HighLevel, navigate to **Automation > Workflows.**
     * Set up triggers equivalent to those in HubSpot (e.g., form submissions, contact updates).  
   
 
@@ -166,6 +187,9 @@ This is a comprehensive guide for migrating your business processes, data, and w
 
 
 ### **_Step 3:_**_Test Workflows_
+
+  
+
 
   * **Run Tests:** Before activating workflows, run tests to ensure they function as intended.  
   
@@ -190,11 +214,14 @@ This is a comprehensive guide for migrating your business processes, data, and w
 
 ### ** _Step 1:_**_Export and Recreate Email Campaigns_
 
+  
+
+
   * **Export Email Templates:** Save HTML copies of your HubSpot email templates.  
   
 
   * **Import or Rebuild in HighLevel:**
-    * Navigate to Marketing > Email Campaigns in HighLevel.
+    * Navigate to **Marketing > Email Campaigns **in HighLevel.
     * Recreate or import your email templates and configure them to match your existing designs.
 
 
@@ -206,11 +233,14 @@ This is a comprehensive guide for migrating your business processes, data, and w
 
 ### **_Step 2:_**_Rebuild Landing Pages and Forms_
 
+  
+
+
   * **Export Landing Pages:** Download the HTML for HubSpot landing pages.  
   
 
   * **Rebuild in HighLevel:**
-    * Use HighLevel’s Sites > Landing Pages builder to recreate landing pages.
+    * Use HighLevel’s**Sites > Landing Pages builder **to recreate landing pages.
     * Ensure all forms and CTA buttons are linked to your HighLevel workflows.
 
 
@@ -220,7 +250,10 @@ This is a comprehensive guide for migrating your business processes, data, and w
   
 
 
-### **Step 3:** Campaign Settings
+### **_Step 3:_**_Campaign Settings_
+
+  
+
 
   * **Configure Campaigns:** Set up your campaigns in HighLevel, ensuring that all assets (emails, landing pages, forms) are linked. Assign specific goals, budgets, and tracking settings as needed.
 
@@ -242,7 +275,10 @@ This is a comprehensive guide for migrating your business processes, data, and w
 
 ### ** _Step 1:_**_Migrate Calling and SMS_
 
-  * **Twilio Integration:** If using Twilio in HubSpot, integrate it with HighLevel for calling and SMS. Go to Settings > Phone Numbers in HighLevel to set up your Twilio account.  
+  
+
+
+  * **Twilio Integration:** If using Twilio in HubSpot, integrate it with HighLevel for calling and SMS. Go to **Settings > Phone Numbers** in HighLevel to set up your Twilio account.  
   
 
   * **Configure Communication Workflows:** Set up SMS and call automation workflows in HighLevel under Automation > Workflows. Ensure all client communication is appropriately logged and tracked.
@@ -253,7 +289,10 @@ This is a comprehensive guide for migrating your business processes, data, and w
 
 ### **_Step 2:_**_Setup Conversations Inbox_
 
-  * **Configure Inbox:** In HighLevel, navigate to Conversations > Inbox. Set up your default inbox and connect communication channels such as email, SMS, and Facebook Messenger.  
+  
+
+
+  * **Configure Inbox:** In HighLevel, navigate to **Conversations > Inbox.** Set up your default inbox and connect communication channels such as email, SMS, and Facebook Messenger.  
   
 
   * **Test Communication Channels:** Ensure all channels are functioning correctly and that messages are properly routed to the appropriate inbox.
@@ -276,6 +315,9 @@ This is a comprehensive guide for migrating your business processes, data, and w
 
 ### ** _Step 1:_**_Perform Final Data Validation_
 
+  
+
+
   * **Cross-Check Data:** Ensure that all data has been successfully migrated and that there are no discrepancies between HubSpot and HighLevel records.  
   
 
@@ -290,6 +332,9 @@ This is a comprehensive guide for migrating your business processes, data, and w
 
 ### **_Step 2:_**_Train Team Members_
 
+  
+
+
   * **HighLevel Training:** Provide training to your team on how to use HighLevel, focusing on the differences from HubSpot.  
   
 
@@ -303,6 +348,9 @@ This is a comprehensive guide for migrating your business processes, data, and w
 
 
 ### **_Step 3:_**_Monitor and Optimize_
+
+  
+
 
   * **Monitor Performance:** Track the performance of your new setup in HighLevel, making adjustments as necessary.  
   
@@ -327,6 +375,9 @@ This is a comprehensive guide for migrating your business processes, data, and w
 
 ### ** _Step 1:_**_Transition Period_
 
+  
+
+
   * **Run in Parallel:** Consider running HubSpot and HighLevel in parallel during the transition phase to ensure no critical operations are missed.  
   
 
@@ -341,6 +392,9 @@ This is a comprehensive guide for migrating your business processes, data, and w
 
 ### **_Step 2:_**_Cancel HubSpot Subscription_
 
+  
+
+
   * **Final Data Backup:** Before canceling your HubSpot subscription, ensure all data is securely backed up.  
   
 
@@ -354,6 +408,9 @@ This is a comprehensive guide for migrating your business processes, data, and w
 
 
 ### **_Step 3:_**_Post-Migration Review_
+
+  
+
 
   * **Review Success:** Evaluate the success of the migration process and document any lessons learned.  
   

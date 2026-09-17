@@ -6,205 +6,304 @@
 
 ---
 
-**Overview**  
+Legitimate business calls can sometimes appear as **Spam Likely** , **Potential Spam** , or similar warnings on a recipient's device. These labels are influenced by carriers and caller analytics providers that evaluate factors such as phone-number reputation, calling patterns, recipient feedback, and caller authentication. 
+
   
-If your business calls are being flagged as 'Spam Likely' or 'Scam,' it can reduce answer rates and harm your credibility. This guide explains why calls are marked as spam and provides actionable steps to prevent it.
+
+
+HighLevel provides several tools including SHAKEN/STIR, CNAM, and Voice Integrity—to help establish caller trust and address reputation issues, but each tool serves a different purpose.
 
 * * *
 
 **TABLE OF CONTENTS**
 
-    * Why Are Calls Marked as Spam?
-      * Common Reasons for Spam Labelling:
-    * Key Impacts of Calls Being Marked as Spam
-    * How to Prevent Your Calls from Being Marked as Spam
-  * Why Turn On Voice Integrity?
-    * What You Need to Get Started
-    * What Happens After You Register?
-      * You can also register your Number with the Free Caller Registry (U.S. Only)
-      * 2\. Enable SHAKEN/STIR Authentication (U.S. Only)
-      * 3\. Update CNAM (Caller Name Presentation) Information
-      * 4\. Contact the Terminating Carrier (For International Numbers)
-      * 5\. Consider Replacing the Phone Number
-    * Frequently Asked Questions
+  * What Does It Mean When Calls Are Marked as Spam?
+  * Key Benefits of Improving Caller Reputation
+  * Authentication vs. Caller ID vs. Reputation
+  * Voice Integrity
+  * Free Caller Registry
+  * SHAKEN/STIR
+  * CNAM
+  * Best Practices for Maintaining a Positive Caller Reputation
+  * When to Consider Replacing a Phone Number
+  * How To Fix Calls Marked as Spam
+  * Frequently Asked Questions
     * Related Articles
-    * Next Steps
 
 
 * * *
 
-## **Why Are Calls Marked as Spam?**
+# **What Does It Mean When Calls Are Marked as Spam?**
 
   
 
 
-Carriers and mobile devices use algorithms to detect and flag suspicious calls. If your number is labeled as spam, customers may ignore or block your calls, impacting your business communication.
+Spam labels are reputation signals applied by carriers, devices, and caller analytics providers when they determine that a phone number may be associated with unwanted or suspicious calling activity. A legitimate business number can still receive one of these labels, which is why maintaining accurate caller information and healthy calling behavior is important.
 
   
 
 
-### **Common Reasons for Spam Labelling:**
+A phone number may be more likely to experience reputation issues when calling patterns resemble unwanted traffic. HighLevel recommends maintaining consistent number usage, avoiding sudden outbound-volume spikes, gradually increasing new campaign volume, respecting customer consent and opt-out requests, and avoiding suspicious calling patterns such as excessive neighbor calling.
 
   
 
 
-  * **High Call Volumes:** Making too many calls in a short time can trigger spam filters.  
+Caller reputation can also continue changing over time. Completing authentication or reputation registrations does not guarantee that a number will permanently remain free of spam labels because carriers and analytics providers can continue evaluating calling activity, recipient feedback, and other reputation signals.
+
+* * *
+
+## **Key Benefits of Improving Caller Reputation**
+
   
 
 
-  * **Unfamiliar Numbers:** Calls from numbers not recognized by the recipient or without proper caller ID.  
+A healthy caller reputation helps recipients and telecommunications providers recognize legitimate business calls more easily. Combining the appropriate HighLevel trust registrations with responsible calling behavior creates stronger trust signals and can reduce the risk of legitimate calls being incorrectly treated as suspicious.
+
   
 
 
-  * **Frequent Customer Complaints:** If your number has been reported as spam multiple times.  
-  
+  * **Increase caller trust:** Give carriers and recipients more information to identify legitimate business calls.
 
+  * **Improve caller recognition:** Use accurate caller-name information where supported to help contacts understand who is calling.
 
-  * **Low Engagement Rates:** If a high percentage of your calls go unanswered or are rejected.  
-  
+  * **Address incorrect spam labels:** Submit eligible U.S. numbers for reputation review through Voice Integrity or other applicable remediation options.
 
+  * **Strengthen caller authentication:** Use SHAKEN/STIR to help verify that your business is authorized to use the phone number.
 
-  * **SHAKEN/STIR Authentication Failures:** If your caller ID isn’t verified, it may be flagged.
+  * **Protect long-term reputation:** Follow consistent, consent-based calling practices to reduce future reputation issues.
+
+  * **Improve call reach:** Strong authentication, identification, and reputation signals can help legitimate calls reach customers more reliably.
 
 
 * * *
 
-## **Key Impacts of Calls Being Marked as Spam**
+## **Authentication vs. Caller ID vs. Reputation**
 
   
 
 
-When your business number is flagged, it can lead to:
+SHAKEN/STIR, CNAM, and Voice Integrity work together but solve different problems. Understanding the distinction prevents common troubleshooting mistakes, such as expecting CNAM or SHAKEN/STIR alone to remove a Spam Likely label.
 
   
 
 
-  * **Decreased Answer Rates:** Customers may ignore flagged calls, reducing conversions.  
+Trust Layer| HighLevel Tool| What It Does| Important Limitation  
+---|---|---|---  
+Authentication| **SHAKEN/STIR**|  Helps authenticate caller ID information and verify that the caller is authorized to use the number| Does not remove nuisance or spam labels  
+Identification| **CNAM**|  Associates a U.S. phone number with a registered business or personal name| Name display is not guaranteed and does not remove spam labels  
+Reputation| **Voice Integrity**|  Submits eligible U.S. numbers to caller analytics providers for reputation review| Review and label changes may take time  
+  
   
 
 
-  * **Damaged Business Reputation:** Being labeled as spam can create a negative impression.  
-  
-
-
-  * **Communication Barriers:** Important calls may be blocked or filtered by spam detection systems.
-
+HighLevel recommends completing SHAKEN/STIR before Voice Integrity. CNAM is optional for Voice Integrity but is recommended because it adds a caller-identification layer alongside authentication and reputation management.
 
 * * *
 
-## **How to Prevent Your Calls from Being Marked as Spam**
+## **Voice Integrity**
 
   
 
 
-Follow these best practices to improve your call credibility and avoid being flagged.
+Voice Integrity is HighLevel's reputation-management option for eligible U.S. phone numbers. It submits number information to major caller analytics providers so they can evaluate legitimate business traffic and review reputation or Spam Likely concerns.
 
   
 
 
-**1.******Leverage Voice Integrity to Build Trust****
+HighLevel submits eligible Voice Integrity registrations to caller analytics providers including **First Orion, Hiya, and TNS**. Voice Integrity is specifically intended to help address phone-number reputation and incorrect spam labeling.
 
   
 
 
-Voice Integrity is a game-changing feature that helps protect your business calls from being flagged as “Spam Likely.” By registering your U.S.-based phone numbers with top caller ID analytics providers—First Orion, Hiya, and TNS—you can improve pickup rates and reinforce your brand’s trustworthiness.  
-  
-
-
-# **Why Turn On Voice Integrity?**
+Before submitting Voice Integrity:
 
   
 
 
-If your business numbers are flagged or blocked, Voice Integrity helps you:
+  * Complete **SHAKEN/STIR** registration.
 
-  * **Fix bad reputations** and clear “Spam Likely” labels from legitimate calls.
+  * Configure **CNAM** when applicable and recommended.
 
-  * **Increase pickup rates** —recipients are more likely to answer when your caller ID shows a verified, trusted name.
+  * Confirm the phone number is an eligible U.S. number.
 
-  * **Ensure your calls are seen as authentic** , not suspicious.
-
-  * Boost **call answer rates** with a verified and trusted caller ID
-
-  * Help prevent your numbers from being **blocked** or **ignored**
-
-  * Maintain a **positive caller reputation** over time
-
-  * Establish **trust and credibility** with recipients
-
-  * Support consistent **branding** through accurate caller ID display
+  * Make sure your business information is accurate and consistent.
 
 
   
 
 
-  
-
-
-## **What You Need to Get Started**
+To access Voice Integrity, navigate to:
 
   
 
 
-Before activating Voice Integrity, ensure you meet these requirements:
+**Settings → Phone Numbers → Trust Center → Voice Integrity**
 
-  * **SHAKEN/STIR Certification** (Required):  
-Confirms your calls are legitimate and not spoofed.
+Follow the on-screen registration process for the eligible phone numbers you want to submit.
 
-  * **CNAM Registration** (Recommended):  
-Displays your business name as the caller ID, increasing credibility.
+For the complete registration workflow, see [Improve Your Phone Number's Reputation with Voice Integrity](<https://help.gohighlevel.com/support/solutions/articles/155000005566?utm_source=chatgpt.com>).
 
-  * **U.S. Phone Numbers Only** :  
-Currently, Voice Integrity applies only to U.S.-based numbers. International traffic is not supported.
+* * *
 
-
-  
-**How to Enable Voice Integrity**
+## **Free Caller Registry**
 
   
 
 
-You can easily set up Voice Integrity in just a few steps:
+Free Caller Registry provides another U.S. remediation route for businesses that need to submit legitimate phone numbers for reputation consideration. HighLevel specifically recommends this path when a business does not have an EIN and therefore cannot use the documented SHAKEN/STIR and CNAM registration processes.
 
-  1. **Navigate to:****  
-`Settings > Phone Numbers > Trust Center > Voice Integrity`  
-****`![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155050866755/original/H8TAI341NnpXvWjY_Bh0aRSbatW1CBo_CQ.png?1754296231)`**  
   
 
 
-  2. **Fill Out the Form**  
-Provide the requested business and phone number details.  
+If your business has an EIN and is eligible for Voice Integrity, HighLevel recommends using Voice Integrity. If your business does not have an EIN, the Free Caller Registry can be used as an alternative for eligible U.S. numbers.
+
+Free Caller Registry is a separate process from Voice Integrity, so its review timeline should not be treated as the Voice Integrity processing timeline.
+
   
 
 
-  3. **Submit Your Application**  
-Applications are typically processed within **2 business days**.  
+For complete instructions, see [**Remediate “Spam Likely” on Your Caller ID Using Free Caller Registry**](<https://help.gohighlevel.com/support/solutions/articles/155000005891-remediate-spam-likely-on-your-caller-id-using-free-caller-registry?utm_source=chatgpt.com>)**.**
+
+* * *
+
+## **SHAKEN/STIR**
+
   
 
 
-  4. **Check Application Status**  
-Track progress under the **“Submitted Applications”** section in the Trust Center.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155050866753/original/o-fzyg7PRAO09vJNSZMj2kHk9UhLhvE_eg.png?1754296231)
+SHAKEN/STIR provides caller authentication rather than reputation remediation. It uses authentication protocols and digital certificates to help carriers verify that your business is authorized to use the phone number displayed on an outbound call.
 
+  
+
+
+SHAKEN/STIR can improve trust and help prevent caller-ID spoofing, but it **does not directly remove Spam Likely or other nuisance labels**.
+
+  
+
+
+For HighLevel users:
+
+  
+
+
+  * If a qualifying A2P SMS registration has already been completed, eligible numbers may be enrolled in SHAKEN/STIR automatically.
+
+  * If you have not registered through that route, SHAKEN/STIR can be configured through the HighLevel **Trust Center**.
+
+  * An EIN is required for the documented SHAKEN/STIR registration process.
+
+
+  
+
+
+To review or configure SHAKEN/STIR, go to:
+
+**Settings → Phone Numbers → Trust Center**
+
+  
+
+
+For complete requirements and setup guidance, see [What is SHAKEN/STIR?](<https://help.gohighlevel.com/support/solutions/articles/155000006429-what-is-shaken-stir-?utm_source=chatgpt.com>).
+
+* * *
+
+## **CNAM**
+
+  
+
+
+CNAM helps identify who is calling by associating a U.S. phone number with a registered business or personal name. Accurate caller identification can improve recognition and trust, but CNAM should not be treated as a spam-label removal tool.
+
+  
+
+
+CNAM does **not** directly remove nuisance or Spam Likely labels. The receiving carrier also determines whether the registered name is displayed, so completing CNAM registration does not guarantee that every recipient will see your business name.
+
+  
+
+
+To register or update CNAM in HighLevel:
+
+**Settings → Phone Numbers → Trust Center → CNAM (Voice)**
+
+An EIN is required for CNAM registration through HighLevel's documented Trust Center process.
+
+For complete setup guidance, see [What is CNAM?](<https://help.gohighlevel.com/support/solutions/articles/155000006430-what-is-cnam-?utm_source=chatgpt.com>).
+
+* * *
+
+## **Best Practices for Maintaining a Positive Caller Reputation**
 
 ##   
 
 
-## **What Happens After You Register?**
+Registrations can improve caller trust, but your ongoing calling behavior also affects reputation. Consistent, expected, and permission-based traffic helps distinguish legitimate business communication from patterns commonly associated with unwanted calls.
 
   
 
 
-Once you submit your information, each of the analytics providers—Hiya, TNS, and First Orion—will review your registration separately.
+HighLevel recommends the following practices:
 
   
 
 
-  * Expect to receive confirmation emails within 2 business days  
+  * Use the **same caller ID consistently** when repeatedly contacting the same recipient.
+
+  * Avoid using the same phone number for unrelated purposes such as marketing, surveys, and support callbacks.
+
+  * Keep outbound call volume reasonably consistent.
+
+  * Gradually ramp up call volume for new campaigns rather than moving immediately from little or no traffic to high volume.
+
+  * Keep calling lists accurate and remove numbers that no longer connect.
+
+  * Respect customer consent, opt-outs, and applicable Do Not Call requirements.
+
+  * Avoid excessive or repeated calling that could lead to complaints.
+
+  * Avoid suspicious neighbor-calling patterns.
+
+  * Use accurate caller identification and announce the business clearly during the call.
+
+  * Avoid calling outside appropriate or legally permitted hours.
+
+
   
 
 
-  * Spam label removal can take longer to reflect across all platforms.  
+These practices do not guarantee that a number will never receive a spam label, but they reduce behaviors that carriers and analytics providers may associate with unwanted calling activity.
 
+For the full guidance, see [Recommendations and Best Practices for Maintaining a Positive Caller Reputation](<https://help.gohighlevel.com/support/solutions/articles/155000002944-recommendations-and-best-practices-for-maintaining-a-positive-caller-reputation?utm_source=chatgpt.com>).
+
+* * *
+
+## **When to Consider Replacing a Phone Number**
+
+  
+
+
+Replacing a phone number can be an option when reputation remediation is unlikely to be worthwhile. Because established numbers may already be used by customers, campaigns, and business processes, replacement should be considered carefully rather than treated as the first remediation step.
+
+  
+
+
+HighLevel's Free Caller Registry guidance notes that replacement may be more practical when a flagged number is relatively new, is not important to the business, or has an FTC complaint associated with it.
+
+For an established business number, consider completing applicable reputation remediation and reviewing your calling practices before deciding to replace it.
+
+  
+
+
+If you replace the number, make sure any HighLevel workflows, forwarding configurations, campaigns, published contact information, and other processes that use the old number are reviewed and updated as needed.
+
+* * *
+
+## **How To Fix Calls Marked as Spam**
+
+  
+
+
+A structured troubleshooting process helps determine whether your issue involves caller authentication, identification, reputation, or calling behavior. Completing every registration without understanding the problem can create extra work and may not address the actual cause.
 
   
 
@@ -212,102 +311,186 @@ Once you submit your information, each of the analytics providers—Hiya, TNS, a
   
 
 
-### **2\. Enable SHAKEN/STIR Authentication (U.S. Only)**
+### **Step 1: Confirm Which Phone Number Is Being Flagged**
+
+  
+
+
+Identify the exact outbound phone number displaying the spam warning.
+
+  
+
+
+Test carefully and document:
+
+  
+
+
+  * The affected phone number.
+
+  * The label being displayed.
+
+  * Which carriers, devices, or recipients are showing the label.
+
+  * Whether the issue occurs consistently or only with certain destinations.
+
+
+  
+
+
+Caller ID and spam-label presentation can vary by carrier, device, service plan, and analytics provider.
 
 ###   
-****Note** \- **An EIN (Employer Identification Number) is required to complete SHAKEN/STIR registration.** If you don’t have an EIN, we recommend registering your number with the [Free Call Registry](<https://help.gohighlevel.com/support/solutions/articles/155000005891-remediate-spam-likely-on-your-caller-id-using-free-caller-registry>) instead.**
+
+
+### **Step 2: Review SHAKEN/STIR**
 
   
 
 
-SHAKEN/STIR is a set of protocols designed to authenticate caller ID information and verify that it is coming from a legitimate source. The protocol works by using digital certificates to validate the caller's identity. When a call is made, the caller's identity is verified through these certificates, which are then stored in an online database. This ensures that when someone receives a call, they can trust that it is coming from who they think it is.
+Authentication should be in place before proceeding with Voice Integrity.
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155048323241/original/X1lm-xtm3K4pQi3XazomI3QuqZOUa65K_A.png?1750079655)
+  1. Go to **Settings → Phone Numbers → Trust Center**.
 
-  
+  2. Review the number's SHAKEN/STIR status.
 
+  3. Complete the applicable registration if it is not already active.
 
-  * These protocols verify your caller ID information, preventing fraud.  
-  
-
-
-  * Contact your phone service provider to enable SHAKEN/STIR on your number.
-
-
-  
-
-    
-    
-    **Note** : SHAKEN/STIR won't remove nuisance labels but may boost answer rates due to the "Trusted Call" label.
-
-  
-
-
-**Note- SHAKEN/STIR registration is automatically triggered if A2P registration is completed.**  
-  
-
-
-### **3\. Update CNAM (Caller Name Presentation) Information**
-
-  
-
-
-Updating or adding CNAM (Caller Name Presentation) might increase call answers by offering accurate caller information, though it won't affect nuisance labels. CNAM is a feature in the United States public telephone network that identifies an incoming caller by a personal or business name associated with the calling party.
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155050866717/original/zhLkvhyQe1s-e9p5tVTDa6e1bhaXDOHqew.jpeg?1754296172)
-
-  
-
-
-  
-
-    
-    
-    **Note** : CNAM doesn't remove nuisance labels, but accurate caller information can enhance answer rates.
-
-  
-
-
-  * Ensure your number correctly displays your business name on the caller ID.  
-  
-
-
-  * Work with your carrier to register or update your CNAM records.
+  4. Remember that SHAKEN/STIR authenticates your caller ID but does not directly remove Spam Likely labels.
 
 
   
 
 
-> **Any entity with a business registration number—including sole proprietors with an EIN—may sign up for CNAM. An EIN is mandatory, whether you’re a one-person operation or a larger, registered brand.**
-
-  
+_![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080366737/original/T465g7YCjhFZVNX6i3YZ5e85rAgf9i0Spg.png?1788866828)_  
 
 
   
 
 
-### **4\. Contact the Terminating Carrier (For International Numbers)**
+### **Step 3: Review CNAM**
 
   
 
 
-Currently, there is no centralized system to remove spam labels from international numbers. If your calls are flagged as spam outside the US, contact the terminating carrier directly to address the issue.
+Accurate caller-name information can help recipients identify your business even though CNAM does not directly control spam classification.
 
   
 
 
-### **5\. Consider Replacing the Phone Number**
+  1. From **Trust Center** , open **CNAM (Voice)**.
+
+  2. Confirm that the registered name is accurate.
+
+  3. Complete or update the registration when appropriate.
+
+  4. Keep in mind that the receiving carrier ultimately controls whether the name appears.
+
+
+### **Step 4: Submit the Number for Reputation Review**
 
   
 
 
-If the phone number flagged as ‘Spam Likely’ is relatively new, non-critical, or has an FTC complaint associated with it, replacing the number may be the fastest and easiest solution.
+If the number is eligible and your business meets the requirements:
+
+  
+
+
+  1. Go to **Settings → Phone Numbers → Trust Center → Voice Integrity**.
+
+  2. Select the affected eligible U.S. number.
+
+  3. Complete the required business and registration information.
+
+  4. Submit the application.
+
+  5. Monitor the application status.
+
+
+  
+
+
+Voice Integrity submits eligible numbers to major caller analytics providers for reputation review.
+
+If you do not have an EIN and cannot use the documented SHAKEN/STIR/CNAM route, review the Free Caller Registry option instead.
+
+### **Step 5: Review Your Calling Behavior**
+
+  
+
+
+Registration alone may not resolve a reputation problem if the calling patterns that contributed to the issue continue.
+
+Review:
+
+  
+
+
+  * Call volume and unexpected spikes.
+
+  * Frequency of repeated calls to the same contacts.
+
+  * Consent and opt-out handling.
+
+  * Accuracy of your calling lists.
+
+  * Whether one number is being used for unrelated types of campaigns.
+
+  * Whether your calls resemble suspicious neighbor-calling patterns.
+
+
+  
+
+
+Adjust your calling practices where necessary and continue monitoring the number's reputation.
+
+###   
+
+
+### **Step 6: Monitor the Result**
+
+  
+
+
+Reputation changes are not always immediate, and display behavior can vary among carriers and analytics providers.
+
+Continue monitoring:
+
+  
+
+
+  * Whether the Spam Likely label remains.
+
+  * Which carriers continue showing the label.
+
+  * Whether caller-name or trusted-call information appears correctly.
+
+  * Whether the number develops new complaints or reputation issues.
+
+
+  
+
+
+If one provider continues to classify the number incorrectly after applicable remediation, carrier- or analytics-provider-specific review may still be necessary.
+
+###   
+
+
+### **Step 7: Consider Number Replacement if Appropriate**
+
+  
+
+
+If the number is new or non-critical, has a serious existing reputation issue, or remediation is not practical, replacing it may be appropriate.
+
+  
+
+
+For established business numbers, evaluate the operational impact and complete reasonable remediation efforts before replacing the number.
 
 * * *
 
@@ -316,61 +499,86 @@ If the phone number flagged as ‘Spam Likely’ is relatively new, non-critical
   
 
 
-**Q. Will registering my number immediately remove spam labels?**
-
-Not necessarily. Registration helps, but it may take time for carriers to update records.
-
-  
-
+**Q: Does SHAKEN/STIR remove a Spam Likely label?**  
+No. SHAKEN/STIR authenticates caller ID information and helps verify that the caller is authorized to use the phone number. HighLevel specifically notes that it does not remove nuisance labels.
 
   
 
 
-**Q. Should I register newly acquired numbers?**
-
-Yes, registering new numbers can prevent potential spam mislabeling.
-
-  
-
+**Q: Does CNAM remove Spam Likely?**  
+No. CNAM associates a caller name with a U.S. phone number. It can improve caller recognition, but it does not remove nuisance labels.
 
   
 
 
-**Q. How long does Voice integrity registration take?**
-
-Approval can take up to 2 **business days**.
-
-  
-
+**Q: Why might my number still show as Spam Likely after Voice Integrity registration?**  
+Carriers and analytics providers continue evaluating number reputation and calling behavior. Registration does not guarantee a permanent label change or identical caller ID presentation across every carrier and device.
 
   
 
 
-**Q. Is there a cost for voice integrity submission?**
-
-No, registering with the voice integrity is **completely free**.
-
-  
-
+**Q: Can my number be marked as spam again after it has been remediated?**  
+Yes. Calling volume, recipient feedback, complaint activity, and other reputation signals can continue affecting how carriers and analytics providers classify a number.
 
   
 
 
-**Q. How will phone numbers be linked to the SHAKEN/STIR Profile?**
-
-All numbers will be Linked Automatically. All current available numbers and future bought numbers will automatically be linked with the registered SHAKEN/STIR.  
-
+**Q: Why doesn't my business name appear after CNAM registration?**  
+The receiving carrier determines whether CNAM is supported and how caller-name information is displayed. Registering CNAM does not guarantee that every recipient will see the business name.
 
   
 
+
+**Q: What should I do if only some carriers show my number as Spam Likely?**  
+Spam-label behavior can vary by carrier and caller analytics provider. Complete the applicable HighLevel trust and reputation registrations, review your calling behavior, and monitor which providers continue displaying the label.
+
+  
+
+
+**Q: Should I use Voice Integrity or Free Caller Registry?**  
+HighLevel recommends Voice Integrity for eligible businesses with an EIN. Businesses without an EIN can review Free Caller Registry as an alternative for eligible U.S. numbers.
+
+  
+
+
+**Q: When should I replace a phone number instead of trying to remediate it?**  
+HighLevel notes that replacement may be more practical when a flagged number is relatively new, non-critical to the business, or has an FTC complaint associated with it. Established business numbers should be evaluated carefully before replacement.
 
 * * *
 
-## **Related Articles**
+### **Related Articles**
 
-  * [Geo Permissions Issues with Twilio](<https://help.gohighlevel.com/support/solutions/articles/48000981435-geo-permissions-issues-with-twilio>)
-
-  * [How To Fix - Phone Call Redirect Loop](<https://help.gohighlevel.com/support/solutions/articles/48001076653-how-to-fix-phone-call-redirect-loop>)
+  
 
 
-* * *
+  * [Branded Calling: Improve Your Phone Number Reputation](<https://help.gohighlevel.com/support/solutions/articles/155000008284-branded-calling-improve-your-phone-number-reputation?utm_source=chatgpt.com>)
+
+
+  
+
+
+  * [Improve Your Phone Number's Reputation with Voice Integrity](<https://help.gohighlevel.com/support/solutions/articles/155000005566?utm_source=chatgpt.com>)
+
+
+  
+
+
+  * [What is SHAKEN/STIR?](<https://help.gohighlevel.com/support/solutions/articles/155000006429-what-is-shaken-stir-?utm_source=chatgpt.com>)
+
+
+  
+
+
+  * [What is CNAM?](<https://help.gohighlevel.com/support/solutions/articles/155000006430-what-is-cnam-?utm_source=chatgpt.com>)
+
+
+  
+
+
+  * [Remediate “Spam Likely” on Your Caller ID Using Free Caller Registry](<https://help.gohighlevel.com/support/solutions/articles/155000005891-remediate-spam-likely-on-your-caller-id-using-free-caller-registry?utm_source=chatgpt.com>)
+
+
+  
+
+
+  * [Recommendations and Best Practices for Maintaining a Positive Caller Reputation](<https://help.gohighlevel.com/support/solutions/articles/155000002944-recommendations-and-best-practices-for-maintaining-a-positive-caller-reputation?utm_source=chatgpt.com>)

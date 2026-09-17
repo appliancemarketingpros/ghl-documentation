@@ -288,6 +288,62 @@ Accessing and using custom values is quick and easy, and HighLevel makes it very
 
 ### **2\. Automations (Workflows)**
 
+  
+
+
+  
+
+
+  
+
+
+### **Add and Edit Dynamic Values in Workflow Text Fields**
+
+  
+
+
+Dynamic values in workflow text fields are easier to identify and manage because valid values now appear as chips instead of blending into static text. The updated editor also provides faster ways to insert and replace values while clearly identifying values that are no longer recognized.
+
+  
+
+
+  * **Add a value quickly:** Type `/` inside a workflow text field to search for and insert a custom value directly in the text.
+
+
+  
+
+
+  * **Replace an existing value:** Click an existing value chip to select another custom value and replace it in the same position.  
+  
+
+
+  * **Identify invalid values:** Stale or unrecognized values appear in red. Replace the highlighted value with a recognized custom value from the available list.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080953224/original/MHS56mlvRFNWnopYDUV0xMPigQUC3GGbVQ.gif?1789467651)**  
+
+
+  
+
+
+  
+
+
   * While building workflows, you can add custom values in so many places to help personalize your automation, messaging, and notifications based on the custom values being added.  
   
 
@@ -297,7 +353,7 @@ _**[Click here](<https://help.gohighlevel.com/support/solutions/48000455132>)** 
   
 
 
-_![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155027767453/original/S08Zf7i-NlRJSLq1fpWzoTujWyb3hrsUzQ.jpg?1718636148)_
+_![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080954014/original/AOdldP3yVmTAqtep9pMVamGRwDtnz25RHA.png?1789467974)_
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155027767481/original/3peQXC7prBJRP6NyhBjjgun_7-UbQ2u6Jw.jpg?1718636176)
 

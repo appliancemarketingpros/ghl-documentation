@@ -6,7 +6,10 @@
 
 ---
 
-This guide explains how to port a phone number from an external carrier into a HighLevel Location (sub-account). It covers the required documents, how to submit a port request, and what to expect during the transfer process.
+[](<https://link.gohighlevel.com/widget/form/qX47XEC8HsDtrGkmbjFQ>)This guide explains how to port a phone number from an external carrier into a HighLevel sub-account. It covers the required documents, how to submit a port request, and what to expect during the transfer process.
+
+  
+
 
 Please prepare the information mentioned in the article and complete the [Porting Form.](<https://link.gohighlevel.com/widget/form/qX47XEC8HsDtrGkmbjFQ>)
 
@@ -14,27 +17,24 @@ Please prepare the information mentioned in the article and complete the [Portin
 
 **TABLE OF CONTENTS**
 
-  * What is Porting? 
-  * Prerequisites
-  * Billing Statement Requirement
-  * Decide Your Destination Carrier (Important)
-  * How Does Porting Work?
-    * Option A: In-App Port-In (US Only — New)
-    * Step 1: Agreement Checklist
-    * Step 2: Number Entry
-    * Step 3: Additional Details
-    * Step 4: Document Upload
-  * Option B: Manual Port Request via Form
-    * Step 1: Gather documents
-    * Step 2: Complete the High-Level Porting Form (US numbers)
-    * Step 3: Approval & FOC (Firm Order Commitment)
-  * After the Port — Compliance & Deliverability
-  * Frequently Asked Questions
+  * What is Porting a Phone Number? 
+    * Prerequisites
+    * Billing Statement Requirement
+    * Decide Your Destination Carrier (Important)
+    * US Phone Number Porting: In-App Flow
+    * US Phone Number Porting: Manuel Port Request
+        * Step 1: Gather documents
+        * Step 2: Complete the High-Level Porting Form (US numbers)
+        * Step 3: Approval & FOC (Firm Order Commitment)
+    * International Phone Number Porting
+    * After Your Number is Ported
+    * Frequently Asked Questions
+    * Related Articles
 
 
 * * *
 
-## **What is Porting?**
+# **What is Porting a Phone Number?**
 
   
 
@@ -54,39 +54,13 @@ The porting process takes between two and four weeks from when you submit the re
   
 
 
-You can find the[ Porting form here. ](<https://link.gohighlevel.com/widget/form/qX47XEC8HsDtrGkmbjFQ>)
-
-* * *
-
-## **Prerequisites**
-
-  
-
-
-  * **Location ID** for the destination sub‑account (where the number will live).  
-  
-
-
-  * **Account details with your current carrier** (account #, PIN / last 4 SSN for wireless, service address).  
-  
-
-
-  * **Recent phone bill** (PDF; must be legible).  
-  
-
-
-  * **Letter of Authorization (LOA)** signed by the **authorized person** on the account (typically within the last 15–30 days, see country notes).  
-  
-
-
-  * **Customer Service Record** (or equivalent) from your current carrier.
-
+You can find the [](<https://link.gohighlevel.com/widget/form/qX47XEC8HsDtrGkmbjFQ>)[Porting form here.](<https://link.gohighlevel.com/widget/form/qX47XEC8HsDtrGkmbjFQ>)
 
   
 
     
     
-    **IMPORTANT PLEASE READ**  
+    **IMPORTANT! PLEASE READ**  
       
      1. All Wireless Numbers REQUIRE a Pin for Port Requests. Providing a incorrect or fake pin in this box will cause the port request to be rejected by our carrier.  
       
@@ -98,66 +72,66 @@ You can find the[ Porting form here. ](<https://link.gohighlevel.com/widget/form
 
   
 
+    
+    
+    **Note:** Name & address must match your carrier records exactly. PO Boxes are not accepted as service addresses.
+
+* * *
+
+## **US Phone Number Porting: In-App Flow**
+
+  
+
+
+US phone numbers use HighLevel's dedicated port-in process. Keeping the complete US workflow in one resource ensures you have the latest requirements, submission steps, and request-tracking information without relying on duplicate instructions that may become outdated.
+
+  
+
+
+For complete instructions, see [](<https://help.gohighlevel.com/en/support/solutions/articles/155000008078>) [How to Submit and Track Port-In Number Requests](<https://help.gohighlevel.com/en/support/solutions/articles/155000008078>)
+
+  
+
+
+The dedicated guide covers:
+
+  * Port-in eligibility and prerequisites
+  * Information and documents required to submit a request
+  * Submitting a port-in request from HighLevel
+  * Letter of Authorization (LOA) requirements
+  * Tracking the status of a port request
+  * Resolving rejected port requests
+  * What to expect while a port is being processed
+
 
   
 
     
     
-    **Please Note:** **Name & address must match** your carrier records exactly. PO Boxes are not accepted as service addresses.
+    **Important:** Follow the requirements in the dedicated US port-in guide rather than using a manual porting form for the US in-app workflow.
+    
+    We are currently able to port in numbers **from United States** only through this flow. For international numbers, please [reach out to support](<https://help.gohighlevel.com/support/solutions/articles/155000000969-24-7-customer-support-options> "reach out to support") so we can submit****[**Twilio's International Porting Form**](<https://twlo.my.salesforce-sites.com/InternationalPorting> "Twilio's International Porting Form")**** for you.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079848583/original/ktxZ8OYPDOQRjAR0vqmabBdcV4FOHNavzQ.png?1788293440)
 
 * * *
 
-## **Billing Statement Requirement**
+## **US Phone Number Porting: Manuel Port Request**
 
   
 
 
-  * The billing statement **must not be older than 90 days**.  
-  
-
-
-  * The document must clearly show the phone number(s), account owner name, and provider name.  
-  
-
-
-  * For **Google Voice** numbers, provide a screenshot showing the phone numbers and associated email assress.  
-  
-
-
-  * For **Landline or VoIP numbers** , Provide the latest monthly billing statements whenever possoble.  
-  
-
-
-  * If **no bill is available** , a receipt or account portal screenshot displaying the numbers and owner may be accepted.
-
-
-* * *
-
-## **Decide Your Destination Carrier (Important)**
+Manual port request may be required for some US phone numbers or porting scenarios that are not supported by the dedicated in-app workflow. Accurate carrier information is critical when a phone number must go through a manual porting process. The information submitted for a port request generally needs to match the records maintained by the current carrier to reduce the likelihood of rejection or processing delays.
 
   
 
-
-Not sure which you’re on? In your Location, go to **Settings → Phone System**. If you see **LC Phone** branding and no Twilio SID, you’re on LC Phone. If you see **Twilio Account SID/Auth Token** , you’re on Twilio.
-
-  
-
-
-  1. **LC Phone (LeadConnector)** — Choose this option if your Location Currently uses LC Phone or you want HighLevel to host/operate the number. Our team submits the port with our carrier partners and keeps you updated.  
-  
-
-
-  2. **Twilio** — Choose this if your Location is connected to **your own Twilio project/sub‑account**. Our team submits the port to **Twilio** for you (you’ll still manage A2P/Toll‑Free and webhooks in Twilio after the port).
-
-
-* * *
-
-## **How Does Porting Work?**
-
-  
-
-
-There are two ways to submit a US port-in request. Choose the option that applies to your setup.
+    
+    
+    **IMPORTANT** : We are currently able to port in numbers **from United States only**. For international numbers, please [reach out to support](<https://help.gohighlevel.com/support/solutions/articles/155000000969-24-7-customer-support-options> "reach out to support") so we can submit****[**Twilio's International Porting Form**](<https://twlo.my.salesforce-sites.com/InternationalPorting> "Twilio's International Porting Form")**** for you.
+    
 
   
 
@@ -165,237 +139,59 @@ There are two ways to submit a US port-in request. Choose the option that applie
   
 
 
-### _Option A: In-App Port-In (US Only — New)_
-
-###   
-
-
-Availability: Agency Owners and Admins | Must be enabled via Labs Applies to US phone numbers only
+#### _**Step 1:** Gather documents_
 
   
 
 
-Agency owners and admins can now submit and track port-in requests directly inside the platform, no external form needed. The in-app flow auto-generates your LOA, so you don't need to prepare or upload one manually.
-
+  * LOA (Letter of Authorization) — signed by the authorized person. Note that the **company name field** (as shown in the screenshot) on the **LOA** can be **left blank**.  
   
-
-
-**How to Access**
-
-  
-
-
-  * Submit a new request: Phone System → Phone Numbers → Add Number → Port-in Numbers  
-  
-
-  * Track existing requests: Phone System → Phone Numbers → Port-In Numbers tab
-
-
-  
-
-
-  
-
-
-###  _**Step 1:** Agreement Checklist_
-
-  
-
-
-Review and acknowledge the standard porting terms:
-
-  
-
-
-  * Applicable rates for porting  
-  
-
-  * Numbers must remain active with your current carrier until the port completes  
-  
-
-  * Possible messaging downtime of up to 3 days during the transition  
-  
-
-  * Potential termination charges from your current carrier  
-  
-All acknowledgements must be accepted to continue.  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072002726/original/DbYw0gFjngXt4Mec3Ged5H6SE-fNIK0Zyw.png?1779455280)
-
-
-###   
-_**Step 2:** Number Entry_
-
-  
-
-
-  * Account number — your account number with the current carrier  
-  
-
-  * Landline numbers — enter multiple numbers as a comma-separated list  
-  
-
-  * Wireless numbers — enter each number with its PIN or the last 4 digits of the account holder's SSN.  
-  
-
-  * Use + Add New Number to include additional wireless numbers.  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072002800/original/-qhKW0KzS84ntU9lDNG8IcQFWkFOmxqYkQ.png?1779455325)  
-  
-
-
-###   
-_**Step 3:** Additional Details_
-
-### **  
-**
-
-Field|  Notes  
----|---  
-Port request name| Optional — for your internal reference  
-Account type| Toggle between Residential or Business  
-Contact name| Name of the account holder  
-Authorized email| Where the auto-generated LOA will be sent for digital signature  
-Full address  
-| Street, city, state (dropdown), and postal code  
-  
-  
-
-
-  
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072002880/original/6z-g-xwzNAkK8k1CHwWjkoAxilXvuR6y3w.png?1779455411)
-
-  
-
-
-  
-
-
-###  _**Step 4:** Document Upload_
-
-  
-
-
-Upload your billing statement from your current carrier.
-
-  
-
-
-  * Accepted formats: PDF or image file  
-  
-
-  * Maximum file size: 10 MB per file  
-  
-
-  * Multiple billing documents can be uploaded if needed
-
-
-  
-
-
-This is the only document you need to upload. The LOA is automatically generated from your entered details and emailed to the authorized representative for digital signature.  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072002920/original/BZMa_c7fz1XNlzx3PHeUhIBaynsMCkbLWg.png?1779455427)
-
-  
-  
-**After Submission**
-
-  
-
-
-  * A confirmation modal appears with your Request SID.  
-  
-
-  * The auto-generated LOA is emailed to the authorized representative for e-signature.  
-  
-
-  * Your request appears live in the Port-In Numbers tab with real-time status updates:  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072003043/original/PmvvYFlF0UiWI_nYbicBbrLfbtvfbTvhtw.png?1779455511)
-
-
-  
-
-
-  
-
-
-Status| Meaning  
----|---  
-In Review| Request submitted, under initial review  
-In Progress| Submitted to carrier, being processed  
-Completed| Port is complete  
-Rejected| Request was rejected — check the description for the reason  
-  
-  
-
-
-Each entry also shows the Request SID, created date, and a description of the current carrier action.  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155072003166/original/2h1WZ-EFDWw3tvQ5qgfTSzngFmIjYkzU1w.png?1779455575)
-
-* * *
-
-## **Option B: Manual Port Request via Form**
-
-  
-
-
-**IMPORTANT** : We are currently able to port in numbers from the United States only. For any other country's porting please refer to [Let's port your phone number](<https://twlo.my.salesforce-sites.com/InternationalPorting>). If a Letter of Authorization (LOA) is required, use this template.  
-This process typically takes 2-4 weeks, and we will provide updates via email.
-
-  
-
-
-### _**Step 1:** Gather documents_
-
-  
-
-
-  1. **LOA (Letter of Authorization)** — signed by the authorized person.  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054088072/original/p8t77kH58TytiJCfz2_KPn1CSL11YbTg5g.png?1758222144)
-
-  
-  
-**Note** \- The **company name field** (as shown in the screenshot) on the **LOA** can be **left blank**.  
-  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079925262/original/_zRU3E9Y0PI2CVy1AKOZzsI2vJNw9ANuBQ.png?1788358831)  
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155058842655/original/V_oYDFgRxSYGkU7SwhxqzMDOuQTepdCtLw.png?1763638695)  
   
 
+  * **Latest phone bill** — clear/legible **PDF** , provided by the phone carrier.
+    * The billing statement **must not be older than 90 days**.
 
-  2. **Latest phone bill** — clear/legible **PDF** , provided by the phone carrier.  
+    * The document must clearly show the phone number(s), account owner name, and provider name.
+
+    * For **Google Voice** numbers, provide a screenshot showing the phone numbers and associated email assress.
+
+    * For **Landline or VoIP numbers** , Provide the latest monthly billing statements whenever possoble.
+
+    * If **no bill is available** , a receipt or account portal screenshot displaying the numbers and owner may be accepted.  
   
 
 
-  3. **List of numbers to port** — in **E.164** format (e.g., `+15551234567`).  
+  * **List of numbers to port** — in **E.164** format (e.g., `+15551234567`).  
   
 
-
-  4. **Location ID** — destination sub‑account. _(Find it in the Location:_**_Settings → Business Profile_** _.)_  
-  
-_![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054088147/original/x_YH0z1VALLLlkJeQKy9xQErsE4uQaYjwA.png?1758222300)_  
+  * **Location ID** — destination sub‑account. _(Find it in the Location:_**_Settings → Business Profile_** _.)_  
   
 
-
-  5. **Carrier account details** — account # and **PIN/Passcode** for any **wireless** numbers.
+  * **Carrier account details** — account # and **PIN/Passcode** for any **wireless** numbers.  
+  
+_![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054088147/original/x_YH0z1VALLLlkJeQKy9xQErsE4uQaYjwA.png?1758222300)_
 
 
   
   
 
 
-### _**Step 2:** Complete the High-Level Porting Form (US numbers)_
+#### _**Step 2:** Complete the High-Level Porting Form (US numbers)_
 
   
 
 
-  * **Agency Relationship Number.**
+Complete the manual port request form ([Click here to view the form](<https://link.gohighlevel.com/widget/form/qX47XEC8HsDtrGkmbjFQ>)). Provide the following information.  
+  
 
-  * **Contact name + email** (support updates go to this email).  
+
+  * **Agency Relationship Number.**  
+  
+
+
+  * **Contact name + email** \- support updates will go to this email.  
   
 
 
@@ -425,6 +221,12 @@ After filling in the required information, check the consent boxes and submit th
 
   
 
+    
+    
+    **Please Note:** Your Letter of Authorization and Billing Statement(s) must be **PDF** files and cannot exceed **4MB**.
+
+  
+
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155054088581/original/RaM3J1q1AfqHnQ-1Jd-KLOz6H_vDkdDgDQ.png?1758222739)
 
@@ -433,17 +235,8 @@ After filling in the required information, check the consent boxes and submit th
 
   
 
-    
-    
-    **Please Note:** Your Letter of Authorization and Billing Statement(s) must be **PDF** files and cannot exceed **4MB**.
 
-  
-
-
-  
-
-
-### _**Step 3:** Approval & FOC (Firm Order Commitment)_
+#### _**Step 3:** Approval & FOC (Firm Order Commitment)_
 
   
 
@@ -457,25 +250,52 @@ After filling in the required information, check the consent boxes and submit th
 
 * * *
 
-## **After the Port — Compliance & Deliverability**
+## **International Phone Number Porting**
 
   
 
 
-After your number ports in, complete the checks below to ensure calls and messages flow reliably and aren’t blocked.
+International phone number porting is not currently available through the standard HighLevel port-in workflow. The standard flow currently supports porting in numbers from the United States only.
 
   
 
 
-  * **A2P 10DLC (US 10‑digit local SMS):** Your messaging numbers must be registered to an **approved Brand & Campaign**. Unregistered traffic to US handsets is blocked by carriers.  
+If you need to port an international number, please contact[ HighLevel Support.](<https://help.gohighlevel.com/support/solutions/articles/155000000969-24-7-customer-support-options>) Our support team can submit Twilio's [International Porting Form](<https://twlo.my.salesforce-sites.com/InternationalPorting>) on your behalf and provide guidance on the required information and documentation.
+
   
 
-  * **Toll‑Free (US/CA):** Complete **Toll‑Free Verification** before sending messaging at scale. New verification submissions are adding extra business fields; see our Toll‑Free guide for current requirements.  
+
+International porting availability and requirements vary by country, number type, and telecommunications provider. Additional documentation or regulatory information may be required before the number can be transferred.
+
+* * *
+
+## **After Your Number is Ported**
+
   
 
 
-  * **International:** Ensure any required **Regulatory Bundles/Addresses** are approved to avoid call/SMS failures.
+Completing a number transfer does not automatically complete every messaging or regulatory requirement associated with the number. Review the requirements for the number type and destination before using the newly ported number for customer communications.
 
+  
+
+
+For applicable numbers:  
+  
+
+
+  * **US local numbers:** Review [A2P 10DLC requirements](<https://help.gohighlevel.com/en/support/solutions/articles/155000002380>) and ensure applicable numbers are associated with the appropriate approved campaign before sending SMS/MMS.  
+  
+
+  * **US and Canadian toll-free messaging:** Complete[ Toll-Free Verification](<https://help.gohighlevel.com/en/support/solutions/articles/48001222300>) as required before using the number to send SMS/MMS to US and Canadian recipients.  
+  
+
+  * **International numbers:** Ensure [applicable regulatory requirements](<https://help.gohighlevel.com/en/support/solutions/articles/48001213216>), addresses, or other country-specific documentation have been completed.
+
+
+  
+
+
+Keep your previous carrier account active until the port is confirmed as complete and you have verified that the number is working as expected.
 
 * * *
 
@@ -486,9 +306,7 @@ After your number ports in, complete the checks below to ensure calls and messag
 
 **Q. What is the difference between the in-app port-in and the manual form?**
 
-The in-app option (Option A) is available to Agency Owners and Admins with Labs enabled, _supports US numbers only_ , and auto-generates the LOA. The manual form (Option B) supports both LC Phone and Twilio destinations and requires you to upload a signed LOA yourself. Both options result in the same outcome your number ported into HighLevel.  
-  
-
+The in-app option is available to Agency Owners and Admins with Labs enabled, _supports US numbers only_ , and auto-generates the LOA. The manual form supports both LC Phone and Twilio destinations and requires you to upload a signed LOA yourself. Both options result in the same outcome your number ported into HighLevel.
 
   
 
@@ -500,14 +318,8 @@ Here is a link to the [Porting Form.](<https://link.gohighlevel.com/widget/form/
   
 
 
-  
-
-
 **Q. Can you port on a specific date/time?**  
-Carriers do not guarantee exact dates/times. We’ll request preferences where available and confirm the port window once the carrier issues **FOC**.
-
-  
-
+Carriers do not guarantee exact dates/times. We’ll request preferences where available and confirm the port window once the carrier issues FOC.
 
   
 
@@ -518,14 +330,8 @@ No. Porting moves the number; it does not migrate historic logs/conversations. E
   
 
 
-  
-
-
 **Q. Can I change destination (LC Phone ↔ Twilio) after I submit?**  
-No, the request once submitted cannot be changed. However, reach out to HighLevel support for any assistance.
-
-  
-
+No, the request once submitted cannot be changed. However, reach out to[ HighLevel support](<https://help.gohighlevel.com/en/support/solutions/articles/155000000969>) for any assistance.
 
   
 
@@ -533,13 +339,35 @@ No, the request once submitted cannot be changed. However, reach out to HighLeve
 **Q. Do I need to cancel my old carrier?**  
 Only after the port completes and you’ve verified calls/messages are working in HighLevel.  
   
+
+
+**Q. My port request was rejected, what do I do?**
+
+Check the description shown in the Port-In Numbers tab (in-app) or the email notification for the rejection reason. Common causes include an invalid address, mismatched account number, incorrect PIN, suspended account, or a billing statement older than 90 days.
+
+  
+
+    
+    
+    **Important: Rejected requests cannot be edited.** You must **delete the request and create a brand new one** with corrected information. Contact your current carrier to verify the correct details before resubmitting.
+
+* * *
+
+## **Related Articles**
+
   
 
 
-**Q. My port request was rejected — what do I do?**
-
-Check the description shown in the Port-In Numbers tab (in-app) or the email notification for the rejection reason. Common causes include an invalid address, mismatched account number, incorrect PIN, suspended account, or a billing statement older than 90 days.  
+  * [](<https://help.gohighlevel.com/en/support/solutions/articles/155000008078>)[How to Submit and Track Port-In Number Requests](<https://help.gohighlevel.com/en/support/solutions/articles/155000008078>)  
   
 
+  * [Moving Phone Numbers: Migration Guide ](<https://help.gohighlevel.com/en/support/solutions/articles/155000006369>)  
+  
 
-**Important: Rejected requests cannot be edited.** You must **delete the request and create a brand new one** with corrected information. Contact your current carrier to verify the correct details before resubmitting.
+  * [Moving Phone Numbers across accounts (US and International) ](<https://help.gohighlevel.com/en/support/solutions/articles/48001240107>)  
+  
+
+  * [How to Move Numbers Between Sub-Accounts (Same Agency) ](<https://help.gohighlevel.com/en/support/solutions/articles/48001203968>)  
+  
+
+  * [Toll-Free Number Verification Guide for LC Phone](<https://help.gohighlevel.com/en/support/solutions/articles/48001222300>)[](<https://help.gohighlevel.com/support/solutions/articles/48001222300-toll-free-verification-guide-for-lc-phone-us-canada->)

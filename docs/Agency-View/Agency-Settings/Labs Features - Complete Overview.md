@@ -19,6 +19,7 @@ HighLevel Labs gives users early access to new and evolving features, so you can
   * Visibility vs Enablement Controls (Sub-Account Labs features)
   * How To Use Labs
   * Submit Feedback 
+  * Labs Changes Are Auditable
   * Frequently Asked Questions
   * Related Articles
 
@@ -71,55 +72,22 @@ These benefits focus on how Labs improves your day-to-day operations, speeding u
   
 
 
-### ** _Agency Labs_**
-
-  
-
-
-  * **Affects:** Agency and sub-accounts (via assignment) or specific sub-accounts you choose.  
-  
-
-
-  * **Who can enable:** Agency Owners/Admins.  
-  
-
-
-  * **Where:** Agency view → **Settings → Labs** (Agency / Sub-account tabs).  
-  
-
-
-  * **How it rolls out:** Toggle **ON** at Agency level → **Manage** → assign one or more sub-accounts.  
-  
-
-
-  * **Best for:** Central governance, controlled pilots across multiple sub-accounts, global policies/tools.  
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155078738152/original/xfONxxcQO7ElvvuuzJYNyp_uwrj8f2_6bQ.png?1787082800)**  
 
 
   
 
 
-### **_Sub-Account Labs_**
-
+| **Agency Labs**| **Sub-Account Labs**  
+---|---|---  
+**What does it affect?**|  Agency-level features and, when applicable, features assigned to selected sub-accounts.| Only the current sub-account. Other sub-accounts are not affected.  
+**Who can enable it?**|  Agency Owners and Agency Admins.| Sub-Account Admins and Agency users with the appropriate access while working inside the sub-account.  
+**Where do I find it?**| **Agency View → Settings → Labs**. Use the **Agency** or **Sub-account** tab depending on the feature.| **Sub-Account View → Settings → Labs**.  
+**How is the feature enabled?**|  Agency-only features can be toggled on from the **Agency** tab. For assignable sub-account features, use the **Sub-account** tab and **Manage** to select the applicable sub-accounts.| Supported features can be toggled on directly within the current sub-account. Some features may first require access or visibility to be granted by the Agency.  
+**Can I control which sub-accounts receive a feature?**|  Yes. For supported sub-account Labs features, Agency Owners/Admins can use **Manage** to control visibility and/or enablement for selected sub-accounts.| No. Changes made here apply only to the sub-account you are currently viewing.  
+**When should I use it?**|  Best for centralized control, testing a feature across selected sub-accounts, and managing broader rollouts.| Best for testing or enabling a feature for one specific sub-account without affecting others.  
   
-
-
-  * **Affects:** Only the current sub-account; no impact on others.  
   
-
-
-  * **Who can enable:** Sub-account Admins (and Agency roles when acting inside the sub-account).  
-  
-
-
-  * **Where:** Sub-account view → **Settings → Labs**.  
-  
-
-
-  * **How it rolls out:** Toggle **ON** directly in that sub-account (no assignment needed unless required by the feature).  
-  
-
-
-  * **Best for:** Quick, low-risk trials; team/client-specific validation.  
 
 
 * * *
@@ -155,6 +123,13 @@ Each card commonly includes:
   6. **Change Log URL:** Access release details.
   7. **Support Doc URL:** Help and documentation on the feature.
   8. **Media URLs:** Visuals, demos, or walkthroughs
+
+
+    
+    
+    **Note:** Labs features are still being tested and refined, so their functionality, design, availability, or release timeline may change. If a feature card shows **Live in X Days** , it indicates the estimated time remaining before the feature is expected to become generally available. This timeline is an estimate and may change.
+
+  
 
 
   

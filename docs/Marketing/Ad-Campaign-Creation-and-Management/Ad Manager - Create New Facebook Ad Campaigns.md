@@ -187,7 +187,7 @@ This guided workflow follows the exact order of controls in HighLevel. Move step
   
 
 
-### **_Step 2:_**_Configure_ _Ad Set Level Details_
+### **_Step 3:_**_Configure_ _Ad Set Level Details_
 
   
 
@@ -214,6 +214,12 @@ This guided workflow follows the exact order of controls in HighLevel. Move step
   4. **Select Placement:** The places where you can run your ads are called placements. Automatic placements enable us to get the best results available from across all default placements based on budget allocated and help control costs. Manual placements allows user to select the places where they would like to show the ads for brand safety and optimisation.  
   
 The user can enable the toggle to get the Manual placement selection options.  
+  
+
+
+> > **Note:** Available manual placements depend on the placements currently supported by Meta. Instagram Explore Feed is no longer available as a selectable ad placement. For existing draft campaigns that previously included Instagram Explore Feed, the placement is removed automatically when the ad set is saved. No user action is required.
+
+  
   
 ![](https://jumpshare.com/share/ju0gSrK3wu4Yiq4BhERA+/GIF+Recording+2026-02-10+at+8.52.59+PM.gif)  
   
@@ -243,7 +249,7 @@ You can **select the start and end date and time for lifetime budgets** using th
   
 
 
-### **_Step 3:_**_Configure Ad Level Details_
+### **_Step 4:_**_Configure Ad Level Details_
 
   
 
@@ -294,7 +300,7 @@ Using this can results in increased reach, cost efficiency and cross promotion a
   
 
 
-### **_Step 4:_**_Review and Publish_
+### **_Step 5:_**_Review and Publish_
 
   
 

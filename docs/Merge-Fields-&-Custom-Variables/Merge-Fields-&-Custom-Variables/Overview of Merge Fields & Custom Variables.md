@@ -337,7 +337,7 @@ Trigger links are special links that, when clicked, can trigger specific actions
   
 
 
-_![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155038181670/original/M50eooA0oko4LMEr-qqR7pzSpqvBF_O77w.png?1733954726)_
+_![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079787341/original/_B5yY9xJeoqPeHVEg-DOmtPJH68v3Jl_MQ.png?1788259291)_
 
 * * *
 
@@ -368,7 +368,7 @@ Payment links allow you to sell products or services by generating a link for cu
   
 
 
-_![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155038181674/original/V8ElOxH9SxlSZw9Q-Vt3ku-rYlqjhRsmVA.png?1733954738)_
+_![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079787272/original/yQRRwNrFJ2NPK3F94wabSCVoxk2SFewQhw.png?1788259264)_
 
 * * *
 

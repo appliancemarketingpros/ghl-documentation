@@ -419,7 +419,11 @@ It is strongly recommended to enable CVV less support on your Mercado Pago accou
 
 **Q: What countries are supported for this integration?**
 
-Colombia, Argentina, Chile, Mexico, Ecuador, Uruguay, Peru, Brazil, El Salvador
+Support is present the following countries: 
+
+Colombia, Argentina, Chile, Mexico, Uruguay, Peru, Brazil.
+
+And more countries like Ecuador and El Salvador to come soon.
 
   
 

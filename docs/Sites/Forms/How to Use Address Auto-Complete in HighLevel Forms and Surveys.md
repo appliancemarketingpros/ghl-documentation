@@ -229,6 +229,11 @@ After confirming that Auto-Complete works as expected, click **Save** to apply y
 
 Once published, every visitor who fills out the form will experience fast, accurate address entry powered by built-in Auto-Complete.
 
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080506215/original/ldcmBZqziAekjXyvMkoMPT_V0fse3xtbnw.png?1788963052)
+
 * * *
 
 ## **Frequently Asked Questions**
@@ -279,14 +284,22 @@ No. Submissions follow your usual contact update rules and mapping preferences.
 
 ## **Related Articles**
 
-  * How to Create a Contact Form in HighLevel
+  
 
-  * Embedding HighLevel Forms on Non-HighLevel Websites
 
-  * Using Themes in Forms & Surveys
+  * [How to Create a Contact Form in HighLevel](<https://help.gohighlevel.com/support/solutions/articles/155000004549-how-to-create-and-manage-a-contact-form-in-highlevel>)  
+  
 
-  * Workflow Trigger – Form Submitted
+  * [Embedding HighLevel Forms on Non-HighLevel Websites](<https://help.gohighlevel.com/support/solutions/articles/155000004524-embedding-highlevel-forms-on-non-highlevel-websites>)  
+  
 
-  * Workflow Action – Update Contact Field
+  * [Using Themes in Forms & Surveys](<https://help.gohighlevel.com/support/solutions/articles/155000001315-themes-in-forms-surveys>)  
+  
 
-  * Where Do Form Responses Show Up?
+  * [Workflow Trigger – Form Submitted](<https://help.gohighlevel.com/support/solutions/articles/155000002550>)  
+  
+
+  * [Workflow Action – Update Contact Field](<https://help.gohighlevel.com/support/solutions/articles/155000002688-workflow-action-update-contact-field>)  
+  
+
+  * [Where Do Form Responses Show Up?](<https://help.gohighlevel.com/support/solutions/articles/48000979916-where-do-form-responses-show-up->)

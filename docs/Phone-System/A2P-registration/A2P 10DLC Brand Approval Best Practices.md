@@ -8,8 +8,6 @@
 
 When you register your A2P Brand with your Business Profile, Phone System will submit your business information to The Campaign Registry for review, determining your eligibility and throughput for your messaging Campaigns. This article summarizes how Brand approval works and our best practices to ensure your Brand is approved.
 
-* * *
-
   
 
 
@@ -30,7 +28,6 @@ When you register your A2P Brand with your Business Profile, Phone System will s
   * Further recommendations
   * Check Your Business Address
   * Supported Stock Exchanges
-    * Other Factors
   * Frequently Asked Questions
   * Related Articles
 
@@ -73,7 +70,12 @@ An A2P Brand defines:
   
 
 
-The approval process starts with a primary vetting of your brand completed by The Campaign Registry. As part of the approval process, LC Phone will automatically submit your brand for [Secondary Vetting](<https://help.gohighlevel.com/support/solutions/articles/48001229783-a2p-10dlc-campaign-vetting-changes-january-2023>), an additional review process that can lead to increased throughput and messaging limits. Once that vetting is completed, you will receive a Trust Score that determines your long code messaging throughput to US networks and daily message limits to T-Mobile as described in [Message throughput MPS and Trust Scores for A2P 10DLC in the US](<https://help.gohighlevel.com/support/solutions/articles/48001238163-what-is-a2p-10dlc-#How-do-Trust-Scores-influence-message-throughput?>). For a full walkthrough of the Brand registration process, please see our [A2P 10DLC Onboarding Guide](<https://help.gohighlevel.com/support/solutions/articles/48001238163-what-is-a2p-10dlc->). 
+The approval process starts with a primary vetting of your brand completed by The Campaign Registry. As part of the approval process, LC Phone will automatically submit your brand for Secondary Vetting, an additional review process that can lead to increased throughput and messaging limits. Once that vetting is completed, you will receive a Trust Score that determines your long code messaging throughput to US networks and daily message limits to T-Mobile as described in[ Message throughput MPS and Trust Scores for A2P 10DLC in the US.](<https://help.gohighlevel.com/en/support/solutions/articles/155000004527>)
+
+  
+
+
+For a full walkthrough of the Brand registration process, please see our [](<https://help.gohighlevel.com/support/solutions/articles/48001238163-what-is-a2p-10dlc->)[A2P 10DLC Onboarding Guide.](<https://help.gohighlevel.com/en/support/solutions/articles/155000002380>)
 
 * * *
 
@@ -126,12 +128,10 @@ If you do not have access to your company's CP 575 notice, then contact your com
 **  
 **
 
-Review your CP 575 / 147c forms for your EIN. You can also contact your company's accountant or financing office and ask for the EIN. The following document shows how the CP-575 looks.
+Review your CP 575 / 147c forms for your EIN. You can also contact your company's accountant or financing office and ask for the EIN.
 
   
 
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155062477341/original/TYf5vN5ZlHb2_pFXXRwHePyy6otOfOQFgw.png?1768233456)
 
 * * *
 
@@ -351,8 +351,6 @@ E.g., Enter **ACME LLC** as the business legal name
 
   
 
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155042945251/original/Z53KsUGmuALooZ4NFi1C9klHnnt8U38SsQ.png?1741600148)
     
     
     **Important****Call out: Is your EIN New?**  
@@ -435,9 +433,16 @@ Your registered business information must stay accurate and up to date for your 
 
 ## **Related Articles**
 
-  * **[](<https://help.gohighlevel.com/support/solutions/articles/155000004539-campaign-registration-step-by-step-guide-and-faqs>)**[](<https://help.gohighlevel.com/support/solutions/articles/155000004539-campaign-registration-step-by-step-guide-and-faqs>)[Campaign Registration Step by Step Guide and FAQs](<https://help.gohighlevel.com/support/solutions/articles/155000004539-campaign-registration-step-by-step-guide-and-faqs>)
-  * [A2P Sole Proprietor Brand Registration for 10DLC](<https://help.gohighlevel.com/support/solutions/articles/155000000508-brand-registration-best-practices>)
-  * [A2P Standard Brand Registration for 10DLC](<https://help.gohighlevel.com/support/solutions/articles/48001225526-a2p-standard-brand-registration-for-10dlc>)
-  * [What is A2P 10 DLC- Brand and Campaign Registration](<https://help.gohighlevel.com/support/solutions/articles/155000002380-what-is-a2p-10-dlc-brand-and-campaign-registration>)
-  * [A2P 10DLC Campaign Approval Best Practices](<https://help.gohighlevel.com/support/solutions/articles/48001229784-a2p-10dlc-campaign-approval-best-practices>)
-  * [Best Practices for SMS deliverability and Avoiding SMS Restrictions](<https://help.gohighlevel.com/support/solutions/articles/155000000079-best-practices-for-sms-deliverability-and-avoiding-sms-restrictions>)[](<https://help.gohighlevel.com/support/solutions/articles/48001229784-a2p-10dlc-campaign-approval-best-practices>)**[](<https://help.gohighlevel.com/support/solutions/articles/48001229784-a2p-10dlc-campaign-approval-best-practices>)**
+  
+
+
+  * **[](<https://help.gohighlevel.com/support/solutions/articles/155000004539-campaign-registration-step-by-step-guide-and-faqs>)**[](<https://help.gohighlevel.com/support/solutions/articles/155000004539-campaign-registration-step-by-step-guide-and-faqs>)[](<https://help.gohighlevel.com/support/solutions/articles/155000004539-campaign-registration-step-by-step-guide-and-faqs>)[What is A2P 10 DLC: Brand and Campaign Registration](<https://help.gohighlevel.com/en/support/solutions/articles/155000002380>)  
+  
+
+  * [A2P Campaign Registration: Step by Step Guide and FAQs](<https://help.gohighlevel.com/en/support/solutions/articles/155000004539>)  
+  
+
+  * [Registering Your A2P Brand](<https://help.gohighlevel.com/en/support/solutions/articles/155000008140>)  
+  
+
+  * [Error 30034: How to Link a Phone Number to an Approved A2P Campaign](<https://help.gohighlevel.com/en/support/solutions/articles/155000008316>)[](<https://help.gohighlevel.com/support/solutions/articles/48001229784-a2p-10dlc-campaign-approval-best-practices>)**[](<https://help.gohighlevel.com/support/solutions/articles/48001229784-a2p-10dlc-campaign-approval-best-practices>)**

@@ -30,12 +30,20 @@ and briefly illustrate where an agency user or admin can find Ad Manager under T
   
 
 
-In agency view, under Template Library section, an Ad Manager tab is added to see all the templates specific to ad manager. Users can filter the templates based on ad campaign objectives, i.e. Lead Generation and Website Traffic. Going forward as and when new objectives will be added to the campaign creation flow, the same will be shown as filters in Template Library.
+  
+
+
+In Agency View, go to Template Library > Ad Manager to view templates for supported advertising platforms, including Google, Meta, and LinkedIn.
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035198034/original/xFkeiS_fhHxzhdyzf0t1B3xgtMshTbdbYg.png?1729608996)
+Users can filter the templates based on ad campaign objectives, i.e. Lead Generation and Website Traffic. Going forward as and when new objectives will be added to the campaign creation flow, the same will be shown as filters in Template Library.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079537243/original/-6kCsfPluSCblCGWln0fOy33qXnSOqlY4w.png?1787914997)
 
   
 
@@ -71,7 +79,8 @@ Below mentioned are the steps to be followed in order to create a campaign using
 
   1. In Ad Manager home screen, the existing "Create Campaign" button is made a dropdown with two options: 'Start from Scratch' and 'Ad Manager Templates'.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155033403706/original/45oYpU9rqCZN4r_I1SVj8Xm6lsd40KXu3w.png?1727120532)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079537716/original/UePImnvc6_9GuMkJCEOSlqwBveuEhnEs6w.png?1787915277)  
+
   2. Click on 'Start from Scratch' and the existing flow to create an ad campaign begins.
   3. Click on 'Ad Manager Templates' and a screen pops open to show all the templates.  
   
@@ -103,7 +112,27 @@ Below mentioned are the steps to be followed in order to create a campaign using
   
 
 
-Catering to the fact that there might be some exceptional campaigns that have outperformed and deserves to be saved as templates for future campaign creation process or you want to allow users of different sub-account to use the format of this campaign. In order to do that, below is a list of steps to be followed to create a template out of a campaign:  
+Catering to the fact that there might be some exceptional campaigns that have outperformed and deserves to be saved as templates for future campaign creation process or you want to allow users of different sub-account to use the format of this campaign. In order to do that, below is a list of steps to be followed to create a template out of a campaign:
+
+  
+
+
+  
+
+    
+    
+    Existing LinkedIn campaigns can be uploaded to the Template Library for reuse across accounts.
+    From the campaign list, locate the LinkedIn campaign, open the **ellipsis (⋮)** menu, and select **Upload to Template Library**. Enter the template name and category, then click **Upload**.
+    
+    The template is saved as a draft. You can edit the template, keep it as a draft, or publish it for reuse.
+
+  
+
+    
+    
+    Uploading a Google Demand Gen campaign follows the same Template Library workflow as other supported campaign types. The uploaded campaign is created as a Draft template before it is published.
+
+  
   
 
 

@@ -234,12 +234,22 @@ Each grouped range can be edited or deleted independently later.
 
   * **Default Rental Times** – Define default rental start and end times used associated with start date and end date when the time selector is disabled.
 
+  * **Set Cancellation Link Expiry** – Turn this on to limit how close to a booking's start time customers can cancel it themselves, using the link included in their confirmation and reminder notifications. When this is off, customers can cancel any time before the booking starts. 
+
+    * **Cancellation Link Expires** – When Set Cancellation Link Expiry is on, choose how far in advance the link should stop working — in minutes, hours, or days before the booking starts. 
+
 
   
 
     
     
     **Note:** Default Rental Times override Business Operating Hours, but selected business days still apply.
+
+  
+
+    
+    
+    **Note:** Customers can only cancel bookings that haven't started yet (marked as Active/Completed). Once a booking is marked Active or Completed, the cancellation link no longer works, regardless of this setting.
 
   
 
@@ -371,6 +381,7 @@ The **Booking Page** tab controls how your customer-facing booking site appears 
   
 
   * **Preview Booking Page** – View a live preview of the page before saving changes.
+  * **Add to Booking Button Label – **Customize the text displayed on the Add to Cart button when Enable Multi-item Cart is turned on. This setting appears only when Multi-item Cart is enabled.
 
 
   
@@ -425,7 +436,7 @@ After a booking is made, choose to show a custom message on the default confirma
   
 
 
-  * **Confirmation Type** – Choose between a **Thank You Message** or Redirect URL after booking.  
+  * **Confirmation Type** – Choose between a **Thank You Message** or **Redirect URL** after booking.  
   
 
 
@@ -434,14 +445,22 @@ After a booking is made, choose to show a custom message on the default confirma
 
   
 
-    
-    
-    **Note:** Branding and customization changes take effect immediately after saving and can be previewed before going live.
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080593638/original/yZ6inPUwOC0Csi_i6HFXIhTR7ipjN2L6sQ.png?1789041038)**
 
   
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155056093475/original/rCQfekesOwMgV0t5eaVJziDf91u_wgeelQ.png?1760558376)
+  * **Let a custom form override this with its own rules:** Enable this option to let the custom form control the confirmation page experience. When enabled:
+    * If the form's On Submit action is set to **Thank you message** or **Redirect URL** , that is used as the confirmation page experience.
+  * If the form's On Submit action is set to **Order confirmation** , or if the form has no applicable On Submit action, the confirmation page settings configured here are used as the fallback.
+  * The form's conditional rules — such as redirects, custom messages, and lead disqualification — also apply after booking when this is enabled.  
+  
+
+
+    
+    
+    _Note: Show/hide field conditions from a custom form always apply during booking, regardless of this setting._
 
 * * *
 

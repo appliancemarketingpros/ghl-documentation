@@ -6,62 +6,150 @@
 
 ---
 
-The Source Field in forms and surveys is a crucial element that helps you gather information about the origin or channel through which respondents accessed your form. Understanding the source of your responses can provide valuable insights into the effectiveness of your marketing efforts, advertising campaigns, or overall outreach strategy.
+The Source field in HighLevel forms and surveys lets you assign a predefined source value to submissions without showing the field to respondents. It helps you identify where leads came from and keep Contact Source values organized.
+
+* * *
+
+# **What is the Source Field?**
 
   
 
 
-**In This Article**
+The Source field stores a predefined source value with a form or survey submission. Because the field is hidden from respondents, HighLevel can capture source information automatically in the background.
 
-  * Adding the source element
-  * Usecase of this field
-  * Other usecase of this field
+After submission, the value appears with the submission and as the contact’s Contact Source.
+
+* * *
+
+## **Key Benefits of the Source Field**
+
+  
+
+
+The Source field helps you keep lead-source information consistent without asking respondents to enter it manually.
+
+  
+
+
+  * **Automatic source capture:** Stores a predefined source value in the background.  
+  
+
+
+  * **Consistent contact organization:** Helps standardize Contact Source values.  
+  
+
+
+  * **Flexible URL tracking:** Lets you override the configured Source using a URL parameter.  
+  
+
+
+  * **Reusable forms and surveys:** Allows one asset to capture different Source values based on the link used.
 
 
 * * *
 
-  
-
-
-## Adding the source element
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155013879281/original/CfLvMR33oj2zJeY_JiPSlXl-rBoRb3IZ2A.png?1701232849)
-
-You can find the element under Quick Add. You can drag and drop the field in the form. On the right side, you can enter the value in the source field. We have entered the value as "sample lead source". This field will be hidden and won't be shown to the users.
+## **Using a Source Value from the URL**
 
   
 
 
-## Usecase of this field
+URL-based Source values are useful when the same form or survey is shared across multiple campaigns or channels.  
+  
+
+
+Add the `source` query parameter to the form or survey URL:
+
+`?source=alternative_source`
+
+If the builder contains one Source value and the URL contains another, the URL value overrides the Source configured in the builder for that submission.
+
+  
+
+    
+    
+    ****Important:** The Source field is different from HighLevel attribution data such as First Attribution, Latest Attribution, Session Source, and utm_source.**
+
+* * *
+
+## **How to Set Up the Source Field**
 
   
 
 
-After the form submission, you can see the value under source as shown below.
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155013881274/original/gc3-15mzBZYzk149IWb5Skaup_OPzpeKtw.png?1701235445)
+Proper setup ensures HighLevel captures the intended Source value with each submission.
 
   
 
 
-This will also be shown under contacts as Contact Source.
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155013881365/original/t9I4X_T5AinOqH08PdgVjJU_m7kL0zeCaA.png?1701235643)
-
-##   
+  1. Go to **Sites → Forms** or **Sites → Surveys** and open the asset you want to edit.  
+  
 
 
-## Other usecase of this field
+  2. Add the **Source** element to the form or survey.  
+  
 
-You can also pass this field as query parameter.
 
-For example:
+  3. Enter the Source value you want HighLevel to capture.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080330759/original/KCKyDGLOw50_F61qwG9k72IxdzOCMBl-yQ.png?1788850572)  
 
-<https://link.gohighlevel.com/widget/form/WKEnUOXEz9J3cpcQyc1M?source=alternative_source>
+
+  4. Save the form or survey.  
+  
+
+
+  5. Submit a test response.  
+  
+
+
+  6. Review the submission and confirm the Source value.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080330917/original/hmnEm1ozp_UFm6rGcKdQtlKvLZeQ4cUQXg.png?1788850726)  
+
+
+  7. Open the related contact record and verify the Contact Source.
+
+
+**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080331193/original/RzytOhZrzby3EWvq6yG0iyusInXsEzWpDQ.png?1788850872)**
+
+* * *
+
+## **Frequently Asked Questions**
 
   
 
 
-Here you can pass any source by adding [?source=alternative_source](<https://link.gohighlevel.com/widget/form/WKEnUOXEz9J3cpcQyc1M?source=alternative_source>) in the form/survey link. 
+**Q: Is Source the same as Attribution Source?**  
+No. Source is the raw Source value stored on the contact. HighLevel attribution uses separate data such as First Attribution, Latest Attribution, Session Source, and UTM parameters.  
+  
 
-This will override with the value provided inside the form builder and the submission will include source as alternative source instead of sample lead source.
+
+**Q: Is`source` the same as `utm_source`?**  
+No. `source` controls the Source field described in this article. `utm_source` is used for attribution tracking.  
+  
+
+
+**Q: Can I use different Source values with the same form or survey?**  
+Yes. Add a different `source` value to the URL to override the value configured in the builder.  
+  
+
+
+**Q: Can I filter contacts by Contact Source?**  
+Yes. Contact Source can be used in supported contact filters and reporting areas.
+
+* * *
+
+## **Related Articles**
+
+  
+
+
+  * [Understanding Attribution Source](<https://help.gohighlevel.com/support/solutions/articles/48001219997-understanding-attribution-source>)  
+  
+
+
+  * [How to Create a Contact Form in HighLevel](<https://help.gohighlevel.com/support/solutions/articles/155000004549-how-to-create-a-contact-form-in-highlevel->)  
+  
+
+
+  * [Where Do Survey Answers Show Up?](<https://help.gohighlevel.com/support/solutions/articles/48000979915-where-do-survey-answers-show-up>)

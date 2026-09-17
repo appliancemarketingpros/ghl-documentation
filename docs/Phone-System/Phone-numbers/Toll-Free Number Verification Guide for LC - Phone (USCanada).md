@@ -6,711 +6,360 @@
 
 ---
 
-To improve trust and message deliverability, all toll-free numbers used for texting in the US and Canada **must be verified** before sending SMS/MMS messages. Starting **November 8, 2023** , unverified numbers will be subject to filtering and may be blocked entirely. This guide walks you through the **toll-free number verification process within LeadConnector (LC Phone)** , including requirements, submission steps, and how to avoid rejections.
+Toll-Free Messaging Compliance
 
-  
-
-    
-    
-    **Note:** Starting Jan 31, 2024, messages sent from Toll-Free phone numbers with Pending Verifications will be blocked and will be subject to messaging fees.  
-      
-    -> Any blocked messages will return Error 30032 or Error 30007.  
-    -> This is only valid for the US and Canada Toll Free Numbers.  
-    -> This is only required for messaging and does not have any impacts on calling.
-
-* * *
-
-**TABLE OF CONTENTS**
-
-  * What is Toll-Free Number Verification?
-  * Key Benefits of Toll-Free Verification
-  * Requirements Before You Begin
-  * Steps to Verify a Toll-Free Number
-  * Opt-In Methods
-  * Monitor Verification Status
-  * Additional Business Verification Fields
-  * Frequently Asked Questions 
-  * Related articles
-
-
-* * *
-
-# **What is Toll-Free Number Verification?**
-
-  
-
-
-Toll-free numbers (e.g., starting with 800, 888, 877, etc.) are commonly used by businesses to send and receive messages. Verification is the process of **registering your toll-free number and business use case with carriers** to ensure you are a legitimate sender. This prevents spam and enables consistent delivery of your messages.
-
-  
-
-
-Verification is **required for sending messages from Toll-Free phone numbers to the US and Canada**. Users who don't verify will be **blocked from sending any messages** from the beginning on November 8, 2023. We recommend all users submit their registration as soon as possible to avoid delays in processing, and verification. 
-
-* * *
-
-## **Key Benefits of Toll-Free Verification**
-
-  
-
-
-✅ Higher message deliverability  
-  
-
-
-✅ Compliance with carrier rules  
-  
-
-
-✅ Reduced risk of message filtering or blocking  
-  
-
-
-✅ Improved customer trust and brand reputation
-
-* * *
-
-## **Requirements Before You Begin**
-
-  
-
-
-Before submitting the verification form, you’ll need:  
-  
-
-
-  * Legal business name  
-  
-
-  * Business website (or social media link if no website)  
-  
-
-  * Business address  
-  
-
-  * Detailed use case description (what types of messages will be sent)  
-  
-
-  * At least 2 sample message templates  
-  
-
-  * Opt-in method used to collect recipient permission (e.g., form, text keyword, verbal, etc.)
-
-
-  
-
-
-**Use this** [A2P Opt-In Guide](<https://help.gohighlevel.com/en/support/solutions/articles/155000001426>) to write compliant opt-in language.
-
-* * *
-
-## **Steps to Verify a Toll-Free Number**
-
-### **Step 1:** Buy a Toll-Free Number
-
-  
-
-
-If you haven’t already, follow [this guide](<https://help.gohighlevel.com/support/solutions/articles/48001204834-how-to-buy-a-toll-free-number-inside-ghl->) to purchase a toll-free number inside LC Phone.
-
-  
-
-
-### **Step 2:** Submit the Verification Form
-
-  
-
-
-  1. #### Navigate to **Settings > Phone Numbers > Manage Numbers** from your sub-account.  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046270449/original/3K-C0zI-z1OND0dDXKxBJTAFEGHDQvOfcw.gif?1746634699)  
-  
-
-
-  2. #### Under **Manage Numbers** tab, click on the **Verification Required** alert for the specific **Toll-Free** number.  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046270937/original/w_lzeGYIQ8d8DXqxYg4BRIL38uFANvywBg.png?1746634966)  
-  
-
-
-  3. #### Add **Business** and **Contact** **Information**  
-  
-**Note-**_As of may 2025, the_ _toll-free numbers no longer require an EIN or business registration number for SMS verification_  
-  
-**T****he new verification process includes following steps:**
-
-     1. Add **Legal Entity Name**. (One that appears on the Government and Legal forms)  
-  
-
-        * This must be the **end business the customer is engaging with**.  
-  
-
-
-        * Do **not** list the ISV (Independent Software Vendor) unless the ISV is:  
-  
-
-
-          1. The sole content creator  
-  
-
-
-          2. Sending messages on its own behalf  
-  
-
-
-          3. The content is branded with the ISV’s name.  
-  
-
-
-        * ✅ **Approved Example:** John’s Coffee Shop  
-  
-
-
-     2. Add **Website URL**.
-
-  
-
-
-        * Should be the **website** or **public social media** of the **end business** listed under Legal Entity Name.  
-  
-
-
-        * Social links (Facebook, Instagram, Twitter, etc.) are allowed if:  
-  
-
-
-          * The business **doesn’t have a formal website**.  
-  
-
-
-          * The pages are set to **public.**  
-  
-
-
-        * ❌ **Rejected Examples:**  
-  
-
-
-          * URL is **not live**.  
-  
-
-
-          * URL is **password-protected or private**.  
-  
-
-
-          * Website contains **ISV or aggregator branding**.  
-  
-
-
-     3. Add **First** , **Last** **Name** and **Email** of the customer point of contact.  
-  
-
-     4. Select **Country Code** and add **Phone Number**.  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155047126685/original/WciJRfW0BL5rbbeUl7xZtkHNMsO1TG8yfg.png?1747995848)  
-
-  4. #### **Add Business Location Details**  
-**  
-**
-
-The address of the end business the consumer is engaging with. This should be the end business’ physical location.
-
-  
-
-
-     1. ####  Select **Country** from the list that your business is operating from.  
-  
-
-
-     2. #### Add the name of the **State**.  
-  
-
-
-     3. #### Add **Address Line 1** (Street address).  
-  
-
-
-     4. #### Add the name of the **City**.  
-  
-
-
-     5. #### Add the **Postal/Zip Code** of your business.  
-  
-
-
-     6. #### Click on **Continue to Messaging Use Case**.  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046277556/original/hIG-rvXKOUsCL0awJuI4zX1CViN1DLsHfQ.png?1746643001)  
-  
-
-
-  5. #### Add **Messaging Use Case** Details  
-
-
-     * #### Select **Estimated Monthly Message Volume** from the list.  
-  
-
-
-     * #### Select user **Opt-In Type** from the list of options available-  
-  
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155048688548/original/OCr0wofU63tEey-zYvKaTQH5ocCRZcFGFw.png?1750664974)
-
-
-  
-
-
-## **_Opt-In Methods_**
-
-  
-
-
-### **1\. Verbal Opt-In**
-
-Below is an example of a verbal opt-in, which would happen during a phone call with the consumer. You can also get a verbal opt-in by using a phone IVR flow, which would consist of an automated system getting opt-in confirmation from the consumer.
-
-  
-
-
-  * **Phone IVR:** "As part of our service we can send you automated monthly text alerts regarding account payment activity. We will send two messages per month. Message and data rates may apply, depending on your mobile phone service plan. At any time you can get more help by replying HELP to these texts, or you can opt-out completely by replying STOP. Mobile Terms of Service are available at http://ghl.com/terms and our Privacy Statement can be found at https://ghl.com/privacy. Please reply with 'yes' or 'no' to indicate if you would like this service".  
-  
-**Customer:** "Yes please"  
-  
-**Phone IVR:** "Great! We will send you a text message to confirm your enrollment here shortly."
-
-
-  
-
-
-  
-
-
-### **2\. Web Form Opt-In**
-
-An embedded form on the end business’s website prompts end-users to enter their mobile phone number and opt into the texting campaign.
-
-  
-
-
-  
-
-
-#### **⚠️ _Important Requirements for Web Form Opt-In:_**
-
-  1. Opt-in checkbox **MUST** be selectable by end-user and **cannot be pre-selected**. Checkboxes **CANNOT** be required to submit form.  
-  
-  
-
-  2. Opt-in checkboxes **MUST** include a disclaimer (consent message) such as:
-     * _"I consent to receive sms notifications, alert from COMPANY NAME HERE. Message frequency varies. Message & data rates may apply. Text HELP to (XXX) XXX-XXX for assistance. You can reply STOP to unsubscribe at any time."_  
-  
-  
-
-  3. Opt-in consent message and checkbox **MUST** be separated from **Privacy Policy | Terms of Service** and **Promotional** consent checkboxes. Promotional consent may be something like the following:
-     * _"By checking this box I agree to receive occasional marketing messages from INSERT COMPANY NAME HERE."_  
-  
-  
-
-  4. Opt-in disclaimer **MUST** have All CTA disclosures present to be considered compliant:  
-  
+Toll-Free Number Verification Guide for LC Phone (US/Canada)
 
-     * Program name and/or a description of the messages that will be sent (appointment reminders, marketing messages, occasional offers, etc.)  
-  
+Verify US and Canada toll-free numbers for SMS/MMS, submit clear opt-in evidence, monitor approval, and resolve common verification problems.
 
-     * Organization or individual being represented in the initial message  
-  
+Overview
 
-     * Fee disclosure (“Message and data rates may apply”)  
-  
+Toll-Free Verification registers a toll-free number, the end business using it, and the business's messaging use case with participating carriers. Verification is required before an LC Phone toll-free number can send SMS or MMS to recipients in the United States or Canada.
 
-     * Service delivery frequency or recurring messages disclosure (“4 messages per month”, “Message frequency varies”, “1 message per login”, etc  
-  
+A successful submission depends on consistent business information, a live public web presence, a specific use-case description, representative message samples, and verifiable proof of how recipients consent to receive messages.
 
-     * Customer care information (typically “Text HELP for help” or Help at XXX-XXX-XXXX) - not required for single message programs (i.e 2FA)  
-  
+This guide covers the complete in-app verification flow and includes an in-page A2P opt-in appendix so you can prepare compliant consent evidence without relying on a separate article.
 
-     * Opt out instructions (typically “Text STOP to unsubscribe”) - not required for single message programs (i.e 2FA)  
-  
+Important
 
-     * Link to Privacy Policy describing how end user opt-in information will be used. Be sure there is no mention of sharing of personal information with Third Parties (Must not be part of the checkbox statement. Instead, provide the link at the bottom of the form)  
-  
+**Only toll-free numbers with a Verified (Approved) status can send SMS/MMS traffic to recipients in the United States and Canada.** Restricted (Unverified), Pending Verification, and Rejected numbers remain blocked for messaging until approval.
 
-     * Link to Terms and Conditions describing terms of service (Must not be part of the checkbox statement. Instead, provide the link at the bottom of the form)  
-  
+An unverified toll-free send can return **Error 30032**. **Error 30007** indicates carrier filtering and can also appear when message content, consent, sender identification, or other compliance elements do not meet carrier expectations. Applicable messaging charges can still apply to accepted delivery attempts.
 
-     * Incorporate a checkbox option that end-users must select in order to receive SMS messaging. **The checkbox can not be pre-selected.** The checkbox provides the end-user the ability to agree, or not agree, to receive SMS messaging.  
-  
+Toll-Free Verification applies to messaging. It does not prevent the number from being used for voice calling.
 
+Table of Contents
 
-**_Below are examples of Web form Opt-In flow._**
+What is Toll-Free Number Verification? Key Benefits of Toll-Free Verification What You Need Before You Begin How to Verify a Toll-Free Number Appendix A — A2P Opt-In Guide Monitor Verification Status Political Election Campaign Use Cases Troubleshooting and Rejection Prevention Frequently Asked Questions Related Articles
 
+# **What is Toll-Free Number Verification?**  
   
-
 
-When **Phone Number** field is **Mandatory** in Web form OPT-IN.
 
-  * Consent checkboxes should be separated for both Marketing and Non-Marketing Messages.
-  * Consent **checkboxes cannot be pre-selected** and **should always be optional** to submit form whether the Phone field is required or not.
-  * **Privacy Policy** and **TnC** at footer.
+Toll-Free Verification confirms who is sending business messages from a toll-free number, what types of messages recipients will receive, and how those recipients provide consent. The review helps carriers distinguish legitimate application-to-person messaging from unwanted or abusive traffic.
 
+The requirement applies to SMS and MMS sent from US or Canada toll-free numbers to recipients in the United States and Canada. Each toll-free number must have its own approved verification record before messaging is enabled.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155047335618/original/5kprFJidPYVswryBqLoLLfpEBx5jpQUcgg.png?1748418112)
+**Toll-Free Verification is not A2P 10DLC registration.** A2P 10DLC applies to eligible US local 10-digit numbers, while Toll-Free Verification applies to toll-free messaging. Both processes require accurate sender identity, transparent messaging use cases, and documented recipient consent.
 
+## **Key Benefits of Toll-Free Verification**  
   
-
-
-When **Phone Number** field not **Mandatory** in Web form OPT-IN.
-
-  * Consent cheekbones not required when Phone Number field is not mandatory.
-  * **Privacy Policy** and **TnC** at footer.
 
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155047335623/original/Yzm7MV0JjtnvWLOSeYUZZKv5tzBaR-s6Mw.png?1748418113)
+Verification gives carriers the information needed to evaluate the sender and messaging program before traffic is allowed. A complete and accurate submission also reduces preventable review delays.
 
-  
-
-
-  
+  * **Messaging Eligibility:** Enables an approved toll-free number to send SMS/MMS to US and Canada recipients.
+  * **Improved Deliverability:** Reduces the risk of traffic being blocked solely because the toll-free number is unverified.
+  * **Carrier Transparency:** Connects the end business, use case, message samples, and opt-in method to the sending number.
+  * **Consent Accountability:** Documents how recipients agree to receive the specific messages described in the submission.
+  * **Faster Troubleshooting:** Provides a clear status and verification record when messaging is blocked or rejected.
+  * **Brand Trust:** Supports responsible messaging practices that protect recipients and the sender's number reputation.
 
-    
-    
-    **PLEASE NOTE:**
-    
-    If the web opt-in is behind a login or not yet published, host a screen shot on a publicly accessible website (like OneDrive or Google Drive) and provide the image URL and the website URL in your registration form where it asks: **"How do end-users consent to receive messages?"**  
-      
-     To get a useable image link, you can upload the screenshot to your **Media Storage Library** in your **HighLevel sub-account** as shown in the screenshot below:
-    
-    **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155047335619/original/xrZpFagO43nXYYOMaUWrRsGgdtqCriL-bA.png?1748418112)**
-
-**  
-**
 
+## **What You Need Before You Begin**  
   
-
-
-### **3\. Paper Form Opt-In**
-
-An in-store visitor completes a physical form that collects their phone number and their consent to subscribe to your texting campaign.
-
-Host a screenshot of the paper form on a publicly accessible website (like OneDrive or Google Drive or Subaccount's media library) and provide the URL in the answer for "How do end-users consent to receive messages?".
 
-  
 
+Preparing the information before opening the verification form prevents incomplete submissions and makes it easier to keep the business website, consent proof, use-case description, and sample messages aligned.
 
+Prepare| What Reviewers Need to Confirm  
+---|---  
+**LC Phone toll-free number**|  The number appears in the correct sub-account and shows Verification Required.  
+**Legal entity or end-business name**|  The named business is the organization the recipient is actually engaging with and is consistent across the submission.  
+**Live public website or public social profile**|  The public page represents the same end business and supports the stated products, services, and messaging use case.  
+**Business contact and location**|  A real point of contact and physical business address can be associated with the sender.  
+**Estimated monthly volume and use-case categories**|  The selected categories and volume accurately describe expected traffic.  
+**Opt-in method and public proof URL**|  The evidence clearly shows where and how recipients provide consent for the stated message types.  
+**Detailed use-case description**|  The explanation identifies the audience, message purpose, opt-in source, and sending workflow.  
+**Representative sample messages**|  Examples match the selected categories and include the business name, context, and opt-out language when applicable.  
+**Additional business fields, if prompted**|  DBA, entity type, registration authority, registration number, and registration country can be supplied when the flow requires them.  
   
-
+**A business tax ID is not required in every Toll-Free Verification submission.** HighLevel can request additional registration information based on the business type and verification details.
 
-### **4\. Text Message Opt-In**
+Do not submit the agency, software platform, or reseller as the legal entity unless that organization is the actual end sender, creates the message content, and sends on its own behalf.
 
-Host a screen shot of the campaign collateral on a publicly accessible website (like OneDrive or Google Drive or Subaccount's media library) and provide the URL in the answer for "How do end-users consent to receive messages?" along with the website URL.
+**Broken-link fallback resolved:** The consent guidance previously linked as a separate A2P Opt-In Guide is included directly in Appendix A — A2P Opt-In Guide below.
 
+## **How to Verify a Toll-Free Number**  
   
-
-
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155047335620/original/kY_utVS0jQMyLz0y9xMeBFsqZTe-08JusA.png?1748418112)
 
-  
 
+The in-app flow collects business identity, location, messaging use case, opt-in proof, and sample content in three stages. Complete every field using information that is accurate, public, and consistent with the end business.
 
+### **Step 1: Open the Toll-Free Verification Form**  
   
-
 
-### **5\. Mobile QR Code Opt-In**
 
-You can also use a QR code that links to an online form prompting end-users to enter their mobile phone number and opt into the texting campaign.
+  1. Open the sub-account that owns the toll-free number.
+  2. Go to **Settings → Phone System**.
+  3. Open **Manage Numbers**.
+  4. Click **Verification Required** beneath the applicable toll-free number.
 
-  
 
+![Navigate from the sub-account to Settings, Phone System, and Manage Numbers](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046270449/original/3K-C0zI-z1OND0dDXKxBJTAFEGHDQvOfcw.gif?1746634699)
 
-QR codes can direct the consumer to the messaging application used on their mobile device (for example iMessage) with a templated opt-in message, or can even take the consumer directly to a web-form opt-in on your website.
+Open Phone System from the sub-account Settings area, then select Manage Numbers.
 
-  
+![Manage Numbers showing Verification Required beneath a toll-free number](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046270937/original/w_lzeGYIQ8d8DXqxYg4BRIL38uFANvywBg.png?1746634966)
 
-    
-    
-    **PLEASE NOTE:** If the QR code leads to a Web-Form Opt-In, please follow all requirements listed in this article above where we discuss the Web-Form Opt-In method.
+Select Verification Required for the toll-free number you want to register.
 
+### **Step 2: Enter Business and Contact Information**  
   
-
 
-  
 
-    
-    
-    **Note:** The opt-in method **must match the submitted Use Case**. For example, marketing campaigns require express consent where the user actively agrees to receive messages.  
-      
-    **Live Website Required:  
-    **  
-     ✅ Must be operational and include a clear opt-in for messaging.  
-      
-    ✅ Include Terms of Service and Privacy Policy links in the footer of all pages.
-
-**  
-**
-
-  * #### Choose**Use Case Category/Categories** that your business will message users for.  
-  
+Use the identity of the end business that recipients recognize as the sender. The legal entity name, website, contact information, and any additional registration fields should agree with one another.
 
-    * Choose the category that best represents **how the number will be used**.  
-  
+  * **Legal Entity Name:** Enter the business name used on official records and represented on the public website.
+  * **Website URL:** Use the end business's live public website. A public social profile can be used when the business does not maintain a website.
+  * **Contact:** Enter the first name, last name, email, country code, and phone number for a responsible business contact.
+  * **Additional fields:** Complete DBA, legal entity type, registration authority, registration number, or registration country when the form displays them.
 
 
-    * Must reflect the **actual messaging pattern** tied to this toll-free number.  
-  
-**Note** : Ensure that the 'Marketing' checkbox is selected along with any other applicable use cases if marketing activities are involved. If 'Marketing' is not selected in the opt-in form or the use case does not reflect marketing, verification may fail.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155048688917/original/Dh--Cn35xXFZ6LevYF7ZwK_3-TfyeR90Jw.png?1750665225)  
+**Avoid mismatched branding.** A private, inactive, unrelated, or reseller-branded website can prevent reviewers from confirming the end business and may lead to rejection.
 
+![Messaging Toll-Free Verification business and contact information form](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155047126685/original/WciJRfW0BL5rbbeUl7xZtkHNMsO1TG8yfg.png?1747995848)
 
-  * #### Enter **Opt-In Workflow Image URLs**.  
-  
+Enter the end business's legal identity, public website, and responsible contact information.
 
-    * Clearly outline **how the user gives consent** (Opt-In Type).  
+### **Step 3: Enter the Business Location**  
   
 
 
-    * A **visual proof** (image, screenshot, or document) that matches the **selected Opt-In Type**.  
-  
+Enter the physical location of the end business the recipient is engaging with. Use a complete address that can be associated with the same business named in the previous step.
 
-      * The visual must clearly show **where and how** the user provides their phone number and agrees to receive messages.  
-  
+  1. Select the **Country**.
+  2. Enter the **State, province, or region**.
+  3. Enter **Address Line 1**.
+  4. Enter the **City**.
+  5. Enter the **Postal or ZIP code**.
+  6. Click **Continue to Messaging Use Case**.
 
 
-      * The URL or file must be **publicly accessible** (not behind a login or private folder)  
-  
+![Messaging Toll-Free Verification business location fields](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046277556/original/hIG-rvXKOUsCL0awJuI4zX1CViN1DLsHfQ.png?1746643001)
 
+Complete the physical business location before continuing to the messaging use case.
 
-    * **Approved Examples:**   
+### **Step 4: Describe the Messaging Use Case and Opt-In**  
   
-<https://storage.googleapis.com/msgsndr/RNTEDRA9ap9xSh2MyTYS/media/65271336fe7786badd88b169.png>
 
-  
 
+The use-case stage must explain what will be sent, who will receive it, how consent is collected, and what evidence proves that process. Every selection should describe the program that will actually run on the toll-free number.
 
-  * #### Add **Use Case Descriptions**.  
-  
+  1. Select the expected **Estimated Monthly Volume**.
+  2. Select the actual **Opt-In Type** : Mobile/QR Code, Paper Form, Verbal, Via Text, or Web Form.
+  3. Select every applicable **Use Case Category**. Include Marketing when promotional content will be sent.
+  4. Provide a public **Opt-In Workflow Image URL** that shows the full consent flow.
+  5. Write a specific **Use Case Description** that identifies the audience, message purpose, opt-in source, and sending workflow.
+  6. Enter representative **Message Content** that matches the selected categories and includes the recognizable business name and opt-out language when applicable.
 
-    * Provide a **detailed explanation** of how messaging is used.  
-  
 
+![Messaging use case form showing the available opt-in types](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155048688548/original/OCr0wofU63tEey-zYvKaTQH5ocCRZcFGFw.png?1750664974)
 
-    * The more specific, the better — include:  
-  
+Select the opt-in type that matches the evidence and consent process described in the submission.
 
+Strong Use-Case Example
 
-      * Purpose of messaging
+“This toll-free number sends appointment confirmations, rescheduling notices, and service follow-ups to customers of [Business Name] who explicitly opt in through our public appointment form. Messages are sent from HighLevel after a booking or service event. Recipients can reply HELP for assistance or STOP to opt out.”
 
-      * Target audience
+Strong Sample Message
 
-      * Opt-in methods
+“[Business Name]: Your appointment is confirmed for [date/time]. Reply C to confirm or call [support number] for help. Reply STOP to opt out.”
 
-      * Platforms used (POS, web forms, chat, etc.)  
+### **Step 5: Review and Submit**  
   
 
 
-      * ✅ **Approved Example:**  
-  
-"This number is used to send promotional offers to customers of John’s Coffee Shop who have opted in through our website or POS system."  
-  
+  1. Confirm that the business identity, website, location, categories, consent proof, description, and sample messages all match.
+  2. Open the public opt-in evidence URL in a private or incognito browser window to confirm that no login is required.
+  3. Select **I agree to the Terms of Service**.
+  4. Click **Send Information for Verification**.
+  5. Complete KYC or identity verification if HighLevel prompts the authorized user to do so.
 
-
-      * ❌ **Rejected Example:**  
-  
-"Marketing" – too vague and not tied to specific content or opt-in method.  
-  
 
+![Reviewing and submitting the Toll-Free Verification form](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046281345/original/eiS5vEPfdMRq19OZh7YuWJF5Gu6Ew8Rlew.gif?1746648641)
 
-  * #### Add **Message Content**.  
-  
+Review the completed use case, accept the Terms of Service, and send the information for verification.
 
-    * Provide sample messages that match the use case. Must include:  
+## **Appendix A — A2P Opt-In Guide**  
   
-
-
-      * A clear message
-
-      * Personalization (if applicable)
 
-      * Business name
 
-      * Opt-out language ("Reply STOP to opt out")  
-  
-
+Business messaging sent through an application is application-to-person, or A2P, traffic. Toll-Free Verification reviews the same foundational questions: who is sending, what recipients will receive, and how the business can prove that each recipient knowingly agreed to those messages.
 
-      * ✅ **Approved Example:**  
-  
-"Thank you for being a loyal customer of John’s Coffee Shop. Enjoy 10% off your next purchase. Reply STOP to opt out."  
-  
+### **Core Consent Rules**
 
+  * **Consent must belong to the end business.** Do not use purchased, rented, shared, or transferred contact lists as proof of opt-in.
+  * **Consent must be affirmative.** A recipient must take a clear action to agree to messaging.
+  * **Consent must be optional.** A person must be able to submit a form or complete a purchase without being forced to accept promotional messages.
+  * **Checkboxes cannot be pre-selected.** The recipient must select the desired consent option.
+  * **Marketing and non-marketing consent must be separate.** Use distinct choices when both message categories are offered.
+  * **The disclosure must be complete.** Identify the business, describe the message type, disclose frequency, state that message and data rates may apply, and provide HELP and STOP instructions when applicable.
+  * **The submitted method must match reality.** The selected opt-in type, evidence URL, use-case description, website, and actual workflow must tell the same story.
+  * **Opt-outs must be honored.** Stop messaging a recipient after a valid opt-out unless the recipient later completes a valid resubscription process.
 
-      * ❌ **Rejected Example:**  
-  
-"Your appointment is today at 10:00 AM" – lacks business name, opt-out language, and context.  
-  
 
+**Legal note:** The wording below is an operational example, not legal advice. Adapt disclosures to the actual sender, message types, frequency, support process, and applicable law.
 
-  * #### Check the **I agree to the Terms of Service** box.  
-  
+###   
+**Web Form Opt-In**
 
+A web form should show the SMS consent choice next to the phone-number collection experience, with visible links to the business's Privacy Policy and Terms and Conditions. The phone-number field can be required, but SMS consent must remain optional.
 
-  * #### Click on **Send Information for Verification** button.  
+Consent Type| Example Wording  
+---|---  
+**Marketing**|  I consent to receive marketing text messages about special offers, discounts, and service updates from [Business Name] at the phone number provided. Message frequency may vary. Message and data rates may apply. Text HELP for assistance. Reply STOP to opt out.  
+**Non-Marketing**|  I consent to receive non-marketing text messages from [Business Name] about [specific use case, such as appointment reminders or order updates]. Message frequency may vary. Message and data rates may apply. Text HELP for assistance. Reply STOP to opt out.  
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155046281345/original/eiS5vEPfdMRq19OZh7YuWJF5Gu6Ew8Rlew.gif?1746648641)  
-
+  * Keep marketing and non-marketing consent in separate unchecked boxes.
+  * Make each consent box optional rather than a condition of submitting the form.
+  * Place visible Privacy Policy and Terms and Conditions links near the form or in its footer.
+  * Make sure the Privacy Policy explains the use of mobile information and does not permit sharing text-message opt-in data or consent with third parties for their marketing.
+  * Use the same business name and message categories in the form, verification submission, website, and sample messages.
 
-  
 
+![Example web form with separate marketing and non-marketing SMS consent checkboxes](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155047335618/original/5kprFJidPYVswryBqLoLLfpEBx5jpQUcgg.png?1748418112)
 
-####  **Note** -_Additionally if user hasn't completed the KYC verification yet, they will need to do so after submission of all the above details._
+Example of separate, optional SMS consent choices with visible legal-policy links.
 
-#### __
+### **Verbal Opt-In**
 
- _The verification experience looks like this_ :
+Before asking for agreement, the representative or IVR should identify the business, explain the message types and expected frequency, disclose message and data rates, provide HELP and STOP instructions, and direct the recipient to the Terms and Privacy Policy.
 
-#### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155047128952/original/h6jkmUnsgzyamhWepMnAMKNULii5owFZDA.png?1747998362)
+**Example:** “[Business Name] can send you appointment reminders and service updates by text. Message frequency varies. Message and data rates may apply. Reply HELP for help or STOP to opt out. Our terms are available at [Terms URL] and our privacy policy is available at [Privacy URL]. Do you agree to receive these messages?”
 
-  
+Record the phone number, date and time, representative or IVR flow, disclosure version, recipient response, and any call recording or system log used as evidence.
 
+### **Paper Form Opt-In**
 
-**Highlights of Recent Changes****:**
+The paper form should display the same required disclosures and provide a clear place for the recipient to affirm consent. Retain a dated copy or scan and provide a publicly accessible redacted sample as verification evidence.
 
-  * **Simplified Verification:** Users can now complete toll-free number verification without needing a business tax ID.
+### **Via Text and Mobile/QR Code Opt-In**
 
-  * **Lowered Barriers:** The new verification flow reduces entry barriers for all users especially sole proprietors.
+Campaign collateral should explain the keyword or QR-code action, identify the business, describe the message program, disclose frequency and rates, include HELP and STOP instructions, and point to the Terms and Privacy Policy.
 
-  * **Selective KYC Implementation:** The platform implements Know Your Customer (KYC) verification to ensure platform security while minimizing the burden on legitimate users.
+  * A QR code that opens a web form must lead to a form that follows the web-form rules above.
+  * A QR code that opens the phone's messaging app should prefill only the intended keyword or opt-in message.
+  * Provide a public image of the printed sign, advertisement, landing page, or other collateral that contains the complete opt-in instructions.
 
 
-  
+### **Opt-In Evidence and Recordkeeping**
 
+The verification URL must be accessible to a reviewer without signing in. Show the full context of the opt-in, not only a cropped checkbox or phone-number field.
 
-* * *
+  * Store the full consent text shown to the recipient.
+  * Store the recipient phone number and the date and time of consent.
+  * Store the opt-in method and source page, form, campaign, call, paper record, keyword, or QR code.
+  * Store the IP address, form submission ID, call recording, or comparable evidence when available.
+  * Keep a link or reference to the consent record on the contact record when your process supports it.
+  * Retain opt-out and resubscription events so the current consent status can be demonstrated.
 
-## **Monitor Verification Status**
 
-  
+**Hosting proof in HighLevel:** Upload the screenshot or document to **Media Storage** , open the asset menu, select **Get Link** , and test the URL in a private browser window before adding it to the verification form.
 
+![HighLevel Media Storage showing New Upload and Get Link](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155080151982/original/RkiuEBE-25vMnjDDVrOELIavOA3CMkb3Dg.png?1788551205)
 
-Phone Number registrations can take up to **4 to 6 weeks to complete.** However, we have seen Toll-Free Numbers approval in as little as two days (though we cannot guarantee any timeline for approval).
+Use Media Storage to upload opt-in evidence and obtain a public link for the verification submission.
 
+## **Monitor Verification Status**  
   
-
 
-Once you submit your verification request, you can monitor the verification status as it changes during processing through the Console. Please see below for a full overview of each status:
 
-**  
-**
+The status beneath the toll-free number determines whether US and Canada messaging is available. Review can take up to four to six weeks, although some submissions finish sooner; approval timing is not guaranteed.
 
-****TFPN Traffic****| ****Traffic limits****| ****What's happening?**   
-**  
+Verification Status| US/Canada Messaging| What It Means  
 ---|---|---  
-**Restricted (Un-verified)**| **Blocked**| **Starting on November 8, 2023, ALL Restricted traffic will be blocked in the US. To avoid this, we recommend submitting your number(s) for verification as soon as possible.****  
-****Restricted (previously “Unverified”) status means that your Toll-Free number has not been submitted for verification or was not approved.**  
-**Verified (Approved)**| **3 SMS segments per second**| **Upon a successful review of your verification submission and carrier approval, your number(s) will be moved to "Verified" status. Verified numbers have full access to A2P sending, and a greatly reduced risk for message filtering on Toll-Free traffic toward all major networks in the US and Canada, as long as you adhere to your stated use case and all applicable rules, such as Twilio's Messaging Policy.**  
-**Rejected**| **Blocked**| **A rejected verification request can occur for a number of reasons and can affect your ability to send messaging traffic.**  
+**Restricted (Unverified)**|  Blocked| The number has not been submitted or does not have an approved verification.  
+**Pending Verification**|  Blocked| The request is under review. Wait for approval before sending SMS/MMS.  
+**Verified (Approved)**|  Allowed| The number can send SMS/MMS subject to current carrier, platform, consent, and content policies.  
+**Rejected**|  Blocked| Review the reason, correct the submission, and resubmit or request an appeal when eligible.  
   
-* * *
+**Do not test production messaging while the status is Restricted, Pending, or Rejected.** Resolve the verification requirement first, then send a controlled test after the number shows Verified (Approved).
 
-  
-
-
-## **Additional Business Verification Fields**
-
-The Toll-Free Verification flow now includes additional business verification fields.  
+## **Political Election Campaign Use Cases**  
   
 
 
-Depending on your business type, you may be required to provide:  
+Political Election Campaign messaging has an additional identity-verification requirement. The extra credential connects the toll-free messaging program to a verified political organization.
+
+Beginning February 17, 2026, new political toll-free verifications—and existing approved toll-free numbers used for political election messaging—require a valid Campaign Verify Auth Token. HighLevel does not issue this token; it must be obtained through Campaign Verify and entered when the Political Election Campaign category is selected.
+
+[Learn about Campaign Verify requirements for political toll-free messaging →](<https://help.gohighlevel.com/support/solutions/articles/155000007883-campaign-verify-cv-token-requirements-for-political-toll-free-messaging>)
+
+## **Troubleshooting and Rejection Prevention**
+
+Most verification problems come from inconsistent business identity, inaccessible websites or proof URLs, incomplete consent disclosures, mismatched use cases, or sample messages that do not represent the actual program.
+
+Problem| What to Check| Recommended Action  
+---|---|---  
+**Verification Required is not visible**|  Correct sub-account, toll-free number type, LC Phone ownership, and page refresh.| Confirm the number belongs to the location and is identified as Toll Free, then refresh Manage Numbers.  
+**Website cannot be verified**|  The page is live, public, business-matched, and not password-protected.| Publish or correct the site. Use a public business social profile only when no formal website exists.  
+**Opt-in evidence URL is rejected**|  The link is public, opens directly, shows the full consent flow, and matches the selected opt-in type.| Upload a clear screenshot or document to Media Storage, copy its public link, and test it in incognito mode.  
+**Consent flow is not compliant**|  Unchecked optional boxes, separate marketing and non-marketing consent, sender name, message types, frequency, rates, HELP, STOP, Terms, and Privacy Policy.| Correct the live opt-in asset and replace the evidence URL before resubmitting.  
+**Use case and samples do not align**|  Categories, description, opt-in wording, website, and sample messages describe the same program.| Rewrite vague descriptions and replace samples that omit the sender identity, context, or applicable opt-out language.  
+**Error 30032**|  The sending toll-free number is not Verified (Approved).| Complete or correct Toll-Free Verification and wait for approval before retrying.  
+**Error 30007**|  Carrier filtering caused by content, sender identity, consent, or another policy signal.| Review the exact message, opt-in evidence, sender identification, links, and current messaging policy before resending.  
+**Rejected and resubmission is unavailable**|  Rejection reason, number, business identity, proof URL, and submitted use case.| Contact HighLevel Support and use the subject “Toll-Free Verification Rejection Appeal for [Business Name or Number].”  
+  
+Include When Contacting Support  
   
 
 
-  * Business DBA (Doing Business As) name  
-  
+  * Sub-account name and Location ID
+  * Affected toll-free number in E.164 format
+  * Current verification status and rejection reason
+  * Legal entity name and public business URL
+  * Public opt-in evidence URL
+  * Screenshot or screen recording of the issue
+  * Example failed messages and error codes, when messaging was attempted
 
-  * Legal Entity Type  
-  
 
-  * Business Registration Authority  
-  
-
-  * Business Registration Number  
-  
-
-  * Business Registration Country  
+## **Frequently Asked Questions**  
   
 
 
-These fields help carriers validate business identity and improve Toll-Free Verification approval reliability.
+Q: Can I send SMS or MMS while verification is pending?
 
-* * *
+No. Pending Verification numbers remain blocked for messaging to recipients in the United States and Canada until the status changes to Verified (Approved).
 
-## **Frequently Asked Questions**
+Q: Does Toll-Free Verification affect voice calling?
 
+No. The verification requirement described here applies to SMS/MMS. Voice calls are not blocked by the toll-free messaging verification status.
+
+Q: Can I verify multiple toll-free numbers in one submission?
+
+No. Each toll-free number must be submitted individually so it has its own verification record and status.
+
+Q: Is verification required for sole proprietors and small businesses?
+
+Yes. The requirement applies to businesses of all sizes that use a toll-free number for messaging to US or Canada recipients. A business tax ID is not required in every submission, but additional identity or registration details can be requested.
+
+Q: Must the business be located in the United States?
+
+No. A business address from another country can be used when it accurately represents the end business and the information can be verified.
+
+Q: Can I use a social media page instead of a website?
+
+A public business social profile can be used when the end business does not have a formal website. The page must be accessible without signing in and clearly represent the same business named in the submission.
+
+Q: What should I do if my opt-in page is behind a login or is not live yet?
+
+Upload a complete screenshot or recording of the opt-in flow to a publicly accessible location, such as HighLevel Media Storage, and submit that public URL. The evidence must show the full consent wording and how the recipient takes action.
+
+Q: Will I be charged when a message fails?
+
+An internal HighLevel validation failure that occurs before provider submission is not treated the same as an accepted delivery attempt. Once a message is submitted for delivery, applicable charges can still apply even when the message is later undelivered or filtered.
+
+Q: What should I do if the verification is rejected?
+
+Review the rejection reason, correct the business information, website, use case, consent evidence, or sample messages, and resubmit when available. If resubmission is unavailable, contact HighLevel Support and request a Toll-Free Verification rejection appeal.
+
+Q: How do I know the number is ready to send messages?
+
+The number is ready for US and Canada SMS/MMS when Manage Numbers shows Verified (Approved). Continue following consent, sender-identification, content, and opt-out requirements after approval.
+
+### **Related Articles**  
   
 
 
-**Q: What if my toll-free number was rejected and I can't resubmit?  
-** You can request an appeal by contacting Support. Use the subject line:
-
-"Toll-Free Verification Rejection Appeal for [Your Business Name or Number]"[](<https://help.leadconnectorhq.com/support/solutions/articles/155000001462-why-was-my-toll-free-verification-rejected->)
-
-  
-
-
-**Q: Can I still send messages while it's pending?  
-** Yes, but carriers may apply filtering until the number is verified.
-
-  
-
-
-**Q: Can I verify multiple numbers?**  
-Yes, each toll-free number must be submitted individually.
-
-  
-
-
-**Q: Is verification required for small businesses too?**  
-Yes, all businesses using toll-free messaging must comply.
-
-  
-
-
-**Q: Do I need to be a US business in order to register at a Toll-Free number?**
-
-No, you can use business addresses from other countries to register
-
-  
-
-
-**Q: Will I be charged if I encounter an error when sending an SMS?**
-
-You won’t be charged if an internal LC Phone error occurs before a message is sent. However, charges apply for all delivery attempts, even if undelivered. No refunds are issued for failed SMS, so review carefully before sending.
-
-**Q: Do political toll-free campaigns require a Campaign Verify token?**  
-A: Yes. Political Election Campaign use cases require a valid Campaign Verify (CV) Auth Token.
-
-  
-**Q: Are non-political toll-free numbers affected?**  
-A: No. The requirement applies only to Political Election Campaign use cases.
-
-  
-**Q: Where do I obtain a Campaign Verify token?**  
-A: Tokens are issued directly through CampaignVerify.org after verification is completed.
-
-* * *
-
-## **Related articles**
-
-  
-
-
-  * [What is LC - Phone System? ](<https://help.gohighlevel.com/en/support/solutions/articles/48001223546>)  
-  
-
-  * [How to Migrate an Agency and Sub-Account to LC - Phone? ](<https://help.gohighlevel.com/en/support/solutions/articles/48001204027>)  
-  
-
-  * [LC - Phone Messaging Policy ](<https://help.gohighlevel.com/en/support/solutions/articles/48001213941>)  
-  
-
-  * [LC - Phone Pricing Structure ](<https://help.gohighlevel.com/en/support/solutions/articles/48001223556>)  
-  
-
-  * [Moving US numbers from Twilio to LeadConnector(LC)](<https://help.gohighlevel.com/en/support/solutions/articles/48001240108>)
+[How to Buy a Toll-Free Number](<https://help.gohighlevel.com/support/solutions/articles/48001204834-how-to-buy-a-toll-free-number-inside-ghl->) [HighLevel A2P Opt-In Compliance](<https://help.gohighlevel.com/support/solutions/articles/155000007237-how-to-get-your-phone-number-a2p-approved-in-2026>) [LC Phone Messaging Policy](<https://help.gohighlevel.com/support/solutions/articles/48001213941-lc-phone-messaging-policy>) [Troubleshooting SMS Delivery](<https://help.gohighlevel.com/support/solutions/articles/48000981696-troubleshooting-sms-delivery-issues>) [KYC Verification on Persona — Best Practices](<https://help.gohighlevel.com/support/solutions/articles/155000006990-kyc-verification-on-persona-best-practices>) [Campaign Verify Requirements for Political Toll-Free Messaging](<https://help.gohighlevel.com/support/solutions/articles/155000007883-campaign-verify-cv-token-requirements-for-political-toll-free-messaging>)

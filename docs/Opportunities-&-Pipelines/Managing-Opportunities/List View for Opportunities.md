@@ -99,6 +99,27 @@ Supported custom field types
   
 
 
+  * ### **Primary Contact Notes**
+
+  
+Add **Primary Contact Notes** to the Opportunities List view to see notes from an opportunity's primary contact directly in the list.  
+  
+
+
+Open **Customize Columns** and enable **Primary Contact Notes** to display the column.
+
+  
+Like other supported List view columns, you can resize and sort the **Primary Contact Notes** column and include it in saved views. The column updates when a new note is added to the opportunity's primary contact.  
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079549116/original/p3gRkDZbRIRZvRHfbj3sEDd3oRLpGShXqw.png?1787921168)  
+  
+  
+
+
+  
+  
+
+
   * **Full Feature Parity with Board View:** All the powerful features you use in the board view are available in the list view too. This includes advanced filters to narrow down your search and robust search functionality to quickly find specific opportunities.
 
   

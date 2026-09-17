@@ -12,7 +12,7 @@ This article provides a comprehensive list of error codes and warnings you may e
 
 **TABLE OF CONTENTS**
 
-  * What is the LC Phone System Error Code and Warning Dictionary?
+  * What is the Error Code and Warning Dictionary?
     * 21211: Invalid 'To' Phone Number
     * 21408: Your account is not allowed to send SMS to this country or region
     * 21614: 'To' number is not a valid mobile number
@@ -20,7 +20,7 @@ This article provides a comprehensive list of error codes and warnings you may e
     * 21661: 'From' number is not SMS-capable
     * 30002: Message failed: your account is currently suspended.
     * 30003: Number unreachable or out of service
-    * 30004: Recipient has opted out or has DND enabled
+    * 30004: Message blocked
     * 30005: The recipient’s number is inactive or does not exist
     * 30006: Landline or unreachable carrier
     * 30007: Message filtered
@@ -32,9 +32,10 @@ This article provides a comprehensive list of error codes and warnings you may e
     * 30033: US A2P 10DLC - Campaign Suspended
     * 30037: Outbound Messaging Disabled
     * 21612: Message cannot be sent with the current combination of "To" and/or "From" parameters
-    * 30034: Number not fully registered for A2P messaging. Please wait up to 24 hours after approval.
+    * 30034: Message from an Unregistered Number. This is for a +1 10DLC number that is not associated with an approved A2P Campaign.
+    * 30035: US A2P 10DLC: Message from a number still being configured. 
     * 21606: The 'From' phone number provided is not a valid message-capable phone number for this destination/account
-  * Related Articles
+    * Related Articles
 
 
 * * *
@@ -409,7 +410,7 @@ Lead Connector's Support team can help investigate what went wrong with deliveri
 
 * * *
 
-## **_30004:_**_Recipient has opted out or has DND enabled_
+## **_30004:_**_Message blocked_
 
   
 
@@ -888,7 +889,7 @@ Consult the linked documentation for each cause. You can also try sending again 
 
 * * *
 
-## _[](<https://help.leadconnectorhq.com/support/solutions/articles/155000005196-30034-number-not-fully-registered-for-a2p-messaging-please-wait-up-to-24-hours-after-approval->)**30034:** Number not fully registered for A2P messaging. Please wait up to 24 hours after approval._
+## _[](<https://help.leadconnectorhq.com/support/solutions/articles/155000005196-30034-number-not-fully-registered-for-a2p-messaging-please-wait-up-to-24-hours-after-approval->)**30034:** Message from an Unregistered Number. This is for a +1 10DLC number that is not associated with an approved A2P Campaign._
 
   
 
@@ -939,6 +940,17 @@ To confirm the number is linked correctly, follow the steps in [How to Link a Ph
   
 
   * **Contact Support if Issue Persists:** If the error remains after 24 hours, reach out to support with your registration and number details for further assistance.
+
+
+  
+
+
+## _**30035:** US A2P 10DLC: Message from a number still being configured.___
+
+  
+
+
+This is specifically the condition where registration/deregistration is still processing, including the scenario where users may need to allow up to approximately 24 hours.  
 
 
 * * *

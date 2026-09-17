@@ -6,18 +6,16 @@
 
 ---
 
-Ready to see those sales roll in? Your online store is all set up to handle whatever you're selling - physical products, digital downloads, subscriptions - you name it! Let's dive into how you can easily get started and start generating revenue right away.
+HighLevel lets you create physical products, digital products, one-time offers, and recurring subscriptions, then sell them through different checkout experiences. In this guide, you'll learn how to create and price a product, set up trials when applicable, and choose how you want customers to purchase it.
 
 * * *
 
 **TABLE OF CONTENTS**
 
   * How to Create a Product
-  * One-Time Products
-  * Recurring Products
   * How to Set Up a Trial
   * How to Make Products Available
-  * How to Add Order Element
+  * How to Add Order Form to a Funnel
   * Frequently Asked Questions
   * Related Articles
 
@@ -30,9 +28,6 @@ Ready to see those sales roll in? Your online store is all set up to handle what
 
 
 First things first, let's get your amazing product listed. Think of this like setting up your store shelves—you want everything clear, attractive, and inviting!
-
-  
-
 
   
 
@@ -115,7 +110,30 @@ The Product Information section includes several key fields to define how the pr
   
 
 
-In the **Pricing** section of the product setup, users can define how their product will be offered to customers by configuring a range of pricing-related fields.  
+In the **Pricing** section of the product setup, users can define how their product will be offered to customers by configuring a range of pricing-related fields.
+
+  
+
+
+**Choose a Pricing Type**
+
+  
+
+
+Select the pricing type based on how you want customers to be charged.
+
+  
+
+
+  
+| **One-Time**| **Recurring**  
+---|---|---  
+**How the customer is charged**|  Charged once| Charged repeatedly based on the selected billing period  
+**Best for**|  One-off products, services, consultations, or setup fees| Memberships, subscriptions, retainers, or ongoing services  
+**Billing period required**|  No| Yes  
+**Trial period available**|  No| Yes  
+**Example**|  $99 consultation| $99/month membership  
+  
   
 
 
@@ -137,20 +155,10 @@ In the **Pricing** section of the product setup, users can define how their prod
   * Clicking on **Additional****Options** reveals more advanced pricing settings like purchase limits or metadata fields.  
   
 
-  * Use the **Price****Description** field to add a brief note or context for this pricing entry (visible internally).
-
-
+  * Use the **Price****Description** field to add a brief note or context for this pricing entry (visible internally).  
   
-
-    
-    
-    **One-Time Products:** Used for a single transaction (e.g., setup fees, initial consultations, or one-off services). The product is charged once on the invoice or payment link.
-    
-    **Recurring Products:** Used for subscriptions or services billed at regular intervals (monthly, weekly, annually). When added to an invoice, you must specify the billing frequency (e.g., Monthly) and the start date.
-    
-    **Payment Schedule is Key Difference:** When creating an invoice with Recurring Products, you need to ensure the Payment Schedule is correctly configured for the desired billing cycle. One-Time Products do not require a schedule.****
-
-  
+**  
+**
 
 
 ![](https://jumpshare.com/share/8HG7RSyvVbHIU1zFiSLr+/Screen+Shot+2025-11-19+at+9.23.10+PM.png)  
@@ -286,16 +294,33 @@ Follow these steps to add a trial to your product:
 Great job creating your product! Now, let's make sure customers can actually find and buy it. Think of this step like stocking your storefront—visibility is everything. If you are selling digital products, ensure that digital files are uploaded to each product variant. Without uploaded files, customers will not see download options after checkout.
 
   
-
-
-  
 Navigate to **Sites** and choose where you want your product to appear: **Website** , **Funnel** , or **Store**.  
   
 **![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155047388316/original/5fKcaFOd1CYKYQFR7bg4AgJZ74JhP84R3Q.png?1748455065)**  
+
+
+Once your product is created, choose how you want customers to purchase it. Products can be used across different HighLevel payment and selling experiences.
+
   
 
 
-For Funnels specifically:
+**Selling Method**| **When to Use It**| **What to Do**  
+---|---|---  
+**Online Store**|  Let customers browse products and complete purchases through an e-commerce storefront.| Enable **Include in Online Store** for the product, then add or make the product available in your store.  
+**Funnel**|  Sell a product through a dedicated sales or checkout funnel.| Add the product to the funnel and place an order form on the checkout page.  
+**Payment Link**|  Share a direct checkout link by email, SMS, QR code, or another channel.| Create a Payment Link and select the product and price you want to sell.  
+**Invoice**|  Bill a specific customer directly for a product or service.| Create an invoice and add the applicable product. Make sure the invoice type matches the product's one-time or recurring pricing.  
+**Form**|  Collect customer information and payment from the same form.| Add the **Payment** element to the form and select the product you want to offer.  
+  
+  
+
+
+**Digital Products:** If you're selling downloadable products through an online store, upload the required digital files to the applicable product or variant before customers purchase.
+
+  
+
+
+### **Add a Product to a Funnel**
 
   
 
@@ -321,12 +346,12 @@ For Funnels specifically:
 
 * * *
 
-## **How to Add Order Element**
+## **How to Add Order Form to a Funnel**
 
   
 
 
-Alright, your product's ready and visible—now let's get the checkout process streamlined! Think of this step like opening the cash register—quick, easy, and secure.
+After adding a product to your funnel, add an order form to the checkout page so customers can enter their information and complete the purchase.
 
   
 
@@ -372,7 +397,7 @@ Alright, your product's ready and visible—now let's get the checkout process s
   
 
 
-Fantastic! Your customers can now smoothly complete their purchases. Next, why not experiment with sticky contact options to boost conversions?
+Save and publish the page, then test the checkout experience to confirm that the correct product, price, and payment options appear before sharing the funnel with customers.
 
   
 
@@ -393,243 +418,79 @@ Your funnel order form should look something like this:
 
 **Q: Why am I getting an error requiring a “Category ID” when creating a product in a sub-account?**
 
-This error occurs because you are attempting to create a product (often related to a SaaS plan) directly in the sub-account’s local product editor, but the system expects the product to be tied to the Agency’s SaaS structure. The required Category ID is generated by the SaaS Configurator.
-
+This can occur when the product must first be created through the Agency’s SaaS Configurator. Create it there, then import it into the sub-account from **Payments → Products**.  
   
 
 
-To fix this:  
-  
-
-
-  * Stop creating the product locally.  
-  
-
-
-  * Create the product in the Agency’s SaaS Configurator first.  
-  
-
-
-  * Return to **Payments → Products** in the sub-account.  
-  
-
-
-  * Use **Import from Stripe** to pull the product into the sub-account.
-
-
-  
 **Q: Can I change the currency of an existing product?**
 
-No. Once a product is created, its currency cannot be changed. To use a different currency, create a new product or add a new pricing entry with the desired currency selected during setup.
-
+No. To use another currency, create a new product or add a new pricing option with the required currency.  
   
+
+
 **Q: Where can I edit my product details?**
 
-Navigate to **Payments → Products** , click the product name, and edit the following:  
+Go to **Payments → Products** and select the product. You can update details such as its name, description, media, tax settings, SEO, product type, and statement descriptor.  
   
 
 
-  * Product Name & Description  
-  
-
-
-  * Media  
-  
-
-
-  * Product Type (Physical or Digital)  
-  
-
-
-  * Tax Settings  
-  
-
-
-  * SEO & Handle  
-  
-
-
-  * Statement Descriptor
-
-
-  
-
-
-Save your changes after editing.
-
-  
 **Q: How do I change my product from “Physical” to “Digital”?**
 
-  1. Go to **Payments → Products**.
-
-  2. Click the product name.  
-  
-
-
-  3. Under **Prices** , select the price you want to edit.  
-  
-
-
-  4. Scroll to **Shipping and Delivery**.
-
-  5. Change the dropdown to **Digital**.  
-  
-
-
-  6. Click **Save**.
-
-
+Go to **Payments → Products** , open the product and pricing option, then change **Shipping and Delivery** to **Digital** and save.  
   
 
 
 **Q: What is the difference between a Physical and Digital product?**
 
+Physical products include shipping information during checkout, while digital products do not. Digital downloads are available only when a file is uploaded to the product or variant.  
   
 
 
-**Physical:** Shipping fields are included during checkout.  
-  
-
-
-**Digital:** Shipping fields are skipped for a faster checkout experience.
-
-  
-
-
-For digital products, download access appears only if at least one valid file has been uploaded to the product or variant.
-
-  
-
-
-If no files are uploaded:  
-  
-
-
-  
-
-
-  * The Download button will not appear on the Thank You page.  
-  
-
-
-  * The Customer Access Center will display: “No downloads available yet.”
-
-
-  
-
-
-If files are uploaded after purchase, download access becomes available automatically. If files are removed, download access disappears immediately.  
-  
 **Q: Why can’t I find my product when creating an invoice?**
 
-HighLevel filters products based on Price Type:  
+Invoice products are filtered by pricing type. One-time invoices display one-time products, while recurring invoices display recurring products.  
   
 
 
-  * Standard (One-time) invoices show only One-time products.  
-  
-
-
-  * Recurring invoices show only Recurring products.
-
-
-  
 **Q: What time unit does the “Trial Period” use?**
 
-The Trial Period is always measured in days. Even if the product bills monthly or annually, entering 30 means a 30-day trial before the first charge.
-
+Trial periods are always measured in **days** , regardless of the product’s billing frequency.  
   
+
+
 **Q: Why are some products showing as unavailable during preview?**
 
-This usually occurs when Inventory Tracking is enabled and stock has reached zero.
-
+This usually happens when inventory tracking is enabled and stock reaches zero. Increase the available quantity or disable inventory tracking.  
   
 
 
-To fix:  
-  
-
-
-  1. Go to **Payments → Products**.
-
-  2. Open the affected product.  
-  
-
-
-  3. Increase stock or disable Inventory Tracking.
-
-
-  
 **Q: Why are duplicated products grayed out when adding them to an invoice?**
 
-Common causes include:  
+Check that the product is published and has active pricing with the correct billing type and currency before adding it to the invoice.  
   
 
 
-  * Product status set to Draft instead of Published  
+**Q: Why aren’t my Stripe products importing into HighLevel?**
+
+Only recurring/subscription products can be imported from Stripe. One-time products must be created directly in **Payments → Products**.  
   
 
 
-  * Billing type mismatch (One-time vs Recurring)  
-  
-
-
-  * Missing or inactive pricing  
-  
-
-
-  * Currency mismatch  
-  
-
-
-  * Large catalogs requiring manual review
-
-
-  
-
-
-Open the product and verify status, pricing, billing type, and currency before retrying.
-
-  
-**Q: Why aren’t my Stripe products importing into GoHighLevel?**
-
-Only recurring/subscription products can be imported from Stripe. One-time products must be created directly in HighLevel.
-
-  
-
-
-Create one-time products under **Payments → Products** ; they will sync to Stripe automatically.
-
-  
 **Q: Why did my first product disappear and why am I getting a “Category ID is required” error?**
 
-This typically happens when:  
+This can happen when an existing product is edited or required product settings are missing. Create products individually and confirm all required fields before saving.  
   
 
 
-  1. An existing product was edited instead of creating a new one.  
-  
-
-
-  2. Required fields (like category or tax settings) were not selected.
-
-
-  
-
-
-Best Practice:
-
-Create products one at a time using **Create Product** , confirm required selections, then save.
-
-  
 **Q: Why isn’t my Stripe product appearing when I try to import it?**
 
-This may happen if the product already exists or hasn’t fully synced. You may need to delete the product in HighLevel (this will not delete it from Stripe) and re-import it. Sync propagation can take up to 24 hours.
-
+The product may already exist in HighLevel or still be syncing from Stripe. If needed, remove the HighLevel copy and re-import it after synchronization completes.  
   
+
+
 **Q: Why is the Download button not appearing after a digital purchase?**
 
-The Download button appears only when at least one digital file has been uploaded to the product or variant. If no files are assigned, the system hides the download option. Uploading files later will automatically make the download option available.
+The Download button appears only when at least one digital file is assigned to the product or variant. Uploading a file later automatically makes the download option available.
 
 * * *
 
@@ -638,10 +499,16 @@ The Download button appears only when at least one digital file has been uploade
   
 
 
-  * [](<https://help.gohighlevel.com/en/support/solutions/articles/155000002546>)[How to Use Products in Payment Element in Forms](<https://help.gohighlevel.com/en/support/solutions/articles/155000002546>)  
+  * [Getting Started - Connect Stripe](<https://help.gohighlevel.com/support/solutions/articles/155000005073/?utm_source=chatgpt.com>)  
   
 
-  * [](<https://help.gohighlevel.com/en/support/solutions/articles/155000004049>)[ How to Upsell Products in Online Store checkouts ](<https://help.gohighlevel.com/en/support/solutions/articles/155000004049>)  
+  * [Getting Started - Setup Payment Links](<https://help.gohighlevel.com/support/solutions/articles/155000005074-getting-started-setup-payment-links?utm_source=chatgpt.com>)  
   
 
-  * [](<https://help.gohighlevel.com/en/support/solutions/articles/48000980319>)[Sticky Contact - Two-Step Order Form](<https://help.gohighlevel.com/en/support/solutions/articles/48000980319>)
+  * [How to Set Up an E-Commerce Online Store (Websites)](<https://help.gohighlevel.com/support/solutions/articles/155000001157>)  
+  
+
+  * [Getting Started - Create and Send Invoices](<https://help.gohighlevel.com/support/solutions/articles/155000005075>)  
+  
+
+  * [How to Use Products in Payment Element in Forms](<https://help.gohighlevel.com/support/solutions/articles/155000002546?utm_source=chatgpt.com>)

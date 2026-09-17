@@ -17,10 +17,12 @@ Make it easy for customers to leave reviews with customized SMS and Email reques
   * Where You Can Send Review Requests
   * Review Link (Balancing vs. Custom Link)
   * SMS Requests
-  * Create or Edit an SMS template
+    * Create or Edit an SMS template
+    * Select the Default Sender Number
   * Email Requests
-  * Create or Import an Email template
-  * Select the Live & Retry Templates (Sequence)
+    * Create or Import an Email template
+    * Select the Default Sender Email
+    * Select the Live & Retry Templates (Sequence)
   * How To Setup Review Request Messaging (Step‑by‑Step)
   * Frequently Asked Questions
   * Related Articles
@@ -215,6 +217,41 @@ In the builder, add a **Template Name**. Optionally enable **Request with Image*
     
     **Cost note:** If you enable Request with Image, the message may send as MMS and incur different carrier fees. Confirm with your provider.
 
+  
+
+
+  
+
+
+### **Select the Default Sender Number**
+
+  
+
+
+Use the default sender setting to choose the phone number used for SMS review requests.
+
+  
+
+
+  1. Go to **Reputation → Settings → SMS Requests.**  
+  
+
+  2. Select the phone number you want to use as the default sender.  
+  
+
+  3. Configure the remaining timing, retry, and template settings.
+
+
+  
+
+
+The selected number is used as the default sender for SMS review requests.
+
+  
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079287866/original/jnwY9adqBqlsJREieaBWWhidNXaKXNxxnw.png?1787693912)
+
 * * *
 
 ## **Email Requests**
@@ -265,12 +302,6 @@ Email requests allow richer branding, images, and multiple review destinations. 
   
 
 
-  
-
-
-  
-
-
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155063516230/original/g0tDB4bGh7YTD8ZUKizpWFQ-EQhsIWTDyA.png?1769452263)  
   
 
@@ -294,6 +325,38 @@ Email requests allow richer branding, images, and multiple review destinations. 
 
   4. Save the template.
 
+
+  
+
+
+  
+
+
+### **Select the Default Sender Email**
+
+  
+
+
+Use Default sender email to choose the email address used for email review requests.
+
+  
+
+
+1\. Go to **Reputation → Settings → Email Requests.**
+
+2\. Select an address from **Default sender email.**  
+  
+
+
+3\. Configure the remaining timing, retry, and template settings.
+
+  
+
+
+The selected address is used as the default sender for email review requests.
+
+  
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155079287916/original/JivKtPT0IEp_32i53Ewr_SdtlfI6yaia6Q.png?1787694055)
 
 * * *
 
@@ -346,7 +409,9 @@ From the left sidebar, click **Reputation** , then open the **Settings** tab at 
   
 
 
-Open **Reputation → Settings → SMS Requests** and toggle the switch in the top-right to activate automated review texts. Set **When to send after check-in** , choose the **repeat interval** and **Maximum retries** , then use **Create New** or **Set SMS Templates** to manage the messages shown below.
+Open **Reputation → Settings → SMS Requests** and toggle the switch in the top-right to activate automated review texts.  
+  
+Set **When to send after check-in** , choose the **repeat interval** and **Maximum retries** , then use **Create New** or **Set SMS Templates** to manage the messages shown below.
 
   
 
