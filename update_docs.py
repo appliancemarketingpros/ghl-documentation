@@ -144,33 +144,45 @@ def get_folders_from_category(category_url):
 
 
 def get_folder_info(folder_url):
+    """Every article in a folder, following the portal's own "Next" links.
+
+    The portal pages folders at /folders/<id>/page/N, 20 articles a page, and
+    ignores ?page=N (which just returns page 1 again). Requesting ?page=N capped
+    every folder at its first 20 articles, so this follows the Next link the
+    page itself renders instead.
+    """
     all_articles, seen = [], set()
     folder_name = "Unknown"
-    page = 1
-    while True:
-        url = folder_url if page == 1 else f"{folder_url}?page={page}"
+    listed_count = None
+    url, visited = folder_url, set()
+    while url and url not in visited and len(visited) < 100:
+        visited.add(url)
         page_html = fetch_page(url)
         if not page_html:
             break
         soup = BeautifulSoup(page_html, 'html.parser')
-        if page == 1:
+        if len(visited) == 1:
             title_el = soup.find(class_='fw-page-title')
             if title_el:
-                folder_name = re.sub(r'\s*\(\d+\)\s*$', '', title_el.get_text(strip=True))
-        new_articles = []
+                title_text = title_el.get_text(strip=True)
+                count_match = re.search(r'\((\d+)\)\s*$', title_text)
+                listed_count = int(count_match.group(1)) if count_match else None
+                folder_name = re.sub(r'\s*\(\d+\)\s*$', '', title_text)
         for link in soup.find_all('a', href=re.compile(r'/support/solutions/articles/')):
             href = link.get('href', '')
             text = link.get_text(strip=True)
             if href and href not in seen:
                 seen.add(href)
                 full_url = BASE_URL + href if href.startswith('/') else href
-                new_articles.append({'title': html.unescape(text) if text else '', 'url': full_url})
-        if not new_articles:
+                all_articles.append({'title': html.unescape(text) if text else '', 'url': full_url})
+        next_link = next((a for a in soup.find_all('a', href=re.compile(r'/page/\d+$'))
+                          if a.get_text(strip=True).lower().startswith('next')), None)
+        if not next_link:
             break
-        all_articles.extend(new_articles)
-        if len(new_articles) < 20:
-            break
-        page += 1
+        href = next_link['href']
+        url = BASE_URL + href if href.startswith('/') else href
+    if listed_count is not None and len(all_articles) < listed_count:
+        print(f"  [WARN] {folder_name}: portal lists {listed_count} articles, found {len(all_articles)}")
     return folder_name, all_articles
 
 
